@@ -40,6 +40,23 @@ jobs:
       SITE_URL: ${{ vars.SITE_URL }}
       SITE_BASE_PATH: ${{ vars.SITE_BASE_PATH }}
       NEXT_TELEMETRY_DISABLED: "1"
+      EMAIL_DELIVERY_ENABLED: ${{ vars.EMAIL_DELIVERY_ENABLED }}
+      NEXT_PUBLIC_SUBSCRIPTION_EMAIL: ${{ vars.NEXT_PUBLIC_SUBSCRIPTION_EMAIL }}
+      SUBSCRIBER_ENCRYPTION_KEY: ${{ secrets.SUBSCRIBER_ENCRYPTION_KEY }}
+      SUBSCRIPTION_INBOX_IMAP_HOST: ${{ vars.SUBSCRIPTION_INBOX_IMAP_HOST }}
+      SUBSCRIPTION_INBOX_IMAP_PORT: ${{ vars.SUBSCRIPTION_INBOX_IMAP_PORT }}
+      SUBSCRIPTION_INBOX_USER: ${{ secrets.SUBSCRIPTION_INBOX_USER }}
+      SUBSCRIPTION_INBOX_PASSWORD: ${{ secrets.SUBSCRIPTION_INBOX_PASSWORD }}
+      TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+      TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+      TENCENT_SES_REGION: ${{ vars.TENCENT_SES_REGION }}
+      TENCENT_SES_FROM_EMAIL: ${{ vars.TENCENT_SES_FROM_EMAIL }}
+      TENCENT_SES_REPLY_TO: ${{ vars.TENCENT_SES_REPLY_TO }}
+      TENCENT_SES_DAILY_TEMPLATE_ID: ${{ vars.TENCENT_SES_DAILY_TEMPLATE_ID }}
+      TENCENT_SES_NOTICE_TEMPLATE_ID: ${{ vars.TENCENT_SES_NOTICE_TEMPLATE_ID }}
+      EMAIL_DAILY_SEND_LIMIT: ${{ vars.EMAIL_DAILY_SEND_LIMIT }}
+      EMAIL_SEND_DELAY_MS: ${{ vars.EMAIL_SEND_DELAY_MS }}
+      EMAIL_MONTHLY_COST_LIMIT_CNY: ${{ vars.EMAIL_MONTHLY_COST_LIMIT_CNY }}
 
     steps:
       - name: 读取仓库
@@ -60,7 +77,7 @@ jobs:
         run: node scripts/check-production-env.mjs
 
       - name: 运行核心测试
-        run: npm run test:literature
+        run: npm run test:literature && npm run test:email
 
       - name: 生成今日真实简报
         run: npm run literature:daily
@@ -77,6 +94,14 @@ jobs:
       - name: 扫描密钥和境外公共CDN依赖
         run: npm run security:scan
 
+      - name: 处理订阅确认和退订邮件
+        if: env.EMAIL_DELIVERY_ENABLED == 'true'
+        run: npm run email:process
+
+      - name: 向已确认订阅者发送今日简报
+        if: env.EMAIL_DELIVERY_ENABLED == 'true'
+        run: npm run email:send-daily
+
       - name: 写入安全任务摘要
         if: always()
         run: node scripts/write-actions-summary.mjs
@@ -85,7 +110,7 @@ jobs:
         run: |
           git config user.name "anesthesia-literature-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/generated data/state data/usage data/logs/latest-public-summary.json public/data public/rss.xml
+          git add data/generated data/state data/usage data/email data/logs/latest-public-summary.json data/logs/latest-email-summary.json public/data public/rss.xml
           if git diff --cached --quiet; then
             echo "同一天已发布或没有可提交的新内容。"
             exit 0

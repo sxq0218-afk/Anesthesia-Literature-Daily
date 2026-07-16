@@ -12,5 +12,6 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const publicSite = process.env.DEPLOY_ENV === "production";
-  return <html lang="zh-CN"><body><Header publicSite={publicSite} /><main>{children}</main><Footer publicSite={publicSite} /></body></html>;
+  const emailSubscription = Boolean(process.env.NEXT_PUBLIC_SUBSCRIPTION_EMAIL);
+  return <html lang="zh-CN"><body><Header publicSite={publicSite} emailSubscription={emailSubscription} /><main>{children}</main><Footer publicSite={publicSite} emailSubscription={emailSubscription} /></body></html>;
 }

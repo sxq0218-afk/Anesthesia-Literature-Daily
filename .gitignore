@@ -47,6 +47,7 @@ next-env.d.ts
 /data/ai/
 /data/logs/
 !/data/logs/latest-public-summary.json
+!/data/logs/latest-email-summary.json
 /data/runs/
 /data/generated/preview.json
 /screenshots/

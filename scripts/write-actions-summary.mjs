@@ -12,4 +12,10 @@ try {
   content += "- 本次任务未生成可发布摘要；请查看失败步骤。上一期网站不会被覆盖。\n";
 }
 content += "\n> 摘要不包含API Key、Authorization头或其他敏感配置。\n";
+try {
+  const email = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/logs/latest-email-summary.json"), "utf8"));
+  content += `\n## 邮件推送\n\n- 状态：${email.status}\n- 已发送：${email.sent}封\n- 失败：${email.failed}封\n- 预计费用：¥${email.estimatedCostCny}（未扣除免费额度）\n`;
+} catch {
+  content += "\n## 邮件推送\n\n- 未启用，或本次尚未生成发送摘要。\n";
+}
 fs.appendFileSync(summaryFile, content, "utf8");

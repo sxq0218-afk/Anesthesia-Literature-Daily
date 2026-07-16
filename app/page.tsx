@@ -5,6 +5,7 @@ import { articles, dailyRun, formatChineseDate, searchWindowText } from "./conte
 export default function Home() {
   const lead = articles[0];
   const editionDate = formatChineseDate(dailyRun.generatedAt);
+  const emailSubscription = Boolean(process.env.NEXT_PUBLIC_SUBSCRIPTION_EMAIL);
   return <>
     <section className="home-hero">
       <div className="shell hero-grid">
@@ -28,7 +29,7 @@ export default function Home() {
     </section>
 
     <section className="home-summary shell">
-      <div className="section-heading"><div><div className="eyebrow">TODAY'S BRIEFING</div><h2>今日精选 {articles.length} 篇</h2><p>{dailyRun.mode === "demo" ? "当前为第一阶段模拟数据" : `来自PubMed真实检索 · ${searchWindowText()}`}</p></div><Link href="/daily" className="text-link">查看完整简报 →</Link></div>
+      <div className="section-heading"><div><div className="eyebrow">TODAY&apos;S BRIEFING</div><h2>今日精选 {articles.length} 篇</h2><p>{dailyRun.mode === "demo" ? "当前为第一阶段模拟数据" : `来自PubMed真实检索 · ${searchWindowText()}`}</p></div><Link href="/daily" className="text-link">查看完整简报 →</Link></div>
       <div className="articles-stack">{articles.map((article, index) => <ArticleCard key={article.slug} article={article} featured={index === 0} />)}</div>
     </section>
 
@@ -39,6 +40,6 @@ export default function Home() {
       <div><b>04</b><h3>明天怎么用？</h3><p>把结论放回适用人群、风险边界与实际工作流程。</p></div>
     </div></div></section>
 
-    <section className="subscribe-band"><div className="shell subscribe-band-inner"><div><div className="eyebrow">RSS · OPEN STANDARD</div><h2>用 RSS 获取每日更新</h2><p>无需注册，不收集邮箱；在您自己的阅读器中查看最新简报。</p></div><div className="rss-actions"><a className="button primary" href="/rss.xml">打开 RSS 地址</a><Link className="button ghost" href="/rss">查看中文教程</Link></div></div></section>
+    {emailSubscription ? <section className="subscribe-band"><div className="shell subscribe-band-inner"><div><div className="eyebrow">EMAIL · DOUBLE OPT-IN</div><h2>每天自动送达您的邮箱</h2><p>订阅需要二次确认，可随时退订；也可以继续使用开放的 RSS。</p></div><div className="rss-actions"><Link className="button primary" href="/subscribe">邮件订阅</Link><Link className="button ghost" href="/rss">RSS订阅</Link></div></div></section> : <section className="subscribe-band"><div className="shell subscribe-band-inner"><div><div className="eyebrow">RSS · OPEN STANDARD</div><h2>用 RSS 获取每日更新</h2><p>邮件订阅尚未启用时，仍可在自己的阅读器中获取最新简报。</p></div><div className="rss-actions"><a className="button primary" href="/rss.xml">打开 RSS 地址</a><Link className="button ghost" href="/rss">查看中文教程</Link></div></div></section>}
   </>;
 }

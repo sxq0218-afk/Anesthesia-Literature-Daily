@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import type { Article } from "./data";
 
-export function Header({ publicSite = false }: { publicSite?: boolean }) {
+export function Header({ publicSite = false, emailSubscription = false }: { publicSite?: boolean; emailSubscription?: boolean }) {
   const [open, setOpen] = useState(false);
   return (
     <header className="site-header">
@@ -18,6 +18,7 @@ export function Header({ publicSite = false }: { publicSite?: boolean }) {
           <Link href="/daily" onClick={() => setOpen(false)}>今日简报</Link>
           <Link href="/archive" onClick={() => setOpen(false)}>往期简报</Link>
           <Link href="/rss" onClick={() => setOpen(false)}>RSS</Link>
+          {publicSite && emailSubscription && <Link href="/subscribe" onClick={() => setOpen(false)}>邮件订阅</Link>}
           <Link href="/about" onClick={() => setOpen(false)}>关于</Link>
           {!publicSite && <Link href="/admin/ai" onClick={() => setOpen(false)}>AI配置</Link>}
           {!publicSite && <Link href="/subscribe" className="nav-cta" onClick={() => setOpen(false)}>订阅原型</Link>}
@@ -27,12 +28,12 @@ export function Header({ publicSite = false }: { publicSite?: boolean }) {
   );
 }
 
-export function Footer({ publicSite = false }: { publicSite?: boolean }) {
+export function Footer({ publicSite = false, emailSubscription = false }: { publicSite?: boolean; emailSubscription?: boolean }) {
   return (
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div><div className="footer-brand">每日麻醉文献精读</div><p>让重要证据，更快抵达临床。</p></div>
-        <div className="footer-links"><Link href="/daily">今日简报</Link><Link href="/archive">往期简报</Link><Link href="/rss">RSS订阅</Link><Link href="/about">关于</Link><Link href="/privacy">隐私说明</Link>{!publicSite && <><Link href="/email-preview">邮件示例</Link><Link href="/admin/ai">AI模型配置</Link><Link href="/admin/ai-usage">AI使用统计</Link></>}</div>
+        <div className="footer-links"><Link href="/daily">今日简报</Link><Link href="/archive">往期简报</Link>{(!publicSite || emailSubscription) && <Link href="/subscribe">邮件订阅</Link>}<Link href="/rss">RSS订阅</Link><Link href="/about">关于</Link><Link href="/privacy">隐私说明</Link>{!publicSite && <><Link href="/email-preview">邮件示例</Link><Link href="/admin/ai">AI模型配置</Link><Link href="/admin/ai-usage">AI使用统计</Link></>}</div>
         <div className="footer-note">本项目内容仅供医学教育与学术交流，不能替代临床判断。</div>
       </div>
       <div className="shell copyright">© 2026 每日麻醉文献精读 · 真实文献测试站</div>
