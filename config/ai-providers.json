@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "providers": [
+    { "id": "deepseek", "name": "DeepSeek", "format": "openai-compatible", "defaultBaseUrl": "https://api.deepseek.com", "defaultModel": "deepseek-chat" },
+    { "id": "qwen", "name": "阿里通义千问 Qwen", "format": "openai-compatible", "defaultBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1", "defaultModel": "qwen-plus" },
+    { "id": "glm", "name": "智谱 GLM", "format": "openai-compatible", "defaultBaseUrl": "https://open.bigmodel.cn/api/paas/v4", "defaultModel": "glm-4-plus" },
+    { "id": "kimi", "name": "Kimi", "format": "openai-compatible", "defaultBaseUrl": "https://api.moonshot.cn/v1", "defaultModel": "moonshot-v1-32k" },
+    { "id": "minimax", "name": "MiniMax", "format": "openai-compatible", "defaultBaseUrl": "https://api.minimax.chat/v1", "defaultModel": "MiniMax-Text-01" },
+    { "id": "hunyuan", "name": "腾讯混元", "format": "openai-compatible", "defaultBaseUrl": "https://api.hunyuan.cloud.tencent.com/v1", "defaultModel": "hunyuan-turbos-latest" },
+    { "id": "openai", "name": "OpenAI", "format": "openai-compatible", "defaultBaseUrl": "https://api.openai.com/v1", "defaultModel": "gpt-4.1" },
+    { "id": "claude", "name": "Claude", "format": "anthropic", "defaultBaseUrl": "https://api.anthropic.com", "defaultModel": "claude-sonnet-4-20250514" },
+    { "id": "gemini", "name": "Gemini", "format": "gemini", "defaultBaseUrl": "https://generativelanguage.googleapis.com/v1beta", "defaultModel": "gemini-2.5-flash" }
+  ]
+}

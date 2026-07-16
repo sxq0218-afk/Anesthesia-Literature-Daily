@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-15T23:50:14.392Z",
+  "editions": [
+    {
+      "generatedAt": "2026-07-15T17:46:45.425Z",
+      "search": {
+        "initialDays": 1,
+        "actualDays": 7,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-07-08T17:46:45.425Z",
+        "to": "2026-07-15T17:46:45.425Z",
+        "candidateCount": 120,
+        "unseenCount": 119,
+        "duplicateCount": 1,
+        "priorityCandidateCount": 12,
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "priorityJournalTarget": 3,
+          "priorityJournalFirst": true,
+          "expandForCompositionShortfall": true,
+          "allowBackfill": true
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 2
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42359695",
+          "title": "健康志愿者在腋路臂丛神经阻滞前、中、后使用定量感觉测试评估阻滞后超敏反应",
+          "originalTitle": "Evaluation of Postblock Hypersensitivity Using Quantitative Sensory Testing before, during, and after Axillary Brachial Plexus Block Resolution in Healthy Volunteers.",
+          "journal": "Anesthesiology",
+          "conclusion": "多模式疼痛测试未发现单次腋路臂丛神经阻滞消退期间存在普遍的阻滞后超敏反应。",
+          "pmid": "42359695"
+        },
+        {
+          "slug": "pmid-42425142",
+          "title": "父系七氟烷暴露通过脑性类固醇介导的跨代性别特异性神经认知效应：大鼠研究",
+          "originalTitle": "Brain Sex Steroid-Mediated Intergenerational Sex-Specific Neurocognitive Effects of Paternal Sevoflurane Exposure in Rats.",
+          "journal": "Anesthesia and analgesia",
+          "conclusion": "父系七氟烷暴露通过应激和炎症编程增加子代雄性大鼠脑源性睾酮和雌二醇，导致神经发育异常，而围产期阻断雄激素或雌激素信号可改善这些异常。",
+          "pmid": "42425142"
+        },
+        {
+          "slug": "pmid-42446132",
+          "title": "奥利西定对全麻后Apfel评分分层高风险患者术后恶心呕吐发生率的影响：一项前瞻性随机对照临床研究",
+          "originalTitle": "Influence of Oliceridine on the Incidence of Postoperative Nausea and Vomiting in High-Risk Patients Stratified Using Apfel Score After General Anesthesia: A Prospective, Randomized Controlled Clinical Study.",
+          "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+          "conclusion": "在高风险患者中，奥利西定相比芬太尼显著降低了术后恶心和呕吐的发生率，且血流动力学稳定，术后恢复相当。",
+          "pmid": "42446132"
+        },
+        {
+          "slug": "pmid-42145111",
+          "title": "院外心脏骤停复苏：何时EtCO₂与自主循环恢复可靠相关？",
+          "originalTitle": "Resuscitation From Out-of-Hospital Cardiac Arrest: When Is EtCO(2) Reliably Associated With ROSC?",
+          "journal": "Circulation",
+          "conclusion": "在院外心脏骤停复苏中，根据目击状态和初始EtCO₂水平，需要7至21分钟的监测才能可靠区分上升与下降的EtCO₂轨迹，从而预测自主循环恢复。",
+          "pmid": "42145111"
+        },
+        {
+          "slug": "pmid-42443769",
+          "title": "复苏后院前紧急麻醉用于将声门上气道装置更换为气管插管——一项多中心观察性研究",
+          "originalTitle": "Post-resuscitation pre-hospital emergency anaesthesia for exchange of a supraglottic airway device with an endotracheal tube - a multicentre observational study.",
+          "journal": "BMC emergency medicine",
+          "conclusion": "在院外心脏骤停复苏后患者中，将声门上气道装置更换为气管插管时，使用或不使用院前紧急麻醉，其并发症发生率的统计学差异不显著。",
+          "pmid": "42443769"
+        }
+      ]
+    }
+  ]
+}

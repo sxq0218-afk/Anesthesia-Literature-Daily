@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "updatedAt": "2026-07-15T17:46:45.425Z",
+  "records": [
+    {
+      "pmid": "42359695",
+      "doi": "10.1097/aln.0000000000006082",
+      "title": "Evaluation of Postblock Hypersensitivity Using Quantitative Sensory Testing before, during, and after Axillary Brachial Plexus Block Resolution in Healthy Volunteers.",
+      "status": "published",
+      "runId": "2026-07-15T17-46-45.425Z",
+      "firstPublishedAt": "2026-07-15T17:46:45.425Z"
+    },
+    {
+      "pmid": "42425142",
+      "doi": "10.1213/ane.0000000000008197",
+      "title": "Brain Sex Steroid-Mediated Intergenerational Sex-Specific Neurocognitive Effects of Paternal Sevoflurane Exposure in Rats.",
+      "status": "published",
+      "runId": "2026-07-15T17-46-45.425Z",
+      "firstPublishedAt": "2026-07-15T17:46:45.425Z"
+    },
+    {
+      "pmid": "42446132",
+      "doi": "10.1080/08941939.2026.2698141",
+      "title": "Influence of Oliceridine on the Incidence of Postoperative Nausea and Vomiting in High-Risk Patients Stratified Using Apfel Score After General Anesthesia: A Prospective, Randomized Controlled Clinical Study.",
+      "status": "published",
+      "runId": "2026-07-15T17-46-45.425Z",
+      "firstPublishedAt": "2026-07-15T17:46:45.425Z"
+    },
+    {
+      "pmid": "42145111",
+      "doi": "10.1161/circulationaha.125.077980",
+      "title": "Resuscitation From Out-of-Hospital Cardiac Arrest: When Is EtCO(2) Reliably Associated With ROSC?",
+      "status": "published",
+      "runId": "2026-07-15T17-46-45.425Z",
+      "firstPublishedAt": "2026-07-15T17:46:45.425Z"
+    },
+    {
+      "pmid": "42443769",
+      "doi": "10.1186/s12873-026-01668-8",
+      "title": "Post-resuscitation pre-hospital emergency anaesthesia for exchange of a supraglottic airway device with an endotracheal tube - a multicentre observational study.",
+      "status": "published",
+      "runId": "2026-07-15T17-46-45.425Z",
+      "firstPublishedAt": "2026-07-15T17:46:45.425Z"
+    }
+  ]
+}

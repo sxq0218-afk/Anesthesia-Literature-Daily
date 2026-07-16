@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-16T00:07:45.062Z",
+  "records": [
+    {
+      "pmid": "42359695",
+      "doi": "10.1097/aln.0000000000006082",
+      "status": "validated",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:44:02.871Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-15T17:44:15.109Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-15T17:44:15.109Z",
+          "qualityPassed": true
+        }
+      ],
+      "runId": "2026-07-15T17-44-20.425Z"
+    },
+    {
+      "pmid": "42425142",
+      "doi": "10.1213/ane.0000000000008197",
+      "status": "failed",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:44:02.872Z"
+        },
+        {
+          "status": "failed",
+          "at": "2026-07-15T17:44:20.425Z",
+          "error": "Structured extraction failed deterministic checks: 原文材料中未找到数字：0.008, 0.027, 0.001"
+        }
+      ],
+      "runId": "2026-07-15T17-44-20.425Z"
+    },
+    {
+      "pmid": "42446132",
+      "doi": "10.1080/08941939.2026.2698141",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:44:02.872Z"
+        }
+      ],
+      "runId": "2026-07-15T17-44-20.425Z"
+    },
+    {
+      "pmid": "42145111",
+      "doi": "10.1161/circulationaha.125.077980",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:44:02.872Z"
+        }
+      ],
+      "runId": "2026-07-15T17-44-20.425Z"
+    },
+    {
+      "pmid": "42443769",
+      "doi": "10.1186/s12873-026-01668-8",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:44:02.872Z"
+        }
+      ],
+      "runId": "2026-07-15T17-44-20.425Z"
+    },
+    {
+      "pmid": "42359695",
+      "doi": "10.1097/aln.0000000000006082",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:45:29.527Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-15T17:45:42.637Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-15T17:45:42.638Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-15T17:46:45.425Z",
+          "runId": "2026-07-15T17-46-45.425Z"
+        }
+      ],
+      "runId": "2026-07-15T17-46-45.425Z"
+    },
+    {
+      "pmid": "42425142",
+      "doi": "10.1213/ane.0000000000008197",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:45:29.528Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-15T17:45:58.213Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-15T17:45:58.213Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-15T17:46:45.425Z",
+          "runId": "2026-07-15T17-46-45.425Z"
+        }
+      ],
+      "runId": "2026-07-15T17-46-45.425Z"
+    },
+    {
+      "pmid": "42446132",
+      "doi": "10.1080/08941939.2026.2698141",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:45:29.528Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-15T17:46:11.384Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-15T17:46:11.384Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-15T17:46:45.425Z",
+          "runId": "2026-07-15T17-46-45.425Z"
+        }
+      ],
+      "runId": "2026-07-15T17-46-45.425Z"
+    },
+    {
+      "pmid": "42145111",
+      "doi": "10.1161/circulationaha.125.077980",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:45:29.528Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-15T17:46:26.994Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-15T17:46:26.994Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-15T17:46:45.425Z",
+          "runId": "2026-07-15T17-46-45.425Z"
+        }
+      ],
+      "runId": "2026-07-15T17-46-45.425Z"
+    },
+    {
+      "pmid": "42443769",
+      "doi": "10.1186/s12873-026-01668-8",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:45:29.528Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-15T17:46:45.425Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-15T17:46:45.425Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-15T17:46:45.425Z",
+          "runId": "2026-07-15T17-46-45.425Z"
+        }
+      ],
+      "runId": "2026-07-15T17-46-45.425Z"
+    },
+    {
+      "pmid": "42442345",
+      "doi": "10.1213/ane.0000000000008199",
+      "status": "failed",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:50:58.964Z"
+        },
+        {
+          "status": "failed",
+          "at": "2026-07-15T17:50:59.171Z",
+          "error": "The supported API model names are deepseek-v4-pro or deepseek-v4-flash, but you passed invalid-acceptance-model."
+        }
+      ],
+      "runId": "2026-07-15T17-50-59.171Z"
+    },
+    {
+      "pmid": "42443078",
+      "doi": "10.13703/j.0255-2930.20250618-0003",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:50:58.964Z"
+        }
+      ],
+      "runId": "2026-07-15T17-50-59.171Z"
+    },
+    {
+      "pmid": "42447900",
+      "doi": "10.1055/a-2798-0277",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:50:58.964Z"
+        }
+      ],
+      "runId": "2026-07-15T17-50-59.171Z"
+    },
+    {
+      "pmid": "42449226",
+      "doi": "10.1186/s12871-026-04093-3",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:50:58.964Z"
+        }
+      ],
+      "runId": "2026-07-15T17-50-59.171Z"
+    },
+    {
+      "pmid": "42455132",
+      "doi": "10.61872/sdj-2026-02-07",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-15T17:50:58.964Z"
+        }
+      ],
+      "runId": "2026-07-15T17-50-59.171Z"
+    },
+    {
+      "pmid": "42359695",
+      "doi": "10.1097/aln.0000000000006082",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-16T00:07:45.057Z"
+        }
+      ],
+      "runId": "2026-07-16T00-07-45.059Z"
+    },
+    {
+      "pmid": "42425142",
+      "doi": "10.1213/ane.0000000000008197",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-16T00:07:45.057Z"
+        }
+      ],
+      "runId": "2026-07-16T00-07-45.059Z"
+    },
+    {
+      "pmid": "42446132",
+      "doi": "10.1080/08941939.2026.2698141",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-16T00:07:45.057Z"
+        }
+      ],
+      "runId": "2026-07-16T00-07-45.059Z"
+    },
+    {
+      "pmid": "42145111",
+      "doi": "10.1161/circulationaha.125.077980",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-16T00:07:45.057Z"
+        }
+      ],
+      "runId": "2026-07-16T00-07-45.059Z"
+    },
+    {
+      "pmid": "42443769",
+      "doi": "10.1186/s12873-026-01668-8",
+      "status": "candidate",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-16T00:07:45.057Z"
+        }
+      ],
+      "runId": "2026-07-16T00-07-45.059Z"
+    }
+  ]
+}

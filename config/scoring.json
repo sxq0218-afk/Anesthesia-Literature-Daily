@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "weights": {
+    "relevance": 30,
+    "evidenceQuality": 25,
+    "clinicalImpact": 20,
+    "journalQuality": 15,
+    "novelty": 10
+  },
+  "evidenceTypeScores": {
+    "Practice Guideline": 25,
+    "Guideline": 25,
+    "Consensus Development Conference": 24,
+    "Systematic Review": 23,
+    "Meta-Analysis": 23,
+    "Randomized Controlled Trial": 22,
+    "Clinical Trial": 19,
+    "Multicenter Study": 18,
+    "Observational Study": 14,
+    "Cohort Study": 14,
+    "Comparative Study": 13,
+    "Review": 12,
+    "Case Reports": 5
+  },
+  "titleSimilarityThreshold": 0.88,
+  "candidateLimit": 120,
+  "dailyLimit": 5,
+  "minimumSelectionScore": 45,
+  "initialWindowDays": 1,
+  "expandedWindowDays": 7,
+  "selectionPolicy": {
+    "clinicalTarget": 4,
+    "basicTarget": 1,
+    "priorityJournalTarget": 3,
+    "priorityJournalFirst": true,
+    "expandForCompositionShortfall": true,
+    "allowBackfill": true
+  }
+}

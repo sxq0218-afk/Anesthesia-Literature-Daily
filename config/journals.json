@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "tiers": [
+    {
+      "id": "general_top",
+      "label": "综合医学顶刊",
+      "score": 15,
+      "journals": ["New England Journal of Medicine", "The New England Journal of Medicine", "The Lancet", "Lancet", "JAMA", "BMJ", "The BMJ", "Nature Medicine", "JAMA Network Open"]
+    },
+    {
+      "id": "anesthesia_core",
+      "label": "麻醉及围术期核心期刊",
+      "score": 15,
+      "journals": ["British Journal of Anaesthesia", "Anesthesiology", "Anaesthesia", "Anesthesia and Analgesia", "Anesthesia & Analgesia", "Regional Anesthesia and Pain Medicine", "European Journal of Anaesthesiology", "Canadian Journal of Anaesthesia", "Canadian Journal of Anesthesia", "Journal of Clinical Anesthesia", "Pain", "The Journal of Pain", "Pain Medicine", "Critical Care", "Intensive Care Medicine"]
+    }
+  ],
+  "defaultScore": 6
+}

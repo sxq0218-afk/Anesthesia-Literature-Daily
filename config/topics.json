@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "anesthesiology",
+      "label": "麻醉学",
+      "weight": 1.0,
+      "terms": ["anesthesia", "anesthesiology", "perioperative medicine", "intraoperative management", "anesthesia safety"]
+    },
+    {
+      "id": "airway",
+      "label": "气道管理",
+      "weight": 1.0,
+      "terms": ["airway management", "difficult airway", "intubation", "endotracheal intubation", "airway complications", "arytenoid dislocation"]
+    },
+    {
+      "id": "geriatric",
+      "label": "老年围术期",
+      "weight": 1.0,
+      "terms": ["postoperative delirium", "postoperative cognitive decline", "perioperative neurocognitive disorders", "elderly anesthesia"]
+    },
+    {
+      "id": "pain",
+      "label": "疼痛与区域麻醉",
+      "weight": 0.95,
+      "terms": ["acute pain", "postoperative analgesia", "regional anesthesia", "nerve block"]
+    },
+    {
+      "id": "other",
+      "label": "麻醉相关领域",
+      "weight": 0.85,
+      "terms": ["obstetric anesthesia", "pediatric anesthesia", "hemodynamic management", "anesthesia pharmacology", "critical care anesthesia"]
+    },
+    {
+      "id": "basic_science",
+      "label": "麻醉基础研究",
+      "weight": 0.9,
+      "terms": ["anesthetic mechanism", "anesthetic neurotoxicity", "volatile anesthetic", "sevoflurane", "isoflurane", "propofol", "ketamine", "local anesthetic toxicity", "nociception", "pain mechanism"]
+    }
+  ]
+}

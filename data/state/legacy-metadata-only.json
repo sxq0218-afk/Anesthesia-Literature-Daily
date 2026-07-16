@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "migratedAt": "2026-07-15T17:40:04.737Z",
+  "records": [
+    {
+      "pmid": "42447073",
+      "doi": "10.12659/msm.951765",
+      "title": "Clinical Use of Endotracheal Intubation Without Neuromuscular Blockade: The Current Stage of Knowledge.",
+      "firstPublishedAt": "2026-07-15T15:58:16.223Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T15-58-16.223Z.json",
+        "2026-07-15T15-59-40.167Z.json",
+        "2026-07-15T16-41-23.612Z.json"
+      ]
+    },
+    {
+      "pmid": "42446132",
+      "doi": "10.1080/08941939.2026.2698141",
+      "title": "Influence of Oliceridine on the Incidence of Postoperative Nausea and Vomiting in High-Risk Patients Stratified Using Apfel Score After General Anesthesia: A Prospective, Randomized Controlled Clinical Study.",
+      "firstPublishedAt": "2026-07-15T15:58:16.223Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T15-58-16.223Z.json",
+        "2026-07-15T15-59-40.167Z.json",
+        "2026-07-15T16-41-23.612Z.json",
+        "2026-07-15T16-42-28.715Z.json",
+        "2026-07-15T16-43-28.691Z.json",
+        "2026-07-15T16-44-58.432Z.json",
+        "2026-07-15T17-10-29.836Z.json"
+      ]
+    },
+    {
+      "pmid": "42145111",
+      "doi": "10.1161/circulationaha.125.077980",
+      "title": "Resuscitation From Out-of-Hospital Cardiac Arrest: When Is EtCO(2) Reliably Associated With ROSC?",
+      "firstPublishedAt": "2026-07-15T15:58:16.223Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T15-58-16.223Z.json",
+        "2026-07-15T15-59-40.167Z.json",
+        "2026-07-15T16-42-28.715Z.json",
+        "2026-07-15T16-43-28.691Z.json",
+        "2026-07-15T16-44-58.432Z.json",
+        "2026-07-15T17-10-29.836Z.json"
+      ]
+    },
+    {
+      "pmid": "42385724",
+      "doi": "10.1213/ane.0000000000008186",
+      "title": "State of Medical Education Research in Anesthesiology: Current Landscape and Future Directions-An Initiative of the Anesthesia Research Council.",
+      "firstPublishedAt": "2026-07-15T15:58:16.223Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T15-58-16.223Z.json",
+        "2026-07-15T15-59-40.167Z.json",
+        "2026-07-15T16-41-23.612Z.json"
+      ]
+    },
+    {
+      "pmid": "41990975",
+      "doi": "10.1016/j.ijcard.2026.134496",
+      "title": "Effect of ventricular wall dyskinesia mode in Neurogenic Stress Cardiomyopathy (NSC) on clinical hemodynamic management.",
+      "firstPublishedAt": "2026-07-15T15:58:16.223Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T15-58-16.223Z.json",
+        "2026-07-15T15-59-40.167Z.json"
+      ]
+    },
+    {
+      "pmid": "42448428",
+      "doi": "10.1136/bmjment-2026-302665",
+      "title": "Suicide among older adults in Ireland: a national case series of coronial data, 2015-2020.",
+      "firstPublishedAt": "2026-07-15T16:40:08.086Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-40-08.086Z.json"
+      ]
+    },
+    {
+      "pmid": "42449228",
+      "doi": "10.1186/s12871-026-04081-7",
+      "title": "Efficacy of opioid-free versus opioid-inclusive anesthesia on postoperative nausea, vomiting, and quality of recovery in patients undergoing video-assisted thoracoscopic surgery: a systematic review and meta-analysis.",
+      "firstPublishedAt": "2026-07-15T16:40:08.086Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-40-08.086Z.json"
+      ]
+    },
+    {
+      "pmid": "42359695",
+      "doi": "10.1097/aln.0000000000006082",
+      "title": "Evaluation of Postblock Hypersensitivity Using Quantitative Sensory Testing before, during, and after Axillary Brachial Plexus Block Resolution in Healthy Volunteers.",
+      "firstPublishedAt": "2026-07-15T16:40:08.086Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-40-08.086Z.json",
+        "2026-07-15T16-41-23.612Z.json",
+        "2026-07-15T16-42-28.715Z.json",
+        "2026-07-15T16-43-28.691Z.json",
+        "2026-07-15T16-44-58.432Z.json",
+        "2026-07-15T17-10-29.836Z.json"
+      ]
+    },
+    {
+      "pmid": "42449226",
+      "doi": "10.1186/s12871-026-04093-3",
+      "title": "Expert perspectives on the requirements for implementing prehospital peripheral nerve blocks: a survey among members of the European Society of Regional Anaesthesia (ESRA).",
+      "firstPublishedAt": "2026-07-15T16:40:08.086Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-40-08.086Z.json"
+      ]
+    },
+    {
+      "pmid": "42454385",
+      "doi": "10.1080/0361073x.2026.2703924",
+      "title": "Protective Effects of Amantadine Against Propofol-Associated Spatial Memory Impairment in Aged Mice.",
+      "firstPublishedAt": "2026-07-15T16:40:08.086Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-40-08.086Z.json",
+        "2026-07-15T16-41-23.612Z.json",
+        "2026-07-15T16-42-28.715Z.json"
+      ]
+    },
+    {
+      "pmid": "42447900",
+      "doi": "10.1055/a-2798-0277",
+      "title": "Risk Factors for Early Postoperative Cognitive Dysfunction in Aortic Arch Replacement.",
+      "firstPublishedAt": "2026-07-15T16:42:28.715Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-42-28.715Z.json"
+      ]
+    },
+    {
+      "pmid": "42433169",
+      "doi": "10.1080/07853890.2026.2700794",
+      "title": "Effects of intraoperative low-dose remimazolam maintenance on emergence agitation and emergence time in patients undergoing oral surgery: protocol for a randomized controlled trial.",
+      "firstPublishedAt": "2026-07-15T16:43:28.691Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-43-28.691Z.json"
+      ]
+    },
+    {
+      "pmid": "42442486",
+      "doi": "10.1016/j.jneumeth.2026.110860",
+      "title": "A Novel Carotid Artery Catheterization Device for Intracranial Drug Delivery in Rats and Mice.",
+      "firstPublishedAt": "2026-07-15T16:43:28.691Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-43-28.691Z.json"
+      ]
+    },
+    {
+      "pmid": "42425142",
+      "doi": "10.1213/ane.0000000000008197",
+      "title": "Brain Sex Steroid-Mediated Intergenerational Sex-Specific Neurocognitive Effects of Paternal Sevoflurane Exposure in Rats.",
+      "firstPublishedAt": "2026-07-15T16:44:58.432Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-44-58.432Z.json",
+        "2026-07-15T17-10-29.836Z.json"
+      ]
+    },
+    {
+      "pmid": "42443769",
+      "doi": "10.1186/s12873-026-01668-8",
+      "title": "Post-resuscitation pre-hospital emergency anaesthesia for exchange of a supraglottic airway device with an endotracheal tube - a multicentre observational study.",
+      "firstPublishedAt": "2026-07-15T16:44:58.432Z",
+      "status": "candidate",
+      "migratedAt": "2026-07-15T17:40:04.737Z",
+      "reason": "metadata-only run without completed AI validation",
+      "sourceRuns": [
+        "2026-07-15T16-44-58.432Z.json",
+        "2026-07-15T17-10-29.836Z.json"
+      ]
+    }
+  ]
+}

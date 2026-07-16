@@ -1,0 +1,15 @@
+{
+  "platform": "Tencent Cloud EdgeOne Makers",
+  "plan": "Free",
+  "deploymentMethod": "Git repository auto deployment",
+  "productionBranch": "main",
+  "rootDirectory": "/",
+  "nodeVersion": "22.17.1",
+  "installCommand": "npm ci --ignore-scripts",
+  "buildCommand": "npm run build:edgeone",
+  "outputDirectory": "out",
+  "basePath": "",
+  "customDomain": false,
+  "paidAddOns": false,
+  "notes": "Reference configuration for the EdgeOne console; this file contains no credential."
+}

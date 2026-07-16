@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "currency": "CNY",
+  "unit": "per_million_tokens",
+  "notice": "仅用于预算估算。供应商价格变动后请在本文件中更新。",
+  "models": [
+    { "provider": "deepseek", "model": "deepseek-chat", "input": 2.0, "output": 8.0 },
+    { "provider": "deepseek", "model": "deepseek-v4-flash", "input": 2.0, "output": 8.0 },
+    { "provider": "qwen", "model": "qwen-plus", "input": 0.8, "output": 2.0 },
+    { "provider": "glm", "model": "glm-4-plus", "input": 5.0, "output": 5.0 },
+    { "provider": "kimi", "model": "moonshot-v1-32k", "input": 5.0, "output": 5.0 },
+    { "provider": "minimax", "model": "MiniMax-Text-01", "input": 1.0, "output": 8.0 },
+    { "provider": "hunyuan", "model": "hunyuan-turbos-latest", "input": 2.4, "output": 9.6 },
+    { "provider": "openai", "model": "gpt-4.1", "input": 14.5, "output": 58.0 },
+    { "provider": "claude", "model": "claude-sonnet-4-20250514", "input": 21.75, "output": 108.75 },
+    { "provider": "gemini", "model": "gemini-2.5-flash", "input": 2.2, "output": 18.0 }
+  ],
+  "fallback": { "input": 0, "output": 0 }
+}

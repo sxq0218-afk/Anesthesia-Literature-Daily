@@ -1,0 +1,688 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-15T23:50:14.392Z",
+  "editions": [
+    {
+      "generatedAt": "2026-07-15T17:46:45.425Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 1,
+        "actualDays": 7,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-07-08T17:46:45.425Z",
+        "to": "2026-07-15T17:46:45.425Z",
+        "candidateCount": 120,
+        "unseenCount": 119,
+        "duplicateCount": 1,
+        "priorityCandidateCount": 12,
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "priorityJournalTarget": 3,
+          "priorityJournalFirst": true,
+          "expandForCompositionShortfall": true,
+          "allowBackfill": true
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 2
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "promptTokens": 41171,
+          "completionTokens": 8929,
+          "totalTokens": 50100
+        },
+        "configuredModel": "deepseek-chat"
+      },
+      "articles": [
+        {
+          "slug": "pmid-42359695",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-07-14",
+          "readingTime": "7 分钟",
+          "title": "健康志愿者在腋路臂丛神经阻滞前、中、后使用定量感觉测试评估阻滞后超敏反应",
+          "originalTitle": "Evaluation of Postblock Hypersensitivity Using Quantitative Sensory Testing before, during, and after Axillary Brachial Plexus Block Resolution in Healthy Volunteers.",
+          "authors": "Chen YK, Wilson JM, Collins PW, Gokul SR, Lirk P, Schreiber KL",
+          "citation": "Anesthesiology. 2026 Aug 1;145(2):322-332. doi: 10.1097/ALN.0000000000006082. Epub 2026 Jul 14.",
+          "doi": "10.1097/aln.0000000000006082",
+          "pmid": "42359695",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "该研究有助于区分术后反弹痛是单纯由未处理的残余手术痛暴露引起，还是区域麻醉导致痛阈重置而产生新的痛觉过敏状态。",
+          "conclusion": "多模式疼痛测试未发现单次腋路臂丛神经阻滞消退期间存在普遍的阻滞后超敏反应。",
+          "clinical": "单次腋路臂丛神经阻滞消退后未观察到普遍的痛觉过敏，提示反弹痛可能主要源于手术痛暴露而非阻滞本身引起的超敏状态。 临床中处理反弹痛时应优先考虑充分镇痛残余手术痛，而非针对区域麻醉导致的痛觉过敏。",
+          "evidence": "中等",
+          "score": 59,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "随机对照试验"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Healthy volunteers；40"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Single-injection axillary brachial plexus block using 15 cc mepivacaine 1.5%；对照：Contralateral unblocked arm"
+            },
+            {
+              "label": "主要终点",
+              "value": "Heat pain threshold to 1 of 10 pain at 60 min after motor resolution"
+            }
+          ],
+          "keyPoints": [
+            "健康志愿者中，单次腋路臂丛神经阻滞消退后60分钟，阻滞手臂与对照手臂的1/10热痛阈值无显著差异。",
+            "多模式疼痛测试未发现普遍的阻滞后超敏反应。",
+            "对照手臂在某些模态（点状痛阈和疼痛后感觉）中表现出更高的敏感性。"
+          ],
+          "methods": "神经阻滞消退后疼痛急剧增加（反弹痛）的问题日益受到关注。目前尚不清楚反弹痛是否仅仅反映未处理的残余手术痛暴露，还是代表区域麻醉导致痛阈重置而产生的新的痛觉过敏状态。本研究在健康志愿者中评估单次腋路臂丛神经阻滞后的伤害性处理，以检测先前阻滞的手臂在无手术痛情况下是否表现出客观的超敏反应。",
+          "results": "运动恢复后60分钟，阻滞手臂与对照手臂的1/10热痛阈值无显著差异（阻滞：40.8°C ± 2.2°C；对照：41.2°C ± 2.6°C；P = 0.160）。其他感觉模态测试仅发现阻滞手臂达到5/10热痛的温度略低于对照手臂。在包括运动恢复后3小时的最大敏化值分析中，对照手臂在某些模态（点状痛阈和疼痛后感觉）中表现出更高的敏感性，但在其他模态（热痛和压力痛阈及耐受、疼痛时间总和）中无差异。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "单次腋路臂丛神经阻滞消退后未观察到普遍的痛觉过敏，提示反弹痛可能主要源于手术痛暴露而非阻滞本身引起的超敏状态。",
+            "临床中处理反弹痛时应优先考虑充分镇痛残余手术痛，而非针对区域麻醉导致的痛觉过敏。"
+          ],
+          "editor": "结论基于客观定量感觉测试数据，且主要结局无统计学差异，支持结论的可靠性。 过度解读风险：低。结论与结果一致，未过度外推。",
+          "whyItMatters": "该研究有助于区分术后反弹痛是单纯由未处理的残余手术痛暴露引起，还是区域麻醉导致痛阈重置而产生新的痛觉过敏状态。",
+          "background": "神经阻滞消退后疼痛急剧增加（反弹痛）的问题日益受到关注。目前尚不清楚反弹痛是否仅仅反映未处理的残余手术痛暴露，还是代表区域麻醉导致痛阈重置而产生的新的痛觉过敏状态。本研究在健康志愿者中评估单次腋路臂丛神经阻滞后的伤害性处理，以检测先前阻滞的手臂在无手术痛情况下是否表现出客观的超敏反应。",
+          "pico": {
+            "population": "Healthy volunteers",
+            "intervention": "Single-injection axillary brachial plexus block using 15 cc mepivacaine 1.5%",
+            "comparison": "Contralateral unblocked arm",
+            "outcome": "Heat pain threshold to 1 of 10 pain at 60 min after motor resolution"
+          },
+          "studyType": "随机对照试验",
+          "sampleSize": "40",
+          "primaryOutcome": "Heat pain threshold to 1 of 10 pain at 60 min after motor resolution",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.160"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "结论基于客观定量感觉测试数据，且主要结局无统计学差异，支持结论的可靠性。",
+            "overinterpretationRisk": "低。结论与结果一致，未过度外推。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42359695/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006082",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006082",
+            "openFullText": null
+          },
+          "electronicPublicationDate": "2026-07-14"
+        },
+        {
+          "slug": "pmid-42425142",
+          "number": "02",
+          "category": "麻醉基础研究",
+          "journal": "Anesthesia and analgesia",
+          "year": "2026",
+          "publishedDate": "2026-07-09",
+          "readingTime": "8 分钟",
+          "title": "父系七氟烷暴露通过脑性类固醇介导的跨代性别特异性神经认知效应：大鼠研究",
+          "originalTitle": "Brain Sex Steroid-Mediated Intergenerational Sex-Specific Neurocognitive Effects of Paternal Sevoflurane Exposure in Rats.",
+          "authors": "Ju LS, Khan ZA, Gravenstein N, Setlow B, Martynyuk AE",
+          "citation": "Anesth Analg. 2026 Jul 9. doi: 10.1213/ANE.0000000000008197.",
+          "doi": "10.1213/ane.0000000000008197",
+          "pmid": "42425142",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究揭示了父系麻醉暴露可能通过非遗传机制影响子代神经发育的性别特异性机制，为理解神经发育障碍的男性偏倚提供了新视角。",
+          "conclusion": "父系七氟烷暴露通过应激和炎症编程增加子代雄性大鼠脑源性睾酮和雌二醇，导致神经发育异常，而围产期阻断雄激素或雌激素信号可改善这些异常。",
+          "clinical": "父系七氟烷暴露可能通过非遗传机制影响子代神经发育，提示麻醉管理需考虑对生殖健康的潜在跨代影响。 围产期干预（如抗雄激素或抗雌激素药物）可能逆转部分异常，但临床转化需谨慎。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验性研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Sprague-Dawley rats (F0 males and F1 offspring)；F1 males: n=18/group for pharmacological intervention; n=6-8/group for molecular measures"
+            },
+            {
+              "label": "干预与比较",
+              "value": "F0 males exposed to 2.1% sevoflurane for 3 hours on P56, 58, 60; subsets pretreated with bumetanide or RU486. F1 males received perinatal flutamide, formestane, MPP, or PHTPP.；对照：F1 males from control sires (F1M_C) vs sevoflurane-exposed sires (F1M_S) vs sires pretreated with bumetanide (F1M_BS) or RU486 (F1M_RS)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Hippocampal sex steroid concentrations and mRNA expression of enzymes and receptors involved in brain masculinization"
+            }
+          ],
+          "keyPoints": [
+            "父系七氟烷暴露增加子代雄性大鼠海马睾酮和雌二醇水平。",
+            "海马睾酮和雌二醇合成酶mRNA表达上调。",
+            "围产期阻断雄激素或雌激素信号可改善神经行为异常。",
+            "父系预处理（布美他尼或RU486）可预防子代性类固醇变化。"
+          ],
+          "methods": "许多神经发育障碍在男性中更常见，但其生物学基础尚不清楚。既往研究发现，雄性大鼠在交配前暴露于七氟烷会诱导持续的应激和炎症信号失调，其子代（几乎均为雄性）出现神经行为异常，且父系预处理可预防这些效应。本研究进一步探讨了围产期关键期脑雄性化过程中性激素失调的作用。",
+          "results": "与F1M_C相比，P0 F1M_S海马睾酮（均值±标准误：1.979±0.527 vs 0.524±0.122 ng/mg；P=0.008）和雌二醇水平（10.997±3.756 vs 2.793±0.719 ng/mg；P=0.027）升高。海马17β-羟基类固醇脱氢酶（1.629±0.135 vs 1.000±0.066；P=0.001）和芳香化酶（1.617±0.093 vs 1.000±0.070；P=0.001）mRNA表达增加。血清睾酮及海马Ar、Eralpha、Erbeta mRNA无变化。F1M_BS和F1M_RS与F1M_C无差异。围产期氟他胺降低应激和神经炎症标志物，改善社交、焦虑样行为、感觉运动门控和空间记忆。福美坦使炎症和行为异常正常化；MPP改善社交和空间记忆；PHTPP仅改善空间记忆。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "父系七氟烷暴露可能通过非遗传机制影响子代神经发育，提示麻醉管理需考虑对生殖健康的潜在跨代影响。",
+            "围产期干预（如抗雄激素或抗雌激素药物）可能逆转部分异常，但临床转化需谨慎。"
+          ],
+          "editor": "结果基于大鼠实验，样本量明确，效应量及P值报告完整，结论与数据一致。 过度解读风险：低风险：结论未超出数据范围，但需注意动物实验向临床的转化限制。",
+          "whyItMatters": "该研究揭示了父系麻醉暴露可能通过非遗传机制影响子代神经发育的性别特异性机制，为理解神经发育障碍的男性偏倚提供了新视角。",
+          "background": "许多神经发育障碍在男性中更常见，但其生物学基础尚不清楚。既往研究发现，雄性大鼠在交配前暴露于七氟烷会诱导持续的应激和炎症信号失调，其子代（几乎均为雄性）出现神经行为异常，且父系预处理可预防这些效应。本研究进一步探讨了围产期关键期脑雄性化过程中性激素失调的作用。",
+          "pico": {
+            "population": "Sprague-Dawley rats (F0 males and F1 offspring)",
+            "intervention": "F0 males exposed to 2.1% sevoflurane for 3 hours on P56, 58, 60; subsets pretreated with bumetanide or RU486. F1 males received perinatal flutamide, formestane, MPP, or PHTPP.",
+            "comparison": "F1 males from control sires (F1M_C) vs sevoflurane-exposed sires (F1M_S) vs sires pretreated with bumetanide (F1M_BS) or RU486 (F1M_RS)",
+            "outcome": "Hippocampal sex steroid concentrations and mRNA expression of enzymes and receptors involved in brain masculinization"
+          },
+          "studyType": "实验性研究",
+          "sampleSize": "F1 males: n=18/group for pharmacological intervention; n=6-8/group for molecular measures",
+          "primaryOutcome": "Hippocampal sex steroid concentrations and mRNA expression of enzymes and receptors involved in brain masculinization",
+          "effectSize": [
+            "1.979±0.527 vs 0.524±0.122 ng/mg",
+            "10.997±3.756 vs 2.793±0.719 ng/mg",
+            "1.629±0.135 vs 1.000±0.066",
+            "1.617±0.093 vs 1.000±0.070"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.008",
+            "0.027",
+            "0.001",
+            "0.001"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "结果基于大鼠实验，样本量明确，效应量及P值报告完整，结论与数据一致。",
+            "overinterpretationRisk": "低风险：结论未超出数据范围，但需注意动物实验向临床的转化限制。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42425142/",
+            "doi": "https://doi.org/10.1213/ane.0000000000008197",
+            "publisher": "https://doi.org/10.1213/ane.0000000000008197",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42446132",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+          "year": "2026",
+          "publishedDate": "2026-07-14",
+          "readingTime": "6 分钟",
+          "title": "奥利西定对全麻后Apfel评分分层高风险患者术后恶心呕吐发生率的影响：一项前瞻性随机对照临床研究",
+          "originalTitle": "Influence of Oliceridine on the Incidence of Postoperative Nausea and Vomiting in High-Risk Patients Stratified Using Apfel Score After General Anesthesia: A Prospective, Randomized Controlled Clinical Study.",
+          "authors": "Heng X, Xu A, Xiong Y, Ding R, Zhao J",
+          "citation": "J Invest Surg. 2026 Dec;39(1):2698141. doi: 10.1080/08941939.2026.2698141. Epub 2026 Jul 14.",
+          "doi": "10.1080/08941939.2026.2698141",
+          "pmid": "42446132",
+          "pmcid": null,
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Informa UK Limited",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "other",
+            "label": "其他同行评议期刊",
+            "priorityRank": 0
+          },
+          "tags": [
+            "临床研究",
+            "麻醉学",
+            "疼痛与区域麻醉",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "术后恶心呕吐是全麻后常见并发症，尤其在高风险患者中影响恢复和满意度。本研究评估了一种新型G蛋白偏向性μ阿片受体激动剂奥利西定在降低PONV方面的潜力，为临床镇痛方案选择提供了新证据。",
+          "conclusion": "在高风险患者中，奥利西定相比芬太尼显著降低了术后恶心和呕吐的发生率，且血流动力学稳定，术后恢复相当。",
+          "clinical": "奥利西定可作为高风险患者全麻中减少PONV的替代阿片类药物。 奥利西定在麻醉诱导和维持期间提供良好的镇痛效果，同时降低PONV风险。 使用奥利西定可能减少术后止吐药物的需求。",
+          "evidence": "中等",
+          "score": 67,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 22,
+            "clinicalImpact": 15,
+            "journalQuality": 6,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性、双盲、随机对照研究，共纳入280例患者，按1:1随机分配至奥利西定组或芬太尼组，最终分析279例。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "High-risk patients (stratified using Apfel score) undergoing general anesthesia with transversus abdominis plane block (TAP) for laparoscopic cholecystectomy or laparoscopic gynecological surgery；280 patients enrolled, 279 analyzed"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Oliceridine；对照：Fentanyl"
+            },
+            {
+              "label": "主要终点",
+              "value": "Rate of nausea and vomiting on postoperative day 2"
+            }
+          ],
+          "keyPoints": [
+            "奥利西定组术后恶心发生率12.9%，呕吐发生率6.5%，均显著低于芬太尼组。",
+            "奥利西定组术后恶心VAS评分和补救性止吐药使用率均显著降低。",
+            "两组血流动力学稳定，术后恢复无显著差异。",
+            "研究为高风险患者全麻镇痛提供了新的选择。"
+          ],
+          "methods": "术后恶心呕吐是全麻手术的典型并发症，降低术后满意度和恢复质量。奥利西定是一种新型G蛋白偏向性μ阿片受体激动剂，可能减少阿片类药物相关的恶心呕吐。本研究旨在比较奥利西定与芬太尼对接受全麻联合腹横肌平面阻滞的高风险患者PONV的影响。",
+          "results": "奥利西定组术后恶心发生率显著低于芬太尼组（12.9% vs 26.4%，p=0.005），呕吐发生率也显著降低（6.5% vs 24.3%，p<0.001）。术后恶心VAS评分奥利西定组更低（1.40±1.31 vs 2.01±1.79，p=0.013），补救性止吐药使用率更低（7.2% vs 17.1%，p=0.011）。两组血流动力学稳定，术后恢复情况相当。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "奥利西定可作为高风险患者全麻中减少PONV的替代阿片类药物。",
+            "奥利西定在麻醉诱导和维持期间提供良好的镇痛效果，同时降低PONV风险。",
+            "使用奥利西定可能减少术后止吐药物的需求。"
+          ],
+          "editor": "该研究为前瞻性随机对照试验，设计严谨，结果明确显示奥利西定在降低PONV方面的优势，且P值显著。 过度解读风险：中等。研究结论基于单中心数据，样本量有限，且未提供效应量和置信区间，需谨慎外推。",
+          "whyItMatters": "术后恶心呕吐是全麻后常见并发症，尤其在高风险患者中影响恢复和满意度。本研究评估了一种新型G蛋白偏向性μ阿片受体激动剂奥利西定在降低PONV方面的潜力，为临床镇痛方案选择提供了新证据。",
+          "background": "术后恶心呕吐是全麻手术的典型并发症，降低术后满意度和恢复质量。奥利西定是一种新型G蛋白偏向性μ阿片受体激动剂，可能减少阿片类药物相关的恶心呕吐。本研究旨在比较奥利西定与芬太尼对接受全麻联合腹横肌平面阻滞的高风险患者PONV的影响。",
+          "pico": {
+            "population": "High-risk patients (stratified using Apfel score) undergoing general anesthesia with transversus abdominis plane block (TAP) for laparoscopic cholecystectomy or laparoscopic gynecological surgery",
+            "intervention": "Oliceridine",
+            "comparison": "Fentanyl",
+            "outcome": "Rate of nausea and vomiting on postoperative day 2"
+          },
+          "studyType": "前瞻性、双盲、随机对照研究，共纳入280例患者，按1:1随机分配至奥利西定组或芬太尼组，最终分析279例。",
+          "sampleSize": "280 patients enrolled, 279 analyzed",
+          "primaryOutcome": "Rate of nausea and vomiting on postoperative day 2",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.005",
+            "<0.001",
+            "0.013",
+            "0.011"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究为前瞻性随机对照试验，设计严谨，结果明确显示奥利西定在降低PONV方面的优势，且P值显著。",
+            "overinterpretationRisk": "中等。研究结论基于单中心数据，样本量有限，且未提供效应量和置信区间，需谨慎外推。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42446132/",
+            "doi": "https://doi.org/10.1080/08941939.2026.2698141",
+            "publisher": "https://doi.org/10.1080/08941939.2026.2698141",
+            "openFullText": null
+          },
+          "electronicPublicationDate": "2026-07-14"
+        },
+        {
+          "slug": "pmid-42145111",
+          "number": "04",
+          "category": "气道管理",
+          "journal": "Circulation",
+          "year": "2026",
+          "publishedDate": "2026-07-14",
+          "readingTime": "7 分钟",
+          "title": "院外心脏骤停复苏：何时EtCO₂与自主循环恢复可靠相关？",
+          "originalTitle": "Resuscitation From Out-of-Hospital Cardiac Arrest: When Is EtCO(2) Reliably Associated With ROSC?",
+          "authors": "Nassal MMJ, Smith RM, Aramendi E, Elola A, Jaureguibeitia X, Idris AH, Daya MR, Carlson JN, et al.",
+          "citation": "Circulation. 2026 Jul 14;154(2):88-95. doi: 10.1161/CIRCULATIONAHA.125.077980. Epub 2026 May 18.",
+          "doi": "10.1161/circulationaha.125.077980",
+          "pmid": "42145111",
+          "pmcid": "PMC13250922",
+          "publicationTypes": [
+            "Journal Article",
+            "Pragmatic Clinical Trial",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "other",
+            "label": "其他同行评议期刊",
+            "priorityRank": 0
+          },
+          "tags": [
+            "临床研究",
+            "气道管理",
+            "Journal Article",
+            "Pragmatic Clinical Trial"
+          ],
+          "question": "该研究确定了区分ROSC与非ROSC所需的最小EtCO₂监测时间，为临床医生在复苏过程中早期判断预后提供了时间窗，有助于优化复苏策略。",
+          "conclusion": "在院外心脏骤停复苏中，根据目击状态和初始EtCO₂水平，需要7至21分钟的监测才能可靠区分上升与下降的EtCO₂轨迹，从而预测自主循环恢复。",
+          "clinical": "在OHCA复苏中，动态监测EtCO₂轨迹至少7-21分钟（取决于目击状态和初始EtCO₂）可提供早期预后信息，指导是否继续或调整复苏措施。 对于有目击者且初始EtCO₂低的患者，8分钟即可区分轨迹，可能较早提示ROSC可能性。 对于无目击者患者，7分钟即可区分轨迹，但效应量较大（RR=3.56），需注意置信区间较宽。",
+          "evidence": "中等",
+          "score": 65,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 22,
+            "clinicalImpact": 11,
+            "journalQuality": 6,
+            "novelty": 8
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "对集群随机实用临床试验（PART）的二次分析，采用基于组的轨迹建模（GBTM）识别潜在EtCO₂轨迹类别，并通过逆概率治疗加权平衡基线特征，使用加权合并逻辑回归估计风险比。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Out-of-hospital cardiac arrest patients from the Pragmatic Airway Resuscitation Trial (PART)；1168 patients (452 witnessed, 716 unwitnessed)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Upward EtCO2 trajectory；对照：Downward EtCO2 trajectory"
+            },
+            {
+              "label": "主要终点",
+              "value": "Return of spontaneous circulation (ROSC)"
+            }
+          ],
+          "keyPoints": [
+            "在OHCA复苏中，EtCO₂轨迹监测需要7-21分钟才能可靠区分ROSC与非ROSC。",
+            "所需时间取决于目击状态和初始EtCO₂水平：有目击者低初始EtCO₂需8分钟，中等需12分钟，高需21分钟；无目击者需7分钟。",
+            "上升轨迹与ROSC风险增加相关，但P值未报告。",
+            "该研究为动态EtCO₂监测在复苏中的预后价值提供了时间窗依据。"
+          ],
+          "methods": "呼气末二氧化碳（EtCO₂）轨迹与院外心脏骤停（OHCA）结局相关，但区分自主循环恢复（ROSC）与非ROSC所需的最小EtCO₂监测时长尚不清楚。",
+          "results": "在有目击者心脏骤停中，低初始EtCO₂（≤30 mm Hg）组在8分钟时上升与下降轨迹的95% CI不再重叠（RR=3.06, 95% CI 1.49-6.71）；中等初始EtCO₂（31-49 mm Hg）组在12分钟时（RR=1.95, 95% CI 1.23-3.48）；高初始EtCO₂（≥50 mm Hg）组在21分钟时（RR=2.12, 95% CI 1.30-3.73）。在无目击者心脏骤停中，首次观察到非重叠CI的时间为7分钟（RR=3.56, 95% CI 1.53-10.37）。P值未提供。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "在OHCA复苏中，动态监测EtCO₂轨迹至少7-21分钟（取决于目击状态和初始EtCO₂）可提供早期预后信息，指导是否继续或调整复苏措施。",
+            "对于有目击者且初始EtCO₂低的患者，8分钟即可区分轨迹，可能较早提示ROSC可能性。",
+            "对于无目击者患者，7分钟即可区分轨迹，但效应量较大（RR=3.56），需注意置信区间较宽。"
+          ],
+          "editor": "该研究基于随机对照试验的二次分析，采用加权方法控制混杂，结果具有中等证据强度。 过度解读风险：低。结论明确基于非重叠置信区间，未过度推断因果关系，且区分了不同亚组。",
+          "whyItMatters": "该研究确定了区分ROSC与非ROSC所需的最小EtCO₂监测时间，为临床医生在复苏过程中早期判断预后提供了时间窗，有助于优化复苏策略。",
+          "background": "呼气末二氧化碳（EtCO₂）轨迹与院外心脏骤停（OHCA）结局相关，但区分自主循环恢复（ROSC）与非ROSC所需的最小EtCO₂监测时长尚不清楚。",
+          "pico": {
+            "population": "Out-of-hospital cardiac arrest patients from the Pragmatic Airway Resuscitation Trial (PART)",
+            "intervention": "Upward EtCO2 trajectory",
+            "comparison": "Downward EtCO2 trajectory",
+            "outcome": "Return of spontaneous circulation (ROSC)"
+          },
+          "studyType": "对集群随机实用临床试验（PART）的二次分析，采用基于组的轨迹建模（GBTM）识别潜在EtCO₂轨迹类别，并通过逆概率治疗加权平衡基线特征，使用加权合并逻辑回归估计风险比。",
+          "sampleSize": "1168 patients (452 witnessed, 716 unwitnessed)",
+          "primaryOutcome": "Return of spontaneous circulation (ROSC)",
+          "effectSize": [
+            "RR=3.06",
+            "RR=1.95",
+            "RR=2.12",
+            "RR=3.56"
+          ],
+          "confidenceInterval": [
+            "95% CI=1.49, 6.71",
+            "95% CI=1.23, 3.48",
+            "95% CI=1.30, 3.73",
+            "95% CI=1.53, 10.37"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究基于随机对照试验的二次分析，采用加权方法控制混杂，结果具有中等证据强度。",
+            "overinterpretationRisk": "低。结论明确基于非重叠置信区间，未过度推断因果关系，且区分了不同亚组。"
+          },
+          "analysisBasis": "摘要+开放全文分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42145111/",
+            "doi": "https://doi.org/10.1161/circulationaha.125.077980",
+            "publisher": "https://doi.org/10.1161/circulationaha.125.077980",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13250922/"
+          },
+          "electronicPublicationDate": "2026-05-18"
+        },
+        {
+          "slug": "pmid-42443769",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "BMC emergency medicine",
+          "year": "2026",
+          "publishedDate": "2026-07-13",
+          "readingTime": "7 分钟",
+          "title": "复苏后院前紧急麻醉用于将声门上气道装置更换为气管插管——一项多中心观察性研究",
+          "originalTitle": "Post-resuscitation pre-hospital emergency anaesthesia for exchange of a supraglottic airway device with an endotracheal tube - a multicentre observational study.",
+          "authors": "Bokamp J, Latka E, Bernhard M, Deicke M, Fischer D, Grannemann J, Hinkelbein J, Keller Y, et al.",
+          "citation": "BMC Emerg Med. 2026 Jul 13;26(1):194. doi: 10.1186/s12873-026-01668-8.",
+          "doi": "10.1186/s12873-026-01668-8",
+          "pmid": "42443769",
+          "pmcid": "PMC13366920",
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "other",
+            "label": "其他同行评议期刊",
+            "priorityRank": 0
+          },
+          "tags": [
+            "临床研究",
+            "麻醉学",
+            "气道管理",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "question": "该研究探讨了院前紧急麻醉在复苏后气道管理中的安全性，为临床决策提供了观察性证据，但需注意其非随机设计的局限性。",
+          "conclusion": "在院外心脏骤停复苏后患者中，将声门上气道装置更换为气管插管时，使用或不使用院前紧急麻醉，其并发症发生率的统计学差异不显著。",
+          "clinical": "院前紧急麻醉用于SGA更换为ETT时，未显著增加血流动力学或气道并发症的风险。 观察到的再次心脏骤停风险降低（OR=0.39）但未达统计学意义，需进一步研究。 研究结果不支持常规使用或避免院前紧急麻醉，决策应个体化。",
+          "evidence": "中等",
+          "score": 60,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 18,
+            "clinicalImpact": 9,
+            "journalQuality": 6,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心观察性研究，基于德国三个地区2019-2021年急救医疗服务数据及德国复苏登记数据，采用倾向评分匹配分析。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Unconscious adult, pre-hospitally resuscitated patients who had an SGA changed to an ETT following pre-hospital return of spontaneous circulation and who had spontaneous circulation on admission to hospital；202 patients (126 with PHEA, 76 without PHEA) after propensity score matching: 62 matched pairs"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Pre-hospital emergency anaesthesia (PHEA) to facilitate changing a supraglottic airway device (SGA) to an endotracheal tube (ETT)；对照：No pre-hospital emergency anaesthesia (PHEA) during SGA to ETT exchange"
+            },
+            {
+              "label": "主要终点",
+              "value": "Occurrence of at least one haemodynamic complication (re-arrest, hypotension, or antihypotensive therapy)"
+            }
+          ],
+          "keyPoints": [
+            "多中心观察性研究，纳入202例院外心脏骤停后SGA更换为ETT的患者。",
+            "倾向评分匹配后，PHEA组与无PHEA组在血流动力学并发症上无统计学差异（OR=1.50, 95% CI 0.72-3.11, p=0.28）。",
+            "次要结局（气道并发症、再次心脏骤停、低血压、抗低血压治疗）均无统计学差异。",
+            "研究局限性包括回顾性设计、样本量小、数据缺失等，结果需谨慎解读。"
+          ],
+          "methods": "院外心脏骤停后，将声门上气道装置更换为气管插管时，院前紧急麻醉可能改善气道管理，但存在血流动力学不稳定的风险。本研究旨在评估其与并发症的关联。",
+          "results": "共纳入202例患者（126例接受PHEA，76例未接受），倾向评分匹配后形成62对匹配对。主要终点：PHEA组与无PHEA组至少发生一种血流动力学并发症的比值比为1.50（95% CI 0.72-3.11，p=0.28），无统计学差异。次要终点：气道并发症OR=1.00（95% CI 0.25-4.00，p=1.00）；再次心脏骤停OR=0.39（95% CI 0.14-1.08，p=0.07）；低血压OR=1.39（95% CI 0.68-2.83，p=0.37）；抗低血压治疗OR=1.58（95% CI 0.77-3.26，p=0.21）。所有比较均未达到统计学显著性。",
+          "limitations": [
+            "回顾性设计，存在选择偏倚。",
+            "基线血流动力学状态和血管加压药使用时机数据不完整。",
+            "无创血压测量可能不够准确。",
+            "数据缺失，尤其是既往病史。",
+            "仅纳入入院时仍有自主循环的患者，存在幸存者偏倚。",
+            "倾向评分匹配后样本量减少至62对，统计效能有限。",
+            "未评估患者相关的长期结局。",
+            "院后复苏管理未标准化。"
+          ],
+          "practice": [
+            "院前紧急麻醉用于SGA更换为ETT时，未显著增加血流动力学或气道并发症的风险。",
+            "观察到的再次心脏骤停风险降低（OR=0.39）但未达统计学意义，需进一步研究。",
+            "研究结果不支持常规使用或避免院前紧急麻醉，决策应个体化。"
+          ],
+          "editor": "研究结果基于倾向评分匹配的观察性数据，提供了中等强度的支持，但无法排除混杂因素。 过度解读风险：中等风险。结论中“无统计学证据”不应被解读为“无差异”，且观察性设计不能推断因果关系。",
+          "whyItMatters": "该研究探讨了院前紧急麻醉在复苏后气道管理中的安全性，为临床决策提供了观察性证据，但需注意其非随机设计的局限性。",
+          "background": "院外心脏骤停后，将声门上气道装置更换为气管插管时，院前紧急麻醉可能改善气道管理，但存在血流动力学不稳定的风险。本研究旨在评估其与并发症的关联。",
+          "pico": {
+            "population": "Unconscious adult, pre-hospitally resuscitated patients who had an SGA changed to an ETT following pre-hospital return of spontaneous circulation and who had spontaneous circulation on admission to hospital",
+            "intervention": "Pre-hospital emergency anaesthesia (PHEA) to facilitate changing a supraglottic airway device (SGA) to an endotracheal tube (ETT)",
+            "comparison": "No pre-hospital emergency anaesthesia (PHEA) during SGA to ETT exchange",
+            "outcome": "Occurrence of at least one haemodynamic complication (re-arrest, hypotension, or antihypotensive therapy)"
+          },
+          "studyType": "多中心观察性研究，基于德国三个地区2019-2021年急救医疗服务数据及德国复苏登记数据，采用倾向评分匹配分析。",
+          "sampleSize": "202 patients (126 with PHEA, 76 without PHEA) after propensity score matching: 62 matched pairs",
+          "primaryOutcome": "Occurrence of at least one haemodynamic complication (re-arrest, hypotension, or antihypotensive therapy)",
+          "effectSize": [
+            "OR=1.50",
+            "OR=1.00",
+            "OR=0.39",
+            "OR=1.39",
+            "OR=1.58"
+          ],
+          "confidenceInterval": [
+            "0.72-3.11",
+            "0.25-4.00",
+            "0.14-1.08",
+            "0.68-2.83",
+            "0.77-3.26"
+          ],
+          "pValue": [
+            "0.28",
+            "1.00",
+            "0.07",
+            "0.37",
+            "0.21"
+          ],
+          "adverseEvents": "Haemodynamic complications occurred in 64.5% (PHEA) vs 54.8% (no PHEA); re-arrest 14.5% vs 27.4%; hypotension 61.3% vs 53.2%; antihypotensive therapy 61.3% vs 50.0%; airway complications 6.5% vs 6.5%.",
+          "aiAssessment": {
+            "support": "研究结果基于倾向评分匹配的观察性数据，提供了中等强度的支持，但无法排除混杂因素。",
+            "overinterpretationRisk": "中等风险。结论中“无统计学证据”不应被解读为“无差异”，且观察性设计不能推断因果关系。"
+          },
+          "analysisBasis": "摘要+开放全文分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42443769/",
+            "doi": "https://doi.org/10.1186/s12873-026-01668-8",
+            "publisher": "https://doi.org/10.1186/s12873-026-01668-8",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13366920/"
+          }
+        }
+      ],
+      "metadataRepairedAt": "2026-07-15T17:54:56.670Z"
+    }
+  ]
+}

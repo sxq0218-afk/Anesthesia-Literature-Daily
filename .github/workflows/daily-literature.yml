@@ -1,0 +1,94 @@
+name: 每日文献自动更新
+
+on:
+  schedule:
+    # GitHub Actions使用UTC；00:37约等于北京时间08:37，避开整点高峰。
+    - cron: "37 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anesthesia-literature-daily-production
+  cancel-in-progress: false
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      LITERATURE_MODE: production
+      DEPLOY_ENV: production
+      AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+      AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+      AI_MODEL: ${{ vars.AI_MODEL }}
+      AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE }}
+      AI_MAX_TOKENS: ${{ vars.AI_MAX_TOKENS }}
+      AI_TIMEOUT: ${{ vars.AI_TIMEOUT }}
+      AI_RETRY_COUNT: ${{ vars.AI_RETRY_COUNT }}
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+      NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+      NCBI_TOOL: anesthesia_literature_daily
+      CROSSREF_MAILTO: ${{ vars.NCBI_EMAIL }}
+      DAILY_ARTICLE_COUNT: ${{ vars.DAILY_ARTICLE_COUNT }}
+      DAILY_CANDIDATE_LIMIT: ${{ vars.DAILY_CANDIDATE_LIMIT }}
+      DAILY_AI_CALL_LIMIT: ${{ vars.DAILY_AI_CALL_LIMIT }}
+      DAILY_TOKEN_LIMIT: ${{ vars.DAILY_TOKEN_LIMIT }}
+      DAILY_MAX_INPUT_CHARS: ${{ vars.DAILY_MAX_INPUT_CHARS }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      SITE_BASE_PATH: ${{ vars.SITE_BASE_PATH }}
+      NEXT_TELEMETRY_DISABLED: "1"
+
+    steps:
+      - name: 读取仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: 使用标准Node运行器
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.17.1"
+          cache: npm
+
+      - name: 安装锁定依赖
+        run: npm ci --ignore-scripts
+
+      - name: 校验必要配置
+        run: node scripts/check-production-env.mjs
+
+      - name: 运行核心测试
+        run: npm run test:literature
+
+      - name: 生成今日真实简报
+        run: npm run literature:daily
+
+      - name: 更新历史简报、RSS和公开摘要
+        run: npm run publication:prepare
+
+      - name: 构建EdgeOne静态站点
+        run: npm run build:edgeone
+
+      - name: 检查公开数据和链接
+        run: npm run test:deployment
+
+      - name: 扫描密钥和境外公共CDN依赖
+        run: npm run security:scan
+
+      - name: 写入安全任务摘要
+        if: always()
+        run: node scripts/write-actions-summary.mjs
+
+      - name: 提交正式发布结果
+        run: |
+          git config user.name "anesthesia-literature-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/generated data/state data/usage data/logs/latest-public-summary.json public/data public/rss.xml
+          if git diff --cached --quiet; then
+            echo "同一天已发布或没有可提交的新内容。"
+            exit 0
+          fi
+          git commit -m "content: publish daily anesthesia briefing"
+          git push
