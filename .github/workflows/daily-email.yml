@@ -1,0 +1,93 @@
+name: 每日文献邮件
+
+on:
+  schedule:
+    # GitHub Actions使用UTC；00:37约等于北京时间08:37，避开整点高峰。
+    - cron: "37 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anesthesia-literature-daily-content
+  cancel-in-progress: false
+
+jobs:
+  generate-and-email:
+    if: vars.EMAIL_DELIVERY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      LITERATURE_MODE: production
+      DEPLOY_ENV: email-production
+      AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+      AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+      AI_MODEL: ${{ vars.AI_MODEL }}
+      AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE }}
+      AI_MAX_TOKENS: ${{ vars.AI_MAX_TOKENS }}
+      AI_TIMEOUT: ${{ vars.AI_TIMEOUT }}
+      AI_RETRY_COUNT: ${{ vars.AI_RETRY_COUNT }}
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+      NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+      NCBI_TOOL: anesthesia_literature_daily
+      CROSSREF_MAILTO: ${{ vars.NCBI_EMAIL }}
+      DAILY_ARTICLE_COUNT: ${{ vars.DAILY_ARTICLE_COUNT }}
+      DAILY_CANDIDATE_LIMIT: ${{ vars.DAILY_CANDIDATE_LIMIT }}
+      DAILY_AI_CALL_LIMIT: ${{ vars.DAILY_AI_CALL_LIMIT }}
+      DAILY_TOKEN_LIMIT: ${{ vars.DAILY_TOKEN_LIMIT }}
+      DAILY_MAX_INPUT_CHARS: ${{ vars.DAILY_MAX_INPUT_CHARS }}
+      EMAIL_PROVIDER: buttondown
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      BUTTONDOWN_API_BASE_URL: https://api.buttondown.com/v1
+      BUTTONDOWN_SUBSCRIBER_LIMIT: ${{ vars.BUTTONDOWN_SUBSCRIBER_LIMIT }}
+      NEXT_PUBLIC_BUTTONDOWN_USERNAME: ${{ vars.NEXT_PUBLIC_BUTTONDOWN_USERNAME }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      NEXT_TELEMETRY_DISABLED: "1"
+
+    steps:
+      - name: 读取仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: 使用标准Node运行器
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.17.1"
+          cache: npm
+
+      - name: 安装锁定依赖
+        run: npm ci --ignore-scripts
+
+      - name: 校验邮件任务配置
+        run: node scripts/check-email-production-env.mjs
+
+      - name: 运行文献和邮件测试
+        run: npm run test:literature && npm run test:email
+
+      - name: 生成今日真实简报
+        run: npm run literature:daily
+
+      - name: 扫描公开文件中的敏感信息
+        run: npm run security:scan
+
+      - name: 通过Buttondown发送
+        run: npm run email:send-daily
+
+      - name: 写入任务摘要
+        if: always()
+        run: node scripts/write-email-actions-summary.mjs
+
+      - name: 保存正式内容和投递状态
+        run: |
+          git config user.name "anesthesia-literature-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/generated/daily.json data/state/pushed.json data/state/publication-status.json data/logs/latest-email-summary.json
+          if git diff --cached --quiet; then
+            echo "同一天已处理或没有可提交的新内容。"
+            exit 0
+          fi
+          git commit -m "content: generate and email daily anesthesia briefing"
+          git push

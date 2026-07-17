@@ -1,16 +1,13 @@
 name: 每日文献自动更新
 
 on:
-  schedule:
-    # GitHub Actions使用UTC；00:37约等于北京时间08:37，避开整点高峰。
-    - cron: "37 0 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: anesthesia-literature-daily-production
+  group: anesthesia-literature-daily-content
   cancel-in-progress: false
 
 jobs:
@@ -41,6 +38,11 @@ jobs:
       SITE_BASE_PATH: ${{ vars.SITE_BASE_PATH }}
       NEXT_TELEMETRY_DISABLED: "1"
       EMAIL_DELIVERY_ENABLED: ${{ vars.EMAIL_DELIVERY_ENABLED }}
+      EMAIL_PROVIDER: ${{ vars.EMAIL_PROVIDER }}
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      BUTTONDOWN_API_BASE_URL: https://api.buttondown.com/v1
+      BUTTONDOWN_SUBSCRIBER_LIMIT: ${{ vars.BUTTONDOWN_SUBSCRIBER_LIMIT }}
+      NEXT_PUBLIC_BUTTONDOWN_USERNAME: ${{ vars.NEXT_PUBLIC_BUTTONDOWN_USERNAME }}
       NEXT_PUBLIC_SUBSCRIPTION_EMAIL: ${{ vars.NEXT_PUBLIC_SUBSCRIPTION_EMAIL }}
       SUBSCRIBER_ENCRYPTION_KEY: ${{ secrets.SUBSCRIBER_ENCRYPTION_KEY }}
       SUBSCRIPTION_INBOX_IMAP_HOST: ${{ vars.SUBSCRIPTION_INBOX_IMAP_HOST }}
@@ -95,7 +97,7 @@ jobs:
         run: npm run security:scan
 
       - name: 处理订阅确认和退订邮件
-        if: env.EMAIL_DELIVERY_ENABLED == 'true'
+        if: env.EMAIL_DELIVERY_ENABLED == 'true' && env.EMAIL_PROVIDER == 'tencent-ses'
         run: npm run email:process
 
       - name: 向已确认订阅者发送今日简报

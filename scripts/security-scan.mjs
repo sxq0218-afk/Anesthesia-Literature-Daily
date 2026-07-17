@@ -8,7 +8,7 @@ const patterns = [
   { name: "authorization-header", regex: /authorization\s*[:=]\s*["']?(?:bearer|basic)\s+[a-z0-9._~+\/-]{12,}/i },
   { name: "bearer-token", regex: /bearer\s+[a-z0-9._~+\/-]{24,}/i },
   { name: "secret-key-prefix", regex: /\b(?:sk-[a-z0-9_-]{16,}|AIza[0-9A-Za-z_-]{24,})\b/i },
-  { name: "private-env", regex: /(?:AI_API_KEY|NCBI_API_KEY|AI_CONFIG_MASTER_KEY|TENCENT_SECRET_ID|TENCENT_SECRET_KEY|SUBSCRIBER_ENCRYPTION_KEY|SUBSCRIPTION_INBOX_PASSWORD)\s*=\s*[^\s"']+/i },
+  { name: "private-env", regex: /(?:AI_API_KEY|NCBI_API_KEY|AI_CONFIG_MASTER_KEY|BUTTONDOWN_API_KEY|TENCENT_SECRET_ID|TENCENT_SECRET_KEY|SUBSCRIBER_ENCRYPTION_KEY|SUBSCRIPTION_INBOX_PASSWORD)\s*=\s*[^\s"']+/i },
 ];
 const forbiddenHosts = ["fonts.googleapis.com", "fonts.gstatic.com", "google-analytics.com", "googletagmanager.com", "unpkg.com", "cdn.jsdelivr.net", "cdnjs.cloudflare.com", "raw.githubusercontent.com"];
 

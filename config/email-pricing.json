@@ -2,6 +2,12 @@
   "version": 1,
   "currency": "CNY",
   "provider": "tencent-ses",
+  "buttondown": {
+    "freeActiveSubscribers": 100,
+    "maximumIncludedFrequency": "one-email-per-day",
+    "estimatedCostCnyWithinLimit": 0,
+    "verifiedAt": "2026-07-17"
+  },
   "freeEmailsPerAccount": 1000,
   "pricePerEmailCny": 0.0019,
   "note": "腾讯云邮件推送公有云后付费单价；免费量是否已使用由管理员在控制台确认。"

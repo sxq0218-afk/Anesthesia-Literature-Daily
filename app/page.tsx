@@ -5,7 +5,7 @@ import { articles, dailyRun, formatChineseDate, searchWindowText } from "./conte
 export default function Home() {
   const lead = articles[0];
   const editionDate = formatChineseDate(dailyRun.generatedAt);
-  const emailSubscription = Boolean(process.env.NEXT_PUBLIC_SUBSCRIPTION_EMAIL);
+  const emailSubscription = Boolean(process.env.NEXT_PUBLIC_BUTTONDOWN_USERNAME || process.env.NEXT_PUBLIC_SUBSCRIPTION_EMAIL);
   return <>
     <section className="home-hero">
       <div className="shell hero-grid">

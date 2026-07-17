@@ -13,6 +13,6 @@
   "permanentPublicUrl": false,
   "previewUrlLifetimeHours": 3,
   "paidAddOns": false,
-  "publicEnvironmentVariables": ["NEXT_PUBLIC_SUBSCRIPTION_EMAIL"],
+  "publicEnvironmentVariables": ["NEXT_PUBLIC_BUTTONDOWN_USERNAME", "NEXT_PUBLIC_SUBSCRIPTION_EMAIL"],
   "notes": "China console deployment passed. The default edgeone.cool URL observed on 2026-07-16 is a token-protected 3-hour preview, not a permanent public URL. No credential or preview token is stored here."
 }

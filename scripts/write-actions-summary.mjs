@@ -14,7 +14,11 @@ try {
 content += "\n> 摘要不包含API Key、Authorization头或其他敏感配置。\n";
 try {
   const email = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/logs/latest-email-summary.json"), "utf8"));
-  content += `\n## 邮件推送\n\n- 状态：${email.status}\n- 已发送：${email.sent}封\n- 失败：${email.failed}封\n- 预计费用：¥${email.estimatedCostCny}（未扣除免费额度）\n`;
+  if (email.provider === "buttondown") {
+    content += `\n## 邮件推送\n\n- 服务商：Buttondown\n- 状态：${email.status}\n- 已确认订阅者：${email.activeSubscribers ?? "等待远端统计"}\n- 预计费用：¥${email.estimatedCostCny ?? 0}（按当前免费规则估算）\n`;
+  } else {
+    content += `\n## 邮件推送\n\n- 服务商：腾讯云SES\n- 状态：${email.status}\n- 已发送：${email.sent}封\n- 失败：${email.failed}封\n- 预计费用：¥${email.estimatedCostCny}（未扣除免费额度）\n`;
+  }
 } catch {
   content += "\n## 邮件推送\n\n- 未启用，或本次尚未生成发送摘要。\n";
 }
