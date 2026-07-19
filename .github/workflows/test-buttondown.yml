@@ -1,0 +1,42 @@
+name: 测试 Buttondown 连接
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: anesthesia-literature-buttondown-connection-test
+  cancel-in-progress: true
+
+jobs:
+  test-connection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      EMAIL_PROVIDER: buttondown
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      BUTTONDOWN_API_BASE_URL: https://api.buttondown.com/v1
+      BUTTONDOWN_TIMEOUT: "30000"
+
+    steps:
+      - name: 读取仓库
+        uses: actions/checkout@v4
+
+      - name: 使用标准 Node 运行器
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.17.1"
+
+      - name: 检查密钥是否已配置
+        shell: bash
+        run: |
+          if [ -z "$BUTTONDOWN_API_KEY" ]; then
+            echo "BUTTONDOWN_API_KEY is missing from repository secrets."
+            exit 1
+          fi
+          echo "Buttondown secret is configured; its value will not be printed."
+
+      - name: 仅测试 Buttondown API 连接
+        run: npm run email:test-connection
