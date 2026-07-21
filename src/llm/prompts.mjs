@@ -6,7 +6,7 @@ export const extractionSystemPrompt = `你是医学文献数据抽取器。只�
 4. title、journal、date、doi、pmid必须与给定元数据完全一致。
 5. JSON必须包含全部指定字段，不要输出解释性文字。`;
 
-export function buildExtractionPrompt(record, analysisText, basis) {
+export function buildExtractionPrompt(record, analysisText, basis, correctionIssues = []) {
   return `请提取下列文献。分析依据：${basis}。
 
 固定元数据：
@@ -19,6 +19,8 @@ publication_types: ${(record.publicationTypes || []).join("; ") || "unknown"}
 
 原文材料：
 ${analysisText}
+
+${correctionIssues.length ? `上一版结构化抽取未通过确定性校验，必须修正：${correctionIssues.join("；")}。无法由原文逐字支持的数字请改为null或从对应数组中删除。` : ""}
 
 输出JSON字段：
 {

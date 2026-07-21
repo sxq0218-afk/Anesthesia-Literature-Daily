@@ -15,14 +15,26 @@ export async function analyzeArticle({ record, fullText, generateAI }) {
   const analysisText = fullText ? `摘要：${record.abstract}\n\n开放全文：${fullText}` : record.abstract;
   let usage = { promptTokens: 0, completionTokens: 0, totalTokens: 0 };
 
-  const extractionResponse = await generateAI({
+  let extractionResponse = await generateAI({
     system: extractionSystemPrompt,
     user: buildExtractionPrompt(record, analysisText, basis),
     maxTokens: 4500,
     task: "literature-extraction",
   });
   usage = addUsage(usage, extractionResponse.usage);
-  const deterministic = deterministicChecks(record, extractionResponse.data, analysisText);
+  let deterministic = deterministicChecks(record, extractionResponse.data, analysisText);
+  let extractionRetried = false;
+  if (!deterministic.pass) {
+    extractionRetried = true;
+    extractionResponse = await generateAI({
+      system: extractionSystemPrompt,
+      user: buildExtractionPrompt(record, analysisText, basis, deterministic.issues),
+      maxTokens: 4500,
+      task: "literature-extraction-regeneration",
+    });
+    usage = addUsage(usage, extractionResponse.usage);
+    deterministic = deterministicChecks(record, extractionResponse.data, analysisText);
+  }
   if (!deterministic.pass) throw new Error(`Structured extraction failed deterministic checks: ${deterministic.issues.join("; ")}`);
 
   let synthesisResponse = await generateAI({
@@ -41,7 +53,7 @@ export async function analyzeArticle({ record, fullText, generateAI }) {
   });
   usage = addUsage(usage, qualityResponse.usage);
   let issues = qualityIssues(qualityResponse.data);
-  let regenerated = false;
+  let regenerated = extractionRetried;
 
   if (!qualityResponse.data.overall_pass || issues.length) {
     regenerated = true;
@@ -71,6 +83,7 @@ export async function analyzeArticle({ record, fullText, generateAI }) {
     extracted: extractionResponse.data,
     synthesis: synthesisResponse.data,
     quality: qualityResponse.data,
+    extractionRetried,
     regenerated,
     usage,
     model: synthesisResponse.model,
