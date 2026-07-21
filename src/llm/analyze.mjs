@@ -1,5 +1,5 @@
 import { buildExtractionPrompt, buildQualityPrompt, buildSynthesisPrompt, extractionSystemPrompt, qualitySystemPrompt, synthesisSystemPrompt } from "./prompts.mjs";
-import { deterministicChecks, qualityIssues } from "./quality-control.mjs";
+import { deterministicChecks, qualityIssues, sanitizeUnsupportedNumericClaims } from "./quality-control.mjs";
 
 function addUsage(total, usage) {
   if (!usage) return total;
@@ -24,6 +24,7 @@ export async function analyzeArticle({ record, fullText, generateAI }) {
   usage = addUsage(usage, extractionResponse.usage);
   let deterministic = deterministicChecks(record, extractionResponse.data, analysisText);
   let extractionRetried = false;
+  let extractionSanitized = false;
   if (!deterministic.pass) {
     extractionRetried = true;
     extractionResponse = await generateAI({
@@ -33,6 +34,11 @@ export async function analyzeArticle({ record, fullText, generateAI }) {
       task: "literature-extraction-regeneration",
     });
     usage = addUsage(usage, extractionResponse.usage);
+    deterministic = deterministicChecks(record, extractionResponse.data, analysisText);
+  }
+  if (!deterministic.pass && deterministic.issues.every(issue => issue.startsWith("原文材料中未找到数字："))) {
+    extractionResponse.data = sanitizeUnsupportedNumericClaims(record, extractionResponse.data, analysisText);
+    extractionSanitized = true;
     deterministic = deterministicChecks(record, extractionResponse.data, analysisText);
   }
   if (!deterministic.pass) throw new Error(`Structured extraction failed deterministic checks: ${deterministic.issues.join("; ")}`);
@@ -84,6 +90,7 @@ export async function analyzeArticle({ record, fullText, generateAI }) {
     synthesis: synthesisResponse.data,
     quality: qualityResponse.data,
     extractionRetried,
+    extractionSanitized,
     regenerated,
     usage,
     model: synthesisResponse.model,

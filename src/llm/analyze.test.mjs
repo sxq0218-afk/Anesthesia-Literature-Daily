@@ -65,7 +65,7 @@ test("retries structured extraction once after deterministic validation failure"
   const calls = [];
   const responses = [
     { data: { ...baseExtraction, sample_size: "79" }, usage: {} },
-    { data: baseExtraction, usage: {} },
+    { data: { ...baseExtraction, sample_size: "79" }, usage: {} },
     { data: synthesis, usage: {}, model: "test-model" },
     { data: { overall_pass: true, checks: {}, issues: [] }, usage: {} },
   ];
@@ -82,6 +82,7 @@ test("retries structured extraction once after deterministic validation failure"
   assert.equal(calls[1].task, "literature-extraction-regeneration");
   assert.match(calls[1].user, /原文材料中未找到数字：79/);
   assert.equal(result.extractionRetried, true);
+  assert.equal(result.extractionSanitized, true);
   assert.equal(result.regenerated, true);
   assert.equal(result.extracted.sample_size, null);
 });
