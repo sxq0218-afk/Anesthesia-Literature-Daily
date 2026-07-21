@@ -21,23 +21,23 @@ jobs:
     env:
       LITERATURE_MODE: production
       DEPLOY_ENV: email-production
-      AI_PROVIDER: ${{ vars.AI_PROVIDER }}
-      AI_BASE_URL: ${{ vars.AI_BASE_URL }}
-      AI_MODEL: ${{ vars.AI_MODEL }}
-      AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE }}
-      AI_MAX_TOKENS: ${{ vars.AI_MAX_TOKENS }}
-      AI_TIMEOUT: ${{ vars.AI_TIMEOUT }}
-      AI_RETRY_COUNT: ${{ vars.AI_RETRY_COUNT }}
+      AI_PROVIDER: ${{ vars.AI_PROVIDER || 'deepseek' }}
+      AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://api.deepseek.com' }}
+      AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-chat' }}
+      AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE || '0.1' }}
+      AI_MAX_TOKENS: ${{ vars.AI_MAX_TOKENS || '5000' }}
+      AI_TIMEOUT: ${{ vars.AI_TIMEOUT || '90000' }}
+      AI_RETRY_COUNT: ${{ vars.AI_RETRY_COUNT || '1' }}
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
       NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
       NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
       NCBI_TOOL: anesthesia_literature_daily
       CROSSREF_MAILTO: ${{ vars.NCBI_EMAIL }}
-      DAILY_ARTICLE_COUNT: ${{ vars.DAILY_ARTICLE_COUNT }}
-      DAILY_CANDIDATE_LIMIT: ${{ vars.DAILY_CANDIDATE_LIMIT }}
-      DAILY_AI_CALL_LIMIT: ${{ vars.DAILY_AI_CALL_LIMIT }}
-      DAILY_TOKEN_LIMIT: ${{ vars.DAILY_TOKEN_LIMIT }}
-      DAILY_MAX_INPUT_CHARS: ${{ vars.DAILY_MAX_INPUT_CHARS }}
+      DAILY_ARTICLE_COUNT: ${{ vars.DAILY_ARTICLE_COUNT || '5' }}
+      DAILY_CANDIDATE_LIMIT: ${{ vars.DAILY_CANDIDATE_LIMIT || '120' }}
+      DAILY_AI_CALL_LIMIT: ${{ vars.DAILY_AI_CALL_LIMIT || '30' }}
+      DAILY_TOKEN_LIMIT: ${{ vars.DAILY_TOKEN_LIMIT || '500000' }}
+      DAILY_MAX_INPUT_CHARS: ${{ vars.DAILY_MAX_INPUT_CHARS || '60000' }}
       EMAIL_PROVIDER: buttondown
       BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
       BUTTONDOWN_API_BASE_URL: https://api.buttondown.com/v1
