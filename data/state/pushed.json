@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-15T17:46:45.425Z",
+  "updatedAt": "2026-07-22T14:17:37.412Z",
   "records": [
     {
       "pmid": "42359695",
@@ -41,6 +41,46 @@
       "status": "published",
       "runId": "2026-07-15T17-46-45.425Z",
       "firstPublishedAt": "2026-07-15T17:46:45.425Z"
+    },
+    {
+      "pmid": "42470835",
+      "doi": "10.1016/j.jclinane.2026.112275",
+      "title": "Pharmacology, clinical applications, and future perspectives of Ciprofol: A narrative review.",
+      "status": "published",
+      "runId": "2026-07-22T14-17-37.412Z",
+      "firstPublishedAt": "2026-07-22T14:17:37.412Z"
+    },
+    {
+      "pmid": "42475676",
+      "doi": "10.2196/90023",
+      "title": "Clinical Evaluation of an AI-Assisted Decision Support System for General Anesthesia Management Based on Data From 6 Centers: Comparative Study.",
+      "status": "published",
+      "runId": "2026-07-22T14-17-37.412Z",
+      "firstPublishedAt": "2026-07-22T14:17:37.412Z"
+    },
+    {
+      "pmid": "42464120",
+      "doi": "10.1186/s12871-026-04030-4",
+      "title": "Comparison of ultrasound-guided erector spinae plane block to intrathecal morphine for postoperative analgesia in patients undergoing elective lumbar fusion operations under general anesthesia: a randomized controlled trial.",
+      "status": "published",
+      "runId": "2026-07-22T14-17-37.412Z",
+      "firstPublishedAt": "2026-07-22T14:17:37.412Z"
+    },
+    {
+      "pmid": "42469995",
+      "doi": "10.1097/md.0000000000049791",
+      "title": "Comparative efficacy of cervical erector spinae plane block and superficial cervical plexus block for postoperative analgesia in anterior cervical discectomy and fusion: A prospective randomized study.",
+      "status": "published",
+      "runId": "2026-07-22T14-17-37.412Z",
+      "firstPublishedAt": "2026-07-22T14:17:37.412Z"
+    },
+    {
+      "pmid": "42475613",
+      "doi": "10.1097/nsg.0000000000000440",
+      "title": "Evaluation of the effect of Healing Touch on coronary artery bypass grafting recovery: A randomized controlled trial.",
+      "status": "published",
+      "runId": "2026-07-22T14-17-37.412Z",
+      "firstPublishedAt": "2026-07-22T14:17:37.412Z"
     }
   ]
 }

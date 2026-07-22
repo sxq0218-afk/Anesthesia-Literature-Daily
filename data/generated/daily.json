@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-15T17:46:45.425Z",
+  "generatedAt": "2026-07-22T14:17:37.412Z",
   "mode": "production",
   "search": {
     "initialDays": 1,
     "actualDays": 7,
     "expanded": true,
     "expansionReason": "composition-shortfall",
-    "from": "2026-07-08T17:46:45.425Z",
-    "to": "2026-07-15T17:46:45.425Z",
+    "from": "2026-07-15T14:17:37.412Z",
+    "to": "2026-07-22T14:17:37.412Z",
     "candidateCount": 120,
-    "unseenCount": 119,
-    "duplicateCount": 1,
-    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/07/08:2026/07/15[Date - Publication]",
-    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Nature Medicine\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Anesthesia and Analgesia\"[Journal] OR \"Regional Anesthesia and Pain Medicine\"[Journal] OR \"European Journal of Anaesthesiology\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"Pain\"[Journal] OR \"The Journal of Pain\"[Journal] OR \"Critical Care\"[Journal] OR \"Intensive Care Medicine\"[Journal]) AND 2026/07/08:2026/07/15[Date - Publication]",
-    "priorityCandidateCount": 12,
+    "unseenCount": 120,
+    "duplicateCount": 0,
+    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/07/15:2026/07/22[Date - Publication]",
+    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Nature Medicine\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Anesthesia and Analgesia\"[Journal] OR \"Regional Anesthesia and Pain Medicine\"[Journal] OR \"European Journal of Anaesthesiology\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"Pain\"[Journal] OR \"The Journal of Pain\"[Journal] OR \"Critical Care\"[Journal] OR \"Intensive Care Medicine\"[Journal]) AND 2026/07/15:2026/07/22[Date - Publication]",
+    "priorityCandidateCount": 13,
     "selectionPolicy": {
       "clinicalTarget": 4,
       "basicTarget": 1,
@@ -24,183 +24,50 @@
     },
     "selectionSummary": {
       "clinical": 4,
-      "basic": 1,
-      "other": 0,
-      "priorityJournals": 2
+      "basic": 0,
+      "other": 1,
+      "priorityJournals": 1
     },
-    "compositionSatisfied": true
+    "compositionSatisfied": false
   },
   "llm": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
+    "configuredModel": "deepseek-chat",
     "usage": {
-      "promptTokens": 41171,
-      "completionTokens": 8929,
-      "totalTokens": 50100
-    },
-    "configuredModel": "deepseek-chat"
+      "promptTokens": 63119,
+      "completionTokens": 9645,
+      "totalTokens": 72764
+    }
   },
   "articles": [
     {
-      "slug": "pmid-42359695",
+      "slug": "pmid-42470835",
       "number": "01",
       "category": "麻醉学",
-      "journal": "Anesthesiology",
+      "journal": "Journal of clinical anesthesia",
       "year": "2026",
-      "publishedDate": "2026-07-14",
-      "readingTime": "7 分钟",
-      "title": "健康志愿者在腋路臂丛神经阻滞前、中、后使用定量感觉测试评估阻滞后超敏反应",
-      "originalTitle": "Evaluation of Postblock Hypersensitivity Using Quantitative Sensory Testing before, during, and after Axillary Brachial Plexus Block Resolution in Healthy Volunteers.",
-      "abstract": "BACKGROUND: The problem of a sharp increase in pain after resolution of a nerve block, known as rebound pain, has been increasingly recognized. It is currently unknown whether rebound pain simply reflects the unmasking of untreated, residual surgical pain, or if it represents a de novo hyperalgesic state driven by a mechanistic resetting of pain thresholds in response to regional anesthesia. In this study, the authors assessed nociceptive processing after a single-injection axillary brachial plexus block in healthy volunteers to detect whether a previously blocked arm displayed objective hypersensitivity in the absence of surgical pain. METHODS: Healthy volunteers received a single-injection axillary brachial plexus block using 15 cc mepivacaine 1.5%, with their contralateral unblocked arm serving as a control. Pain sensitivity between arms was compared using a range of quantitative sensory testing, comparing punctate, pressure, and heat pain using paired t tests or Wilcoxon signed-rank tests. The primary outcome was heat pain threshold to 1 of 10 pain, compared between previously blocked and control arms at 60 min after motor resolution (MR), with secondary outcomes being other modalities compared at this timepoint. Additionally, the authors explored differences in maximally sensitized values during the entire postblock period. RESULTS: All 40 participants (age 19 to 64 yr, 60% female) completed the study. At 60 min after MR, heat pain threshold to 1 of 10 pain was not significantly different between arms (block, 40.8 degrees  +/- 2.2 degrees C; control, 41.2 degrees  +/- 2.6 degrees C; P = 0.160). Testing of several other sensory modalities revealed only a slightly lower temperature to reach 5 of 10 heat pain in the block versus control arm. When examining the maximally sensitized values including 3 h after MR, the control arm showed greater sensitivity in some tested modalities (punctate pain threshold and painful after sensations) but not others (heat and pressure pain thresholds and tolerances, temporal summation of pain). CONCLUSIONS: Multimodal pain testing revealed no evidence of general postblock hypersensitivity during resolution of a single-injection axillary brachial plexus block.",
-      "authors": "Chen YK, Wilson JM, Collins PW, Gokul SR, Lirk P, Schreiber KL",
-      "citation": "Anesthesiology. 2026 Aug 1;145(2):322-332. doi: 10.1097/ALN.0000000000006082. Epub 2026 Jul 14.",
-      "doi": "10.1097/aln.0000000000006082",
-      "pmid": "42359695",
+      "publishedDate": "2026-07-18",
+      "electronicPublicationDate": "2026-07-18",
+      "readingTime": "5 分钟",
+      "title": "环泊酚的药理学、临床应用及未来展望：一项叙述性综述",
+      "originalTitle": "Pharmacology, clinical applications, and future perspectives of Ciprofol: A narrative review.",
+      "abstract": "BACKGROUND: Ciprofol comes from a structural modification of the propofol molecule. Approved in China for non-intubated procedures, the induction and maintenance of general anesthesia, and sedation in the intensive care unit, it is now transiting from studies into clinical practice. This review focuses on its pharmacological basis, comparative clinical profile, and the potential to shape the future of anesthesia and sedation. MAIN BODY: Ciprofol acts on gamma-aminobutyric acid type A receptors. It has a predictable linear pharmacokinetic and pharmacodynamic relationship and well-characterized metabolic pathways. Compared to propofol, ciprofol demonstrates superior tolerability, causing significantly less injection pain, better hemodynamic stability, and a low potential for clinically relevant drug interactions. Ciprofol is likely to be a non-inferior alternative to propofol for achieving successful anesthesia and sedation that may translate into clinical benefits for various specialized patient groups. Beyond its hypnotic effects, ciprofol may possess additional therapeutic potentials. CONCLUSION: Ciprofol is transitioning from a novel structural analogue of propofol to a clinically relevant intravenous anesthetic and sedative agent with potential advantages. Future research should prioritize the clinical validation of promising preclinical and early clinical findings. These efforts will help define ciprofol's role in patient-centered anesthesia and sedation.",
+      "authors": "Yang X",
+      "citation": "J Clin Anesth. 2026 Jul 18;113:112275. doi: 10.1016/j.jclinane.2026.112275.",
+      "doi": "10.1016/j.jclinane.2026.112275",
+      "pmid": "42470835",
       "pmcid": null,
       "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [
-        "Humans",
-        "Adult",
-        "Female",
-        "Male",
-        "*Brachial Plexus Block/adverse effects/methods",
-        "Young Adult",
-        "*Pain Threshold/drug effects/physiology",
-        "Middle Aged",
-        "*Pain Measurement/methods/drug effects",
-        "*Hyperalgesia/diagnosis/chemically induced",
-        "Healthy Volunteers",
-        "Mepivacaine/administration & dosage",
-        "Anesthetics, Local/administration & dosage"
-      ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 1
-      },
-      "tags": [
-        "临床研究",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "疼痛与区域麻醉",
-        "Journal Article"
-      ],
-      "question": "该研究有助于区分术后反弹痛是单纯由未处理的残余手术痛暴露引起，还是区域麻醉导致痛阈重置而产生新的痛觉过敏状态。",
-      "conclusion": "多模式疼痛测试未发现单次腋路臂丛神经阻滞消退期间存在普遍的阻滞后超敏反应。",
-      "clinical": "单次腋路臂丛神经阻滞消退后未观察到普遍的痛觉过敏，提示反弹痛可能主要源于手术痛暴露而非阻滞本身引起的超敏状态。 临床中处理反弹痛时应优先考虑充分镇痛残余手术痛，而非针对区域麻醉导致的痛觉过敏。",
-      "evidence": "中等",
-      "score": 59,
-      "scoreBreakdown": {
-        "relevance": 23,
-        "evidenceQuality": 8,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "随机对照试验"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Healthy volunteers；40"
-        },
-        {
-          "label": "干预与比较",
-          "value": "Single-injection axillary brachial plexus block using 15 cc mepivacaine 1.5%；对照：Contralateral unblocked arm"
-        },
-        {
-          "label": "主要终点",
-          "value": "Heat pain threshold to 1 of 10 pain at 60 min after motor resolution"
-        }
-      ],
-      "keyPoints": [
-        "健康志愿者中，单次腋路臂丛神经阻滞消退后60分钟，阻滞手臂与对照手臂的1/10热痛阈值无显著差异。",
-        "多模式疼痛测试未发现普遍的阻滞后超敏反应。",
-        "对照手臂在某些模态（点状痛阈和疼痛后感觉）中表现出更高的敏感性。"
-      ],
-      "methods": "神经阻滞消退后疼痛急剧增加（反弹痛）的问题日益受到关注。目前尚不清楚反弹痛是否仅仅反映未处理的残余手术痛暴露，还是代表区域麻醉导致痛阈重置而产生的新的痛觉过敏状态。本研究在健康志愿者中评估单次腋路臂丛神经阻滞后的伤害性处理，以检测先前阻滞的手臂在无手术痛情况下是否表现出客观的超敏反应。",
-      "results": "运动恢复后60分钟，阻滞手臂与对照手臂的1/10热痛阈值无显著差异（阻滞：40.8°C ± 2.2°C；对照：41.2°C ± 2.6°C；P = 0.160）。其他感觉模态测试仅发现阻滞手臂达到5/10热痛的温度略低于对照手臂。在包括运动恢复后3小时的最大敏化值分析中，对照手臂在某些模态（点状痛阈和疼痛后感觉）中表现出更高的敏感性，但在其他模态（热痛和压力痛阈及耐受、疼痛时间总和）中无差异。",
-      "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。"
-      ],
-      "practice": [
-        "单次腋路臂丛神经阻滞消退后未观察到普遍的痛觉过敏，提示反弹痛可能主要源于手术痛暴露而非阻滞本身引起的超敏状态。",
-        "临床中处理反弹痛时应优先考虑充分镇痛残余手术痛，而非针对区域麻醉导致的痛觉过敏。"
-      ],
-      "editor": "结论基于客观定量感觉测试数据，且主要结局无统计学差异，支持结论的可靠性。 过度解读风险：低。结论与结果一致，未过度外推。",
-      "whyItMatters": "该研究有助于区分术后反弹痛是单纯由未处理的残余手术痛暴露引起，还是区域麻醉导致痛阈重置而产生新的痛觉过敏状态。",
-      "background": "神经阻滞消退后疼痛急剧增加（反弹痛）的问题日益受到关注。目前尚不清楚反弹痛是否仅仅反映未处理的残余手术痛暴露，还是代表区域麻醉导致痛阈重置而产生的新的痛觉过敏状态。本研究在健康志愿者中评估单次腋路臂丛神经阻滞后的伤害性处理，以检测先前阻滞的手臂在无手术痛情况下是否表现出客观的超敏反应。",
-      "pico": {
-        "population": "Healthy volunteers",
-        "intervention": "Single-injection axillary brachial plexus block using 15 cc mepivacaine 1.5%",
-        "comparison": "Contralateral unblocked arm",
-        "outcome": "Heat pain threshold to 1 of 10 pain at 60 min after motor resolution"
-      },
-      "studyType": "随机对照试验",
-      "sampleSize": "40",
-      "primaryOutcome": "Heat pain threshold to 1 of 10 pain at 60 min after motor resolution",
-      "effectSize": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "0.160"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "结论基于客观定量感觉测试数据，且主要结局无统计学差异，支持结论的可靠性。",
-        "overinterpretationRisk": "低。结论与结果一致，未过度外推。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42359695/",
-        "doi": "https://doi.org/10.1097/aln.0000000000006082",
-        "publisher": "https://doi.org/10.1097/aln.0000000000006082",
-        "openFullText": null
-      },
-      "electronicPublicationDate": "2026-07-14"
-    },
-    {
-      "slug": "pmid-42425142",
-      "number": "02",
-      "category": "麻醉基础研究",
-      "journal": "Anesthesia and analgesia",
-      "year": "2026",
-      "publishedDate": "2026-07-09",
-      "readingTime": "8 分钟",
-      "title": "父系七氟烷暴露通过脑性类固醇介导的跨代性别特异性神经认知效应：大鼠研究",
-      "originalTitle": "Brain Sex Steroid-Mediated Intergenerational Sex-Specific Neurocognitive Effects of Paternal Sevoflurane Exposure in Rats.",
-      "abstract": "BACKGROUND: The biological basis for the male-biased prevalence of many neurodevelopmental disorders remains poorly understood. We found that preconception exposure of male rats to sevoflurane induces persistent dysregulation of stress and inflammatory signaling, while their offspring, almost exclusively males, develop neurobehavioral abnormalities. These effects in both generations are prevented by paternal pretreatment with either the Na+/K+/2Cl- cotransporter inhibitor bumetanide or the glucocorticoid receptor antagonist RU486. Using offspring from the same treatment groups, we tested the hypothesis that dysregulation of male-specific, sex hormone-dependent brain masculinization processes during the perinatal critical period contributes to the observed male-biased abnormalities. METHODS: Sprague-Dawley F0 males were exposed to 2.1% sevoflurane for 3 hours on postnatal days (P) 56, 58, and 60. Subsets received bumetanide or RU486 30 minutes before each exposure. On P90, F0 males were mated to generate F1 offspring. On P0-P1, F1 males of sevoflurane-exposed sires received the androgen receptor (AR) antagonist flutamide, the estradiol (E2) synthesis inhibitor formestane, the estrogen receptor alpha (ERalpha) antagonist 1,3-Bis(4-hydroxyphenyl)-4-methyl-5-[4-(2-piperidinylethoxy)phenol]-1H-pyrazole dihydrochloride (MPP), or the estrogen receptor beta (ERbeta) antagonist 4-[2-Phenyl-5,7-bis(trifluoromethyl)pyrazolo[1,5-a]pyrimidin-3-yl]phenol (PHTPP) (n = 18/group). Sex steroid concentrations and hippocampal mRNA expression of enzymes and receptors involved in brain masculinization were measured in P0 F1 males from control sires (F1M_C), sevoflurane-exposed sires (F1M_S), or sires pretreated with bumetanide (F1M_BS) or RU486 (F1M_RS) (n = 6-8/group). Behavioral and stress-responsivity outcomes were assessed in adulthood. RESULTS: Compared with F1M_C, P0 F1M_S exhibited increased hippocampal testosterone (mean +/- standard error of the mean [SEM]: 1.979 +/- 0.527 vs 0.524 +/- 0.122 ng/mg; P = .008) and E2 levels (10.997 +/- 3.756 vs 2.793 +/- 0.719 ng/mg; P = .027). Hippocampal mRNA expression of the testosterone-synthesizing enzyme 17beta-hydroxysteroid dehydrogenase (1.629 +/- 0.135 vs 1.000 +/- 0.066; P = .001) and the E2-synthesizing enzyme aromatase (1.617 +/- 0.093 vs 1.000 +/- 0.070; P = .001) was also increased. In contrast, serum testosterone levels and hippocampal Ar, Eralpha, and Erbeta mRNA expression were unchanged. F1M_BS and F1M_RS did not differ from F1M_C in any of these measures. Perinatal flutamide treatment reduced stress and neuroinflammatory markers and improved sociability, anxiety-like behavior, sensorimotor gating, and spatial memory in adulthood. Formestane normalized inflammatory and behavioral abnormalities; MPP improved sociability and spatial memory; and PHTPP improved spatial memory only. CONCLUSIONS: These findings suggest that male-specific neurodevelopmental abnormalities following paternal preconception sevoflurane exposure arise from stress- and inflammation-programmed increases in brain-derived testosterone during the critical brain masculinization period, involving both AR and E2 signaling.",
-      "authors": "Ju LS, Khan ZA, Gravenstein N, Setlow B, Martynyuk AE",
-      "citation": "Anesth Analg. 2026 Jul 9. doi: 10.1213/ANE.0000000000008197.",
-      "doi": "10.1213/ane.0000000000008197",
-      "pmid": "42425142",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
       "meshTerms": [],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "publisher": "Elsevier BV",
       "crossrefVerified": true,
       "researchCategory": {
-        "id": "basic",
-        "label": "基础研究"
+        "id": "other",
+        "label": "综述/方法/其他"
       },
       "journalTier": {
         "id": "anesthesia_core",
@@ -208,218 +75,71 @@
         "priorityRank": 1
       },
       "tags": [
-        "基础研究",
+        "综述/方法/其他",
         "麻醉及围术期核心期刊",
-        "麻醉基础研究",
-        "Journal Article"
-      ],
-      "question": "该研究揭示了父系麻醉暴露可能通过非遗传机制影响子代神经发育的性别特异性机制，为理解神经发育障碍的男性偏倚提供了新视角。",
-      "conclusion": "父系七氟烷暴露通过应激和炎症编程增加子代雄性大鼠脑源性睾酮和雌二醇，导致神经发育异常，而围产期阻断雄激素或雌激素信号可改善这些异常。",
-      "clinical": "父系七氟烷暴露可能通过非遗传机制影响子代神经发育，提示麻醉管理需考虑对生殖健康的潜在跨代影响。 围产期干预（如抗雄激素或抗雌激素药物）可能逆转部分异常，但临床转化需谨慎。",
-      "evidence": "中等",
-      "score": 47,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 8,
-        "clinicalImpact": 7,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "实验性研究"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Sprague-Dawley rats (F0 males and F1 offspring)；F1 males: n=18/group for pharmacological intervention; n=6-8/group for molecular measures"
-        },
-        {
-          "label": "干预与比较",
-          "value": "F0 males exposed to 2.1% sevoflurane for 3 hours on P56, 58, 60; subsets pretreated with bumetanide or RU486. F1 males received perinatal flutamide, formestane, MPP, or PHTPP.；对照：F1 males from control sires (F1M_C) vs sevoflurane-exposed sires (F1M_S) vs sires pretreated with bumetanide (F1M_BS) or RU486 (F1M_RS)"
-        },
-        {
-          "label": "主要终点",
-          "value": "Hippocampal sex steroid concentrations and mRNA expression of enzymes and receptors involved in brain masculinization"
-        }
-      ],
-      "keyPoints": [
-        "父系七氟烷暴露增加子代雄性大鼠海马睾酮和雌二醇水平。",
-        "海马睾酮和雌二醇合成酶mRNA表达上调。",
-        "围产期阻断雄激素或雌激素信号可改善神经行为异常。",
-        "父系预处理（布美他尼或RU486）可预防子代性类固醇变化。"
-      ],
-      "methods": "许多神经发育障碍在男性中更常见，但其生物学基础尚不清楚。既往研究发现，雄性大鼠在交配前暴露于七氟烷会诱导持续的应激和炎症信号失调，其子代（几乎均为雄性）出现神经行为异常，且父系预处理可预防这些效应。本研究进一步探讨了围产期关键期脑雄性化过程中性激素失调的作用。",
-      "results": "与F1M_C相比，P0 F1M_S海马睾酮（均值±标准误：1.979±0.527 vs 0.524±0.122 ng/mg；P=0.008）和雌二醇水平（10.997±3.756 vs 2.793±0.719 ng/mg；P=0.027）升高。海马17β-羟基类固醇脱氢酶（1.629±0.135 vs 1.000±0.066；P=0.001）和芳香化酶（1.617±0.093 vs 1.000±0.070；P=0.001）mRNA表达增加。血清睾酮及海马Ar、Eralpha、Erbeta mRNA无变化。F1M_BS和F1M_RS与F1M_C无差异。围产期氟他胺降低应激和神经炎症标志物，改善社交、焦虑样行为、感觉运动门控和空间记忆。福美坦使炎症和行为异常正常化；MPP改善社交和空间记忆；PHTPP仅改善空间记忆。",
-      "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。"
-      ],
-      "practice": [
-        "父系七氟烷暴露可能通过非遗传机制影响子代神经发育，提示麻醉管理需考虑对生殖健康的潜在跨代影响。",
-        "围产期干预（如抗雄激素或抗雌激素药物）可能逆转部分异常，但临床转化需谨慎。"
-      ],
-      "editor": "结果基于大鼠实验，样本量明确，效应量及P值报告完整，结论与数据一致。 过度解读风险：低风险：结论未超出数据范围，但需注意动物实验向临床的转化限制。",
-      "whyItMatters": "该研究揭示了父系麻醉暴露可能通过非遗传机制影响子代神经发育的性别特异性机制，为理解神经发育障碍的男性偏倚提供了新视角。",
-      "background": "许多神经发育障碍在男性中更常见，但其生物学基础尚不清楚。既往研究发现，雄性大鼠在交配前暴露于七氟烷会诱导持续的应激和炎症信号失调，其子代（几乎均为雄性）出现神经行为异常，且父系预处理可预防这些效应。本研究进一步探讨了围产期关键期脑雄性化过程中性激素失调的作用。",
-      "pico": {
-        "population": "Sprague-Dawley rats (F0 males and F1 offspring)",
-        "intervention": "F0 males exposed to 2.1% sevoflurane for 3 hours on P56, 58, 60; subsets pretreated with bumetanide or RU486. F1 males received perinatal flutamide, formestane, MPP, or PHTPP.",
-        "comparison": "F1 males from control sires (F1M_C) vs sevoflurane-exposed sires (F1M_S) vs sires pretreated with bumetanide (F1M_BS) or RU486 (F1M_RS)",
-        "outcome": "Hippocampal sex steroid concentrations and mRNA expression of enzymes and receptors involved in brain masculinization"
-      },
-      "studyType": "实验性研究",
-      "sampleSize": "F1 males: n=18/group for pharmacological intervention; n=6-8/group for molecular measures",
-      "primaryOutcome": "Hippocampal sex steroid concentrations and mRNA expression of enzymes and receptors involved in brain masculinization",
-      "effectSize": [
-        "1.979±0.527 vs 0.524±0.122 ng/mg",
-        "10.997±3.756 vs 2.793±0.719 ng/mg",
-        "1.629±0.135 vs 1.000±0.066",
-        "1.617±0.093 vs 1.000±0.070"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "0.008",
-        "0.027",
-        "0.001",
-        "0.001"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "结果基于大鼠实验，样本量明确，效应量及P值报告完整，结论与数据一致。",
-        "overinterpretationRisk": "低风险：结论未超出数据范围，但需注意动物实验向临床的转化限制。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42425142/",
-        "doi": "https://doi.org/10.1213/ane.0000000000008197",
-        "publisher": "https://doi.org/10.1213/ane.0000000000008197",
-        "openFullText": null
-      }
-    },
-    {
-      "slug": "pmid-42446132",
-      "number": "03",
-      "category": "麻醉学",
-      "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
-      "year": "2026",
-      "publishedDate": "2026-07-14",
-      "readingTime": "6 分钟",
-      "title": "奥利西定对全麻后Apfel评分分层高风险患者术后恶心呕吐发生率的影响：一项前瞻性随机对照临床研究",
-      "originalTitle": "Influence of Oliceridine on the Incidence of Postoperative Nausea and Vomiting in High-Risk Patients Stratified Using Apfel Score After General Anesthesia: A Prospective, Randomized Controlled Clinical Study.",
-      "abstract": "BACKGROUND: As a typical complication, postoperative nausea and vomiting (PONV) usually occurs among patients undergoing general anesthesia surgery, diminishing postoperative satisfaction and recovery. OBJECTIVE: Herein, we applied a new G-protein-biased mu-opioid receptor agonist, oliceridine, to compare its management with fentanyl on PONV among high-risk patients receiving general anesthesia with transversus abdominis plane block (TAP). METHODS: In this prospective, double-blind, randomized controlled study, a total of 280 patients were enrolled for general anesthesia surgery, including laparoscopic cholecystectomy and laparoscopic gynecological surgery. Participants were randomly divided into either the oliceridine group or the fentanyl group at a 1: 1 ratio. Afterwards, the primary outcome was the rate of nausea and vomiting on postoperative day 2. The secondary outcomes comprised the visual analogue scale (VAS) score of PONV, intraoperative analgesic effect, rescue antiemetic treatment, hemodynamic parameters during T1-T5, postoperative pain assessment, hospitalization period, gut function, time of drink and food intake, drainage tube removal, hospitalizations, and perioperative complications. RESULTS: Among the enrolled 279 patients, oliceridine effectively reduced the occurrence of nausea (26.4% versus 12.9%, p = 0.005) and vomiting (24.3% versus 6.5%, p < 0.001). In addition, the postoperative nausea VAS score showed significantly lower in the oliceridine group compared with the fentanyl group (1.40 +/- 1.31 versus 2.01 +/- 1.79, p = 0.013), accompanied by reduced rescue antiemetic rate (17.1% versus 7.2%, p = 0.011), with stable hemodynamic condition and comparable postoperative recovery. DISCUSSION: According to our study, oliceridine may be a viable substitute for general anesthesia to ameliorate postoperative incidence of PONV, along with its impressive pain control during anesthesia induction and maintenance. CLINICAL TRIAL REGISTRATION: Chinese Clinical Trial Registry (ChiCTR2400089121).",
-      "authors": "Heng X, Xu A, Xiong Y, Ding R, Zhao J",
-      "citation": "J Invest Surg. 2026 Dec;39(1):2698141. doi: 10.1080/08941939.2026.2698141. Epub 2026 Jul 14.",
-      "doi": "10.1080/08941939.2026.2698141",
-      "pmid": "42446132",
-      "pmcid": null,
-      "publicationTypes": [
-        "Comparative Study",
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "meshTerms": [
-        "Humans",
-        "Female",
-        "*Postoperative Nausea and Vomiting/epidemiology/prevention & control/etiology",
-        "*Anesthesia, General/adverse effects",
-        "Prospective Studies",
-        "Double-Blind Method",
-        "Fentanyl/administration & dosage",
-        "Middle Aged",
-        "Incidence",
-        "Adult",
-        "*Postoperative Pain/etiology/prevention & control",
-        "Male",
-        "*Antiemetics/therapeutic use/administration & dosage",
-        "Analgesics, Opioid/adverse effects/administration & dosage",
-        "Pain Measurement",
-        "Cholecystectomy, Laparoscopic/adverse effects",
-        "Nerve Block/adverse effects/methods",
-        "Gynecologic Surgical Procedures/adverse effects",
-        "Receptors, Opioid, mu/agonists"
-      ],
-      "publisher": "Informa UK Limited",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "other",
-        "label": "其他同行评议期刊",
-        "priorityRank": 0
-      },
-      "tags": [
-        "临床研究",
         "麻醉学",
-        "疼痛与区域麻醉",
-        "Comparative Study",
-        "Journal Article"
+        "麻醉基础研究",
+        "Journal Article",
+        "Review"
       ],
-      "question": "术后恶心呕吐是全麻后常见并发症，尤其在高风险患者中影响恢复和满意度。本研究评估了一种新型G蛋白偏向性μ阿片受体激动剂奥利西定在降低PONV方面的潜力，为临床镇痛方案选择提供了新证据。",
-      "conclusion": "在高风险患者中，奥利西定相比芬太尼显著降低了术后恶心和呕吐的发生率，且血流动力学稳定，术后恢复相当。",
-      "clinical": "奥利西定可作为高风险患者全麻中减少PONV的替代阿片类药物。 奥利西定在麻醉诱导和维持期间提供良好的镇痛效果，同时降低PONV风险。 使用奥利西定可能减少术后止吐药物的需求。",
+      "question": "环泊酚作为新型静脉麻醉药，可能改善丙泊酚的耐受性和安全性，为特殊患者群体提供更优选择。",
+      "conclusion": "环泊酚作为丙泊酚的结构类似物，在麻醉和镇静中表现出非劣效性，且具有注射痛更少、血流动力学更稳定等潜在优势，但临床验证仍需进一步研究。",
+      "clinical": "环泊酚可能作为丙泊酚的非劣效替代品用于麻醉和镇静，尤其适用于对注射痛敏感或血流动力学不稳定的患者。 环泊酚具有低药物相互作用潜力，可能适用于多药联用的患者。 环泊酚可能具有超越催眠作用的额外治疗潜力，但需进一步验证。",
       "evidence": "中等",
-      "score": 67,
+      "score": 62,
       "scoreBreakdown": {
         "relevance": 18,
-        "evidenceQuality": 22,
-        "clinicalImpact": 15,
-        "journalQuality": 6,
+        "evidenceQuality": 12,
+        "clinicalImpact": 11,
+        "journalQuality": 15,
         "novelty": 6
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "前瞻性、双盲、随机对照研究，共纳入280例患者，按1:1随机分配至奥利西定组或芬太尼组，最终分析279例。"
+          "value": "叙述性综述"
         },
         {
           "label": "研究对象与样本",
-          "value": "High-risk patients (stratified using Apfel score) undergoing general anesthesia with transversus abdominis plane block (TAP) for laparoscopic cholecystectomy or laparoscopic gynecological surgery；280 patients enrolled, 279 analyzed"
+          "value": "当前可获取内容未提供该数据。；当前可获取内容未提供该数据。"
         },
         {
           "label": "干预与比较",
-          "value": "Oliceridine；对照：Fentanyl"
+          "value": "环泊酚；对照：丙泊酚"
         },
         {
           "label": "主要终点",
-          "value": "Rate of nausea and vomiting on postoperative day 2"
+          "value": "麻醉和镇静成功率、耐受性（注射痛、血流动力学稳定性、药物相互作用）"
         }
       ],
       "keyPoints": [
-        "奥利西定组术后恶心发生率12.9%，呕吐发生率6.5%，均显著低于芬太尼组。",
-        "奥利西定组术后恶心VAS评分和补救性止吐药使用率均显著降低。",
-        "两组血流动力学稳定，术后恢复无显著差异。",
-        "研究为高风险患者全麻镇痛提供了新的选择。"
+        "环泊酚是丙泊酚的结构修饰产物，作用于GABA_A受体。",
+        "与丙泊酚相比，环泊酚注射痛更少，血流动力学更稳定，药物相互作用风险低。",
+        "环泊酚在麻醉和镇静中可能非劣效于丙泊酚，但临床验证仍需进一步研究。",
+        "未来研究应优先验证临床前和早期临床发现。"
       ],
-      "methods": "术后恶心呕吐是全麻手术的典型并发症，降低术后满意度和恢复质量。奥利西定是一种新型G蛋白偏向性μ阿片受体激动剂，可能减少阿片类药物相关的恶心呕吐。本研究旨在比较奥利西定与芬太尼对接受全麻联合腹横肌平面阻滞的高风险患者PONV的影响。",
-      "results": "奥利西定组术后恶心发生率显著低于芬太尼组（12.9% vs 26.4%，p=0.005），呕吐发生率也显著降低（6.5% vs 24.3%，p<0.001）。术后恶心VAS评分奥利西定组更低（1.40±1.31 vs 2.01±1.79，p=0.013），补救性止吐药使用率更低（7.2% vs 17.1%，p=0.011）。两组血流动力学稳定，术后恢复情况相当。",
+      "methods": "环泊酚来源于丙泊酚分子的结构修饰，已在中国获批用于非插管操作、全身麻醉的诱导和维持以及重症监护室的镇静，目前正从研究转向临床实践。本综述聚焦其药理学基础、临床比较特征以及塑造麻醉和镇静未来的潜力。",
+      "results": "当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等具体数据。综述指出，与丙泊酚相比，环泊酚表现出更优的耐受性，注射痛显著减少，血流动力学更稳定，且临床相关药物相互作用可能性低。环泊酚可能是丙泊酚的非劣效替代品，可能为各种特殊患者群体带来临床获益。",
       "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。"
+        "当前可获取内容未提供该综述的局限性信息。"
       ],
       "practice": [
-        "奥利西定可作为高风险患者全麻中减少PONV的替代阿片类药物。",
-        "奥利西定在麻醉诱导和维持期间提供良好的镇痛效果，同时降低PONV风险。",
-        "使用奥利西定可能减少术后止吐药物的需求。"
+        "环泊酚可能作为丙泊酚的非劣效替代品用于麻醉和镇静，尤其适用于对注射痛敏感或血流动力学不稳定的患者。",
+        "环泊酚具有低药物相互作用潜力，可能适用于多药联用的患者。",
+        "环泊酚可能具有超越催眠作用的额外治疗潜力，但需进一步验证。"
       ],
-      "editor": "该研究为前瞻性随机对照试验，设计严谨，结果明确显示奥利西定在降低PONV方面的优势，且P值显著。 过度解读风险：中等。研究结论基于单中心数据，样本量有限，且未提供效应量和置信区间，需谨慎外推。",
-      "whyItMatters": "术后恶心呕吐是全麻后常见并发症，尤其在高风险患者中影响恢复和满意度。本研究评估了一种新型G蛋白偏向性μ阿片受体激动剂奥利西定在降低PONV方面的潜力，为临床镇痛方案选择提供了新证据。",
-      "background": "术后恶心呕吐是全麻手术的典型并发症，降低术后满意度和恢复质量。奥利西定是一种新型G蛋白偏向性μ阿片受体激动剂，可能减少阿片类药物相关的恶心呕吐。本研究旨在比较奥利西定与芬太尼对接受全麻联合腹横肌平面阻滞的高风险患者PONV的影响。",
+      "editor": "综述基于环泊酚的药理学和早期临床研究，结论有一定依据，但缺乏具体数据支持。 过度解读风险：中等。综述将观察性关联（如血流动力学更稳定）表述为潜在优势，但未明确区分统计学差异与临床获益，且未提供效应量等数据，存在过度解读风险。",
+      "whyItMatters": "环泊酚作为新型静脉麻醉药，可能改善丙泊酚的耐受性和安全性，为特殊患者群体提供更优选择。",
+      "background": "环泊酚来源于丙泊酚分子的结构修饰，已在中国获批用于非插管操作、全身麻醉的诱导和维持以及重症监护室的镇静，目前正从研究转向临床实践。本综述聚焦其药理学基础、临床比较特征以及塑造麻醉和镇静未来的潜力。",
       "pico": {
-        "population": "High-risk patients (stratified using Apfel score) undergoing general anesthesia with transversus abdominis plane block (TAP) for laparoscopic cholecystectomy or laparoscopic gynecological surgery",
-        "intervention": "Oliceridine",
-        "comparison": "Fentanyl",
-        "outcome": "Rate of nausea and vomiting on postoperative day 2"
+        "population": "当前可获取内容未提供该数据。",
+        "intervention": "环泊酚",
+        "comparison": "丙泊酚",
+        "outcome": "麻醉和镇静成功率、耐受性（注射痛、血流动力学稳定性、药物相互作用）"
       },
-      "studyType": "前瞻性、双盲、随机对照研究，共纳入280例患者，按1:1随机分配至奥利西定组或芬太尼组，最终分析279例。",
-      "sampleSize": "280 patients enrolled, 279 analyzed",
-      "primaryOutcome": "Rate of nausea and vomiting on postoperative day 2",
+      "studyType": "叙述性综述",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "当前可获取内容未提供该数据。",
       "effectSize": [
         "当前可获取内容未提供该数据。"
       ],
@@ -427,15 +147,12 @@
         "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "0.005",
-        "<0.001",
-        "0.013",
-        "0.011"
+        "当前可获取内容未提供该数据。"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "该研究为前瞻性随机对照试验，设计严谨，结果明确显示奥利西定在降低PONV方面的优势，且P值显著。",
-        "overinterpretationRisk": "中等。研究结论基于单中心数据，样本量有限，且未提供效应量和置信区间，需谨慎外推。"
+        "support": "综述基于环泊酚的药理学和早期临床研究，结论有一定依据，但缺乏具体数据支持。",
+        "overinterpretationRisk": "中等。综述将观察性关联（如血流动力学更稳定）表述为潜在优势，但未明确区分统计学差异与临床获益，且未提供效应量等数据，存在过度解读风险。"
       },
       "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
@@ -443,50 +160,46 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42446132/",
-        "doi": "https://doi.org/10.1080/08941939.2026.2698141",
-        "publisher": "https://doi.org/10.1080/08941939.2026.2698141",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42470835/",
+        "doi": "https://doi.org/10.1016/j.jclinane.2026.112275",
+        "publisher": "https://doi.org/10.1016/j.jclinane.2026.112275",
         "openFullText": null
-      },
-      "electronicPublicationDate": "2026-07-14"
+      }
     },
     {
-      "slug": "pmid-42145111",
-      "number": "04",
-      "category": "气道管理",
-      "journal": "Circulation",
+      "slug": "pmid-42475676",
+      "number": "02",
+      "category": "麻醉学",
+      "journal": "Journal of medical Internet research",
       "year": "2026",
-      "publishedDate": "2026-07-14",
-      "readingTime": "7 分钟",
-      "title": "院外心脏骤停复苏：何时EtCO₂与自主循环恢复可靠相关？",
-      "originalTitle": "Resuscitation From Out-of-Hospital Cardiac Arrest: When Is EtCO(2) Reliably Associated With ROSC?",
-      "abstract": "BACKGROUND: Exhaled end-tidal carbon dioxide (EtCO(2)) trajectory is associated with out-of-hospital cardiac arrest (OHCA) outcomes. However, the minimum EtCO(2) monitoring duration needed to discriminate return of spontaneous circulation (ROSC) from non-ROSC remains unknown. We sought to determine the EtCO(2) trajectory observation time required to differentiate ROSC from non-ROSC patients. METHODS: We performed a secondary analysis of the cluster-randomized Pragmatic Airway Resuscitation Trial (PART), which assessed endotracheal intubation or laryngeal tube strategies in OHCA resuscitation. We summarized mean EtCO(2) in 1-minute epochs over the resuscitation. Cases were stratified a priori by: (1) witnessed versus unwitnessed status, and (2) initial EtCO(2): low (</=30 mm Hg), moderate (31-49), and high (>/=50). Within each stratum, group-based trajectory modeling (GBTM) was used to identify latent EtCO(2) trajectory classes, and patients were categorized into an upward or downward trajectory. To balance trajectory groups on baseline characteristics including age, sex, race, initial rhythm, location, and bystander CPR, we applied inverse probability of treatment weighting. We fit weighted pooled logistic regression models to estimate risk ratios (RRs) for ROSC comparing upward versus downward EtCO(2) trajectories. Within each stratum, we identified the earliest minute when CIs between upward versus downward EtCO(2) trajectories no longer overlapped. RESULTS: EtCO(2) data were available for 1168 patients: 452 (38.6%) witnessed and 716 (61.1%) unwitnessed. Patients were predominantly men (63.5%), with a median age of 65 years (Q1, Q3: 53-75), majority White race (51.3%), and presenting in a nonpublic setting (85.4%). Overall ROSC was 18.2%: 30.5% of witnessed and 10.5% of unwitnessed. Among witnessed arrests, 95% CI for upward versus downward EtCO(2) trajectories no longer overlapped at 8 minutes for low initial EtCO(2) (RR, 3.06; 95% CI, 1.49, 6.71), 12 minutes for moderate EtCO(2) (RR, 1.95; 95% CI, 1.23, 3.48), and 21 minutes for high EtCO(2) (RR, 2.12; 95% CI, 1.30, 3.73). Among unwitnessed arrests, nonoverlapping CIs were first observed at 7 minutes (RR, 3.56; 95% CI, 1.53, 10.37). CONCLUSIONS: Depending on witness status and initial EtCO(2), between 7 and 21 minutes of monitoring are needed to reliably differentiate upward from downward EtCO(2) trajectories during OHCA resuscitation. Dynamic EtCO(2) trajectory monitoring may provide early prognostic information to guide resuscitation.",
-      "authors": "Nassal MMJ, Smith RM, Aramendi E, Elola A, Jaureguibeitia X, Idris AH, Daya MR, Carlson JN, et al.",
-      "citation": "Circulation. 2026 Jul 14;154(2):88-95. doi: 10.1161/CIRCULATIONAHA.125.077980. Epub 2026 May 18.",
-      "doi": "10.1161/circulationaha.125.077980",
-      "pmid": "42145111",
-      "pmcid": "PMC13250922",
+      "publishedDate": "2026-07-20",
+      "electronicPublicationDate": "2026-07-20",
+      "readingTime": "8 分钟",
+      "title": "基于6中心数据的全身麻醉管理AI辅助决策支持系统的临床评估：比较研究",
+      "originalTitle": "Clinical Evaluation of an AI-Assisted Decision Support System for General Anesthesia Management Based on Data From 6 Centers: Comparative Study.",
+      "abstract": "BACKGROUND: AI is rapidly transforming medical practice, with emerging applications in perioperative care and anesthesiology. However, the clinical implementation of AI-assisted decision-making systems in anesthetic management remains challenging and requires comprehensive evaluation. OBJECTIVE: This study aimed to assess the performance and clinical applicability of an AI-assisted decision support system (ZW-AA-001) for general anesthesia management by comparing its decisions with those of experienced anesthesiologists across 6 medical centers. METHODS: A multicenter retrospective study was conducted using perioperative data from 1008 patients who underwent elective noncardiac surgeries under total intravenous anesthesia. The AI system's recommendations for anesthetic and hemodynamic medication adjustments were compared with anesthesiologists' decisions. Key outcomes included decision concordance rates, temporal performance, and consistency across centers. Advanced statistical methods, including prevalence-adjusted and bias-adjusted kappa (PABAK) and Gwet's first-order agreement coefficient (AC1), were used to evaluate agreement metrics. RESULTS: The study included 1008 patients, with a median age of 50 (IQR 37-59) years and female predominance (619/1008, 61.4%). During anesthesia maintenance, the AI system demonstrated moderate overall decision agreement with anesthesiologists (73.3%, 95% CI 72.4%-74.3%). Analysis of center-specific data revealed generally consistent performance across all 6 centers. For propofol management, high concordance was observed in dosage adjustment decisions (91.1%, 95% CI 90.4%-91.8%), though fair agreement was found in adjustment direction (68.6%, 95% CI 67.3%-69.8%). The AI system showed significantly faster decision-making time compared to anesthesiologists for the adjustment of propofol (pseudomedian difference -77.5, 95% CI -79.5 to -75.5 seconds; P<.001). Although esmolol-related decisions showed a numerically higher concordance of 71.4%, this was not statistically significant (PABAK=0.429; P=.21; AC1=0.622; P=.09). Decisions for atropine, ephedrine, and urapidil demonstrated substantially lower agreement (17.4%-29.8%). The AI system recommended hemodynamic interventions more frequently than anesthesiologists across all medications. CONCLUSIONS: The AI-assisted decision support system demonstrated varying levels of concordance with anesthesiologists in managing surgery, with the highest agreement observed in propofol administration. However, the system's lower agreement in hemodynamic medication management highlights the need for further optimization and validation. These findings underscore the potential of AI systems to enhance anesthetic decision-making, improve efficiency, and address workforce challenges in anesthesiology. Future research should focus on expanding the system's capabilities, validating its performance in prospective clinical trials, and ensuring its integration into diverse clinical settings.",
+      "authors": "Chen D, Xue Q, Wang G, Mu S, Zeng Z, Xu B, Li S, Chen Y, et al.",
+      "citation": "J Med Internet Res. 2026 Jul 20;28:e90023. doi: 10.2196/90023.",
+      "doi": "10.2196/90023",
+      "pmid": "42475676",
+      "pmcid": null,
       "publicationTypes": [
+        "Comparative Study",
         "Journal Article",
-        "Pragmatic Clinical Trial",
-        "Randomized Controlled Trial"
+        "Multicenter Study"
       ],
       "meshTerms": [
         "Humans",
-        "*Out-of-Hospital Cardiac Arrest/therapy/physiopathology/diagnosis",
         "Female",
-        "*Carbon Dioxide/metabolism/analysis",
-        "*Cardiopulmonary Resuscitation/methods",
-        "Male",
-        "Aged",
-        "*Return of Spontaneous Circulation",
+        "Retrospective Studies",
         "Middle Aged",
-        "Tidal Volume",
-        "Exhalation",
-        "Capnography",
-        "Time Factors"
+        "*Anesthesia, General/methods",
+        "Adult",
+        "*Decision Support Systems, Clinical",
+        "Male",
+        "*Artificial Intelligence"
       ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "publisher": "JMIR Publications Inc.",
       "crossrefVerified": true,
       "researchCategory": {
         "id": "clinical",
@@ -499,18 +212,19 @@
       },
       "tags": [
         "临床研究",
-        "气道管理",
-        "Journal Article",
-        "Pragmatic Clinical Trial"
+        "麻醉学",
+        "麻醉基础研究",
+        "Comparative Study",
+        "Journal Article"
       ],
-      "question": "该研究确定了区分ROSC与非ROSC所需的最小EtCO₂监测时间，为临床医生在复苏过程中早期判断预后提供了时间窗，有助于优化复苏策略。",
-      "conclusion": "在院外心脏骤停复苏中，根据目击状态和初始EtCO₂水平，需要7至21分钟的监测才能可靠区分上升与下降的EtCO₂轨迹，从而预测自主循环恢复。",
-      "clinical": "在OHCA复苏中，动态监测EtCO₂轨迹至少7-21分钟（取决于目击状态和初始EtCO₂）可提供早期预后信息，指导是否继续或调整复苏措施。 对于有目击者且初始EtCO₂低的患者，8分钟即可区分轨迹，可能较早提示ROSC可能性。 对于无目击者患者，7分钟即可区分轨迹，但效应量较大（RR=3.56），需注意置信区间较宽。",
-      "evidence": "中等",
-      "score": 65,
+      "question": "该研究评估了AI系统在全身麻醉管理中的临床适用性，揭示了其在提高决策效率方面的潜力，同时指出了在血流动力学管理中的不足，为AI在麻醉领域的应用提供了重要参考。",
+      "conclusion": "AI辅助决策支持系统在丙泊酚管理方面与麻醉医师具有较高一致性，但在血流动力学药物管理方面一致性较低，需进一步优化。",
+      "clinical": "AI系统在丙泊酚管理方面表现出较高一致性，可能有助于标准化麻醉维持中的药物调整。 AI系统在血流动力学药物管理方面一致性较低，提示当前版本尚不能完全替代麻醉医师的临床判断。 AI系统决策速度更快，可能提高麻醉管理效率，但需注意其过度干预的风险。",
+      "evidence": "中等偏高",
+      "score": 68,
       "scoreBreakdown": {
-        "relevance": 18,
-        "evidenceQuality": 22,
+        "relevance": 23,
+        "evidenceQuality": 20,
         "clinicalImpact": 11,
         "journalQuality": 6,
         "novelty": 8
@@ -518,116 +232,115 @@
       "study": [
         {
           "label": "研究设计",
-          "value": "对集群随机实用临床试验（PART）的二次分析，采用基于组的轨迹建模（GBTM）识别潜在EtCO₂轨迹类别，并通过逆概率治疗加权平衡基线特征，使用加权合并逻辑回归估计风险比。"
+          "value": "多中心回顾性研究，纳入6个医疗中心1008例患者，比较AI系统与麻醉医师在麻醉维持期间的决策一致性。"
         },
         {
           "label": "研究对象与样本",
-          "value": "Out-of-hospital cardiac arrest patients from the Pragmatic Airway Resuscitation Trial (PART)；1168 patients (452 witnessed, 716 unwitnessed)"
+          "value": "Patients who underwent elective noncardiac surgeries under total intravenous anesthesia；1008"
         },
         {
           "label": "干预与比较",
-          "value": "Upward EtCO2 trajectory；对照：Downward EtCO2 trajectory"
+          "value": "AI-assisted decision support system (ZW-AA-001) recommendations for anesthetic and hemodynamic medication adjustments；对照：Decisions of experienced anesthesiologists"
         },
         {
           "label": "主要终点",
-          "value": "Return of spontaneous circulation (ROSC)"
+          "value": "Decision concordance rates"
         }
       ],
       "keyPoints": [
-        "在OHCA复苏中，EtCO₂轨迹监测需要7-21分钟才能可靠区分ROSC与非ROSC。",
-        "所需时间取决于目击状态和初始EtCO₂水平：有目击者低初始EtCO₂需8分钟，中等需12分钟，高需21分钟；无目击者需7分钟。",
-        "上升轨迹与ROSC风险增加相关，但P值未报告。",
-        "该研究为动态EtCO₂监测在复苏中的预后价值提供了时间窗依据。"
+        "AI系统在丙泊酚剂量调整决策上与麻醉医师高度一致（91.1%），且决策时间显著缩短。",
+        "AI系统在血流动力学药物（如阿托品、麻黄碱、乌拉地尔）决策上一致性低（17.4%-29.8%）。",
+        "AI系统更频繁地推荐血流动力学干预，但临床意义尚不明确。",
+        "研究未报告不良事件数据，安全性需进一步评估。"
       ],
-      "methods": "呼气末二氧化碳（EtCO₂）轨迹与院外心脏骤停（OHCA）结局相关，但区分自主循环恢复（ROSC）与非ROSC所需的最小EtCO₂监测时长尚不清楚。",
-      "results": "在有目击者心脏骤停中，低初始EtCO₂（≤30 mm Hg）组在8分钟时上升与下降轨迹的95% CI不再重叠（RR=3.06, 95% CI 1.49-6.71）；中等初始EtCO₂（31-49 mm Hg）组在12分钟时（RR=1.95, 95% CI 1.23-3.48）；高初始EtCO₂（≥50 mm Hg）组在21分钟时（RR=2.12, 95% CI 1.30-3.73）。在无目击者心脏骤停中，首次观察到非重叠CI的时间为7分钟（RR=3.56, 95% CI 1.53-10.37）。P值未提供。",
+      "methods": "AI正在快速改变医疗实践，在围术期护理和麻醉学中出现了新兴应用。然而，AI辅助决策系统在麻醉管理中的临床实施仍具挑战性，需要全面评估。",
+      "results": "在麻醉维持期间，AI系统与麻醉医师的总体决策一致性为73.3%（95% CI 72.4%-74.3%）。丙泊酚剂量调整决策一致性高（91.1%，95% CI 90.4%-91.8%），但调整方向一致性一般（68.6%，95% CI 67.3%-69.8%）。AI系统在丙泊酚调整决策时间上显著快于麻醉医师（伪中位数差-77.5秒，95% CI -79.5至-75.5秒，P<.001）。艾司洛尔相关决策一致性为71.4%，但未达统计学意义（PABAK=0.429，P=.21；AC1=0.622，P=.09）。阿托品、麻黄碱和乌拉地尔的决策一致性较低（17.4%-29.8%）。AI系统比麻醉医师更频繁地推荐血流动力学干预。",
       "limitations": [
         "当前可获取内容未提供该研究的局限性信息。"
       ],
       "practice": [
-        "在OHCA复苏中，动态监测EtCO₂轨迹至少7-21分钟（取决于目击状态和初始EtCO₂）可提供早期预后信息，指导是否继续或调整复苏措施。",
-        "对于有目击者且初始EtCO₂低的患者，8分钟即可区分轨迹，可能较早提示ROSC可能性。",
-        "对于无目击者患者，7分钟即可区分轨迹，但效应量较大（RR=3.56），需注意置信区间较宽。"
+        "AI系统在丙泊酚管理方面表现出较高一致性，可能有助于标准化麻醉维持中的药物调整。",
+        "AI系统在血流动力学药物管理方面一致性较低，提示当前版本尚不能完全替代麻醉医师的临床判断。",
+        "AI系统决策速度更快，可能提高麻醉管理效率，但需注意其过度干预的风险。"
       ],
-      "editor": "该研究基于随机对照试验的二次分析，采用加权方法控制混杂，结果具有中等证据强度。 过度解读风险：低。结论明确基于非重叠置信区间，未过度推断因果关系，且区分了不同亚组。",
-      "whyItMatters": "该研究确定了区分ROSC与非ROSC所需的最小EtCO₂监测时间，为临床医生在复苏过程中早期判断预后提供了时间窗，有助于优化复苏策略。",
-      "background": "呼气末二氧化碳（EtCO₂）轨迹与院外心脏骤停（OHCA）结局相关，但区分自主循环恢复（ROSC）与非ROSC所需的最小EtCO₂监测时长尚不清楚。",
+      "editor": "该研究基于多中心回顾性数据，样本量较大，使用PABAK和AC1等高级统计方法评估一致性，结果较为可靠。 过度解读风险：研究为回顾性设计，无法建立因果关系；AI系统与麻醉医师的一致性不等同于临床获益，需谨慎解读。",
+      "whyItMatters": "该研究评估了AI系统在全身麻醉管理中的临床适用性，揭示了其在提高决策效率方面的潜力，同时指出了在血流动力学管理中的不足，为AI在麻醉领域的应用提供了重要参考。",
+      "background": "AI正在快速改变医疗实践，在围术期护理和麻醉学中出现了新兴应用。然而，AI辅助决策系统在麻醉管理中的临床实施仍具挑战性，需要全面评估。",
       "pico": {
-        "population": "Out-of-hospital cardiac arrest patients from the Pragmatic Airway Resuscitation Trial (PART)",
-        "intervention": "Upward EtCO2 trajectory",
-        "comparison": "Downward EtCO2 trajectory",
-        "outcome": "Return of spontaneous circulation (ROSC)"
+        "population": "Patients who underwent elective noncardiac surgeries under total intravenous anesthesia",
+        "intervention": "AI-assisted decision support system (ZW-AA-001) recommendations for anesthetic and hemodynamic medication adjustments",
+        "comparison": "Decisions of experienced anesthesiologists",
+        "outcome": "Decision concordance rates"
       },
-      "studyType": "对集群随机实用临床试验（PART）的二次分析，采用基于组的轨迹建模（GBTM）识别潜在EtCO₂轨迹类别，并通过逆概率治疗加权平衡基线特征，使用加权合并逻辑回归估计风险比。",
-      "sampleSize": "1168 patients (452 witnessed, 716 unwitnessed)",
-      "primaryOutcome": "Return of spontaneous circulation (ROSC)",
+      "studyType": "多中心回顾性研究，纳入6个医疗中心1008例患者，比较AI系统与麻醉医师在麻醉维持期间的决策一致性。",
+      "sampleSize": "1008",
+      "primaryOutcome": "Decision concordance rates",
       "effectSize": [
-        "RR=3.06",
-        "RR=1.95",
-        "RR=2.12",
-        "RR=3.56"
+        "pseudomedian difference -77.5 seconds for propofol adjustment decision-making time"
       ],
       "confidenceInterval": [
-        "95% CI=1.49, 6.71",
-        "95% CI=1.23, 3.48",
-        "95% CI=1.30, 3.73",
-        "95% CI=1.53, 10.37"
+        "95% CI -79.5 to -75.5 seconds for propofol adjustment decision-making time"
       ],
       "pValue": [
-        "当前可获取内容未提供该数据。"
+        "P<.001 for propofol adjustment decision-making time",
+        "P=.21 for esmolol-related decisions (PABAK)",
+        "P=.09 for esmolol-related decisions (AC1)"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "该研究基于随机对照试验的二次分析，采用加权方法控制混杂，结果具有中等证据强度。",
-        "overinterpretationRisk": "低。结论明确基于非重叠置信区间，未过度推断因果关系，且区分了不同亚组。"
+        "support": "该研究基于多中心回顾性数据，样本量较大，使用PABAK和AC1等高级统计方法评估一致性，结果较为可靠。",
+        "overinterpretationRisk": "研究为回顾性设计，无法建立因果关系；AI系统与麻醉医师的一致性不等同于临床获益，需谨慎解读。"
       },
-      "analysisBasis": "摘要+开放全文分析",
+      "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
       "aiModel": "deepseek-v4-flash",
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42145111/",
-        "doi": "https://doi.org/10.1161/circulationaha.125.077980",
-        "publisher": "https://doi.org/10.1161/circulationaha.125.077980",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13250922/"
-      },
-      "electronicPublicationDate": "2026-05-18"
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42475676/",
+        "doi": "https://doi.org/10.2196/90023",
+        "publisher": "https://doi.org/10.2196/90023",
+        "openFullText": null
+      }
     },
     {
-      "slug": "pmid-42443769",
-      "number": "05",
+      "slug": "pmid-42464120",
+      "number": "03",
       "category": "麻醉学",
-      "journal": "BMC emergency medicine",
+      "journal": "BMC anesthesiology",
       "year": "2026",
-      "publishedDate": "2026-07-13",
-      "readingTime": "7 分钟",
-      "title": "复苏后院前紧急麻醉用于将声门上气道装置更换为气管插管——一项多中心观察性研究",
-      "originalTitle": "Post-resuscitation pre-hospital emergency anaesthesia for exchange of a supraglottic airway device with an endotracheal tube - a multicentre observational study.",
-      "abstract": "BACKGROUND: Post-resuscitation pre-hospital emergency anaesthesia (PHEA) for changing a supraglottic airway device (SGA) to an endotracheal tube (ETT) after out-of-hospital cardiac arrest may improve airway management but carries potential risks, particularly related to haemodynamic instability. This study investigates its association with complications during post-resuscitation care. METHODS: All Emergency Medical Service missions in the districts Gutersloh, Dresden and Lippe from 2019 to 2021 were analysed for out-of-hospital cardiac arrest and supplemented with data from the German Resuscitation Register. Unconscious adult, pre-hospitally resuscitated patients who had an SGA changed to an ETT following pre-hospital return of spontaneous circulation and who had spontaneous circulation on admission to hospital were included. We compared patients with and without PHEA. The primary endpoint was the occurrence of haemodynamic complications during post-resuscitation therapy, defined as re-arrest, hypotension or antihypotensive therapy. For statistical analysis, propensity score matching was performed adjusting for age, sex, pre-existing disease, shockable initial cardiac rhythm, bystander CPR and witnessed arrest. RESULTS: Of 2,305 cardiac arrest patients in 391,305 Emergency Medical Service missions, 706 (30.6%) had return of spontaneous circulation and 202 met our inclusion criteria. 126 of those patients (62.4%) received PHEA to facilitate changing an SGA to an ETT. The propensity score analysis showed no evidence for differences in the odds of occurrence of at least one haemodynamic complication (OR=1.50 [95% CI=0.72-3.11; p=0.28]), airway complication (OR=1.00 [95% CI=0.25-4.00; p=1.00]), re-arrest (OR=0.39 [95% CI=0.14-1.08; p=0.07]), hypotension (OR=1.39 [95% CI=0.68-2.83; p=0.37]) or antihypotensive therapy (OR=1.58 [95% CI=0.77-3.26; p=0.21]) between patients having their SGA changed to an ETT following PHEA compared to patients who had their SGA changed to an ETT without PHEA. CONCLUSIONS: The study provided no statistical evidence for increased odds of complications associated with the delivery or omission of pre-hospital emergency anaesthesia during exchange from a supraglottic airway device to an endotracheal tube in resuscitated out-of-hospital cardiac arrest patients. CLINICAL TRIAL NUMBER: Not applicable.",
-      "authors": "Bokamp J, Latka E, Bernhard M, Deicke M, Fischer D, Grannemann J, Hinkelbein J, Keller Y, et al.",
-      "citation": "BMC Emerg Med. 2026 Jul 13;26(1):194. doi: 10.1186/s12873-026-01668-8.",
-      "doi": "10.1186/s12873-026-01668-8",
-      "pmid": "42443769",
-      "pmcid": "PMC13366920",
+      "publishedDate": "2026-07-17",
+      "electronicPublicationDate": "2026-07-17",
+      "readingTime": "6 分钟",
+      "title": "超声引导竖脊肌平面阻滞与鞘内吗啡用于择期腰椎融合术全麻患者术后镇痛的随机对照试验",
+      "originalTitle": "Comparison of ultrasound-guided erector spinae plane block to intrathecal morphine for postoperative analgesia in patients undergoing elective lumbar fusion operations under general anesthesia: a randomized controlled trial.",
+      "abstract": "BACKGROUND: Postoperative (PO) pain management after spine surgery is challenging. For such surgeries, erector spinae plane block (ESPB) and intrathecal morphine (ITM) may offer effective PO analgesia. However, the lack of availability of US machines in low-resource settings and proper dose of ITM that confine the side effects may limit the use of either. Nalbuphine presents an effective approach for managing opioid-induced pruritus without diminishing PO pain relief. In first 24 h after lumbar fusion operations under general anesthesia, the researchers examined effectiveness of bilateral ultrasound (US)-guided ESPB on PO pain and analgesic intake in comparison with ITM. METHODS: One hundred twenty patients premedicated with 4 mg intravenous ondansetron were randomized into group E; bilateral US-guided ESPB, group M; ITM (0.2 mg) or group C; control group. Time to first rescue analgesic (ketorolac) was the primary outcome while parameters of PO analgesic regimen and side effects were considered as secondary outcomes. RESULTS: Compared to C group, E & M groups had longer duration to first rescue analgesic and reduced analgesic consumption within 24 h postoperatively (P < 0.001). Twenty-four hours after surgery, the M group had lower pain scores (P < 0.001) and higher rates of nausea and pruritus (P < 0.001) than the other two groups without any cases of respiratory depression. CONCLUSIONS: The analgesic effect of 0.2 mg intrathecal morphine after lumbar fusion operation under general anesthesia provided lower pain scores and lower analgesic demands than erector spinae plane block at the expense of a higher incidence of manageable side effects of intrathecal morphine within the first 24 h postoperatively. IRB: FMASU MD 102/2022. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05338320. The date that the clinical trial was registered in the ClinicalTrials.gov. : April 14, 2022.",
+      "authors": "Ashoor TM, Abdelaal HAS, Elewa GEM, Esmat IM, Rabie AH, Ibrahim AIS, Mohamed AK",
+      "citation": "BMC Anesthesiol. 2026 Jul 17;26(1):430. doi: 10.1186/s12871-026-04030-4.",
+      "doi": "10.1186/s12871-026-04030-4",
+      "pmid": "42464120",
+      "pmcid": "PMC13377722",
       "publicationTypes": [
+        "Comparative Study",
         "Journal Article",
-        "Multicenter Study",
-        "Observational Study"
+        "Randomized Controlled Trial"
       ],
       "meshTerms": [
         "Humans",
+        "*Morphine/administration & dosage",
         "Female",
-        "*Intubation, Intratracheal/instrumentation",
-        "*Out-of-Hospital Cardiac Arrest/therapy",
+        "*Postoperative Pain/drug therapy/prevention & control",
         "Male",
-        "Aged",
+        "*Ultrasonography, Interventional/methods",
+        "Anesthesia, General/methods",
+        "*Analgesics, Opioid/administration & dosage",
+        "*Nerve Block/methods",
+        "*Spinal Fusion/methods",
         "Middle Aged",
-        "*Emergency Medical Services/methods",
-        "*Cardiopulmonary Resuscitation",
-        "Germany",
-        "*Airway Management/instrumentation/methods",
-        "*Anesthesia/methods"
+        "Injections, Spinal",
+        "Adult",
+        "Lumbar Vertebrae/surgery",
+        "Elective Surgical Procedures/methods"
       ],
       "publisher": "Springer Science and Business Media LLC",
       "crossrefVerified": true,
@@ -643,100 +356,89 @@
       "tags": [
         "临床研究",
         "麻醉学",
-        "气道管理",
-        "Journal Article",
-        "Multicenter Study"
+        "疼痛与区域麻醉",
+        "Comparative Study",
+        "Journal Article"
       ],
-      "question": "该研究探讨了院前紧急麻醉在复苏后气道管理中的安全性，为临床决策提供了观察性证据，但需注意其非随机设计的局限性。",
-      "conclusion": "在院外心脏骤停复苏后患者中，将声门上气道装置更换为气管插管时，使用或不使用院前紧急麻醉，其并发症发生率的统计学差异不显著。",
-      "clinical": "院前紧急麻醉用于SGA更换为ETT时，未显著增加血流动力学或气道并发症的风险。 观察到的再次心脏骤停风险降低（OR=0.39）但未达统计学意义，需进一步研究。 研究结果不支持常规使用或避免院前紧急麻醉，决策应个体化。",
-      "evidence": "中等",
-      "score": 60,
+      "question": "该研究直接比较了两种常用术后镇痛技术（ESPB与ITM）在腰椎融合术中的效果和副作用，为临床决策提供了证据。",
+      "conclusion": "在腰椎融合术后24小时内，0.2 mg鞘内吗啡比竖脊肌平面阻滞提供更低的疼痛评分和更少的镇痛需求，但代价是更高的恶心和瘙痒发生率。",
+      "clinical": "ESPB和ITM均可延长首次镇痛时间并减少术后镇痛药消耗，但ITM在术后24小时提供更优的疼痛控制。 ITM组恶心和瘙痒发生率显著高于ESPB组，需权衡镇痛获益与副作用。 纳布啡可用于处理阿片类药物引起的瘙痒而不影响镇痛效果。",
+      "evidence": "中等偏高",
+      "score": 68,
       "scoreBreakdown": {
         "relevance": 23,
-        "evidenceQuality": 18,
-        "clinicalImpact": 9,
+        "evidenceQuality": 22,
+        "clinicalImpact": 11,
         "journalQuality": 6,
-        "novelty": 4
+        "novelty": 6
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "多中心观察性研究，基于德国三个地区2019-2021年急救医疗服务数据及德国复苏登记数据，采用倾向评分匹配分析。"
+          "value": "随机对照试验，120例患者随机分为E组（ESPB）、M组（ITM）和C组（对照组），104例纳入分析（E组35例，M组34例，C组35例）。"
         },
         {
           "label": "研究对象与样本",
-          "value": "Unconscious adult, pre-hospitally resuscitated patients who had an SGA changed to an ETT following pre-hospital return of spontaneous circulation and who had spontaneous circulation on admission to hospital；202 patients (126 with PHEA, 76 without PHEA) after propensity score matching: 62 matched pairs"
+          "value": "120 patients with ASA physical status 1-2, aged 21-55 years, undergoing elective lumbar spine fusion surgery under general anesthesia；120 randomized, 104 analyzed (E-group 35, M-group 34, C-group 35)"
         },
         {
           "label": "干预与比较",
-          "value": "Pre-hospital emergency anaesthesia (PHEA) to facilitate changing a supraglottic airway device (SGA) to an endotracheal tube (ETT)；对照：No pre-hospital emergency anaesthesia (PHEA) during SGA to ETT exchange"
+          "value": "Bilateral ultrasound-guided erector spinae plane block (ESPB) with 20 mL 0.25% bupivacaine；对照：Intrathecal morphine (ITM) 0.2 mg (group M) and control (group C, sham blocks)"
         },
         {
           "label": "主要终点",
-          "value": "Occurrence of at least one haemodynamic complication (re-arrest, hypotension, or antihypotensive therapy)"
+          "value": "Time to first rescue analgesic (ketorolac)"
         }
       ],
       "keyPoints": [
-        "多中心观察性研究，纳入202例院外心脏骤停后SGA更换为ETT的患者。",
-        "倾向评分匹配后，PHEA组与无PHEA组在血流动力学并发症上无统计学差异（OR=1.50, 95% CI 0.72-3.11, p=0.28）。",
-        "次要结局（气道并发症、再次心脏骤停、低血压、抗低血压治疗）均无统计学差异。",
-        "研究局限性包括回顾性设计、样本量小、数据缺失等，结果需谨慎解读。"
+        "120例患者随机分组，104例完成分析。",
+        "主要结局：首次补救镇痛时间，E组和M组均显著长于C组（P < 0.001）。",
+        "M组术后24小时疼痛评分最低，但恶心（64.7%）和瘙痒（32.4%）发生率最高。",
+        "无呼吸抑制病例。",
+        "ESPB组副作用发生率较低（恶心8.6%，瘙痒5.7%）。"
       ],
-      "methods": "院外心脏骤停后，将声门上气道装置更换为气管插管时，院前紧急麻醉可能改善气道管理，但存在血流动力学不稳定的风险。本研究旨在评估其与并发症的关联。",
-      "results": "共纳入202例患者（126例接受PHEA，76例未接受），倾向评分匹配后形成62对匹配对。主要终点：PHEA组与无PHEA组至少发生一种血流动力学并发症的比值比为1.50（95% CI 0.72-3.11，p=0.28），无统计学差异。次要终点：气道并发症OR=1.00（95% CI 0.25-4.00，p=1.00）；再次心脏骤停OR=0.39（95% CI 0.14-1.08，p=0.07）；低血压OR=1.39（95% CI 0.68-2.83，p=0.37）；抗低血压治疗OR=1.58（95% CI 0.77-3.26，p=0.21）。所有比较均未达到统计学显著性。",
+      "methods": "脊柱手术后疼痛管理具有挑战性。竖脊肌平面阻滞（ESPB）和鞘内吗啡（ITM）均可提供有效术后镇痛，但超声设备在资源匮乏地区的缺乏以及ITM合适剂量以限制副作用可能限制其应用。纳布啡可有效处理阿片类药物引起的瘙痒而不减弱术后镇痛效果。",
+      "results": "与C组相比，E组和M组首次补救镇痛时间更长，术后24小时镇痛药消耗更少（P < 0.001）。术后24小时，M组疼痛评分低于其他两组（P < 0.001），但恶心和瘙痒发生率更高（P < 0.001），无呼吸抑制病例。具体数据：首次请求镇痛时间（小时）：E组20.9±1.9，M组22.4±1.4，C组1.3±0.5；24小时纳布啡总消耗量（mg）：E组33.9±7.4，M组26.8±6.0，C组39.4±8.5；酮咯酸补救次数：E组1.4±0.5，M组1.0±0.0，C组3.2±0.8。",
       "limitations": [
-        "回顾性设计，存在选择偏倚。",
-        "基线血流动力学状态和血管加压药使用时机数据不完整。",
-        "无创血压测量可能不够准确。",
-        "数据缺失，尤其是既往病史。",
-        "仅纳入入院时仍有自主循环的患者，存在幸存者偏倚。",
-        "倾向评分匹配后样本量减少至62对，统计效能有限。",
-        "未评估患者相关的长期结局。",
-        "院后复苏管理未标准化。"
+        "单中心研究，可能缺乏外部效度。",
+        "未进行成本效益分析。",
+        "ESPB中未使用其他佐剂（如地塞米松）。",
+        "未评估镇静与通气之间的相互作用。"
       ],
       "practice": [
-        "院前紧急麻醉用于SGA更换为ETT时，未显著增加血流动力学或气道并发症的风险。",
-        "观察到的再次心脏骤停风险降低（OR=0.39）但未达统计学意义，需进一步研究。",
-        "研究结果不支持常规使用或避免院前紧急麻醉，决策应个体化。"
+        "ESPB和ITM均可延长首次镇痛时间并减少术后镇痛药消耗，但ITM在术后24小时提供更优的疼痛控制。",
+        "ITM组恶心和瘙痒发生率显著高于ESPB组，需权衡镇痛获益与副作用。",
+        "纳布啡可用于处理阿片类药物引起的瘙痒而不影响镇痛效果。"
       ],
-      "editor": "研究结果基于倾向评分匹配的观察性数据，提供了中等强度的支持，但无法排除混杂因素。 过度解读风险：中等风险。结论中“无统计学证据”不应被解读为“无差异”，且观察性设计不能推断因果关系。",
-      "whyItMatters": "该研究探讨了院前紧急麻醉在复苏后气道管理中的安全性，为临床决策提供了观察性证据，但需注意其非随机设计的局限性。",
-      "background": "院外心脏骤停后，将声门上气道装置更换为气管插管时，院前紧急麻醉可能改善气道管理，但存在血流动力学不稳定的风险。本研究旨在评估其与并发症的关联。",
+      "editor": "研究设计为随机对照试验，样本量适中，主要结局和次要结局明确，统计结果支持结论。 过度解读风险：结论中“代价是更高的副作用发生率”表述合理，但需注意副作用为可管理，且未报告严重不良事件。",
+      "whyItMatters": "该研究直接比较了两种常用术后镇痛技术（ESPB与ITM）在腰椎融合术中的效果和副作用，为临床决策提供了证据。",
+      "background": "脊柱手术后疼痛管理具有挑战性。竖脊肌平面阻滞（ESPB）和鞘内吗啡（ITM）均可提供有效术后镇痛，但超声设备在资源匮乏地区的缺乏以及ITM合适剂量以限制副作用可能限制其应用。纳布啡可有效处理阿片类药物引起的瘙痒而不减弱术后镇痛效果。",
       "pico": {
-        "population": "Unconscious adult, pre-hospitally resuscitated patients who had an SGA changed to an ETT following pre-hospital return of spontaneous circulation and who had spontaneous circulation on admission to hospital",
-        "intervention": "Pre-hospital emergency anaesthesia (PHEA) to facilitate changing a supraglottic airway device (SGA) to an endotracheal tube (ETT)",
-        "comparison": "No pre-hospital emergency anaesthesia (PHEA) during SGA to ETT exchange",
-        "outcome": "Occurrence of at least one haemodynamic complication (re-arrest, hypotension, or antihypotensive therapy)"
+        "population": "120 patients with ASA physical status 1-2, aged 21-55 years, undergoing elective lumbar spine fusion surgery under general anesthesia",
+        "intervention": "Bilateral ultrasound-guided erector spinae plane block (ESPB) with 20 mL 0.25% bupivacaine",
+        "comparison": "Intrathecal morphine (ITM) 0.2 mg (group M) and control (group C, sham blocks)",
+        "outcome": "Time to first rescue analgesic (ketorolac)"
       },
-      "studyType": "多中心观察性研究，基于德国三个地区2019-2021年急救医疗服务数据及德国复苏登记数据，采用倾向评分匹配分析。",
-      "sampleSize": "202 patients (126 with PHEA, 76 without PHEA) after propensity score matching: 62 matched pairs",
-      "primaryOutcome": "Occurrence of at least one haemodynamic complication (re-arrest, hypotension, or antihypotensive therapy)",
+      "studyType": "随机对照试验，120例患者随机分为E组（ESPB）、M组（ITM）和C组（对照组），104例纳入分析（E组35例，M组34例，C组35例）。",
+      "sampleSize": "120 randomized, 104 analyzed (E-group 35, M-group 34, C-group 35)",
+      "primaryOutcome": "Time to first rescue analgesic (ketorolac)",
       "effectSize": [
-        "OR=1.50",
-        "OR=1.00",
-        "OR=0.39",
-        "OR=1.39",
-        "OR=1.58"
+        "Time to first request for analgesia (h): E-group 20.9 ± 1.9, M-group 22.4 ± 1.4, C-group 1.3 ± 0.5",
+        "Total nalbuphine consumption (mg)/24 h: E-group 33.9 ± 7.4, M-group 26.8 ± 6.0, C-group 39.4 ± 8.5",
+        "Number of rescue doses of ketorolac: E-group 1.4 ± 0.5, M-group 1.0 ± 0.0, C-group 3.2 ± 0.8"
       ],
       "confidenceInterval": [
-        "0.72-3.11",
-        "0.25-4.00",
-        "0.14-1.08",
-        "0.68-2.83",
-        "0.77-3.26"
+        "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "0.28",
-        "1.00",
-        "0.07",
-        "0.37",
-        "0.21"
+        "P < 0.001 for primary outcome and most secondary outcomes",
+        "P < 0.001 for pain scores at 24 h",
+        "P < 0.001 for nausea and pruritus rates"
       ],
-      "adverseEvents": "Haemodynamic complications occurred in 64.5% (PHEA) vs 54.8% (no PHEA); re-arrest 14.5% vs 27.4%; hypotension 61.3% vs 53.2%; antihypotensive therapy 61.3% vs 50.0%; airway complications 6.5% vs 6.5%.",
+      "adverseEvents": "M-group had higher rates of nausea (64.7%) and pruritus (32.4%) than E-group (8.6% and 5.7%) and C-group (34.3% and 8.6%). No respiratory depression in any group.",
       "aiAssessment": {
-        "support": "研究结果基于倾向评分匹配的观察性数据，提供了中等强度的支持，但无法排除混杂因素。",
-        "overinterpretationRisk": "中等风险。结论中“无统计学证据”不应被解读为“无差异”，且观察性设计不能推断因果关系。"
+        "support": "研究设计为随机对照试验，样本量适中，主要结局和次要结局明确，统计结果支持结论。",
+        "overinterpretationRisk": "结论中“代价是更高的副作用发生率”表述合理，但需注意副作用为可管理，且未报告严重不良事件。"
       },
       "analysisBasis": "摘要+开放全文分析",
       "analysisStatus": "ai_complete",
@@ -744,12 +446,309 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42443769/",
-        "doi": "https://doi.org/10.1186/s12873-026-01668-8",
-        "publisher": "https://doi.org/10.1186/s12873-026-01668-8",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13366920/"
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42464120/",
+        "doi": "https://doi.org/10.1186/s12871-026-04030-4",
+        "publisher": "https://doi.org/10.1186/s12871-026-04030-4",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13377722/"
+      }
+    },
+    {
+      "slug": "pmid-42469995",
+      "number": "04",
+      "category": "疼痛与区域麻醉",
+      "journal": "Medicine",
+      "year": "2026",
+      "publishedDate": "2026-07-17",
+      "electronicPublicationDate": null,
+      "readingTime": "7 分钟",
+      "title": "颈竖脊肌平面阻滞与颈浅丛阻滞在颈椎前路椎间盘切除融合术后镇痛中的疗效比较：一项前瞻性随机研究",
+      "originalTitle": "Comparative efficacy of cervical erector spinae plane block and superficial cervical plexus block for postoperative analgesia in anterior cervical discectomy and fusion: A prospective randomized study.",
+      "abstract": "BACKGROUND: Anterior cervical discectomy and fusion (ACDF) is a commonly performed procedure for cervical disc disease; however, significant postoperative pain may hinder recovery and increase opioid consumption. This study compared the efficacy of cervical erector spinae plane block (cESPB) and superficial cervical plexus block (sCPB) techniques in ACDF. METHODS: This prospective, randomized study included American Society of Anesthesiologists (ASA) class I-II patients aged 18 to 65 years who underwent ACDF surgery for cervical (C)5-C6 or C6-C7 disc disease. Patients were randomly assigned to 1 of 2 groups according to the regional block technique administered: cESPB (n = 20) and sCPB (n = 20). Perioperative propofol and remifentanil consumption were recorded. While the primary outcomes were the Quality of Recovery-15 (QoR-15) and Visual Analog Scale (VAS) scores, the secondary outcomes included analgesic consumption, the incidence of postoperative nausea and vomiting (PONV), and the presence of shoulder and neck myofascial pain. RESULTS: Total intraoperative propofol and remifentanil requirements were similar between the groups (P = .362 and P = .058, respectively). Intraoperative remifentanil consumption was higher in the sCPB group during T2, T3, and T4 (P = .004, P < .001, and P = .018, respectively). QoR-15 scores were significantly higher in the cESPB group than in the sCPB group (121.45 +/- 6.48 vs 114.15 +/- 8.19; P = .003; MD: 7.30; 95% CI: 2.57-12.03; Cohen d = 0.99). PCA infusion volumes at PCA6, PCA12, and PCA24 were significantly lower in the cESPB group (18.32 +/- 8.68 vs 26.10 +/- 11.12 mL, 33.35 +/- 13.83 vs 43.70 +/- 14.78 mL, and 53.30 +/- 16.45 vs 65.05 +/- 19.09 mL, respectively; P = .019, P = .028, and P = .044; Cohen d = -0.78, -0.72, and -0.66, respectively). VAS scores, PONV incidence, and shoulder/neck myofascial pain were similar between the groups (P > .05), with small effect sizes observed across all VAS measurements. CONCLUSIONS: In patients undergoing ACDF surgery, cESPB was associated with higher postoperative QoR-15 scores and lower postoperative PCA consumption compared with sCPB. However, these findings should be interpreted with caution, as the compared interventions differed in laterality, total local anesthetic volume, and potential dermatomal coverage. Therefore, the observed associations may not be attributable solely to the block technique itself.",
+      "authors": "Mendes E, Adiyeke O, Sarban O, Yilmaz I",
+      "citation": "Medicine (Baltimore). 2026 Jul 17;105(29):e49791. doi: 10.1097/MD.0000000000049791.",
+      "doi": "10.1097/md.0000000000049791",
+      "pmid": "42469995",
+      "pmcid": "PMC13384543",
+      "publicationTypes": [
+        "Comparative Study",
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "meshTerms": [
+        "Humans",
+        "Female",
+        "*Diskectomy/methods/adverse effects",
+        "Prospective Studies",
+        "*Postoperative Pain/drug therapy/prevention & control",
+        "Middle Aged",
+        "Adult",
+        "Male",
+        "*Cervical Vertebrae/surgery",
+        "*Cervical Plexus Block/methods",
+        "*Spinal Fusion/methods/adverse effects",
+        "Remifentanil",
+        "*Nerve Block/methods",
+        "Pain Measurement",
+        "Cervical Plexus",
+        "Postoperative Nausea and Vomiting/epidemiology",
+        "Paraspinal Muscles",
+        "Analgesics, Opioid/administration & dosage/therapeutic use",
+        "Propofol/administration & dosage",
+        "Aged"
+      ],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床研究"
+      },
+      "journalTier": {
+        "id": "other",
+        "label": "其他同行评议期刊",
+        "priorityRank": 0
+      },
+      "tags": [
+        "临床研究",
+        "疼痛与区域麻醉",
+        "麻醉基础研究",
+        "Comparative Study",
+        "Journal Article"
+      ],
+      "question": "ACDF术后疼痛管理对患者恢复至关重要，该研究比较了两种区域阻滞技术的镇痛效果，为临床选择提供了初步证据。",
+      "conclusion": "在ACDF手术患者中，与颈浅丛阻滞相比，颈竖脊肌平面阻滞可提高术后24小时QoR-15评分并减少PCA镇痛药用量，但两组间VAS评分、PONV及肌筋膜疼痛无显著差异。",
+      "clinical": "cESPB可能改善ACDF术后早期恢复质量并减少阿片类药物需求。 两种阻滞技术的VAS评分无差异，提示cESPB的临床镇痛优势可能有限。 两组局部麻醉药总量、阻滞侧别及皮节覆盖范围不同，结果需谨慎解读。",
+      "evidence": "中等",
+      "score": 65,
+      "scoreBreakdown": {
+        "relevance": 22,
+        "evidenceQuality": 22,
+        "clinicalImpact": 11,
+        "journalQuality": 6,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "前瞻性随机对照试验，共纳入40例患者（每组20例）。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "ASA I-II patients aged 18-65 years undergoing ACDF for C5-C6 or C6-C7 disc disease；40 (20 per group)"
+        },
+        {
+          "label": "干预与比较",
+          "value": "cervical erector spinae plane block (cESPB) bilaterally with 10 mL 0.25% bupivacaine per side；对照：superficial cervical plexus block (sCPB) unilaterally with 10 mL 0.25% bupivacaine"
+        },
+        {
+          "label": "主要终点",
+          "value": "Quality of Recovery-15 (QoR-15) scores and Visual Analog Scale (VAS) scores at 24 hours postoperatively"
+        }
+      ],
+      "keyPoints": [
+        "cESPB组术后24小时QoR-15评分显著高于sCPB组（P=0.003）。",
+        "cESPB组术后6、12、24小时PCA曲马多用量显著低于sCPB组（P均<0.05）。",
+        "两组VAS评分、PONV及肌筋膜疼痛无显著差异。",
+        "两组在局部麻醉药总量、侧别及皮节覆盖上存在差异，结果需谨慎解读。"
+      ],
+      "methods": "颈椎前路椎间盘切除融合术（ACDF）是治疗颈椎间盘疾病的常用手术，但术后显著疼痛可能阻碍恢复并增加阿片类药物用量。本研究比较了颈竖脊肌平面阻滞（cESPB）与颈浅丛阻滞（sCPB）在ACDF中的疗效。",
+      "results": "cESPB组术后24小时QoR-15评分显著高于sCPB组（121.45±6.48 vs 114.15±8.19；P=0.003；均数差7.30，95%CI 2.57-12.03；Cohen d=0.99）。cESPB组术后6、12、24小时PCA输注量均显著低于sCPB组（18.32±8.68 vs 26.10±11.12 mL，P=0.019；33.35±13.83 vs 43.70±14.78 mL，P=0.028；53.30±16.45 vs 65.05±19.09 mL，P=0.044；Cohen d分别为-0.78、-0.72、-0.66）。两组间VAS评分、PONV发生率及肌筋膜疼痛无显著差异（P>0.05）。",
+      "limitations": [
+        "两组局部麻醉药总量、侧别及皮节覆盖范围不同，可能混淆结果。",
+        "缺乏无阻滞对照组。",
+        "样本量较小（每组20例）。",
+        "样本量计算基于不同手术背景的QoR-15数据。",
+        "多个次要结局未完全校正I类错误。",
+        "缺乏膈神经麻痹的客观评估。",
+        "神经病理性疼痛和全身镇痛药可能造成混杂。"
+      ],
+      "practice": [
+        "cESPB可能改善ACDF术后早期恢复质量并减少阿片类药物需求。",
+        "两种阻滞技术的VAS评分无差异，提示cESPB的临床镇痛优势可能有限。",
+        "两组局部麻醉药总量、阻滞侧别及皮节覆盖范围不同，结果需谨慎解读。"
+      ],
+      "editor": "研究设计为前瞻性随机对照，主要结局有统计学差异，效应量中等至大。 过度解读风险：中等。两组干预措施在侧别、药量和皮节覆盖上存在差异，作者已指出观察到的关联可能不完全归因于阻滞技术本身。",
+      "whyItMatters": "ACDF术后疼痛管理对患者恢复至关重要，该研究比较了两种区域阻滞技术的镇痛效果，为临床选择提供了初步证据。",
+      "background": "颈椎前路椎间盘切除融合术（ACDF）是治疗颈椎间盘疾病的常用手术，但术后显著疼痛可能阻碍恢复并增加阿片类药物用量。本研究比较了颈竖脊肌平面阻滞（cESPB）与颈浅丛阻滞（sCPB）在ACDF中的疗效。",
+      "pico": {
+        "population": "ASA I-II patients aged 18-65 years undergoing ACDF for C5-C6 or C6-C7 disc disease",
+        "intervention": "cervical erector spinae plane block (cESPB) bilaterally with 10 mL 0.25% bupivacaine per side",
+        "comparison": "superficial cervical plexus block (sCPB) unilaterally with 10 mL 0.25% bupivacaine",
+        "outcome": "Quality of Recovery-15 (QoR-15) scores and Visual Analog Scale (VAS) scores at 24 hours postoperatively"
+      },
+      "studyType": "前瞻性随机对照试验，共纳入40例患者（每组20例）。",
+      "sampleSize": "40 (20 per group)",
+      "primaryOutcome": "Quality of Recovery-15 (QoR-15) scores and Visual Analog Scale (VAS) scores at 24 hours postoperatively",
+      "effectSize": [
+        "Cohen d = 0.99 for QoR-15",
+        "Cohen d = -0.78 for PCA6",
+        "Cohen d = -0.72 for PCA12",
+        "Cohen d = -0.66 for PCA24"
+      ],
+      "confidenceInterval": [
+        "95% CI: 2.57-12.03 for QoR-15 MD",
+        "95% CI: -14.19 to -1.41 for PCA6 MD",
+        "95% CI: -19.51 to -1.19 for PCA12 MD",
+        "95% CI: -23.16 to -0.34 for PCA24 MD"
+      ],
+      "pValue": [
+        "P = .003 for QoR-15",
+        "P = .019 for PCA6",
+        "P = .028 for PCA12",
+        "P = .044 for PCA24"
+      ],
+      "adverseEvents": "No perioperative complications observed. PONV: 30% sCPB vs 20% cESPB (P = .465). Hemodynamic events (hypotension, bradycardia) occurred during TIVA, not attributed to blocks.",
+      "aiAssessment": {
+        "support": "研究设计为前瞻性随机对照，主要结局有统计学差异，效应量中等至大。",
+        "overinterpretationRisk": "中等。两组干预措施在侧别、药量和皮节覆盖上存在差异，作者已指出观察到的关联可能不完全归因于阻滞技术本身。"
+      },
+      "analysisBasis": "摘要+开放全文分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42469995/",
+        "doi": "https://doi.org/10.1097/md.0000000000049791",
+        "publisher": "https://doi.org/10.1097/md.0000000000049791",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13384543/"
+      }
+    },
+    {
+      "slug": "pmid-42475613",
+      "number": "05",
+      "category": "老年围术期",
+      "journal": "Nursing",
+      "year": "2026",
+      "publishedDate": "2026-07-20",
+      "electronicPublicationDate": "2026-07-20",
+      "readingTime": "6 分钟",
+      "title": "抚触疗法对冠状动脉旁路移植术恢复效果的评估：一项随机对照试验",
+      "originalTitle": "Evaluation of the effect of Healing Touch on coronary artery bypass grafting recovery: A randomized controlled trial.",
+      "abstract": "BACKGROUND: Healing Touch (HT) is used to provide holistic care, improve outcomes, and provide comfort. However, there is minimal published literature on its effects among inpatients undergoing coronary artery bypass grafting (CABG), who often experience anxiety, postoperative atrial fibrillation, and postoperative delirium. PURPOSE: To explore the effects of HT on preoperative and postoperative anxiety and postoperative rates of atrial fibrillation and delirium among patients who are having CABG surgery. METHODS: This randomized controlled trial collected data over 9 months at a 489-bed, level II trauma center and 5-time Magnet-designated hospital in the midwestern United States. A total of 111 HT sessions (37 preoperative and 74 postoperative) were provided to the 37 patients in the intervention group. The 42 control group participants received standard nursing care, including pharmacologic, nonpharmacologic, and educational interventions. Data collection included administering the Subjective Units of Distress Scale (SUDS) and conducting a retrospective chart review for postoperative atrial fibrillation rates and Confusion Assessment Method scores. Descriptive statistics, paired and unpaired sample t-tests, and chi-square tests were used for analysis. RESULTS: Among the intervention group participants, patient-reported SUDS scores decreased after receiving an HT session (P < .01), indicating lower levels of anxiety and distress for both preoperative and postoperative phases. No statistically significant difference in the incidence of atrial fibrillation or delirium was found between the intervention and control groups. CONCLUSION: The study findings suggest that HT may be an effective intervention to reduce preoperative and postoperative anxiety among patients undergoing CABG surgery.",
+      "authors": "Klein B, Wilson R, Berndt J",
+      "citation": "Nursing. 2026 Aug 1;56(8):49-55. doi: 10.1097/NSG.0000000000000440. Epub 2026 Jul 20.",
+      "doi": "10.1097/nsg.0000000000000440",
+      "pmid": "42475613",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "meshTerms": [
+        "Humans",
+        "*Coronary Artery Bypass/psychology",
+        "Female",
+        "Male",
+        "*Therapeutic Touch/methods",
+        "Middle Aged",
+        "Anxiety/prevention & control",
+        "Aged",
+        "Atrial Fibrillation/prevention & control",
+        "Delirium/prevention & control",
+        "Postoperative Complications/prevention & control",
+        "Midwestern United States"
+      ],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床研究"
+      },
+      "journalTier": {
+        "id": "other",
+        "label": "其他同行评议期刊",
+        "priorityRank": 0
+      },
+      "tags": [
+        "临床研究",
+        "老年围术期",
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "question": "为围术期焦虑管理提供非药物干预证据，但需进一步验证其对临床结局的改善。",
+      "conclusion": "抚触疗法可降低CABG患者术前和术后焦虑，但对房颤或谵妄发生率无显著影响。",
+      "clinical": "HT可作为围术期焦虑管理的辅助非药物手段，但需更多证据支持其对硬终点的改善。 麻醉医师可考虑将HT纳入多模式围术期护理方案。",
+      "evidence": "中等",
+      "score": 56,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 22,
+        "clinicalImpact": 11,
+        "journalQuality": 6,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "随机对照试验，在美国中西部一家489张床位、II级创伤中心和5次Magnet认证医院进行，数据收集持续9个月。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Patients undergoing coronary artery bypass grafting (CABG) surgery；当前可获取内容未提供该数据。"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Healing Touch (HT) sessions (37 preoperative and 74 postoperative)；对照：Standard nursing care including pharmacologic, nonpharmacologic, and educational interventions"
+        },
+        {
+          "label": "主要终点",
+          "value": "Preoperative and postoperative anxiety measured by Subjective Units of Distress Scale (SUDS)"
+        }
+      ],
+      "keyPoints": [
+        "HT可降低CABG患者术前和术后焦虑（SUDS评分，P<0.01）。",
+        "HT对术后房颤和谵妄发生率无显著影响。",
+        "样本量：干预组37例，对照组42例。",
+        "效应量和95%CI未报告。"
+      ],
+      "methods": "抚触疗法用于提供整体护理、改善结局和舒适度，但关于其对CABG住院患者（常伴焦虑、术后房颤和谵妄）影响的文献有限。",
+      "results": "干预组37例，对照组42例。干预组患者在接受HT疗程后SUDS评分下降（P < .01），表明术前和术后焦虑水平降低。两组房颤或谵妄发生率无统计学显著差异。效应量、95%CI未报告。",
+      "limitations": [
+        "样本量较小（干预组37例，对照组42例），可能影响统计效能。",
+        "未报告效应量和95%CI，难以评估临床意义。",
+        "单中心设计，外推性受限。"
+      ],
+      "practice": [
+        "HT可作为围术期焦虑管理的辅助非药物手段，但需更多证据支持其对硬终点的改善。",
+        "麻醉医师可考虑将HT纳入多模式围术期护理方案。"
+      ],
+      "editor": "研究设计为RCT，结果提示HT可降低焦虑，但主要终点为患者报告结局，且对硬终点无显著影响。 过度解读风险：中等：结论中“可能有效”需谨慎，因缺乏效应量和CI，且未校正多重比较。",
+      "whyItMatters": "为围术期焦虑管理提供非药物干预证据，但需进一步验证其对临床结局的改善。",
+      "background": "抚触疗法用于提供整体护理、改善结局和舒适度，但关于其对CABG住院患者（常伴焦虑、术后房颤和谵妄）影响的文献有限。",
+      "pico": {
+        "population": "Patients undergoing coronary artery bypass grafting (CABG) surgery",
+        "intervention": "Healing Touch (HT) sessions (37 preoperative and 74 postoperative)",
+        "comparison": "Standard nursing care including pharmacologic, nonpharmacologic, and educational interventions",
+        "outcome": "Preoperative and postoperative anxiety measured by Subjective Units of Distress Scale (SUDS)"
+      },
+      "studyType": "随机对照试验，在美国中西部一家489张床位、II级创伤中心和5次Magnet认证医院进行，数据收集持续9个月。",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "Preoperative and postoperative anxiety measured by Subjective Units of Distress Scale (SUDS)",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "< .01"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "研究设计为RCT，结果提示HT可降低焦虑，但主要终点为患者报告结局，且对硬终点无显著影响。",
+        "overinterpretationRisk": "中等：结论中“可能有效”需谨慎，因缺乏效应量和CI，且未校正多重比较。"
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42475613/",
+        "doi": "https://doi.org/10.1097/nsg.0000000000000440",
+        "publisher": "https://doi.org/10.1097/nsg.0000000000000440",
+        "openFullText": null
       }
     }
-  ],
-  "metadataRepairedAt": "2026-07-15T17:54:56.670Z"
+  ]
 }
