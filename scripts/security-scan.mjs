@@ -2,7 +2,11 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
-const targets = ["out", "public", "data/generated", "data/state", "data/usage", "data/logs/latest-public-summary.json"];
+const targets = [
+  "out", "public", "app", "src", "scripts", ".github", "config",
+  "package.json", ".env.example", "data/generated", "data/state", "data/usage",
+  "data/logs/latest-public-summary.json", "data/logs/latest-email-summary.json",
+];
 const allowedExtensions = new Set([".html", ".js", ".css", ".json", ".xml", ".txt", ".map"]);
 const patterns = [
   { name: "authorization-header", regex: /authorization\s*[:=]\s*["']?(?:bearer|basic)\s+[a-z0-9._~+\/-]{12,}/i },

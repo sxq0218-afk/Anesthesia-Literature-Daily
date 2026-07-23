@@ -15,8 +15,7 @@ if (edition?.mode !== "production" || !edition.articles?.length || edition.artic
 const client = createButtondownClient(buttondownConfigFromEnv(env));
 const email = buildButtondownEmail(edition, { siteUrl: env.SITE_URL });
 const summaryFile = path.join(rootDir, "data/logs/latest-email-summary.json");
-const existing = await client.findEmailBySubject(email.subject);
-if (existing && ["about_to_send", "scheduled", "sent"].includes(existing.status)) {
+async function recordExistingDelivery(existing) {
   await writeJsonAtomic(summaryFile, {
     version: 1,
     provider: "buttondown",
@@ -24,9 +23,14 @@ if (existing && ["about_to_send", "scheduled", "sent"].includes(existing.status)
     status: "already-sent",
     remoteEmailId: existing.id,
     remoteStatus: existing.status,
-    updatedAt: new Date().toISOString(),
+    updatedAt: existing.modification_date || existing.creation_date || edition.generatedAt,
   });
   console.log(JSON.stringify({ status: "already-sent", editionId: email.editionId, remoteStatus: existing.status }, null, 2));
+}
+
+const existing = await client.findEmailBySubject(email.subject);
+if (existing && ["about_to_send", "scheduled", "sent"].includes(existing.status)) {
+  await recordExistingDelivery(existing);
   process.exit(0);
 }
 if (existing && existing.status !== "draft") {
@@ -43,7 +47,21 @@ let draft = existing;
 if (draft?.status === "draft") {
   draft = await client.updateDraft(draft.id, { body: email.body, description: email.description, canonical_url: env.SITE_URL || "", slug: email.slug });
 } else {
-  draft = await client.createDraft({ ...email, canonicalUrl: env.SITE_URL || "", metadata: { edition_id: email.editionId, source: "anesthesia-literature-daily" } });
+  try {
+    draft = await client.createDraft({ ...email, canonicalUrl: env.SITE_URL || "", metadata: { edition_id: email.editionId, source: "anesthesia-literature-daily" } });
+  } catch (error) {
+    // A timeout can occur after Buttondown accepted the POST. Recover by
+    // looking up the unique subject before allowing a later rerun to create a
+    // second draft.
+    const recovered = await client.findEmailBySubject(email.subject).catch(() => null);
+    if (!recovered) throw error;
+    if (["about_to_send", "scheduled", "sent"].includes(recovered.status)) {
+      await recordExistingDelivery(recovered);
+      process.exit(0);
+    }
+    if (recovered.status !== "draft") throw error;
+    draft = recovered;
+  }
 }
 const queued = await client.queueDraft(draft.id);
 await writeJsonAtomic(summaryFile, {

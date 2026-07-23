@@ -18,6 +18,8 @@ const BASIC_FOCUS_TERMS = [
   "desflurane", "ketamine", "dexmedetomidine", "local anesthetic", "local anaesthetic", "nociception",
   "pain mechanism", "analgesia", "analgesic",
 ];
+const ANIMAL_MODEL_PATTERN = /\b(mice|mouse|murine|rats?|rabbits?|swine|porcine|canine|dogs?|nonhuman primates?)\b/i;
+const CLINICAL_DESIGN_PATTERN = /\b(randomi[sz]ed|clinical trial|controlled trial|cohort|case-control|prospective|retrospective|multicent(?:er|re)|patients?|participants?|volunteers?|adults?|children|infants?|neonates?)\b/i;
 
 export function classifyResearchCategory(record) {
   const types = record.publicationTypes || [];
@@ -30,14 +32,16 @@ export function classifyResearchCategory(record) {
   const basicType = types.some(type => BASIC_TYPES.some(value => type.toLowerCase().includes(value.toLowerCase())));
   const nonPrimaryType = types.some(type => NON_PRIMARY_TYPES.some(value => type.toLowerCase() === value.toLowerCase()));
   const patientSignal = /\b(patient|patients|participants|volunteers|subjects|cohort)\b/i.test(text);
+  const explicitAnimalModel = ANIMAL_MODEL_PATTERN.test(text);
+  const clinicalDesignSignal = CLINICAL_DESIGN_PATTERN.test(text);
   const isProtocol = /\b(protocol|study protocol)\b/i.test(record.title) || types.some(type => /protocol/i.test(type));
 
-  if (basicType || (hasAnimals && !hasHumans) || (basicSignals >= 2 && !clinicalType && !patientSignal)) {
+  if (basicType || (hasAnimals && !hasHumans) || (explicitAnimalModel && !hasHumans && !patientSignal) || (basicSignals >= 2 && !clinicalType && !patientSignal)) {
     return { id: "basic", label: "基础研究" };
   }
   if (isProtocol) return { id: "other", label: "综述/方法/其他" };
   if (nonPrimaryType && !clinicalType) return { id: "other", label: "综述/方法/其他" };
-  if (clinicalType || (hasHumans && patientSignal)) return { id: "clinical", label: "临床研究" };
+  if (clinicalType || clinicalDesignSignal || (hasHumans && patientSignal)) return { id: "clinical", label: "临床研究" };
   return { id: "other", label: "综述/方法/其他" };
 }
 

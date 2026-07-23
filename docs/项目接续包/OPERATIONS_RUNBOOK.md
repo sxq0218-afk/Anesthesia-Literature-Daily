@@ -66,6 +66,15 @@ GitHub：
 
 `already-published`或`already-sent`表示重复运行保护生效，不应强行重发。
 
+正式顺序为：
+
+1. 生成并验证简报、历史页和RSS；
+2. 把正式内容与`published`状态提交到仓库；
+3. 通过Buttondown发送同一期邮件；
+4. 把脱敏投递摘要提交到仓库。
+
+第2步失败时不会发送邮件；第3步失败时保留已验证内容并明确报错。不要手工颠倒这个顺序。
+
 ## 标准测试
 
 ```bash
@@ -74,6 +83,7 @@ npm run test:email
 npm run test:deployment
 npm run security:scan
 npm run build:edgeone
+npm audit --omit=dev --omit=optional
 ```
 
 预期：
@@ -82,6 +92,9 @@ npm run build:edgeone
 - 安全扫描`findings=0`；
 - 静态构建成功；
 - 不出现API Key、Authorization或Bearer泄漏。
+- 正式运行依赖审计显示`found 0 vulnerabilities`。
+
+完整`npm audit`可能继续提示仅用于构建的可选Sharp或未启用的示例数据库工具。不要执行会把Next.js降级到旧主版本的`npm audit fix --force`；先核对上游是否已经发布兼容修复。
 
 ## Token与费用
 
@@ -124,7 +137,15 @@ npm run build:edgeone
 
 - 检查账户是否仍可发送。
 - 检查`BUTTONDOWN_API_KEY`、权限和`EMAIL_DELIVERY_ENABLED`。
+- 读取类408、429、5xx和网络超时会按`BUTTONDOWN_RETRY_COUNT`重试。
+- 写请求不会盲目重试；响应丢失时会先按当日期次查询既有草稿，避免重复创建。
 - 不能用Demo结果冒充发送成功。
+
+### PMC全文超过AI输入上限
+
+- 系统自动降级为“摘要+开放全文节选分析”，不会因此中断整期。
+- 摘要完整保留，全文只使用安全长度内的前后文节选。
+- 页面会明确显示节选依据，不得手工改成“全文分析”。
 
 ### Git push提示publickey错误
 

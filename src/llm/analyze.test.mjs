@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { analyzeArticle } from "./analyze.mjs";
+import { analyzeArticle, prepareAnalysisSource } from "./analyze.mjs";
 
 const record = {
   title: "Test anesthesia study",
@@ -85,4 +85,13 @@ test("retries structured extraction once after deterministic validation failure"
   assert.equal(result.extractionSanitized, true);
   assert.equal(result.regenerated, true);
   assert.equal(result.extracted.sample_size, null);
+});
+
+test("keeps the abstract and safely excerpts an oversized open full text", () => {
+  const source = prepareAnalysisSource(record, "A".repeat(90000), 60000);
+  assert.equal(source.basis, "摘要+开放全文节选分析");
+  assert.equal(source.truncated, true);
+  assert.match(source.analysisText, new RegExp(record.abstract));
+  assert.match(source.analysisText, /分析未覆盖全文全部内容/);
+  assert.ok(source.analysisText.length <= 30000);
 });

@@ -28,3 +28,22 @@ test("public pages use no overseas public CDN", async () => {
   const source = (await Promise.all(files.map(file => fs.readFile(path.join(root, file), "utf8")))).join("\n");
   for (const host of ["fonts.googleapis.com", "fonts.gstatic.com", "unpkg.com", "jsdelivr.net", "cdnjs.cloudflare.com", "google-analytics.com"]) assert.equal(source.includes(host), false);
 });
+
+test("production admin routes contain only the static not-found response", async () => {
+  for (const file of ["out/admin/ai/index.html", "out/admin/ai-usage/index.html"]) {
+    const html = await fs.readFile(path.join(root, file), "utf8");
+    assert.match(html, /id="__next_error__"/);
+    assert.match(html, /NEXT_HTTP_ERROR_FALLBACK;404/);
+    assert.doesNotMatch(html, /API Base URL|每日成本限制|最近调用记录|deepseek/i);
+  }
+});
+
+test("scheduled email workflow persists a validated edition before delivery", async () => {
+  const workflow = await fs.readFile(path.join(root, ".github/workflows/daily-email.yml"), "utf8");
+  const prepare = workflow.indexOf("npm run publication:prepare");
+  const persist = workflow.indexOf("保存并推送已验证期次");
+  const send = workflow.indexOf("npm run email:send-daily");
+  assert.ok(prepare >= 0 && persist > prepare && send > persist);
+  assert.match(workflow, /cron: "37 0 \* \* \*"/);
+  assert.match(workflow, /concurrency:[\s\S]*cancel-in-progress: false/);
+});

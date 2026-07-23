@@ -4,16 +4,41 @@ import { deterministicChecks, qualityIssues, sanitizeUnsupportedNumericClaims } 
 function addUsage(total, usage) {
   if (!usage) return total;
   return {
+    calls: Number(total.calls || 0) + 1,
     promptTokens: total.promptTokens + Number(usage.prompt_tokens || 0),
     completionTokens: total.completionTokens + Number(usage.completion_tokens || 0),
     totalTokens: total.totalTokens + Number(usage.total_tokens || 0),
   };
 }
 
-export async function analyzeArticle({ record, fullText, generateAI }) {
-  const basis = fullText ? "摘要+开放全文分析" : "摘要分析";
-  const analysisText = fullText ? `摘要：${record.abstract}\n\n开放全文：${fullText}` : record.abstract;
-  let usage = { promptTokens: 0, completionTokens: 0, totalTokens: 0 };
+export function prepareAnalysisSource(record, fullText, maxInputChars = 60000) {
+  const abstract = String(record.abstract || "").trim();
+  if (!fullText) return { basis: "摘要分析", analysisText: abstract, truncated: false };
+
+  const prefix = `摘要：${abstract}\n\n开放全文：`;
+  const sourceBudget = Math.max(8000, Math.min(30000, Number(maxInputChars || 60000) - 24000));
+  const availableForFullText = Math.max(1000, sourceBudget - prefix.length);
+  const normalizedFullText = String(fullText).trim();
+  if (normalizedFullText.length <= availableForFullText) {
+    return { basis: "摘要+开放全文分析", analysisText: `${prefix}${normalizedFullText}`, truncated: false };
+  }
+
+  const marker = "\n\n[开放全文过长，以下为自动截取的末段；分析未覆盖全文全部内容]\n\n";
+  const excerptBudget = Math.max(500, availableForFullText - marker.length);
+  const headLength = Math.ceil(excerptBudget * 0.65);
+  const tailLength = excerptBudget - headLength;
+  const excerpt = `${normalizedFullText.slice(0, headLength)}${marker}${normalizedFullText.slice(-tailLength)}`;
+  return {
+    basis: "摘要+开放全文节选分析",
+    analysisText: `${prefix}${excerpt}`,
+    truncated: true,
+  };
+}
+
+export async function analyzeArticle({ record, fullText, generateAI, maxInputChars = 60000 }) {
+  const source = prepareAnalysisSource(record, fullText, maxInputChars);
+  const { basis, analysisText } = source;
+  let usage = { calls: 0, promptTokens: 0, completionTokens: 0, totalTokens: 0 };
 
   let extractionResponse = await generateAI({
     system: extractionSystemPrompt,
@@ -91,6 +116,7 @@ export async function analyzeArticle({ record, fullText, generateAI }) {
     quality: qualityResponse.data,
     extractionRetried,
     extractionSanitized,
+    sourceTruncated: source.truncated,
     regenerated,
     usage,
     model: synthesisResponse.model,

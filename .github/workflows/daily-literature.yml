@@ -41,6 +41,7 @@ jobs:
       EMAIL_PROVIDER: ${{ vars.EMAIL_PROVIDER }}
       BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
       BUTTONDOWN_API_BASE_URL: https://api.buttondown.com/v1
+      BUTTONDOWN_RETRY_COUNT: "3"
       BUTTONDOWN_SUBSCRIBER_LIMIT: ${{ vars.BUTTONDOWN_SUBSCRIBER_LIMIT }}
       NEXT_PUBLIC_BUTTONDOWN_USERNAME: ${{ vars.NEXT_PUBLIC_BUTTONDOWN_USERNAME }}
       NEXT_PUBLIC_SUBSCRIPTION_EMAIL: ${{ vars.NEXT_PUBLIC_SUBSCRIPTION_EMAIL }}
@@ -93,7 +94,7 @@ jobs:
       - name: 检查公开数据和链接
         run: npm run test:deployment
 
-      - name: 扫描密钥和境外公共CDN依赖
+      - name: 扫描密钥、源码和境外公共CDN依赖
         run: npm run security:scan
 
       - name: 处理订阅确认和退订邮件
@@ -119,4 +120,12 @@ jobs:
             exit 0
           fi
           git commit -m "content: publish daily anesthesia briefing"
-          git push
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "第 ${attempt} 次推送失败，重新同步 main 后重试。"
+            git fetch origin main
+            git rebase origin/main
+          done
+          exit 1

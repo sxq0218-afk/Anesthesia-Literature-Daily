@@ -49,6 +49,25 @@ test("Buttondown client creates a draft and queues it without leaking its key", 
   assert.equal(JSON.stringify({ draft, queued }).includes("buttondown-test-secret"), false);
 });
 
+test("Buttondown retries transient read failures but never retries a draft creation POST", async () => {
+  let getCalls = 0;
+  const retryingClient = createButtondownClient({ apiKey: "buttondown-test-secret", baseUrl: "https://api.buttondown.com/v1", timeoutMs: 1000, retryCount: 3 }, async () => {
+    getCalls += 1;
+    if (getCalls === 1) return new Response(JSON.stringify({ detail: "temporary" }), { status: 503, headers: { "content-type": "application/json" } });
+    return new Response(JSON.stringify({ count: 2, results: [] }), { status: 200, headers: { "content-type": "application/json" } });
+  });
+  assert.equal(await retryingClient.activeSubscriberCount(), 2);
+  assert.equal(getCalls, 2);
+
+  let postCalls = 0;
+  const nonRetryingClient = createButtondownClient({ apiKey: "buttondown-test-secret", baseUrl: "https://api.buttondown.com/v1", timeoutMs: 1000, retryCount: 3 }, async () => {
+    postCalls += 1;
+    return new Response(JSON.stringify({ detail: "temporary" }), { status: 503, headers: { "content-type": "application/json" } });
+  });
+  await assert.rejects(() => nonRetryingClient.createDraft({ subject: "Test", slug: "test", body: "Body", description: "Description", metadata: {} }));
+  assert.equal(postCalls, 1);
+});
+
 test("Buttondown email contains full article content and escapes unsafe HTML", () => {
   const edition = {
     generatedAt: "2026-07-17T00:30:00.000Z",

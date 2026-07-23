@@ -7,6 +7,26 @@ test("classifies animal mechanistic work as basic research", () => {
   assert.equal(result.id, "basic");
 });
 
+test("classifies an animal model from the title even when PubMed MeSH is incomplete", () => {
+  const result = classifyResearchCategory({
+    title: "Anesthesia and surgery induce sex-dependent Tau phosphorylation in aged mice",
+    abstract: "The experiment measured postoperative behavior and brain biomarkers.",
+    meshTerms: [],
+    publicationTypes: ["Journal Article"],
+  });
+  assert.equal(result.id, "basic");
+});
+
+test("classifies a randomized adult surgical study from its title when publication type is incomplete", () => {
+  const result = classifyResearchCategory({
+    title: "A randomized controlled trial in adults undergoing shoulder surgery",
+    abstract: "Anesthetic and vasopressor strategies were compared.",
+    meshTerms: [],
+    publicationTypes: ["Journal Article"],
+  });
+  assert.equal(result.id, "clinical");
+});
+
 test("does not count a narrative review as a clinical study", () => {
   const result = classifyResearchCategory({
     title: "Current state of airway management knowledge",

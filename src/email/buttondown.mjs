@@ -8,24 +8,38 @@ function requireConfig(config) {
 export function createButtondownClient(config, fetchImpl = fetch) {
   requireConfig(config);
   async function request(path, options = {}) {
-    const response = await fetchImpl(`${config.baseUrl}${path}`, {
-      method: options.method || "GET",
-      headers: {
-        Authorization: `Token ${config.apiKey}`,
-        Accept: "application/json",
-        ...(options.body ? { "Content-Type": "application/json" } : {}),
-      },
-      body: options.body ? JSON.stringify(options.body) : undefined,
-      signal: AbortSignal.timeout(config.timeoutMs || 30000),
-    });
-    const data = await response.json().catch(() => null);
-    if (!response.ok) {
-      const detail = data?.detail || data?.message || data?.error || `HTTP_${response.status}`;
-      const error = new Error(`Buttondown API error: ${typeof detail === "string" ? detail : JSON.stringify(detail)}`);
-      error.code = `BUTTONDOWN_${response.status}`;
-      throw error;
+    const method = options.method || "GET";
+    const attempts = method === "GET" ? Math.max(1, Number(config.retryCount || 3)) : 1;
+    let lastError;
+    for (let attempt = 1; attempt <= attempts; attempt += 1) {
+      try {
+        const response = await fetchImpl(`${config.baseUrl}${path}`, {
+          method,
+          headers: {
+            Authorization: `Token ${config.apiKey}`,
+            Accept: "application/json",
+            ...(options.body ? { "Content-Type": "application/json" } : {}),
+          },
+          body: options.body ? JSON.stringify(options.body) : undefined,
+          signal: AbortSignal.timeout(config.timeoutMs || 30000),
+        });
+        const data = await response.json().catch(() => null);
+        if (!response.ok) {
+          const detail = data?.detail || data?.message || data?.error || `HTTP_${response.status}`;
+          const error = new Error(`Buttondown API error: ${typeof detail === "string" ? detail : JSON.stringify(detail)}`);
+          error.code = `BUTTONDOWN_${response.status}`;
+          error.retryable = response.status === 408 || response.status === 429 || response.status >= 500;
+          throw error;
+        }
+        return data;
+      } catch (error) {
+        lastError = error;
+        const retryable = error?.retryable || error?.name === "TimeoutError" || error?.name === "AbortError" || error instanceof TypeError;
+        if (!retryable || attempt >= attempts) break;
+        await new Promise(resolve => setTimeout(resolve, 500 * attempt));
+      }
     }
-    return data;
+    throw lastError;
   }
 
   return {
@@ -72,5 +86,6 @@ export function buttondownConfigFromEnv(env = process.env) {
     apiKey: env.BUTTONDOWN_API_KEY,
     baseUrl: String(env.BUTTONDOWN_API_BASE_URL || DEFAULT_BASE_URL).replace(/\/$/, ""),
     timeoutMs: Number(env.BUTTONDOWN_TIMEOUT || 30000),
+    retryCount: Number(env.BUTTONDOWN_RETRY_COUNT || 3),
   };
 }

@@ -50,6 +50,7 @@
 | `EMAIL_PROVIDER` | `buttondown` |
 | `NEXT_PUBLIC_BUTTONDOWN_USERNAME` | 当前Buttondown用户名 |
 | `BUTTONDOWN_SUBSCRIBER_LIMIT` | 小范围测试建议`100` |
+| `BUTTONDOWN_RETRY_COUNT` | 读取类临时失败重试次数，默认`3` |
 | `NCBI_EMAIL` | 管理员真实联系邮箱 |
 | `AI_PROVIDER` | 当前供应商，如`deepseek` |
 | `AI_BASE_URL` | 当前模型API根地址 |

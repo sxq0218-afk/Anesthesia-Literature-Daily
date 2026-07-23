@@ -32,7 +32,31 @@ export default function AISettingsClient() {
     }
   }
 
-  useEffect(() => { void load(); }, []);
+  useEffect(() => {
+    let cancelled = false;
+    fetch(`${API_URL}/api/ai/settings`, { cache: "no-store" })
+      .then(response => {
+        if (!response.ok) throw new Error("无法读取AI配置");
+        return response.json() as Promise<Snapshot>;
+      })
+      .then(data => {
+        if (cancelled) return;
+        setSnapshot(data);
+        setForm(current => ({
+          ...current,
+          provider: data.settings.provider,
+          baseUrl: data.settings.baseUrl,
+          model: data.settings.model,
+          apiKey: "",
+          dailyCallLimit: data.settings.dailyCallLimit,
+          dailyTokenLimit: data.settings.dailyTokenLimit,
+        }));
+      })
+      .catch(() => {
+        if (!cancelled) setMessage({ kind: "error", text: "本地AI管理服务未连接。请使用 npm run dev 启动完整预览。" });
+      });
+    return () => { cancelled = true; };
+  }, []);
   const currentProvider = useMemo(() => snapshot?.providers.find(item => item.id === form.provider), [snapshot, form.provider]);
 
   function chooseProvider(providerId: string) {

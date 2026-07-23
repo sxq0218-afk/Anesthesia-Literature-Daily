@@ -1,7 +1,79 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T23:50:14.392Z",
+  "updatedAt": "2026-07-23T03:59:28.298Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-23T03:59:28.298Z",
+      "search": {
+        "initialDays": 1,
+        "actualDays": 7,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-07-16T03:59:28.298Z",
+        "to": "2026-07-23T03:59:28.298Z",
+        "candidateCount": 120,
+        "unseenCount": 117,
+        "duplicateCount": 3,
+        "priorityCandidateCount": 16,
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "priorityJournalTarget": 3,
+          "priorityJournalFirst": true,
+          "expandForCompositionShortfall": true,
+          "allowBackfill": true
+        },
+        "selectionSummary": {
+          "clinical": 3,
+          "basic": 0,
+          "other": 2,
+          "priorityJournals": 2
+        },
+        "compositionSatisfied": false
+      },
+      "articles": [
+        {
+          "slug": "pmid-42479502",
+          "title": "成人肩部手术中麻醉和血管升压药对脑血流动力学和代谢反应的影响：一项基于光学神经监测的2×2析因设计随机对照试验（CHEM-FACT研究）",
+          "originalTitle": "Cerebral Hemodynamic and Metabolic Responses to Anesthesia and Vasopressors in Adult Shoulder Surgery: a 2x2 Factorial Design Randomized Controlled Trial with Light-based Neuromonitoring (CHEM-FACT study).",
+          "journal": "Anesthesiology",
+          "conclusion": "在肩部手术患者中，麻醉维持药物（丙泊酚 vs. 七氟烷）和血管升压药策略（去氧肾上腺素输注 vs. 麻黄碱推注）对术后30分钟内的平均脑组织氧饱和度（rStO2）和脑氧代谢率（rCMRO2）均无显著主效应，但去氧肾上腺素与rStO2随时间下降更明显及rCMRO2升高更显著相关。",
+          "pmid": "42479502"
+        },
+        {
+          "slug": "pmid-42479540",
+          "title": "麻醉与手术诱导老年小鼠性别依赖性Tau磷酸化及行为改变",
+          "originalTitle": "Anesthesia and surgery induce sex-dependent Tau phosphorylation and behavior changes in aged mice.",
+          "journal": "Anesthesiology",
+          "conclusion": "麻醉/手术仅在雌性老年小鼠中增加Tau-PT217水平并诱发术后谵妄样行为，而雄性小鼠中睾酮及雄激素受体信号可能抑制该效应。",
+          "pmid": "42479540"
+        },
+        {
+          "slug": "pmid-42484702",
+          "title": "骨髓活检中催眠联合局部麻醉与单纯局部麻醉的比较：一项随机、对照、多中心研究（QUALHYBOM）",
+          "originalTitle": "Hypnosis associated with local anesthesia versus local anesthesia alone during bone marrow biopsy: a randomized, controlled, multicenter study, QUALHYBOM.",
+          "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+          "conclusion": "在骨髓活检中，催眠联合局部麻醉相比单纯局部麻醉可显著提高患者舒适度、降低疼痛和焦虑、减少笑气使用，并改善操作者舒适度。",
+          "pmid": "42484702"
+        },
+        {
+          "slug": "pmid-42474765",
+          "title": "婴儿腹股沟疝修补术的碳排放与废物消耗：一项前瞻性分析",
+          "originalTitle": "Carbon emissions and waste consumption of infant inguinal hernia repair: a prospective analysis.",
+          "journal": "Pediatric surgery international",
+          "conclusion": "腹腔镜婴儿腹股沟疝修补术产生的不可回收废物比开放手术多22.3%，但总二氧化碳排放量相似。",
+          "pmid": "42474765"
+        },
+        {
+          "slug": "pmid-42482356",
+          "title": "影响言语和记忆的幕上出血性脑肿瘤切除术的清醒开颅麻醉管理",
+          "originalTitle": "Anesthesia Management of Awake Craniotomy for Excision of a Supratentorial Hemorrhagic Brain Tumor Affecting Speech and Memory.",
+          "journal": "The American journal of case reports",
+          "conclusion": "对于一例术前存在言语和记忆缺陷的幕上出血性脑肿瘤患者，采用睡眠-清醒-睡眠（SAS）麻醉技术联合术中言语病理学家（SLP）实时监测，实现了最大程度肿瘤切除且未出现新发神经功能缺损，术后言语功能维持基线水平。",
+          "pmid": "42482356"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-15T17:46:45.425Z",
       "search": {

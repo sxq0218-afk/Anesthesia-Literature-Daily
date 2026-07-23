@@ -123,7 +123,7 @@ const lifecycle = enriched.map(record => ({
   status: "candidate",
   transitions: [{ status: "candidate", at: new Date().toISOString() }],
 }));
-let totalUsage = { promptTokens: 0, completionTokens: 0, totalTokens: 0 };
+let totalUsage = { calls: 0, promptTokens: 0, completionTokens: 0, totalTokens: 0 };
 
 function transition(pmid, status, detail = {}) {
   const item = lifecycle.find(record => record.pmid === pmid);
@@ -145,10 +145,16 @@ for (let index = 0; index < enriched.length; index += 1) {
   try {
     const fullText = aiService && record.pmcLive ? await fetchPmcFullText({ pmcid: record.pmcid, env }) : null;
     const analysis = aiService
-      ? await analyzeArticle({ record, fullText, generateAI: aiService.generateAI })
+      ? await analyzeArticle({
+          record,
+          fullText,
+          generateAI: aiService.generateAI,
+          maxInputChars: aiService.config.maxInputChars,
+        })
       : metadataOnlyAnalysis(record);
     if (aiService) transition(record.pmid, "analyzed", { model: analysis.model, basis: analysis.basis });
     totalUsage = {
+      calls: totalUsage.calls + Number(analysis.usage.calls || 0),
       promptTokens: totalUsage.promptTokens + analysis.usage.promptTokens,
       completionTokens: totalUsage.completionTokens + analysis.usage.completionTokens,
       totalTokens: totalUsage.totalTokens + analysis.usage.totalTokens,

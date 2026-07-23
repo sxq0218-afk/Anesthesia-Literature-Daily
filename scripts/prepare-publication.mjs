@@ -88,7 +88,9 @@ for (const file of files) {
 }
 editions.sort((a, b) => new Date(b.generatedAt) - new Date(a.generatedAt));
 
-const editionBundle = { version: 1, updatedAt: new Date().toISOString(), editions };
+// Keep publication output deterministic for same-edition retries. Otherwise a
+// manual rerun changes updatedAt and creates a needless deployment commit.
+const editionBundle = { version: 1, updatedAt: editions[0]?.generatedAt || daily.generatedAt, editions };
 await writeJsonAtomic(path.join(generatedDir, "editions.json"), editionBundle);
 await writeJsonAtomic(path.join(rootDir, "data/state/latest.json"), { version: 1, date, generatedAt: daily.generatedAt, path: `/archive/${date}/`, articleCount: daily.articles.length });
 
@@ -96,15 +98,18 @@ const byMonth = new Map();
 for (const edition of editions) {
   const day = shanghaiDate(edition.generatedAt);
   const month = day.slice(0, 7);
-  const usage = edition.llm?.usage || { promptTokens: 0, completionTokens: 0, totalTokens: 0 };
+  const usage = edition.llm?.usage || { calls: 0, promptTokens: 0, completionTokens: 0, totalTokens: 0 };
+  const callsAvailable = Number.isFinite(Number(usage.calls)) && Number(usage.calls) > 0;
+  const calls = callsAvailable ? Number(usage.calls) : 0;
   const cost = estimateCost({ provider: edition.llm?.provider, model: edition.llm?.model, ...usage }, rootDir);
-  const current = byMonth.get(month) || { version: 1, month, calls: 0, promptTokens: 0, completionTokens: 0, totalTokens: 0, estimatedCostCny: 0, days: [] };
-  current.calls += 1;
+  const current = byMonth.get(month) || { version: 1, month, calls: 0, callsComplete: true, promptTokens: 0, completionTokens: 0, totalTokens: 0, estimatedCostCny: 0, days: [] };
+  current.calls += calls;
+  current.callsComplete &&= callsAvailable;
   current.promptTokens += usage.promptTokens || 0;
   current.completionTokens += usage.completionTokens || 0;
   current.totalTokens += usage.totalTokens || 0;
   current.estimatedCostCny = Number((current.estimatedCostCny + cost).toFixed(6));
-  current.days.push({ date: day, model: edition.llm?.model || null, promptTokens: usage.promptTokens || 0, completionTokens: usage.completionTokens || 0, totalTokens: usage.totalTokens || 0, estimatedCostCny: cost, tokenSource: "api-exact", costSource: "configured-estimate" });
+  current.days.push({ date: day, model: edition.llm?.model || null, calls: callsAvailable ? calls : null, callCountSource: callsAvailable ? "api-call-records" : "unavailable", promptTokens: usage.promptTokens || 0, completionTokens: usage.completionTokens || 0, totalTokens: usage.totalTokens || 0, estimatedCostCny: cost, tokenSource: "api-exact", costSource: "configured-estimate" });
   byMonth.set(month, current);
 }
 for (const [month, summary] of byMonth) await writeJsonAtomic(path.join(rootDir, `data/usage/${month}.json`), summary);
