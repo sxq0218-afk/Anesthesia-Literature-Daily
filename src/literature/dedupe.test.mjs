@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { deduplicate, titleSimilarity } from "./dedupe.mjs";
+import { deduplicate, formalPublicationHistory, titleSimilarity } from "./dedupe.mjs";
 
 test("deduplicates by PMID", () => {
   const result = deduplicate([{ pmid: "1", doi: "", title: "A trial" }], [{ pmid: "1", title: "Different", doi: "" }]);
@@ -21,4 +21,14 @@ test("deduplicates highly similar titles", () => {
     { pmid: "3", doi: "", title: "Regional anesthesia for hip surgery a randomized trial" },
   ], [], 0.88);
   assert.equal(result.accepted.length, 1);
+});
+
+test("only formally published records enter permanent recommendation history", () => {
+  const history = formalPublicationHistory([
+    { pmid: "1", status: "published" },
+    { pmid: "2", status: "candidate" },
+    { pmid: "3", status: "failed" },
+    { pmid: "4", status: "validated" },
+  ]);
+  assert.deepEqual(history.map(record => record.pmid), ["1"]);
 });

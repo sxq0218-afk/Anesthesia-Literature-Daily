@@ -4,8 +4,9 @@ import { loadEnv } from "../src/lib/env.mjs";
 import { searchPubMed, fetchPubMedRecords, fetchPmcFullText } from "../src/literature/pubmed.mjs";
 import { enrichPmc } from "../src/literature/pmc.mjs";
 import { enrichFromCrossref } from "../src/literature/crossref.mjs";
-import { deduplicate } from "../src/literature/dedupe.mjs";
+import { deduplicate, formalPublicationHistory } from "../src/literature/dedupe.mjs";
 import { scoreArticle } from "../src/literature/scoring.mjs";
+import { screenByJournalImpactFactor } from "../src/literature/journal-metrics.mjs";
 import { selectDailyArticles } from "../src/literature/selection.mjs";
 import { metadataOnlyAnalysis, toWebArticle } from "../src/literature/transform.mjs";
 import { readJson, writeJsonAtomic } from "../src/literature/storage.mjs";
@@ -22,6 +23,7 @@ const env = loadEnv(rootDir);
 const files = {
   topics: path.join(rootDir, "config/topics.json"),
   journals: path.join(rootDir, "config/journals.json"),
+  journalMetrics: path.join(rootDir, "config/journal-metrics.json"),
   scoring: path.join(rootDir, "config/scoring.json"),
   pushed: path.join(rootDir, "data/state/pushed.json"),
   publicationStatus: path.join(rootDir, "data/state/publication-status.json"),
@@ -30,8 +32,8 @@ const files = {
   runs: path.join(rootDir, "data/runs"),
 };
 
-const [topicConfig, journalConfig, storedScoringConfig, pushedState, publicationState, existingDaily] = await Promise.all([
-  readJson(files.topics), readJson(files.journals), readJson(files.scoring), readJson(files.pushed, { version: 2, records: [] }),
+const [topicConfig, journalConfig, journalMetricConfig, storedScoringConfig, pushedState, publicationState, existingDaily] = await Promise.all([
+  readJson(files.topics), readJson(files.journals), readJson(files.journalMetrics), readJson(files.scoring), readJson(files.pushed, { version: 2, records: [] }),
   readJson(files.publicationStatus, { version: 1, records: [] }),
   readJson(files.daily, null),
 ]);
@@ -55,7 +57,7 @@ if (!metadataOnly && !aiSettings.apiKey) {
   throw new Error("Production analysis requires an API Key configured on the AI model settings page. Use --metadata-only for a real-source connectivity run.");
 }
 
-const history = ignoreHistory ? [] : pushedState.records || [];
+const history = ignoreHistory ? [] : formalPublicationHistory(pushedState.records || []);
 async function retrieve(days) {
   const search = await searchPubMed({ topicConfig, journalConfig, days, limit: scoringConfig.candidateLimit, env });
   const records = await fetchPubMedRecords({ ids: search.ids, env });
@@ -63,15 +65,21 @@ async function retrieve(days) {
   return { search, records, unique };
 }
 
-console.log("[1/6] Searching PubMed for the last 24 hours...");
+console.log(`[1/6] Searching PubMed for the preferred ${scoringConfig.initialWindowDays}-day window...`);
 let retrieval = await retrieve(scoringConfig.initialWindowDays);
+const preferredWindowPmids = new Set(retrieval.unique.accepted.map(record => record.pmid));
 let actualDays = scoringConfig.initialWindowDays;
 let expanded = false;
-function prepareSelection(currentRetrieval) {
-  const scoredCandidates = currentRetrieval.unique.accepted
+function prepareSelection(currentRetrieval, preferredPmids = null) {
+  const impactFactorScreening = screenByJournalImpactFactor(currentRetrieval.unique.accepted, journalMetricConfig);
+  const scoredCandidates = impactFactorScreening.accepted
+    .map(record => ({ ...record, preferredWindow: preferredPmids ? preferredPmids.has(record.pmid) : true }))
     .map(record => scoreArticle(record, { topicConfig, journalConfig, scoringConfig }))
     .filter(record => record.scoreBreakdown.relevance > 0 && record.score >= (scoringConfig.minimumSelectionScore || 0));
-  return selectDailyArticles(scoredCandidates, scoringConfig);
+  return {
+    ...selectDailyArticles(scoredCandidates, scoringConfig),
+    journalImpactFactor: impactFactorScreening.summary,
+  };
 }
 
 let selection = prepareSelection(retrieval);
@@ -79,15 +87,15 @@ const shouldExpandForComposition = scoringConfig.selectionPolicy?.expandForCompo
 const priorityJournalTarget = scoringConfig.selectionPolicy?.priorityJournalTarget ?? 0;
 const shouldExpandForPriority = selection.summary.priorityJournals < priorityJournalTarget;
 let expansionReason = null;
-if (retrieval.unique.accepted.length < scoringConfig.dailyLimit || shouldExpandForComposition || shouldExpandForPriority) {
+if (selection.journalImpactFactor.eligibleCount < scoringConfig.dailyLimit || shouldExpandForComposition || shouldExpandForPriority) {
   expanded = true;
   actualDays = scoringConfig.expandedWindowDays;
   expansionReason = shouldExpandForComposition
     ? "composition-shortfall"
     : shouldExpandForPriority ? "priority-journal-shortfall" : "article-count-shortfall";
-  console.log(`[2/6] The 24-hour set does not meet the configured count, composition, or priority-journal target; expanding to ${actualDays} days...`);
+  console.log(`[2/6] The preferred ${scoringConfig.initialWindowDays}-day set does not meet the configured count, composition, or priority-journal target; expanding to ${actualDays} days...`);
   retrieval = await retrieve(actualDays);
-  selection = prepareSelection(retrieval);
+  selection = prepareSelection(retrieval, preferredWindowPmids);
 } else {
   console.log(`[2/6] ${retrieval.unique.accepted.length} unseen articles satisfy the configured composition; no date expansion needed.`);
 }
@@ -95,7 +103,7 @@ if (retrieval.unique.accepted.length < scoringConfig.dailyLimit || shouldExpandF
 console.log("[3/6] Deduplicating and scoring candidates...");
 const scored = selection.selected;
 
-if (!scored.length) throw new Error("No eligible PubMed articles found after deduplication and scoring.");
+if (!scored.length) throw new Error(`No eligible PubMed articles found after deduplication, Journal Impact Factor > ${journalMetricConfig.minimumImpactFactor} screening, and scoring.`);
 
 console.log(`[4/6] Enriching ${scored.length} articles with PMC and Crossref metadata...`);
 let enriched = await enrichPmc(scored, env);
@@ -175,6 +183,7 @@ const searchSummary = {
   queryTranslation: retrieval.search.queryTranslation,
   priorityQueryTranslation: retrieval.search.priorityQueryTranslation,
   priorityCandidateCount: retrieval.search.priorityCount,
+  journalImpactFactor: selection.journalImpactFactor,
   selectionPolicy: scoringConfig.selectionPolicy,
   selectionSummary: selection.summary,
   compositionSatisfied: selection.compositionSatisfied,
@@ -222,7 +231,6 @@ if (!aiService) {
   console.log("[6/6] Writing a metadata preview without changing formal publication history...");
   await writeJsonAtomic(files.preview, daily);
   await writeJsonAtomic(runFile, { ...daily, diagnostics: runDiagnostics, lifecycle, published: false });
-  await saveLifecycle(lifecycle);
 } else {
   console.log("[6/6] Publishing the validated edition and formal delivery history...");
   const oldDaily = existingDaily;
@@ -262,7 +270,7 @@ console.log(JSON.stringify({
   duplicatesRemoved: retrieval.unique.removed.length,
   composition: selection.summary,
   compositionSatisfied: selection.compositionSatisfied,
-  articles: outputArticles.map(article => ({ pmid: article.pmid, doi: article.doi, score: article.score, researchCategory: article.researchCategory, journalTier: article.journalTier, title: article.originalTitle })),
+  articles: outputArticles.map(article => ({ pmid: article.pmid, doi: article.doi, score: article.score, impactFactor: article.journalMetric?.impactFactor, researchCategory: article.researchCategory, journalTier: article.journalTier, title: article.originalTitle })),
   llm: daily.llm,
   lifecycle: lifecycle.map(item => ({ pmid: item.pmid, status: item.status })),
   runFile,

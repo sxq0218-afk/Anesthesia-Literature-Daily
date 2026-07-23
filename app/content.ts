@@ -15,6 +15,14 @@ type SearchInfo = {
   priorityCandidateCount?: number;
   selectionSummary?: { clinical: number; basic: number; other: number; priorityJournals: number };
   compositionSatisfied?: boolean;
+  journalImpactFactor?: {
+    threshold: number;
+    comparison: string;
+    candidateCount: number;
+    eligibleCount: number;
+    excludedCount: number;
+    excludedByReason?: Record<string, number>;
+  };
 };
 
 export type DailyRun = {
@@ -61,6 +69,6 @@ export function formatChineseDate(value: string | null) {
 export function searchWindowText(run = dailyRun) {
   if (run.mode === "demo") return "模拟数据模式";
   return run.search.expanded
-    ? `最近24小时未满足数量、研究构成或优先期刊目标，已自动扩展至过去${run.search.actualDays}天`
-    : "检索最近24小时发表的新文献";
+    ? `优先检索最近${run.search.initialDays}天；未满足数量、研究构成或优先期刊目标，已扩展至过去${run.search.actualDays}天，最近${run.search.initialDays}天文献仍优先`
+    : `检索最近${run.search.initialDays}天发表的新文献`;
 }

@@ -1,0 +1,40 @@
+{
+  "project": "每日麻醉文献精读",
+  "englishName": "Anesthesia Literature Daily",
+  "repository": "sxq0218-afk/Anesthesia-Literature-Daily",
+  "defaultBranch": "main",
+  "generatedAt": "2026-07-23",
+  "continuationEntry": "docs/项目接续包/README.md",
+  "resumePrompt": "docs/项目接续包/RESUME_PROMPT.md",
+  "runtime": {
+    "node": ">=22.13.0",
+    "framework": "Next.js 16",
+    "contentMode": "static JSON and static export"
+  },
+  "dailySchedule": {
+    "workflow": ".github/workflows/daily-email.yml",
+    "cronUtc": "37 0 * * *",
+    "approximateChinaTime": "08:37",
+    "provider": "buttondown"
+  },
+  "selection": {
+    "preferredWindowDays": 30,
+    "expandedWindowDays": 180,
+    "dailyMaximum": 5,
+    "clinicalTarget": 4,
+    "basicTarget": 1,
+    "priorityJournalTarget": 3,
+    "minimumScore": 45,
+    "minimumImpactFactorExclusive": 5,
+    "titleSimilarityThreshold": 0.88,
+    "permanentHistoryStatus": "published"
+  },
+  "requiredChecks": [
+    "npm run test:literature",
+    "npm run test:email",
+    "npm run test:deployment",
+    "npm run security:scan",
+    "npm run build:edgeone"
+  ],
+  "containsSecrets": false
+}

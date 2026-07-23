@@ -26,6 +26,10 @@ export function titleSimilarity(left, right) {
   return (2 * intersection) / (a.size + b.size);
 }
 
+export function formalPublicationHistory(records = []) {
+  return records.filter(record => !record.status || record.status === "published");
+}
+
 export function deduplicate(records, pushedRecords = [], threshold = 0.88) {
   const accepted = [];
   const removed = [];

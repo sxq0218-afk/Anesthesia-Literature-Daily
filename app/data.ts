@@ -32,6 +32,16 @@ export type Article = {
   crossrefVerified?: boolean;
   researchCategory?: { id: "clinical" | "basic" | "other"; label: string };
   journalTier?: { id: string; label: string; priorityRank: number };
+  journalMetric?: {
+    metric: string;
+    impactFactor: number | null;
+    metricYear: number | null;
+    threshold: number;
+    comparison: string;
+    source: string | null;
+    verifiedAt: string | null;
+    matchedJournal: string | null;
+  };
   score?: number;
   scoreBreakdown?: {
     relevance: number;

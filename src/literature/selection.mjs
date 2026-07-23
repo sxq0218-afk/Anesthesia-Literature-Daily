@@ -42,6 +42,8 @@ export function classifyResearchCategory(record) {
 }
 
 function compareCandidates(left, right, priorityFirst) {
+  const preferredWindowDifference = Number(Boolean(right.preferredWindow)) - Number(Boolean(left.preferredWindow));
+  if (preferredWindowDifference) return preferredWindowDifference;
   if (priorityFirst) {
     const priorityDifference = (right.journalTier?.priorityRank || 0) - (left.journalTier?.priorityRank || 0);
     if (priorityDifference) return priorityDifference;

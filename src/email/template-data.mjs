@@ -40,7 +40,7 @@ export function editionTemplateData(edition, options = {}) {
       journal: "—",
       published_date: "—",
       study_type: "—",
-      conclusion: "过去7天内达到质量门槛的文献不足，本期允许少于5篇。",
+      conclusion: "过去半年内达到质量门槛且未曾正式发布的文献不足，本期允许少于5篇。",
       why_it_matters: "—",
       pico: "—",
       sample_size: "—",
@@ -60,7 +60,9 @@ export function editionTemplateData(edition, options = {}) {
     kind: "daily",
     date,
     article_count: articles.length,
-    expanded_note: edition.search?.expanded ? `最近24小时不足，检索范围已扩展至过去${edition.search.actualDays}天。` : "检索范围为最近24小时。",
+    expanded_note: edition.search?.expanded
+      ? `优先检索最近${edition.search.initialDays}天；条件不足时已扩展至过去${edition.search.actualDays}天，近${edition.search.initialDays}天文献仍优先。`
+      : `检索范围为最近${edition.search?.initialDays || 30}天。`,
     ...flattened,
     site_url: options.siteUrl || "",
     unsubscribe_subject: "退订每日麻醉文献精读",

@@ -38,7 +38,9 @@ function articleHtml(article, index) {
 
 export function buildButtondownEmail(edition, options = {}) {
   const editionId = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(edition.generatedAt));
-  const searchNote = edition.search?.expanded ? `最近24小时不足，已扩展检索至过去${edition.search.actualDays}天。` : "检索范围为最近24小时。";
+  const searchNote = edition.search?.expanded
+    ? `优先检索最近${edition.search.initialDays}天；条件不足时已扩展至过去${edition.search.actualDays}天，近${edition.search.initialDays}天文献仍优先。`
+    : `检索范围为最近${edition.search?.initialDays || 30}天。`;
   const siteLink = options.siteUrl ? `<p style="margin:26px 0"><a href="${escapeHtml(options.siteUrl)}" style="display:inline-block;padding:12px 18px;background:#0b5f9e;color:#fff;text-decoration:none;border-radius:6px">查看网站版</a></p>` : "";
   const body = `<!-- buttondown-editor-mode: fancy -->
   <div style="max-width:680px;margin:0 auto;color:#17324d;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei',sans-serif;line-height:1.75">

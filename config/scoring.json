@@ -26,8 +26,8 @@
   "candidateLimit": 120,
   "dailyLimit": 5,
   "minimumSelectionScore": 45,
-  "initialWindowDays": 1,
-  "expandedWindowDays": 7,
+  "initialWindowDays": 30,
+  "expandedWindowDays": 180,
   "selectionPolicy": {
     "clinicalTarget": 4,
     "basicTarget": 1,

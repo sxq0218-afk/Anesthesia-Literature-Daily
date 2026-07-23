@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "metric": "Journal Impact Factor",
+  "minimumImpactFactor": 5,
+  "comparison": "greater-than",
+  "unknownPolicy": "exclude",
+  "verifiedAt": "2026-07-23",
+  "notes": [
+    "PubMed不提供期刊影响因子，本文件需在新版Journal Citation Reports发布后人工复核。",
+    "正式推荐仅接受影响因子严格大于minimumImpactFactor的期刊；等于门槛、数值未知或期刊名称无法匹配时均排除。",
+    "metricYear记录数值对应年份。部分出版商未公开最新版数值时，保留可公开核验的最近数值及来源，便于管理员后续更新。"
+  ],
+  "journals": [
+    {
+      "name": "The New England Journal of Medicine",
+      "aliases": ["New England Journal of Medicine", "N Engl J Med"],
+      "impactFactor": 84.5,
+      "metricYear": 2025,
+      "source": "https://www.nejm.org/about-nejm/about-nejm"
+    },
+    {
+      "name": "The Lancet",
+      "aliases": ["Lancet"],
+      "impactFactor": 202,
+      "metricYear": 2021,
+      "source": "https://www.elsevier.com/connect/the-lancet-group-impact-that-matters"
+    },
+    {
+      "name": "JAMA",
+      "aliases": ["Journal of the American Medical Association"],
+      "impactFactor": 65.4,
+      "metricYear": 2025,
+      "source": "https://jamanetwork.com/journals/jama/pages/for-authors"
+    },
+    {
+      "name": "The BMJ",
+      "aliases": ["BMJ", "British Medical Journal"],
+      "impactFactor": 42.7,
+      "metricYear": 2024,
+      "source": "https://info.bmj.com/impact-report-2025"
+    },
+    {
+      "name": "Nature Medicine",
+      "aliases": ["Nat Med"],
+      "impactFactor": 52.5,
+      "metricYear": 2025,
+      "source": "https://www.nature.com/nm/journal-impact"
+    },
+    {
+      "name": "JAMA Network Open",
+      "aliases": [],
+      "impactFactor": 11.7,
+      "metricYear": 2025,
+      "source": "https://jamanetwork.com/journals/jamanetworkopen/pages/for-authors"
+    },
+    {
+      "name": "British Journal of Anaesthesia",
+      "aliases": ["Br J Anaesth"],
+      "impactFactor": 9.8,
+      "metricYear": 2022,
+      "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full"
+    },
+    {
+      "name": "Anesthesiology",
+      "aliases": [],
+      "impactFactor": 8.8,
+      "metricYear": 2022,
+      "source": "https://journals.lww.com/anesthesiology/Documents/2023_12_PGA_AnesthesiologyArticlesYouNeedToKnow.pdf"
+    },
+    {
+      "name": "Anaesthesia",
+      "aliases": [],
+      "impactFactor": 7.4,
+      "metricYear": 2025,
+      "source": "https://associationofanaesthetists-publications.onlinelibrary.wiley.com/journal/13652044"
+    },
+    {
+      "name": "Anesthesia & Analgesia",
+      "aliases": ["Anesthesia and Analgesia", "Anesth Analg"],
+      "impactFactor": 5.9,
+      "metricYear": 2022,
+      "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full"
+    },
+    {
+      "name": "Regional Anesthesia and Pain Medicine",
+      "aliases": ["Regional Anesthesia & Pain Medicine", "Reg Anesth Pain Med"],
+      "impactFactor": 4,
+      "metricYear": 2025,
+      "source": "https://rapm.bmj.com/pages/about"
+    },
+    {
+      "name": "European Journal of Anaesthesiology",
+      "aliases": ["Eur J Anaesthesiol"],
+      "impactFactor": 3.6,
+      "metricYear": 2022,
+      "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full"
+    },
+    {
+      "name": "Canadian Journal of Anesthesia",
+      "aliases": ["Canadian Journal of Anaesthesia", "Can J Anaesth"],
+      "impactFactor": 3.3,
+      "metricYear": 2025,
+      "source": "https://www.cas.ca/CASAssets/Documents/Annual%20Report/Annual_Report_2025_.pdf"
+    },
+    {
+      "name": "Journal of Clinical Anesthesia",
+      "aliases": ["J Clin Anesth"],
+      "impactFactor": 6.7,
+      "metricYear": 2022,
+      "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full"
+    },
+    {
+      "name": "Pain",
+      "aliases": ["PAIN"],
+      "impactFactor": 7.4,
+      "metricYear": 2022,
+      "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full"
+    },
+    {
+      "name": "The Journal of Pain",
+      "aliases": ["Journal of Pain", "J Pain"],
+      "impactFactor": null,
+      "metricYear": null,
+      "source": null
+    },
+    {
+      "name": "Pain Medicine",
+      "aliases": ["Pain Med"],
+      "impactFactor": 4,
+      "metricYear": 2025,
+      "source": "https://academic.oup.com/painmedicine/pages/about"
+    },
+    {
+      "name": "Critical Care",
+      "aliases": ["Crit Care"],
+      "impactFactor": 11.4,
+      "metricYear": 2025,
+      "source": "https://link.springer.com/journal/13054"
+    },
+    {
+      "name": "Intensive Care Medicine",
+      "aliases": ["Intensive Care Med"],
+      "impactFactor": 22,
+      "metricYear": 2025,
+      "source": "https://link.springer.com/journal/134"
+    }
+  ]
+}

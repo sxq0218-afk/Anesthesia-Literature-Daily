@@ -50,7 +50,7 @@ export function ArticleCard({ article, featured = false }: { article: Article; f
     <article className={featured ? "article-card featured" : "article-card"}>
       <div className="card-index">{article.number}</div>
       <div className="card-content">
-        <div className="meta-line"><span className="category-pill">{article.category}</span><span>{article.journal}</span>{article.publishedDate && <span>{article.publishedDate}</span>}<span>精读约 {article.readingTime}</span></div>
+        <div className="meta-line"><span className="category-pill">{article.category}</span><span>{article.journal}</span>{typeof article.journalMetric?.impactFactor === "number" && <span>影响因子 {article.journalMetric.impactFactor}{article.journalMetric.metricYear ? `（${article.journalMetric.metricYear}）` : ""}</span>}{article.publishedDate && <span>{article.publishedDate}</span>}<span>精读约 {article.readingTime}</span></div>
         <h3><Link href={`/articles/${article.slug}`}>{article.title}</Link></h3>
         <p className="original-title">{article.originalTitle}</p>
         <div className="clinical-box"><span>临床结论</span><p>{article.conclusion}</p></div>

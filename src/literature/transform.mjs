@@ -107,6 +107,7 @@ export function toWebArticle(record, analysis, index) {
     crossrefVerified: record.crossrefVerified,
     researchCategory: record.researchCategory,
     journalTier: record.journalTier,
+    journalMetric: record.journalMetric,
     tags,
     question: synthesis.whyItMatters,
     conclusion: synthesis.oneSentenceConclusion,

@@ -36,3 +36,12 @@ test("selects four clinical and one basic article while prioritizing configured 
   assert.equal(result.selected[0].pmid, "c4");
   assert.equal(result.compositionSatisfied, true);
 });
+
+test("keeps recent-window articles ahead after expanding the search window", () => {
+  const records = [
+    { pmid: "recent", preferredWindow: true, score: 60, publicationTypes: ["Clinical Trial"], meshTerms: ["Humans"], title: "Recent anesthesia trial", abstract: "Patients", journalTier: { priorityRank: 1 } },
+    { pmid: "older", preferredWindow: false, score: 99, publicationTypes: ["Clinical Trial"], meshTerms: ["Humans"], title: "Older anesthesia trial", abstract: "Patients", journalTier: { priorityRank: 2 } },
+  ];
+  const result = selectDailyArticles(records, { dailyLimit: 2, selectionPolicy: { clinicalTarget: 2, basicTarget: 0, priorityJournalFirst: true, allowBackfill: true } });
+  assert.equal(result.selected[0].pmid, "recent");
+});
