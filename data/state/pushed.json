@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-22T14:17:37.412Z",
+  "updatedAt": "2026-07-23T03:59:28.298Z",
   "records": [
     {
       "pmid": "42359695",
@@ -81,6 +81,46 @@
       "status": "published",
       "runId": "2026-07-22T14-17-37.412Z",
       "firstPublishedAt": "2026-07-22T14:17:37.412Z"
+    },
+    {
+      "pmid": "42479502",
+      "doi": "10.1097/aln.0000000000006239",
+      "title": "Cerebral Hemodynamic and Metabolic Responses to Anesthesia and Vasopressors in Adult Shoulder Surgery: a 2x2 Factorial Design Randomized Controlled Trial with Light-based Neuromonitoring (CHEM-FACT study).",
+      "status": "published",
+      "runId": "2026-07-23T03-59-28.298Z",
+      "firstPublishedAt": "2026-07-23T03:59:28.298Z"
+    },
+    {
+      "pmid": "42479540",
+      "doi": "10.1097/aln.0000000000006261",
+      "title": "Anesthesia and surgery induce sex-dependent Tau phosphorylation and behavior changes in aged mice.",
+      "status": "published",
+      "runId": "2026-07-23T03-59-28.298Z",
+      "firstPublishedAt": "2026-07-23T03:59:28.298Z"
+    },
+    {
+      "pmid": "42484702",
+      "doi": "10.1007/s00520-026-11005-1",
+      "title": "Hypnosis associated with local anesthesia versus local anesthesia alone during bone marrow biopsy: a randomized, controlled, multicenter study, QUALHYBOM.",
+      "status": "published",
+      "runId": "2026-07-23T03-59-28.298Z",
+      "firstPublishedAt": "2026-07-23T03:59:28.298Z"
+    },
+    {
+      "pmid": "42474765",
+      "doi": "10.1007/s00383-026-06540-1",
+      "title": "Carbon emissions and waste consumption of infant inguinal hernia repair: a prospective analysis.",
+      "status": "published",
+      "runId": "2026-07-23T03-59-28.298Z",
+      "firstPublishedAt": "2026-07-23T03:59:28.298Z"
+    },
+    {
+      "pmid": "42482356",
+      "doi": "10.12659/ajcr.952107",
+      "title": "Anesthesia Management of Awake Craniotomy for Excision of a Supratentorial Hemorrhagic Brain Tumor Affecting Speech and Memory.",
+      "status": "published",
+      "runId": "2026-07-23T03-59-28.298Z",
+      "firstPublishedAt": "2026-07-23T03:59:28.298Z"
     }
   ]
 }

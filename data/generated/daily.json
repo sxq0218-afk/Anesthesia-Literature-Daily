@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-22T14:17:37.412Z",
+  "generatedAt": "2026-07-23T03:59:28.298Z",
   "mode": "production",
   "search": {
     "initialDays": 1,
     "actualDays": 7,
     "expanded": true,
     "expansionReason": "composition-shortfall",
-    "from": "2026-07-15T14:17:37.412Z",
-    "to": "2026-07-22T14:17:37.412Z",
+    "from": "2026-07-16T03:59:28.298Z",
+    "to": "2026-07-23T03:59:28.298Z",
     "candidateCount": 120,
-    "unseenCount": 120,
-    "duplicateCount": 0,
+    "unseenCount": 117,
+    "duplicateCount": 3,
     "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/07/15:2026/07/22[Date - Publication]",
     "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Nature Medicine\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Anesthesia and Analgesia\"[Journal] OR \"Regional Anesthesia and Pain Medicine\"[Journal] OR \"European Journal of Anaesthesiology\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"Pain\"[Journal] OR \"The Journal of Pain\"[Journal] OR \"Critical Care\"[Journal] OR \"Intensive Care Medicine\"[Journal]) AND 2026/07/15:2026/07/22[Date - Publication]",
-    "priorityCandidateCount": 13,
+    "priorityCandidateCount": 16,
     "selectionPolicy": {
       "clinicalTarget": 4,
       "basicTarget": 1,
@@ -23,10 +23,10 @@
       "allowBackfill": true
     },
     "selectionSummary": {
-      "clinical": 4,
+      "clinical": 3,
       "basic": 0,
-      "other": 1,
-      "priorityJournals": 1
+      "other": 2,
+      "priorityJournals": 2
     },
     "compositionSatisfied": false
   },
@@ -35,35 +35,34 @@
     "model": "deepseek-v4-flash",
     "configuredModel": "deepseek-chat",
     "usage": {
-      "promptTokens": 63119,
-      "completionTokens": 9645,
-      "totalTokens": 72764
+      "promptTokens": 18472,
+      "completionTokens": 7242,
+      "totalTokens": 25714
     }
   },
   "articles": [
     {
-      "slug": "pmid-42470835",
+      "slug": "pmid-42479502",
       "number": "01",
       "category": "麻醉学",
-      "journal": "Journal of clinical anesthesia",
+      "journal": "Anesthesiology",
       "year": "2026",
-      "publishedDate": "2026-07-18",
-      "electronicPublicationDate": "2026-07-18",
-      "readingTime": "5 分钟",
-      "title": "环泊酚的药理学、临床应用及未来展望：一项叙述性综述",
-      "originalTitle": "Pharmacology, clinical applications, and future perspectives of Ciprofol: A narrative review.",
-      "abstract": "BACKGROUND: Ciprofol comes from a structural modification of the propofol molecule. Approved in China for non-intubated procedures, the induction and maintenance of general anesthesia, and sedation in the intensive care unit, it is now transiting from studies into clinical practice. This review focuses on its pharmacological basis, comparative clinical profile, and the potential to shape the future of anesthesia and sedation. MAIN BODY: Ciprofol acts on gamma-aminobutyric acid type A receptors. It has a predictable linear pharmacokinetic and pharmacodynamic relationship and well-characterized metabolic pathways. Compared to propofol, ciprofol demonstrates superior tolerability, causing significantly less injection pain, better hemodynamic stability, and a low potential for clinically relevant drug interactions. Ciprofol is likely to be a non-inferior alternative to propofol for achieving successful anesthesia and sedation that may translate into clinical benefits for various specialized patient groups. Beyond its hypnotic effects, ciprofol may possess additional therapeutic potentials. CONCLUSION: Ciprofol is transitioning from a novel structural analogue of propofol to a clinically relevant intravenous anesthetic and sedative agent with potential advantages. Future research should prioritize the clinical validation of promising preclinical and early clinical findings. These efforts will help define ciprofol's role in patient-centered anesthesia and sedation.",
-      "authors": "Yang X",
-      "citation": "J Clin Anesth. 2026 Jul 18;113:112275. doi: 10.1016/j.jclinane.2026.112275.",
-      "doi": "10.1016/j.jclinane.2026.112275",
-      "pmid": "42470835",
+      "publishedDate": "2026-07-16",
+      "electronicPublicationDate": "2026-07-16",
+      "readingTime": "6 分钟",
+      "title": "成人肩部手术中麻醉和血管升压药对脑血流动力学和代谢反应的影响：一项基于光学神经监测的2×2析因设计随机对照试验（CHEM-FACT研究）",
+      "originalTitle": "Cerebral Hemodynamic and Metabolic Responses to Anesthesia and Vasopressors in Adult Shoulder Surgery: a 2x2 Factorial Design Randomized Controlled Trial with Light-based Neuromonitoring (CHEM-FACT study).",
+      "abstract": "BACKGROUND: Ephedrine has been shown to improve cerebral microcirculation and perfusion compared with phenylephrine. However, prospective intraoperative data are lacking, and possible interactions with anesthetic choice remain untested. METHODS: Forty adults undergoing shoulder surgery in the beach chair position were recruited between Feb and November 2024 at St. Joseph's Hospital (London, Ontario, Canada). Patients were randomized in a 2x2 factorial design to anesthetic maintenance (propofol vs. sevoflurane) and vasopressor strategy (phenylephrine infusion vs. ephedrine boluses). Relative tissue oxygenation saturation (rStO2) and the relative cerebral metabolic rate of oxygen (rCMRO2), the co-primary outcomes, were monitored using an in-house hybrid optical system combining time-resolved near-infrared spectroscopy and diffuse correlation spectroscopy. Only data from the first 30 minutes after positioning were analyzed. Outcomes and interactions were assessed using linear mixed-effects models. RESULTS: Of the 40 patients, 39 were analyzed. Neither anesthetic nor vasopressor choice showed a significant main effect on average rStO2 or rCMRO2 over the 30 min period. However, analysis of temporal changes revealed rStO2 declined over time (beta = -0.005 per minute, chi(2)(1) = 10.2, p = 0.001), while rCMRO(2) increased (beta = 3.2 per minute, chi(2)(1) = 35.2, p < 0.001). There was a TimexVasopressor interaction for rStO2 (beta = -0.0014, chi(2)(1) = 8.4, p = 0.004), with phenylephrine producing a 9% greater decline over 30 minutes compared to ephedrine, while for relative rCMRO2 (beta = 2.2, 95% CI 0.6 to 3.8, p = 0.007), phenylephrine produced a 70% increase over 30 minutes. DISCUSSIONS: This trial found no overall effect of anesthetic or vasopressor choice on rStO2 or rCMRO2 during the first 30 minutes of surgery, suggesting that initial cerebral physiological responses were comparable across treatment combinations. However, phenylephrine was associated with progressive cerebral desaturation and increasing metabolic demand over time.",
+      "authors": "Samaei S, Shoemaker L, Kamar F, Milej D, Drosdowech D, Murkin JM, Diop M, St Lawrence K, et al.",
+      "citation": "Anesthesiology. 2026 Jul 16. doi: 10.1097/ALN.0000000000006239.",
+      "doi": "10.1097/aln.0000000000006239",
+      "pmid": "42479502",
       "pmcid": null,
       "publicationTypes": [
-        "Journal Article",
-        "Review"
+        "Journal Article"
       ],
       "meshTerms": [],
-      "publisher": "Elsevier BV",
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
       "crossrefVerified": true,
       "researchCategory": {
         "id": "other",
@@ -79,17 +78,16 @@
         "麻醉及围术期核心期刊",
         "麻醉学",
         "麻醉基础研究",
-        "Journal Article",
-        "Review"
+        "Journal Article"
       ],
-      "question": "环泊酚作为新型静脉麻醉药，可能改善丙泊酚的耐受性和安全性，为特殊患者群体提供更优选择。",
-      "conclusion": "环泊酚作为丙泊酚的结构类似物，在麻醉和镇静中表现出非劣效性，且具有注射痛更少、血流动力学更稳定等潜在优势，但临床验证仍需进一步研究。",
-      "clinical": "环泊酚可能作为丙泊酚的非劣效替代品用于麻醉和镇静，尤其适用于对注射痛敏感或血流动力学不稳定的患者。 环泊酚具有低药物相互作用潜力，可能适用于多药联用的患者。 环泊酚可能具有超越催眠作用的额外治疗潜力，但需进一步验证。",
+      "question": "该研究首次在肩部手术中采用2×2析因设计，同时评估麻醉药物和血管升压药对脑氧合与代谢的交互作用，为临床优化围术期脑保护策略提供了初步证据。",
+      "conclusion": "在肩部手术患者中，麻醉维持药物（丙泊酚 vs. 七氟烷）和血管升压药策略（去氧肾上腺素输注 vs. 麻黄碱推注）对术后30分钟内的平均脑组织氧饱和度（rStO2）和脑氧代谢率（rCMRO2）均无显著主效应，但去氧肾上腺素与rStO2随时间下降更明显及rCMRO2升高更显著相关。",
+      "clinical": "初始30分钟内，麻醉药物和血管升压药的选择对平均脑氧合和代谢无显著影响，提示早期脑生理反应在不同治疗组合间相似。 去氧肾上腺素与进行性脑氧饱和度下降和代谢需求增加相关，可能对长时间手术或脑储备功能受损患者不利。",
       "evidence": "中等",
       "score": 62,
       "scoreBreakdown": {
-        "relevance": 18,
-        "evidenceQuality": 12,
+        "relevance": 22,
+        "evidenceQuality": 8,
         "clinicalImpact": 11,
         "journalQuality": 15,
         "novelty": 6
@@ -97,199 +95,67 @@
       "study": [
         {
           "label": "研究设计",
-          "value": "叙述性综述"
+          "value": "2×2析因设计随机对照试验，采用混合光学系统（时间分辨近红外光谱和扩散相关光谱）进行神经监测，分析体位后30分钟内的数据。"
         },
         {
           "label": "研究对象与样本",
-          "value": "当前可获取内容未提供该数据。；当前可获取内容未提供该数据。"
+          "value": "Adults undergoing shoulder surgery in the beach chair position；39 analyzed (40 randomized)"
         },
         {
           "label": "干预与比较",
-          "value": "环泊酚；对照：丙泊酚"
+          "value": "Propofol vs. sevoflurane for anesthetic maintenance; phenylephrine infusion vs. ephedrine boluses for vasopressor strategy；对照：Propofol vs. sevoflurane; phenylephrine vs. ephedrine"
         },
         {
           "label": "主要终点",
-          "value": "麻醉和镇静成功率、耐受性（注射痛、血流动力学稳定性、药物相互作用）"
+          "value": "Relative tissue oxygenation saturation (rStO2) and relative cerebral metabolic rate of oxygen (rCMRO2)"
         }
       ],
       "keyPoints": [
-        "环泊酚是丙泊酚的结构修饰产物，作用于GABA_A受体。",
-        "与丙泊酚相比，环泊酚注射痛更少，血流动力学更稳定，药物相互作用风险低。",
-        "环泊酚在麻醉和镇静中可能非劣效于丙泊酚，但临床验证仍需进一步研究。",
-        "未来研究应优先验证临床前和早期临床发现。"
+        "麻醉药物（丙泊酚 vs. 七氟烷）和血管升压药（去氧肾上腺素 vs. 麻黄碱）对平均rStO2和rCMRO2无显著主效应。",
+        "rStO2随时间下降，rCMRO2随时间升高。",
+        "去氧肾上腺素与rStO2下降更明显（9%）和rCMRO2升高更显著（70%）相关。",
+        "研究为2×2析因设计随机对照试验，样本量39例。"
       ],
-      "methods": "环泊酚来源于丙泊酚分子的结构修饰，已在中国获批用于非插管操作、全身麻醉的诱导和维持以及重症监护室的镇静，目前正从研究转向临床实践。本综述聚焦其药理学基础、临床比较特征以及塑造麻醉和镇静未来的潜力。",
-      "results": "当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等具体数据。综述指出，与丙泊酚相比，环泊酚表现出更优的耐受性，注射痛显著减少，血流动力学更稳定，且临床相关药物相互作用可能性低。环泊酚可能是丙泊酚的非劣效替代品，可能为各种特殊患者群体带来临床获益。",
-      "limitations": [
-        "当前可获取内容未提供该综述的局限性信息。"
-      ],
-      "practice": [
-        "环泊酚可能作为丙泊酚的非劣效替代品用于麻醉和镇静，尤其适用于对注射痛敏感或血流动力学不稳定的患者。",
-        "环泊酚具有低药物相互作用潜力，可能适用于多药联用的患者。",
-        "环泊酚可能具有超越催眠作用的额外治疗潜力，但需进一步验证。"
-      ],
-      "editor": "综述基于环泊酚的药理学和早期临床研究，结论有一定依据，但缺乏具体数据支持。 过度解读风险：中等。综述将观察性关联（如血流动力学更稳定）表述为潜在优势，但未明确区分统计学差异与临床获益，且未提供效应量等数据，存在过度解读风险。",
-      "whyItMatters": "环泊酚作为新型静脉麻醉药，可能改善丙泊酚的耐受性和安全性，为特殊患者群体提供更优选择。",
-      "background": "环泊酚来源于丙泊酚分子的结构修饰，已在中国获批用于非插管操作、全身麻醉的诱导和维持以及重症监护室的镇静，目前正从研究转向临床实践。本综述聚焦其药理学基础、临床比较特征以及塑造麻醉和镇静未来的潜力。",
-      "pico": {
-        "population": "当前可获取内容未提供该数据。",
-        "intervention": "环泊酚",
-        "comparison": "丙泊酚",
-        "outcome": "麻醉和镇静成功率、耐受性（注射痛、血流动力学稳定性、药物相互作用）"
-      },
-      "studyType": "叙述性综述",
-      "sampleSize": "当前可获取内容未提供该数据。",
-      "primaryOutcome": "当前可获取内容未提供该数据。",
-      "effectSize": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "综述基于环泊酚的药理学和早期临床研究，结论有一定依据，但缺乏具体数据支持。",
-        "overinterpretationRisk": "中等。综述将观察性关联（如血流动力学更稳定）表述为潜在优势，但未明确区分统计学差异与临床获益，且未提供效应量等数据，存在过度解读风险。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42470835/",
-        "doi": "https://doi.org/10.1016/j.jclinane.2026.112275",
-        "publisher": "https://doi.org/10.1016/j.jclinane.2026.112275",
-        "openFullText": null
-      }
-    },
-    {
-      "slug": "pmid-42475676",
-      "number": "02",
-      "category": "麻醉学",
-      "journal": "Journal of medical Internet research",
-      "year": "2026",
-      "publishedDate": "2026-07-20",
-      "electronicPublicationDate": "2026-07-20",
-      "readingTime": "8 分钟",
-      "title": "基于6中心数据的全身麻醉管理AI辅助决策支持系统的临床评估：比较研究",
-      "originalTitle": "Clinical Evaluation of an AI-Assisted Decision Support System for General Anesthesia Management Based on Data From 6 Centers: Comparative Study.",
-      "abstract": "BACKGROUND: AI is rapidly transforming medical practice, with emerging applications in perioperative care and anesthesiology. However, the clinical implementation of AI-assisted decision-making systems in anesthetic management remains challenging and requires comprehensive evaluation. OBJECTIVE: This study aimed to assess the performance and clinical applicability of an AI-assisted decision support system (ZW-AA-001) for general anesthesia management by comparing its decisions with those of experienced anesthesiologists across 6 medical centers. METHODS: A multicenter retrospective study was conducted using perioperative data from 1008 patients who underwent elective noncardiac surgeries under total intravenous anesthesia. The AI system's recommendations for anesthetic and hemodynamic medication adjustments were compared with anesthesiologists' decisions. Key outcomes included decision concordance rates, temporal performance, and consistency across centers. Advanced statistical methods, including prevalence-adjusted and bias-adjusted kappa (PABAK) and Gwet's first-order agreement coefficient (AC1), were used to evaluate agreement metrics. RESULTS: The study included 1008 patients, with a median age of 50 (IQR 37-59) years and female predominance (619/1008, 61.4%). During anesthesia maintenance, the AI system demonstrated moderate overall decision agreement with anesthesiologists (73.3%, 95% CI 72.4%-74.3%). Analysis of center-specific data revealed generally consistent performance across all 6 centers. For propofol management, high concordance was observed in dosage adjustment decisions (91.1%, 95% CI 90.4%-91.8%), though fair agreement was found in adjustment direction (68.6%, 95% CI 67.3%-69.8%). The AI system showed significantly faster decision-making time compared to anesthesiologists for the adjustment of propofol (pseudomedian difference -77.5, 95% CI -79.5 to -75.5 seconds; P<.001). Although esmolol-related decisions showed a numerically higher concordance of 71.4%, this was not statistically significant (PABAK=0.429; P=.21; AC1=0.622; P=.09). Decisions for atropine, ephedrine, and urapidil demonstrated substantially lower agreement (17.4%-29.8%). The AI system recommended hemodynamic interventions more frequently than anesthesiologists across all medications. CONCLUSIONS: The AI-assisted decision support system demonstrated varying levels of concordance with anesthesiologists in managing surgery, with the highest agreement observed in propofol administration. However, the system's lower agreement in hemodynamic medication management highlights the need for further optimization and validation. These findings underscore the potential of AI systems to enhance anesthetic decision-making, improve efficiency, and address workforce challenges in anesthesiology. Future research should focus on expanding the system's capabilities, validating its performance in prospective clinical trials, and ensuring its integration into diverse clinical settings.",
-      "authors": "Chen D, Xue Q, Wang G, Mu S, Zeng Z, Xu B, Li S, Chen Y, et al.",
-      "citation": "J Med Internet Res. 2026 Jul 20;28:e90023. doi: 10.2196/90023.",
-      "doi": "10.2196/90023",
-      "pmid": "42475676",
-      "pmcid": null,
-      "publicationTypes": [
-        "Comparative Study",
-        "Journal Article",
-        "Multicenter Study"
-      ],
-      "meshTerms": [
-        "Humans",
-        "Female",
-        "Retrospective Studies",
-        "Middle Aged",
-        "*Anesthesia, General/methods",
-        "Adult",
-        "*Decision Support Systems, Clinical",
-        "Male",
-        "*Artificial Intelligence"
-      ],
-      "publisher": "JMIR Publications Inc.",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "other",
-        "label": "其他同行评议期刊",
-        "priorityRank": 0
-      },
-      "tags": [
-        "临床研究",
-        "麻醉学",
-        "麻醉基础研究",
-        "Comparative Study",
-        "Journal Article"
-      ],
-      "question": "该研究评估了AI系统在全身麻醉管理中的临床适用性，揭示了其在提高决策效率方面的潜力，同时指出了在血流动力学管理中的不足，为AI在麻醉领域的应用提供了重要参考。",
-      "conclusion": "AI辅助决策支持系统在丙泊酚管理方面与麻醉医师具有较高一致性，但在血流动力学药物管理方面一致性较低，需进一步优化。",
-      "clinical": "AI系统在丙泊酚管理方面表现出较高一致性，可能有助于标准化麻醉维持中的药物调整。 AI系统在血流动力学药物管理方面一致性较低，提示当前版本尚不能完全替代麻醉医师的临床判断。 AI系统决策速度更快，可能提高麻醉管理效率，但需注意其过度干预的风险。",
-      "evidence": "中等偏高",
-      "score": 68,
-      "scoreBreakdown": {
-        "relevance": 23,
-        "evidenceQuality": 20,
-        "clinicalImpact": 11,
-        "journalQuality": 6,
-        "novelty": 8
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "多中心回顾性研究，纳入6个医疗中心1008例患者，比较AI系统与麻醉医师在麻醉维持期间的决策一致性。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Patients who underwent elective noncardiac surgeries under total intravenous anesthesia；1008"
-        },
-        {
-          "label": "干预与比较",
-          "value": "AI-assisted decision support system (ZW-AA-001) recommendations for anesthetic and hemodynamic medication adjustments；对照：Decisions of experienced anesthesiologists"
-        },
-        {
-          "label": "主要终点",
-          "value": "Decision concordance rates"
-        }
-      ],
-      "keyPoints": [
-        "AI系统在丙泊酚剂量调整决策上与麻醉医师高度一致（91.1%），且决策时间显著缩短。",
-        "AI系统在血流动力学药物（如阿托品、麻黄碱、乌拉地尔）决策上一致性低（17.4%-29.8%）。",
-        "AI系统更频繁地推荐血流动力学干预，但临床意义尚不明确。",
-        "研究未报告不良事件数据，安全性需进一步评估。"
-      ],
-      "methods": "AI正在快速改变医疗实践，在围术期护理和麻醉学中出现了新兴应用。然而，AI辅助决策系统在麻醉管理中的临床实施仍具挑战性，需要全面评估。",
-      "results": "在麻醉维持期间，AI系统与麻醉医师的总体决策一致性为73.3%（95% CI 72.4%-74.3%）。丙泊酚剂量调整决策一致性高（91.1%，95% CI 90.4%-91.8%），但调整方向一致性一般（68.6%，95% CI 67.3%-69.8%）。AI系统在丙泊酚调整决策时间上显著快于麻醉医师（伪中位数差-77.5秒，95% CI -79.5至-75.5秒，P<.001）。艾司洛尔相关决策一致性为71.4%，但未达统计学意义（PABAK=0.429，P=.21；AC1=0.622，P=.09）。阿托品、麻黄碱和乌拉地尔的决策一致性较低（17.4%-29.8%）。AI系统比麻醉医师更频繁地推荐血流动力学干预。",
+      "methods": "麻黄碱相比去氧肾上腺素可改善脑微循环和灌注，但缺乏前瞻性术中数据，且与麻醉选择的可能交互作用尚未检验。",
+      "results": "共39例患者纳入分析。麻醉药物和血管升压药对平均rStO2和rCMRO2均无显著主效应。时间趋势分析显示：rStO2随时间下降（β=-0.005/分钟，p=0.001），rCMRO2随时间升高（β=3.2/分钟，p<0.001）。存在时间×血管升压药交互作用：对于rStO2（β=-0.0014，p=0.004），去氧肾上腺素组30分钟内下降幅度比麻黄碱组大9%；对于rCMRO2（β=2.2，95%CI 0.6-3.8，p=0.007），去氧肾上腺素组30分钟内增加70%。",
       "limitations": [
         "当前可获取内容未提供该研究的局限性信息。"
       ],
       "practice": [
-        "AI系统在丙泊酚管理方面表现出较高一致性，可能有助于标准化麻醉维持中的药物调整。",
-        "AI系统在血流动力学药物管理方面一致性较低，提示当前版本尚不能完全替代麻醉医师的临床判断。",
-        "AI系统决策速度更快，可能提高麻醉管理效率，但需注意其过度干预的风险。"
+        "初始30分钟内，麻醉药物和血管升压药的选择对平均脑氧合和代谢无显著影响，提示早期脑生理反应在不同治疗组合间相似。",
+        "去氧肾上腺素与进行性脑氧饱和度下降和代谢需求增加相关，可能对长时间手术或脑储备功能受损患者不利。"
       ],
-      "editor": "该研究基于多中心回顾性数据，样本量较大，使用PABAK和AC1等高级统计方法评估一致性，结果较为可靠。 过度解读风险：研究为回顾性设计，无法建立因果关系；AI系统与麻醉医师的一致性不等同于临床获益，需谨慎解读。",
-      "whyItMatters": "该研究评估了AI系统在全身麻醉管理中的临床适用性，揭示了其在提高决策效率方面的潜力，同时指出了在血流动力学管理中的不足，为AI在麻醉领域的应用提供了重要参考。",
-      "background": "AI正在快速改变医疗实践，在围术期护理和麻醉学中出现了新兴应用。然而，AI辅助决策系统在麻醉管理中的临床实施仍具挑战性，需要全面评估。",
+      "editor": "研究设计为随机对照试验，采用析因设计，结果基于线性混合效应模型分析，提供了效应量、置信区间和P值，支持结论的可靠性。 过度解读风险：需注意交互作用分析为探索性，且样本量较小（39例），结果应视为初步发现，避免过度解读为因果关系。",
+      "whyItMatters": "该研究首次在肩部手术中采用2×2析因设计，同时评估麻醉药物和血管升压药对脑氧合与代谢的交互作用，为临床优化围术期脑保护策略提供了初步证据。",
+      "background": "麻黄碱相比去氧肾上腺素可改善脑微循环和灌注，但缺乏前瞻性术中数据，且与麻醉选择的可能交互作用尚未检验。",
       "pico": {
-        "population": "Patients who underwent elective noncardiac surgeries under total intravenous anesthesia",
-        "intervention": "AI-assisted decision support system (ZW-AA-001) recommendations for anesthetic and hemodynamic medication adjustments",
-        "comparison": "Decisions of experienced anesthesiologists",
-        "outcome": "Decision concordance rates"
+        "population": "Adults undergoing shoulder surgery in the beach chair position",
+        "intervention": "Propofol vs. sevoflurane for anesthetic maintenance; phenylephrine infusion vs. ephedrine boluses for vasopressor strategy",
+        "comparison": "Propofol vs. sevoflurane; phenylephrine vs. ephedrine",
+        "outcome": "Relative tissue oxygenation saturation (rStO2) and relative cerebral metabolic rate of oxygen (rCMRO2)"
       },
-      "studyType": "多中心回顾性研究，纳入6个医疗中心1008例患者，比较AI系统与麻醉医师在麻醉维持期间的决策一致性。",
-      "sampleSize": "1008",
-      "primaryOutcome": "Decision concordance rates",
+      "studyType": "2×2析因设计随机对照试验，采用混合光学系统（时间分辨近红外光谱和扩散相关光谱）进行神经监测，分析体位后30分钟内的数据。",
+      "sampleSize": "39 analyzed (40 randomized)",
+      "primaryOutcome": "Relative tissue oxygenation saturation (rStO2) and relative cerebral metabolic rate of oxygen (rCMRO2)",
       "effectSize": [
-        "pseudomedian difference -77.5 seconds for propofol adjustment decision-making time"
+        "beta = -0.005 per minute",
+        "beta = 3.2 per minute",
+        "beta = -0.0014",
+        "beta = 2.2"
       ],
       "confidenceInterval": [
-        "95% CI -79.5 to -75.5 seconds for propofol adjustment decision-making time"
+        "95% CI 0.6 to 3.8"
       ],
       "pValue": [
-        "P<.001 for propofol adjustment decision-making time",
-        "P=.21 for esmolol-related decisions (PABAK)",
-        "P=.09 for esmolol-related decisions (AC1)"
+        "p = 0.001",
+        "p < 0.001",
+        "p = 0.004",
+        "p = 0.007"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "该研究基于多中心回顾性数据，样本量较大，使用PABAK和AC1等高级统计方法评估一致性，结果较为可靠。",
-        "overinterpretationRisk": "研究为回顾性设计，无法建立因果关系；AI系统与麻醉医师的一致性不等同于临床获益，需谨慎解读。"
+        "support": "研究设计为随机对照试验，采用析因设计，结果基于线性混合效应模型分析，提供了效应量、置信区间和P值，支持结论的可靠性。",
+        "overinterpretationRisk": "需注意交互作用分析为探索性，且样本量较小（39例），结果应视为初步发现，避免过度解读为因果关系。"
       },
       "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
@@ -297,50 +163,176 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42475676/",
-        "doi": "https://doi.org/10.2196/90023",
-        "publisher": "https://doi.org/10.2196/90023",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42479502/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006239",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006239",
         "openFullText": null
       }
     },
     {
-      "slug": "pmid-42464120",
+      "slug": "pmid-42479540",
+      "number": "02",
+      "category": "麻醉学",
+      "journal": "Anesthesiology",
+      "year": "2026",
+      "publishedDate": "2026-07-16",
+      "electronicPublicationDate": "2026-07-16",
+      "readingTime": "7 分钟",
+      "title": "麻醉与手术诱导老年小鼠性别依赖性Tau磷酸化及行为改变",
+      "originalTitle": "Anesthesia and surgery induce sex-dependent Tau phosphorylation and behavior changes in aged mice.",
+      "abstract": "BACKGROUND: Preoperative blood Tau phosphorylated at threonine 217 (Tau-PT217), a newly identified blood biomarker of Alzheimer's disease, is associated with postoperative delirium in patients. Anesthesia/surgery is also associated with postoperative increased blood Tau-PT217 amounts in patients. Moreover, in female aged mice, anesthesia/surgery increases Tau-PT217 in lungs, blood and brain tissues, leading to behavioral changes. However, whether these effects are sex-dependent remain largely undetermined. METHODS: Eighteen-month-old female and male mice (C57BL/6J) underwent abdominal surgery under general anesthesia (1.4% isoflurane and 40% oxygen). Levels of Tau-PT217, inflammatory markers, and GSK3beta activity were measured in lungs, blood, and brain tissues of aged mice using nanoneedle technology, Western blot, immunohistochemistry, RT-PCR and others. Postoperative delirium-like behavior was assessed using a battery of behavioral tests (buried food, open filed and Y maze). To explore causality, we performed orchiectomy and administered androgen receptor antagonist enzalutamide in aged male mice. Finally, testosterone was delivered via inhalation to aged female mice. RESULTS: Anesthesia/surgery increased the amounts of Tau-PT217 in lungs (2.29+/-0.16 fold versus 1.15+/-0.71 fold, P<0.01), blood, and brain tissues of aged female, but not male, mice compared to control condition, leading to postoperative delirium-like behavior, as evidenced by increases in the composite Z score (3.74+/-1.46 versus 0.60+/-1.17, P<0.01), in the aged female, but not male, mice. Anesthesia/surgery elevated inflammatory markers and GSK3beta activity in aged female mice, which exhibited lower baseline testosterone levels and androgen receptor expression in lungs compared to males. Both orchiectomy and enzalutamide treatment in male mice reduced testosterone levels and androgen receptor expression, leading to elevation of Tau-PT217 amounts and behavior changes following anesthesia/surgery. Conversely, testosterone inhalation in aged female mice mitigated the anesthesia/surgery-induced elevation of Tau-PT217 amounts and behavior changes. CONCLUSIONS: Testosterone and androgen receptor signaling may contribute to the sex-dependent differences in Tau phosphorylation and postoperative behavior changes in aged mice.",
+      "authors": "Zhang J, Yu P, Xu M, Liang F, Chen Y, Dong Y, Zhang Y, Yu S, et al.",
+      "citation": "Anesthesiology. 2026 Jul 16. doi: 10.1097/ALN.0000000000006261.",
+      "doi": "10.1097/aln.0000000000006261",
+      "pmid": "42479540",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "meshTerms": [],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "other",
+        "label": "综述/方法/其他"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 1
+      },
+      "tags": [
+        "综述/方法/其他",
+        "麻醉及围术期核心期刊",
+        "麻醉学",
+        "老年围术期",
+        "麻醉基础研究",
+        "Journal Article"
+      ],
+      "question": "该研究揭示了性别差异在术后认知功能障碍中的潜在机制，提示睾酮信号可能作为干预靶点，为个体化围术期管理提供依据。",
+      "conclusion": "麻醉/手术仅在雌性老年小鼠中增加Tau-PT217水平并诱发术后谵妄样行为，而雄性小鼠中睾酮及雄激素受体信号可能抑制该效应。",
+      "clinical": "麻醉/手术可能通过性别特异性机制影响术后认知功能，雌性个体风险更高。 围术期睾酮水平监测或干预可能有助于降低术后谵妄风险。",
+      "evidence": "中等",
+      "score": 61,
+      "scoreBreakdown": {
+        "relevance": 23,
+        "evidenceQuality": 8,
+        "clinicalImpact": 9,
+        "journalQuality": 15,
+        "novelty": 6
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "动物实验研究"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "18-month-old female and male C57BL/6J mice；当前可获取内容未提供该数据。"
+        },
+        {
+          "label": "干预与比较",
+          "value": "abdominal surgery under general anesthesia (1.4% isoflurane and 40% oxygen)；对照：control condition (no anesthesia/surgery)"
+        },
+        {
+          "label": "主要终点",
+          "value": "Tau-PT217 levels in lungs, blood, and brain tissues"
+        }
+      ],
+      "keyPoints": [
+        "麻醉/手术仅在雌性老年小鼠中增加Tau-PT217并诱发术后谵妄样行为。",
+        "雄性小鼠中睾酮及雄激素受体信号可能抑制该效应。",
+        "睾酮吸入可减轻雌性小鼠的Tau磷酸化及行为改变。"
+      ],
+      "methods": "术前血Tau-PT217（阿尔茨海默病新标志物）水平与患者术后谵妄相关，麻醉/手术可增加患者术后血Tau-PT217。在雌性老年小鼠中，麻醉/手术增加肺、血和脑组织Tau-PT217并导致行为改变，但性别依赖性尚不明确。",
+      "results": "与对照相比，麻醉/手术使雌性老年小鼠肺Tau-PT217升高（2.29±0.16倍 vs 1.15±0.71倍，P<0.01），血和脑组织中也升高，并增加复合Z评分（3.74±1.46 vs 0.60±1.17，P<0.01），但雄性小鼠无此变化。雄性小鼠去势或恩杂鲁胺处理后，麻醉/手术诱导Tau-PT217升高及行为改变；雌性小鼠吸入睾酮可减轻这些效应。当前可获取内容未提供样本量、95%置信区间及不良事件数据。",
+      "limitations": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "practice": [
+        "麻醉/手术可能通过性别特异性机制影响术后认知功能，雌性个体风险更高。",
+        "围术期睾酮水平监测或干预可能有助于降低术后谵妄风险。"
+      ],
+      "editor": "结果基于动物实验，机制探索通过去势、拮抗剂及激素补充验证因果关系，支持性别依赖性结论。 过度解读风险：低风险：结论明确限定于老年小鼠，未外推至人类，且区分了统计差异与临床获益。",
+      "whyItMatters": "该研究揭示了性别差异在术后认知功能障碍中的潜在机制，提示睾酮信号可能作为干预靶点，为个体化围术期管理提供依据。",
+      "background": "术前血Tau-PT217（阿尔茨海默病新标志物）水平与患者术后谵妄相关，麻醉/手术可增加患者术后血Tau-PT217。在雌性老年小鼠中，麻醉/手术增加肺、血和脑组织Tau-PT217并导致行为改变，但性别依赖性尚不明确。",
+      "pico": {
+        "population": "18-month-old female and male C57BL/6J mice",
+        "intervention": "abdominal surgery under general anesthesia (1.4% isoflurane and 40% oxygen)",
+        "comparison": "control condition (no anesthesia/surgery)",
+        "outcome": "Tau-PT217 levels in lungs, blood, and brain tissues"
+      },
+      "studyType": "动物实验研究",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "Tau-PT217 levels in lungs, blood, and brain tissues",
+      "effectSize": [
+        "2.29±0.16 fold vs 1.15±0.71 fold",
+        "3.74±1.46 vs 0.60±1.17"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "P<0.01",
+        "P<0.01"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "结果基于动物实验，机制探索通过去势、拮抗剂及激素补充验证因果关系，支持性别依赖性结论。",
+        "overinterpretationRisk": "低风险：结论明确限定于老年小鼠，未外推至人类，且区分了统计差异与临床获益。"
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42479540/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006261",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006261",
+        "openFullText": null
+      }
+    },
+    {
+      "slug": "pmid-42484702",
       "number": "03",
       "category": "麻醉学",
-      "journal": "BMC anesthesiology",
+      "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
       "year": "2026",
-      "publishedDate": "2026-07-17",
-      "electronicPublicationDate": "2026-07-17",
+      "publishedDate": "2026-07-22",
+      "electronicPublicationDate": "2026-07-22",
       "readingTime": "6 分钟",
-      "title": "超声引导竖脊肌平面阻滞与鞘内吗啡用于择期腰椎融合术全麻患者术后镇痛的随机对照试验",
-      "originalTitle": "Comparison of ultrasound-guided erector spinae plane block to intrathecal morphine for postoperative analgesia in patients undergoing elective lumbar fusion operations under general anesthesia: a randomized controlled trial.",
-      "abstract": "BACKGROUND: Postoperative (PO) pain management after spine surgery is challenging. For such surgeries, erector spinae plane block (ESPB) and intrathecal morphine (ITM) may offer effective PO analgesia. However, the lack of availability of US machines in low-resource settings and proper dose of ITM that confine the side effects may limit the use of either. Nalbuphine presents an effective approach for managing opioid-induced pruritus without diminishing PO pain relief. In first 24 h after lumbar fusion operations under general anesthesia, the researchers examined effectiveness of bilateral ultrasound (US)-guided ESPB on PO pain and analgesic intake in comparison with ITM. METHODS: One hundred twenty patients premedicated with 4 mg intravenous ondansetron were randomized into group E; bilateral US-guided ESPB, group M; ITM (0.2 mg) or group C; control group. Time to first rescue analgesic (ketorolac) was the primary outcome while parameters of PO analgesic regimen and side effects were considered as secondary outcomes. RESULTS: Compared to C group, E & M groups had longer duration to first rescue analgesic and reduced analgesic consumption within 24 h postoperatively (P < 0.001). Twenty-four hours after surgery, the M group had lower pain scores (P < 0.001) and higher rates of nausea and pruritus (P < 0.001) than the other two groups without any cases of respiratory depression. CONCLUSIONS: The analgesic effect of 0.2 mg intrathecal morphine after lumbar fusion operation under general anesthesia provided lower pain scores and lower analgesic demands than erector spinae plane block at the expense of a higher incidence of manageable side effects of intrathecal morphine within the first 24 h postoperatively. IRB: FMASU MD 102/2022. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05338320. The date that the clinical trial was registered in the ClinicalTrials.gov. : April 14, 2022.",
-      "authors": "Ashoor TM, Abdelaal HAS, Elewa GEM, Esmat IM, Rabie AH, Ibrahim AIS, Mohamed AK",
-      "citation": "BMC Anesthesiol. 2026 Jul 17;26(1):430. doi: 10.1186/s12871-026-04030-4.",
-      "doi": "10.1186/s12871-026-04030-4",
-      "pmid": "42464120",
-      "pmcid": "PMC13377722",
+      "title": "骨髓活检中催眠联合局部麻醉与单纯局部麻醉的比较：一项随机、对照、多中心研究（QUALHYBOM）",
+      "originalTitle": "Hypnosis associated with local anesthesia versus local anesthesia alone during bone marrow biopsy: a randomized, controlled, multicenter study, QUALHYBOM.",
+      "abstract": "PURPOSE: Bone marrow biopsy (BMB) is a common procedure for the diagnosis, staging, and evaluation of several hematological diseases. BMB often causes anxiety and pain even when local anesthesia (LA), premedication, or an equimolar mixture of oxygen and nitrous oxide (EMONO) are used. Hypnosis has emerged as a promising non-pharmacological method to reduce anxiety and pain during invasive procedures. QUALHYBOM, a prospective, multicenter, randomized, open-label study was conducted to assess whether adding hypnosis to LA (LA + H) could improve patient comfort during BMB compared to LA alone. METHOD: QUALHYBOM included 180 BMB-naive patients with suspected or confirmed hematological disorders, randomized (LA group n = 91, LA + H group n = 89) from June 2023 to November 2024 across four French hematological departments. The primary endpoint was patient comfort rated on a scale from 0 (no comfort) to 10 (maximum comfort), evaluated immediately after the procedure. Secondary outcomes included pain, anxiety (before and after BMB), practitioner comfort, and use of EMONO. RESULTS: Patient groups were well-matched at enrolment. Median comfort scores were 9 vs. 5, pain scores 2 vs.6, and post-procedure scores 1 vs.5, in the LA + H vs.LA groups, respectively, both with p < 10(-)(4). Finally, the operator comfort was higher (10 vs. 7), and EMONO requirement lower (3% vs. 29%) in the LA + H group, both with p < 10(-)(4). CONCLUSION: These findings suggest that hypnosis significantly enhances patient comfort and key procedural parameters during BMB, warranting its consideration as addition to local anesthesia. Its integration into clinical practice may reduce the need for supplementary pharmacological interventions, including EMONO. TRIAL REGISTRATION: ClinicalTrials.gov Identifier NCT05178849.",
+      "authors": "Granger M, Gyan E, Ochmann M, Cherel B, Lermenier C, Moignet A, Daufresne P, Djoko S, et al.",
+      "citation": "Support Care Cancer. 2026 Jul 22;34(8):788. doi: 10.1007/s00520-026-11005-1.",
+      "doi": "10.1007/s00520-026-11005-1",
+      "pmid": "42484702",
+      "pmcid": null,
       "publicationTypes": [
         "Comparative Study",
         "Journal Article",
+        "Multicenter Study",
         "Randomized Controlled Trial"
       ],
       "meshTerms": [
         "Humans",
-        "*Morphine/administration & dosage",
         "Female",
-        "*Postoperative Pain/drug therapy/prevention & control",
         "Male",
-        "*Ultrasonography, Interventional/methods",
-        "Anesthesia, General/methods",
-        "*Analgesics, Opioid/administration & dosage",
-        "*Nerve Block/methods",
-        "*Spinal Fusion/methods",
+        "Prospective Studies",
+        "*Anesthesia, Local/methods",
         "Middle Aged",
-        "Injections, Spinal",
+        "*Bone Marrow/pathology",
+        "Biopsy/methods/adverse effects",
+        "Anxiety/prevention & control/etiology",
+        "*Hypnosis/methods",
         "Adult",
-        "Lumbar Vertebrae/surgery",
-        "Elective Surgical Procedures/methods"
+        "Nitrous Oxide/administration & dosage",
+        "Aged",
+        "Pain/etiology/prevention & control",
+        "Oxygen/administration & dosage",
+        "France"
       ],
       "publisher": "Springer Science and Business Media LLC",
       "crossrefVerified": true,
@@ -356,374 +348,68 @@
       "tags": [
         "临床研究",
         "麻醉学",
-        "疼痛与区域麻醉",
         "Comparative Study",
         "Journal Article"
       ],
-      "question": "该研究直接比较了两种常用术后镇痛技术（ESPB与ITM）在腰椎融合术中的效果和副作用，为临床决策提供了证据。",
-      "conclusion": "在腰椎融合术后24小时内，0.2 mg鞘内吗啡比竖脊肌平面阻滞提供更低的疼痛评分和更少的镇痛需求，但代价是更高的恶心和瘙痒发生率。",
-      "clinical": "ESPB和ITM均可延长首次镇痛时间并减少术后镇痛药消耗，但ITM在术后24小时提供更优的疼痛控制。 ITM组恶心和瘙痒发生率显著高于ESPB组，需权衡镇痛获益与副作用。 纳布啡可用于处理阿片类药物引起的瘙痒而不影响镇痛效果。",
-      "evidence": "中等偏高",
-      "score": 68,
+      "question": "骨髓活检常引起患者焦虑和疼痛，即使使用局部麻醉或笑气。本研究提示催眠作为一种非药物辅助手段，可能减少对额外药物干预的需求，改善患者体验。",
+      "conclusion": "在骨髓活检中，催眠联合局部麻醉相比单纯局部麻醉可显著提高患者舒适度、降低疼痛和焦虑、减少笑气使用，并改善操作者舒适度。",
+      "clinical": "催眠可作为局部麻醉的辅助手段，提高骨髓活检患者的舒适度并减少疼痛。 催眠可能减少笑气等药物干预的需求。 操作者舒适度提高可能改善操作流程。",
+      "evidence": "中等",
+      "score": 60,
       "scoreBreakdown": {
-        "relevance": 23,
+        "relevance": 13,
         "evidenceQuality": 22,
-        "clinicalImpact": 11,
+        "clinicalImpact": 13,
         "journalQuality": 6,
         "novelty": 6
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "随机对照试验，120例患者随机分为E组（ESPB）、M组（ITM）和C组（对照组），104例纳入分析（E组35例，M组34例，C组35例）。"
+          "value": "前瞻性、多中心、随机、开放标签研究，纳入180例患者（LA组91例，LA+H组89例），2023年6月至2024年11月在法国4个血液科进行。"
         },
         {
           "label": "研究对象与样本",
-          "value": "120 patients with ASA physical status 1-2, aged 21-55 years, undergoing elective lumbar spine fusion surgery under general anesthesia；120 randomized, 104 analyzed (E-group 35, M-group 34, C-group 35)"
+          "value": "BMB-naive patients with suspected or confirmed hematological disorders；180 (LA group n=91, LA+H group n=89)"
         },
         {
           "label": "干预与比较",
-          "value": "Bilateral ultrasound-guided erector spinae plane block (ESPB) with 20 mL 0.25% bupivacaine；对照：Intrathecal morphine (ITM) 0.2 mg (group M) and control (group C, sham blocks)"
+          "value": "Local anesthesia plus hypnosis (LA+H)；对照：Local anesthesia alone (LA)"
         },
         {
           "label": "主要终点",
-          "value": "Time to first rescue analgesic (ketorolac)"
+          "value": "Patient comfort rated on a scale from 0 (no comfort) to 10 (maximum comfort) immediately after procedure"
         }
       ],
       "keyPoints": [
-        "120例患者随机分组，104例完成分析。",
-        "主要结局：首次补救镇痛时间，E组和M组均显著长于C组（P < 0.001）。",
-        "M组术后24小时疼痛评分最低，但恶心（64.7%）和瘙痒（32.4%）发生率最高。",
-        "无呼吸抑制病例。",
-        "ESPB组副作用发生率较低（恶心8.6%，瘙痒5.7%）。"
+        "180例骨髓活检初治患者随机分组，LA+H组89例，LA组91例。",
+        "主要终点为患者舒适度（0-10分），LA+H组中位9分 vs. LA组5分（P<10⁻⁴）。",
+        "次要终点：疼痛、焦虑、操作者舒适度、笑气使用均显著改善。",
+        "笑气需求：LA+H组3% vs. LA组29%（P<10⁻⁴）。",
+        "研究为开放标签，未报告效应量和置信区间。"
       ],
-      "methods": "脊柱手术后疼痛管理具有挑战性。竖脊肌平面阻滞（ESPB）和鞘内吗啡（ITM）均可提供有效术后镇痛，但超声设备在资源匮乏地区的缺乏以及ITM合适剂量以限制副作用可能限制其应用。纳布啡可有效处理阿片类药物引起的瘙痒而不减弱术后镇痛效果。",
-      "results": "与C组相比，E组和M组首次补救镇痛时间更长，术后24小时镇痛药消耗更少（P < 0.001）。术后24小时，M组疼痛评分低于其他两组（P < 0.001），但恶心和瘙痒发生率更高（P < 0.001），无呼吸抑制病例。具体数据：首次请求镇痛时间（小时）：E组20.9±1.9，M组22.4±1.4，C组1.3±0.5；24小时纳布啡总消耗量（mg）：E组33.9±7.4，M组26.8±6.0，C组39.4±8.5；酮咯酸补救次数：E组1.4±0.5，M组1.0±0.0，C组3.2±0.8。",
+      "methods": "骨髓活检是诊断、分期和评估多种血液疾病的常用操作，即使使用局部麻醉、预用药或笑气，仍常引起焦虑和疼痛。催眠作为一种有前景的非药物方法，可减少侵入性操作中的焦虑和疼痛。",
+      "results": "LA+H组与LA组相比：中位舒适度评分9 vs. 5，疼痛评分2 vs. 6，术后评分1 vs. 5，操作者舒适度10 vs. 7，笑气需求3% vs. 29%，所有比较P<10⁻⁴。当前可获取内容未提供效应量、95%CI及不良事件数据。",
       "limitations": [
-        "单中心研究，可能缺乏外部效度。",
-        "未进行成本效益分析。",
-        "ESPB中未使用其他佐剂（如地塞米松）。",
-        "未评估镇静与通气之间的相互作用。"
+        "当前可获取内容未提供研究局限性信息。"
       ],
       "practice": [
-        "ESPB和ITM均可延长首次镇痛时间并减少术后镇痛药消耗，但ITM在术后24小时提供更优的疼痛控制。",
-        "ITM组恶心和瘙痒发生率显著高于ESPB组，需权衡镇痛获益与副作用。",
-        "纳布啡可用于处理阿片类药物引起的瘙痒而不影响镇痛效果。"
+        "催眠可作为局部麻醉的辅助手段，提高骨髓活检患者的舒适度并减少疼痛。",
+        "催眠可能减少笑气等药物干预的需求。",
+        "操作者舒适度提高可能改善操作流程。"
       ],
-      "editor": "研究设计为随机对照试验，样本量适中，主要结局和次要结局明确，统计结果支持结论。 过度解读风险：结论中“代价是更高的副作用发生率”表述合理，但需注意副作用为可管理，且未报告严重不良事件。",
-      "whyItMatters": "该研究直接比较了两种常用术后镇痛技术（ESPB与ITM）在腰椎融合术中的效果和副作用，为临床决策提供了证据。",
-      "background": "脊柱手术后疼痛管理具有挑战性。竖脊肌平面阻滞（ESPB）和鞘内吗啡（ITM）均可提供有效术后镇痛，但超声设备在资源匮乏地区的缺乏以及ITM合适剂量以限制副作用可能限制其应用。纳布啡可有效处理阿片类药物引起的瘙痒而不减弱术后镇痛效果。",
+      "editor": "研究为随机对照试验，样本量适中，主要和次要终点均显示显著差异，P值极小，支持催眠的辅助作用。 过度解读风险：结论基于中位数比较，未报告效应量和置信区间，且为开放标签设计，可能存在偏倚。需谨慎外推至其他人群或操作。",
+      "whyItMatters": "骨髓活检常引起患者焦虑和疼痛，即使使用局部麻醉或笑气。本研究提示催眠作为一种非药物辅助手段，可能减少对额外药物干预的需求，改善患者体验。",
+      "background": "骨髓活检是诊断、分期和评估多种血液疾病的常用操作，即使使用局部麻醉、预用药或笑气，仍常引起焦虑和疼痛。催眠作为一种有前景的非药物方法，可减少侵入性操作中的焦虑和疼痛。",
       "pico": {
-        "population": "120 patients with ASA physical status 1-2, aged 21-55 years, undergoing elective lumbar spine fusion surgery under general anesthesia",
-        "intervention": "Bilateral ultrasound-guided erector spinae plane block (ESPB) with 20 mL 0.25% bupivacaine",
-        "comparison": "Intrathecal morphine (ITM) 0.2 mg (group M) and control (group C, sham blocks)",
-        "outcome": "Time to first rescue analgesic (ketorolac)"
+        "population": "BMB-naive patients with suspected or confirmed hematological disorders",
+        "intervention": "Local anesthesia plus hypnosis (LA+H)",
+        "comparison": "Local anesthesia alone (LA)",
+        "outcome": "Patient comfort rated on a scale from 0 (no comfort) to 10 (maximum comfort) immediately after procedure"
       },
-      "studyType": "随机对照试验，120例患者随机分为E组（ESPB）、M组（ITM）和C组（对照组），104例纳入分析（E组35例，M组34例，C组35例）。",
-      "sampleSize": "120 randomized, 104 analyzed (E-group 35, M-group 34, C-group 35)",
-      "primaryOutcome": "Time to first rescue analgesic (ketorolac)",
-      "effectSize": [
-        "Time to first request for analgesia (h): E-group 20.9 ± 1.9, M-group 22.4 ± 1.4, C-group 1.3 ± 0.5",
-        "Total nalbuphine consumption (mg)/24 h: E-group 33.9 ± 7.4, M-group 26.8 ± 6.0, C-group 39.4 ± 8.5",
-        "Number of rescue doses of ketorolac: E-group 1.4 ± 0.5, M-group 1.0 ± 0.0, C-group 3.2 ± 0.8"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "P < 0.001 for primary outcome and most secondary outcomes",
-        "P < 0.001 for pain scores at 24 h",
-        "P < 0.001 for nausea and pruritus rates"
-      ],
-      "adverseEvents": "M-group had higher rates of nausea (64.7%) and pruritus (32.4%) than E-group (8.6% and 5.7%) and C-group (34.3% and 8.6%). No respiratory depression in any group.",
-      "aiAssessment": {
-        "support": "研究设计为随机对照试验，样本量适中，主要结局和次要结局明确，统计结果支持结论。",
-        "overinterpretationRisk": "结论中“代价是更高的副作用发生率”表述合理，但需注意副作用为可管理，且未报告严重不良事件。"
-      },
-      "analysisBasis": "摘要+开放全文分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42464120/",
-        "doi": "https://doi.org/10.1186/s12871-026-04030-4",
-        "publisher": "https://doi.org/10.1186/s12871-026-04030-4",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13377722/"
-      }
-    },
-    {
-      "slug": "pmid-42469995",
-      "number": "04",
-      "category": "疼痛与区域麻醉",
-      "journal": "Medicine",
-      "year": "2026",
-      "publishedDate": "2026-07-17",
-      "electronicPublicationDate": null,
-      "readingTime": "7 分钟",
-      "title": "颈竖脊肌平面阻滞与颈浅丛阻滞在颈椎前路椎间盘切除融合术后镇痛中的疗效比较：一项前瞻性随机研究",
-      "originalTitle": "Comparative efficacy of cervical erector spinae plane block and superficial cervical plexus block for postoperative analgesia in anterior cervical discectomy and fusion: A prospective randomized study.",
-      "abstract": "BACKGROUND: Anterior cervical discectomy and fusion (ACDF) is a commonly performed procedure for cervical disc disease; however, significant postoperative pain may hinder recovery and increase opioid consumption. This study compared the efficacy of cervical erector spinae plane block (cESPB) and superficial cervical plexus block (sCPB) techniques in ACDF. METHODS: This prospective, randomized study included American Society of Anesthesiologists (ASA) class I-II patients aged 18 to 65 years who underwent ACDF surgery for cervical (C)5-C6 or C6-C7 disc disease. Patients were randomly assigned to 1 of 2 groups according to the regional block technique administered: cESPB (n = 20) and sCPB (n = 20). Perioperative propofol and remifentanil consumption were recorded. While the primary outcomes were the Quality of Recovery-15 (QoR-15) and Visual Analog Scale (VAS) scores, the secondary outcomes included analgesic consumption, the incidence of postoperative nausea and vomiting (PONV), and the presence of shoulder and neck myofascial pain. RESULTS: Total intraoperative propofol and remifentanil requirements were similar between the groups (P = .362 and P = .058, respectively). Intraoperative remifentanil consumption was higher in the sCPB group during T2, T3, and T4 (P = .004, P < .001, and P = .018, respectively). QoR-15 scores were significantly higher in the cESPB group than in the sCPB group (121.45 +/- 6.48 vs 114.15 +/- 8.19; P = .003; MD: 7.30; 95% CI: 2.57-12.03; Cohen d = 0.99). PCA infusion volumes at PCA6, PCA12, and PCA24 were significantly lower in the cESPB group (18.32 +/- 8.68 vs 26.10 +/- 11.12 mL, 33.35 +/- 13.83 vs 43.70 +/- 14.78 mL, and 53.30 +/- 16.45 vs 65.05 +/- 19.09 mL, respectively; P = .019, P = .028, and P = .044; Cohen d = -0.78, -0.72, and -0.66, respectively). VAS scores, PONV incidence, and shoulder/neck myofascial pain were similar between the groups (P > .05), with small effect sizes observed across all VAS measurements. CONCLUSIONS: In patients undergoing ACDF surgery, cESPB was associated with higher postoperative QoR-15 scores and lower postoperative PCA consumption compared with sCPB. However, these findings should be interpreted with caution, as the compared interventions differed in laterality, total local anesthetic volume, and potential dermatomal coverage. Therefore, the observed associations may not be attributable solely to the block technique itself.",
-      "authors": "Mendes E, Adiyeke O, Sarban O, Yilmaz I",
-      "citation": "Medicine (Baltimore). 2026 Jul 17;105(29):e49791. doi: 10.1097/MD.0000000000049791.",
-      "doi": "10.1097/md.0000000000049791",
-      "pmid": "42469995",
-      "pmcid": "PMC13384543",
-      "publicationTypes": [
-        "Comparative Study",
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "meshTerms": [
-        "Humans",
-        "Female",
-        "*Diskectomy/methods/adverse effects",
-        "Prospective Studies",
-        "*Postoperative Pain/drug therapy/prevention & control",
-        "Middle Aged",
-        "Adult",
-        "Male",
-        "*Cervical Vertebrae/surgery",
-        "*Cervical Plexus Block/methods",
-        "*Spinal Fusion/methods/adverse effects",
-        "Remifentanil",
-        "*Nerve Block/methods",
-        "Pain Measurement",
-        "Cervical Plexus",
-        "Postoperative Nausea and Vomiting/epidemiology",
-        "Paraspinal Muscles",
-        "Analgesics, Opioid/administration & dosage/therapeutic use",
-        "Propofol/administration & dosage",
-        "Aged"
-      ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "other",
-        "label": "其他同行评议期刊",
-        "priorityRank": 0
-      },
-      "tags": [
-        "临床研究",
-        "疼痛与区域麻醉",
-        "麻醉基础研究",
-        "Comparative Study",
-        "Journal Article"
-      ],
-      "question": "ACDF术后疼痛管理对患者恢复至关重要，该研究比较了两种区域阻滞技术的镇痛效果，为临床选择提供了初步证据。",
-      "conclusion": "在ACDF手术患者中，与颈浅丛阻滞相比，颈竖脊肌平面阻滞可提高术后24小时QoR-15评分并减少PCA镇痛药用量，但两组间VAS评分、PONV及肌筋膜疼痛无显著差异。",
-      "clinical": "cESPB可能改善ACDF术后早期恢复质量并减少阿片类药物需求。 两种阻滞技术的VAS评分无差异，提示cESPB的临床镇痛优势可能有限。 两组局部麻醉药总量、阻滞侧别及皮节覆盖范围不同，结果需谨慎解读。",
-      "evidence": "中等",
-      "score": 65,
-      "scoreBreakdown": {
-        "relevance": 22,
-        "evidenceQuality": 22,
-        "clinicalImpact": 11,
-        "journalQuality": 6,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "前瞻性随机对照试验，共纳入40例患者（每组20例）。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "ASA I-II patients aged 18-65 years undergoing ACDF for C5-C6 or C6-C7 disc disease；40 (20 per group)"
-        },
-        {
-          "label": "干预与比较",
-          "value": "cervical erector spinae plane block (cESPB) bilaterally with 10 mL 0.25% bupivacaine per side；对照：superficial cervical plexus block (sCPB) unilaterally with 10 mL 0.25% bupivacaine"
-        },
-        {
-          "label": "主要终点",
-          "value": "Quality of Recovery-15 (QoR-15) scores and Visual Analog Scale (VAS) scores at 24 hours postoperatively"
-        }
-      ],
-      "keyPoints": [
-        "cESPB组术后24小时QoR-15评分显著高于sCPB组（P=0.003）。",
-        "cESPB组术后6、12、24小时PCA曲马多用量显著低于sCPB组（P均<0.05）。",
-        "两组VAS评分、PONV及肌筋膜疼痛无显著差异。",
-        "两组在局部麻醉药总量、侧别及皮节覆盖上存在差异，结果需谨慎解读。"
-      ],
-      "methods": "颈椎前路椎间盘切除融合术（ACDF）是治疗颈椎间盘疾病的常用手术，但术后显著疼痛可能阻碍恢复并增加阿片类药物用量。本研究比较了颈竖脊肌平面阻滞（cESPB）与颈浅丛阻滞（sCPB）在ACDF中的疗效。",
-      "results": "cESPB组术后24小时QoR-15评分显著高于sCPB组（121.45±6.48 vs 114.15±8.19；P=0.003；均数差7.30，95%CI 2.57-12.03；Cohen d=0.99）。cESPB组术后6、12、24小时PCA输注量均显著低于sCPB组（18.32±8.68 vs 26.10±11.12 mL，P=0.019；33.35±13.83 vs 43.70±14.78 mL，P=0.028；53.30±16.45 vs 65.05±19.09 mL，P=0.044；Cohen d分别为-0.78、-0.72、-0.66）。两组间VAS评分、PONV发生率及肌筋膜疼痛无显著差异（P>0.05）。",
-      "limitations": [
-        "两组局部麻醉药总量、侧别及皮节覆盖范围不同，可能混淆结果。",
-        "缺乏无阻滞对照组。",
-        "样本量较小（每组20例）。",
-        "样本量计算基于不同手术背景的QoR-15数据。",
-        "多个次要结局未完全校正I类错误。",
-        "缺乏膈神经麻痹的客观评估。",
-        "神经病理性疼痛和全身镇痛药可能造成混杂。"
-      ],
-      "practice": [
-        "cESPB可能改善ACDF术后早期恢复质量并减少阿片类药物需求。",
-        "两种阻滞技术的VAS评分无差异，提示cESPB的临床镇痛优势可能有限。",
-        "两组局部麻醉药总量、阻滞侧别及皮节覆盖范围不同，结果需谨慎解读。"
-      ],
-      "editor": "研究设计为前瞻性随机对照，主要结局有统计学差异，效应量中等至大。 过度解读风险：中等。两组干预措施在侧别、药量和皮节覆盖上存在差异，作者已指出观察到的关联可能不完全归因于阻滞技术本身。",
-      "whyItMatters": "ACDF术后疼痛管理对患者恢复至关重要，该研究比较了两种区域阻滞技术的镇痛效果，为临床选择提供了初步证据。",
-      "background": "颈椎前路椎间盘切除融合术（ACDF）是治疗颈椎间盘疾病的常用手术，但术后显著疼痛可能阻碍恢复并增加阿片类药物用量。本研究比较了颈竖脊肌平面阻滞（cESPB）与颈浅丛阻滞（sCPB）在ACDF中的疗效。",
-      "pico": {
-        "population": "ASA I-II patients aged 18-65 years undergoing ACDF for C5-C6 or C6-C7 disc disease",
-        "intervention": "cervical erector spinae plane block (cESPB) bilaterally with 10 mL 0.25% bupivacaine per side",
-        "comparison": "superficial cervical plexus block (sCPB) unilaterally with 10 mL 0.25% bupivacaine",
-        "outcome": "Quality of Recovery-15 (QoR-15) scores and Visual Analog Scale (VAS) scores at 24 hours postoperatively"
-      },
-      "studyType": "前瞻性随机对照试验，共纳入40例患者（每组20例）。",
-      "sampleSize": "40 (20 per group)",
-      "primaryOutcome": "Quality of Recovery-15 (QoR-15) scores and Visual Analog Scale (VAS) scores at 24 hours postoperatively",
-      "effectSize": [
-        "Cohen d = 0.99 for QoR-15",
-        "Cohen d = -0.78 for PCA6",
-        "Cohen d = -0.72 for PCA12",
-        "Cohen d = -0.66 for PCA24"
-      ],
-      "confidenceInterval": [
-        "95% CI: 2.57-12.03 for QoR-15 MD",
-        "95% CI: -14.19 to -1.41 for PCA6 MD",
-        "95% CI: -19.51 to -1.19 for PCA12 MD",
-        "95% CI: -23.16 to -0.34 for PCA24 MD"
-      ],
-      "pValue": [
-        "P = .003 for QoR-15",
-        "P = .019 for PCA6",
-        "P = .028 for PCA12",
-        "P = .044 for PCA24"
-      ],
-      "adverseEvents": "No perioperative complications observed. PONV: 30% sCPB vs 20% cESPB (P = .465). Hemodynamic events (hypotension, bradycardia) occurred during TIVA, not attributed to blocks.",
-      "aiAssessment": {
-        "support": "研究设计为前瞻性随机对照，主要结局有统计学差异，效应量中等至大。",
-        "overinterpretationRisk": "中等。两组干预措施在侧别、药量和皮节覆盖上存在差异，作者已指出观察到的关联可能不完全归因于阻滞技术本身。"
-      },
-      "analysisBasis": "摘要+开放全文分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42469995/",
-        "doi": "https://doi.org/10.1097/md.0000000000049791",
-        "publisher": "https://doi.org/10.1097/md.0000000000049791",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13384543/"
-      }
-    },
-    {
-      "slug": "pmid-42475613",
-      "number": "05",
-      "category": "老年围术期",
-      "journal": "Nursing",
-      "year": "2026",
-      "publishedDate": "2026-07-20",
-      "electronicPublicationDate": "2026-07-20",
-      "readingTime": "6 分钟",
-      "title": "抚触疗法对冠状动脉旁路移植术恢复效果的评估：一项随机对照试验",
-      "originalTitle": "Evaluation of the effect of Healing Touch on coronary artery bypass grafting recovery: A randomized controlled trial.",
-      "abstract": "BACKGROUND: Healing Touch (HT) is used to provide holistic care, improve outcomes, and provide comfort. However, there is minimal published literature on its effects among inpatients undergoing coronary artery bypass grafting (CABG), who often experience anxiety, postoperative atrial fibrillation, and postoperative delirium. PURPOSE: To explore the effects of HT on preoperative and postoperative anxiety and postoperative rates of atrial fibrillation and delirium among patients who are having CABG surgery. METHODS: This randomized controlled trial collected data over 9 months at a 489-bed, level II trauma center and 5-time Magnet-designated hospital in the midwestern United States. A total of 111 HT sessions (37 preoperative and 74 postoperative) were provided to the 37 patients in the intervention group. The 42 control group participants received standard nursing care, including pharmacologic, nonpharmacologic, and educational interventions. Data collection included administering the Subjective Units of Distress Scale (SUDS) and conducting a retrospective chart review for postoperative atrial fibrillation rates and Confusion Assessment Method scores. Descriptive statistics, paired and unpaired sample t-tests, and chi-square tests were used for analysis. RESULTS: Among the intervention group participants, patient-reported SUDS scores decreased after receiving an HT session (P < .01), indicating lower levels of anxiety and distress for both preoperative and postoperative phases. No statistically significant difference in the incidence of atrial fibrillation or delirium was found between the intervention and control groups. CONCLUSION: The study findings suggest that HT may be an effective intervention to reduce preoperative and postoperative anxiety among patients undergoing CABG surgery.",
-      "authors": "Klein B, Wilson R, Berndt J",
-      "citation": "Nursing. 2026 Aug 1;56(8):49-55. doi: 10.1097/NSG.0000000000000440. Epub 2026 Jul 20.",
-      "doi": "10.1097/nsg.0000000000000440",
-      "pmid": "42475613",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "meshTerms": [
-        "Humans",
-        "*Coronary Artery Bypass/psychology",
-        "Female",
-        "Male",
-        "*Therapeutic Touch/methods",
-        "Middle Aged",
-        "Anxiety/prevention & control",
-        "Aged",
-        "Atrial Fibrillation/prevention & control",
-        "Delirium/prevention & control",
-        "Postoperative Complications/prevention & control",
-        "Midwestern United States"
-      ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "other",
-        "label": "其他同行评议期刊",
-        "priorityRank": 0
-      },
-      "tags": [
-        "临床研究",
-        "老年围术期",
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "question": "为围术期焦虑管理提供非药物干预证据，但需进一步验证其对临床结局的改善。",
-      "conclusion": "抚触疗法可降低CABG患者术前和术后焦虑，但对房颤或谵妄发生率无显著影响。",
-      "clinical": "HT可作为围术期焦虑管理的辅助非药物手段，但需更多证据支持其对硬终点的改善。 麻醉医师可考虑将HT纳入多模式围术期护理方案。",
-      "evidence": "中等",
-      "score": 56,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 22,
-        "clinicalImpact": 11,
-        "journalQuality": 6,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "随机对照试验，在美国中西部一家489张床位、II级创伤中心和5次Magnet认证医院进行，数据收集持续9个月。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Patients undergoing coronary artery bypass grafting (CABG) surgery；当前可获取内容未提供该数据。"
-        },
-        {
-          "label": "干预与比较",
-          "value": "Healing Touch (HT) sessions (37 preoperative and 74 postoperative)；对照：Standard nursing care including pharmacologic, nonpharmacologic, and educational interventions"
-        },
-        {
-          "label": "主要终点",
-          "value": "Preoperative and postoperative anxiety measured by Subjective Units of Distress Scale (SUDS)"
-        }
-      ],
-      "keyPoints": [
-        "HT可降低CABG患者术前和术后焦虑（SUDS评分，P<0.01）。",
-        "HT对术后房颤和谵妄发生率无显著影响。",
-        "样本量：干预组37例，对照组42例。",
-        "效应量和95%CI未报告。"
-      ],
-      "methods": "抚触疗法用于提供整体护理、改善结局和舒适度，但关于其对CABG住院患者（常伴焦虑、术后房颤和谵妄）影响的文献有限。",
-      "results": "干预组37例，对照组42例。干预组患者在接受HT疗程后SUDS评分下降（P < .01），表明术前和术后焦虑水平降低。两组房颤或谵妄发生率无统计学显著差异。效应量、95%CI未报告。",
-      "limitations": [
-        "样本量较小（干预组37例，对照组42例），可能影响统计效能。",
-        "未报告效应量和95%CI，难以评估临床意义。",
-        "单中心设计，外推性受限。"
-      ],
-      "practice": [
-        "HT可作为围术期焦虑管理的辅助非药物手段，但需更多证据支持其对硬终点的改善。",
-        "麻醉医师可考虑将HT纳入多模式围术期护理方案。"
-      ],
-      "editor": "研究设计为RCT，结果提示HT可降低焦虑，但主要终点为患者报告结局，且对硬终点无显著影响。 过度解读风险：中等：结论中“可能有效”需谨慎，因缺乏效应量和CI，且未校正多重比较。",
-      "whyItMatters": "为围术期焦虑管理提供非药物干预证据，但需进一步验证其对临床结局的改善。",
-      "background": "抚触疗法用于提供整体护理、改善结局和舒适度，但关于其对CABG住院患者（常伴焦虑、术后房颤和谵妄）影响的文献有限。",
-      "pico": {
-        "population": "Patients undergoing coronary artery bypass grafting (CABG) surgery",
-        "intervention": "Healing Touch (HT) sessions (37 preoperative and 74 postoperative)",
-        "comparison": "Standard nursing care including pharmacologic, nonpharmacologic, and educational interventions",
-        "outcome": "Preoperative and postoperative anxiety measured by Subjective Units of Distress Scale (SUDS)"
-      },
-      "studyType": "随机对照试验，在美国中西部一家489张床位、II级创伤中心和5次Magnet认证医院进行，数据收集持续9个月。",
-      "sampleSize": "当前可获取内容未提供该数据。",
-      "primaryOutcome": "Preoperative and postoperative anxiety measured by Subjective Units of Distress Scale (SUDS)",
+      "studyType": "前瞻性、多中心、随机、开放标签研究，纳入180例患者（LA组91例，LA+H组89例），2023年6月至2024年11月在法国4个血液科进行。",
+      "sampleSize": "180 (LA group n=91, LA+H group n=89)",
+      "primaryOutcome": "Patient comfort rated on a scale from 0 (no comfort) to 10 (maximum comfort) immediately after procedure",
       "effectSize": [
         "当前可获取内容未提供该数据。"
       ],
@@ -731,12 +417,12 @@
         "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "< .01"
+        "p < 10^(-4) for comfort, pain, post-procedure scores, operator comfort, EMONO requirement"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "研究设计为RCT，结果提示HT可降低焦虑，但主要终点为患者报告结局，且对硬终点无显著影响。",
-        "overinterpretationRisk": "中等：结论中“可能有效”需谨慎，因缺乏效应量和CI，且未校正多重比较。"
+        "support": "研究为随机对照试验，样本量适中，主要和次要终点均显示显著差异，P值极小，支持催眠的辅助作用。",
+        "overinterpretationRisk": "结论基于中位数比较，未报告效应量和置信区间，且为开放标签设计，可能存在偏倚。需谨慎外推至其他人群或操作。"
       },
       "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
@@ -744,9 +430,282 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42475613/",
-        "doi": "https://doi.org/10.1097/nsg.0000000000000440",
-        "publisher": "https://doi.org/10.1097/nsg.0000000000000440",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42484702/",
+        "doi": "https://doi.org/10.1007/s00520-026-11005-1",
+        "publisher": "https://doi.org/10.1007/s00520-026-11005-1",
+        "openFullText": null
+      }
+    },
+    {
+      "slug": "pmid-42474765",
+      "number": "04",
+      "category": "麻醉学",
+      "journal": "Pediatric surgery international",
+      "year": "2026",
+      "publishedDate": "2026-07-20",
+      "electronicPublicationDate": "2026-07-20",
+      "readingTime": "5 分钟",
+      "title": "婴儿腹股沟疝修补术的碳排放与废物消耗：一项前瞻性分析",
+      "originalTitle": "Carbon emissions and waste consumption of infant inguinal hernia repair: a prospective analysis.",
+      "abstract": "PURPOSE: Inguinal Hernia Repair (IHR) is a common pediatric procedure with different surgical and anesthetic options. This project quantified and compared differences in environmental impact by analyzing waste generation and carbon emissions arising from anesthesia and surgical processes for infant IHR. METHODS: A prospective, observational study of pediatric IHR cases in elective patients aged < 1 year was conducted over 1 year. Data collection included operative and anesthetic processes, as well as waste generated/case. Total CO(2) equivalent from inhaled anesthesia was measured, along with the volume of CO(2) used for insufflation. Welch's t-test was used for analysis, with p < 0.05 considered significant. RESULTS: Twenty-two patients were enrolled, 13 underwent open IHR and 9 underwent laparoscopic IHR, using a combination of anesthetic techniques. Laparoscopy produced 22.3% more non-recyclable waste than open procedures (p = 0.0081); no difference in recyclable waste (p = 0.291) or total CO(2) emissions (p = 0.6936). On average, only 7% of CO(2) emissions arose from direct insufflation during laparoscopy. CONCLUSION: Laparoscopy for infant IHR generates more physical waste but produces comparable total CO(2) emissions when compared to the open procedure. The overall carbon footprint of either procedure appears similar, suggesting the planetary impact of these procedures shouldn't influence choice of technique. More research into environmental stewardship is warranted.",
+      "authors": "Hui A, Bilal H, Mazi RR, Krishnan P, Baird R",
+      "citation": "Pediatr Surg Int. 2026 Jul 20;42(1):311. doi: 10.1007/s00383-026-06540-1.",
+      "doi": "10.1007/s00383-026-06540-1",
+      "pmid": "42474765",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article",
+        "Observational Study"
+      ],
+      "meshTerms": [
+        "Humans",
+        "*Hernia, Inguinal/surgery",
+        "Prospective Studies",
+        "Infant",
+        "*Herniorrhaphy/methods",
+        "*Laparoscopy",
+        "*Carbon Dioxide/analysis",
+        "Female",
+        "Male",
+        "*Carbon Footprint/statistics & numerical data",
+        "Pediatric Anesthesia"
+      ],
+      "publisher": "Springer Science and Business Media LLC",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床研究"
+      },
+      "journalTier": {
+        "id": "other",
+        "label": "其他同行评议期刊",
+        "priorityRank": 0
+      },
+      "tags": [
+        "临床研究",
+        "麻醉学",
+        "麻醉相关领域",
+        "Journal Article",
+        "Observational Study"
+      ],
+      "question": "该研究首次量化了婴儿腹股沟疝修补术不同术式的环境足迹，提示术式选择不应基于环境影响的差异。",
+      "conclusion": "腹腔镜婴儿腹股沟疝修补术产生的不可回收废物比开放手术多22.3%，但总二氧化碳排放量相似。",
+      "clinical": "两种术式的总碳排放相似，麻醉方式选择可能不显著影响碳足迹。 腹腔镜术中直接充气产生的CO2仅占7%，提示麻醉气体和能源消耗是碳排放的主要来源。",
+      "evidence": "中等",
+      "score": 48,
+      "scoreBreakdown": {
+        "relevance": 17,
+        "evidenceQuality": 14,
+        "clinicalImpact": 7,
+        "journalQuality": 6,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "前瞻性观察性研究，为期1年，纳入22例患儿（13例开放，9例腹腔镜），使用Welch t检验分析。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "elective patients aged < 1 year undergoing inguinal hernia repair；22 patients (13 open IHR, 9 laparoscopic IHR)"
+        },
+        {
+          "label": "干预与比较",
+          "value": "laparoscopic inguinal hernia repair；对照：open inguinal hernia repair"
+        },
+        {
+          "label": "主要终点",
+          "value": "non-recyclable waste generation"
+        }
+      ],
+      "keyPoints": [
+        "腹腔镜IHR产生22.3%更多不可回收废物（p=0.0081）。",
+        "可回收废物和总CO2排放无显著差异。",
+        "腹腔镜充气CO2仅占总排放的7%。",
+        "两种术式的总体碳足迹相似。"
+      ],
+      "methods": "腹股沟疝修补术是常见的儿科手术，有不同手术和麻醉选择。本研究通过分析婴儿IHR的废物产生和碳排放，量化并比较不同术式的环境影响差异。",
+      "results": "共纳入22例患儿（13例开放，9例腹腔镜）。腹腔镜组不可回收废物比开放组多22.3%（p=0.0081）；可回收废物（p=0.291）和总CO2排放（p=0.6936）无差异。腹腔镜术中直接充气产生的CO2仅占总排放的7%。",
+      "limitations": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "practice": [
+        "两种术式的总碳排放相似，麻醉方式选择可能不显著影响碳足迹。",
+        "腹腔镜术中直接充气产生的CO2仅占7%，提示麻醉气体和能源消耗是碳排放的主要来源。"
+      ],
+      "editor": "研究设计为前瞻性观察，样本量小（22例），但结果有统计学差异（p=0.0081），支持腹腔镜产生更多不可回收废物的结论。 过度解读风险：低。结论谨慎，指出两种术式碳足迹相似，不应影响术式选择。",
+      "whyItMatters": "该研究首次量化了婴儿腹股沟疝修补术不同术式的环境足迹，提示术式选择不应基于环境影响的差异。",
+      "background": "腹股沟疝修补术是常见的儿科手术，有不同手术和麻醉选择。本研究通过分析婴儿IHR的废物产生和碳排放，量化并比较不同术式的环境影响差异。",
+      "pico": {
+        "population": "elective patients aged < 1 year undergoing inguinal hernia repair",
+        "intervention": "laparoscopic inguinal hernia repair",
+        "comparison": "open inguinal hernia repair",
+        "outcome": "non-recyclable waste generation"
+      },
+      "studyType": "前瞻性观察性研究，为期1年，纳入22例患儿（13例开放，9例腹腔镜），使用Welch t检验分析。",
+      "sampleSize": "22 patients (13 open IHR, 9 laparoscopic IHR)",
+      "primaryOutcome": "non-recyclable waste generation",
+      "effectSize": [
+        "22.3% more non-recyclable waste"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "0.0081",
+        "0.291",
+        "0.6936"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "研究设计为前瞻性观察，样本量小（22例），但结果有统计学差异（p=0.0081），支持腹腔镜产生更多不可回收废物的结论。",
+        "overinterpretationRisk": "低。结论谨慎，指出两种术式碳足迹相似，不应影响术式选择。"
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42474765/",
+        "doi": "https://doi.org/10.1007/s00383-026-06540-1",
+        "publisher": "https://doi.org/10.1007/s00383-026-06540-1",
+        "openFullText": null
+      }
+    },
+    {
+      "slug": "pmid-42482356",
+      "number": "05",
+      "category": "麻醉学",
+      "journal": "The American journal of case reports",
+      "year": "2026",
+      "publishedDate": "2026-07-22",
+      "electronicPublicationDate": "2026-07-22",
+      "readingTime": "6 分钟",
+      "title": "影响言语和记忆的幕上出血性脑肿瘤切除术的清醒开颅麻醉管理",
+      "originalTitle": "Anesthesia Management of Awake Craniotomy for Excision of a Supratentorial Hemorrhagic Brain Tumor Affecting Speech and Memory.",
+      "abstract": "BACKGROUND Awake craniotomy is a neurosurgical approach used for resecting brain tumors in eloquent areas, where real-time neurological monitoring is critical to preserving function. Selecting the appropriate anesthesia approach is essential when preoperative language deficits or patient anxiety may limit intraoperative participation. While motor mapping is an established component of awake craniotomy, the use of a speech-language pathologist for real-time intraoperative monitoring remains underutilized. CASE REPORT A 31-year-old woman presented with a 1-year history of seizures, headaches, and progressive speech disturbances. Imaging revealed a left-sided supratentorial hemorrhagic brain tumor measuring 4.1x3.8x3.6 cm located near language centers. Given the proximity to the eloquent cortex and the patient's significant preoperative speech and memory deficits, a sleep-awake-sleep (SAS) anesthesia technique was chosen for awake craniotomy with intraoperative speech mapping. Uniquely, a speech-language pathologist (SLP) was integrated into the surgical team to conduct real-time assessments of language function. After induction with propofol and remifentanil, the patient was awakened during resection for real-time speech testing, allowing maximal tumor removal without compromising language function. She was then re-sedated for surgical closure. Postoperatively, there were no new deficits, speech remained at baseline, and magnetic resonance imaging (MRI) confirmed gross total resection. CONCLUSIONS This case report highlights the importance of individualized anesthesia planning and the under-recognized role of intraoperative SLP integration in awake craniotomy, which offers a more responsive approach to functional preservation than standard practice alone. For select patients, the SAS method provides a balance between patient comfort, surgical access, and preservation of neurological function.",
+      "authors": "Hugues A, Rechter T, Poblete A, Thornton I",
+      "citation": "Am J Case Rep. 2026 Jul 22;27:e952107. doi: 10.12659/AJCR.952107.",
+      "doi": "10.12659/ajcr.952107",
+      "pmid": "42482356",
+      "pmcid": null,
+      "publicationTypes": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "meshTerms": [
+        "Humans",
+        "Female",
+        "*Craniotomy/methods",
+        "Adult",
+        "Wakefulness",
+        "Neuroanesthesia",
+        "*Brain Neoplasms/surgery",
+        "*Supratentorial Neoplasms/surgery/complications",
+        "Onco-anesthesia",
+        "*Memory Disorders/etiology",
+        "*Speech Disorders/etiology",
+        "*Intracranial Hemorrhages/surgery"
+      ],
+      "publisher": "International Scientific Information, Inc.",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床研究"
+      },
+      "journalTier": {
+        "id": "other",
+        "label": "其他同行评议期刊",
+        "priorityRank": 0
+      },
+      "tags": [
+        "临床研究",
+        "麻醉学",
+        "麻醉基础研究",
+        "Case Reports",
+        "Journal Article"
+      ],
+      "question": "该病例展示了在清醒开颅术中整合SLP进行实时语言监测的潜在价值，以及个体化麻醉方案（SAS技术）在功能保护中的重要性，为类似高风险病例的麻醉管理提供了参考。",
+      "conclusion": "对于一例术前存在言语和记忆缺陷的幕上出血性脑肿瘤患者，采用睡眠-清醒-睡眠（SAS）麻醉技术联合术中言语病理学家（SLP）实时监测，实现了最大程度肿瘤切除且未出现新发神经功能缺损，术后言语功能维持基线水平。",
+      "clinical": "SAS麻醉技术（丙泊酚+瑞芬太尼）可用于清醒开颅术，在切除期间唤醒患者进行实时语言测试，然后再次镇静关闭切口。 术中整合SLP进行实时语言功能评估，可能有助于在肿瘤切除过程中更灵敏地保护语言功能。 个体化麻醉计划对于术前存在语言缺陷或焦虑的患者尤为重要。",
+      "evidence": "中等",
+      "score": 45,
+      "scoreBreakdown": {
+        "relevance": 18,
+        "evidenceQuality": 8,
+        "clinicalImpact": 7,
+        "journalQuality": 6,
+        "novelty": 6
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "病例报告"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "A 31-year-old woman with a 1-year history of seizures, headaches, and progressive speech disturbances; left-sided supratentorial hemorrhagic brain tumor (4.1x3.8x3.6 cm) near language centers；1"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Sleep-awake-sleep (SAS) anesthesia technique with propofol and remifentanil; intraoperative speech mapping with speech-language pathologist (SLP) integration；对照：当前可获取内容未提供该数据。"
+        },
+        {
+          "label": "主要终点",
+          "value": "Maximal tumor removal without compromising language function"
+        }
+      ],
+      "keyPoints": [
+        "对于一例邻近语言中枢的幕上出血性脑肿瘤患者，采用SAS麻醉技术联合术中SLP监测，实现了全切除且无新发神经功能缺损。",
+        "术后言语功能维持基线水平，MRI证实全切除。",
+        "该病例强调了个体化麻醉计划和术中SLP整合在清醒开颅术中的潜在价值。"
+      ],
+      "methods": "清醒开颅术用于切除功能区脑肿瘤，实时神经监测对保护功能至关重要。当术前语言缺陷或患者焦虑可能限制术中参与时，选择合适的麻醉方法至关重要。运动定位是清醒开颅的常规组成部分，但术中SLP实时监测的应用仍不足。",
+      "results": "该病例报告纳入1例患者。主要终点为最大程度肿瘤切除而不损害语言功能。结果显示：术后无新发神经功能缺损，言语功能维持基线水平，MRI证实全切除。效应量、95%置信区间和P值均未提供。",
+      "limitations": [
+        "当前可获取内容未提供该研究的局限性信息。"
+      ],
+      "practice": [
+        "SAS麻醉技术（丙泊酚+瑞芬太尼）可用于清醒开颅术，在切除期间唤醒患者进行实时语言测试，然后再次镇静关闭切口。",
+        "术中整合SLP进行实时语言功能评估，可能有助于在肿瘤切除过程中更灵敏地保护语言功能。",
+        "个体化麻醉计划对于术前存在语言缺陷或焦虑的患者尤为重要。"
+      ],
+      "editor": "该病例报告提供了SAS麻醉联合SLP监测在清醒开颅术中应用的初步经验，但证据级别低，仅为单个病例。 过度解读风险：高。单个病例结果不能推广至所有患者，且缺乏对照组和统计推断，需谨慎解读临床获益。",
+      "whyItMatters": "该病例展示了在清醒开颅术中整合SLP进行实时语言监测的潜在价值，以及个体化麻醉方案（SAS技术）在功能保护中的重要性，为类似高风险病例的麻醉管理提供了参考。",
+      "background": "清醒开颅术用于切除功能区脑肿瘤，实时神经监测对保护功能至关重要。当术前语言缺陷或患者焦虑可能限制术中参与时，选择合适的麻醉方法至关重要。运动定位是清醒开颅的常规组成部分，但术中SLP实时监测的应用仍不足。",
+      "pico": {
+        "population": "A 31-year-old woman with a 1-year history of seizures, headaches, and progressive speech disturbances; left-sided supratentorial hemorrhagic brain tumor (4.1x3.8x3.6 cm) near language centers",
+        "intervention": "Sleep-awake-sleep (SAS) anesthesia technique with propofol and remifentanil; intraoperative speech mapping with speech-language pathologist (SLP) integration",
+        "comparison": "当前可获取内容未提供该数据。",
+        "outcome": "Maximal tumor removal without compromising language function"
+      },
+      "studyType": "病例报告",
+      "sampleSize": "1",
+      "primaryOutcome": "Maximal tumor removal without compromising language function",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "该病例报告提供了SAS麻醉联合SLP监测在清醒开颅术中应用的初步经验，但证据级别低，仅为单个病例。",
+        "overinterpretationRisk": "高。单个病例结果不能推广至所有患者，且缺乏对照组和统计推断，需谨慎解读临床获益。"
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42482356/",
+        "doi": "https://doi.org/10.12659/ajcr.952107",
+        "publisher": "https://doi.org/10.12659/ajcr.952107",
         "openFullText": null
       }
     }
