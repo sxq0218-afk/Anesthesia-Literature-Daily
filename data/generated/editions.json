@@ -1,7 +1,735 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-23T03:59:28.298Z",
+  "updatedAt": "2026-07-24T03:58:25.950Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-24T03:58:25.950Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-01-25T03:58:25.950Z",
+        "to": "2026-07-24T03:58:25.950Z",
+        "candidateCount": 120,
+        "unseenCount": 113,
+        "duplicateCount": 7,
+        "priorityCandidateCount": 513,
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 113,
+          "eligibleCount": 42,
+          "excludedCount": 71,
+          "excludedByReason": {
+            "below-or-equal-threshold": 11,
+            "impact-factor-unknown": 1,
+            "journal-not-configured": 59
+          }
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "priorityJournalTarget": 3,
+          "priorityJournalFirst": true,
+          "expandForCompositionShortfall": true,
+          "allowBackfill": true
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 15,
+          "promptTokens": 30558,
+          "completionTokens": 7729,
+          "totalTokens": 38287
+        }
+      },
+      "articles": [
+        {
+          "slug": "pmid-42442345",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Anesthesia and analgesia",
+          "year": "2026",
+          "publishedDate": "2026-07-13",
+          "electronicPublicationDate": "2026-07-13",
+          "readingTime": "7 分钟",
+          "title": "基于心率变异性的多模态机器学习模型预测术后谵妄：一项前瞻性观察研究",
+          "originalTitle": "Multimodal Machine Learning Model Predicting Postoperative Delirium Based on Heart Rate Variability: A Prospective Observational Study.",
+          "authors": "Tang Y, Liu Y, Tang J, Wang Y, Zhong Q, Li P, Duan X",
+          "citation": "Anesth Analg. 2026 Jul 13. doi: 10.1213/ANE.0000000000008199.",
+          "doi": "10.1213/ane.0000000000008199",
+          "pmid": "42442345",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 5.9,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anesthesia & Analgesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "老年围术期",
+            "Journal Article"
+          ],
+          "question": "术后谵妄是全身麻醉后常见且严重的并发症，准确预测仍具挑战。该研究通过整合心率变异性参数构建可解释的多模态预测模型，可能提升个体化风险预测能力。",
+          "conclusion": "整合临床、心电图和心率变异性特征的多模态机器学习模型在预测术后谵妄方面优于仅基于临床或仅基于心电图的模型。",
+          "clinical": "该模型可能有助于术前识别术后谵妄高风险患者，从而采取预防措施。 心率变异性参数的纳入可能提升预测准确性，但需进一步验证。",
+          "evidence": "中等",
+          "score": 63,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性观察研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "patients undergoing general anesthesia；1418"
+            },
+            {
+              "label": "干预与比较",
+              "value": "multimodal machine learning model integrating clinical, electrocardiogram, and heart rate variability features；对照：clinical-only model and electrocardiogram-only model"
+            },
+            {
+              "label": "主要终点",
+              "value": "postoperative delirium"
+            }
+          ],
+          "keyPoints": [
+            "术后谵妄发生率为18%。",
+            "多模态模型AUC为0.728，优于单一模型。",
+            "外部验证AUC为0.836。",
+            "逻辑回归区分度最高。"
+          ],
+          "methods": "术后谵妄是全身麻醉后常见且严重的并发症，现有预测模型主要依赖临床变量，预测准确性有限。本研究旨在评估心率变异性参数在预测术后谵妄中的附加价值，并构建可解释的多模态预测模型。",
+          "results": "共纳入1418例患者，术后谵妄发生率为18%（255例）。整合临床-心电图-心率变异性模型表现最佳（AUC=0.728），优于仅临床模型（AUC=0.673）和仅心电图模型（AUC=0.679）。逻辑回归区分度最高。外部验证集中模型AUC为0.836。当前可获取内容未提供效应量、95%CI和P值。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "该模型可能有助于术前识别术后谵妄高风险患者，从而采取预防措施。",
+            "心率变异性参数的纳入可能提升预测准确性，但需进一步验证。"
+          ],
+          "editor": "该研究为前瞻性设计，样本量较大，并进行了外部验证，结果具有一定可靠性。 过度解读风险：研究为观察性设计，模型预测性能中等（AUC=0.728），且未提供效应量及置信区间，应避免过度解读为因果关系。",
+          "whyItMatters": "术后谵妄是全身麻醉后常见且严重的并发症，准确预测仍具挑战。该研究通过整合心率变异性参数构建可解释的多模态预测模型，可能提升个体化风险预测能力。",
+          "background": "术后谵妄是全身麻醉后常见且严重的并发症，现有预测模型主要依赖临床变量，预测准确性有限。本研究旨在评估心率变异性参数在预测术后谵妄中的附加价值，并构建可解释的多模态预测模型。",
+          "pico": {
+            "population": "patients undergoing general anesthesia",
+            "intervention": "multimodal machine learning model integrating clinical, electrocardiogram, and heart rate variability features",
+            "comparison": "clinical-only model and electrocardiogram-only model",
+            "outcome": "postoperative delirium"
+          },
+          "studyType": "前瞻性观察研究",
+          "sampleSize": "1418",
+          "primaryOutcome": "postoperative delirium",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究为前瞻性设计，样本量较大，并进行了外部验证，结果具有一定可靠性。",
+            "overinterpretationRisk": "研究为观察性设计，模型预测性能中等（AUC=0.728），且未提供效应量及置信区间，应避免过度解读为因果关系。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42442345/",
+            "doi": "https://doi.org/10.1213/ane.0000000000008199",
+            "publisher": "https://doi.org/10.1213/ane.0000000000008199",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42018768",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-07-13",
+          "electronicPublicationDate": "2026-07-13",
+          "readingTime": "7 分钟",
+          "title": "全关节置换术后缓释阿片类药物处方发生率的基于人群的横断面分析：预后因素与变异",
+          "originalTitle": "A Population-based Cross-sectional Analysis of Extended-release Opioid Dispensing Incidence, Prognostic Factors, and Variation after Total Joint Arthroplasty.",
+          "authors": "Malone JL, Tierney SL, McGinn RN, Talarico R, McIsaac DI",
+          "citation": "Anesthesiology. 2026 Jul 13. doi: 10.1097/ALN.0000000000006107.",
+          "doi": "10.1097/aln.0000000000006107",
+          "pmid": "42018768",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 8.8,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://journals.lww.com/anesthesiology/Documents/2023_12_PGA_AnesthesiologyArticlesYouNeedToKnow.pdf",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "缓释阿片类药物不推荐用于急性术后疼痛，但仍有处方行为。本研究揭示了术后缓释阿片类药物处方的发生率、预测因素及变异来源，为制定减少不必要暴露的干预措施提供了依据。",
+          "conclusion": "在258,642例全髋或全膝关节置换术后，12.1%的患者在出院后7天内新领取了缓释阿片类药物处方，且该实践存在显著变异，主要受机构和外科医生实践模式驱动，而非患者因素。",
+          "clinical": "椎管内麻醉和外周神经阻滞与降低缓释阿片类药物处方领取几率相关，提示麻醉方式可能影响术后阿片类药物使用。 急性疼痛服务参与具有保护作用，支持多学科疼痛管理策略。 麻醉医生水平变异极小，表明麻醉医生个体对缓释阿片类药物处方的影响有限。",
+          "evidence": "中等",
+          "score": 61,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "基于人群的横断面研究，使用关联行政数据库，多水平逻辑回归分析患者、手术、麻醉和医院因素与领取缓释阿片类药物处方的关联，并通过方差分配系数和中位比值比量化变异。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adults undergoing primary total hip or knee arthroplasty between 2013 and 2022 in Ontario, Canada；258,642 knee and hip arthroplasty procedures"
+            },
+            {
+              "label": "干预与比较",
+              "value": "当前可获取内容未提供该数据。；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "Fulfillment of an extended-release opioid prescription within 7 days of discharge"
+            }
+          ],
+          "keyPoints": [
+            "全关节置换术后12.1%的患者新领取了缓释阿片类药物处方。",
+            "男性、术前阿片类药物暴露和ASA III级增加领取几率。",
+            "椎管内麻醉、外周神经阻滞和急性疼痛服务参与降低领取几率。",
+            "医院和外科医生水平变异大，麻醉医生水平变异小。",
+            "患者因素仅解释少部分变异，机构和外科实践模式是主要驱动因素。"
+          ],
+          "methods": "缓释阿片类药物不推荐用于急性术后疼痛，但其处方行为持续存在。本研究旨在调查全髋和全膝关节置换术后缓释阿片类药物处方的发生率、预测因素及变异。",
+          "results": "在258,642例膝关节和髋关节置换术中，31,224例（12.1%）患者在出院后新领取了缓释阿片类药物处方。男性（OR 1.14；95% CI 1.09-1.19）、术前阿片类药物暴露（阿片类药物初治-暴露-耐受评分2：OR 1.21；95% CI 1.15-1.27；评分3：OR 1.38；95% CI 1.20-1.58）和美国麻醉医师协会分级III级（OR 1.07；95% CI 1.01-1.12）增加领取新处方的几率。椎管内麻醉（OR 0.79；95% CI 0.74-0.84）、外周神经阻滞（OR 0.84；95% CI 0.79-0.89）和急性疼痛服务参与（OR 0.77；95% CI 0.70-0.85）具有保护作用。医院水平变异显著（VPC 46%；95% CI 0.4-0.54；MOR 9.3；95% CI 6.57-15.27），外科医生水平变异中等（VPC 26%；95% CI 0.24-0.26；MOR 5.3；95% CI 4.63-6.11），麻醉医生水平变异极小（VPC 1%；95% CI 0.010-0.011；MOR 1.4；95% CI 1.36-1.46）。患者水平因素仅解释了少部分变异。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "椎管内麻醉和外周神经阻滞与降低缓释阿片类药物处方领取几率相关，提示麻醉方式可能影响术后阿片类药物使用。",
+            "急性疼痛服务参与具有保护作用，支持多学科疼痛管理策略。",
+            "麻醉医生水平变异极小，表明麻醉医生个体对缓释阿片类药物处方的影响有限。"
+          ],
+          "editor": "该研究为基于人群的大样本横断面分析，提供了术后缓释阿片类药物处方的发生率、预测因素及变异来源的可靠数据。 过度解读风险：观察性关联不能推断因果关系；结果可能受未测量的混杂因素影响。",
+          "whyItMatters": "缓释阿片类药物不推荐用于急性术后疼痛，但仍有处方行为。本研究揭示了术后缓释阿片类药物处方的发生率、预测因素及变异来源，为制定减少不必要暴露的干预措施提供了依据。",
+          "background": "缓释阿片类药物不推荐用于急性术后疼痛，但其处方行为持续存在。本研究旨在调查全髋和全膝关节置换术后缓释阿片类药物处方的发生率、预测因素及变异。",
+          "pico": {
+            "population": "Adults undergoing primary total hip or knee arthroplasty between 2013 and 2022 in Ontario, Canada",
+            "intervention": "当前可获取内容未提供该数据。",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "Fulfillment of an extended-release opioid prescription within 7 days of discharge"
+          },
+          "studyType": "基于人群的横断面研究，使用关联行政数据库，多水平逻辑回归分析患者、手术、麻醉和医院因素与领取缓释阿片类药物处方的关联，并通过方差分配系数和中位比值比量化变异。",
+          "sampleSize": "258,642 knee and hip arthroplasty procedures",
+          "primaryOutcome": "Fulfillment of an extended-release opioid prescription within 7 days of discharge",
+          "effectSize": [
+            "OR 1.14",
+            "OR 1.21",
+            "OR 1.38",
+            "OR 1.07",
+            "OR 0.79",
+            "OR 0.84",
+            "OR 0.77"
+          ],
+          "confidenceInterval": [
+            "1.09 to 1.19",
+            "1.15 to 1.27",
+            "1.20 to 1.58",
+            "1.01 to 1.12",
+            "0.74 to 0.84",
+            "0.79 to 0.89",
+            "0.70 to 0.85"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究为基于人群的大样本横断面分析，提供了术后缓释阿片类药物处方的发生率、预测因素及变异来源的可靠数据。",
+            "overinterpretationRisk": "观察性关联不能推断因果关系；结果可能受未测量的混杂因素影响。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42018768/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006107",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006107",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42475789",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Journal of clinical anesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-20",
+          "electronicPublicationDate": "2026-07-20",
+          "readingTime": "6 分钟",
+          "title": "经导管主动脉瓣置换术的全身麻醉与非全身麻醉：一项真实世界目标试验模拟研究",
+          "originalTitle": "General vs. non-general anesthesia for transcatheter aortic valve replacement: A real-world target trial emulation study.",
+          "authors": "Mohamed MS, Abu-Shawer O, Makhlouf MHE, Taher AS, Badwan O, Helou M, Ikram J",
+          "citation": "J Clin Anesth. 2026 Jul 20;113:112270. doi: 10.1016/j.jclinane.2026.112270.",
+          "doi": "10.1016/j.jclinane.2026.112270",
+          "pmid": "42475789",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 6.7,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Journal of Clinical Anesthesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "该研究为TAVR麻醉策略选择提供了大规模真实世界证据，提示两种策略在长期死亡率方面相当，但非全身麻醉可能减少早期再入院，有助于临床决策。",
+          "conclusion": "在TAVR患者中，全身麻醉与非全身麻醉在一年内的全因死亡率及大多数主要并发症方面无显著差异，但全身麻醉组365天心力衰竭事件名义上较高，非全身麻醉与早期再入院率降低相关。",
+          "clinical": "全身麻醉与非全身麻醉在TAVR术后一年内的死亡率和多数主要并发症方面无显著差异，提示两种策略均可接受。 非全身麻醉可能降低术后30天再入院率，具有潜在的卫生经济学优势。 全身麻醉组365天心力衰竭事件名义上增高，但需谨慎解读，可能为偶然发现。",
+          "evidence": "中等",
+          "score": 56,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "回顾性队列研究，采用目标试验模拟框架和1:1倾向评分匹配，数据来源于TriNetX全球协作网络。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "adults undergoing TAVR between January 2015 and December 2024；3586 patients (1793 per group) after matching"
+            },
+            {
+              "label": "干预与比较",
+              "value": "general anesthesia (GA)；对照：non-general anesthesia (NGA; regional anesthesia or sedation)"
+            },
+            {
+              "label": "主要终点",
+              "value": "all-cause mortality at 30, 90, and 365 days"
+            }
+          ],
+          "keyPoints": [
+            "TAVR患者中，全身麻醉与非全身麻醉在一年内死亡率无差异。",
+            "大多数主要并发症（卒中、心肌梗死、急性肾损伤等）在两组间相似。",
+            "全身麻醉组365天心力衰竭事件名义上更高（HR 1.44，95% CI 1.05-1.99）。",
+            "非全身麻醉与术后30天再入院率降低相关。"
+          ],
+          "methods": "经导管主动脉瓣置换术（TAVR）的最佳麻醉策略仍存在争议，缺乏关于长期结局和医疗资源利用的真实世界数据。",
+          "results": "匹配后共纳入3586例患者（每组1793例）。全因死亡率在30、90、365天时GA与NGA组均无差异。卒中、心肌梗死、急性肾损伤、心房颤动、主要血管并发症和呼吸衰竭的发生率在各随访时间点也相似。365天时，GA组心力衰竭事件名义上高于NGA组（HR 1.44，95% CI 1.05-1.99，p=0.023）。NGA与术后30天内全因再入院率降低相关，但后期随访无差异。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "全身麻醉与非全身麻醉在TAVR术后一年内的死亡率和多数主要并发症方面无显著差异，提示两种策略均可接受。",
+            "非全身麻醉可能降低术后30天再入院率，具有潜在的卫生经济学优势。",
+            "全身麻醉组365天心力衰竭事件名义上增高，但需谨慎解读，可能为偶然发现。"
+          ],
+          "editor": "该研究基于大规模真实世界数据，采用目标试验模拟和倾向评分匹配，结果较为可靠。 过度解读风险：中等。365天心力衰竭的差异为名义性（p=0.023），且未进行多重比较校正，可能为偶然发现，不应过度解读为因果关系。",
+          "whyItMatters": "该研究为TAVR麻醉策略选择提供了大规模真实世界证据，提示两种策略在长期死亡率方面相当，但非全身麻醉可能减少早期再入院，有助于临床决策。",
+          "background": "经导管主动脉瓣置换术（TAVR）的最佳麻醉策略仍存在争议，缺乏关于长期结局和医疗资源利用的真实世界数据。",
+          "pico": {
+            "population": "adults undergoing TAVR between January 2015 and December 2024",
+            "intervention": "general anesthesia (GA)",
+            "comparison": "non-general anesthesia (NGA; regional anesthesia or sedation)",
+            "outcome": "all-cause mortality at 30, 90, and 365 days"
+          },
+          "studyType": "回顾性队列研究，采用目标试验模拟框架和1:1倾向评分匹配，数据来源于TriNetX全球协作网络。",
+          "sampleSize": "3586 patients (1793 per group) after matching",
+          "primaryOutcome": "all-cause mortality at 30, 90, and 365 days",
+          "effectSize": [
+            "HR 1.44"
+          ],
+          "confidenceInterval": [
+            "95% CI 1.05-1.99"
+          ],
+          "pValue": [
+            "p = 0.023"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究基于大规模真实世界数据，采用目标试验模拟和倾向评分匹配，结果较为可靠。",
+            "overinterpretationRisk": "中等。365天心力衰竭的差异为名义性（p=0.023），且未进行多重比较校正，可能为偶然发现，不应过度解读为因果关系。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42475789/",
+            "doi": "https://doi.org/10.1016/j.jclinane.2026.112270",
+            "publisher": "https://doi.org/10.1016/j.jclinane.2026.112270",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42458235",
+          "number": "04",
+          "category": "气道管理",
+          "journal": "Anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-15",
+          "electronicPublicationDate": "2026-07-15",
+          "readingTime": "6 分钟",
+          "title": "视频喉镜时代下的清醒气管插管：一项涉及4728名临床医生的国际调查",
+          "originalTitle": "Awake tracheal intubation in the era of videolaryngoscopy: an international survey of 4728 clinicians.",
+          "authors": "Cortese G, Steinberg I, Brazzi L, Sorbello M, Ahmad I, Myatra SN, Kovacs G, Law JA, et al.",
+          "citation": "Anaesthesia. 2026 Jul 15. doi: 10.1111/anae.70291.",
+          "doi": "10.1111/anae.70291",
+          "pmid": "42458235",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Wiley",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 7.4,
+            "metricYear": 2025,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://associationofanaesthetists-publications.onlinelibrary.wiley.com/journal/13652044",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anaesthesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "Journal Article"
+          ],
+          "question": "清醒气管插管是处理预测困难气道的关键技术，但全球应用现状和障碍尚不明确。本研究揭示了临床实践与指南之间的差距，以及视频喉镜普及可能带来的影响，对优化气道管理策略具有重要参考价值。",
+          "conclusion": "尽管指南推荐清醒气管插管用于预测的困难气道，但其应用在全球范围内存在异质性，且视频喉镜的普及可能与其使用率下降相关。",
+          "clinical": "清醒气管插管的应用存在异质性，需加强指南推广和培训。 视频喉镜的普及可能减少清醒气管插管的使用，需警惕其对临床医生信心的潜在影响。 多数受访者认为清醒气管插管是麻醉医师的核心技能，且视频喉镜可用于部分清醒气管插管。",
+          "evidence": "中等",
+          "score": 56,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "国际横断面调查，通过在线问卷收集数据，问卷包含34个多项选择题和3个开放性问题，开放时间为13个月。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "clinicians from 102 countries；4728"
+            },
+            {
+              "label": "干预与比较",
+              "value": "当前可获取内容未提供该数据。；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "utilisation of awake tracheal intubation and barriers to implementation"
+            }
+          ],
+          "keyPoints": [
+            "76.2%的受访者独立进行清醒气管插管，82.8%用于预测解剖困难与生理风险。",
+            "41.2%认为视频喉镜普及后清醒气管插管使用减少。",
+            "77.6%认为应重新评估清醒气管插管适应证，但仅48.1%熟悉相关指南。",
+            "83.0%偏好软性内镜，但60.7%报告缺乏软性支气管镜技能。"
+          ],
+          "methods": "清醒气管插管被推荐用于预测的困难气道，但其全球应用情况尚不清楚。本研究通过国际调查了解当前清醒气管插管的使用现状及实施障碍。",
+          "results": "共收集4728份来自102个国家的回复。3190/4184（76.2%）的受访者表示独立进行清醒气管插管；2512/3035（82.8%）将其用于预测解剖困难与生理风险的组合。1733/4204（41.2%）认为视频喉镜广泛应用后清醒气管插管使用减少；2867/3695（77.6%）认为应重新评估清醒气管插管的适应证；1844/3831（48.1%）熟悉相关指南；2521/3039（83.0%）偏好使用软性内镜；586/966（60.7%）报告缺乏软性支气管镜技能限制了其信心。",
+          "limitations": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "清醒气管插管的应用存在异质性，需加强指南推广和培训。",
+            "视频喉镜的普及可能减少清醒气管插管的使用，需警惕其对临床医生信心的潜在影响。",
+            "多数受访者认为清醒气管插管是麻醉医师的核心技能，且视频喉镜可用于部分清醒气管插管。"
+          ],
+          "editor": "研究结果基于大规模国际调查，样本量较大，覆盖国家广泛，提供了全球视角。 过度解读风险：调查为横断面设计，无法推断因果关系；结果基于自我报告，可能存在回忆偏倚；部分问题应答率较低，可能影响代表性。",
+          "whyItMatters": "清醒气管插管是处理预测困难气道的关键技术，但全球应用现状和障碍尚不明确。本研究揭示了临床实践与指南之间的差距，以及视频喉镜普及可能带来的影响，对优化气道管理策略具有重要参考价值。",
+          "background": "清醒气管插管被推荐用于预测的困难气道，但其全球应用情况尚不清楚。本研究通过国际调查了解当前清醒气管插管的使用现状及实施障碍。",
+          "pico": {
+            "population": "clinicians from 102 countries",
+            "intervention": "当前可获取内容未提供该数据。",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "utilisation of awake tracheal intubation and barriers to implementation"
+          },
+          "studyType": "国际横断面调查，通过在线问卷收集数据，问卷包含34个多项选择题和3个开放性问题，开放时间为13个月。",
+          "sampleSize": "4728",
+          "primaryOutcome": "utilisation of awake tracheal intubation and barriers to implementation",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果基于大规模国际调查，样本量较大，覆盖国家广泛，提供了全球视角。",
+            "overinterpretationRisk": "调查为横断面设计，无法推断因果关系；结果基于自我报告，可能存在回忆偏倚；部分问题应答率较低，可能影响代表性。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42458235/",
+            "doi": "https://doi.org/10.1111/anae.70291",
+            "publisher": "https://doi.org/10.1111/anae.70291",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-41950403",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-04-08",
+          "electronicPublicationDate": "2026-04-08",
+          "readingTime": "7 分钟",
+          "title": "地氟烷麻醉下的动态皮层电状态与悖论性复杂度",
+          "originalTitle": "Dynamic Electrocortical States and Paradoxical Complexity during Desflurane Anesthesia.",
+          "authors": "Li D, Hudetz AG",
+          "citation": "Anesthesiology. 2026 Aug 1;145(2):373-386. doi: 10.1097/ALN.0000000000006088. Epub 2026 Apr 8.",
+          "doi": "10.1097/aln.0000000000006088",
+          "pmid": "41950403",
+          "pmcid": "PMC13175308",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 8.8,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://journals.lww.com/anesthesiology/Documents/2023_12_PGA_AnesthesiologyArticlesYouNeedToKnow.pdf",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究揭示了麻醉药物浓度与皮层活动之间并非简单线性关系，存在自发动态变化，包括深麻醉下的悖论性激活状态，这有助于理解麻醉诱导的无意识机制，并为麻醉监测和恢复策略提供新视角。",
+          "conclusion": "在恒定地氟烷浓度下，大鼠皮层自发在多个离散状态间转换，其中一种状态在深麻醉时表现出δ功率降低和复杂度升高，提示麻醉与皮层活动的关系并非静态。",
+          "clinical": "麻醉深度监测可能需要考虑皮层状态的动态变化，而非仅依赖单一指标。 深麻醉下出现的悖论性激活状态可能影响麻醉恢复过程。 自发状态转换的规律性可为麻醉管理策略提供参考。",
+          "evidence": "中等",
+          "score": 52,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性研究：在大鼠右半球植入32通道柔性电极阵列，记录硬膜下皮层电图，在不同地氟烷浓度下分析皮层状态及其动态。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "8 adult male Sprague-Dawley rats (7–9 weeks old, 300–350 g)；8 rats (14 experiments)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Desflurane anesthesia at 6%, 4%, 2%, 0% concentrations, each maintained for 1 h；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "Cortical states identified by principal component analysis and density-based clustering of power spectrograms"
+            }
+          ],
+          "keyPoints": [
+            "地氟烷麻醉下大鼠皮层活动呈现多个离散状态，其中6个状态随麻醉深度变化。",
+            "存在一个悖论性状态（第7状态），在深麻醉时δ功率降低、复杂度升高。",
+            "皮层状态自发转换平均每2分钟一次，转换模式非随机。",
+            "从深麻醉向浅麻醉的转换趋势与麻醉苏醒一致。"
+          ],
+          "methods": "全身麻醉如何改变皮层电活动的动态特性对于理解无意识的神经机制至关重要。局部皮层活动在恒定麻醉浓度下会发生自发转换，但大规模皮层电活动中状态转换的空间组织和时间动态尚不完全清楚。",
+          "results": "共8只大鼠（14次实验）纳入分析。皮层活动被组织为一组离散状态，其中6个状态表现为δ功率增加和复杂度降低，大致追踪麻醉深度。第7个状态偏离这一趋势，在深麻醉期间表现出δ功率降低（P < 0.001）和复杂度升高（P < 0.001）。皮层自发状态转换平均每2分钟一次（平均停留时间136.55秒），遵循结构化的非随机动态，主要在浅麻醉或深麻醉状态内转换（错误发现率校正后P < 0.05），并有从深麻醉向浅麻醉转换的轻微趋势（P = 0.0039）。",
+          "limitations": [
+            "缺乏行为监测，无法排除在2%和0%地氟烷浓度下可能发生的自然睡眠。",
+            "复杂度量化基于自发性皮层电活动，未使用外部扰动。",
+            "半球皮层电图记录捕捉的是全局而非局部网络动态。",
+            "尚不清楚这些发现是否能推广到其他物种和麻醉药物。"
+          ],
+          "practice": [
+            "麻醉深度监测可能需要考虑皮层状态的动态变化，而非仅依赖单一指标。",
+            "深麻醉下出现的悖论性激活状态可能影响麻醉恢复过程。",
+            "自发状态转换的规律性可为麻醉管理策略提供参考。"
+          ],
+          "editor": "研究设计严谨，使用多种分析方法（主成分分析、密度聚类、Lempel-Ziv算法）识别皮层状态并量化其动态，统计方法适当（错误发现率校正）。 过度解读风险：低风险：结论基于观察性数据，未过度推断因果关系，且明确指出了局限性。",
+          "whyItMatters": "该研究揭示了麻醉药物浓度与皮层活动之间并非简单线性关系，存在自发动态变化，包括深麻醉下的悖论性激活状态，这有助于理解麻醉诱导的无意识机制，并为麻醉监测和恢复策略提供新视角。",
+          "background": "全身麻醉如何改变皮层电活动的动态特性对于理解无意识的神经机制至关重要。局部皮层活动在恒定麻醉浓度下会发生自发转换，但大规模皮层电活动中状态转换的空间组织和时间动态尚不完全清楚。",
+          "pico": {
+            "population": "8 adult male Sprague-Dawley rats (7–9 weeks old, 300–350 g)",
+            "intervention": "Desflurane anesthesia at 6%, 4%, 2%, 0% concentrations, each maintained for 1 h",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "Cortical states identified by principal component analysis and density-based clustering of power spectrograms"
+          },
+          "studyType": "观察性研究：在大鼠右半球植入32通道柔性电极阵列，记录硬膜下皮层电图，在不同地氟烷浓度下分析皮层状态及其动态。",
+          "sampleSize": "8 rats (14 experiments)",
+          "primaryOutcome": "Cortical states identified by principal component analysis and density-based clustering of power spectrograms",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "P < 0.001 (delta power reduction in state 7)",
+            "P < 0.001 (complexity elevation in state 7)",
+            "false discovery rate-corrected P < 0.05 (structured transitions)",
+            "P = 0.0039 (tendency to transition from deep to light states)"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究设计严谨，使用多种分析方法（主成分分析、密度聚类、Lempel-Ziv算法）识别皮层状态并量化其动态，统计方法适当（错误发现率校正）。",
+            "overinterpretationRisk": "低风险：结论基于观察性数据，未过度推断因果关系，且明确指出了局限性。"
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41950403/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006088",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006088",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13175308/"
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-23T03:59:28.298Z",
       "mode": "production",

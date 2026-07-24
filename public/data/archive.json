@@ -1,7 +1,91 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-23T03:59:28.298Z",
+  "updatedAt": "2026-07-24T03:58:25.950Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-24T03:58:25.950Z",
+      "search": {
+        "initialDays": 30,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-01-25T03:58:25.950Z",
+        "to": "2026-07-24T03:58:25.950Z",
+        "candidateCount": 120,
+        "unseenCount": 113,
+        "duplicateCount": 7,
+        "priorityCandidateCount": 513,
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 113,
+          "eligibleCount": 42,
+          "excludedCount": 71,
+          "excludedByReason": {
+            "below-or-equal-threshold": 11,
+            "impact-factor-unknown": 1,
+            "journal-not-configured": 59
+          }
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "priorityJournalTarget": 3,
+          "priorityJournalFirst": true,
+          "expandForCompositionShortfall": true,
+          "allowBackfill": true
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42442345",
+          "title": "基于心率变异性的多模态机器学习模型预测术后谵妄：一项前瞻性观察研究",
+          "originalTitle": "Multimodal Machine Learning Model Predicting Postoperative Delirium Based on Heart Rate Variability: A Prospective Observational Study.",
+          "journal": "Anesthesia and analgesia",
+          "conclusion": "整合临床、心电图和心率变异性特征的多模态机器学习模型在预测术后谵妄方面优于仅基于临床或仅基于心电图的模型。",
+          "pmid": "42442345"
+        },
+        {
+          "slug": "pmid-42018768",
+          "title": "全关节置换术后缓释阿片类药物处方发生率的基于人群的横断面分析：预后因素与变异",
+          "originalTitle": "A Population-based Cross-sectional Analysis of Extended-release Opioid Dispensing Incidence, Prognostic Factors, and Variation after Total Joint Arthroplasty.",
+          "journal": "Anesthesiology",
+          "conclusion": "在258,642例全髋或全膝关节置换术后，12.1%的患者在出院后7天内新领取了缓释阿片类药物处方，且该实践存在显著变异，主要受机构和外科医生实践模式驱动，而非患者因素。",
+          "pmid": "42018768"
+        },
+        {
+          "slug": "pmid-42475789",
+          "title": "经导管主动脉瓣置换术的全身麻醉与非全身麻醉：一项真实世界目标试验模拟研究",
+          "originalTitle": "General vs. non-general anesthesia for transcatheter aortic valve replacement: A real-world target trial emulation study.",
+          "journal": "Journal of clinical anesthesia",
+          "conclusion": "在TAVR患者中，全身麻醉与非全身麻醉在一年内的全因死亡率及大多数主要并发症方面无显著差异，但全身麻醉组365天心力衰竭事件名义上较高，非全身麻醉与早期再入院率降低相关。",
+          "pmid": "42475789"
+        },
+        {
+          "slug": "pmid-42458235",
+          "title": "视频喉镜时代下的清醒气管插管：一项涉及4728名临床医生的国际调查",
+          "originalTitle": "Awake tracheal intubation in the era of videolaryngoscopy: an international survey of 4728 clinicians.",
+          "journal": "Anaesthesia",
+          "conclusion": "尽管指南推荐清醒气管插管用于预测的困难气道，但其应用在全球范围内存在异质性，且视频喉镜的普及可能与其使用率下降相关。",
+          "pmid": "42458235"
+        },
+        {
+          "slug": "pmid-41950403",
+          "title": "地氟烷麻醉下的动态皮层电状态与悖论性复杂度",
+          "originalTitle": "Dynamic Electrocortical States and Paradoxical Complexity during Desflurane Anesthesia.",
+          "journal": "Anesthesiology",
+          "conclusion": "在恒定地氟烷浓度下，大鼠皮层自发在多个离散状态间转换，其中一种状态在深麻醉时表现出δ功率降低和复杂度升高，提示麻醉与皮层活动的关系并非静态。",
+          "pmid": "41950403"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-23T03:59:28.298Z",
       "search": {

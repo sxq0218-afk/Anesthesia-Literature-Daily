@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-23T03:59:28.298Z",
+  "updatedAt": "2026-07-24T03:58:25.950Z",
   "records": [
     {
       "pmid": "42359695",
@@ -121,6 +121,46 @@
       "status": "published",
       "runId": "2026-07-23T03-59-28.298Z",
       "firstPublishedAt": "2026-07-23T03:59:28.298Z"
+    },
+    {
+      "pmid": "42442345",
+      "doi": "10.1213/ane.0000000000008199",
+      "title": "Multimodal Machine Learning Model Predicting Postoperative Delirium Based on Heart Rate Variability: A Prospective Observational Study.",
+      "status": "published",
+      "runId": "2026-07-24T03-58-25.950Z",
+      "firstPublishedAt": "2026-07-24T03:58:25.950Z"
+    },
+    {
+      "pmid": "42018768",
+      "doi": "10.1097/aln.0000000000006107",
+      "title": "A Population-based Cross-sectional Analysis of Extended-release Opioid Dispensing Incidence, Prognostic Factors, and Variation after Total Joint Arthroplasty.",
+      "status": "published",
+      "runId": "2026-07-24T03-58-25.950Z",
+      "firstPublishedAt": "2026-07-24T03:58:25.950Z"
+    },
+    {
+      "pmid": "42475789",
+      "doi": "10.1016/j.jclinane.2026.112270",
+      "title": "General vs. non-general anesthesia for transcatheter aortic valve replacement: A real-world target trial emulation study.",
+      "status": "published",
+      "runId": "2026-07-24T03-58-25.950Z",
+      "firstPublishedAt": "2026-07-24T03:58:25.950Z"
+    },
+    {
+      "pmid": "42458235",
+      "doi": "10.1111/anae.70291",
+      "title": "Awake tracheal intubation in the era of videolaryngoscopy: an international survey of 4728 clinicians.",
+      "status": "published",
+      "runId": "2026-07-24T03-58-25.950Z",
+      "firstPublishedAt": "2026-07-24T03:58:25.950Z"
+    },
+    {
+      "pmid": "41950403",
+      "doi": "10.1097/aln.0000000000006088",
+      "title": "Dynamic Electrocortical States and Paradoxical Complexity during Desflurane Anesthesia.",
+      "status": "published",
+      "runId": "2026-07-24T03-58-25.950Z",
+      "firstPublishedAt": "2026-07-24T03:58:25.950Z"
     }
   ]
 }
