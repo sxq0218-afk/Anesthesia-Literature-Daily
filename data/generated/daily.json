@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-24T03:58:25.950Z",
+  "generatedAt": "2026-07-26T12:02:44.474Z",
   "mode": "production",
   "search": {
     "initialDays": 30,
     "actualDays": 180,
     "expanded": true,
     "expansionReason": "composition-shortfall",
-    "from": "2026-01-25T03:58:25.950Z",
-    "to": "2026-07-24T03:58:25.950Z",
+    "from": "2026-01-27T12:02:44.474Z",
+    "to": "2026-07-26T12:02:44.474Z",
     "candidateCount": 120,
-    "unseenCount": 113,
-    "duplicateCount": 7,
-    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/01/24:2026/07/23[Date - Publication]",
-    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Nature Medicine\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Anesthesia and Analgesia\"[Journal] OR \"Regional Anesthesia and Pain Medicine\"[Journal] OR \"European Journal of Anaesthesiology\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"Pain\"[Journal] OR \"The Journal of Pain\"[Journal] OR \"Critical Care\"[Journal] OR \"Intensive Care Medicine\"[Journal]) AND 2026/01/24:2026/07/23[Date - Publication]",
-    "priorityCandidateCount": 513,
+    "unseenCount": 110,
+    "duplicateCount": 10,
+    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/01/27:2026/07/26[Date - Publication]",
+    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Nature Medicine\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Anesthesia and Analgesia\"[Journal] OR \"Regional Anesthesia and Pain Medicine\"[Journal] OR \"European Journal of Anaesthesiology\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"Pain\"[Journal] OR \"The Journal of Pain\"[Journal] OR \"Critical Care\"[Journal] OR \"Intensive Care Medicine\"[Journal]) AND 2026/01/27:2026/07/26[Date - Publication]",
+    "priorityCandidateCount": 519,
     "journalImpactFactor": {
       "threshold": 5,
       "comparison": "greater-than",
-      "candidateCount": 113,
-      "eligibleCount": 42,
-      "excludedCount": 71,
+      "candidateCount": 110,
+      "eligibleCount": 37,
+      "excludedCount": 73,
       "excludedByReason": {
-        "below-or-equal-threshold": 11,
-        "impact-factor-unknown": 1,
+        "impact-factor-unknown": 5,
+        "below-or-equal-threshold": 9,
         "journal-not-configured": 59
       }
     },
@@ -45,309 +45,31 @@
   "llm": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
-    "configuredModel": "deepseek-chat",
+    "configuredModel": "deepseek-v4-flash",
     "usage": {
       "calls": 15,
-      "promptTokens": 30558,
-      "completionTokens": 7729,
-      "totalTokens": 38287
+      "promptTokens": 19964,
+      "completionTokens": 17234,
+      "totalTokens": 37198
     }
   },
   "articles": [
     {
-      "slug": "pmid-42442345",
+      "slug": "pmid-42497582",
       "number": "01",
-      "category": "麻醉学",
-      "journal": "Anesthesia and analgesia",
-      "year": "2026",
-      "publishedDate": "2026-07-13",
-      "electronicPublicationDate": "2026-07-13",
-      "readingTime": "7 分钟",
-      "title": "基于心率变异性的多模态机器学习模型预测术后谵妄：一项前瞻性观察研究",
-      "originalTitle": "Multimodal Machine Learning Model Predicting Postoperative Delirium Based on Heart Rate Variability: A Prospective Observational Study.",
-      "abstract": "BACKGROUND: Postoperative delirium is a common and serious complication after general anesthesia; its accurate prediction remains a substantial challenge in perioperative medicine. Existing models primarily rely on clinical variables and may have limited predictive accuracy. This study aimed to evaluate the added value of heart rate variability parameters in predicting postoperative delirium and construct an interpretable multimodal predictive model. METHODS: In this prospective observational study, 1418 patients undergoing general anesthesia were included. Seventy-three features, including electrocardiogram abnormalities and heart rate variability time-, frequency-, and nonlinear-domain indicators, were extracted from electrocardiogram data. Postoperative delirium was assessed using the Chinese version of the 3-Minute Diagnostic Interview for Delirium within 3 days postoperatively. Feature selection was conducted by combining least absolute shrinkage and selection operator (LASSO) regression, the Boruta algorithm, and random forests, and 10 machine learning models were developed. Model performance was evaluated through receiver operating characteristic curves and decision curve analysis, with interpretability assessed via Shapley additive explanations. Clinical prediction tools were derived from key features. We used an external validation set to further evaluate the generalization ability of the models. RESULTS: Postoperative delirium occurred in 255 (18%) patients. Seventeen key predictors were identified in total. The combined clinical-electrocardiogram-heart rate variability model demonstrated the highest predictive performance (area under the curve = 0.728), outperforming clinical-only (area under the curve = 0.673) and electrocardiogram-only models (area under the curve = 0.679). Logistic regression showed the highest discrimination. In the external validation set, the model maintained robust performance with an area under the curve value of 0.836. Shapley additive explanations highlighted seven core predictors: atrial or ventricular arrhythmia, operative time, ST-segment abnormalities, age, American Society of Anesthesiologists classification, heart rate variability entropy, and overall electrocardiogram abnormalities. A nomogram and online platform enabled personalized risk assessment. CONCLUSIONS: Our results indicate that integrating heart rate variability with clinical and electrocardiogram features significantly enhances the personalized predictive efficacy of postoperative delirium.",
-      "authors": "Tang Y, Liu Y, Tang J, Wang Y, Zhong Q, Li P, Duan X",
-      "citation": "Anesth Analg. 2026 Jul 13. doi: 10.1213/ANE.0000000000008199.",
-      "doi": "10.1213/ane.0000000000008199",
-      "pmid": "42442345",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 1
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 5.9,
-        "metricYear": 2022,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
-        "verifiedAt": "2026-07-23",
-        "matchedJournal": "Anesthesia & Analgesia"
-      },
-      "tags": [
-        "临床研究",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "老年围术期",
-        "Journal Article"
-      ],
-      "question": "术后谵妄是全身麻醉后常见且严重的并发症，准确预测仍具挑战。该研究通过整合心率变异性参数构建可解释的多模态预测模型，可能提升个体化风险预测能力。",
-      "conclusion": "整合临床、心电图和心率变异性特征的多模态机器学习模型在预测术后谵妄方面优于仅基于临床或仅基于心电图的模型。",
-      "clinical": "该模型可能有助于术前识别术后谵妄高风险患者，从而采取预防措施。 心率变异性参数的纳入可能提升预测准确性，但需进一步验证。",
-      "evidence": "中等",
-      "score": 63,
-      "scoreBreakdown": {
-        "relevance": 23,
-        "evidenceQuality": 8,
-        "clinicalImpact": 11,
-        "journalQuality": 15,
-        "novelty": 6
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "前瞻性观察研究"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "patients undergoing general anesthesia；1418"
-        },
-        {
-          "label": "干预与比较",
-          "value": "multimodal machine learning model integrating clinical, electrocardiogram, and heart rate variability features；对照：clinical-only model and electrocardiogram-only model"
-        },
-        {
-          "label": "主要终点",
-          "value": "postoperative delirium"
-        }
-      ],
-      "keyPoints": [
-        "术后谵妄发生率为18%。",
-        "多模态模型AUC为0.728，优于单一模型。",
-        "外部验证AUC为0.836。",
-        "逻辑回归区分度最高。"
-      ],
-      "methods": "术后谵妄是全身麻醉后常见且严重的并发症，现有预测模型主要依赖临床变量，预测准确性有限。本研究旨在评估心率变异性参数在预测术后谵妄中的附加价值，并构建可解释的多模态预测模型。",
-      "results": "共纳入1418例患者，术后谵妄发生率为18%（255例）。整合临床-心电图-心率变异性模型表现最佳（AUC=0.728），优于仅临床模型（AUC=0.673）和仅心电图模型（AUC=0.679）。逻辑回归区分度最高。外部验证集中模型AUC为0.836。当前可获取内容未提供效应量、95%CI和P值。",
-      "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。"
-      ],
-      "practice": [
-        "该模型可能有助于术前识别术后谵妄高风险患者，从而采取预防措施。",
-        "心率变异性参数的纳入可能提升预测准确性，但需进一步验证。"
-      ],
-      "editor": "该研究为前瞻性设计，样本量较大，并进行了外部验证，结果具有一定可靠性。 过度解读风险：研究为观察性设计，模型预测性能中等（AUC=0.728），且未提供效应量及置信区间，应避免过度解读为因果关系。",
-      "whyItMatters": "术后谵妄是全身麻醉后常见且严重的并发症，准确预测仍具挑战。该研究通过整合心率变异性参数构建可解释的多模态预测模型，可能提升个体化风险预测能力。",
-      "background": "术后谵妄是全身麻醉后常见且严重的并发症，现有预测模型主要依赖临床变量，预测准确性有限。本研究旨在评估心率变异性参数在预测术后谵妄中的附加价值，并构建可解释的多模态预测模型。",
-      "pico": {
-        "population": "patients undergoing general anesthesia",
-        "intervention": "multimodal machine learning model integrating clinical, electrocardiogram, and heart rate variability features",
-        "comparison": "clinical-only model and electrocardiogram-only model",
-        "outcome": "postoperative delirium"
-      },
-      "studyType": "前瞻性观察研究",
-      "sampleSize": "1418",
-      "primaryOutcome": "postoperative delirium",
-      "effectSize": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "该研究为前瞻性设计，样本量较大，并进行了外部验证，结果具有一定可靠性。",
-        "overinterpretationRisk": "研究为观察性设计，模型预测性能中等（AUC=0.728），且未提供效应量及置信区间，应避免过度解读为因果关系。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42442345/",
-        "doi": "https://doi.org/10.1213/ane.0000000000008199",
-        "publisher": "https://doi.org/10.1213/ane.0000000000008199",
-        "openFullText": null
-      }
-    },
-    {
-      "slug": "pmid-42018768",
-      "number": "02",
-      "category": "麻醉学",
-      "journal": "Anesthesiology",
-      "year": "2026",
-      "publishedDate": "2026-07-13",
-      "electronicPublicationDate": "2026-07-13",
-      "readingTime": "7 分钟",
-      "title": "全关节置换术后缓释阿片类药物处方发生率的基于人群的横断面分析：预后因素与变异",
-      "originalTitle": "A Population-based Cross-sectional Analysis of Extended-release Opioid Dispensing Incidence, Prognostic Factors, and Variation after Total Joint Arthroplasty.",
-      "abstract": "BACKGROUND: Extended-release opioids (EROs) are not recommended for acute postoperative pain, yet their prescribing persists. This study examined the incidence, predictors, and variation in ERO dispensing after total hip and knee arthroplasty. METHODS: This was a population-based cross-sectional study of adults undergoing primary total hip or knee arthroplasty between 2013 and 2022 using linked administrative databases in Ontario, Canada. The primary outcome was fulfillment of an ERO prescription within 7 days of discharge. Multilevel logistic regression estimated associations between patient, surgical, anesthetic, and hospital factors and filling an ERO prescription. Variation was quantified using variance partition coefficients (VPCs) and median odds ratios (MORs) with 95% CIs, based on random effects. RESULTS: Among 258,642 knee and hip arthroplasty procedures, 31,224 (12.1%) patients filled a new ERO prescription after discharge. Male sex (odds ratio [OR], 1.14; 95% CI, 1.09 to 1.19), preoperative opioid exposure (Opioid Naive-Exposed-Tolerant score, 2; OR, 1.21; 95% CI, 1.15 to 1.27; Opioid Naive-Exposed-Tolerant score, 3; OR, 1.38; 95% CI, 1.20 to 1.58), and American Society of Anesthesiologists status of III (OR, 1.07; 95% CI, 1.01 to 1.12) increased the odds of filling a new ERO prescription. Neuraxial anesthesia (OR, 0.79; 95% CI, 0.74 to 0.84), peripheral nerve block (OR, 0.84; 95% CI, 0.79 to 0.89), and acute pain service involvement (OR, 0.77; 95% CI, 0.70 to 0.85) were protective against filling a new ERO prescription. Substantial variation was found across hospitals (VPC, 46%; 95% CI, 0.4 to 0.54; and MOR, 9.3; 95% CI, 6.57 to 15.27) and surgeons (VPC, 26%; 95% CI, 0.24 to 0.26; and MOR, 5.3; 95% CI, 4.63 to 6.11), with minimal anesthetist-level variation (VPC, 1%; 95% CI, 0.010 to 0.011; and MOR, 1.4; 95% CI, 1.36 to 1.46). Patient-level factors explained a minority of variation. CONCLUSIONS: One in 10 patients fills an ERO prescription after total hip or knee arthroplasty, a practice with high variation that is predominantly driven by institutional and surgical practice patterns rather than patient factors. Future research should explore institutional stewardship, standardized discharge protocols, and multidisciplinary engagement to reduce unnecessary postoperative exposure to EROs.",
-      "authors": "Malone JL, Tierney SL, McGinn RN, Talarico R, McIsaac DI",
-      "citation": "Anesthesiology. 2026 Jul 13. doi: 10.1097/ALN.0000000000006107.",
-      "doi": "10.1097/aln.0000000000006107",
-      "pmid": "42018768",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 1
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 8.8,
-        "metricYear": 2022,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://journals.lww.com/anesthesiology/Documents/2023_12_PGA_AnesthesiologyArticlesYouNeedToKnow.pdf",
-        "verifiedAt": "2026-07-23",
-        "matchedJournal": "Anesthesiology"
-      },
-      "tags": [
-        "临床研究",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "疼痛与区域麻醉",
-        "Journal Article"
-      ],
-      "question": "缓释阿片类药物不推荐用于急性术后疼痛，但仍有处方行为。本研究揭示了术后缓释阿片类药物处方的发生率、预测因素及变异来源，为制定减少不必要暴露的干预措施提供了依据。",
-      "conclusion": "在258,642例全髋或全膝关节置换术后，12.1%的患者在出院后7天内新领取了缓释阿片类药物处方，且该实践存在显著变异，主要受机构和外科医生实践模式驱动，而非患者因素。",
-      "clinical": "椎管内麻醉和外周神经阻滞与降低缓释阿片类药物处方领取几率相关，提示麻醉方式可能影响术后阿片类药物使用。 急性疼痛服务参与具有保护作用，支持多学科疼痛管理策略。 麻醉医生水平变异极小，表明麻醉医生个体对缓释阿片类药物处方的影响有限。",
-      "evidence": "中等",
-      "score": 61,
-      "scoreBreakdown": {
-        "relevance": 23,
-        "evidenceQuality": 8,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 6
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "基于人群的横断面研究，使用关联行政数据库，多水平逻辑回归分析患者、手术、麻醉和医院因素与领取缓释阿片类药物处方的关联，并通过方差分配系数和中位比值比量化变异。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Adults undergoing primary total hip or knee arthroplasty between 2013 and 2022 in Ontario, Canada；258,642 knee and hip arthroplasty procedures"
-        },
-        {
-          "label": "干预与比较",
-          "value": "当前可获取内容未提供该数据。；对照：当前可获取内容未提供该数据。"
-        },
-        {
-          "label": "主要终点",
-          "value": "Fulfillment of an extended-release opioid prescription within 7 days of discharge"
-        }
-      ],
-      "keyPoints": [
-        "全关节置换术后12.1%的患者新领取了缓释阿片类药物处方。",
-        "男性、术前阿片类药物暴露和ASA III级增加领取几率。",
-        "椎管内麻醉、外周神经阻滞和急性疼痛服务参与降低领取几率。",
-        "医院和外科医生水平变异大，麻醉医生水平变异小。",
-        "患者因素仅解释少部分变异，机构和外科实践模式是主要驱动因素。"
-      ],
-      "methods": "缓释阿片类药物不推荐用于急性术后疼痛，但其处方行为持续存在。本研究旨在调查全髋和全膝关节置换术后缓释阿片类药物处方的发生率、预测因素及变异。",
-      "results": "在258,642例膝关节和髋关节置换术中，31,224例（12.1%）患者在出院后新领取了缓释阿片类药物处方。男性（OR 1.14；95% CI 1.09-1.19）、术前阿片类药物暴露（阿片类药物初治-暴露-耐受评分2：OR 1.21；95% CI 1.15-1.27；评分3：OR 1.38；95% CI 1.20-1.58）和美国麻醉医师协会分级III级（OR 1.07；95% CI 1.01-1.12）增加领取新处方的几率。椎管内麻醉（OR 0.79；95% CI 0.74-0.84）、外周神经阻滞（OR 0.84；95% CI 0.79-0.89）和急性疼痛服务参与（OR 0.77；95% CI 0.70-0.85）具有保护作用。医院水平变异显著（VPC 46%；95% CI 0.4-0.54；MOR 9.3；95% CI 6.57-15.27），外科医生水平变异中等（VPC 26%；95% CI 0.24-0.26；MOR 5.3；95% CI 4.63-6.11），麻醉医生水平变异极小（VPC 1%；95% CI 0.010-0.011；MOR 1.4；95% CI 1.36-1.46）。患者水平因素仅解释了少部分变异。",
-      "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。"
-      ],
-      "practice": [
-        "椎管内麻醉和外周神经阻滞与降低缓释阿片类药物处方领取几率相关，提示麻醉方式可能影响术后阿片类药物使用。",
-        "急性疼痛服务参与具有保护作用，支持多学科疼痛管理策略。",
-        "麻醉医生水平变异极小，表明麻醉医生个体对缓释阿片类药物处方的影响有限。"
-      ],
-      "editor": "该研究为基于人群的大样本横断面分析，提供了术后缓释阿片类药物处方的发生率、预测因素及变异来源的可靠数据。 过度解读风险：观察性关联不能推断因果关系；结果可能受未测量的混杂因素影响。",
-      "whyItMatters": "缓释阿片类药物不推荐用于急性术后疼痛，但仍有处方行为。本研究揭示了术后缓释阿片类药物处方的发生率、预测因素及变异来源，为制定减少不必要暴露的干预措施提供了依据。",
-      "background": "缓释阿片类药物不推荐用于急性术后疼痛，但其处方行为持续存在。本研究旨在调查全髋和全膝关节置换术后缓释阿片类药物处方的发生率、预测因素及变异。",
-      "pico": {
-        "population": "Adults undergoing primary total hip or knee arthroplasty between 2013 and 2022 in Ontario, Canada",
-        "intervention": "当前可获取内容未提供该数据。",
-        "comparison": "当前可获取内容未提供该数据。",
-        "outcome": "Fulfillment of an extended-release opioid prescription within 7 days of discharge"
-      },
-      "studyType": "基于人群的横断面研究，使用关联行政数据库，多水平逻辑回归分析患者、手术、麻醉和医院因素与领取缓释阿片类药物处方的关联，并通过方差分配系数和中位比值比量化变异。",
-      "sampleSize": "258,642 knee and hip arthroplasty procedures",
-      "primaryOutcome": "Fulfillment of an extended-release opioid prescription within 7 days of discharge",
-      "effectSize": [
-        "OR 1.14",
-        "OR 1.21",
-        "OR 1.38",
-        "OR 1.07",
-        "OR 0.79",
-        "OR 0.84",
-        "OR 0.77"
-      ],
-      "confidenceInterval": [
-        "1.09 to 1.19",
-        "1.15 to 1.27",
-        "1.20 to 1.58",
-        "1.01 to 1.12",
-        "0.74 to 0.84",
-        "0.79 to 0.89",
-        "0.70 to 0.85"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "该研究为基于人群的大样本横断面分析，提供了术后缓释阿片类药物处方的发生率、预测因素及变异来源的可靠数据。",
-        "overinterpretationRisk": "观察性关联不能推断因果关系；结果可能受未测量的混杂因素影响。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42018768/",
-        "doi": "https://doi.org/10.1097/aln.0000000000006107",
-        "publisher": "https://doi.org/10.1097/aln.0000000000006107",
-        "openFullText": null
-      }
-    },
-    {
-      "slug": "pmid-42475789",
-      "number": "03",
-      "category": "麻醉学",
+      "category": "老年围术期",
       "journal": "Journal of clinical anesthesia",
       "year": "2026",
-      "publishedDate": "2026-07-20",
-      "electronicPublicationDate": "2026-07-20",
-      "readingTime": "6 分钟",
-      "title": "经导管主动脉瓣置换术的全身麻醉与非全身麻醉：一项真实世界目标试验模拟研究",
-      "originalTitle": "General vs. non-general anesthesia for transcatheter aortic valve replacement: A real-world target trial emulation study.",
-      "abstract": "BACKGROUND: The optimal anesthetic strategy for transcatheter aortic valve replacement (TAVR) remains debated, with limited real-world data on long-term outcomes and healthcare utilization. METHODS: We conducted a retrospective cohort study using the TriNetX Global Collaborative Network, including adults undergoing TAVR between January 2015 and December 2024. Patients were categorized by anesthetic strategy: general anesthesia (GA) or non-general anesthesia (NGA; regional anesthesia or sedation). A target trial emulation framework with 1:1 propensity score matching was used to balance baseline characteristics. Outcomes at 30, 90, and 365 days included all-cause mortality, major cardiovascular, renal, and respiratory complications, and all-cause hospital readmission. RESULTS: After matching, 3586 patients (1793 per group) were included. All-cause mortality did not differ between GA and NGA at 30, 90, or 365 days. Rates of stroke, myocardial infarction, acute kidney injury, atrial fibrillation, major vascular complications, and respiratory failure were also similar across follow-up intervals. At 365 days, heart failure was nominally higher in the GA group compared with NGA (HR 1.44, 95% CI 1.05-1.99; p = 0.023). NGA was associated with lower all-cause hospital readmission within 30 days post-procedure, with no differences at later follow-up. CONCLUSIONS: In this large real-world analysis, anesthetic strategy during TAVR was not associated with differences in mortality or most major complications through one year. Although heart failure events at 365 days were nominally higher with GA, overall outcomes were largely comparable. NGA was associated with reduced early hospital readmission.",
-      "authors": "Mohamed MS, Abu-Shawer O, Makhlouf MHE, Taher AS, Badwan O, Helou M, Ikram J",
-      "citation": "J Clin Anesth. 2026 Jul 20;113:112270. doi: 10.1016/j.jclinane.2026.112270.",
-      "doi": "10.1016/j.jclinane.2026.112270",
-      "pmid": "42475789",
+      "publishedDate": "2026-07-24",
+      "electronicPublicationDate": "2026-07-24",
+      "readingTime": "7 分钟",
+      "title": "血胆碱酯酶活性与术后基底前脑胆碱能系统萎缩的关联：BioCog队列的二次分析及潜在机制探讨",
+      "originalTitle": "Associations between blood cholin-esterase activity and postoperative basal forebrain cholinergic system atrophy: A secondary analysis of the BioCog cohort with exploration of potential mechanisms.",
+      "abstract": "OBJECTIVE: Structural and functional metabolism are closely linked in the cholinergic system, and associations between cholinergic neurotransmission and atrophy of cholinergic nuclei, i.e., the nucleus basalis of Meynert (NBM), have been described for neurodegenerative conditions. Impaired cholinergic neurotransmission, as shown by alterations in cholinesterase (ChE) activity of patients undergoing anaesthesia, may contribute to perioperative disorders of cognition. In this secondary analysis, we evaluated a potential association between perioperative ChE activity and postoperative NBM atrophy and studied its potential role in postoperative delirium (POD) and cognitive dysfunction (POCD). We further explored how postoperative inflammation, liver injury and anaesthetic toxicity may contribute to this relationship. METHODS: We conducted a secondary analysis in a subsample from the BioCog cohort study. N = 170 cognitively healthy (MMSE>/=24) patients >/=65 years provided ChE activity, inflammatory markers and transaminase activity before elective surgery and on the first postoperative day, as well as magnetic resonance imaging data before surgery and at follow-up three months after surgery for volumetry of the NBM. Patients were screened for delirium until the 7th postoperative day. POCD was assessed three months after surgery and was defined according to the reliable change index. The data were analysed in linear regression models of postoperative NBM volume adjusted for age, sex, MMSE score and preoperative NBM volume. RESULTS: Lower postoperative activity of butyryl-ChE (BuChE) was associated with lower baseline-adjusted NBM volume (B [95% CI]: 0.0141 [0.0055; 0.0227] mm(3) per U/L), which was driven by the perioperative change in butyryl-ChE activity (B [95% CI]: 0.0205 [0.0088; 0.0321] mm(3) per U/L) rather than preoperative activity (B [95% CI]: 0.0109 [0.0014; 0.0203] mm(3) per U/L). We observed no relationship between BuChE activity, NBM atrophy and POD or POCD. Postoperative inflammatory response was associated with BuChE inhibition, but not NBM atrophy. In patients undergoing anaesthesia maintained with sevoflurane, duration of surgery was significantly associated with BuChE inhibition and NBM atrophy. DISCUSSION: We observed an association between plasma BuChE activity and postoperative NBM atrophy. Our findings point towards a potential neurotoxic effect of sevoflurane on the cholinergic system. However, the involvement of this mechanism in postoperative cognitive disorders will require further well powered studies to evaluate causality.",
+      "authors": "Lammers-Lietz F, Heinrich M, Kappert K, Winterer G, Spies C, Muller A",
+      "citation": "J Clin Anesth. 2026 Jul 24;114:112282. doi: 10.1016/j.jclinane.2026.112282.",
+      "doi": "10.1016/j.jclinane.2026.112282",
+      "pmid": "42497582",
       "pmcid": null,
       "publicationTypes": [
         "Journal Article"
@@ -377,81 +99,87 @@
       "tags": [
         "临床研究",
         "麻醉及围术期核心期刊",
-        "麻醉学",
-        "疼痛与区域麻醉",
+        "老年围术期",
+        "麻醉基础研究",
         "Journal Article"
       ],
-      "question": "该研究为TAVR麻醉策略选择提供了大规模真实世界证据，提示两种策略在长期死亡率方面相当，但非全身麻醉可能减少早期再入院，有助于临床决策。",
-      "conclusion": "在TAVR患者中，全身麻醉与非全身麻醉在一年内的全因死亡率及大多数主要并发症方面无显著差异，但全身麻醉组365天心力衰竭事件名义上较高，非全身麻醉与早期再入院率降低相关。",
-      "clinical": "全身麻醉与非全身麻醉在TAVR术后一年内的死亡率和多数主要并发症方面无显著差异，提示两种策略均可接受。 非全身麻醉可能降低术后30天再入院率，具有潜在的卫生经济学优势。 全身麻醉组365天心力衰竭事件名义上增高，但需谨慎解读，可能为偶然发现。",
+      "question": "首次探讨了围术期胆碱酯酶活性变化与术后胆碱能核团萎缩的关系，为理解术后认知障碍的神经生物学机制提供新线索。",
+      "conclusion": "术后低丁酰胆碱酯酶（BuChE）活性与术后基底前脑NBM体积萎缩相关，但此关联与术后谵妄或认知功能障碍无关。",
+      "clinical": "围术期BuChE活性降低可能与术后胆碱能核团萎缩有关，提示麻醉管理需关注胆碱能系统的保护。 七氟烷麻醉时长与BuChE抑制及NBM萎缩的关联，提示需进一步研究吸入麻醉药的潜在神经毒性。",
       "evidence": "中等",
       "score": 56,
       "scoreBreakdown": {
         "relevance": 18,
         "evidenceQuality": 8,
-        "clinicalImpact": 11,
+        "clinicalImpact": 9,
         "journalQuality": 15,
-        "novelty": 4
+        "novelty": 6
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "回顾性队列研究，采用目标试验模拟框架和1:1倾向评分匹配，数据来源于TriNetX全球协作网络。"
+          "value": "BioCog队列研究的二次分析，前瞻性观察性研究"
         },
         {
           "label": "研究对象与样本",
-          "value": "adults undergoing TAVR between January 2015 and December 2024；3586 patients (1793 per group) after matching"
+          "value": "cognitively healthy (MMSE≥24) patients ≥65 years undergoing elective surgery；170"
         },
         {
           "label": "干预与比较",
-          "value": "general anesthesia (GA)；对照：non-general anesthesia (NGA; regional anesthesia or sedation)"
+          "value": "围术期血胆碱酯酶活性（BuChE）变化；对照：未设对照组，为队列内暴露-结局关联分析"
         },
         {
           "label": "主要终点",
-          "value": "all-cause mortality at 30, 90, and 365 days"
+          "value": "postoperative NBM atrophy (baseline-adjusted NBM volume)"
         }
       ],
       "keyPoints": [
-        "TAVR患者中，全身麻醉与非全身麻醉在一年内死亡率无差异。",
-        "大多数主要并发症（卒中、心肌梗死、急性肾损伤等）在两组间相似。",
-        "全身麻醉组365天心力衰竭事件名义上更高（HR 1.44，95% CI 1.05-1.99）。",
-        "非全身麻醉与术后30天再入院率降低相关。"
+        "术后BuChE活性下降与NBM体积缩小呈统计学显著关联。",
+        "该关联主要由围术期BuChE变化驱动，而非术前水平。",
+        "未发现BuChE活性或NBM萎缩与术后谵妄或认知功能障碍的关系。",
+        "术后炎症与BuChE抑制有关，但与NBM萎缩无关。",
+        "七氟烷麻醉时长与BuChE抑制及NBM萎缩相关。"
       ],
-      "methods": "经导管主动脉瓣置换术（TAVR）的最佳麻醉策略仍存在争议，缺乏关于长期结局和医疗资源利用的真实世界数据。",
-      "results": "匹配后共纳入3586例患者（每组1793例）。全因死亡率在30、90、365天时GA与NGA组均无差异。卒中、心肌梗死、急性肾损伤、心房颤动、主要血管并发症和呼吸衰竭的发生率在各随访时间点也相似。365天时，GA组心力衰竭事件名义上高于NGA组（HR 1.44，95% CI 1.05-1.99，p=0.023）。NGA与术后30天内全因再入院率降低相关，但后期随访无差异。",
+      "methods": "胆碱能系统的结构与功能代谢密切相关。神经退行性疾病中已观察到胆碱能神经传递与胆碱能核团（如Meynert基底核，NBM）萎缩之间的关联。麻醉期间ChE活性的改变可能损害胆碱能神经传递，进而导致围术期认知障碍。本研究旨在评估围术期ChE活性与术后NBM萎缩的潜在关联及其对术后谵妄（POD）和认知功能障碍（POCD）的作用，并探讨术后炎症、肝损伤及麻醉药毒性的可能贡献。",
+      "results": "纳入170例患者。术后BuChE活性越低，基线校正后NBM体积越小（B [95% CI]: 0.0141 [0.0055; 0.0227] mm³/U/L），该关联主要由围术期BuChE活性的变化驱动（B [95% CI]: 0.0205 [0.0088; 0.0321] mm³/U/L），而非术前活性（B [95% CI]: 0.0109 [0.0014; 0.0203] mm³/U/L）。未观察到BuChE活性、NBM萎缩与POD或POCD之间的关系。术后炎症反应与BuChE抑制相关，但与NBM萎缩无关。在七氟烷维持麻醉的患者中，手术时长与BuChE抑制及NBM萎缩显著相关。P值未提供。",
       "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。"
+        "当前可获取内容未提供该研究的局限性信息。",
+        "二次分析，非随机对照，不能推断因果关系。",
+        "样本量可能不足以检测临床结局（POD/POCD）的关联。"
       ],
       "practice": [
-        "全身麻醉与非全身麻醉在TAVR术后一年内的死亡率和多数主要并发症方面无显著差异，提示两种策略均可接受。",
-        "非全身麻醉可能降低术后30天再入院率，具有潜在的卫生经济学优势。",
-        "全身麻醉组365天心力衰竭事件名义上增高，但需谨慎解读，可能为偶然发现。"
+        "围术期BuChE活性降低可能与术后胆碱能核团萎缩有关，提示麻醉管理需关注胆碱能系统的保护。",
+        "七氟烷麻醉时长与BuChE抑制及NBM萎缩的关联，提示需进一步研究吸入麻醉药的潜在神经毒性。"
       ],
-      "editor": "该研究基于大规模真实世界数据，采用目标试验模拟和倾向评分匹配，结果较为可靠。 过度解读风险：中等。365天心力衰竭的差异为名义性（p=0.023），且未进行多重比较校正，可能为偶然发现，不应过度解读为因果关系。",
-      "whyItMatters": "该研究为TAVR麻醉策略选择提供了大规模真实世界证据，提示两种策略在长期死亡率方面相当，但非全身麻醉可能减少早期再入院，有助于临床决策。",
-      "background": "经导管主动脉瓣置换术（TAVR）的最佳麻醉策略仍存在争议，缺乏关于长期结局和医疗资源利用的真实世界数据。",
+      "editor": "结果基于前瞻性队列数据，多变量模型校正了年龄、性别、MMSE及术前NBM体积，但缺乏P值及因果推断证据。 过度解读风险：中等。作者提及“潜在神经毒性”，但关联性分析不能推导因果，且临床结局（POD/POCD）无显著关联，需避免过度解读。",
+      "whyItMatters": "首次探讨了围术期胆碱酯酶活性变化与术后胆碱能核团萎缩的关系，为理解术后认知障碍的神经生物学机制提供新线索。",
+      "background": "胆碱能系统的结构与功能代谢密切相关。神经退行性疾病中已观察到胆碱能神经传递与胆碱能核团（如Meynert基底核，NBM）萎缩之间的关联。麻醉期间ChE活性的改变可能损害胆碱能神经传递，进而导致围术期认知障碍。本研究旨在评估围术期ChE活性与术后NBM萎缩的潜在关联及其对术后谵妄（POD）和认知功能障碍（POCD）的作用，并探讨术后炎症、肝损伤及麻醉药毒性的可能贡献。",
       "pico": {
-        "population": "adults undergoing TAVR between January 2015 and December 2024",
-        "intervention": "general anesthesia (GA)",
-        "comparison": "non-general anesthesia (NGA; regional anesthesia or sedation)",
-        "outcome": "all-cause mortality at 30, 90, and 365 days"
+        "population": "cognitively healthy (MMSE≥24) patients ≥65 years undergoing elective surgery",
+        "intervention": "围术期血胆碱酯酶活性（BuChE）变化",
+        "comparison": "未设对照组，为队列内暴露-结局关联分析",
+        "outcome": "postoperative NBM atrophy (baseline-adjusted NBM volume)"
       },
-      "studyType": "回顾性队列研究，采用目标试验模拟框架和1:1倾向评分匹配，数据来源于TriNetX全球协作网络。",
-      "sampleSize": "3586 patients (1793 per group) after matching",
-      "primaryOutcome": "all-cause mortality at 30, 90, and 365 days",
+      "studyType": "BioCog队列研究的二次分析，前瞻性观察性研究",
+      "sampleSize": "170",
+      "primaryOutcome": "postoperative NBM atrophy (baseline-adjusted NBM volume)",
       "effectSize": [
-        "HR 1.44"
+        "0.0141",
+        "0.0205",
+        "0.0109"
       ],
       "confidenceInterval": [
-        "95% CI 1.05-1.99"
+        "[0.0055; 0.0227]",
+        "[0.0088; 0.0321]",
+        "[0.0014; 0.0203]"
       ],
       "pValue": [
-        "p = 0.023"
+        "当前可获取内容未提供该数据。"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "该研究基于大规模真实世界数据，采用目标试验模拟和倾向评分匹配，结果较为可靠。",
-        "overinterpretationRisk": "中等。365天心力衰竭的差异为名义性（p=0.023），且未进行多重比较校正，可能为偶然发现，不应过度解读为因果关系。"
+        "support": "结果基于前瞻性队列数据，多变量模型校正了年龄、性别、MMSE及术前NBM体积，但缺乏P值及因果推断证据。",
+        "overinterpretationRisk": "中等。作者提及“潜在神经毒性”，但关联性分析不能推导因果，且临床结局（POD/POCD）无显著关联，需避免过度解读。"
       },
       "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
@@ -459,28 +187,28 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42475789/",
-        "doi": "https://doi.org/10.1016/j.jclinane.2026.112270",
-        "publisher": "https://doi.org/10.1016/j.jclinane.2026.112270",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42497582/",
+        "doi": "https://doi.org/10.1016/j.jclinane.2026.112282",
+        "publisher": "https://doi.org/10.1016/j.jclinane.2026.112282",
         "openFullText": null
       }
     },
     {
-      "slug": "pmid-42458235",
-      "number": "04",
-      "category": "气道管理",
+      "slug": "pmid-42464898",
+      "number": "02",
+      "category": "老年围术期",
       "journal": "Anaesthesia",
       "year": "2026",
-      "publishedDate": "2026-07-15",
-      "electronicPublicationDate": "2026-07-15",
+      "publishedDate": "2026-07-17",
+      "electronicPublicationDate": "2026-07-17",
       "readingTime": "6 分钟",
-      "title": "视频喉镜时代下的清醒气管插管：一项涉及4728名临床医生的国际调查",
-      "originalTitle": "Awake tracheal intubation in the era of videolaryngoscopy: an international survey of 4728 clinicians.",
-      "abstract": "INTRODUCTION: Awake tracheal intubation is recommended for the anticipated difficult airway, but its application worldwide is poorly understood. We performed an international survey to understand more about the current global utilisation of awake tracheal intubation and barriers to its more widespread implementation. METHODS: The online survey consisted of 34 multiple-choice questions and three open questions available for 13 months. Each participant agreed to anonymised data collection and analysis before undertaking the survey. RESULTS: Data were collected from 102 countries with 4728 responses. In total, 3190/4184 (76.2%) respondents stated that they were performing awake tracheal intubation independently and 2512/3035 (82.8%) used awake tracheal intubation for a combination of predicted anatomical difficulty and physiological risk. A decrease in awake tracheal intubation use was perceived by 1733/4204 (41.2%) following the widespread implementation of videolaryngoscopy. There were 2867/3695 (77.6%) respondents who felt that indications for awake tracheal intubation should be reassessed, although only 1844/3831 (48.1%) reported being familiar with awake tracheal intubation guidelines. Most used a combination of topical airway anaesthesia and systemic medications to facilitate awake tracheal intubation. There were 2521/3039 (83.0%) respondents who preferred to use a flexible endoscope, although a lack of skill in using flexible bronchoscopy was reported by 586/966 (60.7%) as limiting their confidence in awake tracheal intubation. DISCUSSION: Despite guidelines recommending use of awake tracheal intubation for the predicted difficult airway, its application is heterogeneous. Our data suggest that a lack of physician exposure to awake tracheal intubation, possibly associated with expanding use of videolaryngoscopy, may adversely impact clinician confidence in performing the procedure. Most respondents consider awake tracheal intubation to be a core skill for anaesthetists and, furthermore, videolaryngoscopy can be used to perform some awake tracheal intubations.",
-      "authors": "Cortese G, Steinberg I, Brazzi L, Sorbello M, Ahmad I, Myatra SN, Kovacs G, Law JA, et al.",
-      "citation": "Anaesthesia. 2026 Jul 15. doi: 10.1111/anae.70291.",
-      "doi": "10.1111/anae.70291",
-      "pmid": "42458235",
+      "title": "瑞马唑仑与丙泊酚麻醉对老年肺切除术后患者谵妄的影响：一项随机非劣效性试验",
+      "originalTitle": "Remimazolam vs. propofol anaesthesia for delirium in older patients recovering from lung resections: a randomised non-inferiority trial.",
+      "abstract": "INTRODUCTION: Remimazolam tosylate is an ultra-short-acting benzodiazepine sedative and anaesthetic. The related drug, midazolam, is associated with delirium but it remains unclear whether remimazolam also promotes delirium. We tested the primary hypothesis that remimazolam is non-inferior to propofol for delirium in patients during the initial 3 days after lung resection surgery. Secondary outcomes were the proportion of delirium-positive assessments; duration of stay in the post-anaesthesia care unit; and hospital and Mini-mental State Examination scores at 30 days. METHODS: We randomly allocated patients aged >/= 65 y to remimazolam or propofol anaesthesia for lung resection surgery. Delirium was assessed by trained assessors blinded to trial treatment using the Confusion Assessment Method in the post-anaesthesia care unit and twice daily for 3 postoperative days. Our non-inferiority margin was a 10% absolute difference in the incidence of postoperative delirium. RESULTS: The modified intent-to-treat population included 455 patients. Delirium occurred in 108/227 (48%) patients allocated to the remimazolam group and 71/228 (31%) in those allocated to the propofol group (risk ratio 1.53, 95%CI 1.21-1.94). The absolute risk difference was 16.5% (95%CI 7.7-25.3%) which considerably exceeded our non-inferiority margin; therefore, non-inferiority was not established. Emergence delirium was more frequent in patients allocated to remimazolam (105/227 (46%) vs. 64/228 (28%); risk ratio 1.65, 95%CI 1.28-2.12), whereas delirium after post-anaesthesia care unit discharge was uncommon and similar between groups (9/227 (4%) vs. 12/228 (5%); risk ratio 0.75, 95%CI 0.32-1.75). Delirium-positive assessments occurred in 129/1377 (9%) patients allocated to the remimazolam group and 102/1440 (7%) in those allocated to the propofol group (risk ratio 1.36, 95%CI 0.96-1.91). DISCUSSION: Remimazolam was not non-inferior to propofol for postoperative delirium in older patients having lung resection surgery and provoked more emergence delirium.",
+      "authors": "Wang W, Zhang F, Ge Y, Zhang Y, Sessler DI, Wu J, Mu D, Qiu Y",
+      "citation": "Anaesthesia. 2026 Jul 17. doi: 10.1111/anae.70290.",
+      "doi": "10.1111/anae.70290",
+      "pmid": "42464898",
       "pmcid": null,
       "publicationTypes": [
         "Journal Article"
@@ -510,80 +238,88 @@
       "tags": [
         "临床研究",
         "麻醉及围术期核心期刊",
-        "气道管理",
+        "老年围术期",
+        "麻醉基础研究",
         "Journal Article"
       ],
-      "question": "清醒气管插管是处理预测困难气道的关键技术，但全球应用现状和障碍尚不明确。本研究揭示了临床实践与指南之间的差距，以及视频喉镜普及可能带来的影响，对优化气道管理策略具有重要参考价值。",
-      "conclusion": "尽管指南推荐清醒气管插管用于预测的困难气道，但其应用在全球范围内存在异质性，且视频喉镜的普及可能与其使用率下降相关。",
-      "clinical": "清醒气管插管的应用存在异质性，需加强指南推广和培训。 视频喉镜的普及可能减少清醒气管插管的使用，需警惕其对临床医生信心的潜在影响。 多数受访者认为清醒气管插管是麻醉医师的核心技能，且视频喉镜可用于部分清醒气管插管。",
+      "question": "该研究否定了瑞马唑仑相较于丙泊酚在老年肺切除术后谵妄方面的非劣效性，提示其可能增加谵妄风险，影响老年患者麻醉药物的选择。",
+      "conclusion": "瑞马唑仑在老年肺切除术后谵妄方面未达到非劣效于丙泊酚，且增加了苏醒期谵妄的发生率。",
+      "clinical": "瑞马唑仑在老年肺切除术后谵妄方面不优于丙泊酚，非劣效性未得到证实。 瑞马唑仑增加苏醒期谵妄发生率，需警惕。",
       "evidence": "中等",
-      "score": 56,
+      "score": 54,
       "scoreBreakdown": {
         "relevance": 18,
         "evidenceQuality": 8,
-        "clinicalImpact": 11,
+        "clinicalImpact": 9,
         "journalQuality": 15,
         "novelty": 4
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "国际横断面调查，通过在线问卷收集数据，问卷包含34个多项选择题和3个开放性问题，开放时间为13个月。"
+          "value": "随机非劣效性试验，非劣效界值为绝对风险差异10%。"
         },
         {
           "label": "研究对象与样本",
-          "value": "clinicians from 102 countries；4728"
+          "value": "Patients aged ≥65 years undergoing lung resection surgery；455 (modified intent-to-treat)"
         },
         {
           "label": "干预与比较",
-          "value": "当前可获取内容未提供该数据。；对照：当前可获取内容未提供该数据。"
+          "value": "Remimazolam anaesthesia；对照：Propofol anaesthesia"
         },
         {
           "label": "主要终点",
-          "value": "utilisation of awake tracheal intubation and barriers to implementation"
+          "value": "Incidence of postoperative delirium during the initial 3 days after surgery"
         }
       ],
       "keyPoints": [
-        "76.2%的受访者独立进行清醒气管插管，82.8%用于预测解剖困难与生理风险。",
-        "41.2%认为视频喉镜普及后清醒气管插管使用减少。",
-        "77.6%认为应重新评估清醒气管插管适应证，但仅48.1%熟悉相关指南。",
-        "83.0%偏好软性内镜，但60.7%报告缺乏软性支气管镜技能。"
+        "瑞马唑仑未达到非劣效于丙泊酚的预设界值。",
+        "瑞马唑仑组苏醒期谵妄比例更高（46% vs. 28%）。",
+        "两组在PACU转出后谵妄发生率无差异。"
       ],
-      "methods": "清醒气管插管被推荐用于预测的困难气道，但其全球应用情况尚不清楚。本研究通过国际调查了解当前清醒气管插管的使用现状及实施障碍。",
-      "results": "共收集4728份来自102个国家的回复。3190/4184（76.2%）的受访者表示独立进行清醒气管插管；2512/3035（82.8%）将其用于预测解剖困难与生理风险的组合。1733/4204（41.2%）认为视频喉镜广泛应用后清醒气管插管使用减少；2867/3695（77.6%）认为应重新评估清醒气管插管的适应证；1844/3831（48.1%）熟悉相关指南；2521/3039（83.0%）偏好使用软性内镜；586/966（60.7%）报告缺乏软性支气管镜技能限制了其信心。",
+      "methods": "瑞马唑仑是一种超短效苯二氮䓬类镇静麻醉药。相关药物咪达唑仑与谵妄相关，但瑞马唑仑是否促进谵妄尚不清楚。本研究检验了瑞马唑仑在肺切除术后前3天谵妄方面非劣效于丙泊酚的主要假设。",
+      "results": "改良意向治疗人群455例。瑞马唑仑组谵妄发生率108/227（48%），丙泊酚组71/228（31%），风险比1.53（95%CI 1.21-1.94），绝对风险差异16.5%（95%CI 7.7-25.3%），超过非劣效界值10%，故未建立非劣效性。苏醒期谵妄更常见于瑞马唑仑组（105/227，46% vs. 64/228，28%；风险比1.65，95%CI 1.28-2.12）。PACU转出后谵妄少见且组间相似（9/227，4% vs. 12/228，5%；风险比0.75，95%CI 0.32-1.75）。谵妄阳性评估比例：瑞马唑仑组129/1377（9%）vs.丙泊酚组102/1440（7%）（风险比1.36，95%CI 0.96-1.91）。P值：当前可获取内容未提供该数据。",
       "limitations": [
-        "当前可获取内容未提供该数据。"
+        "当前可获取内容未提供该研究的局限性信息。"
       ],
       "practice": [
-        "清醒气管插管的应用存在异质性，需加强指南推广和培训。",
-        "视频喉镜的普及可能减少清醒气管插管的使用，需警惕其对临床医生信心的潜在影响。",
-        "多数受访者认为清醒气管插管是麻醉医师的核心技能，且视频喉镜可用于部分清醒气管插管。"
+        "瑞马唑仑在老年肺切除术后谵妄方面不优于丙泊酚，非劣效性未得到证实。",
+        "瑞马唑仑增加苏醒期谵妄发生率，需警惕。"
       ],
-      "editor": "研究结果基于大规模国际调查，样本量较大，覆盖国家广泛，提供了全球视角。 过度解读风险：调查为横断面设计，无法推断因果关系；结果基于自我报告，可能存在回忆偏倚；部分问题应答率较低，可能影响代表性。",
-      "whyItMatters": "清醒气管插管是处理预测困难气道的关键技术，但全球应用现状和障碍尚不明确。本研究揭示了临床实践与指南之间的差距，以及视频喉镜普及可能带来的影响，对优化气道管理策略具有重要参考价值。",
-      "background": "清醒气管插管被推荐用于预测的困难气道，但其全球应用情况尚不清楚。本研究通过国际调查了解当前清醒气管插管的使用现状及实施障碍。",
+      "editor": "随机对照设计，盲法评估，样本量适中，结果清晰。 过度解读风险：较低，研究结论与数据一致，但需注意非劣效性未达到且结果提示劣效。",
+      "whyItMatters": "该研究否定了瑞马唑仑相较于丙泊酚在老年肺切除术后谵妄方面的非劣效性，提示其可能增加谵妄风险，影响老年患者麻醉药物的选择。",
+      "background": "瑞马唑仑是一种超短效苯二氮䓬类镇静麻醉药。相关药物咪达唑仑与谵妄相关，但瑞马唑仑是否促进谵妄尚不清楚。本研究检验了瑞马唑仑在肺切除术后前3天谵妄方面非劣效于丙泊酚的主要假设。",
       "pico": {
-        "population": "clinicians from 102 countries",
-        "intervention": "当前可获取内容未提供该数据。",
-        "comparison": "当前可获取内容未提供该数据。",
-        "outcome": "utilisation of awake tracheal intubation and barriers to implementation"
+        "population": "Patients aged ≥65 years undergoing lung resection surgery",
+        "intervention": "Remimazolam anaesthesia",
+        "comparison": "Propofol anaesthesia",
+        "outcome": "Incidence of postoperative delirium during the initial 3 days after surgery"
       },
-      "studyType": "国际横断面调查，通过在线问卷收集数据，问卷包含34个多项选择题和3个开放性问题，开放时间为13个月。",
-      "sampleSize": "4728",
-      "primaryOutcome": "utilisation of awake tracheal intubation and barriers to implementation",
+      "studyType": "随机非劣效性试验，非劣效界值为绝对风险差异10%。",
+      "sampleSize": "455 (modified intent-to-treat)",
+      "primaryOutcome": "Incidence of postoperative delirium during the initial 3 days after surgery",
       "effectSize": [
-        "当前可获取内容未提供该数据。"
+        "1.53",
+        "1.65",
+        "0.75",
+        "1.36"
       ],
       "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
+        "1.21-1.94",
+        "1.28-2.12",
+        "0.32-1.75",
+        "0.96-1.91"
       ],
       "pValue": [
-        "当前可获取内容未提供该数据。"
+        null,
+        null,
+        null,
+        null
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "研究结果基于大规模国际调查，样本量较大，覆盖国家广泛，提供了全球视角。",
-        "overinterpretationRisk": "调查为横断面设计，无法推断因果关系；结果基于自我报告，可能存在回忆偏倚；部分问题应答率较低，可能影响代表性。"
+        "support": "随机对照设计，盲法评估，样本量适中，结果清晰。",
+        "overinterpretationRisk": "较低，研究结论与数据一致，但需注意非劣效性未达到且结果提示劣效。"
       },
       "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
@@ -591,49 +327,38 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42458235/",
-        "doi": "https://doi.org/10.1111/anae.70291",
-        "publisher": "https://doi.org/10.1111/anae.70291",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42464898/",
+        "doi": "https://doi.org/10.1111/anae.70290",
+        "publisher": "https://doi.org/10.1111/anae.70290",
         "openFullText": null
       }
     },
     {
-      "slug": "pmid-41950403",
-      "number": "05",
+      "slug": "pmid-42461090",
+      "number": "03",
       "category": "麻醉学",
       "journal": "Anesthesiology",
       "year": "2026",
-      "publishedDate": "2026-04-08",
-      "electronicPublicationDate": "2026-04-08",
-      "readingTime": "7 分钟",
-      "title": "地氟烷麻醉下的动态皮层电状态与悖论性复杂度",
-      "originalTitle": "Dynamic Electrocortical States and Paradoxical Complexity during Desflurane Anesthesia.",
-      "abstract": "BACKGROUND: How general anesthesia alters the dynamics of electrocortical activity is crucial to understand the neural mechanisms of unconsciousness. Local cortical activity undergoes spontaneous transitions at constant anesthetic concentration. The spatial organization and temporal dynamics of state transitions in large-scale electrocortical activity is incompletely understood. METHODS: Epidural electrocorticogram was recorded from the right hemisphere in 8 rats (14 experiments) using chronically implanted 32-channel flexible electrode arrays during desflurane anesthesia at 6, 4, 2, and 0 concentrations, each maintained for 1 h. Cortical states were identified by principal component analysis of power spectrograms followed by density-based clustering simultaneously across all concentrations. State-specific spatiotemporal complexity was quantified by the normalized Lempel-Ziv algorithm to capture signal variability beyond spectral effects. Temporal dynamics were assessed by state occurrence, dwell times, and transition probabilities. RESULTS: Cortical activity was organized into a set of discrete states, six of which were characterized by increased delta power and decreased complexity that broadly tracked anesthetic depth. The seventh state deviated from this progression, exhibiting reduced delta power ( P < 0.001) and elevated complexity ( P < 0.001) despite occurring during deep anesthesia. The cortex spontaneously transitioned between states approximately every 2 min (mean dwell time, 136.55 s), following structured, nonrandom dynamics primarily within light- or deep-anesthesia states (false discovery rate-corrected P < 0.05), with a mild tendency to transition from deep to light states ( P = 0.0039), consistent with anesthetic emergence. CONCLUSIONS: In the absence of external stimuli at constant anesthetic concentration, the cortex transitions between multiple states, indicating that the relationship between drug concentration and cortical activity is not static but involves spontaneous dynamics including paradoxically activated states during deep anesthesia. The results provide insight into anesthesia-induced brain dynamics that may inform strategies for monitoring, modulating, and facilitating recovery from general anesthesia.",
-      "authors": "Li D, Hudetz AG",
-      "citation": "Anesthesiology. 2026 Aug 1;145(2):373-386. doi: 10.1097/ALN.0000000000006088. Epub 2026 Apr 8.",
-      "doi": "10.1097/aln.0000000000006088",
-      "pmid": "41950403",
-      "pmcid": "PMC13175308",
+      "publishedDate": "2026-07-14",
+      "electronicPublicationDate": "2026-07-14",
+      "readingTime": "6 分钟",
+      "title": "在整个新鲜气体流量范围内，七氟烷的温室气体排放量超过载气和CO2吸收剂",
+      "originalTitle": "Greenhouse gas emissions of sevoflurane outweigh those of carrier gas and CO2 absorbers across the fresh gas flow spectrum.",
+      "abstract": "BACKGROUND: The absolute and relative effects of lowering fresh gas flows (FGF) on the CO2 equivalent (CO2e) emissions of sevoflurane, carrier gases (O2/air) and prepacked CO2 canister remain poorly quantified. We quantified these factors across a 0.2-4 L/min FGF range during the first hour of anesthesia. METHODS: Data were compiled from 3 studies including 132 ASA I-III patients receiving a constant end-tidal sevoflurane concentration (FETsevo) using manual (n = 50) or target controlled delivery (n = 48) with 0.2 to 4 L/min FGF or during automated closed-circuit delivery (CCA) (n=34). Sevoflurane consumption was normalized to both 1.3 and 2.0% FETsevo, and carrier gas use to an inspired O2 concentration (FIO2) of 30 and 60%. Prepacked CO2 absorbent usage was calculated using a previously described model for both 130 and 160 mL/min exhaled CO2 (VCO2). Published CO2e values were used to derive CO2e of sevoflurane. RESULTS: Sevoflurane CO2e increases linearly with FGF (range 2.4 -18.6 kg CO2e), except when a brief wash-in period was used due to low FGF (FGF < 1 L/min). Carrier gas CO2e decreases with lower FGF but in a more complex manner, and increases with higher FIO2. (range 0.010 - 0.124 kg CO2e). Absorbent CO2e decreases linearly with FGF (range 0 - 0.070 kg CO2e). The CO2e of sevoflurane is two orders of magnitude higher than CO2e of carrier gas and CO2 absorbent, which are similar. CONCLUSIONS: When delivering sevoflurane in O2/air, the CO2e contribution of the carrier gas and CO2 absorbent is less than 3%, even during CCA. While CO2e is only one element of a comprehensive life cycle analysis, the presented CO2e data underscore that the key to minimizing the global warming potential of sevoflurane is lowering FGF and decreasing FETsevo.",
+      "authors": "Jouwena J, De Wolf AM, Hendrickx TJ, Hendrickx JFA",
+      "citation": "Anesthesiology. 2026 Jul 14. doi: 10.1097/ALN.0000000000006238.",
+      "doi": "10.1097/aln.0000000000006238",
+      "pmid": "42461090",
+      "pmcid": null,
       "publicationTypes": [
         "Journal Article"
       ],
-      "meshTerms": [
-        "Animals",
-        "Desflurane",
-        "Rats",
-        "*Anesthetics, Inhalation/pharmacology",
-        "*Isoflurane/analogs & derivatives/pharmacology",
-        "*Cerebral Cortex/drug effects/physiology",
-        "Male",
-        "*Electrocorticography/drug effects/methods",
-        "Rats, Sprague-Dawley",
-        "*Electroencephalography/drug effects"
-      ],
+      "meshTerms": [],
       "publisher": "Ovid Technologies (Wolters Kluwer Health)",
       "crossrefVerified": true,
       "researchCategory": {
-        "id": "basic",
-        "label": "基础研究"
+        "id": "clinical",
+        "label": "临床研究"
       },
       "journalTier": {
         "id": "anesthesia_core",
@@ -651,19 +376,294 @@
         "matchedJournal": "Anesthesiology"
       },
       "tags": [
-        "基础研究",
+        "临床研究",
         "麻醉及围术期核心期刊",
         "麻醉学",
         "麻醉基础研究",
         "Journal Article"
       ],
-      "question": "该研究揭示了麻醉药物浓度与皮层活动之间并非简单线性关系，存在自发动态变化，包括深麻醉下的悖论性激活状态，这有助于理解麻醉诱导的无意识机制，并为麻醉监测和恢复策略提供新视角。",
-      "conclusion": "在恒定地氟烷浓度下，大鼠皮层自发在多个离散状态间转换，其中一种状态在深麻醉时表现出δ功率降低和复杂度升高，提示麻醉与皮层活动的关系并非静态。",
-      "clinical": "麻醉深度监测可能需要考虑皮层状态的动态变化，而非仅依赖单一指标。 深麻醉下出现的悖论性激活状态可能影响麻醉恢复过程。 自发状态转换的规律性可为麻醉管理策略提供参考。",
+      "question": "麻醉气体排放对气候变化有显著影响，明确不同成分的相对贡献有助于优化临床实践以减少环境足迹。",
+      "conclusion": "在氧气/空气中输送七氟烷时，载气和CO2吸收剂的CO2当量贡献小于3%，降低新鲜气体流量和呼气末七氟烷浓度是减少七氟烷全球变暖潜力的关键。",
+      "clinical": "降低新鲜气体流量是减少七氟烷温室气体排放的最有效方法 载气和CO2吸收剂的排放贡献很小（<3%） 降低呼气末七氟烷浓度也能减少排放",
       "evidence": "中等",
-      "score": 52,
+      "score": 54,
       "scoreBreakdown": {
         "relevance": 18,
+        "evidenceQuality": 8,
+        "clinicalImpact": 7,
+        "journalQuality": 15,
+        "novelty": 6
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "观察性研究，数据来自三项研究"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "ASA I-III patients receiving constant end-tidal sevoflurane concentration；132"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Fresh gas flows (FGF) 0.2-4 L/min with sevoflurane delivery methods: manual, target controlled, or automated closed-circuit delivery；对照：当前可获取内容未提供该数据。"
+        },
+        {
+          "label": "主要终点",
+          "value": "CO2 equivalent (CO2e) emissions of sevoflurane, carrier gases (O2/air), and prepacked CO2 canister"
+        }
+      ],
+      "keyPoints": [
+        "七氟烷的CO2当量排放量是载气和吸收剂的100倍以上",
+        "低新鲜气体流量可以显著降低七氟烷排放",
+        "载气和吸收剂的排放贡献小于3%"
+      ],
+      "methods": "低新鲜气体流量对七氟烷、载气（O2/空气）和预装CO2罐的CO2当量排放的绝对和相对影响尚未被充分量化。本研究量化了麻醉第一个小时内0.2-4 L/min新鲜气体流量范围内的这些因素。",
+      "results": "样本量132例。主要终点为CO2当量排放量。七氟烷CO2当量随新鲜气体流量线性增加（范围2.4-18.6 kg CO2e），但低新鲜气体流量冲洗期除外；载气CO2当量随新鲜气体流量降低而降低（范围0.010-0.124 kg CO2e）；吸收剂CO2当量随新鲜气体流量线性降低（范围0-0.070 kg CO2e）。七氟烷CO2当量比载气和吸收剂CO2当量高两个数量级。效应量、95%置信区间和P值均未提供。",
+      "limitations": [],
+      "practice": [
+        "降低新鲜气体流量是减少七氟烷温室气体排放的最有效方法",
+        "载气和CO2吸收剂的排放贡献很小（<3%）",
+        "降低呼气末七氟烷浓度也能减少排放"
+      ],
+      "editor": "结果与已知知识一致，即七氟烷是主要排放源 过度解读风险：低，因为结论基于定量分析",
+      "whyItMatters": "麻醉气体排放对气候变化有显著影响，明确不同成分的相对贡献有助于优化临床实践以减少环境足迹。",
+      "background": "低新鲜气体流量对七氟烷、载气（O2/空气）和预装CO2罐的CO2当量排放的绝对和相对影响尚未被充分量化。本研究量化了麻醉第一个小时内0.2-4 L/min新鲜气体流量范围内的这些因素。",
+      "pico": {
+        "population": "ASA I-III patients receiving constant end-tidal sevoflurane concentration",
+        "intervention": "Fresh gas flows (FGF) 0.2-4 L/min with sevoflurane delivery methods: manual, target controlled, or automated closed-circuit delivery",
+        "comparison": "当前可获取内容未提供该数据。",
+        "outcome": "CO2 equivalent (CO2e) emissions of sevoflurane, carrier gases (O2/air), and prepacked CO2 canister"
+      },
+      "studyType": "观察性研究，数据来自三项研究",
+      "sampleSize": "132",
+      "primaryOutcome": "CO2 equivalent (CO2e) emissions of sevoflurane, carrier gases (O2/air), and prepacked CO2 canister",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "结果与已知知识一致，即七氟烷是主要排放源",
+        "overinterpretationRisk": "低，因为结论基于定量分析"
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42461090/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006238",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006238",
+        "openFullText": null
+      }
+    },
+    {
+      "slug": "pmid-42485129",
+      "number": "04",
+      "category": "气道管理",
+      "journal": "Anesthesia and analgesia",
+      "year": "2026",
+      "publishedDate": "2026-07-20",
+      "electronicPublicationDate": "2026-07-20",
+      "readingTime": "7 分钟",
+      "title": "美国危重症患者急性呼吸衰竭气管插管的趋势与变化",
+      "originalTitle": "Trends and Variations in Tracheal Intubation for Acute Respiration Failure in Critically Ill Patients in the United States.",
+      "abstract": "BACKGROUND: Acute respiratory failure (ARF) is a common indication for tracheal intubation in critically ill patients. This study sought to describe temporal trends and hospital variation in tracheal intubation among patients with ARF, identify factors associated with its use, and examine the relationship between tracheal intubation and hospital mortality. METHODS: We performed an observational cohort study of adult hospitalizations (2016-2019) for ARF using the National Inpatient Sample. We identified critically ill patients with ARF who required tracheal intubation and assessed outcomes, temporal trends in the incidence, and associated patient and hospital characteristics. Multivariable logistic regression was used to examine factors associated with the performance of tracheal intubation and to characterize the association between mortality and intubation status while controlling for type of respiratory failure, demographics, and patient comorbidities. RESULTS: A total of 2017,349 admissions with a diagnosis of ARF were identified, representing 10,086,744 (95% confidence interval [CI], 9957,967-10,215,520) cases nationwide. Of those, 2153,460 (21.3%) required tracheal intubation. Intubated patients were more likely to be nonwhite men, have a higher comorbidity burden, be insured by Medicaid, and be hospitalized in large urban, teaching hospitals. Although ARF cases increased from 1872,519 in 2016 to 3194,075 in 2019, the proportion of patients undergoing tracheal intubation declined from 23.8% to 19.8% during the same period (P < .0001). Mortality rates were higher in intubated than in nonintubated patients (P < 001). Mortality remained stable in intubated patients (30.6% [95% CI, 30.2-31.1] in 2016, versus 31.0% [95% CI, 30.5-31.4] in 2019) but decreased in nonintubated patients during the same time period (8.1% [95% CI, 7.9-8.3] versus 6.6% [95% CI, 6.5-6.8]). 10.5% of the variability in intubation rates was attributable to the admitting hospital, and sepsis was the patient factor most strongly associated with tracheal intubation. CONCLUSIONS: In the National Inpatient Sample, tracheal intubation in critically ill patients with ARF has declined over time with no change in mortality. In the same period, mortality rates in nonintubated patients have fallen. Further work is needed to better understand factors affecting the decision to intubate for respiratory failure in critically ill patients.",
+      "authors": "Karamchandani K, Iancau A, Rosero EB",
+      "citation": "Anesth Analg. 2026 Jul 20. doi: 10.1213/ANE.0000000000008154.",
+      "doi": "10.1213/ane.0000000000008154",
+      "pmid": "42485129",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "meshTerms": [],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床研究"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 1
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 5.9,
+        "metricYear": 2022,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+        "verifiedAt": "2026-07-23",
+        "matchedJournal": "Anesthesia & Analgesia"
+      },
+      "tags": [
+        "临床研究",
+        "麻醉及围术期核心期刊",
+        "气道管理",
+        "Journal Article"
+      ],
+      "question": "当前可获取内容未提供该数据。",
+      "conclusion": "2016年至2019年，美国危重症急性呼吸衰竭患者的气管插管比例下降（23.8%降至19.8%），插管患者死亡率稳定（约31%），而未插管患者死亡率下降（8.1%降至6.6%）。",
+      "clinical": "当前可获取内容未提供该数据。",
+      "evidence": "中等",
+      "score": 51,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 8,
+        "clinicalImpact": 11,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "观察性队列研究"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "adult hospitalizations (2016-2019) for ARF in the United States；2017,349"
+        },
+        {
+          "label": "干预与比较",
+          "value": "tracheal intubation；对照：nonintubated patients"
+        },
+        {
+          "label": "主要终点",
+          "value": "hospital mortality"
+        }
+      ],
+      "keyPoints": [
+        "气管插管比例从2016年的23.8%下降至2019年的19.8%（P<0.0001）",
+        "插管患者死亡率保持稳定（约31%）",
+        "未插管患者死亡率从8.1%降至6.6%",
+        "医院因素解释10.5%的插管率变异",
+        "脓毒症是与插管最相关的患者因素"
+      ],
+      "methods": "急性呼吸衰竭（ARF）是危重症患者气管插管的常见指征。本研究旨在描述ARF患者气管插管的时间趋势和医院差异，识别相关因素，并检查气管插管与医院死亡率的关系。",
+      "results": "共识别2,017,349次ARF住院（全国估计10,086,744次）。其中21.3%需要气管插管。2016年至2019年，ARF病例从1,872,519增至3,194,075，而气管插管比例从23.8%降至19.8%（P<0.0001）。插管患者死亡率保持稳定（2016年30.6% [95% CI 30.2-31.1] vs 2019年31.0% [95% CI 30.5-31.4]），而未插管患者死亡率从8.1%（95% CI 7.9-8.3）降至6.6%（95% CI 6.5-6.8）。插管率的10.5%变异归因于收治医院，脓毒症是与插管最相关的患者因素。",
+      "limitations": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "practice": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "editor": "原文结果明确支持结论 过度解读风险：观察性研究，不能推断因果关系",
+      "whyItMatters": "当前可获取内容未提供该数据。",
+      "background": "急性呼吸衰竭（ARF）是危重症患者气管插管的常见指征。本研究旨在描述ARF患者气管插管的时间趋势和医院差异，识别相关因素，并检查气管插管与医院死亡率的关系。",
+      "pico": {
+        "population": "adult hospitalizations (2016-2019) for ARF in the United States",
+        "intervention": "tracheal intubation",
+        "comparison": "nonintubated patients",
+        "outcome": "hospital mortality"
+      },
+      "studyType": "观察性队列研究",
+      "sampleSize": "2017,349",
+      "primaryOutcome": "hospital mortality",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "95% CI, 9957,967-10,215,520",
+        "30.6% [95% CI, 30.2-31.1]",
+        "31.0% [95% CI, 30.5-31.4]",
+        "8.1% [95% CI, 7.9-8.3]",
+        "6.6% [95% CI, 6.5-6.8]"
+      ],
+      "pValue": [
+        "P < .0001",
+        "P < 001"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "原文结果明确支持结论",
+        "overinterpretationRisk": "观察性研究，不能推断因果关系"
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42485129/",
+        "doi": "https://doi.org/10.1213/ane.0000000000008154",
+        "publisher": "https://doi.org/10.1213/ane.0000000000008154",
+        "openFullText": null
+      }
+    },
+    {
+      "slug": "pmid-42062153",
+      "number": "05",
+      "category": "麻醉基础研究",
+      "journal": "British journal of anaesthesia",
+      "year": "2026",
+      "publishedDate": "2026-04-30",
+      "electronicPublicationDate": "2026-04-30",
+      "readingTime": "6 分钟",
+      "title": "重新审视MAC作为麻醉静态指标：异氟醚诱导雄性小鼠动态反应的证据",
+      "originalTitle": "Revisiting MAC as a static measure of anaesthesia: evidence for dynamic responses under isoflurane in male mice.",
+      "abstract": "BACKGROUND: The presence of a righting reflex is known to vary over time in an individual at the population half-maximal effective anaesthetic concentration (EC(50)). However, it is unclear whether similar variability occurs for other anaesthetic endpoints at comparable anaesthetic concentrations. We sought to test whether individual responses to a pedal pinch, a strong aversive stimulus, vary over time in individuals at the population EC(50) for stimulus response and to explore the dynamics of individual responses. METHODS: Male mice were exposed to fixed concentrations of isoflurane, and aversive pedal stimulation was repeatedly assessed to determine a population EC(50). In a second cohort of male mice, either righting reflex or pedal pinch was repeatedly assessed at empirically determined population EC(50) values for those stimuli (0.6 vol% and 0.95 vol%, respectively) over multiple anaesthetic exposures. Stochasticity of responses was determined by evaluating if response dwell times correspond to exponential distributions. The presence of resistance to state transitions (RST) in responses was tested by simulation of response data using a process lacking any RST, comparing real data with the simulated data. RESULTS: Like a righting reflex, at a population EC(50) for response to an aversive stimulus, individual mice switch between responsive and unresponsive states. These responses are stochastic and display resistance to state transitions. Neither individual sensitivity nor RST for righting reflex at population EC(50) (0.6 vol% isoflurane) was predictive of sensitivity or RST for aversive stimulus response at its population EC(50) (0.95 vol% isoflurane). CONCLUSIONS: Similar to the righting reflex, responses to an aversive stimulus change stochastically in individuals at population EC(50) but differ from the dynamics seen with a righting reflex such that sensitivity and resistance to state transition are dependent on the test and vary independently between test modalities within an individual.",
+      "authors": "Mandel A, Soohoo J, Deitelzweig C, Patkar I, Han D, Farag M, McKinstry-Wu A",
+      "citation": "Br J Anaesth. 2026 Aug;137(2):535-544. doi: 10.1016/j.bja.2026.02.045. Epub 2026 Apr 30.",
+      "doi": "10.1016/j.bja.2026.02.045",
+      "pmid": "42062153",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "meshTerms": [
+        "Animals",
+        "*Isoflurane/pharmacology/administration & dosage",
+        "Male",
+        "*Anesthetics, Inhalation/pharmacology/administration & dosage",
+        "Mice",
+        "*Reflex, Righting/drug effects",
+        "Dose-Response Relationship, Drug",
+        "Mice, Inbred C57BL",
+        "Physical Stimulation"
+      ],
+      "publisher": "Elsevier BV",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "basic",
+        "label": "基础研究"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 1
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.8,
+        "metricYear": 2022,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+        "verifiedAt": "2026-07-23",
+        "matchedJournal": "British Journal of Anaesthesia"
+      },
+      "tags": [
+        "基础研究",
+        "麻醉及围术期核心期刊",
+        "麻醉基础研究",
+        "Journal Article"
+      ],
+      "question": "该研究挑战了MAC作为静态指标的传统观念，揭示麻醉深度存在随机动态变化，且不同终点的个体差异相互独立，提示麻醉监测可能需要多模态动态评估。",
+      "conclusion": "在群体EC50浓度下，雄性小鼠对伤害性刺激的反应与翻正反射类似，均表现出随机切换和状态转换抵抗，但两种测试的个体敏感性和状态转换抵抗相互独立，不能互相预测。",
+      "clinical": "麻醉深度监测应考虑到不同反射终点的个体动态差异，单一MAC值可能不足以反映麻醉状态。 临床实践中，麻醉管理可能需要结合多种指标进行实时评估，而非依赖静态阈值。",
+      "evidence": "中等",
+      "score": 47,
+      "scoreBreakdown": {
+        "relevance": 13,
         "evidenceQuality": 8,
         "clinicalImpact": 7,
         "journalQuality": 15,
@@ -672,52 +672,49 @@
       "study": [
         {
           "label": "研究设计",
-          "value": "观察性研究：在大鼠右半球植入32通道柔性电极阵列，记录硬膜下皮层电图，在不同地氟烷浓度下分析皮层状态及其动态。"
+          "value": "实验性研究：第一部分确定群体EC50；第二部分在多个麻醉暴露周期中重复评估翻正反射或足趾夹反应，分析反应随机性及状态转换抵抗。"
         },
         {
           "label": "研究对象与样本",
-          "value": "8 adult male Sprague-Dawley rats (7–9 weeks old, 300–350 g)；8 rats (14 experiments)"
+          "value": "male mice；当前可获取内容未提供该数据。"
         },
         {
           "label": "干预与比较",
-          "value": "Desflurane anesthesia at 6%, 4%, 2%, 0% concentrations, each maintained for 1 h；对照：当前可获取内容未提供该数据。"
+          "value": "fixed concentrations of isoflurane；对照：未提供对照组信息。"
         },
         {
           "label": "主要终点",
-          "value": "Cortical states identified by principal component analysis and density-based clustering of power spectrograms"
+          "value": "response to aversive pedal pinch at population EC50"
         }
       ],
       "keyPoints": [
-        "地氟烷麻醉下大鼠皮层活动呈现多个离散状态，其中6个状态随麻醉深度变化。",
-        "存在一个悖论性状态（第7状态），在深麻醉时δ功率降低、复杂度升高。",
-        "皮层状态自发转换平均每2分钟一次，转换模式非随机。",
-        "从深麻醉向浅麻醉的转换趋势与麻醉苏醒一致。"
+        "在群体EC50浓度下，个体小鼠对伤害性刺激的反应存在随机状态切换，并具有状态转换抵抗。",
+        "翻正反射和伤害性刺激反应的个体动态参数相互独立，不能互相预测。",
+        "该结果提示MAC作为麻醉静态指标存在局限性，麻醉深度具有动态特性。"
       ],
-      "methods": "全身麻醉如何改变皮层电活动的动态特性对于理解无意识的神经机制至关重要。局部皮层活动在恒定麻醉浓度下会发生自发转换，但大规模皮层电活动中状态转换的空间组织和时间动态尚不完全清楚。",
-      "results": "共8只大鼠（14次实验）纳入分析。皮层活动被组织为一组离散状态，其中6个状态表现为δ功率增加和复杂度降低，大致追踪麻醉深度。第7个状态偏离这一趋势，在深麻醉期间表现出δ功率降低（P < 0.001）和复杂度升高（P < 0.001）。皮层自发状态转换平均每2分钟一次（平均停留时间136.55秒），遵循结构化的非随机动态，主要在浅麻醉或深麻醉状态内转换（错误发现率校正后P < 0.05），并有从深麻醉向浅麻醉转换的轻微趋势（P = 0.0039）。",
+      "methods": "翻正反射在群体半数有效麻醉浓度（EC50）下个体内随时间变化，但其他麻醉终点是否也存在类似变化尚不清楚。本研究旨在检验个体对强伤害性刺激（足趾夹）的反应是否在群体EC50下随时间变化，并探索个体反应动态。",
+      "results": "当前可获取内容未提供该数据。样本量未报告。主要结果为：在群体EC50下，个体小鼠对伤害性刺激的反应在“有反应”和“无反应”之间随机切换，并表现出状态转换抵抗（RST）。翻正反射的个体敏感性和RST（0.6 vol%异氟醚）不能预测伤害性刺激反应的敏感性和RST（0.95 vol%异氟醚）。未报告效应量、95%置信区间和P值。",
       "limitations": [
-        "缺乏行为监测，无法排除在2%和0%地氟烷浓度下可能发生的自然睡眠。",
-        "复杂度量化基于自发性皮层电活动，未使用外部扰动。",
-        "半球皮层电图记录捕捉的是全局而非局部网络动态。",
-        "尚不清楚这些发现是否能推广到其他物种和麻醉药物。"
+        "该研究仅为动物实验（雄性小鼠），无法直接外推至人类。",
+        "当前可获取内容未提供该数据：未明确报告样本量、效应量及统计学显著性指标。",
+        "仅测试了异氟醚一种麻醉药，其他麻醉药是否类似未知。"
       ],
       "practice": [
-        "麻醉深度监测可能需要考虑皮层状态的动态变化，而非仅依赖单一指标。",
-        "深麻醉下出现的悖论性激活状态可能影响麻醉恢复过程。",
-        "自发状态转换的规律性可为麻醉管理策略提供参考。"
+        "麻醉深度监测应考虑到不同反射终点的个体动态差异，单一MAC值可能不足以反映麻醉状态。",
+        "临床实践中，麻醉管理可能需要结合多种指标进行实时评估，而非依赖静态阈值。"
       ],
-      "editor": "研究设计严谨，使用多种分析方法（主成分分析、密度聚类、Lempel-Ziv算法）识别皮层状态并量化其动态，统计方法适当（错误发现率校正）。 过度解读风险：低风险：结论基于观察性数据，未过度推断因果关系，且明确指出了局限性。",
-      "whyItMatters": "该研究揭示了麻醉药物浓度与皮层活动之间并非简单线性关系，存在自发动态变化，包括深麻醉下的悖论性激活状态，这有助于理解麻醉诱导的无意识机制，并为麻醉监测和恢复策略提供新视角。",
-      "background": "全身麻醉如何改变皮层电活动的动态特性对于理解无意识的神经机制至关重要。局部皮层活动在恒定麻醉浓度下会发生自发转换，但大规模皮层电活动中状态转换的空间组织和时间动态尚不完全清楚。",
+      "editor": "研究设计合理，重复测量并采用模拟验证随机性和状态转换抵抗，支持结论的可靠性。 过度解读风险：中等：结论基于动物实验，且未报告效应量和P值，需谨慎外推至临床；但观察性关联描述准确，未因果化表述。",
+      "whyItMatters": "该研究挑战了MAC作为静态指标的传统观念，揭示麻醉深度存在随机动态变化，且不同终点的个体差异相互独立，提示麻醉监测可能需要多模态动态评估。",
+      "background": "翻正反射在群体半数有效麻醉浓度（EC50）下个体内随时间变化，但其他麻醉终点是否也存在类似变化尚不清楚。本研究旨在检验个体对强伤害性刺激（足趾夹）的反应是否在群体EC50下随时间变化，并探索个体反应动态。",
       "pico": {
-        "population": "8 adult male Sprague-Dawley rats (7–9 weeks old, 300–350 g)",
-        "intervention": "Desflurane anesthesia at 6%, 4%, 2%, 0% concentrations, each maintained for 1 h",
-        "comparison": "当前可获取内容未提供该数据。",
-        "outcome": "Cortical states identified by principal component analysis and density-based clustering of power spectrograms"
+        "population": "male mice",
+        "intervention": "fixed concentrations of isoflurane",
+        "comparison": "未提供对照组信息。",
+        "outcome": "response to aversive pedal pinch at population EC50"
       },
-      "studyType": "观察性研究：在大鼠右半球植入32通道柔性电极阵列，记录硬膜下皮层电图，在不同地氟烷浓度下分析皮层状态及其动态。",
-      "sampleSize": "8 rats (14 experiments)",
-      "primaryOutcome": "Cortical states identified by principal component analysis and density-based clustering of power spectrograms",
+      "studyType": "实验性研究：第一部分确定群体EC50；第二部分在多个麻醉暴露周期中重复评估翻正反射或足趾夹反应，分析反应随机性及状态转换抵抗。",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "response to aversive pedal pinch at population EC50",
       "effectSize": [
         "当前可获取内容未提供该数据。"
       ],
@@ -725,26 +722,23 @@
         "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "P < 0.001 (delta power reduction in state 7)",
-        "P < 0.001 (complexity elevation in state 7)",
-        "false discovery rate-corrected P < 0.05 (structured transitions)",
-        "P = 0.0039 (tendency to transition from deep to light states)"
+        "当前可获取内容未提供该数据。"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "研究设计严谨，使用多种分析方法（主成分分析、密度聚类、Lempel-Ziv算法）识别皮层状态并量化其动态，统计方法适当（错误发现率校正）。",
-        "overinterpretationRisk": "低风险：结论基于观察性数据，未过度推断因果关系，且明确指出了局限性。"
+        "support": "研究设计合理，重复测量并采用模拟验证随机性和状态转换抵抗，支持结论的可靠性。",
+        "overinterpretationRisk": "中等：结论基于动物实验，且未报告效应量和P值，需谨慎外推至临床；但观察性关联描述准确，未因果化表述。"
       },
-      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
       "aiModel": "deepseek-v4-flash",
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41950403/",
-        "doi": "https://doi.org/10.1097/aln.0000000000006088",
-        "publisher": "https://doi.org/10.1097/aln.0000000000006088",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13175308/"
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42062153/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.02.045",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.02.045",
+        "openFullText": null
       }
     }
   ]

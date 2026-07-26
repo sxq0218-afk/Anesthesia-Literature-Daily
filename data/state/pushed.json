@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-24T03:58:25.950Z",
+  "updatedAt": "2026-07-26T12:02:44.474Z",
   "records": [
     {
       "pmid": "42359695",
@@ -161,6 +161,46 @@
       "status": "published",
       "runId": "2026-07-24T03-58-25.950Z",
       "firstPublishedAt": "2026-07-24T03:58:25.950Z"
+    },
+    {
+      "pmid": "42497582",
+      "doi": "10.1016/j.jclinane.2026.112282",
+      "title": "Associations between blood cholin-esterase activity and postoperative basal forebrain cholinergic system atrophy: A secondary analysis of the BioCog cohort with exploration of potential mechanisms.",
+      "status": "published",
+      "runId": "2026-07-26T12-02-44.474Z",
+      "firstPublishedAt": "2026-07-26T12:02:44.474Z"
+    },
+    {
+      "pmid": "42464898",
+      "doi": "10.1111/anae.70290",
+      "title": "Remimazolam vs. propofol anaesthesia for delirium in older patients recovering from lung resections: a randomised non-inferiority trial.",
+      "status": "published",
+      "runId": "2026-07-26T12-02-44.474Z",
+      "firstPublishedAt": "2026-07-26T12:02:44.474Z"
+    },
+    {
+      "pmid": "42461090",
+      "doi": "10.1097/aln.0000000000006238",
+      "title": "Greenhouse gas emissions of sevoflurane outweigh those of carrier gas and CO2 absorbers across the fresh gas flow spectrum.",
+      "status": "published",
+      "runId": "2026-07-26T12-02-44.474Z",
+      "firstPublishedAt": "2026-07-26T12:02:44.474Z"
+    },
+    {
+      "pmid": "42485129",
+      "doi": "10.1213/ane.0000000000008154",
+      "title": "Trends and Variations in Tracheal Intubation for Acute Respiration Failure in Critically Ill Patients in the United States.",
+      "status": "published",
+      "runId": "2026-07-26T12-02-44.474Z",
+      "firstPublishedAt": "2026-07-26T12:02:44.474Z"
+    },
+    {
+      "pmid": "42062153",
+      "doi": "10.1016/j.bja.2026.02.045",
+      "title": "Revisiting MAC as a static measure of anaesthesia: evidence for dynamic responses under isoflurane in male mice.",
+      "status": "published",
+      "runId": "2026-07-26T12-02-44.474Z",
+      "firstPublishedAt": "2026-07-26T12:02:44.474Z"
     }
   ]
 }

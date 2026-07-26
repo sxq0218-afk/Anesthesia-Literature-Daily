@@ -1,7 +1,730 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T03:58:25.950Z",
+  "updatedAt": "2026-07-26T12:02:44.474Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-26T12:02:44.474Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-01-27T12:02:44.474Z",
+        "to": "2026-07-26T12:02:44.474Z",
+        "candidateCount": 120,
+        "unseenCount": 110,
+        "duplicateCount": 10,
+        "priorityCandidateCount": 519,
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 110,
+          "eligibleCount": 37,
+          "excludedCount": 73,
+          "excludedByReason": {
+            "impact-factor-unknown": 5,
+            "below-or-equal-threshold": 9,
+            "journal-not-configured": 59
+          }
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "priorityJournalTarget": 3,
+          "priorityJournalFirst": true,
+          "expandForCompositionShortfall": true,
+          "allowBackfill": true
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-v4-flash",
+        "usage": {
+          "calls": 15,
+          "promptTokens": 19964,
+          "completionTokens": 17234,
+          "totalTokens": 37198
+        }
+      },
+      "articles": [
+        {
+          "slug": "pmid-42497582",
+          "number": "01",
+          "category": "老年围术期",
+          "journal": "Journal of clinical anesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-24",
+          "electronicPublicationDate": "2026-07-24",
+          "readingTime": "7 分钟",
+          "title": "血胆碱酯酶活性与术后基底前脑胆碱能系统萎缩的关联：BioCog队列的二次分析及潜在机制探讨",
+          "originalTitle": "Associations between blood cholin-esterase activity and postoperative basal forebrain cholinergic system atrophy: A secondary analysis of the BioCog cohort with exploration of potential mechanisms.",
+          "authors": "Lammers-Lietz F, Heinrich M, Kappert K, Winterer G, Spies C, Muller A",
+          "citation": "J Clin Anesth. 2026 Jul 24;114:112282. doi: 10.1016/j.jclinane.2026.112282.",
+          "doi": "10.1016/j.jclinane.2026.112282",
+          "pmid": "42497582",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 6.7,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Journal of Clinical Anesthesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "老年围术期",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "首次探讨了围术期胆碱酯酶活性变化与术后胆碱能核团萎缩的关系，为理解术后认知障碍的神经生物学机制提供新线索。",
+          "conclusion": "术后低丁酰胆碱酯酶（BuChE）活性与术后基底前脑NBM体积萎缩相关，但此关联与术后谵妄或认知功能障碍无关。",
+          "clinical": "围术期BuChE活性降低可能与术后胆碱能核团萎缩有关，提示麻醉管理需关注胆碱能系统的保护。 七氟烷麻醉时长与BuChE抑制及NBM萎缩的关联，提示需进一步研究吸入麻醉药的潜在神经毒性。",
+          "evidence": "中等",
+          "score": 56,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "BioCog队列研究的二次分析，前瞻性观察性研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "cognitively healthy (MMSE≥24) patients ≥65 years undergoing elective surgery；170"
+            },
+            {
+              "label": "干预与比较",
+              "value": "围术期血胆碱酯酶活性（BuChE）变化；对照：未设对照组，为队列内暴露-结局关联分析"
+            },
+            {
+              "label": "主要终点",
+              "value": "postoperative NBM atrophy (baseline-adjusted NBM volume)"
+            }
+          ],
+          "keyPoints": [
+            "术后BuChE活性下降与NBM体积缩小呈统计学显著关联。",
+            "该关联主要由围术期BuChE变化驱动，而非术前水平。",
+            "未发现BuChE活性或NBM萎缩与术后谵妄或认知功能障碍的关系。",
+            "术后炎症与BuChE抑制有关，但与NBM萎缩无关。",
+            "七氟烷麻醉时长与BuChE抑制及NBM萎缩相关。"
+          ],
+          "methods": "胆碱能系统的结构与功能代谢密切相关。神经退行性疾病中已观察到胆碱能神经传递与胆碱能核团（如Meynert基底核，NBM）萎缩之间的关联。麻醉期间ChE活性的改变可能损害胆碱能神经传递，进而导致围术期认知障碍。本研究旨在评估围术期ChE活性与术后NBM萎缩的潜在关联及其对术后谵妄（POD）和认知功能障碍（POCD）的作用，并探讨术后炎症、肝损伤及麻醉药毒性的可能贡献。",
+          "results": "纳入170例患者。术后BuChE活性越低，基线校正后NBM体积越小（B [95% CI]: 0.0141 [0.0055; 0.0227] mm³/U/L），该关联主要由围术期BuChE活性的变化驱动（B [95% CI]: 0.0205 [0.0088; 0.0321] mm³/U/L），而非术前活性（B [95% CI]: 0.0109 [0.0014; 0.0203] mm³/U/L）。未观察到BuChE活性、NBM萎缩与POD或POCD之间的关系。术后炎症反应与BuChE抑制相关，但与NBM萎缩无关。在七氟烷维持麻醉的患者中，手术时长与BuChE抑制及NBM萎缩显著相关。P值未提供。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。",
+            "二次分析，非随机对照，不能推断因果关系。",
+            "样本量可能不足以检测临床结局（POD/POCD）的关联。"
+          ],
+          "practice": [
+            "围术期BuChE活性降低可能与术后胆碱能核团萎缩有关，提示麻醉管理需关注胆碱能系统的保护。",
+            "七氟烷麻醉时长与BuChE抑制及NBM萎缩的关联，提示需进一步研究吸入麻醉药的潜在神经毒性。"
+          ],
+          "editor": "结果基于前瞻性队列数据，多变量模型校正了年龄、性别、MMSE及术前NBM体积，但缺乏P值及因果推断证据。 过度解读风险：中等。作者提及“潜在神经毒性”，但关联性分析不能推导因果，且临床结局（POD/POCD）无显著关联，需避免过度解读。",
+          "whyItMatters": "首次探讨了围术期胆碱酯酶活性变化与术后胆碱能核团萎缩的关系，为理解术后认知障碍的神经生物学机制提供新线索。",
+          "background": "胆碱能系统的结构与功能代谢密切相关。神经退行性疾病中已观察到胆碱能神经传递与胆碱能核团（如Meynert基底核，NBM）萎缩之间的关联。麻醉期间ChE活性的改变可能损害胆碱能神经传递，进而导致围术期认知障碍。本研究旨在评估围术期ChE活性与术后NBM萎缩的潜在关联及其对术后谵妄（POD）和认知功能障碍（POCD）的作用，并探讨术后炎症、肝损伤及麻醉药毒性的可能贡献。",
+          "pico": {
+            "population": "cognitively healthy (MMSE≥24) patients ≥65 years undergoing elective surgery",
+            "intervention": "围术期血胆碱酯酶活性（BuChE）变化",
+            "comparison": "未设对照组，为队列内暴露-结局关联分析",
+            "outcome": "postoperative NBM atrophy (baseline-adjusted NBM volume)"
+          },
+          "studyType": "BioCog队列研究的二次分析，前瞻性观察性研究",
+          "sampleSize": "170",
+          "primaryOutcome": "postoperative NBM atrophy (baseline-adjusted NBM volume)",
+          "effectSize": [
+            "0.0141",
+            "0.0205",
+            "0.0109"
+          ],
+          "confidenceInterval": [
+            "[0.0055; 0.0227]",
+            "[0.0088; 0.0321]",
+            "[0.0014; 0.0203]"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "结果基于前瞻性队列数据，多变量模型校正了年龄、性别、MMSE及术前NBM体积，但缺乏P值及因果推断证据。",
+            "overinterpretationRisk": "中等。作者提及“潜在神经毒性”，但关联性分析不能推导因果，且临床结局（POD/POCD）无显著关联，需避免过度解读。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42497582/",
+            "doi": "https://doi.org/10.1016/j.jclinane.2026.112282",
+            "publisher": "https://doi.org/10.1016/j.jclinane.2026.112282",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42464898",
+          "number": "02",
+          "category": "老年围术期",
+          "journal": "Anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-17",
+          "electronicPublicationDate": "2026-07-17",
+          "readingTime": "6 分钟",
+          "title": "瑞马唑仑与丙泊酚麻醉对老年肺切除术后患者谵妄的影响：一项随机非劣效性试验",
+          "originalTitle": "Remimazolam vs. propofol anaesthesia for delirium in older patients recovering from lung resections: a randomised non-inferiority trial.",
+          "authors": "Wang W, Zhang F, Ge Y, Zhang Y, Sessler DI, Wu J, Mu D, Qiu Y",
+          "citation": "Anaesthesia. 2026 Jul 17. doi: 10.1111/anae.70290.",
+          "doi": "10.1111/anae.70290",
+          "pmid": "42464898",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Wiley",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 7.4,
+            "metricYear": 2025,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://associationofanaesthetists-publications.onlinelibrary.wiley.com/journal/13652044",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anaesthesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "老年围术期",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究否定了瑞马唑仑相较于丙泊酚在老年肺切除术后谵妄方面的非劣效性，提示其可能增加谵妄风险，影响老年患者麻醉药物的选择。",
+          "conclusion": "瑞马唑仑在老年肺切除术后谵妄方面未达到非劣效于丙泊酚，且增加了苏醒期谵妄的发生率。",
+          "clinical": "瑞马唑仑在老年肺切除术后谵妄方面不优于丙泊酚，非劣效性未得到证实。 瑞马唑仑增加苏醒期谵妄发生率，需警惕。",
+          "evidence": "中等",
+          "score": 54,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "随机非劣效性试验，非劣效界值为绝对风险差异10%。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Patients aged ≥65 years undergoing lung resection surgery；455 (modified intent-to-treat)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Remimazolam anaesthesia；对照：Propofol anaesthesia"
+            },
+            {
+              "label": "主要终点",
+              "value": "Incidence of postoperative delirium during the initial 3 days after surgery"
+            }
+          ],
+          "keyPoints": [
+            "瑞马唑仑未达到非劣效于丙泊酚的预设界值。",
+            "瑞马唑仑组苏醒期谵妄比例更高（46% vs. 28%）。",
+            "两组在PACU转出后谵妄发生率无差异。"
+          ],
+          "methods": "瑞马唑仑是一种超短效苯二氮䓬类镇静麻醉药。相关药物咪达唑仑与谵妄相关，但瑞马唑仑是否促进谵妄尚不清楚。本研究检验了瑞马唑仑在肺切除术后前3天谵妄方面非劣效于丙泊酚的主要假设。",
+          "results": "改良意向治疗人群455例。瑞马唑仑组谵妄发生率108/227（48%），丙泊酚组71/228（31%），风险比1.53（95%CI 1.21-1.94），绝对风险差异16.5%（95%CI 7.7-25.3%），超过非劣效界值10%，故未建立非劣效性。苏醒期谵妄更常见于瑞马唑仑组（105/227，46% vs. 64/228，28%；风险比1.65，95%CI 1.28-2.12）。PACU转出后谵妄少见且组间相似（9/227，4% vs. 12/228，5%；风险比0.75，95%CI 0.32-1.75）。谵妄阳性评估比例：瑞马唑仑组129/1377（9%）vs.丙泊酚组102/1440（7%）（风险比1.36，95%CI 0.96-1.91）。P值：当前可获取内容未提供该数据。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "瑞马唑仑在老年肺切除术后谵妄方面不优于丙泊酚，非劣效性未得到证实。",
+            "瑞马唑仑增加苏醒期谵妄发生率，需警惕。"
+          ],
+          "editor": "随机对照设计，盲法评估，样本量适中，结果清晰。 过度解读风险：较低，研究结论与数据一致，但需注意非劣效性未达到且结果提示劣效。",
+          "whyItMatters": "该研究否定了瑞马唑仑相较于丙泊酚在老年肺切除术后谵妄方面的非劣效性，提示其可能增加谵妄风险，影响老年患者麻醉药物的选择。",
+          "background": "瑞马唑仑是一种超短效苯二氮䓬类镇静麻醉药。相关药物咪达唑仑与谵妄相关，但瑞马唑仑是否促进谵妄尚不清楚。本研究检验了瑞马唑仑在肺切除术后前3天谵妄方面非劣效于丙泊酚的主要假设。",
+          "pico": {
+            "population": "Patients aged ≥65 years undergoing lung resection surgery",
+            "intervention": "Remimazolam anaesthesia",
+            "comparison": "Propofol anaesthesia",
+            "outcome": "Incidence of postoperative delirium during the initial 3 days after surgery"
+          },
+          "studyType": "随机非劣效性试验，非劣效界值为绝对风险差异10%。",
+          "sampleSize": "455 (modified intent-to-treat)",
+          "primaryOutcome": "Incidence of postoperative delirium during the initial 3 days after surgery",
+          "effectSize": [
+            "1.53",
+            "1.65",
+            "0.75",
+            "1.36"
+          ],
+          "confidenceInterval": [
+            "1.21-1.94",
+            "1.28-2.12",
+            "0.32-1.75",
+            "0.96-1.91"
+          ],
+          "pValue": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "随机对照设计，盲法评估，样本量适中，结果清晰。",
+            "overinterpretationRisk": "较低，研究结论与数据一致，但需注意非劣效性未达到且结果提示劣效。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42464898/",
+            "doi": "https://doi.org/10.1111/anae.70290",
+            "publisher": "https://doi.org/10.1111/anae.70290",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42461090",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-07-14",
+          "electronicPublicationDate": "2026-07-14",
+          "readingTime": "6 分钟",
+          "title": "在整个新鲜气体流量范围内，七氟烷的温室气体排放量超过载气和CO2吸收剂",
+          "originalTitle": "Greenhouse gas emissions of sevoflurane outweigh those of carrier gas and CO2 absorbers across the fresh gas flow spectrum.",
+          "authors": "Jouwena J, De Wolf AM, Hendrickx TJ, Hendrickx JFA",
+          "citation": "Anesthesiology. 2026 Jul 14. doi: 10.1097/ALN.0000000000006238.",
+          "doi": "10.1097/aln.0000000000006238",
+          "pmid": "42461090",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 8.8,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://journals.lww.com/anesthesiology/Documents/2023_12_PGA_AnesthesiologyArticlesYouNeedToKnow.pdf",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "麻醉气体排放对气候变化有显著影响，明确不同成分的相对贡献有助于优化临床实践以减少环境足迹。",
+          "conclusion": "在氧气/空气中输送七氟烷时，载气和CO2吸收剂的CO2当量贡献小于3%，降低新鲜气体流量和呼气末七氟烷浓度是减少七氟烷全球变暖潜力的关键。",
+          "clinical": "降低新鲜气体流量是减少七氟烷温室气体排放的最有效方法 载气和CO2吸收剂的排放贡献很小（<3%） 降低呼气末七氟烷浓度也能减少排放",
+          "evidence": "中等",
+          "score": 54,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性研究，数据来自三项研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "ASA I-III patients receiving constant end-tidal sevoflurane concentration；132"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Fresh gas flows (FGF) 0.2-4 L/min with sevoflurane delivery methods: manual, target controlled, or automated closed-circuit delivery；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "CO2 equivalent (CO2e) emissions of sevoflurane, carrier gases (O2/air), and prepacked CO2 canister"
+            }
+          ],
+          "keyPoints": [
+            "七氟烷的CO2当量排放量是载气和吸收剂的100倍以上",
+            "低新鲜气体流量可以显著降低七氟烷排放",
+            "载气和吸收剂的排放贡献小于3%"
+          ],
+          "methods": "低新鲜气体流量对七氟烷、载气（O2/空气）和预装CO2罐的CO2当量排放的绝对和相对影响尚未被充分量化。本研究量化了麻醉第一个小时内0.2-4 L/min新鲜气体流量范围内的这些因素。",
+          "results": "样本量132例。主要终点为CO2当量排放量。七氟烷CO2当量随新鲜气体流量线性增加（范围2.4-18.6 kg CO2e），但低新鲜气体流量冲洗期除外；载气CO2当量随新鲜气体流量降低而降低（范围0.010-0.124 kg CO2e）；吸收剂CO2当量随新鲜气体流量线性降低（范围0-0.070 kg CO2e）。七氟烷CO2当量比载气和吸收剂CO2当量高两个数量级。效应量、95%置信区间和P值均未提供。",
+          "limitations": [],
+          "practice": [
+            "降低新鲜气体流量是减少七氟烷温室气体排放的最有效方法",
+            "载气和CO2吸收剂的排放贡献很小（<3%）",
+            "降低呼气末七氟烷浓度也能减少排放"
+          ],
+          "editor": "结果与已知知识一致，即七氟烷是主要排放源 过度解读风险：低，因为结论基于定量分析",
+          "whyItMatters": "麻醉气体排放对气候变化有显著影响，明确不同成分的相对贡献有助于优化临床实践以减少环境足迹。",
+          "background": "低新鲜气体流量对七氟烷、载气（O2/空气）和预装CO2罐的CO2当量排放的绝对和相对影响尚未被充分量化。本研究量化了麻醉第一个小时内0.2-4 L/min新鲜气体流量范围内的这些因素。",
+          "pico": {
+            "population": "ASA I-III patients receiving constant end-tidal sevoflurane concentration",
+            "intervention": "Fresh gas flows (FGF) 0.2-4 L/min with sevoflurane delivery methods: manual, target controlled, or automated closed-circuit delivery",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "CO2 equivalent (CO2e) emissions of sevoflurane, carrier gases (O2/air), and prepacked CO2 canister"
+          },
+          "studyType": "观察性研究，数据来自三项研究",
+          "sampleSize": "132",
+          "primaryOutcome": "CO2 equivalent (CO2e) emissions of sevoflurane, carrier gases (O2/air), and prepacked CO2 canister",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "结果与已知知识一致，即七氟烷是主要排放源",
+            "overinterpretationRisk": "低，因为结论基于定量分析"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42461090/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006238",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006238",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42485129",
+          "number": "04",
+          "category": "气道管理",
+          "journal": "Anesthesia and analgesia",
+          "year": "2026",
+          "publishedDate": "2026-07-20",
+          "electronicPublicationDate": "2026-07-20",
+          "readingTime": "7 分钟",
+          "title": "美国危重症患者急性呼吸衰竭气管插管的趋势与变化",
+          "originalTitle": "Trends and Variations in Tracheal Intubation for Acute Respiration Failure in Critically Ill Patients in the United States.",
+          "authors": "Karamchandani K, Iancau A, Rosero EB",
+          "citation": "Anesth Analg. 2026 Jul 20. doi: 10.1213/ANE.0000000000008154.",
+          "doi": "10.1213/ane.0000000000008154",
+          "pmid": "42485129",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 5.9,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anesthesia & Analgesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "Journal Article"
+          ],
+          "question": "当前可获取内容未提供该数据。",
+          "conclusion": "2016年至2019年，美国危重症急性呼吸衰竭患者的气管插管比例下降（23.8%降至19.8%），插管患者死亡率稳定（约31%），而未插管患者死亡率下降（8.1%降至6.6%）。",
+          "clinical": "当前可获取内容未提供该数据。",
+          "evidence": "中等",
+          "score": 51,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性队列研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "adult hospitalizations (2016-2019) for ARF in the United States；2017,349"
+            },
+            {
+              "label": "干预与比较",
+              "value": "tracheal intubation；对照：nonintubated patients"
+            },
+            {
+              "label": "主要终点",
+              "value": "hospital mortality"
+            }
+          ],
+          "keyPoints": [
+            "气管插管比例从2016年的23.8%下降至2019年的19.8%（P<0.0001）",
+            "插管患者死亡率保持稳定（约31%）",
+            "未插管患者死亡率从8.1%降至6.6%",
+            "医院因素解释10.5%的插管率变异",
+            "脓毒症是与插管最相关的患者因素"
+          ],
+          "methods": "急性呼吸衰竭（ARF）是危重症患者气管插管的常见指征。本研究旨在描述ARF患者气管插管的时间趋势和医院差异，识别相关因素，并检查气管插管与医院死亡率的关系。",
+          "results": "共识别2,017,349次ARF住院（全国估计10,086,744次）。其中21.3%需要气管插管。2016年至2019年，ARF病例从1,872,519增至3,194,075，而气管插管比例从23.8%降至19.8%（P<0.0001）。插管患者死亡率保持稳定（2016年30.6% [95% CI 30.2-31.1] vs 2019年31.0% [95% CI 30.5-31.4]），而未插管患者死亡率从8.1%（95% CI 7.9-8.3）降至6.6%（95% CI 6.5-6.8）。插管率的10.5%变异归因于收治医院，脓毒症是与插管最相关的患者因素。",
+          "limitations": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "editor": "原文结果明确支持结论 过度解读风险：观察性研究，不能推断因果关系",
+          "whyItMatters": "当前可获取内容未提供该数据。",
+          "background": "急性呼吸衰竭（ARF）是危重症患者气管插管的常见指征。本研究旨在描述ARF患者气管插管的时间趋势和医院差异，识别相关因素，并检查气管插管与医院死亡率的关系。",
+          "pico": {
+            "population": "adult hospitalizations (2016-2019) for ARF in the United States",
+            "intervention": "tracheal intubation",
+            "comparison": "nonintubated patients",
+            "outcome": "hospital mortality"
+          },
+          "studyType": "观察性队列研究",
+          "sampleSize": "2017,349",
+          "primaryOutcome": "hospital mortality",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "95% CI, 9957,967-10,215,520",
+            "30.6% [95% CI, 30.2-31.1]",
+            "31.0% [95% CI, 30.5-31.4]",
+            "8.1% [95% CI, 7.9-8.3]",
+            "6.6% [95% CI, 6.5-6.8]"
+          ],
+          "pValue": [
+            "P < .0001",
+            "P < 001"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "原文结果明确支持结论",
+            "overinterpretationRisk": "观察性研究，不能推断因果关系"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42485129/",
+            "doi": "https://doi.org/10.1213/ane.0000000000008154",
+            "publisher": "https://doi.org/10.1213/ane.0000000000008154",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42062153",
+          "number": "05",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-04-30",
+          "electronicPublicationDate": "2026-04-30",
+          "readingTime": "6 分钟",
+          "title": "重新审视MAC作为麻醉静态指标：异氟醚诱导雄性小鼠动态反应的证据",
+          "originalTitle": "Revisiting MAC as a static measure of anaesthesia: evidence for dynamic responses under isoflurane in male mice.",
+          "authors": "Mandel A, Soohoo J, Deitelzweig C, Patkar I, Han D, Farag M, McKinstry-Wu A",
+          "citation": "Br J Anaesth. 2026 Aug;137(2):535-544. doi: 10.1016/j.bja.2026.02.045. Epub 2026 Apr 30.",
+          "doi": "10.1016/j.bja.2026.02.045",
+          "pmid": "42062153",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.8,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究挑战了MAC作为静态指标的传统观念，揭示麻醉深度存在随机动态变化，且不同终点的个体差异相互独立，提示麻醉监测可能需要多模态动态评估。",
+          "conclusion": "在群体EC50浓度下，雄性小鼠对伤害性刺激的反应与翻正反射类似，均表现出随机切换和状态转换抵抗，但两种测试的个体敏感性和状态转换抵抗相互独立，不能互相预测。",
+          "clinical": "麻醉深度监测应考虑到不同反射终点的个体动态差异，单一MAC值可能不足以反映麻醉状态。 临床实践中，麻醉管理可能需要结合多种指标进行实时评估，而非依赖静态阈值。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验性研究：第一部分确定群体EC50；第二部分在多个麻醉暴露周期中重复评估翻正反射或足趾夹反应，分析反应随机性及状态转换抵抗。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "male mice；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "fixed concentrations of isoflurane；对照：未提供对照组信息。"
+            },
+            {
+              "label": "主要终点",
+              "value": "response to aversive pedal pinch at population EC50"
+            }
+          ],
+          "keyPoints": [
+            "在群体EC50浓度下，个体小鼠对伤害性刺激的反应存在随机状态切换，并具有状态转换抵抗。",
+            "翻正反射和伤害性刺激反应的个体动态参数相互独立，不能互相预测。",
+            "该结果提示MAC作为麻醉静态指标存在局限性，麻醉深度具有动态特性。"
+          ],
+          "methods": "翻正反射在群体半数有效麻醉浓度（EC50）下个体内随时间变化，但其他麻醉终点是否也存在类似变化尚不清楚。本研究旨在检验个体对强伤害性刺激（足趾夹）的反应是否在群体EC50下随时间变化，并探索个体反应动态。",
+          "results": "当前可获取内容未提供该数据。样本量未报告。主要结果为：在群体EC50下，个体小鼠对伤害性刺激的反应在“有反应”和“无反应”之间随机切换，并表现出状态转换抵抗（RST）。翻正反射的个体敏感性和RST（0.6 vol%异氟醚）不能预测伤害性刺激反应的敏感性和RST（0.95 vol%异氟醚）。未报告效应量、95%置信区间和P值。",
+          "limitations": [
+            "该研究仅为动物实验（雄性小鼠），无法直接外推至人类。",
+            "当前可获取内容未提供该数据：未明确报告样本量、效应量及统计学显著性指标。",
+            "仅测试了异氟醚一种麻醉药，其他麻醉药是否类似未知。"
+          ],
+          "practice": [
+            "麻醉深度监测应考虑到不同反射终点的个体动态差异，单一MAC值可能不足以反映麻醉状态。",
+            "临床实践中，麻醉管理可能需要结合多种指标进行实时评估，而非依赖静态阈值。"
+          ],
+          "editor": "研究设计合理，重复测量并采用模拟验证随机性和状态转换抵抗，支持结论的可靠性。 过度解读风险：中等：结论基于动物实验，且未报告效应量和P值，需谨慎外推至临床；但观察性关联描述准确，未因果化表述。",
+          "whyItMatters": "该研究挑战了MAC作为静态指标的传统观念，揭示麻醉深度存在随机动态变化，且不同终点的个体差异相互独立，提示麻醉监测可能需要多模态动态评估。",
+          "background": "翻正反射在群体半数有效麻醉浓度（EC50）下个体内随时间变化，但其他麻醉终点是否也存在类似变化尚不清楚。本研究旨在检验个体对强伤害性刺激（足趾夹）的反应是否在群体EC50下随时间变化，并探索个体反应动态。",
+          "pico": {
+            "population": "male mice",
+            "intervention": "fixed concentrations of isoflurane",
+            "comparison": "未提供对照组信息。",
+            "outcome": "response to aversive pedal pinch at population EC50"
+          },
+          "studyType": "实验性研究：第一部分确定群体EC50；第二部分在多个麻醉暴露周期中重复评估翻正反射或足趾夹反应，分析反应随机性及状态转换抵抗。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "response to aversive pedal pinch at population EC50",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究设计合理，重复测量并采用模拟验证随机性和状态转换抵抗，支持结论的可靠性。",
+            "overinterpretationRisk": "中等：结论基于动物实验，且未报告效应量和P值，需谨慎外推至临床；但观察性关联描述准确，未因果化表述。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42062153/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.02.045",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.02.045",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-24T03:58:25.950Z",
       "mode": "production",

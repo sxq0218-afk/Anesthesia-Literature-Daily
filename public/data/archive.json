@@ -1,7 +1,91 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T03:58:25.950Z",
+  "updatedAt": "2026-07-26T12:02:44.474Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-26T12:02:44.474Z",
+      "search": {
+        "initialDays": 30,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-01-27T12:02:44.474Z",
+        "to": "2026-07-26T12:02:44.474Z",
+        "candidateCount": 120,
+        "unseenCount": 110,
+        "duplicateCount": 10,
+        "priorityCandidateCount": 519,
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 110,
+          "eligibleCount": 37,
+          "excludedCount": 73,
+          "excludedByReason": {
+            "impact-factor-unknown": 5,
+            "below-or-equal-threshold": 9,
+            "journal-not-configured": 59
+          }
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "priorityJournalTarget": 3,
+          "priorityJournalFirst": true,
+          "expandForCompositionShortfall": true,
+          "allowBackfill": true
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42497582",
+          "title": "血胆碱酯酶活性与术后基底前脑胆碱能系统萎缩的关联：BioCog队列的二次分析及潜在机制探讨",
+          "originalTitle": "Associations between blood cholin-esterase activity and postoperative basal forebrain cholinergic system atrophy: A secondary analysis of the BioCog cohort with exploration of potential mechanisms.",
+          "journal": "Journal of clinical anesthesia",
+          "conclusion": "术后低丁酰胆碱酯酶（BuChE）活性与术后基底前脑NBM体积萎缩相关，但此关联与术后谵妄或认知功能障碍无关。",
+          "pmid": "42497582"
+        },
+        {
+          "slug": "pmid-42464898",
+          "title": "瑞马唑仑与丙泊酚麻醉对老年肺切除术后患者谵妄的影响：一项随机非劣效性试验",
+          "originalTitle": "Remimazolam vs. propofol anaesthesia for delirium in older patients recovering from lung resections: a randomised non-inferiority trial.",
+          "journal": "Anaesthesia",
+          "conclusion": "瑞马唑仑在老年肺切除术后谵妄方面未达到非劣效于丙泊酚，且增加了苏醒期谵妄的发生率。",
+          "pmid": "42464898"
+        },
+        {
+          "slug": "pmid-42461090",
+          "title": "在整个新鲜气体流量范围内，七氟烷的温室气体排放量超过载气和CO2吸收剂",
+          "originalTitle": "Greenhouse gas emissions of sevoflurane outweigh those of carrier gas and CO2 absorbers across the fresh gas flow spectrum.",
+          "journal": "Anesthesiology",
+          "conclusion": "在氧气/空气中输送七氟烷时，载气和CO2吸收剂的CO2当量贡献小于3%，降低新鲜气体流量和呼气末七氟烷浓度是减少七氟烷全球变暖潜力的关键。",
+          "pmid": "42461090"
+        },
+        {
+          "slug": "pmid-42485129",
+          "title": "美国危重症患者急性呼吸衰竭气管插管的趋势与变化",
+          "originalTitle": "Trends and Variations in Tracheal Intubation for Acute Respiration Failure in Critically Ill Patients in the United States.",
+          "journal": "Anesthesia and analgesia",
+          "conclusion": "2016年至2019年，美国危重症急性呼吸衰竭患者的气管插管比例下降（23.8%降至19.8%），插管患者死亡率稳定（约31%），而未插管患者死亡率下降（8.1%降至6.6%）。",
+          "pmid": "42485129"
+        },
+        {
+          "slug": "pmid-42062153",
+          "title": "重新审视MAC作为麻醉静态指标：异氟醚诱导雄性小鼠动态反应的证据",
+          "originalTitle": "Revisiting MAC as a static measure of anaesthesia: evidence for dynamic responses under isoflurane in male mice.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在群体EC50浓度下，雄性小鼠对伤害性刺激的反应与翻正反射类似，均表现出随机切换和状态转换抵抗，但两种测试的个体敏感性和状态转换抵抗相互独立，不能互相预测。",
+          "pmid": "42062153"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-24T03:58:25.950Z",
       "search": {
