@@ -1,7 +1,751 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T12:02:44.474Z",
+  "updatedAt": "2026-07-27T04:30:48.607Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-27T04:30:48.607Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-01-28T04:30:48.607Z",
+        "to": "2026-07-27T04:30:48.607Z",
+        "candidateCount": 120,
+        "unseenCount": 105,
+        "duplicateCount": 15,
+        "priorityCandidateCount": 516,
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 105,
+          "eligibleCount": 32,
+          "excludedCount": 73,
+          "excludedByReason": {
+            "impact-factor-unknown": 5,
+            "below-or-equal-threshold": 9,
+            "journal-not-configured": 59
+          }
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "priorityJournalTarget": 3,
+          "priorityJournalFirst": true,
+          "expandForCompositionShortfall": true,
+          "allowBackfill": true
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 0,
+          "other": 1,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": false
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-v4-flash",
+        "usage": {
+          "calls": 23,
+          "promptTokens": 32337,
+          "completionTokens": 31320,
+          "totalTokens": 63657
+        }
+      },
+      "articles": [
+        {
+          "slug": "pmid-42492373",
+          "number": "01",
+          "category": "麻醉基础研究",
+          "journal": "Journal of clinical anesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-23",
+          "electronicPublicationDate": "2026-07-23",
+          "readingTime": "6 分钟",
+          "title": "术中低剂量静脉艾司氯胺酮用于急性术后疼痛控制的疗效：随机对照试验的Meta分析",
+          "originalTitle": "Efficacy of intraoperative low dose intravenous Esketamine for acute postoperative pain control: Meta-analysis of randomized controlled trials.",
+          "authors": "Majeed E, Rafique I, Inam K, Majeed F",
+          "citation": "J Clin Anesth. 2026 Jul 23;114:112278. doi: 10.1016/j.jclinane.2026.112278.",
+          "doi": "10.1016/j.jclinane.2026.112278",
+          "pmid": "42492373",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "other",
+            "label": "综述/方法/其他"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 6.7,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Journal of Clinical Anesthesia"
+          },
+          "tags": [
+            "综述/方法/其他",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article",
+            "Review"
+          ],
+          "question": "该Meta分析纳入35项RCT、3831例患者，系统评估了术中低剂量艾司氯胺酮对急性术后疼痛的疗效和安全性，为围术期疼痛管理提供了循证依据，提示其可作为辅助用药，但需注意效应量的有限性和现有证据的局限性。",
+          "conclusion": "术中低剂量静脉艾司氯胺酮（<1 mg/kg）可中等程度减轻术后静息痛（4–48小时）和活动痛（12–48小时），减少阿片类药物和补救镇痛需求，并轻微降低丙泊酚用量，但效应幅度和一致性因异质性和研究局限性而不确定，且不良事件无显著差异。",
+          "clinical": "术中低剂量艾司氯胺酮可作为辅助镇痛手段，减少术后阿片类药物和补救镇痛需求。 因其可轻微降低丙泊酚用量，可能有助于优化麻醉用药。 不良事件无明显增加，但证据有限，需在监测下使用。 效应幅度较小且存在异质性，不应视为常规替代方案。",
+          "evidence": "中等",
+          "score": 59,
+          "scoreBreakdown": {
+            "relevance": 17,
+            "evidenceQuality": 12,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价和Meta分析（纳入35项随机对照试验，共3831例患者，其中对照组1663例，艾司氯胺酮组2168例）。文献检索至2025年4月28日，数据采用均值差或风险比及其95%置信区间进行分析。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "接受手术的患者（当前可获取内容未提供该数据。）；3831 patients (1663 control, 2168 esketamine)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Intraoperative low-dose intravenous esketamine (<1 mg/kg)；对照：安慰剂或标准治疗"
+            },
+            {
+              "label": "主要终点",
+              "value": "Acute postoperative pain (pain at rest and pain on movement)"
+            }
+          ],
+          "keyPoints": [
+            "35项RCT、3831例患者的Meta分析。",
+            "术中低剂量艾司氯胺酮（<1 mg/kg）显著减轻术后静息痛和活动痛，但效应幅度较小（MD -0.39至-1.40）。",
+            "减少术后吗啡消耗和补救镇痛需求（RR 0.52）。",
+            "轻微降低丙泊酚用量（-18.47 mg）。",
+            "不良事件无显著差异。"
+          ],
+          "methods": "术中低剂量静脉艾司氯胺酮用于预防急性术后疼痛的疗效尚存争议，本系统评价和Meta分析旨在通过汇总随机对照试验，评估其对于术后疼痛、阿片消耗、不良事件及麻醉需求的影响。",
+          "results": "低剂量艾司氯胺酮显著降低术后4小时（MD -1.40, p<0.0001）、12小时（MD -0.84, p<0.0001）、24小时（MD -0.54, p<0.0001）和48小时（MD -0.39, p=0.0014）的静息痛；降低术后12小时（MD -0.62, p=0.0111）、24小时（MD -0.63, p=0.0003）和48小时（MD -0.40, 95% CI -0.74至-0.06, p=0.0212, I²=75.5%）的活动痛。减少术后4、24和48小时的吗啡消耗量（12小时无显著差异）；降低补救镇痛需求（RR 0.52, p=0.0001）；轻微减少术中丙泊酚用量（-18.47 mg, p=0.0047）。未发现剂量-反应关系（p=0.0571）。不良事件（恶心、躁动、头晕、幻觉）组间无显著差异。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "原始研究存在异质性和方法学局限。",
+            "不良事件证据有限，安全性结论尚不充分。"
+          ],
+          "practice": [
+            "术中低剂量艾司氯胺酮可作为辅助镇痛手段，减少术后阿片类药物和补救镇痛需求。",
+            "因其可轻微降低丙泊酚用量，可能有助于优化麻醉用药。",
+            "不良事件无明显增加，但证据有限，需在监测下使用。",
+            "效应幅度较小且存在异质性，不应视为常规替代方案。"
+          ],
+          "editor": "该Meta分析系统检索了多个数据库，纳入35项RCT，样本量较大，统计分析严谨，结论基本可靠。 过度解读风险：原文结论强调了效应量的不确定性和异质性，未过度推论因果关系或临床获益，风险较低。",
+          "whyItMatters": "该Meta分析纳入35项RCT、3831例患者，系统评估了术中低剂量艾司氯胺酮对急性术后疼痛的疗效和安全性，为围术期疼痛管理提供了循证依据，提示其可作为辅助用药，但需注意效应量的有限性和现有证据的局限性。",
+          "background": "术中低剂量静脉艾司氯胺酮用于预防急性术后疼痛的疗效尚存争议，本系统评价和Meta分析旨在通过汇总随机对照试验，评估其对于术后疼痛、阿片消耗、不良事件及麻醉需求的影响。",
+          "pico": {
+            "population": "接受手术的患者（当前可获取内容未提供该数据。）",
+            "intervention": "Intraoperative low-dose intravenous esketamine (<1 mg/kg)",
+            "comparison": "安慰剂或标准治疗",
+            "outcome": "Acute postoperative pain (pain at rest and pain on movement)"
+          },
+          "studyType": "系统评价和Meta分析（纳入35项随机对照试验，共3831例患者，其中对照组1663例，艾司氯胺酮组2168例）。文献检索至2025年4月28日，数据采用均值差或风险比及其95%置信区间进行分析。",
+          "sampleSize": "3831 patients (1663 control, 2168 esketamine)",
+          "primaryOutcome": "Acute postoperative pain (pain at rest and pain on movement)",
+          "effectSize": [
+            "MD -1.40",
+            "MD -0.84",
+            "MD -0.54",
+            "MD -0.39",
+            "MD -0.62",
+            "MD -0.63",
+            "MD -0.40",
+            "RR 0.52",
+            "-18.47 mg"
+          ],
+          "confidenceInterval": [
+            "95% CI -0.74 to -0.06"
+          ],
+          "pValue": [
+            "p < 0.0001",
+            "p = 0.0014",
+            "p = 0.0111",
+            "p = 0.0003",
+            "p = 0.0212",
+            "p = 0.0001",
+            "p = 0.0047",
+            "p = 0.0571"
+          ],
+          "adverseEvents": "No significant differences in overall or individual adverse events (nausea, agitation, dizziness, hallucinations) were observed between groups.",
+          "aiAssessment": {
+            "support": "该Meta分析系统检索了多个数据库，纳入35项RCT，样本量较大，统计分析严谨，结论基本可靠。",
+            "overinterpretationRisk": "原文结论强调了效应量的不确定性和异质性，未过度推论因果关系或临床获益，风险较低。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42492373/",
+            "doi": "https://doi.org/10.1016/j.jclinane.2026.112278",
+            "publisher": "https://doi.org/10.1016/j.jclinane.2026.112278",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42485127",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "Anesthesia and analgesia",
+          "year": "2026",
+          "publishedDate": "2026-07-20",
+          "electronicPublicationDate": "2026-07-20",
+          "readingTime": "8 分钟",
+          "title": "让手术安全核对表更安全：在切皮前使用团队暂停核对表改善信息交换和跨专业沟通",
+          "originalTitle": "Making the Surgical Safety Checklist Even Safer: A Team Timeout Checklist to Improve Information Exchange and Interprofessional Communication Before Skin Incision.",
+          "authors": "Weiss M, Reimer C, Budnitskiy A, Kleber C, Stehr SN, Piegeler T",
+          "citation": "Anesth Analg. 2026 Jul 20. doi: 10.1213/ANE.0000000000008224.",
+          "doi": "10.1213/ane.0000000000008224",
+          "pmid": "42485127",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 5.9,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anesthesia & Analgesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "手术安全核对表的使用常存在执行变异，TTOC通过明确条目和护士主导提高了信息交换的完整性，可能降低沟通失误风险，但需进一步研究确认其对患者预后的改善作用。",
+          "conclusion": "本前瞻性前后干预研究显示，由护士主导的16项团队暂停核对表（TTOC）显著提高了切皮前安全关键信息的交换率（从62.5%升至100%），促进了闭环沟通，并增强了除主刀医生外各专业群体的参与度，但尚未评估对临床结局的影响。",
+          "clinical": "TTOC提高了麻醉医生在核对过程中的参与率，但主刀医生参与未显著改善，提示需额外策略促进外科领导参与。 闭环沟通的增加可能减少信息遗漏，对术中麻醉管理有潜在益处。 研究未评估对临床结局（如并发症、死亡率）的影响，因此麻醉医生应审慎解读，避免过度推断临床获益。",
+          "evidence": "中等",
+          "score": 51,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性前后干预研究，在手术室中进行现场观察并实时编码团队沟通。先观察未使用TTOC的术前阶段（前干预期），随后观察实施TTOC后的阶段（后干预期）。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "surgical teams (circulating nurses, scrub nurses, surgical residents, anesthesia, lead surgeons)；155 teams (78 pre-intervention, 77 post-intervention)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "16-item team timeout checklist (TTOC) led by nurses；对照：standard World Health Organization surgical safety checklist (WHO SSC) without TTOC"
+            },
+            {
+              "label": "主要终点",
+              "value": "information exchange of checklist items (percentage of 16 items verbally communicated)"
+            }
+          ],
+          "keyPoints": [
+            "护士主导的16项TTOC将切皮前信息交换率从62.5%提升至100%。",
+            "15/16项目的沟通几率显著增加（OR 10.8-1896，95% CI均排除1）。",
+            "除主刀医生外，各专业群体参与率均有提高。",
+            "闭环沟通频率显著增加（20.4 vs 16.4次/手术，P=0.004）。",
+            "研究未评估对患者预后的影响，需进一步研究验证。"
+          ],
+          "methods": "世界卫生组织手术安全核对表（WHO SSC）为术前安全程序提供了标准化框架，但研究显示其遵循率存在显著变异，条目被跳过或误解，护士参与度低于其他手术室专业群体。为此，研究者设计了一份16项团队暂停核对表（TTOC），在原有WHO SSC切皮前暂停环节基础上澄清并增加了安全关键条目，由护士主导，旨在改善信息交换、闭环沟通并鼓励所有专业群体参与。",
+          "results": "共观察155个手术团队（前干预78队，后干预77队），记录了13,127个编码沟通事件。信息交换中位数从前干预期的62.5%（IQR 50-68.8）增至后干预期的100%（IQR 100-100）（P<0.001）。16项子条目中15项的信息交换几率在TTOC实施后显著升高（OR范围10.8-1896，所有95% CI均排除1）。巡回护士、洗手护士、外科住院医师和麻醉医生的参与率均增加（均P<0.05），但主刀医生的参与率无显著变化。每台手术闭环沟通模式均值在TTOC组为20.4（SD 10.7），对照组为16.4（SD 7.24），P=0.004。",
+          "limitations": [
+            "单中心前后设计，可能存在时间混杂因素和霍桑效应。",
+            "未盲法观察者，可能引入观察偏倚。",
+            "未报告不良事件或临床结局，无法确定TTOC对患者预后的直接改善作用。",
+            "主刀医生参与率未显著提高，可能是沟通改善的瓶颈。"
+          ],
+          "practice": [
+            "TTOC提高了麻醉医生在核对过程中的参与率，但主刀医生参与未显著改善，提示需额外策略促进外科领导参与。",
+            "闭环沟通的增加可能减少信息遗漏，对术中麻醉管理有潜在益处。",
+            "研究未评估对临床结局（如并发症、死亡率）的影响，因此麻醉医生应审慎解读，避免过度推断临床获益。"
+          ],
+          "editor": "该研究提供了中等至强有力的证据，表明护士主导的TTOC可显著改善手术团队信息交换和沟通质量，但缺乏随机对照和临床结局终点。 过度解读风险：中等。作者结论强调了TTOC的优势，但未提及对主刀医生参与无改善的局限性，且未报告临床获益。读者应避免将沟通改善直接等同于患者安全改善。",
+          "whyItMatters": "手术安全核对表的使用常存在执行变异，TTOC通过明确条目和护士主导提高了信息交换的完整性，可能降低沟通失误风险，但需进一步研究确认其对患者预后的改善作用。",
+          "background": "世界卫生组织手术安全核对表（WHO SSC）为术前安全程序提供了标准化框架，但研究显示其遵循率存在显著变异，条目被跳过或误解，护士参与度低于其他手术室专业群体。为此，研究者设计了一份16项团队暂停核对表（TTOC），在原有WHO SSC切皮前暂停环节基础上澄清并增加了安全关键条目，由护士主导，旨在改善信息交换、闭环沟通并鼓励所有专业群体参与。",
+          "pico": {
+            "population": "surgical teams (circulating nurses, scrub nurses, surgical residents, anesthesia, lead surgeons)",
+            "intervention": "16-item team timeout checklist (TTOC) led by nurses",
+            "comparison": "standard World Health Organization surgical safety checklist (WHO SSC) without TTOC",
+            "outcome": "information exchange of checklist items (percentage of 16 items verbally communicated)"
+          },
+          "studyType": "前瞻性前后干预研究，在手术室中进行现场观察并实时编码团队沟通。先观察未使用TTOC的术前阶段（前干预期），随后观察实施TTOC后的阶段（后干预期）。",
+          "sampleSize": "155 teams (78 pre-intervention, 77 post-intervention)",
+          "primaryOutcome": "information exchange of checklist items (percentage of 16 items verbally communicated)",
+          "effectSize": [
+            "OR range 10.8–1896 for 15 subitems"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "<0.001",
+            "<0.05",
+            "0.004"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究提供了中等至强有力的证据，表明护士主导的TTOC可显著改善手术团队信息交换和沟通质量，但缺乏随机对照和临床结局终点。",
+            "overinterpretationRisk": "中等。作者结论强调了TTOC的优势，但未提及对主刀医生参与无改善的局限性，且未报告临床获益。读者应避免将沟通改善直接等同于患者安全改善。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42485127/",
+            "doi": "https://doi.org/10.1213/ane.0000000000008224",
+            "publisher": "https://doi.org/10.1213/ane.0000000000008224",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42501528",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Journal of clinical anesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-25",
+          "electronicPublicationDate": "2026-07-25",
+          "readingTime": "6 分钟",
+          "title": "经鼻湿化快速吹入通气交换（THRIVE）对肥胖患者控制性呼吸暂停期间肺容量动态的生理影响：一项随机对照试验",
+          "originalTitle": "Physiological effects of trans-nasal humidified rapid insufflation ventilatory exchange (THRIVE) on lung volume dynamics during controlled apnea in patients with obesity: a randomized controlled trial.",
+          "authors": "Tanaka S, Chaki T, Tachibana S, Goto Y, Shimada T, Yamakage M",
+          "citation": "J Clin Anesth. 2026 Jul 25;114:112283. doi: 10.1016/j.jclinane.2026.112283.",
+          "doi": "10.1016/j.jclinane.2026.112283",
+          "pmid": "42501528",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 6.7,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Journal of Clinical Anesthesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "肥胖患者全麻诱导时易发生快速氧饱和度下降，本研究揭示了THRIVE改善氧合的潜在机制，为临床优化呼吸暂停氧合策略提供了依据。",
+          "conclusion": "在肥胖患者中，与面罩氧合相比，THRIVE在早期呼吸暂停期间通过减缓呼气末肺容量下降速度，短暂地保留了肺容量，中位安全呼吸暂停时间从319秒延长至600秒。",
+          "clinical": "THRIVE可作为肥胖患者全麻诱导期间延长安全呼吸暂停时间的有效氧合方式。 THRIVE通过减缓呼气末肺容量下降来改善氧合，可能有助于减少诱导期低氧血症风险。 在需要较长呼吸暂停时间的操作（如气道管理）中，THRIVE可能提供更长的安全时间窗。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "单中心随机对照试验，共纳入32例患者，使用电阻抗断层扫描评估呼气末肺阻抗变化（ΔEELI）作为肺容量的替代指标。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adults with body mass index ≥35 kg/m² undergoing elective surgery；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Transnasal humidified rapid insufflation ventilatory exchange (THRIVE) during apnea；对照：Facemask oxygen following induction of general anesthesia"
+            },
+            {
+              "label": "主要终点",
+              "value": "Mean global DeltaEELI during an early apneic window (2-6 min)"
+            }
+          ],
+          "keyPoints": [
+            "THRIVE在早期呼吸暂停期间显著保留了肺容量，平均全局ΔEELI平均差0.67（95% CI 0.55-0.80）。",
+            "THRIVE组中位安全呼吸暂停时间600秒，面罩组319秒。",
+            "THRIVE主要保留中腹侧和中背侧区域肺容量。",
+            "本研究为肥胖患者全麻诱导提供了生理学依据。"
+          ],
+          "methods": "肥胖患者因功能残气量减少和肺不张形成，在全麻诱导期间易发生快速氧饱和度下降。经鼻湿化快速吹入通气交换（THRIVE）可延长安全呼吸暂停时间，但其对呼吸暂停期间肺容量动态的影响尚不清楚。",
+          "results": "在早期呼吸暂停期间，THRIVE组的平均全局ΔEELI显著优于面罩氧合组（-0.22 ± 0.03 vs. -0.89 ± 0.07，平均差0.67，95% CI 0.55-0.80，P < 0.001）。THRIVE组的中位安全呼吸暂停时间显著延长（600秒 vs. 319秒）。THRIVE减缓了ΔEELI的下降率，并更好地保留了肺容量，尤其在中腹侧和中背侧区域。",
+          "limitations": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "THRIVE可作为肥胖患者全麻诱导期间延长安全呼吸暂停时间的有效氧合方式。",
+            "THRIVE通过减缓呼气末肺容量下降来改善氧合，可能有助于减少诱导期低氧血症风险。",
+            "在需要较长呼吸暂停时间的操作（如气道管理）中，THRIVE可能提供更长的安全时间窗。"
+          ],
+          "editor": "该随机对照试验提供了直接比较THRIVE与面罩氧合在肥胖患者中肺容量动态差异的证据，结果具有统计学显著性和较大的效应量（平均差0.67），且安全呼吸暂停时间延长近一倍。但样本量较小（32例），且为单中心研究，需进一步验证。 过度解读风险：中等风险。研究仅观察了早期呼吸暂停（2-6分钟），结论不应外推至更长时间的呼吸暂停。同时，ΔEELI是肺容量的间接指标，临床获益需结合氧饱和度等临床结局。",
+          "whyItMatters": "肥胖患者全麻诱导时易发生快速氧饱和度下降，本研究揭示了THRIVE改善氧合的潜在机制，为临床优化呼吸暂停氧合策略提供了依据。",
+          "background": "肥胖患者因功能残气量减少和肺不张形成，在全麻诱导期间易发生快速氧饱和度下降。经鼻湿化快速吹入通气交换（THRIVE）可延长安全呼吸暂停时间，但其对呼吸暂停期间肺容量动态的影响尚不清楚。",
+          "pico": {
+            "population": "Adults with body mass index ≥35 kg/m² undergoing elective surgery",
+            "intervention": "Transnasal humidified rapid insufflation ventilatory exchange (THRIVE) during apnea",
+            "comparison": "Facemask oxygen following induction of general anesthesia",
+            "outcome": "Mean global DeltaEELI during an early apneic window (2-6 min)"
+          },
+          "studyType": "单中心随机对照试验，共纳入32例患者，使用电阻抗断层扫描评估呼气末肺阻抗变化（ΔEELI）作为肺容量的替代指标。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "Mean global DeltaEELI during an early apneic window (2-6 min)",
+          "effectSize": [
+            "mean difference 0.67"
+          ],
+          "confidenceInterval": [
+            "95% CI 0.55-0.80"
+          ],
+          "pValue": [
+            "P < 0.001"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该随机对照试验提供了直接比较THRIVE与面罩氧合在肥胖患者中肺容量动态差异的证据，结果具有统计学显著性和较大的效应量（平均差0.67），且安全呼吸暂停时间延长近一倍。但样本量较小（32例），且为单中心研究，需进一步验证。",
+            "overinterpretationRisk": "中等风险。研究仅观察了早期呼吸暂停（2-6分钟），结论不应外推至更长时间的呼吸暂停。同时，ΔEELI是肺容量的间接指标，临床获益需结合氧饱和度等临床结局。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42501528/",
+            "doi": "https://doi.org/10.1016/j.jclinane.2026.112283",
+            "publisher": "https://doi.org/10.1016/j.jclinane.2026.112283",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42469101",
+          "number": "04",
+          "category": "疼痛与区域麻醉",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-17",
+          "electronicPublicationDate": "2026-07-17",
+          "readingTime": "6 分钟",
+          "title": "全麻联合区域麻醉与单纯全麻对择期骨科大手术患者功能恢复的影响：一项基于全国医院索赔数据库的目标试验模拟研究",
+          "originalTitle": "Functional impairment in patients undergoing major orthopaedic surgery under general anaesthesia with or without regional anaesthesia: a target trial emulation using a national hospital claims database.",
+          "authors": "Yoshimura M, Koga M, Morimoto Y, Matsusaki T",
+          "citation": "Br J Anaesth. 2026 Jul 17:S0007-0912(26)00427-7. doi: 10.1016/j.bja.2026.06.008.",
+          "doi": "10.1016/j.bja.2026.06.008",
+          "pmid": "42469101",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.8,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "该研究通过目标试验模拟设计，在大样本真实世界数据中评估了联合麻醉对术后日常活动能力的影响，为围术期麻醉方式的选择提供了临床参考。",
+          "conclusion": "对于接受骨科大手术的成人患者，与单纯全麻相比，全麻联合区域麻醉可能与出院时功能改善（Barthel指数变化均值差0.73, 95%CI 0.57-0.88, P<0.001）、术后住院时间缩短（-1.40天, 95%CI -1.45至-1.35, P<0.001）以及院内死亡率降低（HR 0.85, 95%CI 0.76-0.96, P=0.006）相关联。",
+          "clinical": "本研究提示全麻联合区域麻醉可能在骨科大手术中带来轻微的临床获益，包括功能改善、住院时间缩短和死亡率降低。 区域麻醉技术（外周神经阻滞与硬膜外麻醉）的异质性需进一步区分。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "目标试验模拟研究（基于日本诊断程序组合数据库，2016年4月1日至2023年12月31日），采用稳定的逆概率治疗加权和加权线性回归模型，多重插补处理缺失数据，并进行敏感性分析（逆概率删失加权、亚组分析、完整病例分析）。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "adult patients having major orthopaedic surgery；244 212 patients received GA+RA (peripheral nerve block: 183 564; epidural anaesthesia: 60 648) and 435 462 patients received GA alone"
+            },
+            {
+              "label": "干预与比较",
+              "value": "combined general and regional anaesthesia (GA+RA)；对照：GA alone"
+            },
+            {
+              "label": "主要终点",
+              "value": "discharge-anchored functional change, defined as the difference in the Barthel Index scores between admission and discharge"
+            }
+          ],
+          "keyPoints": [
+            "采用全国性数据库进行目标试验模拟，样本量大（679,674例）。",
+            "联合麻醉与出院时Barthel指数小幅提高（0.73分）相关。",
+            "联合麻醉与术后住院时间缩短1.4天和院内死亡率降低15%相关。",
+            "区域麻醉技术的异质性和残余混杂限制了证据强度。"
+          ],
+          "methods": "既往研究多关注区域麻醉对镇痛和并发症的影响，但对其是否能改善患者术后日常活动能力尚不明确。本研究利用日本诊断程序组合数据库模拟目标试验，比较全麻联合区域麻醉与单纯全麻在骨科大手术患者中的效果。",
+          "results": "纳入679,674例患者（联合麻醉组244,212例，单纯全麻组435,462例）。倾向性评分加权后，联合麻醉组Barthel指数变化均值差0.73（95%CI 0.57-0.88, P<0.001），术后住院时间缩短-1.40天（95%CI -1.45至-1.35, P<0.001），院内死亡率HR 0.85（95%CI 0.76-0.96, P=0.006）。敏感性分析结果方向一致。",
+          "limitations": [
+            "残余混杂和区域麻醉技术的异质性需谨慎解释，并需前瞻性研究确认。",
+            "数据库未提供区域麻醉的具体技术细节（如单次注射、连续给药等），可能影响结果的外推性。"
+          ],
+          "practice": [
+            "本研究提示全麻联合区域麻醉可能在骨科大手术中带来轻微的临床获益，包括功能改善、住院时间缩短和死亡率降低。",
+            "区域麻醉技术（外周神经阻滞与硬膜外麻醉）的异质性需进一步区分。"
+          ],
+          "editor": "该目标试验模拟设计利用了稳健的统计方法（IPTW、多重插补、敏感性分析），结果一致，但非随机对照试验，存在残余混杂可能。 过度解读风险：作者指出联合麻醉的临床获益微小且存在混杂和异质性，避免因果推断，但部分读者可能过度解读为强烈推荐联合麻醉。",
+          "whyItMatters": "该研究通过目标试验模拟设计，在大样本真实世界数据中评估了联合麻醉对术后日常活动能力的影响，为围术期麻醉方式的选择提供了临床参考。",
+          "background": "既往研究多关注区域麻醉对镇痛和并发症的影响，但对其是否能改善患者术后日常活动能力尚不明确。本研究利用日本诊断程序组合数据库模拟目标试验，比较全麻联合区域麻醉与单纯全麻在骨科大手术患者中的效果。",
+          "pico": {
+            "population": "adult patients having major orthopaedic surgery",
+            "intervention": "combined general and regional anaesthesia (GA+RA)",
+            "comparison": "GA alone",
+            "outcome": "discharge-anchored functional change, defined as the difference in the Barthel Index scores between admission and discharge"
+          },
+          "studyType": "目标试验模拟研究（基于日本诊断程序组合数据库，2016年4月1日至2023年12月31日），采用稳定的逆概率治疗加权和加权线性回归模型，多重插补处理缺失数据，并进行敏感性分析（逆概率删失加权、亚组分析、完整病例分析）。",
+          "sampleSize": "244 212 patients received GA+RA (peripheral nerve block: 183 564; epidural anaesthesia: 60 648) and 435 462 patients received GA alone",
+          "primaryOutcome": "discharge-anchored functional change, defined as the difference in the Barthel Index scores between admission and discharge",
+          "effectSize": [
+            "0.73",
+            "-1.40 days",
+            "0.85"
+          ],
+          "confidenceInterval": [
+            "0.57-0.88",
+            "-1.45 to -1.35",
+            "0.76-0.96"
+          ],
+          "pValue": [
+            "<0.001",
+            "<0.001",
+            "0.006"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该目标试验模拟设计利用了稳健的统计方法（IPTW、多重插补、敏感性分析），结果一致，但非随机对照试验，存在残余混杂可能。",
+            "overinterpretationRisk": "作者指出联合麻醉的临床获益微小且存在混杂和异质性，避免因果推断，但部分读者可能过度解读为强烈推荐联合麻醉。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42469101/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.06.008",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.06.008",
+            "openFullText": null
+          }
+        },
+        {
+          "slug": "pmid-42461720",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "Anesthesia and analgesia",
+          "year": "2026",
+          "publishedDate": "2026-07-15",
+          "electronicPublicationDate": "2026-07-15",
+          "readingTime": "8 分钟",
+          "title": "高海拔手术患者术前血红蛋白与术中氧饱和度降低的性别特异性非线性关联：一项回顾性观察性研究",
+          "originalTitle": "Sex-Specific Nonlinear Association Between Preoperative Hemoglobin and Intraoperative Oxygen Desaturation in High-Altitude Surgical Patients: A Retrospective Observational Study.",
+          "authors": "Yan Q, Xu Y, Guo Y, Li R, Puzhen D, Mao Y, Ciren L, Feng Y",
+          "citation": "Anesth Analg. 2026 Jul 15. doi: 10.1213/ANE.0000000000008115.",
+          "doi": "10.1213/ane.0000000000008115",
+          "pmid": "42461720",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床研究"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 5.9,
+            "metricYear": 2022,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
+            "verifiedAt": "2026-07-23",
+            "matchedJournal": "Anesthesia & Analgesia"
+          },
+          "tags": [
+            "临床研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "高海拔地区居民血红蛋白代偿性增高，虽可增加携氧能力，但血液粘稠度升高可能影响微循环并导致肺内分流。本研究确定了性别特异性的血红蛋白阈值，有助于术前风险分层和优化围术期氧输送。",
+          "conclusion": "在高海拔手术患者中，男性术前血红蛋白超过18.0 g/dL、女性超过14.9 g/dL时，术中氧饱和度降低的风险显著增加。",
+          "clinical": "对于高海拔手术患者，麻醉前应评估血红蛋白水平，男性超过18.0 g/dL、女性超过14.9 g/dL时需警惕术中低氧血症风险。 性别分层术前评估有助于优化围术期氧合管理，可能需考虑降低血红蛋白浓度的干预措施（如放血疗法）或调整麻醉策略。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 10,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "回顾性观察性研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "High-altitude residents undergoing general anesthesia for noncardiothoracic surgery at People's Hospital of Xizang Autonomous Region between January 2020 and October 2024；8010 (male: 3622, female: 4388)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "术前血红蛋白浓度（暴露因素）；对照：不同血红蛋白水平（无明确对照组，通过分段回归比较阈值前后）"
+            },
+            {
+              "label": "主要终点",
+              "value": "Intraoperative oxygen desaturation defined as peripheral oxygen saturation (SpO2 <90% lasting for ≥1 minute) measured by pulse oximetry in patients receiving mechanical ventilation during general anesthesia"
+            }
+          ],
+          "keyPoints": [
+            "高海拔地区手术患者术前血红蛋白与术中低氧呈非线性关系，且存在性别差异。",
+            "男性术前血红蛋白超过18.0 g/dL、女性超过14.9 g/dL时，术中氧饱和度降低风险增加。",
+            "观测到的关联支持在术前评估中采用性别特异性策略。",
+            "该研究为回顾性观察，因果结论需进一步研究证实。"
+          ],
+          "methods": "高血红蛋白浓度是机体对高海拔缺氧的代偿性适应，理论上可增加携氧能力；然而，伴随的血粘稠度升高可能在麻醉期间损害微循环血流并促进肺内分流。本研究旨在探讨高海拔手术患者术前血红蛋白浓度与术中氧饱和度降低之间的性别特异性关联。",
+          "results": "样本量8010例（男3622，女4388）。主要终点为术中氧饱和度降低。在男性和女性中均观察到术前血红蛋白浓度与术中氧饱和度降低呈非线性关联。男性：分段回归确定的统计拐点为20.6 g/dL（每增加1 g/dL的调整后比值比[adjOR]=1.50，95% CI 1.18-1.92，P=0.001），但临床有意义的风险增加始于18.0 g/dL（adjOR=1.23，95% CI 1.05-1.45，P=0.012）。女性：阈值为14.9 g/dL（adjOR=1.33，95% CI 1.13-1.58，P<0.001）。敏感性分析验证了不同去饱和定义和插补方法下的结果。",
+          "limitations": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "对于高海拔手术患者，麻醉前应评估血红蛋白水平，男性超过18.0 g/dL、女性超过14.9 g/dL时需警惕术中低氧血症风险。",
+            "性别分层术前评估有助于优化围术期氧合管理，可能需考虑降低血红蛋白浓度的干预措施（如放血疗法）或调整麻醉策略。"
+          ],
+          "editor": "中等。研究基于大样本回顾性数据，使用多变量调整和分段回归，统计学关联显著，但观察性研究无法排除混杂因素，结论需前瞻性验证。 过度解读风险：低。作者明确区分了统计拐点与临床阈值（男性临床阈值低于统计拐点），并强调观察性关联而非因果，避免了过度推断。",
+          "whyItMatters": "高海拔地区居民血红蛋白代偿性增高，虽可增加携氧能力，但血液粘稠度升高可能影响微循环并导致肺内分流。本研究确定了性别特异性的血红蛋白阈值，有助于术前风险分层和优化围术期氧输送。",
+          "background": "高血红蛋白浓度是机体对高海拔缺氧的代偿性适应，理论上可增加携氧能力；然而，伴随的血粘稠度升高可能在麻醉期间损害微循环血流并促进肺内分流。本研究旨在探讨高海拔手术患者术前血红蛋白浓度与术中氧饱和度降低之间的性别特异性关联。",
+          "pico": {
+            "population": "High-altitude residents undergoing general anesthesia for noncardiothoracic surgery at People's Hospital of Xizang Autonomous Region between January 2020 and October 2024",
+            "intervention": "术前血红蛋白浓度（暴露因素）",
+            "comparison": "不同血红蛋白水平（无明确对照组，通过分段回归比较阈值前后）",
+            "outcome": "Intraoperative oxygen desaturation defined as peripheral oxygen saturation (SpO2 <90% lasting for ≥1 minute) measured by pulse oximetry in patients receiving mechanical ventilation during general anesthesia"
+          },
+          "studyType": "回顾性观察性研究",
+          "sampleSize": "8010 (male: 3622, female: 4388)",
+          "primaryOutcome": "Intraoperative oxygen desaturation defined as peripheral oxygen saturation (SpO2 <90% lasting for ≥1 minute) measured by pulse oximetry in patients receiving mechanical ventilation during general anesthesia",
+          "effectSize": [
+            "adjOR per 1 g/dL increase: 1.50",
+            "adjOR per 1 g/dL increase: 1.23",
+            "adjOR per 1 g/dL increase: 1.33"
+          ],
+          "confidenceInterval": [
+            "1.18-1.92",
+            "1.05-1.45",
+            "1.13-1.58"
+          ],
+          "pValue": [
+            ".001",
+            ".012",
+            "< .001"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "中等。研究基于大样本回顾性数据，使用多变量调整和分段回归，统计学关联显著，但观察性研究无法排除混杂因素，结论需前瞻性验证。",
+            "overinterpretationRisk": "低。作者明确区分了统计拐点与临床阈值（男性临床阈值低于统计拐点），并强调观察性关联而非因果，避免了过度推断。"
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42461720/",
+            "doi": "https://doi.org/10.1213/ane.0000000000008115",
+            "publisher": "https://doi.org/10.1213/ane.0000000000008115",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-26T12:02:44.474Z",
       "mode": "production",
