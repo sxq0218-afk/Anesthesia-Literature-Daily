@@ -2,9 +2,6 @@ name: 精读V2安全预览
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - codex/deep-reading-v2
   pull_request:
     branches:
       - main
@@ -18,7 +15,7 @@ concurrency:
 
 jobs:
   generate-preview:
-    if: github.event_name == 'workflow_dispatch' || github.event_name == 'pull_request' || contains(github.event.head_commit.message, '[deep-preview]')
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
