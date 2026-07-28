@@ -88,6 +88,32 @@ test("runs extraction, synthesis and second-round quality control", async () => 
   assert.equal(replies.length, 0);
 });
 
+test("locks source coverage to the material actually supplied instead of trusting the model label", async () => {
+  const mislabeledSynthesis = structuredClone(synthesis);
+  mislabeledSynthesis.deepDive.sourceCoverage.level = "abstract";
+  const replies = [baseExtraction, translation, mislabeledSynthesis, { overall_pass: true, checks: {}, issues: [] }];
+  const generateAI = async () => ({
+    data: replies.shift(),
+    usage: {},
+    model: "mock",
+  });
+
+  const result = await analyzeArticle({
+    record,
+    fullText: [
+      "METHODS\nRandomized allocation and blinded outcome assessment.\n" + "A".repeat(25000),
+      "RESULTS\nThe primary outcome was reported.\n" + "B".repeat(25000),
+      "LIMITATIONS\nSingle-center design.\n" + "C".repeat(25000),
+    ].join("\n"),
+    generateAI,
+  });
+
+  assert.equal(result.basis, "摘要+开放全文重点章节节选分析");
+  assert.equal(result.synthesis.deepDive.sourceCoverage.level, "full_text_excerpt");
+  assert.equal(result.regenerated, false);
+  assert.equal(replies.length, 0);
+});
+
 test("retries structured extraction once after deterministic validation failure", async () => {
   const calls = [];
   const responses = [
