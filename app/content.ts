@@ -69,6 +69,6 @@ export function formatChineseDate(value: string | null) {
 export function searchWindowText(run = dailyRun) {
   if (run.mode === "demo") return "模拟数据模式";
   return run.search.expanded
-    ? `优先检索最近${run.search.initialDays}天；未满足数量、研究构成或优先期刊目标，已扩展至过去${run.search.actualDays}天，最近${run.search.initialDays}天文献仍优先`
+    ? `最近${run.search.initialDays}天未满足数量或4篇临床证据加1篇基础研究的构成，已扩展至过去${run.search.actualDays}天，并在完整合格候选池中按影响因子优先选择`
     : `检索最近${run.search.initialDays}天发表的新文献`;
 }
