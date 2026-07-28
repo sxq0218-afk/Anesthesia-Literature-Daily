@@ -46,4 +46,13 @@ test("scheduled email workflow persists a validated edition before delivery", as
   assert.ok(prepare >= 0 && persist > prepare && send > persist);
   assert.match(workflow, /cron: "37 0 \* \* \*"/);
   assert.match(workflow, /concurrency:[\s\S]*cancel-in-progress: false/);
+  assert.match(workflow, /if: github\.ref == 'refs\/heads\/main'/);
+});
+
+test("deep-reading preview is isolated and cannot deliver email or write repository content", async () => {
+  const workflow = await fs.readFile(path.join(root, ".github/workflows/deep-reading-preview.yml"), "utf8");
+  assert.match(workflow, /permissions:\s+contents: read/);
+  assert.match(workflow, /LITERATURE_DATA_ROOT: data\/sandbox/);
+  assert.match(workflow, /actions\/upload-artifact@v4/);
+  assert.doesNotMatch(workflow, /email:send-daily|git push|contents: write/);
 });
