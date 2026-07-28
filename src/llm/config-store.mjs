@@ -3,8 +3,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { loadEnv } from "../lib/env.mjs";
 
-const DEFAULT_LIMITS = { dailyCallLimit: 30, dailyTokenLimit: 500000, maxInputChars: 60000 };
-const DEFAULT_MODEL_OPTIONS = { temperature: 0.1, maxTokens: 5000, timeoutMs: 90000, retryCount: 1 };
+const DEFAULT_LIMITS = { dailyCallLimit: 50, dailyTokenLimit: 500000, maxInputChars: 60000 };
+const DEFAULT_MODEL_OPTIONS = { temperature: 0.1, maxTokens: 7000, timeoutMs: 90000, retryCount: 1 };
 
 function ensurePrivateDirectory(rootDir) {
   const directory = path.join(rootDir, "data/private");
