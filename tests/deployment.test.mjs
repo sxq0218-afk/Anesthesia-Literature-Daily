@@ -53,6 +53,8 @@ test("deep-reading preview is isolated and cannot deliver email or write reposit
   const workflow = await fs.readFile(path.join(root, ".github/workflows/deep-reading-preview.yml"), "utf8");
   assert.match(workflow, /permissions:\s+contents: read/);
   assert.match(workflow, /LITERATURE_DATA_ROOT: data\/sandbox/);
+  assert.match(workflow, /DAILY_MAX_CANDIDATES:.*2000/);
+  assert.doesNotMatch(workflow, /DAILY_CANDIDATE_LIMIT/);
   assert.match(workflow, /actions\/upload-artifact@v4/);
   assert.doesNotMatch(workflow, /email:send-daily|git push|contents: write/);
 });
