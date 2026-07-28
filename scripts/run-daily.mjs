@@ -8,6 +8,7 @@ import { deduplicate, formalPublicationHistory } from "../src/literature/dedupe.
 import { scoreArticle } from "../src/literature/scoring.mjs";
 import { screenByJournalImpactFactor } from "../src/literature/journal-metrics.mjs";
 import { selectDailyArticles } from "../src/literature/selection.mjs";
+import { configuredSearchWindows, selectionNeedsExpansion } from "../src/literature/window-policy.mjs";
 import { metadataOnlyAnalysis, toWebArticle } from "../src/literature/transform.mjs";
 import { readJson, writeJsonAtomic } from "../src/literature/storage.mjs";
 import { createAIService, loadAISettings } from "../src/llm/index.mjs";
@@ -70,10 +71,11 @@ async function retrieve(days) {
   return { search, records, unique };
 }
 
-console.log(`[1/6] Searching PubMed for the preferred ${scoringConfig.initialWindowDays}-day window...`);
-let retrieval = await retrieve(scoringConfig.initialWindowDays);
+const searchWindows = configuredSearchWindows(scoringConfig);
+console.log(`[1/6] Searching PubMed for the preferred ${searchWindows[0]}-day window...`);
+let retrieval = await retrieve(searchWindows[0]);
 const preferredWindowPmids = new Set(retrieval.unique.accepted.map(record => record.pmid));
-let actualDays = scoringConfig.initialWindowDays;
+let actualDays = searchWindows[0];
 let expanded = false;
 function prepareSelection(currentRetrieval, preferredPmids = null) {
   const impactFactorScreening = screenByJournalImpactFactor(currentRetrieval.unique.accepted, journalMetricConfig);
@@ -88,19 +90,26 @@ function prepareSelection(currentRetrieval, preferredPmids = null) {
 }
 
 let selection = prepareSelection(retrieval);
-const shouldExpandForComposition = scoringConfig.selectionPolicy?.expandForCompositionShortfall && !selection.compositionSatisfied;
 let expansionReason = null;
-if (selection.journalImpactFactor.eligibleCount < scoringConfig.dailyLimit || shouldExpandForComposition) {
+const expansionSteps = [];
+for (const nextWindowDays of searchWindows.slice(1)) {
+  const expansion = selectionNeedsExpansion(selection, scoringConfig);
+  if (!expansion.needed) break;
+
   expanded = true;
-  actualDays = scoringConfig.expandedWindowDays;
-  expansionReason = shouldExpandForComposition
-    ? "composition-shortfall"
-    : "article-count-shortfall";
-  console.log(`[2/6] The preferred ${scoringConfig.initialWindowDays}-day set does not meet the configured count or 4+1 composition target; expanding to ${actualDays} days...`);
+  actualDays = nextWindowDays;
+  expansionReason = expansion.reason;
+  expansionSteps.push({ days: actualDays, reason: expansion.reason });
+  console.log(`[2/6] The ${searchWindows[0]}-${actualDays === searchWindows[1] ? `day set` : `to-${searchWindows[1]}-day expansion`} does not meet the configured count or 4+1 composition target; expanding to ${actualDays} days...`);
   retrieval = await retrieve(actualDays);
   selection = prepareSelection(retrieval, preferredWindowPmids);
-} else {
+}
+if (!expanded) {
   console.log(`[2/6] ${retrieval.unique.accepted.length} unseen articles satisfy the configured composition; no date expansion needed.`);
+} else if (!selectionNeedsExpansion(selection, scoringConfig).needed) {
+  console.log(`[2/6] The configured count and 4+1 composition target are satisfied within ${actualDays} days.`);
+} else {
+  console.log(`[2/6] The target is still short after ${actualDays} days; continuing with fewer eligible articles without backfill.`);
 }
 
 console.log("[3/6] Deduplicating and scoring candidates...");
@@ -187,6 +196,7 @@ const searchSummary = {
   actualDays,
   expanded,
   expansionReason,
+  expansionSteps,
   from,
   to,
   candidateCount: retrieval.records.length,

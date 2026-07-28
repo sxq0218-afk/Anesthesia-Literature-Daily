@@ -28,6 +28,7 @@
   "minimumSelectionScore": 45,
   "initialWindowDays": 30,
   "expandedWindowDays": 180,
+  "maximumWindowDays": 360,
   "selectionPolicy": {
     "clinicalTarget": 4,
     "basicTarget": 1,
