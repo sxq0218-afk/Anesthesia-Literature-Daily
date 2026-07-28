@@ -66,7 +66,7 @@
 | `DAILY_MAX_INPUT_CHARS` | 当前默认`60000` |
 | `SITE_URL` | 有长期公开站点后填写 |
 
-检索30天和扩展180天目前保存在`config/scoring.json`，不需要GitHub Variable。30天不足时扩展到180天，随后在整个合格池内按影响因子降序选择；仍无法组成4篇临床证据加1篇基础研究时少发，但继续推送。
+检索30天、扩展180天和最大360天目前保存在`config/scoring.json`，不需要GitHub Variable。30天不足时先扩展到180天；180天仍不足时再扩展到360天。每轮都在当前完整合格池内按影响因子降序选择；360天仍无法组成4篇临床证据加1篇基础研究时少发，但继续推送。
 
 ## 更换AI模型
 
@@ -87,6 +87,7 @@
 - 时间窗口：`config/scoring.json`
   - `initialWindowDays`
   - `expandedWindowDays`
+  - `maximumWindowDays`
 - 每日数量：`dailyLimit`或GitHub Variable `DAILY_ARTICLE_COUNT`
 - 候选上限：`candidateLimit`或`DAILY_CANDIDATE_LIMIT`
 - 关键词：`config/topics.json`
