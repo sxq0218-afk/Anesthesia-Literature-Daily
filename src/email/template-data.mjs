@@ -7,7 +7,7 @@ function pico(article) {
   return `P：${text(value.population || value.p)}\nI：${text(value.intervention || value.i)}\nC：${text(value.comparison || value.c)}\nO：${text(value.outcome || value.o)}`;
 }
 
-export function editionTemplateData(edition, options = {}) {
+export function editionTemplateData(edition) {
   const date = new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", year: "numeric", month: "long", day: "numeric" }).format(new Date(edition.generatedAt));
   const articles = edition.articles || [];
   const articleBlocks = articles.map((article, index) => ({
@@ -61,10 +61,9 @@ export function editionTemplateData(edition, options = {}) {
     date,
     article_count: articles.length,
     expanded_note: edition.search?.expanded
-      ? `优先检索最近${edition.search.initialDays}天；条件不足时已扩展至过去${edition.search.actualDays}天，近${edition.search.initialDays}天文献仍优先。`
+      ? `最近${edition.search.initialDays}天不足目标构成，已扩展至过去${edition.search.actualDays}天，并按影响因子优先选择。`
       : `检索范围为最近${edition.search?.initialDays || 30}天。`,
     ...flattened,
-    site_url: options.siteUrl || "",
     unsubscribe_subject: "退订每日麻醉文献精读",
     medical_disclaimer: "内容仅供医学教育与学术交流，不能替代临床判断。",
   };
