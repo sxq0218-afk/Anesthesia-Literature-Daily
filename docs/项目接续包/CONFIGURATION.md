@@ -56,17 +56,17 @@
 | `AI_BASE_URL` | 当前模型API根地址 |
 | `AI_MODEL` | 当前模型名称 |
 | `AI_TEMPERATURE` | 建议`0.1` |
-| `AI_MAX_TOKENS` | 当前默认`5000` |
+| `AI_MAX_TOKENS` | 精读V2当前默认`7000` |
 | `AI_TIMEOUT` | 当前默认`90000` |
 | `AI_RETRY_COUNT` | 当前默认`1` |
 | `DAILY_ARTICLE_COUNT` | 最大`5` |
 | `DAILY_CANDIDATE_LIMIT` | 当前默认`120` |
-| `DAILY_AI_CALL_LIMIT` | 当前默认`30` |
+| `DAILY_AI_CALL_LIMIT` | 精读V2当前默认`50` |
 | `DAILY_TOKEN_LIMIT` | 当前默认`500000` |
 | `DAILY_MAX_INPUT_CHARS` | 当前默认`60000` |
 | `SITE_URL` | 有长期公开站点后填写 |
 
-检索30天和扩展180天目前保存在`config/scoring.json`，不需要GitHub Variable。
+检索30天和扩展180天目前保存在`config/scoring.json`，不需要GitHub Variable。30天不足时扩展到180天，随后在整个合格池内按影响因子降序选择；仍无法组成4篇临床证据加1篇基础研究时少发，但继续推送。
 
 ## 更换AI模型
 
@@ -91,7 +91,7 @@
 - 候选上限：`candidateLimit`或`DAILY_CANDIDATE_LIMIT`
 - 关键词：`config/topics.json`
 - 期刊优先级：`config/journals.json`
-- 影响因子：`config/journal-metrics.json`
+- 影响因子：`config/journal-metrics.json`。只有严格大于5且处于允许年份范围内的期刊可以进入排序池；修改数值时必须同时记录指标年份、来源和核验日期。
 - 研究构成：`config/scoring.json`的`selectionPolicy`
 
 改JSON时必须保持合法引号、逗号和括号，并运行`npm run test:literature`。
