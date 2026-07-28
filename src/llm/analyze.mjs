@@ -21,6 +21,28 @@ function addUsage(total, usage) {
   };
 }
 
+function expectedCoverageLevel(basis) {
+  if (basis === "摘要分析") return "abstract";
+  if (basis.includes("节选")) return "full_text_excerpt";
+  if (basis.includes("开放全文")) return "full_text";
+  return null;
+}
+
+function lockSourceCoverage(synthesis, basis) {
+  const level = expectedCoverageLevel(basis);
+  if (!level || !synthesis?.deepDive?.sourceCoverage) return synthesis;
+  return {
+    ...synthesis,
+    deepDive: {
+      ...synthesis.deepDive,
+      sourceCoverage: {
+        ...synthesis.deepDive.sourceCoverage,
+        level,
+      },
+    },
+  };
+}
+
 function sectionAwareExcerpt(fullText, budget) {
   const headings = ["methods", "methodology", "statistical analysis", "results", "discussion", "limitations", "conclusions"];
   const normalized = String(fullText);
@@ -136,6 +158,7 @@ export async function analyzeArticle({ record, fullText, generateAI, maxInputCha
     task: "literature-synthesis",
   });
   usage = addUsage(usage, synthesisResponse.usage);
+  synthesisResponse.data = lockSourceCoverage(synthesisResponse.data, basis);
   let deepValidation = deepDiveChecks(record, synthesisResponse.data, basis);
 
   let qualityResponse = await generateAI({
@@ -168,6 +191,7 @@ export async function analyzeArticle({ record, fullText, generateAI, maxInputCha
       task: "literature-regeneration",
     });
     usage = addUsage(usage, synthesisResponse.usage);
+    synthesisResponse.data = lockSourceCoverage(synthesisResponse.data, basis);
     deepValidation = deepDiveChecks(record, synthesisResponse.data, basis);
     qualityResponse = await generateAI({
       system: qualitySystemPrompt,
