@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { evaluateJournalImpactFactor, screenByJournalImpactFactor } from "./journal-metrics.mjs";
+import { eligibleJournalEntries, evaluateJournalImpactFactor, screenByJournalImpactFactor, summarizeJournalAudit } from "./journal-metrics.mjs";
 
 const config = JSON.parse(fs.readFileSync(new URL("../../config/journal-metrics.json", import.meta.url)));
 
@@ -44,5 +44,27 @@ test("reports impact factor exclusion counts", () => {
   assert.deepEqual(result.summary.excludedByReason, {
     "below-or-equal-threshold": 1,
     "journal-not-configured": 1,
+  });
+});
+
+test("builds the current strict JIF >5 journal allowlist", () => {
+  const names = eligibleJournalEntries(config).map(entry => entry.name);
+  assert.ok(names.includes("British Journal of Anaesthesia"));
+  assert.ok(!names.includes("Anesthesia & Analgesia"));
+  assert.ok(!names.includes("Regional Anesthesia and Pain Medicine"));
+});
+
+test("reports unresolved journal names without treating them as eligible", () => {
+  const result = summarizeJournalAudit([
+    { journal: "Unknown Journal" },
+    { journal: "Unknown Journal" },
+    { journal: "The Journal of Pain" },
+  ], config);
+  assert.equal(result.eligibleCount, 0);
+  assert.equal(result.unresolvedCount, 3);
+  assert.deepEqual(result.unresolvedJournals[0], {
+    journal: "Unknown Journal",
+    reason: "journal-not-configured",
+    count: 2,
   });
 });
