@@ -1,14 +1,20 @@
 {
-  "version": 1,
+  "version": 2,
   "metric": "Journal Impact Factor",
   "minimumImpactFactor": 5,
   "comparison": "greater-than",
   "unknownPolicy": "exclude",
-  "verifiedAt": "2026-07-23",
+  "verifiedAt": "2026-07-27",
+  "rankingPolicy": {
+    "metricYear": 2025,
+    "maximumAgeYears": 1,
+    "stalePolicy": "exclude"
+  },
   "notes": [
     "PubMed不提供期刊影响因子，本文件需在新版Journal Citation Reports发布后人工复核。",
     "正式推荐仅接受影响因子严格大于minimumImpactFactor的期刊；等于门槛、数值未知或期刊名称无法匹配时均排除。",
-    "metricYear记录数值对应年份。部分出版商未公开最新版数值时，保留可公开核验的最近数值及来源，便于管理员后续更新。"
+    "用于最高影响因子排序的数值必须满足rankingPolicy年度新鲜度；过旧数值即使高于5也暂不参与。",
+    "metricYear记录数值对应年份。部分出版商未公开最新版数值时，保留最近可核验值供审计，但可能因过旧而被排除。"
   ],
   "journals": [
     {
@@ -21,9 +27,9 @@
     {
       "name": "The Lancet",
       "aliases": ["Lancet"],
-      "impactFactor": 202,
-      "metricYear": 2021,
-      "source": "https://www.elsevier.com/connect/the-lancet-group-impact-that-matters"
+      "impactFactor": 109,
+      "metricYear": 2025,
+      "source": "https://www.linkedin.com/posts/the-lancet_rcts-clinicaltrials-clinicalresearch-activity-7477986859466428416-hAY3"
     },
     {
       "name": "JAMA",
@@ -35,9 +41,9 @@
     {
       "name": "The BMJ",
       "aliases": ["BMJ", "British Medical Journal"],
-      "impactFactor": 42.7,
-      "metricYear": 2024,
-      "source": "https://info.bmj.com/impact-report-2025"
+      "impactFactor": 55.1,
+      "metricYear": 2025,
+      "source": "https://www.bmj.com/about-bmj/publishing-model"
     },
     {
       "name": "Nature Medicine",
@@ -49,23 +55,23 @@
     {
       "name": "JAMA Network Open",
       "aliases": [],
-      "impactFactor": 11.7,
+      "impactFactor": 9.7,
       "metricYear": 2025,
-      "source": "https://jamanetwork.com/journals/jamanetworkopen/pages/for-authors"
+      "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931"
     },
     {
       "name": "British Journal of Anaesthesia",
       "aliases": ["Br J Anaesth"],
-      "impactFactor": 9.8,
-      "metricYear": 2022,
-      "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full"
+      "impactFactor": 10.3,
+      "metricYear": 2025,
+      "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM"
     },
     {
       "name": "Anesthesiology",
       "aliases": [],
-      "impactFactor": 8.8,
-      "metricYear": 2022,
-      "source": "https://journals.lww.com/anesthesiology/Documents/2023_12_PGA_AnesthesiologyArticlesYouNeedToKnow.pdf"
+      "impactFactor": 9.3,
+      "metricYear": 2024,
+      "source": "https://www.asahq.org/about-asa/annual-reports"
     },
     {
       "name": "Anaesthesia",
@@ -105,9 +111,9 @@
     {
       "name": "Journal of Clinical Anesthesia",
       "aliases": ["J Clin Anesth"],
-      "impactFactor": 6.7,
-      "metricYear": 2022,
-      "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full"
+      "impactFactor": 5.1,
+      "metricYear": 2025,
+      "source": "https://www.sciencedirect.com/journal/journal-of-clinical-anesthesia"
     },
     {
       "name": "Pain",

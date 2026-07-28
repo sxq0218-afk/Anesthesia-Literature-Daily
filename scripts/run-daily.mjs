@@ -19,17 +19,22 @@ const metadataOnly = args.has("--metadata-only");
 const ignoreHistory = args.has("--ignore-history");
 const force = args.has("--force");
 const env = loadEnv(rootDir);
+const configuredDataRoot = String(env.LITERATURE_DATA_ROOT || "data");
+const dataRoot = path.resolve(rootDir, configuredDataRoot);
+if (dataRoot !== path.join(rootDir, "data") && !dataRoot.startsWith(`${rootDir}${path.sep}`)) {
+  throw new Error("LITERATURE_DATA_ROOT must resolve inside the project directory.");
+}
 
 const files = {
   topics: path.join(rootDir, "config/topics.json"),
   journals: path.join(rootDir, "config/journals.json"),
   journalMetrics: path.join(rootDir, "config/journal-metrics.json"),
   scoring: path.join(rootDir, "config/scoring.json"),
-  pushed: path.join(rootDir, "data/state/pushed.json"),
-  publicationStatus: path.join(rootDir, "data/state/publication-status.json"),
-  daily: path.join(rootDir, "data/generated/daily.json"),
-  preview: path.join(rootDir, "data/generated/preview.json"),
-  runs: path.join(rootDir, "data/runs"),
+  pushed: path.join(dataRoot, "state/pushed.json"),
+  publicationStatus: path.join(dataRoot, "state/publication-status.json"),
+  daily: path.join(dataRoot, "generated/daily.json"),
+  preview: path.join(dataRoot, "generated/preview.json"),
+  runs: path.join(dataRoot, "runs"),
 };
 
 const [topicConfig, journalConfig, journalMetricConfig, storedScoringConfig, pushedState, publicationState, existingDaily] = await Promise.all([
@@ -84,16 +89,14 @@ function prepareSelection(currentRetrieval, preferredPmids = null) {
 
 let selection = prepareSelection(retrieval);
 const shouldExpandForComposition = scoringConfig.selectionPolicy?.expandForCompositionShortfall && !selection.compositionSatisfied;
-const priorityJournalTarget = scoringConfig.selectionPolicy?.priorityJournalTarget ?? 0;
-const shouldExpandForPriority = selection.summary.priorityJournals < priorityJournalTarget;
 let expansionReason = null;
-if (selection.journalImpactFactor.eligibleCount < scoringConfig.dailyLimit || shouldExpandForComposition || shouldExpandForPriority) {
+if (selection.journalImpactFactor.eligibleCount < scoringConfig.dailyLimit || shouldExpandForComposition) {
   expanded = true;
   actualDays = scoringConfig.expandedWindowDays;
   expansionReason = shouldExpandForComposition
     ? "composition-shortfall"
-    : shouldExpandForPriority ? "priority-journal-shortfall" : "article-count-shortfall";
-  console.log(`[2/6] The preferred ${scoringConfig.initialWindowDays}-day set does not meet the configured count, composition, or priority-journal target; expanding to ${actualDays} days...`);
+    : "article-count-shortfall";
+  console.log(`[2/6] The preferred ${scoringConfig.initialWindowDays}-day set does not meet the configured count or 4+1 composition target; expanding to ${actualDays} days...`);
   retrieval = await retrieve(actualDays);
   selection = prepareSelection(retrieval, preferredWindowPmids);
 } else {
@@ -135,6 +138,9 @@ function transition(pmid, status, detail = {}) {
 function validateGeneratedArticle(article) {
   const required = [article.pmid, article.originalTitle, article.title, article.journal, article.conclusion, article.whyItMatters, article.studyType, article.analysisBasis, article.urls?.pubmed];
   if (required.some(value => !value)) throw new Error(`PMID ${article.pmid || "unknown"} generated page data is incomplete`);
+  if (aiService && (article.analysisVersion !== 2 || !article.abstractTranslation?.fullText || !article.deepDive)) {
+    throw new Error(`PMID ${article.pmid} is missing required deep-reading V2 content`);
+  }
   if (aiService && (article.analysisStatus !== "ai_complete" || !article.qualityPassed)) throw new Error(`PMID ${article.pmid} has not passed AI validation`);
   return article;
 }

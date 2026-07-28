@@ -1,4 +1,5 @@
 export type Article = {
+  analysisVersion?: number;
   slug: string;
   number: string;
   category: string;
@@ -8,6 +9,11 @@ export type Article = {
   title: string;
   originalTitle: string;
   abstract?: string;
+  abstractTranslation?: {
+    sections: { heading: string | null; text: string }[];
+    fullText: string;
+    translatorNote: string;
+  } | null;
   authors: string;
   citation: string;
   doi: string;
@@ -36,6 +42,9 @@ export type Article = {
     metric: string;
     impactFactor: number | null;
     metricYear: number | null;
+    rankingMetricYear?: number | null;
+    maximumAgeYears?: number;
+    rankingComparable?: boolean;
     threshold: number;
     comparison: string;
     source: string | null;
@@ -61,6 +70,63 @@ export type Article = {
   pValue?: string[];
   adverseEvents?: string | null;
   aiAssessment?: { support: string; overinterpretationRisk: string };
+  deepDive?: {
+    sourceCoverage: { level: "abstract" | "full_text" | "full_text_excerpt"; limitations: string[] };
+    methodology: {
+      researchQuestion: string;
+      designFit: string;
+      eligibility: string;
+      randomization: string;
+      allocationConcealment: string;
+      blinding: string;
+      sampleSizePlanning: string;
+      followUp: string;
+      analysisPopulation: string;
+      missingData: string;
+      strengths: string[];
+      concerns: string[];
+    };
+    statistics: {
+      methods: {
+        referenceId: string | null;
+        name: string;
+        standardExplanation: string;
+        purposeInStudy: string;
+        reportedResult: string;
+        interpretation: string;
+        cautions: string[];
+      }[];
+      adjustedVariables: string;
+      multiplicity: string;
+      subgroupAnalysis: string;
+      clinicalVsStatisticalSignificance: string;
+    };
+    outcomeAnalysis: {
+      primary: string;
+      secondary: string[];
+      safety: string;
+      absoluteVsRelative: string;
+      subgroupAndInteraction: string;
+      sensitivity: string;
+    };
+    criticalAppraisal: {
+      strengths: string[];
+      limitations: string[];
+      biasRisks: string[];
+      certainty: string;
+      conclusionAlignment: string;
+      causalBoundary: string;
+    };
+    clinicalTranslation: {
+      applicability: string[];
+      nonApplicability: string[];
+      practiceChange: string;
+      canDoNow: string[];
+      cannotConclude: string[];
+      evidenceGaps: string[];
+      directClinicalRecommendation: boolean;
+    };
+  } | null;
   analysisBasis?: string;
   analysisStatus?: "ai_complete" | "metadata_only";
   aiModel?: string | null;

@@ -31,9 +31,8 @@
   "selectionPolicy": {
     "clinicalTarget": 4,
     "basicTarget": 1,
-    "priorityJournalTarget": 3,
-    "priorityJournalFirst": true,
+    "ranking": "impact-factor-desc",
     "expandForCompositionShortfall": true,
-    "allowBackfill": true
+    "allowBackfill": false
   }
 }

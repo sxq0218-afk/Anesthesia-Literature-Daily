@@ -13,7 +13,7 @@ if (edition?.mode !== "production" || !edition.articles?.length || edition.artic
 }
 
 const client = createButtondownClient(buttondownConfigFromEnv(env));
-const email = buildButtondownEmail(edition, { siteUrl: env.SITE_URL });
+const email = buildButtondownEmail(edition);
 const summaryFile = path.join(rootDir, "data/logs/latest-email-summary.json");
 async function recordExistingDelivery(existing) {
   await writeJsonAtomic(summaryFile, {
@@ -45,10 +45,10 @@ if (activeSubscribers > subscriberLimit) {
 
 let draft = existing;
 if (draft?.status === "draft") {
-  draft = await client.updateDraft(draft.id, { body: email.body, description: email.description, canonical_url: env.SITE_URL || "", slug: email.slug });
+  draft = await client.updateDraft(draft.id, { body: email.body, description: email.description, canonical_url: "", slug: email.slug });
 } else {
   try {
-    draft = await client.createDraft({ ...email, canonicalUrl: env.SITE_URL || "", metadata: { edition_id: email.editionId, source: "anesthesia-literature-daily" } });
+    draft = await client.createDraft({ ...email, canonicalUrl: "", metadata: { edition_id: email.editionId, source: "anesthesia-literature-daily" } });
   } catch (error) {
     // A timeout can occur after Buttondown accepted the POST. Recover by
     // looking up the unique subject before allowing a later rerun to create a

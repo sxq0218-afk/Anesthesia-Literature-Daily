@@ -10,7 +10,7 @@ export default function EditionView({ run, archive = false }: { run: DailyRun; a
     <section className="content-section"><div className="shell two-column">
       <div>
         <div className="issue-line"><span>检索与筛选状态</span><span>候选 {run.search.candidateCount} 篇 · 入选 {run.articles.length} 篇</span></div>
-        <p className="brief-intro">{searchWindowText(run)}。系统优先国际医学顶刊与麻醉学核心顶刊，并综合专业相关性、证据质量、临床影响、期刊质量和新颖性排序。{journalImpact ? `期刊影响因子必须严格大于 ${journalImpact.threshold}，未收录或无法核验影响因子的期刊不进入正式推荐。` : ""}扩展至半年仍不足5篇高质量文献时允许少于5篇，不使用无关文献凑数；已正式发布的文献不会重复推荐。</p>
+        <p className="brief-intro">{searchWindowText(run)}。所有候选先通过专业相关性、证据质量和最低综合评分，再分别选择影响因子最高的4篇临床证据与1篇基础研究。{journalImpact ? `期刊影响因子必须严格大于 ${journalImpact.threshold}，未收录或无法核验影响因子的期刊不进入正式推荐。` : ""}扩展至半年仍不足目标构成时允许少发，不跨类别补位、不使用无关文献凑数；已正式发布的文献不会重复推荐。</p>
         <div className="daily-list">{run.articles.map(article => <ArticleCard key={article.slug} article={article} />)}</div>
         <div className="disclaimer">医学声明：本期内容由真实PubMed元数据和当前统一AI模型生成并通过第二轮质量检查，仅供医学教育与学术交流，不能替代完整原文、机构规范或临床判断。</div>
       </div>

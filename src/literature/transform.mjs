@@ -83,8 +83,18 @@ export function toWebArticle(record, analysis, index) {
     comparison: extracted.comparison || synthesis.pico?.comparison || missingData,
     outcome: extracted.primary_outcome || synthesis.pico?.outcome || missingData,
   };
+  const deepDive = synthesis.deepDive
+    ? {
+        ...synthesis.deepDive,
+        statistics: enrichStatisticalMethods(synthesis.deepDive.statistics, `${record.abstract}\n${extracted.results || ""}`),
+      }
+    : null;
+  const expandedReadingLength = record.abstract.length
+    + String(analysis.abstractTranslation?.fullText || "").length
+    + JSON.stringify(deepDive || {}).length;
 
   return {
+    analysisVersion: deepDive ? 2 : 1,
     slug: `pmid-${record.pmid}`,
     number: String(index + 1).padStart(2, "0"),
     category: record.matchedGroups?.[0]?.label || "麻醉学",
@@ -92,10 +102,11 @@ export function toWebArticle(record, analysis, index) {
     year: firstYear(record.publicationDate),
     publishedDate: record.publicationDate,
     electronicPublicationDate: record.electronicPublicationDate,
-    readingTime: `${Math.max(5, Math.min(12, Math.round((record.abstract.length + 1800) / 600)))} 分钟`,
+    readingTime: `${Math.max(5, Math.min(25, Math.round((expandedReadingLength + 1800) / 600)))} 分钟`,
     title: synthesis.chineseTitle,
     originalTitle: record.title,
     abstract: record.abstract,
+    abstractTranslation: analysis.abstractTranslation || null,
     authors: record.authors.slice(0, 8).join(", ") + (record.authors.length > 8 ? ", et al." : ""),
     citation: record.citation || `${record.journal}. ${record.publicationDate}.`,
     doi: record.doi,
@@ -124,6 +135,7 @@ export function toWebArticle(record, analysis, index) {
     keyPoints: synthesis.keyPoints.slice(0, 5),
     methods: synthesis.background,
     results: synthesis.mainResults,
+    mainResults: synthesis.mainResults,
     limitations: synthesis.limitations,
     practice: synthesis.anesthesiaImplications,
     editor: `${synthesis.aiAssessment.support} 过度解读风险：${synthesis.aiAssessment.overinterpretationRisk}`,
@@ -138,6 +150,7 @@ export function toWebArticle(record, analysis, index) {
     pValue: extracted.p_value?.length ? extracted.p_value : [missingData],
     adverseEvents: extracted.adverse_events,
     aiAssessment: synthesis.aiAssessment,
+    deepDive,
     analysisBasis: analysis.basis,
     analysisStatus: analysis.model ? "ai_complete" : "metadata_only",
     aiModel: analysis.model,
@@ -151,3 +164,4 @@ export function toWebArticle(record, analysis, index) {
     },
   };
 }
+import { enrichStatisticalMethods } from "./statistics.mjs";

@@ -43,7 +43,7 @@ if (projectedMonthlyCost > monthlyCostLimit) {
   await saveSubscriberState(stateFile, state, secret);
   throw new Error(`Projected monthly email cost exceeds EMAIL_MONTHLY_COST_LIMIT_CNY ${monthlyCostLimit}. No email was sent.`);
 }
-const templateData = editionTemplateData(edition, { siteUrl: env.SITE_URL });
+const templateData = editionTemplateData(edition);
 const failures = [];
 for (const subscriber of active) {
   try {

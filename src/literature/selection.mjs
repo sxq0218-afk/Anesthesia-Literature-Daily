@@ -9,9 +9,12 @@ const CLINICAL_TYPES = [
 ];
 
 const BASIC_TYPES = ["Preclinical Study", "In Vitro", "Animal Study"];
+const CLINICAL_EVIDENCE_TYPES = [
+  "Systematic Review", "Meta-Analysis", "Guideline", "Practice Guideline",
+  "Consensus Development Conference",
+];
 const NON_PRIMARY_TYPES = [
-  "Review", "Systematic Review", "Meta-Analysis", "Editorial", "Comment", "Letter", "Guideline",
-  "Practice Guideline", "Consensus Development Conference", "News", "Biography", "Historical Article",
+  "Review", "Editorial", "Comment", "Letter", "News", "Biography", "Historical Article",
 ];
 const BASIC_FOCUS_TERMS = [
   "anesthesia", "anaesthesia", "anesthetic", "anaesthetic", "propofol", "sevoflurane", "isoflurane",
@@ -29,6 +32,7 @@ export function classifyResearchCategory(record) {
   const hasAnimals = /(^|\W)animals?(\W|$)/i.test(mesh);
   const basicSignals = BASIC_TERMS.filter(term => text.includes(term) || mesh.includes(term)).length;
   const clinicalType = types.some(type => CLINICAL_TYPES.some(value => type.toLowerCase().includes(value.toLowerCase())));
+  const clinicalEvidenceType = types.some(type => CLINICAL_EVIDENCE_TYPES.some(value => type.toLowerCase() === value.toLowerCase()));
   const basicType = types.some(type => BASIC_TYPES.some(value => type.toLowerCase().includes(value.toLowerCase())));
   const nonPrimaryType = types.some(type => NON_PRIMARY_TYPES.some(value => type.toLowerCase() === value.toLowerCase()));
   const patientSignal = /\b(patient|patients|participants|volunteers|subjects|cohort)\b/i.test(text);
@@ -36,32 +40,40 @@ export function classifyResearchCategory(record) {
   const clinicalDesignSignal = CLINICAL_DESIGN_PATTERN.test(text);
   const isProtocol = /\b(protocol|study protocol)\b/i.test(record.title) || types.some(type => /protocol/i.test(type));
 
-  if (basicType || (hasAnimals && !hasHumans) || (explicitAnimalModel && !hasHumans && !patientSignal) || (basicSignals >= 2 && !clinicalType && !patientSignal)) {
+  if (isProtocol) return { id: "other", label: "综述/方法/其他" };
+  if (basicType || (hasAnimals && !hasHumans) || (explicitAnimalModel && !hasHumans && !patientSignal)) {
     return { id: "basic", label: "基础研究" };
   }
-  if (isProtocol) return { id: "other", label: "综述/方法/其他" };
+  if (clinicalEvidenceType) return { id: "clinical", label: "临床证据" };
+  if (basicSignals >= 2 && !clinicalType && !patientSignal) return { id: "basic", label: "基础研究" };
   if (nonPrimaryType && !clinicalType) return { id: "other", label: "综述/方法/其他" };
-  if (clinicalType || clinicalDesignSignal || (hasHumans && patientSignal)) return { id: "clinical", label: "临床研究" };
+  if (clinicalType || clinicalDesignSignal || (hasHumans && patientSignal)) return { id: "clinical", label: "临床证据" };
   return { id: "other", label: "综述/方法/其他" };
 }
 
-function compareCandidates(left, right, priorityFirst) {
-  const preferredWindowDifference = Number(Boolean(right.preferredWindow)) - Number(Boolean(left.preferredWindow));
-  if (preferredWindowDifference) return preferredWindowDifference;
-  if (priorityFirst) {
-    const priorityDifference = (right.journalTier?.priorityRank || 0) - (left.journalTier?.priorityRank || 0);
-    if (priorityDifference) return priorityDifference;
-  }
-  return right.score - left.score;
+function publicationTime(record) {
+  const value = Date.parse(record.publicationDate || record.electronicPublicationDate || "");
+  return Number.isFinite(value) ? value : 0;
+}
+
+export function compareCandidates(left, right) {
+  const impactFactorDifference = Number(right.journalMetric?.impactFactor || 0) - Number(left.journalMetric?.impactFactor || 0);
+  if (impactFactorDifference) return impactFactorDifference;
+  const scoreDifference = Number(right.score || 0) - Number(left.score || 0);
+  if (scoreDifference) return scoreDifference;
+  const evidenceDifference = Number(right.scoreBreakdown?.evidenceQuality || 0) - Number(left.scoreBreakdown?.evidenceQuality || 0);
+  if (evidenceDifference) return evidenceDifference;
+  const dateDifference = publicationTime(right) - publicationTime(left);
+  if (dateDifference) return dateDifference;
+  return String(left.pmid || "").localeCompare(String(right.pmid || ""));
 }
 
 export function selectDailyArticles(records, scoringConfig) {
   const policy = scoringConfig.selectionPolicy || {};
-  const priorityFirst = policy.priorityJournalFirst !== false;
   const ranked = records
     .map(record => ({ ...record, researchCategory: classifyResearchCategory(record) }))
     .filter(record => record.researchCategory.id !== "basic" || BASIC_FOCUS_TERMS.some(term => record.title.toLowerCase().includes(term)))
-    .sort((a, b) => compareCandidates(a, b, priorityFirst));
+    .sort(compareCandidates);
   const selected = [];
   const selectedPmids = new Set();
 
@@ -78,17 +90,7 @@ export function selectDailyArticles(records, scoringConfig) {
   take("clinical", policy.clinicalTarget ?? 4);
   take("basic", policy.basicTarget ?? 1);
 
-  if (policy.allowBackfill !== false) {
-    for (const record of ranked) {
-      if (selected.length >= scoringConfig.dailyLimit) break;
-      if (!selectedPmids.has(record.pmid)) {
-        selected.push(record);
-        selectedPmids.add(record.pmid);
-      }
-    }
-  }
-
-  selected.sort((a, b) => compareCandidates(a, b, priorityFirst));
+  selected.sort(compareCandidates);
   const summary = {
     clinical: selected.filter(record => record.researchCategory.id === "clinical").length,
     basic: selected.filter(record => record.researchCategory.id === "basic").length,

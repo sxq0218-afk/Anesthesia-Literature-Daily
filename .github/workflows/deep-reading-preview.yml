@@ -1,0 +1,79 @@
+name: 精读V2安全预览
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: anesthesia-literature-deep-reading-preview
+  cancel-in-progress: true
+
+jobs:
+  generate-preview:
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      LITERATURE_MODE: production
+      DEPLOY_ENV: preview
+      LITERATURE_DATA_ROOT: data/sandbox
+      AI_PROVIDER: ${{ vars.AI_PROVIDER || 'deepseek' }}
+      AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://api.deepseek.com' }}
+      AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-chat' }}
+      AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE || '0.1' }}
+      AI_MAX_TOKENS: "7000"
+      AI_TIMEOUT: ${{ vars.AI_TIMEOUT || '90000' }}
+      AI_RETRY_COUNT: ${{ vars.AI_RETRY_COUNT || '1' }}
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+      NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+      NCBI_TOOL: anesthesia_literature_daily_preview
+      CROSSREF_MAILTO: ${{ vars.NCBI_EMAIL }}
+      DAILY_ARTICLE_COUNT: "5"
+      DAILY_CANDIDATE_LIMIT: ${{ vars.DAILY_CANDIDATE_LIMIT || '120' }}
+      DAILY_AI_CALL_LIMIT: ${{ vars.DAILY_AI_CALL_LIMIT || '50' }}
+      DAILY_TOKEN_LIMIT: ${{ vars.DAILY_TOKEN_LIMIT || '500000' }}
+      DAILY_MAX_INPUT_CHARS: ${{ vars.DAILY_MAX_INPUT_CHARS || '60000' }}
+
+    steps:
+      - name: 读取当前开发分支
+        uses: actions/checkout@v4
+
+      - name: 使用标准Node运行器
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.17.1"
+          cache: npm
+
+      - name: 安装锁定依赖
+        run: npm ci --ignore-scripts
+
+      - name: 运行文献和邮件测试
+        run: npm run test:literature && npm run test:email
+
+      - name: 初始化隔离历史
+        run: |
+          mkdir -p data/sandbox/state data/sandbox/generated artifacts
+          cp data/state/pushed.json data/sandbox/state/pushed.json
+          cp data/state/publication-status.json data/sandbox/state/publication-status.json
+
+      - name: 生成真实数据精读预览
+        run: npm run literature:daily
+
+      - name: 生成完整邮件HTML预览
+        run: node scripts/build-email-preview.mjs --input data/sandbox/generated/daily.json --output artifacts/deep-reading-v2-email.html
+
+      - name: 保存预览产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: deep-reading-v2-preview
+          path: |
+            data/sandbox/generated/daily.json
+            artifacts/deep-reading-v2-email.html
+          if-no-files-found: error
+          retention-days: 7

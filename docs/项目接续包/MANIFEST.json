@@ -3,7 +3,7 @@
   "englishName": "Anesthesia Literature Daily",
   "repository": "sxq0218-afk/Anesthesia-Literature-Daily",
   "defaultBranch": "main",
-  "generatedAt": "2026-07-23",
+  "generatedAt": "2026-07-27",
   "continuationEntry": "docs/项目接续包/README.md",
   "resumePrompt": "docs/项目接续包/RESUME_PROMPT.md",
   "runtime": {
@@ -23,9 +23,13 @@
     "dailyMaximum": 5,
     "clinicalTarget": 4,
     "basicTarget": 1,
-    "priorityJournalTarget": 3,
+    "clinicalIncludes": ["clinical-original", "systematic-review", "meta-analysis", "guideline", "consensus"],
+    "ranking": "impact-factor-desc",
+    "crossCategoryBackfill": false,
     "minimumScore": 45,
     "minimumImpactFactorExclusive": 5,
+    "impactFactorRankingMetricYear": 2025,
+    "maximumImpactFactorAgeYears": 1,
     "titleSimilarityThreshold": 0.88,
     "permanentHistoryStatus": "published"
   },

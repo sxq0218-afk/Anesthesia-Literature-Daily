@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   test-connection:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
@@ -24,10 +25,10 @@ jobs:
       AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://api.deepseek.com' }}
       AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-chat' }}
       AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE || '0.1' }}
-      AI_MAX_TOKENS: ${{ vars.AI_MAX_TOKENS || '5000' }}
+      AI_MAX_TOKENS: "7000"
       AI_TIMEOUT: ${{ vars.AI_TIMEOUT || '90000' }}
       AI_RETRY_COUNT: ${{ vars.AI_RETRY_COUNT || '1' }}
-      DAILY_AI_CALL_LIMIT: ${{ vars.DAILY_AI_CALL_LIMIT || '30' }}
+      DAILY_AI_CALL_LIMIT: ${{ vars.DAILY_AI_CALL_LIMIT || '50' }}
       DAILY_TOKEN_LIMIT: ${{ vars.DAILY_TOKEN_LIMIT || '500000' }}
       DAILY_MAX_INPUT_CHARS: ${{ vars.DAILY_MAX_INPUT_CHARS || '60000' }}
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
