@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - codex/deep-reading-v2
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -15,7 +18,7 @@ concurrency:
 
 jobs:
   generate-preview:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[deep-preview]')
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'pull_request' || contains(github.event.head_commit.message, '[deep-preview]')
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
