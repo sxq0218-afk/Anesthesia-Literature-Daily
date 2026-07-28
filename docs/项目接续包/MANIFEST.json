@@ -20,6 +20,7 @@
   "selection": {
     "preferredWindowDays": 30,
     "expandedWindowDays": 180,
+    "maximumWindowDays": 360,
     "dailyMaximum": 5,
     "clinicalTarget": 4,
     "basicTarget": 1,
