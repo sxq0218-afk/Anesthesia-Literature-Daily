@@ -23,7 +23,10 @@
     "Case Reports": 5
   },
   "titleSimilarityThreshold": 0.88,
-  "candidateLimit": 120,
+  "candidateLimit": 2000,
+  "candidatePageSize": 200,
+  "journalAuditLimit": 300,
+  "pubmedFetchBatchSize": 150,
   "dailyLimit": 5,
   "minimumSelectionScore": 45,
   "initialWindowDays": 30,
