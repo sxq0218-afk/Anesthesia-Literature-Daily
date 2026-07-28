@@ -6,7 +6,7 @@ import { enrichPmc } from "../src/literature/pmc.mjs";
 import { enrichFromCrossref } from "../src/literature/crossref.mjs";
 import { deduplicate, formalPublicationHistory } from "../src/literature/dedupe.mjs";
 import { scoreArticle } from "../src/literature/scoring.mjs";
-import { screenByJournalImpactFactor } from "../src/literature/journal-metrics.mjs";
+import { screenByJournalImpactFactor, summarizeJournalAudit } from "../src/literature/journal-metrics.mjs";
 import { selectDailyArticles } from "../src/literature/selection.mjs";
 import { configuredSearchWindows, selectionNeedsExpansion } from "../src/literature/window-policy.mjs";
 import { metadataOnlyAnalysis, toWebArticle } from "../src/literature/transform.mjs";
@@ -18,6 +18,7 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const args = new Set(process.argv.slice(2));
 const metadataOnly = args.has("--metadata-only");
 const ignoreHistory = args.has("--ignore-history");
+const auditMaximumWindow = args.has("--audit-maximum-window");
 const force = args.has("--force");
 const env = loadEnv(rootDir);
 const configuredDataRoot = String(env.LITERATURE_DATA_ROOT || "data");
@@ -45,7 +46,10 @@ const [topicConfig, journalConfig, journalMetricConfig, storedScoringConfig, pus
 ]);
 const scoringConfig = {
   ...storedScoringConfig,
-  candidateLimit: Number(env.DAILY_CANDIDATE_LIMIT || storedScoringConfig.candidateLimit),
+  candidateLimit: Number(env.DAILY_MAX_CANDIDATES || storedScoringConfig.candidateLimit),
+  candidatePageSize: Number(env.DAILY_CANDIDATE_PAGE_SIZE || storedScoringConfig.candidatePageSize || 200),
+  journalAuditLimit: Number(env.DAILY_JOURNAL_AUDIT_LIMIT || storedScoringConfig.journalAuditLimit || 300),
+  pubmedFetchBatchSize: Number(env.PUBMED_FETCH_BATCH_SIZE || storedScoringConfig.pubmedFetchBatchSize || 150),
   dailyLimit: Math.min(5, Number(env.DAILY_ARTICLE_COUNT || storedScoringConfig.dailyLimit)),
 };
 
@@ -64,14 +68,47 @@ if (!metadataOnly && !aiSettings.apiKey) {
 }
 
 const history = ignoreHistory ? [] : formalPublicationHistory(pushedState.records || []);
-async function retrieve(days) {
-  const search = await searchPubMed({ topicConfig, journalConfig, days, limit: scoringConfig.candidateLimit, env });
-  const records = await fetchPubMedRecords({ ids: search.ids, env });
-  const unique = deduplicate(records, history, scoringConfig.titleSimilarityThreshold);
-  return { search, records, unique };
+const recordCache = new Map();
+
+async function cachedPubMedRecords(ids) {
+  const missingIds = ids.filter(id => !recordCache.has(id));
+  if (missingIds.length) {
+    const fetched = await fetchPubMedRecords({
+      ids: missingIds,
+      env,
+      batchSize: scoringConfig.pubmedFetchBatchSize,
+    });
+    for (const record of fetched) recordCache.set(record.pmid, record);
+  }
+  return ids.map(id => recordCache.get(id)).filter(Boolean);
 }
 
-const searchWindows = configuredSearchWindows(scoringConfig);
+async function retrieve(days) {
+  const search = await searchPubMed({
+    topicConfig,
+    journalMetricConfig,
+    days,
+    limit: scoringConfig.candidateLimit,
+    pageSize: scoringConfig.candidatePageSize,
+    auditLimit: scoringConfig.journalAuditLimit,
+    env,
+  });
+  const records = await cachedPubMedRecords(search.ids);
+  const auditRecords = await cachedPubMedRecords(search.auditIds);
+  const unique = deduplicate(records, history, scoringConfig.titleSimilarityThreshold);
+  return {
+    search,
+    records,
+    auditRecords,
+    journalAudit: summarizeJournalAudit(auditRecords, journalMetricConfig),
+    unique,
+  };
+}
+
+const configuredWindows = configuredSearchWindows(scoringConfig);
+const searchWindows = auditMaximumWindow
+  ? [configuredWindows.at(-1)]
+  : configuredWindows;
 console.log(`[1/6] Searching PubMed for the preferred ${searchWindows[0]}-day window...`);
 let retrieval = await retrieve(searchWindows[0]);
 const preferredWindowPmids = new Set(retrieval.unique.accepted.map(record => record.pmid));
@@ -192,7 +229,9 @@ const from = new Date(now.getTime() - actualDays * 86400000).toISOString();
 const runId = to.replaceAll(":", "-");
 const runFile = path.join(files.runs, `${runId}.json`);
 const searchSummary = {
-  initialDays: scoringConfig.initialWindowDays,
+  initialDays: searchWindows[0],
+  configuredWindows,
+  auditMaximumWindow,
   actualDays,
   expanded,
   expansionReason,
@@ -200,13 +239,24 @@ const searchSummary = {
   from,
   to,
   candidateCount: retrieval.records.length,
+  discoveryCandidateCount: retrieval.search.count,
   unseenCount: retrieval.unique.accepted.length,
   duplicateCount: retrieval.unique.removed.length,
   queryTranslation: retrieval.search.queryTranslation,
   priorityQueryTranslation: retrieval.search.priorityQueryTranslation,
   priorityCandidateCount: retrieval.search.priorityCount,
+  eligibleJournalRetrieval: {
+    matchedCount: retrieval.search.priorityCount,
+    retrievedCount: retrieval.search.retrievedCount,
+    complete: retrieval.search.complete,
+    truncatedCount: retrieval.search.truncatedCount,
+    maximumCandidates: scoringConfig.candidateLimit,
+    pageSize: scoringConfig.candidatePageSize,
+  },
+  journalAudit: retrieval.journalAudit,
   journalImpactFactor: selection.journalImpactFactor,
   selectionPolicy: scoringConfig.selectionPolicy,
+  candidatePool: selection.candidatePool,
   selectionSummary: selection.summary,
   compositionSatisfied: selection.compositionSatisfied,
 };
