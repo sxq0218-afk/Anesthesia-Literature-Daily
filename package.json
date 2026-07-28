@@ -16,6 +16,7 @@
     "test:literature": "node --test src/literature/*.test.mjs src/llm/*.test.mjs",
     "literature:daily": "node scripts/run-daily.mjs",
     "literature:fetch": "node scripts/run-daily.mjs --metadata-only --ignore-history",
+    "literature:audit-360": "node scripts/run-daily.mjs --metadata-only --ignore-history --audit-maximum-window",
     "email:process": "node scripts/process-subscription-inbox.mjs",
     "email:send-daily": "node scripts/send-email-provider.mjs",
     "email:test-connection": "node scripts/test-email-connection.mjs",
