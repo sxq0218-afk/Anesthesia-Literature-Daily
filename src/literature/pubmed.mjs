@@ -1,4 +1,5 @@
 import { fetchJson, fetchText } from "../lib/http.mjs";
+import { eligibleJournalEntries } from "./journal-metrics.mjs";
 
 const BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils";
 
@@ -18,19 +19,26 @@ export function buildPubMedQuery(topicConfig) {
   return `(${topicExpression}) AND hasabstract[text]`;
 }
 
-export function buildPriorityJournalQuery(topicConfig, journalConfig) {
-  const journals = journalConfig.tiers.flatMap(tier => tier.journals);
+function journalQuery(topicConfig, journals) {
   const journalExpression = [...new Set(journals)]
     .map(journal => `"${journal.replaceAll('"', '')}"[Journal]`)
     .join(" OR ");
   return `${buildPubMedQuery(topicConfig)} AND (${journalExpression})`;
 }
 
-async function searchOnce({ term, days, limit, env }) {
+export function buildEligibleJournalQuery(topicConfig, journalMetricConfig) {
+  const journals = eligibleJournalEntries(journalMetricConfig)
+    .flatMap(entry => [entry.name, ...(entry.aliases || [])]);
+  if (!journals.length) throw new Error("No current Journal Impact Factor >5 journals are configured.");
+  return journalQuery(topicConfig, journals);
+}
+
+async function searchOnce({ term, days, limit, offset = 0, env }) {
   const params = paramsWithIdentity({
     db: "pubmed",
     retmode: "json",
     retmax: String(limit),
+    retstart: String(offset),
     sort: "pub date",
     datetype: "pdat",
     reldate: String(days),
@@ -44,20 +52,61 @@ async function searchOnce({ term, days, limit, env }) {
   };
 }
 
-export async function searchPubMed({ topicConfig, journalConfig, days, limit, env }) {
+async function searchAll({ term, days, limit, pageSize, env }) {
+  const ids = [];
+  let count = 0;
+  let queryTranslation = "";
+  const size = Math.max(1, Math.min(Number(pageSize) || 200, 500));
+
+  while (ids.length < limit) {
+    const page = await searchOnce({
+      term,
+      days,
+      limit: Math.min(size, limit - ids.length),
+      offset: ids.length,
+      env,
+    });
+    count = page.count;
+    queryTranslation ||= page.queryTranslation;
+    ids.push(...page.ids);
+    if (!page.ids.length || ids.length >= count) break;
+    await new Promise(resolve => setTimeout(resolve, env.NCBI_API_KEY ? 120 : 350));
+  }
+
+  return {
+    ids: [...new Set(ids)],
+    count,
+    queryTranslation,
+    complete: ids.length >= count,
+    truncatedCount: Math.max(0, count - ids.length),
+  };
+}
+
+export async function searchPubMed({
+  topicConfig,
+  journalMetricConfig,
+  days,
+  limit,
+  pageSize = 200,
+  auditLimit = 300,
+  env,
+}) {
   const baseQuery = buildPubMedQuery(topicConfig);
-  const priorityQuery = journalConfig ? buildPriorityJournalQuery(topicConfig, journalConfig) : null;
-  const priorityLimit = Math.min(60, limit);
-  const [base, priority] = await Promise.all([
-    searchOnce({ term: baseQuery, days, limit, env }),
-    priorityQuery ? searchOnce({ term: priorityQuery, days, limit: priorityLimit, env }) : Promise.resolve({ ids: [], count: 0, queryTranslation: "" }),
+  const eligibleQuery = buildEligibleJournalQuery(topicConfig, journalMetricConfig);
+  const [discovery, eligible] = await Promise.all([
+    searchOnce({ term: baseQuery, days, limit: auditLimit, env }),
+    searchAll({ term: eligibleQuery, days, limit, pageSize, env }),
   ]);
   return {
-    ids: [...new Set([...priority.ids, ...base.ids])].slice(0, limit),
-    count: base.count,
-    priorityCount: priority.count,
-    queryTranslation: base.queryTranslation,
-    priorityQueryTranslation: priority.queryTranslation,
+    ids: eligible.ids,
+    auditIds: discovery.ids,
+    count: discovery.count,
+    priorityCount: eligible.count,
+    retrievedCount: eligible.ids.length,
+    complete: eligible.complete,
+    truncatedCount: eligible.truncatedCount,
+    queryTranslation: discovery.queryTranslation,
+    priorityQueryTranslation: eligible.queryTranslation,
   };
 }
 
@@ -149,15 +198,23 @@ export function parseMedline(text) {
   });
 }
 
-export async function fetchPubMedRecords({ ids, env }) {
+export async function fetchPubMedRecords({ ids, env, batchSize = 150 }) {
   if (!ids.length) return [];
-  const params = paramsWithIdentity({
-    db: "pubmed",
-    id: ids.join(","),
-    rettype: "medline",
-    retmode: "text",
-  }, env);
-  return parseMedline(await fetchText(`${BASE_URL}/efetch.fcgi?${params}`));
+  const records = [];
+  const size = Math.max(1, Math.min(Number(batchSize) || 150, 200));
+  for (let offset = 0; offset < ids.length; offset += size) {
+    const params = paramsWithIdentity({
+      db: "pubmed",
+      id: ids.slice(offset, offset + size).join(","),
+      rettype: "medline",
+      retmode: "text",
+    }, env);
+    records.push(...parseMedline(await fetchText(`${BASE_URL}/efetch.fcgi?${params}`)));
+    if (offset + size < ids.length) {
+      await new Promise(resolve => setTimeout(resolve, env.NCBI_API_KEY ? 120 : 350));
+    }
+  }
+  return records;
 }
 
 export async function fetchPmcFullText({ pmcid, env }) {

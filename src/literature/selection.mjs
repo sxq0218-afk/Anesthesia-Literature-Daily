@@ -1,6 +1,7 @@
 const BASIC_TERMS = [
   "animal", "animals", "mice", "mouse", "murine", "rat", "rats", "rabbit", "rabbits", "swine", "porcine",
-  "in vitro", "cell culture", "cells", "molecular", "receptor", "pathway", "mechanism", "neurotoxicity", "nociception",
+  "in vitro", "ex vivo", "cell culture", "cells", "organoid", "tissue", "molecular", "receptor", "pathway",
+  "mechanism", "neurotoxicity", "nociception", "knockout", "gene expression",
 ];
 
 const CLINICAL_TYPES = [
@@ -16,12 +17,7 @@ const CLINICAL_EVIDENCE_TYPES = [
 const NON_PRIMARY_TYPES = [
   "Review", "Editorial", "Comment", "Letter", "News", "Biography", "Historical Article",
 ];
-const BASIC_FOCUS_TERMS = [
-  "anesthesia", "anaesthesia", "anesthetic", "anaesthetic", "propofol", "sevoflurane", "isoflurane",
-  "desflurane", "ketamine", "dexmedetomidine", "local anesthetic", "local anaesthetic", "nociception",
-  "pain mechanism", "analgesia", "analgesic",
-];
-const ANIMAL_MODEL_PATTERN = /\b(mice|mouse|murine|rats?|rabbits?|swine|porcine|canine|dogs?|nonhuman primates?)\b/i;
+const ANIMAL_MODEL_PATTERN = /\b(mice|mouse|murine|rats?|rabbits?|swine|porcine|canine|dogs?|nonhuman primates?|zebrafish)\b/i;
 const CLINICAL_DESIGN_PATTERN = /\b(randomi[sz]ed|clinical trial|controlled trial|cohort|case-control|prospective|retrospective|multicent(?:er|re)|patients?|participants?|volunteers?|adults?|children|infants?|neonates?)\b/i;
 
 export function classifyResearchCategory(record) {
@@ -40,15 +36,19 @@ export function classifyResearchCategory(record) {
   const clinicalDesignSignal = CLINICAL_DESIGN_PATTERN.test(text);
   const isProtocol = /\b(protocol|study protocol)\b/i.test(record.title) || types.some(type => /protocol/i.test(type));
 
-  if (isProtocol) return { id: "other", label: "综述/方法/其他" };
+  if (isProtocol) return { id: "other", label: "综述/方法/其他", reason: "protocol" };
   if (basicType || (hasAnimals && !hasHumans) || (explicitAnimalModel && !hasHumans && !patientSignal)) {
-    return { id: "basic", label: "基础研究" };
+    return { id: "basic", label: "基础研究", reason: basicType ? "publication-type" : "non-human-model" };
   }
-  if (clinicalEvidenceType) return { id: "clinical", label: "临床证据" };
-  if (basicSignals >= 2 && !clinicalType && !patientSignal) return { id: "basic", label: "基础研究" };
-  if (nonPrimaryType && !clinicalType) return { id: "other", label: "综述/方法/其他" };
-  if (clinicalType || clinicalDesignSignal || (hasHumans && patientSignal)) return { id: "clinical", label: "临床证据" };
-  return { id: "other", label: "综述/方法/其他" };
+  if (clinicalEvidenceType) return { id: "clinical", label: "临床证据", reason: "clinical-evidence-publication-type" };
+  if (basicSignals >= 2 && !hasHumans && !clinicalType && !clinicalDesignSignal && !patientSignal) {
+    return { id: "basic", label: "基础研究", reason: "mechanistic-non-human-signals" };
+  }
+  if (nonPrimaryType && !clinicalType) return { id: "other", label: "综述/方法/其他", reason: "non-primary-publication-type" };
+  if (clinicalType || clinicalDesignSignal || hasHumans) {
+    return { id: "clinical", label: "临床证据", reason: hasHumans ? "human-study" : "clinical-design" };
+  }
+  return { id: "other", label: "综述/方法/其他", reason: "insufficient-category-evidence" };
 }
 
 function publicationTime(record) {
@@ -72,7 +72,6 @@ export function selectDailyArticles(records, scoringConfig) {
   const policy = scoringConfig.selectionPolicy || {};
   const ranked = records
     .map(record => ({ ...record, researchCategory: classifyResearchCategory(record) }))
-    .filter(record => record.researchCategory.id !== "basic" || BASIC_FOCUS_TERMS.some(term => record.title.toLowerCase().includes(term)))
     .sort(compareCandidates);
   const selected = [];
   const selectedPmids = new Set();
@@ -97,9 +96,15 @@ export function selectDailyArticles(records, scoringConfig) {
     other: selected.filter(record => record.researchCategory.id === "other").length,
     priorityJournals: selected.filter(record => (record.journalTier?.priorityRank || 0) > 0).length,
   };
+  const candidatePool = {
+    total: ranked.length,
+    clinical: ranked.filter(record => record.researchCategory.id === "clinical").length,
+    basic: ranked.filter(record => record.researchCategory.id === "basic").length,
+    other: ranked.filter(record => record.researchCategory.id === "other").length,
+  };
   const compositionSatisfied = selected.length >= scoringConfig.dailyLimit
     && summary.clinical >= (policy.clinicalTarget ?? 4)
     && summary.basic >= (policy.basicTarget ?? 1);
 
-  return { selected: selected.slice(0, scoringConfig.dailyLimit), ranked, summary, compositionSatisfied };
+  return { selected: selected.slice(0, scoringConfig.dailyLimit), ranked, summary, candidatePool, compositionSatisfied };
 }

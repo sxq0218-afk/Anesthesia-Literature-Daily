@@ -4,7 +4,7 @@
   "minimumImpactFactor": 5,
   "comparison": "greater-than",
   "unknownPolicy": "exclude",
-  "verifiedAt": "2026-07-27",
+  "verifiedAt": "2026-07-28",
   "rankingPolicy": {
     "metricYear": 2025,
     "maximumAgeYears": 1,
@@ -51,6 +51,34 @@
       "impactFactor": 52.5,
       "metricYear": 2025,
       "source": "https://www.nature.com/nm/journal-impact"
+    },
+    {
+      "name": "Nature",
+      "aliases": [],
+      "impactFactor": 56.1,
+      "metricYear": 2025,
+      "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics"
+    },
+    {
+      "name": "Nature Communications",
+      "aliases": ["Nat Commun"],
+      "impactFactor": 18.1,
+      "metricYear": 2025,
+      "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics"
+    },
+    {
+      "name": "Nature Neuroscience",
+      "aliases": ["Nat Neurosci"],
+      "impactFactor": 20.3,
+      "metricYear": 2025,
+      "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics"
+    },
+    {
+      "name": "Neuropsychopharmacology",
+      "aliases": ["Neuropsychopharmacology (New York, N.Y.)", "Neuropsychopharmacol"],
+      "impactFactor": 7.6,
+      "metricYear": 2025,
+      "source": "https://www.nature.com/npp/journal-information"
     },
     {
       "name": "JAMA Network Open",

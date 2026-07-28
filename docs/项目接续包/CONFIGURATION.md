@@ -60,7 +60,10 @@
 | `AI_TIMEOUT` | 当前默认`90000` |
 | `AI_RETRY_COUNT` | 当前默认`1` |
 | `DAILY_ARTICLE_COUNT` | 最大`5` |
-| `DAILY_CANDIDATE_LIMIT` | 当前默认`120` |
+| `DAILY_MAX_CANDIDATES` | 当前默认`2000`，仅作为异常保护上限 |
+| `DAILY_CANDIDATE_PAGE_SIZE` | 当前默认`200` |
+| `DAILY_JOURNAL_AUDIT_LIMIT` | 当前默认`300` |
+| `PUBMED_FETCH_BATCH_SIZE` | 当前默认`150` |
 | `DAILY_AI_CALL_LIMIT` | 精读V2当前默认`50` |
 | `DAILY_TOKEN_LIMIT` | 当前默认`500000` |
 | `DAILY_MAX_INPUT_CHARS` | 当前默认`60000` |
@@ -89,10 +92,13 @@
   - `expandedWindowDays`
   - `maximumWindowDays`
 - 每日数量：`dailyLimit`或GitHub Variable `DAILY_ARTICLE_COUNT`
-- 候选上限：`candidateLimit`或`DAILY_CANDIDATE_LIMIT`
+- 分页候选安全上限：`candidateLimit`或`DAILY_MAX_CANDIDATES`
+- PubMed分页与期刊审计：`candidatePageSize`、`journalAuditLimit`、`pubmedFetchBatchSize`
 - 关键词：`config/topics.json`
 - 期刊优先级：`config/journals.json`
 - 影响因子：`config/journal-metrics.json`。只有严格大于5且处于允许年份范围内的期刊可以进入排序池；修改数值时必须同时记录指标年份、来源和核验日期。
 - 研究构成：`config/scoring.json`的`selectionPolicy`
+
+正式选文只从已核验且当前JIF严格大于5的期刊中分页检索。宽主题检索仅用于内部发现未配置、未知或过期的期刊指标，不会把未核验期刊混入正式推送。可用`npm run literature:audit-360`执行无邮件、无AI、忽略历史的360天审计。
 
 改JSON时必须保持合法引号、逗号和括号，并运行`npm run test:literature`。

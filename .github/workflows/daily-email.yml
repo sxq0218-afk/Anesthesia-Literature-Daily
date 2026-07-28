@@ -17,7 +17,7 @@ jobs:
   generate-and-email:
     if: github.ref == 'refs/heads/main' && vars.EMAIL_DELIVERY_ENABLED == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     env:
       LITERATURE_MODE: production
       DEPLOY_ENV: email-production
@@ -34,7 +34,10 @@ jobs:
       NCBI_TOOL: anesthesia_literature_daily
       CROSSREF_MAILTO: ${{ vars.NCBI_EMAIL }}
       DAILY_ARTICLE_COUNT: ${{ vars.DAILY_ARTICLE_COUNT || '5' }}
-      DAILY_CANDIDATE_LIMIT: ${{ vars.DAILY_CANDIDATE_LIMIT || '120' }}
+      DAILY_MAX_CANDIDATES: ${{ vars.DAILY_MAX_CANDIDATES || '2000' }}
+      DAILY_CANDIDATE_PAGE_SIZE: ${{ vars.DAILY_CANDIDATE_PAGE_SIZE || '200' }}
+      DAILY_JOURNAL_AUDIT_LIMIT: ${{ vars.DAILY_JOURNAL_AUDIT_LIMIT || '300' }}
+      PUBMED_FETCH_BATCH_SIZE: ${{ vars.PUBMED_FETCH_BATCH_SIZE || '150' }}
       DAILY_AI_CALL_LIMIT: ${{ vars.DAILY_AI_CALL_LIMIT || '50' }}
       DAILY_TOKEN_LIMIT: ${{ vars.DAILY_TOKEN_LIMIT || '500000' }}
       DAILY_MAX_INPUT_CHARS: ${{ vars.DAILY_MAX_INPUT_CHARS || '60000' }}
