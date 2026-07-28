@@ -3,8 +3,13 @@ function includesAny(text, terms) {
   return terms.filter(term => haystack.includes(term.toLowerCase()));
 }
 
+const DIRECT_ANESTHESIA_CONTEXT = /\b(an(?:a)?esthes(?:ia|iology|tic)|perioperative|intraoperative|postoperative|airway management|difficult airway|endotracheal intubation|regional an(?:a)?esthesia|nerve block|nociception)\b/i;
+
 function scoreRelevance(record, topicConfig, maxScore) {
   const text = `${record.title} ${record.abstract} ${(record.meshTerms || []).join(" ")}`;
+  const titleTerms = topicConfig.groups.flatMap(group => group.terms);
+  const directlyRelevant = includesAny(record.title, titleTerms).length > 0
+    || DIRECT_ANESTHESIA_CONTEXT.test(`${record.abstract} ${(record.meshTerms || []).join(" ")}`);
   let weightedMatches = 0;
   const matchedGroups = [];
   for (const group of topicConfig.groups) {
@@ -15,7 +20,7 @@ function scoreRelevance(record, topicConfig, maxScore) {
     }
   }
   const score = Math.min(maxScore, Math.round(8 + weightedMatches * 5));
-  return { score: matchedGroups.length ? score : 0, matchedGroups };
+  return { score: matchedGroups.length && directlyRelevant ? score : 0, matchedGroups, directlyRelevant };
 }
 
 function scoreEvidence(record, scoringConfig, maxScore) {
@@ -67,6 +72,7 @@ export function scoreArticle(record, configs) {
   return {
     ...record,
     matchedGroups: relevance.matchedGroups,
+    directlyRelevant: relevance.directlyRelevant,
     journalTier: { id: journal.tierId, label: journal.tierLabel, priorityRank: journal.priorityRank },
     scoreBreakdown: breakdown,
     score: Object.values(breakdown).reduce((sum, value) => sum + value, 0),
