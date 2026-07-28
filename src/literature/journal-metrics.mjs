@@ -26,8 +26,14 @@ export function evaluateJournalImpactFactor(record, config) {
     : null;
   const threshold = Number(config.minimumImpactFactor);
   const comparison = config.comparison || "greater-than";
-  const passes = impactFactor !== null
+  const rankingMetricYear = Number(config.rankingPolicy?.metricYear || 0) || null;
+  const maximumAgeYears = Number(config.rankingPolicy?.maximumAgeYears ?? 1);
+  const metricYear = Number.isFinite(Number(entry?.metricYear)) ? Number(entry.metricYear) : null;
+  const stale = impactFactor !== null && rankingMetricYear !== null
+    && (metricYear === null || metricYear < rankingMetricYear - maximumAgeYears);
+  const passesThreshold = impactFactor !== null
     && (comparison === "greater-than-or-equal" ? impactFactor >= threshold : impactFactor > threshold);
+  const passes = passesThreshold && !stale;
 
   return {
     eligible: passes,
@@ -35,11 +41,16 @@ export function evaluateJournalImpactFactor(record, config) {
       ? "journal-not-configured"
       : impactFactor === null
         ? "impact-factor-unknown"
-        : passes ? "passed" : "below-or-equal-threshold",
+        : stale
+          ? "impact-factor-stale"
+          : passes ? "passed" : "below-or-equal-threshold",
     journalMetric: {
       metric: config.metric || "Journal Impact Factor",
       impactFactor,
-      metricYear: entry?.metricYear ?? null,
+      metricYear,
+      rankingMetricYear,
+      maximumAgeYears,
+      rankingComparable: !stale && metricYear !== null,
       threshold,
       comparison,
       source: entry?.source ?? null,
@@ -70,6 +81,8 @@ export function screenByJournalImpactFactor(records, config) {
         summary[record.journalMetricReason] = (summary[record.journalMetricReason] || 0) + 1;
         return summary;
       }, {}),
+      rankingMetricYear: Number(config.rankingPolicy?.metricYear || 0) || null,
+      eligibleMetricYears: [...new Set(accepted.map(record => record.journalMetric.metricYear).filter(Boolean))].sort(),
     },
   };
 }
