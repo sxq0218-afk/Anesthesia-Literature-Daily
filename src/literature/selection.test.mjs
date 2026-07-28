@@ -36,6 +36,19 @@ test("does not count a narrative review as a clinical study", () => {
   assert.equal(result.id, "other");
 });
 
+test("counts systematic reviews, meta-analyses, guidelines and consensus as clinical evidence", () => {
+  for (const publicationType of ["Systematic Review", "Meta-Analysis", "Guideline", "Practice Guideline", "Consensus Development Conference"]) {
+    const result = classifyResearchCategory({
+      title: "Perioperative clinical evidence",
+      abstract: "This work informs care for surgical patients.",
+      meshTerms: ["Humans"],
+      publicationTypes: ["Journal Article", publicationType],
+    });
+    assert.equal(result.id, "clinical", publicationType);
+    assert.equal(result.label, "临床证据");
+  }
+});
+
 test("does not count a study protocol as a completed clinical study", () => {
   const result = classifyResearchCategory({
     title: "Protocol for a randomized anesthesia trial",
@@ -45,23 +58,50 @@ test("does not count a study protocol as a completed clinical study", () => {
   assert.equal(result.id, "other");
 });
 
-test("selects four clinical and one basic article while prioritizing configured journals", () => {
+test("selects the four highest-impact clinical articles and highest-impact basic article", () => {
   const records = [
-    ...Array.from({ length: 5 }, (_, index) => ({ pmid: `c${index}`, score: 90 - index, publicationTypes: ["Clinical Trial"], meshTerms: ["Humans"], title: "Clinical anesthesia trial", abstract: "Patients", journalTier: { priorityRank: index === 4 ? 2 : 0 } })),
-    { pmid: "b1", score: 70, publicationTypes: ["Journal Article"], meshTerms: ["Animals", "Mice"], title: "Anesthetic mechanism in mice", abstract: "Molecular receptor pathway in mice", journalTier: { priorityRank: 1 } },
+    ...Array.from({ length: 5 }, (_, index) => ({
+      pmid: `c${index}`,
+      score: 90 - index,
+      scoreBreakdown: { evidenceQuality: 20 - index },
+      publicationTypes: ["Clinical Trial"],
+      meshTerms: ["Humans"],
+      title: "Clinical anesthesia trial",
+      abstract: "Patients",
+      journalMetric: { impactFactor: 6 + index },
+    })),
+    { pmid: "b1", score: 70, scoreBreakdown: { evidenceQuality: 8 }, publicationTypes: ["Journal Article"], meshTerms: ["Animals", "Mice"], title: "Anesthetic mechanism in mice", abstract: "Molecular receptor pathway in mice", journalMetric: { impactFactor: 7 } },
   ];
-  const result = selectDailyArticles(records, { dailyLimit: 5, selectionPolicy: { clinicalTarget: 4, basicTarget: 1, priorityJournalFirst: true, allowBackfill: true } });
+  const result = selectDailyArticles(records, { dailyLimit: 5, selectionPolicy: { clinicalTarget: 4, basicTarget: 1, allowBackfill: false } });
   assert.equal(result.summary.clinical, 4);
   assert.equal(result.summary.basic, 1);
   assert.equal(result.selected[0].pmid, "c4");
+  assert.equal(result.selected.some(item => item.pmid === "c0"), false);
   assert.equal(result.compositionSatisfied, true);
 });
 
-test("keeps recent-window articles ahead after expanding the search window", () => {
+test("impact factor outranks recency and score after the candidate pool is qualified", () => {
   const records = [
-    { pmid: "recent", preferredWindow: true, score: 60, publicationTypes: ["Clinical Trial"], meshTerms: ["Humans"], title: "Recent anesthesia trial", abstract: "Patients", journalTier: { priorityRank: 1 } },
-    { pmid: "older", preferredWindow: false, score: 99, publicationTypes: ["Clinical Trial"], meshTerms: ["Humans"], title: "Older anesthesia trial", abstract: "Patients", journalTier: { priorityRank: 2 } },
+    { pmid: "recent", publicationDate: "2026-07-20", score: 99, scoreBreakdown: { evidenceQuality: 25 }, publicationTypes: ["Clinical Trial"], meshTerms: ["Humans"], title: "Recent anesthesia trial", abstract: "Patients", journalMetric: { impactFactor: 6 } },
+    { pmid: "older", publicationDate: "2026-01-20", score: 60, scoreBreakdown: { evidenceQuality: 10 }, publicationTypes: ["Clinical Trial"], meshTerms: ["Humans"], title: "Older anesthesia trial", abstract: "Patients", journalMetric: { impactFactor: 20 } },
   ];
-  const result = selectDailyArticles(records, { dailyLimit: 2, selectionPolicy: { clinicalTarget: 2, basicTarget: 0, priorityJournalFirst: true, allowBackfill: true } });
-  assert.equal(result.selected[0].pmid, "recent");
+  const result = selectDailyArticles(records, { dailyLimit: 2, selectionPolicy: { clinicalTarget: 2, basicTarget: 0, allowBackfill: false } });
+  assert.equal(result.selected[0].pmid, "older");
+});
+
+test("does not backfill a missing basic slot with a fifth clinical article", () => {
+  const records = Array.from({ length: 5 }, (_, index) => ({
+    pmid: `c${index}`,
+    score: 80,
+    publicationTypes: ["Clinical Trial"],
+    meshTerms: ["Humans"],
+    title: "Clinical anesthesia trial",
+    abstract: "Patients",
+    journalMetric: { impactFactor: 10 - index },
+  }));
+  const result = selectDailyArticles(records, { dailyLimit: 5, selectionPolicy: { clinicalTarget: 4, basicTarget: 1, allowBackfill: false } });
+  assert.equal(result.selected.length, 4);
+  assert.equal(result.summary.clinical, 4);
+  assert.equal(result.summary.basic, 0);
+  assert.equal(result.compositionSatisfied, false);
 });
