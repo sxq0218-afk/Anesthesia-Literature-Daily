@@ -114,6 +114,61 @@ test("locks source coverage to the material actually supplied instead of trustin
   assert.equal(replies.length, 0);
 });
 
+test("routes extraction findings from quality control back to structured extraction", async () => {
+  const numericRecord = {
+    ...record,
+    abstract: "The study included 10 patients in one group and 20 in another group.",
+  };
+  const correctedExtraction = { ...baseExtraction, sample_size: "10 and 20" };
+  const numericTranslation = {
+    ...translation,
+    sections: [{ heading: null, text: "该研究一组纳入10名患者，另一组纳入20名患者。" }],
+    fullText: "该研究一组纳入10名患者，另一组纳入20名患者。",
+  };
+  const firstQuality = {
+    overall_pass: false,
+    checks: { sample_size: { pass: false, reason: "结构化抽取中sample_size为null，但摘要报告了分组样本数" } },
+    issues: [],
+  };
+  const replies = [
+    baseExtraction,
+    numericTranslation,
+    synthesis,
+    firstQuality,
+    correctedExtraction,
+    synthesis,
+    { overall_pass: true, checks: {}, issues: [] },
+  ];
+  const calls = [];
+  const result = await analyzeArticle({
+    record: numericRecord,
+    fullText: null,
+    generateAI: async request => {
+      calls.push(request);
+      return { data: replies.shift(), usage: {}, model: "mock" };
+    },
+  });
+
+  assert.equal(result.extracted.sample_size, "10 and 20");
+  assert.ok(calls.some(call => call.task === "literature-extraction-quality-regeneration"));
+  assert.equal(result.regenerated, true);
+  assert.equal(replies.length, 0);
+});
+
+test("removes unsupported novelty language before quality control", async () => {
+  const noveltySynthesis = structuredClone(synthesis);
+  noveltySynthesis.oneSentenceConclusion = "该研究首次定量比较两种策略。";
+  const replies = [baseExtraction, translation, noveltySynthesis, { overall_pass: true, checks: {}, issues: [] }];
+  const result = await analyzeArticle({
+    record,
+    fullText: null,
+    generateAI: async () => ({ data: replies.shift(), usage: {}, model: "mock" }),
+  });
+
+  assert.equal(result.synthesis.oneSentenceConclusion, "该研究定量比较两种策略。");
+  assert.equal(replies.length, 0);
+});
+
 test("retries structured extraction once after deterministic validation failure", async () => {
   const calls = [];
   const responses = [
