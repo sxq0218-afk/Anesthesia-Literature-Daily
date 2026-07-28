@@ -43,6 +43,27 @@ function lockSourceCoverage(synthesis, basis) {
   };
 }
 
+function sanitizeUnsupportedNoveltyClaims(value, sourceText) {
+  const source = String(sourceText || "").toLowerCase();
+  const sourceSupportsNovelty = /\b(first|first-ever|largest|only study|novel)\b|首次|首个|最大规模|唯一研究/.test(source);
+  if (sourceSupportsNovelty) return value;
+  if (Array.isArray(value)) return value.map(item => sanitizeUnsupportedNoveltyClaims(item, sourceText));
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, item]) => [key, sanitizeUnsupportedNoveltyClaims(item, sourceText)]),
+    );
+  }
+  if (typeof value !== "string") return value;
+  return value
+    .replace(/首次(?=(?:定量|系统|直接|全面)?(?:比较|评估|验证|证实|发现|揭示|表明|报告|描述|研究))/g, "")
+    .replace(/(?:迄今)?最大规模的(?=研究|分析|队列|试验)/g, "")
+    .replace(/首个(?=研究|分析|队列|试验|证据)/g, "该");
+}
+
+function extractionIssues(issues) {
+  return issues.some(issue => /结构化抽取|sample_size|primary_outcome|effect_direction|confidence_interval|p_value|样本量|主要结局|效应方向|置信区间|P值/i.test(issue));
+}
+
 function sectionAwareExcerpt(fullText, budget) {
   const headings = ["methods", "methodology", "statistical analysis", "results", "discussion", "limitations", "conclusions"];
   const normalized = String(fullText);
@@ -158,7 +179,10 @@ export async function analyzeArticle({ record, fullText, generateAI, maxInputCha
     task: "literature-synthesis",
   });
   usage = addUsage(usage, synthesisResponse.usage);
-  synthesisResponse.data = lockSourceCoverage(synthesisResponse.data, basis);
+  synthesisResponse.data = lockSourceCoverage(
+    sanitizeUnsupportedNoveltyClaims(synthesisResponse.data, analysisText),
+    basis,
+  );
   let deepValidation = deepDiveChecks(record, synthesisResponse.data, basis);
 
   let qualityResponse = await generateAI({
@@ -173,6 +197,25 @@ export async function analyzeArticle({ record, fullText, generateAI, maxInputCha
 
   if (!qualityResponse.data.overall_pass || issues.length) {
     regenerated = true;
+    if (extractionIssues(issues)) {
+      extractionRetried = true;
+      extractionResponse = await generateAI({
+        system: extractionSystemPrompt,
+        user: buildExtractionPrompt(record, analysisText, basis, issues),
+        maxTokens: 4500,
+        task: "literature-extraction-quality-regeneration",
+      });
+      usage = addUsage(usage, extractionResponse.usage);
+      deterministic = deterministicChecks(record, extractionResponse.data, analysisText);
+      if (!deterministic.pass && deterministic.issues.every(issue => issue.startsWith("原文材料中未找到数字："))) {
+        extractionResponse.data = sanitizeUnsupportedNumericClaims(record, extractionResponse.data, analysisText);
+        extractionSanitized = true;
+        deterministic = deterministicChecks(record, extractionResponse.data, analysisText);
+      }
+      if (!deterministic.pass) {
+        throw new Error(`Structured extraction failed after quality regeneration: ${deterministic.issues.join("; ")}`);
+      }
+    }
     if (issues.some(issue => /translation|翻译/i.test(issue))) {
       translationResponse = await generateAI({
         system: translationSystemPrompt,
@@ -191,7 +234,10 @@ export async function analyzeArticle({ record, fullText, generateAI, maxInputCha
       task: "literature-regeneration",
     });
     usage = addUsage(usage, synthesisResponse.usage);
-    synthesisResponse.data = lockSourceCoverage(synthesisResponse.data, basis);
+    synthesisResponse.data = lockSourceCoverage(
+      sanitizeUnsupportedNoveltyClaims(synthesisResponse.data, analysisText),
+      basis,
+    );
     deepValidation = deepDiveChecks(record, synthesisResponse.data, basis);
     qualityResponse = await generateAI({
       system: qualitySystemPrompt,
