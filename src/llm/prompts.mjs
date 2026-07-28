@@ -83,12 +83,19 @@ export const synthesisSystemPrompt = `你是严谨的麻醉学文献编辑。只
 10. 输出有效JSON，不要输出其他文字。`;
 
 export function buildSynthesisPrompt(record, extracted, basis, statisticalReferences = [], correctionIssues = []) {
-  return `固定元数据：${JSON.stringify({ title: record.title, journal: record.journal, date: record.publicationDate, doi: record.doi, pmid: record.pmid, basis })}
+  const sourceCoverageLevel = basis === "摘要分析"
+    ? "abstract"
+    : basis.includes("节选")
+      ? "full_text_excerpt"
+      : "full_text";
+  return `固定元数据：${JSON.stringify({ title: record.title, journal: record.journal, date: record.publicationDate, doi: record.doi, pmid: record.pmid, basis, sourceCoverageLevel })}
 结构化抽取：${JSON.stringify(extracted)}
 原始摘要：${record.abstract}
 研究分类：${JSON.stringify(record.researchCategory || null)}
 原文中自动识别到的统计方法参考词典：${JSON.stringify(statisticalReferences)}
 ${correctionIssues.length ? `上一版质量问题，必须修正：${correctionIssues.join("；")}` : ""}
+
+deepDive.sourceCoverage.level必须逐字使用固定元数据中的sourceCoverageLevel。
 
 输出JSON字段：
 {
