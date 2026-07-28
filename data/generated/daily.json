@@ -1,44 +1,49 @@
 {
-  "generatedAt": "2026-07-27T04:30:48.607Z",
+  "generatedAt": "2026-07-28T03:54:42.467Z",
   "mode": "production",
   "search": {
     "initialDays": 30,
     "actualDays": 180,
     "expanded": true,
     "expansionReason": "composition-shortfall",
-    "from": "2026-01-28T04:30:48.607Z",
-    "to": "2026-07-27T04:30:48.607Z",
+    "from": "2026-01-29T03:54:42.467Z",
+    "to": "2026-07-28T03:54:42.467Z",
     "candidateCount": 120,
-    "unseenCount": 105,
-    "duplicateCount": 15,
+    "unseenCount": 100,
+    "duplicateCount": 20,
     "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/01/28:2026/07/27[Date - Publication]",
     "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Nature Medicine\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Anesthesia and Analgesia\"[Journal] OR \"Regional Anesthesia and Pain Medicine\"[Journal] OR \"European Journal of Anaesthesiology\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"Pain\"[Journal] OR \"The Journal of Pain\"[Journal] OR \"Critical Care\"[Journal] OR \"Intensive Care Medicine\"[Journal]) AND 2026/01/28:2026/07/27[Date - Publication]",
     "priorityCandidateCount": 516,
     "journalImpactFactor": {
       "threshold": 5,
       "comparison": "greater-than",
-      "candidateCount": 105,
-      "eligibleCount": 32,
-      "excludedCount": 73,
+      "candidateCount": 100,
+      "eligibleCount": 20,
+      "excludedCount": 80,
       "excludedByReason": {
+        "impact-factor-stale": 7,
         "impact-factor-unknown": 5,
         "below-or-equal-threshold": 9,
         "journal-not-configured": 59
-      }
+      },
+      "rankingMetricYear": 2025,
+      "eligibleMetricYears": [
+        2024,
+        2025
+      ]
     },
     "selectionPolicy": {
       "clinicalTarget": 4,
       "basicTarget": 1,
-      "priorityJournalTarget": 3,
-      "priorityJournalFirst": true,
+      "ranking": "impact-factor-desc",
       "expandForCompositionShortfall": true,
-      "allowBackfill": true
+      "allowBackfill": false
     },
     "selectionSummary": {
       "clinical": 4,
       "basic": 0,
-      "other": 1,
-      "priorityJournals": 5
+      "other": 0,
+      "priorityJournals": 4
     },
     "compositionSatisfied": false
   },
@@ -47,462 +52,74 @@
     "model": "deepseek-v4-flash",
     "configuredModel": "deepseek-v4-flash",
     "usage": {
-      "calls": 23,
-      "promptTokens": 32337,
-      "completionTokens": 31320,
-      "totalTokens": 63657
+      "calls": 17,
+      "promptTokens": 40942,
+      "completionTokens": 26039,
+      "totalTokens": 66981
     }
   },
   "articles": [
     {
-      "slug": "pmid-42492373",
+      "analysisVersion": 2,
+      "slug": "pmid-42225443",
       "number": "01",
       "category": "麻醉基础研究",
-      "journal": "Journal of clinical anesthesia",
-      "year": "2026",
-      "publishedDate": "2026-07-23",
-      "electronicPublicationDate": "2026-07-23",
-      "readingTime": "6 分钟",
-      "title": "术中低剂量静脉艾司氯胺酮用于急性术后疼痛控制的疗效：随机对照试验的Meta分析",
-      "originalTitle": "Efficacy of intraoperative low dose intravenous Esketamine for acute postoperative pain control: Meta-analysis of randomized controlled trials.",
-      "abstract": "OBJECTIVE: To evaluate the effect of intraoperative low-dose intravenous esketamine (<1 mg/kg) on acute postoperative pain, opioid consumption, adverse events, and anesthetic requirements through a systematic review and meta-analysis of randomized controlled trials. METHODS: We systematically searched PubMed, Cochrane Central, and Embase (to Apr 28, 2025) for RCTs on intraoperative low dose IV esketamine (<1 mg/kg) for acute postoperative pain. Data was analyzed in R using mean differences or risk ratios (95% CIs). Risk of bias followed Cochrane methods. Sensitivity used leave-one-out and meta-regression. RESULTS: Thirty-five RCTs (3831 patients; 1663 control, 2168 esketamine) showed low-dose IV esketamine significantly reduced pain at rest at 4 h (MD -1.40; p < 0.0001), 12 h (-0.84; p < 0.0001), 24 h (-0.54; p < 0.0001), and 48 h (-0.39; p = 0.0014). Pain on movement was lower at 12 h (-0.62; p = 0.0111), 24 h (-0.63; p = 0.0003) and 48 h (MD -0.40, 95% CI -0.74 to -0.06; p = 0.0212; I(2) = 75.5%). No significant differences in overall or individual adverse events (nausea, agitation, dizziness, hallucinations) were observed between groups. Postoperative morphine consumption was reduced at 4, 24 and 48 h, with no significant difference at 12 h. Rescue analgesia requirements were reduced (RR 0.52; p = 0.0001), and intraoperative propofol use was modestly lower (-18.47 mg; p = 0.0047). No significant dose-response relationship was identified (p = 0.0571). CONCLUSION: Intraoperative low-dose esketamine modestly reduces postoperative pain at rest (4-48 h) and during movement (12-48 h), decreases opioid and rescue analgesia requirements, and slightly lowers propofol use. However, the magnitude and consistency of these effects are uncertain due to heterogeneity and study limitations. Adverse events did not differ significantly, though evidence remains limited. Esketamine may be considered as an adjunct in perioperative pain management with appropriate monitoring.",
-      "authors": "Majeed E, Rafique I, Inam K, Majeed F",
-      "citation": "J Clin Anesth. 2026 Jul 23;114:112278. doi: 10.1016/j.jclinane.2026.112278.",
-      "doi": "10.1016/j.jclinane.2026.112278",
-      "pmid": "42492373",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "meshTerms": [],
-      "publisher": "Elsevier BV",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "other",
-        "label": "综述/方法/其他"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 1
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 6.7,
-        "metricYear": 2022,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
-        "verifiedAt": "2026-07-23",
-        "matchedJournal": "Journal of Clinical Anesthesia"
-      },
-      "tags": [
-        "综述/方法/其他",
-        "麻醉及围术期核心期刊",
-        "麻醉基础研究",
-        "Journal Article",
-        "Review"
-      ],
-      "question": "该Meta分析纳入35项RCT、3831例患者，系统评估了术中低剂量艾司氯胺酮对急性术后疼痛的疗效和安全性，为围术期疼痛管理提供了循证依据，提示其可作为辅助用药，但需注意效应量的有限性和现有证据的局限性。",
-      "conclusion": "术中低剂量静脉艾司氯胺酮（<1 mg/kg）可中等程度减轻术后静息痛（4–48小时）和活动痛（12–48小时），减少阿片类药物和补救镇痛需求，并轻微降低丙泊酚用量，但效应幅度和一致性因异质性和研究局限性而不确定，且不良事件无显著差异。",
-      "clinical": "术中低剂量艾司氯胺酮可作为辅助镇痛手段，减少术后阿片类药物和补救镇痛需求。 因其可轻微降低丙泊酚用量，可能有助于优化麻醉用药。 不良事件无明显增加，但证据有限，需在监测下使用。 效应幅度较小且存在异质性，不应视为常规替代方案。",
-      "evidence": "中等",
-      "score": 59,
-      "scoreBreakdown": {
-        "relevance": 17,
-        "evidenceQuality": 12,
-        "clinicalImpact": 11,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "系统评价和Meta分析（纳入35项随机对照试验，共3831例患者，其中对照组1663例，艾司氯胺酮组2168例）。文献检索至2025年4月28日，数据采用均值差或风险比及其95%置信区间进行分析。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "接受手术的患者（当前可获取内容未提供该数据。）；3831 patients (1663 control, 2168 esketamine)"
-        },
-        {
-          "label": "干预与比较",
-          "value": "Intraoperative low-dose intravenous esketamine (<1 mg/kg)；对照：安慰剂或标准治疗"
-        },
-        {
-          "label": "主要终点",
-          "value": "Acute postoperative pain (pain at rest and pain on movement)"
-        }
-      ],
-      "keyPoints": [
-        "35项RCT、3831例患者的Meta分析。",
-        "术中低剂量艾司氯胺酮（<1 mg/kg）显著减轻术后静息痛和活动痛，但效应幅度较小（MD -0.39至-1.40）。",
-        "减少术后吗啡消耗和补救镇痛需求（RR 0.52）。",
-        "轻微降低丙泊酚用量（-18.47 mg）。",
-        "不良事件无显著差异。"
-      ],
-      "methods": "术中低剂量静脉艾司氯胺酮用于预防急性术后疼痛的疗效尚存争议，本系统评价和Meta分析旨在通过汇总随机对照试验，评估其对于术后疼痛、阿片消耗、不良事件及麻醉需求的影响。",
-      "results": "低剂量艾司氯胺酮显著降低术后4小时（MD -1.40, p<0.0001）、12小时（MD -0.84, p<0.0001）、24小时（MD -0.54, p<0.0001）和48小时（MD -0.39, p=0.0014）的静息痛；降低术后12小时（MD -0.62, p=0.0111）、24小时（MD -0.63, p=0.0003）和48小时（MD -0.40, 95% CI -0.74至-0.06, p=0.0212, I²=75.5%）的活动痛。减少术后4、24和48小时的吗啡消耗量（12小时无显著差异）；降低补救镇痛需求（RR 0.52, p=0.0001）；轻微减少术中丙泊酚用量（-18.47 mg, p=0.0047）。未发现剂量-反应关系（p=0.0571）。不良事件（恶心、躁动、头晕、幻觉）组间无显著差异。",
-      "limitations": [
-        "当前可获取内容未提供该数据。",
-        "原始研究存在异质性和方法学局限。",
-        "不良事件证据有限，安全性结论尚不充分。"
-      ],
-      "practice": [
-        "术中低剂量艾司氯胺酮可作为辅助镇痛手段，减少术后阿片类药物和补救镇痛需求。",
-        "因其可轻微降低丙泊酚用量，可能有助于优化麻醉用药。",
-        "不良事件无明显增加，但证据有限，需在监测下使用。",
-        "效应幅度较小且存在异质性，不应视为常规替代方案。"
-      ],
-      "editor": "该Meta分析系统检索了多个数据库，纳入35项RCT，样本量较大，统计分析严谨，结论基本可靠。 过度解读风险：原文结论强调了效应量的不确定性和异质性，未过度推论因果关系或临床获益，风险较低。",
-      "whyItMatters": "该Meta分析纳入35项RCT、3831例患者，系统评估了术中低剂量艾司氯胺酮对急性术后疼痛的疗效和安全性，为围术期疼痛管理提供了循证依据，提示其可作为辅助用药，但需注意效应量的有限性和现有证据的局限性。",
-      "background": "术中低剂量静脉艾司氯胺酮用于预防急性术后疼痛的疗效尚存争议，本系统评价和Meta分析旨在通过汇总随机对照试验，评估其对于术后疼痛、阿片消耗、不良事件及麻醉需求的影响。",
-      "pico": {
-        "population": "接受手术的患者（当前可获取内容未提供该数据。）",
-        "intervention": "Intraoperative low-dose intravenous esketamine (<1 mg/kg)",
-        "comparison": "安慰剂或标准治疗",
-        "outcome": "Acute postoperative pain (pain at rest and pain on movement)"
-      },
-      "studyType": "系统评价和Meta分析（纳入35项随机对照试验，共3831例患者，其中对照组1663例，艾司氯胺酮组2168例）。文献检索至2025年4月28日，数据采用均值差或风险比及其95%置信区间进行分析。",
-      "sampleSize": "3831 patients (1663 control, 2168 esketamine)",
-      "primaryOutcome": "Acute postoperative pain (pain at rest and pain on movement)",
-      "effectSize": [
-        "MD -1.40",
-        "MD -0.84",
-        "MD -0.54",
-        "MD -0.39",
-        "MD -0.62",
-        "MD -0.63",
-        "MD -0.40",
-        "RR 0.52",
-        "-18.47 mg"
-      ],
-      "confidenceInterval": [
-        "95% CI -0.74 to -0.06"
-      ],
-      "pValue": [
-        "p < 0.0001",
-        "p = 0.0014",
-        "p = 0.0111",
-        "p = 0.0003",
-        "p = 0.0212",
-        "p = 0.0001",
-        "p = 0.0047",
-        "p = 0.0571"
-      ],
-      "adverseEvents": "No significant differences in overall or individual adverse events (nausea, agitation, dizziness, hallucinations) were observed between groups.",
-      "aiAssessment": {
-        "support": "该Meta分析系统检索了多个数据库，纳入35项RCT，样本量较大，统计分析严谨，结论基本可靠。",
-        "overinterpretationRisk": "原文结论强调了效应量的不确定性和异质性，未过度推论因果关系或临床获益，风险较低。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42492373/",
-        "doi": "https://doi.org/10.1016/j.jclinane.2026.112278",
-        "publisher": "https://doi.org/10.1016/j.jclinane.2026.112278",
-        "openFullText": null
-      }
-    },
-    {
-      "slug": "pmid-42485127",
-      "number": "02",
-      "category": "麻醉学",
-      "journal": "Anesthesia and analgesia",
-      "year": "2026",
-      "publishedDate": "2026-07-20",
-      "electronicPublicationDate": "2026-07-20",
-      "readingTime": "8 分钟",
-      "title": "让手术安全核对表更安全：在切皮前使用团队暂停核对表改善信息交换和跨专业沟通",
-      "originalTitle": "Making the Surgical Safety Checklist Even Safer: A Team Timeout Checklist to Improve Information Exchange and Interprofessional Communication Before Skin Incision.",
-      "abstract": "BACKGROUND: The World Health Organization surgical safety checklist (WHO SSC) provides a standardized framework for preoperative safety procedures. However, studies have revealed substantial variation in adherence, with items being skipped or misunderstood and nurses likely to be less involved than other operating room (OR) professional groups. We introduce a 16-item team timeout checklist (TTOC) that clarifies and adds safety-critical items to the existing WHO before skin incision timeout and is led by nurses to improve information exchange, closed-loop communication, and encouraging participation of all professional groups. METHODS: Using a prospective pre-post interventional design, we live-coded all team communication during on-site observations in the OR focusing on the pre-incision phase. Surgical teams were first observed during a pre-intervention period without the TTOC checklist and subsequently during a post-intervention period after implementation of the TTOC checklist. The TTOC was evaluated on four communication outcomes critical for patient safety: information exchange of checklist items, measured as the percentage of the 16 items that were verbally communicated among team members (eg, team introduction, surgical site, allergies), participation rates of different professional groups, frequency of explicit coordination behaviors (eg, instruction, information request, speaking up) and the frequency of closed-loop communication sequences, defined as information request followed by information upon request within 30 seconds. RESULTS: A total of 155 teams were observed, including 78 teams in the pre-intervention phase without TTOC use and 77 teams in the post-intervention phase using the TTOC, resulting in 13,127 coded communication events. The median information exchange increased from 62.5% (interquartile range [IQR] 50-68.8) in the pre-intervention phase to 100% (IQR 100-100) in the post-intervention phase (P < .001). For 15 of all 16 subitems, the odds of exchanging information were significantly higher after TTOC implementation than before TTOC implementation (odds ratios range 10.8-1896, all 95% confidence intervals [CIs] excluded 1). Participation rates increased for circulating nurses, scrub nurses, surgical residents, and anesthesia (all P < .05) but not for lead surgeons. Mean (standard deviation [SD]) closed-loop communication patterns per operation were more frequent with (20.4 [10.7]) than without the TTOC (16.4, [7.24]), P = .004. CONCLUSIONS: In our study, the nurse-led TTOC significantly improved the exchange of safety-critical items during the pre-incision phase, facilitated closed-loop communication, and empowered the participation of various professional groups. These findings suggest integrating the TTOC with the WHO SSC before-incision protocol may have important advantages.",
-      "authors": "Weiss M, Reimer C, Budnitskiy A, Kleber C, Stehr SN, Piegeler T",
-      "citation": "Anesth Analg. 2026 Jul 20. doi: 10.1213/ANE.0000000000008224.",
-      "doi": "10.1213/ane.0000000000008224",
-      "pmid": "42485127",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 1
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 5.9,
-        "metricYear": 2022,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
-        "verifiedAt": "2026-07-23",
-        "matchedJournal": "Anesthesia & Analgesia"
-      },
-      "tags": [
-        "临床研究",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "Journal Article"
-      ],
-      "question": "手术安全核对表的使用常存在执行变异，TTOC通过明确条目和护士主导提高了信息交换的完整性，可能降低沟通失误风险，但需进一步研究确认其对患者预后的改善作用。",
-      "conclusion": "本前瞻性前后干预研究显示，由护士主导的16项团队暂停核对表（TTOC）显著提高了切皮前安全关键信息的交换率（从62.5%升至100%），促进了闭环沟通，并增强了除主刀医生外各专业群体的参与度，但尚未评估对临床结局的影响。",
-      "clinical": "TTOC提高了麻醉医生在核对过程中的参与率，但主刀医生参与未显著改善，提示需额外策略促进外科领导参与。 闭环沟通的增加可能减少信息遗漏，对术中麻醉管理有潜在益处。 研究未评估对临床结局（如并发症、死亡率）的影响，因此麻醉医生应审慎解读，避免过度推断临床获益。",
-      "evidence": "中等",
-      "score": 51,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 8,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 6
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "前瞻性前后干预研究，在手术室中进行现场观察并实时编码团队沟通。先观察未使用TTOC的术前阶段（前干预期），随后观察实施TTOC后的阶段（后干预期）。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "surgical teams (circulating nurses, scrub nurses, surgical residents, anesthesia, lead surgeons)；155 teams (78 pre-intervention, 77 post-intervention)"
-        },
-        {
-          "label": "干预与比较",
-          "value": "16-item team timeout checklist (TTOC) led by nurses；对照：standard World Health Organization surgical safety checklist (WHO SSC) without TTOC"
-        },
-        {
-          "label": "主要终点",
-          "value": "information exchange of checklist items (percentage of 16 items verbally communicated)"
-        }
-      ],
-      "keyPoints": [
-        "护士主导的16项TTOC将切皮前信息交换率从62.5%提升至100%。",
-        "15/16项目的沟通几率显著增加（OR 10.8-1896，95% CI均排除1）。",
-        "除主刀医生外，各专业群体参与率均有提高。",
-        "闭环沟通频率显著增加（20.4 vs 16.4次/手术，P=0.004）。",
-        "研究未评估对患者预后的影响，需进一步研究验证。"
-      ],
-      "methods": "世界卫生组织手术安全核对表（WHO SSC）为术前安全程序提供了标准化框架，但研究显示其遵循率存在显著变异，条目被跳过或误解，护士参与度低于其他手术室专业群体。为此，研究者设计了一份16项团队暂停核对表（TTOC），在原有WHO SSC切皮前暂停环节基础上澄清并增加了安全关键条目，由护士主导，旨在改善信息交换、闭环沟通并鼓励所有专业群体参与。",
-      "results": "共观察155个手术团队（前干预78队，后干预77队），记录了13,127个编码沟通事件。信息交换中位数从前干预期的62.5%（IQR 50-68.8）增至后干预期的100%（IQR 100-100）（P<0.001）。16项子条目中15项的信息交换几率在TTOC实施后显著升高（OR范围10.8-1896，所有95% CI均排除1）。巡回护士、洗手护士、外科住院医师和麻醉医生的参与率均增加（均P<0.05），但主刀医生的参与率无显著变化。每台手术闭环沟通模式均值在TTOC组为20.4（SD 10.7），对照组为16.4（SD 7.24），P=0.004。",
-      "limitations": [
-        "单中心前后设计，可能存在时间混杂因素和霍桑效应。",
-        "未盲法观察者，可能引入观察偏倚。",
-        "未报告不良事件或临床结局，无法确定TTOC对患者预后的直接改善作用。",
-        "主刀医生参与率未显著提高，可能是沟通改善的瓶颈。"
-      ],
-      "practice": [
-        "TTOC提高了麻醉医生在核对过程中的参与率，但主刀医生参与未显著改善，提示需额外策略促进外科领导参与。",
-        "闭环沟通的增加可能减少信息遗漏，对术中麻醉管理有潜在益处。",
-        "研究未评估对临床结局（如并发症、死亡率）的影响，因此麻醉医生应审慎解读，避免过度推断临床获益。"
-      ],
-      "editor": "该研究提供了中等至强有力的证据，表明护士主导的TTOC可显著改善手术团队信息交换和沟通质量，但缺乏随机对照和临床结局终点。 过度解读风险：中等。作者结论强调了TTOC的优势，但未提及对主刀医生参与无改善的局限性，且未报告临床获益。读者应避免将沟通改善直接等同于患者安全改善。",
-      "whyItMatters": "手术安全核对表的使用常存在执行变异，TTOC通过明确条目和护士主导提高了信息交换的完整性，可能降低沟通失误风险，但需进一步研究确认其对患者预后的改善作用。",
-      "background": "世界卫生组织手术安全核对表（WHO SSC）为术前安全程序提供了标准化框架，但研究显示其遵循率存在显著变异，条目被跳过或误解，护士参与度低于其他手术室专业群体。为此，研究者设计了一份16项团队暂停核对表（TTOC），在原有WHO SSC切皮前暂停环节基础上澄清并增加了安全关键条目，由护士主导，旨在改善信息交换、闭环沟通并鼓励所有专业群体参与。",
-      "pico": {
-        "population": "surgical teams (circulating nurses, scrub nurses, surgical residents, anesthesia, lead surgeons)",
-        "intervention": "16-item team timeout checklist (TTOC) led by nurses",
-        "comparison": "standard World Health Organization surgical safety checklist (WHO SSC) without TTOC",
-        "outcome": "information exchange of checklist items (percentage of 16 items verbally communicated)"
-      },
-      "studyType": "前瞻性前后干预研究，在手术室中进行现场观察并实时编码团队沟通。先观察未使用TTOC的术前阶段（前干预期），随后观察实施TTOC后的阶段（后干预期）。",
-      "sampleSize": "155 teams (78 pre-intervention, 77 post-intervention)",
-      "primaryOutcome": "information exchange of checklist items (percentage of 16 items verbally communicated)",
-      "effectSize": [
-        "OR range 10.8–1896 for 15 subitems"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "<0.001",
-        "<0.05",
-        "0.004"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "该研究提供了中等至强有力的证据，表明护士主导的TTOC可显著改善手术团队信息交换和沟通质量，但缺乏随机对照和临床结局终点。",
-        "overinterpretationRisk": "中等。作者结论强调了TTOC的优势，但未提及对主刀医生参与无改善的局限性，且未报告临床获益。读者应避免将沟通改善直接等同于患者安全改善。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42485127/",
-        "doi": "https://doi.org/10.1213/ane.0000000000008224",
-        "publisher": "https://doi.org/10.1213/ane.0000000000008224",
-        "openFullText": null
-      }
-    },
-    {
-      "slug": "pmid-42501528",
-      "number": "03",
-      "category": "麻醉学",
-      "journal": "Journal of clinical anesthesia",
-      "year": "2026",
-      "publishedDate": "2026-07-25",
-      "electronicPublicationDate": "2026-07-25",
-      "readingTime": "6 分钟",
-      "title": "经鼻湿化快速吹入通气交换（THRIVE）对肥胖患者控制性呼吸暂停期间肺容量动态的生理影响：一项随机对照试验",
-      "originalTitle": "Physiological effects of trans-nasal humidified rapid insufflation ventilatory exchange (THRIVE) on lung volume dynamics during controlled apnea in patients with obesity: a randomized controlled trial.",
-      "abstract": "BACKGROUND: Obese patients are prone to rapid oxygen desaturation during induction of general anesthesia due to reduced functional residual capacity and atelectasis formation. Transnasal humidified rapid insufflation ventilatory exchange (THRIVE) prolongs safe apnea time; however, its effects on lung volume dynamics during apnea remain unclear. METHODS: In this single-center randomized controlled trial, adults with body mass index >/=35 kg/m(2) undergoing elective surgery were assigned to apneic oxygenation with THRIVE or facemask oxygen following induction of general anesthesia. Electrical impedance tomography was used to assess changes in end-expiratory lung impedance (DeltaEELI), a surrogate of lung volume. The primary outcome was mean global DeltaEELI during an early apneic window (2-6 min). RESULTS: Thirty-two patients were analyzed. Mean global DeltaEELI during early apnea was significantly better preserved with THRIVE than with facemask oxygen (-0.22 +/- 0.03 vs. -0.89 +/- 0.07; mean difference 0.67, 95% CI 0.55-0.80; P < 0.001). THRIVE attenuated the rate of DeltaEELI decline and was associated with greater preservation of lung volume, particularly in mid-ventral and mid-dorsal regions. Safe apnea time was significantly prolonged in the THRIVE group (median 600 vs. 319 s). CONCLUSIONS: In obese patients, THRIVE transiently preserves lung volume during early apnea by slowing the decline in end-expiratory lung volume. These findings provide physiological insight into the mechanisms underlying improved oxygenation during apneic oxygenation.",
-      "authors": "Tanaka S, Chaki T, Tachibana S, Goto Y, Shimada T, Yamakage M",
-      "citation": "J Clin Anesth. 2026 Jul 25;114:112283. doi: 10.1016/j.jclinane.2026.112283.",
-      "doi": "10.1016/j.jclinane.2026.112283",
-      "pmid": "42501528",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [],
-      "publisher": "Elsevier BV",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 1
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 6.7,
-        "metricYear": 2022,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
-        "verifiedAt": "2026-07-23",
-        "matchedJournal": "Journal of Clinical Anesthesia"
-      },
-      "tags": [
-        "临床研究",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "Journal Article"
-      ],
-      "question": "肥胖患者全麻诱导时易发生快速氧饱和度下降，本研究揭示了THRIVE改善氧合的潜在机制，为临床优化呼吸暂停氧合策略提供了依据。",
-      "conclusion": "在肥胖患者中，与面罩氧合相比，THRIVE在早期呼吸暂停期间通过减缓呼气末肺容量下降速度，短暂地保留了肺容量，中位安全呼吸暂停时间从319秒延长至600秒。",
-      "clinical": "THRIVE可作为肥胖患者全麻诱导期间延长安全呼吸暂停时间的有效氧合方式。 THRIVE通过减缓呼气末肺容量下降来改善氧合，可能有助于减少诱导期低氧血症风险。 在需要较长呼吸暂停时间的操作（如气道管理）中，THRIVE可能提供更长的安全时间窗。",
-      "evidence": "中等",
-      "score": 49,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 8,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "单中心随机对照试验，共纳入32例患者，使用电阻抗断层扫描评估呼气末肺阻抗变化（ΔEELI）作为肺容量的替代指标。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Adults with body mass index ≥35 kg/m² undergoing elective surgery；当前可获取内容未提供该数据。"
-        },
-        {
-          "label": "干预与比较",
-          "value": "Transnasal humidified rapid insufflation ventilatory exchange (THRIVE) during apnea；对照：Facemask oxygen following induction of general anesthesia"
-        },
-        {
-          "label": "主要终点",
-          "value": "Mean global DeltaEELI during an early apneic window (2-6 min)"
-        }
-      ],
-      "keyPoints": [
-        "THRIVE在早期呼吸暂停期间显著保留了肺容量，平均全局ΔEELI平均差0.67（95% CI 0.55-0.80）。",
-        "THRIVE组中位安全呼吸暂停时间600秒，面罩组319秒。",
-        "THRIVE主要保留中腹侧和中背侧区域肺容量。",
-        "本研究为肥胖患者全麻诱导提供了生理学依据。"
-      ],
-      "methods": "肥胖患者因功能残气量减少和肺不张形成，在全麻诱导期间易发生快速氧饱和度下降。经鼻湿化快速吹入通气交换（THRIVE）可延长安全呼吸暂停时间，但其对呼吸暂停期间肺容量动态的影响尚不清楚。",
-      "results": "在早期呼吸暂停期间，THRIVE组的平均全局ΔEELI显著优于面罩氧合组（-0.22 ± 0.03 vs. -0.89 ± 0.07，平均差0.67，95% CI 0.55-0.80，P < 0.001）。THRIVE组的中位安全呼吸暂停时间显著延长（600秒 vs. 319秒）。THRIVE减缓了ΔEELI的下降率，并更好地保留了肺容量，尤其在中腹侧和中背侧区域。",
-      "limitations": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "practice": [
-        "THRIVE可作为肥胖患者全麻诱导期间延长安全呼吸暂停时间的有效氧合方式。",
-        "THRIVE通过减缓呼气末肺容量下降来改善氧合，可能有助于减少诱导期低氧血症风险。",
-        "在需要较长呼吸暂停时间的操作（如气道管理）中，THRIVE可能提供更长的安全时间窗。"
-      ],
-      "editor": "该随机对照试验提供了直接比较THRIVE与面罩氧合在肥胖患者中肺容量动态差异的证据，结果具有统计学显著性和较大的效应量（平均差0.67），且安全呼吸暂停时间延长近一倍。但样本量较小（32例），且为单中心研究，需进一步验证。 过度解读风险：中等风险。研究仅观察了早期呼吸暂停（2-6分钟），结论不应外推至更长时间的呼吸暂停。同时，ΔEELI是肺容量的间接指标，临床获益需结合氧饱和度等临床结局。",
-      "whyItMatters": "肥胖患者全麻诱导时易发生快速氧饱和度下降，本研究揭示了THRIVE改善氧合的潜在机制，为临床优化呼吸暂停氧合策略提供了依据。",
-      "background": "肥胖患者因功能残气量减少和肺不张形成，在全麻诱导期间易发生快速氧饱和度下降。经鼻湿化快速吹入通气交换（THRIVE）可延长安全呼吸暂停时间，但其对呼吸暂停期间肺容量动态的影响尚不清楚。",
-      "pico": {
-        "population": "Adults with body mass index ≥35 kg/m² undergoing elective surgery",
-        "intervention": "Transnasal humidified rapid insufflation ventilatory exchange (THRIVE) during apnea",
-        "comparison": "Facemask oxygen following induction of general anesthesia",
-        "outcome": "Mean global DeltaEELI during an early apneic window (2-6 min)"
-      },
-      "studyType": "单中心随机对照试验，共纳入32例患者，使用电阻抗断层扫描评估呼气末肺阻抗变化（ΔEELI）作为肺容量的替代指标。",
-      "sampleSize": "当前可获取内容未提供该数据。",
-      "primaryOutcome": "Mean global DeltaEELI during an early apneic window (2-6 min)",
-      "effectSize": [
-        "mean difference 0.67"
-      ],
-      "confidenceInterval": [
-        "95% CI 0.55-0.80"
-      ],
-      "pValue": [
-        "P < 0.001"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "该随机对照试验提供了直接比较THRIVE与面罩氧合在肥胖患者中肺容量动态差异的证据，结果具有统计学显著性和较大的效应量（平均差0.67），且安全呼吸暂停时间延长近一倍。但样本量较小（32例），且为单中心研究，需进一步验证。",
-        "overinterpretationRisk": "中等风险。研究仅观察了早期呼吸暂停（2-6分钟），结论不应外推至更长时间的呼吸暂停。同时，ΔEELI是肺容量的间接指标，临床获益需结合氧饱和度等临床结局。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42501528/",
-        "doi": "https://doi.org/10.1016/j.jclinane.2026.112283",
-        "publisher": "https://doi.org/10.1016/j.jclinane.2026.112283",
-        "openFullText": null
-      }
-    },
-    {
-      "slug": "pmid-42469101",
-      "number": "04",
-      "category": "疼痛与区域麻醉",
       "journal": "British journal of anaesthesia",
       "year": "2026",
-      "publishedDate": "2026-07-17",
-      "electronicPublicationDate": "2026-07-17",
-      "readingTime": "6 分钟",
-      "title": "全麻联合区域麻醉与单纯全麻对择期骨科大手术患者功能恢复的影响：一项基于全国医院索赔数据库的目标试验模拟研究",
-      "originalTitle": "Functional impairment in patients undergoing major orthopaedic surgery under general anaesthesia with or without regional anaesthesia: a target trial emulation using a national hospital claims database.",
-      "abstract": "BACKGROUND: We evaluated whether combined general and regional anaesthesia (GA+RA) was associated with improvements in activities of daily living compared with GA alone in adult patients having major orthopaedic surgery. METHODS: This target trial emulation used data from the Japanese Diagnosis Procedure Combination system (April 1, 2016-December 31, 2023) for patients undergoing major orthopaedic surgery. The primary outcome was discharge-anchored functional change, defined as the difference in the Barthel Index scores between admission and discharge, among admissions with observed and comparable discharge Barthel Index scores. We conducted stabilised inverse probability of treatment weighting using preoperative covariates, and weighted linear regression models were fitted. Secondary outcomes included in-hospital mortality and postoperative length of stay. Missing data were handled using multiple imputations, and sensitivity analyses (inverse probability of censoring weighting, subgroup analyses, and complete case analysis) were performed. RESULTS: A total of 244 212 patients received GA+RA (peripheral nerve block: 183 564; epidural anaesthesia: 60 648) and 435 462 patients received GA alone. After propensity score weighting, GA+RA yielded a higher change in Barthel Index scores (mean difference 0.73, 95% confidence interval [CI] 0.57-0.88, P<0.001), shorter postoperative length of stay (-1.40 days, 95% CI -1.45 to -1.35, P<0.001) and lower in-hospital mortality (hazard ratio 0.85, 95% CI 0.76-0.96, P=0.006). Sensitivity analyses yielded directionally consistent findings. CONCLUSIONS: Combined general and regional anaesthesia was associated clinically with modest improvements in discharge-anchored functional change, postoperative stay and in-hospital mortality. Residual confounding and heterogeneity of regional anaesthesia techniques warrant cautious interpretation and prospective confirmation.",
-      "authors": "Yoshimura M, Koga M, Morimoto Y, Matsusaki T",
-      "citation": "Br J Anaesth. 2026 Jul 17:S0007-0912(26)00427-7. doi: 10.1016/j.bja.2026.06.008.",
-      "doi": "10.1016/j.bja.2026.06.008",
-      "pmid": "42469101",
+      "publishedDate": "2026-06-01",
+      "electronicPublicationDate": "2026-06-01",
+      "readingTime": "11 分钟",
+      "title": "重新定义“矛盾性”兴奋：区分脑电图复杂性和熵揭示健康成人丙泊酚敏感性的静息态动力学",
+      "originalTitle": "Reframing \"paradoxical\" excitation: disentangling electroencephalogram complexity and entropy reveals resting-state dynamics associated with propofol susceptibility in healthy adults.",
+      "abstract": "BACKGROUND: Propofol exposure can produce heterogeneous neural responses, from the expected suppression to transient paradoxical excitation. Electroencephalography (EEG) measures of signal complexity and entropy have emerged as reliable markers of consciousness, but different types of complexity and entropy measures are often conflated. We used Type I and II complexity measures on the complexity-entropy causal plane (CECP) to characterise divergent neural trajectories during propofol-induced loss of consciousness. We hypothesised that paradoxical excitation is reflected in both Type I and Type II complexity; that divergent trajectories on the CECP separate paradoxical excitation from suppression; and that baseline EEG complexity is associated with susceptibility to propofol. METHODS: We analysed EEG data from two independent cohorts of healthy adults receiving propofol: the Chennu dataset (n=20), which included resting-state baseline, mild, and moderate sedation, followed by a recovery period; and the ReCCognition dataset (n=8), which used escalating infusions from baseline to deep sedation. For each participant and sedation level, we extracted Lempel-Ziv complexity (Type I) and statistical complexity (Type II) and projected them onto the CECP. Pearson correlations related baseline statistical complexity to changes in statistical complexity during moderate sedation; behavioural responsiveness; effect-site propofol concentration; and time to loss of consciousness. RESULTS: At moderate sedation, participants who remained responsive showed paradoxical increases in Lempel-Ziv Complexity and decreases in statistical complexity, whereas unresponsive participants exhibited the opposite pattern. Baseline statistical complexity correlated negatively with both the change in statistical complexity (r=-0.88) and behavioural responsiveness, indicating that intrinsic brain dynamics influence individual susceptibility to sedation. CECP trajectories revealed a reproducible inflection point demarcating paradoxical excitation from suppression. CONCLUSIONS: Mapping EEG trajectories on the CECP bridges anaesthetic state transitions with underlying neural dynamics. Baseline EEG complexity indexes individual sensitivity to propofol, determining whether brain dynamics transiently enter excitation or direct suppression.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND:",
+            "text": "丙泊酚暴露可产生异质性神经反应，从预期的抑制到短暂的矛盾性兴奋。脑电图（EEG）信号复杂性和熵的测量已成为意识的可靠标志物，但不同类型的复杂性和熵测量常被混淆。我们在复杂性-熵因果平面（CECP）上使用I型和II型复杂性测量来描述丙泊酚诱导意识丧失过程中的不同神经轨迹。我们假设：矛盾性兴奋在I型和II型复杂性中均有体现；CECP上的不同轨迹将矛盾性兴奋与抑制区分开；基线EEG复杂性与对丙泊酚的敏感性相关。"
+          },
+          {
+            "heading": "METHODS:",
+            "text": "我们分析了两个独立健康成人队列接受丙泊酚的EEG数据：Chennu数据集（n=20），包括静息态基线、轻度、中度镇静，随后恢复期；以及ReCCognition数据集（n=8），使用从基线到深度镇静的递增输注。对于每位参与者和每个镇静水平，我们提取了Lempel-Ziv复杂性（I型）和统计复杂性（II型），并将其投影到CECP上。Pearson相关分析将基线统计复杂性分别与中度镇静期间统计复杂性的变化、行为反应性、效应室丙泊酚浓度以及意识丧失时间相关联。"
+          },
+          {
+            "heading": "RESULTS:",
+            "text": "在中度镇静时，保持反应的参与者表现出Lempel-Ziv复杂性的矛盾性增加和统计复杂性的下降，而无反应参与者则呈现相反模式。基线统计复杂性与统计复杂性的变化（r=-0.88）及行为反应性均呈负相关，表明内在脑动力学影响个体对镇静的敏感性。CECP轨迹揭示了一个可重复的拐点，界定了矛盾性兴奋与抑制。"
+          },
+          {
+            "heading": "CONCLUSIONS:",
+            "text": "在CECP上映射EEG轨迹将麻醉状态转换与潜在的神经动力学联系起来。基线EEG复杂性指示个体对丙泊酚的敏感性，决定了脑动力学是短暂进入兴奋状态还是直接进入抑制状态。"
+          }
+        ],
+        "fullText": "BACKGROUND: 丙泊酚暴露可产生异质性神经反应，从预期的抑制到短暂的矛盾性兴奋。脑电图（EEG）信号复杂性和熵的测量已成为意识的可靠标志物，但不同类型的复杂性和熵测量常被混淆。我们在复杂性-熵因果平面（CECP）上使用I型和II型复杂性测量来描述丙泊酚诱导意识丧失过程中的不同神经轨迹。我们假设：矛盾性兴奋在I型和II型复杂性中均有体现；CECP上的不同轨迹将矛盾性兴奋与抑制区分开；基线EEG复杂性与对丙泊酚的敏感性相关。 METHODS: 我们分析了两个独立健康成人队列接受丙泊酚的EEG数据：Chennu数据集（n=20），包括静息态基线、轻度、中度镇静，随后恢复期；以及ReCCognition数据集（n=8），使用从基线到深度镇静的递增输注。对于每位参与者和每个镇静水平，我们提取了Lempel-Ziv复杂性（I型）和统计复杂性（II型），并将其投影到CECP上。Pearson相关分析将基线统计复杂性分别与中度镇静期间统计复杂性的变化、行为反应性、效应室丙泊酚浓度以及意识丧失时间相关联。 RESULTS: 在中度镇静时，保持反应的参与者表现出Lempel-Ziv复杂性的矛盾性增加和统计复杂性的下降，而无反应参与者则呈现相反模式。基线统计复杂性与统计复杂性的变化（r=-0.88）及行为反应性均呈负相关，表明内在脑动力学影响个体对镇静的敏感性。CECP轨迹揭示了一个可重复的拐点，界定了矛盾性兴奋与抑制。 CONCLUSIONS: 在CECP上映射EEG轨迹将麻醉状态转换与潜在的神经动力学联系起来。基线EEG复杂性指示个体对丙泊酚的敏感性，决定了脑动力学是短暂进入兴奋状态还是直接进入抑制状态。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Newman D, Maschke C, Mashour GA, Blain-Moraes S",
+      "citation": "Br J Anaesth. 2026 Aug;137(2):525-534. doi: 10.1016/j.bja.2026.03.082. Epub 2026 Jun 1.",
+      "doi": "10.1016/j.bja.2026.03.082",
+      "pmid": "42225443",
       "pmcid": null,
       "publicationTypes": [
         "Journal Article"
       ],
-      "meshTerms": [],
+      "meshTerms": [
+        "Humans",
+        "*Propofol/pharmacology",
+        "*Electroencephalography/drug effects/methods",
+        "Adult",
+        "Entropy",
+        "Female",
+        "Male",
+        "*Anesthetics, Intravenous/pharmacology",
+        "Consciousness/drug effects",
+        "Young Adult",
+        "*Hypnotics and Sedatives/pharmacology"
+      ],
       "publisher": "Elsevier BV",
       "crossrefVerified": true,
       "researchCategory": {
         "id": "clinical",
-        "label": "临床研究"
+        "label": "临床证据"
       },
       "journalTier": {
         "id": "anesthesia_core",
@@ -511,166 +128,31 @@
       },
       "journalMetric": {
         "metric": "Journal Impact Factor",
-        "impactFactor": 9.8,
-        "metricYear": 2022,
+        "impactFactor": 10.3,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
         "threshold": 5,
         "comparison": "greater-than",
-        "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
-        "verifiedAt": "2026-07-23",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+        "verifiedAt": "2026-07-27",
         "matchedJournal": "British Journal of Anaesthesia"
       },
       "tags": [
-        "临床研究",
+        "临床证据",
         "麻醉及围术期核心期刊",
-        "疼痛与区域麻醉",
+        "麻醉基础研究",
         "Journal Article"
       ],
-      "question": "该研究通过目标试验模拟设计，在大样本真实世界数据中评估了联合麻醉对术后日常活动能力的影响，为围术期麻醉方式的选择提供了临床参考。",
-      "conclusion": "对于接受骨科大手术的成人患者，与单纯全麻相比，全麻联合区域麻醉可能与出院时功能改善（Barthel指数变化均值差0.73, 95%CI 0.57-0.88, P<0.001）、术后住院时间缩短（-1.40天, 95%CI -1.45至-1.35, P<0.001）以及院内死亡率降低（HR 0.85, 95%CI 0.76-0.96, P=0.006）相关联。",
-      "clinical": "本研究提示全麻联合区域麻醉可能在骨科大手术中带来轻微的临床获益，包括功能改善、住院时间缩短和死亡率降低。 区域麻醉技术（外周神经阻滞与硬膜外麻醉）的异质性需进一步区分。",
+      "question": "这项研究通过区分不同类型的脑电图复杂性测量，揭示了丙泊酚诱导意识丧失过程中“矛盾性兴奋”的神经动力学机制，为个体化镇静深度监测提供了潜在的脑电图指标。",
+      "conclusion": "基线脑电图复杂性与丙泊酚敏感性相关，可预测个体在镇静过程中的神经反应轨迹。",
+      "clinical": "基线脑电图复杂性可能作为个体化丙泊酚镇静深度的预测指标。 CECP轨迹有助于区分矛盾性兴奋与抑制，可能指导镇静管理。",
       "evidence": "中等",
-      "score": 49,
+      "score": 47,
       "scoreBreakdown": {
         "relevance": 13,
         "evidenceQuality": 8,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "目标试验模拟研究（基于日本诊断程序组合数据库，2016年4月1日至2023年12月31日），采用稳定的逆概率治疗加权和加权线性回归模型，多重插补处理缺失数据，并进行敏感性分析（逆概率删失加权、亚组分析、完整病例分析）。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "adult patients having major orthopaedic surgery；244 212 patients received GA+RA (peripheral nerve block: 183 564; epidural anaesthesia: 60 648) and 435 462 patients received GA alone"
-        },
-        {
-          "label": "干预与比较",
-          "value": "combined general and regional anaesthesia (GA+RA)；对照：GA alone"
-        },
-        {
-          "label": "主要终点",
-          "value": "discharge-anchored functional change, defined as the difference in the Barthel Index scores between admission and discharge"
-        }
-      ],
-      "keyPoints": [
-        "采用全国性数据库进行目标试验模拟，样本量大（679,674例）。",
-        "联合麻醉与出院时Barthel指数小幅提高（0.73分）相关。",
-        "联合麻醉与术后住院时间缩短1.4天和院内死亡率降低15%相关。",
-        "区域麻醉技术的异质性和残余混杂限制了证据强度。"
-      ],
-      "methods": "既往研究多关注区域麻醉对镇痛和并发症的影响，但对其是否能改善患者术后日常活动能力尚不明确。本研究利用日本诊断程序组合数据库模拟目标试验，比较全麻联合区域麻醉与单纯全麻在骨科大手术患者中的效果。",
-      "results": "纳入679,674例患者（联合麻醉组244,212例，单纯全麻组435,462例）。倾向性评分加权后，联合麻醉组Barthel指数变化均值差0.73（95%CI 0.57-0.88, P<0.001），术后住院时间缩短-1.40天（95%CI -1.45至-1.35, P<0.001），院内死亡率HR 0.85（95%CI 0.76-0.96, P=0.006）。敏感性分析结果方向一致。",
-      "limitations": [
-        "残余混杂和区域麻醉技术的异质性需谨慎解释，并需前瞻性研究确认。",
-        "数据库未提供区域麻醉的具体技术细节（如单次注射、连续给药等），可能影响结果的外推性。"
-      ],
-      "practice": [
-        "本研究提示全麻联合区域麻醉可能在骨科大手术中带来轻微的临床获益，包括功能改善、住院时间缩短和死亡率降低。",
-        "区域麻醉技术（外周神经阻滞与硬膜外麻醉）的异质性需进一步区分。"
-      ],
-      "editor": "该目标试验模拟设计利用了稳健的统计方法（IPTW、多重插补、敏感性分析），结果一致，但非随机对照试验，存在残余混杂可能。 过度解读风险：作者指出联合麻醉的临床获益微小且存在混杂和异质性，避免因果推断，但部分读者可能过度解读为强烈推荐联合麻醉。",
-      "whyItMatters": "该研究通过目标试验模拟设计，在大样本真实世界数据中评估了联合麻醉对术后日常活动能力的影响，为围术期麻醉方式的选择提供了临床参考。",
-      "background": "既往研究多关注区域麻醉对镇痛和并发症的影响，但对其是否能改善患者术后日常活动能力尚不明确。本研究利用日本诊断程序组合数据库模拟目标试验，比较全麻联合区域麻醉与单纯全麻在骨科大手术患者中的效果。",
-      "pico": {
-        "population": "adult patients having major orthopaedic surgery",
-        "intervention": "combined general and regional anaesthesia (GA+RA)",
-        "comparison": "GA alone",
-        "outcome": "discharge-anchored functional change, defined as the difference in the Barthel Index scores between admission and discharge"
-      },
-      "studyType": "目标试验模拟研究（基于日本诊断程序组合数据库，2016年4月1日至2023年12月31日），采用稳定的逆概率治疗加权和加权线性回归模型，多重插补处理缺失数据，并进行敏感性分析（逆概率删失加权、亚组分析、完整病例分析）。",
-      "sampleSize": "244 212 patients received GA+RA (peripheral nerve block: 183 564; epidural anaesthesia: 60 648) and 435 462 patients received GA alone",
-      "primaryOutcome": "discharge-anchored functional change, defined as the difference in the Barthel Index scores between admission and discharge",
-      "effectSize": [
-        "0.73",
-        "-1.40 days",
-        "0.85"
-      ],
-      "confidenceInterval": [
-        "0.57-0.88",
-        "-1.45 to -1.35",
-        "0.76-0.96"
-      ],
-      "pValue": [
-        "<0.001",
-        "<0.001",
-        "0.006"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "该目标试验模拟设计利用了稳健的统计方法（IPTW、多重插补、敏感性分析），结果一致，但非随机对照试验，存在残余混杂可能。",
-        "overinterpretationRisk": "作者指出联合麻醉的临床获益微小且存在混杂和异质性，避免因果推断，但部分读者可能过度解读为强烈推荐联合麻醉。"
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42469101/",
-        "doi": "https://doi.org/10.1016/j.bja.2026.06.008",
-        "publisher": "https://doi.org/10.1016/j.bja.2026.06.008",
-        "openFullText": null
-      }
-    },
-    {
-      "slug": "pmid-42461720",
-      "number": "05",
-      "category": "麻醉学",
-      "journal": "Anesthesia and analgesia",
-      "year": "2026",
-      "publishedDate": "2026-07-15",
-      "electronicPublicationDate": "2026-07-15",
-      "readingTime": "8 分钟",
-      "title": "高海拔手术患者术前血红蛋白与术中氧饱和度降低的性别特异性非线性关联：一项回顾性观察性研究",
-      "originalTitle": "Sex-Specific Nonlinear Association Between Preoperative Hemoglobin and Intraoperative Oxygen Desaturation in High-Altitude Surgical Patients: A Retrospective Observational Study.",
-      "abstract": "BACKGROUND: High hemoglobin concentration is a compensatory adaptation to high-altitude hypoxia that theoretically increases oxygen-carrying capacity. However, the associated rise in blood viscosity may compromise microcirculatory flow and contribute to intrapulmonary shunting during anesthesia. This study investigates sex-specific associations between preoperative hemoglobin concentrations and intraoperative oxygen desaturation events in surgical patients residing at high altitude. METHODS: In this retrospective study, we analyzed data from 8010 high-altitude residents undergoing general anesthesia for noncardiothoracic surgery at People's Hospital of Xizang Autonomous Region between January 2020 and October 2024. The dataset comprised preoperative baseline characteristics, information related to surgery and anesthesia. The primary outcome was intraoperative oxygen desaturation, defined as a peripheral oxygen saturation (Spo2 <90% lasting for >/=1 minute) measured by pulse oximetry in patients receiving mechanical ventilation during general anesthesia. Patients were stratified by sex: male (n = 3622) and female (n = 4388). Nonlinear associations were analyzed using multivariable-adjusted restricted cubic splines, and piecewise logistic regression was used to identify hemoglobin thresholds. RESULTS: Nonlinear associations between preoperative hemoglobin concentrations and intraoperative oxygen desaturation were observed in both sexes. For males, piecewise regression identified a statistical inflection point at 20.6 g/dL (adjusted odds ratio [adjOR] per 1 g/dL increase, 1.50; 95% confidence interval [CI], 1.18-1.92; P = .001). For females, the threshold was notably lower at 14.9 g/dL, above which the risk significantly increased (adjOR per 1 g/dL increase, 1.33; 95% CI, 1.13-1.58; P < .001). However, for males, a clinically significant risk increase was observed starting at 18.0 g/dL (adjOR per 1 g/dL increase, 1.23; 95% CI, 1.05-1.45; P = .012). Sensitivity analyses validated these findings across different definitions of desaturation and imputation methods. CONCLUSIONS: In high-altitude surgical patients receiving mechanical ventilation during general anesthesia, we identified sex-specific hemoglobin thresholds associated with intraoperative oxygen desaturation. While statistical inflection points occur at higher levels, particularly in males, our data suggest that clinical caution is advised when hemoglobin exceeds 18.0 g/dL in males and 14.9 g/dL in females. These findings underscore the rheological risks of higher hemoglobin concentrations and support the adoption of sex-stratified preoperative assessment protocols to optimize perioperative oxygen delivery.",
-      "authors": "Yan Q, Xu Y, Guo Y, Li R, Puzhen D, Mao Y, Ciren L, Feng Y",
-      "citation": "Anesth Analg. 2026 Jul 15. doi: 10.1213/ANE.0000000000008115.",
-      "doi": "10.1213/ane.0000000000008115",
-      "pmid": "42461720",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床研究"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 1
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 5.9,
-        "metricYear": 2022,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1523630/full",
-        "verifiedAt": "2026-07-23",
-        "matchedJournal": "Anesthesia & Analgesia"
-      },
-      "tags": [
-        "临床研究",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "Journal Article"
-      ],
-      "question": "高海拔地区居民血红蛋白代偿性增高，虽可增加携氧能力，但血液粘稠度升高可能影响微循环并导致肺内分流。本研究确定了性别特异性的血红蛋白阈值，有助于术前风险分层和优化围术期氧输送。",
-      "conclusion": "在高海拔手术患者中，男性术前血红蛋白超过18.0 g/dL、女性超过14.9 g/dL时，术中氧饱和度降低的风险显著增加。",
-      "clinical": "对于高海拔手术患者，麻醉前应评估血红蛋白水平，男性超过18.0 g/dL、女性超过14.9 g/dL时需警惕术中低氧血症风险。 性别分层术前评估有助于优化围术期氧合管理，可能需考虑降低血红蛋白浓度的干预措施（如放血疗法）或调整麻醉策略。",
-      "evidence": "中等",
-      "score": 49,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 10,
         "clinicalImpact": 7,
         "journalQuality": 15,
         "novelty": 4
@@ -678,67 +160,160 @@
       "study": [
         {
           "label": "研究设计",
-          "value": "回顾性观察性研究"
+          "value": "观察性研究，分析两个独立数据集（Chennu数据集n=20，ReCCognition数据集n=8）的脑电图数据。"
         },
         {
           "label": "研究对象与样本",
-          "value": "High-altitude residents undergoing general anesthesia for noncardiothoracic surgery at People's Hospital of Xizang Autonomous Region between January 2020 and October 2024；8010 (male: 3622, female: 4388)"
+          "value": "healthy adults；20 (Chennu dataset), 8 (ReCCognition dataset)"
         },
         {
           "label": "干预与比较",
-          "value": "术前血红蛋白浓度（暴露因素）；对照：不同血红蛋白水平（无明确对照组，通过分段回归比较阈值前后）"
+          "value": "propofol sedation；对照：responsive vs unresponsive participants at moderate sedation"
         },
         {
           "label": "主要终点",
-          "value": "Intraoperative oxygen desaturation defined as peripheral oxygen saturation (SpO2 <90% lasting for ≥1 minute) measured by pulse oximetry in patients receiving mechanical ventilation during general anesthesia"
+          "value": "Electroencephalography (EEG) complexity and entropy measures (Lempel-Ziv complexity and statistical complexity) associated with loss of consciousness and paradoxical excitation"
         }
       ],
       "keyPoints": [
-        "高海拔地区手术患者术前血红蛋白与术中低氧呈非线性关系，且存在性别差异。",
-        "男性术前血红蛋白超过18.0 g/dL、女性超过14.9 g/dL时，术中氧饱和度降低风险增加。",
-        "观测到的关联支持在术前评估中采用性别特异性策略。",
-        "该研究为回顾性观察，因果结论需进一步研究证实。"
+        "中等镇静下，保持反应者的Lempel-Ziv复杂性增加、统计复杂性下降（矛盾性兴奋）。",
+        "基线统计复杂性可预测个体对丙泊酚的敏感性。",
+        "CECP轨迹可区分矛盾性兴奋和抑制。"
       ],
-      "methods": "高血红蛋白浓度是机体对高海拔缺氧的代偿性适应，理论上可增加携氧能力；然而，伴随的血粘稠度升高可能在麻醉期间损害微循环血流并促进肺内分流。本研究旨在探讨高海拔手术患者术前血红蛋白浓度与术中氧饱和度降低之间的性别特异性关联。",
-      "results": "样本量8010例（男3622，女4388）。主要终点为术中氧饱和度降低。在男性和女性中均观察到术前血红蛋白浓度与术中氧饱和度降低呈非线性关联。男性：分段回归确定的统计拐点为20.6 g/dL（每增加1 g/dL的调整后比值比[adjOR]=1.50，95% CI 1.18-1.92，P=0.001），但临床有意义的风险增加始于18.0 g/dL（adjOR=1.23，95% CI 1.05-1.45，P=0.012）。女性：阈值为14.9 g/dL（adjOR=1.33，95% CI 1.13-1.58，P<0.001）。敏感性分析验证了不同去饱和定义和插补方法下的结果。",
+      "methods": "丙泊酚可产生从预期抑制到短暂矛盾性兴奋的异质性神经反应。不同类型的脑电图复杂性和熵测量常被混淆。本研究利用I型和II型复杂性测量，在复杂性-熵因果平面（CECP）上表征丙泊酚诱导意识丧失过程中的分歧神经轨迹。",
+      "results": "共纳入28例健康成人。主要终点为脑电图复杂性和熵测量。中等镇静时，保持反应的参与者出现Lempel-Ziv复杂性矛盾性增加和统计复杂性下降，无反应参与者则相反。基线统计复杂性与统计复杂性变化呈负相关（r=-0.88），与行为反应性也呈负相关。CECP轨迹显示可重复拐点，区分矛盾性兴奋和抑制。当前可获取内容未提供95%CI和P值。",
+      "mainResults": "共纳入28例健康成人。主要终点为脑电图复杂性和熵测量。中等镇静时，保持反应的参与者出现Lempel-Ziv复杂性矛盾性增加和统计复杂性下降，无反应参与者则相反。基线统计复杂性与统计复杂性变化呈负相关（r=-0.88），与行为反应性也呈负相关。CECP轨迹显示可重复拐点，区分矛盾性兴奋和抑制。当前可获取内容未提供95%CI和P值。",
       "limitations": [
         "当前可获取内容未提供该数据。"
       ],
       "practice": [
-        "对于高海拔手术患者，麻醉前应评估血红蛋白水平，男性超过18.0 g/dL、女性超过14.9 g/dL时需警惕术中低氧血症风险。",
-        "性别分层术前评估有助于优化围术期氧合管理，可能需考虑降低血红蛋白浓度的干预措施（如放血疗法）或调整麻醉策略。"
+        "基线脑电图复杂性可能作为个体化丙泊酚镇静深度的预测指标。",
+        "CECP轨迹有助于区分矛盾性兴奋与抑制，可能指导镇静管理。"
       ],
-      "editor": "中等。研究基于大样本回顾性数据，使用多变量调整和分段回归，统计学关联显著，但观察性研究无法排除混杂因素，结论需前瞻性验证。 过度解读风险：低。作者明确区分了统计拐点与临床阈值（男性临床阈值低于统计拐点），并强调观察性关联而非因果，避免了过度推断。",
-      "whyItMatters": "高海拔地区居民血红蛋白代偿性增高，虽可增加携氧能力，但血液粘稠度升高可能影响微循环并导致肺内分流。本研究确定了性别特异性的血红蛋白阈值，有助于术前风险分层和优化围术期氧输送。",
-      "background": "高血红蛋白浓度是机体对高海拔缺氧的代偿性适应，理论上可增加携氧能力；然而，伴随的血粘稠度升高可能在麻醉期间损害微循环血流并促进肺内分流。本研究旨在探讨高海拔手术患者术前血红蛋白浓度与术中氧饱和度降低之间的性别特异性关联。",
+      "editor": "该研究结果基于观测数据，但效应量较大（r=-0.88），且两个独立数据集结果一致。 过度解读风险：由于样本量小，且为观察性研究，不能建立因果，存在过度解读风险。",
+      "whyItMatters": "这项研究通过区分不同类型的脑电图复杂性测量，揭示了丙泊酚诱导意识丧失过程中“矛盾性兴奋”的神经动力学机制，为个体化镇静深度监测提供了潜在的脑电图指标。",
+      "background": "丙泊酚可产生从预期抑制到短暂矛盾性兴奋的异质性神经反应。不同类型的脑电图复杂性和熵测量常被混淆。本研究利用I型和II型复杂性测量，在复杂性-熵因果平面（CECP）上表征丙泊酚诱导意识丧失过程中的分歧神经轨迹。",
       "pico": {
-        "population": "High-altitude residents undergoing general anesthesia for noncardiothoracic surgery at People's Hospital of Xizang Autonomous Region between January 2020 and October 2024",
-        "intervention": "术前血红蛋白浓度（暴露因素）",
-        "comparison": "不同血红蛋白水平（无明确对照组，通过分段回归比较阈值前后）",
-        "outcome": "Intraoperative oxygen desaturation defined as peripheral oxygen saturation (SpO2 <90% lasting for ≥1 minute) measured by pulse oximetry in patients receiving mechanical ventilation during general anesthesia"
+        "population": "healthy adults",
+        "intervention": "propofol sedation",
+        "comparison": "responsive vs unresponsive participants at moderate sedation",
+        "outcome": "Electroencephalography (EEG) complexity and entropy measures (Lempel-Ziv complexity and statistical complexity) associated with loss of consciousness and paradoxical excitation"
       },
-      "studyType": "回顾性观察性研究",
-      "sampleSize": "8010 (male: 3622, female: 4388)",
-      "primaryOutcome": "Intraoperative oxygen desaturation defined as peripheral oxygen saturation (SpO2 <90% lasting for ≥1 minute) measured by pulse oximetry in patients receiving mechanical ventilation during general anesthesia",
+      "studyType": "观察性研究，分析两个独立数据集（Chennu数据集n=20，ReCCognition数据集n=8）的脑电图数据。",
+      "sampleSize": "20 (Chennu dataset), 8 (ReCCognition dataset)",
+      "primaryOutcome": "Electroencephalography (EEG) complexity and entropy measures (Lempel-Ziv complexity and statistical complexity) associated with loss of consciousness and paradoxical excitation",
       "effectSize": [
-        "adjOR per 1 g/dL increase: 1.50",
-        "adjOR per 1 g/dL increase: 1.23",
-        "adjOR per 1 g/dL increase: 1.33"
+        "r=-0.88"
       ],
       "confidenceInterval": [
-        "1.18-1.92",
-        "1.05-1.45",
-        "1.13-1.58"
+        "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        ".001",
-        ".012",
-        "< .001"
+        "当前可获取内容未提供该数据。"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "中等。研究基于大样本回顾性数据，使用多变量调整和分段回归，统计学关联显著，但观察性研究无法排除混杂因素，结论需前瞻性验证。",
-        "overinterpretationRisk": "低。作者明确区分了统计拐点与临床阈值（男性临床阈值低于统计拐点），并强调观察性关联而非因果，避免了过度推断。"
+        "support": "该研究结果基于观测数据，但效应量较大（r=-0.88），且两个独立数据集结果一致。",
+        "overinterpretationRisk": "由于样本量小，且为观察性研究，不能建立因果，存在过度解读风险。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "abstract",
+          "limitations": [
+            "仅依赖摘要，无法评估全文方法学细节，如随机化、盲法、统计模型等。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "是否不同复杂性测量可表征丙泊酚诱导的矛盾性兴奋？基线脑电图复杂性是否与丙泊酚敏感性相关？",
+          "designFit": "观察性研究设计适合初步探索相关性，但无法证明因果。",
+          "eligibility": "健康成人",
+          "randomization": "非随机设计",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "当前可获取内容未提供该数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "两个数据集所有参与者（Chennu n=20，ReCCognition n=8）",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "使用两个独立数据集，提高了结果的可信度。",
+            "采用创新性CECP分析框架，区分了不同类型的复杂性。"
+          ],
+          "concerns": [
+            "样本量较小（合计28例）。",
+            "非随机设计，可能存在选择偏倚。",
+            "未报告混杂因素调整。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "Pearson correlation",
+              "purposeInStudy": "评估基线统计复杂性与统计复杂性变化、行为反应性等的相关性",
+              "reportedResult": "r=-0.88",
+              "interpretation": "强负相关，提示基线统计复杂性越高，镇静过程中统计复杂性下降幅度越大（或矛盾性兴奋减弱）。",
+              "cautions": [
+                "相关性不代表因果关系。",
+                "未报告P值和置信区间，无法评估统计显著性。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+        },
+        "outcomeAnalysis": {
+          "primary": "基线统计复杂性与统计复杂性变化的相关性（r=-0.88）。",
+          "secondary": [
+            "基线统计复杂性与行为反应性的相关性（负相关）。",
+            "其他未具体报告。"
+          ],
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "当前可获取内容未提供该数据。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "使用两个独立数据集，结果可重复。",
+            "创新性分析框架（CECP）可区分神经轨迹。"
+          ],
+          "limitations": [
+            "样本量小，仅健康成人，外推性受限。",
+            "观察性设计，无法推断因果。",
+            "缺乏对混杂因素的调整。"
+          ],
+          "biasRisks": [
+            "选择偏倚（志愿者均为健康成人）。",
+            "信息偏倚（脑电图处理可能依赖主观阈值）。"
+          ],
+          "certainty": "低，由于样本量小、设计局限性。",
+          "conclusionAlignment": "结论与结果一致。",
+          "causalBoundary": "观察性研究仅提示相关性，不能证明基线脑电图复杂性决定丙泊酚敏感性。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "基线脑电图复杂性测定可能用于预测个体对丙泊酚的敏感性。",
+            "CECP轨迹可能辅助识别矛盾性兴奋状态。"
+          ],
+          "nonApplicability": [
+            "不适用于儿童、神经系统疾病患者或使用其他麻醉药物的场景。"
+          ],
+          "practiceChange": "目前不足以改变临床实践。",
+          "canDoNow": [
+            "在大样本前瞻性研究中验证基线脑电图复杂性的预测价值。"
+          ],
+          "cannotConclude": [
+            "不能确定改善患者临床结局（如减少不良反应或优化镇静深度）。"
+          ],
+          "evidenceGaps": [
+            "需要更大样本、不同麻醉药物、以临床结局为终点的研究。",
+            "缺乏与现有监测指标（如BIS）的比较。"
+          ],
+          "directClinicalRecommendation": false
+        }
       },
       "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
@@ -746,10 +321,878 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42461720/",
-        "doi": "https://doi.org/10.1213/ane.0000000000008115",
-        "publisher": "https://doi.org/10.1213/ane.0000000000008115",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42225443/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.03.082",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.03.082",
         "openFullText": null
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-42102346",
+      "number": "02",
+      "category": "麻醉学",
+      "journal": "Anesthesiology",
+      "year": "2026",
+      "publishedDate": "2026-05-08",
+      "electronicPublicationDate": "2026-05-08",
+      "readingTime": "15 分钟",
+      "title": "非心脏手术中示波法动脉压监测间隔：\"2.5分钟对比5分钟\"随机临床试验",
+      "originalTitle": "Intervals for Oscillometric Arterial Pressure Monitoring during Noncardiac Surgery: The \"2.5-Minute versus 5-Minute\" Randomized Clinical Trial.",
+      "abstract": "BACKGROUND: Guidelines recommend measuring arterial pressure at least every 5 min during surgery. However, it remains unknown whether shortening the measurement interval of intermittent oscillometric arterial pressure monitoring can help reduce intraoperative hypotension. This trial tested the primary hypothesis that oscillometric arterial pressure monitoring at 2.5-min versus 5-min intervals reduces intraoperative hypotension in noncardiac surgery patients with general anesthesia. METHODS: In this single-center trial, 264 noncardiac surgery patients were randomized to oscillometric arterial pressure measurements with an upper-arm cuff at 2.5-min or 5-min intervals during surgery. The primary outcome was the amount of intraoperative hypotension quantified as the time-weighted average mean arterial pressure (MAP) less than 65 mmHg during surgery assessed using blinded continuous finger-cuff arterial pressure monitoring. Secondary outcomes included the administered time-weighted cumulative amount of norepinephrine indexed to body weight. RESULTS: Of the 264 patients randomized (132 to each group), the primary outcome analysis included 132 patients in the 2.5-min group and 131 in the 5-min group. The median (IQR) time-weighted average MAP less than 65 mmHg was 0.00 (0.00, 0.04) mmHg in patients assigned to the 2.5-min group and 0.00 (0.00, 0.21) mmHg in patients assigned to the 5-min group (estimated location shift, -1.40 x 10 -5 mmHg; 95% CI, -6.64 x 10 -5 to 2.93 x 10 -6 mmHg; P = 0.27). Seven patients (5.3%) in the 2.5-min group had at least one 1-min episode of a MAP less than 50 mmHg versus 13 patients (9.9%) in the 5-min group ( P = 0.24). The median (IQR) time-weighted cumulative amount of norepinephrine indexed to body weight administered during surgery was 0.05 (0.03, 0.08) microg . kg -1 . min -1 in the 2.5-min group and 0.05 (0.02, 0.08) microg . kg -1 . min -1 in the 5-min group ( P = 0.40). CONCLUSIONS: In this trial of patients having elective low- to moderate-risk noncardiac surgery with general anesthesia, arterial pressure was tightly controlled with norepinephrine, and the amount of intraoperative hypotension was low-irrespective of the randomized arterial pressure measurement interval. Although oscillometric arterial pressure monitoring at 2.5-min intervals-compared to 5-min intervals-did not reduce the time-weighted average MAP less than 65 mmHg, the authors cannot exclude that monitoring at 2.5-min intervals helps reduce profound hypotension.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "指南建议术中至少每5分钟测量一次动脉压。然而，缩短间断示波法动脉压监测的测量间隔是否有助于减少术中低血压仍属未知。本试验验证主要假设：在全身麻醉的非心脏手术患者中，与5分钟间隔相比，2.5分钟间隔的示波法动脉压监测可减少术中低血压。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "在这项单中心试验中，264例非心脏手术患者被随机分配至术中每2.5分钟或每5分钟使用上臂袖带进行示波法动脉压测量。主要结局是术中低血压的程度，以时间加权平均动脉压（MAP）低于65 mmHg的量化值表示，通过盲法连续指套动脉压监测进行评估。次要结局包括按体重指数化的时间加权累积去甲肾上腺素给药量。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "在随机分组的264例患者中（每组132例），主要结局分析包括2.5分钟组132例和5分钟组131例。2.5分钟组患者的时间加权平均MAP低于65 mmHg的中位数（IQR）为0.00（0.00，0.04）mmHg，5分钟组为0.00（0.00，0.21）mmHg（估计位置偏移，-1.40 × 10^-5 mmHg；95% CI，-6.64 × 10^-5至2.93 × 10^-6 mmHg；P = 0.27）。2.5分钟组有7例（5.3%）患者出现至少一次MAP低于50 mmHg持续1分钟的事件，而5分钟组有13例（9.9%）（P = 0.24）。2.5分钟组术中按体重指数化的时间加权累积去甲肾上腺素给药量的中位数（IQR）为0.05（0.03，0.08）μg·kg^-1·min^-1，5分钟组为0.05（0.02，0.08）μg·kg^-1·min^-1（P = 0.40）。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "在这项针对择期低至中危非心脏手术全身麻醉患者的试验中，无论随机分配的动脉压测量间隔如何，动脉压均通过去甲肾上腺素得到严格控制，术中低血压程度较低。尽管与5分钟间隔相比，2.5分钟间隔的示波法动脉压监测并未降低时间加权平均MAP低于65 mmHg，但作者不能排除2.5分钟间隔监测有助于减少严重低血压的可能性。"
+          }
+        ],
+        "fullText": "BACKGROUND: Guidelines recommend measuring arterial pressure at least every 5 min during surgery. However, it remains unknown whether shortening the measurement interval of intermittent oscillometric arterial pressure monitoring can help reduce intraoperative hypotension. This trial tested the primary hypothesis that oscillometric arterial pressure monitoring at 2.5-min versus 5-min intervals reduces intraoperative hypotension in noncardiac surgery patients with general anesthesia. METHODS: In this single-center trial, 264 noncardiac surgery patients were randomized to oscillometric arterial pressure measurements with an upper-arm cuff at 2.5-min or 5-min intervals during surgery. The primary outcome was the amount of intraoperative hypotension quantified as the time-weighted average mean arterial pressure (MAP) less than 65 mmHg during surgery assessed using blinded continuous finger-cuff arterial pressure monitoring. Secondary outcomes included the administered time-weighted cumulative amount of norepinephrine indexed to body weight. RESULTS: Of the 264 patients randomized (132 to each group), the primary outcome analysis included 132 patients in the 2.5-min group and 131 in the 5-min group. The median (IQR) time-weighted average MAP less than 65 mmHg was 0.00 (0.00, 0.04) mmHg in patients assigned to the 2.5-min group and 0.00 (0.00, 0.21) mmHg in patients assigned to the 5-min group (estimated location shift, -1.40 x 10 -5 mmHg; 95% CI, -6.64 x 10 -5 to 2.93 x 10 -6 mmHg; P = 0.27). Seven patients (5.3%) in the 2.5-min group had at least one 1-min episode of a MAP less than 50 mmHg versus 13 patients (9.9%) in the 5-min group ( P = 0.24). The median (IQR) time-weighted cumulative amount of norepinephrine indexed to body weight administered during surgery was 0.05 (0.03, 0.08) microg . kg -1 . min -1 in the 2.5-min group and 0.05 (0.02, 0.08) microg . kg -1 . min -1 in the 5-min group ( P = 0.40). CONCLUSIONS: In this trial of patients having elective low- to moderate-risk noncardiac surgery with general anesthesia, arterial pressure was tightly controlled with norepinephrine, and the amount of intraoperative hypotension was low-irrespective of the randomized arterial pressure measurement interval. Although oscillometric arterial pressure monitoring at 2.5-min intervals-compared to 5-min intervals-did not reduce the time-weighted average MAP less than 65 mmHg, the authors cannot exclude that monitoring at 2.5-min intervals helps reduce profound hypotension.",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Kouz K, Sierzputowski P, Turan A, Flick M, Muller DX, Thomsen KK, Wegge M, Krause L, et al.",
+      "citation": "Anesthesiology. 2026 Aug 1;145(2):291-299. doi: 10.1097/ALN.0000000000006140. Epub 2026 May 8.",
+      "doi": "10.1097/aln.0000000000006140",
+      "pmid": "42102346",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "meshTerms": [
+        "Humans",
+        "*Monitoring, Intraoperative/methods",
+        "Female",
+        "*Arterial Pressure/physiology",
+        "Male",
+        "Middle Aged",
+        "*Hypotension/prevention & control/diagnosis",
+        "Time Factors",
+        "*Oscillometry/methods",
+        "Aged",
+        "Blood Pressure Determination/methods",
+        "Anesthesia, General",
+        "*Intraoperative Complications/prevention & control/diagnosis"
+      ],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 1
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.3,
+        "metricYear": 2024,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "verifiedAt": "2026-07-27",
+        "matchedJournal": "Anesthesiology"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "麻醉学",
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "question": "该研究为当前指南建议的至少每5分钟测量一次动脉压提供了直接证据，提示在严格控制血压且低血压发生率低的人群中，缩短测量间隔至2.5分钟并未带来额外获益，但需谨慎解释其临床意义。",
+      "conclusion": "在低至中等风险择期非心脏手术全身麻醉患者中，2.5分钟与5分钟间隔的示波法动脉压监测相比，并未降低术中低血压（时间加权平均MAP<65 mmHg）的量，但不能排除2.5分钟监测有助于减少严重低血压的可能性。",
+      "clinical": "当前可获取内容未提供该数据。 当前可获取内容未提供该数据。",
+      "evidence": "中等",
+      "score": 65,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 22,
+        "clinicalImpact": 11,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "单中心、随机对照试验，264例患者随机分配至2.5分钟组和5分钟组。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Elective low- to moderate-risk noncardiac surgery patients with general anesthesia；264"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Oscillometric arterial pressure measurements at 2.5-min intervals；对照：Oscillometric arterial pressure measurements at 5-min intervals"
+        },
+        {
+          "label": "主要终点",
+          "value": "Time-weighted average mean arterial pressure (MAP) less than 65 mmHg during surgery assessed using blinded continuous finger-cuff arterial pressure monitoring"
+        }
+      ],
+      "keyPoints": [
+        "在低风险择期非心脏手术患者中，术中动脉压被严格控制，去甲肾上腺素使用量较低。",
+        "2.5分钟与5分钟测量间隔相比，未降低时间加权平均MAP<65 mmHg的量（P=0.27）。",
+        "严重低血压（MAP<50 mmHg）的事件数在2.5分钟组更低（5.3% vs 9.9%），但差异无统计学意义（P=0.24）。",
+        "去甲肾上腺素用量两组间无差异（P=0.40）。"
+      ],
+      "methods": "指南推荐术中至少每5分钟测量一次动脉压，但缩短间歇式示波法动脉压监测间隔能否减少术中低血压尚不清楚。",
+      "results": "共264例患者随机化（每组132例），主要结局分析纳入2.5分钟组132例、5分钟组131例。两组时间加权平均MAP<65 mmHg的中位数均为0.00 mmHg（2.5分钟组IQR: 0.00, 0.04；5分钟组IQR: 0.00, 0.21），估计位置偏移为-1.40×10⁻⁵ mmHg（95% CI: -6.64×10⁻⁵至2.93×10⁻⁶ mmHg，P=0.27）。2.5分钟组7例（5.3%）出现至少1分钟MAP<50 mmHg，5分钟组13例（9.9%），P=0.24。去甲肾上腺素用量两组中位数均为0.05 µg·kg⁻¹·min⁻¹（P=0.40）。",
+      "mainResults": "共264例患者随机化（每组132例），主要结局分析纳入2.5分钟组132例、5分钟组131例。两组时间加权平均MAP<65 mmHg的中位数均为0.00 mmHg（2.5分钟组IQR: 0.00, 0.04；5分钟组IQR: 0.00, 0.21），估计位置偏移为-1.40×10⁻⁵ mmHg（95% CI: -6.64×10⁻⁵至2.93×10⁻⁶ mmHg，P=0.27）。2.5分钟组7例（5.3%）出现至少1分钟MAP<50 mmHg，5分钟组13例（9.9%），P=0.24。去甲肾上腺素用量两组中位数均为0.05 µg·kg⁻¹·min⁻¹（P=0.40）。",
+      "limitations": [
+        "当前可获取内容未提供该数据。",
+        "当前可获取内容未提供该数据。"
+      ],
+      "practice": [
+        "当前可获取内容未提供该数据。",
+        "当前可获取内容未提供该数据。"
+      ],
+      "editor": "该试验提供了来自单中心随机对照试验的IA级证据，但受限于低血压事件率低、样本量可能不足以及未能排除2.5分钟间隔对严重低血压的潜在获益。 过度解读风险：高度注意：主要结局为阴性，但作者根据描述性亚组差异（MAP<50 mmHg的组间比较）提出2.5分钟监测可能有助于减少严重低血压，这属于事后推断，在原文中也被谨慎表述为“cannot exclude”，不应作为因果结论。",
+      "whyItMatters": "该研究为当前指南建议的至少每5分钟测量一次动脉压提供了直接证据，提示在严格控制血压且低血压发生率低的人群中，缩短测量间隔至2.5分钟并未带来额外获益，但需谨慎解释其临床意义。",
+      "background": "指南推荐术中至少每5分钟测量一次动脉压，但缩短间歇式示波法动脉压监测间隔能否减少术中低血压尚不清楚。",
+      "pico": {
+        "population": "Elective low- to moderate-risk noncardiac surgery patients with general anesthesia",
+        "intervention": "Oscillometric arterial pressure measurements at 2.5-min intervals",
+        "comparison": "Oscillometric arterial pressure measurements at 5-min intervals",
+        "outcome": "Time-weighted average mean arterial pressure (MAP) less than 65 mmHg during surgery assessed using blinded continuous finger-cuff arterial pressure monitoring"
+      },
+      "studyType": "单中心、随机对照试验，264例患者随机分配至2.5分钟组和5分钟组。",
+      "sampleSize": "264",
+      "primaryOutcome": "Time-weighted average mean arterial pressure (MAP) less than 65 mmHg during surgery assessed using blinded continuous finger-cuff arterial pressure monitoring",
+      "effectSize": [
+        "-1.40e-5 mmHg"
+      ],
+      "confidenceInterval": [
+        "-6.64e-5 to 2.93e-6 mmHg"
+      ],
+      "pValue": [
+        "0.27"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "该试验提供了来自单中心随机对照试验的IA级证据，但受限于低血压事件率低、样本量可能不足以及未能排除2.5分钟间隔对严重低血压的潜在获益。",
+        "overinterpretationRisk": "高度注意：主要结局为阴性，但作者根据描述性亚组差异（MAP<50 mmHg的组间比较）提出2.5分钟监测可能有助于减少严重低血压，这属于事后推断，在原文中也被谨慎表述为“cannot exclude”，不应作为因果结论。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "abstract",
+          "limitations": [
+            "仅基于摘要内容，缺乏方法学细节（如随机化方法、分配隐藏、盲法实施等），无法全面评价内部真实性和偏倚风险。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "缩短间歇式示波法动脉压监测间隔（2.5分钟 vs 5分钟）能否减少非心脏手术患者的术中低血压？",
+          "designFit": "随机对照试验是评估干预效果的金标准，适合回答该问题。",
+          "eligibility": "当前可获取内容未提供该数据。",
+          "randomization": "当前可获取内容未提供该数据。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "提到使用了盲法连续指套动脉压监测评估主要结局，但未说明患者、麻醉医生或研究者是否盲。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "所有随机患者均纳入主要分析（2.5分钟组132例，5分钟组131例），失访情况未报告。",
+          "analysisPopulation": "主要分析包括132例和131例，接近意向治疗，但未明确描述。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "随机设计",
+            "使用连续指套动脉压监测客观评估低血压",
+            "两组基线可比性未提及但随机应能保证"
+          ],
+          "concerns": [
+            "单中心",
+            "低血压事件率低可能导致检验效能不足",
+            "主要结局为阴性但作者试图从次要亚组分析中寻找阳性信号"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "比较两组主要结局（时间加权平均MAP<65 mmHg）的差异",
+              "reportedResult": "估计位置偏移-1.40×10⁻⁵ mmHg，95% CI -6.64×10⁻⁵至2.93×10⁻⁶ mmHg，P=0.27",
+              "interpretation": "差异极小且无统计学意义，两组主要结局等效。",
+              "cautions": [
+                "未报告具体统计方法（如Mann-Whitney U检验或Hodges-Lehmann估计），无法确认假设检验的适用性。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "主要结局无统计学差异，且效应量极小（-1.40e-5 mmHg），临床意义可忽略。"
+        },
+        "outcomeAnalysis": {
+          "primary": "时间加权平均MAP<65 mmHg（中位数均为0.00 mmHg），组间无显著差异。",
+          "secondary": [
+            "MAP<50 mmHg的发生率：2.5分钟组5.3% vs 5分钟组9.9%，P=0.24，无统计学差异。",
+            "去甲肾上腺素时间加权累积用量：两组均为0.05 µg·kg⁻¹·min⁻¹，P=0.40。"
+          ],
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "未报告绝对风险差或相对风险，效果估计基于中位数及位置偏移。",
+          "subgroupAndInteraction": "未预先指定亚组，但事后比较了严重低血压（MAP<50 mmHg）的发生率。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "随机对照设计",
+            "使用连续客观监测评估主要结局",
+            "两组间比较分析"
+          ],
+          "limitations": [
+            "单中心、样本量相对较小",
+            "低血压事件率低，可能检验效能不足",
+            "随机化细节、盲法、分配隐藏等不清楚",
+            "统计方法未明确"
+          ],
+          "biasRisks": [
+            "选择偏倚：未描述随机化方法和分配隐藏，中风险",
+            "测量偏倚：主要结局使用盲法监测，低风险",
+            "发表偏倚：基于摘要，风险未知"
+          ],
+          "certainty": "中等至低：因方法学报告不全，但试验设计可靠，结论阴性较稳健。",
+          "conclusionAlignment": "结论与数据一致：主要结局无差异，但作者谨慎指出了不能排除对严重低血压的潜在获益。",
+          "causalBoundary": "因随机分配，可推断测量间隔与低血压之间存在因果关系，但由于阴性结果，无法支持2.5分钟间隔优于5分钟间隔的因果结论。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "低至中度风险择期非心脏手术全身麻醉患者",
+            "术中严格控制血压（积极使用去甲肾上腺素）的医疗环境"
+          ],
+          "nonApplicability": [
+            "高风险手术或危重症患者",
+            "未积极使用血管活性药物的中心"
+          ],
+          "practiceChange": "当前证据不支持常规将示波法监测间隔从5分钟缩短至2.5分钟。",
+          "canDoNow": [
+            "继续遵循指南推荐至少每5分钟测量一次动脉压"
+          ],
+          "cannotConclude": [
+            "不能排除2.5分钟间隔在严重低血压高风险患者中的潜在获益",
+            "不能推广至其他监测方法或不同血流动力学管理模式"
+          ],
+          "evidenceGaps": [
+            "需要更多关于不同手术类型、不同基线低血压风险患者的疗效数据",
+            "缺乏对患者重要结局（如术后并发症）的影响"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42102346/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006140",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006140",
+        "openFullText": null
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-41911318",
+      "number": "03",
+      "category": "麻醉相关领域",
+      "journal": "Anesthesiology",
+      "year": "2026",
+      "publishedDate": "2026-03-30",
+      "electronicPublicationDate": "2026-03-30",
+      "readingTime": "11 分钟",
+      "title": "肝移植术中血流动力学管理与术后并发症：一项多中心队列研究",
+      "originalTitle": "Intraoperative Hemodynamic Management during Liver Transplantation and Postoperative Morbidity: A Multicenter Cohort Study.",
+      "abstract": "BACKGROUND: The best intraoperative hemodynamic strategy in liver transplantation remains uncertain. No high-quality clinical trials or observational studies have comprehensively assessed the association between intraoperative hemodynamic management and postoperative outcomes in liver transplantation. This study aimed to measure the association between two key components of intraoperative hemodynamic management, fluid balance and vasopressor doses, and 7-day graft dysfunction or nonfunction and other postoperative complications after liver transplantation. METHODS: A multicenter cohort study was conducted across eight liver transplantation centers in Canada and France, including consecutive liver transplant recipients over at least 1 yr between January 2021 and May 2023. The exposures were intraoperative fluid balance (volume of blood products, transfused cell saver, colloids, and crystalloids (divided by 1.5), minus estimated blood loss, expressed in liters) and intraoperative vasopressor doses (expressed in increments of 25 mug/kg norepinephrine equivalents). The primary outcome was 7-day early allograft dysfunction or primary graft nonfunction. The study used regression models adjusted for confounders, including intraoperative hypotension. RESULTS: A total of 852 liver transplant recipients (836 with complete data) were included. Participants had a mean +/- SD age of 54 +/- 12 yr and a median [quartile 1, quartile 3] Model for End-stage Liver Disease (MELD) 3.0 score of 20 [11, 29]. The incidence of 7-day early allograft dysfunction or primary graft nonfunction was 28% (occurring in 236 patients). Neither fluid balance (adjusted risk ratio = 1.02 [95% CI, 0.97 to 1.06] for each liter of fluid balance) nor vasopressor doses (adjusted risk ratio = 1.03 [95% CI, 0.99 to 1.06] for each increment of 25 mug/kg of norepinephrine equivalent) were associated with the risk of this outcome. CONCLUSIONS: A higher fluid balance and higher doses of vasopressors were not associated with a higher risk of 7-day early allograft dysfunction or primary graft nonfunction after liver transplantation.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "肝移植术中最佳血流动力学策略仍不确定。尚无高质量临床试验或观察性研究全面评估术中血流动力学管理与肝移植术后结局之间的关联。本研究旨在测量术中血流动力学管理两个关键组成部分（液体平衡和血管加压药剂量）与肝移植术后7天移植物功能障碍或失功能及其他术后并发症之间的关联。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "在加拿大和法国的八个肝移植中心开展了一项多中心队列研究，纳入2021年1月至2023年5月期间至少1年内连续收治的肝移植受体。暴露因素为术中液体平衡（血液制品、回收式自体输血、胶体液和晶体液体积（除以1.5）减去估计失血量，以升表示）和术中血管加压药剂量（以25 μg/kg去甲肾上腺素等效剂量的增量表示）。主要结局为7天早期移植物功能障碍或原发性移植物失功能。研究使用校正了混杂因素（包括术中低血压）的回归模型。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "共纳入852例肝移植受体（836例数据完整）。参与者平均年龄±标准差为54±12岁，终末期肝病模型（MELD）3.0评分中位数[第一四分位数，第三四分位数]为20[11, 29]。7天早期移植物功能障碍或原发性移植物失功能的发生率为28%（发生于236例患者）。液体平衡（每升液体平衡的校正风险比=1.02 [95% CI, 0.97至1.06]）和血管加压药剂量（每增加25 μg/kg去甲肾上腺素等效剂量的校正风险比=1.03 [95% CI, 0.99至1.06]）均与该结局风险无关。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "较高的液体平衡和较高剂量的血管加压药与肝移植术后7天早期移植物功能障碍或原发性移植物失功能的风险升高无关。"
+          }
+        ],
+        "fullText": "BACKGROUND: 肝移植术中最佳血流动力学策略仍不确定。尚无高质量临床试验或观察性研究全面评估术中血流动力学管理与肝移植术后结局之间的关联。本研究旨在测量术中血流动力学管理两个关键组成部分（液体平衡和血管加压药剂量）与肝移植术后7天移植物功能障碍或失功能及其他术后并发症之间的关联。METHODS: 在加拿大和法国的八个肝移植中心开展了一项多中心队列研究，纳入2021年1月至2023年5月期间至少1年内连续收治的肝移植受体。暴露因素为术中液体平衡（血液制品、回收式自体输血、胶体液和晶体液体积（除以1.5）减去估计失血量，以升表示）和术中血管加压药剂量（以25 μg/kg去甲肾上腺素等效剂量的增量表示）。主要结局为7天早期移植物功能障碍或原发性移植物失功能。研究使用校正了混杂因素（包括术中低血压）的回归模型。RESULTS: 共纳入852例肝移植受体（836例数据完整）。参与者平均年龄±标准差为54±12岁，终末期肝病模型（MELD）3.0评分中位数[第一四分位数，第三四分位数]为20[11, 29]。7天早期移植物功能障碍或原发性移植物失功能的发生率为28%（发生于236例患者）。液体平衡（每升液体平衡的校正风险比=1.02 [95% CI, 0.97至1.06]）和血管加压药剂量（每增加25 μg/kg去甲肾上腺素等效剂量的校正风险比=1.03 [95% CI, 0.99至1.06]）均与该结局风险无关。CONCLUSIONS: 较高的液体平衡和较高剂量的血管加压药与肝移植术后7天早期移植物功能障碍或原发性移植物失功能的风险升高无关。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Carrier FM, Ferreira Guerra S, Soucy-Proulx M, Joosten A, McCluskey S, Luzzi C, Ghai P, Papamihali K, et al.",
+      "citation": "Anesthesiology. 2026 Aug 1;145(2):300-312. doi: 10.1097/ALN.0000000000006071. Epub 2026 Mar 30.",
+      "doi": "10.1097/aln.0000000000006071",
+      "pmid": "41911318",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "meshTerms": [
+        "Humans",
+        "*Liver Transplantation/methods/adverse effects",
+        "Female",
+        "Middle Aged",
+        "Cohort Studies",
+        "*Hemodynamics/physiology",
+        "Male",
+        "*Postoperative Complications/epidemiology",
+        "*Intraoperative Care/methods",
+        "Adult",
+        "Vasoconstrictor Agents/administration & dosage",
+        "Canada/epidemiology"
+      ],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 1
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.3,
+        "metricYear": 2024,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "verifiedAt": "2026-07-27",
+        "matchedJournal": "Anesthesiology"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "麻醉相关领域",
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "question": "本研究基于多中心队列数据，评估了肝移植术中两个关键血流动力学管理指标（液体平衡和血管升压药剂量）与术后早期移植物结局之间的关系，为临床实践提供了循证依据，表明这些指标可能不是影响早期移植物功能的主要风险因素。",
+      "conclusion": "术中液体平衡和血管升压药剂量与肝移植术后7天早期移植物功能障碍或原发性无功能的风险无显著关联。",
+      "clinical": "术中液体和血管升压药管理可能不需要过度关注其对早期移植物功能的影响，但需注意研究未发现关联并不代表无临床意义，其他结局未评估。 麻醉医生应继续基于个体化血流动力学目标进行管理，不应仅根据此结果改变当前实践。",
+      "evidence": "中等",
+      "score": 64,
+      "scoreBreakdown": {
+        "relevance": 12,
+        "evidenceQuality": 18,
+        "clinicalImpact": 13,
+        "journalQuality": 15,
+        "novelty": 6
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "多中心队列研究"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Liver transplant recipients from eight centers in Canada and France；852 (836 with complete data)"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Intraoperative fluid balance (liters) and vasopressor doses (25 µg/kg norepinephrine equivalents increments)；对照：Not applicable (exposures as continuous variables)"
+        },
+        {
+          "label": "主要终点",
+          "value": "7-day early allograft dysfunction or primary graft nonfunction"
+        }
+      ],
+      "keyPoints": [
+        "多中心队列研究，包括852例肝移植受者。",
+        "术中液体平衡和血管升压药剂量与7天早期移植物功能障碍或原发性无功能无显著关联。",
+        "效应量接近1，95%CI包含1。",
+        "P值未报告。",
+        "研究未评估长期结局或其他并发症。"
+      ],
+      "methods": "肝移植术中最佳血流动力学策略仍不确定，现有缺乏高质量临床试验或观察性研究全面评估术中血流动力学管理与术后结局的关联。",
+      "results": "共纳入852例肝移植受者（836例有完整数据）。7天早期移植物功能障碍或原发性无功能发生率为28%（236例）。多变量回归分析显示，液体平衡（每升调整风险比1.02，95%CI 0.97-1.06）和血管升压药剂量（每25 µg/kg去甲肾上腺素当量递增调整风险比1.03，95%CI 0.99-1.06）均与主要结局无统计学显著关联。",
+      "mainResults": "共纳入852例肝移植受者（836例有完整数据）。7天早期移植物功能障碍或原发性无功能发生率为28%（236例）。多变量回归分析显示，液体平衡（每升调整风险比1.02，95%CI 0.97-1.06）和血管升压药剂量（每25 µg/kg去甲肾上腺素当量递增调整风险比1.03，95%CI 0.99-1.06）均与主要结局无统计学显著关联。",
+      "limitations": [
+        "当前可获取内容未提供研究局限性信息。",
+        "基于摘要分析，可能存在残余混杂、单中心效应、结局定义差异等未报告限制。"
+      ],
+      "practice": [
+        "术中液体和血管升压药管理可能不需要过度关注其对早期移植物功能的影响，但需注意研究未发现关联并不代表无临床意义，其他结局未评估。",
+        "麻醉医生应继续基于个体化血流动力学目标进行管理，不应仅根据此结果改变当前实践。"
+      ],
+      "editor": "研究结果支持术中液体平衡和血管升压药剂量与术后7天移植物功能障碍或非功能无显著关联的结论。 过度解读风险：高，因为观察性研究不能排除残余混杂，且未评估其他重要临床结局。",
+      "whyItMatters": "本研究基于多中心队列数据，评估了肝移植术中两个关键血流动力学管理指标（液体平衡和血管升压药剂量）与术后早期移植物结局之间的关系，为临床实践提供了循证依据，表明这些指标可能不是影响早期移植物功能的主要风险因素。",
+      "background": "肝移植术中最佳血流动力学策略仍不确定，现有缺乏高质量临床试验或观察性研究全面评估术中血流动力学管理与术后结局的关联。",
+      "pico": {
+        "population": "Liver transplant recipients from eight centers in Canada and France",
+        "intervention": "Intraoperative fluid balance (liters) and vasopressor doses (25 µg/kg norepinephrine equivalents increments)",
+        "comparison": "Not applicable (exposures as continuous variables)",
+        "outcome": "7-day early allograft dysfunction or primary graft nonfunction"
+      },
+      "studyType": "多中心队列研究",
+      "sampleSize": "852 (836 with complete data)",
+      "primaryOutcome": "7-day early allograft dysfunction or primary graft nonfunction",
+      "effectSize": [
+        "1.02",
+        "1.03"
+      ],
+      "confidenceInterval": [
+        "0.97 to 1.06",
+        "0.99 to 1.06"
+      ],
+      "pValue": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "研究结果支持术中液体平衡和血管升压药剂量与术后7天移植物功能障碍或非功能无显著关联的结论。",
+        "overinterpretationRisk": "高，因为观察性研究不能排除残余混杂，且未评估其他重要临床结局。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "abstract",
+          "limitations": [
+            "仅基于摘要，缺少方法学细节、完整结果和讨论内容。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "术中血流动力学管理（液体平衡和血管升压药剂量）与肝移植术后早期移植物功能障碍或非功能是否相关？",
+          "designFit": "多中心队列研究适用于评估暴露与结局的关联，但无法确定因果关系。",
+          "eligibility": "当前可获取内容未提供具体纳入排除标准。",
+          "randomization": "未进行随机化，基于暴露分组。",
+          "allocationConcealment": "不适用。",
+          "blinding": "当前可获取内容未提供。",
+          "sampleSizePlanning": "当前可获取内容未提供样本量计算信息。",
+          "followUp": "随访期为术后7天。",
+          "analysisPopulation": "836例有完整数据的患者。",
+          "missingData": "16例缺失数据，但处理方法未报告。",
+          "strengths": [
+            "多中心设计，覆盖加拿大和法国8个中心。",
+            "连续纳入，减少选择偏倚。",
+            "校正了包括术中低血压在内的混杂因素。"
+          ],
+          "concerns": [
+            "观察性研究无法排除残余混杂。",
+            "结局限于7天，未评估更长期结局。",
+            "摘要未报告缺失数据处理方法。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "当前可获取内容未提供具体统计方法名称。",
+              "reportedResult": "调整风险比和95%CI",
+              "interpretation": "调整风险比接近1且CI跨越1，表明无统计学显著关联。",
+              "cautions": [
+                "未报告P值。",
+                "未说明回归模型类型（如Poisson或logistic）。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "包括术中低血压等混杂因素，具体未列出。",
+          "multiplicity": "当前可获取内容未提供多重性调整信息。",
+          "subgroupAnalysis": "当前可获取内容未报告亚组分析。",
+          "clinicalVsStatisticalSignificance": "无统计学显著差异，临床意义需结合结局率（28%），但效应量小，可能无临床重要性。"
+        },
+        "outcomeAnalysis": {
+          "primary": "7天早期移植物功能障碍或原发性无功能",
+          "secondary": [
+            "当前可获取内容未提供次要结局。"
+          ],
+          "safety": "当前可获取内容未提供不良事件信息。",
+          "absoluteVsRelative": "报告了相对效应（风险比），未提供绝对风险差异。",
+          "subgroupAndInteraction": "当前可获取内容未提供。",
+          "sensitivity": "当前可获取内容未提供敏感性分析。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "多中心队列，样本量较大。",
+            "校正关键混杂因素。",
+            "暴露定义明确。"
+          ],
+          "limitations": [
+            "摘要未报告详细方法，无法全面评估偏倚风险。",
+            "观察性设计，不能排除未测量的混杂。",
+            "仅评估短期结局。"
+          ],
+          "biasRisks": [
+            "选择偏倚：连续纳入可能较低。",
+            "信息偏倚：暴露和结局测量方法未详细说明。",
+            "混杂偏倚：可能仍有未校正因素。"
+          ],
+          "certainty": "低至中等，因仅基于摘要且为观察性研究。",
+          "conclusionAlignment": "结论与结果一致。",
+          "causalBoundary": "观察性关联不能确定为因果关系，需随机对照试验验证。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "适用于加拿大和法国肝移植中心，可能可推广至类似医疗环境。"
+          ],
+          "nonApplicability": [
+            "不适用于儿科肝移植或不同医疗资源地区。"
+          ],
+          "practiceChange": "当前证据不足以改变临床实践。",
+          "canDoNow": [
+            "麻醉医生可继续基于现有血流动力学管理指南进行个体化治疗。"
+          ],
+          "cannotConclude": [
+            "不能根据此研究推测液体平衡或血管升压药剂量对其它结局（如肾衰竭、住院时间）的影响。"
+          ],
+          "evidenceGaps": [
+            "需要随机对照试验来证实。",
+            "需评估长期移植物存活率、肾毒性、感染等结局。",
+            "需探讨不同亚组（如MELD评分高者）的效应。",
+            "需明确是否存在非线性关系或阈值效应。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41911318/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006071",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006071",
+        "openFullText": null
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-41983562",
+      "number": "04",
+      "category": "麻醉学",
+      "journal": "Anesthesiology",
+      "year": "2026",
+      "publishedDate": "2026-04-15",
+      "electronicPublicationDate": "2026-04-15",
+      "readingTime": "12 分钟",
+      "title": "恢复室脑电图监测用于识别术后谵妄风险患者",
+      "originalTitle": "Electroencephalographic Monitoring in the Recovery Room for Identification of Patients at Risk for Postoperative Delirium.",
+      "abstract": "BACKGROUND: Electroencephalography (EEG), especially the assessment of alpha oscillations (8 to 12 Hz), has gained attention as a noninvasive marker of neural network integrity, with reduced alpha power linked to thalamocortical disconnectivity and increased vulnerability to postoperative delirium (POD) in elderly patients. Recent studies have demonstrated that altered EEG dynamics in the alpha-band frequencies during anesthesia emergence in the postanesthesia care unit are associated with POD. However, EEG data postoperatively from the recovery room are scarce. METHODS: This prospective observational study (2019 to 2022) at Charite-Universitatsmedizin Berlin investigates frontal EEG signatures and POD in older adults undergoing surgery. Postoperative POD screening was performed in the recovery room and twice daily for 5 days. While the overall study collected pre- and intraoperative EEGs, this study focused on frontal EEG files recorded in the recovery room while patients were awake. Spectral-domain EEG features and monitor-derived indices were compared by multivariable regression analysis between those who developed POD and those who did not. RESULTS: A total of 184 patients had sufficient EEG data for analysis; 57 (31%) developed POD. Recovery-room recordings showed significantly reduced alpha- and beta-band power in patients with POD versus those without POD, with cumulative 10- to 20-Hz power providing the best discrimination (area under the receiver operating characteristic, 0.69; 95% CI, 0.60 to 0.77). Patients without POD exhibited increases in alpha- and beta-band power (8 to 20 Hz) relative to preoperative baseline, with the highest augmentation at approximately 16 Hz, whereas POD patients retained spectral patterns comparable to baseline across all frequency bands. CONCLUSIONS: These data suggest that frontal EEG monitoring in the recovery room can help identify a \"vulnerable brain\" phenotype associated with increased POD risk. Integrating this monitoring into postoperative care may support risk stratification and more individualized management.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "脑电图（EEG），尤其是评估α振荡（8至12 Hz），作为一种神经完整性的无创标志物已受到关注，α功率降低与丘脑皮质连接中断及老年患者术后谵妄（POD）易感性增加相关。近期研究表明，麻醉复苏室中麻醉苏醒期间α频段EEG动态变化与POD相关。然而，术后复苏室的EEG数据很少。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "本项前瞻性观察性研究（2019至2022年）在柏林夏里特医科大学进行，探究老年手术患者的额叶EEG特征与POD。在复苏室及术后5天内每日两次进行POD筛查。虽然整体研究收集了术前和术中的EEG，但本研究聚焦于患者在复苏室清醒状态下记录的额叶EEG文件。通过多变量回归分析比较发生POD与未发生POD患者的谱域EEG特征和监护仪衍生指标。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "共184名患者具有足够的EEG数据进行分析；57名（31%）发生了POD。复苏室记录显示，发生POD的患者与未发生POD的患者相比，α和β频段功率显著降低，累积10至20 Hz功率提供了最佳区分度（受试者工作特征曲线下面积，0.69；95% CI，0.60至0.77）。未发生POD的患者相对于术前基线表现出α和β频段（8至20 Hz）功率增加，最高增幅出现在约16 Hz处，而POD患者在所有频段保留了与基线相当的频谱模式。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "这些数据提示，复苏室的额叶EEG监测有助于识别与POD风险增加相关的“脆弱脑”表型。将这种监测整合到术后护理中可能支持风险分层和更个体化的管理。"
+          }
+        ],
+        "fullText": "背景：脑电图（EEG），尤其是评估α振荡（8至12 Hz），作为一种神经完整性的无创标志物已受到关注，α功率降低与丘脑皮质连接中断及老年患者术后谵妄（POD）易感性增加相关。近期研究表明，麻醉复苏室中麻醉苏醒期间α频段EEG动态变化与POD相关。然而，术后复苏室的EEG数据很少。方法：本项前瞻性观察性研究（2019至2022年）在柏林夏里特医科大学进行，探究老年手术患者的额叶EEG特征与POD。在复苏室及术后5天内每日两次进行POD筛查。虽然整体研究收集了术前和术中的EEG，但本研究聚焦于患者在复苏室清醒状态下记录的额叶EEG文件。通过多变量回归分析比较发生POD与未发生POD患者的谱域EEG特征和监护仪衍生指标。结果：共184名患者具有足够的EEG数据进行分析；57名（31%）发生了POD。复苏室记录显示，发生POD的患者与未发生POD的患者相比，α和β频段功率显著降低，累积10至20 Hz功率提供了最佳区分度（受试者工作特征曲线下面积，0.69；95% CI，0.60至0.77）。未发生POD的患者相对于术前基线表现出α和β频段（8至20 Hz）功率增加，最高增幅出现在约16 Hz处，而POD患者在所有频段保留了与基线相当的频谱模式。结论：这些数据提示，复苏室的额叶EEG监测有助于识别与POD风险增加相关的“脆弱脑”表型。将这种监测整合到术后护理中可能支持风险分层和更个体化的管理。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Markus M, Widmann S, Jansche J, Kreuzer M, Windmann V, Leroy S, Brown EN, Spies C, et al.",
+      "citation": "Anesthesiology. 2026 Aug 1;145(2):333-346. doi: 10.1097/ALN.0000000000006096. Epub 2026 Apr 15.",
+      "doi": "10.1097/aln.0000000000006096",
+      "pmid": "41983562",
+      "pmcid": "PMC13354265",
+      "publicationTypes": [
+        "Journal Article",
+        "Observational Study"
+      ],
+      "meshTerms": [
+        "Humans",
+        "*Electroencephalography/methods",
+        "Female",
+        "*Emergence Delirium/diagnosis/physiopathology",
+        "Prospective Studies",
+        "Male",
+        "Aged",
+        "*Recovery Room",
+        "Anesthesia Recovery Period",
+        "*Postoperative Complications/diagnosis/physiopathology",
+        "Aged, 80 and over",
+        "Risk Factors"
+      ],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 1
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.3,
+        "metricYear": 2024,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "verifiedAt": "2026-07-27",
+        "matchedJournal": "Anesthesiology"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "麻醉学",
+        "老年围术期",
+        "Journal Article",
+        "Observational Study"
+      ],
+      "question": "术后谵妄是老年患者常见并发症，早期识别高危人群有助于预防和干预。该研究提示恢复室脑电图可能提供一种无创、便捷的风险分层手段，但临床转化仍需更多验证。",
+      "conclusion": "恢复室脑电图显示，发生术后谵妄的老年患者α和β频段功率显著降低，累积10-20Hz功率具有中等判别能力（AUC 0.69, 95%CI 0.60-0.77），但尚不足以作为独立诊断工具。",
+      "clinical": "恢复室脑电图监测可能有助于识别“脆弱大脑”表型，用于术后谵妄风险分层。 但当前证据为中等判别能力，尚不能替代现有临床评估工具。 未来需多中心、大样本研究验证其临床实用性及最佳阈值。",
+      "evidence": "中等",
+      "score": 60,
+      "scoreBreakdown": {
+        "relevance": 18,
+        "evidenceQuality": 14,
+        "clinicalImpact": 9,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "前瞻性观察性研究（2019-2022年，柏林夏里特医科大学），纳入184例有足够恢复室脑电图数据的老年手术患者，术后谵妄筛查在恢复室及术后5天内每日两次进行。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "older adults undergoing surgery (aged 70 yr or older)；184"
+        },
+        {
+          "label": "干预与比较",
+          "value": "当前可获取内容未提供该数据。；对照：patients who developed postoperative delirium (POD) versus those who did not (NoPOD)"
+        },
+        {
+          "label": "主要终点",
+          "value": "postoperative delirium (POD)"
+        }
+      ],
+      "keyPoints": [
+        "老年手术患者恢复室脑电图α和β功率降低与术后谵妄相关。",
+        "累积10-20 Hz功率的AUC为0.69（95%CI 0.60-0.77），区分能力中等。",
+        "未发生谵妄患者术后脑电图功率较基线增加，而谵妄患者无此变化。",
+        "研究为单中心观察性设计，存在技术排除、部分盲法缺失等局限。"
+      ],
+      "methods": "脑电图α振荡（8-12 Hz）被视为神经网络完整性的非侵入性标志物，α功率降低与丘脑皮质连接障碍及老年患者术后谵妄易感性增加相关。然而，恢复室术后脑电图数据尚缺乏。",
+      "results": "共184例患者，57例（31%）发生术后谵妄。恢复室记录显示，POD组α和β频段功率显著低于NoPOD组；累积10-20Hz功率的受试者工作特征曲线下面积为0.69（95% CI 0.60-0.77），为最佳判别指标。NoPOD组α和β功率较术前基线增加，而POD组频谱模式与基线相似。",
+      "mainResults": "共184例患者，57例（31%）发生术后谵妄。恢复室记录显示，POD组α和β频段功率显著低于NoPOD组；累积10-20Hz功率的受试者工作特征曲线下面积为0.69（95% CI 0.60-0.77），为最佳判别指标。NoPOD组α和β功率较术前基线增加，而POD组频谱模式与基线相似。",
+      "limitations": [
+        "单中心设计且仅纳入70岁以上患者，限制外推性。",
+        "术后谵妄发生率31%虽在老年手术患者预期范围内，但可能不代表其他机构或手术人群。",
+        "因技术性脑电图采样问题排除107例，凸显常规临床中实施复杂神经生理监测的挑战。",
+        "仅采用额部电极记录，可能遗漏后部和顶叶区域的网络变化。",
+        "2分钟短暂记录时段可能未完全捕捉神经生理恢复的动态和波动性。",
+        "分析聚焦术后即刻，未研究脑电图模式的时间演变。",
+        "10-20 Hz频段为事后频率分解分析得出，非预先指定。",
+        "累积10-20 Hz功率仅显示中等判别能力（AUC 0.69），未达到临床稳健诊断性能通常所需的AUC≥0.70。",
+        "作为观察性研究而非前瞻性试验，脑电图分析期间未维持结局盲法。"
+      ],
+      "practice": [
+        "恢复室脑电图监测可能有助于识别“脆弱大脑”表型，用于术后谵妄风险分层。",
+        "但当前证据为中等判别能力，尚不能替代现有临床评估工具。",
+        "未来需多中心、大样本研究验证其临床实用性及最佳阈值。"
+      ],
+      "editor": "当前内容支持恢复室脑电图与术后谵妄关联的结论，但限于中等判别能力和观察性设计。 过度解读风险：需警惕将关联视为因果，且AUC 0.69提示诊断性能有限，不宜过度解读为临床决策依据。",
+      "whyItMatters": "术后谵妄是老年患者常见并发症，早期识别高危人群有助于预防和干预。该研究提示恢复室脑电图可能提供一种无创、便捷的风险分层手段，但临床转化仍需更多验证。",
+      "background": "脑电图α振荡（8-12 Hz）被视为神经网络完整性的非侵入性标志物，α功率降低与丘脑皮质连接障碍及老年患者术后谵妄易感性增加相关。然而，恢复室术后脑电图数据尚缺乏。",
+      "pico": {
+        "population": "older adults undergoing surgery (aged 70 yr or older)",
+        "intervention": "当前可获取内容未提供该数据。",
+        "comparison": "patients who developed postoperative delirium (POD) versus those who did not (NoPOD)",
+        "outcome": "postoperative delirium (POD)"
+      },
+      "studyType": "前瞻性观察性研究（2019-2022年，柏林夏里特医科大学），纳入184例有足够恢复室脑电图数据的老年手术患者，术后谵妄筛查在恢复室及术后5天内每日两次进行。",
+      "sampleSize": "184",
+      "primaryOutcome": "postoperative delirium (POD)",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "0.60 to 0.77"
+      ],
+      "pValue": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "当前内容支持恢复室脑电图与术后谵妄关联的结论，但限于中等判别能力和观察性设计。",
+        "overinterpretationRisk": "需警惕将关联视为因果，且AUC 0.69提示诊断性能有限，不宜过度解读为临床决策依据。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text_excerpt",
+          "limitations": [
+            "仅获取摘要和开放全文节选，未完整阅读全文，可能遗漏方法细节和部分结果。",
+            "统计方法具体类型、调整变量、P值等未报告，依赖当前可用信息。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "恢复室额部脑电图特征能否区分发生与未发生术后谵妄的老年手术患者？",
+          "designFit": "前瞻性观察性设计适合探索关联，但无法确立因果关系。",
+          "eligibility": "接受手术的70岁及以上患者，无具体排除标准说明。",
+          "randomization": "不适用（观察性研究）。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "脑电图分析期间未维持结局盲法（原文提到complete outcome blinding was not maintained），存在偏倚风险。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "恢复室及术后5天内每日两次进行谵妄筛查。",
+          "analysisPopulation": "184例有足够恢复室脑电图数据的患者（原排除107例技术问题）。",
+          "missingData": "107例因技术问题排除，但未报告缺失数据处理方法。",
+          "strengths": [
+            "前瞻性数据收集。",
+            "使用标准化工具进行谵妄筛查。",
+            "同时纳入术前基线和恢复室脑电图。"
+          ],
+          "concerns": [
+            "单中心、仅老年人群限制外推性。",
+            "高排除率（107/291？）可能引入选择偏倚。",
+            "结局未设盲。",
+            "频带选择为事后分析。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "多变量回归分析",
+              "purposeInStudy": "比较POD组与NoPOD组之间的脑电图频域特征，控制潜在混杂因素。",
+              "reportedResult": "当前可获取内容未报告具体回归系数、P值或调整变量。",
+              "interpretation": "由于缺乏效应量和可信区间，无法评估关联强度。",
+              "cautions": [
+                "未说明具体回归类型（如线性、Logistic）。",
+                "未报告调整的变量列表。",
+                "未报告模型拟合优度或假设检验。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            },
+            {
+              "referenceId": null,
+              "name": "ROC曲线分析",
+              "purposeInStudy": "评估累积10-20Hz功率对POD的判别能力。",
+              "reportedResult": "AUC=0.69，95%CI 0.60-0.77。",
+              "interpretation": "AUC低于0.70，通常认为判别能力中等至偏低。",
+              "cautions": [
+                "未报告最佳截断值及对应的灵敏度、特异度。",
+                "未进行交叉验证或Bootstrap校正（可能有过拟合风险）。",
+                "频带选择基于事后分析。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未报告多重比较校正。",
+          "subgroupAnalysis": "当前可获取内容未提供亚组分析。",
+          "clinicalVsStatisticalSignificance": "AUC的95%CI下限0.60，上限0.77，未跨越0.5，提示统计上显著；但AUC=0.69临床判别价值有限，不足以单独作为诊断工具。"
+        },
+        "outcomeAnalysis": {
+          "primary": "术后谵妄（POD），由专业人员进行筛查（具体工具未说明），发生率31%。",
+          "secondary": [
+            "α和β频段功率（8-20 Hz），结果显示POD组显著降低。",
+            "累积10-20 Hz功率，计算AUC。",
+            "脑电图频谱模式与基线的比较。"
+          ],
+          "safety": "不适用（观察性研究，未涉及干预安全性）。",
+          "absoluteVsRelative": "当前可获取内容未报告绝对风险或相对风险。",
+          "subgroupAndInteraction": "当前可获取内容未报告亚组或交互作用分析。",
+          "sensitivity": "当前可获取内容未报告敏感性分析。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "前瞻性设计。",
+            "系统化的谵妄随访。",
+            "研究问题有临床相关性。"
+          ],
+          "limitations": [
+            "单中心、仅纳入≥70岁患者。",
+            "技术排除比例高。",
+            "结局未设盲。",
+            "事后频带选择。",
+            "判别能力中等。",
+            "未提供回归模型细节。"
+          ],
+          "biasRisks": [
+            "测量偏倚：脑电图分析未盲。",
+            "选择偏倚：排除技术问题患者可能不随机。",
+            "报告偏倚：未报告阴性结果或所有分析。"
+          ],
+          "certainty": "低确定性（观察性研究，局限性较多，效应量不精确）。",
+          "conclusionAlignment": "结论（脑电图可识别风险）与结果一致，但强度被局限削弱。",
+          "causalBoundary": "观察性设计不能证明因果关系，仅显示关联。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "老年手术患者（≥70岁）。",
+            "能够进行标准额部脑电图监测的恢复室。"
+          ],
+          "nonApplicability": [
+            "年轻患者。",
+            "不同医疗环境或手术类型。",
+            "无法获取可靠脑电图记录的场景。"
+          ],
+          "practiceChange": "当前证据不足以支持常规脑电图监测，但可作为风险分层的辅助工具进一步研究。",
+          "canDoNow": [
+            "对老年患者恢复室进行脑电图监测并关注α和β功率，但需结合临床评估。"
+          ],
+          "cannotConclude": [
+            "不能将脑电图异常作为独立诊断标准。",
+            "不能推断脑电图监测改善临床结局。"
+          ],
+          "evidenceGaps": [
+            "需要多中心、大样本研究验证。",
+            "需要预先指定的频段和阈值。",
+            "需要评估其他脑区（如后部）和不同时长的记录。",
+            "需要随机对照试验证明脑电图指导干预能否降低谵妄。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41983562/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006096",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006096",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13354265/"
       }
     }
   ]

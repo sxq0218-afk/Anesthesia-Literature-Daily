@@ -5,8 +5,18 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Jul 2026 04:30:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 03:54:42 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-07-28 每日麻醉文献精读（4篇）</title>
+      <link>http://localhost:3000/archive/2026-07-28/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-07-28/</guid>
+      <pubDate>Tue, 28 Jul 2026 03:54:42 GMT</pubDate>
+      <description>重新定义“矛盾性”兴奋：区分脑电图复杂性和熵揭示健康成人丙泊酚敏感性的静息态动力学：基线脑电图复杂性与丙泊酚敏感性相关，可预测个体在镇静过程中的神经反应轨迹。
+非心脏手术中示波法动脉压监测间隔：&quot;2.5分钟对比5分钟&quot;随机临床试验：在低至中等风险择期非心脏手术全身麻醉患者中，2.5分钟与5分钟间隔的示波法动脉压监测相比，并未降低术中低血压（时间加权平均MAP&lt;65 mmHg）的量，但不能排除2.5分钟监测有助于减少严重低血压的可能性。
+肝移植术中血流动力学管理与术后并发症：一项多中心队列研究：术中液体平衡和血管升压药剂量与肝移植术后7天早期移植物功能障碍或原发性无功能的风险无显著关联。
+恢复室脑电图监测用于识别术后谵妄风险患者：恢复室脑电图显示，发生术后谵妄的老年患者α和β频段功率显著降低，累积10-20Hz功率具有中等判别能力（AUC 0.69, 95%CI 0.60-0.77），但尚不足以作为独立诊断工具。</description>
+    </item>
     <item>
       <title>2026-07-27 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-07-27/</link>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-27T04:30:48.607Z",
+  "updatedAt": "2026-07-28T03:54:42.467Z",
   "records": [
     {
       "pmid": "42359695",
@@ -241,6 +241,38 @@
       "status": "published",
       "runId": "2026-07-27T04-30-48.607Z",
       "firstPublishedAt": "2026-07-27T04:30:48.607Z"
+    },
+    {
+      "pmid": "42225443",
+      "doi": "10.1016/j.bja.2026.03.082",
+      "title": "Reframing \"paradoxical\" excitation: disentangling electroencephalogram complexity and entropy reveals resting-state dynamics associated with propofol susceptibility in healthy adults.",
+      "status": "published",
+      "runId": "2026-07-28T03-54-42.467Z",
+      "firstPublishedAt": "2026-07-28T03:54:42.467Z"
+    },
+    {
+      "pmid": "42102346",
+      "doi": "10.1097/aln.0000000000006140",
+      "title": "Intervals for Oscillometric Arterial Pressure Monitoring during Noncardiac Surgery: The \"2.5-Minute versus 5-Minute\" Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-07-28T03-54-42.467Z",
+      "firstPublishedAt": "2026-07-28T03:54:42.467Z"
+    },
+    {
+      "pmid": "41911318",
+      "doi": "10.1097/aln.0000000000006071",
+      "title": "Intraoperative Hemodynamic Management during Liver Transplantation and Postoperative Morbidity: A Multicenter Cohort Study.",
+      "status": "published",
+      "runId": "2026-07-28T03-54-42.467Z",
+      "firstPublishedAt": "2026-07-28T03:54:42.467Z"
+    },
+    {
+      "pmid": "41983562",
+      "doi": "10.1097/aln.0000000000006096",
+      "title": "Electroencephalographic Monitoring in the Recovery Room for Identification of Patients at Risk for Postoperative Delirium.",
+      "status": "published",
+      "runId": "2026-07-28T03-54-42.467Z",
+      "firstPublishedAt": "2026-07-28T03:54:42.467Z"
     }
   ]
 }

@@ -1,7 +1,88 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-27T04:30:48.607Z",
+  "updatedAt": "2026-07-28T03:54:42.467Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-28T03:54:42.467Z",
+      "search": {
+        "initialDays": 30,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "from": "2026-01-29T03:54:42.467Z",
+        "to": "2026-07-28T03:54:42.467Z",
+        "candidateCount": 120,
+        "unseenCount": 100,
+        "duplicateCount": 20,
+        "priorityCandidateCount": 516,
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 100,
+          "eligibleCount": 20,
+          "excludedCount": 80,
+          "excludedByReason": {
+            "impact-factor-stale": 7,
+            "impact-factor-unknown": 5,
+            "below-or-equal-threshold": 9,
+            "journal-not-configured": 59
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 0,
+          "other": 0,
+          "priorityJournals": 4
+        },
+        "compositionSatisfied": false
+      },
+      "articles": [
+        {
+          "slug": "pmid-42225443",
+          "title": "重新定义“矛盾性”兴奋：区分脑电图复杂性和熵揭示健康成人丙泊酚敏感性的静息态动力学",
+          "originalTitle": "Reframing \"paradoxical\" excitation: disentangling electroencephalogram complexity and entropy reveals resting-state dynamics associated with propofol susceptibility in healthy adults.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "基线脑电图复杂性与丙泊酚敏感性相关，可预测个体在镇静过程中的神经反应轨迹。",
+          "pmid": "42225443"
+        },
+        {
+          "slug": "pmid-42102346",
+          "title": "非心脏手术中示波法动脉压监测间隔：\"2.5分钟对比5分钟\"随机临床试验",
+          "originalTitle": "Intervals for Oscillometric Arterial Pressure Monitoring during Noncardiac Surgery: The \"2.5-Minute versus 5-Minute\" Randomized Clinical Trial.",
+          "journal": "Anesthesiology",
+          "conclusion": "在低至中等风险择期非心脏手术全身麻醉患者中，2.5分钟与5分钟间隔的示波法动脉压监测相比，并未降低术中低血压（时间加权平均MAP<65 mmHg）的量，但不能排除2.5分钟监测有助于减少严重低血压的可能性。",
+          "pmid": "42102346"
+        },
+        {
+          "slug": "pmid-41911318",
+          "title": "肝移植术中血流动力学管理与术后并发症：一项多中心队列研究",
+          "originalTitle": "Intraoperative Hemodynamic Management during Liver Transplantation and Postoperative Morbidity: A Multicenter Cohort Study.",
+          "journal": "Anesthesiology",
+          "conclusion": "术中液体平衡和血管升压药剂量与肝移植术后7天早期移植物功能障碍或原发性无功能的风险无显著关联。",
+          "pmid": "41911318"
+        },
+        {
+          "slug": "pmid-41983562",
+          "title": "恢复室脑电图监测用于识别术后谵妄风险患者",
+          "originalTitle": "Electroencephalographic Monitoring in the Recovery Room for Identification of Patients at Risk for Postoperative Delirium.",
+          "journal": "Anesthesiology",
+          "conclusion": "恢复室脑电图显示，发生术后谵妄的老年患者α和β频段功率显著降低，累积10-20Hz功率具有中等判别能力（AUC 0.69, 95%CI 0.60-0.77），但尚不足以作为独立诊断工具。",
+          "pmid": "41983562"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-27T04:30:48.607Z",
       "search": {
