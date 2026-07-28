@@ -58,6 +58,36 @@ test("does not count a study protocol as a completed clinical study", () => {
   assert.equal(result.id, "other");
 });
 
+test("counts human mechanistic research as clinical rather than basic", () => {
+  const result = classifyResearchCategory({
+    title: "Propofol receptor mechanism in healthy adults",
+    abstract: "Molecular pathway analysis in healthy volunteers.",
+    meshTerms: ["Humans", "Adult"],
+    publicationTypes: ["Journal Article"],
+  });
+  assert.equal(result.id, "clinical");
+  assert.equal(result.reason, "human-study");
+});
+
+test("keeps a relevant basic study when the anesthesia term appears in the abstract instead of the title", () => {
+  const records = [{
+    pmid: "basic-abstract",
+    score: 60,
+    scoreBreakdown: { evidenceQuality: 8 },
+    publicationTypes: ["Journal Article"],
+    meshTerms: ["Animals", "Mice"],
+    title: "Neuronal receptor signalling in mice",
+    abstract: "This study examines the molecular mechanism of propofol anesthesia.",
+    journalMetric: { impactFactor: 8 },
+  }];
+  const result = selectDailyArticles(records, {
+    dailyLimit: 1,
+    selectionPolicy: { clinicalTarget: 0, basicTarget: 1, allowBackfill: false },
+  });
+  assert.equal(result.selected.length, 1);
+  assert.equal(result.candidatePool.basic, 1);
+});
+
 test("selects the four highest-impact clinical articles and highest-impact basic article", () => {
   const records = [
     ...Array.from({ length: 5 }, (_, index) => ({
