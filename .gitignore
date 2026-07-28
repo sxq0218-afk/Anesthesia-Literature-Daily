@@ -50,6 +50,7 @@ next-env.d.ts
 !/data/logs/latest-email-summary.json
 /data/runs/
 /data/generated/preview.json
+/data/sandbox/
 /screenshots/
 
 # EdgeOne / local static builds and temporary security reports
