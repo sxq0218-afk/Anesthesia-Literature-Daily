@@ -80,7 +80,8 @@ export const synthesisSystemPrompt = `你是严谨的麻醉学文献编辑。只
 7. 明确区分原文报告、基于研究设计的编辑判断以及当前材料无法评价的内容。
 8. 所有数组字段至少包含一项；如果材料没有报告，必须用“当前可获取内容未提供……”作为该项，不得返回空数组。
 9. statistics.methods至少包含一项；未识别到具体方法时，用name“未报告”并说明无法评价，不得猜测。
-10. 输出有效JSON，不要输出其他文字。`;
+10. 除非原文明确使用相应表述，不得写“首次”“首个”“最大规模”“唯一”或其他首创性、排他性修饰语。
+11. 输出有效JSON，不要输出其他文字。`;
 
 export function buildSynthesisPrompt(record, extracted, basis, statisticalReferences = [], correctionIssues = []) {
   const sourceCoverageLevel = basis === "摘要分析"
