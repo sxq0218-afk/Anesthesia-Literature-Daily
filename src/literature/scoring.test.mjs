@@ -27,3 +27,15 @@ test("does not promote similarly named journals into a priority tier", () => {
   assert.equal(article.journalTier.id, "other");
   assert.equal(article.scoreBreakdown.journalQuality, journalConfig.defaultScore);
 });
+
+test("rejects a tangential critical-care paper that only mentions a broad query term in the abstract", () => {
+  const article = scoreArticle({
+    title: "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock",
+    abstract: "Some participants later required intubation and hemodynamic management.",
+    meshTerms: ["Humans"],
+    publicationTypes: ["Clinical Trial"],
+    journal: "The New England Journal of Medicine",
+  }, { topicConfig, journalConfig, scoringConfig });
+  assert.equal(article.directlyRelevant, false);
+  assert.equal(article.scoreBreakdown.relevance, 0);
+});
