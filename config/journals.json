@@ -12,6 +12,12 @@
       "label": "麻醉及围术期核心期刊",
       "score": 15,
       "journals": ["British Journal of Anaesthesia", "Anesthesiology", "Anaesthesia", "Anesthesia and Analgesia", "Anesthesia & Analgesia", "Regional Anesthesia and Pain Medicine", "European Journal of Anaesthesiology", "Canadian Journal of Anaesthesia", "Canadian Journal of Anesthesia", "Journal of Clinical Anesthesia", "Pain", "The Journal of Pain", "Pain Medicine", "Critical Care", "Intensive Care Medicine"]
+    },
+    {
+      "id": "basic_mechanism",
+      "label": "神经科学与麻醉机制高影响力期刊",
+      "score": 15,
+      "journals": ["Nature", "Nature Communications", "Nature Neuroscience", "Neuropsychopharmacology"]
     }
   ],
   "defaultScore": 6
