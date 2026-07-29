@@ -1,0 +1,44 @@
+name: 记录本次邮件补发结果
+
+on:
+  workflow_run:
+    workflows:
+      - 每日文献邮件
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  record:
+    if: github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 2
+      - name: 记录运行结果
+        env:
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          RUN_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          RUN_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          mkdir -p data/logs
+          printf '{\n  "runId": "%s",\n  "runUrl": "%s",\n  "conclusion": "%s",\n  "headSha": "%s"\n}\n' "$RUN_ID" "$RUN_URL" "$RUN_CONCLUSION" "$RUN_SHA" > data/logs/latest-workflow-run.json
+      - name: 保存结果
+        run: |
+          git config user.name "anesthesia-literature-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f data/logs/latest-workflow-run.json
+          git commit -m "ops: record repaired daily email workflow result"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git fetch origin main
+            git rebase origin/main
+          done
+          exit 1
