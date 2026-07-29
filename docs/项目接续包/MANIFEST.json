@@ -13,8 +13,8 @@
   },
   "dailySchedule": {
     "workflow": ".github/workflows/daily-email.yml",
-    "cronUtc": "37 20 * * *",
-    "approximateChinaTime": "04:37",
+    "cronUtc": "0 23 * * *",
+    "approximateChinaTime": "07:00",
     "provider": "buttondown"
   },
   "selection": {
