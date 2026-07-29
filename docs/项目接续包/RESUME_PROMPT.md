@@ -42,7 +42,7 @@
 当前主要自动任务：
 
 - `.github/workflows/daily-email.yml`
-- 每天UTC 00:37，即北京时间约08:37。
+- 每天UTC 20:37，即次日北京时间约04:37。
 - Buttondown是当前主要邮件渠道。
 - Production AI Key只允许放GitHub Actions Secrets。
 
