@@ -44,7 +44,7 @@ test("scheduled email workflow persists a validated edition before delivery", as
   const persist = workflow.indexOf("保存并推送已验证期次");
   const send = workflow.indexOf("npm run email:send-daily");
   assert.ok(prepare >= 0 && persist > prepare && send > persist);
-  assert.match(workflow, /cron: "37 20 \* \* \*"/);
+  assert.match(workflow, /cron: "0 23 \* \* \*"/);
   assert.match(workflow, /concurrency:[\s\S]*cancel-in-progress: false/);
   assert.match(workflow, /if: github\.ref == 'refs\/heads\/main'/);
 });
