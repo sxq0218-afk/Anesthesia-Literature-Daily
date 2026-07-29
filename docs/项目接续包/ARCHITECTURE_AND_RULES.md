@@ -3,7 +3,7 @@
 ## 系统架构
 
 ```text
-GitHub Actions（每天北京时间约08:37）
+GitHub Actions（每天北京时间约04:37）
   ↓
 PubMed检索 + PMC开放全文 + Crossref补充
   ↓
