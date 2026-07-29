@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-28T03:54:42.467Z",
+  "updatedAt": "2026-07-29T11:30:43.565Z",
   "records": [
     {
       "pmid": "42359695",
@@ -273,6 +273,46 @@
       "status": "published",
       "runId": "2026-07-28T03-54-42.467Z",
       "firstPublishedAt": "2026-07-28T03:54:42.467Z"
+    },
+    {
+      "pmid": "42237031",
+      "doi": "10.1038/s41593-026-02313-0",
+      "title": "A brainstem pathway underlying vagal modulation of somatic pain and affective states.",
+      "status": "published",
+      "runId": "2026-07-29T11-30-43.565Z",
+      "firstPublishedAt": "2026-07-29T11:30:43.565Z"
+    },
+    {
+      "pmid": "42502084",
+      "doi": "10.1038/s41467-026-75948-z",
+      "title": "Central role for fast nociceptors in mechanical nocifensive behavior and sensitization.",
+      "status": "published",
+      "runId": "2026-07-29T11-30-43.565Z",
+      "firstPublishedAt": "2026-07-29T11:30:43.565Z"
+    },
+    {
+      "pmid": "42115061",
+      "doi": "10.1016/j.bja.2026.03.057",
+      "title": "Association of postoperative elevation of biomarkers of neural injury in blood with postoperative neurocognitive disorders in adults receiving general anaesthesia: a systematic review.",
+      "status": "published",
+      "runId": "2026-07-29T11-30-43.565Z",
+      "firstPublishedAt": "2026-07-29T11:30:43.565Z"
+    },
+    {
+      "pmid": "42034560",
+      "doi": "10.1016/j.bja.2026.02.048",
+      "title": "Videolaryngoscopy versus direct laryngoscopy for double-lumen tube intubation: the DOuble-Lumen intubation with VIdeolaryngoscopy (DOLVI) multicentre randomised trial.",
+      "status": "published",
+      "runId": "2026-07-29T11-30-43.565Z",
+      "firstPublishedAt": "2026-07-29T11:30:43.565Z"
+    },
+    {
+      "pmid": "42097956",
+      "doi": "10.1016/j.bja.2026.03.042",
+      "title": "The environmental footprint and ecotoxicity of sevoflurane and propofol anaesthesia: a retrospective observational modelling study.",
+      "status": "published",
+      "runId": "2026-07-29T11-30-43.565Z",
+      "firstPublishedAt": "2026-07-29T11:30:43.565Z"
     }
   ]
 }

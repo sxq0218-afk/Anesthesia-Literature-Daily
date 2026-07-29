@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T03:54:42.467Z",
+  "updatedAt": "2026-07-29T11:30:43.565Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1154,6 +1154,146 @@
         }
       ],
       "runId": "2026-07-28T03-54-42.467Z"
+    },
+    {
+      "pmid": "42237031",
+      "doi": "10.1038/s41593-026-02313-0",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-29T11:23:48.441Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-29T11:24:28.827Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-29T11:24:28.827Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-29T11:30:43.565Z",
+          "runId": "2026-07-29T11-30-43.565Z"
+        }
+      ],
+      "runId": "2026-07-29T11-30-43.565Z"
+    },
+    {
+      "pmid": "42502084",
+      "doi": "10.1038/s41467-026-75948-z",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-29T11:23:48.441Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-29T11:26:32.113Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文节选分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-29T11:26:32.113Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-29T11:30:43.565Z",
+          "runId": "2026-07-29T11-30-43.565Z"
+        }
+      ],
+      "runId": "2026-07-29T11-30-43.565Z"
+    },
+    {
+      "pmid": "42115061",
+      "doi": "10.1016/j.bja.2026.03.057",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-29T11:23:48.441Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-29T11:27:28.667Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-29T11:27:28.667Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-29T11:30:43.565Z",
+          "runId": "2026-07-29T11-30-43.565Z"
+        }
+      ],
+      "runId": "2026-07-29T11-30-43.565Z"
+    },
+    {
+      "pmid": "42034560",
+      "doi": "10.1016/j.bja.2026.02.048",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-29T11:23:48.441Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-29T11:29:25.494Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-29T11:29:25.494Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-29T11:30:43.565Z",
+          "runId": "2026-07-29T11-30-43.565Z"
+        }
+      ],
+      "runId": "2026-07-29T11-30-43.565Z"
+    },
+    {
+      "pmid": "42097956",
+      "doi": "10.1016/j.bja.2026.03.042",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-07-29T11:23:48.441Z"
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-07-29T11:30:43.565Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-07-29T11:30:43.565Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-07-29T11:30:43.565Z",
+          "runId": "2026-07-29T11-30-43.565Z"
+        }
+      ],
+      "runId": "2026-07-29T11-30-43.565Z"
     }
   ]
 }

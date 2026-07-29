@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 28 Jul 2026 03:54:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 11:30:43 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-07-29 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-07-29/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-07-29/</guid>
+      <pubDate>Wed, 29 Jul 2026 11:30:43 GMT</pubDate>
+      <description>迷走神经调节躯体疼痛和情感状态的脑干通路：本研究在小鼠中发现，孤束尾核投射至导水管周围灰质的神经元是迷走神经刺激抑制疼痛和负性情感的关键节点。
+快速伤害感受器在机械性伤害防御行为和敏化中的核心作用：本研究通过小鼠遗传学操控和人类观察证实，快速传导的A纤维伤害感受器是机械性伤害防御行为和痛觉敏化所必需的。
+血液中神经损伤生物标志物术后升高与接受全身麻醉的成人术后神经认知障碍的关联：一项系统评价：血浆NfL和GFAP术后升高的意义仍不确定；低确定性证据支持NfL升高与术后谵妄（POD）之间的关联，而GFAP升高与POD以及任一生物标志物与术后认知功能障碍（POCD）的关联证据确定性极低。
+视频喉镜对比直接喉镜用于双腔气管插管：DOLVI多中心随机试验：在需肺隔离手术的成年患者中，视频喉镜相比直接喉镜提高了双腔管首次插管成功率，改善了声门显露，并降低了操作难度。
+七氟烷和丙泊酚麻醉的环境足迹和生态毒性：一项回顾性观察建模研究：基于模型的估算，丙泊酚全静脉麻醉（TIVA）产生的水污染量较低且为可生物降解残留物，而七氟烷衍生的三氟乙酸（TFA）在环境中呈线性积累，水污染潜力更高。</description>
+    </item>
     <item>
       <title>2026-07-28 每日麻醉文献精读（4篇）</title>
       <link>http://localhost:3000/archive/2026-07-28/</link>

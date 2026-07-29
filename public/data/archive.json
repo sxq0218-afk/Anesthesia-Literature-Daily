@@ -1,7 +1,235 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T03:54:42.467Z",
+  "updatedAt": "2026-07-29T11:30:43.565Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-29T11:30:43.565Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 30,
+        "expanded": false,
+        "expansionReason": null,
+        "expansionSteps": [],
+        "from": "2026-06-29T11:30:43.565Z",
+        "to": "2026-07-29T11:30:43.565Z",
+        "candidateCount": 61,
+        "discoveryCandidateCount": 1823,
+        "unseenCount": 48,
+        "duplicateCount": 13,
+        "priorityCandidateCount": 61,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 61,
+          "retrievedCount": 61,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 11,
+          "excludedCount": 289,
+          "excludedByReason": {
+            "journal-not-configured": 280,
+            "impact-factor-stale": 4,
+            "below-or-equal-threshold": 5
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 284,
+          "unresolvedJournals": [
+            {
+              "journal": "Anesthesia and pain medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of anesthesia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of case reports",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Annals of vascular surgery",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Healthcare (Basel, Switzerland)",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Molecular psychiatry",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "PloS one",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American surgeon",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Aesthetic plastic surgery",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "American journal of otolaryngology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and analgesia",
+              "reason": "impact-factor-stale",
+              "count": 2
+            },
+            {
+              "journal": "BMC anesthesiology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ open",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 48,
+          "eligibleCount": 45,
+          "excludedCount": 3,
+          "excludedByReason": {
+            "journal-not-configured": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 38,
+          "clinical": 24,
+          "basic": 4,
+          "other": 10
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42237031",
+          "title": "迷走神经调节躯体疼痛和情感状态的脑干通路",
+          "originalTitle": "A brainstem pathway underlying vagal modulation of somatic pain and affective states.",
+          "journal": "Nature neuroscience",
+          "conclusion": "本研究在小鼠中发现，孤束尾核投射至导水管周围灰质的神经元是迷走神经刺激抑制疼痛和负性情感的关键节点。",
+          "pmid": "42237031"
+        },
+        {
+          "slug": "pmid-42502084",
+          "title": "快速伤害感受器在机械性伤害防御行为和敏化中的核心作用",
+          "originalTitle": "Central role for fast nociceptors in mechanical nocifensive behavior and sensitization.",
+          "journal": "Nature communications",
+          "conclusion": "本研究通过小鼠遗传学操控和人类观察证实，快速传导的A纤维伤害感受器是机械性伤害防御行为和痛觉敏化所必需的。",
+          "pmid": "42502084"
+        },
+        {
+          "slug": "pmid-42115061",
+          "title": "血液中神经损伤生物标志物术后升高与接受全身麻醉的成人术后神经认知障碍的关联：一项系统评价",
+          "originalTitle": "Association of postoperative elevation of biomarkers of neural injury in blood with postoperative neurocognitive disorders in adults receiving general anaesthesia: a systematic review.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "血浆NfL和GFAP术后升高的意义仍不确定；低确定性证据支持NfL升高与术后谵妄（POD）之间的关联，而GFAP升高与POD以及任一生物标志物与术后认知功能障碍（POCD）的关联证据确定性极低。",
+          "pmid": "42115061"
+        },
+        {
+          "slug": "pmid-42034560",
+          "title": "视频喉镜对比直接喉镜用于双腔气管插管：DOLVI多中心随机试验",
+          "originalTitle": "Videolaryngoscopy versus direct laryngoscopy for double-lumen tube intubation: the DOuble-Lumen intubation with VIdeolaryngoscopy (DOLVI) multicentre randomised trial.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在需肺隔离手术的成年患者中，视频喉镜相比直接喉镜提高了双腔管首次插管成功率，改善了声门显露，并降低了操作难度。",
+          "pmid": "42034560"
+        },
+        {
+          "slug": "pmid-42097956",
+          "title": "七氟烷和丙泊酚麻醉的环境足迹和生态毒性：一项回顾性观察建模研究",
+          "originalTitle": "The environmental footprint and ecotoxicity of sevoflurane and propofol anaesthesia: a retrospective observational modelling study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "基于模型的估算，丙泊酚全静脉麻醉（TIVA）产生的水污染量较低且为可生物降解残留物，而七氟烷衍生的三氟乙酸（TFA）在环境中呈线性积累，水污染潜力更高。",
+          "pmid": "42097956"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-28T03:54:42.467Z",
       "search": {

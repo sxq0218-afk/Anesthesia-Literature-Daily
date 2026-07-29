@@ -1,7 +1,1502 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T03:54:42.467Z",
+  "updatedAt": "2026-07-29T11:30:43.565Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-29T11:30:43.565Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 30,
+        "expanded": false,
+        "expansionReason": null,
+        "expansionSteps": [],
+        "from": "2026-06-29T11:30:43.565Z",
+        "to": "2026-07-29T11:30:43.565Z",
+        "candidateCount": 61,
+        "discoveryCandidateCount": 1823,
+        "unseenCount": 48,
+        "duplicateCount": 13,
+        "priorityCandidateCount": 61,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 61,
+          "retrievedCount": 61,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 11,
+          "excludedCount": 289,
+          "excludedByReason": {
+            "journal-not-configured": 280,
+            "impact-factor-stale": 4,
+            "below-or-equal-threshold": 5
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 284,
+          "unresolvedJournals": [
+            {
+              "journal": "Anesthesia and pain medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of anesthesia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of case reports",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Annals of vascular surgery",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Healthcare (Basel, Switzerland)",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Molecular psychiatry",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "PloS one",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American surgeon",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Aesthetic plastic surgery",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "American journal of otolaryngology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and analgesia",
+              "reason": "impact-factor-stale",
+              "count": 2
+            },
+            {
+              "journal": "BMC anesthesiology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ open",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 48,
+          "eligibleCount": 45,
+          "excludedCount": 3,
+          "excludedByReason": {
+            "journal-not-configured": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 38,
+          "clinical": 24,
+          "basic": 4,
+          "other": 10
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-v4-flash",
+        "usage": {
+          "calls": 28,
+          "promptTokens": 74471,
+          "completionTokens": 42011,
+          "totalTokens": 116482
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42237031",
+          "number": "01",
+          "category": "麻醉基础研究",
+          "journal": "Nature neuroscience",
+          "year": "2026",
+          "publishedDate": "2026-07",
+          "electronicPublicationDate": "2026-06-03",
+          "readingTime": "9 分钟",
+          "title": "迷走神经调节躯体疼痛和情感状态的脑干通路",
+          "originalTitle": "A brainstem pathway underlying vagal modulation of somatic pain and affective states.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "迷走神经刺激（VNS）可缓解疼痛，但其潜在的神经机制仍不清楚。此外，孤束尾核（cNTS）接收迷走和躯体传入，但它如何将疼痛信号转化为行为以及VNS如何调节这一过程仍不明确。在此，我们鉴定了小鼠中投射至中脑导水管周围灰质（PAG）的cNTS神经元群体（cNTS(PAG)）作为VNS依赖性抑制疼痛和负面情绪的关键节点。cNTS(PAG)神经元的光遗传激活重现了疼痛行为。这些神经元在学习后表现出模态特异性的疼痛编码和预测信号。抑制脊髓输入定义的cNTS(PAG)神经元减少了机械性而非热性伤害感受。值得注意的是，VNS通过招募局部抑制选择性减弱了疼痛诱发的cNTS(PAG)活动，并通过cNTS(PAG)减轻了疼痛诱发的伏隔核多巴胺减少。我们的发现建立了一个脑干通路，该通路在VNS调节疼痛和负面情绪中具有先前未被认识的作用，为疼痛管理中的靶向神经调控提供了见解。"
+              }
+            ],
+            "fullText": "迷走神经刺激（VNS）可缓解疼痛，但其潜在的神经机制仍不清楚。此外，孤束尾核（cNTS）接收迷走和躯体传入，但它如何将疼痛信号转化为行为以及VNS如何调节这一过程仍不明确。在此，我们鉴定了小鼠中投射至中脑导水管周围灰质（PAG）的cNTS神经元群体（cNTS(PAG)）作为VNS依赖性抑制疼痛和负面情绪的关键节点。cNTS(PAG)神经元的光遗传激活重现了疼痛行为。这些神经元在学习后表现出模态特异性的疼痛编码和预测信号。抑制脊髓输入定义的cNTS(PAG)神经元减少了机械性而非热性伤害感受。值得注意的是，VNS通过招募局部抑制选择性减弱了疼痛诱发的cNTS(PAG)活动，并通过cNTS(PAG)减轻了疼痛诱发的伏隔核多巴胺减少。我们的发现建立了一个脑干通路，该通路在VNS调节疼痛和负面情绪中具有先前未被认识的作用，为疼痛管理中的靶向神经调控提供了见解。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Tang Y, Shao R, Luo L, Liao L, Wang X, Zhu H, Xiao X, Deng H",
+          "citation": "Nat Neurosci. 2026 Jul;29(7):1638-1653. doi: 10.1038/s41593-026-02313-0. Epub 2026 Jun 3.",
+          "doi": "10.1038/s41593-026-02313-0",
+          "pmid": "42237031",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 20.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Neuroscience"
+          },
+          "tags": [
+            "基础研究",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究揭示了迷走神经刺激镇痛和改善情绪的新机制，为靶向神经调控治疗疼痛提供了潜在的神经环路基础。",
+          "conclusion": "本研究在小鼠中发现，孤束尾核投射至导水管周围灰质的神经元是迷走神经刺激抑制疼痛和负性情感的关键节点。",
+          "clinical": "当前可获取内容未提供该数据。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验性基础研究（小鼠模型）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "mice；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "vagus nerve stimulation (VNS)；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "pain behavior and negative affect"
+            }
+          ],
+          "keyPoints": [
+            "cNTS(PAG)神经元是迷走神经刺激抑制疼痛和负性情感的关键节点。",
+            "光遗传激活cNTS(PAG)神经元重现疼痛行为。",
+            "迷走神经刺激通过招募局部抑制性神经元选择性抑制疼痛诱发的cNTS(PAG)活性。",
+            "迷走神经刺激通过cNTS(PAG)减弱疼痛诱发的伏隔核多巴胺降低。",
+            "抑制脊髓输入定义的cNTS(PAG)神经元减少机械性而非热性伤害感受。"
+          ],
+          "methods": "迷走神经刺激可缓解疼痛，但其神经机制尚不明确。孤束尾核接收迷走和躯体输入，但如何将疼痛信号转化为行为以及迷走神经刺激如何调控该过程仍不清楚。",
+          "results": "光遗传激活cNTS(PAG)神经元可重现疼痛行为；迷走神经刺激选择性抑制疼痛诱发的cNTS(PAG)活性，并通过cNTS(PAG)减弱疼痛诱发的伏隔核多巴胺降低。样本量、效应量、95%置信区间和P值均未在摘要中报告。",
+          "mainResults": "光遗传激活cNTS(PAG)神经元可重现疼痛行为；迷走神经刺激选择性抑制疼痛诱发的cNTS(PAG)活性，并通过cNTS(PAG)减弱疼痛诱发的伏隔核多巴胺降低。样本量、效应量、95%置信区间和P值均未在摘要中报告。",
+          "limitations": [
+            "当前可获取内容未提供局限性信息。",
+            "研究基于小鼠模型，距临床转化尚需人体研究验证。"
+          ],
+          "practice": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "editor": "研究设计合理，使用光遗传学和化学遗传学等因果工具，明确了cNTS(PAG)在VNS中的作用。 过度解读风险：摘要未提供效应量和统计推断，不可过度解读结果强度和临床相关性。",
+          "whyItMatters": "该研究揭示了迷走神经刺激镇痛和改善情绪的新机制，为靶向神经调控治疗疼痛提供了潜在的神经环路基础。",
+          "background": "迷走神经刺激可缓解疼痛，但其神经机制尚不明确。孤束尾核接收迷走和躯体输入，但如何将疼痛信号转化为行为以及迷走神经刺激如何调控该过程仍不清楚。",
+          "pico": {
+            "population": "mice",
+            "intervention": "vagus nerve stimulation (VNS)",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "pain behavior and negative affect"
+          },
+          "studyType": "实验性基础研究（小鼠模型）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "pain behavior and negative affect",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究设计合理，使用光遗传学和化学遗传学等因果工具，明确了cNTS(PAG)在VNS中的作用。",
+            "overinterpretationRisk": "摘要未提供效应量和统计推断，不可过度解读结果强度和临床相关性。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要分析，缺乏方法细节、样本量、统计结果及局限性描述。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "迷走神经刺激如何通过cNTS–PAG通路调控疼痛和情感？",
+              "designFit": "实验性研究使用光遗传学、化学遗传学和行为学，适合探索因果机制。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "小鼠（具体品系、性别和数量未报告）",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用因果工具（光遗传、化学遗传）验证通路功能。",
+                "结合行为学、电生理和神经化学测量。"
+              ],
+              "concerns": [
+                "样本量未报告，统计效力未知。",
+                "动物模型可能不完全反映人类疼痛机制。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "摘要未描述使用的统计方法。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价。",
+                  "cautions": [
+                    "无统计方法描述，无法判断分析适当性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "不适用，因未报告统计结果。"
+            },
+            "outcomeAnalysis": {
+              "primary": "疼痛行为和负性情感（摘要中未明确定义主要终点，根据上下文判断）",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "创新性发现：cNTS(PAG)在VNS中的作用。",
+                "使用多种技术（光遗传、化学遗传、电生理）提供机制证据。"
+              ],
+              "limitations": [
+                "摘要信息有限，无法评估研究质量。",
+                "缺乏统计学细节和效应量。"
+              ],
+              "biasRisks": [
+                "未报告盲法或随机化，可能存在实施偏倚。"
+              ],
+              "certainty": "低（仅基于摘要，缺乏关键信息）",
+              "conclusionAlignment": "结论与结果一致，但缺乏统计支持。",
+              "causalBoundary": "实验设计可支持因果关系，但仅限于小鼠模型。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为迷走神经刺激治疗疼痛的机制提供新见解。"
+              ],
+              "nonApplicability": [
+                "直接证据来自小鼠，不能直接应用于临床。"
+              ],
+              "practiceChange": "当前可获取内容未提供该数据。",
+              "canDoNow": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "cannotConclude": [
+                "无法得出任何关于人类疼痛治疗的临床结论。"
+              ],
+              "evidenceGaps": [
+                "需要人体研究验证此通路在VNS镇痛中的作用。",
+                "需要剂量效应和长期效应数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42237031/",
+            "doi": "https://doi.org/10.1038/s41593-026-02313-0",
+            "publisher": "https://doi.org/10.1038/s41593-026-02313-0",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42502084",
+          "number": "02",
+          "category": "疼痛与区域麻醉",
+          "journal": "Nature communications",
+          "year": "2026",
+          "publishedDate": "2026-07-25",
+          "electronicPublicationDate": "2026-07-25",
+          "readingTime": "9 分钟",
+          "title": "快速伤害感受器在机械性伤害防御行为和敏化中的核心作用",
+          "originalTitle": "Central role for fast nociceptors in mechanical nocifensive behavior and sensitization.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "伤害感受器是传导伤害性刺激信号的初级传入神经纤维，大致分为慢传导无髓C纤维和快传导有髓A纤维。尽管C伤害感受器已被广泛研究，但关于A伤害感受器的功能所知甚少。在这里，我们结合小鼠中这些纤维的基因靶向与人类参与者的观察，证明了A伤害感受器在机械性伤害性撤退反射和情感性疼痛中的关键作用。在小鼠中，光遗传学刺激诱导快速且精准的撤退反射，以及位置厌恶和与疼痛情感一致的面部表情变化，而抑制则严重削弱了机械性伤害性撤退反射。持续的A伤害感受器激活诱导了机械性痛觉超敏和中枢敏化。在一名缺乏厚髓Aβ纤维的罕见个体中，以及在优先Aβ纤维神经阻滞期间的健康参与者中，机械性撤退反射缺失，机械性疼痛感知减弱。综上所述，这些发现确定了快传导机械伤害感受器是小鼠和人类伤害防御行为的关键驱动因素。"
+              }
+            ],
+            "fullText": "伤害感受器是传导伤害性刺激信号的初级传入神经纤维，大致分为慢传导无髓C纤维和快传导有髓A纤维。尽管C伤害感受器已被广泛研究，但关于A伤害感受器的功能所知甚少。在这里，我们结合小鼠中这些纤维的基因靶向与人类参与者的观察，证明了A伤害感受器在机械性伤害性撤退反射和情感性疼痛中的关键作用。在小鼠中，光遗传学刺激诱导快速且精准的撤退反射，以及位置厌恶和与疼痛情感一致的面部表情变化，而抑制则严重削弱了机械性伤害性撤退反射。持续的A伤害感受器激活诱导了机械性痛觉超敏和中枢敏化。在一名缺乏厚髓Aβ纤维的罕见个体中，以及在优先Aβ纤维神经阻滞期间的健康参与者中，机械性撤退反射缺失，机械性疼痛感知减弱。综上所述，这些发现确定了快传导机械伤害感受器是小鼠和人类伤害防御行为的关键驱动因素。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Chen JC, Thorell O, de-Faria FM, Ahemaiti A, Le Moene O, Kaczmarczyk L, Henriksson K, Cole J, et al.",
+          "citation": "Nat Commun. 2026 Jul 25;17(1):7271. doi: 10.1038/s41467-026-75948-z.",
+          "doi": "10.1038/s41467-026-75948-z",
+          "pmid": "42502084",
+          "pmcid": "PMC13401607",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "临床证据",
+            "神经科学与麻醉机制高影响力期刊",
+            "疼痛与区域麻醉",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究明确了A-伤害感受器在机械性痛觉中的关键角色，填补了C纤维以外伤害感受研究的重要空白，为理解急慢性疼痛机制及开发新型镇痛靶点提供了基础。",
+          "conclusion": "本研究通过小鼠遗传学操控和人类观察证实，快速传导的A纤维伤害感受器是机械性伤害防御行为和痛觉敏化所必需的。",
+          "clinical": "当前可获取内容未提供该数据。研究为动物实验及少量人类观察，尚不足以直接指导临床麻醉实践。",
+          "evidence": "中等",
+          "score": 53,
+          "scoreBreakdown": {
+            "relevance": 17,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验研究（小鼠遗传学+人类观察性研究）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Mice and humans (including one rare individual with Aβ-deafferentation and healthy participants under nerve block)；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Optogenetic stimulation or inhibition of A-nociceptors in mice; Aβ-fiber nerve block in humans.；对照：Control mice without optogenetic manipulation; healthy participants without nerve block."
+            },
+            {
+              "label": "主要终点",
+              "value": "Mechanical nociceptive withdrawal reflexes and affective pain behavior."
+            }
+          ],
+          "keyPoints": [
+            "A-伤害感受器在小鼠中是机械性伤害屈曲反射和情感性疼痛所必需的。",
+            "持续激活A-伤害感受器导致机械痛觉过敏和中枢敏化。",
+            "人类缺乏Aβ纤维或选择性阻滞后，机械性伤害反射和痛觉感知显著减弱。",
+            "研究提示A-伤害感受器可能成为未来疼痛治疗的潜在靶点。"
+          ],
+          "methods": "伤害感受器分为慢传导C纤维和快传导A纤维，C伤害感受器已被广泛研究，而A伤害感受器的功能知之甚少。本研究旨在结合小鼠遗传学与人类观察，阐明A伤害感受器在机械性伤害防御行为及痛觉敏化中的作用。",
+          "results": "在小鼠中，光遗传学激活A-伤害感受器诱发了快速而精确的屈曲反射、条件位置厌恶及代表痛觉情感的面部表情变化（P<0.0001，Kolmogorov–Smirnov检验）；抑制A-伤害感受器则显著损害机械性伤害屈曲反射。持续激活A-伤害感受器可诱导机械痛觉过敏和中枢敏化。在人类中，1例缺乏厚髓鞘Aβ纤维的患者以及健康受试者在Aβ纤维优先阻滞后，机械性屈曲反射消失，机械痛觉感知下降。效应量、95%置信区间及样本量当前可获取内容未提供该数据。",
+          "mainResults": "在小鼠中，光遗传学激活A-伤害感受器诱发了快速而精确的屈曲反射、条件位置厌恶及代表痛觉情感的面部表情变化（P<0.0001，Kolmogorov–Smirnov检验）；抑制A-伤害感受器则显著损害机械性伤害屈曲反射。持续激活A-伤害感受器可诱导机械痛觉过敏和中枢敏化。在人类中，1例缺乏厚髓鞘Aβ纤维的患者以及健康受试者在Aβ纤维优先阻滞后，机械性屈曲反射消失，机械痛觉感知下降。效应量、95%置信区间及样本量当前可获取内容未提供该数据。",
+          "limitations": [
+            "小鼠研究中可能靶向了一小部分A-低阈值机械感受器（A-LTMRs），需进一步亚群分析。",
+            "人类部分仅涉及1例罕见患者及小样本健康受试者，外部有效性有限。",
+            "效应量及置信区间未报告，统计学推断的精确性无法评估。"
+          ],
+          "practice": [
+            "当前可获取内容未提供该数据。研究为动物实验及少量人类观察，尚不足以直接指导临床麻醉实践。"
+          ],
+          "editor": "原文提供了遗传学操控和人类观察的证据，支持A-伤害感受器在机械性伤害防御行为和痛觉敏化中的关键作用。 过度解读风险：中度风险：研究结论基本符合数据，但样本量小、未报告效应量，且人类部分为观察性描述，存在过度解读为因果结论的风险。",
+          "whyItMatters": "该研究明确了A-伤害感受器在机械性痛觉中的关键角色，填补了C纤维以外伤害感受研究的重要空白，为理解急慢性疼痛机制及开发新型镇痛靶点提供了基础。",
+          "background": "伤害感受器分为慢传导C纤维和快传导A纤维，C伤害感受器已被广泛研究，而A伤害感受器的功能知之甚少。本研究旨在结合小鼠遗传学与人类观察，阐明A伤害感受器在机械性伤害防御行为及痛觉敏化中的作用。",
+          "pico": {
+            "population": "Mice and humans (including one rare individual with Aβ-deafferentation and healthy participants under nerve block)",
+            "intervention": "Optogenetic stimulation or inhibition of A-nociceptors in mice; Aβ-fiber nerve block in humans.",
+            "comparison": "Control mice without optogenetic manipulation; healthy participants without nerve block.",
+            "outcome": "Mechanical nociceptive withdrawal reflexes and affective pain behavior."
+          },
+          "studyType": "实验研究（小鼠遗传学+人类观察性研究）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "Mechanical nociceptive withdrawal reflexes and affective pain behavior.",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "P < 0.0001, Kolmogorov–Smirnov test"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "原文提供了遗传学操控和人类观察的证据，支持A-伤害感受器在机械性伤害防御行为和痛觉敏化中的关键作用。",
+            "overinterpretationRisk": "中度风险：研究结论基本符合数据，但样本量小、未报告效应量，且人类部分为观察性描述，存在过度解读为因果结论的风险。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要及开放全文节选，未获取完整全文及所有补充数据"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "A-伤害感受器在机械性伤害防御行为和敏化中发挥什么作用？",
+              "designFit": "小鼠遗传学实验适合机制探讨；人类观察部分为描述性，设计强度较低。",
+              "eligibility": "小鼠：特定遗传品系；人类：1例罕见脱髓鞘患者及健康志愿者，纳入标准不明。",
+              "randomization": "小鼠实验可能涉及随机分配，但原文未明确说明；人类部分未提及随机化。",
+              "allocationConcealment": "未报告。",
+              "blinding": "未报告是否实施盲法。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "不适用（急性实验）。",
+              "analysisPopulation": "小鼠：总计未报告具体数量；人类：1例+健康组，具体人数未提供。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用光遗传学精确操控特定神经元亚群",
+                "结合小鼠和人类数据进行跨物种验证"
+              ],
+              "concerns": [
+                "人类部分样本量极小",
+                "效应量和置信区间缺失",
+                "部分统计学方法未详细说明"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "Kolmogorov–Smirnov检验",
+                  "purposeInStudy": "比较光遗传学刺激与对照条件下行为差异",
+                  "reportedResult": "P<0.0001",
+                  "interpretation": "表明A-伤害感受器激活显著改变了行为反应",
+                  "cautions": [
+                    "仅报告P值，未报告效应量及置信区间"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "未报告。",
+              "multiplicity": "未提及多重比较校正。",
+              "subgroupAnalysis": "未进行亚组分析。",
+              "clinicalVsStatisticalSignificance": "统计显著（P<0.0001），但临床意义因缺乏效应量而无法评价。"
+            },
+            "outcomeAnalysis": {
+              "primary": "机械性伤害屈曲反射及情感性疼痛行为（条件位置厌恶、面部表情）—观察到显著变化。",
+              "secondary": [
+                "机械痛觉过敏",
+                "中枢敏化"
+              ],
+              "safety": "未报告不良事件。",
+              "absoluteVsRelative": "仅报告P值，未提供绝对风险或相对风险。",
+              "subgroupAndInteraction": "未进行亚组交互分析。",
+              "sensitivity": "未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "创新性结合光遗传学与跨物种证据",
+                "结果一致支持中心假说"
+              ],
+              "limitations": [
+                "效应量缺失",
+                "样本量小",
+                "人类部分为非对照观察"
+              ],
+              "biasRisks": [
+                "选择偏倚（人类罕见病例）",
+                "发表偏倚可能",
+                "未报告盲法"
+              ],
+              "certainty": "低至中等（小鼠实验可信度较高，人类部分描述性证据强度有限）",
+              "conclusionAlignment": "结论与数据相符，但在缺乏效应量下无法评估精确强度。",
+              "causalBoundary": "小鼠实验支持因果关系；人类观察仅显示关联，不能因果推断。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为未来靶向A-伤害感受器的镇痛策略提供理论基础"
+              ],
+              "nonApplicability": [
+                "直接用于临床患者尚不成熟",
+                "人类数据不支持导向具体治疗"
+              ],
+              "practiceChange": "当前结果不足以改变临床实践。",
+              "canDoNow": [
+                "无可直接临床应用的建议"
+              ],
+              "cannotConclude": [
+                "不能得出A-伤害感受器阻断可治疗人类疼痛的结论"
+              ],
+              "evidenceGaps": [
+                "效应量及置信区间",
+                "人类重复验证",
+                "长期效应及安全性评估",
+                "不同疼痛模型验证"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42502084/",
+            "doi": "https://doi.org/10.1038/s41467-026-75948-z",
+            "publisher": "https://doi.org/10.1038/s41467-026-75948-z",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13401607/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42115061",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07",
+          "electronicPublicationDate": "2026-05-12",
+          "readingTime": "11 分钟",
+          "title": "血液中神经损伤生物标志物术后升高与接受全身麻醉的成人术后神经认知障碍的关联：一项系统评价",
+          "originalTitle": "Association of postoperative elevation of biomarkers of neural injury in blood with postoperative neurocognitive disorders in adults receiving general anaesthesia: a systematic review.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "围手术期神经损伤，表现为术后神经丝轻链（NfL）和胶质纤维酸性蛋白（GFAP）升高，是围手术期神经认知障碍的潜在生物学基础。本系统评价评估了全身麻醉下接受手术的60岁以上患者围手术期生物标志物变化与术后认知障碍（POCD）和术后谵妄（POD）之间的关联。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "方案已注册（CRD42023479136）。我们检索了1990年至2025年5月期间的MEDLINE、EMBASE、Cochrane图书馆、Scopus、Web of Science和CINAHL数据库。纳入报告生物标志物变化与POCD或POD之间关联的研究，并使用预后研究质量评估工具进行质量评估。结果采用效应方向图和GRADE方法进行总结。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "我们确定了12项研究（1212名受试者）。大多数关于NfL的研究报告了术后升高。两项研究报告了NfL变化与POCD之间的关联，三项报告了GFAP变化与POCD之间的关联。所有这些研究均存在高偏倚风险，且结果不一致。在六项研究中，有四项研究报告术后NfL升高与POD相关，但患者人群、混杂因素调整和统计方法存在显著异质性，限制了结果的解读。GFAP升高与POD之间无一致关联。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "术后血浆NfL和GFAP升高的意义仍不明确。低确定性证据支持NfL升高与POD之间存在关联，而GFAP升高与POD之间以及两种生物标志物与POCD之间的关联证据确定性极低。需要进一步开展高质量研究。"
+              }
+            ],
+            "fullText": "BACKGROUND: 围手术期神经损伤，表现为术后神经丝轻链（NfL）和胶质纤维酸性蛋白（GFAP）升高，是围手术期神经认知障碍的潜在生物学基础。本系统评价评估了全身麻醉下接受手术的60岁以上患者围手术期生物标志物变化与术后认知障碍（POCD）和术后谵妄（POD）之间的关联。METHODS: 方案已注册（CRD42023479136）。我们检索了1990年至2025年5月期间的MEDLINE、EMBASE、Cochrane图书馆、Scopus、Web of Science和CINAHL数据库。纳入报告生物标志物变化与POCD或POD之间关联的研究，并使用预后研究质量评估工具进行质量评估。结果采用效应方向图和GRADE方法进行总结。RESULTS: 我们确定了12项研究（1212名受试者）。大多数关于NfL的研究报告了术后升高。两项研究报告了NfL变化与POCD之间的关联，三项报告了GFAP变化与POCD之间的关联。所有这些研究均存在高偏倚风险，且结果不一致。在六项研究中，有四项研究报告术后NfL升高与POD相关，但患者人群、混杂因素调整和统计方法存在显著异质性，限制了结果的解读。GFAP升高与POD之间无一致关联。CONCLUSIONS: 术后血浆NfL和GFAP升高的意义仍不明确。低确定性证据支持NfL升高与POD之间存在关联，而GFAP升高与POD之间以及两种生物标志物与POCD之间的关联证据确定性极低。需要进一步开展高质量研究。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Boules M, Bright M, Krepska A, Eley V, van Zundert A, Mudge A",
+          "citation": "Br J Anaesth. 2026 Jul;137(1):118-128. doi: 10.1016/j.bja.2026.03.057. Epub 2026 May 12.",
+          "doi": "10.1016/j.bja.2026.03.057",
+          "pmid": "42115061",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Systematic Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "老年围术期",
+            "Journal Article",
+            "Review"
+          ],
+          "question": "围手术期神经损伤被认为是围手术期神经认知障碍的潜在生物学基础，但血液生物标志物能否预测术后神经认知障碍尚不清楚。本系统评价汇总了现有证据，明确了不确定性并指出未来研究方向。",
+          "conclusion": "血浆NfL和GFAP术后升高的意义仍不确定；低确定性证据支持NfL升高与术后谵妄（POD）之间的关联，而GFAP升高与POD以及任一生物标志物与术后认知功能障碍（POCD）的关联证据确定性极低。",
+          "clinical": "目前证据不足以支持将血浆NfL或GFAP作为常规监测指标用于预测POD或POCD。 麻醉医生应意识到这些生物标志物的临床应用尚不成熟，需等待高质量前瞻性研究的结果。",
+          "evidence": "中等偏高",
+          "score": 74,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 23,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "patients older than 60 yr undergoing surgery under general anaesthesia；12 studies (1212 participants)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "postoperative elevation of biomarkers (NfL, GFAP)；对照：no postoperative elevation or preoperative levels"
+            },
+            {
+              "label": "主要终点",
+              "value": "association between perioperative biomarker changes and postoperative cognitive disorder (POCD) and postoperative delirium (POD)"
+            }
+          ],
+          "keyPoints": [
+            "系统评价纳入12项研究，共1212名60岁以上全身麻醉手术患者。",
+            "NfL术后升高与POD存在低确定性关联，但研究间异质性大。",
+            "GFAP术后升高与POD无一致关联。",
+            "两种生物标志物与POCD的关联结果不一致。",
+            "证据质量低，需更多高质量、标准化研究。"
+          ],
+          "methods": "围手术期神经损伤（表现为术后神经丝轻链（NfL）和胶质纤维酸性蛋白（GFAP）升高）是围手术期神经认知障碍的潜在生物学基础。本系统评价评估了在全身麻醉下接受手术的60岁以上患者中，围手术期生物标志物变化与术后认知功能障碍（POCD）及术后谵妄（POD）之间的关联。",
+          "results": "共纳入12项研究（1212名参与者）。大多数针对NfL的研究报告了术后升高。在6项研究中，有4项报告NfL术后升高与POD相关，但存在显著异质性。GFAP升高与POD之间无一致关联。生物标志物变化与POCD的关联结果不一致。由于证据确定性低（NfL与POD为低确定性，其他为极低确定性），未报告合并效应量、95%置信区间或P值。",
+          "mainResults": "共纳入12项研究（1212名参与者）。大多数针对NfL的研究报告了术后升高。在6项研究中，有4项报告NfL术后升高与POD相关，但存在显著异质性。GFAP升高与POD之间无一致关联。生物标志物变化与POCD的关联结果不一致。由于证据确定性低（NfL与POD为低确定性，其他为极低确定性），未报告合并效应量、95%置信区间或P值。",
+          "limitations": [
+            "大多数纳入研究存在高偏倚风险。",
+            "患者人群、混杂因素调整和统计方法存在显著异质性。",
+            "NfL与POD关联的证据确定性为低，GFAP与POD及任一生物标志物与POCD关联的证据确定性为极低。"
+          ],
+          "practice": [
+            "目前证据不足以支持将血浆NfL或GFAP作为常规监测指标用于预测POD或POCD。",
+            "麻醉医生应意识到这些生物标志物的临床应用尚不成熟，需等待高质量前瞻性研究的结果。"
+          ],
+          "editor": "系统评价基于12项研究，采用预先注册方案、多数据库检索、质量评估工具和GRADE方法，结论与证据一致。 过度解读风险：证据不确定性高，若忽略低确定性而直接解读为有临床预测价值，存在过度解读风险。",
+          "whyItMatters": "围手术期神经损伤被认为是围手术期神经认知障碍的潜在生物学基础，但血液生物标志物能否预测术后神经认知障碍尚不清楚。本系统评价汇总了现有证据，明确了不确定性并指出未来研究方向。",
+          "background": "围手术期神经损伤（表现为术后神经丝轻链（NfL）和胶质纤维酸性蛋白（GFAP）升高）是围手术期神经认知障碍的潜在生物学基础。本系统评价评估了在全身麻醉下接受手术的60岁以上患者中，围手术期生物标志物变化与术后认知功能障碍（POCD）及术后谵妄（POD）之间的关联。",
+          "pico": {
+            "population": "patients older than 60 yr undergoing surgery under general anaesthesia",
+            "intervention": "postoperative elevation of biomarkers (NfL, GFAP)",
+            "comparison": "no postoperative elevation or preoperative levels",
+            "outcome": "association between perioperative biomarker changes and postoperative cognitive disorder (POCD) and postoperative delirium (POD)"
+          },
+          "studyType": "系统评价",
+          "sampleSize": "12 studies (1212 participants)",
+          "primaryOutcome": "association between perioperative biomarker changes and postoperative cognitive disorder (POCD) and postoperative delirium (POD)",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "系统评价基于12项研究，采用预先注册方案、多数据库检索、质量评估工具和GRADE方法，结论与证据一致。",
+            "overinterpretationRisk": "证据不确定性高，若忽略低确定性而直接解读为有临床预测价值，存在过度解读风险。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要信息，未获取全文细节，可能遗漏方法学和分析的完整描述。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "围手术期血液NfL和GFAP变化与60岁以上全身麻醉手术患者POCD及POD的关联",
+              "designFit": "系统评价设计适合汇总现有观察性证据，但受限于原始研究的质量。",
+              "eligibility": "当前可获取内容未提供完整的纳入和排除标准。",
+              "randomization": "不适用（系统评价，纳入观察性研究）。",
+              "allocationConcealment": "不适用。",
+              "blinding": "当前可获取内容未提供原始研究的盲法信息。",
+              "sampleSizePlanning": "当前可获取内容未提供样本量计算信息。",
+              "followUp": "当前可获取内容未提供随访时长或完整性信息。",
+              "analysisPopulation": "当前可获取内容未提供具体分析人群的细节。",
+              "missingData": "当前可获取内容未提供缺失数据处理方法。",
+              "strengths": [
+                "预先注册方案（CRD42023479136）",
+                "多数据库系统检索（MEDLINE, EMBASE, Cochrane Library, Scopus, Web of Science, CINAHL）",
+                "使用Quality in Prognosis Studies工具进行质量评估",
+                "采用GRADE方法评估证据确定性"
+              ],
+              "concerns": [
+                "大多数原始研究存在高偏倚风险",
+                "研究间在患者选择、混杂调整和统计方法上异质性大",
+                "仅基于摘要，无法评估全文的方法学细节"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体的统计方法描述。",
+                  "reportedResult": "当前可获取内容未提供各研究的统计方法细节。",
+                  "interpretation": "无法评价统计方法是否恰当。",
+                  "cautions": [
+                    "未报告统计方法，无法评估结果的可信度。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "NfL和GFAP围手术期变化与POCD和POD的关联",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未报告不良事件。",
+              "absoluteVsRelative": "当前可获取内容未提供绝对或相对效应量。",
+              "subgroupAndInteraction": "当前可获取内容未提供亚组或交互作用分析。",
+              "sensitivity": "当前可获取内容未提供敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统评价方法规范（注册、广泛检索、质量评估、GRADE）",
+                "明确了证据的确定性等级"
+              ],
+              "limitations": [
+                "原始研究的质量限制了结论的可靠性",
+                "异质性大，难以合并结果"
+              ],
+              "biasRisks": [
+                "大多数原始研究存在高偏倚风险"
+              ],
+              "certainty": "NfL与POD关联为低确定性；GFAP与POD及任一生物标志物与POCD关联为极低确定性。",
+              "conclusionAlignment": "结论与所呈现的有限证据一致，但缺乏效应量和置信区间。",
+              "causalBoundary": "观察性关联不能推断因果关系，生物标志物升高与认知障碍的时间顺序和混杂因素未充分控制。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "60岁以上在全身麻醉下接受手术的患者"
+              ],
+              "nonApplicability": [
+                "其他年龄或麻醉方式的人群"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "cannotConclude": [
+                "不能确定NfL或GFAP与POD/POCD的临床因果关系。",
+                "不能推荐常规检测这些生物标志物用于预测或诊断。"
+              ],
+              "evidenceGaps": [
+                "需前瞻性、高质量研究，统一标准定义和生物标志物检测方法",
+                "需充分调整已知混杂因素",
+                "需报告效应量、置信区间和P值"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42115061/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.03.057",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.03.057",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42034560",
+          "number": "04",
+          "category": "气道管理",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07",
+          "electronicPublicationDate": "2026-04-24",
+          "readingTime": "11 分钟",
+          "title": "视频喉镜对比直接喉镜用于双腔气管插管：DOLVI多中心随机试验",
+          "originalTitle": "Videolaryngoscopy versus direct laryngoscopy for double-lumen tube intubation: the DOuble-Lumen intubation with VIdeolaryngoscopy (DOLVI) multicentre randomised trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "尽管视频喉镜在单腔管气管插管中已显示出优于直接喉镜的益处，但其在双腔管置入中的作用仍不明确。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在这项于西班牙四家医院进行的多中心随机试验中，我们将接受需要肺隔离手术的成人患者分配至接受视频喉镜或直接喉镜引导下的双腔管插管。主要结局是首次尝试成功插管。次要结局包括声门可视化、插管难易度、外部气道操作、食管插管、双腔管位置不当以及其他围插管期并发症。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在纳入的916例患者中，视频喉镜组458例中有388例（84.7%）首次尝试成功插管，直接喉镜组458例中有352例（76.9%）（绝对风险差7.9个百分点；95%置信区间[CI] 2.8-12.8；P=0.003）。视频喉镜组429例（93.7%）和直接喉镜组370例（80.8%）获得良好的声门可视化（绝对风险差12.9%；95% CI 8.6%-17.1%；P<0.001）。视频喉镜与更高的易插管率（81.9% vs 68.6%；绝对风险差13.3%；95% CI 7.8%-18.8%；P<0.001）、减少的外部气道操作（28.6% vs 40.6%；P<0.001）、声门视野丢失（4.4% vs 21.8%；P<0.001）、食管插管（1.7% vs 4.6%；P=0.014）和双腔管位置不当（7.6% vs 12.4%；P=0.016）相关。插管时间和其他并发症两组相似。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在接受需要肺隔离手术的患者中，与直接喉镜相比，视频喉镜提高了首次尝试成功率并改善了声门可视化，同时减少了双腔管置入的操作难度。"
+              },
+              {
+                "heading": "TRIAL REGISTRATION",
+                "text": "ClinicalTrials.gov: NCT06401486。"
+              }
+            ],
+            "fullText": "背景：尽管视频喉镜在单腔管气管插管中已显示出优于直接喉镜的益处，但其在双腔管置入中的作用仍不明确。方法：在这项于西班牙四家医院进行的多中心随机试验中，我们将接受需要肺隔离手术的成人患者分配至接受视频喉镜或直接喉镜引导下的双腔管插管。主要结局是首次尝试成功插管。次要结局包括声门可视化、插管难易度、外部气道操作、食管插管、双腔管位置不当以及其他围插管期并发症。结果：在纳入的916例患者中，视频喉镜组458例中有388例（84.7%）首次尝试成功插管，直接喉镜组458例中有352例（76.9%）（绝对风险差7.9个百分点；95%置信区间[CI] 2.8-12.8；P=0.003）。视频喉镜组429例（93.7%）和直接喉镜组370例（80.8%）获得良好的声门可视化（绝对风险差12.9%；95% CI 8.6%-17.1%；P<0.001）。视频喉镜与更高的易插管率（81.9% vs 68.6%；绝对风险差13.3%；95% CI 7.8%-18.8%；P<0.001）、减少的外部气道操作（28.6% vs 40.6%；P<0.001）、声门视野丢失（4.4% vs 21.8%；P<0.001）、食管插管（1.7% vs 4.6%；P=0.014）和双腔管位置不当（7.6% vs 12.4%；P=0.016）相关。插管时间和其他并发症两组相似。结论：在接受需要肺隔离手术的患者中，与直接喉镜相比，视频喉镜提高了首次尝试成功率并改善了声门可视化，同时减少了双腔管置入的操作难度。试验注册：ClinicalTrials.gov: NCT06401486。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Fernandez J, Francisco C, Seoane-Pillado T, Estany-Gestal A, Vazquez O, Aguirre P, Lopez RM, Lluch A, et al.",
+          "citation": "Br J Anaesth. 2026 Jul;137(1):254-263. doi: 10.1016/j.bja.2026.02.048. Epub 2026 Apr 24.",
+          "doi": "10.1016/j.bja.2026.02.048",
+          "pmid": "42034560",
+          "pmcid": null,
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "双腔气管插管是胸科麻醉中的关键技术，既往视频喉镜的获益多基于单腔管证据。本研究直接比较两种喉镜在双腔管插管中的应用，为临床选择提供了针对性证据。",
+          "conclusion": "在需肺隔离手术的成年患者中，视频喉镜相比直接喉镜提高了双腔管首次插管成功率，改善了声门显露，并降低了操作难度。",
+          "clinical": "在需肺隔离的胸科手术中，视频喉镜应作为双腔管插管的优先选择。 视频喉镜可减少操作难度和并发症，可能提高患者安全性。",
+          "evidence": "中等",
+          "score": 67,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 22,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心随机对照试验，在西班牙4家医院进行。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "adults undergoing surgery requiring lung isolation；916 patients enrolled (458 videolaryngoscopy, 458 direct laryngoscopy)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "double-lumen tube intubation with videolaryngoscopy；对照：double-lumen tube intubation with direct laryngoscopy"
+            },
+            {
+              "label": "主要终点",
+              "value": "successful intubation on the first attempt"
+            }
+          ],
+          "keyPoints": [
+            "视频喉镜首次插管成功率较直接喉镜提高7.9个百分点（84.7% vs 76.9%）。",
+            "次要终点（声门显露、插管容易度、气道操作等）均显著改善。",
+            "两组插管时间及其他并发症无显著差异。"
+          ],
+          "methods": "视频喉镜在单腔气管插管中已显示优于直接喉镜，但其在双腔管放置中的作用尚不明确。",
+          "results": "共916例患者（每组458例）。视频喉镜组首次插管成功率为84.7%，直接喉镜组为76.9%，绝对风险差7.9个百分点（95%CI 2.8-12.8，P=0.003）。视频喉镜组声门显露良好率更高（93.7% vs 80.8%，绝对风险差12.9%，95%CI 8.6%-17.1%，P<0.001），插管容易率更高（81.9% vs 68.6%），外部气道操作（28.6% vs 40.6%）、声门视野丢失（4.4% vs 21.8%）、食管插管（1.7% vs 4.6%）及双腔管位置不当（7.6% vs 12.4%）均显著降低（所有P值<0.05）。插管时间及其他并发症组间相似。",
+          "mainResults": "共916例患者（每组458例）。视频喉镜组首次插管成功率为84.7%，直接喉镜组为76.9%，绝对风险差7.9个百分点（95%CI 2.8-12.8，P=0.003）。视频喉镜组声门显露良好率更高（93.7% vs 80.8%，绝对风险差12.9%，95%CI 8.6%-17.1%，P<0.001），插管容易率更高（81.9% vs 68.6%），外部气道操作（28.6% vs 40.6%）、声门视野丢失（4.4% vs 21.8%）、食管插管（1.7% vs 4.6%）及双腔管位置不当（7.6% vs 12.4%）均显著降低（所有P值<0.05）。插管时间及其他并发症组间相似。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性。"
+          ],
+          "practice": [
+            "在需肺隔离的胸科手术中，视频喉镜应作为双腔管插管的优先选择。",
+            "视频喉镜可减少操作难度和并发症，可能提高患者安全性。"
+          ],
+          "editor": "基于多中心随机对照试验，证据支持视频喉镜在双腔管插管中的优势。 过度解读风险：虽为RCT，但未报告盲法等细节，且仅涉及4家医院，外推需谨慎。",
+          "whyItMatters": "双腔气管插管是胸科麻醉中的关键技术，既往视频喉镜的获益多基于单腔管证据。本研究直接比较两种喉镜在双腔管插管中的应用，为临床选择提供了针对性证据。",
+          "background": "视频喉镜在单腔气管插管中已显示优于直接喉镜，但其在双腔管放置中的作用尚不明确。",
+          "pico": {
+            "population": "adults undergoing surgery requiring lung isolation",
+            "intervention": "double-lumen tube intubation with videolaryngoscopy",
+            "comparison": "double-lumen tube intubation with direct laryngoscopy",
+            "outcome": "successful intubation on the first attempt"
+          },
+          "studyType": "多中心随机对照试验，在西班牙4家医院进行。",
+          "sampleSize": "916 patients enrolled (458 videolaryngoscopy, 458 direct laryngoscopy)",
+          "primaryOutcome": "successful intubation on the first attempt",
+          "effectSize": [
+            "absolute risk difference 7.9 percentage points",
+            "absolute risk difference 12.9%",
+            "absolute risk difference 13.3%",
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidenceInterval": [
+            "95% CI 2.8-12.8",
+            "95% CI 8.6%-17.1%",
+            "95% CI 7.8%-18.8%",
+            null,
+            null,
+            null,
+            null
+          ],
+          "pValue": [
+            "P=0.003",
+            "P<0.001",
+            "P<0.001",
+            "P<0.001",
+            "P<0.001",
+            "P=0.014",
+            "P=0.016"
+          ],
+          "adverseEvents": "Intubation time and other complications were similar between groups.",
+          "aiAssessment": {
+            "support": "基于多中心随机对照试验，证据支持视频喉镜在双腔管插管中的优势。",
+            "overinterpretationRisk": "虽为RCT，但未报告盲法等细节，且仅涉及4家医院，外推需谨慎。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，缺乏方法学细节（如随机化方法、盲法、分配隐藏、样本量计算等）。",
+                "未报告亚组分析或敏感性分析结果。",
+                "未提供详细的不良事件定义或严重程度。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "视频喉镜是否优于直接喉镜用于双腔管插管？",
+              "designFit": "多中心随机对照试验，适合检验此效性问题。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多中心设计，样本量较大（916例）。",
+                "主要终点为客观指标（首次插管成功）。"
+              ],
+              "concerns": [
+                "未报告随机化和盲法细节，存在偏倚风险。",
+                "仅涉及西班牙4家医院，地域局限。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供该数据",
+                  "reportedResult": "组间比较呈现了绝对风险差、95%CI和P值。",
+                  "interpretation": "无法评价统计方法恰当性。",
+                  "cautions": [
+                    "统计方法细节缺失，无法确认分析的正确性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "首次插管成功率差7.9百分点有统计学意义，临床意义需结合具体情景判断。"
+            },
+            "outcomeAnalysis": {
+              "primary": "首次插管成功率：视频喉镜组84.7%，直接喉镜组76.9%，绝对风险差7.9%（95%CI 2.8-12.8，P=0.003）。",
+              "secondary": [
+                "声门显露良好：93.7% vs 80.8%，绝对风险差12.9%（95%CI 8.6%-17.1%，P<0.001）。",
+                "插管容易：81.9% vs 68.6%，绝对风险差13.3%（95%CI 7.8%-18.8%，P<0.001）。",
+                "外部气道操作：28.6% vs 40.6%（P<0.001）。",
+                "声门视野丢失：4.4% vs 21.8%（P<0.001）。",
+                "食管插管：1.7% vs 4.6%（P=0.014）。",
+                "双腔管位置不当：7.6% vs 12.4%（P=0.016）。"
+              ],
+              "safety": "插管时间及其他并发症组间相似，未报告具体不良事件。",
+              "absoluteVsRelative": "报告了绝对风险差，便于临床理解。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心、大型RCT。",
+                "主要终点客观。",
+                "报告了多个次要终点。"
+              ],
+              "limitations": [
+                "仅基于摘要，方法学细节不明。",
+                "未提供随机化、盲法、样本量计算等信息。",
+                "未报告亚组分析或敏感性分析。"
+              ],
+              "biasRisks": [
+                "缺乏盲法描述可能增加实施偏倚。",
+                "未报告分配隐藏，存在选择偏倚可能。"
+              ],
+              "certainty": "基于摘要，证据等级为中等（因方法学细节不足而降级）。",
+              "conclusionAlignment": "结论与数据一致。",
+              "causalBoundary": "RCT设计可推断因果关系，但需考虑盲法缺陷。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于需肺隔离手术的成人患者。",
+                "研究在西班牙医院进行，可能适用于类似医疗环境。"
+              ],
+              "nonApplicability": [
+                "不适用于儿童或急诊插管场景。",
+                "未评估不同视频喉镜型号的差异。"
+              ],
+              "practiceChange": "支持视频喉镜作为双腔管插管的常规选择。",
+              "canDoNow": [
+                "麻醉科可优先使用视频喉镜进行双腔管插管。"
+              ],
+              "cannotConclude": [
+                "不能得出视频喉镜降低严重气道并发症（如缺氧、气道损伤）的结论。",
+                "不能比较不同视频喉镜设备的优劣。"
+              ],
+              "evidenceGaps": [
+                "需要更详细的方法学报告和亚组分析。",
+                "需要评估长期结局如气道损伤或术后声音嘶哑。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42034560/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.02.048",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.02.048",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42097956",
+          "number": "05",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07",
+          "electronicPublicationDate": "2026-05-06",
+          "readingTime": "13 分钟",
+          "title": "七氟烷和丙泊酚麻醉的环境足迹和生态毒性：一项回顾性观察建模研究",
+          "originalTitle": "The environmental footprint and ecotoxicity of sevoflurane and propofol anaesthesia: a retrospective observational modelling study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "全身麻醉通过具有高全球变暖潜势和生态毒性的麻醉剂导致医疗相关环境影响。吸入麻醉剂具有高全球变暖潜势，而基于丙泊酚的全静脉麻醉（TIVA）具有水生毒性潜力。然而，使用的全球变暖潜势最低的氟化麻醉剂，如七氟醚，会降解为三氟乙酸（TFA），该物质在环境中不可逆地积累。我们比较了三种麻醉策略的水污染潜力：丙泊酚TIVA、七氟醚靶控吸入麻醉（TCIA）和手动优化的低流量七氟醚麻醉。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "这项回顾性观察性建模研究纳入了来自三家法国大学医院的成人全身麻醉手术，每家医院使用一种策略（TIVA、TCIA或手动七氟醚）。麻醉消耗量来自药房记录。利用已发表的物理化学数据和既定的监管浓度阈值，我们计算了丙泊酚和七氟醚衍生TFA的估计即时和长期水污染潜力。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "TIVA、TCIA和手动优化七氟醚策略分别用于10717例、7207例和15461例手术。在假设每年1000小时全身麻醉的10年模拟中，卤化策略中TFA线性积累至29-35百万立方米，而丙泊酚污染在TIVA策略中约5年后达到稳定平台，根据废物管理方式不同为2.6-2.9百万立方米。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "丙泊酚TIVA产生较少的水污染，避免了TFA释放，同时产生可局部生物降解的残留物。相反，七氟醚衍生的TCIA和手动方法导致更高的TFA排放，助长了其全球不可逆积累。在最小化麻醉实践的环境影响时，这些发现值得考虑。"
+              }
+            ],
+            "fullText": "BACKGROUND: General anaesthesia contributes to healthcare-related environmental impacts through anaesthetics with high global warming potential and ecotoxicity. Inhalational anaesthetics have high global warming potential, whereas propofol-based total i.v. anaesthesia (TIVA) has potential for aquatic toxicity. However, the lowest global warming potential fluorinated anaesthetics used, such as sevoflurane, degrade to trifluoroacetic acid (TFA), which is accumulating irreversibly in the environment. We compared the water contamination potential across three anaesthetic strategies: TIVA with propofol, target-controlled inhalational anaesthesia (TCIA) with sevoflurane, and manually optimised low-flow sevoflurane anaesthesia. METHODS: This retrospective observational modelling study included adult general anaesthesia procedures from three French university hospitals, each using one strategy (TIVA, TCIA, or manual sevoflurane). Anaesthetic consumption was obtained from pharmacy records. Using published physicochemical data and established regulatory concentration thresholds, we calculated estimated instantaneous and long-term water contamination potential for propofol and sevoflurane-derived TFA. RESULTS: TIVA, TCIA, and manually optimised sevoflurane strategies were used in 10 717, 7207, and 15 461 cases, respectively. In a 10-yr simulation assuming 1000 h of general anaesthesia per year, TFA accumulated linearly to 29-35 million m(3) in halogenated strategies, whereas propofol contamination reached a steady plateau after  approximately 5 yr in the TIVA strategy to 2.6-2.9 million m(3) depending on waste management. CONCLUSIONS: TIVA with propofol generated less water contamination and avoided TFA release while producing locally biodegradable residues. Conversely, sevoflurane-derived TCIA and manual methods led to higher TFA emissions, contributing to its global irreversible accumulation. These findings warrant consideration when minimising the environmental impacts of anaesthetic practises.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Bernat M, Kalmar A, Cuvillon P, Roche M, Remacle A, Pastene B, Leone M, Bouvet L, et al.",
+          "citation": "Br J Anaesth. 2026 Jul;137(1):89-98. doi: 10.1016/j.bja.2026.03.042. Epub 2026 May 6.",
+          "doi": "10.1016/j.bja.2026.03.042",
+          "pmid": "42097956",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Observational Study"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article",
+            "Observational Study"
+          ],
+          "question": "该研究直接量化了不同麻醉策略的水污染潜力，为麻醉实践中减少环境足迹提供了决策依据。",
+          "conclusion": "基于模型的估算，丙泊酚全静脉麻醉（TIVA）产生的水污染量较低且为可生物降解残留物，而七氟烷衍生的三氟乙酸（TFA）在环境中呈线性积累，水污染潜力更高。",
+          "clinical": "TIVA可能是减少麻醉相关水污染和避免TFA释放的环境友好选择，但需结合临床实际和全球变暖潜力等其他环境维度综合考量。 七氟烷策略（包括TCIA和手动低流量）导致更高的TFA排放，应关注其长期环境积累效应。",
+          "evidence": "中等",
+          "score": 57,
+          "scoreBreakdown": {
+            "relevance": 17,
+            "evidenceQuality": 14,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "回顾性观察建模研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adult patients undergoing general anaesthesia at three French university hospitals；10 717, 7 207, and 15 461 cases for TIVA, TCIA, and manual sevoflurane respectively"
+            },
+            {
+              "label": "干预与比较",
+              "value": "TIVA with propofol, target-controlled inhalational anaesthesia (TCIA) with sevoflurane, manually optimised low-flow sevoflurane anaesthesia；对照：Comparison among TIVA, TCIA, and manual sevoflurane strategies"
+            },
+            {
+              "label": "主要终点",
+              "value": "Estimated instantaneous and long-term water contamination potential for propofol and sevoflurane-derived TFA"
+            }
+          ],
+          "keyPoints": [
+            "七氟烷衍生的TFA在环境中呈线性积累，10年内水污染潜力达29-35百万立方米。",
+            "丙泊酚TIVA的水污染在约5年后达到平台（2.6-2.9百万立方米），且残留物可生物降解。",
+            "该研究强调了选择麻醉策略时应纳入环境考量。"
+          ],
+          "methods": "全身麻醉通过具有高全球变暖潜力和生态毒性的麻醉剂贡献于医疗相关环境影响。吸入麻醉剂具有高全球变暖潜力，而丙泊酚TIVA具有水生毒性。七氟烷降解为三氟乙酸（TFA）会在环境中不可逆积累。本研究比较了三种麻醉策略的水污染潜力。",
+          "results": "样本量：TIVA组10,717例，TCIA组7,207例，手动七氟烷组15,461例。在模拟10年每年1000小时全身麻醉的假设下，TFA在卤化策略（TCIA和手动七氟烷）中线性积累至29-35百万立方米，而丙泊酚污染在TIVA策略中约5年后达到稳定平台，根据废物管理方式达到2.6-2.9百万立方米。未报告效应量、95%置信区间或P值。当前可获取内容未提供该数据。",
+          "mainResults": "样本量：TIVA组10,717例，TCIA组7,207例，手动七氟烷组15,461例。在模拟10年每年1000小时全身麻醉的假设下，TFA在卤化策略（TCIA和手动七氟烷）中线性积累至29-35百万立方米，而丙泊酚污染在TIVA策略中约5年后达到稳定平台，根据废物管理方式达到2.6-2.9百万立方米。未报告效应量、95%置信区间或P值。当前可获取内容未提供该数据。",
+          "limitations": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "TIVA可能是减少麻醉相关水污染和避免TFA释放的环境友好选择，但需结合临床实际和全球变暖潜力等其他环境维度综合考量。",
+            "七氟烷策略（包括TCIA和手动低流量）导致更高的TFA排放，应关注其长期环境积累效应。"
+          ],
+          "editor": "研究基于真实医院数据和权威理化参数进行建模，提供了定量比较，结论清晰。 过度解读风险：作为观察性建模研究，结果基于假设条件，不能直接推断真实世界因果关系，且未考虑其他环境影响（如全球变暖潜力、成本等），需谨慎外推。",
+          "whyItMatters": "该研究直接量化了不同麻醉策略的水污染潜力，为麻醉实践中减少环境足迹提供了决策依据。",
+          "background": "全身麻醉通过具有高全球变暖潜力和生态毒性的麻醉剂贡献于医疗相关环境影响。吸入麻醉剂具有高全球变暖潜力，而丙泊酚TIVA具有水生毒性。七氟烷降解为三氟乙酸（TFA）会在环境中不可逆积累。本研究比较了三种麻醉策略的水污染潜力。",
+          "pico": {
+            "population": "Adult patients undergoing general anaesthesia at three French university hospitals",
+            "intervention": "TIVA with propofol, target-controlled inhalational anaesthesia (TCIA) with sevoflurane, manually optimised low-flow sevoflurane anaesthesia",
+            "comparison": "Comparison among TIVA, TCIA, and manual sevoflurane strategies",
+            "outcome": "Estimated instantaneous and long-term water contamination potential for propofol and sevoflurane-derived TFA"
+          },
+          "studyType": "回顾性观察建模研究",
+          "sampleSize": "10 717, 7 207, and 15 461 cases for TIVA, TCIA, and manual sevoflurane respectively",
+          "primaryOutcome": "Estimated instantaneous and long-term water contamination potential for propofol and sevoflurane-derived TFA",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究基于真实医院数据和权威理化参数进行建模，提供了定量比较，结论清晰。",
+            "overinterpretationRisk": "作为观察性建模研究，结果基于假设条件，不能直接推断真实世界因果关系，且未考虑其他环境影响（如全球变暖潜力、成本等），需谨慎外推。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要内容，缺乏详细方法学信息和原始数据。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "比较丙泊酚TIVA、七氟烷TCIA和手动优化低流量七氟烷麻醉的水污染潜力。",
+              "designFit": "回顾性观察建模设计适合描述性比较，但无法控制混杂因素。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "模拟10年，但实际数据收集周期未明确。",
+              "analysisPopulation": "法国三家大学医院的成年全身麻醉病例，分组基于各医院常规使用的策略。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "基于真实医院处方数据，具有代表性。",
+                "采用权威理化数据和法规阈值进行建模。"
+              ],
+              "concerns": [
+                "回顾性设计，非随机分组，可能引入选择偏倚。",
+                "模型依赖于假设（如每年1000小时麻醉），可能偏离实际情况。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供该数据。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "摘要未提及明确的统计方法，无法评价统计推断的有效性。",
+                  "cautions": [
+                    "缺乏统计检验，无法评估组间差异的显著性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "研究主要基于模型估算的污染潜力数值，未进行统计检验，无法区分临床与统计显著性。"
+            },
+            "outcomeAnalysis": {
+              "primary": "估计的丙泊酚和七氟烷衍生物TFA的即时和长期水污染潜力。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "报告了绝对污染体积（百万立方米），未报告相对差值。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "研究主题具有现实紧迫性，方法透明。",
+                "比较了三种常用麻醉策略的环境影响。"
+              ],
+              "limitations": [
+                "仅为建模研究，未直接测量实际环境浓度。",
+                "未考虑其他环境影响如全球变暖潜力。",
+                "未报告统计不确定性和敏感性分析。"
+              ],
+              "biasRisks": [
+                "回顾性分组可能受医院偏好影响，存在选择偏倚。",
+                "依赖文献参数，可能不完美反映真实降解过程。"
+              ],
+              "certainty": "低，因缺乏统计检验和敏感性分析，且为观察性建模。",
+              "conclusionAlignment": "结论与模型结果一致，但需外部验证。",
+              "causalBoundary": "研究为关联性描述，不能证明因果关系；污染潜力差异源自麻醉剂自身特性，而非随机分配。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于使用七氟烷和丙泊酚的麻醉科室。",
+                "结果基于欧洲医院数据，可推广至类似医疗环境。"
+              ],
+              "nonApplicability": [
+                "不适用于其他吸入麻醉剂（如地氟烷、异氟烷）的比较。",
+                "未涵盖儿科、产科等特殊人群。"
+              ],
+              "practiceChange": "该研究支持在条件允许时优先选择TIVA以减少水污染，但需权衡其他因素。",
+              "canDoNow": [
+                "在临床决策中考虑水污染潜力。",
+                "鼓励进一步监测TFA排放。"
+              ],
+              "cannotConclude": [
+                "不能得出TIVA优于七氟烷的绝对结论。",
+                "不能推断对全球变暖、成本或患者预后的影响。"
+              ],
+              "evidenceGaps": [
+                "缺乏多中心前瞻性研究直接测量环境影响。",
+                "未综合考虑所有环境维度（如碳足迹、资源消耗）。",
+                "长期TFA生态毒性的阈值尚需更多毒理学数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42097956/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.03.042",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.03.042",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-28T03:54:42.467Z",
       "mode": "production",
