@@ -169,6 +169,27 @@ test("removes unsupported novelty language before quality control", async () => 
   assert.equal(replies.length, 0);
 });
 
+test("fills safe placeholders for empty required synthesis arrays", async () => {
+  const incompleteSynthesis = structuredClone(synthesis);
+  incompleteSynthesis.anesthesiaImplications = [];
+  incompleteSynthesis.keyPoints = [];
+  incompleteSynthesis.deepDive.outcomeAnalysis.secondary = [];
+  incompleteSynthesis.deepDive.criticalAppraisal.biasRisks = [];
+  const replies = [baseExtraction, translation, incompleteSynthesis, { overall_pass: true, checks: {}, issues: [] }];
+  const result = await analyzeArticle({
+    record,
+    fullText: null,
+    generateAI: async () => ({ data: replies.shift(), usage: {}, model: "mock" }),
+  });
+
+  assert.deepEqual(result.synthesis.deepDive.outcomeAnalysis.secondary, ["当前可获取内容未提供次要结局。"]);
+  assert.equal(result.synthesis.anesthesiaImplications.length, 1);
+  assert.equal(result.synthesis.keyPoints.length, 1);
+  assert.equal(result.synthesis.deepDive.criticalAppraisal.biasRisks.length, 1);
+  assert.equal(result.regenerated, false);
+  assert.equal(replies.length, 0);
+});
+
 test("retries structured extraction once after deterministic validation failure", async () => {
   const calls = [];
   const responses = [
