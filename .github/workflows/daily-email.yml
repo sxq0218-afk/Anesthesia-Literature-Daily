@@ -2,8 +2,8 @@ name: 每日文献邮件
 
 on:
   schedule:
-    # GitHub Actions使用UTC；20:37约等于次日北京时间04:37，避开整点高峰。
-    - cron: "37 20 * * *"
+    # GitHub Actions使用UTC；23:00约等于次日北京时间07:00。
+    - cron: "0 23 * * *"
   workflow_dispatch:
 
 permissions:
