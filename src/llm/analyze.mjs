@@ -60,6 +60,49 @@ function sanitizeUnsupportedNoveltyClaims(value, sourceText) {
     .replace(/首个(?=研究|分析|队列|试验|证据)/g, "该");
 }
 
+function normalizeSynthesisCompleteness(synthesis) {
+  if (!synthesis || typeof synthesis !== "object") return synthesis;
+  const normalized = structuredClone(synthesis);
+  const placeholder = "当前可获取内容未提供该数据。";
+  const ensureArray = (object, key, fallback = placeholder) => {
+    if (object && (!Array.isArray(object[key]) || object[key].length === 0)) object[key] = [fallback];
+  };
+
+  ensureArray(normalized, "anesthesiaImplications");
+  ensureArray(normalized, "limitations");
+  ensureArray(normalized, "keyPoints");
+
+  const deepDive = normalized.deepDive;
+  if (!deepDive) return normalized;
+  ensureArray(deepDive.sourceCoverage, "limitations");
+  ensureArray(deepDive.methodology, "strengths");
+  ensureArray(deepDive.methodology, "concerns");
+  ensureArray(deepDive.outcomeAnalysis, "secondary", "当前可获取内容未提供次要结局。");
+  ensureArray(deepDive.criticalAppraisal, "strengths");
+  ensureArray(deepDive.criticalAppraisal, "limitations");
+  ensureArray(deepDive.criticalAppraisal, "biasRisks");
+  ensureArray(deepDive.clinicalTranslation, "applicability");
+  ensureArray(deepDive.clinicalTranslation, "nonApplicability");
+  ensureArray(deepDive.clinicalTranslation, "canDoNow");
+  ensureArray(deepDive.clinicalTranslation, "cannotConclude");
+  ensureArray(deepDive.clinicalTranslation, "evidenceGaps");
+
+  if (deepDive.statistics && (!Array.isArray(deepDive.statistics.methods) || deepDive.statistics.methods.length === 0)) {
+    deepDive.statistics.methods = [{
+      referenceId: null,
+      name: "未报告",
+      purposeInStudy: placeholder,
+      reportedResult: placeholder,
+      interpretation: "当前可获取内容不足，无法评价。",
+      cautions: ["当前可获取内容未提供统计方法。"],
+    }];
+  }
+  for (const method of deepDive.statistics?.methods || []) {
+    ensureArray(method, "cautions");
+  }
+  return normalized;
+}
+
 function extractionIssues(issues) {
   return issues.some(issue => /结构化抽取|sample_size|primary_outcome|effect_direction|confidence_interval|p_value|样本量|主要结局|效应方向|置信区间|P值/i.test(issue));
 }
@@ -180,7 +223,7 @@ export async function analyzeArticle({ record, fullText, generateAI, maxInputCha
   });
   usage = addUsage(usage, synthesisResponse.usage);
   synthesisResponse.data = lockSourceCoverage(
-    sanitizeUnsupportedNoveltyClaims(synthesisResponse.data, analysisText),
+    normalizeSynthesisCompleteness(sanitizeUnsupportedNoveltyClaims(synthesisResponse.data, analysisText)),
     basis,
   );
   let deepValidation = deepDiveChecks(record, synthesisResponse.data, basis);
@@ -235,7 +278,7 @@ export async function analyzeArticle({ record, fullText, generateAI, maxInputCha
     });
     usage = addUsage(usage, synthesisResponse.usage);
     synthesisResponse.data = lockSourceCoverage(
-      sanitizeUnsupportedNoveltyClaims(synthesisResponse.data, analysisText),
+      normalizeSynthesisCompleteness(sanitizeUnsupportedNoveltyClaims(synthesisResponse.data, analysisText)),
       basis,
     );
     deepValidation = deepDiveChecks(record, synthesisResponse.data, basis);
