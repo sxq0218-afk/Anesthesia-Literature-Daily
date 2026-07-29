@@ -32,6 +32,8 @@ export function sanitizeUnsupportedNumericClaims(record, extracted, sourceText =
 export function deterministicChecks(record, extracted, sourceText = record.abstract) {
   const issues = [];
   if (normalize(extracted.title) !== normalize(record.title)) issues.push("结构化标题与PubMed标题不一致");
+  if (normalize(extracted.journal) !== normalize(record.journal)) issues.push("结构化期刊与PubMed期刊不一致");
+  if (normalize(extracted.date) !== normalize(record.publicationDate)) issues.push("结构化日期与PubMed日期不一致");
   if (normalize(extracted.pmid) !== normalize(record.pmid)) issues.push("结构化PMID与PubMed不一致");
   if (normalize(extracted.doi) !== normalize(record.doi)) issues.push("结构化DOI与PubMed不一致");
 

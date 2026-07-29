@@ -164,10 +164,18 @@ deepDive.sourceCoverage.level必须逐字使用固定元数据中的sourceCovera
 }
 
 export const qualitySystemPrompt = `你是医学文献事实核查员。对照固定元数据、原始材料、结构化抽取和中文精读进行第二轮质量检查。输出JSON。
-每个检查项必须给出pass布尔值和简短reason。只要存在无法由原文支持的具体事实，overall_pass必须为false。`;
+固定元数据来自PubMed/Crossref，属于已经核实的事实；不得仅因摘要正文没有重复期刊、日期、题名、DOI或PMID而判定为不受支持。
+每个检查项必须给出pass布尔值和简短reason。只要固定元数据和原文材料均无法支持某项具体事实，overall_pass必须为false。`;
 
 export function buildQualityPrompt(record, extracted, translation, synthesis, sourceText = record.abstract, basis = "摘要分析") {
-  return `固定元数据：${JSON.stringify({ title: record.title, pmid: record.pmid, doi: record.doi, publicationTypes: record.publicationTypes })}
+  return `固定元数据（来自PubMed/Crossref，可直接用于核查，不要求在摘要正文中重复出现）：${JSON.stringify({
+    title: record.title,
+    journal: record.journal,
+    date: record.publicationDate,
+    pmid: record.pmid,
+    doi: record.doi,
+    publicationTypes: record.publicationTypes,
+  })}
 分析依据：${basis}
 用于事实核查的原始材料：${sourceText}
 结构化抽取：${JSON.stringify(extracted)}
