@@ -54,7 +54,7 @@
 
 `.github/workflows/daily-email.yml`
 
-- 北京时间约08:37运行，对应UTC `00:37`。
+- 北京时间约04:37运行，对应前一日UTC `20:37`。
 - 支持管理员手动运行。
 - 只有GitHub Variable `EMAIL_DELIVERY_ENABLED=true`时执行。
 - 流程：检索 → 去重 → 影响因子筛选 → 评分/构成 → AI分析 → 质量检查 → 生成网页/RSS并校验 → 先提交正式内容 → Buttondown发送 → 提交投递状态。
