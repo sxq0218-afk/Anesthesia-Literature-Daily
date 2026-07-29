@@ -1,6 +1,11 @@
 name: 每日文献邮件
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/manual-email-trigger"
   schedule:
     # GitHub Actions使用UTC；00:37约等于北京时间08:37，避开整点高峰。
     - cron: "37 0 * * *"
