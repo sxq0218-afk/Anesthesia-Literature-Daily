@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-29T11:30:43.565Z",
+  "updatedAt": "2026-07-29T21:37:36.694Z",
   "records": [
     {
       "pmid": "42359695",
@@ -313,6 +313,46 @@
       "status": "published",
       "runId": "2026-07-29T11-30-43.565Z",
       "firstPublishedAt": "2026-07-29T11:30:43.565Z"
+    },
+    {
+      "pmid": "42091343",
+      "doi": "10.1016/j.bja.2026.03.019",
+      "title": "Microglial activation disrupts hippocampal CA1 sharp-wave ripples via the CA3-CA1 neural circuit that contributes to postoperative memory consolidation deficits in aged mice.",
+      "status": "published",
+      "runId": "2026-07-29T21-37-36.694Z",
+      "firstPublishedAt": "2026-07-29T21:37:36.694Z"
+    },
+    {
+      "pmid": "42446879",
+      "doi": "10.1001/jamanetworkopen.2026.23079",
+      "title": "Hydrocodone vs Oxycodone and Postoperative Pain and Opioid Use in Joint Arthroplasty.",
+      "status": "published",
+      "runId": "2026-07-29T21-37-36.694Z",
+      "firstPublishedAt": "2026-07-29T21:37:36.694Z"
+    },
+    {
+      "pmid": "42412431",
+      "doi": "10.1001/jamanetworkopen.2026.21875",
+      "title": "Opioid Use and Pain Resolution for Acute Pain Among Opioid-Naive Patients.",
+      "status": "published",
+      "runId": "2026-07-29T21-37-36.694Z",
+      "firstPublishedAt": "2026-07-29T21:37:36.694Z"
+    },
+    {
+      "pmid": "42518233",
+      "doi": "10.1001/jamanetworkopen.2026.25730",
+      "title": "Plasma Amyloid-beta 1-40 and Postoperative Delirium After Cardiac Surgery.",
+      "status": "published",
+      "runId": "2026-07-29T21-37-36.694Z",
+      "firstPublishedAt": "2026-07-29T21:37:36.694Z"
+    },
+    {
+      "pmid": "41950401",
+      "doi": "10.1097/aln.0000000000006089",
+      "title": "Feasibility Pilot Trial for the Trajectories of Recovery after Intravenous Propofol versus Inhaled Volatile Anesthesia (THRIVE) Pragmatic Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-07-29T21-37-36.694Z",
+      "firstPublishedAt": "2026-07-29T21:37:36.694Z"
     }
   ]
 }

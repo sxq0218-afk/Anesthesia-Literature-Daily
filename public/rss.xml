@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jul 2026 11:30:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 21:37:36 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-07-30 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-07-30/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-07-30/</guid>
+      <pubDate>Wed, 29 Jul 2026 21:37:36 GMT</pubDate>
+      <description>小胶质细胞激活通过CA3-CA1神经回路破坏海马CA1尖波涟漪，导致老年小鼠术后记忆巩固缺陷。：本研究在老年小鼠模型中证实，手术诱发的神经炎症通过小胶质细胞激活抑制CA3锥体神经元，从而破坏CA1尖波涟漪并损害记忆巩固。
+氢可酮与羟考酮在关节置换术后疼痛和阿片类药物使用中的比较：在CYP2D6正常代谢者的关节置换术后多模式镇痛中，氢可酮与羟考酮相比疼痛控制相当且阿片类药物暴露显著降低。
+阿片类药物初治患者急性疼痛的阿片类药物使用与疼痛缓解：在阿片类药物初治的急性疼痛患者中，阿片类药物的使用通常剂量低、疗程短，但约10%的患者使用时间≥90天；多数患者在3周内疼痛缓解，但手术痛和腰痛缓解时间更长。
+血浆淀粉样蛋白-β 1-40 与心脏手术后谵妄：本前瞻性队列研究发现，术前血浆 Aβ1-40 水平是所测生物标志物中与心脏术后谵妄风险关联最强的指标，联合临床因素和 MoCA 评分可改善风险分层，但临床效用仍需进一步验证。
+静脉丙泊酚与吸入挥发性麻醉药后恢复轨迹的可行性先导试验（THRIVE）：实用随机临床试验：该先导试验表明，在13,000例患者THRIVE试验的两个中心中，招募足够患者、坚持随机治疗分配并获取充分结局数据是可行的。</description>
+    </item>
     <item>
       <title>2026-07-29 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-07-29/</link>

@@ -1,7 +1,235 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T11:30:43.565Z",
+  "updatedAt": "2026-07-29T21:37:36.694Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-29T21:37:36.694Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 30,
+        "expanded": false,
+        "expansionReason": null,
+        "expansionSteps": [],
+        "from": "2026-06-29T21:37:36.694Z",
+        "to": "2026-07-29T21:37:36.694Z",
+        "candidateCount": 61,
+        "discoveryCandidateCount": 1841,
+        "unseenCount": 43,
+        "duplicateCount": 18,
+        "priorityCandidateCount": 61,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 61,
+          "retrievedCount": 61,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 11,
+          "excludedCount": 289,
+          "excludedByReason": {
+            "journal-not-configured": 280,
+            "impact-factor-stale": 4,
+            "below-or-equal-threshold": 5
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 284,
+          "unresolvedJournals": [
+            {
+              "journal": "Anesthesia and pain medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of anesthesia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of case reports",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Annals of vascular surgery",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Healthcare (Basel, Switzerland)",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Molecular psychiatry",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "PloS one",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American surgeon",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "World journal of urology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Aesthetic plastic surgery",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "American journal of otolaryngology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and analgesia",
+              "reason": "impact-factor-stale",
+              "count": 2
+            },
+            {
+              "journal": "BMC anesthesiology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ open",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 43,
+          "eligibleCount": 40,
+          "excludedCount": 3,
+          "excludedByReason": {
+            "journal-not-configured": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 33,
+          "clinical": 20,
+          "basic": 3,
+          "other": 10
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42091343",
+          "title": "小胶质细胞激活通过CA3-CA1神经回路破坏海马CA1尖波涟漪，导致老年小鼠术后记忆巩固缺陷。",
+          "originalTitle": "Microglial activation disrupts hippocampal CA1 sharp-wave ripples via the CA3-CA1 neural circuit that contributes to postoperative memory consolidation deficits in aged mice.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "本研究在老年小鼠模型中证实，手术诱发的神经炎症通过小胶质细胞激活抑制CA3锥体神经元，从而破坏CA1尖波涟漪并损害记忆巩固。",
+          "pmid": "42091343"
+        },
+        {
+          "slug": "pmid-42446879",
+          "title": "氢可酮与羟考酮在关节置换术后疼痛和阿片类药物使用中的比较",
+          "originalTitle": "Hydrocodone vs Oxycodone and Postoperative Pain and Opioid Use in Joint Arthroplasty.",
+          "journal": "JAMA network open",
+          "conclusion": "在CYP2D6正常代谢者的关节置换术后多模式镇痛中，氢可酮与羟考酮相比疼痛控制相当且阿片类药物暴露显著降低。",
+          "pmid": "42446879"
+        },
+        {
+          "slug": "pmid-42412431",
+          "title": "阿片类药物初治患者急性疼痛的阿片类药物使用与疼痛缓解",
+          "originalTitle": "Opioid Use and Pain Resolution for Acute Pain Among Opioid-Naive Patients.",
+          "journal": "JAMA network open",
+          "conclusion": "在阿片类药物初治的急性疼痛患者中，阿片类药物的使用通常剂量低、疗程短，但约10%的患者使用时间≥90天；多数患者在3周内疼痛缓解，但手术痛和腰痛缓解时间更长。",
+          "pmid": "42412431"
+        },
+        {
+          "slug": "pmid-42518233",
+          "title": "血浆淀粉样蛋白-β 1-40 与心脏手术后谵妄",
+          "originalTitle": "Plasma Amyloid-beta 1-40 and Postoperative Delirium After Cardiac Surgery.",
+          "journal": "JAMA network open",
+          "conclusion": "本前瞻性队列研究发现，术前血浆 Aβ1-40 水平是所测生物标志物中与心脏术后谵妄风险关联最强的指标，联合临床因素和 MoCA 评分可改善风险分层，但临床效用仍需进一步验证。",
+          "pmid": "42518233"
+        },
+        {
+          "slug": "pmid-41950401",
+          "title": "静脉丙泊酚与吸入挥发性麻醉药后恢复轨迹的可行性先导试验（THRIVE）：实用随机临床试验",
+          "originalTitle": "Feasibility Pilot Trial for the Trajectories of Recovery after Intravenous Propofol versus Inhaled Volatile Anesthesia (THRIVE) Pragmatic Randomized Clinical Trial.",
+          "journal": "Anesthesiology",
+          "conclusion": "该先导试验表明，在13,000例患者THRIVE试验的两个中心中，招募足够患者、坚持随机治疗分配并获取充分结局数据是可行的。",
+          "pmid": "41950401"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-29T11:30:43.565Z",
       "search": {

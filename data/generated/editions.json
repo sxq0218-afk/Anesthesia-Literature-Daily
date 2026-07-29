@@ -1,7 +1,1611 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T11:30:43.565Z",
+  "updatedAt": "2026-07-29T21:37:36.694Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-29T21:37:36.694Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 30,
+        "expanded": false,
+        "expansionReason": null,
+        "expansionSteps": [],
+        "from": "2026-06-29T21:37:36.694Z",
+        "to": "2026-07-29T21:37:36.694Z",
+        "candidateCount": 61,
+        "discoveryCandidateCount": 1841,
+        "unseenCount": 43,
+        "duplicateCount": 18,
+        "priorityCandidateCount": 61,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 61,
+          "retrievedCount": 61,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 11,
+          "excludedCount": 289,
+          "excludedByReason": {
+            "journal-not-configured": 280,
+            "impact-factor-stale": 4,
+            "below-or-equal-threshold": 5
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 284,
+          "unresolvedJournals": [
+            {
+              "journal": "Anesthesia and pain medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of anesthesia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of case reports",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Annals of vascular surgery",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Healthcare (Basel, Switzerland)",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Molecular psychiatry",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "PloS one",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American surgeon",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "World journal of urology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Aesthetic plastic surgery",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "American journal of otolaryngology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and analgesia",
+              "reason": "impact-factor-stale",
+              "count": 2
+            },
+            {
+              "journal": "BMC anesthesiology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ open",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 43,
+          "eligibleCount": 40,
+          "excludedCount": 3,
+          "excludedByReason": {
+            "journal-not-configured": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 33,
+          "clinical": 20,
+          "basic": 3,
+          "other": 10
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-v4-flash",
+        "usage": {
+          "calls": 20,
+          "promptTokens": 79858,
+          "completionTokens": 34353,
+          "totalTokens": 114211
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42091343",
+          "number": "01",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07",
+          "electronicPublicationDate": "2026-05-05",
+          "readingTime": "11 分钟",
+          "title": "小胶质细胞激活通过CA3-CA1神经回路破坏海马CA1尖波涟漪，导致老年小鼠术后记忆巩固缺陷。",
+          "originalTitle": "Microglial activation disrupts hippocampal CA1 sharp-wave ripples via the CA3-CA1 neural circuit that contributes to postoperative memory consolidation deficits in aged mice.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "记忆障碍是老年患者术后常见的神经系统并发症。海马CA1区的尖波涟漪（SPW-Rs）在记忆巩固中发挥关键作用。然而，CA1 SPW-Rs的破坏在多大程度上导致术后记忆障碍仍知之甚少。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "将18月龄雄性C57BL/6J小鼠暴露于3 vol%七氟烷联合剖腹手术。使用多种方法，包括情境恐惧条件反射、局部场电位监测、免疫荧光染色、病毒示踪、光遗传学和化学遗传学，以阐明CA1区SPW-Rs在老年小鼠术后记忆障碍中的作用。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "老年小鼠术后记忆障碍与记忆巩固缺陷相关，其特征为CA1区SPW-R频率和持续时间降低。诱导SPW-Rs有可能改善记忆巩固（从34.3 [9.4]%到53.1 [18.7]%，P=0.016）。此外，我们观察到手术后CA3区c-Fos阳性锥体神经元数量减少，导致对CA1区的兴奋性传递减弱。通过化学遗传学方法激活CA3锥体神经元可恢复CA1锥体神经元活动，改善SPW-R破坏（频率从0.20 [0.05]到0.25 [0.15] events s(-1)，P=0.018；持续时间从0.034 [0.0028]到0.039 [0.0033] s，P=0.014）和记忆障碍。小胶质细胞激活与SPW-R破坏和术后记忆缺陷相关。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "手术触发小胶质细胞激活，导致神经炎症因子释放，抑制海马CA3锥体神经元激活，最终破坏SPW-R动态并损害记忆巩固。"
+              }
+            ],
+            "fullText": "BACKGROUND: 记忆障碍是老年患者术后常见的神经系统并发症。海马CA1区的尖波涟漪（SPW-Rs）在记忆巩固中发挥关键作用。然而，CA1 SPW-Rs的破坏在多大程度上导致术后记忆障碍仍知之甚少。METHODS: 将18月龄雄性C57BL/6J小鼠暴露于3 vol%七氟烷联合剖腹手术。使用多种方法，包括情境恐惧条件反射、局部场电位监测、免疫荧光染色、病毒示踪、光遗传学和化学遗传学，以阐明CA1区SPW-Rs在老年小鼠术后记忆障碍中的作用。RESULTS: 老年小鼠术后记忆障碍与记忆巩固缺陷相关，其特征为CA1区SPW-R频率和持续时间降低。诱导SPW-Rs有可能改善记忆巩固（从34.3 [9.4]%到53.1 [18.7]%，P=0.016）。此外，我们观察到手术后CA3区c-Fos阳性锥体神经元数量减少，导致对CA1区的兴奋性传递减弱。通过化学遗传学方法激活CA3锥体神经元可恢复CA1锥体神经元活动，改善SPW-R破坏（频率从0.20 [0.05]到0.25 [0.15] events s(-1)，P=0.018；持续时间从0.034 [0.0028]到0.039 [0.0033] s，P=0.014）和记忆障碍。小胶质细胞激活与SPW-R破坏和术后记忆缺陷相关。CONCLUSIONS: 手术触发小胶质细胞激活，导致神经炎症因子释放，抑制海马CA3锥体神经元激活，最终破坏SPW-R动态并损害记忆巩固。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Wu J, Wang X, Li W, Sun W, Feng H, Feng Z, Xu Z, Wang Z, et al.",
+          "citation": "Br J Anaesth. 2026 Jul;137(1):154-167. doi: 10.1016/j.bja.2026.03.019. Epub 2026 May 5.",
+          "doi": "10.1016/j.bja.2026.03.019",
+          "pmid": "42091343",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究揭示了术后记忆障碍的新机制——小胶质细胞介导的神经炎症通过CA3-CA1回路干扰尖波涟漪，为开发针对记忆巩固的术后认知保护策略提供了潜在靶点。",
+          "conclusion": "本研究在老年小鼠模型中证实，手术诱发的神经炎症通过小胶质细胞激活抑制CA3锥体神经元，从而破坏CA1尖波涟漪并损害记忆巩固。",
+          "clinical": "该研究提示麻醉和手术可能通过神经炎症机制影响突触可塑性和记忆巩固。 小胶质细胞抑制或CA3神经元激活可能成为预防术后认知障碍的潜在策略，但需进一步临床验证。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "动物实验（基础研究），使用背景恐惧条件化、局部场电位记录、免疫荧光染色、病毒示踪、光遗传学和化学遗传学等方法。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "18-month-old male C57BL/6J mice；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "exposure to 3 vol% sevoflurane combined with laparotomy；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "memory consolidation deficits characterized by reduced SPW-R frequency and duration in CA1 region"
+            }
+          ],
+          "keyPoints": [
+            "术后记忆障碍在小鼠模型中与CA1尖波涟漪（SPW-R）频率和时长减少相关。",
+            "诱导SPW-R可改善记忆巩固（P=0.016）。",
+            "CA3锥体神经元活性降低是SPW-R破坏的关键环节，激活CA3神经元可修复SPW-R并改善记忆。",
+            "小胶质细胞激活与SPW-R破坏和记忆缺陷有关。"
+          ],
+          "methods": "记忆障碍是老年患者常见的术后神经系统并发症。海马CA1区的尖波涟漪（SPW-R）在记忆巩固中起关键作用，但其在术后记忆障碍中的角色尚不明确。",
+          "results": "当前可获取内容未提供样本量。术后记忆障碍与SPW-R频率和时长减少相关。诱导SPW-R可改善记忆巩固（从34.3%[9.4]升至53.1%[18.7]，P=0.016）。CA3区c-Fos阳性锥体神经元减少导致向CA1的兴奋性传递减弱。化学遗传学激活CA3锥体神经元可恢复CA1活性，改善SPW-R破坏（频率：0.20[0.05]至0.25[0.15] events/s，P=0.018；时长：0.034[0.0028]至0.039[0.0033] s，P=0.014）及记忆障碍。小胶质细胞激活与SPW-R破坏和术后记忆缺陷相关。",
+          "mainResults": "当前可获取内容未提供样本量。术后记忆障碍与SPW-R频率和时长减少相关。诱导SPW-R可改善记忆巩固（从34.3%[9.4]升至53.1%[18.7]，P=0.016）。CA3区c-Fos阳性锥体神经元减少导致向CA1的兴奋性传递减弱。化学遗传学激活CA3锥体神经元可恢复CA1活性，改善SPW-R破坏（频率：0.20[0.05]至0.25[0.15] events/s，P=0.018；时长：0.034[0.0028]至0.039[0.0033] s，P=0.014）及记忆障碍。小胶质细胞激活与SPW-R破坏和术后记忆缺陷相关。",
+          "limitations": [
+            "动物模型（老年小鼠）与人类存在种属差异，直接外推需谨慎。",
+            "当前可获取内容未提供样本量、随机化、盲法等关键方法学信息，无法评估研究质量。"
+          ],
+          "practice": [
+            "该研究提示麻醉和手术可能通过神经炎症机制影响突触可塑性和记忆巩固。",
+            "小胶质细胞抑制或CA3神经元激活可能成为预防术后认知障碍的潜在策略，但需进一步临床验证。"
+          ],
+          "editor": "研究设计（多种技术联合）增强了结论的可靠性，但缺乏统计方法和效应量精确估计。 过度解读风险：低；结论基于实验数据，但临床转化仍需更多证据。",
+          "whyItMatters": "该研究揭示了术后记忆障碍的新机制——小胶质细胞介导的神经炎症通过CA3-CA1回路干扰尖波涟漪，为开发针对记忆巩固的术后认知保护策略提供了潜在靶点。",
+          "background": "记忆障碍是老年患者常见的术后神经系统并发症。海马CA1区的尖波涟漪（SPW-R）在记忆巩固中起关键作用，但其在术后记忆障碍中的角色尚不明确。",
+          "pico": {
+            "population": "18-month-old male C57BL/6J mice",
+            "intervention": "exposure to 3 vol% sevoflurane combined with laparotomy",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "memory consolidation deficits characterized by reduced SPW-R frequency and duration in CA1 region"
+          },
+          "studyType": "动物实验（基础研究），使用背景恐惧条件化、局部场电位记录、免疫荧光染色、病毒示踪、光遗传学和化学遗传学等方法。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "memory consolidation deficits characterized by reduced SPW-R frequency and duration in CA1 region",
+          "effectSize": [
+            "34.3 [9.4] to 53.1 [18.7]%",
+            "0.20 [0.05] to 0.25 [0.15] events s(-1)",
+            "0.034 [0.0028] to 0.039 [0.0033] s"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.016",
+            "0.018",
+            "0.014"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究设计（多种技术联合）增强了结论的可靠性，但缺乏统计方法和效应量精确估计。",
+            "overinterpretationRisk": "低；结论基于实验数据，但临床转化仍需更多证据。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，缺乏方法学细节、完整结果和局限性描述。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "CA1尖波涟漪破坏是否参与术后记忆障碍及其神经机制？",
+              "designFit": "动物实验设计适合回答机制问题，但缺乏对照组细节。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "采用多种互补技术（光遗传、化学遗传、电生理等）机制验证。",
+                "直接操纵CA3神经元可逆转SPW-R和记忆缺陷，支持因果关系。"
+              ],
+              "concerns": [
+                "缺乏样本量估算和统计方法描述，无法评估检验效能。",
+                "未提及随机化和盲法，存在潜在偏倚。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "无法评价，摘要未提及具体统计方法。",
+                  "reportedResult": "仅报告了均数[标准差]和P值。",
+                  "interpretation": "P<0.05被认为有统计学意义，但未说明多重比较校正。",
+                  "cautions": [
+                    "未报告统计检验类型（如t检验、ANOVA等），无法判断其适用性。",
+                    "置信区间未提供，无法精确估计效应量。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "结果具有统计学意义，但临床意义未知（动物模型）。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后记忆巩固缺陷，以CA1区SPW-R频率和时长减少为特征。",
+              "secondary": [
+                "CA3区c-Fos阳性锥体神经元数量减少",
+                "向CA1的兴奋性传递减弱",
+                "小胶质细胞激活"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "报告了绝对变化（如SPW-R频率从0.20升至0.25 events/s），但未提供相对效应。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "机制链条完整：手术→小胶质细胞激活→CA3抑制→CA1 SPW-R破坏→记忆缺陷。",
+                "通过激活CA3神经元可逆性恢复功能，支持因果关系。"
+              ],
+              "limitations": [
+                "仅使用老年雄性小鼠，性别和年龄泛化性有限。",
+                "缺乏重复测量或独立验证数据。",
+                "未报告负性结果或无效干预。"
+              ],
+              "biasRisks": [
+                "未提及随机化和盲法，选择偏倚和实施偏倚风险未知。",
+                "仅报告阳性结果，可能存在发表偏倚。"
+              ],
+              "certainty": "低；因方法学细节缺失，结论可靠性有限。",
+              "conclusionAlignment": "结论与实验数据一致，但未讨论结果矛盾之处。",
+              "causalBoundary": "研究确立了CA3-CA1回路在术后记忆缺陷中的作用，但小胶质细胞与CA3抑制之间的因果链仍需进一步验证（如小胶质细胞耗竭实验）。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为术后认知障碍的机制提供了新见解，可能指导未来药物开发（如抗炎或小胶质细胞调节剂）。"
+              ],
+              "nonApplicability": [
+                "动物实验结果不能直接推广到人类。",
+                "七氟烷麻醉联合剖腹手术的模型与临床实际情况存在差异。"
+              ],
+              "practiceChange": "当前不应对临床实践提出任何改变。",
+              "canDoNow": [
+                "尚无基于此研究的直接临床干预措施。"
+              ],
+              "cannotConclude": [
+                "无法确定小胶质细胞抑制是否能改善人类术后认知功能。",
+                "CA3神经元激活在人体中的可行性和安全性未知。"
+              ],
+              "evidenceGaps": [
+                "需要临床研究验证小胶质细胞激活与术后认知障碍的关联。",
+                "缺乏其他物种或不同年龄模型的数据。",
+                "未探索小胶质细胞激活的上游信号通路。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42091343/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.03.019",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.03.019",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42446879",
+          "number": "02",
+          "category": "疼痛与区域麻醉",
+          "journal": "JAMA network open",
+          "year": "2026",
+          "publishedDate": "2026-07-01",
+          "electronicPublicationDate": "2026-07-01",
+          "readingTime": "14 分钟",
+          "title": "氢可酮与羟考酮在关节置换术后疼痛和阿片类药物使用中的比较",
+          "originalTitle": "Hydrocodone vs Oxycodone and Postoperative Pain and Opioid Use in Joint Arthroplasty.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "IMPORTANCE",
+                "text": "羟考酮和氢可酮是最常用于关节置换术后疼痛的阿片类药物，但比较有效性数据仍然有限。"
+              },
+              {
+                "heading": "OBJECTIVE",
+                "text": "比较接受择期关节置换术的患者使用氢可酮与羟考酮的术后疼痛结局和阿片类药物消耗量。"
+              },
+              {
+                "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+                "text": "这项队列研究是一项随机临床试验的预先计划二次分析，该试验在2021年3月至2023年9月期间，于美国5个手术临床站点招募了接受择期关节置换术的细胞色素P450 2D6（CYP2D6）正常代谢者（NMs），术后接受氢可酮或羟考酮。随访于2024年3月结束。数据分析于2024年10月至2025年12月进行。"
+              },
+              {
+                "heading": "EXPOSURE",
+                "text": "在多模式疼痛管理方法（阿片类和非阿片类药物）中使用氢可酮或羟考酮进行术后镇痛。"
+              },
+              {
+                "heading": "MAIN OUTCOMES AND MEASURES",
+                "text": "共同主要结局是术后第10天的复合疼痛评分（当前、最严重和平均疼痛评分之和，评分范围3-15）以及10天内的累积吗啡毫克当量（MMEs）。次要结局包括第10天的活动能力评分以及第30天的患者报告结局测量信息系统焦虑和抑郁评分。多变量回归根据人口统计学和临床协变量进行了调整。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在663名参与者（平均[SD]年龄66[10.6]岁；384名[57.9%]女性）中，217名接受了羟考酮，446名接受了氢可酮。与羟考酮相比，氢可酮与显著更低的复合疼痛评分（平均[SD]，9.0[2.0] vs 9.3[2.2]；调整后P = .001）和显著更低的累积MME（平均[SD]，93.5[159.3] vs 154.5[121.6]；调整后P < .001）相关。次要结局在两组之间没有差异（活动能力评分：平均[SD]，26.3[10.4] vs 30.9[14.7]；P = .29；焦虑评分：平均[SD]，45.4[8.3] vs 45.5[8.7]；P = .31；抑郁评分：平均[SD]，43.8[7.8] vs 44.0[7.9]；P = .97）。敏感性分析结果一致，包括限制于阿片类和对乙酰氨基酚组合、限制于两种阿片类药物均处方的站点以及膝关节置换亚组，但在髋关节置换中不一致。"
+              },
+              {
+                "heading": "CONCLUSIONS AND RELEVANCE",
+                "text": "在这项针对接受关节置换术的CYP2D6正常代谢者的队列研究中，在多模式镇痛背景下，氢可酮提供了与羟考酮相当的疼痛控制，且阿片类药物暴露显著更低，支持其作为一种可行且可能更优的镇痛选择。"
+              }
+            ],
+            "fullText": "IMPORTANCE: 羟考酮和氢可酮是最常用于关节置换术后疼痛的阿片类药物，但比较有效性数据仍然有限。 OBJECTIVE: 比较接受择期关节置换术的患者使用氢可酮与羟考酮的术后疼痛结局和阿片类药物消耗量。 DESIGN, SETTING, AND PARTICIPANTS: 这项队列研究是一项随机临床试验的预先计划二次分析，该试验在2021年3月至2023年9月期间，于美国5个手术临床站点招募了接受择期关节置换术的细胞色素P450 2D6（CYP2D6）正常代谢者（NMs），术后接受氢可酮或羟考酮。随访于2024年3月结束。数据分析于2024年10月至2025年12月进行。 EXPOSURE: 在多模式疼痛管理方法（阿片类和非阿片类药物）中使用氢可酮或羟考酮进行术后镇痛。 MAIN OUTCOMES AND MEASURES: 共同主要结局是术后第10天的复合疼痛评分（当前、最严重和平均疼痛评分之和，评分范围3-15）以及10天内的累积吗啡毫克当量（MMEs）。次要结局包括第10天的活动能力评分以及第30天的患者报告结局测量信息系统焦虑和抑郁评分。多变量回归根据人口统计学和临床协变量进行了调整。 RESULTS: 在663名参与者（平均[SD]年龄66[10.6]岁；384名[57.9%]女性）中，217名接受了羟考酮，446名接受了氢可酮。与羟考酮相比，氢可酮与显著更低的复合疼痛评分（平均[SD]，9.0[2.0] vs 9.3[2.2]；调整后P = .001）和显著更低的累积MME（平均[SD]，93.5[159.3] vs 154.5[121.6]；调整后P < .001）相关。次要结局在两组之间没有差异（活动能力评分：平均[SD]，26.3[10.4] vs 30.9[14.7]；P = .29；焦虑评分：平均[SD]，45.4[8.3] vs 45.5[8.7]；P = .31；抑郁评分：平均[SD]，43.8[7.8] vs 44.0[7.9]；P = .97）。敏感性分析结果一致，包括限制于阿片类和对乙酰氨基酚组合、限制于两种阿片类药物均处方的站点以及膝关节置换亚组，但在髋关节置换中不一致。 CONCLUSIONS AND RELEVANCE: 在这项针对接受关节置换术的CYP2D6正常代谢者的队列研究中，在多模式镇痛背景下，氢可酮提供了与羟考酮相当的疼痛控制，且阿片类药物暴露显著更低，支持其作为一种可行且可能更优的镇痛选择。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Nahid NA, Petry NJ, Baye JF, Gray CF, Myers RA, Elwood EN, Harris EC, Chakraborty H, et al.",
+          "citation": "JAMA Netw Open. 2026 Jul 1;9(7):e2623079. doi: 10.1001/jamanetworkopen.2026.23079.",
+          "doi": "10.1001/jamanetworkopen.2026.23079",
+          "pmid": "42446879",
+          "pmcid": "PMC13370303",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "American Medical Association (AMA)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.7,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "JAMA Network Open"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "疼痛与区域麻醉",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "关节置换术后疼痛管理是临床重点，氢可酮和羟考酮是最常用的阿片类药物，但直接比较数据有限，本研究提供了在特定人群（CYP2D6正常代谢者）中的比较证据。",
+          "conclusion": "在CYP2D6正常代谢者的关节置换术后多模式镇痛中，氢可酮与羟考酮相比疼痛控制相当且阿片类药物暴露显著降低。",
+          "clinical": "对于CYP2D6正常代谢的关节置换术患者，氢可酮可视为提供类似镇痛效果且阿片消耗更少的替代选择。 需注意疼痛评分差异（0.3分）绝对值较小，临床意义需结合患者个体化评估。 非CYP2D6正常代谢者的结果未知，不能外推。",
+          "evidence": "中等",
+          "score": 65,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 22,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "队列研究（基于随机临床试验的预设二次分析）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "CYP2D6 normal metabolizers undergoing elective joint arthroplasty；663 participants (217 received oxycodone, 446 received hydrocodone)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Hydrocodone postoperatively within multimodal analgesia；对照：Oxycodone postoperatively within multimodal analgesia"
+            },
+            {
+              "label": "主要终点",
+              "value": "Composite pain score at postoperative day 10 (sum of current, worst, and mean pain over 7 days; range 3-15) and cumulative morphine milligram equivalents (MMEs) over 10 days"
+            }
+          ],
+          "keyPoints": [
+            "663名CYP2D6正常代谢关节置换术患者，氢可酮组（446人）与羟考酮组（217人）比较。",
+            "氢可酮组复合疼痛评分略低（9.0 vs 9.3，P=0.001），累积MME显著更低（93.5 vs 154.5，P<0.001）。",
+            "次要结局（活动力、焦虑、抑郁）组间无差异。",
+            "敏感性分析在膝关节置换亚组一致，在髋关节置换中不一致。",
+            "研究为观察性队列，不能推断因果关系。"
+          ],
+          "methods": "阿片类药物是关节置换术后疼痛管理的常用药物，但不同阿片类药物的效果和安全性比较数据有限。CYP2D6代谢酶影响部分阿片类药物的代谢，本研究聚焦于CYP2D6正常代谢者。",
+          "results": "氢可酮组复合疼痛评分低于羟考酮组（均值[SD]：9.0[2.0] vs 9.3[2.2]；校正P=0.001），累积MME也显著更低（93.5[159.3] vs 154.5[121.6]；校正P<0.001）。次要结局（第10天活动能力评分、第30天焦虑和抑郁评分）组间无差异（P均>0.05）。当前可获取内容未提供效应量及95%置信区间。",
+          "mainResults": "氢可酮组复合疼痛评分低于羟考酮组（均值[SD]：9.0[2.0] vs 9.3[2.2]；校正P=0.001），累积MME也显著更低（93.5[159.3] vs 154.5[121.6]；校正P<0.001）。次要结局（第10天活动能力评分、第30天焦虑和抑郁评分）组间无差异（P均>0.05）。当前可获取内容未提供效应量及95%置信区间。",
+          "limitations": [
+            "当前可获取内容未提供不良事件数据。",
+            "作为二次分析，阿片类药物分配非随机，存在未测量的混杂因素（如外科医生偏好、患者预期疼痛严重程度等）。",
+            "疼痛评分为患者自报，存在回忆偏倚。",
+            "单一临床中心（site 1）招募最多且主要使用氢可酮，可能存在地域性治疗模式影响。",
+            "结果仅适用于CYP2D6正常代谢者，不适用于其他代谢型。"
+          ],
+          "practice": [
+            "对于CYP2D6正常代谢的关节置换术患者，氢可酮可视为提供类似镇痛效果且阿片消耗更少的替代选择。",
+            "需注意疼痛评分差异（0.3分）绝对值较小，临床意义需结合患者个体化评估。",
+            "非CYP2D6正常代谢者的结果未知，不能外推。"
+          ],
+          "editor": "研究结果支持氢可酮在控制疼痛方面非劣于羟考酮且减少阿片用量的假设，但证据强度因观察性设计而受限。 过度解读风险：存在过度解读风险：疼痛差异虽有统计学显著性但规模较小（0.3分），易被误认为临床优越性；需明确此为关联而非因果。",
+          "whyItMatters": "关节置换术后疼痛管理是临床重点，氢可酮和羟考酮是最常用的阿片类药物，但直接比较数据有限，本研究提供了在特定人群（CYP2D6正常代谢者）中的比较证据。",
+          "background": "阿片类药物是关节置换术后疼痛管理的常用药物，但不同阿片类药物的效果和安全性比较数据有限。CYP2D6代谢酶影响部分阿片类药物的代谢，本研究聚焦于CYP2D6正常代谢者。",
+          "pico": {
+            "population": "CYP2D6 normal metabolizers undergoing elective joint arthroplasty",
+            "intervention": "Hydrocodone postoperatively within multimodal analgesia",
+            "comparison": "Oxycodone postoperatively within multimodal analgesia",
+            "outcome": "Composite pain score at postoperative day 10 (sum of current, worst, and mean pain over 7 days; range 3-15) and cumulative morphine milligram equivalents (MMEs) over 10 days"
+          },
+          "studyType": "队列研究（基于随机临床试验的预设二次分析）",
+          "sampleSize": "663 participants (217 received oxycodone, 446 received hydrocodone)",
+          "primaryOutcome": "Composite pain score at postoperative day 10 (sum of current, worst, and mean pain over 7 days; range 3-15) and cumulative morphine milligram equivalents (MMEs) over 10 days",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "adjusted P = .001 for composite pain score",
+            "adjusted P < .001 for cumulative MME",
+            "P = .29 for mobility score",
+            "P = .31 for anxiety score",
+            "P = .97 for depression score"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持氢可酮在控制疼痛方面非劣于羟考酮且减少阿片用量的假设，但证据强度因观察性设计而受限。",
+            "overinterpretationRisk": "存在过度解读风险：疼痛差异虽有统计学显著性但规模较小（0.3分），易被误认为临床优越性；需明确此为关联而非因果。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前分析基于摘要及开放全文节选，未能获取完整的方法、图表和补充内容。",
+                "统计方法的具体细节（如回归模型类型、变量选择过程）可能未完全体现。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "明确：比较接受关节置换术的CYP2D6正常代谢者使用氢可酮与羟考酮后的疼痛结局和阿片消耗。",
+              "designFit": "队列设计适合观察性比较，但作为随机试验的二次分析，暴露非随机，故证据等级低于原始随机对照。",
+              "eligibility": "纳入CYP2D6正常代谢者（通过基因分型确认），择期关节置换，来自5个美国临床中心（2021-2024年）。排除标准未在可获取材料中详述。",
+              "randomization": "本研究为观察性队列，原始试验是随机试验，但当前分析中的阿片类药物分配并非随机，而是基于临床实践。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据；由于是回顾性因素，盲法可能性低。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "随访至术后30天（主要结局第10天，次要结局第30天）。",
+              "analysisPopulation": "663名CYP2D6正常代谢者，均接受了至少一次术后处方阿片类药物。",
+              "missingData": "当前可获取内容未提供关于缺失数据及其处理方法的信息。",
+              "strengths": [
+                "多中心研究（5个站点），增强了一定的外部有效性。",
+                "预设的二次分析，方法学比事后分析更严谨。",
+                "对年龄、性别等人口学和临床协变量进行了多变量校正。"
+              ],
+              "concerns": [
+                "非随机分配导致选择偏倚和混杂（如医生处方偏好）。",
+                "疼痛评分是主观结局，易受期待偏倚影响。",
+                "主要结局之一的复合疼痛评分范围3-15，组间差异0.3分，临床意义有限。",
+                "样本量集中于一个中心（site 1），可能引入机构特定的实践模式。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告具体多元回归类型",
+                  "purposeInStudy": "比较两组间主要和次要结局，调整人口学和临床协变量。",
+                  "reportedResult": "校正P值用于复合疼痛评分（P=0.001）和累积MME（P<0.001）。",
+                  "interpretation": "结果显示组间差异在统计学上显著，但未提供效应量和精度估计。",
+                  "cautions": [
+                    "缺少调整变量详细列表和模型拟合指标。",
+                    "未报告多重检验的校正方法（尽管提及'adjusted P'，但未明确方法）。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "年龄、性别等人口学与临床协变量（具体变量列表在当前可获取内容中未完整提供）。",
+              "multiplicity": "当前可获取内容未明确说明如何处理多重结局（两个主要终点和多个次要终点）。报告了校正P值但未说明校正方法（如Bonferroni）。",
+              "subgroupAnalysis": "进行了膝关节和髋关节置换亚组分析，以及限制于阿片-对乙酰氨基酚联合用药和同时处方两种阿片类药物的站点。结果在膝关节亚组一致，但在髋关节亚组不一致。",
+              "clinicalVsStatisticalSignificance": "疼痛评分差异（0.3分）虽统计学显著，但临床意义可能有限（最小临床重要差异通常认为≥1分）。MME差异（61 mg）可能具有临床意义。"
+            },
+            "outcomeAnalysis": {
+              "primary": "两个共同主要终点：复合疼痛评分（第10天）和累积MME（10天内）。均显示氢可酮组显著低于羟考酮组（P≤0.001）。效应量和95%CI未提供。",
+              "secondary": [
+                "第10天活动能力评分：组间无差异（均值26.3 vs 30.9，P=0.29）。",
+                "第30天焦虑评分：无差异（45.4 vs 45.5，P=0.31）。",
+                "第30天抑郁评分：无差异（43.8 vs 44.0，P=0.97）。"
+              ],
+              "safety": "当前可获取内容未提供不良事件数据。",
+              "absoluteVsRelative": "疼痛评分绝对差0.3分，相对差异约3.2%。MME绝对差61.0 mg（氢可酮组比羟考酮组低约39.5%）。",
+              "subgroupAndInteraction": "髋关节置换亚组中组间差异不显著，提示可能存在手术部位与治疗效果的交互作用（但未提供交互检验P值）。膝关节置换亚组与总体一致。",
+              "sensitivity": "限制于阿片-对乙酰氨基酚联合用药和同时开具两种阿片类药物的站点进行的敏感性分析结果一致，支持主要结论。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "使用预设的二次分析，设计较严谨。",
+                "多中心样本（5个美国临床中心）。",
+                "对主要结局进行了多变量调整。",
+                "包括敏感性分析，增强了结果的稳健性。"
+              ],
+              "limitations": [
+                "观察性设计，不能推断因果关系。",
+                "未随机分配阿片类药物，存在混杂。",
+                "疼痛评分主观，可能存在报告偏倚。",
+                "结果仅适用于CYP2D6正常代谢者，外推受限。",
+                "未提供效应量和置信区间，影响定量判断。"
+              ],
+              "biasRisks": [
+                "选择偏倚：医生处方偏好可能导致两组间基线特征差异。",
+                "信息偏倚：自报疼痛评分和回忆偏倚。",
+                "混杂偏倚：未测量的协变量（如患者期望、慢性疼痛病史）。"
+              ],
+              "certainty": "低至中等（根据GRADE标准，观察性研究起始为低，加一分为预设设计和多中心，但降一分为非随机和局限性）。",
+              "conclusionAlignment": "结论（氢可酮提供可比疼痛控制且阿片暴露更低）与结果基本一致，但应注意疼痛评分的统计差异被描述为'comparable'，实际为氢可酮组略优。",
+              "causalBoundary": "本研究为观察性关联，不能证明氢可酮导致更好的结局；需随机试验确认因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于CYP2D6正常代谢的关节置换术患者。",
+                "在多模式镇痛环境下，氢可酮可作为减少阿片总量的选择。"
+              ],
+              "nonApplicability": [
+                "不适用于CYP2D6慢代谢或超快代谢者。",
+                "不适用于其他手术类型或急性疼痛管理。",
+                "不适用于已有阿片耐受或慢性阿片使用的患者。"
+              ],
+              "practiceChange": "对于CYP2D6正常代谢者，临床医生可考虑将氢可酮作为一线阿片类选择，但需更多随机证据支持。",
+              "canDoNow": [
+                "在CYP2D6基因型已知的患者中，可优先处方氢可酮以降低阿片总用量。",
+                "继续采用多模式镇痛方案。"
+              ],
+              "cannotConclude": [
+                "因果关系：不能确定氢可酮的直接镇痛优势。",
+                "长期安全性：阿片暴露减少是否转化为更低的长期不良事件风险未知。",
+                "其他代谢型：非正常代谢者的结果未知。"
+              ],
+              "evidenceGaps": [
+                "需要一项随机对照试验直接比较氢可酮与羟考酮在关节置换术中的疗效和安全性。",
+                "需研究不同CYP2D6表型对药物效果的影响。",
+                "缺乏长期结局（如慢性疼痛、功能恢复）和成本效益数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42446879/",
+            "doi": "https://doi.org/10.1001/jamanetworkopen.2026.23079",
+            "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.23079",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13370303/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42412431",
+          "number": "03",
+          "category": "疼痛与区域麻醉",
+          "journal": "JAMA network open",
+          "year": "2026",
+          "publishedDate": "2026-07-01",
+          "electronicPublicationDate": "2026-07-01",
+          "readingTime": "15 分钟",
+          "title": "阿片类药物初治患者急性疼痛的阿片类药物使用与疼痛缓解",
+          "originalTitle": "Opioid Use and Pain Resolution for Acute Pain Among Opioid-Naive Patients.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "IMPORTANCE",
+                "text": "目前缺乏针对常见诊断中急性疼痛的阿片类药物处方决策的高质量证据。"
+              },
+              {
+                "heading": "OBJECTIVE",
+                "text": "描述接受阿片类药物治疗急性疼痛的个体的疼痛轨迹以及阿片类和非阿片类治疗使用模式。"
+              },
+              {
+                "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+                "text": "这是一项前瞻性队列研究，研究对象为2020年9月至2023年3月期间从美国5个医疗系统（急诊科、初级保健诊所、牙科诊所、剖宫产术后或膝关节置换术后）招募的患者。符合条件的患者为所有研究地点年龄≥18岁的阿片类药物初治成人，以及1个地点因阻生磨牙拔除的15-17岁青少年，且均获得急性疼痛的阿片类药物处方。分析时间为2023年4月至2026年2月。"
+              },
+              {
+                "heading": "EXPOSURE",
+                "text": "获得阿片类镇痛药处方。"
+              },
+              {
+                "heading": "MAIN OUTCOMES AND MEASURES",
+                "text": "疼痛缓解时间（连续3次报告无痛）、阿片类和非阿片类药物治疗使用模式以及阿片类药物相关不良反应，通过数字问卷获取。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在1708名入组患者中（中位年龄38岁[IQR，28-52岁]；615名[36.0%]报告在急性疼痛管理研究中代表性不足的种族或民族），随访180天。其中915名（53.6%）在急诊科招募，307名（18.0%）在初级或紧急护理中招募，263名（15.4%）在牙科环境中招募，223名（13.1%）在住院环境中招募。疼痛来源包括牙科（302名患者[17.7%]）、创伤或损伤（302名[17.7%]）、产科（176名[10.3%]）、肌肉骨骼（131名[7.7%]）和腰背痛（100名[5.9%]）。在至少报告一次疼痛水平的1502名患者中，无论采用何种治疗方法，疼痛缓解的中位时间为20天（IQR，8-88天），其中手术痛（74天[IQR，30天至未达到]）和腰背痛（69天[IQR，18天至未达到]）的持续时间更长。在1189名（69.6%）报告任何阿片类药物使用的患者中，停药的中位时间为7天（IQR，2-31天）；估计10.0%（95%CI，7.7%-12.7%）的患者使用阿片类药物至少90天，入组前频繁疼痛的患者中比例更高。在1482名（86.8%）完成随访前2周至少一次调查的患者中，1153名（77.8%）报告使用了任何阿片类药物，1287名（86.8%）报告使用了对乙酰氨基酚或布洛芬。在619名（52.1%）有阿片类药物使用且报告最初15天内阿片类药物剂量的患者中，每日剂量较低（中位数为10[IQR，5-15]吗啡毫克当量）。大多数受访者报告有剩余阿片类药物（657/982，66.9%）。"
+              },
+              {
+                "heading": "CONCLUSIONS AND RELEVANCE",
+                "text": "在这项针对阿片类药物初治急性疼痛患者的队列研究中，阿片类药物使用通常为低剂量和短期，但部分患者报告了长期使用；大多数患者在3周内实现疼痛缓解，但手术痛和腰背痛时间更长。研究结果表明，当前关于多模式治疗以及必要时短期阿片类药物处方的指南将适用于许多但不包括所有患者，治疗应根据个体患者需求进行调整。"
+              }
+            ],
+            "fullText": "IMPORTANCE: 目前缺乏针对常见诊断中急性疼痛的阿片类药物处方决策的高质量证据。OBJECTIVE: 描述接受阿片类药物治疗急性疼痛的个体的疼痛轨迹以及阿片类和非阿片类治疗使用模式。DESIGN, SETTING, AND PARTICIPANTS: 这是一项前瞻性队列研究，研究对象为2020年9月至2023年3月期间从美国5个医疗系统（急诊科、初级保健诊所、牙科诊所、剖宫产术后或膝关节置换术后）招募的患者。符合条件的患者为所有研究地点年龄≥18岁的阿片类药物初治成人，以及1个地点因阻生磨牙拔除的15-17岁青少年，且均获得急性疼痛的阿片类药物处方。分析时间为2023年4月至2026年2月。EXPOSURE: 获得阿片类镇痛药处方。MAIN OUTCOMES AND MEASURES: 疼痛缓解时间（连续3次报告无痛）、阿片类和非阿片类药物治疗使用模式以及阿片类药物相关不良反应，通过数字问卷获取。RESULTS: 在1708名入组患者中（中位年龄38岁[IQR，28-52岁]；615名[36.0%]报告在急性疼痛管理研究中代表性不足的种族或民族），随访180天。其中915名（53.6%）在急诊科招募，307名（18.0%）在初级或紧急护理中招募，263名（15.4%）在牙科环境中招募，223名（13.1%）在住院环境中招募。疼痛来源包括牙科（302名患者[17.7%]）、创伤或损伤（302名[17.7%]）、产科（176名[10.3%]）、肌肉骨骼（131名[7.7%]）和腰背痛（100名[5.9%]）。在至少报告一次疼痛水平的1502名患者中，无论采用何种治疗方法，疼痛缓解的中位时间为20天（IQR，8-88天），其中手术痛（74天[IQR，30天至未达到]）和腰背痛（69天[IQR，18天至未达到]）的持续时间更长。在1189名（69.6%）报告任何阿片类药物使用的患者中，停药的中位时间为7天（IQR，2-31天）；估计10.0%（95%CI，7.7%-12.7%）的患者使用阿片类药物至少90天，入组前频繁疼痛的患者中比例更高。在1482名（86.8%）完成随访前2周至少一次调查的患者中，1153名（77.8%）报告使用了任何阿片类药物，1287名（86.8%）报告使用了对乙酰氨基酚或布洛芬。在619名（52.1%）有阿片类药物使用且报告最初15天内阿片类药物剂量的患者中，每日剂量较低（中位数为10[IQR，5-15]吗啡毫克当量）。大多数受访者报告有剩余阿片类药物（657/982，66.9%）。CONCLUSIONS AND RELEVANCE: 在这项针对阿片类药物初治急性疼痛患者的队列研究中，阿片类药物使用通常为低剂量和短期，但部分患者报告了长期使用；大多数患者在3周内实现疼痛缓解，但手术痛和腰背痛时间更长。研究结果表明，当前关于多模式治疗以及必要时短期阿片类药物处方的指南将适用于许多但不包括所有患者，治疗应根据个体患者需求进行调整。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Jeffery MM, Bellolio F, Chang N, Allen S, Elie-Turenne MC, Fillmore WJ, Gilbert GH, Heckmann R, et al.",
+          "citation": "JAMA Netw Open. 2026 Jul 1;9(7):e2621875. doi: 10.1001/jamanetworkopen.2026.21875.",
+          "doi": "10.1001/jamanetworkopen.2026.21875",
+          "pmid": "42412431",
+          "pmcid": "PMC13343240",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "American Medical Association (AMA)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.7,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "JAMA Network Open"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "急性疼痛的阿片类药物处方缺乏高质量证据，本队列研究通过描述疼痛轨迹和用药模式，为个体化治疗提供参考。",
+          "conclusion": "在阿片类药物初治的急性疼痛患者中，阿片类药物的使用通常剂量低、疗程短，但约10%的患者使用时间≥90天；多数患者在3周内疼痛缓解，但手术痛和腰痛缓解时间更长。",
+          "clinical": "急性疼痛患者使用阿片类药物多为短期低剂量，但仍有部分患者长期使用，需关注高危因素如入组前频繁疼痛。 手术痛和腰痛患者疼痛缓解时间更长，可能需要更个体化的多模式镇痛方案。",
+          "evidence": "中等",
+          "score": 53,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性队列研究，来自美国5个医疗系统，2020年9月至2023年3月招募，随访180天。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Opioid-naive adults aged ≥18 years and adolescents aged 15-17 years undergoing impacted molar extraction, offered an opioid prescription for acute pain in ED, primary care, dental, or inpatient settings；1708"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Offer of a prescription for an opioid analgesic；对照：Not applicable (single-group cohort)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Time to pain resolution (3 consecutive reports of no pain)"
+            }
+          ],
+          "keyPoints": [
+            "阿片类药物初治的急性疼痛患者中，中位疼痛缓解时间为20天，中位阿片类药物使用时间为7天。",
+            "10.0%的患者使用阿片类药物≥90天，与入组前频繁疼痛相关。",
+            "多数患者使用低剂量（中位10 MME/天）的短程阿片类药物。",
+            "66.9%的患者报告有剩余阿片类药物。"
+          ],
+          "methods": "当前可获取内容未提供该数据。",
+          "results": "共纳入1708例患者（中位年龄38岁，IQR 28-52；36.0%报告种族/族裔在急性疼痛管理研究中代表性不足）。中位疼痛缓解时间为20天（IQR 8-88天），其中手术痛74天（IQR 30天至未达到），腰痛69天（IQR 18天至未达到）。中位阿片类药物停用时间为7天（IQR 2-31天）；估计10.0%（95% CI 7.7%-12.7%）的患者使用阿片类药物≥90天。前2周内77.8%报告使用任何阿片类药物。中位日剂量为10 MME（IQR 5-15）。66.9%报告有剩余阿片类药物。22.2%报告使用阿片类药物时有任何困难，最常见为困倦（23.1%偶尔，4.4%多次）和迟钝（19.8%）。效应量（如风险比）和P值当前可获取内容未提供。",
+          "mainResults": "共纳入1708例患者（中位年龄38岁，IQR 28-52；36.0%报告种族/族裔在急性疼痛管理研究中代表性不足）。中位疼痛缓解时间为20天（IQR 8-88天），其中手术痛74天（IQR 30天至未达到），腰痛69天（IQR 18天至未达到）。中位阿片类药物停用时间为7天（IQR 2-31天）；估计10.0%（95% CI 7.7%-12.7%）的患者使用阿片类药物≥90天。前2周内77.8%报告使用任何阿片类药物。中位日剂量为10 MME（IQR 5-15）。66.9%报告有剩余阿片类药物。22.2%报告使用阿片类药物时有任何困难，最常见为困倦（23.1%偶尔，4.4%多次）和迟钝（19.8%）。效应量（如风险比）和P值当前可获取内容未提供。",
+          "limitations": [
+            "COVID-19大流行导致招募困难。",
+            "依赖自我报告的治疗使用情况。",
+            "缺失数据限制了阿片类药物总量的准确性。",
+            "未区分患者使用治疗是用于初始疼痛还是其他来源的疼痛。"
+          ],
+          "practice": [
+            "急性疼痛患者使用阿片类药物多为短期低剂量，但仍有部分患者长期使用，需关注高危因素如入组前频繁疼痛。",
+            "手术痛和腰痛患者疼痛缓解时间更长，可能需要更个体化的多模式镇痛方案。"
+          ],
+          "editor": "结果支持当前指南推荐的多模式镇痛和必要时短程阿片类处方，但需个体化调整。 过度解读风险：观察性单组队列无法建立因果关系；亚组分析仅描述性，未进行正式交互检验，避免过度解读差异。",
+          "whyItMatters": "急性疼痛的阿片类药物处方缺乏高质量证据，本队列研究通过描述疼痛轨迹和用药模式，为个体化治疗提供参考。",
+          "background": "当前可获取内容未提供该数据。",
+          "pico": {
+            "population": "Opioid-naive adults aged ≥18 years and adolescents aged 15-17 years undergoing impacted molar extraction, offered an opioid prescription for acute pain in ED, primary care, dental, or inpatient settings",
+            "intervention": "Offer of a prescription for an opioid analgesic",
+            "comparison": "Not applicable (single-group cohort)",
+            "outcome": "Time to pain resolution (3 consecutive reports of no pain)"
+          },
+          "studyType": "前瞻性队列研究，来自美国5个医疗系统，2020年9月至2023年3月招募，随访180天。",
+          "sampleSize": "1708",
+          "primaryOutcome": "Time to pain resolution (3 consecutive reports of no pain)",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "7.7%-12.7%"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "22.2% reported any difficulties with opioids; most common: feeling sleepy (23.1% once or twice, 4.4% ≥3 times) and sluggish (19.8%)",
+          "aiAssessment": {
+            "support": "结果支持当前指南推荐的多模式镇痛和必要时短程阿片类处方，但需个体化调整。",
+            "overinterpretationRisk": "观察性单组队列无法建立因果关系；亚组分析仅描述性，未进行正式交互检验，避免过度解读差异。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和开放全文节选，未获取完整方法学细节。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "描述被提供阿片类药物处方的急性疼痛患者的疼痛轨迹及阿片类药物和非阿片类治疗的使用模式。",
+              "designFit": "前瞻性队列设计适合描述自然用药轨迹，但无法评估因果关系或比较不同治疗策略。",
+              "eligibility": "纳入标准明确，但排除标准未提供；阿片类药物初治定义可能影响外推性。",
+              "randomization": "不适用（非随机研究）。",
+              "allocationConcealment": "不适用。",
+              "blinding": "不适用。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "随访180天，但部分患者失访或数据缺失。",
+              "analysisPopulation": "1708例入选，不同分析基于不同完成问卷数量的患者（如疼痛缓解分析1502例，阿片类药物使用分析1189例等）。",
+              "missingData": "当前可获取内容未提供缺失数据处理方法。",
+              "strengths": [
+                "多中心、多种临床设置，提高外推性；前瞻性收集详细用药数据；随访期180天捕捉长期使用。"
+              ],
+              "concerns": [
+                "单组设计无对照；依赖自我报告；COVID-19影响招募；缺失数据可能影响准确性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未具体描述，可能使用Kaplan-Meier估计中位时间，但无法确认。",
+                  "reportedResult": "中位时间及IQR，比例及95%置信区间。",
+                  "interpretation": "无法评价，因未报告具体统计方法。",
+                  "cautions": [
+                    "缺乏统计方法细节，无法评估分析正确性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供。",
+              "multiplicity": "当前可获取内容未提供。",
+              "subgroupAnalysis": "按疼痛来源（如手术、腰痛、牙痛等）描述疼痛缓解时间中位数，但未报告交互检验或调整，属于亚组描述。",
+              "clinicalVsStatisticalSignificance": "报告的中位时间和比例有明确临床意义，但缺乏统计推断（如组间比较），无法判断差异的统计学显著性。"
+            },
+            "outcomeAnalysis": {
+              "primary": "疼痛缓解时间（连续3次无痛报告）：中位20天（IQR 8-88天），但未提供效应量或P值。",
+              "secondary": [
+                "阿片类药物停用时间：中位7天（IQR 2-31天）。",
+                "使用阿片类药物≥90天的比例：10.0%（95% CI 7.7%-12.7%）。",
+                "日剂量：中位10 MME（IQR 5-15）。",
+                "剩余阿片类药物比例：66.9%（657/982）。"
+              ],
+              "safety": "22.2%报告任何困难，最常见困倦和迟钝；未见严重不良事件数据。",
+              "absoluteVsRelative": "结果报告绝对量（中位时间、比例），未报告相对效应量。",
+              "subgroupAndInteraction": "仅简单描述不同疼痛来源的中位时间差异，未进行正式交互分析。",
+              "sensitivity": "当前可获取内容未提供。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "前瞻性设计减少回忆偏倚；多中心大样本；随访期长；多种急性疼痛诊断。"
+              ],
+              "limitations": [
+                "无对照组；自我报告可能不准确；缺失数据；COVID-19影响；未区分疼痛来源的因果作用。"
+              ],
+              "biasRisks": [
+                "选择偏倚：接受阿片类药物处方的患者可能本身有更高疼痛需求；信息偏倚：自我报告用药剂量和疼痛；失访偏倚：部分患者未完成所有问卷。"
+              ],
+              "certainty": "中等偏低，因观察性单组设计且方法细节不完整。",
+              "conclusionAlignment": "结论与结果一致，但强调个体化治疗，限于描述性发现。",
+              "causalBoundary": "观察性关联，不能推断阿片类药物处方导致疼痛缓解或长期使用，仅描述自然史。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "该人群覆盖急诊、基层、牙科、住院等常见急性疼痛场景，有一定代表性。",
+                "结果提示大多数患者短期使用阿片类即可，支持短程处方。",
+                "高剩余药比例提示需加强患者教育或减少处方量。"
+              ],
+              "nonApplicability": [
+                "排除标准不明，可能不适用于慢性疼痛、阿片类药物耐受者。",
+                "单组设计无法与其他镇痛策略比较，不能直接指导是否使用阿片类。",
+                "COVID-19时期数据可能不代表典型年份。"
+              ],
+              "practiceChange": "当前可获取内容未提供明确推荐，但结果可支持现有指南理念。",
+              "canDoNow": [
+                "对急性疼痛患者，初始可考虑短程低剂量阿片类药物处方。",
+                "监测长期使用风险，尤其是入组前频繁疼痛者。",
+                "建议处理剩余药物以防转移。"
+              ],
+              "cannotConclude": [
+                "无法确定阿片类药物相比非阿片类的优劣。",
+                "无法确定最佳阿片类药物剂量或疗程。",
+                "无法推断不同疼痛病因的因果差异。"
+              ],
+              "evidenceGaps": [
+                "缺乏随机对照比较阿片类与非阿片类治疗。",
+                "需要更精确的预测模型识别长期使用风险。",
+                "缺失数据与自我报告偏倚需更客观测量（如电子药盒）。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42412431/",
+            "doi": "https://doi.org/10.1001/jamanetworkopen.2026.21875",
+            "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.21875",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13343240/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42518233",
+          "number": "04",
+          "category": "老年围术期",
+          "journal": "JAMA network open",
+          "year": "2026",
+          "publishedDate": "2026-07-01",
+          "electronicPublicationDate": "2026-07-01",
+          "readingTime": "14 分钟",
+          "title": "血浆淀粉样蛋白-β 1-40 与心脏手术后谵妄",
+          "originalTitle": "Plasma Amyloid-beta 1-40 and Postoperative Delirium After Cardiac Surgery.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "重要性",
+                "text": "术后谵妄（POD）是心脏手术后常见且严重的并发症，与痴呆风险增加及不良预后相关。早期识别高危患者仍具有挑战性。"
+              },
+              {
+                "heading": "目的",
+                "text": "探讨术前血浆阿尔茨海默病生物标志物是否与基线认知相关，并能否独立估计择期心脏手术患者的POD风险。"
+              },
+              {
+                "heading": "设计、地点与参与者",
+                "text": "这项前瞻性观察性队列研究（FIND Delirium Risk Factors [FINDERI]）纳入2021年2月1日至2022年10月31日期间在德国一家综合性心脏外科中心接受择期心脏手术的50岁及以上患者。统计分析于2025年1月至12月进行。"
+              },
+              {
+                "heading": "暴露",
+                "text": "于2022年11月1日至2024年7月31日期间，使用验证过的免疫测定法测量术前血浆中淀粉样蛋白-β 1-40（Abeta1-40）、淀粉样蛋白-β 1-42（Abeta1-42）、磷酸化tau蛋白181（pTau181）和磷酸化tau蛋白217（pTau217）的浓度。"
+              },
+              {
+                "heading": "主要结局与测量指标",
+                "text": "主要结局是POD，术后连续5天使用意识模糊评估法算法进行评估。基线认知功能使用蒙特利尔认知评估（MoCA）进行评估。风险估计准确性通过受试者工作特征分析和多变量逻辑回归进行评估，并校正相关临床协变量。"
+              },
+              {
+                "heading": "结果",
+                "text": "在504名入组患者中，491名完成了POD评估（平均[SD]年龄，68.4[8.3]岁；385名[78.4%]男性），其中106名（21.6%）出现了POD。在多元线性回归中，pTau217（beta = -0.51；95% CI，-0.89至-0.12；P = .01）和年龄（beta = -0.12；95% CI，-0.16至-0.08；P < .001）仍是与较低MoCA评分显著相关的因素。出现POD的患者术前Abeta1-40、Abeta1-42、pTau217以及Abeta1-40/Abeta1-42×pTau217水平较高，而Abeta1-42/Abeta1-40水平较低。Abeta1-40是与POD最相关的独立生物标志物（受试者工作特征曲线下面积[AUC]，0.65；95% CI，0.59-0.71；P < .001）。与单独使用临床因素（AUC，0.73；95% CI，0.67-0.78；P < .001）相比，生物标志物与临床因素结合可改善风险估计（AUC，0.74；95% CI，0.69-0.79；P < .001）。包含MoCA的联合模型AUC达到0.77（95% CI，0.72-0.82；P < .001），其中主要驱动因素为Abeta1-40。"
+              },
+              {
+                "heading": "结论与意义",
+                "text": "在这项前瞻性队列研究中，术前Abeta1-40在所测量的生物标志物中与POD风险的关联性最强。这些发现提示术前血浆Abeta1-40可能有助于POD风险分层，但需要进一步研究来验证这些发现并确定其临床实用性。"
+              }
+            ],
+            "fullText": "重要性: 术后谵妄（POD）是心脏手术后常见且严重的并发症，与痴呆风险增加及不良预后相关。早期识别高危患者仍具有挑战性。目的: 探讨术前血浆阿尔茨海默病生物标志物是否与基线认知相关，并能否独立估计择期心脏手术患者的POD风险。设计、地点与参与者: 这项前瞻性观察性队列研究（FIND Delirium Risk Factors [FINDERI]）纳入2021年2月1日至2022年10月31日期间在德国一家综合性心脏外科中心接受择期心脏手术的50岁及以上患者。统计分析于2025年1月至12月进行。暴露: 于2022年11月1日至2024年7月31日期间，使用验证过的免疫测定法测量术前血浆中淀粉样蛋白-β 1-40（Abeta1-40）、淀粉样蛋白-β 1-42（Abeta1-42）、磷酸化tau蛋白181（pTau181）和磷酸化tau蛋白217（pTau217）的浓度。主要结局与测量指标: 主要结局是POD，术后连续5天使用意识模糊评估法算法进行评估。基线认知功能使用蒙特利尔认知评估（MoCA）进行评估。风险估计准确性通过受试者工作特征分析和多变量逻辑回归进行评估，并校正相关临床协变量。结果: 在504名入组患者中，491名完成了POD评估（平均[SD]年龄，68.4[8.3]岁；385名[78.4%]男性），其中106名（21.6%）出现了POD。在多元线性回归中，pTau217（beta = -0.51；95% CI，-0.89至-0.12；P = .01）和年龄（beta = -0.12；95% CI，-0.16至-0.08；P < .001）仍是与较低MoCA评分显著相关的因素。出现POD的患者术前Abeta1-40、Abeta1-42、pTau217以及Abeta1-40/Abeta1-42×pTau217水平较高，而Abeta1-42/Abeta1-40水平较低。Abeta1-40是与POD最相关的独立生物标志物（受试者工作特征曲线下面积[AUC]，0.65；95% CI，0.59-0.71；P < .001）。与单独使用临床因素（AUC，0.73；95% CI，0.67-0.78；P < .001）相比，生物标志物与临床因素结合可改善风险估计（AUC，0.74；95% CI，0.69-0.79；P < .001）。包含MoCA的联合模型AUC达到0.77（95% CI，0.72-0.82；P < .001），其中主要驱动因素为Abeta1-40。结论与意义: 在这项前瞻性队列研究中，术前Abeta1-40在所测量的生物标志物中与POD风险的关联性最强。这些发现提示术前血浆Abeta1-40可能有助于POD风险分层，但需要进一步研究来验证这些发现并确定其临床实用性。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "von Arnim CAF, Sadlonova M, Derad C, Hohberg M, Celano CM, Gunther I, Titsch T, Krasiuk I, et al.",
+          "citation": "JAMA Netw Open. 2026 Jul 1;9(7):e2625730. doi: 10.1001/jamanetworkopen.2026.25730.",
+          "doi": "10.1001/jamanetworkopen.2026.25730",
+          "pmid": "42518233",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "American Medical Association (AMA)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-design"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.7,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "JAMA Network Open"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "老年围术期",
+            "Journal Article"
+          ],
+          "question": "术后谵妄是心脏手术后常见且严重的并发症，与痴呆风险增加和不良预后相关。早期识别高危患者具有挑战性。本研究探讨了术前血浆阿尔茨海默病生物标志物与谵妄风险的关系，为风险分层提供了新思路。",
+          "conclusion": "本前瞻性队列研究发现，术前血浆 Aβ1-40 水平是所测生物标志物中与心脏术后谵妄风险关联最强的指标，联合临床因素和 MoCA 评分可改善风险分层，但临床效用仍需进一步验证。",
+          "clinical": "术前检测血浆 Aβ1-40 可能有助于识别术后谵妄高危患者，但当前证据不足以支持常规临床应用，需进一步验证。 联合临床因素和认知筛查工具（如 MoCA）可能提升风险预测准确度。 麻醉医生可关注此类生物标志物研究的进展，但不应仅凭此项结果改变围术期管理策略。",
+          "evidence": "中等",
+          "score": 51,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性队列研究（FIND Delirium Risk Factors [FINDERI] 研究），2021年2月至2022年10月在德国一家综合心脏手术中心纳入≥50岁择期心脏手术患者，最终491例完成评估。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "patients 50 years or older undergoing elective cardiac surgery at a comprehensive cardiac surgery center in Germany；491"
+            },
+            {
+              "label": "干预与比较",
+              "value": "术前血浆 Aβ1-40、Aβ1-42、pTau181、pTau217 测量；对照：未明确（观察性研究，比较发生与未发生术后谵妄患者的生物标志物水平）"
+            },
+            {
+              "label": "主要终点",
+              "value": "Postoperative delirium (POD) assessed daily for 5 days using Confusion Assessment Method algorithm"
+            }
+          ],
+          "keyPoints": [
+            "术前血浆 Aβ1-40 水平与心脏术后谵妄风险独立关联（AUC 0.65）。",
+            "联合临床因素和 MoCA 评分的模型 AUC 为 0.77。",
+            "所检测的其他阿尔茨海默病生物标志物（Aβ1-42, pTau181, pTau217）与谵妄的关联较弱或非独立。",
+            "本研究为观察性设计，不能建立因果关系；生物标志物的临床转化仍需更多证据。"
+          ],
+          "methods": "术后谵妄是心脏手术后常见的严重并发症，与远期痴呆风险增加相关。目前早期识别高危患者仍困难。阿尔茨海默病生物标志物如淀粉样蛋白-β 和磷酸化 tau 蛋白可能与围术期神经认知障碍有关，但术前水平与术后谵妄的关系尚不清楚。",
+          "results": "术后谵妄发生率为21.6%（106/491）。多变量线性回归显示，pTau217 和年龄与较低的 MoCA 评分显著相关。发生谵妄患者术前 Aβ1-40、Aβ1-42、pTau217 及 Aβ1-40/Aβ1-42×pTau217 复合标志物水平较高，Aβ1-42/Aβ1-40 比值较低。Aβ1-40 是独立关联最强的生物标志物（AUC 0.65，95% CI 0.59-0.71，P<0.001）。生物标志物联合临床因素的风险评估 AUC 为 0.74（95% CI 0.69-0.79，P<0.001），优于单独临床因素（AUC 0.73，95% CI 0.67-0.78，P<0.001）。进一步加入 MoCA 评分的联合模型 AUC 达到 0.77（95% CI 0.72-0.82，P<0.001），主要驱动因素为 Aβ1-40。",
+          "mainResults": "术后谵妄发生率为21.6%（106/491）。多变量线性回归显示，pTau217 和年龄与较低的 MoCA 评分显著相关。发生谵妄患者术前 Aβ1-40、Aβ1-42、pTau217 及 Aβ1-40/Aβ1-42×pTau217 复合标志物水平较高，Aβ1-42/Aβ1-40 比值较低。Aβ1-40 是独立关联最强的生物标志物（AUC 0.65，95% CI 0.59-0.71，P<0.001）。生物标志物联合临床因素的风险评估 AUC 为 0.74（95% CI 0.69-0.79，P<0.001），优于单独临床因素（AUC 0.73，95% CI 0.67-0.78，P<0.001）。进一步加入 MoCA 评分的联合模型 AUC 达到 0.77（95% CI 0.72-0.82，P<0.001），主要驱动因素为 Aβ1-40。",
+          "limitations": [
+            "当前材料为摘要，详细信息有限。",
+            "队列来自单一中心，样本量中等，外推性受限。",
+            "研究未报告混杂因素完整调整细节。",
+            "生物标志物的临床阈值和标准化检测方法尚未确立。"
+          ],
+          "practice": [
+            "术前检测血浆 Aβ1-40 可能有助于识别术后谵妄高危患者，但当前证据不足以支持常规临床应用，需进一步验证。",
+            "联合临床因素和认知筛查工具（如 MoCA）可能提升风险预测准确度。",
+            "麻醉医生可关注此类生物标志物研究的进展，但不应仅凭此项结果改变围术期管理策略。"
+          ],
+          "editor": "摘要数据支持术前 Aβ1-40 与术后谵妄风险存在关联，且联合模型显示改善的风险区分能力。但均为观察性关联，不能推断因果关系。 过度解读风险：中。作者结论较为谨慎，指出需进一步研究验证，但读者可能过度解读 AUC 值为临床决策直接依据。",
+          "whyItMatters": "术后谵妄是心脏手术后常见且严重的并发症，与痴呆风险增加和不良预后相关。早期识别高危患者具有挑战性。本研究探讨了术前血浆阿尔茨海默病生物标志物与谵妄风险的关系，为风险分层提供了新思路。",
+          "background": "术后谵妄是心脏手术后常见的严重并发症，与远期痴呆风险增加相关。目前早期识别高危患者仍困难。阿尔茨海默病生物标志物如淀粉样蛋白-β 和磷酸化 tau 蛋白可能与围术期神经认知障碍有关，但术前水平与术后谵妄的关系尚不清楚。",
+          "pico": {
+            "population": "patients 50 years or older undergoing elective cardiac surgery at a comprehensive cardiac surgery center in Germany",
+            "intervention": "术前血浆 Aβ1-40、Aβ1-42、pTau181、pTau217 测量",
+            "comparison": "未明确（观察性研究，比较发生与未发生术后谵妄患者的生物标志物水平）",
+            "outcome": "Postoperative delirium (POD) assessed daily for 5 days using Confusion Assessment Method algorithm"
+          },
+          "studyType": "前瞻性队列研究（FIND Delirium Risk Factors [FINDERI] 研究），2021年2月至2022年10月在德国一家综合心脏手术中心纳入≥50岁择期心脏手术患者，最终491例完成评估。",
+          "sampleSize": "491",
+          "primaryOutcome": "Postoperative delirium (POD) assessed daily for 5 days using Confusion Assessment Method algorithm",
+          "effectSize": [
+            "AUC 0.65",
+            "AUC 0.74",
+            "AUC 0.77"
+          ],
+          "confidenceInterval": [
+            "0.59-0.71",
+            "0.69-0.79",
+            "0.72-0.82"
+          ],
+          "pValue": [
+            "<0.001",
+            "<0.001",
+            "<0.001"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "摘要数据支持术前 Aβ1-40 与术后谵妄风险存在关联，且联合模型显示改善的风险区分能力。但均为观察性关联，不能推断因果关系。",
+            "overinterpretationRisk": "中。作者结论较为谨慎，指出需进一步研究验证，但读者可能过度解读 AUC 值为临床决策直接依据。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要分析，未获取全文，缺乏方法学细节（如混杂因素调整列表、样本量计算、缺失数据处理等）。",
+                "摘要未报告亚组分析结果和不良事件。",
+                "无法评估研究偏倚风险和报告完整性。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "术前血浆阿尔茨海默病生物标志物是否与基线认知相关，并能否独立预测择期心脏手术患者术后谵妄？",
+              "designFit": "前瞻性队列设计适用于评估暴露（生物标志物）与结局（谵妄）的关联，但无法确定因果关系。",
+              "eligibility": "年龄≥50岁，择期心脏手术。当前材料未提供详细排除标准。",
+              "randomization": "未随机化（观察性队列）。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "当前材料未提及对结局评估者是否设盲。",
+              "sampleSizePlanning": "当前材料未提供样本量计算信息。",
+              "followUp": "术后5天每日谵妄评估。",
+              "analysisPopulation": "491例完成评估的患者，纳入分析。504例入组，13例缺失。",
+              "missingData": "当前材料未报告缺失数据处理方法。",
+              "strengths": [
+                "前瞻性设计，标准化谵妄评估（CAM算法）。",
+                "测量多种阿尔茨海默病相关生物标志物。",
+                "多变量调整分析。"
+              ],
+              "concerns": [
+                "单中心研究，外部有效性有限。",
+                "摘要未报告全部调整变量。",
+                "样本量相对较小，可能影响精确性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "Logistic回归",
+                  "purposeInStudy": "评估生物标志物与术后谵妄的关联，并计算AUC。",
+                  "reportedResult": "Aβ1-40单独AUC 0.65(0.59-0.71); 联合临床因素AUC 0.74(0.69-0.79); 联合临床因素+MoCA AUC 0.77(0.72-0.82)。所有P<0.001。",
+                  "interpretation": "Aβ1-40对术后谵妄有中等区分能力，联合其他因素后有所改善。",
+                  "cautions": [
+                    "AUC 0.65属于较低区分度；观察性关联，可能存在未测量的混杂因素。",
+                    "摘要未提供OR值或回归系数。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                },
+                {
+                  "referenceId": "linear-regression",
+                  "name": "线性回归",
+                  "purposeInStudy": "评估生物标志物与基线MoCA评分的关系。",
+                  "reportedResult": "pTau217 (beta=-0.51; 95%CI -0.89~-0.12; P=0.01) 和年龄与较低MoCA相关。",
+                  "interpretation": "更高的pTau217与较差基线认知相关。",
+                  "cautions": [
+                    "线性回归系数含义取决于变量尺度，摘要未标准化。"
+                  ],
+                  "standardExplanation": "估计自变量与连续结局之间的关系；系数含义取决于变量单位和模型调整方式。"
+                }
+              ],
+              "adjustedVariables": "当前材料未提供完整调整变量列表。提及调整相关临床协变量。",
+              "multiplicity": "当前材料未报告多重比较校正。",
+              "subgroupAnalysis": "当前材料未提供亚组分析结果。",
+              "clinicalVsStatisticalSignificance": "统计显著（P<0.001），但AUC 0.65-0.77的区分能力仅为中等，临床决策阈值未确定。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后谵妄（Confusion Assessment Method算法，术后5天每日评估）。发生率21.6%。",
+              "secondary": [
+                "基线认知（MoCA评分）。"
+              ],
+              "safety": "当前材料未报告不良事件。",
+              "absoluteVsRelative": "仅报告AUC，未提供绝对风险或相对风险。",
+              "subgroupAndInteraction": "当前材料未提供。",
+              "sensitivity": "当前材料未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "前瞻性队列设计；标准化谵妄评估；多变量调整。",
+                "探讨了多种阿尔茨海默病生物标志物。",
+                "结论谨慎，强调需验证。"
+              ],
+              "limitations": [
+                "单中心；样本量中等；摘要信息有限。",
+                "未报告缺失数据、敏感性分析等。",
+                "AUC 0.65单独预测价值有限。",
+                "未报告混杂因素全面调整。"
+              ],
+              "biasRisks": [
+                "选择偏倚：单中心入选可能限制代表性。",
+                "信息偏倚：若评估者未设盲，可能影响谵妄判断。",
+                "混杂偏倚：未报告调整变量，可能存在残余混杂。"
+              ],
+              "certainty": "根据摘要，证据等级为低（观察性研究，局限性较多）。",
+              "conclusionAlignment": "结论与数据一致：Aβ1-40关联最强，但临床效用需验证。",
+              "causalBoundary": "观察性关联，不能确定因果关系。生物标志物可能反映病理过程，但可能并非因果中介。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能适用于≥50岁择期心脏手术患者。",
+                "德国单中心数据，外推至其他人群需谨慎。"
+              ],
+              "nonApplicability": [
+                "急诊手术患者、年龄<50岁者、既往痴呆患者可能不适用。",
+                "不同实验室检测方法可能影响结果可重复性。"
+              ],
+              "practiceChange": "当前证据不足以支持在临床实践中常规检测术前血浆Aβ1-40来预测术后谵妄。",
+              "canDoNow": [
+                "继续使用现有临床风险因素和认知筛查工具评估谵妄风险。",
+                "关注该领域研究进展，等待更多验证数据。"
+              ],
+              "cannotConclude": [
+                "不能基于此研究推荐术前Aβ1-40检测用于谵妄风险分层。",
+                "不能确定最佳阈值和检测时机。",
+                "不能确定Aβ1-40与其他生物标志物组合的临床增量价值。"
+              ],
+              "evidenceGaps": [
+                "需要多中心、大样本验证研究。",
+                "需确定临床相关阈值。",
+                "需评估生物标志物指导干预能否改善预后。",
+                "需研究不同手术类型和人群的适用性。",
+                "需评估长期认知结局。",
+                "需标准化检测方法。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42518233/",
+            "doi": "https://doi.org/10.1001/jamanetworkopen.2026.25730",
+            "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.25730",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41950401",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-07-01",
+          "electronicPublicationDate": "2026-04-08",
+          "readingTime": "11 分钟",
+          "title": "静脉丙泊酚与吸入挥发性麻醉药后恢复轨迹的可行性先导试验（THRIVE）：实用随机临床试验",
+          "originalTitle": "Feasibility Pilot Trial for the Trajectories of Recovery after Intravenous Propofol versus Inhaled Volatile Anesthesia (THRIVE) Pragmatic Randomized Clinical Trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "THRIVE试验是一项多中心前瞻性随机比较效果试验，探讨接受全凭静脉丙泊酚麻醉与吸入挥发性麻醉药进行全身麻醉的患者体验和结局（NCT05991453）。在开展13000例患者试验之前，先进行了一项试点试验（NCT05346588），以确定可行性并评估以下方面的成功率：（1）患者入组，（2）干预依从性，（3）数据完整性。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "本可行性试验纳入美国两所学术机构中择期非心脏手术需全身麻醉的成年患者。患者被随机分配接受全凭静脉麻醉或吸入麻醉。患者在术后第0、1、2、7、30和90天完成问卷调查。将知情同意率、干预依从率和数据完整率与预设阈值（分别为10%、80%和90%）进行比较。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "从2022年9月至2023年3月，两中心共入组300例患者：圣路易斯华盛顿大学（密苏里州圣路易斯）和密歇根大学（密歇根州安娜堡）。各百分比显著超过预设阈值：663名接触患者中有351名成功获得知情同意（53%；95% CI, 49%至57%）；149例全凭静脉麻醉中有142例坚持随机分组干预（95%；95% CI, 92%至99%），151例吸入麻醉中有150例坚持（99%；95% CI, 98%至100%）；299例患者中有279例（93%；95% CI, 91%至96%）完成了QoR-15量表的数据收集，299例患者中有299例（100%完整；95% CI, 100%至100%）完成了改良Brice问卷（术中知晓筛查问卷）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在这两个THRIVE试验试点中心，入组足够患者、严格坚持随机治疗分组并获得充分的结局数据是可行的。"
+              }
+            ],
+            "fullText": "BACKGROUND: THRIVE试验是一项多中心前瞻性随机比较效果试验，探讨接受全凭静脉丙泊酚麻醉与吸入挥发性麻醉药进行全身麻醉的患者体验和结局（NCT05991453）。在开展13000例患者试验之前，先进行了一项试点试验（NCT05346588），以确定可行性并评估以下方面的成功率：（1）患者入组，（2）干预依从性，（3）数据完整性。METHODS: 本可行性试验纳入美国两所学术机构中择期非心脏手术需全身麻醉的成年患者。患者被随机分配接受全凭静脉麻醉或吸入麻醉。患者在术后第0、1、2、7、30和90天完成问卷调查。将知情同意率、干预依从率和数据完整率与预设阈值（分别为10%、80%和90%）进行比较。RESULTS: 从2022年9月至2023年3月，两中心共入组300例患者：圣路易斯华盛顿大学（密苏里州圣路易斯）和密歇根大学（密歇根州安娜堡）。各百分比显著超过预设阈值：663名接触患者中有351名成功获得知情同意（53%；95% CI, 49%至57%）；149例全凭静脉麻醉中有142例坚持随机分组干预（95%；95% CI, 92%至99%），151例吸入麻醉中有150例坚持（99%；95% CI, 98%至100%）；299例患者中有279例（93%；95% CI, 91%至96%）完成了QoR-15量表的数据收集，299例患者中有299例（100%完整；95% CI, 100%至100%）完成了改良Brice问卷（术中知晓筛查问卷）。CONCLUSIONS: 在这两个THRIVE试验试点中心，入组足够患者、严格坚持随机治疗分组并获得充分的结局数据是可行的。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Janda AM, Tellor Pennington BR, Colquhoun DA, Kumar SS, Neuman MD, Politi MC, Spino C, Kidwell KM, et al.",
+          "citation": "Anesthesiology. 2026 Jul 1;145(1):59-71. doi: 10.1097/ALN.0000000000006089. Epub 2026 Apr 8.",
+          "doi": "10.1097/aln.0000000000006089",
+          "pmid": "41950401",
+          "pmcid": "PMC13132590",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Pragmatic Clinical Trial",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "该先导试验评估了大型多中心实用性随机比较有效性试验（THRIVE）的可行性，为后续主要研究的设计和实施提供了关键参数。",
+          "conclusion": "该先导试验表明，在13,000例患者THRIVE试验的两个中心中，招募足够患者、坚持随机治疗分配并获取充分结局数据是可行的。",
+          "clinical": "该先导试验证实了大规模比较两种全身麻醉方式（全静脉丙泊酚与吸入挥发性麻醉）的可行性。 在高选择性的研究中心中，治疗分配依从性高，有助于减少交叉偏倚。 数据完成率（特别是改良Brice问卷的100%完成）为检测术中知晓等罕见结局提供了保障。",
+          "evidence": "中等偏高",
+          "score": 74,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 22,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 8
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心前瞻性随机实用性先导试验。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adult patients undergoing elective noncardiac surgery requiring general anesthesia across two academic institutions in the United States.；300"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Total intravenous anesthesia with propofol；对照：Inhaled volatile anesthesia"
+            },
+            {
+              "label": "主要终点",
+              "value": "Percentage of patients consenting to participate; percentage of patients receiving randomized treatment allocation."
+            }
+          ],
+          "keyPoints": [
+            "包括300例患者的先导试验成功验证了招募、依从性和数据收集的可行性。",
+            "TIVA和吸入麻醉的分配依从性均较高（分别95%和99%）。",
+            "Quality of Recovery-15和改良Brice问卷数据完成率分别为93%和100%。",
+            "所有主要可行性指标均超过预设阈值。"
+          ],
+          "methods": "THRIVE试验是一项多中心前瞻性随机比较有效性试验，旨在比较全静脉丙泊酚麻醉与吸入挥发性麻醉对患者体验和结局的影响。在进行13,000例患者的主要试验前，该先导试验（NCT05346588）用于评估可行性，确定患者入组、干预依从性和数据完成的成功率。",
+          "results": "共纳入300例患者。同意率：351/663（53%；95% CI, 49-57%）；TIVA组依从率：142/149（95%；95% CI, 92-99%）；吸入组依从率：150/151（99%；95% CI, 98-100%）；Quality of Recovery-15完整数据收集：279/299（93%；95% CI, 91-96%）；改良Brice完整数据收集：299/299（100%；95% CI, 100-100%）。所有指标均显著超过预设阈值（分别10%、80%、90%），但原始材料未提供具体P值。",
+          "mainResults": "共纳入300例患者。同意率：351/663（53%；95% CI, 49-57%）；TIVA组依从率：142/149（95%；95% CI, 92-99%）；吸入组依从率：150/151（99%；95% CI, 98-100%）；Quality of Recovery-15完整数据收集：279/299（93%；95% CI, 91-96%）；改良Brice完整数据收集：299/299（100%；95% CI, 100-100%）。所有指标均显著超过预设阈值（分别10%、80%、90%），但原始材料未提供具体P值。",
+          "limitations": [
+            "该先导试验仅在两个学术中心进行，可能限制其结果对更广泛临床环境的推广性。",
+            "同意率仅为53%，提示患者对随机分配至不同麻醉方式的接受度有限，可能影响主要试验的招募速度。",
+            "当前材料未提供基线特征、排除标准、长期随访完成率等详细信息。"
+          ],
+          "practice": [
+            "该先导试验证实了大规模比较两种全身麻醉方式（全静脉丙泊酚与吸入挥发性麻醉）的可行性。",
+            "在高选择性的研究中心中，治疗分配依从性高，有助于减少交叉偏倚。",
+            "数据完成率（特别是改良Brice问卷的100%完成）为检测术中知晓等罕见结局提供了保障。"
+          ],
+          "editor": "结果支持THRIVE主要试验在所选中心中可行，但需关注同意率较低的问题。 过度解读风险：先导试验结果不能直接证明主要试验的临床有效性，主要试验仍需进行以评估患者报告的结局差异。",
+          "whyItMatters": "该先导试验评估了大型多中心实用性随机比较有效性试验（THRIVE）的可行性，为后续主要研究的设计和实施提供了关键参数。",
+          "background": "THRIVE试验是一项多中心前瞻性随机比较有效性试验，旨在比较全静脉丙泊酚麻醉与吸入挥发性麻醉对患者体验和结局的影响。在进行13,000例患者的主要试验前，该先导试验（NCT05346588）用于评估可行性，确定患者入组、干预依从性和数据完成的成功率。",
+          "pico": {
+            "population": "Adult patients undergoing elective noncardiac surgery requiring general anesthesia across two academic institutions in the United States.",
+            "intervention": "Total intravenous anesthesia with propofol",
+            "comparison": "Inhaled volatile anesthesia",
+            "outcome": "Percentage of patients consenting to participate; percentage of patients receiving randomized treatment allocation."
+          },
+          "studyType": "多中心前瞻性随机实用性先导试验。",
+          "sampleSize": "300",
+          "primaryOutcome": "Percentage of patients consenting to participate; percentage of patients receiving randomized treatment allocation.",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "49 to 57%",
+            "92 to 99%",
+            "98 to 100%",
+            "91 to 96%",
+            "100 to 100%"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "结果支持THRIVE主要试验在所选中心中可行，但需关注同意率较低的问题。",
+            "overinterpretationRisk": "先导试验结果不能直接证明主要试验的临床有效性，主要试验仍需进行以评估患者报告的结局差异。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和部分开放全文节选，缺乏完整方法学细节。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估THRIVE主要试验（比较全静脉丙泊酚与吸入挥发性麻醉）的可行性。",
+              "designFit": "先导可行性试验设计适用于评估主要试验的招募、依从性和数据收集潜力。",
+              "eligibility": "当前可获取内容未提供详细排除标准。",
+              "randomization": "随机化方法未详细说明，但明确提及随机化。",
+              "allocationConcealment": "当前可获取内容未提供分配隐藏方法。",
+              "blinding": "当前可获取内容未提供盲法信息。",
+              "sampleSizePlanning": "目标样本量300例，未提供正式样本量计算。",
+              "followUp": "术后第0、1、2、7、30、90天完成问卷。",
+              "analysisPopulation": "改良意向治疗人群？依从性分析按实际接受治疗？当前材料未明确。",
+              "missingData": "Quality of Recovery-15有7%缺失（20/299？），但改良Brice无缺失。",
+              "strengths": [
+                "多中心设计（两中心）。",
+                "预设可行性阈值。",
+                "高随访率（所有患者均有改良Brice数据）。"
+              ],
+              "concerns": [
+                "同意率仅53%，可能影响外部效度。",
+                "未报告基线特征或组间均衡性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "比较各百分比与预设阈值。",
+                  "reportedResult": "所有百分比均显著超过阈值（原文表述），但未提供具体统计量或P值。",
+                  "interpretation": "当前材料无法评价所使用的统计方法及其合理性。",
+                  "cautions": [
+                    "缺乏具体P值或检验统计量，无法确认显著性。",
+                    "单样本比例检验的假设（如独立观测）可能不完全满足。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "所有可行性指标均达到预设阈值，统计学显著性基于原文表述，但临床意义需结合主要试验考量。"
+            },
+            "outcomeAnalysis": {
+              "primary": "同意率53%（95% CI 49-57%）；TIVA依从率95%（95% CI 92-99%）；吸入依从率99%（95% CI 98-100%）。",
+              "secondary": [
+                "Quality of Recovery-15完整数据收集93%（95% CI 91-96%），改良Brice 100%（95% CI 100-100%）。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "结果为绝对比例，无需相对效应量。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心设计",
+                "前瞻性随机化",
+                "预设可行性阈值",
+                "高数据完成率"
+              ],
+              "limitations": [
+                "同意率较低",
+                "缺乏长期随访数据完整性",
+                "未报告基线特征",
+                "统计方法不明确"
+              ],
+              "biasRisks": [
+                "选择偏倚：同意率低可能导致纳入患者代表性不足。",
+                "表现偏倚：未盲法可能影响依从性或数据收集。",
+                "损耗偏倚：Quality of Recovery-15有缺失可能导致信息偏倚。"
+              ],
+              "certainty": "低至中等；先导试验设计本身不旨在检测效力，且方法学细节不足。",
+              "conclusionAlignment": "结论与结果一致，但倾向于支持继续主要试验。",
+              "causalBoundary": "观察性关联：高依从率和数据完成率不等于主要试验中患者报告的结局改善。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "结果支持在类似学术中心开展THRIVE主要试验。"
+              ],
+              "nonApplicability": [
+                "不能直接推广至基层医院或不同手术人群。"
+              ],
+              "practiceChange": "当前不改变临床实践。",
+              "canDoNow": [
+                "确认在试点中心可进行大规模随机比较试验。"
+              ],
+              "cannotConclude": [
+                "不能确定两种麻醉方式在患者恢复轨迹上的优劣。"
+              ],
+              "evidenceGaps": [
+                "需要主要试验的结局数据；需要更多中心验证可行性；需要评估患者拒绝参与的原因。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41950401/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006089",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006089",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13132590/"
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-29T11:30:43.565Z",
       "mode": "production",
