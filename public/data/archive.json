@@ -1,7 +1,235 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T21:37:36.694Z",
+  "updatedAt": "2026-07-31T00:13:19.703Z",
   "editions": [
+    {
+      "generatedAt": "2026-07-31T00:13:19.703Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 30,
+        "expanded": false,
+        "expansionReason": null,
+        "expansionSteps": [],
+        "from": "2026-07-01T00:13:19.703Z",
+        "to": "2026-07-31T00:13:19.703Z",
+        "candidateCount": 63,
+        "discoveryCandidateCount": 1846,
+        "unseenCount": 40,
+        "duplicateCount": 23,
+        "priorityCandidateCount": 63,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 63,
+          "retrievedCount": 63,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 13,
+          "excludedCount": 287,
+          "excludedByReason": {
+            "journal-not-configured": 279,
+            "impact-factor-stale": 4,
+            "below-or-equal-threshold": 4
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 283,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "PloS one",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Annals of vascular surgery",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of case reports",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of anesthesia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of the American Veterinary Medical Association",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Molecular psychiatry",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American surgeon",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "World journal of urology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "American journal of otolaryngology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and analgesia",
+              "reason": "impact-factor-stale",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and pain medicine",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ open",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Current opinion in anaesthesiology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Die Anaesthesiologie",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 40,
+          "eligibleCount": 37,
+          "excludedCount": 3,
+          "excludedByReason": {
+            "journal-not-configured": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 30,
+          "clinical": 18,
+          "basic": 2,
+          "other": 10
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42526026",
+          "title": "Na(V)1.8抑制剂治疗急性疼痛的2b期试验",
+          "originalTitle": "Phase 2b Trial of a Na(V)1.8 Inhibitor for Acute Pain.",
+          "journal": "The New England journal of medicine",
+          "conclusion": "LTG-001（Na(V)1.8抑制剂）在腹壁成形术后48小时内相比安慰剂显著降低疼痛评分，高剂量组还减少了阿片类药物用量和提高了无需阿片类药物的患者比例。",
+          "pmid": "42526026"
+        },
+        {
+          "slug": "pmid-42173713",
+          "title": "小鼠中缝大核5-羟色胺神经元双向控制脊髓伤害性传递",
+          "originalTitle": "Nucleus raphe magnus serotonin neurones bidirectionally control spinal nociceptive transmission in mice.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "NRM的5-羟色胺神经元根据其激活模式，通过不同5-HT受体亚型对脊髓伤害性传递发挥双向调节作用：基础紧张性镇痛由5-HT(2c)受体介导，低水平激活增强镇痛，而持续刺激则通过5-HT(3)受体转变为痛觉过敏。",
+          "pmid": "42173713"
+        },
+        {
+          "slug": "pmid-41855428",
+          "title": "瑞马唑仑甲苯磺酸盐与丙泊酚在重症监护病房术后机械通气患者镇静中的疗效和安全性：多中心、随机、单盲、非劣效、3期试验",
+          "originalTitle": "Efficacy and Safety of Remimazolam Tosylate versus Propofol for Sedation of Postoperative Mechanically Ventilated Patients in Intensive Care Units: A Multicenter, Randomized, Single-blind, Noninferiority, Phase 3 Trial.",
+          "journal": "Anesthesiology",
+          "conclusion": "在术后机械通气患者中，瑞马唑仑甲苯磺酸盐的镇静效果非劣于丙泊酚，且耐受性良好。",
+          "pmid": "41855428"
+        },
+        {
+          "slug": "pmid-42132392",
+          "title": "推进围术期医学：多利益相关方视角",
+          "originalTitle": "Advancing Perioperative Medicine: A Multistakeholder Perspective.",
+          "journal": "Anesthesiology",
+          "conclusion": "本文基于多学科合作背景，描述了围术期医学在临床、教育、研究和领导力领域的特征，并总结了2024和2025年利益相关方峰会的关键主题，但未提供具体临床数据或效应量，无法得出量化结论。",
+          "pmid": "42132392"
+        },
+        {
+          "slug": "pmid-42102350",
+          "title": "帕金森病微电极记录引导下脑深部电刺激手术的麻醉选择（CHAMPION）：一项非劣效随机对照试验",
+          "originalTitle": "Choice of Anesthesia in Microelectrode Recording-guided Deep Brain Stimulation Surgery for Parkinson's Disease (CHAMPION): A Noninferiority Randomized Controlled Trial.",
+          "journal": "Anesthesiology",
+          "conclusion": "地氟烷全身麻醉在微电极记录信号质量方面非劣于右美托咪定镇静，并可缩短手术时间，6个月临床疗效和并发症发生率相当，支持其作为有效临床选择。",
+          "pmid": "42102350"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-29T21:37:36.694Z",
       "search": {

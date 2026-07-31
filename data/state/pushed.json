@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-29T21:37:36.694Z",
+  "updatedAt": "2026-07-31T00:13:19.703Z",
   "records": [
     {
       "pmid": "42359695",
@@ -353,6 +353,46 @@
       "status": "published",
       "runId": "2026-07-29T21-37-36.694Z",
       "firstPublishedAt": "2026-07-29T21:37:36.694Z"
+    },
+    {
+      "pmid": "42526026",
+      "doi": "10.1056/nejmoa2602910",
+      "title": "Phase 2b Trial of a Na(V)1.8 Inhibitor for Acute Pain.",
+      "status": "published",
+      "runId": "2026-07-31T00-13-19.703Z",
+      "firstPublishedAt": "2026-07-31T00:13:19.703Z"
+    },
+    {
+      "pmid": "42173713",
+      "doi": "10.1016/j.bja.2026.03.069",
+      "title": "Nucleus raphe magnus serotonin neurones bidirectionally control spinal nociceptive transmission in mice.",
+      "status": "published",
+      "runId": "2026-07-31T00-13-19.703Z",
+      "firstPublishedAt": "2026-07-31T00:13:19.703Z"
+    },
+    {
+      "pmid": "41855428",
+      "doi": "10.1097/aln.0000000000006047",
+      "title": "Efficacy and Safety of Remimazolam Tosylate versus Propofol for Sedation of Postoperative Mechanically Ventilated Patients in Intensive Care Units: A Multicenter, Randomized, Single-blind, Noninferiority, Phase 3 Trial.",
+      "status": "published",
+      "runId": "2026-07-31T00-13-19.703Z",
+      "firstPublishedAt": "2026-07-31T00:13:19.703Z"
+    },
+    {
+      "pmid": "42132392",
+      "doi": "10.1097/aln.0000000000006072",
+      "title": "Advancing Perioperative Medicine: A Multistakeholder Perspective.",
+      "status": "published",
+      "runId": "2026-07-31T00-13-19.703Z",
+      "firstPublishedAt": "2026-07-31T00:13:19.703Z"
+    },
+    {
+      "pmid": "42102350",
+      "doi": "10.1097/aln.0000000000006133",
+      "title": "Choice of Anesthesia in Microelectrode Recording-guided Deep Brain Stimulation Surgery for Parkinson's Disease (CHAMPION): A Noninferiority Randomized Controlled Trial.",
+      "status": "published",
+      "runId": "2026-07-31T00-13-19.703Z",
+      "firstPublishedAt": "2026-07-31T00:13:19.703Z"
     }
   ]
 }

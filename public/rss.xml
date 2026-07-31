@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jul 2026 21:37:36 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 00:13:19 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-07-31 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-07-31/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-07-31/</guid>
+      <pubDate>Fri, 31 Jul 2026 00:13:19 GMT</pubDate>
+      <description>Na(V)1.8抑制剂治疗急性疼痛的2b期试验：LTG-001（Na(V)1.8抑制剂）在腹壁成形术后48小时内相比安慰剂显著降低疼痛评分，高剂量组还减少了阿片类药物用量和提高了无需阿片类药物的患者比例。
+小鼠中缝大核5-羟色胺神经元双向控制脊髓伤害性传递：NRM的5-羟色胺神经元根据其激活模式，通过不同5-HT受体亚型对脊髓伤害性传递发挥双向调节作用：基础紧张性镇痛由5-HT(2c)受体介导，低水平激活增强镇痛，而持续刺激则通过5-HT(3)受体转变为痛觉过敏。
+瑞马唑仑甲苯磺酸盐与丙泊酚在重症监护病房术后机械通气患者镇静中的疗效和安全性：多中心、随机、单盲、非劣效、3期试验：在术后机械通气患者中，瑞马唑仑甲苯磺酸盐的镇静效果非劣于丙泊酚，且耐受性良好。
+推进围术期医学：多利益相关方视角：本文基于多学科合作背景，描述了围术期医学在临床、教育、研究和领导力领域的特征，并总结了2024和2025年利益相关方峰会的关键主题，但未提供具体临床数据或效应量，无法得出量化结论。
+帕金森病微电极记录引导下脑深部电刺激手术的麻醉选择（CHAMPION）：一项非劣效随机对照试验：地氟烷全身麻醉在微电极记录信号质量方面非劣于右美托咪定镇静，并可缩短手术时间，6个月临床疗效和并发症发生率相当，支持其作为有效临床选择。</description>
+    </item>
     <item>
       <title>2026-07-30 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-07-30/</link>
