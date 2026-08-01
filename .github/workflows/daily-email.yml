@@ -5,12 +5,6 @@ on:
     # GitHub Actions使用UTC；23:00约等于次日北京时间07:00。
     - cron: "0 23 * * *"
   workflow_dispatch:
-  # 一次性补发触发器；本轮成功后移除。
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/daily-email.yml"
 
 permissions:
   contents: write
