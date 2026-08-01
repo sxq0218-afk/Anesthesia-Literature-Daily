@@ -9,7 +9,7 @@ function parseJsonContent(content, provider) {
   }
 }
 
-async function requestJson(url, options, { attempts = 2, timeoutMs = 90000 } = {}) {
+async function requestJson(url, options, { attempts = 2, timeoutMs = 90000, validateBody } = {}) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     const controller = new AbortController();
@@ -26,7 +26,7 @@ async function requestJson(url, options, { attempts = 2, timeoutMs = 90000 } = {
             : response.status === 429 ? "RATE_LIMIT" : response.status >= 500 ? "PROVIDER_ERROR" : "REQUEST_ERROR";
         throw Object.assign(new Error(message), { code, status: response.status, retryable: response.status === 429 || response.status >= 500 });
       }
-      return body;
+      return validateBody ? validateBody(body) : body;
     } catch (error) {
       lastError = error.name === "AbortError" ? Object.assign(new Error("AI服务请求超时"), { code: "NETWORK_TIMEOUT", retryable: true }) : error;
       if (attempt < attempts && (lastError.retryable || !lastError.status)) await new Promise(resolve => setTimeout(resolve, 500 * attempt));
@@ -42,7 +42,7 @@ function endpoint(baseUrl, suffix) {
 }
 
 async function openAICompatible(config, request) {
-  const body = await requestJson(endpoint(config.baseUrl, "/chat/completions"), {
+  const { body, data } = await requestJson(endpoint(config.baseUrl, "/chat/completions"), {
     method: "POST",
     headers: { Authorization: `Bearer ${config.apiKey}`, "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -53,16 +53,20 @@ async function openAICompatible(config, request) {
       max_tokens: request.maxTokens,
       stream: false,
     }),
-  }, { attempts: Number(config.retryCount ?? 1) + 1, timeoutMs: Number(config.timeoutMs || 90000) });
+  }, {
+    attempts: Number(config.retryCount ?? 1) + 1,
+    timeoutMs: Number(config.timeoutMs || 90000),
+    validateBody: body => ({ body, data: parseJsonContent(body.choices?.[0]?.message?.content, config.provider) }),
+  });
   return {
-    data: parseJsonContent(body.choices?.[0]?.message?.content, config.provider),
+    data,
     usage: { prompt_tokens: body.usage?.prompt_tokens || 0, completion_tokens: body.usage?.completion_tokens || 0, total_tokens: body.usage?.total_tokens || 0 },
     model: body.model || config.model,
   };
 }
 
 async function anthropic(config, request) {
-  const body = await requestJson(endpoint(config.baseUrl, "/v1/messages"), {
+  const { body, data } = await requestJson(endpoint(config.baseUrl, "/v1/messages"), {
     method: "POST",
     headers: { "x-api-key": config.apiKey, "anthropic-version": "2023-06-01", "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -72,16 +76,19 @@ async function anthropic(config, request) {
       temperature: request.temperature,
       max_tokens: request.maxTokens,
     }),
-  }, { attempts: Number(config.retryCount ?? 1) + 1, timeoutMs: Number(config.timeoutMs || 90000) });
-  const content = body.content?.find(item => item.type === "text")?.text;
+  }, {
+    attempts: Number(config.retryCount ?? 1) + 1,
+    timeoutMs: Number(config.timeoutMs || 90000),
+    validateBody: body => ({ body, data: parseJsonContent(body.content?.find(item => item.type === "text")?.text, "Claude") }),
+  });
   const promptTokens = body.usage?.input_tokens || 0;
   const completionTokens = body.usage?.output_tokens || 0;
-  return { data: parseJsonContent(content, "Claude"), usage: { prompt_tokens: promptTokens, completion_tokens: completionTokens, total_tokens: promptTokens + completionTokens }, model: body.model || config.model };
+  return { data, usage: { prompt_tokens: promptTokens, completion_tokens: completionTokens, total_tokens: promptTokens + completionTokens }, model: body.model || config.model };
 }
 
 async function gemini(config, request) {
   const url = endpoint(config.baseUrl, `/models/${encodeURIComponent(config.model)}:generateContent?key=${encodeURIComponent(config.apiKey)}`);
-  const body = await requestJson(url, {
+  const { body, data } = await requestJson(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -89,10 +96,17 @@ async function gemini(config, request) {
       contents: [{ role: "user", parts: [{ text: request.user }] }],
       generationConfig: { temperature: request.temperature, maxOutputTokens: request.maxTokens, responseMimeType: "application/json" },
     }),
-  }, { attempts: Number(config.retryCount ?? 1) + 1, timeoutMs: Number(config.timeoutMs || 90000) });
+  }, {
+    attempts: Number(config.retryCount ?? 1) + 1,
+    timeoutMs: Number(config.timeoutMs || 90000),
+    validateBody: body => ({
+      body,
+      data: parseJsonContent(body.candidates?.[0]?.content?.parts?.map(item => item.text || "").join(""), "Gemini"),
+    }),
+  });
   const usage = body.usageMetadata || {};
   return {
-    data: parseJsonContent(body.candidates?.[0]?.content?.parts?.map(item => item.text || "").join(""), "Gemini"),
+    data,
     usage: { prompt_tokens: usage.promptTokenCount || 0, completion_tokens: usage.candidatesTokenCount || 0, total_tokens: usage.totalTokenCount || 0 },
     model: config.model,
   };
