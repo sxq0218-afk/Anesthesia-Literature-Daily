@@ -5,6 +5,12 @@ on:
     # GitHub Actions使用UTC；23:00约等于次日北京时间07:00。
     - cron: "0 23 * * *"
   workflow_dispatch:
+  # 一次性补发触发器；本轮成功后移除。
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/daily-email.yml"
 
 permissions:
   contents: write
@@ -23,7 +29,8 @@ jobs:
       DEPLOY_ENV: email-production
       AI_PROVIDER: ${{ vars.AI_PROVIDER || 'deepseek' }}
       AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://api.deepseek.com' }}
-      AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-chat' }}
+      # 当前变量 deepseek-v4-flash 持续返回空内容/无效JSON，先使用稳定模型。
+      AI_MODEL: deepseek-chat
       AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE || '0.1' }}
       AI_MAX_TOKENS: "7000"
       AI_TIMEOUT: ${{ vars.AI_TIMEOUT || '90000' }}
