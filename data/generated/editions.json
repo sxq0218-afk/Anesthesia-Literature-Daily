@@ -1,7 +1,1491 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T00:13:19.703Z",
+  "updatedAt": "2026-08-01T03:33:22.605Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-01T03:33:22.605Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 30,
+        "expanded": false,
+        "expansionReason": null,
+        "expansionSteps": [],
+        "from": "2026-07-02T03:33:22.605Z",
+        "to": "2026-08-01T03:33:22.605Z",
+        "candidateCount": 64,
+        "discoveryCandidateCount": 1832,
+        "unseenCount": 36,
+        "duplicateCount": 28,
+        "priorityCandidateCount": 64,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 64,
+          "retrievedCount": 64,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 14,
+          "excludedCount": 286,
+          "excludedByReason": {
+            "journal-not-configured": 278,
+            "impact-factor-stale": 4,
+            "below-or-equal-threshold": 4
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 282,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "PloS one",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Annals of vascular surgery",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of anesthesia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Molecular psychiatry",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Pediatric emergency care",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American journal of case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American surgeon",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "World journal of urology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "American journal of otolaryngology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anaesthesia and intensive care",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and analgesia",
+              "reason": "impact-factor-stale",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and pain medicine",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Annals of African medicine",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ open",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Case reports in anesthesiology",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 36,
+          "eligibleCount": 33,
+          "excludedCount": 3,
+          "excludedByReason": {
+            "journal-not-configured": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 26,
+          "clinical": 15,
+          "basic": 1,
+          "other": 10
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 20,
+          "promptTokens": 43744,
+          "completionTokens": 18494,
+          "totalTokens": 62238
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42409690",
+          "number": "01",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-06",
+          "electronicPublicationDate": "2026-07-06",
+          "readingTime": "7 分钟",
+          "title": "解耦不动与意识消失",
+          "originalTitle": "Uncoupling immobility and unconsciousness.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "麻醉终点如不动和无意识是在群体水平上通过最小肺泡浓度（MAC）和MAC-清醒等指标来定义的，然而个体在这些浓度下的行为仍然知之甚少。在《英国麻醉学杂志》最近的一项研究中，Mandel及其同事通过描述在固定浓度异氟醚（对应于群体MAC或MAC-清醒）下小鼠的行为动力学，并追踪它们在重复测试中是否能翻身或对爪捏做出反应，来解决这一问题。两个终点都不可预测地翻转状态，但抵抗切换，并且有趣的是，它们彼此完全独立。"
+              }
+            ],
+            "fullText": "麻醉终点如不动和无意识是在群体水平上通过最小肺泡浓度（MAC）和MAC-清醒等指标来定义的，然而个体在这些浓度下的行为仍然知之甚少。在《英国麻醉学杂志》最近的一项研究中，Mandel及其同事通过描述在固定浓度异氟醚（对应于群体MAC或MAC-清醒）下小鼠的行为动力学，并追踪它们在重复测试中是否能翻身或对爪捏做出反应，来解决这一问题。两个终点都不可预测地翻转状态，但抵抗切换，并且有趣的是，它们彼此完全独立。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Vincent KF, Solt K",
+          "citation": "Br J Anaesth. 2026 Jul 6:S0007-0912(26)00403-4. doi: 10.1016/j.bja.2026.06.002.",
+          "doi": "10.1016/j.bja.2026.06.002",
+          "pmid": "42409690",
+          "pmcid": null,
+          "publicationTypes": [
+            "Editorial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Editorial"
+          ],
+          "question": "该研究挑战了传统上以群体水平指标（如MAC和MAC-awake）定义麻醉终点的做法，提示个体水平上麻醉终点可能相互独立，这对理解麻醉机制和个体化麻醉管理具有重要意义。",
+          "conclusion": "在固定浓度异氟烷下，小鼠的不动和意识消失两个终点均表现出不可预测的状态翻转且抵抗切换，并且两者完全独立。",
+          "clinical": "提示麻醉深度监测可能需要同时评估多个终点，而非单一指标。 个体化麻醉管理可能需要考虑不同终点的独立性。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "编辑评论（Editorial），基于原始研究（Mandel等）的摘要分析。原始研究为动物实验，具体设计细节未提供。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "小鼠（非人类模型）；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "固定浓度的异氟烷（对应群体MAC或MAC-awake）；对照：不同终点（翻正反射和缩爪反应）之间的比较"
+            },
+            {
+              "label": "主要终点",
+              "value": "行为状态翻转（是否翻正、是否对爪捏有反应）"
+            }
+          ],
+          "keyPoints": [
+            "麻醉终点（不动和意识消失）在个体水平上可能相互独立。",
+            "固定浓度异氟烷下，小鼠行为状态不可预测翻转且抵抗切换。",
+            "传统群体指标（MAC和MAC-awake）可能不足以描述个体行为。"
+          ],
+          "methods": "麻醉终点如不动和意识消失通常通过群体水平指标（如最低肺泡有效浓度MAC和MAC-awake）来定义，但个体在这些浓度下的行为表现尚不清楚。Mandel等人在《英国麻醉学杂志》上发表的研究通过表征小鼠在固定浓度异氟烷下的行为动力学来填补这一空白。",
+          "results": "当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值。摘要报告：两个终点均不可预测地翻转状态，但抵抗切换，并且彼此完全独立。",
+          "mainResults": "当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值。摘要报告：两个终点均不可预测地翻转状态，但抵抗切换，并且彼此完全独立。",
+          "limitations": [
+            "当前可获取内容未提供原始研究的具体方法学细节，如样本量、统计方法等。",
+            "动物实验结果外推至人类需谨慎。"
+          ],
+          "practice": [
+            "提示麻醉深度监测可能需要同时评估多个终点，而非单一指标。",
+            "个体化麻醉管理可能需要考虑不同终点的独立性。"
+          ],
+          "editor": "摘要明确报告了两个终点独立且抵抗切换，支持麻醉终点可能解耦的观点。 过度解读风险：由于缺乏效应量和统计检验信息，且为动物模型，过度解读风险较高。",
+          "whyItMatters": "该研究挑战了传统上以群体水平指标（如MAC和MAC-awake）定义麻醉终点的做法，提示个体水平上麻醉终点可能相互独立，这对理解麻醉机制和个体化麻醉管理具有重要意义。",
+          "background": "麻醉终点如不动和意识消失通常通过群体水平指标（如最低肺泡有效浓度MAC和MAC-awake）来定义，但个体在这些浓度下的行为表现尚不清楚。Mandel等人在《英国麻醉学杂志》上发表的研究通过表征小鼠在固定浓度异氟烷下的行为动力学来填补这一空白。",
+          "pico": {
+            "population": "小鼠（非人类模型）",
+            "intervention": "固定浓度的异氟烷（对应群体MAC或MAC-awake）",
+            "comparison": "不同终点（翻正反射和缩爪反应）之间的比较",
+            "outcome": "行为状态翻转（是否翻正、是否对爪捏有反应）"
+          },
+          "studyType": "编辑评论（Editorial），基于原始研究（Mandel等）的摘要分析。原始研究为动物实验，具体设计细节未提供。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "当前可获取内容未提供该数据。",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "摘要明确报告了两个终点独立且抵抗切换，支持麻醉终点可能解耦的观点。",
+            "overinterpretationRisk": "由于缺乏效应量和统计检验信息，且为动物模型，过度解读风险较高。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文数据。",
+                "缺乏方法学细节和统计结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "个体在固定麻醉浓度下的行为动力学如何？",
+              "designFit": "编辑评论，原始研究为动物实验，设计适合探索行为动力学。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "聚焦个体水平行为，补充群体指标的不足。"
+              ],
+              "concerns": [
+                "缺乏方法学细节，无法评估研究质量。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计分析的适当性。",
+                  "cautions": [
+                    "未报告统计方法，无法评估结果可靠性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "当前可获取内容未提供该数据。",
+              "secondary": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "研究问题具有创新性，关注个体水平行为。"
+              ],
+              "limitations": [
+                "仅基于摘要，缺乏方法学细节。",
+                "动物模型，外推受限。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "低，因缺乏统计细节。",
+              "conclusionAlignment": "结论与摘要报告一致。",
+              "causalBoundary": "观察性关联，不能推断因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为麻醉机制研究提供新视角。"
+              ],
+              "nonApplicability": [
+                "不能直接用于临床麻醉管理。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "无直接临床可操作建议。"
+              ],
+              "cannotConclude": [
+                "不能得出麻醉终点独立性的临床结论。"
+              ],
+              "evidenceGaps": [
+                "需要人体研究验证。",
+                "需要更多方法学细节。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42409690/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.06.002",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.06.002",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42519913",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-07-28",
+          "electronicPublicationDate": "2026-07-28",
+          "readingTime": "9 分钟",
+          "title": "儿科麻醉后监护病房中恢复质量与出院准备度评估工具的评价",
+          "originalTitle": "Measures of Quality of Recovery and Discharge-readiness Tools in the Pediatric Postanesthesia Care Unit.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "麻醉后监护病房是恢复的关键阶段，然而常规评估往往侧重于出院准备情况，而非儿童的恢复体验。本研究回顾了儿科麻醉后监护病房路径中用于评估出院准备情况和早期恢复质量的测量工具，并综合了它们如何捕捉对儿童、家庭和临床医生重要的领域。这是一项采用叙述性综合的结构化文献综述，确定了用于儿童的八种工具：Steward评分、改良Aldrete评分、基于生理标准的评分、White和Song快速通道评分、儿童快速通道标准、儿科麻醉后出院评分系统、儿科出院准备工具和辨别麻醉后过渡准备情况。这些工具在预期阶段和目的地方面有所不同，对意识、氧合和血流动力学的覆盖一致，但对气道、疼痛、恶心呕吐、出血和功能的评估各不相同。针对麻醉后监护病房的儿科恢复质量测量工具仍然是一个关键的研究和质量改进空白。"
+              }
+            ],
+            "fullText": "麻醉后监护病房是恢复的关键阶段，然而常规评估往往侧重于出院准备情况，而非儿童的恢复体验。本研究回顾了儿科麻醉后监护病房路径中用于评估出院准备情况和早期恢复质量的测量工具，并综合了它们如何捕捉对儿童、家庭和临床医生重要的领域。这是一项采用叙述性综合的结构化文献综述，确定了用于儿童的八种工具：Steward评分、改良Aldrete评分、基于生理标准的评分、White和Song快速通道评分、儿童快速通道标准、儿科麻醉后出院评分系统、儿科出院准备工具和辨别麻醉后过渡准备情况。这些工具在预期阶段和目的地方面有所不同，对意识、氧合和血流动力学的覆盖一致，但对气道、疼痛、恶心呕吐、出血和功能的评估各不相同。针对麻醉后监护病房的儿科恢复质量测量工具仍然是一个关键的研究和质量改进空白。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Jindawatthana I, Graydon C, Lee-Archer P, Ramos T, Sheppard S, Davidson A",
+          "citation": "Anesthesiology. 2026 Jul 28. doi: 10.1097/ALN.0000000000006193.",
+          "doi": "10.1097/aln.0000000000006193",
+          "pmid": "42519913",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-design"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "麻醉后监护病房是儿童术后恢复的关键阶段，但常规评估往往侧重于出院准备度，而忽视了儿童自身的恢复体验。明确现有工具的覆盖范围和局限性，有助于识别研究空白，推动开发更全面的儿科恢复质量评估工具，从而改善患儿术后恢复质量。",
+          "conclusion": "当前儿科麻醉后监护病房中用于评估出院准备度和早期恢复质量的工具共有八种，但均未全面覆盖儿童、家庭和临床医生所关注的恢复领域，且缺乏针对PACU的儿科恢复质量专用测量工具。",
+          "clinical": "麻醉科医生应认识到现有儿科PACU评估工具在覆盖领域上的不一致性，尤其是对气道、疼痛、恶心呕吐、出血和功能等方面的评估不足。 在临床实践中，应结合多种工具或补充评估，以更全面地反映患儿的恢复状态。 未来需要开发并验证针对儿科PACU的恢复质量专用测量工具，以填补当前研究空白。",
+          "evidence": "中等",
+          "score": 51,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "结构化文献综述，采用叙述性综合方法。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "children in pediatric postanesthesia care unit；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "不适用（本研究为综述，无干预）；对照：不适用（本研究为综述，无对照）"
+            },
+            {
+              "label": "主要终点",
+              "value": "assessment of discharge readiness and early recovery quality"
+            }
+          ],
+          "keyPoints": [
+            "儿科PACU中常用的评估工具共八种，覆盖领域存在差异。",
+            "所有工具均覆盖意识、氧合和血流动力学，但对气道、疼痛、恶心呕吐、出血和功能的评估不一致。",
+            "缺乏针对儿科PACU的恢复质量专用测量工具，是重要的研究缺口。"
+          ],
+          "methods": "麻醉后监护病房是术后恢复的关键阶段，但常规评估往往侧重于出院准备度，而非儿童的恢复体验。本研究旨在系统回顾儿科PACU路径中用于评估出院准备度和早期恢复质量的工具，并综合这些工具如何捕捉对儿童、家庭和临床医生重要的领域。",
+          "results": "共识别出八种用于儿童的评估工具：Steward评分、改良Aldrete评分、基于生理标准的评分、White和Song快速通道评分、儿童快速通道标准、儿科麻醉后出院评分系统、儿科出院准备度工具以及辨别麻醉后过渡准备度工具。这些工具在预期阶段和目的地方面存在差异，但在意识、氧合和血流动力学方面的覆盖一致，而在气道、疼痛、恶心呕吐、出血和功能方面的评估则各不相同。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等数据。",
+          "mainResults": "共识别出八种用于儿童的评估工具：Steward评分、改良Aldrete评分、基于生理标准的评分、White和Song快速通道评分、儿童快速通道标准、儿科麻醉后出院评分系统、儿科出院准备度工具以及辨别麻醉后过渡准备度工具。这些工具在预期阶段和目的地方面存在差异，但在意识、氧合和血流动力学方面的覆盖一致，而在气道、疼痛、恶心呕吐、出血和功能方面的评估则各不相同。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等数据。",
+          "limitations": [
+            "当前可获取内容未提供该研究的详细局限性信息。",
+            "作为摘要，未提供纳入研究的详细方法学质量评估。",
+            "未提供各工具的具体效度、信度数据。"
+          ],
+          "practice": [
+            "麻醉科医生应认识到现有儿科PACU评估工具在覆盖领域上的不一致性，尤其是对气道、疼痛、恶心呕吐、出血和功能等方面的评估不足。",
+            "在临床实践中，应结合多种工具或补充评估，以更全面地反映患儿的恢复状态。",
+            "未来需要开发并验证针对儿科PACU的恢复质量专用测量工具，以填补当前研究空白。"
+          ],
+          "editor": "该结论基于对八种工具的叙述性综合，但缺乏定量数据支持，且未提供效应量或置信区间。 过度解读风险：由于是综述且未提供具体数据，应避免将工具覆盖范围的差异直接等同于临床效果差异。",
+          "whyItMatters": "麻醉后监护病房是儿童术后恢复的关键阶段，但常规评估往往侧重于出院准备度，而忽视了儿童自身的恢复体验。明确现有工具的覆盖范围和局限性，有助于识别研究空白，推动开发更全面的儿科恢复质量评估工具，从而改善患儿术后恢复质量。",
+          "background": "麻醉后监护病房是术后恢复的关键阶段，但常规评估往往侧重于出院准备度，而非儿童的恢复体验。本研究旨在系统回顾儿科PACU路径中用于评估出院准备度和早期恢复质量的工具，并综合这些工具如何捕捉对儿童、家庭和临床医生重要的领域。",
+          "pico": {
+            "population": "children in pediatric postanesthesia care unit",
+            "intervention": "不适用（本研究为综述，无干预）",
+            "comparison": "不适用（本研究为综述，无对照）",
+            "outcome": "assessment of discharge readiness and early recovery quality"
+          },
+          "studyType": "结构化文献综述，采用叙述性综合方法。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "assessment of discharge readiness and early recovery quality",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该结论基于对八种工具的叙述性综合，但缺乏定量数据支持，且未提供效应量或置信区间。",
+            "overinterpretationRisk": "由于是综述且未提供具体数据，应避免将工具覆盖范围的差异直接等同于临床效果差异。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文，无法评估纳入研究的详细方法学质量。",
+                "未提供各工具的具体评估指标和验证数据。",
+                "未提供检索策略、纳入排除标准等综述方法学细节。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估儿科PACU路径中用于评估出院准备度和早期恢复质量的工具，并综合其覆盖领域。",
+              "designFit": "结构化文献综述适合总结现有工具，但叙述性综合可能引入主观性。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "不适用（综述）。",
+              "allocationConcealment": "不适用（综述）。",
+              "blinding": "不适用（综述）。",
+              "sampleSizePlanning": "不适用（综述）。",
+              "followUp": "不适用（综述）。",
+              "analysisPopulation": "纳入的八种工具。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "系统识别了儿科PACU中常用的评估工具。",
+                "综合了工具覆盖的领域，揭示了评估中的空白。"
+              ],
+              "concerns": [
+                "未提供工具的心理测量学特性。",
+                "未说明检索策略和纳入标准，可能影响可重复性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计方法。",
+                  "cautions": [
+                    "由于未报告统计方法，无法评估结果的稳健性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "评估出院准备度和早期恢复质量的工具及其覆盖领域。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统识别了儿科PACU中常用的评估工具。",
+                "综合了工具覆盖的领域，揭示了评估中的空白。"
+              ],
+              "limitations": [
+                "仅基于摘要，未提供详细方法学信息。",
+                "未提供工具的心理测量学特性。",
+                "未说明检索策略和纳入标准。"
+              ],
+              "biasRisks": [
+                "可能存在发表偏倚，因为仅纳入已发表的工具。",
+                "叙述性综合可能引入选择偏倚。"
+              ],
+              "certainty": "低，由于缺乏定量数据和详细方法学信息。",
+              "conclusionAlignment": "结论与摘要内容一致，但缺乏数据支持。",
+              "causalBoundary": "本研究为综述，仅描述工具覆盖情况，不涉及因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于儿科麻醉后监护病房的临床评估实践。",
+                "有助于临床医生了解现有工具的覆盖范围。"
+              ],
+              "nonApplicability": [
+                "不适用于直接指导具体工具的选择，因为未提供工具的比较效度数据。"
+              ],
+              "practiceChange": "当前证据不足以支持立即改变临床实践，但提示需要开发更全面的评估工具。",
+              "canDoNow": [
+                "临床医生可参考现有工具，但应意识到其覆盖领域的局限性。"
+              ],
+              "cannotConclude": [
+                "无法确定哪种工具最优。",
+                "无法确定工具对临床结局的影响。"
+              ],
+              "evidenceGaps": [
+                "缺乏儿科PACU专用恢复质量测量工具。",
+                "缺乏工具的心理测量学验证数据。",
+                "缺乏工具对临床结局影响的研究。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42519913/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006193",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006193",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42461097",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-07-15",
+          "electronicPublicationDate": "2026-07-15",
+          "readingTime": "11 分钟",
+          "title": "小儿斜视手术中神经肌肉阻滞深度与眼心反射：一项随机临床试验",
+          "originalTitle": "Neuromuscular Blockade Depth and Oculocardiac Reflex in Pediatric Strabismus Surgery: A Randomized Clinical Trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "尽管与不使用神经肌肉阻滞相比，神经肌肉阻滞可降低眼心反射（OCR）的发生率，但阻滞深度对OCR的影响尚未进行前瞻性评估。本研究旨在评估神经肌肉阻滞深度是否影响小儿斜视手术中OCR的发生率。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在这项前瞻性、双盲随机对照试验中，204名年龄在3至18岁、在全身麻醉下接受斜视手术的儿科患者被随机分配至中度至深度神经肌肉阻滞组（MD-NMB；四个成串刺激计数0-3）或轻度至浅度神经肌肉阻滞组（MS-NMB；四个成串刺激计数4且比值<0.9）。主要结局是OCR等级≥2的发生率，定义为心率较基线下降≥20%。次要结局包括严重OCR（等级≥3，定义为心率下降≥30%），以及心率降低的幅度和持续时间。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "共分析了201名患者（MS-NMB组，n=102；MD-NMB组，n=99）。MD-NMB组OCR等级≥2的发生率低于MS-NMB组（30.3%对53.9%；比值比[OR] 0.37；95%置信区间[CI] 0.21-0.66；p=0.001）。MD-NMB组OCR等级≥3的发生率也降低（18.2%对35.3%；OR 0.41，95% CI 0.21-0.78；p=0.007）。在发生OCR的患者中，MD-NMB组心率降低的幅度（34.3% [26.9-42.6%] 对28.0% [18.2-35.9%]；p=0.003）和持续时间（46.0秒 [30.3-65.8秒] 对37.0秒 [17.0-49.5秒]；p=0.024）均较小。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "与轻度至浅度阻滞相比，中度至深度神经肌肉阻滞显著降低了小儿斜视手术中OCR的发生率和严重程度。这些发现提示，在眼外肌操作期间，更深的神经肌肉阻滞可能代表一种减轻OCR的有效策略。"
+              }
+            ],
+            "fullText": "BACKGROUND: 尽管与不使用神经肌肉阻滞相比，神经肌肉阻滞可降低眼心反射（OCR）的发生率，但阻滞深度对OCR的影响尚未进行前瞻性评估。本研究旨在评估神经肌肉阻滞深度是否影响小儿斜视手术中OCR的发生率。 METHODS: 在这项前瞻性、双盲随机对照试验中，204名年龄在3至18岁、在全身麻醉下接受斜视手术的儿科患者被随机分配至中度至深度神经肌肉阻滞组（MD-NMB；四个成串刺激计数0-3）或轻度至浅度神经肌肉阻滞组（MS-NMB；四个成串刺激计数4且比值<0.9）。主要结局是OCR等级≥2的发生率，定义为心率较基线下降≥20%。次要结局包括严重OCR（等级≥3，定义为心率下降≥30%），以及心率降低的幅度和持续时间。 RESULTS: 共分析了201名患者（MS-NMB组，n=102；MD-NMB组，n=99）。MD-NMB组OCR等级≥2的发生率低于MS-NMB组（30.3%对53.9%；比值比[OR] 0.37；95%置信区间[CI] 0.21-0.66；p=0.001）。MD-NMB组OCR等级≥3的发生率也降低（18.2%对35.3%；OR 0.41，95% CI 0.21-0.78；p=0.007）。在发生OCR的患者中，MD-NMB组心率降低的幅度（34.3% [26.9-42.6%] 对28.0% [18.2-35.9%]；p=0.003）和持续时间（46.0秒 [30.3-65.8秒] 对37.0秒 [17.0-49.5秒]；p=0.024）均较小。 CONCLUSIONS: 与轻度至浅度阻滞相比，中度至深度神经肌肉阻滞显著降低了小儿斜视手术中OCR的发生率和严重程度。这些发现提示，在眼外肌操作期间，更深的神经肌肉阻滞可能代表一种减轻OCR的有效策略。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Park JB, Jung JH, Ji SH, Kim EH, Lee JH, Kim JT, Kim HS, Jang YE",
+          "citation": "Anesthesiology. 2026 Jul 15. doi: 10.1097/ALN.0000000000006256.",
+          "doi": "10.1097/aln.0000000000006256",
+          "pmid": "42461097",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-design"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "眼心反射是小儿斜视手术中常见且可能危险的并发症，本研究首次通过随机对照试验评估了神经肌肉阻滞深度对OCR的影响，为临床麻醉管理提供了新的策略依据。",
+          "conclusion": "与最小至浅度神经肌肉阻滞相比，中度至深度神经肌肉阻滞可显著降低小儿斜视手术中眼心反射（OCR）的发生率及严重程度。",
+          "clinical": "对于小儿斜视手术，采用中度至深度神经肌肉阻滞可能有效降低眼心反射的发生率和严重程度。 麻醉医师在术中处理眼外肌操作时，可考虑维持较深的神经肌肉阻滞水平以预防OCR。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性、双盲随机对照试验"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "pediatric patients aged 3 to 18 years undergoing strabismus surgery under general anesthesia；204 randomized, 201 analyzed (MS-NMB, n=102; MD-NMB, n=99)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "moderate-to-deep neuromuscular blockade (MD-NMB; train-of-four count 0-3)；对照：minimal-to-shallow neuromuscular blockade (MS-NMB; train-of-four count 4 with ratio <0.9)"
+            },
+            {
+              "label": "主要终点",
+              "value": "incidence of OCR grade >/=2, defined as a >/=20% decrease in heart rate from baseline"
+            }
+          ],
+          "keyPoints": [
+            "MD-NMB组OCR≥2发生率显著低于MS-NMB组（30.3% vs. 53.9%，OR 0.37，95%CI 0.21-0.66，p=0.001）。",
+            "MD-NMB组严重OCR（≥3）发生率也显著降低（18.2% vs. 35.3%，OR 0.41，95%CI 0.21-0.78，p=0.007）。",
+            "在发生OCR的患者中，MD-NMB组心率降低幅度和持续时间均较小。"
+          ],
+          "methods": "虽然神经肌肉阻滞与不使用神经肌肉阻滞相比可降低眼心反射（OCR）的发生率，但阻滞深度对OCR的影响尚未经过前瞻性评估。本研究旨在评估神经肌肉阻滞深度是否影响小儿斜视手术中OCR的发生率。",
+          "results": "共分析201例患者（MS-NMB组n=102，MD-NMB组n=99）。MD-NMB组OCR分级≥2的发生率低于MS-NMB组（30.3% vs. 53.9%；比值比[OR] 0.37；95%置信区间[CI] 0.21-0.66；p=0.001）。MD-NMB组OCR分级≥3的发生率也降低（18.2% vs. 35.3%；OR 0.41，95% CI 0.21-0.78；p=0.007）。在发生OCR的患者中，MD-NMB组心率降低的幅度（34.3% [26.9-42.6%] vs. 28.0% [18.2-35.9%]；p=0.003）和持续时间（46.0秒 [30.3-65.8秒] vs. 37.0秒 [17.0-49.5秒]；p=0.024）均较小。",
+          "mainResults": "共分析201例患者（MS-NMB组n=102，MD-NMB组n=99）。MD-NMB组OCR分级≥2的发生率低于MS-NMB组（30.3% vs. 53.9%；比值比[OR] 0.37；95%置信区间[CI] 0.21-0.66；p=0.001）。MD-NMB组OCR分级≥3的发生率也降低（18.2% vs. 35.3%；OR 0.41，95% CI 0.21-0.78；p=0.007）。在发生OCR的患者中，MD-NMB组心率降低的幅度（34.3% [26.9-42.6%] vs. 28.0% [18.2-35.9%]；p=0.003）和持续时间（46.0秒 [30.3-65.8秒] vs. 37.0秒 [17.0-49.5秒]；p=0.024）均较小。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "对于小儿斜视手术，采用中度至深度神经肌肉阻滞可能有效降低眼心反射的发生率和严重程度。",
+            "麻醉医师在术中处理眼外肌操作时，可考虑维持较深的神经肌肉阻滞水平以预防OCR。"
+          ],
+          "editor": "研究为随机对照试验，结果支持中度至深度神经肌肉阻滞降低OCR发生率和严重程度的结论。 过度解读风险：需注意研究为单中心或特定人群，结果外推需谨慎；且未报告不良事件，安全性需进一步评估。",
+          "whyItMatters": "眼心反射是小儿斜视手术中常见且可能危险的并发症，本研究首次通过随机对照试验评估了神经肌肉阻滞深度对OCR的影响，为临床麻醉管理提供了新的策略依据。",
+          "background": "虽然神经肌肉阻滞与不使用神经肌肉阻滞相比可降低眼心反射（OCR）的发生率，但阻滞深度对OCR的影响尚未经过前瞻性评估。本研究旨在评估神经肌肉阻滞深度是否影响小儿斜视手术中OCR的发生率。",
+          "pico": {
+            "population": "pediatric patients aged 3 to 18 years undergoing strabismus surgery under general anesthesia",
+            "intervention": "moderate-to-deep neuromuscular blockade (MD-NMB; train-of-four count 0-3)",
+            "comparison": "minimal-to-shallow neuromuscular blockade (MS-NMB; train-of-four count 4 with ratio <0.9)",
+            "outcome": "incidence of OCR grade >/=2, defined as a >/=20% decrease in heart rate from baseline"
+          },
+          "studyType": "前瞻性、双盲随机对照试验",
+          "sampleSize": "204 randomized, 201 analyzed (MS-NMB, n=102; MD-NMB, n=99)",
+          "primaryOutcome": "incidence of OCR grade >/=2, defined as a >/=20% decrease in heart rate from baseline",
+          "effectSize": [
+            "OR 0.37",
+            "OR 0.41"
+          ],
+          "confidenceInterval": [
+            "95% CI 0.21-0.66",
+            "95% CI 0.21-0.78"
+          ],
+          "pValue": [
+            "p = 0.001",
+            "p = 0.007",
+            "p=0.003",
+            "p=0.024"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究为随机对照试验，结果支持中度至深度神经肌肉阻滞降低OCR发生率和严重程度的结论。",
+            "overinterpretationRisk": "需注意研究为单中心或特定人群，结果外推需谨慎；且未报告不良事件，安全性需进一步评估。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文，无法评估随机化细节、盲法实施、样本量计算、失访等详细信息。",
+                "未报告不良事件和局限性，无法全面评估研究质量。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "神经肌肉阻滞深度是否影响小儿斜视手术中眼心反射的发生率？",
+              "designFit": "随机对照试验设计适合评估干预效果，双盲设计减少偏倚。",
+              "eligibility": "3至18岁接受斜视手术并在全身麻醉下的儿科患者。",
+              "randomization": "随机分配至MD-NMB或MS-NMB组，但摘要未说明随机化方法。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "双盲设计，但未说明具体盲法对象（患者、麻醉医师、评估者）。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "共201例患者纳入分析（MS-NMB n=102，MD-NMB n=99），但未说明是否按意向性治疗分析。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "随机对照试验设计，双盲减少偏倚。",
+                "样本量较大（204例随机，201例分析）。"
+              ],
+              "concerns": [
+                "摘要未报告随机化方法、分配隐藏、样本量计算等关键方法学细节。",
+                "未报告不良事件，安全性信息缺失。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "用于比较组间OCR发生率及心率降低幅度和持续时间。",
+                  "reportedResult": "OCR≥2：OR 0.37，95%CI 0.21-0.66，p=0.001；OCR≥3：OR 0.41，95%CI 0.21-0.78，p=0.007；心率降低幅度：34.3% vs. 28.0%，p=0.003；持续时间：46.0s vs. 37.0s，p=0.024。",
+                  "interpretation": "MD-NMB组OCR发生率和严重程度显著低于MS-NMB组。",
+                  "cautions": [
+                    "未报告统计方法的具体名称，无法评估其适用性。",
+                    "未报告是否校正多重比较。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "研究结果显示统计学显著差异，但临床意义需结合效应量（OR 0.37和0.41）及绝对风险降低（23.6%和17.1%）评估，可能具有临床意义。"
+            },
+            "outcomeAnalysis": {
+              "primary": "OCR分级≥2的发生率（心率较基线下降≥20%）。",
+              "secondary": [
+                "严重OCR（分级≥3，心率下降≥30%）的发生率。",
+                "心率降低的幅度和持续时间。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "相对效应：OCR≥2的OR为0.37，OCR≥3的OR为0.41；绝对风险降低：OCR≥2为23.6%，OCR≥3为17.1%。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机对照试验设计，双盲减少偏倚。",
+                "样本量较大，结果具有统计学显著性。"
+              ],
+              "limitations": [
+                "仅基于摘要，无法评估方法学细节。",
+                "未报告不良事件，安全性未知。",
+                "未报告局限性，可能遗漏重要信息。"
+              ],
+              "biasRisks": [
+                "随机化方法、分配隐藏未报告，可能存在选择偏倚。",
+                "盲法对象未明确，可能存在实施偏倚。"
+              ],
+              "certainty": "中等，因摘要信息有限，但随机对照设计增加可信度。",
+              "conclusionAlignment": "结论与结果一致，但需注意摘要可能简化了复杂信息。",
+              "causalBoundary": "随机对照设计支持因果推断，但需考虑未测量的混杂因素。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于3至18岁接受斜视手术的儿科患者。",
+                "中度至深度神经肌肉阻滞可能作为预防OCR的策略。"
+              ],
+              "nonApplicability": [
+                "不适用于成人或非斜视手术。",
+                "不适用于神经肌肉阻滞禁忌的患者。"
+              ],
+              "practiceChange": "可能改变临床实践，建议在斜视手术中考虑使用中度至深度神经肌肉阻滞。",
+              "canDoNow": [
+                "在斜视手术中，可考虑使用中度至深度神经肌肉阻滞以降低OCR风险。"
+              ],
+              "cannotConclude": [
+                "不能确定对患者长期预后的影响。",
+                "不能确定最佳阻滞深度阈值。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究验证不同阻滞深度对OCR的影响。",
+                "需要评估不良事件和安全性。",
+                "需要长期随访数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42461097/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006256",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006256",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41870345",
+          "number": "04",
+          "category": "疼痛与区域麻醉",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-07-01",
+          "electronicPublicationDate": "2026-03-23",
+          "readingTime": "14 分钟",
+          "title": "冷冻神经松解术热曲线：超声引导经皮热电偶的体内描述性数据",
+          "originalTitle": "Cryoneurolysis Thermal Graphs: In Vivo Descriptive Data from Ultrasound-guided Percutaneous Thermocouples.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "冷冻神经松解术通过使用气体诱导的极低温度可逆性地消融周围神经来提供镇痛。理想的治疗温度大约在-20摄氏度至-100摄氏度之间。较暖的温度可诱发神经失用症，其本身可能引起疼痛；而较冷的温度可能导致永久性神经损伤。因此，靶神经必须达到但不能超过治疗窗口至关重要。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "一项便利样本中，接受乳房切除术的参与者（n=3）接受了高位胸椎旁神经阻滞，而因创伤性肋骨骨折接受治疗的受试者（n=3）未接受阻滞。所有参与者均在超声引导下对多条肋间神经进行冷冻神经松解术，经皮热电偶插入距冷冻探针杆约3毫米处。回流的氩气和组织温度被关联。由于样本量有限，数据仅呈现而未进行统计分析。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "尽管在所有病例（31条神经）中，回流气体最终低于-80摄氏度，但在3分钟和5分钟时，探针旁组织分别有71%（n=5）和42%（n=10）的治疗未达到-20摄氏度。无神经阻滞时，邻近组织的最低平均温度比回流气体高60摄氏度；有并发神经阻滞时，则高95摄氏度。在治疗相邻肋间神经时，气体温度保持不变，而组织温度随着每次连续治疗而变得更冷。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在经皮冷冻神经松解术中，组织温度相对于回流气体常常具有欺骗性的温暖，且组织经常无法达到足够冷的温度；将气体治疗时间从3分钟延长至5分钟可提高达到治疗温度的成功率；存在周围神经阻滞似乎降低了达到治疗温度的机会；在治疗连续肋间神经时应谨慎，因为组织温度可能随每个节段而降低。"
+              }
+            ],
+            "fullText": "BACKGROUND: Cryoneurolysis provides analgesia by reversibly ablating peripheral nerves using gas-induced exceptionally low temperature. The desired therapeutic temperature is between approximately -20 degrees C and -100 degrees C. Warmer temperatures can induce a neuropraxia that may itself induce pain; and colder temperatures can result in permanent nerve injury. Therefore, it is imperative that the target nerve reach but not exceed the therapeutic window. METHODS: A convenience sample of participants undergoing mastectomy (n = 3) received a high-thoracic paravertebral nerve block, while subjects being treated for traumatic rib fractures (n = 3) did not. All participants had ultrasound-guided cryoneurolysis of multiple intercostal nerves with a percutaneous thermocouple inserted approximately 3 mm adjacent to the cryoprobe shaft. The returning argon gas and tissue temperatures were correlated. Due to the limited sample size, the data are presented and not statistically analyzed. RESULTS: Although in all cases (31 nerves) the returning gas was ultimately colder than -80 degrees C, the tissue adjacent to the probe did not reach -20 degrees C after 3 and 5 min in 71% (n = 5) and 42% (n = 10) of treatments, respectively. The coldest mean temperature in adjacent tissue was 60 degrees C warmer than the returning gas with out a nerve block, and 95 degrees C warmer with a concurrent nerve block. When treating adjacent intercostal nerves, the gas temperature remained unchanged, while the tissue became colder with each consecutive treatment. CONCLUSIONS: During percutaneous cryoneurolysis, the temperature of tissue is frequently deceptively warm relative to the returning gas and tissue frequently does not reach an adequately cold temperature; prolonging gas treatment from 3 to 5 min improves the success of reaching therapeutic temperatures; the presence of a peripheral nerve block appears to lessen the chance of reaching therapeutic temperatures; and caution is warranted when treating consecutive intercostal nerves as tissue temperature may decrease with each level.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Ilfeld BM, Abdullah B, Pham JP, Gandhi R, Finneran JJ 4th",
+          "citation": "Anesthesiology. 2026 Jul 1;145(1):111-119. doi: 10.1097/ALN.0000000000006059. Epub 2026 Mar 23.",
+          "doi": "10.1097/aln.0000000000006059",
+          "pmid": "41870345",
+          "pmcid": "PMC13245926",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "冷冻神经松解术通过气体诱导的极低温度可逆性消融周围神经以提供镇痛，但目标神经必须达到且不超过治疗窗（约-20°C至-100°C），否则可能导致神经失用症（本身可诱发疼痛）或永久性神经损伤。该研究提供了体内组织温度与返回气体温度差异的描述性数据，提示临床实践中可能存在的温度监测盲区，对优化冷冻神经松解术参数具有潜在意义。",
+          "conclusion": "在经皮冷冻神经松解术中，组织温度常相对于返回气体温度显得“欺骗性”温暖，且组织常未达到足够冷的治疗温度；将气体治疗时间从3分钟延长至5分钟可提高达到治疗温度的成功率；存在周围神经阻滞似乎降低达到治疗温度的机会；治疗连续肋间神经时，组织温度可能随每个水平而降低，需谨慎。",
+          "clinical": "在冷冻神经松解术中，依赖返回气体温度可能高估组织冷却效果，临床医生应意识到组织温度可能未达到治疗窗。 延长冷冻时间（从3分钟至5分钟）可能提高达到治疗温度的成功率，但需权衡操作时间与患者耐受性。 存在周围神经阻滞时，组织温度可能更难达到治疗窗，需考虑阻滞对组织灌注或温度传导的影响。 连续治疗相邻肋间神经时，组织温度可能逐渐降低，需警惕累积冷却效应导致组织过冷风险。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "回顾性分析来自两项前瞻性临床试验的数据。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Participants undergoing mastectomy (n=3) and subjects with traumatic rib fractures (n=3)；6 participants, 31 intercostal nerves"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Ultrasound-guided percutaneous cryoneurolysis of intercostal nerves with a thermocouple inserted approximately 3 mm adjacent to the cryoprobe shaft；对照：Cryoneurolysis with (mastectomy group) versus without (rib fracture group) a peripheral nerve block"
+            },
+            {
+              "label": "主要终点",
+              "value": "Tissue temperature adjacent to the cryoprobe compared to returning argon gas temperature"
+            }
+          ],
+          "keyPoints": [
+            "所有31条神经的返回气体温度均低于-80°C，但组织温度在3分钟和5分钟时未达到-20°C的比例分别为71%和42%。",
+            "无神经阻滞时，组织最冷平均温度比返回气体高60°C；有神经阻滞时高95°C。",
+            "延长冷冻时间从3分钟至5分钟可提高达到治疗温度的成功率。",
+            "治疗连续肋间神经时，组织温度可能随每次治疗而降低。",
+            "数据未进行统计分析，样本量有限，结果需谨慎解读。"
+          ],
+          "methods": "冷冻神经松解术通过气体诱导的极低温度可逆性消融周围神经以提供镇痛。期望的治疗温度约为-20°C至-100°C。较暖的温度可诱发神经失用症，其本身可能诱发疼痛；较冷的温度可导致永久性神经损伤。因此，目标神经必须达到但不超过治疗窗。",
+          "results": "在所有31条神经中，返回气体最终均低于-80°C，但探针旁组织在3分钟和5分钟时未达到-20°C的治疗比例分别为71%（n=5）和42%（n=10）。无神经阻滞时，组织最冷平均温度比返回气体高60°C；有神经阻滞时高95°C。治疗相邻肋间神经时，气体温度保持不变，而组织温度随每次连续治疗而降低。样本量有限，数据未进行统计分析。",
+          "mainResults": "在所有31条神经中，返回气体最终均低于-80°C，但探针旁组织在3分钟和5分钟时未达到-20°C的治疗比例分别为71%（n=5）和42%（n=10）。无神经阻滞时，组织最冷平均温度比返回气体高60°C；有神经阻滞时高95°C。治疗相邻肋间神经时，气体温度保持不变，而组织温度随每次连续治疗而降低。样本量有限，数据未进行统计分析。",
+          "limitations": [
+            "回顾性分析性质。",
+            "患者和神经样本量有限。",
+            "数据未进行统计分析。",
+            "组间存在潜在混杂（乳房切除术组有阻滞 vs. 肋骨骨折组无阻滞）。",
+            "超声引导下热电偶放置可能存在距离变异性。",
+            "具体数值仅适用于所使用的设备和方案。"
+          ],
+          "practice": [
+            "在冷冻神经松解术中，依赖返回气体温度可能高估组织冷却效果，临床医生应意识到组织温度可能未达到治疗窗。",
+            "延长冷冻时间（从3分钟至5分钟）可能提高达到治疗温度的成功率，但需权衡操作时间与患者耐受性。",
+            "存在周围神经阻滞时，组织温度可能更难达到治疗窗，需考虑阻滞对组织灌注或温度传导的影响。",
+            "连续治疗相邻肋间神经时，组织温度可能逐渐降低，需警惕累积冷却效应导致组织过冷风险。"
+          ],
+          "editor": "研究结果支持延长冷冻时间可能提高达到治疗温度的成功率，以及神经阻滞可能影响组织温度达到治疗窗的假设，但证据等级较低，需前瞻性验证。 过度解读风险：由于样本量小且未进行统计分析，结果可能受随机误差和混杂因素影响，不应过度解读为确定性结论。",
+          "whyItMatters": "冷冻神经松解术通过气体诱导的极低温度可逆性消融周围神经以提供镇痛，但目标神经必须达到且不超过治疗窗（约-20°C至-100°C），否则可能导致神经失用症（本身可诱发疼痛）或永久性神经损伤。该研究提供了体内组织温度与返回气体温度差异的描述性数据，提示临床实践中可能存在的温度监测盲区，对优化冷冻神经松解术参数具有潜在意义。",
+          "background": "冷冻神经松解术通过气体诱导的极低温度可逆性消融周围神经以提供镇痛。期望的治疗温度约为-20°C至-100°C。较暖的温度可诱发神经失用症，其本身可能诱发疼痛；较冷的温度可导致永久性神经损伤。因此，目标神经必须达到但不超过治疗窗。",
+          "pico": {
+            "population": "Participants undergoing mastectomy (n=3) and subjects with traumatic rib fractures (n=3)",
+            "intervention": "Ultrasound-guided percutaneous cryoneurolysis of intercostal nerves with a thermocouple inserted approximately 3 mm adjacent to the cryoprobe shaft",
+            "comparison": "Cryoneurolysis with (mastectomy group) versus without (rib fracture group) a peripheral nerve block",
+            "outcome": "Tissue temperature adjacent to the cryoprobe compared to returning argon gas temperature"
+          },
+          "studyType": "回顾性分析来自两项前瞻性临床试验的数据。",
+          "sampleSize": "6 participants, 31 intercostal nerves",
+          "primaryOutcome": "Tissue temperature adjacent to the cryoprobe compared to returning argon gas temperature",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持延长冷冻时间可能提高达到治疗温度的成功率，以及神经阻滞可能影响组织温度达到治疗窗的假设，但证据等级较低，需前瞻性验证。",
+            "overinterpretationRisk": "由于样本量小且未进行统计分析，结果可能受随机误差和混杂因素影响，不应过度解读为确定性结论。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节和完整结果数据。",
+                "未提供效应量、置信区间和P值。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "在经皮冷冻神经松解术中，组织温度与返回气体温度的关系如何？",
+              "designFit": "回顾性分析两项前瞻性试验的数据，适合描述性研究，但因果推断受限。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "6名参与者，31条肋间神经。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "提供了体内组织温度与返回气体温度的直接比较数据。",
+                "涉及临床相关场景（乳房切除术和肋骨骨折）。"
+              ],
+              "concerns": [
+                "样本量小，未进行统计分析。",
+                "组间混杂（神经阻滞状态不同）。",
+                "热电偶放置距离可能存在变异性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "由于样本量有限，数据仅以描述性方式呈现，未进行统计分析。",
+                  "reportedResult": "未提供效应量、置信区间或P值。",
+                  "interpretation": "无法评估差异的统计学显著性。",
+                  "cautions": [
+                    "描述性结果不能用于推断总体效应。",
+                    "缺乏统计推断，结果可能受随机误差影响。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "未进行正式亚组分析，但比较了有神经阻滞（乳房切除术组）与无神经阻滞（肋骨骨折组）的组织温度差异。",
+              "clinicalVsStatisticalSignificance": "由于未进行统计分析，无法区分统计学差异与临床获益。"
+            },
+            "outcomeAnalysis": {
+              "primary": "组织温度与返回气体温度的比较。",
+              "secondary": [
+                "未达到-20°C的治疗比例（3分钟和5分钟）。",
+                "最冷平均组织温度与返回气体的差异。",
+                "冷冻持续时间对组织温度的影响。",
+                "神经阻滞对组织温度的影响。",
+                "连续肋间神经治疗时组织温度的变化。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "亚组比较（有阻滞 vs. 无阻滞）显示组织温度差异，但未进行交互作用检验。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "提供了体内温度监测的直接数据。",
+                "结果提示临床实践中可能存在的温度监测盲区。"
+              ],
+              "limitations": [
+                "回顾性设计，样本量小。",
+                "未进行统计分析。",
+                "组间混杂。",
+                "热电偶放置距离可能不精确。"
+              ],
+              "biasRisks": [
+                "选择偏倚：便利样本。",
+                "测量偏倚：热电偶放置距离变异性。",
+                "混杂偏倚：组间神经阻滞状态不同。"
+              ],
+              "certainty": "低确定性：由于样本量小和缺乏统计分析，结果可能不可靠。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎解读。",
+              "causalBoundary": "观察性关联，不能推断因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "结果可能适用于使用类似设备和方案的经皮冷冻神经松解术。",
+                "提示临床医生应关注组织温度而非仅依赖返回气体温度。"
+              ],
+              "nonApplicability": [
+                "结果可能不适用于其他冷冻设备或不同解剖部位。",
+                "样本量小，外推受限。"
+              ],
+              "practiceChange": "当前证据不足以支持改变临床实践，但提示需进一步研究。",
+              "canDoNow": [
+                "临床医生可考虑延长冷冻时间至5分钟以提高达到治疗温度的可能性。",
+                "在存在神经阻滞时，可能需要更长的冷冻时间或调整参数。"
+              ],
+              "cannotConclude": [
+                "不能确定最佳冷冻时间或参数。",
+                "不能确定神经阻滞对组织温度影响的确切机制。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本的前瞻性研究。",
+                "需要标准化热电偶放置方法。",
+                "需要评估不同设备和方案下的温度变化。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41870345/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006059",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006059",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13245926/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42127247",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-07-29",
+          "electronicPublicationDate": "2026-07-29",
+          "readingTime": "11 分钟",
+          "title": "麻醉工作站在小儿通气中的性能：第2部分——压力支持通气期间的特征与氧浓度上升时间",
+          "originalTitle": "Anesthesia Workstation Performance in Pediatric Ventilation: Part 2. Characteristics during Pressure Support Ventilation and Oxygen Rise Times.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "现代麻醉工作站包含多种呼吸机技术，但其对儿科通气的影响尚不清楚。本研究的假设是，在压力支持通气期间的表现以及增加氧浓度的时间取决于麻醉工作站的类型。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在早产儿、新生儿、婴儿和幼儿的呼吸模型中评估了六种现代麻醉工作站（GE HealthCare Carestation 650；迈瑞生物医疗电子有限公司 Wato EX-65 Pro 和 A9；德尔格医疗 Atlan A350 和 Perseus A500；以及 Getinge Flow-c）。比较了压力支持通气期间的触发响应率、触发延迟以及达到吸气峰压50%的时间。此外，在肺模型的一个隔室中，其容积对应于相应模型的功能残气量，评估了在新鲜气体流量为1、3和10升/分钟的压力控制通气期间，氧浓度从21%增加到90%所需的时间。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "触发响应率高于90%，仅有少数例外。触发延迟范围为73±6至145±0毫秒。达到50%峰压的时间范围为161±1至312±1毫秒，在较大的患者模型中变异性减小。在最低新鲜气体流量下，氧上升时间在94±3至615±60秒之间变化，并随着新鲜气体流量增加到3升/分钟而减少，进一步增加到10升/分钟时减少程度较小。氧冲洗的激活通常不会增加氧浓度，但在某些设备中会导致气道压力显著升高。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "现代麻醉工作站在小儿压力支持通气期间表现出整体良好的性能。在压力控制通气期间，适度增加新鲜气体流量可加速氧浓度的上升，具体取决于设备。氧冲洗在这方面没有优势，但可能使患者面临高气道压力的风险。"
+              }
+            ],
+            "fullText": "BACKGROUND: 现代麻醉工作站包含多种呼吸机技术，但其对儿科通气的影响尚不清楚。本研究的假设是，在压力支持通气期间的表现以及增加氧浓度的时间取决于麻醉工作站的类型。METHODS: 在早产儿、新生儿、婴儿和幼儿的呼吸模型中评估了六种现代麻醉工作站（GE HealthCare Carestation 650；迈瑞生物医疗电子有限公司 Wato EX-65 Pro 和 A9；德尔格医疗 Atlan A350 和 Perseus A500；以及 Getinge Flow-c）。比较了压力支持通气期间的触发响应率、触发延迟以及达到吸气峰压50%的时间。此外，在肺模型的一个隔室中，其容积对应于相应模型的功能残气量，评估了在新鲜气体流量为1、3和10升/分钟的压力控制通气期间，氧浓度从21%增加到90%所需的时间。RESULTS: 触发响应率高于90%，仅有少数例外。触发延迟范围为73±6至145±0毫秒。达到50%峰压的时间范围为161±1至312±1毫秒，在较大的患者模型中变异性减小。在最低新鲜气体流量下，氧上升时间在94±3至615±60秒之间变化，并随着新鲜气体流量增加到3升/分钟而减少，进一步增加到10升/分钟时减少程度较小。氧冲洗的激活通常不会增加氧浓度，但在某些设备中会导致气道压力显著升高。CONCLUSIONS: 现代麻醉工作站在小儿压力支持通气期间表现出整体良好的性能。在压力控制通气期间，适度增加新鲜气体流量可加速氧浓度的上升，具体取决于设备。氧冲洗在这方面没有优势，但可能使患者面临高气道压力的风险。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Spaeth J, Trost M, Flamm B, Wenzel C, Schumann S",
+          "citation": "Anesthesiology. 2026 Jul 29. doi: 10.1097/ALN.0000000000006150.",
+          "doi": "10.1097/aln.0000000000006150",
+          "pmid": "42127247",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-design"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "小儿麻醉中，通气支持的质量和氧浓度调整速度直接影响患儿安全。不同麻醉工作站的性能差异可能影响通气效果和氧合管理，了解这些差异有助于临床设备选择和使用优化。",
+          "conclusion": "现代麻醉工作站在小儿压力支持通气中总体表现良好，但氧浓度上升时间受新鲜气体流量和设备类型影响，且氧冲洗可能增加气道压力风险。",
+          "clinical": "现代麻醉工作站在小儿压力支持通气中总体表现良好，但不同设备在触发延迟和压力上升时间上存在差异，可能影响通气同步性和患者舒适度。 在压力控制通气中，适度增加新鲜气体流量（如从1 L/min增至3 L/min）可加速氧浓度上升，但进一步增加至10 L/min获益有限，临床可根据设备特性优化流量设置。 氧冲洗并不增加氧浓度，反而可能引起气道压力升高，应谨慎使用，尤其在儿科患者中。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性研究（基于呼吸模型的实验室评估）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "respiratory models of a preterm baby, a neonate, an infant, and a toddler；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Six modern anesthesia workstations (GE HealthCare Carestation 650; Mindray Bio-Medical Electronics Co. Ltd. Wato EX-65 Pro and A9; Drager Medical Atlan A350 and Perseus A500; and Getinge Flow-c)；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "Trigger response rates, trigger delay, and time to reach 50% of peak inspiratory pressure during pressure support ventilation"
+            }
+          ],
+          "keyPoints": [
+            "六种现代麻醉工作站在小儿呼吸模型中的触发响应率大多高于90%。",
+            "触发延迟范围为73±6至145±0 ms，达到50%峰值压力时间范围为161±1至312±1 ms。",
+            "氧浓度上升时间在最低新鲜气体流量下为94±3至615±60 s，增加流量可缩短时间。",
+            "氧冲洗未提高氧浓度，但可能引起气道压力升高。"
+          ],
+          "methods": "现代麻醉工作站包含多种通气技术，但其对小儿通气的影响尚不明确。本研究假设压力支持通气期间的表现和氧浓度上升时间取决于麻醉工作站类型。",
+          "results": "触发响应率大多高于90%，触发延迟范围为73±6至145±0 ms，达到50%峰值压力时间范围为161±1至312±1 ms，较大患儿模型变异性减小。在最低新鲜气体流量下，氧浓度上升时间在94±3至615±60 s之间，随新鲜气体流量增加至3 L/min而缩短，进一步增加至10 L/min时缩短程度减小。氧冲洗激活并未普遍提高氧浓度，但在某些设备中导致明显的气道压力升高。样本量、主要终点效应量、95%置信区间和P值均未报告。",
+          "mainResults": "触发响应率大多高于90%，触发延迟范围为73±6至145±0 ms，达到50%峰值压力时间范围为161±1至312±1 ms，较大患儿模型变异性减小。在最低新鲜气体流量下，氧浓度上升时间在94±3至615±60 s之间，随新鲜气体流量增加至3 L/min而缩短，进一步增加至10 L/min时缩短程度减小。氧冲洗激活并未普遍提高氧浓度，但在某些设备中导致明显的气道压力升高。样本量、主要终点效应量、95%置信区间和P值均未报告。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "基于呼吸模型的研究，结果可能不能完全反映临床实际情况。",
+            "未报告样本量、效应量、置信区间和P值，无法评估统计学差异的精确性。"
+          ],
+          "practice": [
+            "现代麻醉工作站在小儿压力支持通气中总体表现良好，但不同设备在触发延迟和压力上升时间上存在差异，可能影响通气同步性和患者舒适度。",
+            "在压力控制通气中，适度增加新鲜气体流量（如从1 L/min增至3 L/min）可加速氧浓度上升，但进一步增加至10 L/min获益有限，临床可根据设备特性优化流量设置。",
+            "氧冲洗并不增加氧浓度，反而可能引起气道压力升高，应谨慎使用，尤其在儿科患者中。"
+          ],
+          "editor": "研究结果支持麻醉工作站性能存在设备间差异，且新鲜气体流量影响氧浓度上升时间，但缺乏统计学细节，证据强度有限。 过度解读风险：由于未报告效应量和置信区间，且为模型研究，应避免将结果直接外推至临床患者，尤其关于氧冲洗的风险需谨慎解读。",
+          "whyItMatters": "小儿麻醉中，通气支持的质量和氧浓度调整速度直接影响患儿安全。不同麻醉工作站的性能差异可能影响通气效果和氧合管理，了解这些差异有助于临床设备选择和使用优化。",
+          "background": "现代麻醉工作站包含多种通气技术，但其对小儿通气的影响尚不明确。本研究假设压力支持通气期间的表现和氧浓度上升时间取决于麻醉工作站类型。",
+          "pico": {
+            "population": "respiratory models of a preterm baby, a neonate, an infant, and a toddler",
+            "intervention": "Six modern anesthesia workstations (GE HealthCare Carestation 650; Mindray Bio-Medical Electronics Co. Ltd. Wato EX-65 Pro and A9; Drager Medical Atlan A350 and Perseus A500; and Getinge Flow-c)",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "Trigger response rates, trigger delay, and time to reach 50% of peak inspiratory pressure during pressure support ventilation"
+          },
+          "studyType": "观察性研究（基于呼吸模型的实验室评估）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "Trigger response rates, trigger delay, and time to reach 50% of peak inspiratory pressure during pressure support ventilation",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "Activation of oxygen flush caused relevant airway pressure increases in some devices.",
+          "aiAssessment": {
+            "support": "研究结果支持麻醉工作站性能存在设备间差异，且新鲜气体流量影响氧浓度上升时间，但缺乏统计学细节，证据强度有限。",
+            "overinterpretationRisk": "由于未报告效应量和置信区间，且为模型研究，应避免将结果直接外推至临床患者，尤其关于氧冲洗的风险需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取完整方法学细节、样本量计算、统计方法、局限性讨论等。",
+                "未报告效应量、置信区间和P值，无法进行精确的统计学评估。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "现代麻醉工作站在压力支持通气期间的表现和氧浓度上升时间是否取决于工作站类型？",
+              "designFit": "观察性研究设计适用于评估设备性能差异，但缺乏随机化和对照，可能引入选择偏倚。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "不适用（实验室模型研究）。",
+              "analysisPopulation": "早产儿、新生儿、婴儿和幼儿的呼吸模型。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "评估了多种现代麻醉工作站，覆盖不同品牌和型号。",
+                "使用不同年龄段的呼吸模型，增加了结果的代表性。"
+              ],
+              "concerns": [
+                "未报告样本量计算和统计方法。",
+                "未提供效应量和置信区间，无法评估临床意义。",
+                "模型研究可能无法完全模拟临床复杂情况。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+                  "reportedResult": "触发响应率、触发延迟、压力上升时间、氧浓度上升时间等描述性数据。",
+                  "interpretation": "由于未报告统计方法，无法评价结果的统计学可靠性。",
+                  "cautions": [
+                    "无法确定是否进行了组间比较或调整混杂因素。",
+                    "缺乏置信区间和P值，无法判断差异是否具有统计学意义。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "摘要中未报告统计学显著性，仅提供描述性数据，无法区分统计学差异与临床获益。"
+            },
+            "outcomeAnalysis": {
+              "primary": "压力支持通气期间的触发响应率、触发延迟和达到50%峰值吸气压力的时间。",
+              "secondary": [
+                "压力控制通气下新鲜气体流量为1、3、10 L/min时氧浓度从21%升至90%所需时间。"
+              ],
+              "safety": "氧冲洗激活在某些设备中导致明显的气道压力升高。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多设备比较，覆盖主流品牌。",
+                "使用不同年龄段的呼吸模型，结果具有一定代表性。"
+              ],
+              "limitations": [
+                "仅基于摘要，缺乏方法学细节。",
+                "未报告样本量、效应量、置信区间和P值。",
+                "模型研究可能无法完全反映临床实际情况。"
+              ],
+              "biasRisks": [
+                "选择偏倚：设备选择可能不具代表性。",
+                "测量偏倚：模型测量可能无法完全模拟临床条件。"
+              ],
+              "certainty": "低，由于缺乏统计学细节和完整方法学，证据确定性有限。",
+              "conclusionAlignment": "结论与结果一致，但缺乏统计学支持。",
+              "causalBoundary": "观察性研究，不能推断因果关系，仅能提示设备性能差异。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "结果可能适用于使用类似麻醉工作站的儿科麻醉场景。",
+                "提示在压力控制通气中适度增加新鲜气体流量可加速氧浓度上升。"
+              ],
+              "nonApplicability": [
+                "结果基于模型，可能不适用于所有临床患者，尤其是存在肺部疾病的患儿。",
+                "氧冲洗的风险提示可能因设备而异，需谨慎解读。"
+              ],
+              "practiceChange": "当前证据不足以支持立即改变临床实践，但可提醒麻醉医生关注设备差异和氧冲洗风险。",
+              "canDoNow": [
+                "在临床中，可考虑根据设备特性调整新鲜气体流量以优化氧浓度上升时间。",
+                "避免常规使用氧冲洗，尤其在儿科患者中，需监测气道压力。"
+              ],
+              "cannotConclude": [
+                "无法确定哪种设备最优，因为缺乏统计学比较。",
+                "无法确定氧冲洗导致的气道压力升高是否具有临床危害。"
+              ],
+              "evidenceGaps": [
+                "需要临床研究验证模型结果。",
+                "需要报告效应量、置信区间和P值。",
+                "需要评估不同设备在真实患者中的性能。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42127247/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006150",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006150",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-31T00:13:19.703Z",
       "mode": "production",

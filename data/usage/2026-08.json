@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "month": "2026-08",
+  "calls": 20,
+  "callsComplete": true,
+  "promptTokens": 43744,
+  "completionTokens": 18494,
+  "totalTokens": 62238,
+  "estimatedCostCny": 0.23544,
+  "days": [
+    {
+      "date": "2026-08-01",
+      "model": "deepseek-v4-flash",
+      "calls": 20,
+      "callCountSource": "api-call-records",
+      "promptTokens": 43744,
+      "completionTokens": 18494,
+      "totalTokens": 62238,
+      "estimatedCostCny": 0.23544,
+      "tokenSource": "api-exact",
+      "costSource": "configured-estimate"
+    }
+  ]
+}

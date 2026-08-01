@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T00:13:19.703Z",
+  "updatedAt": "2026-08-01T03:33:22.605Z",
   "records": [
     {
       "pmid": "42359695",
@@ -393,6 +393,46 @@
       "status": "published",
       "runId": "2026-07-31T00-13-19.703Z",
       "firstPublishedAt": "2026-07-31T00:13:19.703Z"
+    },
+    {
+      "pmid": "42409690",
+      "doi": "10.1016/j.bja.2026.06.002",
+      "title": "Uncoupling immobility and unconsciousness.",
+      "status": "published",
+      "runId": "2026-08-01T03-33-22.605Z",
+      "firstPublishedAt": "2026-08-01T03:33:22.605Z"
+    },
+    {
+      "pmid": "42519913",
+      "doi": "10.1097/aln.0000000000006193",
+      "title": "Measures of Quality of Recovery and Discharge-readiness Tools in the Pediatric Postanesthesia Care Unit.",
+      "status": "published",
+      "runId": "2026-08-01T03-33-22.605Z",
+      "firstPublishedAt": "2026-08-01T03:33:22.605Z"
+    },
+    {
+      "pmid": "42461097",
+      "doi": "10.1097/aln.0000000000006256",
+      "title": "Neuromuscular Blockade Depth and Oculocardiac Reflex in Pediatric Strabismus Surgery: A Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-01T03-33-22.605Z",
+      "firstPublishedAt": "2026-08-01T03:33:22.605Z"
+    },
+    {
+      "pmid": "41870345",
+      "doi": "10.1097/aln.0000000000006059",
+      "title": "Cryoneurolysis Thermal Graphs: In Vivo Descriptive Data from Ultrasound-guided Percutaneous Thermocouples.",
+      "status": "published",
+      "runId": "2026-08-01T03-33-22.605Z",
+      "firstPublishedAt": "2026-08-01T03:33:22.605Z"
+    },
+    {
+      "pmid": "42127247",
+      "doi": "10.1097/aln.0000000000006150",
+      "title": "Anesthesia Workstation Performance in Pediatric Ventilation: Part 2. Characteristics during Pressure Support Ventilation and Oxygen Rise Times.",
+      "status": "published",
+      "runId": "2026-08-01T03-33-22.605Z",
+      "firstPublishedAt": "2026-08-01T03:33:22.605Z"
     }
   ]
 }

@@ -1,7 +1,235 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T00:13:19.703Z",
+  "updatedAt": "2026-08-01T03:33:22.605Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-01T03:33:22.605Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 30,
+        "expanded": false,
+        "expansionReason": null,
+        "expansionSteps": [],
+        "from": "2026-07-02T03:33:22.605Z",
+        "to": "2026-08-01T03:33:22.605Z",
+        "candidateCount": 64,
+        "discoveryCandidateCount": 1832,
+        "unseenCount": 36,
+        "duplicateCount": 28,
+        "priorityCandidateCount": 64,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 64,
+          "retrievedCount": 64,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 14,
+          "excludedCount": 286,
+          "excludedByReason": {
+            "journal-not-configured": 278,
+            "impact-factor-stale": 4,
+            "below-or-equal-threshold": 4
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 282,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "PloS one",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Annals of vascular surgery",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of anesthesia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Molecular psychiatry",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Pediatric emergency care",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American journal of case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The American surgeon",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "World journal of urology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "American journal of otolaryngology",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anaesthesia and intensive care",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and analgesia",
+              "reason": "impact-factor-stale",
+              "count": 2
+            },
+            {
+              "journal": "Anesthesia and pain medicine",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Annals of African medicine",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "BMJ open",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Case reports in anesthesiology",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 36,
+          "eligibleCount": 33,
+          "excludedCount": 3,
+          "excludedByReason": {
+            "journal-not-configured": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 26,
+          "clinical": 15,
+          "basic": 1,
+          "other": 10
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42409690",
+          "title": "解耦不动与意识消失",
+          "originalTitle": "Uncoupling immobility and unconsciousness.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在固定浓度异氟烷下，小鼠的不动和意识消失两个终点均表现出不可预测的状态翻转且抵抗切换，并且两者完全独立。",
+          "pmid": "42409690"
+        },
+        {
+          "slug": "pmid-42519913",
+          "title": "儿科麻醉后监护病房中恢复质量与出院准备度评估工具的评价",
+          "originalTitle": "Measures of Quality of Recovery and Discharge-readiness Tools in the Pediatric Postanesthesia Care Unit.",
+          "journal": "Anesthesiology",
+          "conclusion": "当前儿科麻醉后监护病房中用于评估出院准备度和早期恢复质量的工具共有八种，但均未全面覆盖儿童、家庭和临床医生所关注的恢复领域，且缺乏针对PACU的儿科恢复质量专用测量工具。",
+          "pmid": "42519913"
+        },
+        {
+          "slug": "pmid-42461097",
+          "title": "小儿斜视手术中神经肌肉阻滞深度与眼心反射：一项随机临床试验",
+          "originalTitle": "Neuromuscular Blockade Depth and Oculocardiac Reflex in Pediatric Strabismus Surgery: A Randomized Clinical Trial.",
+          "journal": "Anesthesiology",
+          "conclusion": "与最小至浅度神经肌肉阻滞相比，中度至深度神经肌肉阻滞可显著降低小儿斜视手术中眼心反射（OCR）的发生率及严重程度。",
+          "pmid": "42461097"
+        },
+        {
+          "slug": "pmid-41870345",
+          "title": "冷冻神经松解术热曲线：超声引导经皮热电偶的体内描述性数据",
+          "originalTitle": "Cryoneurolysis Thermal Graphs: In Vivo Descriptive Data from Ultrasound-guided Percutaneous Thermocouples.",
+          "journal": "Anesthesiology",
+          "conclusion": "在经皮冷冻神经松解术中，组织温度常相对于返回气体温度显得“欺骗性”温暖，且组织常未达到足够冷的治疗温度；将气体治疗时间从3分钟延长至5分钟可提高达到治疗温度的成功率；存在周围神经阻滞似乎降低达到治疗温度的机会；治疗连续肋间神经时，组织温度可能随每个水平而降低，需谨慎。",
+          "pmid": "41870345"
+        },
+        {
+          "slug": "pmid-42127247",
+          "title": "麻醉工作站在小儿通气中的性能：第2部分——压力支持通气期间的特征与氧浓度上升时间",
+          "originalTitle": "Anesthesia Workstation Performance in Pediatric Ventilation: Part 2. Characteristics during Pressure Support Ventilation and Oxygen Rise Times.",
+          "journal": "Anesthesiology",
+          "conclusion": "现代麻醉工作站在小儿压力支持通气中总体表现良好，但氧浓度上升时间受新鲜气体流量和设备类型影响，且氧冲洗可能增加气道压力风险。",
+          "pmid": "42127247"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-07-31T00:13:19.703Z",
       "search": {

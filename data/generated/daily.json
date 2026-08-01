@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T00:13:19.703Z",
+  "generatedAt": "2026-08-01T03:33:22.605Z",
   "mode": "production",
   "search": {
     "initialDays": 30,
@@ -13,18 +13,18 @@
     "expanded": false,
     "expansionReason": null,
     "expansionSteps": [],
-    "from": "2026-07-01T00:13:19.703Z",
-    "to": "2026-07-31T00:13:19.703Z",
-    "candidateCount": 63,
-    "discoveryCandidateCount": 1846,
-    "unseenCount": 40,
-    "duplicateCount": 23,
-    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/06/30:2026/07/30[Date - Publication]",
-    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2026/06/30:2026/07/30[Date - Publication]",
-    "priorityCandidateCount": 63,
+    "from": "2026-07-02T03:33:22.605Z",
+    "to": "2026-08-01T03:33:22.605Z",
+    "candidateCount": 64,
+    "discoveryCandidateCount": 1832,
+    "unseenCount": 36,
+    "duplicateCount": 28,
+    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/07/01:2026/07/31[Date - Publication]",
+    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2026/07/01:2026/07/31[Date - Publication]",
+    "priorityCandidateCount": 64,
     "eligibleJournalRetrieval": {
-      "matchedCount": 63,
-      "retrievedCount": 63,
+      "matchedCount": 64,
+      "retrievedCount": 64,
       "complete": true,
       "truncatedCount": 0,
       "maximumCandidates": 2000,
@@ -34,10 +34,10 @@
       "threshold": 5,
       "comparison": "greater-than",
       "candidateCount": 300,
-      "eligibleCount": 13,
-      "excludedCount": 287,
+      "eligibleCount": 14,
+      "excludedCount": 286,
       "excludedByReason": {
-        "journal-not-configured": 279,
+        "journal-not-configured": 278,
         "impact-factor-stale": 4,
         "below-or-equal-threshold": 4
       },
@@ -46,10 +46,15 @@
         2024,
         2025
       ],
-      "unresolvedCount": 283,
+      "unresolvedCount": 282,
       "unresolvedJournals": [
         {
           "journal": "Annals of medicine",
+          "reason": "journal-not-configured",
+          "count": 5
+        },
+        {
+          "journal": "Medicine",
           "reason": "journal-not-configured",
           "count": 5
         },
@@ -69,22 +74,7 @@
           "count": 4
         },
         {
-          "journal": "The American journal of case reports",
-          "reason": "journal-not-configured",
-          "count": 4
-        },
-        {
           "journal": "Journal of anesthesia",
-          "reason": "journal-not-configured",
-          "count": 3
-        },
-        {
-          "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
-          "reason": "journal-not-configured",
-          "count": 3
-        },
-        {
-          "journal": "Journal of the American Veterinary Medical Association",
           "reason": "journal-not-configured",
           "count": 3
         },
@@ -94,7 +84,17 @@
           "count": 3
         },
         {
+          "journal": "Pediatric emergency care",
+          "reason": "journal-not-configured",
+          "count": 3
+        },
+        {
           "journal": "Radiology case reports",
+          "reason": "journal-not-configured",
+          "count": 3
+        },
+        {
+          "journal": "The American journal of case reports",
           "reason": "journal-not-configured",
           "count": 3
         },
@@ -114,12 +114,22 @@
           "count": 2
         },
         {
+          "journal": "Anaesthesia and intensive care",
+          "reason": "journal-not-configured",
+          "count": 2
+        },
+        {
           "journal": "Anesthesia and analgesia",
           "reason": "impact-factor-stale",
           "count": 2
         },
         {
           "journal": "Anesthesia and pain medicine",
+          "reason": "journal-not-configured",
+          "count": 2
+        },
+        {
+          "journal": "Annals of African medicine",
           "reason": "journal-not-configured",
           "count": 2
         },
@@ -134,17 +144,7 @@
           "count": 2
         },
         {
-          "journal": "Current opinion in anaesthesiology",
-          "reason": "journal-not-configured",
-          "count": 2
-        },
-        {
-          "journal": "DEN open",
-          "reason": "journal-not-configured",
-          "count": 2
-        },
-        {
-          "journal": "Die Anaesthesiologie",
+          "journal": "Case reports in anesthesiology",
           "reason": "journal-not-configured",
           "count": 2
         }
@@ -153,8 +153,8 @@
     "journalImpactFactor": {
       "threshold": 5,
       "comparison": "greater-than",
-      "candidateCount": 40,
-      "eligibleCount": 37,
+      "candidateCount": 36,
+      "eligibleCount": 33,
       "excludedCount": 3,
       "excludedByReason": {
         "journal-not-configured": 3
@@ -173,9 +173,9 @@
       "allowBackfill": false
     },
     "candidatePool": {
-      "total": 30,
-      "clinical": 18,
-      "basic": 2,
+      "total": 26,
+      "clinical": 15,
+      "basic": 1,
       "other": 10
     },
     "selectionSummary": {
@@ -189,374 +189,47 @@
   "llm": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
-    "configuredModel": "deepseek-v4-flash",
+    "configuredModel": "deepseek-chat",
     "usage": {
-      "calls": 24,
-      "promptTokens": 45511,
-      "completionTokens": 38259,
-      "totalTokens": 83770
+      "calls": 20,
+      "promptTokens": 43744,
+      "completionTokens": 18494,
+      "totalTokens": 62238
     }
   },
   "articles": [
     {
       "analysisVersion": 2,
-      "slug": "pmid-42526026",
+      "slug": "pmid-42409690",
       "number": "01",
-      "category": "疼痛与区域麻醉",
-      "journal": "The New England journal of medicine",
-      "year": "2026",
-      "publishedDate": "2026-07-30",
-      "electronicPublicationDate": null,
-      "readingTime": "13 分钟",
-      "title": "Na(V)1.8抑制剂治疗急性疼痛的2b期试验",
-      "originalTitle": "Phase 2b Trial of a Na(V)1.8 Inhibitor for Acute Pain.",
-      "abstract": "BACKGROUND: Na(v)1.8, a voltage-gated sodium channel expressed in the peripheral nervous system, has a critical role in pain signaling. Previous trials of Na(V)1.8 inhibitors have shown effectiveness in reducing postoperative pain. METHODS: We conducted a phase 2b, double-blind, randomized, placebo-controlled trial to evaluate LTG-001, a selective Na(v)1.8 inhibitor, in patients with moderate-to-severe pain after abdominoplasty. Patients were randomly assigned in a 1:1:1:1 ratio to receive a 300-mg loading dose of LTG-001, followed by 150 mg every 12 hours (low-dose group); a 450-mg loading dose of LTG-001, followed by 300 mg every 12 hours (high-dose group); hydrocodone bitartrate-acetaminophen (5 mg of hydrocodone bitartrate and 325 mg of acetaminophen) every 6 hours; or placebo every 6 hours. All doses were administered orally over a 48-hour period. The primary end point was the time-weighted sum of the pain-intensity difference (SPID) over the 48-hour treatment period (SPID48), based on scores on the Numeric Pain Rating Scale (range, 0 to 10, with higher values indicating more severe pain; higher SPID48 values indicate greater pain reduction). Secondary end points included the amount of opioid rescue medication consumed in morphine milligram equivalents (MME) and no receipt of opioid rescue medication. RESULTS: A total of 343 patients underwent randomization. The least-squares mean SPID48 was 161.05 (95% confidence interval [CI], 142.93 to 179.16) in the low-dose group, 185.30 (95% CI, 167.26 to 203.34) in the high-dose group, 164.08 (95% CI, 146.02 to 182.14) in the hydrocodone bitartrate-acetaminophen group, and 123.22 (95% CI, 105.23 to 141.21) in the placebo group. The least-squares mean difference in the SPID48 between LTG-001 and placebo was significant for each dose (low dose: 37.82 [P = 0.003]; high dose: 62.08 [P<0.001]), and that between hydrocodone bitartrate-acetaminophen and placebo was 40.86. High-dose LTG-001, but not low-dose LTG-001, was associated with significantly lower opioid use than placebo (11.00 MME vs. 18.35 MME, P = 0.01), as well as a significantly higher percentage of patients who received no opioid rescue medication (52% vs. 22%, P<0.001). High-dose LTG-001 was associated with a higher incidence of pyrexia than placebo (7% vs. 2%) and a higher incidence of presyncope (6% vs. 1%). CONCLUSIONS: LTG-001 led to significantly greater reductions in pain scores than placebo over the course of 48 hours after abdominoplasty. (Funded by Latigo Biotherapeutics; LTG-001-010 ClinicalTrials.gov number, NCT07102459.).",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": "背景",
-            "text": "Na(v)1.8（一种在外周神经系统中表达的电压门控钠通道）在疼痛信号传导中起着关键作用。先前关于Na(V)1.8抑制剂的试验已显示出减轻术后疼痛的有效性。"
-          },
-          {
-            "heading": "方法",
-            "text": "我们进行了一项2b期、双盲、随机、安慰剂对照试验，以评估LTG-001（一种选择性Na(v)1.8抑制剂）在腹壁成形术后中度至重度疼痛患者中的效果。患者以1:1:1:1的比例随机分配，接受LTG-001负荷剂量300 mg，随后每12小时150 mg（低剂量组）；LTG-001负荷剂量450 mg，随后每12小时300 mg（高剂量组）；氢可酮酒石酸氢盐-对乙酰氨基酚（氢可酮酒石酸氢盐5 mg和对乙酰氨基酚325 mg）每6小时一次；或安慰剂每6小时一次。所有剂量均在48小时内口服给药。主要终点是48小时治疗期间疼痛强度差异的时间加权总和（SPID48），基于数字疼痛评定量表（范围为0至10，数值越高表示疼痛越严重；SPID48值越高表示疼痛减轻越多）的评分。次要终点包括以吗啡毫克当量（MME）计算的阿片类抢救药物用量以及未接受阿片类抢救药物的比例。"
-          },
-          {
-            "heading": "结果",
-            "text": "共有343名患者接受了随机分组。低剂量组的最小二乘均数SPID48为161.05（95%置信区间[CI]，142.93至179.16），高剂量组为185.30（95% CI，167.26至203.34），氢可酮酒石酸氢盐-对乙酰氨基酚组为164.08（95% CI，146.02至182.14），安慰剂组为123.22（95% CI，105.23至141.21）。LTG-001与安慰剂的SPID48最小二乘均数差异在每种剂量下均显著（低剂量：37.82 [P = 0.003]；高剂量：62.08 [P<0.001]），而氢可酮酒石酸氢盐-对乙酰氨基酚与安慰剂的差异为40.86。与安慰剂相比，高剂量LTG-001（而非低剂量LTG-001）与显著较低的阿片类药物用量（11.00 MME vs. 18.35 MME，P = 0.01）以及显著更高的未接受阿片类抢救药物患者比例（52% vs. 22%，P<0.001）相关。高剂量LTG-001与安慰剂相比，发热发生率更高（7% vs. 2%），先兆晕厥发生率更高（6% vs. 1%）。"
-          },
-          {
-            "heading": "结论",
-            "text": "在腹壁成形术后48小时内，LTG-001相比安慰剂导致疼痛评分显著更大程度的降低。（由Latigo Biotherapeutics资助；LTG-001-010 ClinicalTrials.gov编号，NCT07102459）。"
-          }
-        ],
-        "fullText": "背景：Na(v)1.8（一种在外周神经系统中表达的电压门控钠通道）在疼痛信号传导中起着关键作用。先前关于Na(V)1.8抑制剂的试验已显示出减轻术后疼痛的有效性。方法：我们进行了一项2b期、双盲、随机、安慰剂对照试验，以评估LTG-001（一种选择性Na(v)1.8抑制剂）在腹壁成形术后中度至重度疼痛患者中的效果。患者以1:1:1:1的比例随机分配，接受LTG-001负荷剂量300 mg，随后每12小时150 mg（低剂量组）；LTG-001负荷剂量450 mg，随后每12小时300 mg（高剂量组）；氢可酮酒石酸氢盐-对乙酰氨基酚（氢可酮酒石酸氢盐5 mg和对乙酰氨基酚325 mg）每6小时一次；或安慰剂每6小时一次。所有剂量均在48小时内口服给药。主要终点是48小时治疗期间疼痛强度差异的时间加权总和（SPID48），基于数字疼痛评定量表（范围为0至10，数值越高表示疼痛越严重；SPID48值越高表示疼痛减轻越多）的评分。次要终点包括以吗啡毫克当量（MME）计算的阿片类抢救药物用量以及未接受阿片类抢救药物的比例。结果：共有343名患者接受了随机分组。低剂量组的最小二乘均数SPID48为161.05（95%置信区间[CI]，142.93至179.16），高剂量组为185.30（95% CI，167.26至203.34），氢可酮酒石酸氢盐-对乙酰氨基酚组为164.08（95% CI，146.02至182.14），安慰剂组为123.22（95% CI，105.23至141.21）。LTG-001与安慰剂的SPID48最小二乘均数差异在每种剂量下均显著（低剂量：37.82 [P = 0.003]；高剂量：62.08 [P<0.001]），而氢可酮酒石酸氢盐-对乙酰氨基酚与安慰剂的差异为40.86。与安慰剂相比，高剂量LTG-001（而非低剂量LTG-001）与显著较低的阿片类药物用量（11.00 MME vs. 18.35 MME，P = 0.01）以及显著更高的未接受阿片类抢救药物患者比例（52% vs. 22%，P<0.001）相关。高剂量LTG-001与安慰剂相比，发热发生率更高（7% vs. 2%），先兆晕厥发生率更高（6% vs. 1%）。结论：在腹壁成形术后48小时内，LTG-001相比安慰剂导致疼痛评分显著更大程度的降低。（由Latigo Biotherapeutics资助；LTG-001-010 ClinicalTrials.gov编号，NCT07102459）。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Singla N, Katz NP, Vaughn B, Rogier T, Bertoch T, Minkowitz H, Loflin M",
-      "citation": "N Engl J Med. 2026 Jul 30;395(5):454-464. doi: 10.1056/NEJMoa2602910.",
-      "doi": "10.1056/nejmoa2602910",
-      "pmid": "42526026",
-      "pmcid": null,
-      "publicationTypes": [
-        "Clinical Trial, Phase II",
-        "Journal Article",
-        "Multicenter Study",
-        "Randomized Controlled Trial"
-      ],
-      "meshTerms": [
-        "Adult",
-        "Female",
-        "Humans",
-        "Male",
-        "Middle Aged",
-        "Acetaminophen/administration & dosage/adverse effects",
-        "*Acute Pain/diagnosis/drug therapy/metabolism",
-        "Analgesics, Opioid/administration & dosage/adverse effects",
-        "Double-Blind Method",
-        "Drug Combinations",
-        "Hydrocodone/administration & dosage/adverse effects",
-        "*NAV1.8 Voltage-Gated Sodium Channel/metabolism",
-        "Pain Measurement",
-        "*Postoperative Pain/diagnosis/drug therapy/metabolism",
-        "*Voltage-Gated Sodium Channel Blockers/administration & dosage/adverse effects",
-        "Abdominoplasty/adverse effects",
-        "Anti-Inflammatory Agents, Non-Steroidal/administration & dosage/adverse effects",
-        "Incidence",
-        "Dose-Response Relationship, Drug",
-        "Fever/chemically induced/epidemiology",
-        "Syncope/chemically induced/epidemiology",
-        "Young Adult",
-        "Treatment Outcome"
-      ],
-      "publisher": "Massachusetts Medical Society",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "general_top",
-        "label": "综合医学顶刊",
-        "priorityRank": 3
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 84.5,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.nejm.org/about-nejm/about-nejm",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "The New England Journal of Medicine"
-      },
-      "tags": [
-        "临床证据",
-        "综合医学顶刊",
-        "疼痛与区域麻醉",
-        "Clinical Trial, Phase II",
-        "Journal Article"
-      ],
-      "question": "该试验为选择性Na(V)1.8抑制剂用于急性疼痛管理提供了随机对照证据，提示其可能成为减少阿片类药物使用的新选择。",
-      "conclusion": "LTG-001（Na(V)1.8抑制剂）在腹壁成形术后48小时内相比安慰剂显著降低疼痛评分，高剂量组还减少了阿片类药物用量和提高了无需阿片类药物的患者比例。",
-      "clinical": "LTG-001可能作为非阿片类镇痛药用于术后疼痛管理，有潜力减少阿片类药物相关不良反应。 高剂量组显示减少阿片类药物消耗，这可能是加速康复外科（ERAS）方案中的有益组成部分。 需注意发热和晕厥前兆等不良事件。",
-      "evidence": "中等",
-      "score": 65,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 22,
-        "clinicalImpact": 11,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "Phase 2b, 双盲, 随机, 安慰剂对照试验"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "patients with moderate-to-severe pain after abdominoplasty；343"
-        },
-        {
-          "label": "干预与比较",
-          "value": "LTG-001 low-dose (300-mg loading dose, followed by 150 mg every 12 hours) and high-dose (450-mg loading dose, followed by 300 mg every 12 hours)；对照：placebo and hydrocodone bitartrate-acetaminophen (5 mg/325 mg every 6 hours)"
-        },
-        {
-          "label": "主要终点",
-          "value": "time-weighted sum of the pain-intensity difference (SPID) over 48-hour treatment period (SPID48), based on Numeric Pain Rating Scale (0-10)"
-        }
-      ],
-      "keyPoints": [
-        "Na(V)1.8抑制剂LTG-001在术后急性疼痛中显示剂量依赖性镇痛效果。",
-        "高剂量LTG-001减少阿片类药物使用。",
-        "不良事件发生率高于安慰剂，包括发热和晕厥前兆。",
-        "需要进一步研究确认长期安全性和有效性。"
-      ],
-      "methods": "Na(v)1.8是一种在外周神经系统表达的电压门控钠通道，在疼痛信号传导中起关键作用。既往Na(V)1.8抑制剂试验显示其对术后疼痛有效。",
-      "results": "共343例患者随机分组。低剂量LTG-001与安慰剂的SPID48最小二乘均值差为37.82（P=0.003），高剂量组为62.08（P<0.001）。高剂量LTG-001显著降低阿片类药物用量（11.00 MME vs. 18.35 MME, P=0.01）并提高无需阿片类药物救援的患者比例（52% vs. 22%, P<0.001）。",
-      "mainResults": "共343例患者随机分组。低剂量LTG-001与安慰剂的SPID48最小二乘均值差为37.82（P=0.003），高剂量组为62.08（P<0.001）。高剂量LTG-001显著降低阿片类药物用量（11.00 MME vs. 18.35 MME, P=0.01）并提高无需阿片类药物救援的患者比例（52% vs. 22%, P<0.001）。",
-      "limitations": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "practice": [
-        "LTG-001可能作为非阿片类镇痛药用于术后疼痛管理，有潜力减少阿片类药物相关不良反应。",
-        "高剂量组显示减少阿片类药物消耗，这可能是加速康复外科（ERAS）方案中的有益组成部分。",
-        "需注意发热和晕厥前兆等不良事件。"
-      ],
-      "editor": "材料来自随机对照试验摘要，方法学质量较高，结果直接相关。 过度解读风险：低风险，但全文可能提供更详细的风险评估。",
-      "whyItMatters": "该试验为选择性Na(V)1.8抑制剂用于急性疼痛管理提供了随机对照证据，提示其可能成为减少阿片类药物使用的新选择。",
-      "background": "Na(v)1.8是一种在外周神经系统表达的电压门控钠通道，在疼痛信号传导中起关键作用。既往Na(V)1.8抑制剂试验显示其对术后疼痛有效。",
-      "pico": {
-        "population": "patients with moderate-to-severe pain after abdominoplasty",
-        "intervention": "LTG-001 low-dose (300-mg loading dose, followed by 150 mg every 12 hours) and high-dose (450-mg loading dose, followed by 300 mg every 12 hours)",
-        "comparison": "placebo and hydrocodone bitartrate-acetaminophen (5 mg/325 mg every 6 hours)",
-        "outcome": "time-weighted sum of the pain-intensity difference (SPID) over 48-hour treatment period (SPID48), based on Numeric Pain Rating Scale (0-10)"
-      },
-      "studyType": "Phase 2b, 双盲, 随机, 安慰剂对照试验",
-      "sampleSize": "343",
-      "primaryOutcome": "time-weighted sum of the pain-intensity difference (SPID) over 48-hour treatment period (SPID48), based on Numeric Pain Rating Scale (0-10)",
-      "effectSize": [
-        "37.82 (low-dose vs placebo)",
-        "62.08 (high-dose vs placebo)",
-        "40.86 (hydrocodone vs placebo)"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "0.003",
-        "<0.001",
-        "0.01",
-        "<0.001"
-      ],
-      "adverseEvents": "Pyrexia (7% vs 2%) and presyncope (6% vs 1%) more common with high-dose LTG-001 vs placebo.",
-      "aiAssessment": {
-        "support": "材料来自随机对照试验摘要，方法学质量较高，结果直接相关。",
-        "overinterpretationRisk": "低风险，但全文可能提供更详细的风险评估。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "abstract",
-          "limitations": [
-            "仅基于摘要信息，缺乏详细方法学描述、亚组分析、敏感性分析等。",
-            "随机化、分配隐藏、盲法实施、样本量计算等具体细节未报告。",
-            "无法评估完整纳入排除标准、随访完整性和失访情况。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "评价LTG-001（选择性Na(V)1.8抑制剂）在腹壁成形术后中度至重度疼痛患者中的有效性和安全性。",
-          "designFit": "Phase 2b随机对照试验，适用于探索剂量反应和初步疗效。",
-          "eligibility": "当前可获取内容未提供详细的纳入排除标准。",
-          "randomization": "报告随机分配，比例1:1:1:1，但未说明具体随机化方法。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "双盲设计，但未说明具体盲法实现（如双模拟等）。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "48小时治疗期，未报告随访完成率。",
-          "analysisPopulation": "当前可获取内容未说明分析人群（是否ITT？）。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "随机、双盲、安慰剂和阳性对照设计。",
-            "样本量适中（343例）。",
-            "同时报告主要终点和多个次要终点。"
-          ],
-          "concerns": [
-            "仅基于摘要，方法学细节不完整。",
-            "未报告随机化方法、分配隐藏和盲法评价。",
-            "未说明统计分析方法（如缺失数据外推等）。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "用于比较组间SPID48差异。",
-              "reportedResult": "最小二乘均值差及P值。",
-              "interpretation": "摘要未说明具体统计模型（如ANOVA、混合模型等），仅报告了LS均值、差异和P值。",
-              "cautions": [
-                "无法评价统计方法是否恰当。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "未报告多重性调整。",
-          "subgroupAnalysis": "当前可获取内容未提供亚组分析结果。",
-          "clinicalVsStatisticalSignificance": "统计学显著差异已报告，但临床意义阈值未明确（如最小临床重要差异）。"
-        },
-        "outcomeAnalysis": {
-          "primary": "SPID48：低剂量与安慰剂差异37.82（P=0.003），高剂量差异62.08（P<0.001），高剂量效应量更大。",
-          "secondary": [
-            "高剂量组阿片类药物救援用量显著低于安慰剂（11.00 vs 18.35 MME, P=0.01）。",
-            "高剂量组无需阿片类药物患者比例显著高于安慰剂（52% vs 22%, P<0.001）。"
-          ],
-          "safety": "高剂量组发热（7% vs 2%）和晕厥前兆（6% vs 1%）发生率高于安慰剂。",
-          "absoluteVsRelative": "当前可获取内容未提供绝对风险差或相对风险。",
-          "subgroupAndInteraction": "当前可获取内容未提供亚组或交互作用分析。",
-          "sensitivity": "当前可获取内容未提供敏感性分析。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "随机、双盲、对照设计。",
-            "同时包括安慰剂和活性对照。",
-            "结果清晰显示剂量相关效应。"
-          ],
-          "limitations": [
-            "仅摘要，方法学细节不足。",
-            "未报告随机化方法、分配隐藏、盲法成功性。",
-            "未报告样本量计算和统计分析计划。",
-            "未讨论缺失数据。",
-            "随访时间短（48小时），安全性数据有限。"
-          ],
-          "biasRisks": [
-            "选择偏倚风险不详。",
-            "实施偏倚因盲法不明确而未知。",
-            "检测偏倚可能，但双盲设计降低风险。",
-            "失访偏倚未知。"
-          ],
-          "certainty": "中等，因方法学不完整而降级。",
-          "conclusionAlignment": "结论与报告数据一致：LTG-001优于安慰剂。",
-          "causalBoundary": "随机对照试验可推断因果关系，但需完整方法学确认。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "腹壁成形术后疼痛管理。",
-            "可能需要进一步验证于其他手术类型。"
-          ],
-          "nonApplicability": [
-            "无法推广至慢性疼痛。",
-            "无法推广至儿童或孕妇等特殊人群。"
-          ],
-          "practiceChange": "当前可获取内容未提供足够证据支持立即改变实践。",
-          "canDoNow": [
-            "对于关注阿片类药物替代的临床场景，可考虑LTG-001作为选项之一。"
-          ],
-          "cannotConclude": [
-            "长期安全性。",
-            "与其他非阿片类镇痛药比较。",
-            "最佳剂量方案。"
-          ],
-          "evidenceGaps": [
-            "Ⅲ期试验确证疗效和安全性。",
-            "不同手术类型、不同疼痛强度下的数据。",
-            "长期用药数据。",
-            "与其他镇痛药联用的数据。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42526026/",
-        "doi": "https://doi.org/10.1056/nejmoa2602910",
-        "publisher": "https://doi.org/10.1056/nejmoa2602910",
-        "openFullText": null
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-42173713",
-      "number": "02",
       "category": "麻醉基础研究",
       "journal": "British journal of anaesthesia",
       "year": "2026",
-      "publishedDate": "2026-07",
-      "electronicPublicationDate": "2026-05-22",
-      "readingTime": "10 分钟",
-      "title": "小鼠中缝大核5-羟色胺神经元双向控制脊髓伤害性传递",
-      "originalTitle": "Nucleus raphe magnus serotonin neurones bidirectionally control spinal nociceptive transmission in mice.",
-      "abstract": "BACKGROUND: Noxious stimuli are conveyed to and integrated in the dorsal horn of the spinal cord before being transmitted to supraspinal centres, where pain perception is generated. Descending pathways from the brainstem dynamically modulate this integration, either facilitating or inhibiting nociceptive information based on physiological, emotional, genetic and environmental factors. Serotonergic neurones in the nucleus raphe magnus (NRM), activating different spinal 5-hydroxytryptamine (5-HT) receptors, exert bidirectional control, both facilitatory and inhibitory, but the underlying mechanisms of this control remain unclear. METHODS: Serotonergic modulation by the NRM of nociception was investigated in adult mice using imaging, behavioural, pharmacological, electrophysiological, chemogenetic and optogenetic approaches. RESULTS: The action of serotonergic neurones in the NRM on spinal nociceptive transmission depends on their activation pattern, which targets different spinal 5-HT receptors likely associated with different spinal microcircuits. Serotonergic neurones of the NRM exert a tonic analgesic effect mediated by 5-HT(2c) receptor. Low increases in 5-HT activity led to increased analgesia through spinal inhibitory interneurones expressing 5-HT(2c) and 5-HT(2A) receptors. Prolonged stimulation of serotonergic neurones led to hyperalgesia mediated by 5-HT(3) receptors. Comparison of 5-HT receptors in spinal tissue from mice and humans shows that 5-HT(2c) receptors have high expression level, comparable between both species. CONCLUSIONS: These results propose a bidirectional model of action by serotonin neurones of nociceptive transmission depending on their level of activity and show that 5-HT(2c) receptors mediate the serotonin-induced analgesia.",
+      "publishedDate": "2026-07-06",
+      "electronicPublicationDate": "2026-07-06",
+      "readingTime": "7 分钟",
+      "title": "解耦不动与意识消失",
+      "originalTitle": "Uncoupling immobility and unconsciousness.",
+      "abstract": "Anaesthetic endpoints such as immobility and unconsciousness are defined at the population level through metrics such as minimal alveolar concentration (MAC) and MAC-awake, yet how individuals behave at those concentrations remains poorly understood. In a recent study in the British Journal of Anaesthesia, Mandel and colleagues address this by characterising the behavioural dynamics of mice held at fixed concentrations of isoflurane corresponding to either population MAC or MAC-awake, and tracking whether they right themselves or respond to a paw pinch across repeated testing. Both endpoints flip states unpredictably yet resist switching and, interestingly, are wholly independent of one another.",
       "abstractTranslation": {
         "sections": [
           {
-            "heading": "BACKGROUND",
-            "text": "伤害性刺激被传递到脊髓背角并在此整合，然后传递到产生痛觉感知的脊髓上中枢。来自脑干的下行通路动态调节这一整合过程，根据生理、情绪、遗传和环境因素，既可能易化也可能抑制伤害性信息。中缝大核（NRM）的5-羟色胺能神经元通过激活不同的脊髓5-羟色胺（5-HT）受体，发挥双向调控作用，既有易化也有抑制，但这种调控的潜在机制仍不清楚。"
-          },
-          {
-            "heading": "METHODS",
-            "text": "采用成像、行为学、药理学、电生理学、化学遗传学和光遗传学方法，在成年小鼠中研究了NRM对伤害感受的5-羟色胺能调节作用。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "NRM中5-羟色胺能神经元对脊髓伤害性传递的作用取决于其激活模式，该模式靶向不同的脊髓5-HT受体，这些受体可能与不同的脊髓微环路相关。NRM的5-羟色胺能神经元通过5-HT(2c)受体介导产生紧张性镇痛效应。5-HT活性的轻度增加通过表达5-HT(2c)和5-HT(2A)受体的脊髓抑制性中间神经元导致镇痛作用增强。5-羟色胺能神经元的长时间刺激导致由5-HT(3)受体介导的痛觉过敏。对小鼠和人类脊髓组织中5-HT受体的比较表明，5-HT(2c)受体具有高表达水平，且两者之间相当。"
-          },
-          {
-            "heading": "CONCLUSIONS",
-            "text": "这些结果提出了5-羟色胺神经元对伤害性传递的作用依赖于其活动水平的双向模型，并表明5-HT(2c)受体介导了5-羟色胺诱导的镇痛作用。"
+            "heading": null,
+            "text": "麻醉终点如不动和无意识是在群体水平上通过最小肺泡浓度（MAC）和MAC-清醒等指标来定义的，然而个体在这些浓度下的行为仍然知之甚少。在《英国麻醉学杂志》最近的一项研究中，Mandel及其同事通过描述在固定浓度异氟醚（对应于群体MAC或MAC-清醒）下小鼠的行为动力学，并追踪它们在重复测试中是否能翻身或对爪捏做出反应，来解决这一问题。两个终点都不可预测地翻转状态，但抵抗切换，并且有趣的是，它们彼此完全独立。"
           }
         ],
-        "fullText": "BACKGROUND: 伤害性刺激被传递到脊髓背角并在此整合，然后传递到产生痛觉感知的脊髓上中枢。来自脑干的下行通路动态调节这一整合过程，根据生理、情绪、遗传和环境因素，既可能易化也可能抑制伤害性信息。中缝大核（NRM）的5-羟色胺能神经元通过激活不同的脊髓5-羟色胺（5-HT）受体，发挥双向调控作用，既有易化也有抑制，但这种调控的潜在机制仍不清楚。METHODS: 采用成像、行为学、药理学、电生理学、化学遗传学和光遗传学方法，在成年小鼠中研究了NRM对伤害感受的5-羟色胺能调节作用。RESULTS: NRM中5-羟色胺能神经元对脊髓伤害性传递的作用取决于其激活模式，该模式靶向不同的脊髓5-HT受体，这些受体可能与不同的脊髓微环路相关。NRM的5-羟色胺能神经元通过5-HT(2c)受体介导产生紧张性镇痛效应。5-HT活性的轻度增加通过表达5-HT(2c)和5-HT(2A)受体的脊髓抑制性中间神经元导致镇痛作用增强。5-羟色胺能神经元的长时间刺激导致由5-HT(3)受体介导的痛觉过敏。对小鼠和人类脊髓组织中5-HT受体的比较表明，5-HT(2c)受体具有高表达水平，且两者之间相当。CONCLUSIONS: 这些结果提出了5-羟色胺神经元对伤害性传递的作用依赖于其活动水平的双向模型，并表明5-HT(2c)受体介导了5-羟色胺诱导的镇痛作用。",
+        "fullText": "麻醉终点如不动和无意识是在群体水平上通过最小肺泡浓度（MAC）和MAC-清醒等指标来定义的，然而个体在这些浓度下的行为仍然知之甚少。在《英国麻醉学杂志》最近的一项研究中，Mandel及其同事通过描述在固定浓度异氟醚（对应于群体MAC或MAC-清醒）下小鼠的行为动力学，并追踪它们在重复测试中是否能翻身或对爪捏做出反应，来解决这一问题。两个终点都不可预测地翻转状态，但抵抗切换，并且有趣的是，它们彼此完全独立。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Grivet Z, Verboven A, Aby F, Bouali-Benazzouz R, Dhellemmes T, Perrot E, Beyeler A, Heisler LK, et al.",
-      "citation": "Br J Anaesth. 2026 Jul;137(1):193-209. doi: 10.1016/j.bja.2026.03.069. Epub 2026 May 22.",
-      "doi": "10.1016/j.bja.2026.03.069",
-      "pmid": "42173713",
+      "authors": "Vincent KF, Solt K",
+      "citation": "Br J Anaesth. 2026 Jul 6:S0007-0912(26)00403-4. doi: 10.1016/j.bja.2026.06.002.",
+      "doi": "10.1016/j.bja.2026.06.002",
+      "pmid": "42409690",
       "pmcid": null,
       "publicationTypes": [
-        "Journal Article"
+        "Editorial"
       ],
-      "meshTerms": [
-        "Animals",
-        "Mice",
-        "*Serotonergic Neurons/physiology",
-        "*Nociception/physiology",
-        "*Spinal Cord/physiology",
-        "Male",
-        "*Nucleus Raphe Magnus/physiology",
-        "Mice, Inbred C57BL",
-        "Synaptic Transmission/physiology",
-        "Receptors, Serotonin"
-      ],
+      "meshTerms": [],
       "publisher": "Elsevier BV",
       "crossrefVerified": true,
       "researchCategory": {
@@ -586,597 +259,64 @@
         "基础研究",
         "麻醉及围术期核心期刊",
         "麻醉基础研究",
-        "Journal Article"
+        "Editorial"
       ],
-      "question": "该研究揭示了中缝大核5-羟色胺神经元对脊髓伤害性传递的双向调控机制，特别是5-HT(2c)受体在镇痛中的关键作用，为开发新型镇痛策略提供了潜在的分子靶点，但尚需进一步研究转化为临床应用。",
-      "conclusion": "NRM的5-羟色胺神经元根据其激活模式，通过不同5-HT受体亚型对脊髓伤害性传递发挥双向调节作用：基础紧张性镇痛由5-HT(2c)受体介导，低水平激活增强镇痛，而持续刺激则通过5-HT(3)受体转变为痛觉过敏。",
-      "clinical": "当前研究为动物实验，尚未提出直接的临床麻醉建议。 5-HT(2c)受体可能成为疼痛治疗的潜在靶点，但需要更多证据支持。",
+      "question": "该研究挑战了传统上以群体水平指标（如MAC和MAC-awake）定义麻醉终点的做法，提示个体水平上麻醉终点可能相互独立，这对理解麻醉机制和个体化麻醉管理具有重要意义。",
+      "conclusion": "在固定浓度异氟烷下，小鼠的不动和意识消失两个终点均表现出不可预测的状态翻转且抵抗切换，并且两者完全独立。",
+      "clinical": "提示麻醉深度监测可能需要同时评估多个终点，而非单一指标。 个体化麻醉管理可能需要考虑不同终点的独立性。",
       "evidence": "中等",
-      "score": 49,
+      "score": 47,
       "scoreBreakdown": {
         "relevance": 13,
         "evidenceQuality": 8,
-        "clinicalImpact": 9,
+        "clinicalImpact": 7,
         "journalQuality": 15,
         "novelty": 4
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "动物实验研究：使用多种方法（成像、行为学、药理学、电生理、化学遗传学、光遗传学）在成年小鼠中探索NRM 5-羟色胺神经元调控脊髓伤害性传递的机制。"
+          "value": "编辑评论（Editorial），基于原始研究（Mandel等）的摘要分析。原始研究为动物实验，具体设计细节未提供。"
         },
         {
           "label": "研究对象与样本",
-          "value": "adult mice；当前可获取内容未提供该数据。"
+          "value": "小鼠（非人类模型）；当前可获取内容未提供该数据。"
         },
         {
           "label": "干预与比较",
-          "value": "Modulation of serotonergic neurons in nucleus raphe magnus；对照：当前可获取内容未提供该数据。"
+          "value": "固定浓度的异氟烷（对应群体MAC或MAC-awake）；对照：不同终点（翻正反射和缩爪反应）之间的比较"
         },
         {
           "label": "主要终点",
-          "value": "spinal nociceptive transmission"
+          "value": "行为状态翻转（是否翻正、是否对爪捏有反应）"
         }
       ],
       "keyPoints": [
-        "NRM 5-羟色胺神经元对脊髓伤害性传递具有双向调控作用。",
-        "基础紧张性镇痛由5-HT(2c)受体介导。",
-        "低水平激活增强镇痛，涉及5-HT(2c)和5-HT(2A)受体。",
-        "持续刺激导致痛觉过敏，由5-HT(3)受体介导。",
-        "人类脊髓组织中也高表达5-HT(2c)受体，提示潜在转化价值。"
+        "麻醉终点（不动和意识消失）在个体水平上可能相互独立。",
+        "固定浓度异氟烷下，小鼠行为状态不可预测翻转且抵抗切换。",
+        "传统群体指标（MAC和MAC-awake）可能不足以描述个体行为。"
       ],
-      "methods": "伤害性刺激传递至脊髓背角整合后上传至高级中枢产生痛觉。脑干下行通路可动态调控这一整合过程，中缝大核的5-羟色胺神经元通过激活不同的脊髓5-HT受体发挥双向（促进/抑制）调控，但其具体机制尚不明确。",
-      "results": "样本量未提供；主要终点为脊髓伤害性传递。NRM 5-羟色胺神经元的基础紧张性活动通过5-HT(2c)受体发挥镇痛作用；低水平激活（升高5-HT活性）进一步通过5-HT(2c)和5-HT(2A)受体增强镇痛；持续刺激则通过5-HT(3)受体导致痛觉过敏。效应量、95%CI和P值均未提供。",
-      "mainResults": "样本量未提供；主要终点为脊髓伤害性传递。NRM 5-羟色胺神经元的基础紧张性活动通过5-HT(2c)受体发挥镇痛作用；低水平激活（升高5-HT活性）进一步通过5-HT(2c)和5-HT(2A)受体增强镇痛；持续刺激则通过5-HT(3)受体导致痛觉过敏。效应量、95%CI和P值均未提供。",
+      "methods": "麻醉终点如不动和意识消失通常通过群体水平指标（如最低肺泡有效浓度MAC和MAC-awake）来定义，但个体在这些浓度下的行为表现尚不清楚。Mandel等人在《英国麻醉学杂志》上发表的研究通过表征小鼠在固定浓度异氟烷下的行为动力学来填补这一空白。",
+      "results": "当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值。摘要报告：两个终点均不可预测地翻转状态，但抵抗切换，并且彼此完全独立。",
+      "mainResults": "当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值。摘要报告：两个终点均不可预测地翻转状态，但抵抗切换，并且彼此完全独立。",
       "limitations": [
-        "当前可获取内容未提供该数据。",
-        "研究基于小鼠模型，结果外推至人类需谨慎。"
+        "当前可获取内容未提供原始研究的具体方法学细节，如样本量、统计方法等。",
+        "动物实验结果外推至人类需谨慎。"
       ],
       "practice": [
-        "当前研究为动物实验，尚未提出直接的临床麻醉建议。",
-        "5-HT(2c)受体可能成为疼痛治疗的潜在靶点，但需要更多证据支持。"
+        "提示麻醉深度监测可能需要同时评估多个终点，而非单一指标。",
+        "个体化麻醉管理可能需要考虑不同终点的独立性。"
       ],
-      "editor": "研究结果基于多种实验方法，具有较好的内部一致性，但缺乏定量效应指标和统计推断。 过度解读风险：摘要中未使用‘首次’等修饰语，但结论中‘双向模型’依赖激活模式，需注意不能过度推广至临床。",
-      "whyItMatters": "该研究揭示了中缝大核5-羟色胺神经元对脊髓伤害性传递的双向调控机制，特别是5-HT(2c)受体在镇痛中的关键作用，为开发新型镇痛策略提供了潜在的分子靶点，但尚需进一步研究转化为临床应用。",
-      "background": "伤害性刺激传递至脊髓背角整合后上传至高级中枢产生痛觉。脑干下行通路可动态调控这一整合过程，中缝大核的5-羟色胺神经元通过激活不同的脊髓5-HT受体发挥双向（促进/抑制）调控，但其具体机制尚不明确。",
+      "editor": "摘要明确报告了两个终点独立且抵抗切换，支持麻醉终点可能解耦的观点。 过度解读风险：由于缺乏效应量和统计检验信息，且为动物模型，过度解读风险较高。",
+      "whyItMatters": "该研究挑战了传统上以群体水平指标（如MAC和MAC-awake）定义麻醉终点的做法，提示个体水平上麻醉终点可能相互独立，这对理解麻醉机制和个体化麻醉管理具有重要意义。",
+      "background": "麻醉终点如不动和意识消失通常通过群体水平指标（如最低肺泡有效浓度MAC和MAC-awake）来定义，但个体在这些浓度下的行为表现尚不清楚。Mandel等人在《英国麻醉学杂志》上发表的研究通过表征小鼠在固定浓度异氟烷下的行为动力学来填补这一空白。",
       "pico": {
-        "population": "adult mice",
-        "intervention": "Modulation of serotonergic neurons in nucleus raphe magnus",
-        "comparison": "当前可获取内容未提供该数据。",
-        "outcome": "spinal nociceptive transmission"
+        "population": "小鼠（非人类模型）",
+        "intervention": "固定浓度的异氟烷（对应群体MAC或MAC-awake）",
+        "comparison": "不同终点（翻正反射和缩爪反应）之间的比较",
+        "outcome": "行为状态翻转（是否翻正、是否对爪捏有反应）"
       },
-      "studyType": "动物实验研究：使用多种方法（成像、行为学、药理学、电生理、化学遗传学、光遗传学）在成年小鼠中探索NRM 5-羟色胺神经元调控脊髓伤害性传递的机制。",
-      "sampleSize": "当前可获取内容未提供该数据。",
-      "primaryOutcome": "spinal nociceptive transmission",
-      "effectSize": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "研究结果基于多种实验方法，具有较好的内部一致性，但缺乏定量效应指标和统计推断。",
-        "overinterpretationRisk": "摘要中未使用‘首次’等修饰语，但结论中‘双向模型’依赖激活模式，需注意不能过度推广至临床。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "abstract",
-          "limitations": [
-            "仅基于摘要信息，缺乏详细方法学、样本量、统计结果和限制说明。",
-            "未提供效应量、置信区间和P值。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "NRM 5-羟色胺神经元如何通过不同5-HT受体亚型双向控制脊髓伤害性传递？",
-          "designFit": "动物实验设计适合探索机制，但无法确定因果关系。",
-          "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "当前可获取内容未提供该数据。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "当前可获取内容未提供该数据。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "成年小鼠",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "使用多种互补技术（成像、行为学、药理学、电生理、化学遗传学、光遗传学）全面探索机制。"
-          ],
-          "concerns": [
-            "未提供样本量计算或统计检验结果。",
-            "摘要未提及任何偏倚控制措施。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "当前可获取内容未提供该数据。",
-              "reportedResult": "当前可获取内容未提供该数据。",
-              "interpretation": "无法评价，因摘要未描述具体统计方法。",
-              "cautions": [
-                "缺乏统计方法描述，无法评估结果可靠性。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
-        },
-        "outcomeAnalysis": {
-          "primary": "脊髓伤害性传递（通过多种技术间接测量，未明确定义具体指标）",
-          "secondary": [
-            "当前可获取内容未提供次要结局。"
-          ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "当前可获取内容未提供该数据。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "机制研究设计创新，多维度方法整合。",
-            "小鼠与人类脊髓5-HT受体表达的比较增加了转化意义。"
-          ],
-          "limitations": [
-            "摘要未报告关键方法学细节（如随机化、盲法、样本量）。",
-            "未提供效应量和统计推断。",
-            "仅基于动物模型，临床转化需谨慎。"
-          ],
-          "biasRisks": [
-            "选择偏倚、实施偏倚无法评估。"
-          ],
-          "certainty": "低：因缺乏定量结果和详细方法学报告。",
-          "conclusionAlignment": "结论与结果一致，但需注意因果推断的限制。",
-          "causalBoundary": "研究设计（干预+多种技术）支持因果机制探索，但未提及随机化或对照，因果推断需谨慎。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "小鼠与人类脊髓5-HT(2c)受体高表达具有可比性，提示该受体可能是潜在靶点。"
-          ],
-          "nonApplicability": [
-            "动物实验结果不能直接外推至人类临床疼痛治疗。"
-          ],
-          "practiceChange": "当前阶段不能改变临床实践。",
-          "canDoNow": [
-            "可作为基础研究的参考依据，不构成临床建议。"
-          ],
-          "cannotConclude": [
-            "无法就5-HT受体调节剂的临床疗效或安全性得出结论。",
-            "无法确定最佳激活模式或给药方案。"
-          ],
-          "evidenceGaps": [
-            "缺乏人体临床试验数据。",
-            "需进一步研究5-HT(2c)受体激动剂在疼痛模型中的剂量-反应关系。",
-            "需明确不同激活模式的长期效应和安全性。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42173713/",
-        "doi": "https://doi.org/10.1016/j.bja.2026.03.069",
-        "publisher": "https://doi.org/10.1016/j.bja.2026.03.069",
-        "openFullText": null
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-41855428",
-      "number": "03",
-      "category": "麻醉基础研究",
-      "journal": "Anesthesiology",
-      "year": "2026",
-      "publishedDate": "2026-07-01",
-      "electronicPublicationDate": "2026-03-19",
-      "readingTime": "12 分钟",
-      "title": "瑞马唑仑甲苯磺酸盐与丙泊酚在重症监护病房术后机械通气患者镇静中的疗效和安全性：多中心、随机、单盲、非劣效、3期试验",
-      "originalTitle": "Efficacy and Safety of Remimazolam Tosylate versus Propofol for Sedation of Postoperative Mechanically Ventilated Patients in Intensive Care Units: A Multicenter, Randomized, Single-blind, Noninferiority, Phase 3 Trial.",
-      "abstract": "BACKGROUND: Remimazolam tosylate, a novel short-acting benzodiazepine, has shown effective and safe sedation in mechanically ventilated patients in intensive care units in a phase 2 trial. The authors conducted a multicenter, randomized, single-blind, actively controlled, phase 3 trial (NCT06222294) for further evaluation. METHODS: Mechanically ventilated patients, requiring sedation for 6 h or longer with a target Richmond Agitation-Sedation Scale (RASS) of -2 to +1, were randomized (1:1) to receive intravenous remimazolam tosylate (loading dose, 0.08 mg/kg; maintenance, 0 to 2.0 mg . kg -1 . h -1 ) or propofol (loading dose, 0.3 to 0.5 mg/kg; maintenance, 0.3 to 4.0 mg . kg -1 . h -1 ). Both allowed for adjusted infusion rates or additional doses to maintain target RASS. Maximum treatment duration was 24 h. The primary endpoint was the proportion of patients achieving sedation success, defined as maintaining target sedation range for 70% or more of drug administration time without rescue sedation. Noninferiority margin was -8%. RESULTS: Between March 12, 2024, and September 24, 2024, a total of 211 patients (mean age, 61.1 yr; 63.5% male; 99.1% postoperative) received remimazolam tosylate (n = 106) or propofol (n = 105). Mean +/- SD treatment duration was 11.5 +/- 3.6 h for remimazolam tosylate and 11.1 +/- 3.1 h for propofol; mean +/- SD total dose was 187.1 +/- 134.4 mg and 593.7 +/- 530.9 mg, respectively. Sedation success rate was 98.1% with remimazolam tosylate and 96.2% with propofol (difference, 1.9%; 95% CI, -3.3 to 7.8%); mean +/- SD percentage of time in RASS target range was 95.1% +/- 13.8% versus 95.0% +/- 12.9%, and the proportion of patients receiving rescue sedation was 0.0% (0 of 106) versus 1.0% (1 of 105). Mean +/- SD additional doses required totaled 0.03 +/- 0.17 for remimazolam tosylate and 0.18 +/- 0.77 for propofol. Adverse event occurred in 81 (76.4%) patients with remimazolam tosylate and 77 (73.3%) with propofol; all were mild-moderate, except one severe with propofol. Mean +/- SD terminal half-life of remimazolam tosylate was 1.97 +/- 1.62 h. CONCLUSIONS: Remimazolam tosylate demonstrated noninferior efficacy and good tolerability compared with propofol for short-term sedation in postoperative mechanically ventilated intensive care unit patients.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": "BACKGROUND",
-            "text": "瑞马唑仑对甲苯磺酸盐，一种新型短效苯二氮卓类药物，在2期试验中已显示出对重症监护病房机械通气患者有效且安全的镇静作用。作者进行了一项多中心、随机、单盲、阳性对照的3期试验（NCT06222294）以进一步评估。"
-          },
-          {
-            "heading": "METHODS",
-            "text": "需要镇静6小时或以上、目标Richmond躁动-镇静评分（RASS）为-2至+1的机械通气患者，按1:1随机分配接受静脉注射瑞马唑仑对甲苯磺酸盐（负荷剂量0.08 mg/kg；维持剂量0至2.0 mg·kg⁻¹·h⁻¹）或丙泊酚（负荷剂量0.3至0.5 mg/kg；维持剂量0.3至4.0 mg·kg⁻¹·h⁻¹）。两组均允许调整输注速率或追加剂量以维持目标RASS。最长治疗时间为24小时。主要终点是达到镇静成功的患者比例，定义为在药物给药时间≥70%内维持目标镇静范围且无需补救镇静。非劣效界值为-8%。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "2024年3月12日至2024年9月24日期间，共211例患者（平均年龄61.1岁；63.5%为男性；99.1%为术后）接受了瑞马唑仑对甲苯磺酸盐（n=106）或丙泊酚（n=105）。平均±SD治疗时间为瑞马唑仑对甲苯磺酸盐组11.5±3.6小时，丙泊酚组11.1±3.1小时；平均±SD总剂量分别为187.1±134.4 mg和593.7±530.9 mg。瑞马唑仑对甲苯磺酸盐组镇静成功率为98.1%，丙泊酚组为96.2%（差异1.9%；95% CI，-3.3至7.8%）；平均±SD RASS目标范围时间百分比分别为95.1%±13.8%和95.0%±12.9%，接受补救镇静的患者比例分别为0.0%（0/106）和1.0%（1/105）。平均±SD所需追加总次数为瑞马唑仑对甲苯磺酸盐组0.03±0.17次，丙泊酚组0.18±0.77次。不良事件发生率：瑞马唑仑对甲苯磺酸盐组81例（76.4%），丙泊酚组77例（73.3%）；除丙泊酚组1例严重不良事件外，其余均为轻至中度。瑞马唑仑对甲苯磺酸盐的平均±SD终末半衰期为1.97±1.62小时。"
-          },
-          {
-            "heading": "CONCLUSIONS",
-            "text": "在术后机械通气的重症监护病房患者短期镇静中，瑞马唑仑对甲苯磺酸盐与丙泊酚相比显示出非劣效性和良好的耐受性。"
-          }
-        ],
-        "fullText": "背景：瑞马唑仑对甲苯磺酸盐，一种新型短效苯二氮卓类药物，在2期试验中已显示出对重症监护病房机械通气患者有效且安全的镇静作用。作者进行了一项多中心、随机、单盲、阳性对照的3期试验（NCT06222294）以进一步评估。方法：需要镇静6小时或以上、目标Richmond躁动-镇静评分（RASS）为-2至+1的机械通气患者，按1:1随机分配接受静脉注射瑞马唑仑对甲苯磺酸盐（负荷剂量0.08 mg/kg；维持剂量0至2.0 mg·kg⁻¹·h⁻¹）或丙泊酚（负荷剂量0.3至0.5 mg/kg；维持剂量0.3至4.0 mg·kg⁻¹·h⁻¹）。两组均允许调整输注速率或追加剂量以维持目标RASS。最长治疗时间为24小时。主要终点是达到镇静成功的患者比例，定义为在药物给药时间≥70%内维持目标镇静范围且无需补救镇静。非劣效界值为-8%。结果：2024年3月12日至2024年9月24日期间，共211例患者（平均年龄61.1岁；63.5%为男性；99.1%为术后）接受了瑞马唑仑对甲苯磺酸盐（n=106）或丙泊酚（n=105）。平均±SD治疗时间为瑞马唑仑对甲苯磺酸盐组11.5±3.6小时，丙泊酚组11.1±3.1小时；平均±SD总剂量分别为187.1±134.4 mg和593.7±530.9 mg。瑞马唑仑对甲苯磺酸盐组镇静成功率为98.1%，丙泊酚组为96.2%（差异1.9%；95% CI，-3.3至7.8%）；平均±SD RASS目标范围时间百分比分别为95.1%±13.8%和95.0%±12.9%，接受补救镇静的患者比例分别为0.0%（0/106）和1.0%（1/105）。平均±SD所需追加总次数为瑞马唑仑对甲苯磺酸盐组0.03±0.17次，丙泊酚组0.18±0.77次。不良事件发生率：瑞马唑仑对甲苯磺酸盐组81例（76.4%），丙泊酚组77例（73.3%）；除丙泊酚组1例严重不良事件外，其余均为轻至中度。瑞马唑仑对甲苯磺酸盐的平均±SD终末半衰期为1.97±1.62小时。结论：在术后机械通气的重症监护病房患者短期镇静中，瑞马唑仑对甲苯磺酸盐与丙泊酚相比显示出非劣效性和良好的耐受性。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Guan X, Liu N, Lin F, Yu J, Yang M, Zhou Q, Chen K, Yu X, et al.",
-      "citation": "Anesthesiology. 2026 Jul 1;145(1):72-83. doi: 10.1097/ALN.0000000000006047. Epub 2026 Mar 19.",
-      "doi": "10.1097/aln.0000000000006047",
-      "pmid": "41855428",
-      "pmcid": null,
-      "publicationTypes": [
-        "Clinical Trial, Phase III",
-        "Comparative Study",
-        "Equivalence Trial",
-        "Journal Article",
-        "Multicenter Study",
-        "Randomized Controlled Trial"
-      ],
-      "meshTerms": [
-        "Humans",
-        "*Propofol/adverse effects/administration & dosage/therapeutic use",
-        "*Respiration, Artificial/methods",
-        "Single-Blind Method",
-        "*Hypnotics and Sedatives/adverse effects/administration & dosage/therapeutic use",
-        "Female",
-        "Male",
-        "*Intensive Care Units",
-        "Middle Aged",
-        "*Benzodiazepines/adverse effects/administration & dosage/therapeutic use",
-        "Aged",
-        "*Postoperative Care/methods",
-        "Treatment Outcome"
-      ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 9.3,
-        "metricYear": 2024,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.asahq.org/about-asa/annual-reports",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "Anesthesiology"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉基础研究",
-        "Clinical Trial, Phase III",
-        "Comparative Study"
-      ],
-      "question": "本研究为术后机械通气患者提供了一种新的短效镇静药物选择，可能有助于减少丙泊酚相关不良反应，但需进一步确认其在广泛患者中的安全性。",
-      "conclusion": "在术后机械通气患者中，瑞马唑仑甲苯磺酸盐的镇静效果非劣于丙泊酚，且耐受性良好。",
-      "clinical": "瑞马唑仑可能成为丙泊酚的替代镇静药物用于术后机械通气患者。 本研究为单盲、短程镇静，需关注其在不同临床场景中的表现。",
-      "evidence": "中等偏高",
-      "score": 71,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 22,
-        "clinicalImpact": 13,
-        "journalQuality": 15,
-        "novelty": 8
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "多中心、随机、单盲、阳性对照、非劣效性3期试验"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Mechanically ventilated patients, requiring sedation for 6 h or longer with a target Richmond Agitation-Sedation Scale (RASS) of -2 to +1; 99.1% postoperative；211 patients"
-        },
-        {
-          "label": "干预与比较",
-          "value": "Remimazolam tosylate: loading dose 0.08 mg/kg, maintenance 0 to 2.0 mg·kg-1·h-1；对照：Propofol: loading dose 0.3 to 0.5 mg/kg, maintenance 0.3 to 4.0 mg·kg-1·h-1"
-        },
-        {
-          "label": "主要终点",
-          "value": "Proportion of patients achieving sedation success, defined as maintaining target sedation range for 70% or more of drug administration time without rescue sedation"
-        }
-      ],
-      "keyPoints": [
-        "瑞马唑仑镇静成功率非劣于丙泊酚。",
-        "不良反应发生率相似且多为轻中度。",
-        "研究为单盲设计且限制24小时镇静。",
-        "缺乏P值报告。"
-      ],
-      "methods": "瑞马唑仑甲苯磺酸盐是一种新型短效苯二氮䓬类药物，在2期试验中已显示出对ICU机械通气患者镇静的有效性和安全性。本研究通过多中心、随机、单盲3期试验进一步评估其疗效和安全性。",
-      "results": "共纳入211例患者（瑞马唑仑组106例，丙泊酚组105例）。镇静成功率：瑞马唑仑98.1%，丙泊酚96.2%，差异1.9%（95%CI -3.3%至7.8%），非劣效成立（非劣效界值-8%）。RASS目标范围内时间百分比：95.1%±13.8% vs 95.0%±12.9%。补救镇静比例：0.0% vs 1.0%。额外剂量：0.03±0.17 vs 0.18±0.77。不良事件发生率：76.4% vs 73.3%，除丙泊酚组1例严重外均为轻中度。P值当前可获取内容未提供。",
-      "mainResults": "共纳入211例患者（瑞马唑仑组106例，丙泊酚组105例）。镇静成功率：瑞马唑仑98.1%，丙泊酚96.2%，差异1.9%（95%CI -3.3%至7.8%），非劣效成立（非劣效界值-8%）。RASS目标范围内时间百分比：95.1%±13.8% vs 95.0%±12.9%。补救镇静比例：0.0% vs 1.0%。额外剂量：0.03±0.17 vs 0.18±0.77。不良事件发生率：76.4% vs 73.3%，除丙泊酚组1例严重外均为轻中度。P值当前可获取内容未提供。",
-      "limitations": [
-        "当前可获取内容未提供该研究局限性。"
-      ],
-      "practice": [
-        "瑞马唑仑可能成为丙泊酚的替代镇静药物用于术后机械通气患者。",
-        "本研究为单盲、短程镇静，需关注其在不同临床场景中的表现。"
-      ],
-      "editor": "基于摘要，研究结果支持瑞马唑仑非劣效于丙泊酚，但证据完整性有限。 过度解读风险：摘要未提供随机化细节、盲法评价、失访等信息，无法充分评价偏倚风险，需警惕过度推断。",
-      "whyItMatters": "本研究为术后机械通气患者提供了一种新的短效镇静药物选择，可能有助于减少丙泊酚相关不良反应，但需进一步确认其在广泛患者中的安全性。",
-      "background": "瑞马唑仑甲苯磺酸盐是一种新型短效苯二氮䓬类药物，在2期试验中已显示出对ICU机械通气患者镇静的有效性和安全性。本研究通过多中心、随机、单盲3期试验进一步评估其疗效和安全性。",
-      "pico": {
-        "population": "Mechanically ventilated patients, requiring sedation for 6 h or longer with a target Richmond Agitation-Sedation Scale (RASS) of -2 to +1; 99.1% postoperative",
-        "intervention": "Remimazolam tosylate: loading dose 0.08 mg/kg, maintenance 0 to 2.0 mg·kg-1·h-1",
-        "comparison": "Propofol: loading dose 0.3 to 0.5 mg/kg, maintenance 0.3 to 4.0 mg·kg-1·h-1",
-        "outcome": "Proportion of patients achieving sedation success, defined as maintaining target sedation range for 70% or more of drug administration time without rescue sedation"
-      },
-      "studyType": "多中心、随机、单盲、阳性对照、非劣效性3期试验",
-      "sampleSize": "211 patients",
-      "primaryOutcome": "Proportion of patients achieving sedation success, defined as maintaining target sedation range for 70% or more of drug administration time without rescue sedation",
-      "effectSize": [
-        "1.9% difference in sedation success rate"
-      ],
-      "confidenceInterval": [
-        "-3.3% to 7.8%"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": "Adverse events occurred in 81/106 (76.4%) with remimazolam tosylate and 77/105 (73.3%) with propofol; all mild-moderate except one severe with propofol.",
-      "aiAssessment": {
-        "support": "基于摘要，研究结果支持瑞马唑仑非劣效于丙泊酚，但证据完整性有限。",
-        "overinterpretationRisk": "摘要未提供随机化细节、盲法评价、失访等信息，无法充分评价偏倚风险，需警惕过度推断。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "abstract",
-          "limitations": [
-            "仅基于摘要，缺乏详细的方法学信息、完整的结果表格和局限性描述。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "评估瑞马唑仑甲苯磺酸盐对ICU机械通气患者镇静的非劣效性和安全性。",
-          "designFit": "多中心随机对照试验设计适合验证非劣效性假设。",
-          "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "当前可获取内容未提供该数据。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "单盲（当前可获取内容未详细说明盲法对象）。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "治疗时长中位11小时左右，所有患者完成治疗。",
-          "analysisPopulation": "意向性治疗人群或符合方案人群？当前可获取内容未提供该数据。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "多中心设计；",
-            "临床相关结局。"
-          ],
-          "concerns": [
-            "单盲可能引入测量偏倚；",
-            "仅短程镇静；",
-            "缺乏长期安全性数据。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": "noninferiority",
-              "name": "非劣效分析",
-              "purposeInStudy": "评估瑞马唑仑非劣效于丙泊酚",
-              "reportedResult": "镇静成功率差异1.9%，95%CI -3.3%至7.8%，非劣效界值-8%",
-              "interpretation": "瑞马唑仑非劣效于丙泊酚",
-              "cautions": [
-                "非劣效界值需临床可接受；",
-                "单盲可能影响结果"
-              ],
-              "standardExplanation": "判断新方案的效果是否未差于预设界值；结论依赖界值合理性及意向性和符合方案分析的一致性。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "基于非劣效界值，结果具有统计学非劣效性；临床意义需结合效应量和临床背景判断。"
-        },
-        "outcomeAnalysis": {
-          "primary": "镇静成功比例：98.1% vs 96.2%，差异1.9%，95%CI -3.3%至7.8%，非劣效成立。",
-          "secondary": [
-            "RASS目标范围内时间百分比：95.1% vs 95.0%；",
-            "接受补救镇静比例：0.0% vs 1.0%；",
-            "额外剂量：0.03 vs 0.18。"
-          ],
-          "safety": "不良事件发生率：76.4% vs 73.3%，多数轻中度，仅1例严重（丙泊酚组）。",
-          "absoluteVsRelative": "当前可获取内容未提供该数据。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "多中心随机设计；",
-            "临床相关主要终点；",
-            "非劣效界值预设。"
-          ],
-          "limitations": [
-            "单盲；",
-            "仅限于术后患者；",
-            "治疗时长较短（平均11小时）；",
-            "未报告随机化和分配隐藏细节。"
-          ],
-          "biasRisks": [
-            "单盲可能导致实施偏倚；",
-            "未报告随机化方法，可能存在选择偏倚不确定；",
-            "缺乏盲法评价，结局可能受影响。"
-          ],
-          "certainty": "低至中等（基于摘要，证据体有限）。",
-          "conclusionAlignment": "结论与结果一致：瑞马唑仑非劣效于丙泊酚。",
-          "causalBoundary": "随机对照试验可提供因果推断，但单盲和短程降低了因果强度。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "适用于术后机械通气患者需要短程镇静的场景。"
-          ],
-          "nonApplicability": [
-            "不适用于需要深度镇静或长时间镇静的患者；",
-            "不适用于非术后患者。"
-          ],
-          "practiceChange": "当前可获取内容未提供该数据。",
-          "canDoNow": [
-            "可考虑瑞马唑仑作为丙泊酚的替代选择，但需注意单盲研究限制和短暂治疗窗。"
-          ],
-          "cannotConclude": [
-            "不能推断瑞马唑仑在长期镇静中的安全性；",
-            "不能比较两者在临床重要结局如死亡或住院时间上的差异。"
-          ],
-          "evidenceGaps": [
-            "缺乏长期结局数据；",
-            "缺乏不同亚组（如年龄、疾病严重度）的疗效差异；",
-            "缺乏与丙泊酚的费用效益比较。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41855428/",
-        "doi": "https://doi.org/10.1097/aln.0000000000006047",
-        "publisher": "https://doi.org/10.1097/aln.0000000000006047",
-        "openFullText": null
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-42132392",
-      "number": "04",
-      "category": "麻醉学",
-      "journal": "Anesthesiology",
-      "year": "2026",
-      "publishedDate": "2026-07-01",
-      "electronicPublicationDate": "2026-05-14",
-      "readingTime": "9 分钟",
-      "title": "推进围术期医学：多利益相关方视角",
-      "originalTitle": "Advancing Perioperative Medicine: A Multistakeholder Perspective.",
-      "abstract": "Perioperative medicine spans the entire surgical care continuum, improving patient outcomes while reducing morbidity and mortality. Anesthesiology is uniquely positioned to influence the continued development of perioperative medicine. Recognizing this opportunity, the American Society of Anesthesiologists (Schaumburg, Illinois) established the Center for Perioperative Medicine as an organizational framework to actively implement perioperative medicine. Whereas earlier efforts focused on why anesthesiology must evolve, the Center emphasizes how the specialty is advancing through rigorous, inclusive collaboration. Building on previous initiatives, the Center for Perioperative Medicine is a multidisciplinary partnership including anesthesiologists, surgeons, hospitalists, and other specialists, and incorporates both national and global perspectives. This article describes how perioperative medicine is characterized across clinical, educational, research, and leadership domains; summarizes key themes from discussions at the 2024 and 2025 Stakeholder Summits; highlights areas of convergence and variation across global viewpoints; and situates these perspectives within the evolving landscape of perioperative medicine practice worldwide today collectively.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": null,
-            "text": "围手术期医学涵盖整个外科护理连续过程，在降低发病率和死亡率的同时改善患者结局。麻醉学具有独特优势，能够影响围手术期医学的持续发展。认识到这一机遇，美国麻醉医师协会（伊利诺伊州绍姆堡）成立了围手术期医学中心，作为积极实施围手术期医学的组织框架。早期的努力侧重于麻醉学为何必须发展，而该中心则强调该专业如何通过严谨、包容的协作向前推进。在既往举措的基础上，围手术期医学中心是一个多学科合作伙伴关系，包括麻醉医师、外科医师、医院医师及其他专科医师，并融合了国内和全球视角。本文描述了围手术期医学在临床、教育、研究和领导力领域的特征；总结了2024年和2025年利益相关者峰会讨论的关键主题；强调了全球观点中的趋同与差异领域；并将这些视角置于当今全球围手术期医学实践不断发展的格局中。"
-          }
-        ],
-        "fullText": "围手术期医学涵盖整个外科护理连续过程，在降低发病率和死亡率的同时改善患者结局。麻醉学具有独特优势，能够影响围手术期医学的持续发展。认识到这一机遇，美国麻醉医师协会（伊利诺伊州绍姆堡）成立了围手术期医学中心，作为积极实施围手术期医学的组织框架。早期的努力侧重于麻醉学为何必须发展，而该中心则强调该专业如何通过严谨、包容的协作向前推进。在既往举措的基础上，围手术期医学中心是一个多学科合作伙伴关系，包括麻醉医师、外科医师、医院医师及其他专科医师，并融合了国内和全球视角。本文描述了围手术期医学在临床、教育、研究和领导力领域的特征；总结了2024年和2025年利益相关者峰会讨论的关键主题；强调了全球观点中的趋同与差异领域；并将这些视角置于当今全球围手术期医学实践不断发展的格局中。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "",
-      "citation": "Anesthesiology. 2026 Jul 1;145(1):6-20. doi: 10.1097/ALN.0000000000006072. Epub 2026 May 14.",
-      "doi": "10.1097/aln.0000000000006072",
-      "pmid": "42132392",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [
-        "Humans",
-        "Anesthesiologists",
-        "*Anesthesiology/trends",
-        "*Perioperative Care",
-        "*Perioperative Medicine/trends/methods"
-      ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 9.3,
-        "metricYear": 2024,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.asahq.org/about-asa/annual-reports",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "Anesthesiology"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "Journal Article"
-      ],
-      "question": "当前可获取内容未提供该数据。",
-      "conclusion": "本文基于多学科合作背景，描述了围术期医学在临床、教育、研究和领导力领域的特征，并总结了2024和2025年利益相关方峰会的关键主题，但未提供具体临床数据或效应量，无法得出量化结论。",
-      "clinical": "当前可获取内容未提供具体临床建议。摘要仅指出麻醉学科在围术期医学中具有独特影响力及多学科合作的重要性。",
-      "evidence": "中等",
-      "score": 54,
-      "scoreBreakdown": {
-        "relevance": 18,
-        "evidenceQuality": 8,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "当前可获取内容未提供具体研究设计。根据摘要，本文为观点综述或会议纪要，非系统综述或原始研究。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "当前可获取内容未提供该数据。；当前可获取内容未提供该数据。"
-        },
-        {
-          "label": "干预与比较",
-          "value": "当前可获取内容未提供该数据。；对照：当前可获取内容未提供该数据。"
-        },
-        {
-          "label": "主要终点",
-          "value": "当前可获取内容未提供该数据。"
-        }
-      ],
-      "keyPoints": [
-        "围术期医学涵盖手术全周期，麻醉学科应积极引领其发展。",
-        "美国麻醉医师学会成立围术期医学中心，推动多学科合作。",
-        "本文基于2024和2025年利益相关方峰会的讨论，总结全球视角下的共识和差异。"
-      ],
-      "methods": "围术期医学涵盖手术全程，旨在改善患者预后、降低发病率和死亡率。麻醉学科在推动围术期医学发展中具有独特优势。美国麻醉医师学会成立围术期医学中心，强调通过严谨、包容的合作推动学科进步。本文基于前述背景，介绍围术期医学的多维度特征及全球视角下的共识与差异。",
-      "results": "当前可获取内容未提供主要结果。",
-      "mainResults": "当前可获取内容未提供主要结果。",
-      "limitations": [
-        "当前可获取内容未提供局限性信息。基于摘要分析，本文可能缺乏原始数据支持，结论基于专家共识。"
-      ],
-      "practice": [
-        "当前可获取内容未提供具体临床建议。摘要仅指出麻醉学科在围术期医学中具有独特影响力及多学科合作的重要性。"
-      ],
-      "editor": "当前可获取内容未提供具体证据支持。摘要为叙述性描述，无法评估证据强度。 过度解读风险：低风险，但需注意摘要未提供量化结果，不应过度解读为临床推荐。",
-      "whyItMatters": "当前可获取内容未提供该数据。",
-      "background": "围术期医学涵盖手术全程，旨在改善患者预后、降低发病率和死亡率。麻醉学科在推动围术期医学发展中具有独特优势。美国麻醉医师学会成立围术期医学中心，强调通过严谨、包容的合作推动学科进步。本文基于前述背景，介绍围术期医学的多维度特征及全球视角下的共识与差异。",
-      "pico": {
-        "population": "当前可获取内容未提供该数据。",
-        "intervention": "当前可获取内容未提供该数据。",
-        "comparison": "当前可获取内容未提供该数据。",
-        "outcome": "当前可获取内容未提供该数据。"
-      },
-      "studyType": "当前可获取内容未提供具体研究设计。根据摘要，本文为观点综述或会议纪要，非系统综述或原始研究。",
+      "studyType": "编辑评论（Editorial），基于原始研究（Mandel等）的摘要分析。原始研究为动物实验，具体设计细节未提供。",
       "sampleSize": "当前可获取内容未提供该数据。",
       "primaryOutcome": "当前可获取内容未提供该数据。",
       "effectSize": [
@@ -1190,33 +330,33 @@
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "当前可获取内容未提供具体证据支持。摘要为叙述性描述，无法评估证据强度。",
-        "overinterpretationRisk": "低风险，但需注意摘要未提供量化结果，不应过度解读为临床推荐。"
+        "support": "摘要明确报告了两个终点独立且抵抗切换，支持麻醉终点可能解耦的观点。",
+        "overinterpretationRisk": "由于缺乏效应量和统计检验信息，且为动物模型，过度解读风险较高。"
       },
       "deepDive": {
         "sourceCoverage": {
           "level": "abstract",
           "limitations": [
-            "仅基于摘要，无法获取研究设计、样本量、统计分析等详细信息。",
-            "未提供具体结果或效应量，无法进行定量评估。"
+            "仅基于摘要，未获取全文数据。",
+            "缺乏方法学细节和统计结果。"
           ]
         },
         "methodology": {
-          "researchQuestion": "当前可获取内容未提供明确的研究问题。摘要旨在描述围术期医学的多维度特征及利益相关方观点。",
-          "designFit": "当前可获取内容未提供研究设计信息，无法评价设计适合性。",
-          "eligibility": "当前可获取内容未提供纳排标准。",
-          "randomization": "当前可获取内容未提供随机化信息。",
-          "allocationConcealment": "当前可获取内容未提供分配隐藏信息。",
-          "blinding": "当前可获取内容未提供盲法信息。",
-          "sampleSizePlanning": "当前可获取内容未提供样本量计划。",
-          "followUp": "当前可获取内容未提供随访信息。",
-          "analysisPopulation": "当前可获取内容未提供分析人群信息。",
-          "missingData": "当前可获取内容未提供缺失数据处理方法。",
+          "researchQuestion": "个体在固定麻醉浓度下的行为动力学如何？",
+          "designFit": "编辑评论，原始研究为动物实验，设计适合探索行为动力学。",
+          "eligibility": "当前可获取内容未提供该数据。",
+          "randomization": "当前可获取内容未提供该数据。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "当前可获取内容未提供该数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "当前可获取内容未提供该数据。",
+          "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "当前可获取内容未提供方法论优势。可能包括多学科、全球视角的整合。"
+            "聚焦个体水平行为，补充群体指标的不足。"
           ],
           "concerns": [
-            "当前可获取内容未提供方法论担忧。基于摘要，缺乏定量数据支持。"
+            "缺乏方法学细节，无法评估研究质量。"
           ]
         },
         "statistics": {
@@ -1224,60 +364,62 @@
             {
               "referenceId": null,
               "name": "未报告",
-              "purposeInStudy": "当前可获取内容未提供统计方法，无法评价。",
-              "reportedResult": "当前可获取内容未提供统计结果。",
-              "interpretation": "当前可获取内容无法进行解释。",
+              "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+              "reportedResult": "当前可获取内容未提供该数据。",
+              "interpretation": "无法评价统计分析的适当性。",
               "cautions": [
-                "未识别具体统计方法，不应推断因果关系。"
+                "未报告统计方法，无法评估结果可靠性。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
           ],
-          "adjustedVariables": "当前可获取内容未提供校正变量信息。",
-          "multiplicity": "当前可获取内容未提供多重性校正信息。",
-          "subgroupAnalysis": "当前可获取内容未提供亚组分析信息。",
-          "clinicalVsStatisticalSignificance": "当前可获取内容未提供相关信息，无法区分临床与统计学意义。"
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
         },
         "outcomeAnalysis": {
-          "primary": "当前可获取内容未提供主要结局。",
+          "primary": "当前可获取内容未提供该数据。",
           "secondary": [
-            "当前可获取内容未提供次要结局。"
+            "当前可获取内容未提供该数据。"
           ],
-          "safety": "当前可获取内容未提供安全性结局。",
-          "absoluteVsRelative": "当前可获取内容未提供绝对或相对效应量。",
-          "subgroupAndInteraction": "当前可获取内容未提供亚组或交互作用分析。",
-          "sensitivity": "当前可获取内容未提供敏感性分析。"
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "当前可获取内容未提供该数据。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "当前可获取内容未提供优势。基于标题，多学科视角可能整合多方观点。"
+            "研究问题具有创新性，关注个体水平行为。"
           ],
           "limitations": [
-            "摘要级别内容无法评价研究局限性。"
+            "仅基于摘要，缺乏方法学细节。",
+            "动物模型，外推受限。"
           ],
           "biasRisks": [
-            "当前可获取内容未提供偏倚风险评估所需信息。"
+            "当前可获取内容未提供该数据。"
           ],
-          "certainty": "当前可获取内容未提供证据确定性评估。",
-          "conclusionAlignment": "当前可获取内容未提供结论与结果的一致性信息。",
-          "causalBoundary": "本文为观点性文章，不应推断因果关系。"
+          "certainty": "低，因缺乏统计细节。",
+          "conclusionAlignment": "结论与摘要报告一致。",
+          "causalBoundary": "观察性关联，不能推断因果关系。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "当前可获取内容未提供适用人群或场景。"
+            "为麻醉机制研究提供新视角。"
           ],
           "nonApplicability": [
-            "当前可获取内容未提供不适用情况。"
+            "不能直接用于临床麻醉管理。"
           ],
-          "practiceChange": "当前可获取内容未提供临床实践变革建议。",
+          "practiceChange": "当前证据不足以改变临床实践。",
           "canDoNow": [
-            "当前可获取内容未提供可立即实施的行动。"
+            "无直接临床可操作建议。"
           ],
           "cannotConclude": [
-            "无法基于摘要得出任何临床结论。"
+            "不能得出麻醉终点独立性的临床结论。"
           ],
           "evidenceGaps": [
-            "当前可获取内容未提供证据缺口。"
+            "需要人体研究验证。",
+            "需要更多方法学细节。"
           ],
           "directClinicalRecommendation": false
         }
@@ -1288,51 +430,39 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42132392/",
-        "doi": "https://doi.org/10.1097/aln.0000000000006072",
-        "publisher": "https://doi.org/10.1097/aln.0000000000006072",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42409690/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.06.002",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.06.002",
         "openFullText": null
       }
     },
     {
       "analysisVersion": 2,
-      "slug": "pmid-42102350",
-      "number": "05",
+      "slug": "pmid-42519913",
+      "number": "02",
       "category": "麻醉学",
       "journal": "Anesthesiology",
       "year": "2026",
-      "publishedDate": "2026-07-30",
-      "electronicPublicationDate": "2026-07-30",
-      "readingTime": "12 分钟",
-      "title": "帕金森病微电极记录引导下脑深部电刺激手术的麻醉选择（CHAMPION）：一项非劣效随机对照试验",
-      "originalTitle": "Choice of Anesthesia in Microelectrode Recording-guided Deep Brain Stimulation Surgery for Parkinson's Disease (CHAMPION): A Noninferiority Randomized Controlled Trial.",
-      "abstract": "BACKGROUND: Deep brain stimulation for Parkinson's disease is often performed under conscious sedation or general anesthesia. However, anesthetic agents may influence intraoperative microelectrode recording, and the optimal anesthesia method for microelectrode recording remains unclear. This study compared general anesthesia and conscious sedation in preserving microelectrode recording signal intensity during deep brain stimulation. METHODS: In this prospective, noninferiority randomized controlled trial, patients with Parkinson's disease (United Kingdom Brain Bank criteria) undergoing elective bilateral surgery were randomized 1:1 to the conscious sedation or the general anesthesia group. During surgery, a desflurane anesthetic titrated against the quality of the electrophysiologic signal was applied in the general anesthesia group, whereas patients in the conscious sedation group received dexmedetomidine anesthesia. The primary outcome was the proportion of patients with high-quality microelectrode recording (normalized root mean square greater than 2.0), assessed postoperatively off-line. Secondary outcomes included operation and recording duration, 6-month clinical efficacy, and complication rates. RESULTS: Of 188 randomized patients (94 general anesthesia, 93 conscious sedation), desflurane anesthesia was noninferior for high normalized root mean square proportion (89.4% vs . 90.3%; difference, -0.96%; 95% CI, -9.62 to 7.70). The general anesthesia group had shorter operative time (difference, -9.07 min; 95% CI, -13.99 to -4.14; P < 0.001). At 6 months, changes in Unified Parkinson's Disease Rating Scale score (difference, -2.50; 95% CI, -7.20 to 2.20; P = 0.297), levodopa equivalent daily dose (difference, -58.4 mg; 95% CI, -133.56 to 16.75; P = 0.128), and complication rates (general anesthesia: 10.9% vs . conscious sedation: 8.9%; P = 0.655) were comparable between the groups. CONCLUSIONS: General anesthesia is noninferior to conscious sedation for microelectrode-guided subthalamic nucleus deep brain stimulation, providing equivalent signal intensity and clinical outcomes while improving procedural efficiency, supporting its use as a valid clinical option.",
+      "publishedDate": "2026-07-28",
+      "electronicPublicationDate": "2026-07-28",
+      "readingTime": "9 分钟",
+      "title": "儿科麻醉后监护病房中恢复质量与出院准备度评估工具的评价",
+      "originalTitle": "Measures of Quality of Recovery and Discharge-readiness Tools in the Pediatric Postanesthesia Care Unit.",
+      "abstract": "The postanesthesia care unit is a critical phase of recovery, yet routine assessment often focuses on discharge readiness rather than the child's recovery experience. This study reviewed measures used in pediatric postanesthesia care unit pathways to assess discharge readiness and early recovery quality and synthesized how they capture domains that matter to children, families, and clinicians. This is a structured literature review with narrative synthesis and identified eight tools used in children: Steward score, Modified Aldrete Score, physiologic criteria-based score, White and Song fast-track score, Criteria for Fast-Tracking Children, Pediatric Post-Anesthetic Discharge Scoring System, Pediatric Readiness for Discharge Instrument, and Discerning Post Anesthesia Readiness for Transition. These tools varied by intended phase and destination, with consistent coverage of consciousness, oxygenation, and hemodynamics but variable assessment of the airway, pain, nausea and vomiting, bleeding, and function. A postanesthesia care unit-specific pediatric quality-of-recovery measure remains a key research and quality improvement gap.",
       "abstractTranslation": {
         "sections": [
           {
-            "heading": "BACKGROUND",
-            "text": "帕金森病的脑深部电刺激术通常在清醒镇静或全身麻醉下进行。然而，麻醉药物可能影响术中微电极记录，而用于微电极记录的最佳麻醉方法尚不清楚。本研究比较了全身麻醉和清醒镇静在脑深部电刺激术中对保留微电极记录信号强度的影响。"
-          },
-          {
-            "heading": "METHODS",
-            "text": "在这项前瞻性、非劣效性随机对照试验中，接受择期双侧手术的帕金森病患者（英国脑库标准）按1:1随机分配至清醒镇静组或全身麻醉组。手术期间，全身麻醉组采用地氟烷麻醉，并根据电生理信号质量进行滴定；而清醒镇静组患者接受右美托咪定麻醉。主要结局是术后离线评估的高质量微电极记录（归一化均方根大于2.0）的患者比例。次要结局包括手术和记录持续时间、6个月临床疗效以及并发症发生率。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "在188名随机患者中（全身麻醉94例，清醒镇静93例），地氟烷麻醉在高归一化均方根比例方面非劣效（89.4% vs. 90.3%；差异，-0.96%；95% CI，-9.62至7.70）。全身麻醉组的手术时间较短（差异，-9.07分钟；95% CI，-13.99至-4.14；P < 0.001）。在6个月时，统一帕金森病评定量表评分的变化（差异，-2.50；95% CI，-7.20至2.20；P = 0.297）、左旋多巴等效日剂量（差异，-58.4 mg；95% CI，-133.56至16.75；P = 0.128）和并发症发生率（全身麻醉：10.9% vs. 清醒镇静：8.9%；P = 0.655）在两组间相当。"
-          },
-          {
-            "heading": "CONCLUSIONS",
-            "text": "全身麻醉在微电极引导的丘脑底核脑深部电刺激术中非劣效于清醒镇静，提供等效的信号强度和临床结局，同时提高手术效率，支持其作为有效的临床选择。"
+            "heading": null,
+            "text": "麻醉后监护病房是恢复的关键阶段，然而常规评估往往侧重于出院准备情况，而非儿童的恢复体验。本研究回顾了儿科麻醉后监护病房路径中用于评估出院准备情况和早期恢复质量的测量工具，并综合了它们如何捕捉对儿童、家庭和临床医生重要的领域。这是一项采用叙述性综合的结构化文献综述，确定了用于儿童的八种工具：Steward评分、改良Aldrete评分、基于生理标准的评分、White和Song快速通道评分、儿童快速通道标准、儿科麻醉后出院评分系统、儿科出院准备工具和辨别麻醉后过渡准备情况。这些工具在预期阶段和目的地方面有所不同，对意识、氧合和血流动力学的覆盖一致，但对气道、疼痛、恶心呕吐、出血和功能的评估各不相同。针对麻醉后监护病房的儿科恢复质量测量工具仍然是一个关键的研究和质量改进空白。"
           }
         ],
-        "fullText": "BACKGROUND: 帕金森病的脑深部电刺激术通常在清醒镇静或全身麻醉下进行。然而，麻醉药物可能影响术中微电极记录，而用于微电极记录的最佳麻醉方法尚不清楚。本研究比较了全身麻醉和清醒镇静在脑深部电刺激术中对保留微电极记录信号强度的影响。 METHODS: 在这项前瞻性、非劣效性随机对照试验中，接受择期双侧手术的帕金森病患者（英国脑库标准）按1:1随机分配至清醒镇静组或全身麻醉组。手术期间，全身麻醉组采用地氟烷麻醉，并根据电生理信号质量进行滴定；而清醒镇静组患者接受右美托咪定麻醉。主要结局是术后离线评估的高质量微电极记录（归一化均方根大于2.0）的患者比例。次要结局包括手术和记录持续时间、6个月临床疗效以及并发症发生率。 RESULTS: 在188名随机患者中（全身麻醉94例，清醒镇静93例），地氟烷麻醉在高归一化均方根比例方面非劣效（89.4% vs. 90.3%；差异，-0.96%；95% CI，-9.62至7.70）。全身麻醉组的手术时间较短（差异，-9.07分钟；95% CI，-13.99至-4.14；P < 0.001）。在6个月时，统一帕金森病评定量表评分的变化（差异，-2.50；95% CI，-7.20至2.20；P = 0.297）、左旋多巴等效日剂量（差异，-58.4 mg；95% CI，-133.56至16.75；P = 0.128）和并发症发生率（全身麻醉：10.9% vs. 清醒镇静：8.9%；P = 0.655）在两组间相当。 CONCLUSIONS: 全身麻醉在微电极引导的丘脑底核脑深部电刺激术中非劣效于清醒镇静，提供等效的信号强度和临床结局，同时提高手术效率，支持其作为有效的临床选择。",
+        "fullText": "麻醉后监护病房是恢复的关键阶段，然而常规评估往往侧重于出院准备情况，而非儿童的恢复体验。本研究回顾了儿科麻醉后监护病房路径中用于评估出院准备情况和早期恢复质量的测量工具，并综合了它们如何捕捉对儿童、家庭和临床医生重要的领域。这是一项采用叙述性综合的结构化文献综述，确定了用于儿童的八种工具：Steward评分、改良Aldrete评分、基于生理标准的评分、White和Song快速通道评分、儿童快速通道标准、儿科麻醉后出院评分系统、儿科出院准备工具和辨别麻醉后过渡准备情况。这些工具在预期阶段和目的地方面有所不同，对意识、氧合和血流动力学的覆盖一致，但对气道、疼痛、恶心呕吐、出血和功能的评估各不相同。针对麻醉后监护病房的儿科恢复质量测量工具仍然是一个关键的研究和质量改进空白。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Xie S, Shi L, Xiong W, Fan Y, Chen L, Li X, Tong Y, Yang A, et al.",
-      "citation": "Anesthesiology. 2026 Jul 30. doi: 10.1097/ALN.0000000000006133.",
-      "doi": "10.1097/aln.0000000000006133",
-      "pmid": "42102350",
+      "authors": "Jindawatthana I, Graydon C, Lee-Archer P, Ramos T, Sheppard S, Davidson A",
+      "citation": "Anesthesiology. 2026 Jul 28. doi: 10.1097/ALN.0000000000006193.",
+      "doi": "10.1097/aln.0000000000006193",
+      "pmid": "42519913",
       "pmcid": null,
       "publicationTypes": [
         "Journal Article"
@@ -1369,9 +499,9 @@
         "麻醉学",
         "Journal Article"
       ],
-      "question": "脑深部电刺激术中麻醉方法对微电极记录质量的影响尚不明确，该研究直接比较全身麻醉与镇静对信号质量及临床结局的影响，为临床决策提供了高质量证据。",
-      "conclusion": "地氟烷全身麻醉在微电极记录信号质量方面非劣于右美托咪定镇静，并可缩短手术时间，6个月临床疗效和并发症发生率相当，支持其作为有效临床选择。",
-      "clinical": "地氟烷全身麻醉在微电极记录质量方面非劣于右美托咪定镇静，且可缩短手术时间，可作为神经外科手术的可行选择。 鉴于两种方法临床结局相似，麻醉选择可基于患者因素、手术流程及麻醉医生偏好。",
+      "question": "麻醉后监护病房是儿童术后恢复的关键阶段，但常规评估往往侧重于出院准备度，而忽视了儿童自身的恢复体验。明确现有工具的覆盖范围和局限性，有助于识别研究空白，推动开发更全面的儿科恢复质量评估工具，从而改善患儿术后恢复质量。",
+      "conclusion": "当前儿科麻醉后监护病房中用于评估出院准备度和早期恢复质量的工具共有八种，但均未全面覆盖儿童、家庭和临床医生所关注的恢复领域，且缺乏针对PACU的儿科恢复质量专用测量工具。",
+      "clinical": "麻醉科医生应认识到现有儿科PACU评估工具在覆盖领域上的不一致性，尤其是对气道、疼痛、恶心呕吐、出血和功能等方面的评估不足。 在临床实践中，应结合多种工具或补充评估，以更全面地反映患儿的恢复状态。 未来需要开发并验证针对儿科PACU的恢复质量专用测量工具，以填补当前研究空白。",
       "evidence": "中等",
       "score": 51,
       "scoreBreakdown": {
@@ -1384,180 +514,163 @@
       "study": [
         {
           "label": "研究设计",
-          "value": "前瞻性、非劣效随机对照试验，1:1随机分组，术后离线评估微电极记录质量。"
+          "value": "结构化文献综述，采用叙述性综合方法。"
         },
         {
           "label": "研究对象与样本",
-          "value": "patients with Parkinson's disease (United Kingdom Brain Bank criteria) undergoing elective bilateral surgery；188"
+          "value": "children in pediatric postanesthesia care unit；当前可获取内容未提供该数据。"
         },
         {
           "label": "干预与比较",
-          "value": "general anesthesia with desflurane；对照：conscious sedation with dexmedetomidine"
+          "value": "不适用（本研究为综述，无干预）；对照：不适用（本研究为综述，无对照）"
         },
         {
           "label": "主要终点",
-          "value": "proportion of patients with high-quality microelectrode recording (normalized root mean square greater than 2.0)"
+          "value": "assessment of discharge readiness and early recovery quality"
         }
       ],
       "keyPoints": [
-        "地氟烷全身麻醉在高质量微电极记录比例方面非劣于右美托咪定镇静。",
-        "全身麻醉显著缩短手术时间。",
-        "6个月临床疗效和并发症发生率两组无显著差异。"
+        "儿科PACU中常用的评估工具共八种，覆盖领域存在差异。",
+        "所有工具均覆盖意识、氧合和血流动力学，但对气道、疼痛、恶心呕吐、出血和功能的评估不一致。",
+        "缺乏针对儿科PACU的恢复质量专用测量工具，是重要的研究缺口。"
       ],
-      "methods": "帕金森病脑深部电刺激术常在镇静或全身麻醉下进行，但麻醉药可能影响术中微电极记录，最佳麻醉方法仍不清楚。本研究旨在比较全身麻醉与镇静对微电极记录信号强度的保护作用。",
-      "results": "共纳入188例患者（全身麻醉组94例，镇静组93例）。全身麻醉组高质量微电极记录比例为89.4%，镇静组为90.3%，差异-0.96%（95% CI -9.62%至7.70%），达到非劣效标准。全身麻醉组手术时间更短（差异-9.07分钟，95% CI -13.99至-4.14，P<0.001）。6个月时UPDRS评分变化（差异-2.50，95% CI -7.20至2.20，P=0.297）、左旋多巴等效日剂量（差异-58.4 mg，95% CI -133.56至16.75，P=0.128）和并发症发生率（全身麻醉10.9% vs 镇静8.9%，P=0.655）均无统计学差异。",
-      "mainResults": "共纳入188例患者（全身麻醉组94例，镇静组93例）。全身麻醉组高质量微电极记录比例为89.4%，镇静组为90.3%，差异-0.96%（95% CI -9.62%至7.70%），达到非劣效标准。全身麻醉组手术时间更短（差异-9.07分钟，95% CI -13.99至-4.14，P<0.001）。6个月时UPDRS评分变化（差异-2.50，95% CI -7.20至2.20，P=0.297）、左旋多巴等效日剂量（差异-58.4 mg，95% CI -133.56至16.75，P=0.128）和并发症发生率（全身麻醉10.9% vs 镇静8.9%，P=0.655）均无统计学差异。",
+      "methods": "麻醉后监护病房是术后恢复的关键阶段，但常规评估往往侧重于出院准备度，而非儿童的恢复体验。本研究旨在系统回顾儿科PACU路径中用于评估出院准备度和早期恢复质量的工具，并综合这些工具如何捕捉对儿童、家庭和临床医生重要的领域。",
+      "results": "共识别出八种用于儿童的评估工具：Steward评分、改良Aldrete评分、基于生理标准的评分、White和Song快速通道评分、儿童快速通道标准、儿科麻醉后出院评分系统、儿科出院准备度工具以及辨别麻醉后过渡准备度工具。这些工具在预期阶段和目的地方面存在差异，但在意识、氧合和血流动力学方面的覆盖一致，而在气道、疼痛、恶心呕吐、出血和功能方面的评估则各不相同。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等数据。",
+      "mainResults": "共识别出八种用于儿童的评估工具：Steward评分、改良Aldrete评分、基于生理标准的评分、White和Song快速通道评分、儿童快速通道标准、儿科麻醉后出院评分系统、儿科出院准备度工具以及辨别麻醉后过渡准备度工具。这些工具在预期阶段和目的地方面存在差异，但在意识、氧合和血流动力学方面的覆盖一致，而在气道、疼痛、恶心呕吐、出血和功能方面的评估则各不相同。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等数据。",
       "limitations": [
-        "当前可获取内容未提供研究局限性的详细信息。",
-        "非劣效性结论依赖预设界值的合理性，摘要未报告界值设定依据。"
+        "当前可获取内容未提供该研究的详细局限性信息。",
+        "作为摘要，未提供纳入研究的详细方法学质量评估。",
+        "未提供各工具的具体效度、信度数据。"
       ],
       "practice": [
-        "地氟烷全身麻醉在微电极记录质量方面非劣于右美托咪定镇静，且可缩短手术时间，可作为神经外科手术的可行选择。",
-        "鉴于两种方法临床结局相似，麻醉选择可基于患者因素、手术流程及麻醉医生偏好。"
+        "麻醉科医生应认识到现有儿科PACU评估工具在覆盖领域上的不一致性，尤其是对气道、疼痛、恶心呕吐、出血和功能等方面的评估不足。",
+        "在临床实践中，应结合多种工具或补充评估，以更全面地反映患儿的恢复状态。",
+        "未来需要开发并验证针对儿科PACU的恢复质量专用测量工具，以填补当前研究空白。"
       ],
-      "editor": "研究为非劣效随机对照试验，样本量188例，主要终点有明确非劣效界值，效应量及置信区间报告完整，结论支持可靠。 过度解读风险：低风险，结论与数据一致，未超出非劣效范围，但需注意非劣效结论不等同于等效。",
-      "whyItMatters": "脑深部电刺激术中麻醉方法对微电极记录质量的影响尚不明确，该研究直接比较全身麻醉与镇静对信号质量及临床结局的影响，为临床决策提供了高质量证据。",
-      "background": "帕金森病脑深部电刺激术常在镇静或全身麻醉下进行，但麻醉药可能影响术中微电极记录，最佳麻醉方法仍不清楚。本研究旨在比较全身麻醉与镇静对微电极记录信号强度的保护作用。",
+      "editor": "该结论基于对八种工具的叙述性综合，但缺乏定量数据支持，且未提供效应量或置信区间。 过度解读风险：由于是综述且未提供具体数据，应避免将工具覆盖范围的差异直接等同于临床效果差异。",
+      "whyItMatters": "麻醉后监护病房是儿童术后恢复的关键阶段，但常规评估往往侧重于出院准备度，而忽视了儿童自身的恢复体验。明确现有工具的覆盖范围和局限性，有助于识别研究空白，推动开发更全面的儿科恢复质量评估工具，从而改善患儿术后恢复质量。",
+      "background": "麻醉后监护病房是术后恢复的关键阶段，但常规评估往往侧重于出院准备度，而非儿童的恢复体验。本研究旨在系统回顾儿科PACU路径中用于评估出院准备度和早期恢复质量的工具，并综合这些工具如何捕捉对儿童、家庭和临床医生重要的领域。",
       "pico": {
-        "population": "patients with Parkinson's disease (United Kingdom Brain Bank criteria) undergoing elective bilateral surgery",
-        "intervention": "general anesthesia with desflurane",
-        "comparison": "conscious sedation with dexmedetomidine",
-        "outcome": "proportion of patients with high-quality microelectrode recording (normalized root mean square greater than 2.0)"
+        "population": "children in pediatric postanesthesia care unit",
+        "intervention": "不适用（本研究为综述，无干预）",
+        "comparison": "不适用（本研究为综述，无对照）",
+        "outcome": "assessment of discharge readiness and early recovery quality"
       },
-      "studyType": "前瞻性、非劣效随机对照试验，1:1随机分组，术后离线评估微电极记录质量。",
-      "sampleSize": "188",
-      "primaryOutcome": "proportion of patients with high-quality microelectrode recording (normalized root mean square greater than 2.0)",
+      "studyType": "结构化文献综述，采用叙述性综合方法。",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "assessment of discharge readiness and early recovery quality",
       "effectSize": [
-        "-0.96%",
-        "-9.07 min",
-        "-2.50",
-        "-58.4 mg"
+        "当前可获取内容未提供该数据。"
       ],
       "confidenceInterval": [
-        "-9.62 to 7.70",
-        "-13.99 to -4.14",
-        "-7.20 to 2.20",
-        "-133.56 to 16.75"
+        "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "<0.001",
-        "0.297",
-        "0.128"
+        "当前可获取内容未提供该数据。"
       ],
-      "adverseEvents": "Complication rates: general anesthesia 10.9% vs conscious sedation 8.9%, P = 0.655",
+      "adverseEvents": null,
       "aiAssessment": {
-        "support": "研究为非劣效随机对照试验，样本量188例，主要终点有明确非劣效界值，效应量及置信区间报告完整，结论支持可靠。",
-        "overinterpretationRisk": "低风险，结论与数据一致，未超出非劣效范围，但需注意非劣效结论不等同于等效。"
+        "support": "该结论基于对八种工具的叙述性综合，但缺乏定量数据支持，且未提供效应量或置信区间。",
+        "overinterpretationRisk": "由于是综述且未提供具体数据，应避免将工具覆盖范围的差异直接等同于临床效果差异。"
       },
       "deepDive": {
         "sourceCoverage": {
           "level": "abstract",
           "limitations": [
-            "仅基于摘要分析，缺乏详细方法学信息（如非劣效界值、随机方法、盲法、随访完整性等）。",
-            "无法核实数据完整性和预设分析计划。"
+            "仅基于摘要，未获取全文，无法评估纳入研究的详细方法学质量。",
+            "未提供各工具的具体评估指标和验证数据。",
+            "未提供检索策略、纳入排除标准等综述方法学细节。"
           ]
         },
         "methodology": {
-          "researchQuestion": "帕金森病脑深部电刺激术中，地氟烷全身麻醉是否非劣于右美托咪定镇静，在保留微电极记录信号强度方面？",
-          "designFit": "研究设计为非劣效随机对照试验，适合回答麻醉方法对微电极记录质量的影响问题。",
-          "eligibility": "符合英国脑库标准的帕金森病患者，择期双侧手术。当前可获取内容未提供更多入选/排除标准。",
-          "randomization": "1:1随机分组（94 vs 93），具体随机方法当前可获取内容未提供。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "主要终点（微电极记录质量）由术后离线评估，可能实现评价者盲法，但摘要未明确描述。",
-          "sampleSizePlanning": "当前可获取内容未提供样本量计算细节。",
-          "followUp": "6个月随访，当前可获取内容未提供失访情况。",
-          "analysisPopulation": "分析中可能包括所有随机患者或符合方案人群，未明确。",
+          "researchQuestion": "评估儿科PACU路径中用于评估出院准备度和早期恢复质量的工具，并综合其覆盖领域。",
+          "designFit": "结构化文献综述适合总结现有工具，但叙述性综合可能引入主观性。",
+          "eligibility": "当前可获取内容未提供该数据。",
+          "randomization": "不适用（综述）。",
+          "allocationConcealment": "不适用（综述）。",
+          "blinding": "不适用（综述）。",
+          "sampleSizePlanning": "不适用（综述）。",
+          "followUp": "不适用（综述）。",
+          "analysisPopulation": "纳入的八种工具。",
           "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "采用随机对照设计，减少选择偏倚。",
-            "主要终点为客观电生理指标，减少主观偏倚。",
-            "报告了主要和次要结局，包括临床疗效和安全性。"
+            "系统识别了儿科PACU中常用的评估工具。",
+            "综合了工具覆盖的领域，揭示了评估中的空白。"
           ],
           "concerns": [
-            "缺乏详细方法学信息（如非劣效界值、随机方法、盲法实施）。",
-            "样本量188例，但亚组分析可能效力不足。",
-            "6个月随访时间相对较短，长期效果未知。"
+            "未提供工具的心理测量学特性。",
+            "未说明检索策略和纳入标准，可能影响可重复性。"
           ]
         },
         "statistics": {
           "methods": [
             {
               "referenceId": null,
-              "name": "非劣效分析",
-              "purposeInStudy": "判断全身麻醉在高质量微电极记录比例上是否非劣于镇静。",
-              "reportedResult": "差异-0.96%（95% CI -9.62%至7.70%），未超过非劣效界值。",
-              "interpretation": "全身麻醉非劣于镇静，两组主要结局无临床重要差异。",
+              "name": "未报告",
+              "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+              "reportedResult": "当前可获取内容未提供该数据。",
+              "interpretation": "无法评价统计方法。",
               "cautions": [
-                "非劣效结论依赖预设界值，需确认界值是否合理（摘要未报告）。",
-                "置信区间较宽，可能包含临床重要差异。"
+                "由于未报告统计方法，无法评估结果的稳健性。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
           ],
           "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供多重比较调整信息。",
-          "subgroupAnalysis": "当前可获取内容未提供亚组分析结果。",
-          "clinicalVsStatisticalSignificance": "手术时间缩短（-9.07分钟）具有统计学意义（P<0.001），但临床意义需结合手术流程个体化判断；6个月UPDRS评分差异无统计学意义，两组变化幅度相似。"
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
         },
         "outcomeAnalysis": {
-          "primary": "高质量微电极记录比例非劣效成立，两组分别为89.4% vs 90.3%，差异-0.96%（95% CI -9.62%至7.70%）。",
+          "primary": "评估出院准备度和早期恢复质量的工具及其覆盖领域。",
           "secondary": [
-            "手术时间：全身麻醉组更短（差异-9.07分钟，95% CI -13.99至-4.14，P<0.001）。",
-            "6个月UPDRS评分变化：差异-2.50（95% CI -7.20至2.20，P=0.297）。",
-            "左旋多巴等效日剂量：差异-58.4 mg（95% CI -133.56至16.75，P=0.128）。",
-            "并发症发生率：全身麻醉10.9% vs 镇静8.9%，P=0.655。"
+            "当前可获取内容未提供次要结局。"
           ],
-          "safety": "并发症发生率两组无显著差异（P=0.655），但具体并发症类型未在摘要中描述。",
-          "absoluteVsRelative": "主要终点报告绝对差异（-0.96%），次要终点均报告均值差异或百分比差异。",
-          "subgroupAndInteraction": "当前可获取内容未提供亚组或交互作用分析。",
-          "sensitivity": "当前可获取内容未提供敏感性分析。"
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "当前可获取内容未提供该数据。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "前瞻性随机设计，均衡可比。",
-            "非劣效设计适合评估替代麻醉方案。",
-            "报告了多个临床相关结局。"
+            "系统识别了儿科PACU中常用的评估工具。",
+            "综合了工具覆盖的领域，揭示了评估中的空白。"
           ],
           "limitations": [
-            "缺乏方法学细节（非劣效界值、随机方法、盲法等）。",
-            "仅摘要信息，无法全面评估偏倚风险。",
-            "单中心？多中心？未说明。"
+            "仅基于摘要，未提供详细方法学信息。",
+            "未提供工具的心理测量学特性。",
+            "未说明检索策略和纳入标准。"
           ],
           "biasRisks": [
-            "未报告盲法，可能存在实施偏倚。",
-            "未报告随机化隐藏，选择偏倚风险不清。",
-            "未报告完整随访，失访偏倚未知。"
+            "可能存在发表偏倚，因为仅纳入已发表的工具。",
+            "叙述性综合可能引入选择偏倚。"
           ],
-          "certainty": "基于摘要，证据等级中等，但缺乏细节；确证需查阅全文。",
-          "conclusionAlignment": "结论与数据一致，全身麻醉非劣于镇静。",
-          "causalBoundary": "该研究为随机对照，可建立因果关系，但受限于非劣效设计和潜在偏倚。"
+          "certainty": "低，由于缺乏定量数据和详细方法学信息。",
+          "conclusionAlignment": "结论与摘要内容一致，但缺乏数据支持。",
+          "causalBoundary": "本研究为综述，仅描述工具覆盖情况，不涉及因果关系。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "适用于需要微电极记录的择期双侧丘脑底核脑深部电刺激手术患者。",
-            "对麻醉医生和神经外科医生选择麻醉方案有参考价值。"
+            "适用于儿科麻醉后监护病房的临床评估实践。",
+            "有助于临床医生了解现有工具的覆盖范围。"
           ],
           "nonApplicability": [
-            "不适用于其他类型的脑深部电刺激（如单侧或靶点不同）或其他手术。",
-            "不适用于对地氟烷或右美托咪定有禁忌的患者。"
+            "不适用于直接指导具体工具的选择，因为未提供工具的比较效度数据。"
           ],
-          "practiceChange": "地氟烷全身麻醉可作为微电极引导脑深部电刺激手术的有效选择，但需结合自身条件验证。",
+          "practiceChange": "当前证据不足以支持立即改变临床实践，但提示需要开发更全面的评估工具。",
           "canDoNow": [
-            "在具备条件的情况下，可考虑使用地氟烷全身麻醉替代镇静。",
-            "需确保术中电生理监测团队适应全身麻醉状态。"
+            "临床医生可参考现有工具，但应意识到其覆盖领域的局限性。"
           ],
           "cannotConclude": [
-            "不能得出全身麻醉优于镇静的结论（非劣效而非优效）。",
-            "不能推广至其他麻醉药物或给药方案。",
-            "长期临床获益（>6个月）未评估。"
+            "无法确定哪种工具最优。",
+            "无法确定工具对临床结局的影响。"
           ],
           "evidenceGaps": [
-            "缺乏非劣效界值的明确报告。",
-            "缺乏随机方法、盲法及随访完整性的细节。",
-            "缺乏亚组分析（如年龄、疾病严重程度）。",
-            "缺乏长期结果（如1年以上）。"
+            "缺乏儿科PACU专用恢复质量测量工具。",
+            "缺乏工具的心理测量学验证数据。",
+            "缺乏工具对临床结局影响的研究。"
           ],
-          "directClinicalRecommendation": true
+          "directClinicalRecommendation": false
         }
       },
       "analysisBasis": "摘要分析",
@@ -1566,9 +679,826 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42102350/",
-        "doi": "https://doi.org/10.1097/aln.0000000000006133",
-        "publisher": "https://doi.org/10.1097/aln.0000000000006133",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42519913/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006193",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006193",
+        "openFullText": null
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-42461097",
+      "number": "03",
+      "category": "麻醉学",
+      "journal": "Anesthesiology",
+      "year": "2026",
+      "publishedDate": "2026-07-15",
+      "electronicPublicationDate": "2026-07-15",
+      "readingTime": "11 分钟",
+      "title": "小儿斜视手术中神经肌肉阻滞深度与眼心反射：一项随机临床试验",
+      "originalTitle": "Neuromuscular Blockade Depth and Oculocardiac Reflex in Pediatric Strabismus Surgery: A Randomized Clinical Trial.",
+      "abstract": "BACKGROUND: Although neuromuscular blockade reduces oculocardiac reflex (OCR) incidence compared with no neuromuscular blockade, the effect of blockade depth on OCR has not been prospectively evaluated. This study aimed to evaluate whether the depth of neuromuscular blockade influences the incidence of the OCR during pediatric strabismus surgery. METHODS: In this prospective, double-blinded randomized controlled trial, 204 pediatric patients aged 3 to 18 years undergoing strabismus surgery under general anesthesia were randomly assigned to moderate-to-deep neuromuscular blockade (MD-NMB; train-of-four count 0-3) or minimal-to-shallow neuromuscular blockade (MS-NMB; train-of-four count 4 with ratio <0.9). The primary outcome was the incidence of OCR grade >/=2, defined as a >/=20% decrease in heart rate from baseline. Secondary outcomes included severe OCR (grade >/=3, defined as a >/=30% decrease in heart rate), as well as the magnitude and duration of heart rate reduction. RESULTS: A total of 201 patients were analyzed (MS-NMB, n=102; MD-NMB, n=99). The incidence of OCR grade >/=2 was lower in the MD-NMB group compared with the MS-NMB group (30.3% vs. 53.9%; odds ratio [OR] 0.37; 95% confidence interval [CI] 0.21-0.66; p = 0.001). OCR grade >/=3 was also reduced in the MD-NMB group (18.2% vs. 35.3%; OR 0.41, 95% CI 0.21-0.78; p = 0.007). Among patients who developed OCR, the magnitude (34.3% [26.9-42.6%] vs. 28.0% [18.2-35.9%]; p=0.003) and duration (46.0s [30.3-65.8s] vs. 37.0s [17.0-49.5s]; p=0.024) of heart rate reduction were smaller in the MD-NMB group. CONCLUSIONS: Moderate to deep neuromuscular blockade significantly reduced both the incidence and severity of OCR during pediatric strabismus surgery compared with minimal to shallow blockade. These findings suggest that deeper neuromuscular blockade may represent an effective strategy to attenuate OCR during extraocular muscle manipulation.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "尽管与不使用神经肌肉阻滞相比，神经肌肉阻滞可降低眼心反射（OCR）的发生率，但阻滞深度对OCR的影响尚未进行前瞻性评估。本研究旨在评估神经肌肉阻滞深度是否影响小儿斜视手术中OCR的发生率。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "在这项前瞻性、双盲随机对照试验中，204名年龄在3至18岁、在全身麻醉下接受斜视手术的儿科患者被随机分配至中度至深度神经肌肉阻滞组（MD-NMB；四个成串刺激计数0-3）或轻度至浅度神经肌肉阻滞组（MS-NMB；四个成串刺激计数4且比值<0.9）。主要结局是OCR等级≥2的发生率，定义为心率较基线下降≥20%。次要结局包括严重OCR（等级≥3，定义为心率下降≥30%），以及心率降低的幅度和持续时间。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "共分析了201名患者（MS-NMB组，n=102；MD-NMB组，n=99）。MD-NMB组OCR等级≥2的发生率低于MS-NMB组（30.3%对53.9%；比值比[OR] 0.37；95%置信区间[CI] 0.21-0.66；p=0.001）。MD-NMB组OCR等级≥3的发生率也降低（18.2%对35.3%；OR 0.41，95% CI 0.21-0.78；p=0.007）。在发生OCR的患者中，MD-NMB组心率降低的幅度（34.3% [26.9-42.6%] 对28.0% [18.2-35.9%]；p=0.003）和持续时间（46.0秒 [30.3-65.8秒] 对37.0秒 [17.0-49.5秒]；p=0.024）均较小。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "与轻度至浅度阻滞相比，中度至深度神经肌肉阻滞显著降低了小儿斜视手术中OCR的发生率和严重程度。这些发现提示，在眼外肌操作期间，更深的神经肌肉阻滞可能代表一种减轻OCR的有效策略。"
+          }
+        ],
+        "fullText": "BACKGROUND: 尽管与不使用神经肌肉阻滞相比，神经肌肉阻滞可降低眼心反射（OCR）的发生率，但阻滞深度对OCR的影响尚未进行前瞻性评估。本研究旨在评估神经肌肉阻滞深度是否影响小儿斜视手术中OCR的发生率。 METHODS: 在这项前瞻性、双盲随机对照试验中，204名年龄在3至18岁、在全身麻醉下接受斜视手术的儿科患者被随机分配至中度至深度神经肌肉阻滞组（MD-NMB；四个成串刺激计数0-3）或轻度至浅度神经肌肉阻滞组（MS-NMB；四个成串刺激计数4且比值<0.9）。主要结局是OCR等级≥2的发生率，定义为心率较基线下降≥20%。次要结局包括严重OCR（等级≥3，定义为心率下降≥30%），以及心率降低的幅度和持续时间。 RESULTS: 共分析了201名患者（MS-NMB组，n=102；MD-NMB组，n=99）。MD-NMB组OCR等级≥2的发生率低于MS-NMB组（30.3%对53.9%；比值比[OR] 0.37；95%置信区间[CI] 0.21-0.66；p=0.001）。MD-NMB组OCR等级≥3的发生率也降低（18.2%对35.3%；OR 0.41，95% CI 0.21-0.78；p=0.007）。在发生OCR的患者中，MD-NMB组心率降低的幅度（34.3% [26.9-42.6%] 对28.0% [18.2-35.9%]；p=0.003）和持续时间（46.0秒 [30.3-65.8秒] 对37.0秒 [17.0-49.5秒]；p=0.024）均较小。 CONCLUSIONS: 与轻度至浅度阻滞相比，中度至深度神经肌肉阻滞显著降低了小儿斜视手术中OCR的发生率和严重程度。这些发现提示，在眼外肌操作期间，更深的神经肌肉阻滞可能代表一种减轻OCR的有效策略。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Park JB, Jung JH, Ji SH, Kim EH, Lee JH, Kim JT, Kim HS, Jang YE",
+      "citation": "Anesthesiology. 2026 Jul 15. doi: 10.1097/ALN.0000000000006256.",
+      "doi": "10.1097/aln.0000000000006256",
+      "pmid": "42461097",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "meshTerms": [],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "clinical-design"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.3,
+        "metricYear": 2024,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "Anesthesiology"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "麻醉学",
+        "Journal Article"
+      ],
+      "question": "眼心反射是小儿斜视手术中常见且可能危险的并发症，本研究首次通过随机对照试验评估了神经肌肉阻滞深度对OCR的影响，为临床麻醉管理提供了新的策略依据。",
+      "conclusion": "与最小至浅度神经肌肉阻滞相比，中度至深度神经肌肉阻滞可显著降低小儿斜视手术中眼心反射（OCR）的发生率及严重程度。",
+      "clinical": "对于小儿斜视手术，采用中度至深度神经肌肉阻滞可能有效降低眼心反射的发生率和严重程度。 麻醉医师在术中处理眼外肌操作时，可考虑维持较深的神经肌肉阻滞水平以预防OCR。",
+      "evidence": "中等",
+      "score": 49,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 8,
+        "clinicalImpact": 9,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "前瞻性、双盲随机对照试验"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "pediatric patients aged 3 to 18 years undergoing strabismus surgery under general anesthesia；204 randomized, 201 analyzed (MS-NMB, n=102; MD-NMB, n=99)"
+        },
+        {
+          "label": "干预与比较",
+          "value": "moderate-to-deep neuromuscular blockade (MD-NMB; train-of-four count 0-3)；对照：minimal-to-shallow neuromuscular blockade (MS-NMB; train-of-four count 4 with ratio <0.9)"
+        },
+        {
+          "label": "主要终点",
+          "value": "incidence of OCR grade >/=2, defined as a >/=20% decrease in heart rate from baseline"
+        }
+      ],
+      "keyPoints": [
+        "MD-NMB组OCR≥2发生率显著低于MS-NMB组（30.3% vs. 53.9%，OR 0.37，95%CI 0.21-0.66，p=0.001）。",
+        "MD-NMB组严重OCR（≥3）发生率也显著降低（18.2% vs. 35.3%，OR 0.41，95%CI 0.21-0.78，p=0.007）。",
+        "在发生OCR的患者中，MD-NMB组心率降低幅度和持续时间均较小。"
+      ],
+      "methods": "虽然神经肌肉阻滞与不使用神经肌肉阻滞相比可降低眼心反射（OCR）的发生率，但阻滞深度对OCR的影响尚未经过前瞻性评估。本研究旨在评估神经肌肉阻滞深度是否影响小儿斜视手术中OCR的发生率。",
+      "results": "共分析201例患者（MS-NMB组n=102，MD-NMB组n=99）。MD-NMB组OCR分级≥2的发生率低于MS-NMB组（30.3% vs. 53.9%；比值比[OR] 0.37；95%置信区间[CI] 0.21-0.66；p=0.001）。MD-NMB组OCR分级≥3的发生率也降低（18.2% vs. 35.3%；OR 0.41，95% CI 0.21-0.78；p=0.007）。在发生OCR的患者中，MD-NMB组心率降低的幅度（34.3% [26.9-42.6%] vs. 28.0% [18.2-35.9%]；p=0.003）和持续时间（46.0秒 [30.3-65.8秒] vs. 37.0秒 [17.0-49.5秒]；p=0.024）均较小。",
+      "mainResults": "共分析201例患者（MS-NMB组n=102，MD-NMB组n=99）。MD-NMB组OCR分级≥2的发生率低于MS-NMB组（30.3% vs. 53.9%；比值比[OR] 0.37；95%置信区间[CI] 0.21-0.66；p=0.001）。MD-NMB组OCR分级≥3的发生率也降低（18.2% vs. 35.3%；OR 0.41，95% CI 0.21-0.78；p=0.007）。在发生OCR的患者中，MD-NMB组心率降低的幅度（34.3% [26.9-42.6%] vs. 28.0% [18.2-35.9%]；p=0.003）和持续时间（46.0秒 [30.3-65.8秒] vs. 37.0秒 [17.0-49.5秒]；p=0.024）均较小。",
+      "limitations": [
+        "当前可获取内容未提供该数据。",
+        "当前可获取内容未提供该数据。"
+      ],
+      "practice": [
+        "对于小儿斜视手术，采用中度至深度神经肌肉阻滞可能有效降低眼心反射的发生率和严重程度。",
+        "麻醉医师在术中处理眼外肌操作时，可考虑维持较深的神经肌肉阻滞水平以预防OCR。"
+      ],
+      "editor": "研究为随机对照试验，结果支持中度至深度神经肌肉阻滞降低OCR发生率和严重程度的结论。 过度解读风险：需注意研究为单中心或特定人群，结果外推需谨慎；且未报告不良事件，安全性需进一步评估。",
+      "whyItMatters": "眼心反射是小儿斜视手术中常见且可能危险的并发症，本研究首次通过随机对照试验评估了神经肌肉阻滞深度对OCR的影响，为临床麻醉管理提供了新的策略依据。",
+      "background": "虽然神经肌肉阻滞与不使用神经肌肉阻滞相比可降低眼心反射（OCR）的发生率，但阻滞深度对OCR的影响尚未经过前瞻性评估。本研究旨在评估神经肌肉阻滞深度是否影响小儿斜视手术中OCR的发生率。",
+      "pico": {
+        "population": "pediatric patients aged 3 to 18 years undergoing strabismus surgery under general anesthesia",
+        "intervention": "moderate-to-deep neuromuscular blockade (MD-NMB; train-of-four count 0-3)",
+        "comparison": "minimal-to-shallow neuromuscular blockade (MS-NMB; train-of-four count 4 with ratio <0.9)",
+        "outcome": "incidence of OCR grade >/=2, defined as a >/=20% decrease in heart rate from baseline"
+      },
+      "studyType": "前瞻性、双盲随机对照试验",
+      "sampleSize": "204 randomized, 201 analyzed (MS-NMB, n=102; MD-NMB, n=99)",
+      "primaryOutcome": "incidence of OCR grade >/=2, defined as a >/=20% decrease in heart rate from baseline",
+      "effectSize": [
+        "OR 0.37",
+        "OR 0.41"
+      ],
+      "confidenceInterval": [
+        "95% CI 0.21-0.66",
+        "95% CI 0.21-0.78"
+      ],
+      "pValue": [
+        "p = 0.001",
+        "p = 0.007",
+        "p=0.003",
+        "p=0.024"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "研究为随机对照试验，结果支持中度至深度神经肌肉阻滞降低OCR发生率和严重程度的结论。",
+        "overinterpretationRisk": "需注意研究为单中心或特定人群，结果外推需谨慎；且未报告不良事件，安全性需进一步评估。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "abstract",
+          "limitations": [
+            "仅基于摘要，未获取全文，无法评估随机化细节、盲法实施、样本量计算、失访等详细信息。",
+            "未报告不良事件和局限性，无法全面评估研究质量。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "神经肌肉阻滞深度是否影响小儿斜视手术中眼心反射的发生率？",
+          "designFit": "随机对照试验设计适合评估干预效果，双盲设计减少偏倚。",
+          "eligibility": "3至18岁接受斜视手术并在全身麻醉下的儿科患者。",
+          "randomization": "随机分配至MD-NMB或MS-NMB组，但摘要未说明随机化方法。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "双盲设计，但未说明具体盲法对象（患者、麻醉医师、评估者）。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "共201例患者纳入分析（MS-NMB n=102，MD-NMB n=99），但未说明是否按意向性治疗分析。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "随机对照试验设计，双盲减少偏倚。",
+            "样本量较大（204例随机，201例分析）。"
+          ],
+          "concerns": [
+            "摘要未报告随机化方法、分配隐藏、样本量计算等关键方法学细节。",
+            "未报告不良事件，安全性信息缺失。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "用于比较组间OCR发生率及心率降低幅度和持续时间。",
+              "reportedResult": "OCR≥2：OR 0.37，95%CI 0.21-0.66，p=0.001；OCR≥3：OR 0.41，95%CI 0.21-0.78，p=0.007；心率降低幅度：34.3% vs. 28.0%，p=0.003；持续时间：46.0s vs. 37.0s，p=0.024。",
+              "interpretation": "MD-NMB组OCR发生率和严重程度显著低于MS-NMB组。",
+              "cautions": [
+                "未报告统计方法的具体名称，无法评估其适用性。",
+                "未报告是否校正多重比较。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "研究结果显示统计学显著差异，但临床意义需结合效应量（OR 0.37和0.41）及绝对风险降低（23.6%和17.1%）评估，可能具有临床意义。"
+        },
+        "outcomeAnalysis": {
+          "primary": "OCR分级≥2的发生率（心率较基线下降≥20%）。",
+          "secondary": [
+            "严重OCR（分级≥3，心率下降≥30%）的发生率。",
+            "心率降低的幅度和持续时间。"
+          ],
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "相对效应：OCR≥2的OR为0.37，OCR≥3的OR为0.41；绝对风险降低：OCR≥2为23.6%，OCR≥3为17.1%。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "随机对照试验设计，双盲减少偏倚。",
+            "样本量较大，结果具有统计学显著性。"
+          ],
+          "limitations": [
+            "仅基于摘要，无法评估方法学细节。",
+            "未报告不良事件，安全性未知。",
+            "未报告局限性，可能遗漏重要信息。"
+          ],
+          "biasRisks": [
+            "随机化方法、分配隐藏未报告，可能存在选择偏倚。",
+            "盲法对象未明确，可能存在实施偏倚。"
+          ],
+          "certainty": "中等，因摘要信息有限，但随机对照设计增加可信度。",
+          "conclusionAlignment": "结论与结果一致，但需注意摘要可能简化了复杂信息。",
+          "causalBoundary": "随机对照设计支持因果推断，但需考虑未测量的混杂因素。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "适用于3至18岁接受斜视手术的儿科患者。",
+            "中度至深度神经肌肉阻滞可能作为预防OCR的策略。"
+          ],
+          "nonApplicability": [
+            "不适用于成人或非斜视手术。",
+            "不适用于神经肌肉阻滞禁忌的患者。"
+          ],
+          "practiceChange": "可能改变临床实践，建议在斜视手术中考虑使用中度至深度神经肌肉阻滞。",
+          "canDoNow": [
+            "在斜视手术中，可考虑使用中度至深度神经肌肉阻滞以降低OCR风险。"
+          ],
+          "cannotConclude": [
+            "不能确定对患者长期预后的影响。",
+            "不能确定最佳阻滞深度阈值。"
+          ],
+          "evidenceGaps": [
+            "需要更多研究验证不同阻滞深度对OCR的影响。",
+            "需要评估不良事件和安全性。",
+            "需要长期随访数据。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42461097/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006256",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006256",
+        "openFullText": null
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-41870345",
+      "number": "04",
+      "category": "疼痛与区域麻醉",
+      "journal": "Anesthesiology",
+      "year": "2026",
+      "publishedDate": "2026-07-01",
+      "electronicPublicationDate": "2026-03-23",
+      "readingTime": "14 分钟",
+      "title": "冷冻神经松解术热曲线：超声引导经皮热电偶的体内描述性数据",
+      "originalTitle": "Cryoneurolysis Thermal Graphs: In Vivo Descriptive Data from Ultrasound-guided Percutaneous Thermocouples.",
+      "abstract": "BACKGROUND: Cryoneurolysis provides analgesia by reversibly ablating peripheral nerves using gas-induced exceptionally low temperature. The desired therapeutic temperature is between approximately -20 degrees C and -100 degrees C. Warmer temperatures can induce a neuropraxia that may itself induce pain; and colder temperatures can result in permanent nerve injury. Therefore, it is imperative that the target nerve reach but not exceed the therapeutic window. METHODS: A convenience sample of participants undergoing mastectomy (n = 3) received a high-thoracic paravertebral nerve block, while subjects being treated for traumatic rib fractures (n = 3) did not. All participants had ultrasound-guided cryoneurolysis of multiple intercostal nerves with a percutaneous thermocouple inserted approximately 3 mm adjacent to the cryoprobe shaft. The returning argon gas and tissue temperatures were correlated. Due to the limited sample size, the data are presented and not statistically analyzed. RESULTS: Although in all cases (31 nerves) the returning gas was ultimately colder than -80 degrees C, the tissue adjacent to the probe did not reach -20 degrees C after 3 and 5 min in 71% (n = 5) and 42% (n = 10) of treatments, respectively. The coldest mean temperature in adjacent tissue was 60 degrees C warmer than the returning gas with out a nerve block, and 95 degrees C warmer with a concurrent nerve block. When treating adjacent intercostal nerves, the gas temperature remained unchanged, while the tissue became colder with each consecutive treatment. CONCLUSIONS: During percutaneous cryoneurolysis, the temperature of tissue is frequently deceptively warm relative to the returning gas and tissue frequently does not reach an adequately cold temperature; prolonging gas treatment from 3 to 5 min improves the success of reaching therapeutic temperatures; the presence of a peripheral nerve block appears to lessen the chance of reaching therapeutic temperatures; and caution is warranted when treating consecutive intercostal nerves as tissue temperature may decrease with each level.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "冷冻神经松解术通过使用气体诱导的极低温度可逆性地消融周围神经来提供镇痛。理想的治疗温度大约在-20摄氏度至-100摄氏度之间。较暖的温度可诱发神经失用症，其本身可能引起疼痛；而较冷的温度可能导致永久性神经损伤。因此，靶神经必须达到但不能超过治疗窗口至关重要。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "一项便利样本中，接受乳房切除术的参与者（n=3）接受了高位胸椎旁神经阻滞，而因创伤性肋骨骨折接受治疗的受试者（n=3）未接受阻滞。所有参与者均在超声引导下对多条肋间神经进行冷冻神经松解术，经皮热电偶插入距冷冻探针杆约3毫米处。回流的氩气和组织温度被关联。由于样本量有限，数据仅呈现而未进行统计分析。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "尽管在所有病例（31条神经）中，回流气体最终低于-80摄氏度，但在3分钟和5分钟时，探针旁组织分别有71%（n=5）和42%（n=10）的治疗未达到-20摄氏度。无神经阻滞时，邻近组织的最低平均温度比回流气体高60摄氏度；有并发神经阻滞时，则高95摄氏度。在治疗相邻肋间神经时，气体温度保持不变，而组织温度随着每次连续治疗而变得更冷。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "在经皮冷冻神经松解术中，组织温度相对于回流气体常常具有欺骗性的温暖，且组织经常无法达到足够冷的温度；将气体治疗时间从3分钟延长至5分钟可提高达到治疗温度的成功率；存在周围神经阻滞似乎降低了达到治疗温度的机会；在治疗连续肋间神经时应谨慎，因为组织温度可能随每个节段而降低。"
+          }
+        ],
+        "fullText": "BACKGROUND: Cryoneurolysis provides analgesia by reversibly ablating peripheral nerves using gas-induced exceptionally low temperature. The desired therapeutic temperature is between approximately -20 degrees C and -100 degrees C. Warmer temperatures can induce a neuropraxia that may itself induce pain; and colder temperatures can result in permanent nerve injury. Therefore, it is imperative that the target nerve reach but not exceed the therapeutic window. METHODS: A convenience sample of participants undergoing mastectomy (n = 3) received a high-thoracic paravertebral nerve block, while subjects being treated for traumatic rib fractures (n = 3) did not. All participants had ultrasound-guided cryoneurolysis of multiple intercostal nerves with a percutaneous thermocouple inserted approximately 3 mm adjacent to the cryoprobe shaft. The returning argon gas and tissue temperatures were correlated. Due to the limited sample size, the data are presented and not statistically analyzed. RESULTS: Although in all cases (31 nerves) the returning gas was ultimately colder than -80 degrees C, the tissue adjacent to the probe did not reach -20 degrees C after 3 and 5 min in 71% (n = 5) and 42% (n = 10) of treatments, respectively. The coldest mean temperature in adjacent tissue was 60 degrees C warmer than the returning gas with out a nerve block, and 95 degrees C warmer with a concurrent nerve block. When treating adjacent intercostal nerves, the gas temperature remained unchanged, while the tissue became colder with each consecutive treatment. CONCLUSIONS: During percutaneous cryoneurolysis, the temperature of tissue is frequently deceptively warm relative to the returning gas and tissue frequently does not reach an adequately cold temperature; prolonging gas treatment from 3 to 5 min improves the success of reaching therapeutic temperatures; the presence of a peripheral nerve block appears to lessen the chance of reaching therapeutic temperatures; and caution is warranted when treating consecutive intercostal nerves as tissue temperature may decrease with each level.",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Ilfeld BM, Abdullah B, Pham JP, Gandhi R, Finneran JJ 4th",
+      "citation": "Anesthesiology. 2026 Jul 1;145(1):111-119. doi: 10.1097/ALN.0000000000006059. Epub 2026 Mar 23.",
+      "doi": "10.1097/aln.0000000000006059",
+      "pmid": "41870345",
+      "pmcid": "PMC13245926",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "meshTerms": [
+        "Humans",
+        "*Ultrasonography, Interventional/methods",
+        "Female",
+        "*Nerve Block/methods",
+        "*Intercostal Nerves/diagnostic imaging",
+        "Middle Aged",
+        "*Cryotherapy/methods",
+        "Mastectomy",
+        "*Cryosurgery/methods/instrumentation"
+      ],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "human-study"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.3,
+        "metricYear": 2024,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "Anesthesiology"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "疼痛与区域麻醉",
+        "Journal Article"
+      ],
+      "question": "冷冻神经松解术通过气体诱导的极低温度可逆性消融周围神经以提供镇痛，但目标神经必须达到且不超过治疗窗（约-20°C至-100°C），否则可能导致神经失用症（本身可诱发疼痛）或永久性神经损伤。该研究提供了体内组织温度与返回气体温度差异的描述性数据，提示临床实践中可能存在的温度监测盲区，对优化冷冻神经松解术参数具有潜在意义。",
+      "conclusion": "在经皮冷冻神经松解术中，组织温度常相对于返回气体温度显得“欺骗性”温暖，且组织常未达到足够冷的治疗温度；将气体治疗时间从3分钟延长至5分钟可提高达到治疗温度的成功率；存在周围神经阻滞似乎降低达到治疗温度的机会；治疗连续肋间神经时，组织温度可能随每个水平而降低，需谨慎。",
+      "clinical": "在冷冻神经松解术中，依赖返回气体温度可能高估组织冷却效果，临床医生应意识到组织温度可能未达到治疗窗。 延长冷冻时间（从3分钟至5分钟）可能提高达到治疗温度的成功率，但需权衡操作时间与患者耐受性。 存在周围神经阻滞时，组织温度可能更难达到治疗窗，需考虑阻滞对组织灌注或温度传导的影响。 连续治疗相邻肋间神经时，组织温度可能逐渐降低，需警惕累积冷却效应导致组织过冷风险。",
+      "evidence": "中等",
+      "score": 49,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 8,
+        "clinicalImpact": 9,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "回顾性分析来自两项前瞻性临床试验的数据。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Participants undergoing mastectomy (n=3) and subjects with traumatic rib fractures (n=3)；6 participants, 31 intercostal nerves"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Ultrasound-guided percutaneous cryoneurolysis of intercostal nerves with a thermocouple inserted approximately 3 mm adjacent to the cryoprobe shaft；对照：Cryoneurolysis with (mastectomy group) versus without (rib fracture group) a peripheral nerve block"
+        },
+        {
+          "label": "主要终点",
+          "value": "Tissue temperature adjacent to the cryoprobe compared to returning argon gas temperature"
+        }
+      ],
+      "keyPoints": [
+        "所有31条神经的返回气体温度均低于-80°C，但组织温度在3分钟和5分钟时未达到-20°C的比例分别为71%和42%。",
+        "无神经阻滞时，组织最冷平均温度比返回气体高60°C；有神经阻滞时高95°C。",
+        "延长冷冻时间从3分钟至5分钟可提高达到治疗温度的成功率。",
+        "治疗连续肋间神经时，组织温度可能随每次治疗而降低。",
+        "数据未进行统计分析，样本量有限，结果需谨慎解读。"
+      ],
+      "methods": "冷冻神经松解术通过气体诱导的极低温度可逆性消融周围神经以提供镇痛。期望的治疗温度约为-20°C至-100°C。较暖的温度可诱发神经失用症，其本身可能诱发疼痛；较冷的温度可导致永久性神经损伤。因此，目标神经必须达到但不超过治疗窗。",
+      "results": "在所有31条神经中，返回气体最终均低于-80°C，但探针旁组织在3分钟和5分钟时未达到-20°C的治疗比例分别为71%（n=5）和42%（n=10）。无神经阻滞时，组织最冷平均温度比返回气体高60°C；有神经阻滞时高95°C。治疗相邻肋间神经时，气体温度保持不变，而组织温度随每次连续治疗而降低。样本量有限，数据未进行统计分析。",
+      "mainResults": "在所有31条神经中，返回气体最终均低于-80°C，但探针旁组织在3分钟和5分钟时未达到-20°C的治疗比例分别为71%（n=5）和42%（n=10）。无神经阻滞时，组织最冷平均温度比返回气体高60°C；有神经阻滞时高95°C。治疗相邻肋间神经时，气体温度保持不变，而组织温度随每次连续治疗而降低。样本量有限，数据未进行统计分析。",
+      "limitations": [
+        "回顾性分析性质。",
+        "患者和神经样本量有限。",
+        "数据未进行统计分析。",
+        "组间存在潜在混杂（乳房切除术组有阻滞 vs. 肋骨骨折组无阻滞）。",
+        "超声引导下热电偶放置可能存在距离变异性。",
+        "具体数值仅适用于所使用的设备和方案。"
+      ],
+      "practice": [
+        "在冷冻神经松解术中，依赖返回气体温度可能高估组织冷却效果，临床医生应意识到组织温度可能未达到治疗窗。",
+        "延长冷冻时间（从3分钟至5分钟）可能提高达到治疗温度的成功率，但需权衡操作时间与患者耐受性。",
+        "存在周围神经阻滞时，组织温度可能更难达到治疗窗，需考虑阻滞对组织灌注或温度传导的影响。",
+        "连续治疗相邻肋间神经时，组织温度可能逐渐降低，需警惕累积冷却效应导致组织过冷风险。"
+      ],
+      "editor": "研究结果支持延长冷冻时间可能提高达到治疗温度的成功率，以及神经阻滞可能影响组织温度达到治疗窗的假设，但证据等级较低，需前瞻性验证。 过度解读风险：由于样本量小且未进行统计分析，结果可能受随机误差和混杂因素影响，不应过度解读为确定性结论。",
+      "whyItMatters": "冷冻神经松解术通过气体诱导的极低温度可逆性消融周围神经以提供镇痛，但目标神经必须达到且不超过治疗窗（约-20°C至-100°C），否则可能导致神经失用症（本身可诱发疼痛）或永久性神经损伤。该研究提供了体内组织温度与返回气体温度差异的描述性数据，提示临床实践中可能存在的温度监测盲区，对优化冷冻神经松解术参数具有潜在意义。",
+      "background": "冷冻神经松解术通过气体诱导的极低温度可逆性消融周围神经以提供镇痛。期望的治疗温度约为-20°C至-100°C。较暖的温度可诱发神经失用症，其本身可能诱发疼痛；较冷的温度可导致永久性神经损伤。因此，目标神经必须达到但不超过治疗窗。",
+      "pico": {
+        "population": "Participants undergoing mastectomy (n=3) and subjects with traumatic rib fractures (n=3)",
+        "intervention": "Ultrasound-guided percutaneous cryoneurolysis of intercostal nerves with a thermocouple inserted approximately 3 mm adjacent to the cryoprobe shaft",
+        "comparison": "Cryoneurolysis with (mastectomy group) versus without (rib fracture group) a peripheral nerve block",
+        "outcome": "Tissue temperature adjacent to the cryoprobe compared to returning argon gas temperature"
+      },
+      "studyType": "回顾性分析来自两项前瞻性临床试验的数据。",
+      "sampleSize": "6 participants, 31 intercostal nerves",
+      "primaryOutcome": "Tissue temperature adjacent to the cryoprobe compared to returning argon gas temperature",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "研究结果支持延长冷冻时间可能提高达到治疗温度的成功率，以及神经阻滞可能影响组织温度达到治疗窗的假设，但证据等级较低，需前瞻性验证。",
+        "overinterpretationRisk": "由于样本量小且未进行统计分析，结果可能受随机误差和混杂因素影响，不应过度解读为确定性结论。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text_excerpt",
+          "limitations": [
+            "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节和完整结果数据。",
+            "未提供效应量、置信区间和P值。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "在经皮冷冻神经松解术中，组织温度与返回气体温度的关系如何？",
+          "designFit": "回顾性分析两项前瞻性试验的数据，适合描述性研究，但因果推断受限。",
+          "eligibility": "当前可获取内容未提供该数据。",
+          "randomization": "当前可获取内容未提供该数据。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "当前可获取内容未提供该数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "6名参与者，31条肋间神经。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "提供了体内组织温度与返回气体温度的直接比较数据。",
+            "涉及临床相关场景（乳房切除术和肋骨骨折）。"
+          ],
+          "concerns": [
+            "样本量小，未进行统计分析。",
+            "组间混杂（神经阻滞状态不同）。",
+            "热电偶放置距离可能存在变异性。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "由于样本量有限，数据仅以描述性方式呈现，未进行统计分析。",
+              "reportedResult": "未提供效应量、置信区间或P值。",
+              "interpretation": "无法评估差异的统计学显著性。",
+              "cautions": [
+                "描述性结果不能用于推断总体效应。",
+                "缺乏统计推断，结果可能受随机误差影响。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "未进行正式亚组分析，但比较了有神经阻滞（乳房切除术组）与无神经阻滞（肋骨骨折组）的组织温度差异。",
+          "clinicalVsStatisticalSignificance": "由于未进行统计分析，无法区分统计学差异与临床获益。"
+        },
+        "outcomeAnalysis": {
+          "primary": "组织温度与返回气体温度的比较。",
+          "secondary": [
+            "未达到-20°C的治疗比例（3分钟和5分钟）。",
+            "最冷平均组织温度与返回气体的差异。",
+            "冷冻持续时间对组织温度的影响。",
+            "神经阻滞对组织温度的影响。",
+            "连续肋间神经治疗时组织温度的变化。"
+          ],
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "当前可获取内容未提供该数据。",
+          "subgroupAndInteraction": "亚组比较（有阻滞 vs. 无阻滞）显示组织温度差异，但未进行交互作用检验。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "提供了体内温度监测的直接数据。",
+            "结果提示临床实践中可能存在的温度监测盲区。"
+          ],
+          "limitations": [
+            "回顾性设计，样本量小。",
+            "未进行统计分析。",
+            "组间混杂。",
+            "热电偶放置距离可能不精确。"
+          ],
+          "biasRisks": [
+            "选择偏倚：便利样本。",
+            "测量偏倚：热电偶放置距离变异性。",
+            "混杂偏倚：组间神经阻滞状态不同。"
+          ],
+          "certainty": "低确定性：由于样本量小和缺乏统计分析，结果可能不可靠。",
+          "conclusionAlignment": "结论与结果一致，但需谨慎解读。",
+          "causalBoundary": "观察性关联，不能推断因果关系。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "结果可能适用于使用类似设备和方案的经皮冷冻神经松解术。",
+            "提示临床医生应关注组织温度而非仅依赖返回气体温度。"
+          ],
+          "nonApplicability": [
+            "结果可能不适用于其他冷冻设备或不同解剖部位。",
+            "样本量小，外推受限。"
+          ],
+          "practiceChange": "当前证据不足以支持改变临床实践，但提示需进一步研究。",
+          "canDoNow": [
+            "临床医生可考虑延长冷冻时间至5分钟以提高达到治疗温度的可能性。",
+            "在存在神经阻滞时，可能需要更长的冷冻时间或调整参数。"
+          ],
+          "cannotConclude": [
+            "不能确定最佳冷冻时间或参数。",
+            "不能确定神经阻滞对组织温度影响的确切机制。"
+          ],
+          "evidenceGaps": [
+            "需要更大样本的前瞻性研究。",
+            "需要标准化热电偶放置方法。",
+            "需要评估不同设备和方案下的温度变化。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41870345/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006059",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006059",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13245926/"
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-42127247",
+      "number": "05",
+      "category": "麻醉学",
+      "journal": "Anesthesiology",
+      "year": "2026",
+      "publishedDate": "2026-07-29",
+      "electronicPublicationDate": "2026-07-29",
+      "readingTime": "11 分钟",
+      "title": "麻醉工作站在小儿通气中的性能：第2部分——压力支持通气期间的特征与氧浓度上升时间",
+      "originalTitle": "Anesthesia Workstation Performance in Pediatric Ventilation: Part 2. Characteristics during Pressure Support Ventilation and Oxygen Rise Times.",
+      "abstract": "BACKGROUND: Modern anesthesia workstations include various ventilator technologies, but the effects on pediatric ventilation are unclear. The hypothesis of this study was that performance during pressure support ventilation and times to increase oxygen concentrations depend on the type of anesthesia workstation. METHODS: Six modern anesthesia workstations (GE HealthCare Carestation 650; Mindray Bio-Medical Electronics Co. Ltd. Wato EX-65 Pro and A9; Drager Medical Atlan A350 and Perseus A500; and Getinge Flow-c) were evaluated in respiratory models of a preterm baby, a neonate, an infant, and a toddler. Trigger response rates, trigger delay, and time to reach 50% of peak inspiratory pressure during pressure support ventilation were compared. Furthermore, the times required to increase oxygen concentration from 21 to 90% during pressure-controlled ventilation at fresh gas flows of 1, 3, and 10 l . min -1 were assessed in a compartment of the lung models with the volume corresponding to the respective model's functional residual capacity. RESULTS: Trigger response rates were above 90%, with few exceptions. Trigger delays ranged between 73 +/- 6 and 145 +/- 0 ms. Times to reach 50% peak pressure ranged between 161 +/- 1 and 312 +/- 1 ms, with decreasing variability in the larger patient models. Oxygen rise time varied between 94 +/- 3 and 615 +/- 60 s at the lowest fresh gas flow and decreased with increasing fresh gas flow to 3 l . min -1 and less so with further increasing fresh gas flow to 10 l . min -1 . Activation of oxygen flush did not generally increase oxygen concentration but caused relevant airway pressure increases in some devices. CONCLUSIONS: Modern anesthesia workstations show an overall good performance during pressure support ventilation of children. During pressure-controlled ventilation, a moderate increase of fresh gas flow accelerated the rise in oxygen concentration, depending on the device. Oxygen flush brings no advantage in this regard but may put the patient at risk of high airway pressure.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "现代麻醉工作站包含多种呼吸机技术，但其对儿科通气的影响尚不清楚。本研究的假设是，在压力支持通气期间的表现以及增加氧浓度的时间取决于麻醉工作站的类型。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "在早产儿、新生儿、婴儿和幼儿的呼吸模型中评估了六种现代麻醉工作站（GE HealthCare Carestation 650；迈瑞生物医疗电子有限公司 Wato EX-65 Pro 和 A9；德尔格医疗 Atlan A350 和 Perseus A500；以及 Getinge Flow-c）。比较了压力支持通气期间的触发响应率、触发延迟以及达到吸气峰压50%的时间。此外，在肺模型的一个隔室中，其容积对应于相应模型的功能残气量，评估了在新鲜气体流量为1、3和10升/分钟的压力控制通气期间，氧浓度从21%增加到90%所需的时间。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "触发响应率高于90%，仅有少数例外。触发延迟范围为73±6至145±0毫秒。达到50%峰压的时间范围为161±1至312±1毫秒，在较大的患者模型中变异性减小。在最低新鲜气体流量下，氧上升时间在94±3至615±60秒之间变化，并随着新鲜气体流量增加到3升/分钟而减少，进一步增加到10升/分钟时减少程度较小。氧冲洗的激活通常不会增加氧浓度，但在某些设备中会导致气道压力显著升高。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "现代麻醉工作站在小儿压力支持通气期间表现出整体良好的性能。在压力控制通气期间，适度增加新鲜气体流量可加速氧浓度的上升，具体取决于设备。氧冲洗在这方面没有优势，但可能使患者面临高气道压力的风险。"
+          }
+        ],
+        "fullText": "BACKGROUND: 现代麻醉工作站包含多种呼吸机技术，但其对儿科通气的影响尚不清楚。本研究的假设是，在压力支持通气期间的表现以及增加氧浓度的时间取决于麻醉工作站的类型。METHODS: 在早产儿、新生儿、婴儿和幼儿的呼吸模型中评估了六种现代麻醉工作站（GE HealthCare Carestation 650；迈瑞生物医疗电子有限公司 Wato EX-65 Pro 和 A9；德尔格医疗 Atlan A350 和 Perseus A500；以及 Getinge Flow-c）。比较了压力支持通气期间的触发响应率、触发延迟以及达到吸气峰压50%的时间。此外，在肺模型的一个隔室中，其容积对应于相应模型的功能残气量，评估了在新鲜气体流量为1、3和10升/分钟的压力控制通气期间，氧浓度从21%增加到90%所需的时间。RESULTS: 触发响应率高于90%，仅有少数例外。触发延迟范围为73±6至145±0毫秒。达到50%峰压的时间范围为161±1至312±1毫秒，在较大的患者模型中变异性减小。在最低新鲜气体流量下，氧上升时间在94±3至615±60秒之间变化，并随着新鲜气体流量增加到3升/分钟而减少，进一步增加到10升/分钟时减少程度较小。氧冲洗的激活通常不会增加氧浓度，但在某些设备中会导致气道压力显著升高。CONCLUSIONS: 现代麻醉工作站在小儿压力支持通气期间表现出整体良好的性能。在压力控制通气期间，适度增加新鲜气体流量可加速氧浓度的上升，具体取决于设备。氧冲洗在这方面没有优势，但可能使患者面临高气道压力的风险。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Spaeth J, Trost M, Flamm B, Wenzel C, Schumann S",
+      "citation": "Anesthesiology. 2026 Jul 29. doi: 10.1097/ALN.0000000000006150.",
+      "doi": "10.1097/aln.0000000000006150",
+      "pmid": "42127247",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "meshTerms": [],
+      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "clinical-design"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.3,
+        "metricYear": 2024,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "Anesthesiology"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "麻醉学",
+        "Journal Article"
+      ],
+      "question": "小儿麻醉中，通气支持的质量和氧浓度调整速度直接影响患儿安全。不同麻醉工作站的性能差异可能影响通气效果和氧合管理，了解这些差异有助于临床设备选择和使用优化。",
+      "conclusion": "现代麻醉工作站在小儿压力支持通气中总体表现良好，但氧浓度上升时间受新鲜气体流量和设备类型影响，且氧冲洗可能增加气道压力风险。",
+      "clinical": "现代麻醉工作站在小儿压力支持通气中总体表现良好，但不同设备在触发延迟和压力上升时间上存在差异，可能影响通气同步性和患者舒适度。 在压力控制通气中，适度增加新鲜气体流量（如从1 L/min增至3 L/min）可加速氧浓度上升，但进一步增加至10 L/min获益有限，临床可根据设备特性优化流量设置。 氧冲洗并不增加氧浓度，反而可能引起气道压力升高，应谨慎使用，尤其在儿科患者中。",
+      "evidence": "中等",
+      "score": 47,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 8,
+        "clinicalImpact": 7,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "观察性研究（基于呼吸模型的实验室评估）"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "respiratory models of a preterm baby, a neonate, an infant, and a toddler；当前可获取内容未提供该数据。"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Six modern anesthesia workstations (GE HealthCare Carestation 650; Mindray Bio-Medical Electronics Co. Ltd. Wato EX-65 Pro and A9; Drager Medical Atlan A350 and Perseus A500; and Getinge Flow-c)；对照：当前可获取内容未提供该数据。"
+        },
+        {
+          "label": "主要终点",
+          "value": "Trigger response rates, trigger delay, and time to reach 50% of peak inspiratory pressure during pressure support ventilation"
+        }
+      ],
+      "keyPoints": [
+        "六种现代麻醉工作站在小儿呼吸模型中的触发响应率大多高于90%。",
+        "触发延迟范围为73±6至145±0 ms，达到50%峰值压力时间范围为161±1至312±1 ms。",
+        "氧浓度上升时间在最低新鲜气体流量下为94±3至615±60 s，增加流量可缩短时间。",
+        "氧冲洗未提高氧浓度，但可能引起气道压力升高。"
+      ],
+      "methods": "现代麻醉工作站包含多种通气技术，但其对小儿通气的影响尚不明确。本研究假设压力支持通气期间的表现和氧浓度上升时间取决于麻醉工作站类型。",
+      "results": "触发响应率大多高于90%，触发延迟范围为73±6至145±0 ms，达到50%峰值压力时间范围为161±1至312±1 ms，较大患儿模型变异性减小。在最低新鲜气体流量下，氧浓度上升时间在94±3至615±60 s之间，随新鲜气体流量增加至3 L/min而缩短，进一步增加至10 L/min时缩短程度减小。氧冲洗激活并未普遍提高氧浓度，但在某些设备中导致明显的气道压力升高。样本量、主要终点效应量、95%置信区间和P值均未报告。",
+      "mainResults": "触发响应率大多高于90%，触发延迟范围为73±6至145±0 ms，达到50%峰值压力时间范围为161±1至312±1 ms，较大患儿模型变异性减小。在最低新鲜气体流量下，氧浓度上升时间在94±3至615±60 s之间，随新鲜气体流量增加至3 L/min而缩短，进一步增加至10 L/min时缩短程度减小。氧冲洗激活并未普遍提高氧浓度，但在某些设备中导致明显的气道压力升高。样本量、主要终点效应量、95%置信区间和P值均未报告。",
+      "limitations": [
+        "当前可获取内容未提供该数据。",
+        "基于呼吸模型的研究，结果可能不能完全反映临床实际情况。",
+        "未报告样本量、效应量、置信区间和P值，无法评估统计学差异的精确性。"
+      ],
+      "practice": [
+        "现代麻醉工作站在小儿压力支持通气中总体表现良好，但不同设备在触发延迟和压力上升时间上存在差异，可能影响通气同步性和患者舒适度。",
+        "在压力控制通气中，适度增加新鲜气体流量（如从1 L/min增至3 L/min）可加速氧浓度上升，但进一步增加至10 L/min获益有限，临床可根据设备特性优化流量设置。",
+        "氧冲洗并不增加氧浓度，反而可能引起气道压力升高，应谨慎使用，尤其在儿科患者中。"
+      ],
+      "editor": "研究结果支持麻醉工作站性能存在设备间差异，且新鲜气体流量影响氧浓度上升时间，但缺乏统计学细节，证据强度有限。 过度解读风险：由于未报告效应量和置信区间，且为模型研究，应避免将结果直接外推至临床患者，尤其关于氧冲洗的风险需谨慎解读。",
+      "whyItMatters": "小儿麻醉中，通气支持的质量和氧浓度调整速度直接影响患儿安全。不同麻醉工作站的性能差异可能影响通气效果和氧合管理，了解这些差异有助于临床设备选择和使用优化。",
+      "background": "现代麻醉工作站包含多种通气技术，但其对小儿通气的影响尚不明确。本研究假设压力支持通气期间的表现和氧浓度上升时间取决于麻醉工作站类型。",
+      "pico": {
+        "population": "respiratory models of a preterm baby, a neonate, an infant, and a toddler",
+        "intervention": "Six modern anesthesia workstations (GE HealthCare Carestation 650; Mindray Bio-Medical Electronics Co. Ltd. Wato EX-65 Pro and A9; Drager Medical Atlan A350 and Perseus A500; and Getinge Flow-c)",
+        "comparison": "当前可获取内容未提供该数据。",
+        "outcome": "Trigger response rates, trigger delay, and time to reach 50% of peak inspiratory pressure during pressure support ventilation"
+      },
+      "studyType": "观察性研究（基于呼吸模型的实验室评估）",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "Trigger response rates, trigger delay, and time to reach 50% of peak inspiratory pressure during pressure support ventilation",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "adverseEvents": "Activation of oxygen flush caused relevant airway pressure increases in some devices.",
+      "aiAssessment": {
+        "support": "研究结果支持麻醉工作站性能存在设备间差异，且新鲜气体流量影响氧浓度上升时间，但缺乏统计学细节，证据强度有限。",
+        "overinterpretationRisk": "由于未报告效应量和置信区间，且为模型研究，应避免将结果直接外推至临床患者，尤其关于氧冲洗的风险需谨慎解读。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "abstract",
+          "limitations": [
+            "仅基于摘要，无法获取完整方法学细节、样本量计算、统计方法、局限性讨论等。",
+            "未报告效应量、置信区间和P值，无法进行精确的统计学评估。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "现代麻醉工作站在压力支持通气期间的表现和氧浓度上升时间是否取决于工作站类型？",
+          "designFit": "观察性研究设计适用于评估设备性能差异，但缺乏随机化和对照，可能引入选择偏倚。",
+          "eligibility": "当前可获取内容未提供该数据。",
+          "randomization": "当前可获取内容未提供该数据。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "当前可获取内容未提供该数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "不适用（实验室模型研究）。",
+          "analysisPopulation": "早产儿、新生儿、婴儿和幼儿的呼吸模型。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "评估了多种现代麻醉工作站，覆盖不同品牌和型号。",
+            "使用不同年龄段的呼吸模型，增加了结果的代表性。"
+          ],
+          "concerns": [
+            "未报告样本量计算和统计方法。",
+            "未提供效应量和置信区间，无法评估临床意义。",
+            "模型研究可能无法完全模拟临床复杂情况。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+              "reportedResult": "触发响应率、触发延迟、压力上升时间、氧浓度上升时间等描述性数据。",
+              "interpretation": "由于未报告统计方法，无法评价结果的统计学可靠性。",
+              "cautions": [
+                "无法确定是否进行了组间比较或调整混杂因素。",
+                "缺乏置信区间和P值，无法判断差异是否具有统计学意义。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "摘要中未报告统计学显著性，仅提供描述性数据，无法区分统计学差异与临床获益。"
+        },
+        "outcomeAnalysis": {
+          "primary": "压力支持通气期间的触发响应率、触发延迟和达到50%峰值吸气压力的时间。",
+          "secondary": [
+            "压力控制通气下新鲜气体流量为1、3、10 L/min时氧浓度从21%升至90%所需时间。"
+          ],
+          "safety": "氧冲洗激活在某些设备中导致明显的气道压力升高。",
+          "absoluteVsRelative": "当前可获取内容未提供该数据。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "多设备比较，覆盖主流品牌。",
+            "使用不同年龄段的呼吸模型，结果具有一定代表性。"
+          ],
+          "limitations": [
+            "仅基于摘要，缺乏方法学细节。",
+            "未报告样本量、效应量、置信区间和P值。",
+            "模型研究可能无法完全反映临床实际情况。"
+          ],
+          "biasRisks": [
+            "选择偏倚：设备选择可能不具代表性。",
+            "测量偏倚：模型测量可能无法完全模拟临床条件。"
+          ],
+          "certainty": "低，由于缺乏统计学细节和完整方法学，证据确定性有限。",
+          "conclusionAlignment": "结论与结果一致，但缺乏统计学支持。",
+          "causalBoundary": "观察性研究，不能推断因果关系，仅能提示设备性能差异。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "结果可能适用于使用类似麻醉工作站的儿科麻醉场景。",
+            "提示在压力控制通气中适度增加新鲜气体流量可加速氧浓度上升。"
+          ],
+          "nonApplicability": [
+            "结果基于模型，可能不适用于所有临床患者，尤其是存在肺部疾病的患儿。",
+            "氧冲洗的风险提示可能因设备而异，需谨慎解读。"
+          ],
+          "practiceChange": "当前证据不足以支持立即改变临床实践，但可提醒麻醉医生关注设备差异和氧冲洗风险。",
+          "canDoNow": [
+            "在临床中，可考虑根据设备特性调整新鲜气体流量以优化氧浓度上升时间。",
+            "避免常规使用氧冲洗，尤其在儿科患者中，需监测气道压力。"
+          ],
+          "cannotConclude": [
+            "无法确定哪种设备最优，因为缺乏统计学比较。",
+            "无法确定氧冲洗导致的气道压力升高是否具有临床危害。"
+          ],
+          "evidenceGaps": [
+            "需要临床研究验证模型结果。",
+            "需要报告效应量、置信区间和P值。",
+            "需要评估不同设备在真实患者中的性能。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42127247/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006150",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006150",
         "openFullText": null
       }
     }
