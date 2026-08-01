@@ -108,3 +108,44 @@ export function selectDailyArticles(records, scoringConfig) {
 
   return { selected: selected.slice(0, scoringConfig.dailyLimit), ranked, summary, candidatePool, compositionSatisfied };
 }
+
+export async function fillSelectedSlotsWithCategoryFallback({ selected, ranked, processCandidate }) {
+  if (typeof processCandidate !== "function") throw new TypeError("processCandidate must be a function");
+  const reservedPmids = new Set(selected.map(record => record.pmid));
+  const fallbackQueues = new Map();
+  for (const record of ranked) {
+    const category = record.researchCategory?.id;
+    if (!category || reservedPmids.has(record.pmid)) continue;
+    if (!fallbackQueues.has(category)) fallbackQueues.set(category, []);
+    fallbackQueues.get(category).push(record);
+  }
+
+  const results = [];
+  const attempts = [];
+  for (const primary of selected) {
+    const category = primary.researchCategory?.id;
+    let candidate = primary;
+    let completed = false;
+    while (candidate) {
+      const isFallback = candidate.pmid !== primary.pmid;
+      try {
+        const value = await processCandidate(candidate, { primary, category, isFallback });
+        attempts.push({ pmid: candidate.pmid, primaryPmid: primary.pmid, category, isFallback, status: "success" });
+        results.push({ primary, candidate, value, isFallback });
+        completed = true;
+        break;
+      } catch (error) {
+        attempts.push({ pmid: candidate.pmid, primaryPmid: primary.pmid, category, isFallback, status: "failed", error: error.message });
+        candidate = fallbackQueues.get(category)?.shift() || null;
+      }
+    }
+    if (!completed) results.push({ primary, candidate: null, value: null, isFallback: false });
+  }
+
+  return {
+    results,
+    attempts,
+    complete: results.every(result => result.candidate && result.value !== null),
+    successful: results.filter(result => result.candidate && result.value !== null),
+  };
+}
