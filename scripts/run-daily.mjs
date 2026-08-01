@@ -7,7 +7,7 @@ import { enrichFromCrossref } from "../src/literature/crossref.mjs";
 import { deduplicate, formalPublicationHistory } from "../src/literature/dedupe.mjs";
 import { scoreArticle } from "../src/literature/scoring.mjs";
 import { screenByJournalImpactFactor, summarizeJournalAudit } from "../src/literature/journal-metrics.mjs";
-import { selectDailyArticles } from "../src/literature/selection.mjs";
+import { fillSelectedSlotsWithCategoryFallback, selectDailyArticles } from "../src/literature/selection.mjs";
 import { configuredSearchWindows, selectionNeedsExpansion } from "../src/literature/window-policy.mjs";
 import { metadataOnlyAnalysis, toWebArticle } from "../src/literature/transform.mjs";
 import { readJson, writeJsonAtomic } from "../src/literature/storage.mjs";
@@ -154,24 +154,19 @@ const scored = selection.selected;
 
 if (!scored.length) throw new Error(`No eligible PubMed articles found after deduplication, Journal Impact Factor > ${journalMetricConfig.minimumImpactFactor} screening, and scoring.`);
 
-console.log(`[4/6] Enriching ${scored.length} articles with PMC and Crossref metadata...`);
-let enriched = await enrichPmc(scored, env);
-const crossrefEnriched = [];
-for (const record of enriched) {
-  crossrefEnriched.push(await enrichFromCrossref(record, env));
+console.log(`[4/6] Preparing ${scored.length} selected articles with same-category fallbacks...`);
+
+async function enrichCandidate(record) {
+  const [pmcRecord] = await enrichPmc([record], env);
+  const enrichedRecord = await enrichFromCrossref(pmcRecord || record, env);
   await new Promise(resolve => setTimeout(resolve, 120));
+  return enrichedRecord;
 }
-enriched = crossrefEnriched;
 
 const aiService = metadataOnly ? null : createAIService({ rootDir, env, settings: aiSettings });
 const outputArticles = [];
 const runDiagnostics = [];
-const lifecycle = enriched.map(record => ({
-  pmid: record.pmid,
-  doi: record.doi,
-  status: "candidate",
-  transitions: [{ status: "candidate", at: new Date().toISOString() }],
-}));
+const lifecycle = [];
 let totalUsage = { calls: 0, promptTokens: 0, completionTokens: 0, totalTokens: 0 };
 
 function transition(pmid, status, detail = {}) {
@@ -179,6 +174,20 @@ function transition(pmid, status, detail = {}) {
   if (!item) return;
   item.status = status;
   item.transitions.push({ status, at: new Date().toISOString(), ...detail });
+}
+
+function ensureLifecycle(record, detail = {}) {
+  let item = lifecycle.find(candidate => candidate.pmid === record.pmid);
+  if (!item) {
+    item = {
+      pmid: record.pmid,
+      doi: record.doi,
+      status: "candidate",
+      transitions: [{ status: "candidate", at: new Date().toISOString(), ...detail }],
+    };
+    lifecycle.push(item);
+  }
+  return item;
 }
 
 function validateGeneratedArticle(article) {
@@ -192,36 +201,43 @@ function validateGeneratedArticle(article) {
 }
 
 console.log(aiService ? `[5/6] Running ${aiService.config.provider}/${aiService.config.model} extraction, synthesis and quality control...` : "[5/6] AI key unavailable: producing a clearly marked metadata-only live preview...");
-for (let index = 0; index < enriched.length; index += 1) {
-  const record = enriched[index];
-  try {
-    const fullText = aiService && record.pmcLive ? await fetchPmcFullText({ pmcid: record.pmcid, env }) : null;
-    const analysis = aiService
-      ? await analyzeArticle({
-          record,
-          fullText,
-          generateAI: aiService.generateAI,
-          maxInputChars: aiService.config.maxInputChars,
-        })
-      : metadataOnlyAnalysis(record);
-    if (aiService) transition(record.pmid, "analyzed", { model: analysis.model, basis: analysis.basis });
-    totalUsage = {
-      calls: totalUsage.calls + Number(analysis.usage.calls || 0),
-      promptTokens: totalUsage.promptTokens + analysis.usage.promptTokens,
-      completionTokens: totalUsage.completionTokens + analysis.usage.completionTokens,
-      totalTokens: totalUsage.totalTokens + analysis.usage.totalTokens,
-    };
-    const webArticle = validateGeneratedArticle(toWebArticle(record, analysis, outputArticles.length));
-    outputArticles.push(webArticle);
-    if (aiService) transition(record.pmid, "validated", { qualityPassed: true });
-    runDiagnostics.push({ pmid: record.pmid, status: "ok", model: analysis.model, basis: analysis.basis, qualityPassed: analysis.quality?.overall_pass ?? false });
-  } catch (error) {
-    transition(record.pmid, "failed", { error: error.message });
-    runDiagnostics.push({ pmid: record.pmid, status: "failed", error: error.message });
-    console.error(`  PMID ${record.pmid} failed: ${error.message}`);
-    if (aiService) break;
-  }
-}
+const processing = await fillSelectedSlotsWithCategoryFallback({
+  selected: scored,
+  ranked: selection.ranked,
+  processCandidate: async (candidate, context) => {
+    ensureLifecycle(candidate, { primaryPmid: context.primary.pmid, isFallback: context.isFallback });
+    try {
+      const record = await enrichCandidate(candidate);
+      const fullText = aiService && record.pmcLive ? await fetchPmcFullText({ pmcid: record.pmcid, env }) : null;
+      const analysis = aiService
+        ? await analyzeArticle({
+            record,
+            fullText,
+            generateAI: aiService.generateAI,
+            maxInputChars: aiService.config.maxInputChars,
+          })
+        : metadataOnlyAnalysis(record);
+      if (aiService) transition(record.pmid, "analyzed", { model: analysis.model, basis: analysis.basis });
+      totalUsage = {
+        calls: totalUsage.calls + Number(analysis.usage.calls || 0),
+        promptTokens: totalUsage.promptTokens + analysis.usage.promptTokens,
+        completionTokens: totalUsage.completionTokens + analysis.usage.completionTokens,
+        totalTokens: totalUsage.totalTokens + analysis.usage.totalTokens,
+      };
+      const webArticle = validateGeneratedArticle(toWebArticle(record, analysis, outputArticles.length));
+      outputArticles.push(webArticle);
+      if (aiService) transition(record.pmid, "validated", { qualityPassed: true });
+      runDiagnostics.push({ pmid: record.pmid, primaryPmid: context.primary.pmid, isFallback: context.isFallback, status: "ok", model: analysis.model, basis: analysis.basis, qualityPassed: analysis.quality?.overall_pass ?? false });
+      if (context.isFallback) console.warn(`  PMID ${context.primary.pmid} was replaced by same-category fallback PMID ${record.pmid}.`);
+      return webArticle;
+    } catch (error) {
+      transition(candidate.pmid, "failed", { error: error.message });
+      runDiagnostics.push({ pmid: candidate.pmid, primaryPmid: context.primary.pmid, isFallback: context.isFallback, status: "failed", error: error.message });
+      console.error(`  PMID ${candidate.pmid} failed: ${error.message}`);
+      throw error;
+    }
+  },
+});
 
 const now = new Date();
 const to = now.toISOString();
@@ -269,7 +285,7 @@ async function saveLifecycle(records) {
   });
 }
 
-if (aiService && (runDiagnostics.some(item => item.status === "failed") || outputArticles.length !== enriched.length)) {
+if (aiService && (!processing.complete || outputArticles.length !== scored.length)) {
   await writeJsonAtomic(runFile, {
     generatedAt: to,
     mode: "failed",
