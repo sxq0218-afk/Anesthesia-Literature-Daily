@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { classifyResearchCategory, selectDailyArticles } from "./selection.mjs";
+import { classifyResearchCategory, fillSelectedSlotsWithCategoryFallback, selectDailyArticles } from "./selection.mjs";
 
 test("classifies animal mechanistic work as basic research", () => {
   const result = classifyResearchCategory({ title: "Sevoflurane receptor mechanism in mice", abstract: "Mice and neuronal cells were studied.", meshTerms: ["Animals", "Mice"], publicationTypes: ["Journal Article"] });
@@ -134,4 +134,44 @@ test("does not backfill a missing basic slot with a fifth clinical article", () 
   assert.equal(result.summary.clinical, 4);
   assert.equal(result.summary.basic, 0);
   assert.equal(result.compositionSatisfied, false);
+});
+
+test("replaces a failed article only with the next ranked candidate from the same category", async () => {
+  const selected = [
+    { pmid: "c1", researchCategory: { id: "clinical" } },
+    { pmid: "b1", researchCategory: { id: "basic" } },
+  ];
+  const ranked = [
+    ...selected,
+    { pmid: "c2", researchCategory: { id: "clinical" } },
+    { pmid: "b2", researchCategory: { id: "basic" } },
+  ];
+  const processed = [];
+  const result = await fillSelectedSlotsWithCategoryFallback({
+    selected,
+    ranked,
+    processCandidate: async record => {
+      processed.push(record.pmid);
+      if (record.pmid === "c1") throw new Error("empty AI response");
+      return record.pmid;
+    },
+  });
+  assert.equal(result.complete, true);
+  assert.deepEqual(result.successful.map(item => item.candidate.pmid), ["c2", "b1"]);
+  assert.deepEqual(processed, ["c1", "c2", "b1"]);
+  assert.equal(result.attempts.find(item => item.pmid === "c2").isFallback, true);
+  assert.equal(processed.includes("b2"), false);
+});
+
+test("reports an incomplete slot when every same-category candidate fails", async () => {
+  const selected = [{ pmid: "b1", researchCategory: { id: "basic" } }];
+  const ranked = [...selected, { pmid: "b2", researchCategory: { id: "basic" } }];
+  const result = await fillSelectedSlotsWithCategoryFallback({
+    selected,
+    ranked,
+    processCandidate: async record => { throw new Error(`failed ${record.pmid}`); },
+  });
+  assert.equal(result.complete, false);
+  assert.equal(result.successful.length, 0);
+  assert.deepEqual(result.attempts.map(item => item.pmid), ["b1", "b2"]);
 });
