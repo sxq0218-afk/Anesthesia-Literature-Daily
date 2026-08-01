@@ -40,6 +40,38 @@ test("generateAI uses the configured adapter and records tokens and cost", async
   } finally { globalThis.fetch = originalFetch; }
 });
 
+test("generateAI retries successful HTTP responses that contain empty or invalid model content", async () => {
+  for (const firstContent of ["", "not-json"]) {
+    const root = fixtureRoot();
+    const originalFetch = globalThis.fetch;
+    let calls = 0;
+    globalThis.fetch = async () => {
+      calls += 1;
+      const content = calls === 1 ? firstContent : '{"status":"ok"}';
+      return new Response(JSON.stringify({ choices: [{ message: { content } }], usage: { total_tokens: 2 } }), { status: 200 });
+    };
+    try {
+      const service = createAIService({
+        rootDir: root,
+        settings: {
+          provider: "deepseek",
+          baseUrl: "https://api.deepseek.com",
+          model: "deepseek-chat",
+          apiKey: "test",
+          retryCount: 1,
+          dailyCallLimit: 5,
+          dailyTokenLimit: 10000,
+        },
+      });
+      const result = await service.generateAI({ system: "JSON", user: "test", maxTokens: 100 });
+      assert.equal(result.data.status, "ok");
+      assert.equal(calls, 2);
+    } finally {
+      globalThis.fetch = originalFetch;
+    }
+  }
+});
+
 test("daily call limit stops additional AI requests without crashing", async () => {
   const root = fixtureRoot();
   const originalFetch = globalThis.fetch;
