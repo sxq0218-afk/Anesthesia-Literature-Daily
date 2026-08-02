@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 01 Aug 2026 03:33:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 00:07:41 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-02 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-02/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-02/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:07:41 GMT</pubDate>
+      <description>氯胺酮或依托咪酯用于危重成人气管插管：在危重成人气管插管中，与依托咪酯相比，使用氯胺酮诱导麻醉并未显著降低28天院内死亡率。
+术中驱动压指导的高PEEP与标准低PEEP对术后肺部并发症的影响：在接受开腹手术且术后肺部并发症风险增加的成人患者中，与标准低PEEP相比，驱动压指导的高PEEP联合肺复张策略并未降低术后肺部并发症的发生率。
+皮层广域光电接口揭示爆发-抑制的动态神经元集群编码：本研究在小鼠异氟烷麻醉下发现，爆发-抑制状态由皮层范围内动态招募和重激活的神经元集群编码，爆发期神经元活动高度同步且功能连接增强，而抑制期活动异步且连接减弱。
+丙泊酚与氯胺酮在危重症患者快速序贯诱导中的比较：一项前瞻性随机对照试验：在危重症患者快速序贯诱导中，氯胺酮相比丙泊酚在诱导后10分钟内最低平均动脉压的降低幅度较小，但差异无临床意义且不持续。
+ICU中瑞马唑仑苯磺酸盐与丙泊酚的短期浅镇静（SHOSREB）：一项多中心、随机、单盲、对照试验：在需要短期浅镇静的机械通气ICU患者中，瑞马唑仑苯磺酸盐在实现成功镇静方面不劣于丙泊酚，且两组目标RASS评分时间百分比无显著差异。</description>
+    </item>
     <item>
       <title>2026-08-01 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-01/</link>

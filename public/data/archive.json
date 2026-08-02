@@ -1,7 +1,239 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T03:33:22.605Z",
+  "updatedAt": "2026-08-02T00:07:41.235Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-02T00:07:41.235Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-03T00:07:41.235Z",
+        "to": "2026-08-02T00:07:41.235Z",
+        "candidateCount": 265,
+        "discoveryCandidateCount": 10460,
+        "unseenCount": 226,
+        "duplicateCount": 39,
+        "priorityCandidateCount": 265,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 265,
+          "retrievedCount": 265,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 4,
+          "excludedCount": 296,
+          "excludedByReason": {
+            "journal-not-configured": 294,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 296,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 22
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "AANA journal",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "International journal of obstetric anesthesia",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of maxillofacial and oral surgery",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "JHLT open",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Die Anaesthesiologie",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Gynecologic oncology reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 226,
+          "eligibleCount": 203,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 176,
+          "clinical": 117,
+          "basic": 16,
+          "other": 43
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41369227",
+          "title": "氯胺酮或依托咪酯用于危重成人气管插管",
+          "originalTitle": "Ketamine or Etomidate for Tracheal Intubation of Critically Ill Adults.",
+          "journal": "The New England journal of medicine",
+          "conclusion": "在危重成人气管插管中，与依托咪酯相比，使用氯胺酮诱导麻醉并未显著降低28天院内死亡率。",
+          "pmid": "41369227"
+        },
+        {
+          "slug": "pmid-41334859",
+          "title": "术中驱动压指导的高PEEP与标准低PEEP对术后肺部并发症的影响",
+          "originalTitle": "Intraoperative Driving Pressure-Guided High PEEP vs Standard Low PEEP for Postoperative Pulmonary Complications.",
+          "journal": "JAMA",
+          "conclusion": "在接受开腹手术且术后肺部并发症风险增加的成人患者中，与标准低PEEP相比，驱动压指导的高PEEP联合肺复张策略并未降低术后肺部并发症的发生率。",
+          "pmid": "41334859"
+        },
+        {
+          "slug": "pmid-42056115",
+          "title": "皮层广域光电接口揭示爆发-抑制的动态神经元集群编码",
+          "originalTitle": "Dynamic neuronal ensembles encode burst-suppression revealed by cortex-wide optical-electrical interfaces.",
+          "journal": "Nature communications",
+          "conclusion": "本研究在小鼠异氟烷麻醉下发现，爆发-抑制状态由皮层范围内动态招募和重激活的神经元集群编码，爆发期神经元活动高度同步且功能连接增强，而抑制期活动异步且连接减弱。",
+          "pmid": "42056115"
+        },
+        {
+          "slug": "pmid-41870554",
+          "title": "丙泊酚与氯胺酮在危重症患者快速序贯诱导中的比较：一项前瞻性随机对照试验",
+          "originalTitle": "Propofol versus ketamine in rapid sequence intubation in critically ill patients: a prospective, randomized, controlled trial.",
+          "journal": "Intensive care medicine",
+          "conclusion": "在危重症患者快速序贯诱导中，氯胺酮相比丙泊酚在诱导后10分钟内最低平均动脉压的降低幅度较小，但差异无临床意义且不持续。",
+          "pmid": "41870554"
+        },
+        {
+          "slug": "pmid-41915173",
+          "title": "ICU中瑞马唑仑苯磺酸盐与丙泊酚的短期浅镇静（SHOSREB）：一项多中心、随机、单盲、对照试验",
+          "originalTitle": "Short-term light sedation with remimazolam besylate versus propofol in the ICU (SHOSREB): a multicentre, randomized, single-blind, controlled trial.",
+          "journal": "Intensive care medicine",
+          "conclusion": "在需要短期浅镇静的机械通气ICU患者中，瑞马唑仑苯磺酸盐在实现成功镇静方面不劣于丙泊酚，且两组目标RASS评分时间百分比无显著差异。",
+          "pmid": "41915173"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-01T03:33:22.605Z",
       "search": {

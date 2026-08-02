@@ -1,7 +1,1592 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T03:33:22.605Z",
+  "updatedAt": "2026-08-02T00:07:41.235Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-02T00:07:41.235Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-03T00:07:41.235Z",
+        "to": "2026-08-02T00:07:41.235Z",
+        "candidateCount": 265,
+        "discoveryCandidateCount": 10460,
+        "unseenCount": 226,
+        "duplicateCount": 39,
+        "priorityCandidateCount": 265,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 265,
+          "retrievedCount": 265,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 4,
+          "excludedCount": 296,
+          "excludedByReason": {
+            "journal-not-configured": 294,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 296,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 22
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "AANA journal",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "International journal of obstetric anesthesia",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of maxillofacial and oral surgery",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "JHLT open",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Die Anaesthesiologie",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Gynecologic oncology reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 226,
+          "eligibleCount": 203,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 176,
+          "clinical": 117,
+          "basic": 16,
+          "other": 43
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 21,
+          "promptTokens": 70263,
+          "completionTokens": 22525,
+          "totalTokens": 92788
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41369227",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "The New England journal of medicine",
+          "year": "2026",
+          "publishedDate": "2026-04-23",
+          "electronicPublicationDate": "2025-12-09",
+          "readingTime": "12 分钟",
+          "title": "氯胺酮或依托咪酯用于危重成人气管插管",
+          "originalTitle": "Ketamine or Etomidate for Tracheal Intubation of Critically Ill Adults.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "对于接受气管插管的危重成人患者，观察性研究表明，使用依托咪酯诱导麻醉可能增加死亡风险。使用氯胺酮而非依托咪酯是否能降低死亡风险尚不确定。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在美国14个急诊科和重症监护病房进行的一项随机试验中，我们将接受气管插管的危重成人患者随机分配接受氯胺酮或依托咪酯进行麻醉诱导。主要结局是第28天前的院内全因死亡。次要结局是插管期间的心血管衰竭，定义为收缩压低于65 mm Hg、接受新的或增加剂量的血管升压药或发生心脏骤停。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "共有2365名患者被随机分组并纳入试验人群；1176名被分配到氯胺酮组，1189名被分配到依托咪酯组。第28天前院内死亡发生在氯胺酮组的1173名患者中的330名（28.1%）和依托咪酯组的1186名患者中的345名（29.1%）（经试验地点调整的风险差异为-0.8个百分点；95%置信区间[CI]，-4.5至2.9；P=0.65）。插管期间心血管衰竭发生在氯胺酮组的1176名患者中的260名（22.1%）和依托咪酯组的1189名患者中的202名（17.0%）（风险差异为5.1个百分点；95% CI，1.9至8.3）。两组预先指定的安全性结局相似。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在接受气管插管的危重成人患者中，使用氯胺酮诱导麻醉与依托咪酯相比，并未导致第28天前院内死亡发生率显著降低。（由患者中心结局研究所等资助；RSI ClinicalTrials.gov编号，NCT05277896。）"
+              }
+            ],
+            "fullText": "BACKGROUND: 对于接受气管插管的危重成人患者，观察性研究表明，使用依托咪酯诱导麻醉可能增加死亡风险。使用氯胺酮而非依托咪酯是否能降低死亡风险尚不确定。 METHODS: 在美国14个急诊科和重症监护病房进行的一项随机试验中，我们将接受气管插管的危重成人患者随机分配接受氯胺酮或依托咪酯进行麻醉诱导。主要结局是第28天前的院内全因死亡。次要结局是插管期间的心血管衰竭，定义为收缩压低于65 mm Hg、接受新的或增加剂量的血管升压药或发生心脏骤停。 RESULTS: 共有2365名患者被随机分组并纳入试验人群；1176名被分配到氯胺酮组，1189名被分配到依托咪酯组。第28天前院内死亡发生在氯胺酮组的1173名患者中的330名（28.1%）和依托咪酯组的1186名患者中的345名（29.1%）（经试验地点调整的风险差异为-0.8个百分点；95%置信区间[CI]，-4.5至2.9；P=0.65）。插管期间心血管衰竭发生在氯胺酮组的1176名患者中的260名（22.1%）和依托咪酯组的1189名患者中的202名（17.0%）（风险差异为5.1个百分点；95% CI，1.9至8.3）。两组预先指定的安全性结局相似。 CONCLUSIONS: 在接受气管插管的危重成人患者中，使用氯胺酮诱导麻醉与依托咪酯相比，并未导致第28天前院内死亡发生率显著降低。（由患者中心结局研究所等资助；RSI ClinicalTrials.gov编号，NCT05277896。）",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Casey JD, Seitz KP, Driver BE, Gibbs KW, Ginde AA, Trent SA, Russell DW, Muhs AL, et al.",
+          "citation": "N Engl J Med. 2026 Apr 23;394(16):1608-1620. doi: 10.1056/NEJMoa2511420. Epub 2025 Dec 9.",
+          "doi": "10.1056/nejmoa2511420",
+          "pmid": "41369227",
+          "pmcid": "PMC12711137",
+          "publicationTypes": [
+            "Clinical Trial, Phase IV",
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Massachusetts Medical Society",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 84.5,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nejm.org/about-nejm/about-nejm",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "The New England Journal of Medicine"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "麻醉学",
+            "气道管理",
+            "麻醉基础研究",
+            "Clinical Trial, Phase IV",
+            "Comparative Study"
+          ],
+          "question": "气管插管是危重患者常见的紧急操作，诱导药物的选择可能影响患者预后。既往观察性研究提示依托咪酯可能增加死亡风险，但缺乏高质量随机对照证据。本研究提供了直接比较氯胺酮与依托咪酯的随机对照试验结果，对临床用药选择具有重要参考价值。",
+          "conclusion": "在危重成人气管插管中，与依托咪酯相比，使用氯胺酮诱导麻醉并未显著降低28天院内死亡率。",
+          "clinical": "对于危重成人气管插管，氯胺酮与依托咪酯在降低28天院内死亡率方面无显著差异，临床医生可根据患者具体情况和药物特性选择诱导药物。 氯胺酮组插管期间心血管衰竭发生率高于依托咪酯组（22.1% vs 17.0%），差异有统计学意义，但需注意该结局为次要结局，且未报告P值，临床意义需谨慎解读。 本研究为临床决策提供了随机对照证据，但应结合患者个体情况（如血流动力学状态、药物禁忌等）综合考量。",
+          "evidence": "中等偏高",
+          "score": 79,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 22,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心、随机对照试验（4期临床试验），在美国14个急诊科和重症监护病房进行。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Critically ill adults undergoing tracheal intubation in 14 emergency departments and intensive care units in the United States；2365 patients (1176 assigned to ketamine, 1189 assigned to etomidate)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Ketamine for induction of anesthesia；对照：Etomidate for induction of anesthesia"
+            },
+            {
+              "label": "主要终点",
+              "value": "In-hospital death from any cause by day 28"
+            }
+          ],
+          "keyPoints": [
+            "氯胺酮与依托咪酯相比，28天院内死亡率无显著差异（28.1% vs 29.1%，调整后风险差异-0.8个百分点，95% CI -4.5至2.9，P=0.65）。",
+            "插管期间心血管衰竭发生率氯胺酮组高于依托咪酯组（22.1% vs 17.0%，风险差异5.1个百分点，95% CI 1.9至8.3）。",
+            "预设安全性结局两组相似。",
+            "研究在美国14个急诊科和ICU进行，共纳入2365例危重成人。"
+          ],
+          "methods": "对于接受气管插管的危重成人，观察性研究表明使用依托咪酯诱导麻醉可能增加死亡风险。氯胺酮与依托咪酯相比是否能降低死亡风险尚不确定。",
+          "results": "共2365例患者随机分配（氯胺酮组1176例，依托咪酯组1189例）。28天院内死亡：氯胺酮组330/1173（28.1%），依托咪酯组345/1186（29.1%），调整试验中心后的风险差异为-0.8个百分点（95% CI，-4.5至2.9；P=0.65）。插管期间心血管衰竭：氯胺酮组260/1176（22.1%），依托咪酯组202/1189（17.0%），风险差异为5.1个百分点（95% CI，1.9至8.3）。预设安全性结局两组相似。",
+          "mainResults": "共2365例患者随机分配（氯胺酮组1176例，依托咪酯组1189例）。28天院内死亡：氯胺酮组330/1173（28.1%），依托咪酯组345/1186（29.1%），调整试验中心后的风险差异为-0.8个百分点（95% CI，-4.5至2.9；P=0.65）。插管期间心血管衰竭：氯胺酮组260/1176（22.1%），依托咪酯组202/1189（17.0%），风险差异为5.1个百分点（95% CI，1.9至8.3）。预设安全性结局两组相似。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "对于危重成人气管插管，氯胺酮与依托咪酯在降低28天院内死亡率方面无显著差异，临床医生可根据患者具体情况和药物特性选择诱导药物。",
+            "氯胺酮组插管期间心血管衰竭发生率高于依托咪酯组（22.1% vs 17.0%），差异有统计学意义，但需注意该结局为次要结局，且未报告P值，临床意义需谨慎解读。",
+            "本研究为临床决策提供了随机对照证据，但应结合患者个体情况（如血流动力学状态、药物禁忌等）综合考量。"
+          ],
+          "editor": "本研究为多中心随机对照试验，样本量较大，主要结局为硬终点（28天院内死亡），结果可信度较高。氯胺酮与依托咪酯在主要结局上无显著差异，但次要结局显示氯胺酮组心血管衰竭风险更高。 过度解读风险：需注意次要结局的差异可能为偶然发现，且未报告P值，不应过度解读为氯胺酮增加心血管衰竭风险。同时，研究结果不能直接推广至所有危重患者，需考虑纳入人群和临床背景。",
+          "whyItMatters": "气管插管是危重患者常见的紧急操作，诱导药物的选择可能影响患者预后。既往观察性研究提示依托咪酯可能增加死亡风险，但缺乏高质量随机对照证据。本研究提供了直接比较氯胺酮与依托咪酯的随机对照试验结果，对临床用药选择具有重要参考价值。",
+          "background": "对于接受气管插管的危重成人，观察性研究表明使用依托咪酯诱导麻醉可能增加死亡风险。氯胺酮与依托咪酯相比是否能降低死亡风险尚不确定。",
+          "pico": {
+            "population": "Critically ill adults undergoing tracheal intubation in 14 emergency departments and intensive care units in the United States",
+            "intervention": "Ketamine for induction of anesthesia",
+            "comparison": "Etomidate for induction of anesthesia",
+            "outcome": "In-hospital death from any cause by day 28"
+          },
+          "studyType": "多中心、随机对照试验（4期临床试验），在美国14个急诊科和重症监护病房进行。",
+          "sampleSize": "2365 patients (1176 assigned to ketamine, 1189 assigned to etomidate)",
+          "primaryOutcome": "In-hospital death from any cause by day 28",
+          "effectSize": [
+            "-0.8 percentage points (primary outcome)",
+            "5.1 percentage points (secondary outcome)"
+          ],
+          "confidenceInterval": [
+            "-4.5 to 2.9",
+            "1.9 to 8.3"
+          ],
+          "pValue": [
+            "0.65"
+          ],
+          "adverseEvents": "Prespecified safety outcomes were similar in the two groups.",
+          "aiAssessment": {
+            "support": "本研究为多中心随机对照试验，样本量较大，主要结局为硬终点（28天院内死亡），结果可信度较高。氯胺酮与依托咪酯在主要结局上无显著差异，但次要结局显示氯胺酮组心血管衰竭风险更高。",
+            "overinterpretationRisk": "需注意次要结局的差异可能为偶然发现，且未报告P值，不应过度解读为氯胺酮增加心血管衰竭风险。同时，研究结果不能直接推广至所有危重患者，需考虑纳入人群和临床背景。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容仅包括摘要和部分全文节选，可能缺少方法学细节（如随机化具体方法、分配隐藏、盲法、样本量计算等）。",
+                "未获取完整统计方法描述，无法全面评价统计分析的充分性。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "对于接受气管插管的危重成人，使用氯胺酮与依托咪酯相比是否能降低28天院内死亡风险？",
+              "designFit": "随机对照试验是评估干预效果的金标准，适用于回答此问题。多中心设计提高了外部有效性。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "意向性治疗人群（随机化后所有患者均纳入分析，但主要结局分析中氯胺酮组1173例、依托咪酯组1186例，有少数缺失）。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多中心随机对照试验，样本量大（2365例）。",
+                "主要结局为硬终点（28天院内死亡），临床意义明确。",
+                "调整了试验中心，减少中心效应。"
+              ],
+              "concerns": [
+                "次要结局心血管衰竭未报告P值，且未进行多重性校正，可能增加I类错误风险。",
+                "当前可获取内容未提供盲法、分配隐藏等细节，可能存在偏倚风险。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "主要结局风险差异调整试验中心后为-0.8个百分点（95% CI -4.5至2.9，P=0.65）；次要结局风险差异为5.1个百分点（95% CI 1.9至8.3）。",
+                  "interpretation": "主要结局无统计学差异，次要结局有统计学差异（但未报告P值）。",
+                  "cautions": [
+                    "未报告具体统计方法，无法评价模型假设和适用性。",
+                    "次要结局未报告P值，且未提及多重性校正。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "调整了试验中心。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "主要结局无统计学差异，临床上也未显示氯胺酮优于依托咪酯。次要结局有统计学差异，但临床意义需谨慎解读，因为未报告P值且为次要结局。"
+            },
+            "outcomeAnalysis": {
+              "primary": "28天院内全因死亡：氯胺酮组28.1% vs 依托咪酯组29.1%，调整后风险差异-0.8个百分点（95% CI -4.5至2.9，P=0.65），无统计学差异。",
+              "secondary": [
+                "插管期间心血管衰竭：氯胺酮组22.1% vs 依托咪酯组17.0%，风险差异5.1个百分点（95% CI 1.9至8.3），有统计学差异（但未报告P值）。"
+              ],
+              "safety": "预设安全性结局两组相似。",
+              "absoluteVsRelative": "主要结局绝对风险差异为-0.8个百分点，相对风险降低约3.4%（计算值，非原文报告）。次要结局绝对风险差异为5.1个百分点，相对风险增加约30%（计算值，非原文报告）。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机对照试验设计，多中心，样本量大。",
+                "主要结局为硬终点，随访时间明确（28天）。",
+                "调整了试验中心，减少中心效应。"
+              ],
+              "limitations": [
+                "当前可获取内容未提供盲法、分配隐藏、样本量计算等关键方法学细节。",
+                "次要结局未报告P值，且未提及多重性校正。",
+                "未提供亚组分析结果，无法评估不同人群中的效应差异。"
+              ],
+              "biasRisks": [
+                "由于未提供盲法信息，可能存在实施偏倚和测量偏倚。",
+                "未提供分配隐藏信息，可能存在选择偏倚。",
+                "次要结局未报告P值，可能存在报告偏倚。"
+              ],
+              "certainty": "主要结局证据确定性较高（随机对照试验，大样本），但次要结局证据确定性较低（未报告P值，可能为探索性分析）。",
+              "conclusionAlignment": "结论与主要结果一致，即氯胺酮未显著降低28天院内死亡率。",
+              "causalBoundary": "由于是随机对照试验，主要结局的组间差异可归因于干预，但次要结局的差异需谨慎解释，可能受多重比较和偶然性影响。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于美国急诊科和ICU中需要气管插管的危重成人。",
+                "结果支持氯胺酮和依托咪酯均可作为诱导药物，主要结局无差异。"
+              ],
+              "nonApplicability": [
+                "不适用于儿童、孕妇或特殊人群（未提供相关数据）。",
+                "不适用于非气管插管场景。"
+              ],
+              "practiceChange": "当前证据不支持改变临床实践，两种药物均可使用，但需关注氯胺酮组心血管衰竭发生率较高的信号。",
+              "canDoNow": [
+                "临床医生可根据患者个体情况（如血流动力学状态、药物禁忌）选择氯胺酮或依托咪酯。",
+                "对于血流动力学不稳定的患者，需权衡氯胺酮可能增加心血管衰竭的风险。"
+              ],
+              "cannotConclude": [
+                "不能得出氯胺酮优于依托咪酯的结论。",
+                "不能确定氯胺酮是否增加心血管衰竭风险，因为次要结局未报告P值。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究评估不同亚组（如休克、脓毒症）中的效应差异。",
+                "需要长期随访结局（如28天后的死亡率）。",
+                "需要明确盲法和分配隐藏等细节以评估偏倚风险。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41369227/",
+            "doi": "https://doi.org/10.1056/nejmoa2511420",
+            "publisher": "https://doi.org/10.1056/nejmoa2511420",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12711137/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41334859",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "JAMA",
+          "year": "2026",
+          "publishedDate": "2026-02-24",
+          "electronicPublicationDate": null,
+          "readingTime": "13 分钟",
+          "title": "术中驱动压指导的高PEEP与标准低PEEP对术后肺部并发症的影响",
+          "originalTitle": "Intraoperative Driving Pressure-Guided High PEEP vs Standard Low PEEP for Postoperative Pulmonary Complications.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "IMPORTANCE",
+                "text": "重要性：对于接受开腹手术的患者，以低驱动压为目标的个体化高呼气末正压（PEEP）和肺复张操作对临床结局的影响尚不确定。"
+              },
+              {
+                "heading": "OBJECTIVE",
+                "text": "目的：比较驱动压指导的高PEEP联合肺复张操作与标准低PEEP不联合肺复张操作对术后肺部并发症的影响。"
+              },
+              {
+                "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+                "text": "设计、设置和参与者：一项随机临床试验，纳入1435名计划接受开腹手术且术后肺部并发症风险增加的成人。试验于2019年4月至2024年12月在欧洲5个国家的29个中心进行；最终随访于2025年3月完成。统计分析于2025年5月进行。"
+              },
+              {
+                "heading": "INTERVENTION",
+                "text": "干预措施：患者被随机分配接受驱动压指导的高PEEP联合肺复张操作的术中通气（n = 718）或标准低PEEP的术中通气（n = 717）。所有患者均接受低潮气量通气。"
+              },
+              {
+                "heading": "MAIN OUTCOMES AND MEASURES",
+                "text": "主要结局和测量指标：主要结局是术后前5天内肺部并发症的复合结局，包括严重呼吸衰竭、支气管痉挛、疑似肺部感染、肺浸润、吸入性肺炎、肺不张、急性呼吸窘迫综合征、胸腔积液、心源性肺水肿和气胸。在16个预先指定的次要结局中，4个涉及术中并发症，包括低血压（平均动脉压下降>20%持续>3分钟）和去饱和（SpO2 <92%持续>1分钟）。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "结果：在1468名成人中，1435名（98%）完成了试验（中位[IQR]年龄，66 [57-74]岁；52%为女性）。在主要分析人群中，驱动压指导的高PEEP组718名患者中有142名（19.8%）发生主要结局，而低PEEP组717名患者中有125名（17.4%）发生主要结局（绝对差异，2.5% [95% CI，-1.5%至6.4%]；P = .23）。高PEEP组的低血压发生率（382 [54.0%] vs 317 [45.0%]）和血管活性药物使用率（224 [32.0%] vs 130 [18.8%]）较高；低PEEP组的术中去饱和发生率（6 [0.8%] vs 20 [2.8%]）较高。"
+              },
+              {
+                "heading": "CONCLUSIONS AND RELEVANCE",
+                "text": "结论和相关性：在全身麻醉下接受开腹手术且术后肺部并发症风险增加的患者中，与标准低PEEP策略相比，驱动压指导的高PEEP联合肺复张操作的术中通气并未减少术后肺部并发症。"
+              },
+              {
+                "heading": "TRIAL REGISTRATION",
+                "text": "试验注册：ClinicalTrials.gov标识符：NCT03884543。"
+              }
+            ],
+            "fullText": "重要性：对于接受开腹手术的患者，以低驱动压为目标的个体化高呼气末正压（PEEP）和肺复张操作对临床结局的影响尚不确定。目的：比较驱动压指导的高PEEP联合肺复张操作与标准低PEEP不联合肺复张操作对术后肺部并发症的影响。设计、设置和参与者：一项随机临床试验，纳入1435名计划接受开腹手术且术后肺部并发症风险增加的成人。试验于2019年4月至2024年12月在欧洲5个国家的29个中心进行；最终随访于2025年3月完成。统计分析于2025年5月进行。干预措施：患者被随机分配接受驱动压指导的高PEEP联合肺复张操作的术中通气（n = 718）或标准低PEEP的术中通气（n = 717）。所有患者均接受低潮气量通气。主要结局和测量指标：主要结局是术后前5天内肺部并发症的复合结局，包括严重呼吸衰竭、支气管痉挛、疑似肺部感染、肺浸润、吸入性肺炎、肺不张、急性呼吸窘迫综合征、胸腔积液、心源性肺水肿和气胸。在16个预先指定的次要结局中，4个涉及术中并发症，包括低血压（平均动脉压下降>20%持续>3分钟）和去饱和（SpO2 <92%持续>1分钟）。结果：在1468名成人中，1435名（98%）完成了试验（中位[IQR]年龄，66 [57-74]岁；52%为女性）。在主要分析人群中，驱动压指导的高PEEP组718名患者中有142名（19.8%）发生主要结局，而低PEEP组717名患者中有125名（17.4%）发生主要结局（绝对差异，2.5% [95% CI，-1.5%至6.4%]；P = .23）。高PEEP组的低血压发生率（382 [54.0%] vs 317 [45.0%]）和血管活性药物使用率（224 [32.0%] vs 130 [18.8%]）较高；低PEEP组的术中去饱和发生率（6 [0.8%] vs 20 [2.8%]）较高。结论和相关性：在全身麻醉下接受开腹手术且术后肺部并发症风险增加的患者中，与标准低PEEP策略相比，驱动压指导的高PEEP联合肺复张操作的术中通气并未减少术后肺部并发症。试验注册：ClinicalTrials.gov标识符：NCT03884543。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Dorland G, Gama de Abreu M, Hemmes SNT, Hol L, Hollmann MW, van Meenen DMP, Nijbroek SGLH, Schultz MJ, et al.",
+          "citation": "JAMA. 2026 Feb 24;335(8):693-702. doi: 10.1001/jama.2025.23373.",
+          "doi": "10.1001/jama.2025.23373",
+          "pmid": "41334859",
+          "pmcid": "PMC12676474",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "American Medical Association (AMA)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 65.4,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://jamanetwork.com/journals/jama/pages/for-authors",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "JAMA"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "麻醉学",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "术中机械通气策略是影响术后肺部并发症的重要可调控因素，驱动压指导的个体化PEEP可能改善肺保护，但本研究提供了高质量随机对照证据，表明该策略并未优于标准低PEEP，且可能增加术中低血压和血管活性药物使用，对临床实践具有重要指导意义。",
+          "conclusion": "在接受开腹手术且术后肺部并发症风险增加的成人患者中，与标准低PEEP相比，驱动压指导的高PEEP联合肺复张策略并未降低术后肺部并发症的发生率。",
+          "clinical": "对于开腹手术高风险患者，驱动压指导的高PEEP联合肺复张策略并未降低术后肺部并发症，不应常规替代标准低PEEP。 高PEEP策略可能增加术中低血压和血管活性药物使用，需加强血流动力学监测。 低PEEP组术中去饱和发生率较高，但总体发生率低，临床意义有限。",
+          "evidence": "中等偏高",
+          "score": 69,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 24,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心、随机对照试验，于欧洲5个国家29个中心进行，2019年4月至2024年12月入组，最终随访2025年3月，统计分析2025年5月。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adults at increased risk for postoperative pulmonary complications scheduled for open abdominal surgery；1435"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Intraoperative ventilation with driving pressure-guided high PEEP and recruitment maneuvers；对照：Intraoperative ventilation with standard low PEEP without recruitment maneuvers"
+            },
+            {
+              "label": "主要终点",
+              "value": "Composite of pulmonary complications within the first 5 postoperative days, including severe respiratory failure, bronchospasm, suspected pulmonary infection, pulmonary infiltrates, aspiration pneumonitis, atelectasis, acute respiratory distress syndrome, pleural effusion, cardiopulmonary edema, and pneumothorax"
+            }
+          ],
+          "keyPoints": [
+            "驱动压指导的高PEEP联合肺复张未降低术后肺部并发症（19.8% vs 17.4%，P=0.23）。",
+            "高PEEP组术中低血压和血管活性药物使用更多。",
+            "低PEEP组术中去饱和发生率更高，但绝对差异小。",
+            "研究为多中心RCT，证据等级较高，但结论限于开腹手术高风险患者。"
+          ],
+          "methods": "术中通气策略中，高PEEP联合肺复张可改善氧合，但可能影响血流动力学。驱动压指导的个体化PEEP旨在平衡肺保护与循环稳定，但其对术后肺部并发症的影响尚不确定。",
+          "results": "主要终点（术后5天内肺部并发症复合终点）发生率：驱动压指导高PEEP组为142/718（19.8%），标准低PEEP组为125/717（17.4%），绝对差异2.5%（95%CI -1.5%至6.4%），P=0.23，差异无统计学意义。术中低血压（54.0% vs 45.0%）和血管活性药物使用（32.0% vs 18.8%）在高PEEP组更高；术中去饱和（0.8% vs 2.8%）在低PEEP组更高。",
+          "mainResults": "主要终点（术后5天内肺部并发症复合终点）发生率：驱动压指导高PEEP组为142/718（19.8%），标准低PEEP组为125/717（17.4%），绝对差异2.5%（95%CI -1.5%至6.4%），P=0.23，差异无统计学意义。术中低血压（54.0% vs 45.0%）和血管活性药物使用（32.0% vs 18.8%）在高PEEP组更高；术中去饱和（0.8% vs 2.8%）在低PEEP组更高。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "对于开腹手术高风险患者，驱动压指导的高PEEP联合肺复张策略并未降低术后肺部并发症，不应常规替代标准低PEEP。",
+            "高PEEP策略可能增加术中低血压和血管活性药物使用，需加强血流动力学监测。",
+            "低PEEP组术中去饱和发生率较高，但总体发生率低，临床意义有限。"
+          ],
+          "editor": "研究为多中心随机对照试验，样本量较大，主要终点为临床相关复合结局，结果阴性但置信区间较窄，支持高PEEP策略不优于低PEEP的结论。 过度解读风险：需注意研究人群为开腹手术高风险患者，结果不能外推至其他手术类型或低风险患者；且未报告长期结局，不能排除远期差异。",
+          "whyItMatters": "术中机械通气策略是影响术后肺部并发症的重要可调控因素，驱动压指导的个体化PEEP可能改善肺保护，但本研究提供了高质量随机对照证据，表明该策略并未优于标准低PEEP，且可能增加术中低血压和血管活性药物使用，对临床实践具有重要指导意义。",
+          "background": "术中通气策略中，高PEEP联合肺复张可改善氧合，但可能影响血流动力学。驱动压指导的个体化PEEP旨在平衡肺保护与循环稳定，但其对术后肺部并发症的影响尚不确定。",
+          "pico": {
+            "population": "Adults at increased risk for postoperative pulmonary complications scheduled for open abdominal surgery",
+            "intervention": "Intraoperative ventilation with driving pressure-guided high PEEP and recruitment maneuvers",
+            "comparison": "Intraoperative ventilation with standard low PEEP without recruitment maneuvers",
+            "outcome": "Composite of pulmonary complications within the first 5 postoperative days, including severe respiratory failure, bronchospasm, suspected pulmonary infection, pulmonary infiltrates, aspiration pneumonitis, atelectasis, acute respiratory distress syndrome, pleural effusion, cardiopulmonary edema, and pneumothorax"
+          },
+          "studyType": "多中心、随机对照试验，于欧洲5个国家29个中心进行，2019年4月至2024年12月入组，最终随访2025年3月，统计分析2025年5月。",
+          "sampleSize": "1435",
+          "primaryOutcome": "Composite of pulmonary complications within the first 5 postoperative days, including severe respiratory failure, bronchospasm, suspected pulmonary infection, pulmonary infiltrates, aspiration pneumonitis, atelectasis, acute respiratory distress syndrome, pleural effusion, cardiopulmonary edema, and pneumothorax",
+          "effectSize": [
+            "absolute difference, 2.5%"
+          ],
+          "confidenceInterval": [
+            "95% CI, -1.5% to 6.4%"
+          ],
+          "pValue": [
+            "P = .23"
+          ],
+          "adverseEvents": "Higher incidence of hypotension and use of vasoactive agents in the high PEEP group; higher incidence of intraoperative desaturation in the low PEEP group.",
+          "aiAssessment": {
+            "support": "研究为多中心随机对照试验，样本量较大，主要终点为临床相关复合结局，结果阴性但置信区间较窄，支持高PEEP策略不优于低PEEP的结论。",
+            "overinterpretationRisk": "需注意研究人群为开腹手术高风险患者，结果不能外推至其他手术类型或低风险患者；且未报告长期结局，不能排除远期差异。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text",
+              "limitations": [
+                "当前可获取内容未提供该数据。",
+                "当前可获取内容未提供该数据。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "在接受开腹手术且术后肺部并发症风险增加的成人患者中，驱动压指导的高PEEP联合肺复张与标准低PEEP相比，能否降低术后肺部并发症？",
+              "designFit": "随机对照试验设计适合评估干预效果，可提供较高因果证据。",
+              "eligibility": "纳入标准为计划接受开腹手术且术后肺部并发症风险增加的成人患者；具体排除标准未在摘要中报告。",
+              "randomization": "患者被随机分配至两组，但具体随机化方法（如随机序列生成、分配隐藏）未在摘要中报告。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "最终随访至2025年3月，主要终点为术后5天内，随访完成率98%（1435/1468）。",
+              "analysisPopulation": "主要分析人群为完成试验的1435例患者（改良意向性治疗？），具体定义未在摘要中报告。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多中心、随机对照设计，样本量较大。",
+                "主要终点为临床相关复合结局。",
+                "随访完成率高（98%）。"
+              ],
+              "concerns": [
+                "未报告盲法、分配隐藏等关键方法学细节。",
+                "未报告样本量计算依据。",
+                "未报告缺失数据处理方法。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "主要终点比较报告了绝对差异、95%CI和P值。",
+                  "interpretation": "由于未报告具体统计检验方法，无法评价其适用性。",
+                  "cautions": [
+                    "统计方法未报告，可能影响结果的可重复性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "主要终点差异无统计学意义（P=0.23），且绝对差异小（2.5%），临床意义有限。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后5天内肺部并发症复合终点，高PEEP组19.8% vs 低PEEP组17.4%，绝对差异2.5%（95%CI -1.5%至6.4%），P=0.23，无统计学差异。",
+              "secondary": [
+                "术中低血压：高PEEP组54.0% vs 低PEEP组45.0%。",
+                "血管活性药物使用：高PEEP组32.0% vs 低PEEP组18.8%。",
+                "术中去饱和：高PEEP组0.8% vs 低PEEP组2.8%。"
+              ],
+              "safety": "高PEEP组低血压和血管活性药物使用更多，低PEEP组去饱和更多。",
+              "absoluteVsRelative": "主要终点绝对差异2.5%，相对风险增加约14%（计算值），但无统计学意义。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心随机对照设计，样本量大。",
+                "主要终点为临床相关复合结局。",
+                "随访完成率高。"
+              ],
+              "limitations": [
+                "未报告盲法、分配隐藏等关键方法学细节。",
+                "未报告样本量计算依据。",
+                "未报告缺失数据处理方法。",
+                "未报告亚组分析结果。"
+              ],
+              "biasRisks": [
+                "未报告盲法，可能存在实施偏倚。",
+                "未报告分配隐藏，可能存在选择偏倚。"
+              ],
+              "certainty": "中等（由于方法学细节缺失，证据等级可能降低）。",
+              "conclusionAlignment": "结论与结果一致，即高PEEP策略未降低术后肺部并发症。",
+              "causalBoundary": "随机对照设计支持因果推断，但需注意未报告盲法可能影响结果。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于接受开腹手术且术后肺部并发症风险增加的成人患者。",
+                "结果可推广至类似欧洲医疗环境。"
+              ],
+              "nonApplicability": [
+                "不适用于其他手术类型（如胸腔手术、腹腔镜手术）。",
+                "不适用于低风险患者。"
+              ],
+              "practiceChange": "当前证据不支持常规使用驱动压指导的高PEEP策略替代标准低PEEP。",
+              "canDoNow": [
+                "对于开腹手术高风险患者，可继续采用标准低PEEP策略。",
+                "若使用高PEEP，需加强血流动力学监测。"
+              ],
+              "cannotConclude": [
+                "不能得出高PEEP策略有害的结论，因为主要终点无差异。",
+                "不能排除高PEEP策略在特定亚组中的潜在获益。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究明确高PEEP策略在低风险患者或其他手术类型中的效果。",
+                "需要长期随访数据评估对远期预后的影响。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41334859/",
+            "doi": "https://doi.org/10.1001/jama.2025.23373",
+            "publisher": "https://doi.org/10.1001/jama.2025.23373",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12676474/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42056115",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Nature communications",
+          "year": "2026",
+          "publishedDate": "2026-04-29",
+          "electronicPublicationDate": "2026-04-29",
+          "readingTime": "9 分钟",
+          "title": "皮层广域光电接口揭示爆发-抑制的动态神经元集群编码",
+          "originalTitle": "Dynamic neuronal ensembles encode burst-suppression revealed by cortex-wide optical-electrical interfaces.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "爆发抑制在可逆或病理性无意识状态下广泛见于皮层区域，但其神经元组织仍不完全清楚。在此，我们提出了一种集成的皮层范围光电双模态探索者（CODE）系统，用于检查异氟醚麻醉下小鼠爆发抑制期间的神经元动态。我们识别出不同的皮层范围神经元集合，它们交替与爆发或抑制事件相关联，在麻醉期间表现出动态的神经元募集和再激活。爆发事件以爆发阶段早期高度同步的神经元活动和高功能连接为特征，而抑制事件则表现出更异步、时间分布的活动，连接性降低。这些状态之间的转换涉及跨皮层区域的顺序、方向性组织的传播。皮层脑电图（ECoG）爆发在几十毫秒内从双侧感觉皮层传播到运动区域，与钙活动的同步性增加。此外，我们建立了一个稳健的指标，将ECoG和钙信号联系起来，揭示了状态依赖的可解释性。这些发现揭示了爆发抑制的单神经元到群体的架构，并说明了集成的光电测量如何实现高分辨率、大规模的皮层动力学查询。"
+              }
+            ],
+            "fullText": "爆发抑制在可逆或病理性无意识状态下广泛见于皮层区域，但其神经元组织仍不完全清楚。在此，我们提出了一种集成的皮层范围光电双模态探索者（CODE）系统，用于检查异氟醚麻醉下小鼠爆发抑制期间的神经元动态。我们识别出不同的皮层范围神经元集合，它们交替与爆发或抑制事件相关联，在麻醉期间表现出动态的神经元募集和再激活。爆发事件以爆发阶段早期高度同步的神经元活动和高功能连接为特征，而抑制事件则表现出更异步、时间分布的活动，连接性降低。这些状态之间的转换涉及跨皮层区域的顺序、方向性组织的传播。皮层脑电图（ECoG）爆发在几十毫秒内从双侧感觉皮层传播到运动区域，与钙活动的同步性增加。此外，我们建立了一个稳健的指标，将ECoG和钙信号联系起来，揭示了状态依赖的可解释性。这些发现揭示了爆发抑制的单神经元到群体的架构，并说明了集成的光电测量如何实现高分辨率、大规模的皮层动力学查询。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Xiao G, Yang M, Li L, Yao X, Xie J, Wang X, Zang J, Zhao Y, et al.",
+          "citation": "Nat Commun. 2026 Apr 29;17(1):5872. doi: 10.1038/s41467-026-72454-0.",
+          "doi": "10.1038/s41467-026-72454-0",
+          "pmid": "42056115",
+          "pmcid": "PMC13333928",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "基础研究",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究首次在单神经元水平揭示了爆发-抑制的皮层组织架构，为理解可逆或病理性意识丧失的神经基础提供了新视角，并展示了光电联合测量技术在大规模皮层动态研究中的潜力。",
+          "conclusion": "本研究在小鼠异氟烷麻醉下发现，爆发-抑制状态由皮层范围内动态招募和重激活的神经元集群编码，爆发期神经元活动高度同步且功能连接增强，而抑制期活动异步且连接减弱。",
+          "clinical": "该研究为麻醉深度监测提供了潜在的神经生物学基础，但仅基于小鼠模型，尚不能直接用于临床。 ECoG与钙信号之间的关联指标可能有助于开发更精确的麻醉监测工具，但需在人类中验证。 研究结果提示爆发-抑制状态可能反映皮层网络的重组，对理解麻醉机制有理论意义。",
+          "evidence": "中等",
+          "score": 52,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性研究（基础研究，非人类模型）。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "mice (Rasgrf2-2A-dCre/Ai148D, Cx3Cr1-GFP, Thy1-YFP, CaMKII-Cre/Ai162d, Vgat-Cre/GCaMP8s)；approximately 18,000 neurons; over 11,000 burst-related and 7000 suppression-related neurons"
+            },
+            {
+              "label": "干预与比较",
+              "value": "无（观察性研究，未施加干预）。；对照：无（未设置对照组）。"
+            },
+            {
+              "label": "主要终点",
+              "value": "neuronal dynamics during burst suppression under isoflurane anesthesia"
+            }
+          ],
+          "keyPoints": [
+            "爆发-抑制由皮层范围内动态神经元集群编码。",
+            "爆发期神经元活动高度同步，抑制期异步。",
+            "ECoG爆发从感觉皮层向运动区传播。",
+            "ECoG与钙信号存在状态依赖的可解释性。",
+            "研究为小鼠模型，临床转化需进一步验证。"
+          ],
+          "methods": "爆发-抑制是皮层广泛观察到的脑电模式，常见于可逆或病理性意识丧失状态，但其神经元层面的组织机制尚不清楚。本研究利用自主研发的皮层广域光电双模态探索系统（CODE），在小鼠异氟烷麻醉下探究爆发-抑制期间的神经元动态。",
+          "results": "研究纳入约18,000个神经元，其中超过11,000个与爆发相关，7,000个与抑制相关。主要发现：爆发事件早期神经元活动高度同步，功能连接增强；抑制事件则表现为异步、时间上分散的活动，连接减弱。状态转换涉及皮层区域间顺序、方向性组织的传播。ECoG爆发从双侧感觉皮层向运动区传播，时间在数十毫秒内，且与钙信号同步性增加。当前可获取内容未提供效应量、95%置信区间和P值。",
+          "mainResults": "研究纳入约18,000个神经元，其中超过11,000个与爆发相关，7,000个与抑制相关。主要发现：爆发事件早期神经元活动高度同步，功能连接增强；抑制事件则表现为异步、时间上分散的活动，连接减弱。状态转换涉及皮层区域间顺序、方向性组织的传播。ECoG爆发从双侧感觉皮层向运动区传播，时间在数十毫秒内，且与钙信号同步性增加。当前可获取内容未提供效应量、95%置信区间和P值。",
+          "limitations": [
+            "研究仅限于小鼠，可能无法直接转化到人类。",
+            "使用的ECoG阵列空间分辨率和带宽有限，可能限制对清醒状态的预测。",
+            "研究聚焦于异氟烷麻醉，结果可能不适用于其他麻醉药或条件。"
+          ],
+          "practice": [
+            "该研究为麻醉深度监测提供了潜在的神经生物学基础，但仅基于小鼠模型，尚不能直接用于临床。",
+            "ECoG与钙信号之间的关联指标可能有助于开发更精确的麻醉监测工具，但需在人类中验证。",
+            "研究结果提示爆发-抑制状态可能反映皮层网络的重组，对理解麻醉机制有理论意义。"
+          ],
+          "editor": "研究提供了详细的神经元动态数据，支持爆发-抑制由不同神经元集群编码的结论。 过度解读风险：由于是观察性研究且缺乏效应量和统计推断，需谨慎解读因果关系，避免将关联视为因果。",
+          "whyItMatters": "该研究首次在单神经元水平揭示了爆发-抑制的皮层组织架构，为理解可逆或病理性意识丧失的神经基础提供了新视角，并展示了光电联合测量技术在大规模皮层动态研究中的潜力。",
+          "background": "爆发-抑制是皮层广泛观察到的脑电模式，常见于可逆或病理性意识丧失状态，但其神经元层面的组织机制尚不清楚。本研究利用自主研发的皮层广域光电双模态探索系统（CODE），在小鼠异氟烷麻醉下探究爆发-抑制期间的神经元动态。",
+          "pico": {
+            "population": "mice (Rasgrf2-2A-dCre/Ai148D, Cx3Cr1-GFP, Thy1-YFP, CaMKII-Cre/Ai162d, Vgat-Cre/GCaMP8s)",
+            "intervention": "无（观察性研究，未施加干预）。",
+            "comparison": "无（未设置对照组）。",
+            "outcome": "neuronal dynamics during burst suppression under isoflurane anesthesia"
+          },
+          "studyType": "观察性研究（基础研究，非人类模型）。",
+          "sampleSize": "approximately 18,000 neurons; over 11,000 burst-related and 7000 suppression-related neurons",
+          "primaryOutcome": "neuronal dynamics during burst suppression under isoflurane anesthesia",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究提供了详细的神经元动态数据，支持爆发-抑制由不同神经元集群编码的结论。",
+            "overinterpretationRisk": "由于是观察性研究且缺乏效应量和统计推断，需谨慎解读因果关系，避免将关联视为因果。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和部分全文节选，可能遗漏方法细节和完整结果。",
+                "未提供效应量、置信区间和P值等统计信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "探究异氟烷麻醉下爆发-抑制的神经元组织机制。",
+              "designFit": "观察性研究设计适合描述神经元动态，但无法建立因果关系。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "不适用（观察性研究）。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "不适用（急性实验）。",
+              "analysisPopulation": "小鼠皮层神经元，约18,000个。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用新型光电联合系统（CODE）进行皮层广域成像。",
+                "覆盖大量神经元（约18,000个）。",
+                "同时记录ECoG和钙信号，提供多模态数据。"
+              ],
+              "concerns": [
+                "样本为小鼠，可能不适用于人类。",
+                "ECoG空间分辨率有限。",
+                "仅研究异氟烷麻醉，泛化性受限。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+                  "reportedResult": "未报告效应量、置信区间或P值。",
+                  "interpretation": "无法评价统计推断的可靠性。",
+                  "cautions": [
+                    "缺乏统计细节，无法评估结果的稳健性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "爆发-抑制期间的神经元动态，包括同步性和功能连接。",
+              "secondary": [
+                "爆发和抑制事件期间的功能连接。",
+                "ECoG爆发从双侧感觉皮层向运动区的传播。",
+                "ECoG与钙信号的可解释性。"
+              ],
+              "safety": "不适用（基础研究）。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "创新性技术（CODE）实现皮层广域光电联合记录。",
+                "大规模神经元采样（约18,000个）。",
+                "揭示了爆发-抑制的神经元集群编码机制。"
+              ],
+              "limitations": [
+                "动物模型限制人类外推。",
+                "缺乏统计推断细节。",
+                "ECoG空间分辨率有限。"
+              ],
+              "biasRisks": [
+                "选择偏倚：仅使用特定品系小鼠。",
+                "测量偏倚：ECoG带宽限制可能影响结果。"
+              ],
+              "certainty": "低（由于缺乏统计细节和人类验证）。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎对待因果推断。",
+              "causalBoundary": "观察性研究，不能确定因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为麻醉深度监测提供潜在生物标志物。",
+                "有助于理解意识障碍的神经机制。"
+              ],
+              "nonApplicability": [
+                "小鼠结果不能直接应用于人类。",
+                "异氟烷麻醉下的发现可能不适用于其他麻醉药。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "可作为基础研究参考，但无直接临床应用。"
+              ],
+              "cannotConclude": [
+                "不能得出临床监测或治疗建议。",
+                "不能推断人类麻醉管理策略。"
+              ],
+              "evidenceGaps": [
+                "需要人类研究验证。",
+                "需要其他麻醉药和病理状态下的研究。",
+                "需要更精细的ECoG技术。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42056115/",
+            "doi": "https://doi.org/10.1038/s41467-026-72454-0",
+            "publisher": "https://doi.org/10.1038/s41467-026-72454-0",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13333928/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41870554",
+          "number": "04",
+          "category": "气道管理",
+          "journal": "Intensive care medicine",
+          "year": "2026",
+          "publishedDate": "2026-03",
+          "electronicPublicationDate": "2026-03-23",
+          "readingTime": "12 分钟",
+          "title": "丙泊酚与氯胺酮在危重症患者快速序贯诱导中的比较：一项前瞻性随机对照试验",
+          "originalTitle": "Propofol versus ketamine in rapid sequence intubation in critically ill patients: a prospective, randomized, controlled trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "PURPOSE",
+                "text": "目的：对于危重患者快速序贯插管（RSI）的最佳催眠药物仍不确定。我们评估了氯胺酮是否比丙泊酚更好的替代选择。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "方法：在这项由研究者发起、随机、对照、开放标签的试验中，在两个混合ICU进行，需要RSI的成人（≥18岁）按1:1分配至氯胺酮或丙泊酚组。主要结局是诱导后前10分钟内的最低平均动脉压（MAP），采用线性回归模型分析，调整年龄、基线MAP和10分钟内的总血管升压药剂量。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "结果：从2021年10月至2023年10月，207名患者被随机分配，175名被纳入改良意向性治疗分析。氯胺酮组10分钟内最低MAP为66（55-79）mmHg，丙泊酚组为60（48-72）mmHg（平均差，6.0 [95% CI -0.0至11.9]；p = 0.050）。第一小时的平均MAP差异为1.67（95% CI -1.98至5.31）。心血管衰竭发生在氯胺酮组20/91（22%）和丙泊酚组28/84（33%），主要由于2分钟内血管升压药剂量增加。第7天死亡率氯胺酮组为33%，丙泊酚组为23.8%（OR 1.38；95% CI 0.86-2.24）。医院死亡率分别为60.4%和50.0%（OR 1.21；95% CI 0.92-1.58）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "结论：在接受RSI的危重患者中，与丙泊酚相比，氯胺酮在最初10分钟内MAP下降幅度较小，但差异无临床意义且不持续。这些发现挑战了仅基于感知的低血压风险选择镇静药物的做法，并强调需要更大规模的试验来确定最佳诱导药物。"
+              },
+              {
+                "heading": "GOV REGISTRY",
+                "text": "GOV注册号：NCT05092152-初始发布10.13.2021。"
+              }
+            ],
+            "fullText": "目的：对于危重患者快速序贯插管（RSI）的最佳催眠药物仍不确定。我们评估了氯胺酮是否比丙泊酚更好的替代选择。方法：在这项由研究者发起、随机、对照、开放标签的试验中，在两个混合ICU进行，需要RSI的成人（≥18岁）按1:1分配至氯胺酮或丙泊酚组。主要结局是诱导后前10分钟内的最低平均动脉压（MAP），采用线性回归模型分析，调整年龄、基线MAP和10分钟内的总血管升压药剂量。结果：从2021年10月至2023年10月，207名患者被随机分配，175名被纳入改良意向性治疗分析。氯胺酮组10分钟内最低MAP为66（55-79）mmHg，丙泊酚组为60（48-72）mmHg（平均差，6.0 [95% CI -0.0至11.9]；p = 0.050）。第一小时的平均MAP差异为1.67（95% CI -1.98至5.31）。心血管衰竭发生在氯胺酮组20/91（22%）和丙泊酚组28/84（33%），主要由于2分钟内血管升压药剂量增加。第7天死亡率氯胺酮组为33%，丙泊酚组为23.8%（OR 1.38；95% CI 0.86-2.24）。医院死亡率分别为60.4%和50.0%（OR 1.21；95% CI 0.92-1.58）。结论：在接受RSI的危重患者中，与丙泊酚相比，氯胺酮在最初10分钟内MAP下降幅度较小，但差异无临床意义且不持续。这些发现挑战了仅基于感知的低血压风险选择镇静药物的做法，并强调需要更大规模的试验来确定最佳诱导药物。GOV注册号：NCT05092152-初始发布10.13.2021。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Schmidt RC, Godinho Zampieri F, da Silva Ramos FJ, Santos Cavatoni Serra F, Maccagnan Pinheiro Besen BA, Fonseca Nunes N, Boschetti D, Chohfi Atallah F, et al.",
+          "citation": "Intensive Care Med. 2026 Mar;52(3):476-489. doi: 10.1007/s00134-026-08351-3. Epub 2026 Mar 23.",
+          "doi": "10.1007/s00134-026-08351-3",
+          "pmid": "41870554",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 22,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://link.springer.com/journal/134",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Intensive Care Medicine"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "麻醉基础研究",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "question": "快速序贯诱导（RSI）是危重症患者气道管理的关键步骤，诱导药物的选择可能影响血流动力学稳定性。本研究直接比较了氯胺酮与丙泊酚对血压的影响，为临床决策提供了随机对照试验证据，挑战了仅基于低血压风险选择镇静药物的传统观念。",
+          "conclusion": "在危重症患者快速序贯诱导中，氯胺酮相比丙泊酚在诱导后10分钟内最低平均动脉压的降低幅度较小，但差异无临床意义且不持续。",
+          "clinical": "氯胺酮在诱导后10分钟内对MAP的降低幅度小于丙泊酚，但差异未达到统计学显著性（P=0.050），且临床意义有限。 第一小时内平均MAP差异很小，提示氯胺酮的血压优势不持续。 心血管衰竭发生率氯胺酮组较低，但差异未进行统计学检验，且主要与血管升压药剂量增加相关。 死亡率在两组间无显著差异，但点估计显示氯胺酮组可能更高，需谨慎解读。 本研究不支持仅基于低血压风险选择氯胺酮或丙泊酚，需个体化评估。",
+          "evidence": "中等偏高",
+          "score": 78,
+          "scoreBreakdown": {
+            "relevance": 22,
+            "evidenceQuality": 22,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "研究者发起的随机、对照、开放标签试验，在两家混合ICU进行，按1:1分配至氯胺酮或丙泊酚组。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adults (>= 18 years) requiring rapid sequence intubation in two mixed ICUs；207 randomized, 175 included in modified intention-to-treat analysis"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Ketamine；对照：Propofol"
+            },
+            {
+              "label": "主要终点",
+              "value": "Lowest mean arterial pressure (MAP) within the first 10 min after induction"
+            }
+          ],
+          "keyPoints": [
+            "氯胺酮与丙泊酚在诱导后10分钟内最低MAP差异为6.0 mmHg（95% CI -0.0至11.9，P=0.050），未达统计学显著性。",
+            "第一小时内平均MAP差异为1.67 mmHg（95% CI -1.98至5.31），无临床意义。",
+            "心血管衰竭发生率氯胺酮组22%，丙泊酚组33%，但未报告组间比较的统计学结果。",
+            "第7天死亡率氯胺酮组33%，丙泊酚组23.8%（OR 1.38；95% CI 0.86-2.24），无统计学差异。",
+            "住院死亡率氯胺酮组60.4%，丙泊酚组50.0%（OR 1.21；95% CI 0.92-1.58），无统计学差异。"
+          ],
+          "methods": "危重症患者进行快速序贯诱导时，理想的催眠药物仍不确定。丙泊酚可能导致低血压，而氯胺酮被认为血流动力学更稳定，但缺乏充分证据。本研究旨在评估氯胺酮是否优于丙泊酚。",
+          "results": "共随机化207例患者，175例纳入改良意向性治疗分析。氯胺酮组诱导后10分钟内最低MAP为66（55-79）mmHg，丙泊酚组为60（48-72）mmHg，平均差6.0（95% CI -0.0至11.9；P=0.050）。第一小时内平均MAP差异为1.67（95% CI -1.98至5.31）。心血管衰竭发生率氯胺酮组20/91（22%），丙泊酚组28/84（33%），主要归因于2分钟内血管升压药剂量增加。第7天死亡率氯胺酮组33%，丙泊酚组23.8%（OR 1.38；95% CI 0.86-2.24）；住院死亡率分别为60.4%和50.0%（OR 1.21；95% CI 0.92-1.58）。",
+          "mainResults": "共随机化207例患者，175例纳入改良意向性治疗分析。氯胺酮组诱导后10分钟内最低MAP为66（55-79）mmHg，丙泊酚组为60（48-72）mmHg，平均差6.0（95% CI -0.0至11.9；P=0.050）。第一小时内平均MAP差异为1.67（95% CI -1.98至5.31）。心血管衰竭发生率氯胺酮组20/91（22%），丙泊酚组28/84（33%），主要归因于2分钟内血管升压药剂量增加。第7天死亡率氯胺酮组33%，丙泊酚组23.8%（OR 1.38；95% CI 0.86-2.24）；住院死亡率分别为60.4%和50.0%（OR 1.21；95% CI 0.92-1.58）。",
+          "limitations": [
+            "开放标签设计，可能引入偏倚。",
+            "样本量相对较小（175例分析），统计效力有限。",
+            "研究在两家ICU进行，结果可能不适用于其他环境。",
+            "主要终点P值接近0.05，差异的统计学意义边缘。",
+            "死亡率差异未达到统计学显著性，但氯胺酮组数值更高，需关注。"
+          ],
+          "practice": [
+            "氯胺酮在诱导后10分钟内对MAP的降低幅度小于丙泊酚，但差异未达到统计学显著性（P=0.050），且临床意义有限。",
+            "第一小时内平均MAP差异很小，提示氯胺酮的血压优势不持续。",
+            "心血管衰竭发生率氯胺酮组较低，但差异未进行统计学检验，且主要与血管升压药剂量增加相关。",
+            "死亡率在两组间无显著差异，但点估计显示氯胺酮组可能更高，需谨慎解读。",
+            "本研究不支持仅基于低血压风险选择氯胺酮或丙泊酚，需个体化评估。"
+          ],
+          "editor": "研究为随机对照试验，设计严谨，主要终点明确，结果报告了效应量和置信区间。氯胺酮在MAP降低方面略优于丙泊酚，但差异不显著且不持续。 过度解读风险：需避免将氯胺酮视为更优选择，因为主要终点未达到统计学显著性，且死亡率点估计不利于氯胺酮。开放标签设计和样本量限制增加解读风险。",
+          "whyItMatters": "快速序贯诱导（RSI）是危重症患者气道管理的关键步骤，诱导药物的选择可能影响血流动力学稳定性。本研究直接比较了氯胺酮与丙泊酚对血压的影响，为临床决策提供了随机对照试验证据，挑战了仅基于低血压风险选择镇静药物的传统观念。",
+          "background": "危重症患者进行快速序贯诱导时，理想的催眠药物仍不确定。丙泊酚可能导致低血压，而氯胺酮被认为血流动力学更稳定，但缺乏充分证据。本研究旨在评估氯胺酮是否优于丙泊酚。",
+          "pico": {
+            "population": "Adults (>= 18 years) requiring rapid sequence intubation in two mixed ICUs",
+            "intervention": "Ketamine",
+            "comparison": "Propofol",
+            "outcome": "Lowest mean arterial pressure (MAP) within the first 10 min after induction"
+          },
+          "studyType": "研究者发起的随机、对照、开放标签试验，在两家混合ICU进行，按1:1分配至氯胺酮或丙泊酚组。",
+          "sampleSize": "207 randomized, 175 included in modified intention-to-treat analysis",
+          "primaryOutcome": "Lowest mean arterial pressure (MAP) within the first 10 min after induction",
+          "effectSize": [
+            "mean difference 6.0",
+            "mean difference 1.67",
+            "OR 1.38",
+            "OR 1.21"
+          ],
+          "confidenceInterval": [
+            "95% CI -0.0 to 11.9",
+            "95% CI -1.98 to 5.31",
+            "95% CI 0.86-2.24",
+            "95% CI 0.92-1.58"
+          ],
+          "pValue": [
+            "0.050"
+          ],
+          "adverseEvents": "Cardiovascular collapse occurred in 20/91 (22%) Ketamine-treated patients and 28/84 (33%) receiving propofol, mainly due to an increase in the vasopressor dose within 2 min.",
+          "aiAssessment": {
+            "support": "研究为随机对照试验，设计严谨，主要终点明确，结果报告了效应量和置信区间。氯胺酮在MAP降低方面略优于丙泊酚，但差异不显著且不持续。",
+            "overinterpretationRisk": "需避免将氯胺酮视为更优选择，因为主要终点未达到统计学显著性，且死亡率点估计不利于氯胺酮。开放标签设计和样本量限制增加解读风险。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文细节，如随机化方法、分配隐藏、样本量计算等。",
+                "未报告缺失数据、随访完整性、亚组分析等。",
+                "统计方法仅提及线性回归，未提供模型细节。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "在危重症患者快速序贯诱导中，氯胺酮是否比丙泊酚更能维持血压稳定？",
+              "designFit": "随机对照试验适用于比较两种药物的疗效，开放标签设计可能引入偏倚，但鉴于干预性质，盲法实施困难。",
+              "eligibility": "年龄≥18岁、需要RSI的危重症患者，具体排除标准未在摘要中报告。",
+              "randomization": "按1:1分配，但未报告随机化方法和序列生成细节。",
+              "allocationConcealment": "未报告分配隐藏方法。",
+              "blinding": "开放标签设计，未设盲。",
+              "sampleSizePlanning": "未报告样本量计算过程。",
+              "followUp": "未报告随访时长和完整性。",
+              "analysisPopulation": "改良意向性治疗分析，纳入175例，但未说明排除32例的原因。",
+              "missingData": "未报告缺失数据情况。",
+              "strengths": [
+                "随机对照设计，减少选择偏倚。",
+                "多中心（两家ICU）增加一定代表性。",
+                "主要终点客观（MAP）。"
+              ],
+              "concerns": [
+                "开放标签可能影响结局评估。",
+                "样本量较小，统计效力不足。",
+                "未报告分配隐藏和随机化细节。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "linear-regression",
+                  "name": "线性回归",
+                  "purposeInStudy": "分析主要终点（诱导后10分钟内最低MAP）的组间差异，并调整年龄、基线MAP和10分钟内总血管升压药剂量。",
+                  "reportedResult": "平均差6.0（95% CI -0.0至11.9；P=0.050）",
+                  "interpretation": "氯胺酮组最低MAP平均高6.0 mmHg，但置信区间包含0，差异无统计学显著性。",
+                  "cautions": [
+                    "调整变量可能不充分，未报告模型诊断。",
+                    "P值接近0.05，结果边缘。"
+                  ],
+                  "standardExplanation": "估计自变量与连续结局之间的关系；系数含义取决于变量单位和模型调整方式。"
+                }
+              ],
+              "adjustedVariables": "年龄、基线MAP、10分钟内总血管升压药剂量",
+              "multiplicity": "未报告多重性调整，但主要终点单一，次要终点未调整。",
+              "subgroupAnalysis": "未报告亚组分析。",
+              "clinicalVsStatisticalSignificance": "主要终点差异未达统计学显著性（P=0.050），且平均差6.0 mmHg可能无临床意义。第一小时平均差1.67 mmHg更小，提示无持续临床获益。"
+            },
+            "outcomeAnalysis": {
+              "primary": "诱导后10分钟内最低MAP，氯胺酮组66（55-79）mmHg，丙泊酚组60（48-72）mmHg，平均差6.0（95% CI -0.0至11.9；P=0.050）。",
+              "secondary": [
+                "第一小时内平均MAP差异：1.67（95% CI -1.98至5.31）",
+                "心血管衰竭：氯胺酮组20/91（22%），丙泊酚组28/84（33%）",
+                "第7天死亡率：氯胺酮组33%，丙泊酚组23.8%（OR 1.38；95% CI 0.86-2.24）",
+                "住院死亡率：氯胺酮组60.4%，丙泊酚组50.0%（OR 1.21；95% CI 0.92-1.58）"
+              ],
+              "safety": "心血管衰竭发生率氯胺酮组较低，但未报告组间比较的统计学结果；主要归因于血管升压药剂量增加。",
+              "absoluteVsRelative": "绝对差异：最低MAP平均差6.0 mmHg；心血管衰竭绝对差异11%；第7天死亡率绝对差异9.2%；住院死亡率绝对差异10.4%。相对效应：OR分别为1.38和1.21。",
+              "subgroupAndInteraction": "未报告亚组或交互作用分析。",
+              "sensitivity": "未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机对照设计，减少混杂。",
+                "多中心，增加外推性。",
+                "主要终点客观，调整了关键混杂因素。"
+              ],
+              "limitations": [
+                "开放标签，可能引入偏倚。",
+                "样本量小，统计效力不足。",
+                "未报告随机化细节和分配隐藏。",
+                "未报告缺失数据和随访完整性。"
+              ],
+              "biasRisks": [
+                "实施偏倚（开放标签）",
+                "测量偏倚（结局评估可能受分组影响）",
+                "选择偏倚（排除32例原因不明）"
+              ],
+              "certainty": "中等偏低，由于开放标签和样本量限制，证据确定性有限。",
+              "conclusionAlignment": "结论与结果一致，但作者强调差异无临床意义，需谨慎解读。",
+              "causalBoundary": "随机对照设计允许因果推断，但开放标签和样本量限制因果强度。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于需要RSI的危重症患者，尤其是血流动力学不稳定者。",
+                "结果可能适用于类似ICU环境。"
+              ],
+              "nonApplicability": [
+                "不适用于儿童、孕妇或特殊人群。",
+                "不适用于非紧急插管或择期手术。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践，但提示不应仅基于低血压风险选择诱导药物。",
+              "canDoNow": [
+                "在RSI中，可根据患者具体情况选择氯胺酮或丙泊酚，但需监测血压。",
+                "对于低血压高风险患者，氯胺酮可能略有优势，但需权衡其他因素。"
+              ],
+              "cannotConclude": [
+                "不能确定氯胺酮优于丙泊酚。",
+                "不能排除氯胺酮增加死亡率的可能性。",
+                "不能推广到其他诱导药物或剂量。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本量的多中心试验。",
+                "需要盲法设计或客观结局评估。",
+                "需要评估不同剂量和给药方式。",
+                "需要长期结局和安全性数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41870554/",
+            "doi": "https://doi.org/10.1007/s00134-026-08351-3",
+            "publisher": "https://doi.org/10.1007/s00134-026-08351-3",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41915173",
+          "number": "05",
+          "category": "麻醉基础研究",
+          "journal": "Intensive care medicine",
+          "year": "2026",
+          "publishedDate": "2026-05",
+          "electronicPublicationDate": "2026-03-31",
+          "readingTime": "11 分钟",
+          "title": "ICU中瑞马唑仑苯磺酸盐与丙泊酚的短期浅镇静（SHOSREB）：一项多中心、随机、单盲、对照试验",
+          "originalTitle": "Short-term light sedation with remimazolam besylate versus propofol in the ICU (SHOSREB): a multicentre, randomized, single-blind, controlled trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "PURPOSE",
+                "text": "探讨苯磺酸瑞马唑仑与丙泊酚在ICU短期镇静中的疗效和安全性。"
+              },
+              {
+                "heading": "METHOD",
+                "text": "进行了一项多中心、随机、单盲、非劣效性试验，纳入需要轻度镇静（定义为Richmond躁动-镇静量表（RASS）评分在-2至+1之间）的机械通气患者。主要结局是成功镇静，定义为在研究药物输注期间未使用补救性镇静剂，且RASS评分在-2至+1之间的时间至少占总输注时间的70%。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "共纳入164名受试者，并随机均分为瑞马唑仑组和丙泊酚组。瑞马唑仑连续输注时间为10.5 [8.1-14.7]小时，丙泊酚为11.0 [7.0-14.3]小时（p = 0.534）。瑞马唑仑和丙泊酚的中位平均维持剂量分别为0.20 [0.19-0.30] mg.kg(-1).h(-1)和0.61 [0.30-1.17] mg.kg(-1).h(-1)。两组成功镇静的受试者百分比均为97.5%（p = 0.497），差异为0（95%置信区间（CI）-6.5%至6.4%），高于预设的非劣效性界值-8%。瑞马唑仑组（88.6%；95% CI：84.2%-92.9%）和丙泊酚组（89.4%；95% CI：85.0%-93.8%）在目标RASS评分时间平均百分比方面无显著差异（p = 0.543）。"
+              },
+              {
+                "heading": "CONCLUSION",
+                "text": "苯磺酸瑞马唑仑在ICU中实现成功的短期轻度镇静方面可能不劣于丙泊酚。"
+              },
+              {
+                "heading": "TRIAL REGISTRATION",
+                "text": "ClinicalTrials.gov标识符：NCT05782894，注册日期为2023年2月18日。"
+              }
+            ],
+            "fullText": "目的：探讨苯磺酸瑞马唑仑与丙泊酚在ICU短期镇静中的疗效和安全性。方法：进行了一项多中心、随机、单盲、非劣效性试验，纳入需要轻度镇静（定义为Richmond躁动-镇静量表（RASS）评分在-2至+1之间）的机械通气患者。主要结局是成功镇静，定义为在研究药物输注期间未使用补救性镇静剂，且RASS评分在-2至+1之间的时间至少占总输注时间的70%。结果：共纳入164名受试者，并随机均分为瑞马唑仑组和丙泊酚组。瑞马唑仑连续输注时间为10.5 [8.1-14.7]小时，丙泊酚为11.0 [7.0-14.3]小时（p = 0.534）。瑞马唑仑和丙泊酚的中位平均维持剂量分别为0.20 [0.19-0.30] mg.kg(-1).h(-1)和0.61 [0.30-1.17] mg.kg(-1).h(-1)。两组成功镇静的受试者百分比均为97.5%（p = 0.497），差异为0（95%置信区间（CI）-6.5%至6.4%），高于预设的非劣效性界值-8%。瑞马唑仑组（88.6%；95% CI：84.2%-92.9%）和丙泊酚组（89.4%；95% CI：85.0%-93.8%）在目标RASS评分时间平均百分比方面无显著差异（p = 0.543）。结论：苯磺酸瑞马唑仑在ICU中实现成功的短期轻度镇静方面可能不劣于丙泊酚。试验注册：ClinicalTrials.gov标识符：NCT05782894，注册日期为2023年2月18日。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Yang X, Pan J, Gong X, Lv A, Liang F, Liu J, Li D, Fu S, et al.",
+          "citation": "Intensive Care Med. 2026 May;52(5):1001-1011. doi: 10.1007/s00134-026-08381-x. Epub 2026 Mar 31.",
+          "doi": "10.1007/s00134-026-08381-x",
+          "pmid": "41915173",
+          "pmcid": null,
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 22,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://link.springer.com/journal/134",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Intensive Care Medicine"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "ICU镇静药物选择影响患者预后和资源利用，瑞马唑仑作为新型苯二氮䓬类药物，若证实其非劣效性，可为临床提供更多选择，尤其适用于需要快速苏醒或对丙泊酚有禁忌的患者。",
+          "conclusion": "在需要短期浅镇静的机械通气ICU患者中，瑞马唑仑苯磺酸盐在实现成功镇静方面不劣于丙泊酚，且两组目标RASS评分时间百分比无显著差异。",
+          "clinical": "瑞马唑仑可作为ICU短期浅镇静的替代选择，尤其适用于需要快速苏醒或对丙泊酚有禁忌的患者。 瑞马唑仑的维持剂量低于丙泊酚，可能减少药物用量，但需注意个体化调整。 由于本研究为单盲设计，且未报告安全性数据，临床使用仍需谨慎，需监测呼吸和循环功能。",
+          "evidence": "中等偏高",
+          "score": 69,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 22,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心、随机、单盲、非劣效性试验"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "mechanically ventilated patients who needed light sedation (RASS scores between -2 and +1)；164 participants randomized equally into two groups"
+            },
+            {
+              "label": "干预与比较",
+              "value": "remimazolam besylate；对照：propofol"
+            },
+            {
+              "label": "主要终点",
+              "value": "successful sedation defined as no rescue sedative administered during study drug infusion while maintaining RASS scores between -2 and +1 for at least 70% of total infusion time"
+            }
+          ],
+          "keyPoints": [
+            "瑞马唑仑在ICU短期浅镇静中非劣于丙泊酚（成功镇静率差异0，95%CI -6.5%至6.4%，高于-8%界值）。",
+            "两组目标RASS时间百分比无显著差异（88.6% vs 89.4%，p=0.543）。",
+            "瑞马唑仑维持剂量低于丙泊酚（0.20 vs 0.61 mg·kg⁻¹·h⁻¹）。",
+            "研究为单盲设计，未报告安全性结果，需谨慎解读。"
+          ],
+          "methods": "ICU中短期镇静常用丙泊酚，但存在呼吸抑制、低血压等风险。瑞马唑仑苯磺酸盐是一种超短效苯二氮䓬类镇静药，具有起效快、恢复快、可被氟马西尼拮抗的特点，可能成为丙泊酚的替代选择。本研究旨在比较瑞马唑仑与丙泊酚在ICU短期浅镇静中的疗效和安全性。",
+          "results": "共164例患者随机分配至瑞马唑仑组和丙泊酚组。两组成功镇静的患者比例均为97.5%（p=0.497），组间差异为0（95%CI -6.5%至6.4%），高于预设的非劣效界值-8%。瑞马唑仑组目标RASS评分时间百分比为88.6%（95%CI 84.2%-92.9%），丙泊酚组为89.4%（95%CI 85.0%-93.8%），差异无统计学意义（p=0.543）。瑞马唑仑中位维持剂量为0.20 mg·kg⁻¹·h⁻¹，丙泊酚为0.61 mg·kg⁻¹·h⁻¹。",
+          "mainResults": "共164例患者随机分配至瑞马唑仑组和丙泊酚组。两组成功镇静的患者比例均为97.5%（p=0.497），组间差异为0（95%CI -6.5%至6.4%），高于预设的非劣效界值-8%。瑞马唑仑组目标RASS评分时间百分比为88.6%（95%CI 84.2%-92.9%），丙泊酚组为89.4%（95%CI 85.0%-93.8%），差异无统计学意义（p=0.543）。瑞马唑仑中位维持剂量为0.20 mg·kg⁻¹·h⁻¹，丙泊酚为0.61 mg·kg⁻¹·h⁻¹。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "瑞马唑仑可作为ICU短期浅镇静的替代选择，尤其适用于需要快速苏醒或对丙泊酚有禁忌的患者。",
+            "瑞马唑仑的维持剂量低于丙泊酚，可能减少药物用量，但需注意个体化调整。",
+            "由于本研究为单盲设计，且未报告安全性数据，临床使用仍需谨慎，需监测呼吸和循环功能。"
+          ],
+          "editor": "研究为多中心随机对照试验，非劣效性设计合理，主要终点结果明确，支持瑞马唑仑非劣于丙泊酚的结论。 过度解读风险：摘要未报告安全性数据，且为单盲设计，可能高估疗效；非劣效界值-8%的临床合理性需进一步评估。",
+          "whyItMatters": "ICU镇静药物选择影响患者预后和资源利用，瑞马唑仑作为新型苯二氮䓬类药物，若证实其非劣效性，可为临床提供更多选择，尤其适用于需要快速苏醒或对丙泊酚有禁忌的患者。",
+          "background": "ICU中短期镇静常用丙泊酚，但存在呼吸抑制、低血压等风险。瑞马唑仑苯磺酸盐是一种超短效苯二氮䓬类镇静药，具有起效快、恢复快、可被氟马西尼拮抗的特点，可能成为丙泊酚的替代选择。本研究旨在比较瑞马唑仑与丙泊酚在ICU短期浅镇静中的疗效和安全性。",
+          "pico": {
+            "population": "mechanically ventilated patients who needed light sedation (RASS scores between -2 and +1)",
+            "intervention": "remimazolam besylate",
+            "comparison": "propofol",
+            "outcome": "successful sedation defined as no rescue sedative administered during study drug infusion while maintaining RASS scores between -2 and +1 for at least 70% of total infusion time"
+          },
+          "studyType": "多中心、随机、单盲、非劣效性试验",
+          "sampleSize": "164 participants randomized equally into two groups",
+          "primaryOutcome": "successful sedation defined as no rescue sedative administered during study drug infusion while maintaining RASS scores between -2 and +1 for at least 70% of total infusion time",
+          "effectSize": [
+            "difference of 0"
+          ],
+          "confidenceInterval": [
+            "-6.5% to 6.4%",
+            "84.2%-92.9%",
+            "85.0%-93.8%"
+          ],
+          "pValue": [
+            "0.497",
+            "0.543",
+            "0.534"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究为多中心随机对照试验，非劣效性设计合理，主要终点结果明确，支持瑞马唑仑非劣于丙泊酚的结论。",
+            "overinterpretationRisk": "摘要未报告安全性数据，且为单盲设计，可能高估疗效；非劣效界值-8%的临床合理性需进一步评估。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文，无法评估随机化细节、盲法实施、样本量计算、失访、安全性数据等。",
+                "未报告不良事件、次要结局、亚组分析等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "瑞马唑仑苯磺酸盐与丙泊酚相比，在ICU短期浅镇静中的疗效和安全性如何？",
+              "designFit": "非劣效性设计适用于验证瑞马唑仑不劣于丙泊酚，符合研究目的。",
+              "eligibility": "需要浅镇静（RASS -2至+1）的机械通气患者，具体纳入排除标准未在摘要中详述。",
+              "randomization": "随机化方法未在摘要中描述，仅提及随机分配。",
+              "allocationConcealment": "未报告分配隐藏方法。",
+              "blinding": "单盲设计，具体盲法对象（患者、医生或评估者）未明确。",
+              "sampleSizePlanning": "未报告样本量计算过程，但非劣效界值-8%已预设。",
+              "followUp": "未报告随访时长和失访情况。",
+              "analysisPopulation": "未明确分析人群（意向性分析或符合方案分析）。",
+              "missingData": "未报告缺失数据处理方法。",
+              "strengths": [
+                "多中心随机对照试验，样本量适中。",
+                "非劣效性设计，预设界值。"
+              ],
+              "concerns": [
+                "单盲设计可能引入偏倚。",
+                "未报告安全性数据，无法全面评估风险。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "noninferiority",
+                  "name": "非劣效分析",
+                  "purposeInStudy": "评估瑞马唑仑在成功镇静方面是否不劣于丙泊酚，通过比较组间差异的95%CI与预设界值-8%的关系。",
+                  "reportedResult": "组间差异为0（95%CI -6.5%至6.4%），高于-8%界值，支持非劣效。",
+                  "interpretation": "瑞马唑仑非劣于丙泊酚，但未证明优效。",
+                  "cautions": [
+                    "非劣效界值的临床合理性需结合临床背景判断。",
+                    "单盲设计可能影响结果可靠性。"
+                  ],
+                  "standardExplanation": "判断新方案的效果是否未差于预设界值；结论依赖界值合理性及意向性和符合方案分析的一致性。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "统计上非劣效，但临床获益需结合安全性、成本、患者偏好等因素综合判断。"
+            },
+            "outcomeAnalysis": {
+              "primary": "成功镇静率：两组均为97.5%，差异0（95%CI -6.5%至6.4%），非劣效成立。",
+              "secondary": [
+                "目标RASS时间百分比：瑞马唑仑组88.6%，丙泊酚组89.4%，p=0.543，无显著差异。",
+                "维持剂量：瑞马唑仑0.20 mg·kg⁻¹·h⁻¹，丙泊酚0.61 mg·kg⁻¹·h⁻¹。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "绝对差异为0%，相对差异无法计算（两组均为97.5%）。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心随机对照设计，样本量适中。",
+                "非劣效性设计，预设界值。"
+              ],
+              "limitations": [
+                "单盲设计可能引入偏倚。",
+                "未报告安全性数据。",
+                "未报告随机化细节、分配隐藏、样本量计算等。"
+              ],
+              "biasRisks": [
+                "单盲可能导致实施偏倚。",
+                "未报告分配隐藏，可能存在选择偏倚。"
+              ],
+              "certainty": "中等，因摘要信息有限，无法全面评估。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎解读。",
+              "causalBoundary": "随机对照设计支持因果推断，但单盲和缺失安全性数据限制了因果强度。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于需要短期浅镇静的机械通气ICU患者。",
+                "瑞马唑仑可作为丙泊酚的替代选择。"
+              ],
+              "nonApplicability": [
+                "不适用于需要深度镇静或长期镇静的患者。",
+                "不适用于对苯二氮䓬类过敏的患者。"
+              ],
+              "practiceChange": "若安全性数据支持，可考虑将瑞马唑仑纳入ICU镇静方案，但需更多证据。",
+              "canDoNow": [
+                "在密切监测下，可考虑瑞马唑仑用于短期浅镇静。",
+                "需根据患者个体情况调整剂量。"
+              ],
+              "cannotConclude": [
+                "不能得出瑞马唑仑优于丙泊酚的结论。",
+                "不能评估瑞马唑仑的安全性。"
+              ],
+              "evidenceGaps": [
+                "需要安全性数据（如低血压、呼吸抑制、谵妄等）。",
+                "需要长期预后数据。",
+                "需要不同人群（如肝肾功能不全）的研究。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41915173/",
+            "doi": "https://doi.org/10.1007/s00134-026-08381-x",
+            "publisher": "https://doi.org/10.1007/s00134-026-08381-x",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-01T03:33:22.605Z",
       "mode": "production",

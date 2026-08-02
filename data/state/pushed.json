@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T03:33:22.605Z",
+  "updatedAt": "2026-08-02T00:07:41.235Z",
   "records": [
     {
       "pmid": "42359695",
@@ -433,6 +433,46 @@
       "status": "published",
       "runId": "2026-08-01T03-33-22.605Z",
       "firstPublishedAt": "2026-08-01T03:33:22.605Z"
+    },
+    {
+      "pmid": "41369227",
+      "doi": "10.1056/nejmoa2511420",
+      "title": "Ketamine or Etomidate for Tracheal Intubation of Critically Ill Adults.",
+      "status": "published",
+      "runId": "2026-08-02T00-07-41.235Z",
+      "firstPublishedAt": "2026-08-02T00:07:41.235Z"
+    },
+    {
+      "pmid": "41334859",
+      "doi": "10.1001/jama.2025.23373",
+      "title": "Intraoperative Driving Pressure-Guided High PEEP vs Standard Low PEEP for Postoperative Pulmonary Complications.",
+      "status": "published",
+      "runId": "2026-08-02T00-07-41.235Z",
+      "firstPublishedAt": "2026-08-02T00:07:41.235Z"
+    },
+    {
+      "pmid": "42056115",
+      "doi": "10.1038/s41467-026-72454-0",
+      "title": "Dynamic neuronal ensembles encode burst-suppression revealed by cortex-wide optical-electrical interfaces.",
+      "status": "published",
+      "runId": "2026-08-02T00-07-41.235Z",
+      "firstPublishedAt": "2026-08-02T00:07:41.235Z"
+    },
+    {
+      "pmid": "41870554",
+      "doi": "10.1007/s00134-026-08351-3",
+      "title": "Propofol versus ketamine in rapid sequence intubation in critically ill patients: a prospective, randomized, controlled trial.",
+      "status": "published",
+      "runId": "2026-08-02T00-07-41.235Z",
+      "firstPublishedAt": "2026-08-02T00:07:41.235Z"
+    },
+    {
+      "pmid": "41915173",
+      "doi": "10.1007/s00134-026-08381-x",
+      "title": "Short-term light sedation with remimazolam besylate versus propofol in the ICU (SHOSREB): a multicentre, randomized, single-blind, controlled trial.",
+      "status": "published",
+      "runId": "2026-08-02T00-07-41.235Z",
+      "firstPublishedAt": "2026-08-02T00:07:41.235Z"
     }
   ]
 }
