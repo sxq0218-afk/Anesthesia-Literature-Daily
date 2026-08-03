@@ -1,7 +1,239 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-02T00:07:41.235Z",
+  "updatedAt": "2026-08-03T00:08:13.531Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-03T00:08:13.531Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-04T00:08:13.531Z",
+        "to": "2026-08-03T00:08:13.531Z",
+        "candidateCount": 264,
+        "discoveryCandidateCount": 10468,
+        "unseenCount": 220,
+        "duplicateCount": 44,
+        "priorityCandidateCount": 264,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 264,
+          "retrievedCount": 264,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 2,
+          "excludedCount": 298,
+          "excludedByReason": {
+            "journal-not-configured": 295,
+            "impact-factor-unknown": 1,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024
+          ],
+          "unresolvedCount": 298,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 22
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "AANA journal",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "International journal of obstetric anesthesia",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of maxillofacial and oral surgery",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "JHLT open",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Die Anaesthesiologie",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Gynecologic oncology reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 220,
+          "eligibleCount": 197,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 170,
+          "clinical": 115,
+          "basic": 15,
+          "other": 40
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42230621",
+          "title": "伤害感受器生物钟基因以性别和时间依赖性方式控制小鼠的兴奋性与疼痛感知",
+          "originalTitle": "Nociceptor circadian clock genes control excitability and pain perception in mice in a sex- and time-dependent manner.",
+          "journal": "Nature communications",
+          "conclusion": "在小鼠中，伤害感受器的生物钟基因Bmal1以性别和时间依赖性方式调节神经元兴奋性和热痛感知，其中ClC-2通道是介导雄性小鼠夜间兴奋性降低的关键分子。",
+          "pmid": "42230621"
+        },
+        {
+          "slug": "pmid-42082491",
+          "title": "依托咪酯类似物NH600001用于胃肠镜镇静/麻醉并减少肾上腺皮质抑制：两项随机对照试验",
+          "originalTitle": "NH600001, an etomidate analogue, provides gastrointestinal endoscopy sedation/anesthesia and reduces adrenocortical depression: two randomized controlled trials.",
+          "journal": "Nature communications",
+          "conclusion": "NH600001（0.25 mg/kg）在胃肠镜镇静/麻醉中疗效非劣于依托咪酯，且能减轻肾上腺皮质抑制，安全性相当并减少肌阵挛发生。",
+          "pmid": "42082491"
+        },
+        {
+          "slug": "pmid-40987659",
+          "title": "老年患者麻醉后监护病房脑电α功率与谵妄：AlphaMax试验第一部分——维持期地氟醚和芬太尼滴定效应",
+          "originalTitle": "EEG alpha power and delirium in the postanaesthesia care unit in older adults: the AlphaMax trial part 1 - effect of desflurane and fentanyl titration during maintenance.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在老年患者中，基于脑电α功率的麻醉滴定仅短暂增强α振荡功率，未显著降低PACU谵妄发生率，且研究因样本量不足而检验效能有限。",
+          "pmid": "40987659"
+        },
+        {
+          "slug": "pmid-41381314",
+          "title": "预防性去甲肾上腺素输注减少心脏手术患者麻醉诱导期间严重低血压：一项随机对照单中心临床试验",
+          "originalTitle": "Prophylactic norepinephrine infusion to reduce severe hypotension during induction of anaesthesia in patients undergoing cardiac surgery: a randomised controlled single-centre clinical trial.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在心脏手术患者中，麻醉诱导前以0.06 μg kg⁻¹ min⁻¹起始剂量输注去甲肾上腺素，与按需使用麻黄碱相比，并未减少严重低血压（MAP<55 mmHg）的发生率。",
+          "pmid": "41381314"
+        },
+        {
+          "slug": "pmid-41238462",
+          "title": "中国全凭静脉麻醉临床实践指南：系统评价与专家共识建议",
+          "originalTitle": "Chinese clinical practice guidelines for total intravenous anaesthesia: a systematic review and expert consensus-based recommendations(☆).",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "基于系统评价和专家共识，中国麻醉学会制定了涵盖12个临床问题的22条全凭静脉麻醉（TIVA）建议，旨在规范TIVA的临床应用。",
+          "pmid": "41238462"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-02T00:07:41.235Z",
       "search": {

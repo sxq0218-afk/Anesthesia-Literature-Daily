@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T00:07:41.235Z",
+  "updatedAt": "2026-08-03T00:08:13.531Z",
   "records": [
     {
       "pmid": "42359695",
@@ -473,6 +473,46 @@
       "status": "published",
       "runId": "2026-08-02T00-07-41.235Z",
       "firstPublishedAt": "2026-08-02T00:07:41.235Z"
+    },
+    {
+      "pmid": "42230621",
+      "doi": "10.1038/s41467-026-73772-z",
+      "title": "Nociceptor circadian clock genes control excitability and pain perception in mice in a sex- and time-dependent manner.",
+      "status": "published",
+      "runId": "2026-08-03T00-08-13.531Z",
+      "firstPublishedAt": "2026-08-03T00:08:13.531Z"
+    },
+    {
+      "pmid": "42082491",
+      "doi": "10.1038/s41467-026-72614-2",
+      "title": "NH600001, an etomidate analogue, provides gastrointestinal endoscopy sedation/anesthesia and reduces adrenocortical depression: two randomized controlled trials.",
+      "status": "published",
+      "runId": "2026-08-03T00-08-13.531Z",
+      "firstPublishedAt": "2026-08-03T00:08:13.531Z"
+    },
+    {
+      "pmid": "40987659",
+      "doi": "10.1016/j.bja.2025.07.045",
+      "title": "EEG alpha power and delirium in the postanaesthesia care unit in older adults: the AlphaMax trial part 1 - effect of desflurane and fentanyl titration during maintenance.",
+      "status": "published",
+      "runId": "2026-08-03T00-08-13.531Z",
+      "firstPublishedAt": "2026-08-03T00:08:13.531Z"
+    },
+    {
+      "pmid": "41381314",
+      "doi": "10.1016/j.bja.2025.10.055",
+      "title": "Prophylactic norepinephrine infusion to reduce severe hypotension during induction of anaesthesia in patients undergoing cardiac surgery: a randomised controlled single-centre clinical trial.",
+      "status": "published",
+      "runId": "2026-08-03T00-08-13.531Z",
+      "firstPublishedAt": "2026-08-03T00:08:13.531Z"
+    },
+    {
+      "pmid": "41238462",
+      "doi": "10.1016/j.bja.2025.09.038",
+      "title": "Chinese clinical practice guidelines for total intravenous anaesthesia: a systematic review and expert consensus-based recommendations(☆).",
+      "status": "published",
+      "runId": "2026-08-03T00-08-13.531Z",
+      "firstPublishedAt": "2026-08-03T00:08:13.531Z"
     }
   ]
 }

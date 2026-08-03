@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 02 Aug 2026 00:07:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 00:08:13 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-03 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-03/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-03/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:08:13 GMT</pubDate>
+      <description>伤害感受器生物钟基因以性别和时间依赖性方式控制小鼠的兴奋性与疼痛感知：在小鼠中，伤害感受器的生物钟基因Bmal1以性别和时间依赖性方式调节神经元兴奋性和热痛感知，其中ClC-2通道是介导雄性小鼠夜间兴奋性降低的关键分子。
+依托咪酯类似物NH600001用于胃肠镜镇静/麻醉并减少肾上腺皮质抑制：两项随机对照试验：NH600001（0.25 mg/kg）在胃肠镜镇静/麻醉中疗效非劣于依托咪酯，且能减轻肾上腺皮质抑制，安全性相当并减少肌阵挛发生。
+老年患者麻醉后监护病房脑电α功率与谵妄：AlphaMax试验第一部分——维持期地氟醚和芬太尼滴定效应：在老年患者中，基于脑电α功率的麻醉滴定仅短暂增强α振荡功率，未显著降低PACU谵妄发生率，且研究因样本量不足而检验效能有限。
+预防性去甲肾上腺素输注减少心脏手术患者麻醉诱导期间严重低血压：一项随机对照单中心临床试验：在心脏手术患者中，麻醉诱导前以0.06 μg kg⁻¹ min⁻¹起始剂量输注去甲肾上腺素，与按需使用麻黄碱相比，并未减少严重低血压（MAP&lt;55 mmHg）的发生率。
+中国全凭静脉麻醉临床实践指南：系统评价与专家共识建议：基于系统评价和专家共识，中国麻醉学会制定了涵盖12个临床问题的22条全凭静脉麻醉（TIVA）建议，旨在规范TIVA的临床应用。</description>
+    </item>
     <item>
       <title>2026-08-02 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-02/</link>
