@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-03T00:08:13.531Z",
+  "updatedAt": "2026-08-05T00:16:57.861Z",
   "records": [
     {
       "pmid": "42359695",
@@ -513,6 +513,46 @@
       "status": "published",
       "runId": "2026-08-03T00-08-13.531Z",
       "firstPublishedAt": "2026-08-03T00:08:13.531Z"
+    },
+    {
+      "pmid": "42097958",
+      "doi": "10.1016/j.bja.2026.02.024",
+      "title": "C1q-mediated synapse loss by microglial phagocytosis is associated with postoperative neurocognitive disorder in mice.",
+      "status": "published",
+      "runId": "2026-08-05T00-16-57.861Z",
+      "firstPublishedAt": "2026-08-05T00:16:57.861Z"
+    },
+    {
+      "pmid": "42321197",
+      "doi": "10.1038/s41467-026-74518-7",
+      "title": "Volatile anaesthetics modulate voltage-gated sodium channel function at a site directly linked to channel gating.",
+      "status": "published",
+      "runId": "2026-08-05T00-16-57.861Z",
+      "firstPublishedAt": "2026-08-05T00:16:57.861Z"
+    },
+    {
+      "pmid": "41763963",
+      "doi": "10.1016/j.bja.2026.01.031",
+      "title": "Psychological factors associated with postoperative cognitive outcomes in older adults: a systematic review and meta-analysis.",
+      "status": "published",
+      "runId": "2026-08-05T00-16-57.861Z",
+      "firstPublishedAt": "2026-08-05T00:16:57.861Z"
+    },
+    {
+      "pmid": "42014224",
+      "doi": "10.1016/j.bja.2026.03.020",
+      "title": "Closed-loop systems for automated hypnotic drug delivery during general anaesthesia: a systematic review and meta-analysis.",
+      "status": "published",
+      "runId": "2026-08-05T00-16-57.861Z",
+      "firstPublishedAt": "2026-08-05T00:16:57.861Z"
+    },
+    {
+      "pmid": "41826217",
+      "doi": "10.1016/j.bja.2026.01.027",
+      "title": "Validation status of definitive airway management simulators: a systematic review.",
+      "status": "published",
+      "runId": "2026-08-05T00-16-57.861Z",
+      "firstPublishedAt": "2026-08-05T00:16:57.861Z"
     }
   ]
 }

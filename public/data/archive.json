@@ -1,7 +1,240 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T00:08:13.531Z",
+  "updatedAt": "2026-08-05T00:16:57.861Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-05T00:16:57.861Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-06T00:16:57.861Z",
+        "to": "2026-08-05T00:16:57.861Z",
+        "candidateCount": 266,
+        "discoveryCandidateCount": 10490,
+        "unseenCount": 217,
+        "duplicateCount": 49,
+        "priorityCandidateCount": 266,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 266,
+          "retrievedCount": 266,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 3,
+          "excludedCount": 297,
+          "excludedByReason": {
+            "journal-not-configured": 293,
+            "impact-factor-stale": 3,
+            "impact-factor-unknown": 1
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 297,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 23
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "AANA journal",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of maxillofacial and oral surgery",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The Journal of surgical research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 217,
+          "eligibleCount": 194,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 167,
+          "clinical": 114,
+          "basic": 13,
+          "other": 40
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42097958",
+          "title": "小胶质细胞吞噬介导的C1q依赖性突触丢失与小鼠术后神经认知障碍相关",
+          "originalTitle": "C1q-mediated synapse loss by microglial phagocytosis is associated with postoperative neurocognitive disorder in mice.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在无菌胫骨骨折手术小鼠模型中，海马小胶质细胞以C1q依赖方式修剪兴奋性和抑制性突触，导致术后突触丢失和认知功能障碍；抑制C1q或NF-κB可改善认知功能。",
+          "pmid": "42097958"
+        },
+        {
+          "slug": "pmid-42321197",
+          "title": "挥发性麻醉药在直接与通道门控相关的位点调节电压门控钠通道功能",
+          "originalTitle": "Volatile anaesthetics modulate voltage-gated sodium channel function at a site directly linked to channel gating.",
+          "journal": "Nature communications",
+          "conclusion": "该研究在原子水平上鉴定了挥发性麻醉药在电压门控钠通道上的结合位点，并表明其通过占据膜内疏水口袋、置换脂质来调节通道失活，从而影响神经元兴奋性。",
+          "pmid": "42321197"
+        },
+        {
+          "slug": "pmid-41763963",
+          "title": "老年人术后认知结局相关的心理因素：系统评价与荟萃分析",
+          "originalTitle": "Psychological factors associated with postoperative cognitive outcomes in older adults: a systematic review and meta-analysis.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在老年人中，抑郁是术后谵妄最常报告的心理风险因素，但荟萃分析显示其与术后谵妄的关联未达统计学显著性；焦虑、人格特质和压力相关因素的证据有限。",
+          "pmid": "41763963"
+        },
+        {
+          "slug": "pmid-42014224",
+          "title": "全麻期间自动化催眠药物输注的闭环系统：系统评价与荟萃分析",
+          "originalTitle": "Closed-loop systems for automated hypnotic drug delivery during general anaesthesia: a systematic review and meta-analysis.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "BIS引导的闭环系统在麻醉深度控制中实现了双侧安全性，减少深麻醉而不增加浅麻醉，并适度加快恢复且保持血流动力学稳定。",
+          "pmid": "42014224"
+        },
+        {
+          "slug": "pmid-41826217",
+          "title": "确定性气道管理模拟器的验证状态：一项系统综述",
+          "originalTitle": "Validation status of definitive airway management simulators: a systematic review.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "当前确定性气道管理模拟器虽广泛用于培训与设备评估，但多数仅经过有限验证，预测效度极少被评估，且验证质量与模拟器保真度并不一致。",
+          "pmid": "41826217"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-03T00:08:13.531Z",
       "search": {

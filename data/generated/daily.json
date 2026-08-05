@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T00:08:13.531Z",
+  "generatedAt": "2026-08-05T00:16:57.861Z",
   "mode": "production",
   "search": {
     "initialDays": 30,
@@ -18,18 +18,18 @@
         "reason": "composition-shortfall"
       }
     ],
-    "from": "2026-02-04T00:08:13.531Z",
-    "to": "2026-08-03T00:08:13.531Z",
-    "candidateCount": 264,
-    "discoveryCandidateCount": 10468,
-    "unseenCount": 220,
-    "duplicateCount": 44,
-    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/02/03:2026/08/02[Date - Publication]",
-    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2026/02/03:2026/08/02[Date - Publication]",
-    "priorityCandidateCount": 264,
+    "from": "2026-02-06T00:16:57.861Z",
+    "to": "2026-08-05T00:16:57.861Z",
+    "candidateCount": 266,
+    "discoveryCandidateCount": 10490,
+    "unseenCount": 217,
+    "duplicateCount": 49,
+    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/02/05:2026/08/04[Date - Publication]",
+    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2026/02/05:2026/08/04[Date - Publication]",
+    "priorityCandidateCount": 266,
     "eligibleJournalRetrieval": {
-      "matchedCount": 264,
-      "retrievedCount": 264,
+      "matchedCount": 266,
+      "retrievedCount": 266,
       "complete": true,
       "truncatedCount": 0,
       "maximumCandidates": 2000,
@@ -39,23 +39,24 @@
       "threshold": 5,
       "comparison": "greater-than",
       "candidateCount": 300,
-      "eligibleCount": 2,
-      "excludedCount": 298,
+      "eligibleCount": 3,
+      "excludedCount": 297,
       "excludedByReason": {
-        "journal-not-configured": 295,
-        "impact-factor-unknown": 1,
-        "impact-factor-stale": 2
+        "journal-not-configured": 293,
+        "impact-factor-stale": 3,
+        "impact-factor-unknown": 1
       },
       "rankingMetricYear": 2025,
       "eligibleMetricYears": [
-        2024
+        2024,
+        2025
       ],
-      "unresolvedCount": 298,
+      "unresolvedCount": 297,
       "unresolvedJournals": [
         {
           "journal": "Annals of medicine",
           "reason": "journal-not-configured",
-          "count": 22
+          "count": 23
         },
         {
           "journal": "Anesthesiology clinics",
@@ -83,11 +84,6 @@
           "count": 8
         },
         {
-          "journal": "International journal of obstetric anesthesia",
-          "reason": "journal-not-configured",
-          "count": 7
-        },
-        {
           "journal": "Radiology case reports",
           "reason": "journal-not-configured",
           "count": 7
@@ -113,7 +109,7 @@
           "count": 4
         },
         {
-          "journal": "JHLT open",
+          "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
           "reason": "journal-not-configured",
           "count": 4
         },
@@ -143,22 +139,27 @@
           "count": 3
         },
         {
-          "journal": "Die Anaesthesiologie",
+          "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
           "reason": "journal-not-configured",
           "count": 3
         },
         {
-          "journal": "Gynecologic oncology reports",
+          "journal": "The Journal of surgical research",
           "reason": "journal-not-configured",
           "count": 3
+        },
+        {
+          "journal": "American journal of ophthalmology case reports",
+          "reason": "journal-not-configured",
+          "count": 2
         }
       ]
     },
     "journalImpactFactor": {
       "threshold": 5,
       "comparison": "greater-than",
-      "candidateCount": 220,
-      "eligibleCount": 197,
+      "candidateCount": 217,
+      "eligibleCount": 194,
       "excludedCount": 23,
       "excludedByReason": {
         "journal-not-configured": 23
@@ -177,9 +178,9 @@
       "allowBackfill": false
     },
     "candidatePool": {
-      "total": 170,
-      "clinical": 115,
-      "basic": 15,
+      "total": 167,
+      "clinical": 114,
+      "basic": 13,
       "other": 40
     },
     "selectionSummary": {
@@ -196,62 +197,71 @@
     "configuredModel": "deepseek-chat",
     "usage": {
       "calls": 20,
-      "promptTokens": 65831,
-      "completionTokens": 20479,
-      "totalTokens": 86310
+      "promptTokens": 55896,
+      "completionTokens": 18954,
+      "totalTokens": 74850
     }
   },
   "articles": [
     {
       "analysisVersion": 2,
-      "slug": "pmid-42230621",
+      "slug": "pmid-42097958",
       "number": "01",
-      "category": "麻醉基础研究",
-      "journal": "Nature communications",
+      "category": "老年围术期",
+      "journal": "British journal of anaesthesia",
       "year": "2026",
-      "publishedDate": "2026-06-01",
-      "electronicPublicationDate": "2026-06-01",
-      "readingTime": "11 分钟",
-      "title": "伤害感受器生物钟基因以性别和时间依赖性方式控制小鼠的兴奋性与疼痛感知",
-      "originalTitle": "Nociceptor circadian clock genes control excitability and pain perception in mice in a sex- and time-dependent manner.",
-      "abstract": "Nociception is critical for pain perception and survival and begins with the activation of nociceptors, specialized sensory neurons located in the dorsal root ganglia (DRGs). Both sex and circadian rhythms, governed by clock genes, seem to play a significant role in modulating pain perception. However, the potential interaction between circadian rhythms and sex differences in nociception at the peripheral level has been largely overlooked. Here, we first report that DRGs from mice express core clock genes in a time- and sex-dependent manner. Using whole-cell recordings in intact DRGs and optogenetic stimulation of Nav1.8-expressing neurons, we demonstrate that male nociceptors exhibit reduced excitability during the night, while female nociceptor excitability remains stable across time points. Disruption of the core clock gene Bmal1 in Nav1.8-expressing neurons not only diminished nociceptor activity but also abolished the nighttime reduction in heat sensitivity observed in males, highlighting a pivotal role for the molecular clock in regulating nociception. Transcriptomic and immunohistochemistry analyses, voltage-clamp recordings, and pharmacological experiments identified the voltage-gated chloride channel ClC-2 as a key mediator for the observed fluctuations in male nociceptor excitability and heat sensitivity. This work opens promising avenues for chronobiology-inspired strategies in pain management tailored to sex-specific mechanisms.",
+      "publishedDate": "2026-06",
+      "electronicPublicationDate": "2026-05-06",
+      "readingTime": "14 分钟",
+      "title": "小胶质细胞吞噬介导的C1q依赖性突触丢失与小鼠术后神经认知障碍相关",
+      "originalTitle": "C1q-mediated synapse loss by microglial phagocytosis is associated with postoperative neurocognitive disorder in mice.",
+      "abstract": "BACKGROUND: Perioperative neurocognitive disorders (PNDs) are common complications in elderly surgical patients. Possible pathogenic mechanisms for the development of PNDs include loss of synaptic connections mediated by microglial activation, although the precise mechanisms are not fully understood. METHODS: Male and female C57BL/6J or male Cx3cr1-CreERT2 mice, aged 8-12 weeks, were subjected to aseptic tibial fracture surgery, and cognitive tests were carried out 3 days after surgery. Through a combination of bulk RNA sequencing, Western immunoblotting, immunofluorescence, and Golgi staining of the hippocampus, we investigated the role of complement C1q in activating microglia and phagocytosing synaptic connections in the pathogenesis of postoperative neurocognitive disorder. RESULTS: Postoperative mice displayed memory deficits in both the Y-maze (P<0.001) and the trace fear conditioning (TFC) paradigms (P=0.002); these memory deficits were associated with increased microglial activation, complement C1q upregulation, classical complement pathway transcriptomic upregulation, and synapse loss (all P<0.05). After surgery, there was a  approximately 2-fold increase in colocalisation of C1qa with Homer1 (excitatory) or gephyrin (inhibitory) synaptic proteins in microglia (P<0.001). Postoperative memory decline and synapse loss did not occur after treatment with microglial activity inhibitor minocycline, after exposure to C1q neutralising antibody JL-1, or after C1q depletion from CA1 microglia. Activation of NF-kappaB was correlated with elevated levels of complement C1q in models, and selective inhibition of NF-kappaB activation with pyrrolidinedithiocarbamate ammonium (PDTC) attenuated the surgery-induced elevation of C1q and improved cognitive function. CONCLUSIONS: The results demonstrate that hippocampal microglia prune both excitatory and inhibitory synapses in a C1q-dependent manner, contributing to postoperative synapse loss and cognitive dysfunction. Targeting C1q and NF-kappaB activation could be a promising therapeutic intervention to ameliorate perioperative neurocognitive disorders.",
       "abstractTranslation": {
         "sections": [
           {
-            "heading": null,
-            "text": "伤害感受对于疼痛感知和生存至关重要，始于伤害感受器的激活，这些特化的感觉神经元位于背根神经节（DRGs）中。性别和由时钟基因控制的昼夜节律似乎都在调节疼痛感知中发挥重要作用。然而，昼夜节律与性别差异在外周水平伤害感受中的潜在相互作用在很大程度上被忽视了。在此，我们首先报道小鼠DRGs以时间和性别依赖的方式表达核心时钟基因。通过在完整DRG中进行全细胞记录和对表达Nav1.8的神经元进行光遗传学刺激，我们证明雄性伤害感受器在夜间表现出降低的兴奋性，而雌性伤害感受器的兴奋性在不同时间点保持稳定。在表达Nav1.8的神经元中破坏核心时钟基因Bmal1不仅减弱了伤害感受器活动，还消除了在雄性中观察到的夜间热敏感性降低，突显了分子时钟在调节伤害感受中的关键作用。转录组学和免疫组织化学分析、电压钳记录和药理学实验确定了电压门控氯通道ClC-2是观察到的雄性伤害感受器兴奋性和热敏感性波动的关键介质。这项工作为基于时间生物学的疼痛管理策略开辟了有前景的途径，这些策略针对性别特异性机制。"
+            "heading": "BACKGROUND",
+            "text": "围手术期神经认知障碍（PNDs）是老年手术患者的常见并发症。PNDs的可能发病机制包括由小胶质细胞活化介导的突触连接丢失，尽管确切机制尚未完全明了。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "将8-12周龄的雄性和雌性C57BL/6J或雄性Cx3cr1-CreERT2小鼠进行无菌胫骨骨折手术，并在术后3天进行认知测试。通过结合批量RNA测序、Western免疫印迹、免疫荧光和海马高尔基染色，我们研究了补体C1q在术后神经认知障碍发病机制中激活小胶质细胞和吞噬突触连接的作用。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "术后小鼠在Y迷宫（P<0.001）和痕迹恐惧条件反射（TFC）范式（P=0.002）中表现出记忆缺陷；这些记忆缺陷与小胶质细胞活化增加、补体C1q上调、经典补体途径转录组上调以及突触丢失相关（所有P<0.05）。手术后，小胶质细胞中C1qa与Homer1（兴奋性）或gephyrin（抑制性）突触蛋白的共定位增加了约2倍（P<0.001）。在使用小胶质细胞活性抑制剂米诺环素、暴露于C1q中和抗体JL-1或从CA1小胶质细胞中耗竭C1q后，术后记忆衰退和突触丢失未发生。NF-kappaB的激活与模型中补体C1q水平升高相关，使用吡咯烷二硫代氨基甲酸铵（PDTC）选择性抑制NF-kappaB激活可减弱手术诱导的C1q升高并改善认知功能。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "结果表明，海马小胶质细胞以C1q依赖的方式修剪兴奋性和抑制性突触，导致术后突触丢失和认知功能障碍。靶向C1q和NF-kappaB激活可能是改善围手术期神经认知障碍的有前景的治疗干预措施。"
           }
         ],
-        "fullText": "伤害感受对于疼痛感知和生存至关重要，始于伤害感受器的激活，这些特化的感觉神经元位于背根神经节（DRGs）中。性别和由时钟基因控制的昼夜节律似乎都在调节疼痛感知中发挥重要作用。然而，昼夜节律与性别差异在外周水平伤害感受中的潜在相互作用在很大程度上被忽视了。在此，我们首先报道小鼠DRGs以时间和性别依赖的方式表达核心时钟基因。通过在完整DRG中进行全细胞记录和对表达Nav1.8的神经元进行光遗传学刺激，我们证明雄性伤害感受器在夜间表现出降低的兴奋性，而雌性伤害感受器的兴奋性在不同时间点保持稳定。在表达Nav1.8的神经元中破坏核心时钟基因Bmal1不仅减弱了伤害感受器活动，还消除了在雄性中观察到的夜间热敏感性降低，突显了分子时钟在调节伤害感受中的关键作用。转录组学和免疫组织化学分析、电压钳记录和药理学实验确定了电压门控氯通道ClC-2是观察到的雄性伤害感受器兴奋性和热敏感性波动的关键介质。这项工作为基于时间生物学的疼痛管理策略开辟了有前景的途径，这些策略针对性别特异性机制。",
+        "fullText": "BACKGROUND: Perioperative neurocognitive disorders (PNDs) are common complications in elderly surgical patients. Possible pathogenic mechanisms for the development of PNDs include loss of synaptic connections mediated by microglial activation, although the precise mechanisms are not fully understood. METHODS: Male and female C57BL/6J or male Cx3cr1-CreERT2 mice, aged 8-12 weeks, were subjected to aseptic tibial fracture surgery, and cognitive tests were carried out 3 days after surgery. Through a combination of bulk RNA sequencing, Western immunoblotting, immunofluorescence, and Golgi staining of the hippocampus, we investigated the role of complement C1q in activating microglia and phagocytosing synaptic connections in the pathogenesis of postoperative neurocognitive disorder. RESULTS: Postoperative mice displayed memory deficits in both the Y-maze (P<0.001) and the trace fear conditioning (TFC) paradigms (P=0.002); these memory deficits were associated with increased microglial activation, complement C1q upregulation, classical complement pathway transcriptomic upregulation, and synapse loss (all P<0.05). After surgery, there was a approximately 2-fold increase in colocalisation of C1qa with Homer1 (excitatory) or gephyrin (inhibitory) synaptic proteins in microglia (P<0.001). Postoperative memory decline and synapse loss did not occur after treatment with microglial activity inhibitor minocycline, after exposure to C1q neutralising antibody JL-1, or after C1q depletion from CA1 microglia. Activation of NF-kappaB was correlated with elevated levels of complement C1q in models, and selective inhibition of NF-kappaB activation with pyrrolidinedithiocarbamate ammonium (PDTC) attenuated the surgery-induced elevation of C1q and improved cognitive function. CONCLUSIONS: The results demonstrate that hippocampal microglia prune both excitatory and inhibitory synapses in a C1q-dependent manner, contributing to postoperative synapse loss and cognitive dysfunction. Targeting C1q and NF-kappaB activation could be a promising therapeutic intervention to ameliorate perioperative neurocognitive disorders.",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Brecier A, Bannerman CA, Xie YF, Dedek C, Zacharias AM, O'Connor CD, Rickert Llacer A, Miller SD, et al.",
-      "citation": "Nat Commun. 2026 Jun 1;17(1):7053. doi: 10.1038/s41467-026-73772-z.",
-      "doi": "10.1038/s41467-026-73772-z",
-      "pmid": "42230621",
-      "pmcid": "PMC13392263",
+      "authors": "Lv J, Yao L, Tang L, Li Q, Wang L, Yan X, Li M, Peng W, et al.",
+      "citation": "Br J Anaesth. 2026 Jun;136(6):1855-1869. doi: 10.1016/j.bja.2026.02.024. Epub 2026 May 6.",
+      "doi": "10.1016/j.bja.2026.02.024",
+      "pmid": "42097958",
+      "pmcid": "PMC13197930",
       "publicationTypes": [
         "Journal Article"
       ],
       "meshTerms": [
         "Animals",
+        "*Microglia/metabolism/pathology/physiology",
+        "*Complement C1q/metabolism/physiology",
         "Male",
-        "Ganglia, Spinal/metabolism/cytology",
+        "*Synapses/pathology",
         "Female",
-        "*Circadian Clocks/genetics",
-        "Mice",
-        "*Nociceptors/metabolism/physiology",
-        "Circadian Rhythm/genetics",
-        "NAV1.8 Voltage-Gated Sodium Channel/metabolism/genetics",
-        "*ARNTL Transcription Factors/genetics/metabolism",
-        "*Pain Perception/physiology",
-        "*Nociception/physiology",
-        "Chloride Channels/metabolism/genetics",
         "Mice, Inbred C57BL",
-        "Sex Factors",
-        "Optogenetics"
+        "Mice",
+        "*Phagocytosis/physiology",
+        "*Postoperative Cognitive Complications/pathology/metabolism",
+        "Hippocampus",
+        "Tibial Fractures/surgery",
+        "*Postoperative Complications"
       ],
-      "publisher": "Springer Science and Business Media LLC",
+      "publisher": "Elsevier BV",
       "crossrefVerified": true,
       "researchCategory": {
         "id": "basic",
@@ -259,305 +269,263 @@
         "reason": "non-human-model"
       },
       "journalTier": {
-        "id": "basic_mechanism",
-        "label": "神经科学与麻醉机制高影响力期刊",
-        "priorityRank": 1
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
       },
       "journalMetric": {
         "metric": "Journal Impact Factor",
-        "impactFactor": 18.1,
+        "impactFactor": 10.3,
         "metricYear": 2025,
         "rankingMetricYear": 2025,
         "maximumAgeYears": 1,
         "rankingComparable": true,
         "threshold": 5,
         "comparison": "greater-than",
-        "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
         "verifiedAt": "2026-07-28",
-        "matchedJournal": "Nature Communications"
+        "matchedJournal": "British Journal of Anaesthesia"
       },
       "tags": [
         "基础研究",
-        "神经科学与麻醉机制高影响力期刊",
-        "麻醉基础研究",
+        "麻醉及围术期核心期刊",
+        "老年围术期",
         "Journal Article"
       ],
-      "question": "该研究揭示了外周伤害感受器中生物钟与性别因素在疼痛调节中的交互作用，为未来开发基于昼夜节律和性别特异性的疼痛管理策略提供了新的理论基础。",
-      "conclusion": "在小鼠中，伤害感受器的生物钟基因Bmal1以性别和时间依赖性方式调节神经元兴奋性和热痛感知，其中ClC-2通道是介导雄性小鼠夜间兴奋性降低的关键分子。",
-      "clinical": "该研究为理解围术期疼痛的昼夜节律变化提供了基础依据，可能有助于优化镇痛药物的给药时机。 性别差异的发现提示麻醉和疼痛管理中可能需要考虑性别特异性策略。 然而，目前证据来自小鼠模型，尚不能直接指导临床实践。",
+      "question": "术后神经认知障碍（PND）是老年手术患者常见并发症，其机制尚不完全清楚。本研究揭示C1q介导的小胶质细胞吞噬突触可能是PND的关键机制，为靶向治疗提供了新方向。",
+      "conclusion": "在无菌胫骨骨折手术小鼠模型中，海马小胶质细胞以C1q依赖方式修剪兴奋性和抑制性突触，导致术后突触丢失和认知功能障碍；抑制C1q或NF-κB可改善认知功能。",
+      "clinical": "本研究为动物实验，提示C1q和NF-κB可能是PND的潜在治疗靶点，但尚不能直接用于临床。 未来需在人体研究中验证C1q和NF-κB通路在PND中的作用，并评估相关干预措施的安全性和有效性。",
       "evidence": "中等",
-      "score": 51,
+      "score": 49,
       "scoreBreakdown": {
         "relevance": 13,
         "evidenceQuality": 8,
         "clinicalImpact": 9,
         "journalQuality": 15,
-        "novelty": 6
+        "novelty": 4
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "实验性研究（基础研究），包括基因表达分析、电生理记录、光遗传学、转录组学、免疫组化和药理学实验。"
+          "value": "动物实验研究（基础研究）"
         },
         {
           "label": "研究对象与样本",
-          "value": "mice；n = 3 mice/time point/sex for RT-qPCR; n = 12 mice per sex for clock gene expression; n = 11-18 cells per group for electrophysiology; n = 4-7 mice per group for optogenetics; n = 3 animals per sex and genotype for RNAscope"
+          "value": "Male and female C57BL/6J or male Cx3cr1-CreERT2 mice, aged 8-12 weeks；当前可获取内容未提供该数据。"
         },
         {
           "label": "干预与比较",
-          "value": "Bmal1 knockout in Nav1.8-expressing neurons; optogenetic stimulation of Nav1.8-ChR2 mice; pharmacological targeting of ClC-2；对照：male vs female; ZT2 vs ZT14 (or ZT16); Bmal1 knockout vs control"
+          "value": "aseptic tibial fracture surgery；对照：sham surgery or no surgery (implied)"
         },
         {
           "label": "主要终点",
-          "value": "nociceptor excitability and pain perception"
+          "value": "postoperative memory deficits"
         }
       ],
       "keyPoints": [
-        "雄性小鼠伤害感受器在夜间兴奋性降低，而雌性无此变化。",
-        "Bmal1敲除消除雄性小鼠夜间热敏感性降低。",
-        "ClC-2通道是介导雄性小鼠兴奋性波动的关键分子。",
-        "研究提示疼痛管理需考虑性别和昼夜节律因素。"
+        "术后小鼠出现记忆缺陷，与小胶质细胞活化、C1q上调、补体通路激活及突触丢失相关。",
+        "C1q介导小胶质细胞吞噬兴奋性和抑制性突触，导致术后突触丢失。",
+        "抑制小胶质细胞活性、中和C1q或C1q耗竭可阻止术后记忆衰退和突触丢失。",
+        "NF-κB活化与C1q升高相关，抑制NF-κB可减轻C1q升高并改善认知功能。"
       ],
-      "methods": "疼痛感知受性别和昼夜节律影响，但外周水平上两者的交互作用尚不清楚。本研究旨在探索小鼠背根神经节（DRG）中核心时钟基因的表达是否具有时间和性别依赖性，并进一步研究生物钟基因Bmal1在伤害感受器中的作用。",
-      "results": "样本量：RT-qPCR每组每时间点每性别3只小鼠；时钟基因表达每组每性别12只小鼠；电生理每组11-18个细胞；光遗传学每组4-7只小鼠；RNAscope每组每性别和基因型3只动物。主要终点：伤害感受器兴奋性和疼痛感知。结果显示：雄性小鼠的伤害感受器在夜间兴奋性降低（静息膜电位Cohen's d=0.73，P=0.009；基强度Cohen's d=0.69，P=0.007），而雌性小鼠的兴奋性在不同时间点保持稳定。在表达Nav1.8的神经元中敲除Bmal1可降低伤害感受器活性，并消除雄性小鼠夜间热敏感性的降低。ClC-2被确定为关键介导因子。",
-      "mainResults": "样本量：RT-qPCR每组每时间点每性别3只小鼠；时钟基因表达每组每性别12只小鼠；电生理每组11-18个细胞；光遗传学每组4-7只小鼠；RNAscope每组每性别和基因型3只动物。主要终点：伤害感受器兴奋性和疼痛感知。结果显示：雄性小鼠的伤害感受器在夜间兴奋性降低（静息膜电位Cohen's d=0.73，P=0.009；基强度Cohen's d=0.69，P=0.007），而雌性小鼠的兴奋性在不同时间点保持稳定。在表达Nav1.8的神经元中敲除Bmal1可降低伤害感受器活性，并消除雄性小鼠夜间热敏感性的降低。ClC-2被确定为关键介导因子。",
+      "methods": "围术期神经认知障碍（PND）是老年手术患者的常见并发症。可能的发病机制包括小胶质细胞活化介导的突触连接丢失，但确切机制尚不完全清楚。",
+      "results": "术后小鼠在Y迷宫（P<0.001）和痕迹恐惧条件化（P=0.002）中表现出记忆缺陷，并与小胶质细胞活化增加、C1q上调、补体通路转录上调及突触丢失相关（均P<0.05）。手术后，小胶质细胞中C1qa与Homer1或gephyrin的共定位增加约2倍（P<0.001）。使用米诺环素、JL-1或C1q耗竭后，术后记忆衰退和突触丢失未发生。NF-κB活化与C1q升高相关，PDTC可减弱手术诱导的C1q升高并改善认知功能。",
+      "mainResults": "术后小鼠在Y迷宫（P<0.001）和痕迹恐惧条件化（P=0.002）中表现出记忆缺陷，并与小胶质细胞活化增加、C1q上调、补体通路转录上调及突触丢失相关（均P<0.05）。手术后，小胶质细胞中C1qa与Homer1或gephyrin的共定位增加约2倍（P<0.001）。使用米诺环素、JL-1或C1q耗竭后，术后记忆衰退和突触丢失未发生。NF-κB活化与C1q升高相关，PDTC可减弱手术诱导的C1q升高并改善认知功能。",
       "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。",
-        "研究为动物实验，结果外推至人类需谨慎。",
-        "未提供效应量的置信区间。"
+        "当前可获取内容未提供该数据。",
+        "当前可获取内容未提供该数据。",
+        "当前可获取内容未提供该数据。"
       ],
       "practice": [
-        "该研究为理解围术期疼痛的昼夜节律变化提供了基础依据，可能有助于优化镇痛药物的给药时机。",
-        "性别差异的发现提示麻醉和疼痛管理中可能需要考虑性别特异性策略。",
-        "然而，目前证据来自小鼠模型，尚不能直接指导临床实践。"
+        "本研究为动物实验，提示C1q和NF-κB可能是PND的潜在治疗靶点，但尚不能直接用于临床。",
+        "未来需在人体研究中验证C1q和NF-κB通路在PND中的作用，并评估相关干预措施的安全性和有效性。"
       ],
-      "editor": "研究设计严谨，结合多种技术手段，结果支持生物钟基因在伤害感受器中的性别和时间依赖性作用。 过度解读风险：存在过度解读风险，因为研究为动物模型，且未提供效应量置信区间，需避免将动物结果直接推广至人类。",
-      "whyItMatters": "该研究揭示了外周伤害感受器中生物钟与性别因素在疼痛调节中的交互作用，为未来开发基于昼夜节律和性别特异性的疼痛管理策略提供了新的理论基础。",
-      "background": "疼痛感知受性别和昼夜节律影响，但外周水平上两者的交互作用尚不清楚。本研究旨在探索小鼠背根神经节（DRG）中核心时钟基因的表达是否具有时间和性别依赖性，并进一步研究生物钟基因Bmal1在伤害感受器中的作用。",
+      "editor": "研究结果支持C1q介导的小胶质细胞吞噬突触在PND发病中的作用，但证据来自动物模型，需谨慎外推至人类。 过度解读风险：存在将动物实验结果直接等同于临床疗效的风险，需注意物种差异和模型局限性。",
+      "whyItMatters": "术后神经认知障碍（PND）是老年手术患者常见并发症，其机制尚不完全清楚。本研究揭示C1q介导的小胶质细胞吞噬突触可能是PND的关键机制，为靶向治疗提供了新方向。",
+      "background": "围术期神经认知障碍（PND）是老年手术患者的常见并发症。可能的发病机制包括小胶质细胞活化介导的突触连接丢失，但确切机制尚不完全清楚。",
       "pico": {
-        "population": "mice",
-        "intervention": "Bmal1 knockout in Nav1.8-expressing neurons; optogenetic stimulation of Nav1.8-ChR2 mice; pharmacological targeting of ClC-2",
-        "comparison": "male vs female; ZT2 vs ZT14 (or ZT16); Bmal1 knockout vs control",
-        "outcome": "nociceptor excitability and pain perception"
+        "population": "Male and female C57BL/6J or male Cx3cr1-CreERT2 mice, aged 8-12 weeks",
+        "intervention": "aseptic tibial fracture surgery",
+        "comparison": "sham surgery or no surgery (implied)",
+        "outcome": "postoperative memory deficits"
       },
-      "studyType": "实验性研究（基础研究），包括基因表达分析、电生理记录、光遗传学、转录组学、免疫组化和药理学实验。",
-      "sampleSize": "n = 3 mice/time point/sex for RT-qPCR; n = 12 mice per sex for clock gene expression; n = 11-18 cells per group for electrophysiology; n = 4-7 mice per group for optogenetics; n = 3 animals per sex and genotype for RNAscope",
-      "primaryOutcome": "nociceptor excitability and pain perception",
+      "studyType": "动物实验研究（基础研究）",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "postoperative memory deficits",
       "effectSize": [
-        "Cohen's d = 0.73 for resting membrane potential",
-        "Cohen's d = 0.69 for rheobase"
+        "approximately 2-fold increase in colocalisation"
       ],
       "confidenceInterval": [
         "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "P = 0.009 for resting membrane potential",
-        "P = 0.007 for rheobase",
-        "P = 0.03 for Nr1d2 sex × ZT interaction",
-        "P = 0.03 for Per1 sex effect",
-        "P < 0.001 for current × ZT interaction in males",
-        "P = 0.95 for current × ZT interaction in females",
-        "P = 0.002 for sex × ZT interaction in optogenetics"
+        "P<0.001",
+        "P=0.002",
+        "P<0.05",
+        "P<0.001"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "研究设计严谨，结合多种技术手段，结果支持生物钟基因在伤害感受器中的性别和时间依赖性作用。",
-        "overinterpretationRisk": "存在过度解读风险，因为研究为动物模型，且未提供效应量置信区间，需避免将动物结果直接推广至人类。"
+        "support": "研究结果支持C1q介导的小胶质细胞吞噬突触在PND发病中的作用，但证据来自动物模型，需谨慎外推至人类。",
+        "overinterpretationRisk": "存在将动物实验结果直接等同于临床疗效的风险，需注意物种差异和模型局限性。"
       },
       "deepDive": {
         "sourceCoverage": {
-          "level": "full_text_excerpt",
+          "level": "abstract",
           "limitations": [
-            "仅基于摘要和部分全文节选，可能遗漏方法细节和完整结果。",
-            "未提供效应量置信区间和局限性描述。"
+            "仅基于摘要，未获取全文，无法评估详细方法学质量。",
+            "样本量、随机化、盲法等关键信息未报告。",
+            "效应量置信区间未提供。"
           ]
         },
         "methodology": {
-          "researchQuestion": "探索伤害感受器中生物钟基因是否以性别和时间依赖性方式调节兴奋性和疼痛感知。",
-          "designFit": "实验性研究设计适合回答机制性问题，但无法直接推断因果关系。",
-          "eligibility": "当前可获取内容未提供该研究的纳入和排除标准。",
-          "randomization": "当前可获取内容未提供该研究的随机化方法。",
-          "allocationConcealment": "当前可获取内容未提供该研究的分配隐藏方法。",
-          "blinding": "当前可获取内容未提供该研究的盲法信息。",
-          "sampleSizePlanning": "当前可获取内容未提供该研究的样本量计算依据。",
-          "followUp": "不适用（基础研究）。",
-          "analysisPopulation": "当前可获取内容未提供该研究的分析人群定义。",
-          "missingData": "当前可获取内容未提供该研究的缺失数据处理方法。",
+          "researchQuestion": "探讨补体C1q在激活小胶质细胞和吞噬突触连接中的作用，及其在术后神经认知障碍发病机制中的角色。",
+          "designFit": "动物实验设计适用于机制研究，但无法直接推断人类。",
+          "eligibility": "雄性及雌性C57BL/6J或雄性Cx3cr1-CreERT2小鼠，8-12周龄。",
+          "randomization": "当前可获取内容未提供该数据。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "当前可获取内容未提供该数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "认知测试在术后3天进行。",
+          "analysisPopulation": "当前可获取内容未提供该数据。",
+          "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "多技术整合（电生理、光遗传学、转录组学等）增强结论可靠性。",
-            "同时考虑性别和时间因素，设计全面。"
+            "使用多种方法（RNA测序、Western blot、免疫荧光、高尔基染色）验证结果。",
+            "通过多种干预（米诺环素、JL-1、C1q耗竭）支持因果推断。"
           ],
           "concerns": [
-            "样本量较小，可能影响统计功效。",
-            "未提供效应量置信区间，影响精确性评估。"
+            "未报告随机化和盲法，可能存在偏倚。",
+            "样本量未报告，统计功效未知。",
+            "仅使用小鼠模型，外推至人类需谨慎。"
           ]
         },
         "statistics": {
           "methods": [
             {
               "referenceId": null,
-              "name": "方差分析",
-              "purposeInStudy": "比较不同时间点和性别之间的基因表达和电生理参数。",
-              "reportedResult": "P=0.03 for Nr1d2 sex × ZT interaction; P=0.03 for Per1 sex effect; P<0.001 for current × ZT interaction in males; P=0.95 for current × ZT interaction in females; P=0.002 for sex × ZT interaction in optogenetics",
-              "interpretation": "存在显著的性别与时间交互作用，表明生物钟对伤害感受器的影响具有性别依赖性。",
+              "name": "未报告",
+              "purposeInStudy": "未识别到具体统计方法，无法评价。",
+              "reportedResult": "P值报告（如P<0.001, P=0.002）",
+              "interpretation": "P值表明组间差异具有统计学意义，但未提供效应量和置信区间。",
               "cautions": [
-                "未提供事后比较细节。",
-                "交互作用显著不等于因果。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            },
-            {
-              "referenceId": null,
-              "name": "混合效应模型",
-              "purposeInStudy": "可能用于分析重复测量的电生理数据。",
-              "reportedResult": "当前可获取内容未提供该方法的详细结果。",
-              "interpretation": "当前可获取内容未提供该方法的详细结果。",
-              "cautions": [
-                "当前可获取内容未提供该方法的详细结果。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            },
-            {
-              "referenceId": null,
-              "name": "中介分析",
-              "purposeInStudy": "可能用于评估ClC-2在Bmal1影响中的中介作用。",
-              "reportedResult": "当前可获取内容未提供该方法的详细结果。",
-              "interpretation": "当前可获取内容未提供该方法的详细结果。",
-              "cautions": [
-                "当前可获取内容未提供该方法的详细结果。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            },
-            {
-              "referenceId": null,
-              "name": "交互作用分析",
-              "purposeInStudy": "检验性别和时间对伤害感受器兴奋性的交互影响。",
-              "reportedResult": "P=0.03 for Nr1d2 sex × ZT interaction; P=0.002 for sex × ZT interaction in optogenetics",
-              "interpretation": "性别与时间存在显著交互作用，支持性别依赖性调节。",
-              "cautions": [
-                "交互作用分析可能受样本量影响。"
+                "未报告统计检验方法，无法评估其适用性。",
+                "未报告多重比较校正，可能增加I型错误风险。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
           ],
-          "adjustedVariables": "当前可获取内容未提供该研究的校正变量信息。",
-          "multiplicity": "当前可获取内容未提供该研究的多重比较校正方法。",
-          "subgroupAnalysis": "亚组分析包括按性别（雄性 vs 雌性）和时间点（ZT2 vs ZT14/16）进行的比较。结果仅适用于小鼠，不可外推至人类。",
-          "clinicalVsStatisticalSignificance": "统计显著（如P<0.05）但效应量（Cohen's d约0.7）中等，临床意义需进一步评估。"
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "P值显示统计学显著，但未报告效应量，无法评估临床意义。"
         },
         "outcomeAnalysis": {
-          "primary": "伤害感受器兴奋性（静息膜电位、基强度）和疼痛感知（热敏感性）。",
+          "primary": "术后记忆缺陷（Y迷宫和痕迹恐惧条件化）",
           "secondary": [
-            "时钟基因表达",
-            "热敏感性",
-            "ClC-2表达"
+            "小胶质细胞活化",
+            "C1q上调",
+            "经典补体通路转录上调",
+            "突触丢失"
           ],
-          "safety": "当前可获取内容未提供该研究的不良事件或安全性数据。",
-          "absoluteVsRelative": "当前可获取内容未提供绝对效应量或相对风险数据。",
-          "subgroupAndInteraction": "亚组分析显示雄性小鼠在夜间兴奋性降低，而雌性无变化；Bmal1敲除仅影响雄性。",
-          "sensitivity": "当前可获取内容未提供敏感性分析信息。"
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "仅报告约2倍共定位增加，未提供绝对风险或相对风险。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "研究设计全面，结合多种技术。",
-            "同时考虑性别和时间因素，具有创新性。"
+            "机制研究较深入，使用多种干预验证因果关系。",
+            "结果一致支持C1q在突触丢失中的作用。"
           ],
           "limitations": [
-            "样本量小，可能影响统计功效。",
-            "未提供效应量置信区间。",
-            "动物模型，外推受限。"
+            "仅基于摘要，方法学细节不完整。",
+            "未报告样本量、随机化、盲法等关键信息。",
+            "动物模型结果外推至人类需谨慎。"
           ],
           "biasRisks": [
-            "未报告盲法，可能存在测量偏倚。",
-            "未报告随机化，可能存在选择偏倚。"
+            "未报告随机化和盲法，可能存在选择偏倚和测量偏倚。",
+            "未报告样本量计算，可能存在功效不足。"
           ],
-          "certainty": "中等，因研究设计严谨但样本量小且缺乏盲法。",
+          "certainty": "低（基于摘要，且为动物实验）",
           "conclusionAlignment": "结论与结果一致，但需注意因果推断的边界。",
-          "causalBoundary": "研究为实验性，但Bmal1敲除和药理学干预支持因果作用，然而从动物到人类的因果链仍需验证。"
+          "causalBoundary": "研究显示C1q介导的突触丢失与PND相关，但因果机制仍需更多证据。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "为疼痛管理提供昼夜节律和性别特异性策略的潜在方向。"
+            "为PND的机制研究提供新靶点（C1q和NF-κB）。"
           ],
           "nonApplicability": [
-            "小鼠模型结果不能直接应用于人类。",
-            "未提供人类数据。"
+            "动物实验结果不能直接用于临床治疗。"
           ],
-          "practiceChange": "当前证据不足以改变临床实践。",
+          "practiceChange": "当前结果不支持改变临床实践。",
           "canDoNow": [
-            "在临床前研究中进一步验证ClC-2作为靶点的可行性。"
+            "在临床前研究中进一步验证C1q和NF-κB通路。"
           ],
           "cannotConclude": [
-            "不能得出Bmal1或ClC-2在人类疼痛中的直接作用。",
-            "不能推荐任何临床干预。"
+            "不能得出C1q或NF-κB抑制剂可用于人类PND治疗的结论。"
           ],
           "evidenceGaps": [
-            "需要人类DRG或相关组织的验证。",
-            "需要更大样本量的研究。",
-            "需要评估长期影响和安全性。"
+            "需要人体研究验证C1q和NF-κB在PND中的作用。",
+            "需要评估干预措施的安全性和有效性。"
           ],
           "directClinicalRecommendation": false
         }
       },
-      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisBasis": "摘要分析",
       "analysisStatus": "ai_complete",
       "aiModel": "deepseek-v4-flash",
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42230621/",
-        "doi": "https://doi.org/10.1038/s41467-026-73772-z",
-        "publisher": "https://doi.org/10.1038/s41467-026-73772-z",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13392263/"
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42097958/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.02.024",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.02.024",
+        "openFullText": null
       }
     },
     {
       "analysisVersion": 2,
-      "slug": "pmid-42082491",
+      "slug": "pmid-42321197",
       "number": "02",
-      "category": "麻醉学",
+      "category": "麻醉基础研究",
       "journal": "Nature communications",
       "year": "2026",
-      "publishedDate": "2026-05-04",
-      "electronicPublicationDate": "2026-05-04",
-      "readingTime": "13 分钟",
-      "title": "依托咪酯类似物NH600001用于胃肠镜镇静/麻醉并减少肾上腺皮质抑制：两项随机对照试验",
-      "originalTitle": "NH600001, an etomidate analogue, provides gastrointestinal endoscopy sedation/anesthesia and reduces adrenocortical depression: two randomized controlled trials.",
-      "abstract": "To evaluate the efficacy and safety of NH600001, a novel etomidate derivative, in gastrointestinal endoscopy, as well as its impact on adrenocortical function, two multicenter, double-blind, randomized, controlled clinical trials(NH600001-21 [Phase II trial] and NH600001-31 [Phase III trial]) were conducted in China. In NH600001-21, 160 gastroscopy subjects were randomized 1:1:1:1 to receive NH600001 (0.20, 0.25, or 0.30 mg/kg) and etomidate (0.30 mg/kg). In NH600001-31, 344 gastroscopy or colonoscopy subjects were randomized in a 1:1 ratio to receive NH600001 (0.25 mg/kg) and etomidate (0.30 mg/kg). The primary efficacy outcome was the rate of endoscopic success. Additionally, Safety and effects on adrenocortical function were also assessed. In NH600001-21, the 0.25 mg/kg NH600001 showed non-inferiority to etomidate based on the prespecified non-inferiority margin of -8% (Rate Difference [95% confidence interval], 5.0[-4.49 to 14.49]), whereas the 0.20 mg/kg and 0.30 mg/kg NH600001 did not meet statistical non-inferiority criteria (0[-11.54 to 11.54]; 0[-11.54 to 11.54]). The area under curve (AUC) of plasma cortisol change values within 0-4 h (∆Cortisol AUC(0-4h)) were significantly higher in the NH600001 treatment groups than in the etomidate group (P < 0.01). In NH600001-31, NH600001 (0.25 mg/kg) showed non-inferiority to etomidate (1.16[-0.44 to 2.76]). ∆Cortisol AUC(0-4h) in the NH600001 group, versus the etomidate group, were significantly higher (P < 0.001). Furthermore, NH600001 had a safety profile comparable to etomidate and elicited fewer myoclonus adverse events. In Conclusions, NH600001 has a sedative/anesthetic effect comparable to etomidate while reducing the risk of adrenocortical depression with a favorable safety profile. Chictr.org.cn identifier: ChiCTR2300069841, ChiCTR2400084095. Clinical Trial Number and Registry URL: NH60001-21, Identifier, ChiCTR2300069841 (Changsha, China;, principal investigator: Wen Ouyang, first registration date: March 28, 2023), https://www.chictr.org.cn ; NH60001-31, Identifier, ChiCTR2400084095 (Changsha, China, principal investigator: Wen Ouyang, first registration date: May 10, 2024), https://www.chictr.org.cn .",
+      "publishedDate": "2026-06-19",
+      "electronicPublicationDate": "2026-06-19",
+      "readingTime": "9 分钟",
+      "title": "挥发性麻醉药在直接与通道门控相关的位点调节电压门控钠通道功能",
+      "originalTitle": "Volatile anaesthetics modulate voltage-gated sodium channel function at a site directly linked to channel gating.",
+      "abstract": "Voltage-gated sodium channels (VGSCs) mediate neuronal excitability and synaptic transmission and are functionally relevant targets for volatile anaesthetic (VA) actions. Here, we show that multiple VAs at clinically relevant concentrations share binding sites on NavMs, a prokaryotic VGSC. Sevoflurane, a representative VA, interacts with NavMs and NaChBac with functional effects paralleling those on human VGSCs, including modulation of channel inactivation. X-ray crystallography of purified NavMs reveals an atomic-resolution VA binding site in a VGSC, in which sevoflurane displaces lipid to occupy a membrane-embedded hydrophobic pocket. Alanine substitution of an invariant tyrosine within this binding pocket abolishes sevoflurane binding and eliminates the sevoflurane-induced hyperpolarising shift of steady-state inactivation. Sevoflurane modulates both fast and slow inactivation of human Nav1.1, demonstrating VA modulation of steady-state slow inactivation in a neuronal VGSC. Supporting evidence shows that VAs interact with homologous sites in human VGSCs. These findings define a VA binding site in VGSCs that supports a membrane-assisted pathway for modulating channel gating and neuronal activity in general anaesthesia.",
       "abstractTranslation": {
         "sections": [
           {
             "heading": null,
-            "text": "为了评估新型依托咪酯衍生物NH600001在胃肠内镜检查中的疗效和安全性及其对肾上腺皮质功能的影响，在中国进行了两项多中心、双盲、随机、对照临床试验（NH600001-21 [II期试验] 和 NH600001-31 [III期试验]）。在NH600001-21中，160名胃镜检查受试者按1:1:1:1随机分配接受NH600001（0.20、0.25或0.30 mg/kg）和依托咪酯（0.30 mg/kg）。在NH600001-31中，344名胃镜或结肠镜检查受试者按1:1比例随机分配接受NH600001（0.25 mg/kg）和依托咪酯（0.30 mg/kg）。主要疗效结局是内镜检查成功率。此外，还评估了安全性和对肾上腺皮质功能的影响。在NH600001-21中，基于预设的非劣效性界值-8%（率差[95%置信区间]，5.0[-4.49至14.49]），0.25 mg/kg NH600001显示出与依托咪酯相比的非劣效性，而0.20 mg/kg和0.30 mg/kg NH600001未达到统计学非劣效性标准（0[-11.54至11.54]；0[-11.54至11.54]）。NH600001治疗组0-4小时内血浆皮质醇变化值的曲线下面积（∆Cortisol AUC(0-4h)）显著高于依托咪酯组（P < 0.01）。在NH600001-31中，NH600001（0.25 mg/kg）显示出与依托咪酯相比的非劣效性（1.16[-0.44至2.76]）。与依托咪酯组相比，NH600001组的∆Cortisol AUC(0-4h)显著更高（P < 0.001）。此外，NH600001的安全性与依托咪酯相当，且引起的肌阵挛不良事件更少。总之，NH600001具有与依托咪酯相当的镇静/麻醉效果，同时降低了肾上腺皮质抑制的风险，且安全性良好。Chictr.org.cn标识符：ChiCTR2300069841，ChiCTR2400084095。临床试验编号和注册网址：NH60001-21，标识符，ChiCTR2300069841（中国长沙；主要研究者：欧阳文；首次注册日期：2023年3月28日），https://www.chictr.org.cn；NH60001-31，标识符，ChiCTR2400084095（中国长沙；主要研究者：欧阳文；首次注册日期：2024年5月10日），https://www.chictr.org.cn。"
+            "text": "电压门控钠通道（VGSCs）介导神经元兴奋性和突触传递，是挥发性麻醉药（VAs）作用的功能相关靶点。在此，我们表明多种临床相关浓度的VAs在原核VGSC NavMs上共享结合位点。代表性VA七氟烷与NavMs和NaChBac相互作用，其功能效应与对人VGSCs的作用相似，包括调节通道失活。纯化的NavMs的X射线晶体学揭示了VGSC中一个原子分辨率的VA结合位点，其中七氟烷置换脂质以占据一个膜嵌入的疏水口袋。该结合口袋内一个不变酪氨酸的丙氨酸替换消除了七氟烷结合，并消除了七氟烷诱导的稳态失活的超极化移位。七氟烷调节人Nav1.1的快失活和慢失活，证明VA调节神经元VGSC中的稳态慢失活。支持证据表明，VAs与人VGSCs中的同源位点相互作用。这些发现定义了VGSCs中的一个VA结合位点，该位点支持一种膜辅助途径，用于调节全身麻醉中的通道门控和神经元活动。"
           }
         ],
-        "fullText": "为了评估新型依托咪酯衍生物NH600001在胃肠内镜检查中的疗效和安全性及其对肾上腺皮质功能的影响，在中国进行了两项多中心、双盲、随机、对照临床试验（NH600001-21 [II期试验] 和 NH600001-31 [III期试验]）。在NH600001-21中，160名胃镜检查受试者按1:1:1:1随机分配接受NH600001（0.20、0.25或0.30 mg/kg）和依托咪酯（0.30 mg/kg）。在NH600001-31中，344名胃镜或结肠镜检查受试者按1:1比例随机分配接受NH600001（0.25 mg/kg）和依托咪酯（0.30 mg/kg）。主要疗效结局是内镜检查成功率。此外，还评估了安全性和对肾上腺皮质功能的影响。在NH600001-21中，基于预设的非劣效性界值-8%（率差[95%置信区间]，5.0[-4.49至14.49]），0.25 mg/kg NH600001显示出与依托咪酯相比的非劣效性，而0.20 mg/kg和0.30 mg/kg NH600001未达到统计学非劣效性标准（0[-11.54至11.54]；0[-11.54至11.54]）。NH600001治疗组0-4小时内血浆皮质醇变化值的曲线下面积（∆Cortisol AUC(0-4h)）显著高于依托咪酯组（P < 0.01）。在NH600001-31中，NH600001（0.25 mg/kg）显示出与依托咪酯相比的非劣效性（1.16[-0.44至2.76]）。与依托咪酯组相比，NH600001组的∆Cortisol AUC(0-4h)显著更高（P < 0.001）。此外，NH600001的安全性与依托咪酯相当，且引起的肌阵挛不良事件更少。总之，NH600001具有与依托咪酯相当的镇静/麻醉效果，同时降低了肾上腺皮质抑制的风险，且安全性良好。Chictr.org.cn标识符：ChiCTR2300069841，ChiCTR2400084095。临床试验编号和注册网址：NH60001-21，标识符，ChiCTR2300069841（中国长沙；主要研究者：欧阳文；首次注册日期：2023年3月28日），https://www.chictr.org.cn；NH60001-31，标识符，ChiCTR2400084095（中国长沙；主要研究者：欧阳文；首次注册日期：2024年5月10日），https://www.chictr.org.cn。",
+        "fullText": "电压门控钠通道（VGSCs）介导神经元兴奋性和突触传递，是挥发性麻醉药（VAs）作用的功能相关靶点。在此，我们表明多种临床相关浓度的VAs在原核VGSC NavMs上共享结合位点。代表性VA七氟烷与NavMs和NaChBac相互作用，其功能效应与对人VGSCs的作用相似，包括调节通道失活。纯化的NavMs的X射线晶体学揭示了VGSC中一个原子分辨率的VA结合位点，其中七氟烷置换脂质以占据一个膜嵌入的疏水口袋。该结合口袋内一个不变酪氨酸的丙氨酸替换消除了七氟烷结合，并消除了七氟烷诱导的稳态失活的超极化移位。七氟烷调节人Nav1.1的快失活和慢失活，证明VA调节神经元VGSC中的稳态慢失活。支持证据表明，VAs与人VGSCs中的同源位点相互作用。这些发现定义了VGSCs中的一个VA结合位点，该位点支持一种膜辅助途径，用于调节全身麻醉中的通道门控和神经元活动。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Zhou Y, Duan K, Luo S, Liu S, Li Q, Liu S, Guo H, Jiang H, et al.",
-      "citation": "Nat Commun. 2026 May 4;17(1):5972. doi: 10.1038/s41467-026-72614-2.",
-      "doi": "10.1038/s41467-026-72614-2",
-      "pmid": "42082491",
-      "pmcid": "PMC13342565",
+      "authors": "Hollingworth D, Herold KF, Kelly G, Mykhaylyk VB, Wallace BA, Hemmings HC Jr",
+      "citation": "Nat Commun. 2026 Jun 19;17(1):7754. doi: 10.1038/s41467-026-74518-7.",
+      "doi": "10.1038/s41467-026-74518-7",
+      "pmid": "42321197",
+      "pmcid": null,
       "publicationTypes": [
-        "Clinical Trial, Phase II",
-        "Clinical Trial, Phase III",
-        "Journal Article",
-        "Multicenter Study",
-        "Randomized Controlled Trial"
+        "Journal Article"
       ],
       "meshTerms": [
-        "Adult",
-        "Female",
+        "*Ion Channel Gating/drug effects",
+        "Binding Sites",
         "Humans",
-        "Male",
-        "*Adrenal Cortex/drug effects",
-        "Anesthesia/methods",
-        "China",
-        "Double-Blind Method",
-        "*Endoscopy, Gastrointestinal/methods",
-        "*Etomidate/analogs & derivatives/adverse effects/administration & dosage",
-        "*Hypnotics and Sedatives/administration & dosage/adverse effects"
+        "*Sevoflurane/pharmacology",
+        "*Anesthetics, Inhalation/pharmacology/metabolism/chemistry",
+        "Crystallography, X-Ray",
+        "*Voltage-Gated Sodium Channels/metabolism/chemistry/genetics",
+        "Bacterial Proteins/metabolism/chemistry/genetics",
+        "Animals",
+        "Protein Binding",
+        "Sodium Channels"
       ],
       "publisher": "Springer Science and Business Media LLC",
       "crossrefVerified": true,
@@ -587,199 +555,472 @@
       "tags": [
         "临床证据",
         "神经科学与麻醉机制高影响力期刊",
-        "麻醉学",
-        "Clinical Trial, Phase II",
-        "Clinical Trial, Phase III"
+        "麻醉基础研究",
+        "Journal Article"
       ],
-      "question": "依托咪酯因对肾上腺皮质功能的抑制而限制其临床应用，NH600001作为新型依托咪酯衍生物，在保持镇静/麻醉效果的同时可能降低肾上腺皮质抑制风险，为胃肠镜麻醉提供潜在更优选择。",
-      "conclusion": "NH600001（0.25 mg/kg）在胃肠镜镇静/麻醉中疗效非劣于依托咪酯，且能减轻肾上腺皮质抑制，安全性相当并减少肌阵挛发生。",
-      "clinical": "NH600001 0.25 mg/kg可作为胃肠镜镇静/麻醉中依托咪酯的替代选择，尤其适用于需减少肾上腺皮质抑制风险的患者。 NH600001可能减少肌阵挛发生，提高患者舒适度。 需注意0.20 mg/kg和0.30 mg/kg剂量未达到非劣效，临床应使用推荐剂量0.25 mg/kg。",
-      "evidence": "中等偏高",
-      "score": 73,
+      "question": "该研究首次在原子分辨率上揭示了挥发性麻醉药与电压门控钠通道的直接结合位点，为理解全身麻醉的分子机制提供了关键结构基础，可能有助于开发更特异的麻醉药物。",
+      "conclusion": "该研究在原子水平上鉴定了挥发性麻醉药在电压门控钠通道上的结合位点，并表明其通过占据膜内疏水口袋、置换脂质来调节通道失活，从而影响神经元兴奋性。",
+      "clinical": "该研究为挥发性麻醉药通过直接结合VGSC调节神经元兴奋性提供了分子机制，可能解释全身麻醉的部分效应。 由于是基础研究，尚不能直接用于临床，需进一步验证其在整体动物和人体中的相关性。",
+      "evidence": "中等",
+      "score": 47,
       "scoreBreakdown": {
         "relevance": 13,
-        "evidenceQuality": 22,
-        "clinicalImpact": 13,
+        "evidenceQuality": 8,
+        "clinicalImpact": 7,
         "journalQuality": 15,
-        "novelty": 10
+        "novelty": 4
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "两项多中心、双盲、随机对照试验（II期NH600001-21和III期NH600001-31），在中国进行。"
+          "value": "基础科学研究（体外电生理、X射线晶体学、突变分析）"
         },
         {
           "label": "研究对象与样本",
-          "value": "Patients undergoing gastroscopy or colonoscopy in China；NH600001-21: 160; NH600001-31: 344"
+          "value": "原核生物VGSC NavMs和NaChBac，以及人源Nav1.1通道（体外表达系统）；当前可获取内容未提供该数据。"
         },
         {
           "label": "干预与比较",
-          "value": "NH600001 (0.20, 0.25, or 0.30 mg/kg in Phase II; 0.25 mg/kg in Phase III)；对照：Etomidate (0.30 mg/kg)"
+          "value": "临床相关浓度的挥发性麻醉药（如七氟烷）处理；对照：未处理或丙氨酸突变体（Y突变）"
         },
         {
           "label": "主要终点",
-          "value": "Endoscopic success rate"
+          "value": "通道失活调节、麻醉药结合、稳态失活曲线位移"
         }
       ],
       "keyPoints": [
-        "NH600001 0.25 mg/kg在胃肠镜镇静/麻醉中非劣于依托咪酯。",
-        "NH600001显著减轻肾上腺皮质抑制（皮质醇AUC更高）。",
-        "NH600001安全性相当，肌阵挛更少。",
-        "0.20和0.30 mg/kg剂量未达到非劣效。"
+        "多种挥发性麻醉药在临床相关浓度下共享NavMs上的结合位点。",
+        "七氟烷与NavMs和NaChBac的相互作用效应与人类VGSC相似。",
+        "X射线晶体学揭示了原子分辨率的VA结合位点，七氟烷置换脂质占据膜内疏水口袋。",
+        "结合口袋内不变酪氨酸的丙氨酸替换消除了七氟烷结合及其诱导的稳态失活超极化位移。",
+        "七氟烷调节人Nav1.1的快失活和慢失活。"
       ],
-      "methods": "依托咪酯是常用的静脉麻醉药，但其对肾上腺皮质功能的抑制是临床关注的问题。NH600001是一种新型依托咪酯衍生物，旨在保留麻醉效果的同时减少肾上腺皮质抑制。本研究通过两项随机对照试验评估其在胃肠镜镇静/麻醉中的有效性和安全性。",
-      "results": "在NH600001-21中，0.25 mg/kg NH600001组的内镜成功率非劣于依托咪酯组（率差5.0%，95%CI -4.49至14.49，非劣效界值-8%），而0.20 mg/kg和0.30 mg/kg组未达到非劣效（率差均为0%，95%CI -11.54至11.54）。NH600001各组的血浆皮质醇变化AUC(0-4h)显著高于依托咪酯组（P<0.01）。在NH600001-31中，0.25 mg/kg NH600001组非劣于依托咪酯（率差1.16%，95%CI -0.44至2.76），且皮质醇AUC显著更高（P<0.001）。安全性方面，NH600001与依托咪酯相当，但肌阵挛不良事件更少。",
-      "mainResults": "在NH600001-21中，0.25 mg/kg NH600001组的内镜成功率非劣于依托咪酯组（率差5.0%，95%CI -4.49至14.49，非劣效界值-8%），而0.20 mg/kg和0.30 mg/kg组未达到非劣效（率差均为0%，95%CI -11.54至11.54）。NH600001各组的血浆皮质醇变化AUC(0-4h)显著高于依托咪酯组（P<0.01）。在NH600001-31中，0.25 mg/kg NH600001组非劣于依托咪酯（率差1.16%，95%CI -0.44至2.76），且皮质醇AUC显著更高（P<0.001）。安全性方面，NH600001与依托咪酯相当，但肌阵挛不良事件更少。",
+      "methods": "电压门控钠通道（VGSCs）介导神经元兴奋性和突触传递，是挥发性麻醉药（VAs）作用的功能相关靶点。然而，VAs在VGSC上的精确结合位点及其分子机制尚不清楚。",
+      "results": "当前可获取内容未提供该数据。",
+      "mainResults": "当前可获取内容未提供该数据。",
       "limitations": [
-        "当前可获取内容未提供该数据。",
-        "当前可获取内容未提供该数据。",
         "当前可获取内容未提供该数据。"
       ],
       "practice": [
-        "NH600001 0.25 mg/kg可作为胃肠镜镇静/麻醉中依托咪酯的替代选择，尤其适用于需减少肾上腺皮质抑制风险的患者。",
-        "NH600001可能减少肌阵挛发生，提高患者舒适度。",
-        "需注意0.20 mg/kg和0.30 mg/kg剂量未达到非劣效，临床应使用推荐剂量0.25 mg/kg。"
+        "该研究为挥发性麻醉药通过直接结合VGSC调节神经元兴奋性提供了分子机制，可能解释全身麻醉的部分效应。",
+        "由于是基础研究，尚不能直接用于临床，需进一步验证其在整体动物和人体中的相关性。"
       ],
-      "editor": "两项随机对照试验结果一致显示NH600001 0.25 mg/kg在主要终点上非劣于依托咪酯，且皮质醇抑制更轻，安全性相当。 过度解读风险：结果基于摘要和部分全文，缺乏详细方法学信息，且非劣效界值仅针对II期，III期未明确界值，需谨慎解读。",
-      "whyItMatters": "依托咪酯因对肾上腺皮质功能的抑制而限制其临床应用，NH600001作为新型依托咪酯衍生物，在保持镇静/麻醉效果的同时可能降低肾上腺皮质抑制风险，为胃肠镜麻醉提供潜在更优选择。",
-      "background": "依托咪酯是常用的静脉麻醉药，但其对肾上腺皮质功能的抑制是临床关注的问题。NH600001是一种新型依托咪酯衍生物，旨在保留麻醉效果的同时减少肾上腺皮质抑制。本研究通过两项随机对照试验评估其在胃肠镜镇静/麻醉中的有效性和安全性。",
+      "editor": "研究提供了结构生物学和电生理学证据，支持挥发性麻醉药直接作用于VGSC的假设。 过度解读风险：研究基于原核通道和体外表达系统，外推至人类临床麻醉需谨慎。",
+      "whyItMatters": "该研究首次在原子分辨率上揭示了挥发性麻醉药与电压门控钠通道的直接结合位点，为理解全身麻醉的分子机制提供了关键结构基础，可能有助于开发更特异的麻醉药物。",
+      "background": "电压门控钠通道（VGSCs）介导神经元兴奋性和突触传递，是挥发性麻醉药（VAs）作用的功能相关靶点。然而，VAs在VGSC上的精确结合位点及其分子机制尚不清楚。",
       "pico": {
-        "population": "Patients undergoing gastroscopy or colonoscopy in China",
-        "intervention": "NH600001 (0.20, 0.25, or 0.30 mg/kg in Phase II; 0.25 mg/kg in Phase III)",
-        "comparison": "Etomidate (0.30 mg/kg)",
-        "outcome": "Endoscopic success rate"
+        "population": "原核生物VGSC NavMs和NaChBac，以及人源Nav1.1通道（体外表达系统）",
+        "intervention": "临床相关浓度的挥发性麻醉药（如七氟烷）处理",
+        "comparison": "未处理或丙氨酸突变体（Y突变）",
+        "outcome": "通道失活调节、麻醉药结合、稳态失活曲线位移"
       },
-      "studyType": "两项多中心、双盲、随机对照试验（II期NH600001-21和III期NH600001-31），在中国进行。",
-      "sampleSize": "NH600001-21: 160; NH600001-31: 344",
-      "primaryOutcome": "Endoscopic success rate",
+      "studyType": "基础科学研究（体外电生理、X射线晶体学、突变分析）",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "当前可获取内容未提供该数据。",
       "effectSize": [
-        "5.0",
-        "0",
-        "0",
-        "1.16"
+        "当前可获取内容未提供该数据。"
       ],
       "confidenceInterval": [
-        "-4.49 to 14.49",
-        "-11.54 to 11.54",
-        "-11.54 to 11.54",
-        "-0.44 to 2.76"
+        "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "<0.01",
-        "<0.001"
+        "当前可获取内容未提供该数据。"
       ],
-      "adverseEvents": "NH600001 had a safety profile comparable to etomidate and elicited fewer myoclonus adverse events.",
+      "adverseEvents": null,
       "aiAssessment": {
-        "support": "两项随机对照试验结果一致显示NH600001 0.25 mg/kg在主要终点上非劣于依托咪酯，且皮质醇抑制更轻，安全性相当。",
-        "overinterpretationRisk": "结果基于摘要和部分全文，缺乏详细方法学信息，且非劣效界值仅针对II期，III期未明确界值，需谨慎解读。"
+        "support": "研究提供了结构生物学和电生理学证据，支持挥发性麻醉药直接作用于VGSC的假设。",
+        "overinterpretationRisk": "研究基于原核通道和体外表达系统，外推至人类临床麻醉需谨慎。"
       },
       "deepDive": {
         "sourceCoverage": {
-          "level": "full_text_excerpt",
+          "level": "abstract",
           "limitations": [
-            "仅基于摘要和部分全文节选，未获取完整方法学细节。",
-            "未提供详细的纳入排除标准、随机化方法、盲法实施细节。",
-            "未提供样本量计算依据、随访完整性、缺失数据处理等信息。"
+            "仅基于摘要，缺乏详细的实验方法、样本量、统计结果和局限性讨论。"
           ]
         },
         "methodology": {
-          "researchQuestion": "评估NH600001在胃肠镜镇静/麻醉中的有效性和安全性，以及对肾上腺皮质功能的影响。",
-          "designFit": "随机对照试验设计适合评估疗效和安全性，II期和III期试验提供剂量探索和确证性证据。",
+          "researchQuestion": "挥发性麻醉药是否在电压门控钠通道上存在直接结合位点，以及该位点如何调节通道功能？",
+          "designFit": "基础研究设计，结合结构生物学和电生理学，适合回答分子机制问题。",
           "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "两项试验均为随机化，但具体随机化方法（如区组、分层）未报告。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "试验为双盲，但具体盲法实施细节未报告。",
+          "randomization": "不适用（基础研究）。",
+          "allocationConcealment": "不适用。",
+          "blinding": "不适用。",
           "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "当前可获取内容未提供该数据。",
+          "followUp": "不适用。",
+          "analysisPopulation": "体外表达的NavMs、NaChBac和人类Nav1.1通道。",
           "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "多中心、双盲、随机对照设计。",
-            "两项试验（II期和III期）提供剂量探索和确证性证据。",
-            "主要终点为客观的内镜成功率。"
+            "使用多种方法（电生理、晶体学、突变）交叉验证。",
+            "提供了原子分辨率的结合位点。"
           ],
           "concerns": [
-            "非劣效界值仅在II期明确为-8%，III期未报告界值。",
-            "0.20和0.30 mg/kg剂量未达到非劣效，但原因未讨论。",
-            "缺乏详细方法学信息，无法全面评估偏倚风险。"
+            "基于原核通道，可能不完全代表人类通道。",
+            "体外研究，缺乏体内证据。"
           ]
         },
         "statistics": {
           "methods": [
             {
-              "referenceId": "noninferiority",
-              "name": "非劣效分析",
-              "purposeInStudy": "评估NH600001在内镜成功率上是否非劣于依托咪酯。",
-              "reportedResult": "II期0.25 mg/kg组率差5.0%（95%CI -4.49至14.49），非劣效成立；III期率差1.16%（95%CI -0.44至2.76），非劣效成立。",
-              "interpretation": "NH600001 0.25 mg/kg的疗效不差于依托咪酯。",
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+              "reportedResult": "当前可获取内容未提供该数据。",
+              "interpretation": "无法评价统计分析的适当性。",
               "cautions": [
-                "非劣效界值需预先设定，II期界值为-8%，III期未报告。",
-                "非劣效结论依赖于分析人群（ITT或PP）的一致性。"
+                "由于缺乏统计细节，无法评估结果的可靠性。"
               ],
-              "standardExplanation": "判断新方案的效果是否未差于预设界值；结论依赖界值合理性及意向性和符合方案分析的一致性。"
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
           ],
           "adjustedVariables": "当前可获取内容未提供该数据。",
           "multiplicity": "当前可获取内容未提供该数据。",
           "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "统计上非劣效成立，但临床获益主要体现在减少肾上腺皮质抑制和肌阵挛，需结合临床判断。"
+          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
         },
         "outcomeAnalysis": {
-          "primary": "内镜成功率：II期0.25 mg/kg组非劣于依托咪酯（率差5.0%，95%CI -4.49至14.49）；III期非劣（率差1.16%，95%CI -0.44至2.76）。",
+          "primary": "当前可获取内容未提供该数据。",
           "secondary": [
-            "镇静/麻醉成功率：当前可获取内容未提供该数据。",
-            "达到成功镇静/麻醉时间：当前可获取内容未提供该数据。",
-            "BIS≤60时间：当前可获取内容未提供该数据。",
-            "苏醒时间：当前可获取内容未提供该数据。",
-            "安全离院时间：当前可获取内容未提供该数据。",
-            "补救镇静比例：当前可获取内容未提供该数据。"
+            "当前可获取内容未提供该数据。"
           ],
-          "safety": "NH600001安全性特征与依托咪酯相当，肌阵挛不良事件更少。",
-          "absoluteVsRelative": "主要终点以率差表示，未提供相对风险或绝对风险差异的详细数据。",
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "当前可获取内容未提供该数据。",
           "subgroupAndInteraction": "当前可获取内容未提供该数据。",
           "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "随机对照设计，多中心，双盲。",
-            "两项试验相互印证。",
-            "主要终点客观。"
+            "结构生物学证据清晰。",
+            "功能实验支持结合位点的功能相关性。"
           ],
           "limitations": [
-            "缺乏完整方法学细节。",
-            "非劣效界值在III期未明确。",
-            "未报告亚组分析和敏感性分析。"
+            "原核通道的适用性有限。",
+            "缺乏人类通道的晶体结构。",
+            "未提供定量统计结果。"
           ],
           "biasRisks": [
-            "随机化方法未报告，可能存在选择偏倚。",
-            "盲法实施细节未报告，可能存在实施偏倚。",
-            "缺失数据未报告，可能存在随访偏倚。"
+            "选择偏倚（仅报告阳性结果）。",
+            "发表偏倚风险。"
           ],
-          "certainty": "中等：基于随机对照试验，但方法学信息不完整。",
-          "conclusionAlignment": "结论与结果一致，但需注意非劣效界值问题。",
-          "causalBoundary": "随机对照试验可支持因果推断，但需考虑试验条件与真实世界的差异。"
+          "certainty": "低（基于摘要，缺乏详细方法）。",
+          "conclusionAlignment": "结论与证据基本一致，但外推需谨慎。",
+          "causalBoundary": "研究显示相关性，但因果关系需更多证据。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "适用于接受胃肠镜检查需要镇静/麻醉的患者。",
-            "可能适用于需要减少肾上腺皮质抑制风险的患者。"
+            "为麻醉药物作用机制提供理论基础。"
           ],
           "nonApplicability": [
-            "不适用于对NH600001或依托咪酯过敏的患者。",
-            "不适用于严重肾上腺皮质功能不全的患者（需谨慎）。"
+            "不能直接用于临床麻醉实践。"
           ],
-          "practiceChange": "若获得监管批准，NH600001 0.25 mg/kg可作为依托咪酯的替代选择。",
+          "practiceChange": "当前不改变临床实践。",
           "canDoNow": [
-            "在获得更多证据前，可考虑在特定患者中使用NH600001 0.25 mg/kg。"
+            "无。"
           ],
           "cannotConclude": [
-            "不能确定NH600001在所有胃肠镜患者中均优于依托咪酯。",
-            "不能确定长期安全性。"
+            "挥发性麻醉药在人体中的确切作用机制。"
           ],
           "evidenceGaps": [
-            "需要更多关于剂量-反应关系的数据。",
-            "需要长期随访数据。",
-            "需要不同人群（如老年、儿童）的研究。"
+            "需要人类通道的结构和功能研究。",
+            "需要体内研究验证。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42321197/",
+        "doi": "https://doi.org/10.1038/s41467-026-74518-7",
+        "publisher": "https://doi.org/10.1038/s41467-026-74518-7",
+        "openFullText": null
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-41763963",
+      "number": "03",
+      "category": "老年围术期",
+      "journal": "British journal of anaesthesia",
+      "year": "2026",
+      "publishedDate": "2026-05",
+      "electronicPublicationDate": "2026-02-27",
+      "readingTime": "14 分钟",
+      "title": "老年人术后认知结局相关的心理因素：系统评价与荟萃分析",
+      "originalTitle": "Psychological factors associated with postoperative cognitive outcomes in older adults: a systematic review and meta-analysis.",
+      "abstract": "BACKGROUND: Older adults face increased risk of postoperative cognitive complications, which can prolong hospitalisation and impair function. Preoperative psychological factors may contribute to these cognitive outcomes, yet their impact remains unclear. This systematic review with meta-analysis synthesises evidence on associations between psychological factors and postoperative cognitive outcomes in older adults. METHODS: A systematic review and meta-analysis, including synthesis without meta-analysis, of studies reporting preoperative psychological factors and postoperative cognitive outcomes in adults aged 60 yr or older was conducted. Five databases (Medline, Embase, Web of Science, PsycINFO, and CINAHL) were searched. The Newcastle Ottawa Scale or Cochrane Risk of Bias 2.0 tool was used for quality appraisal. Where feasible, random-effects meta-analyses were conducted alongside P-value synthesis and vote counting based on direction of effect. RESULTS: Thirty studies (n=6714 subjects) were included. Four categories of psychological factors were identified: depression, anxiety, personality traits, and stress-related factors. Postoperative delirium was the most reported outcome, assessed in all studies with incidence ranging from 9% to 55.6%. Two studies assessed delayed neurocognitive recovery or postoperative neurocognitive disorder. In studies reporting effect estimates, the random-effects model showed a non-significant association between depression and postoperative delirium (odds ratio, 1.08; 95% confidence interval, 0.97-1.20). In the synthesis without meta-analysis, there was evidence of an association between the psychological factors and postoperative cognitive outcomes in 28 studies (P<0.001). CONCLUSIONS: Depression was the most consistently reported psychological risk factor for postoperative delirium in older adults, whereas evidence for anxiety, personality traits, and stress is limited. Multidimensional, standardised cognitive assessments are needed, and future studies should evaluate interventions to reduce risk and improve postoperative cognitive outcomes. SYSTEMATIC REVIEW PROTOCOL: PROSPERO (CRD42024581115).",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "老年人术后认知并发症的风险增加，这可能会延长住院时间并损害功能。术前心理因素可能对这些认知结果有所贡献，但其影响仍不清楚。这项系统评价和荟萃分析综合了关于心理因素与老年人术后认知结果之间关联的证据。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "进行了一项系统评价和荟萃分析，包括无荟萃分析的综合分析，研究对象为报告术前心理因素和术后认知结果的60岁及以上成年人。检索了五个数据库（Medline、Embase、Web of Science、PsycINFO和CINAHL）。使用纽卡斯尔-渥太华量表或Cochrane偏倚风险2.0工具进行质量评价。在可行的情况下，进行了随机效应荟萃分析，同时进行P值综合和基于效应方向的投票计数。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "共纳入30项研究（n=6714名受试者）。确定了四类心理因素：抑郁、焦虑、人格特质和压力相关因素。术后谵妄是最常报告的结果，在所有研究中均进行了评估，发生率范围为9%至55.6%。两项研究评估了延迟神经认知恢复或术后神经认知障碍。在报告效应估计的研究中，随机效应模型显示抑郁与术后谵妄之间的关联不显著（比值比，1.08；95%置信区间，0.97-1.20）。在无荟萃分析的综合分析中，28项研究（P<0.001）显示心理因素与术后认知结果之间存在关联的证据。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "抑郁是老年人术后谵妄最一致报告的心理危险因素，而焦虑、人格特质和压力的证据有限。需要多维、标准化的认知评估，未来的研究应评估干预措施以降低风险并改善术后认知结果。系统评价方案：PROSPERO（CRD42024581115）。"
+          }
+        ],
+        "fullText": "BACKGROUND: Older adults face increased risk of postoperative cognitive complications, which can prolong hospitalisation and impair function. Preoperative psychological factors may contribute to these cognitive outcomes, yet their impact remains unclear. This systematic review with meta-analysis synthesises evidence on associations between psychological factors and postoperative cognitive outcomes in older adults. METHODS: A systematic review and meta-analysis, including synthesis without meta-analysis, of studies reporting preoperative psychological factors and postoperative cognitive outcomes in adults aged 60 yr or older was conducted. Five databases (Medline, Embase, Web of Science, PsycINFO, and CINAHL) were searched. The Newcastle Ottawa Scale or Cochrane Risk of Bias 2.0 tool was used for quality appraisal. Where feasible, random-effects meta-analyses were conducted alongside P-value synthesis and vote counting based on direction of effect. RESULTS: Thirty studies (n=6714 subjects) were included. Four categories of psychological factors were identified: depression, anxiety, personality traits, and stress-related factors. Postoperative delirium was the most reported outcome, assessed in all studies with incidence ranging from 9% to 55.6%. Two studies assessed delayed neurocognitive recovery or postoperative neurocognitive disorder. In studies reporting effect estimates, the random-effects model showed a non-significant association between depression and postoperative delirium (odds ratio, 1.08; 95% confidence interval, 0.97-1.20). In the synthesis without meta-analysis, there was evidence of an association between the psychological factors and postoperative cognitive outcomes in 28 studies (P<0.001). CONCLUSIONS: Depression was the most consistently reported psychological risk factor for postoperative delirium in older adults, whereas evidence for anxiety, personality traits, and stress is limited. Multidimensional, standardised cognitive assessments are needed, and future studies should evaluate interventions to reduce risk and improve postoperative cognitive outcomes. SYSTEMATIC REVIEW PROTOCOL: PROSPERO (CRD42024581115).",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Amirpour A, Bergman L, Eckerblad J, Markovic G, Nilsson U, Falk A",
+      "citation": "Br J Anaesth. 2026 May;136(5):1482-1494. doi: 10.1016/j.bja.2026.01.031. Epub 2026 Feb 27.",
+      "doi": "10.1016/j.bja.2026.01.031",
+      "pmid": "41763963",
+      "pmcid": "PMC13197908",
+      "publicationTypes": [
+        "Journal Article",
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "meshTerms": [
+        "Humans",
+        "*Postoperative Cognitive Complications/psychology/epidemiology/etiology",
+        "Aged",
+        "Anxiety/psychology/complications",
+        "Depression/psychology/complications",
+        "Stress, Psychological/complications/psychology",
+        "*Postoperative Complications/psychology",
+        "Risk Factors",
+        "Personality"
+      ],
+      "publisher": "Elsevier BV",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "clinical-evidence-publication-type"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 10.3,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "British Journal of Anaesthesia"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "老年围术期",
+        "Journal Article",
+        "Meta-Analysis"
+      ],
+      "question": "术后认知并发症（如谵妄、神经认知恢复延迟）在老年手术患者中常见，可延长住院时间并损害功能。识别可干预的心理因素可能有助于术前风险评估和干预，从而改善术后认知结局。",
+      "conclusion": "在老年人中，抑郁是术后谵妄最常报告的心理风险因素，但荟萃分析显示其与术后谵妄的关联未达统计学显著性；焦虑、人格特质和压力相关因素的证据有限。",
+      "clinical": "术前评估中可考虑筛查抑郁症状，但当前证据不支持将抑郁作为术后谵妄的独立预测因子进行风险分层。 由于证据有限，不应仅基于焦虑、人格特质或压力因素做出临床决策。 未来研究应评估针对心理因素的干预措施是否能降低术后认知并发症风险。",
+      "evidence": "中等偏高",
+      "score": 70,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 25,
+        "clinicalImpact": 11,
+        "journalQuality": 15,
+        "novelty": 6
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "系统评价与荟萃分析，包括无荟萃分析的综合分析；检索了Medline、Embase、Web of Science、PsycINFO和CINAHL五个数据库；使用纽卡斯尔-渥太华量表或Cochrane偏倚风险2.0工具进行质量评价；在可行时进行随机效应荟萃分析，并结合P值综合和基于效应方向的投票计数。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Adults aged 60 years or older undergoing surgery；30 studies, n=6714 subjects"
+        },
+        {
+          "label": "干预与比较",
+          "value": "术前心理因素（抑郁、焦虑、人格特质、压力相关因素）；对照：无特定对照，观察性研究或比较不同心理因素水平"
+        },
+        {
+          "label": "主要终点",
+          "value": "Postoperative cognitive outcomes (postoperative delirium, delayed neurocognitive recovery, postoperative neurocognitive disorder)"
+        }
+      ],
+      "keyPoints": [
+        "30项研究，6714例老年人，评估术前心理因素与术后认知结局的关联。",
+        "抑郁与术后谵妄的合并比值比为1.08（95%CI 0.97-1.20），无统计学显著性。",
+        "28项研究显示心理因素与术后认知结局存在关联（P<0.001），但证据等级低。",
+        "术后谵妄发生率9%-55.6%，但评估时间差异大。",
+        "焦虑、人格特质和压力相关因素的证据有限。"
+      ],
+      "methods": "老年人术后认知并发症风险增加，术前心理因素可能影响这些结局，但其作用尚不明确。本系统评价与荟萃分析旨在综合心理因素与老年人术后认知结局之间关联的证据。",
+      "results": "共纳入30项研究，样本量6714例。抑郁是术后谵妄最常报告的心理风险因素，但随机效应模型显示抑郁与术后谵妄的关联无统计学显著性（比值比1.08，95%置信区间0.97-1.20）。在无荟萃分析的综合分析中，28项研究显示心理因素与术后认知结局存在关联（P<0.001）。术后谵妄是最常报告的结果，所有研究均评估了该结局，发生率范围为9%至55.6%。仅两项研究评估了延迟神经认知恢复或术后神经认知障碍。",
+      "mainResults": "共纳入30项研究，样本量6714例。抑郁是术后谵妄最常报告的心理风险因素，但随机效应模型显示抑郁与术后谵妄的关联无统计学显著性（比值比1.08，95%置信区间0.97-1.20）。在无荟萃分析的综合分析中，28项研究显示心理因素与术后认知结局存在关联（P<0.001）。术后谵妄是最常报告的结果，所有研究均评估了该结局，发生率范围为9%至55.6%。仅两项研究评估了延迟神经认知恢复或术后神经认知障碍。",
+      "limitations": [
+        "大多数研究为观察性设计，混杂因素仍是一个局限。",
+        "大多数研究未报告认知储备变量（如教育或职业背景）。",
+        "部分研究结局报告不完整，术后谵妄评估时间差异较大。",
+        "关于延迟神经认知恢复和术后神经认知障碍的研究很少，是主要空白。",
+        "仅纳入英文发表的研究，可能存在语言偏倚。"
+      ],
+      "practice": [
+        "术前评估中可考虑筛查抑郁症状，但当前证据不支持将抑郁作为术后谵妄的独立预测因子进行风险分层。",
+        "由于证据有限，不应仅基于焦虑、人格特质或压力因素做出临床决策。",
+        "未来研究应评估针对心理因素的干预措施是否能降低术后认知并发症风险。"
+      ],
+      "editor": "该证据支持术前心理因素（尤其是抑郁）与术后认知结局存在关联，但关联强度较弱且存在异质性。 过度解读风险：存在将观察性关联解释为因果关系的风险，且荟萃分析结果未达统计学显著性，需谨慎解读。",
+      "whyItMatters": "术后认知并发症（如谵妄、神经认知恢复延迟）在老年手术患者中常见，可延长住院时间并损害功能。识别可干预的心理因素可能有助于术前风险评估和干预，从而改善术后认知结局。",
+      "background": "老年人术后认知并发症风险增加，术前心理因素可能影响这些结局，但其作用尚不明确。本系统评价与荟萃分析旨在综合心理因素与老年人术后认知结局之间关联的证据。",
+      "pico": {
+        "population": "Adults aged 60 years or older undergoing surgery",
+        "intervention": "术前心理因素（抑郁、焦虑、人格特质、压力相关因素）",
+        "comparison": "无特定对照，观察性研究或比较不同心理因素水平",
+        "outcome": "Postoperative cognitive outcomes (postoperative delirium, delayed neurocognitive recovery, postoperative neurocognitive disorder)"
+      },
+      "studyType": "系统评价与荟萃分析，包括无荟萃分析的综合分析；检索了Medline、Embase、Web of Science、PsycINFO和CINAHL五个数据库；使用纽卡斯尔-渥太华量表或Cochrane偏倚风险2.0工具进行质量评价；在可行时进行随机效应荟萃分析，并结合P值综合和基于效应方向的投票计数。",
+      "sampleSize": "30 studies, n=6714 subjects",
+      "primaryOutcome": "Postoperative cognitive outcomes (postoperative delirium, delayed neurocognitive recovery, postoperative neurocognitive disorder)",
+      "effectSize": [
+        "Odds ratio, 1.08"
+      ],
+      "confidenceInterval": [
+        "95% confidence interval, 0.97-1.20"
+      ],
+      "pValue": [
+        "P<0.001"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "该证据支持术前心理因素（尤其是抑郁）与术后认知结局存在关联，但关联强度较弱且存在异质性。",
+        "overinterpretationRisk": "存在将观察性关联解释为因果关系的风险，且荟萃分析结果未达统计学显著性，需谨慎解读。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text_excerpt",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "仅基于摘要和部分全文节选，可能遗漏方法学细节。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "术前心理因素与老年人术后认知结局之间是否存在关联？",
+          "designFit": "系统评价与荟萃分析适合综合现有证据，但受限于原始研究的设计。",
+          "eligibility": "纳入报告术前心理因素和术后认知结局、年龄≥60岁成年人的研究。",
+          "randomization": "不适用，系统评价不涉及随机化。",
+          "allocationConcealment": "不适用。",
+          "blinding": "不适用。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "30项研究，6714例受试者。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "系统检索多个数据库，方法规范。",
+            "使用质量评价工具评估偏倚风险。",
+            "结合荟萃分析和无荟萃分析的综合分析。"
+          ],
+          "concerns": [
+            "大多数原始研究为观察性设计，混杂因素控制不足。",
+            "结局评估时间差异大，可能影响结果一致性。",
+            "仅纳入英文文献，可能存在语言偏倚。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": "meta-random-effects",
+              "name": "随机效应Meta分析",
+              "purposeInStudy": "汇总抑郁与术后谵妄的关联效应量。",
+              "reportedResult": "比值比1.08，95%置信区间0.97-1.20",
+              "interpretation": "抑郁与术后谵妄的关联无统计学显著性。",
+              "cautions": [
+                "需结合异质性解释，但当前可获取内容未提供异质性指标。",
+                "比值比不能直接解释为风险比。"
+              ],
+              "standardExplanation": "汇总允许真实效应在研究间不同的证据；需结合异质性、预测区间和研究质量解释。"
+            },
+            {
+              "referenceId": null,
+              "name": "P值综合和投票计数",
+              "purposeInStudy": "在无法进行荟萃分析时综合证据方向。",
+              "reportedResult": "28项研究显示关联，P<0.001",
+              "interpretation": "心理因素与术后认知结局存在关联的证据。",
+              "cautions": [
+                "投票计数方法可能忽略效应量大小。",
+                "P值综合可能受发表偏倚影响。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "抑郁与术后谵妄的关联无统计学显著性，但临床意义需结合效应量大小和患者背景评估。"
+        },
+        "outcomeAnalysis": {
+          "primary": "术后认知结局（术后谵妄、延迟神经认知恢复、术后神经认知障碍）",
+          "secondary": [
+            "术后谵妄",
+            "延迟神经认知恢复",
+            "术后神经认知障碍"
+          ],
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "当前可获取内容未提供该数据。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "系统检索多个数据库，方法规范。",
+            "使用质量评价工具评估偏倚风险。",
+            "结合荟萃分析和无荟萃分析的综合分析。"
+          ],
+          "limitations": [
+            "大多数原始研究为观察性设计，混杂因素控制不足。",
+            "结局评估时间差异大，可能影响结果一致性。",
+            "仅纳入英文文献，可能存在语言偏倚。",
+            "关于延迟神经认知恢复和术后神经认知障碍的研究很少。"
+          ],
+          "biasRisks": [
+            "观察性研究固有混杂偏倚。",
+            "发表偏倚可能，因仅纳入英文文献。",
+            "结局评估时间差异导致测量偏倚。"
+          ],
+          "certainty": "证据确定性低，因观察性研究为主且异质性可能高。",
+          "conclusionAlignment": "结论与结果一致，但需注意荟萃分析未达统计学显著性。",
+          "causalBoundary": "观察性关联不能推断因果关系，需干预性研究验证。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "术前评估可考虑筛查抑郁症状，但不应单独用于风险预测。",
+            "对于焦虑、人格特质和压力因素，证据不足，不宜作为临床决策依据。"
+          ],
+          "nonApplicability": [
+            "不适用于年龄<60岁的患者。",
+            "不适用于非手术人群。"
+          ],
+          "practiceChange": "当前证据不足以改变临床实践，但可提示关注心理因素。",
+          "canDoNow": [
+            "在术前评估中常规询问抑郁症状，但需结合其他风险因素。",
+            "鼓励开展高质量前瞻性研究，标准化认知评估。"
+          ],
+          "cannotConclude": [
+            "不能确定抑郁是术后谵妄的独立危险因素。",
+            "不能确定干预心理因素能否改善术后认知结局。"
+          ],
+          "evidenceGaps": [
+            "需要更多关于焦虑、人格特质和压力因素的研究。",
+            "需要标准化认知评估方法和统一的结局定义。",
+            "需要评估干预措施效果的随机对照试验。"
           ],
           "directClinicalRecommendation": false
         }
@@ -790,637 +1031,70 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42082491/",
-        "doi": "https://doi.org/10.1038/s41467-026-72614-2",
-        "publisher": "https://doi.org/10.1038/s41467-026-72614-2",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13342565/"
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41763963/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.01.031",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.01.031",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197908/"
       }
     },
     {
       "analysisVersion": 2,
-      "slug": "pmid-40987659",
-      "number": "03",
-      "category": "麻醉学",
-      "journal": "British journal of anaesthesia",
-      "year": "2026",
-      "publishedDate": "2026-04",
-      "electronicPublicationDate": "2025-09-22",
-      "readingTime": "11 分钟",
-      "title": "老年患者麻醉后监护病房脑电α功率与谵妄：AlphaMax试验第一部分——维持期地氟醚和芬太尼滴定效应",
-      "originalTitle": "EEG alpha power and delirium in the postanaesthesia care unit in older adults: the AlphaMax trial part 1 - effect of desflurane and fentanyl titration during maintenance.",
-      "abstract": "BACKGROUND: Frontal EEG alpha oscillations might reflect an ideal state of general anaesthesia with adequate antinociception. Low alpha power has been associated with a vulnerable brain phenotype at greater risk of postoperative delirium. This arm of the AlphaMax randomised trial aimed to determine if alpha oscillations could be maximised by EEG-guided titration of anaesthesia, and if this might reduce delirium in the postanaesthesia care unit (PACU). METHODS: Male and female patients, aged >/=60 yr, were randomised to EEG-guided dose titration (targeting oscillatory alpha power) or routine care. Both groups received a standardised desflurane-fentanyl-based anaesthetic technique avoiding burst suppression. PACU delirium was assessed by blinded observers. RESULTS: For feasibility reasons, we reduced the sample size and were underpowered for PACU delirium. A total of 200 patients aged 73 (SD 7) yr were included. The titration group received more fentanyl (median [interquartile range] 650 [500-850] mug vs 500 [350-600] mug, P<0.0001) and less desflurane (maintenance end-tidal concentration mean [SD] 3.9 [0.7] vol% vs 4.4 [0.8%], vol% P<0.0001) than the control group. Oscillatory alpha power was greater in the titration group early after surgical incision (+0.8 dB, P=0.008), but this effect was not sustained as surgery progressed. Titration resulted in absent desflurane-alpha correlation in the intervention group (r=-0.020, 95% confidence interval -0.155 to 0.115) and a negative association in the control group (r=-0.228, 95% confidence interval -0.396 to -0.059). The incidence of PACU delirium was similar between groups (37% vs 33%, P=0.553). CONCLUSIONS: EEG-guided titration of fentanyl and desflurane anaesthesia had a limited enhancing effect on oscillatory alpha power with no appreciable difference in clinical outcomes. CLINICAL TRIAL REGISTRATION: Australian and New Zealand Clinical Trial Registry (ID: 12617001354370).",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": "BACKGROUND",
-            "text": "额叶脑电图α振荡可能反映了具有充分抗伤害感受的全身麻醉的理想状态。低α功率与术后谵妄风险增加的脆弱大脑表型相关。AlphaMax随机试验的这一分支旨在确定是否可以通过脑电图引导的麻醉滴定来最大化α振荡，以及这是否可以减少麻醉后监护病房（PACU）中的谵妄。"
-          },
-          {
-            "heading": "METHODS",
-            "text": "年龄≥60岁的男性和女性患者被随机分配至脑电图引导的剂量滴定（以振荡α功率为目标）或常规护理。两组均接受标准化的地氟烷-芬太尼为基础的麻醉技术，避免爆发性抑制。PACU谵妄由盲法观察者评估。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "由于可行性原因，我们减少了样本量，并且对于PACU谵妄的检验效能不足。共纳入200例患者，年龄73（SD 7）岁。滴定组比对照组接受了更多的芬太尼（中位数[四分位距] 650 [500-850] μg vs 500 [350-600] μg，P<0.0001）和更少的地氟烷（维持呼气末浓度平均值[SD] 3.9 [0.7] vol% vs 4.4 [0.8] vol%，P<0.0001）。手术切口后早期，滴定组的振荡α功率更大（+0.8 dB，P=0.008），但随着手术进展，这种效应未能持续。滴定导致干预组地氟烷-α相关性消失（r=-0.020，95%置信区间 -0.155至0.115），而对照组呈负相关（r=-0.228，95%置信区间 -0.396至-0.059）。两组PACU谵妄的发生率相似（37% vs 33%，P=0.553）。"
-          },
-          {
-            "heading": "CONCLUSIONS",
-            "text": "脑电图引导的芬太尼和地氟烷麻醉滴定对振荡α功率的增强作用有限，临床结果无明显差异。"
-          },
-          {
-            "heading": "CLINICAL TRIAL REGISTRATION",
-            "text": "澳大利亚和新西兰临床试验注册中心（ID：12617001354370）。"
-          }
-        ],
-        "fullText": "BACKGROUND: 额叶脑电图α振荡可能反映了具有充分抗伤害感受的全身麻醉的理想状态。低α功率与术后谵妄风险增加的脆弱大脑表型相关。AlphaMax随机试验的这一分支旨在确定是否可以通过脑电图引导的麻醉滴定来最大化α振荡，以及这是否可以减少麻醉后监护病房（PACU）中的谵妄。 METHODS: 年龄≥60岁的男性和女性患者被随机分配至脑电图引导的剂量滴定（以振荡α功率为目标）或常规护理。两组均接受标准化的地氟烷-芬太尼为基础的麻醉技术，避免爆发性抑制。PACU谵妄由盲法观察者评估。 RESULTS: 由于可行性原因，我们减少了样本量，并且对于PACU谵妄的检验效能不足。共纳入200例患者，年龄73（SD 7）岁。滴定组比对照组接受了更多的芬太尼（中位数[四分位距] 650 [500-850] μg vs 500 [350-600] μg，P<0.0001）和更少的地氟烷（维持呼气末浓度平均值[SD] 3.9 [0.7] vol% vs 4.4 [0.8] vol%，P<0.0001）。手术切口后早期，滴定组的振荡α功率更大（+0.8 dB，P=0.008），但随着手术进展，这种效应未能持续。滴定导致干预组地氟烷-α相关性消失（r=-0.020，95%置信区间 -0.155至0.115），而对照组呈负相关（r=-0.228，95%置信区间 -0.396至-0.059）。两组PACU谵妄的发生率相似（37% vs 33%，P=0.553）。 CONCLUSIONS: 脑电图引导的芬太尼和地氟烷麻醉滴定对振荡α功率的增强作用有限，临床结果无明显差异。 CLINICAL TRIAL REGISTRATION: 澳大利亚和新西兰临床试验注册中心（ID：12617001354370）。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Gaskell AL, Banerji A, Pullon RM, Termaat J, Garcia PS, Sleigh JW",
-      "citation": "Br J Anaesth. 2026 Apr;136(4):1252-1262. doi: 10.1016/j.bja.2025.07.045. Epub 2025 Sep 22.",
-      "doi": "10.1016/j.bja.2025.07.045",
-      "pmid": "40987659",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "meshTerms": [
-        "Humans",
-        "*Desflurane/administration & dosage",
-        "Female",
-        "Male",
-        "Aged",
-        "*Fentanyl/administration & dosage",
-        "*Electroencephalography/drug effects",
-        "*Anesthetics, Inhalation/administration & dosage/pharmacology",
-        "Middle Aged",
-        "Aged, 80 and over",
-        "*Emergence Delirium/prevention & control",
-        "*Alpha Rhythm/drug effects",
-        "Anesthetics, Intravenous/administration & dosage",
-        "Anesthesia Recovery Period"
-      ],
-      "publisher": "Elsevier BV",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 10.3,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "British Journal of Anaesthesia"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "老年围术期",
-        "麻醉基础研究",
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "question": "术后谵妄是老年患者常见且严重的并发症，目前缺乏有效预防策略。该研究探索了基于脑电α功率的麻醉管理能否改善临床结局，为个体化麻醉提供潜在方向，但结果提示其临床获益尚不明确。",
-      "conclusion": "在老年患者中，基于脑电α功率的麻醉滴定仅短暂增强α振荡功率，未显著降低PACU谵妄发生率，且研究因样本量不足而检验效能有限。",
-      "clinical": "脑电α功率引导的麻醉滴定可改变麻醉药物用量（增加芬太尼、减少地氟醚），但仅短暂增强α功率，未改善谵妄结局。 当前证据不支持将α功率滴定作为减少PACU谵妄的常规策略，需更大样本研究验证。",
-      "evidence": "中等偏高",
-      "score": 75,
-      "scoreBreakdown": {
-        "relevance": 23,
-        "evidenceQuality": 22,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 6
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "随机对照试验（AlphaMax试验的一部分），两组均接受标准化地氟醚-芬太尼麻醉，避免爆发抑制。PACU谵妄由盲法评估者评定。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Male and female patients, aged ≥60 yr；200 patients aged 73 (SD 7) yr"
-        },
-        {
-          "label": "干预与比较",
-          "value": "EEG-guided dose titration targeting oscillatory alpha power；对照：Routine care"
-        },
-        {
-          "label": "主要终点",
-          "value": "PACU delirium incidence"
-        }
-      ],
-      "keyPoints": [
-        "脑电引导滴定组芬太尼用量增加、地氟醚用量减少。",
-        "滴定组早期α功率增强（+0.8 dB），但未持续。",
-        "两组PACU谵妄发生率无显著差异（37% vs 33%，P=0.553）。",
-        "研究因样本量不足，对谵妄结局检验效能有限。"
-      ],
-      "methods": "额叶脑电α振荡可能反映理想的全身麻醉状态，即充分镇痛与适宜麻醉深度。低α功率与术后谵妄风险增加相关。AlphaMax随机试验旨在评估通过脑电引导滴定麻醉能否最大化α功率，并可能减少PACU谵妄。",
-      "results": "共纳入200例患者。滴定组芬太尼用量更高（中位数[IQR] 650 [500-850] μg vs 500 [350-600] μg，P<0.0001），地氟醚维持呼气末浓度更低（均值[SD] 3.9 [0.7] vol% vs 4.4 [0.8] vol%，P<0.0001）。手术切口后早期，滴定组振荡α功率更高（+0.8 dB，P=0.008），但该效应未持续。滴定组地氟醚-α相关性消失（r=-0.020，95%CI -0.155至0.115），对照组呈负相关（r=-0.228，95%CI -0.396至-0.059）。PACU谵妄发生率两组相似（37% vs 33%，P=0.553）。",
-      "mainResults": "共纳入200例患者。滴定组芬太尼用量更高（中位数[IQR] 650 [500-850] μg vs 500 [350-600] μg，P<0.0001），地氟醚维持呼气末浓度更低（均值[SD] 3.9 [0.7] vol% vs 4.4 [0.8] vol%，P<0.0001）。手术切口后早期，滴定组振荡α功率更高（+0.8 dB，P=0.008），但该效应未持续。滴定组地氟醚-α相关性消失（r=-0.020，95%CI -0.155至0.115），对照组呈负相关（r=-0.228，95%CI -0.396至-0.059）。PACU谵妄发生率两组相似（37% vs 33%，P=0.553）。",
-      "limitations": [
-        "因可行性原因，样本量缩减，对PACU谵妄结局检验效能不足。",
-        "α功率增强效应未持续，可能影响临床结局。",
-        "当前可获取内容未提供不良事件数据。"
-      ],
-      "practice": [
-        "脑电α功率引导的麻醉滴定可改变麻醉药物用量（增加芬太尼、减少地氟醚），但仅短暂增强α功率，未改善谵妄结局。",
-        "当前证据不支持将α功率滴定作为减少PACU谵妄的常规策略，需更大样本研究验证。"
-      ],
-      "editor": "研究为随机对照设计，盲法评估结局，两组麻醉药物用量差异显著，α功率早期增强有统计学意义。 过度解读风险：主要结局阴性且检验效能不足，不能得出α功率滴定无效的结论，也不应过度解读早期α功率增强的临床意义。",
-      "whyItMatters": "术后谵妄是老年患者常见且严重的并发症，目前缺乏有效预防策略。该研究探索了基于脑电α功率的麻醉管理能否改善临床结局，为个体化麻醉提供潜在方向，但结果提示其临床获益尚不明确。",
-      "background": "额叶脑电α振荡可能反映理想的全身麻醉状态，即充分镇痛与适宜麻醉深度。低α功率与术后谵妄风险增加相关。AlphaMax随机试验旨在评估通过脑电引导滴定麻醉能否最大化α功率，并可能减少PACU谵妄。",
-      "pico": {
-        "population": "Male and female patients, aged ≥60 yr",
-        "intervention": "EEG-guided dose titration targeting oscillatory alpha power",
-        "comparison": "Routine care",
-        "outcome": "PACU delirium incidence"
-      },
-      "studyType": "随机对照试验（AlphaMax试验的一部分），两组均接受标准化地氟醚-芬太尼麻醉，避免爆发抑制。PACU谵妄由盲法评估者评定。",
-      "sampleSize": "200 patients aged 73 (SD 7) yr",
-      "primaryOutcome": "PACU delirium incidence",
-      "effectSize": [
-        "+0.8 dB",
-        "r=-0.020",
-        "r=-0.228"
-      ],
-      "confidenceInterval": [
-        "-0.155 to 0.115",
-        "-0.396 to -0.059"
-      ],
-      "pValue": [
-        "P<0.0001",
-        "P=0.008",
-        "P=0.553"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "研究为随机对照设计，盲法评估结局，两组麻醉药物用量差异显著，α功率早期增强有统计学意义。",
-        "overinterpretationRisk": "主要结局阴性且检验效能不足，不能得出α功率滴定无效的结论，也不应过度解读早期α功率增强的临床意义。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "abstract",
-          "limitations": [
-            "仅基于摘要，无法获取完整方法学细节（如随机化方法、分配隐藏、样本量计算等）。",
-            "未提供不良事件、随访完整性、缺失数据处理等信息。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "脑电引导滴定能否最大化α功率并减少PACU谵妄？",
-          "designFit": "随机对照试验适合评估干预效果，但样本量不足影响检验效能。",
-          "eligibility": "年龄≥60岁，男性和女性，具体排除标准未在摘要中提供。",
-          "randomization": "随机化方法未在摘要中描述。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "PACU谵妄由盲法评估者评定，但麻醉实施者无法盲法。",
-          "sampleSizePlanning": "因可行性原因缩减样本量，导致对PACU谵妄检验效能不足。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "当前可获取内容未提供该数据。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "随机对照设计",
-            "盲法结局评估",
-            "标准化麻醉方案"
-          ],
-          "concerns": [
-            "样本量不足",
-            "α功率增强效应短暂",
-            "主要结局阴性"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "未识别到具体统计方法，无法评价。",
-              "reportedResult": "当前可获取内容未提供该数据。",
-              "interpretation": "无法评价统计方法是否恰当。",
-              "cautions": [
-                "摘要中未报告统计方法，需查阅全文。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "α功率早期增强有统计学意义（P=0.008），但效应量小（+0.8 dB）且未持续，临床意义有限；谵妄发生率差异无统计学意义（P=0.553），且样本量不足，不能排除临床重要差异。"
-        },
-        "outcomeAnalysis": {
-          "primary": "PACU谵妄发生率：两组相似（37% vs 33%，P=0.553），差异无统计学意义。",
-          "secondary": [
-            "振荡α功率：早期增强（+0.8 dB，P=0.008），但未持续。",
-            "地氟醚-α相关性：滴定组无相关性（r=-0.020），对照组负相关（r=-0.228）。"
-          ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "谵妄发生率绝对差异为4个百分点（37% vs 33%），相对风险未报告。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "随机对照设计",
-            "盲法结局评估",
-            "标准化麻醉方案"
-          ],
-          "limitations": [
-            "样本量不足",
-            "α功率增强效应短暂",
-            "主要结局阴性"
-          ],
-          "biasRisks": [
-            "实施偏倚（麻醉医师无法盲法）",
-            "检测偏倚（结局评估盲法，但可能不完整）"
-          ],
-          "certainty": "低至中等，因样本量不足和摘要信息有限。",
-          "conclusionAlignment": "结论与结果一致：滴定对α功率增强有限，临床结局无差异。",
-          "causalBoundary": "观察性关联不能推断因果关系，且主要结局阴性，不能得出滴定无效的结论。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "老年患者（≥60岁）接受地氟醚-芬太尼麻醉时，可考虑脑电监测，但当前证据不支持常规使用α功率滴定。"
-          ],
-          "nonApplicability": [
-            "不适用于其他麻醉药物或手术类型。",
-            "不适用于谵妄高风险人群的特定管理。"
-          ],
-          "practiceChange": "当前证据不足以改变临床实践。",
-          "canDoNow": [
-            "可继续使用常规麻醉管理，无需强制α功率滴定。"
-          ],
-          "cannotConclude": [
-            "不能得出α功率滴定无效的结论。",
-            "不能得出α功率滴定可减少谵妄的结论。"
-          ],
-          "evidenceGaps": [
-            "需要更大样本量的研究验证。",
-            "需要评估α功率增强的持续性和最佳目标。",
-            "需要评估不同麻醉药物和手术类型。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40987659/",
-        "doi": "https://doi.org/10.1016/j.bja.2025.07.045",
-        "publisher": "https://doi.org/10.1016/j.bja.2025.07.045",
-        "openFullText": null
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-41381314",
+      "slug": "pmid-42014224",
       "number": "04",
       "category": "麻醉学",
       "journal": "British journal of anaesthesia",
       "year": "2026",
-      "publishedDate": "2026-03",
-      "electronicPublicationDate": "2025-12-11",
-      "readingTime": "11 分钟",
-      "title": "预防性去甲肾上腺素输注减少心脏手术患者麻醉诱导期间严重低血压：一项随机对照单中心临床试验",
-      "originalTitle": "Prophylactic norepinephrine infusion to reduce severe hypotension during induction of anaesthesia in patients undergoing cardiac surgery: a randomised controlled single-centre clinical trial.",
-      "abstract": "BACKGROUND: The EPITUBE trial aimed to determine whether a prophylactic infusion of norepinephrine reduced severe hypotension after induction of general anaesthesia and tracheal intubation in patients undergoing cardiac surgery. METHODS: We performed a randomised controlled single-centre clinical trial including patients undergoing cardiac surgery. In the experimental group, infusion of norepinephrine started from the start of preoxygenation at an infusion rate of 0.06 mug kg(-1) min(-1), secondarily titrated to maintain mean arterial pressure (MAP) between 65 and 80 mm Hg. In the control group, ephedrine was administered if MAP decreased <65 mm Hg. Primary outcome was the occurrence of MAP <55 mm Hg. Secondary measures included tracheal intubation-related complications, postoperative complications, duration of ICU stay, and mortality. RESULTS: Of 210 patients randomised and analysed in the intention-to-treat analysis, the incidence of severe hypotension was not different between the groups: 43.8% in the norepinephrine group vs 44.8% in the control group (odds ratio 0.96, 95% confidence interval [CI] 0.56-1.66, P=0.99). The incidence of MAP <65 mm Hg was lower in the norepinephrine group than in the control group: 63.8% vs 78.1% (odds ratio 0.49, 95% CI 0.26-0.90, P=0.02). The rate of intubation-related complications was not different between the norepinephrine and control groups, 22.9% vs 32.4%, respectively (odds ratio 0.62, 95% CI 0.33-1.14, P=0.13). There was no difference in postoperative outcomes including acute kidney injury, time on ventilator, or length of stay in the ICU. CONCLUSIONS: In patients undergoing cardiac surgery, infusion of norepinephrine before general anaesthesia at a starting dose of 0.06 mug kg(-1) min(-1) did not reduce severe hypotension compared with on-demand ephedrine. CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05335954.",
+      "publishedDate": "2026-06",
+      "electronicPublicationDate": "2026-04-21",
+      "readingTime": "12 分钟",
+      "title": "全麻期间自动化催眠药物输注的闭环系统：系统评价与荟萃分析",
+      "originalTitle": "Closed-loop systems for automated hypnotic drug delivery during general anaesthesia: a systematic review and meta-analysis.",
+      "abstract": "BACKGROUND: Closed-loop systems for automated hypnotic delivery integrate continuous bispectral index (BIS) monitoring with controller algorithms to adjust infusion rates in real time. Unlike earlier syntheses that focused on aggregate control metrics, we frame anaesthetic depth as an asymmetric risk problem by separating exposure to potentially inadequate anaesthesia from exposure to excessive depth of anaesthesia. METHODS: This PROSPERO-registered systematic review (CRD420251208039) searched PubMed, Embase, Cochrane CENTRAL, and Web of Science through November 2025. Randomised trials comparing BIS-guided closed-loop systems with clinician-directed manual control in adult noncardiac surgery were included. The primary outcome was the proportion of time within 10 BIS units of the target. RESULTS: Seventeen trials encompassing 1898 patients were included. Closed-loop systems increased time within the target BIS range by 17.6% (95% confidence interval [CI] 11.8-23.5; P<0.001), corresponding to approximately an additional 20 min of optimal anaesthetic depth during a 2 h procedure. Bilateral safety was shown: time with BIS <40 was significantly reduced (mean difference [MD] -17.2%; 95% CI -26.8 to -7.5; P<0.001), whereas time with BIS >60 was unchanged (MD -0.8%; 95% CI -2.6 to 1.0; P=0.38). Controller performance metrics favoured automation (wobble, MDAPE, global score; all P<0.001). Time to extubation was shorter (MD -1.68 min; P<0.001), with no differences in propofol consumption (P=0.13) or vasopressor use (risk ratio 1.04; P=0.62). CONCLUSIONS: BIS-guided closed-loop systems achieve a bilateral safety profile in anaesthetic depth control, reducing deep anaesthesia without increasing light anaesthesia, with modestly faster recovery and preserved haemodynamic stability. These findings support automated hypnotic control as a strategy to rebalance competing intraoperative risks while maintaining physiological stability. SYSTEMATIC REVIEW PROTOCOL: PROSPERO CRD420251208039.",
       "abstractTranslation": {
         "sections": [
           {
             "heading": "BACKGROUND",
-            "text": "EPITUBE试验旨在确定预防性输注去甲肾上腺素是否能减少接受心脏手术患者在全麻诱导和气管插管后的严重低血压。"
+            "text": "用于自动化催眠药物给药的闭环系统将连续脑电双频指数（BIS）监测与控制器算法相结合，以实时调整输注速率。与早期侧重于总体控制指标的综述不同，我们将麻醉深度视为一个不对称风险问题，将潜在不充分麻醉的暴露与过度麻醉深度的暴露分开。"
           },
           {
             "heading": "METHODS",
-            "text": "我们进行了一项随机对照单中心临床试验，纳入接受心脏手术的患者。在实验组中，从预充氧开始即以0.06 μg kg(-1) min(-1)的速率输注去甲肾上腺素，随后根据平均动脉压（MAP）维持在65至80 mm Hg之间进行滴定。在对照组中，如果MAP降至65 mm Hg以下，则给予麻黄碱。主要结局是MAP低于55 mm Hg的发生率。次要指标包括气管插管相关并发症、术后并发症、ICU住院时间和死亡率。"
+            "text": "这项已在PROSPERO注册的系统综述（CRD420251208039）检索了PubMed、Embase、Cochrane CENTRAL和Web of Science，检索时间截至2025年11月。纳入在成人非心脏手术中比较BIS引导的闭环系统与临床医生指导的手动控制的随机试验。主要结局是目标BIS值±10个单位内的时间比例。"
           },
           {
             "heading": "RESULTS",
-            "text": "在随机分组并纳入意向性治疗分析的210名患者中，严重低血压的发生率在两组之间没有差异：去甲肾上腺素组为43.8%，对照组为44.8%（比值比0.96，95%置信区间[CI] 0.56-1.66，P=0.99）。MAP低于65 mm Hg的发生率在去甲肾上腺素组低于对照组：63.8%对78.1%（比值比0.49，95% CI 0.26-0.90，P=0.02）。插管相关并发症的发生率在去甲肾上腺素组和对照组之间没有差异，分别为22.9%和32.4%（比值比0.62，95% CI 0.33-1.14，P=0.13）。术后结局包括急性肾损伤、呼吸机使用时间或ICU住院时间均无差异。"
+            "text": "共纳入17项试验，涉及1898名患者。闭环系统将目标BIS范围内的时间增加了17.6%（95%置信区间[CI] 11.8-23.5；P<0.001），相当于在2小时手术中额外约20分钟的最佳麻醉深度。双侧安全性得到证实：BIS<40的时间显著减少（平均差[MD] -17.2%；95% CI -26.8至-7.5；P<0.001），而BIS>60的时间无变化（MD -0.8%；95% CI -2.6至1.0；P=0.38）。控制器性能指标有利于自动化（wobble、MDAPE、全局评分；均P<0.001）。拔管时间更短（MD -1.68分钟；P<0.001），丙泊酚消耗量（P=0.13）或血管升压药使用（风险比1.04；P=0.62）无差异。"
           },
           {
             "heading": "CONCLUSIONS",
-            "text": "在接受心脏手术的患者中，在全麻前以0.06 μg kg(-1) min(-1)的起始剂量输注去甲肾上腺素，与按需使用麻黄碱相比，并未减少严重低血压。"
+            "text": "BIS引导的闭环系统在麻醉深度控制方面实现了双侧安全性，减少了深麻醉而不增加浅麻醉，恢复速度略有加快，并保持了血流动力学稳定性。这些发现支持将自动化催眠药物控制作为重新平衡术中竞争风险同时维持生理稳定性的策略。"
           },
           {
-            "heading": "CLINICAL TRIAL REGISTRATION",
-            "text": "ClinicalTrials.gov标识符：NCT05335954。"
+            "heading": "SYSTEMATIC REVIEW PROTOCOL",
+            "text": "PROSPERO CRD420251208039。"
           }
         ],
-        "fullText": "BACKGROUND: EPITUBE试验旨在确定预防性输注去甲肾上腺素是否能减少接受心脏手术患者在全麻诱导和气管插管后的严重低血压。METHODS: 我们进行了一项随机对照单中心临床试验，纳入接受心脏手术的患者。在实验组中，从预充氧开始即以0.06 μg kg(-1) min(-1)的速率输注去甲肾上腺素，随后根据平均动脉压（MAP）维持在65至80 mm Hg之间进行滴定。在对照组中，如果MAP降至65 mm Hg以下，则给予麻黄碱。主要结局是MAP低于55 mm Hg的发生率。次要指标包括气管插管相关并发症、术后并发症、ICU住院时间和死亡率。RESULTS: 在随机分组并纳入意向性治疗分析的210名患者中，严重低血压的发生率在两组之间没有差异：去甲肾上腺素组为43.8%，对照组为44.8%（比值比0.96，95%置信区间[CI] 0.56-1.66，P=0.99）。MAP低于65 mm Hg的发生率在去甲肾上腺素组低于对照组：63.8%对78.1%（比值比0.49，95% CI 0.26-0.90，P=0.02）。插管相关并发症的发生率在去甲肾上腺素组和对照组之间没有差异，分别为22.9%和32.4%（比值比0.62，95% CI 0.33-1.14，P=0.13）。术后结局包括急性肾损伤、呼吸机使用时间或ICU住院时间均无差异。CONCLUSIONS: 在接受心脏手术的患者中，在全麻前以0.06 μg kg(-1) min(-1)的起始剂量输注去甲肾上腺素，与按需使用麻黄碱相比，并未减少严重低血压。CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov标识符：NCT05335954。",
+        "fullText": "BACKGROUND: 用于自动化催眠药物给药的闭环系统将连续脑电双频指数（BIS）监测与控制器算法相结合，以实时调整输注速率。与早期侧重于总体控制指标的综述不同，我们将麻醉深度视为一个不对称风险问题，将潜在不充分麻醉的暴露与过度麻醉深度的暴露分开。 METHODS: 这项已在PROSPERO注册的系统综述（CRD420251208039）检索了PubMed、Embase、Cochrane CENTRAL和Web of Science，检索时间截至2025年11月。纳入在成人非心脏手术中比较BIS引导的闭环系统与临床医生指导的手动控制的随机试验。主要结局是目标BIS值±10个单位内的时间比例。 RESULTS: 共纳入17项试验，涉及1898名患者。闭环系统将目标BIS范围内的时间增加了17.6%（95%置信区间[CI] 11.8-23.5；P<0.001），相当于在2小时手术中额外约20分钟的最佳麻醉深度。双侧安全性得到证实：BIS<40的时间显著减少（平均差[MD] -17.2%；95% CI -26.8至-7.5；P<0.001），而BIS>60的时间无变化（MD -0.8%；95% CI -2.6至1.0；P=0.38）。控制器性能指标有利于自动化（wobble、MDAPE、全局评分；均P<0.001）。拔管时间更短（MD -1.68分钟；P<0.001），丙泊酚消耗量（P=0.13）或血管升压药使用（风险比1.04；P=0.62）无差异。 CONCLUSIONS: BIS引导的闭环系统在麻醉深度控制方面实现了双侧安全性，减少了深麻醉而不增加浅麻醉，恢复速度略有加快，并保持了血流动力学稳定性。这些发现支持将自动化催眠药物控制作为重新平衡术中竞争风险同时维持生理稳定性的策略。 SYSTEMATIC REVIEW PROTOCOL: PROSPERO CRD420251208039。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Gaillard C, Breul L, Foucher A, Rigal JC, David CH, Souab F, Canevet M, Ryan M, et al.",
-      "citation": "Br J Anaesth. 2026 Mar;136(3):856-864. doi: 10.1016/j.bja.2025.10.055. Epub 2025 Dec 11.",
-      "doi": "10.1016/j.bja.2025.10.055",
-      "pmid": "41381314",
+      "authors": "Felippe VA, Dias HS, da Hora DAB, Wegner BFM, Wegner GRM, Gonzalez GL, Piredda GV, Bezerra FJL, et al.",
+      "citation": "Br J Anaesth. 2026 Jun;136(6):1811-1821. doi: 10.1016/j.bja.2026.03.020. Epub 2026 Apr 21.",
+      "doi": "10.1016/j.bja.2026.03.020",
+      "pmid": "42014224",
       "pmcid": null,
       "publicationTypes": [
         "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "meshTerms": [
-        "Humans",
-        "*Hypotension/prevention & control",
-        "*Norepinephrine/administration & dosage/therapeutic use",
-        "Female",
-        "Male",
-        "Aged",
-        "*Cardiac Surgical Procedures/methods/adverse effects",
-        "Middle Aged",
-        "*Anesthesia, General/adverse effects",
-        "*Vasoconstrictor Agents/therapeutic use/administration & dosage",
-        "Postoperative Complications/prevention & control/epidemiology",
-        "Infusions, Intravenous",
-        "Intubation, Intratracheal/adverse effects",
-        "Length of Stay/statistics & numerical data"
-      ],
-      "publisher": "Elsevier BV",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 10.3,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "British Journal of Anaesthesia"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "气道管理",
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "question": "麻醉诱导期低血压与术后并发症相关，预防性血管活性药物可能改善患者预后。该研究评估了预防性去甲肾上腺素输注在心脏手术患者中的效果，为临床实践提供了随机对照证据。",
-      "conclusion": "在心脏手术患者中，麻醉诱导前以0.06 μg kg⁻¹ min⁻¹起始剂量输注去甲肾上腺素，与按需使用麻黄碱相比，并未减少严重低血压（MAP<55 mmHg）的发生率。",
-      "clinical": "预防性去甲肾上腺素输注未能减少严重低血压（MAP<55 mmHg）的发生，但可降低MAP<65 mmHg的发生率，可能对临床有参考价值。 在心脏手术患者中，预防性去甲肾上腺素输注未增加气管插管相关并发症，安全性可接受。 临床决策应权衡潜在获益与风险，目前证据不支持常规使用预防性去甲肾上腺素替代按需麻黄碱。",
-      "evidence": "中等偏高",
-      "score": 72,
-      "scoreBreakdown": {
-        "relevance": 18,
-        "evidenceQuality": 22,
-        "clinicalImpact": 13,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "随机对照单中心临床试验，意向性治疗分析。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "patients undergoing cardiac surgery；210"
-        },
-        {
-          "label": "干预与比较",
-          "value": "prophylactic infusion of norepinephrine starting from the start of preoxygenation at an infusion rate of 0.06 mug kg(-1) min(-1), secondarily titrated to maintain MAP between 65 and 80 mm Hg；对照：ephedrine administered if MAP decreased <65 mm Hg"
-        },
-        {
-          "label": "主要终点",
-          "value": "occurrence of MAP <55 mm Hg"
-        }
-      ],
-      "keyPoints": [
-        "预防性去甲肾上腺素输注未减少严重低血压（MAP<55 mmHg）的发生率（43.8% vs 44.8%，P=0.99）。",
-        "去甲肾上腺素组MAP<65 mmHg的发生率显著低于对照组（63.8% vs 78.1%，P=0.02）。",
-        "气管插管相关并发症和术后结局两组无显著差异。",
-        "研究为单中心随机对照试验，样本量210例。"
-      ],
-      "methods": "心脏手术患者麻醉诱导期间常发生严重低血压，可能增加术后并发症风险。既往研究提示预防性血管活性药物可能减少低血压发生，但证据有限。EPITUBE试验旨在评估预防性去甲肾上腺素输注是否优于按需麻黄碱。",
-      "results": "共210例患者随机分配并纳入意向性治疗分析。严重低血压（MAP<55 mmHg）发生率在去甲肾上腺素组为43.8%，对照组为44.8%（OR=0.96，95%CI 0.56-1.66，P=0.99），差异无统计学意义。MAP<65 mmHg的发生率去甲肾上腺素组低于对照组（63.8% vs 78.1%，OR=0.49，95%CI 0.26-0.90，P=0.02）。气管插管相关并发症发生率两组无显著差异（22.9% vs 32.4%，OR=0.62，95%CI 0.33-1.14，P=0.13）。术后结局（急性肾损伤、呼吸机时间、ICU停留时间）两组无差异。",
-      "mainResults": "共210例患者随机分配并纳入意向性治疗分析。严重低血压（MAP<55 mmHg）发生率在去甲肾上腺素组为43.8%，对照组为44.8%（OR=0.96，95%CI 0.56-1.66，P=0.99），差异无统计学意义。MAP<65 mmHg的发生率去甲肾上腺素组低于对照组（63.8% vs 78.1%，OR=0.49，95%CI 0.26-0.90，P=0.02）。气管插管相关并发症发生率两组无显著差异（22.9% vs 32.4%，OR=0.62，95%CI 0.33-1.14，P=0.13）。术后结局（急性肾损伤、呼吸机时间、ICU停留时间）两组无差异。",
-      "limitations": [
-        "当前可获取内容未提供该数据。",
-        "当前可获取内容未提供该数据。",
-        "当前可获取内容未提供该数据。"
-      ],
-      "practice": [
-        "预防性去甲肾上腺素输注未能减少严重低血压（MAP<55 mmHg）的发生，但可降低MAP<65 mmHg的发生率，可能对临床有参考价值。",
-        "在心脏手术患者中，预防性去甲肾上腺素输注未增加气管插管相关并发症，安全性可接受。",
-        "临床决策应权衡潜在获益与风险，目前证据不支持常规使用预防性去甲肾上腺素替代按需麻黄碱。"
-      ],
-      "editor": "该研究为随机对照试验，样本量210例，主要结局无统计学差异，但次要结局显示MAP<65 mmHg发生率降低，支持预防性去甲肾上腺素可能改善血压控制。 过度解读风险：主要结局阴性，但次要结局阳性，需谨慎解读，避免过度强调次要结局的临床意义。",
-      "whyItMatters": "麻醉诱导期低血压与术后并发症相关，预防性血管活性药物可能改善患者预后。该研究评估了预防性去甲肾上腺素输注在心脏手术患者中的效果，为临床实践提供了随机对照证据。",
-      "background": "心脏手术患者麻醉诱导期间常发生严重低血压，可能增加术后并发症风险。既往研究提示预防性血管活性药物可能减少低血压发生，但证据有限。EPITUBE试验旨在评估预防性去甲肾上腺素输注是否优于按需麻黄碱。",
-      "pico": {
-        "population": "patients undergoing cardiac surgery",
-        "intervention": "prophylactic infusion of norepinephrine starting from the start of preoxygenation at an infusion rate of 0.06 mug kg(-1) min(-1), secondarily titrated to maintain MAP between 65 and 80 mm Hg",
-        "comparison": "ephedrine administered if MAP decreased <65 mm Hg",
-        "outcome": "occurrence of MAP <55 mm Hg"
-      },
-      "studyType": "随机对照单中心临床试验，意向性治疗分析。",
-      "sampleSize": "210",
-      "primaryOutcome": "occurrence of MAP <55 mm Hg",
-      "effectSize": [
-        "0.96",
-        "0.49",
-        "0.62"
-      ],
-      "confidenceInterval": [
-        "0.56-1.66",
-        "0.26-0.90",
-        "0.33-1.14"
-      ],
-      "pValue": [
-        "0.99",
-        "0.02",
-        "0.13"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "该研究为随机对照试验，样本量210例，主要结局无统计学差异，但次要结局显示MAP<65 mmHg发生率降低，支持预防性去甲肾上腺素可能改善血压控制。",
-        "overinterpretationRisk": "主要结局阴性，但次要结局阳性，需谨慎解读，避免过度强调次要结局的临床意义。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "abstract",
-          "limitations": [
-            "仅基于摘要，未获取全文，无法评估随机化细节、盲法、样本量计算等。",
-            "未报告不良事件、失访、依从性等数据。",
-            "未提供亚组分析、敏感性分析等结果。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "预防性去甲肾上腺素输注能否减少心脏手术患者麻醉诱导后严重低血压的发生？",
-          "designFit": "随机对照单中心试验设计适合评估干预效果，但单中心可能限制外推性。",
-          "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "当前可获取内容未提供该数据。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "当前可获取内容未提供该数据。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "意向性治疗分析，共210例。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "随机对照设计，意向性治疗分析。",
-            "样本量210例，具有一定检验效能。"
-          ],
-          "concerns": [
-            "单中心研究，可能影响外部有效性。",
-            "未报告盲法，可能引入实施偏倚。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "未识别到具体统计方法，无法评价。",
-              "reportedResult": "主要结局OR=0.96，95%CI 0.56-1.66，P=0.99；次要结局OR=0.49，95%CI 0.26-0.90，P=0.02；OR=0.62，95%CI 0.33-1.14，P=0.13。",
-              "interpretation": "主要结局无统计学差异，次要结局MAP<65 mmHg有统计学差异。",
-              "cautions": [
-                "未报告统计方法，无法评估模型假设和校正因素。",
-                "次要结局的阳性结果可能受多重比较影响。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "主要结局无统计学差异，但次要结局MAP<65 mmHg有统计学差异，临床意义需结合患者预后判断。"
-        },
-        "outcomeAnalysis": {
-          "primary": "MAP<55 mmHg的发生率：去甲肾上腺素组43.8% vs 对照组44.8%，OR=0.96，95%CI 0.56-1.66，P=0.99，无统计学差异。",
-          "secondary": [
-            "MAP<65 mmHg的发生率：63.8% vs 78.1%，OR=0.49，95%CI 0.26-0.90，P=0.02，有统计学差异。",
-            "气管插管相关并发症：22.9% vs 32.4%，OR=0.62，95%CI 0.33-1.14，P=0.13，无统计学差异。",
-            "术后并发症（急性肾损伤、呼吸机时间、ICU停留时间）：两组无差异。"
-          ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "主要结局绝对差异为-1.0%，相对风险降低约2%；次要结局绝对差异为-14.3%，相对风险降低约18%。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "随机对照设计，意向性治疗分析。",
-            "样本量210例，主要结局事件率较高，检验效能可能足够。"
-          ],
-          "limitations": [
-            "单中心，可能限制外推性。",
-            "未报告盲法，可能引入偏倚。",
-            "未报告随机化细节、样本量计算等。"
-          ],
-          "biasRisks": [
-            "实施偏倚（未盲法）。",
-            "测量偏倚（结局评估可能受干预影响）。"
-          ],
-          "certainty": "中等，因单中心和未报告盲法，证据等级可能降低。",
-          "conclusionAlignment": "结论与主要结果一致，但次要结局的阳性结果需谨慎解读。",
-          "causalBoundary": "随机对照设计可支持因果推断，但单中心可能限制因果效应的普遍性。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "心脏手术患者麻醉诱导期。",
-            "预防性去甲肾上腺素输注可降低MAP<65 mmHg的发生率，可能对维持血压稳定有益。"
-          ],
-          "nonApplicability": [
-            "非心脏手术患者。",
-            "急诊手术或血流动力学不稳定患者。"
-          ],
-          "practiceChange": "当前证据不支持常规使用预防性去甲肾上腺素替代按需麻黄碱，但可考虑用于高危患者。",
-          "canDoNow": [
-            "在心脏手术患者中，可考虑预防性去甲肾上腺素输注以降低MAP<65 mmHg的发生率，但需监测血压。"
-          ],
-          "cannotConclude": [
-            "不能确定预防性去甲肾上腺素能否改善术后结局。",
-            "不能确定最佳输注速率和时机。"
-          ],
-          "evidenceGaps": [
-            "需要多中心研究验证。",
-            "需要评估对术后并发症和死亡率的影响。",
-            "需要比较不同剂量和给药时机。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41381314/",
-        "doi": "https://doi.org/10.1016/j.bja.2025.10.055",
-        "publisher": "https://doi.org/10.1016/j.bja.2025.10.055",
-        "openFullText": null
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-41238462",
-      "number": "05",
-      "category": "麻醉学",
-      "journal": "British journal of anaesthesia",
-      "year": "2026",
-      "publishedDate": "2026-03",
-      "electronicPublicationDate": "2025-11-14",
-      "readingTime": "8 分钟",
-      "title": "中国全凭静脉麻醉临床实践指南：系统评价与专家共识建议",
-      "originalTitle": "Chinese clinical practice guidelines for total intravenous anaesthesia: a systematic review and expert consensus-based recommendations(☆).",
-      "abstract": "Total intravenous anaesthesia (TIVA) has been widely used for general anaesthesia in clinical practice. In order to further promote the standardised application of TIVA in China, the Chinese Society of Anesthesiology of the Chinese Medical Association organised experts to formulate these clinical practice guidelines for TIVA. After collection and selection of clinical questions, the working group conducted rigorous searches of the literature, formulated recommendations, and reached a consensus. A total of 22 recommendations were made on 12 clinical issues, including the indications, contraindications, and advantages of TIVA, use of depth of anaesthesia monitoring during implementation, pharmacological characteristics of available i.v. anaesthetic drugs, selection and use of drugs in target- and nontarget-controlled infusion modes, and precautions for application of TIVA in special populations, thus providing guidance for anaesthetists to standardise implementation of TIVA.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": null,
-            "text": "全静脉麻醉（TIVA）已在临床实践中广泛用于全身麻醉。为进一步促进TIVA在中国的规范化应用，中华医学会麻醉学分会组织专家制定了这些TIVA临床实践指南。在收集和筛选临床问题后，工作组进行了严格的文献检索，制定了推荐意见，并达成了共识。针对12个临床问题共提出了22条推荐意见，包括TIVA的适应证、禁忌证和优势，实施过程中麻醉深度监测的使用，现有静脉麻醉药物的药理学特性，靶控和非靶控输注模式下药物的选择和使用，以及TIVA在特殊人群中应用的注意事项，从而为麻醉医师规范化实施TIVA提供指导。"
-          }
-        ],
-        "fullText": "全静脉麻醉（TIVA）已在临床实践中广泛用于全身麻醉。为进一步促进TIVA在中国的规范化应用，中华医学会麻醉学分会组织专家制定了这些TIVA临床实践指南。在收集和筛选临床问题后，工作组进行了严格的文献检索，制定了推荐意见，并达成了共识。针对12个临床问题共提出了22条推荐意见，包括TIVA的适应证、禁忌证和优势，实施过程中麻醉深度监测的使用，现有静脉麻醉药物的药理学特性，靶控和非靶控输注模式下药物的选择和使用，以及TIVA在特殊人群中应用的注意事项，从而为麻醉医师规范化实施TIVA提供指导。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Feng Y, Xu J, Ma H, Wang E, Bian J, Fang X, Shen L, Zhu T, et al.",
-      "citation": "Br J Anaesth. 2026 Mar;136(3):876-896. doi: 10.1016/j.bja.2025.09.038. Epub 2025 Nov 14.",
-      "doi": "10.1016/j.bja.2025.09.038",
-      "pmid": "41238462",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article",
-        "Practice Guideline",
+        "Meta-Analysis",
         "Systematic Review"
       ],
       "meshTerms": [
         "Humans",
-        "*Anesthesia, Intravenous/methods/standards",
-        "China",
-        "Consensus",
-        "*Practice Guidelines as Topic"
+        "*Anesthesia, General/methods",
+        "*Hypnotics and Sedatives/administration & dosage",
+        "Consciousness Monitors",
+        "*Drug Delivery Systems/methods",
+        "Monitoring, Intraoperative/methods",
+        "Anesthesia, Closed-Circuit/methods",
+        "Propofol/administration & dosage"
       ],
       "publisher": "Elsevier BV",
       "crossrefVerified": true,
@@ -1451,17 +1125,18 @@
         "临床证据",
         "麻醉及围术期核心期刊",
         "麻醉学",
+        "麻醉基础研究",
         "Journal Article",
-        "Practice Guideline"
+        "Meta-Analysis"
       ],
-      "question": "全凭静脉麻醉（TIVA）在临床实践中广泛应用，但缺乏统一的规范。该指南由中国麻醉学会组织专家制定，为麻醉医师提供了标准化的实施建议，有助于提高TIVA的安全性和有效性。",
-      "conclusion": "基于系统评价和专家共识，中国麻醉学会制定了涵盖12个临床问题的22条全凭静脉麻醉（TIVA）建议，旨在规范TIVA的临床应用。",
-      "clinical": "为麻醉医师提供TIVA标准化实施的指导。 涵盖TIVA的适应症、禁忌症、药物选择、监测和特殊人群应用等关键方面。",
+      "question": "麻醉深度管理是围术期核心问题，闭环系统可能通过实时调整输注速率来优化麻醉深度，减少深麻醉相关风险，同时避免浅麻醉，对改善患者预后具有重要意义。",
+      "conclusion": "BIS引导的闭环系统在麻醉深度控制中实现了双侧安全性，减少深麻醉而不增加浅麻醉，并适度加快恢复且保持血流动力学稳定。",
+      "clinical": "闭环系统可能有助于减少深麻醉暴露，同时不增加浅麻醉风险，从而优化麻醉深度管理。 拔管时间轻度缩短可能提示恢复加快，但临床意义需结合具体情境评估。 血流动力学稳定性（血管加压药使用无差异）提示闭环系统未增加循环不稳定风险。",
       "evidence": "中等偏高",
-      "score": 71,
+      "score": 69,
       "scoreBreakdown": {
         "relevance": 18,
-        "evidenceQuality": 25,
+        "evidenceQuality": 23,
         "clinicalImpact": 9,
         "journalQuality": 15,
         "novelty": 4
@@ -1469,48 +1144,348 @@
       "study": [
         {
           "label": "研究设计",
-          "value": "实践指南；系统评价"
+          "value": "系统评价与荟萃分析（PROSPERO注册号CRD420251208039）"
         },
         {
           "label": "研究对象与样本",
-          "value": "当前可获取内容未提供该数据。；当前可获取内容未提供该数据。"
+          "value": "Adult noncardiac surgery patients；1898 patients"
         },
         {
           "label": "干预与比较",
-          "value": "全凭静脉麻醉（TIVA）的临床应用。；对照：当前可获取内容未提供该数据。"
+          "value": "BIS-guided closed-loop systems；对照：Clinician-directed manual control"
         },
         {
           "label": "主要终点",
-          "value": "当前可获取内容未提供该数据。"
+          "value": "Proportion of time within 10 BIS units of the target"
         }
       ],
       "keyPoints": [
-        "共制定22条建议，覆盖12个临床问题。",
-        "涉及TIVA的适应症、禁忌症、优势、监测、药物特性、输注模式及特殊人群应用。",
-        "旨在促进TIVA在中国的规范化应用。"
+        "闭环系统增加目标BIS范围内时间17.6%（95% CI 11.8-23.5；P<0.001）。",
+        "BIS<40时间减少17.2%（95% CI -26.8至-7.5；P<0.001），BIS>60时间无显著变化（P=0.38）。",
+        "拔管时间缩短1.68分钟（P<0.001），丙泊酚消耗和血管加压药使用无差异。",
+        "研究为系统评价与荟萃分析，纳入17项随机试验共1898例患者。"
       ],
-      "methods": "全凭静脉麻醉（TIVA）已广泛用于临床全身麻醉。为进一步促进TIVA在中国的规范化应用，中华医学会麻醉学分会组织专家制定了这些临床实践指南。",
-      "results": "共针对12个临床问题制定了22条建议，包括TIVA的适应症、禁忌症和优势，实施过程中麻醉深度监测的使用，现有静脉麻醉药物的药理学特征，靶控和非靶控输注模式下药物的选择和使用，以及TIVA在特殊人群中的应用注意事项。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值。",
-      "mainResults": "共针对12个临床问题制定了22条建议，包括TIVA的适应症、禁忌症和优势，实施过程中麻醉深度监测的使用，现有静脉麻醉药物的药理学特征，靶控和非靶控输注模式下药物的选择和使用，以及TIVA在特殊人群中的应用注意事项。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值。",
+      "methods": "闭环系统将连续脑电双频指数监测与控制器算法相结合，实时调整输注速率。与早期仅关注总体控制指标的综合分析不同，本研究将麻醉深度视为不对称风险问题，分别评估潜在麻醉不足与麻醉过深的暴露。",
+      "results": "共纳入17项随机试验，包含1898例患者。闭环系统使处于目标BIS范围内的时间增加17.6%（95% CI 11.8-23.5；P<0.001），相当于2小时手术中额外约20分钟的最佳麻醉深度。BIS<40时间显著减少（MD -17.2%；95% CI -26.8至-7.5；P<0.001），而BIS>60时间无显著变化（MD -0.8%；95% CI -2.6至1.0；P=0.38）。控制器性能指标（wobble、MDAPE、global score）均优于手动控制（均P<0.001）。拔管时间缩短（MD -1.68分钟；P<0.001），丙泊酚消耗量（P=0.13）和血管加压药使用（风险比1.04；P=0.62）无显著差异。",
+      "mainResults": "共纳入17项随机试验，包含1898例患者。闭环系统使处于目标BIS范围内的时间增加17.6%（95% CI 11.8-23.5；P<0.001），相当于2小时手术中额外约20分钟的最佳麻醉深度。BIS<40时间显著减少（MD -17.2%；95% CI -26.8至-7.5；P<0.001），而BIS>60时间无显著变化（MD -0.8%；95% CI -2.6至1.0；P=0.38）。控制器性能指标（wobble、MDAPE、global score）均优于手动控制（均P<0.001）。拔管时间缩短（MD -1.68分钟；P<0.001），丙泊酚消耗量（P=0.13）和血管加压药使用（风险比1.04；P=0.62）无显著差异。",
       "limitations": [
-        "当前可获取内容未提供该指南的局限性信息。"
+        "当前可获取内容未提供该数据。",
+        "当前可获取内容未提供该数据。",
+        "当前可获取内容未提供该数据。"
       ],
       "practice": [
-        "为麻醉医师提供TIVA标准化实施的指导。",
-        "涵盖TIVA的适应症、禁忌症、药物选择、监测和特殊人群应用等关键方面。"
+        "闭环系统可能有助于减少深麻醉暴露，同时不增加浅麻醉风险，从而优化麻醉深度管理。",
+        "拔管时间轻度缩短可能提示恢复加快，但临床意义需结合具体情境评估。",
+        "血流动力学稳定性（血管加压药使用无差异）提示闭环系统未增加循环不稳定风险。"
       ],
-      "editor": "该指南基于系统评价和专家共识，具有较高的权威性，为TIVA的临床应用提供了全面的建议。 过度解读风险：由于当前可获取内容仅为摘要，无法评估具体建议的证据等级和推荐强度，需谨慎解读。",
-      "whyItMatters": "全凭静脉麻醉（TIVA）在临床实践中广泛应用，但缺乏统一的规范。该指南由中国麻醉学会组织专家制定，为麻醉医师提供了标准化的实施建议，有助于提高TIVA的安全性和有效性。",
-      "background": "全凭静脉麻醉（TIVA）已广泛用于临床全身麻醉。为进一步促进TIVA在中国的规范化应用，中华医学会麻醉学分会组织专家制定了这些临床实践指南。",
+      "editor": "现有证据支持闭环系统在麻醉深度控制方面的优势，但主要基于中间指标（BIS时间比例），对患者重要结局（如术后并发症、死亡率）的影响尚不明确。 过度解读风险：需谨慎将中间指标的改善直接等同于临床获益，且研究间异质性、盲法实施等可能影响证据强度。",
+      "whyItMatters": "麻醉深度管理是围术期核心问题，闭环系统可能通过实时调整输注速率来优化麻醉深度，减少深麻醉相关风险，同时避免浅麻醉，对改善患者预后具有重要意义。",
+      "background": "闭环系统将连续脑电双频指数监测与控制器算法相结合，实时调整输注速率。与早期仅关注总体控制指标的综合分析不同，本研究将麻醉深度视为不对称风险问题，分别评估潜在麻醉不足与麻醉过深的暴露。",
+      "pico": {
+        "population": "Adult noncardiac surgery patients",
+        "intervention": "BIS-guided closed-loop systems",
+        "comparison": "Clinician-directed manual control",
+        "outcome": "Proportion of time within 10 BIS units of the target"
+      },
+      "studyType": "系统评价与荟萃分析（PROSPERO注册号CRD420251208039）",
+      "sampleSize": "1898 patients",
+      "primaryOutcome": "Proportion of time within 10 BIS units of the target",
+      "effectSize": [
+        "17.6%",
+        "-17.2%",
+        "-0.8%",
+        "-1.68 min",
+        "1.04"
+      ],
+      "confidenceInterval": [
+        "95% CI 11.8-23.5",
+        "95% CI -26.8 to -7.5",
+        "95% CI -2.6 to 1.0"
+      ],
+      "pValue": [
+        "P<0.001",
+        "P<0.001",
+        "P=0.38",
+        "P<0.001",
+        "P=0.13",
+        "P=0.62"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "现有证据支持闭环系统在麻醉深度控制方面的优势，但主要基于中间指标（BIS时间比例），对患者重要结局（如术后并发症、死亡率）的影响尚不明确。",
+        "overinterpretationRisk": "需谨慎将中间指标的改善直接等同于临床获益，且研究间异质性、盲法实施等可能影响证据强度。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "abstract",
+          "limitations": [
+            "仅基于摘要，无法获取全文细节，如偏倚风险评估、异质性检验、敏感性分析等。",
+            "未报告纳入研究的详细特征、排除标准、结局定义等。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "比较BIS引导的闭环系统与临床医生手动控制在成人非心脏手术中麻醉深度控制的效果。",
+          "designFit": "系统评价与荟萃分析适用于汇总多个随机对照试验的证据，适合回答此问题。",
+          "eligibility": "纳入比较BIS引导闭环系统与手动控制的随机试验，对象为成人非心脏手术患者。",
+          "randomization": "原始研究为随机试验，但摘要未报告随机化方法。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "当前可获取内容未提供该数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "当前可获取内容未提供该数据。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "预先注册（PROSPERO CRD420251208039），检索多个数据库。",
+            "将麻醉深度视为不对称风险，分别评估深麻醉和浅麻醉。"
+          ],
+          "concerns": [
+            "摘要未报告异质性、发表偏倚等。",
+            "未提供原始研究质量评价。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+              "reportedResult": "当前可获取内容未提供该数据。",
+              "interpretation": "无法评价。",
+              "cautions": [
+                "摘要未描述效应量合并方法、异质性检验等。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "虽然多个结局有统计学差异，但如拔管时间缩短1.68分钟，临床意义可能有限；需结合临床判断。"
+        },
+        "outcomeAnalysis": {
+          "primary": "处于目标BIS范围内的时间比例，闭环系统增加17.6%（95% CI 11.8-23.5；P<0.001）。",
+          "secondary": [
+            "BIS<40时间：MD -17.2%（95% CI -26.8至-7.5；P<0.001）",
+            "BIS>60时间：MD -0.8%（95% CI -2.6至1.0；P=0.38）",
+            "控制器性能指标（wobble、MDAPE、global score）：均P<0.001",
+            "拔管时间：MD -1.68分钟（P<0.001）",
+            "丙泊酚消耗量：P=0.13",
+            "血管加压药使用：风险比1.04（P=0.62）"
+          ],
+          "safety": "BIS<40时间减少，BIS>60时间无增加，提示双侧安全性；血管加压药使用无差异，血流动力学稳定。",
+          "absoluteVsRelative": "主要结局以绝对百分比差异报告，未提供相对风险等。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "系统评价方法规范，预先注册。",
+            "纳入随机试验，证据等级较高。",
+            "关注不对称风险，分析更细致。"
+          ],
+          "limitations": [
+            "摘要信息有限，无法评估原始研究质量。",
+            "未报告异质性，可能影响结果稳健性。",
+            "未报告患者重要结局（如术后并发症）。"
+          ],
+          "biasRisks": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "certainty": "当前可获取内容未提供该数据。",
+          "conclusionAlignment": "结论与结果一致，但需注意中间指标与临床结局的关联。",
+          "causalBoundary": "由于是随机试验的荟萃分析，可支持因果推断，但仅限于麻醉深度控制指标，不能直接推断对患者预后的因果效应。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "适用于成人非心脏手术中BIS引导的闭环系统使用。",
+            "可能有助于减少深麻醉暴露，优化麻醉管理。"
+          ],
+          "nonApplicability": [
+            "不适用于心脏手术、儿童、孕妇等特殊人群。",
+            "不适用于非BIS监测或手动控制场景。"
+          ],
+          "practiceChange": "当前证据支持闭环系统在麻醉深度控制方面的优势，但临床实践改变需考虑设备可用性、成本、培训等因素。",
+          "canDoNow": [
+            "可考虑在成人非心脏手术中应用BIS引导闭环系统以优化麻醉深度。",
+            "可监测BIS<40时间以减少深麻醉暴露。"
+          ],
+          "cannotConclude": [
+            "不能得出闭环系统改善长期预后（如术后认知功能、死亡率）的结论。",
+            "不能确定对丙泊酚消耗和血管加压药使用的临床意义。"
+          ],
+          "evidenceGaps": [
+            "需要更多研究评估对患者重要结局的影响。",
+            "需要报告异质性、敏感性分析等。",
+            "需要评估不同手术类型、患者特征下的效果差异。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42014224/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.03.020",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.03.020",
+        "openFullText": null
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-41826217",
+      "number": "05",
+      "category": "麻醉学",
+      "journal": "British journal of anaesthesia",
+      "year": "2026",
+      "publishedDate": "2026-05",
+      "electronicPublicationDate": "2026-03-13",
+      "readingTime": "11 分钟",
+      "title": "确定性气道管理模拟器的验证状态：一项系统综述",
+      "originalTitle": "Validation status of definitive airway management simulators: a systematic review.",
+      "abstract": "BACKGROUND: Definitive airway management simulators are widely used for training and evaluating airway management techniques. However, the extent and quality of their validation remain unclear. In this systematic review, we aimed to identify and evaluate studies assessing the validity of airway simulators used in anaesthesia and airway training. METHODS: A comprehensive and systematic literature search was conducted across PubMed, Embase, and Cochrane Library databases up to September 2025, following PRISMA guidelines. Studies were included if they evaluated at least one domain of simulator validity. Methodological quality was assessed using the Joanna Briggs Institute checklist and each simulator was assigned a Level of Recommendation. The review protocol was registered with PROSPERO (CRD420251108102). RESULTS: From 939 studies screened, 17 articles met the inclusion criteria, and 29 different simulators were included. Validation domains varied widely, with most studies assessing only one or two domains. Predictive validity, linking simulator performance to clinical outcomes, was rarely evaluated. High-fidelity simulators, such as ORSIM(R) and SimMan(R), demonstrated the most comprehensive validation across multiple domains. Validation quality did not consistently correlate with simulator fidelity, and several low-fidelity models demonstrated short-term skill transfer comparable with more complex systems. CONCLUSIONS: Definitive airway simulators are commonly used for training and device evaluation yet are rarely subjected to robust validation. These findings highlight the urgent need for a unified validation framework and higher-quality research to ensure simulators used in airway management accurately reflect clinical realities. This has critical implications for educators, training bodies, and institutions relying on simulators for competency development and device assessment. SYSTEMATIC REVIEW PROTOCOL: PROSPERO (CRD420251108102).",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "确定性气道管理模拟器广泛用于气道管理技术的培训和评估。然而，其验证的程度和质量仍不清楚。在本系统综述中，我们旨在识别和评估评估麻醉和气道培训中使用的气道模拟器有效性的研究。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "按照PRISMA指南，在PubMed、Embase和Cochrane Library数据库中进行了截至2025年9月的全面、系统的文献检索。如果研究评估了模拟器有效性的至少一个领域，则纳入研究。使用Joanna Briggs Institute检查表评估方法学质量，并为每个模拟器分配推荐等级。综述方案已在PROSPERO注册（CRD420251108102）。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "在筛选的939项研究中，17篇文章符合纳入标准，共纳入29种不同的模拟器。验证领域差异很大，大多数研究仅评估一个或两个领域。预测效度，即将模拟器性能与临床结果联系起来，很少被评估。高保真模拟器，如ORSIM(R)和SimMan(R)，在多个领域表现出最全面的验证。验证质量与模拟器保真度并不一致相关，一些低保真模型表现出与更复杂系统相当的短期技能转移。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "确定性气道模拟器常用于培训和设备评估，但很少经过严格的验证。这些发现强调了对统一验证框架和更高质量研究的迫切需求，以确保用于气道管理的模拟器准确反映临床现实。这对依赖模拟器进行能力发展和设备评估的教育者、培训机构和机构具有关键意义。"
+          },
+          {
+            "heading": "SYSTEMATIC REVIEW PROTOCOL",
+            "text": "PROSPERO (CRD420251108102)."
+          }
+        ],
+        "fullText": "BACKGROUND: 确定性气道管理模拟器广泛用于气道管理技术的培训和评估。然而，其验证的程度和质量仍不清楚。在本系统综述中，我们旨在识别和评估评估麻醉和气道培训中使用的气道模拟器有效性的研究。 METHODS: 按照PRISMA指南，在PubMed、Embase和Cochrane Library数据库中进行了截至2025年9月的全面、系统的文献检索。如果研究评估了模拟器有效性的至少一个领域，则纳入研究。使用Joanna Briggs Institute检查表评估方法学质量，并为每个模拟器分配推荐等级。综述方案已在PROSPERO注册（CRD420251108102）。 RESULTS: 在筛选的939项研究中，17篇文章符合纳入标准，共纳入29种不同的模拟器。验证领域差异很大，大多数研究仅评估一个或两个领域。预测效度，即将模拟器性能与临床结果联系起来，很少被评估。高保真模拟器，如ORSIM(R)和SimMan(R)，在多个领域表现出最全面的验证。验证质量与模拟器保真度并不一致相关，一些低保真模型表现出与更复杂系统相当的短期技能转移。 CONCLUSIONS: 确定性气道模拟器常用于培训和设备评估，但很少经过严格的验证。这些发现强调了对统一验证框架和更高质量研究的迫切需求，以确保用于气道管理的模拟器准确反映临床现实。这对依赖模拟器进行能力发展和设备评估的教育者、培训机构和机构具有关键意义。 SYSTEMATIC REVIEW PROTOCOL: PROSPERO (CRD420251108102).",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "McCarthy R, Maher L, O'Dea A",
+      "citation": "Br J Anaesth. 2026 May;136(5):1595-1605. doi: 10.1016/j.bja.2026.01.027. Epub 2026 Mar 13.",
+      "doi": "10.1016/j.bja.2026.01.027",
+      "pmid": "41826217",
+      "pmcid": "PMC13197900",
+      "publicationTypes": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "meshTerms": [
+        "*Airway Management/methods",
+        "Humans",
+        "Clinical Competence",
+        "*Anesthesiology/education",
+        "*Simulation Training/methods",
+        "Manikins"
+      ],
+      "publisher": "Elsevier BV",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "clinical-evidence-publication-type"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 10.3,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "British Journal of Anaesthesia"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "麻醉学",
+        "气道管理",
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "question": "气道管理模拟器在麻醉与气道培训中广泛使用，但其验证程度与质量尚不明确。若模拟器未经充分验证，可能无法真实反映临床实际，影响培训效果与设备评估的可靠性。",
+      "conclusion": "当前确定性气道管理模拟器虽广泛用于培训与设备评估，但多数仅经过有限验证，预测效度极少被评估，且验证质量与模拟器保真度并不一致。",
+      "clinical": "麻醉教育者和培训机构应认识到当前多数气道模拟器验证不足，依赖模拟器进行能力评估时需谨慎。 需要建立统一的验证框架，并开展更高质量的研究，以确保模拟器能准确反映临床现实。",
+      "evidence": "中等偏高",
+      "score": 69,
+      "scoreBreakdown": {
+        "relevance": 18,
+        "evidenceQuality": 23,
+        "clinicalImpact": 9,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "系统综述，遵循PRISMA指南，检索PubMed、Embase和Cochrane Library数据库（截至2025年9月），使用Joanna Briggs Institute检查表评估方法学质量，并为每个模拟器分配推荐等级。方案已在PROSPERO注册（CRD420251108102）。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "当前可获取内容未提供该数据。；17 articles, 29 simulators"
+        },
+        {
+          "label": "干预与比较",
+          "value": "确定性气道管理模拟器（如ORSIM、SimMan等）；对照：当前可获取内容未提供该数据。"
+        },
+        {
+          "label": "主要终点",
+          "value": "Validation status of definitive airway management simulators"
+        }
+      ],
+      "keyPoints": [
+        "系统综述纳入17篇文章，涵盖29种模拟器。",
+        "大多数研究仅评估1-2个验证领域，预测效度极少被评估。",
+        "高保真模拟器（ORSIM、SimMan）验证较全面，但验证质量与保真度无一致关联。",
+        "低保真模型在短期技能迁移方面可与复杂系统相当。",
+        "亟需统一验证框架和更高质量研究。"
+      ],
+      "methods": "确定性气道管理模拟器广泛用于气道管理技术的培训与评估，但其验证程度与质量尚不清楚。本系统综述旨在识别并评估麻醉与气道培训中使用的气道模拟器验证研究。",
+      "results": "共筛选939项研究，17篇文章符合纳入标准，包含29种不同模拟器。验证领域差异很大，大多数研究仅评估一或两个领域。预测效度（将模拟器表现与临床结局关联）很少被评估。高保真模拟器（如ORSIM和SimMan）在多个领域表现出最全面的验证。验证质量与模拟器保真度并不一致，几种低保真模型显示出与更复杂系统相当的短期技能迁移。样本量、主要终点、效应量、95%CI和P值均未报告。",
+      "mainResults": "共筛选939项研究，17篇文章符合纳入标准，包含29种不同模拟器。验证领域差异很大，大多数研究仅评估一或两个领域。预测效度（将模拟器表现与临床结局关联）很少被评估。高保真模拟器（如ORSIM和SimMan）在多个领域表现出最全面的验证。验证质量与模拟器保真度并不一致，几种低保真模型显示出与更复杂系统相当的短期技能迁移。样本量、主要终点、效应量、95%CI和P值均未报告。",
+      "limitations": [
+        "仅纳入英文发表的研究，可能存在语言和发表偏倚。",
+        "跨学科术语差异可能导致部分研究被遗漏。",
+        "依赖标题和摘要字段可能限制文献检索。",
+        "FONA模拟器的证据明显有限，仅一项低质量研究符合纳入标准。",
+        "大多数模拟器缺乏高质量、独立重复的验证，限制了推荐等级的强度。",
+        "叙述性综合中固有的主观判断可能引入评价者偏倚。"
+      ],
+      "practice": [
+        "麻醉教育者和培训机构应认识到当前多数气道模拟器验证不足，依赖模拟器进行能力评估时需谨慎。",
+        "需要建立统一的验证框架，并开展更高质量的研究，以确保模拟器能准确反映临床现实。"
+      ],
+      "editor": "该综述基于系统检索和明确纳入标准，提供了当前气道模拟器验证状态的全面概述，结果支持模拟器验证不足的结论。 过度解读风险：由于原始研究多为观察性设计，且缺乏效应量和统计推断，应避免将验证不足直接等同于模拟器无效。",
+      "whyItMatters": "气道管理模拟器在麻醉与气道培训中广泛使用，但其验证程度与质量尚不明确。若模拟器未经充分验证，可能无法真实反映临床实际，影响培训效果与设备评估的可靠性。",
+      "background": "确定性气道管理模拟器广泛用于气道管理技术的培训与评估，但其验证程度与质量尚不清楚。本系统综述旨在识别并评估麻醉与气道培训中使用的气道模拟器验证研究。",
       "pico": {
         "population": "当前可获取内容未提供该数据。",
-        "intervention": "全凭静脉麻醉（TIVA）的临床应用。",
+        "intervention": "确定性气道管理模拟器（如ORSIM、SimMan等）",
         "comparison": "当前可获取内容未提供该数据。",
-        "outcome": "当前可获取内容未提供该数据。"
+        "outcome": "Validation status of definitive airway management simulators"
       },
-      "studyType": "实践指南；系统评价",
-      "sampleSize": "当前可获取内容未提供该数据。",
-      "primaryOutcome": "当前可获取内容未提供该数据。",
+      "studyType": "系统综述，遵循PRISMA指南，检索PubMed、Embase和Cochrane Library数据库（截至2025年9月），使用Joanna Briggs Institute检查表评估方法学质量，并为每个模拟器分配推荐等级。方案已在PROSPERO注册（CRD420251108102）。",
+      "sampleSize": "17 articles, 29 simulators",
+      "primaryOutcome": "Validation status of definitive airway management simulators",
       "effectSize": [
         "当前可获取内容未提供该数据。"
       ],
@@ -1522,35 +1497,37 @@
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "该指南基于系统评价和专家共识，具有较高的权威性，为TIVA的临床应用提供了全面的建议。",
-        "overinterpretationRisk": "由于当前可获取内容仅为摘要，无法评估具体建议的证据等级和推荐强度，需谨慎解读。"
+        "support": "该综述基于系统检索和明确纳入标准，提供了当前气道模拟器验证状态的全面概述，结果支持模拟器验证不足的结论。",
+        "overinterpretationRisk": "由于原始研究多为观察性设计，且缺乏效应量和统计推断，应避免将验证不足直接等同于模拟器无效。"
       },
       "deepDive": {
         "sourceCoverage": {
-          "level": "abstract",
+          "level": "full_text_excerpt",
           "limitations": [
-            "仅基于摘要，未获取全文内容。",
-            "无法评估具体建议的证据等级和推荐强度。",
-            "未提供样本量、效应量等统计信息。"
+            "仅基于摘要和开放全文节选，可能无法获取所有研究细节。",
+            "原始研究的具体数据（如效应量、置信区间）未在摘要中报告。"
           ]
         },
         "methodology": {
-          "researchQuestion": "制定中国全凭静脉麻醉的临床实践指南。",
-          "designFit": "系统评价与专家共识相结合，适合指南制定。",
-          "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "不适用（指南制定）。",
-          "allocationConcealment": "不适用（指南制定）。",
-          "blinding": "不适用（指南制定）。",
-          "sampleSizePlanning": "不适用（指南制定）。",
-          "followUp": "不适用（指南制定）。",
-          "analysisPopulation": "不适用（指南制定）。",
+          "researchQuestion": "评估麻醉与气道培训中使用的气道模拟器验证研究，明确其验证程度与质量。",
+          "designFit": "系统综述设计适合回答该问题，遵循PRISMA指南，检索多个数据库。",
+          "eligibility": "纳入标准为评估至少一个模拟器验证领域的研究。",
+          "randomization": "不适用（系统综述）。",
+          "allocationConcealment": "不适用（系统综述）。",
+          "blinding": "不适用（系统综述）。",
+          "sampleSizePlanning": "不适用（系统综述）。",
+          "followUp": "不适用（系统综述）。",
+          "analysisPopulation": "17篇符合纳入标准的文章，包含29种模拟器。",
           "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "基于系统评价，证据来源可靠。",
-            "专家共识形成，具有权威性。"
+            "遵循PRISMA指南，检索多个数据库。",
+            "使用Joanna Briggs Institute检查表评估方法学质量。",
+            "方案已在PROSPERO注册。"
           ],
           "concerns": [
-            "当前可获取内容未提供具体方法学细节。"
+            "仅纳入英文发表研究，可能存在语言偏倚。",
+            "依赖标题和摘要字段可能限制检索。",
+            "FONA模拟器证据有限。"
           ]
         },
         "statistics": {
@@ -1562,7 +1539,7 @@
               "reportedResult": "当前可获取内容未提供该数据。",
               "interpretation": "无法评价统计方法。",
               "cautions": [
-                "由于缺乏统计方法信息，无法评估结果的可靠性。"
+                "由于未报告统计方法，无法评估结果的统计可靠性。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
@@ -1573,7 +1550,7 @@
           "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
         },
         "outcomeAnalysis": {
-          "primary": "当前可获取内容未提供该数据。",
+          "primary": "模拟器的验证状态（包括内容效度、构念效度、预测效度等）",
           "secondary": [
             "当前可获取内容未提供次要结局。"
           ],
@@ -1584,50 +1561,64 @@
         },
         "criticalAppraisal": {
           "strengths": [
-            "基于系统评价和专家共识，具有较高的权威性。",
-            "覆盖TIVA的多个关键临床问题。"
+            "系统检索多个数据库，遵循PRISMA指南。",
+            "使用标准检查表评估方法学质量。",
+            "注册了系统综述方案。"
           ],
           "limitations": [
-            "当前可获取内容未提供具体证据等级和推荐强度。",
-            "未提供局限性信息。"
+            "仅纳入英文研究，可能引入语言偏倚。",
+            "术语差异可能导致漏检。",
+            "依赖标题和摘要可能限制检索。",
+            "FONA模拟器证据有限。",
+            "多数模拟器缺乏高质量独立验证。",
+            "叙述性综合可能引入评价者偏倚。"
           ],
           "biasRisks": [
-            "当前可获取内容未提供该数据。"
+            "语言偏倚",
+            "发表偏倚",
+            "检索偏倚",
+            "评价者偏倚"
           ],
           "certainty": "当前可获取内容未提供该数据。",
-          "conclusionAlignment": "结论与摘要内容一致。",
-          "causalBoundary": "指南建议基于专家共识，并非直接因果证据。"
+          "conclusionAlignment": "结论与结果一致，即模拟器验证不足。",
+          "causalBoundary": "本综述为观察性研究综合，不能推断因果关系。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "适用于中国麻醉医师在临床实践中实施TIVA。"
+            "麻醉教育者、培训机构可参考本综述，认识到当前模拟器验证不足。",
+            "为建立统一验证框架提供依据。"
           ],
           "nonApplicability": [
-            "当前可获取内容未提供该数据。"
+            "不能直接推荐特定模拟器用于临床培训或评估。",
+            "不能推断模拟器验证不足等同于模拟器无效。"
           ],
-          "practiceChange": "可能促进TIVA的标准化应用，但具体改变需参考全文。",
+          "practiceChange": "当前证据不足以支持改变临床实践，但提示需要更严格的验证。",
           "canDoNow": [
-            "参考指南建议，规范TIVA的实施。"
+            "教育机构应审查所用模拟器的验证证据。",
+            "研究者应开展更高质量的验证研究。"
           ],
           "cannotConclude": [
-            "无法评估具体建议的证据等级和推荐强度。"
+            "不能确定哪种模拟器最有效。",
+            "不能确定模拟器验证与临床结局的因果关系。"
           ],
           "evidenceGaps": [
-            "需要更多关于TIVA在不同人群中的疗效和安全性证据。"
+            "缺乏预测效度研究。",
+            "缺乏高质量、独立重复的验证。",
+            "FONA模拟器证据不足。"
           ],
-          "directClinicalRecommendation": true
+          "directClinicalRecommendation": false
         }
       },
-      "analysisBasis": "摘要分析",
+      "analysisBasis": "摘要+开放全文节选分析",
       "analysisStatus": "ai_complete",
       "aiModel": "deepseek-v4-flash",
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41238462/",
-        "doi": "https://doi.org/10.1016/j.bja.2025.09.038",
-        "publisher": "https://doi.org/10.1016/j.bja.2025.09.038",
-        "openFullText": null
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41826217/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.01.027",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.01.027",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197900/"
       }
     }
   ]

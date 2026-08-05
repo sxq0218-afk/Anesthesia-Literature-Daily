@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 03 Aug 2026 00:08:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:16:57 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-05 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-05/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-05/</guid>
+      <pubDate>Wed, 05 Aug 2026 00:16:57 GMT</pubDate>
+      <description>小胶质细胞吞噬介导的C1q依赖性突触丢失与小鼠术后神经认知障碍相关：在无菌胫骨骨折手术小鼠模型中，海马小胶质细胞以C1q依赖方式修剪兴奋性和抑制性突触，导致术后突触丢失和认知功能障碍；抑制C1q或NF-κB可改善认知功能。
+挥发性麻醉药在直接与通道门控相关的位点调节电压门控钠通道功能：该研究在原子水平上鉴定了挥发性麻醉药在电压门控钠通道上的结合位点，并表明其通过占据膜内疏水口袋、置换脂质来调节通道失活，从而影响神经元兴奋性。
+老年人术后认知结局相关的心理因素：系统评价与荟萃分析：在老年人中，抑郁是术后谵妄最常报告的心理风险因素，但荟萃分析显示其与术后谵妄的关联未达统计学显著性；焦虑、人格特质和压力相关因素的证据有限。
+全麻期间自动化催眠药物输注的闭环系统：系统评价与荟萃分析：BIS引导的闭环系统在麻醉深度控制中实现了双侧安全性，减少深麻醉而不增加浅麻醉，并适度加快恢复且保持血流动力学稳定。
+确定性气道管理模拟器的验证状态：一项系统综述：当前确定性气道管理模拟器虽广泛用于培训与设备评估，但多数仅经过有限验证，预测效度极少被评估，且验证质量与模拟器保真度并不一致。</description>
+    </item>
     <item>
       <title>2026-08-03 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-03/</link>
