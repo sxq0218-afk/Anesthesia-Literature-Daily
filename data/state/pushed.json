@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T00:16:57.861Z",
+  "updatedAt": "2026-08-06T00:09:14.486Z",
   "records": [
     {
       "pmid": "42359695",
@@ -553,6 +553,46 @@
       "status": "published",
       "runId": "2026-08-05T00-16-57.861Z",
       "firstPublishedAt": "2026-08-05T00:16:57.861Z"
+    },
+    {
+      "pmid": "42331815",
+      "doi": "10.1038/s41467-026-74725-2",
+      "title": "Fluorouridine labeling enables spatiotemporal mapping of transcriptomes and enhancers in vivo.",
+      "status": "published",
+      "runId": "2026-08-06T00-09-14.486Z",
+      "firstPublishedAt": "2026-08-06T00:09:14.486Z"
+    },
+    {
+      "pmid": "41444083",
+      "doi": "10.1016/j.bja.2025.11.028",
+      "title": "Phase 1 single-centre, placebo and levobupivacaine controlled study in healthy volunteers to assess the safety, tolerability, efficacy, and pharmacokinetics of LL10, a novel long-acting local anaesthetic.",
+      "status": "published",
+      "runId": "2026-08-06T00-09-14.486Z",
+      "firstPublishedAt": "2026-08-06T00:09:14.486Z"
+    },
+    {
+      "pmid": "40987656",
+      "doi": "10.1016/j.bja.2025.07.051",
+      "title": "EEG alpha power and delirium in the postanaesthesia care unit in older adults: the AlphaMax trial part 2 - effect of propofol infusion during emergence from desflurane anaesthesia(☆).",
+      "status": "published",
+      "runId": "2026-08-06T00-09-14.486Z",
+      "firstPublishedAt": "2026-08-06T00:09:14.486Z"
+    },
+    {
+      "pmid": "41330797",
+      "doi": "10.1016/j.bja.2025.10.049",
+      "title": "Duration of analgesia after supraclavicular brachial plexus block with intravenous dexamethasone with or without dexmedetomidine: a randomised, placebo-controlled, triple-blind trial.",
+      "status": "published",
+      "runId": "2026-08-06T00-09-14.486Z",
+      "firstPublishedAt": "2026-08-06T00:09:14.486Z"
+    },
+    {
+      "pmid": "41387084",
+      "doi": "10.1016/j.bja.2025.11.007",
+      "title": "The Video Classification of Intubation (VCI) score for videolaryngoscopy: a multicentre international feasibility study.",
+      "status": "published",
+      "runId": "2026-08-06T00-09-14.486Z",
+      "firstPublishedAt": "2026-08-06T00:09:14.486Z"
     }
   ]
 }

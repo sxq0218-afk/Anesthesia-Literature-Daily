@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 05 Aug 2026 00:16:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 00:09:14 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-06 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-06/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-06/</guid>
+      <pubDate>Thu, 06 Aug 2026 00:09:14 GMT</pubDate>
+      <description>氟尿苷标记实现体内转录组和增强子的时空图谱：本研究开发了一种基于5-氟尿苷（5-FUd）的瞬时转录组学方法（5FU-seq），并联合转基因小鼠，实现了在复杂组织中高时空分辨率的基因表达和增强子活性同时映射，为整合转录组和表观遗传学分析提供了广泛适用的平台。
+LL10（一种新型长效局部麻醉药）在健康志愿者中的安全性、耐受性、有效性和药代动力学评估：一项1期单中心、安慰剂和左布比卡因对照研究：在健康志愿者中，LL10（QX-OH 1.26%和盐酸左布比卡因0.325%）在股神经阻滞中较左布比卡因0.325%延长了感觉阻滞持续时间，但未在皮下浸润或腹横肌平面阻滞中观察到类似优势，且未发生严重不良事件。
+老年患者麻醉后监护病房脑电α功率与谵妄：AlphaMax试验第二部分——地氟烷麻醉苏醒期输注丙泊酚的影响：在老年患者地氟烷麻醉苏醒期输注丙泊酚可降低脑电α功率并增加爆发抑制，但未显著改变PACU谵妄发生率。
+静脉注射地塞米松联合或不联合右美托咪定对锁骨上臂丛神经阻滞镇痛持续时间的影响：一项随机、安慰剂对照、三盲试验：在锁骨上臂丛神经阻滞中，静脉注射地塞米松联合右美托咪定与单独使用地塞米松相比，并未提供更优的镇痛效果。
+视频喉镜插管视频分类（VCI）评分：一项多中心国际可行性研究：VCI评分在多种临床环境和患者群体中，由不同经验和背景的气道胜任临床工作人员使用时，表现出较高的评估者间信度（Krippendorff alpha=0.858，95%CI 0.839-0.878），提示其有望标准化视频喉镜气管插管的沟通。</description>
+    </item>
     <item>
       <title>2026-08-05 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-05/</link>

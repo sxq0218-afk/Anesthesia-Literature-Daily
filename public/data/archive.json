@@ -1,7 +1,240 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T00:16:57.861Z",
+  "updatedAt": "2026-08-06T00:09:14.486Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-06T00:09:14.486Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-07T00:09:14.486Z",
+        "to": "2026-08-06T00:09:14.486Z",
+        "candidateCount": 266,
+        "discoveryCandidateCount": 10514,
+        "unseenCount": 212,
+        "duplicateCount": 54,
+        "priorityCandidateCount": 266,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 266,
+          "retrievedCount": 266,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 3,
+          "excludedCount": 297,
+          "excludedByReason": {
+            "journal-not-configured": 291,
+            "impact-factor-stale": 2,
+            "impact-factor-unknown": 4
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 297,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 23
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of maxillofacial and oral surgery",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of pain",
+              "reason": "impact-factor-unknown",
+              "count": 4
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The Journal of surgical research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "A&A practice",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Annals of African medicine",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 212,
+          "eligibleCount": 189,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 162,
+          "clinical": 110,
+          "basic": 12,
+          "other": 40
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42331815",
+          "title": "氟尿苷标记实现体内转录组和增强子的时空图谱",
+          "originalTitle": "Fluorouridine labeling enables spatiotemporal mapping of transcriptomes and enhancers in vivo.",
+          "journal": "Nature communications",
+          "conclusion": "本研究开发了一种基于5-氟尿苷（5-FUd）的瞬时转录组学方法（5FU-seq），并联合转基因小鼠，实现了在复杂组织中高时空分辨率的基因表达和增强子活性同时映射，为整合转录组和表观遗传学分析提供了广泛适用的平台。",
+          "pmid": "42331815"
+        },
+        {
+          "slug": "pmid-41444083",
+          "title": "LL10（一种新型长效局部麻醉药）在健康志愿者中的安全性、耐受性、有效性和药代动力学评估：一项1期单中心、安慰剂和左布比卡因对照研究",
+          "originalTitle": "Phase 1 single-centre, placebo and levobupivacaine controlled study in healthy volunteers to assess the safety, tolerability, efficacy, and pharmacokinetics of LL10, a novel long-acting local anaesthetic.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在健康志愿者中，LL10（QX-OH 1.26%和盐酸左布比卡因0.325%）在股神经阻滞中较左布比卡因0.325%延长了感觉阻滞持续时间，但未在皮下浸润或腹横肌平面阻滞中观察到类似优势，且未发生严重不良事件。",
+          "pmid": "41444083"
+        },
+        {
+          "slug": "pmid-40987656",
+          "title": "老年患者麻醉后监护病房脑电α功率与谵妄：AlphaMax试验第二部分——地氟烷麻醉苏醒期输注丙泊酚的影响",
+          "originalTitle": "EEG alpha power and delirium in the postanaesthesia care unit in older adults: the AlphaMax trial part 2 - effect of propofol infusion during emergence from desflurane anaesthesia(☆).",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在老年患者地氟烷麻醉苏醒期输注丙泊酚可降低脑电α功率并增加爆发抑制，但未显著改变PACU谵妄发生率。",
+          "pmid": "40987656"
+        },
+        {
+          "slug": "pmid-41330797",
+          "title": "静脉注射地塞米松联合或不联合右美托咪定对锁骨上臂丛神经阻滞镇痛持续时间的影响：一项随机、安慰剂对照、三盲试验",
+          "originalTitle": "Duration of analgesia after supraclavicular brachial plexus block with intravenous dexamethasone with or without dexmedetomidine: a randomised, placebo-controlled, triple-blind trial.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在锁骨上臂丛神经阻滞中，静脉注射地塞米松联合右美托咪定与单独使用地塞米松相比，并未提供更优的镇痛效果。",
+          "pmid": "41330797"
+        },
+        {
+          "slug": "pmid-41387084",
+          "title": "视频喉镜插管视频分类（VCI）评分：一项多中心国际可行性研究",
+          "originalTitle": "The Video Classification of Intubation (VCI) score for videolaryngoscopy: a multicentre international feasibility study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "VCI评分在多种临床环境和患者群体中，由不同经验和背景的气道胜任临床工作人员使用时，表现出较高的评估者间信度（Krippendorff alpha=0.858，95%CI 0.839-0.878），提示其有望标准化视频喉镜气管插管的沟通。",
+          "pmid": "41387084"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-05T00:16:57.861Z",
       "search": {

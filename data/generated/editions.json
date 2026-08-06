@@ -1,7 +1,1511 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T00:16:57.861Z",
+  "updatedAt": "2026-08-06T00:09:14.486Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-06T00:09:14.486Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-07T00:09:14.486Z",
+        "to": "2026-08-06T00:09:14.486Z",
+        "candidateCount": 266,
+        "discoveryCandidateCount": 10514,
+        "unseenCount": 212,
+        "duplicateCount": 54,
+        "priorityCandidateCount": 266,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 266,
+          "retrievedCount": 266,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 3,
+          "excludedCount": 297,
+          "excludedByReason": {
+            "journal-not-configured": 291,
+            "impact-factor-stale": 2,
+            "impact-factor-unknown": 4
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 297,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 23
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of maxillofacial and oral surgery",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of pain",
+              "reason": "impact-factor-unknown",
+              "count": 4
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The Journal of surgical research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "A&A practice",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "Annals of African medicine",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 212,
+          "eligibleCount": 189,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 162,
+          "clinical": 110,
+          "basic": 12,
+          "other": 40
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 23,
+          "promptTokens": 37002,
+          "completionTokens": 20236,
+          "totalTokens": 57238
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42331815",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Nature communications",
+          "year": "2026",
+          "publishedDate": "2026-06-22",
+          "electronicPublicationDate": "2026-06-22",
+          "readingTime": "9 分钟",
+          "title": "氟尿苷标记实现体内转录组和增强子的时空图谱",
+          "originalTitle": "Fluorouridine labeling enables spatiotemporal mapping of transcriptomes and enhancers in vivo.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "瞬时RNA标记工具能够以高时间精度揭示转录动态，然而大多数方法仍主要局限于细胞培养。在此，我们报道了一种基于5-氟尿苷（5-FUd）的瞬时转录组学方法——5FU-seq，该方法通过实现更高的代谢掺入、更高的灵敏度和对广泛转录本的稳健检测，超越了标准策略。将5FU-seq应用于小鼠大脑，揭示了刺激依赖的转录网络，并揭示了麻醉诱导的无意识状态下海马中与Nrf2调控相关的动态调控程序。我们进一步工程化了一种转基因小鼠品系，用于原位细胞类型特异性瞬时转录组学，从而能够以高时空分辨率同时绘制基因表达和活性增强子活性图谱。在响应炎症信号的髓系细胞中，与基于FACS的RNA-seq和ATAC-seq进行基准测试，证实了这种双重化学-遗传工具包的稳健性。总之，这项工作为复杂组织中的整合转录组和表观遗传分析建立了一个广泛适用的平台。"
+              }
+            ],
+            "fullText": "瞬时RNA标记工具能够以高时间精度揭示转录动态，然而大多数方法仍主要局限于细胞培养。在此，我们报道了一种基于5-氟尿苷（5-FUd）的瞬时转录组学方法——5FU-seq，该方法通过实现更高的代谢掺入、更高的灵敏度和对广泛转录本的稳健检测，超越了标准策略。将5FU-seq应用于小鼠大脑，揭示了刺激依赖的转录网络，并揭示了麻醉诱导的无意识状态下海马中与Nrf2调控相关的动态调控程序。我们进一步工程化了一种转基因小鼠品系，用于原位细胞类型特异性瞬时转录组学，从而能够以高时空分辨率同时绘制基因表达和活性增强子活性图谱。在响应炎症信号的髓系细胞中，与基于FACS的RNA-seq和ATAC-seq进行基准测试，证实了这种双重化学-遗传工具包的稳健性。总之，这项工作为复杂组织中的整合转录组和表观遗传分析建立了一个广泛适用的平台。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Feng Y, Zhang Y, Lian H, Wang Z, Wang J, Wu L, David CJ, Chen FX, et al.",
+          "citation": "Nat Commun. 2026 Jun 22. doi: 10.1038/s41467-026-74725-2.",
+          "doi": "10.1038/s41467-026-74725-2",
+          "pmid": "42331815",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "基础研究",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "该研究提供了一种新的工具，能够在复杂组织中实现高时空分辨率的转录组和增强子活性分析，有助于揭示组织中的细胞类型特异性调控机制，可能推动对神经科学和炎症等领域的理解。",
+          "conclusion": "本研究开发了一种基于5-氟尿苷（5-FUd）的瞬时转录组学方法（5FU-seq），并联合转基因小鼠，实现了在复杂组织中高时空分辨率的基因表达和增强子活性同时映射，为整合转录组和表观遗传学分析提供了广泛适用的平台。",
+          "clinical": "该研究揭示了麻醉诱导的无意识状态下海马中与Nrf2调控相关的动态调控程序，可能为麻醉机制提供新的见解。 然而，由于是基础研究，尚不能直接用于临床麻醉监测或治疗，需要进一步研究验证。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "基础研究（非人类模型），涉及方法开发和验证，包括体内应用和基准比较。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "小鼠（包括鼠脑和骨髓来源的髓系细胞）；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "5FU-seq方法（基于5-氟尿苷的瞬时转录组标记）以及转基因小鼠系（用于细胞类型特异性瞬时转录组分析）；对照：与FACS-based RNA-seq和ATAC-seq进行基准比较（在髓系细胞中）"
+            },
+            {
+              "label": "主要终点",
+              "value": "转录组和增强子活性的时空映射，以及刺激依赖性转录网络的检测"
+            }
+          ],
+          "keyPoints": [
+            "开发了5FU-seq方法，基于5-氟尿苷（5-FUd）进行瞬时转录组标记。",
+            "5FU-seq在代谢掺入、灵敏度和检测范围方面优于标准策略。",
+            "应用于小鼠脑，揭示了刺激依赖性转录网络和麻醉诱导无意识期间海马中Nrf2调控的动态程序。",
+            "构建了转基因小鼠系，实现细胞类型特异性瞬时转录组分析，可同时映射基因表达和增强子活性。",
+            "在髓系细胞中与FACS-based RNA-seq和ATAC-seq基准比较，确认了该工具的稳健性。"
+          ],
+          "methods": "瞬时RNA标记工具可以高时间精度地揭示转录动态，但大多数方法主要局限于细胞培养。本研究旨在开发一种基于5-氟尿苷（5-FUd）的瞬时转录组学方法，并应用于体内复杂组织，以实现时空分辨率的转录组和增强子图谱。",
+          "results": "当前可获取内容未提供该数据。摘要未报告样本量、主要终点、效应量、95%CI和P值。",
+          "mainResults": "当前可获取内容未提供该数据。摘要未报告样本量、主要终点、效应量、95%CI和P值。",
+          "limitations": [
+            "当前可获取内容未提供该数据。摘要未报告局限性。"
+          ],
+          "practice": [
+            "该研究揭示了麻醉诱导的无意识状态下海马中与Nrf2调控相关的动态调控程序，可能为麻醉机制提供新的见解。",
+            "然而，由于是基础研究，尚不能直接用于临床麻醉监测或治疗，需要进一步研究验证。"
+          ],
+          "editor": "摘要报告了方法学上的优势，如更高的代谢掺入、灵敏度和稳健检测，以及在小鼠脑和髓系细胞中的验证。 过度解读风险：摘要未提供效应量、置信区间和P值，且为动物研究，外推至临床需谨慎。",
+          "whyItMatters": "该研究提供了一种新的工具，能够在复杂组织中实现高时空分辨率的转录组和增强子活性分析，有助于揭示组织中的细胞类型特异性调控机制，可能推动对神经科学和炎症等领域的理解。",
+          "background": "瞬时RNA标记工具可以高时间精度地揭示转录动态，但大多数方法主要局限于细胞培养。本研究旨在开发一种基于5-氟尿苷（5-FUd）的瞬时转录组学方法，并应用于体内复杂组织，以实现时空分辨率的转录组和增强子图谱。",
+          "pico": {
+            "population": "小鼠（包括鼠脑和骨髓来源的髓系细胞）",
+            "intervention": "5FU-seq方法（基于5-氟尿苷的瞬时转录组标记）以及转基因小鼠系（用于细胞类型特异性瞬时转录组分析）",
+            "comparison": "与FACS-based RNA-seq和ATAC-seq进行基准比较（在髓系细胞中）",
+            "outcome": "转录组和增强子活性的时空映射，以及刺激依赖性转录网络的检测"
+          },
+          "studyType": "基础研究（非人类模型），涉及方法开发和验证，包括体内应用和基准比较。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "当前可获取内容未提供该数据。",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "摘要报告了方法学上的优势，如更高的代谢掺入、灵敏度和稳健检测，以及在小鼠脑和髓系细胞中的验证。",
+            "overinterpretationRisk": "摘要未提供效应量、置信区间和P值，且为动物研究，外推至临床需谨慎。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文数据。",
+                "摘要未报告样本量、效应量、置信区间、P值等关键统计信息。",
+                "未报告研究设计细节、统计方法、局限性等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "开发一种基于5-氟尿苷的瞬时转录组学方法，并应用于体内复杂组织，以实现高时空分辨率的转录组和增强子图谱。",
+              "designFit": "基础研究，方法开发与验证，适合该研究问题。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "小鼠（鼠脑和髓系细胞）",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "方法创新，具有高灵敏度和广泛检测范围。",
+                "体内应用，具有高时空分辨率。",
+                "与现有方法进行了基准比较。"
+              ],
+              "concerns": [
+                "摘要未报告统计细节和局限性。",
+                "动物模型，临床转化需谨慎。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供该数据。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计方法。",
+                  "cautions": [
+                    "摘要未报告统计方法，无法评估结果可靠性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "当前可获取内容未提供该数据。摘要未明确报告主要结局。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "方法创新，具有高灵敏度和广泛检测范围。",
+                "体内应用，具有高时空分辨率。",
+                "与现有方法进行了基准比较。"
+              ],
+              "limitations": [
+                "摘要未报告局限性。",
+                "动物模型，临床转化需谨慎。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "低（基于摘要，缺乏统计细节）",
+              "conclusionAlignment": "结论与摘要内容一致，但缺乏统计支持。",
+              "causalBoundary": "摘要未明确因果关系，仅描述方法应用和观察结果。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能为麻醉机制研究提供新工具。"
+              ],
+              "nonApplicability": [
+                "不能直接用于临床麻醉监测或治疗。"
+              ],
+              "practiceChange": "当前可获取内容未提供该数据。",
+              "canDoNow": [
+                "可作为基础研究工具，用于探索转录调控机制。"
+              ],
+              "cannotConclude": [
+                "不能得出临床麻醉相关结论。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究验证其在临床相关模型中的适用性。",
+                "需要提供统计细节和效应量。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42331815/",
+            "doi": "https://doi.org/10.1038/s41467-026-74725-2",
+            "publisher": "https://doi.org/10.1038/s41467-026-74725-2",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41444083",
+          "number": "02",
+          "category": "疼痛与区域麻醉",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-03",
+          "electronicPublicationDate": "2025-12-23",
+          "readingTime": "11 分钟",
+          "title": "LL10（一种新型长效局部麻醉药）在健康志愿者中的安全性、耐受性、有效性和药代动力学评估：一项1期单中心、安慰剂和左布比卡因对照研究",
+          "originalTitle": "Phase 1 single-centre, placebo and levobupivacaine controlled study in healthy volunteers to assess the safety, tolerability, efficacy, and pharmacokinetics of LL10, a novel long-acting local anaesthetic.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "LL10是一种新型长效局部麻醉药，由QX-OH 1.26%和盐酸左布比卡因0.325%组成。这项首次人体试验评估了LL10的安全性、耐受性、有效性和药代动力学特征。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们研究了三种给药途径：皮下浸润、股神经阻滞（FNB）和腹横肌平面阻滞（TAPB），以左布比卡因为阳性对照（共18例，每种途径6例）。对于皮下浸润，40名受试者接受LL10浓度递增（4 ml，七个队列）；对于FNB，30名受试者接受LL10浓度递增（20 ml，六个队列）；对于TAPB，49名受试者接受1.26%/0.325% LL10体积递增（25-55 ml，七个队列）。每个LL10队列包括安慰剂对照（n=20）。安全性评估包括生命体征、不良事件（AE）、体格检查和实验室检查。感觉阻滞通过针刺、机械痛阈和经皮电刺激进行评估。运动阻滞通过下肢肌力分级进行评估。研究了QX-OH和左布比卡因的血浆药代动力学。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "137名入组受试者中无一出现严重不良事件。TAPB后观察到剂量依赖性的全身不良事件，包括头晕、口周和舌麻木以及心血管症状；所有事件均自行缓解。LL10呈线性药代动力学特征。与左布比卡因0.325%相比，1.26%/0.325% LL10在FNB中表现出更长的阻滞持续时间（中位数，25.0 [21.8-29.5] h vs 15.5 [6.0-21.2] h；P = 0.021）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "1.26%/0.325% LL10在健康志愿者中耐受性良好，剂量高达40 ml（相当于7/1.81 mg kg(-1)）。与左布比卡因0.325%相比，LL10在FNB中产生更长的局部麻醉，但在皮下浸润或腹横肌平面阻滞中未观察到这一效果。"
+              },
+              {
+                "heading": "CLINICAL TRIAL REGISTRATION",
+                "text": "ChiCTR2200064437（中国临床试验注册中心）。"
+              }
+            ],
+            "fullText": "BACKGROUND: LL10是一种新型长效局部麻醉药，由QX-OH 1.26%和盐酸左布比卡因0.325%组成。这项首次人体试验评估了LL10的安全性、耐受性、有效性和药代动力学特征。 METHODS: 我们研究了三种给药途径：皮下浸润、股神经阻滞（FNB）和腹横肌平面阻滞（TAPB），以左布比卡因为阳性对照（共18例，每种途径6例）。对于皮下浸润，40名受试者接受LL10浓度递增（4 ml，七个队列）；对于FNB，30名受试者接受LL10浓度递增（20 ml，六个队列）；对于TAPB，49名受试者接受1.26%/0.325% LL10体积递增（25-55 ml，七个队列）。每个LL10队列包括安慰剂对照（n=20）。安全性评估包括生命体征、不良事件（AE）、体格检查和实验室检查。感觉阻滞通过针刺、机械痛阈和经皮电刺激进行评估。运动阻滞通过下肢肌力分级进行评估。研究了QX-OH和左布比卡因的血浆药代动力学。 RESULTS: 137名入组受试者中无一出现严重不良事件。TAPB后观察到剂量依赖性的全身不良事件，包括头晕、口周和舌麻木以及心血管症状；所有事件均自行缓解。LL10呈线性药代动力学特征。与左布比卡因0.325%相比，1.26%/0.325% LL10在FNB中表现出更长的阻滞持续时间（中位数，25.0 [21.8-29.5] h vs 15.5 [6.0-21.2] h；P = 0.021）。 CONCLUSIONS: 1.26%/0.325% LL10在健康志愿者中耐受性良好，剂量高达40 ml（相当于7/1.81 mg kg(-1)）。与左布比卡因0.325%相比，LL10在FNB中产生更长的局部麻醉，但在皮下浸润或腹横肌平面阻滞中未观察到这一效果。 CLINICAL TRIAL REGISTRATION: ChiCTR2200064437（中国临床试验注册中心）。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Fang L, Liu J, Xu M, Zhong J, He Y, Zhang J, Liu J, Zhang W",
+          "citation": "Br J Anaesth. 2026 Mar;136(3):959-969. doi: 10.1016/j.bja.2025.11.028. Epub 2025 Dec 23.",
+          "doi": "10.1016/j.bja.2025.11.028",
+          "pmid": "41444083",
+          "pmcid": null,
+          "publicationTypes": [
+            "Clinical Trial, Phase I",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "疼痛与区域麻醉",
+            "Clinical Trial, Phase I",
+            "Journal Article"
+          ],
+          "question": "LL10作为一种新型长效局部麻醉药，可能为临床提供更持久的术后镇痛选择，减少重复给药需求，但其在不同给药途径中的效果差异提示需根据临床场景谨慎选择。",
+          "conclusion": "在健康志愿者中，LL10（QX-OH 1.26%和盐酸左布比卡因0.325%）在股神经阻滞中较左布比卡因0.325%延长了感觉阻滞持续时间，但未在皮下浸润或腹横肌平面阻滞中观察到类似优势，且未发生严重不良事件。",
+          "clinical": "LL10在FNB中可能提供更长的术后镇痛时间，但需进一步验证其在不同手术类型和患者群体中的效果。 皮下浸润和TAPB中未观察到延长效果，提示LL10的适用场景可能有限。 TAPB后出现的剂量依赖性全身不良事件提示需关注高容量给药时的全身毒性风险。",
+          "evidence": "中等偏高",
+          "score": 69,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 22,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 8
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "1期单中心、随机、安慰剂和左布比卡因对照研究，在健康志愿者中进行，涉及三种给药途径（皮下浸润、FNB、TAPB），并采用剂量递增设计。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Healthy volunteers；137 enrolled subjects"
+            },
+            {
+              "label": "干预与比较",
+              "value": "LL10 (QX-OH 1.26% and levobupivacaine hydrochloride 0.325%) administered via s.c. infiltration, femoral nerve block (FNB), and transversus abdominis plane block (TAPB) at escalating concentrations/volumes；对照：Placebo and levobupivacaine 0.325%"
+            },
+            {
+              "label": "主要终点",
+              "value": "Safety, tolerability, efficacy, and pharmacokinetics of LL10"
+            }
+          ],
+          "keyPoints": [
+            "LL10在FNB中较左布比卡因延长感觉阻滞持续时间（中位25.0 h vs 15.5 h，P=0.021）。",
+            "未发生严重不良事件，但TAPB后出现剂量依赖性全身不良事件。",
+            "LL10呈线性药代动力学。",
+            "皮下浸润和TAPB中未观察到延长效果。"
+          ],
+          "methods": "LL10由QX-OH 1.26%和盐酸左布比卡因0.325%组成，是一种新型长效局部麻醉药。该首次人体试验旨在评估其安全性、耐受性、有效性和药代动力学特征。",
+          "results": "共纳入137名受试者，未发生严重不良事件。TAPB后观察到剂量依赖性的全身不良事件（头晕、口周和舌麻木、心血管症状），均自行缓解。LL10呈线性药代动力学。在FNB中，LL10 1.26%/0.325%的中位感觉阻滞持续时间较左布比卡因0.325%延长（25.0 [21.8-29.5] h vs 15.5 [6.0-21.2] h；P=0.021）。",
+          "mainResults": "共纳入137名受试者，未发生严重不良事件。TAPB后观察到剂量依赖性的全身不良事件（头晕、口周和舌麻木、心血管症状），均自行缓解。LL10呈线性药代动力学。在FNB中，LL10 1.26%/0.325%的中位感觉阻滞持续时间较左布比卡因0.325%延长（25.0 [21.8-29.5] h vs 15.5 [6.0-21.2] h；P=0.021）。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "研究仅在健康志愿者中进行，未涉及手术患者。",
+            "样本量较小，且为单中心研究。",
+            "未报告长期随访和安全性数据。"
+          ],
+          "practice": [
+            "LL10在FNB中可能提供更长的术后镇痛时间，但需进一步验证其在不同手术类型和患者群体中的效果。",
+            "皮下浸润和TAPB中未观察到延长效果，提示LL10的适用场景可能有限。",
+            "TAPB后出现的剂量依赖性全身不良事件提示需关注高容量给药时的全身毒性风险。"
+          ],
+          "editor": "研究为随机对照试验，结果支持LL10在FNB中延长阻滞持续时间的结论，且安全性可接受。 过度解读风险：需注意研究为1期试验，样本量小，且为健康志愿者，结果不能直接外推至临床患者。",
+          "whyItMatters": "LL10作为一种新型长效局部麻醉药，可能为临床提供更持久的术后镇痛选择，减少重复给药需求，但其在不同给药途径中的效果差异提示需根据临床场景谨慎选择。",
+          "background": "LL10由QX-OH 1.26%和盐酸左布比卡因0.325%组成，是一种新型长效局部麻醉药。该首次人体试验旨在评估其安全性、耐受性、有效性和药代动力学特征。",
+          "pico": {
+            "population": "Healthy volunteers",
+            "intervention": "LL10 (QX-OH 1.26% and levobupivacaine hydrochloride 0.325%) administered via s.c. infiltration, femoral nerve block (FNB), and transversus abdominis plane block (TAPB) at escalating concentrations/volumes",
+            "comparison": "Placebo and levobupivacaine 0.325%",
+            "outcome": "Safety, tolerability, efficacy, and pharmacokinetics of LL10"
+          },
+          "studyType": "1期单中心、随机、安慰剂和左布比卡因对照研究，在健康志愿者中进行，涉及三种给药途径（皮下浸润、FNB、TAPB），并采用剂量递增设计。",
+          "sampleSize": "137 enrolled subjects",
+          "primaryOutcome": "Safety, tolerability, efficacy, and pharmacokinetics of LL10",
+          "effectSize": [
+            "median duration of sensory block: 25.0 h vs 15.5 h"
+          ],
+          "confidenceInterval": [
+            "21.8-29.5 h",
+            "6.0-21.2 h"
+          ],
+          "pValue": [
+            "0.021"
+          ],
+          "adverseEvents": "Dose-dependent systemic AEs including dizziness, perioral and tongue numbness, and cardiovascular symptoms were observed after TAPB; all resolved spontaneously. No severe AEs.",
+          "aiAssessment": {
+            "support": "研究为随机对照试验，结果支持LL10在FNB中延长阻滞持续时间的结论，且安全性可接受。",
+            "overinterpretationRisk": "需注意研究为1期试验，样本量小，且为健康志愿者，结果不能直接外推至临床患者。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文数据。",
+                "未报告具体统计方法、随机化细节、盲法等。",
+                "未报告亚组分析、敏感性分析等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估LL10在健康志愿者中的安全性、耐受性、有效性和药代动力学。",
+              "designFit": "1期剂量递增研究设计适合初步评估新药的安全性和耐受性。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "137名入组受试者。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "随机对照设计。",
+                "多种给药途径评估。",
+                "包含安慰剂和阳性对照。"
+              ],
+              "concerns": [
+                "健康志愿者结果可能不适用于患者。",
+                "样本量较小。",
+                "未报告随机化和盲法细节。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "P=0.021（FNB持续时间比较）",
+                  "interpretation": "无法评价统计方法的适当性。",
+                  "cautions": [
+                    "未报告效应量、置信区间等。",
+                    "未报告多重性校正。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "FNB中LL10与左布比卡因的差异具有统计学意义（P=0.021），但临床意义需结合具体手术和患者需求评估。"
+            },
+            "outcomeAnalysis": {
+              "primary": "安全性、耐受性、有效性和药代动力学。",
+              "secondary": [
+                "感觉阻滞（针刺、机械痛阈、经皮电刺激）",
+                "运动阻滞（下肢肌力分级）",
+                "QX-OH和左布比卡因的血浆药代动力学"
+              ],
+              "safety": "未发生严重不良事件；TAPB后出现剂量依赖性全身不良事件，均自行缓解。",
+              "absoluteVsRelative": "FNB中LL10中位持续时间25.0 h vs 左布比卡因15.5 h，绝对差异9.5 h。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机对照设计。",
+                "多种给药途径。",
+                "包含安慰剂和阳性对照。"
+              ],
+              "limitations": [
+                "仅基于摘要，信息有限。",
+                "健康志愿者，非手术患者。",
+                "样本量小。"
+              ],
+              "biasRisks": [
+                "未报告盲法，可能存在实施偏倚。",
+                "未报告随机化细节，可能存在选择偏倚。"
+              ],
+              "certainty": "低至中等，因摘要信息有限。",
+              "conclusionAlignment": "结论与结果一致，但需注意局限性。",
+              "causalBoundary": "由于是随机对照试验，可推断因果关系，但仅限于健康志愿者和特定给药途径。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能适用于需要长效神经阻滞的术后镇痛场景。",
+                "FNB中可能提供更长的镇痛时间。"
+              ],
+              "nonApplicability": [
+                "不适用于皮下浸润或TAPB，因未观察到延长效果。",
+                "不适用于儿童、孕妇等特殊人群。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践，需更多研究。",
+              "canDoNow": [
+                "可考虑在FNB中进一步验证LL10的疗效和安全性。"
+              ],
+              "cannotConclude": [
+                "不能得出LL10优于现有长效局麻药的结论。",
+                "不能确定LL10在手术患者中的有效性和安全性。"
+              ],
+              "evidenceGaps": [
+                "需要手术患者中的2期/3期试验。",
+                "需要比较LL10与其他长效局麻药（如布比卡因脂质体）的研究。",
+                "需要长期安全性数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41444083/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.11.028",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.11.028",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40987656",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-04",
+          "electronicPublicationDate": "2025-09-23",
+          "readingTime": "11 分钟",
+          "title": "老年患者麻醉后监护病房脑电α功率与谵妄：AlphaMax试验第二部分——地氟烷麻醉苏醒期输注丙泊酚的影响",
+          "originalTitle": "EEG alpha power and delirium in the postanaesthesia care unit in older adults: the AlphaMax trial part 2 - effect of propofol infusion during emergence from desflurane anaesthesia(☆).",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "AlphaMax随机试验的这一分支评估了手术结束时短时间输注丙泊酚对老年患者麻醉苏醒期间脑电图α功率和PACU中谵妄的影响。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "年龄≥60岁的男性和女性患者被随机分配接受短时间输注丙泊酚或常规护理，在标准化地氟烷和芬太尼麻醉苏醒期间。主要结局是苏醒期间的脑电图α功率。关键次要结局是PACU中的谵妄。作为探索性分析，确定了与延迟认知恢复（定义为3分钟混淆评估方法诊断访谈中的思维紊乱）相关的变量。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "由于可行性问题，我们减少了样本量，研究对PACU谵妄的检验效能不足。共纳入200名参与者，年龄73（66-80）岁。丙泊酚输注与苏醒期间较低的α功率（-3.06 [sd 4.1] dB vs -1.82 [sd 3.6] dB，P=0.026）和更多的爆发抑制（66% vs 34%，P<0.001）相关。PACU谵妄的发生率在丙泊酚组为36.7%，常规护理组为33.3%（P=0.614）。与无思维紊乱的参与者相比，有思维紊乱的参与者术前蒙特利尔认知评估评分较低，体重较低，国家手术质量改进计划评分较高，术中脑电图α功率较低，苏醒期间δ惯性更大，PACU和住院时间更长。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "丙泊酚输注降低了苏醒期间的脑电图α功率并增加了爆发抑制；然而，PACU中谵妄的发生率没有差异。"
+              },
+              {
+                "heading": "CLINICAL TRIAL REGISTRATION",
+                "text": "ID:12617001354370。"
+              }
+            ],
+            "fullText": "BACKGROUND: AlphaMax随机试验的这一分支评估了手术结束时短时间输注丙泊酚对老年患者麻醉苏醒期间脑电图α功率和PACU中谵妄的影响。 METHODS: 年龄≥60岁的男性和女性患者被随机分配接受短时间输注丙泊酚或常规护理，在标准化地氟烷和芬太尼麻醉苏醒期间。主要结局是苏醒期间的脑电图α功率。关键次要结局是PACU中的谵妄。作为探索性分析，确定了与延迟认知恢复（定义为3分钟混淆评估方法诊断访谈中的思维紊乱）相关的变量。 RESULTS: 由于可行性问题，我们减少了样本量，研究对PACU谵妄的检验效能不足。共纳入200名参与者，年龄73（66-80）岁。丙泊酚输注与苏醒期间较低的α功率（-3.06 [sd 4.1] dB vs -1.82 [sd 3.6] dB，P=0.026）和更多的爆发抑制（66% vs 34%，P<0.001）相关。PACU谵妄的发生率在丙泊酚组为36.7%，常规护理组为33.3%（P=0.614）。与无思维紊乱的参与者相比，有思维紊乱的参与者术前蒙特利尔认知评估评分较低，体重较低，国家手术质量改进计划评分较高，术中脑电图α功率较低，苏醒期间δ惯性更大，PACU和住院时间更长。 CONCLUSIONS: 丙泊酚输注降低了苏醒期间的脑电图α功率并增加了爆发抑制；然而，PACU中谵妄的发生率没有差异。 CLINICAL TRIAL REGISTRATION: ID:12617001354370。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Banerji A, Gaskell AL, Voss LJ, Pullon RM, Termaat J, Garcia PS, Sleigh JW",
+          "citation": "Br J Anaesth. 2026 Apr;136(4):1263-1274. doi: 10.1016/j.bja.2025.07.051. Epub 2025 Sep 23.",
+          "doi": "10.1016/j.bja.2025.07.051",
+          "pmid": "40987656",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "question": "术后谵妄在老年患者中常见且与不良预后相关，探索麻醉苏醒期干预对脑电指标和谵妄的影响，可能为优化麻醉管理提供线索。",
+          "conclusion": "在老年患者地氟烷麻醉苏醒期输注丙泊酚可降低脑电α功率并增加爆发抑制，但未显著改变PACU谵妄发生率。",
+          "clinical": "丙泊酚输注可降低苏醒期脑电α功率并增加爆发抑制，可能反映更深的麻醉或脑电抑制状态。 尽管丙泊酚输注未显著影响PACU谵妄发生率，但该研究因样本量不足可能无法检出差异，需谨慎解读。",
+          "evidence": "中等偏高",
+          "score": 68,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 22,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "随机对照试验（RCT）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Male and female patients, aged ≥60 yr；200 participants aged 73 (66 - 80) yr"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Short infusion of propofol during emergence from a standardised desflurane and fentanyl anaesthetic；对照：Routine care during emergence"
+            },
+            {
+              "label": "主要终点",
+              "value": "EEG alpha power during emergence"
+            }
+          ],
+          "keyPoints": [
+            "丙泊酚输注组苏醒期α功率显著低于常规护理组（P=0.026）。",
+            "丙泊酚输注组爆发抑制比例显著更高（66% vs 34%，P<0.001）。",
+            "PACU谵妄发生率两组无显著差异（36.7% vs 33.3%，P=0.614）。",
+            "研究因样本量不足对谵妄结局检验效能有限。"
+          ],
+          "methods": "该研究为AlphaMax随机试验的一部分，旨在评估老年患者在地氟烷麻醉苏醒期短时输注丙泊酚对脑电α功率及PACU谵妄的影响。",
+          "results": "共纳入200例老年患者。丙泊酚输注组苏醒期α功率低于常规护理组（-3.06 [sd 4.1] dB vs -1.82 [sd 3.6] dB，P=0.026），爆发抑制比例更高（66% vs 34%，P<0.001）。PACU谵妄发生率在丙泊酚组为36.7%，常规护理组为33.3%（P=0.614），差异无统计学意义。",
+          "mainResults": "共纳入200例老年患者。丙泊酚输注组苏醒期α功率低于常规护理组（-3.06 [sd 4.1] dB vs -1.82 [sd 3.6] dB，P=0.026），爆发抑制比例更高（66% vs 34%，P<0.001）。PACU谵妄发生率在丙泊酚组为36.7%，常规护理组为33.3%（P=0.614），差异无统计学意义。",
+          "limitations": [
+            "由于可行性问题，样本量减少，研究对PACU谵妄的检验效能不足。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "丙泊酚输注可降低苏醒期脑电α功率并增加爆发抑制，可能反映更深的麻醉或脑电抑制状态。",
+            "尽管丙泊酚输注未显著影响PACU谵妄发生率，但该研究因样本量不足可能无法检出差异，需谨慎解读。"
+          ],
+          "editor": "研究为随机对照试验，主要结局（α功率）和次要结局（谵妄）均有明确数据，统计方法基本清晰。 过度解读风险：由于谵妄结局检验效能不足，不能将阴性结果解读为丙泊酚对谵妄无影响；且α功率降低的临床意义尚不明确。",
+          "whyItMatters": "术后谵妄在老年患者中常见且与不良预后相关，探索麻醉苏醒期干预对脑电指标和谵妄的影响，可能为优化麻醉管理提供线索。",
+          "background": "该研究为AlphaMax随机试验的一部分，旨在评估老年患者在地氟烷麻醉苏醒期短时输注丙泊酚对脑电α功率及PACU谵妄的影响。",
+          "pico": {
+            "population": "Male and female patients, aged ≥60 yr",
+            "intervention": "Short infusion of propofol during emergence from a standardised desflurane and fentanyl anaesthetic",
+            "comparison": "Routine care during emergence",
+            "outcome": "EEG alpha power during emergence"
+          },
+          "studyType": "随机对照试验（RCT）",
+          "sampleSize": "200 participants aged 73 (66 - 80) yr",
+          "primaryOutcome": "EEG alpha power during emergence",
+          "effectSize": [
+            "-3.06 [sd 4.1] dB vs -1.82 [sd 3.6] dB",
+            "66% vs 34%",
+            "36.7% vs 33.3%"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.026",
+            "<0.001",
+            "0.614"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究为随机对照试验，主要结局（α功率）和次要结局（谵妄）均有明确数据，统计方法基本清晰。",
+            "overinterpretationRisk": "由于谵妄结局检验效能不足，不能将阴性结果解读为丙泊酚对谵妄无影响；且α功率降低的临床意义尚不明确。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取完整方法学细节，如随机化方法、分配隐藏、盲法等。",
+                "未提供效应量置信区间、调整变量、亚组分析等详细信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估老年患者地氟烷麻醉苏醒期短时输注丙泊酚对脑电α功率和PACU谵妄的影响。",
+              "designFit": "随机对照试验适用于评估干预效果，但谵妄结局检验效能不足。",
+              "eligibility": "年龄≥60岁，男性和女性患者，具体排除标准未在摘要中提供。",
+              "randomization": "摘要提及随机化，但未描述具体随机化方法。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "因可行性问题减少了样本量，导致对PACU谵妄检验效能不足。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "共200例参与者，具体分析人群（如意向性治疗或符合方案集）未在摘要中说明。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "随机对照设计。",
+                "主要结局（α功率）有明确统计学差异。"
+              ],
+              "concerns": [
+                "谵妄结局检验效能不足。",
+                "摘要未提供完整方法学细节。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "未报告",
+                  "interpretation": "无法评价",
+                  "cautions": [
+                    "摘要未提供统计方法细节。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "探索性分析发现，存在思维混乱的参与者术前MoCA评分较低、体重较低、NSQIP评分较高、术中α功率较低、苏醒期delta惯性更多、PACU和住院时间更长。",
+              "clinicalVsStatisticalSignificance": "α功率差异有统计学意义（P=0.026），但临床意义未明确；谵妄发生率无统计学差异（P=0.614），但检验效能不足。"
+            },
+            "outcomeAnalysis": {
+              "primary": "苏醒期脑电α功率：丙泊酚组-3.06 [sd 4.1] dB vs 常规护理组-1.82 [sd 3.6] dB，P=0.026。",
+              "secondary": [
+                "PACU谵妄发生率：丙泊酚组36.7% vs 常规护理组33.3%，P=0.614。",
+                "爆发抑制比例：66% vs 34%，P<0.001。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "谵妄绝对差异为3.4个百分点（36.7% vs 33.3%），相对风险未报告。",
+              "subgroupAndInteraction": "探索性分析显示，思维混乱者与无思维混乱者在多个变量上存在差异，但未报告交互作用检验。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机对照设计。",
+                "主要结局有明确统计学差异。"
+              ],
+              "limitations": [
+                "谵妄结局检验效能不足。",
+                "摘要信息有限，无法全面评估方法学质量。"
+              ],
+              "biasRisks": [
+                "未报告盲法，可能存在实施偏倚。",
+                "样本量减少可能引入选择偏倚。"
+              ],
+              "certainty": "低至中等，因摘要信息有限且谵妄结局效能不足。",
+              "conclusionAlignment": "结论与结果一致，但需注意效能限制。",
+              "causalBoundary": "随机对照设计可支持丙泊酚输注与α功率降低的因果关系，但谵妄结局无差异不能排除因果关系，因效能不足。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "老年患者（≥60岁）接受地氟烷麻醉时，苏醒期输注丙泊酚可能降低α功率并增加爆发抑制。"
+              ],
+              "nonApplicability": [
+                "不能据此改变临床实践以预防谵妄，因谵妄结局无差异且效能不足。"
+              ],
+              "practiceChange": "当前证据不足以支持改变临床实践。",
+              "canDoNow": [
+                "监测苏醒期脑电α功率和爆发抑制可能有助于评估麻醉深度。"
+              ],
+              "cannotConclude": [
+                "不能得出丙泊酚输注对谵妄发生率无影响的结论。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本量的研究来评估丙泊酚输注对谵妄的影响。",
+                "需要完整的方法学细节和效应量置信区间。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40987656/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.07.051",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.07.051",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41330797",
+          "number": "04",
+          "category": "疼痛与区域麻醉",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-05",
+          "electronicPublicationDate": "2025-12-01",
+          "readingTime": "10 分钟",
+          "title": "静脉注射地塞米松联合或不联合右美托咪定对锁骨上臂丛神经阻滞镇痛持续时间的影响：一项随机、安慰剂对照、三盲试验",
+          "originalTitle": "Duration of analgesia after supraclavicular brachial plexus block with intravenous dexamethasone with or without dexmedetomidine: a randomised, placebo-controlled, triple-blind trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "静脉注射地塞米松和右美托咪定是两种局部麻醉药的辅助药物，分别用于延长外周神经阻滞后的镇痛时间。这项随机、对照、三盲试验检验了以下假设：在锁骨上臂丛神经阻滞的上肢手术患者中，静脉注射地塞米松和右美托咪定的联合用药比单独使用静脉注射地塞米松作为辅助药物能提供更好的镇痛效果。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们将100名参与者随机分配接受静脉注射地塞米松0.15 mg kg(-1)（地塞米松组）或静脉注射地塞米松0.15 mg kg(-1)和右美托咪定1 μg kg(-1)的联合用药（地塞米松-右美托咪定组）。主要结局是从使用0.5%甲哌卡因和0.25%罗哌卡因混合液进行阻滞操作到首次口服阿片类药物摄入的镇痛持续时间。次要结局包括感觉和运动阻滞的持续时间、静息和运动时的疼痛评分、48小时累积口服吗啡消耗量，以及低血压发作和心动过缓的发生率。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "地塞米松组的平均（标准差）镇痛持续时间为621（334）分钟，地塞米松-右美托咪定组为690（544）分钟（P=0.47）。同样，次要结局也没有显著差异。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在锁骨上臂丛神经阻滞后，静脉注射地塞米松和右美托咪定的联合用药并不比单独使用静脉注射地塞米松提供更好的镇痛效果。"
+              },
+              {
+                "heading": "CLINICAL TRIAL REGISTRATION",
+                "text": "NCT05389852。"
+              }
+            ],
+            "fullText": "背景：静脉注射地塞米松和右美托咪定是两种局部麻醉药的辅助药物，分别用于延长外周神经阻滞后的镇痛时间。这项随机、对照、三盲试验检验了以下假设：在锁骨上臂丛神经阻滞的上肢手术患者中，静脉注射地塞米松和右美托咪定的联合用药比单独使用静脉注射地塞米松作为辅助药物能提供更好的镇痛效果。方法：我们将100名参与者随机分配接受静脉注射地塞米松0.15 mg kg(-1)（地塞米松组）或静脉注射地塞米松0.15 mg kg(-1)和右美托咪定1 μg kg(-1)的联合用药（地塞米松-右美托咪定组）。主要结局是从使用0.5%甲哌卡因和0.25%罗哌卡因混合液进行阻滞操作到首次口服阿片类药物摄入的镇痛持续时间。次要结局包括感觉和运动阻滞的持续时间、静息和运动时的疼痛评分、48小时累积口服吗啡消耗量，以及低血压发作和心动过缓的发生率。结果：地塞米松组的平均（标准差）镇痛持续时间为621（334）分钟，地塞米松-右美托咪定组为690（544）分钟（P=0.47）。同样，次要结局也没有显著差异。结论：在锁骨上臂丛神经阻滞后，静脉注射地塞米松和右美托咪定的联合用药并不比单独使用静脉注射地塞米松提供更好的镇痛效果。临床试验注册：NCT05389852。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Grape S, Andany A, Cibotto C, Berri L, Rossel JB, Albrecht E",
+          "citation": "Br J Anaesth. 2026 May;136(5):1588-1594. doi: 10.1016/j.bja.2025.10.049. Epub 2025 Dec 1.",
+          "doi": "10.1016/j.bja.2025.10.049",
+          "pmid": "41330797",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "疼痛与区域麻醉",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "question": "该研究评估了两种常用辅助药物联合使用的临床价值，提示联合用药可能并不优于单用地塞米松，有助于避免不必要的药物联合及其潜在不良反应。",
+          "conclusion": "在锁骨上臂丛神经阻滞中，静脉注射地塞米松联合右美托咪定与单独使用地塞米松相比，并未提供更优的镇痛效果。",
+          "clinical": "联合使用地塞米松和右美托咪定可能不会为锁骨上臂丛神经阻滞提供额外的镇痛获益。 临床实践中可考虑单独使用地塞米松作为辅助药物，以简化用药方案并减少潜在不良反应。",
+          "evidence": "中等",
+          "score": 65,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 22,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "随机、安慰剂对照、三盲试验"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "patients undergoing upper limb surgery with a supraclavicular brachial plexus block；100"
+            },
+            {
+              "label": "干预与比较",
+              "value": "dexamethasone 0.15 mg kg(-1) i.v. and dexmedetomidine 1 mug kg(-1) i.v.；对照：dexamethasone 0.15 mg kg(-1) i.v."
+            },
+            {
+              "label": "主要终点",
+              "value": "duration of analgesia measured from the time of block procedure with a mix of mepivacaine 0.5% and ropivacaine 0.25% to first oral opioid intake"
+            }
+          ],
+          "keyPoints": [
+            "联合用药组与单用地塞米松组在镇痛持续时间上无显著差异（P=0.47）。",
+            "次要结局（感觉和运动阻滞持续时间、疼痛评分、吗啡消耗量、低血压和心动过缓发生率）均无显著差异。",
+            "研究为随机、三盲设计，样本量100例。"
+          ],
+          "methods": "静脉注射地塞米松和右美托咪定是两种常用于延长外周神经阻滞镇痛时间的辅助药物。本研究旨在验证联合使用这两种药物是否比单独使用地塞米松提供更优的镇痛效果。",
+          "results": "共随机分配100名参与者。地塞米松组（Dexa组）的平均（标准差）镇痛持续时间为621（334）分钟，地塞米松-右美托咪定组（Dexa-Dexme组）为690（544）分钟，P=0.47。次要结局（感觉和运动阻滞持续时间、静息和运动时疼痛评分、48小时累积口服吗啡消耗量、低血压发作和心动过缓发生率）组间均无显著差异。",
+          "mainResults": "共随机分配100名参与者。地塞米松组（Dexa组）的平均（标准差）镇痛持续时间为621（334）分钟，地塞米松-右美托咪定组（Dexa-Dexme组）为690（544）分钟，P=0.47。次要结局（感觉和运动阻滞持续时间、静息和运动时疼痛评分、48小时累积口服吗啡消耗量、低血压发作和心动过缓发生率）组间均无显著差异。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "联合使用地塞米松和右美托咪定可能不会为锁骨上臂丛神经阻滞提供额外的镇痛获益。",
+            "临床实践中可考虑单独使用地塞米松作为辅助药物，以简化用药方案并减少潜在不良反应。"
+          ],
+          "editor": "研究为随机、三盲试验，结果支持联合用药不优于单用地塞米松的结论。 过度解读风险：摘要未提供效应量、置信区间及详细的统计学方法，需谨慎解读；且结果仅针对特定阻滞类型和药物剂量。",
+          "whyItMatters": "该研究评估了两种常用辅助药物联合使用的临床价值，提示联合用药可能并不优于单用地塞米松，有助于避免不必要的药物联合及其潜在不良反应。",
+          "background": "静脉注射地塞米松和右美托咪定是两种常用于延长外周神经阻滞镇痛时间的辅助药物。本研究旨在验证联合使用这两种药物是否比单独使用地塞米松提供更优的镇痛效果。",
+          "pico": {
+            "population": "patients undergoing upper limb surgery with a supraclavicular brachial plexus block",
+            "intervention": "dexamethasone 0.15 mg kg(-1) i.v. and dexmedetomidine 1 mug kg(-1) i.v.",
+            "comparison": "dexamethasone 0.15 mg kg(-1) i.v.",
+            "outcome": "duration of analgesia measured from the time of block procedure with a mix of mepivacaine 0.5% and ropivacaine 0.25% to first oral opioid intake"
+          },
+          "studyType": "随机、安慰剂对照、三盲试验",
+          "sampleSize": "100",
+          "primaryOutcome": "duration of analgesia measured from the time of block procedure with a mix of mepivacaine 0.5% and ropivacaine 0.25% to first oral opioid intake",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.47"
+          ],
+          "adverseEvents": "incidence of hypotension episodes and bradycardia (no significant differences)",
+          "aiAssessment": {
+            "support": "研究为随机、三盲试验，结果支持联合用药不优于单用地塞米松的结论。",
+            "overinterpretationRisk": "摘要未提供效应量、置信区间及详细的统计学方法，需谨慎解读；且结果仅针对特定阻滞类型和药物剂量。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文数据。",
+                "未提供效应量、置信区间、随机化细节、分配隐藏、样本量计算、随访完整性、缺失数据处理等详细信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "静脉注射地塞米松联合右美托咪定是否比单独使用地塞米松提供更优的镇痛效果？",
+              "designFit": "随机、安慰剂对照、三盲试验设计适合评估药物联合的疗效差异。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "三盲（参与者、研究者、结局评估者可能均设盲），但具体细节未提供。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "随机化设计",
+                "三盲设计",
+                "安慰剂对照"
+              ],
+              "concerns": [
+                "摘要未提供随机化方法、分配隐藏、样本量计算等关键方法学细节。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "P=0.47",
+                  "interpretation": "组间差异无统计学意义。",
+                  "cautions": [
+                    "未提供效应量、置信区间，无法评估临床意义。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "统计上无显著差异，但临床意义需结合效应量和置信区间评估，当前摘要未提供。"
+            },
+            "outcomeAnalysis": {
+              "primary": "镇痛持续时间（从阻滞操作开始至首次口服阿片类药物摄入的时间）：Dexa组621（334）分钟，Dexa-Dexme组690（544）分钟，P=0.47。",
+              "secondary": [
+                "感觉和运动阻滞持续时间：组间无显著差异。",
+                "静息和运动时疼痛评分：组间无显著差异。",
+                "48小时累积口服吗啡消耗量：组间无显著差异。",
+                "低血压发作和心动过缓发生率：组间无显著差异。"
+              ],
+              "safety": "低血压和心动过缓发生率组间无显著差异。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机、三盲设计减少偏倚。",
+                "安慰剂对照。"
+              ],
+              "limitations": [
+                "摘要信息有限，无法全面评估方法学质量。",
+                "未提供效应量和置信区间。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "基于摘要，证据确定性中等，但需全文评估。",
+              "conclusionAlignment": "结论与结果一致，即联合用药不优于单用地塞米松。",
+              "causalBoundary": "由于是随机试验，可推断因果关系，但需注意结果仅适用于特定人群和药物剂量。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于接受上肢手术并采用锁骨上臂丛神经阻滞的患者。"
+              ],
+              "nonApplicability": [
+                "不适用于其他类型神经阻滞或不同药物剂量。"
+              ],
+              "practiceChange": "可能支持在锁骨上臂丛神经阻滞中单独使用地塞米松，而非联合右美托咪定。",
+              "canDoNow": [
+                "可考虑在类似临床场景中避免不必要的联合用药。"
+              ],
+              "cannotConclude": [
+                "不能得出联合用药有害的结论，仅提示无额外获益。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究验证不同剂量、不同阻滞类型及长期结局。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41330797/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.10.049",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.10.049",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41387084",
+          "number": "05",
+          "category": "气道管理",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-05",
+          "electronicPublicationDate": "2025-12-11",
+          "readingTime": "12 分钟",
+          "title": "视频喉镜插管视频分类（VCI）评分：一项多中心国际可行性研究",
+          "originalTitle": "The Video Classification of Intubation (VCI) score for videolaryngoscopy: a multicentre international feasibility study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "使用视频喉镜进行气管插管的普遍接受的沟通标准尚未建立。这项国际多中心研究旨在评估在不同临床环境中，对个体气管插管事件记录成对、同步的视频插管分类（VCI）评分的可靠性。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "2021年11月，发布了加入VCI项目的公开邀请。在常规护理期间，对于选定的使用视频喉镜进行的气管插管，两名具备气道能力的临床工作人员独立记录VCI评分。其中一位是执行气管插管的医疗专业人员，另一位是操作过程中在场的观察者。数据通过一个安全的、受密码保护的在线数据库收集，历时41个月。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在2021年11月至2025年4月期间，来自四个国家18个机构的1644对VCI评分被提交。复合VCI评分的Krippendorff alpha值为0.858（95%置信区间0.839-0.878）。插管者-观察者配对在复合VCI评分上的百分比一致性为89.1%（n=1465）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "VCI评分在广泛的临床环境和患者群体中，在具有不同经验和背景的气道能力临床工作人员之间表现出较高的评分者间信度。这项研究强调了VCI评分在标准化使用视频喉镜进行气管插管沟通方面的潜力，从而有助于改善患者安全和护理质量。"
+              }
+            ],
+            "fullText": "BACKGROUND: A universally accepted standard of communication for tracheal intubation using videolaryngoscopy is yet to be established. This international multicentre study aimed to assess the reliability of documenting paired, simultaneous Video Classification of Intubation (VCI) scores for individual tracheal intubation events in diverse clinical settings. METHODS: In November 2021, an open invitation was issued to join the VCI project. For selected tracheal intubations using videolaryngoscopy during routine care, two airway-competent clinical staff independently recorded a VCI score. One was the healthcare professional performing the tracheal intubation, and the other was an observer present during the procedure. Data were collected over a 41-month period via a secure, password-protected online database. RESULTS: Between November 2021 and April 2025, 1644 paired VCI scores were submitted from 18 institutions across four countries. A Krippendorff alpha score of 0.858 (95% confidence interval 0.839-0.878) was obtained for the composite VCI score. The percentage agreement between the intubator-observer pairs for the composite VCI score was 89.1% (n=1465). CONCLUSIONS: The VCI score exhibits high inter-rater reliability across a wide range of clinical settings and patient populations, among airway-competent clinical staff of diverse experience and backgrounds. This study highlights the potential of the VCI score to standardise communication of tracheal intubation using videolaryngoscopy, thereby contributing to improved patient safety and quality of care.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Halliday C, Berry M, Shah SV, Soni S, Saini R, Vaughan D, Chaggar RS",
+          "citation": "Br J Anaesth. 2026 May;136(5):1616-1624. doi: 10.1016/j.bja.2025.11.007. Epub 2025 Dec 11.",
+          "doi": "10.1016/j.bja.2025.11.007",
+          "pmid": "41387084",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "question": "目前视频喉镜气管插管缺乏公认的沟通标准，VCI评分可能提供一种可靠的工具，有助于提高患者安全和护理质量。",
+          "conclusion": "VCI评分在多种临床环境和患者群体中，由不同经验和背景的气道胜任临床工作人员使用时，表现出较高的评估者间信度（Krippendorff alpha=0.858，95%CI 0.839-0.878），提示其有望标准化视频喉镜气管插管的沟通。",
+          "clinical": "VCI评分可能有助于标准化视频喉镜气管插管的沟通，但当前证据仅支持其可行性，尚不能直接推荐临床常规使用。 该评分在不同临床环境和人员中显示出高信度，可能适用于培训和质量改进，但需进一步验证其对临床结局的影响。",
+          "evidence": "中等",
+          "score": 63,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 20,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心国际可行性研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "airway-competent clinical staff of diverse experience and backgrounds；1644 paired VCI scores"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Videolaryngoscopy for tracheal intubation；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "Inter-rater reliability of VCI score"
+            }
+          ],
+          "keyPoints": [
+            "VCI评分在1644对配对评分中显示高评估者间信度（alpha=0.858）。",
+            "百分比一致性为89.1%（n=1465）。",
+            "研究为多中心国际可行性研究，覆盖4国18个机构。",
+            "研究未报告患者结局或临床获益，仅评估评分可靠性。"
+          ],
+          "methods": "视频喉镜气管插管尚无普遍接受的沟通标准。本研究旨在评估在多种临床环境中，对个体气管插管事件记录配对、同步VCI评分的可靠性。",
+          "results": "共提交1644对VCI评分，来自4个国家的18个机构。复合VCI评分的Krippendorff alpha为0.858（95%CI 0.839-0.878）。插管者-观察者配对复合VCI评分的百分比一致性为89.1%（n=1465）。",
+          "mainResults": "共提交1644对VCI评分，来自4个国家的18个机构。复合VCI评分的Krippendorff alpha为0.858（95%CI 0.839-0.878）。插管者-观察者配对复合VCI评分的百分比一致性为89.1%（n=1465）。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "作为可行性研究，样本可能不代表所有临床场景，且未报告患者结局。"
+          ],
+          "practice": [
+            "VCI评分可能有助于标准化视频喉镜气管插管的沟通，但当前证据仅支持其可行性，尚不能直接推荐临床常规使用。",
+            "该评分在不同临床环境和人员中显示出高信度，可能适用于培训和质量改进，但需进一步验证其对临床结局的影响。"
+          ],
+          "editor": "研究结果支持VCI评分在多种临床环境中具有高评估者间信度，但证据等级为可行性研究，需进一步验证。 过度解读风险：存在将高信度误解为临床获益的风险；信度不等于改善患者结局，需谨慎解读。",
+          "whyItMatters": "目前视频喉镜气管插管缺乏公认的沟通标准，VCI评分可能提供一种可靠的工具，有助于提高患者安全和护理质量。",
+          "background": "视频喉镜气管插管尚无普遍接受的沟通标准。本研究旨在评估在多种临床环境中，对个体气管插管事件记录配对、同步VCI评分的可靠性。",
+          "pico": {
+            "population": "airway-competent clinical staff of diverse experience and backgrounds",
+            "intervention": "Videolaryngoscopy for tracheal intubation",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "Inter-rater reliability of VCI score"
+          },
+          "studyType": "多中心国际可行性研究",
+          "sampleSize": "1644 paired VCI scores",
+          "primaryOutcome": "Inter-rater reliability of VCI score",
+          "effectSize": [
+            "Krippendorff alpha = 0.858"
+          ],
+          "confidenceInterval": [
+            "95% CI 0.839-0.878"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持VCI评分在多种临床环境中具有高评估者间信度，但证据等级为可行性研究，需进一步验证。",
+            "overinterpretationRisk": "存在将高信度误解为临床获益的风险；信度不等于改善患者结局，需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文，无法评估详细方法学、偏倚风险和局限性。",
+                "未报告患者结局、不良事件、亚组分析等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估在多种临床环境中，对个体气管插管事件记录配对、同步VCI评分的可靠性。",
+              "designFit": "可行性研究设计适合初步评估评分工具的可靠性，但不足以确立临床有效性。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "1644对VCI评分，来自18个机构，4个国家。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多中心国际设计，涵盖多种临床环境。",
+                "样本量较大（1644对评分）。"
+              ],
+              "concerns": [
+                "可行性研究，未报告患者结局。",
+                "未提供详细的纳入排除标准。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "Krippendorff alpha",
+                  "purposeInStudy": "评估复合VCI评分的评估者间信度",
+                  "reportedResult": "alpha=0.858（95%CI 0.839-0.878）",
+                  "interpretation": "高信度，表明评分在不同评估者间具有良好一致性。",
+                  "cautions": [
+                    "信度不等同于有效性或临床获益。",
+                    "未报告其他统计方法。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "统计上显示高信度，但临床意义需进一步研究，未报告临床结局。"
+            },
+            "outcomeAnalysis": {
+              "primary": "VCI评分的评估者间信度，以Krippendorff alpha表示。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心国际数据，增加普遍性。",
+                "大样本配对评分。"
+              ],
+              "limitations": [
+                "可行性研究，未评估临床结局。",
+                "未报告详细方法学信息。"
+              ],
+              "biasRisks": [
+                "选择偏倚：参与机构可能具有特定特征。",
+                "观察者偏倚：评分可能受培训影响。"
+              ],
+              "certainty": "低至中等，因仅摘要且为可行性研究。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎推广。",
+              "causalBoundary": "本研究仅评估信度，不能推断因果关系或临床获益。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于气道胜任的临床工作人员，在多种临床环境中使用视频喉镜时。"
+              ],
+              "nonApplicability": [
+                "不适用于未接受培训的人员或非视频喉镜场景。"
+              ],
+              "practiceChange": "当前证据不足以支持立即改变临床实践，但可作为培训和质量改进的参考。",
+              "canDoNow": [
+                "可考虑在临床培训中引入VCI评分以促进沟通标准化。"
+              ],
+              "cannotConclude": [
+                "不能得出VCI评分改善患者安全或护理质量的结论。"
+              ],
+              "evidenceGaps": [
+                "需要前瞻性研究评估VCI评分对临床结局的影响。",
+                "需要验证在不同患者群体和紧急情况下的可靠性。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41387084/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.11.007",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.11.007",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-05T00:16:57.861Z",
       "mode": "production",

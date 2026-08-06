@@ -1,13 +1,25 @@
 {
   "version": 1,
   "month": "2026-08",
-  "calls": 81,
+  "calls": 104,
   "callsComplete": true,
-  "promptTokens": 235734,
-  "completionTokens": 80452,
-  "totalTokens": 316186,
-  "estimatedCostCny": 1.115084,
+  "promptTokens": 272736,
+  "completionTokens": 100688,
+  "totalTokens": 373424,
+  "estimatedCostCny": 1.350976,
   "days": [
+    {
+      "date": "2026-08-06",
+      "model": "deepseek-v4-flash",
+      "calls": 23,
+      "callCountSource": "api-call-records",
+      "promptTokens": 37002,
+      "completionTokens": 20236,
+      "totalTokens": 57238,
+      "estimatedCostCny": 0.235892,
+      "tokenSource": "api-exact",
+      "costSource": "configured-estimate"
+    },
     {
       "date": "2026-08-05",
       "model": "deepseek-v4-flash",
