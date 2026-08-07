@@ -1,7 +1,241 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T00:09:14.486Z",
+  "updatedAt": "2026-08-07T23:41:24.612Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-07T23:41:24.612Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-08T23:41:24.612Z",
+        "to": "2026-08-07T23:41:24.612Z",
+        "candidateCount": 267,
+        "discoveryCandidateCount": 10579,
+        "unseenCount": 208,
+        "duplicateCount": 59,
+        "priorityCandidateCount": 267,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 267,
+          "retrievedCount": 267,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 6,
+          "excludedCount": 294,
+          "excludedByReason": {
+            "journal-not-configured": 276,
+            "impact-factor-stale": 2,
+            "below-or-equal-threshold": 13,
+            "impact-factor-unknown": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 281,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 23
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of pain",
+              "reason": "impact-factor-unknown",
+              "count": 3
+            },
+            {
+              "journal": "The Journal of surgical research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Acta orthopaedica Belgica",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 208,
+          "eligibleCount": 185,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 158,
+          "clinical": 109,
+          "basic": 11,
+          "other": 38
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41922770",
+          "title": "解析驱动慢性疼痛的脊髓-脑-脊髓回路",
+          "originalTitle": "Deconstruction of a spino-brain-spinal cord circuit that drives chronic pain.",
+          "journal": "Nature",
+          "conclusion": "本研究在小鼠模型中揭示了一条从脊髓经丘脑、初级体感皮层、上丘再返回脊髓的多突触回路，沉默该回路的任一节点可消除炎性痛和神经病理性疼痛模型中的机械性痛觉超敏，而重复激活该回路节点可在健康小鼠中诱发慢性机械性痛觉超敏。",
+          "pmid": "41922770"
+        },
+        {
+          "slug": "pmid-41850989",
+          "title": "老年患者术后谵妄的预测与风险评估：来自前瞻性BioCog队列研究的算法开发与内部验证",
+          "originalTitle": "Prediction and risk evaluation of delirium after surgery in older patients: development and internal validation of an algorithm from the prospective BioCog cohort study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "结合术前数据、手术特征及术后实验室参数变化的梯度提升树算法在老年手术患者术后谵妄预测中达到较高区分度（AUC 0.83），但当前证据尚不足以直接用于临床决策。",
+          "pmid": "41850989"
+        },
+        {
+          "slug": "pmid-39922789",
+          "title": "大型语言模型生成的围术期神经认知障碍建议与已发表指南的比较：一项横断面网络分析",
+          "originalTitle": "A comparison of large language model-generated and published perioperative neurocognitive disorder recommendations: a cross-sectional web-based analysis.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "ChatGPT-4和Gemini生成的围术期神经认知障碍管理建议与已发表指南总体一致，但未达到完全一致，且缺乏引用来源，临床应用前需进一步验证。",
+          "pmid": "39922789"
+        },
+        {
+          "slug": "pmid-41951491",
+          "title": "氯胺酮与替代药物预防危重症成人气管插管诱导后血流动力学不稳定的系统评价与Meta分析",
+          "originalTitle": "Ketamine versus alternate agents to prevent postinduction haemodynamic instability during tracheal intubation of critically ill adults: a systematic review and meta-analysis.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在危重症成人紧急气管插管中，与依托咪酯相比，氯胺酮与诱导后血流动力学不稳定的风险显著增加相关，但与其他替代药物相比可能更优，且对死亡率、无呼吸机天数和无ICU天数无显著影响。",
+          "pmid": "41951491"
+        },
+        {
+          "slug": "pmid-41748335",
+          "title": "英国老年患者术后谵妄的术后结局：SNAP-3快照观察性研究",
+          "originalTitle": "Postoperative outcomes in older patients with postoperative delirium in the UK: SNAP-3, a snapshot observational study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在英国老年手术患者中，术后谵妄与更长的住院时间、更高的术后并发症、120天和1年死亡率独立相关，提示谵妄是术后不良结局的重要标志物。",
+          "pmid": "41748335"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-06T00:09:14.486Z",
       "search": {

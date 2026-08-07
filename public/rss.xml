@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 06 Aug 2026 00:09:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 23:41:24 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-08 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-08/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-08/</guid>
+      <pubDate>Fri, 07 Aug 2026 23:41:24 GMT</pubDate>
+      <description>解析驱动慢性疼痛的脊髓-脑-脊髓回路：本研究在小鼠模型中揭示了一条从脊髓经丘脑、初级体感皮层、上丘再返回脊髓的多突触回路，沉默该回路的任一节点可消除炎性痛和神经病理性疼痛模型中的机械性痛觉超敏，而重复激活该回路节点可在健康小鼠中诱发慢性机械性痛觉超敏。
+老年患者术后谵妄的预测与风险评估：来自前瞻性BioCog队列研究的算法开发与内部验证：结合术前数据、手术特征及术后实验室参数变化的梯度提升树算法在老年手术患者术后谵妄预测中达到较高区分度（AUC 0.83），但当前证据尚不足以直接用于临床决策。
+大型语言模型生成的围术期神经认知障碍建议与已发表指南的比较：一项横断面网络分析：ChatGPT-4和Gemini生成的围术期神经认知障碍管理建议与已发表指南总体一致，但未达到完全一致，且缺乏引用来源，临床应用前需进一步验证。
+氯胺酮与替代药物预防危重症成人气管插管诱导后血流动力学不稳定的系统评价与Meta分析：在危重症成人紧急气管插管中，与依托咪酯相比，氯胺酮与诱导后血流动力学不稳定的风险显著增加相关，但与其他替代药物相比可能更优，且对死亡率、无呼吸机天数和无ICU天数无显著影响。
+英国老年患者术后谵妄的术后结局：SNAP-3快照观察性研究：在英国老年手术患者中，术后谵妄与更长的住院时间、更高的术后并发症、120天和1年死亡率独立相关，提示谵妄是术后不良结局的重要标志物。</description>
+    </item>
     <item>
       <title>2026-08-06 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-06/</link>

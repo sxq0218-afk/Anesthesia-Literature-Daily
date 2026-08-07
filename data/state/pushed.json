@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-06T00:09:14.486Z",
+  "updatedAt": "2026-08-07T23:41:24.612Z",
   "records": [
     {
       "pmid": "42359695",
@@ -593,6 +593,46 @@
       "status": "published",
       "runId": "2026-08-06T00-09-14.486Z",
       "firstPublishedAt": "2026-08-06T00:09:14.486Z"
+    },
+    {
+      "pmid": "41922770",
+      "doi": "10.1038/s41586-026-10296-y",
+      "title": "Deconstruction of a spino-brain-spinal cord circuit that drives chronic pain.",
+      "status": "published",
+      "runId": "2026-08-07T23-41-24.612Z",
+      "firstPublishedAt": "2026-08-07T23:41:24.612Z"
+    },
+    {
+      "pmid": "41850989",
+      "doi": "10.1016/j.bja.2026.01.025",
+      "title": "Prediction and risk evaluation of delirium after surgery in older patients: development and internal validation of an algorithm from the prospective BioCog cohort study.",
+      "status": "published",
+      "runId": "2026-08-07T23-41-24.612Z",
+      "firstPublishedAt": "2026-08-07T23:41:24.612Z"
+    },
+    {
+      "pmid": "39922789",
+      "doi": "10.1016/j.bja.2025.01.001",
+      "title": "A comparison of large language model-generated and published perioperative neurocognitive disorder recommendations: a cross-sectional web-based analysis.",
+      "status": "published",
+      "runId": "2026-08-07T23-41-24.612Z",
+      "firstPublishedAt": "2026-08-07T23:41:24.612Z"
+    },
+    {
+      "pmid": "41951491",
+      "doi": "10.1016/j.bja.2026.02.023",
+      "title": "Ketamine versus alternate agents to prevent postinduction haemodynamic instability during tracheal intubation of critically ill adults: a systematic review and meta-analysis.",
+      "status": "published",
+      "runId": "2026-08-07T23-41-24.612Z",
+      "firstPublishedAt": "2026-08-07T23:41:24.612Z"
+    },
+    {
+      "pmid": "41748335",
+      "doi": "10.1016/j.bja.2026.01.030",
+      "title": "Postoperative outcomes in older patients with postoperative delirium in the UK: SNAP-3, a snapshot observational study.",
+      "status": "published",
+      "runId": "2026-08-07T23-41-24.612Z",
+      "firstPublishedAt": "2026-08-07T23:41:24.612Z"
     }
   ]
 }

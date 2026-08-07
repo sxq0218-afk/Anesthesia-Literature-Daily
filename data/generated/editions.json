@@ -1,7 +1,1600 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T00:09:14.486Z",
+  "updatedAt": "2026-08-07T23:41:24.612Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-07T23:41:24.612Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-08T23:41:24.612Z",
+        "to": "2026-08-07T23:41:24.612Z",
+        "candidateCount": 267,
+        "discoveryCandidateCount": 10579,
+        "unseenCount": 208,
+        "duplicateCount": 59,
+        "priorityCandidateCount": 267,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 267,
+          "retrievedCount": 267,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 6,
+          "excludedCount": 294,
+          "excludedByReason": {
+            "journal-not-configured": 276,
+            "impact-factor-stale": 2,
+            "below-or-equal-threshold": 13,
+            "impact-factor-unknown": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 281,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 23
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of pain",
+              "reason": "impact-factor-unknown",
+              "count": 3
+            },
+            {
+              "journal": "The Journal of surgical research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Acta orthopaedica Belgica",
+              "reason": "journal-not-configured",
+              "count": 2
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 208,
+          "eligibleCount": 185,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 158,
+          "clinical": 109,
+          "basic": 11,
+          "other": 38
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 20,
+          "promptTokens": 83635,
+          "completionTokens": 19835,
+          "totalTokens": 103470
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41922770",
+          "number": "01",
+          "category": "麻醉基础研究",
+          "journal": "Nature",
+          "year": "2026",
+          "publishedDate": "2026-06",
+          "electronicPublicationDate": "2026-04-01",
+          "readingTime": "9 分钟",
+          "title": "解析驱动慢性疼痛的脊髓-脑-脊髓回路",
+          "originalTitle": "Deconstruction of a spino-brain-spinal cord circuit that drives chronic pain.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "外周组织炎症或神经损伤可引起慢性疼痛。尽管延髓头端腹内侧区（RVM(SC)神经元）中投射到脊髓的神经元可促进疼痛慢性化(1-4)，但外周损伤信号驱动这些神经元的通路尚不清楚(1-3,5)。在此，我们报告了一个从脊髓延伸到丘脑腹后外侧核和丘脑后复合体，再传递到初级躯体感觉皮层，并通过外侧上丘返回脊髓的回路环，该回路环进而连接到表达μ-阿片受体的RVM(SC)神经元。沉默这一多突触回路上的任何节点，对健康小鼠的伤害感受影响极小，但在炎症性和神经病理性疼痛小鼠模型中，可消除机械性超敏反应并恢复正常的伤害性反应阈值。在健康小鼠中，重复激活（而非急性激活）该回路的每个节点足以引起强烈的慢性机械性超敏反应。我们的发现揭示了一个连接上行和下行通路的脊髓-脑-脊髓回路环，该回路环特异性地驱动慢性机械性疼痛。这可能有助于确定治疗慢性疼痛的细胞靶点。"
+              }
+            ],
+            "fullText": "外周组织炎症或神经损伤可引起慢性疼痛。尽管延髓头端腹内侧区（RVM(SC)神经元）中投射到脊髓的神经元可促进疼痛慢性化(1-4)，但外周损伤信号驱动这些神经元的通路尚不清楚(1-3,5)。在此，我们报告了一个从脊髓延伸到丘脑腹后外侧核和丘脑后复合体，再传递到初级躯体感觉皮层，并通过外侧上丘返回脊髓的回路环，该回路环进而连接到表达μ-阿片受体的RVM(SC)神经元。沉默这一多突触回路上的任何节点，对健康小鼠的伤害感受影响极小，但在炎症性和神经病理性疼痛小鼠模型中，可消除机械性超敏反应并恢复正常的伤害性反应阈值。在健康小鼠中，重复激活（而非急性激活）该回路的每个节点足以引起强烈的慢性机械性超敏反应。我们的发现揭示了一个连接上行和下行通路的脊髓-脑-脊髓回路环，该回路环特异性地驱动慢性机械性疼痛。这可能有助于确定治疗慢性疼痛的细胞靶点。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Wang Q, Lee JH, Nachtrab G, Yuan Y, Yuan L, Qi W, Mohr MA, Xiong J, et al.",
+          "citation": "Nature. 2026 Jun;654(8117):142-151. doi: 10.1038/s41586-026-10296-y. Epub 2026 Apr 1.",
+          "doi": "10.1038/s41586-026-10296-y",
+          "pmid": "41922770",
+          "pmcid": "PMC13078944",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 56.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature"
+          },
+          "tags": [
+            "基础研究",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究首次在解剖和功能层面阐明了一条连接上行与下行通路的脊髓-脑-脊髓闭环回路，该回路特异性地驱动慢性机械性疼痛，为慢性疼痛的机制理解和潜在细胞靶点识别提供了新方向。",
+          "conclusion": "本研究在小鼠模型中揭示了一条从脊髓经丘脑、初级体感皮层、上丘再返回脊髓的多突触回路，沉默该回路的任一节点可消除炎性痛和神经病理性疼痛模型中的机械性痛觉超敏，而重复激活该回路节点可在健康小鼠中诱发慢性机械性痛觉超敏。",
+          "clinical": "该研究为理解慢性疼痛的中枢机制提供了新视角，可能为未来开发针对慢性疼痛的靶向治疗提供理论基础。 由于是基础研究，目前不能直接用于临床麻醉或疼痛管理实践。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "基础研究（临床前动物实验）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "mice (Oprm1 cre mice, vGlut2 cre mice)；not reported"
+            },
+            {
+              "label": "干预与比较",
+              "value": "silencing or activation of OPRM1+ RVM SC neurons via chemogenetics, ablation via caspase, activation of circuit nodes；对照：control mice (mCherry, saline, etc.)"
+            },
+            {
+              "label": "主要终点",
+              "value": "mechanical and cold hypersensitization in mouse models of inflammatory and neuropathic pain"
+            }
+          ],
+          "keyPoints": [
+            "发现一条从脊髓到丘脑（腹后外侧核和后复合体）、再到初级体感皮层、经外侧上丘返回脊髓的多突触回路。",
+            "沉默该回路任一节点可消除炎性痛和神经病理性疼痛模型中的机械性痛觉超敏。",
+            "重复激活该回路节点可在健康小鼠中诱发慢性机械性痛觉超敏。",
+            "该回路特异性地驱动慢性机械性疼痛，而非急性伤害性感受。"
+          ],
+          "methods": "外周组织炎症或神经损伤可导致慢性疼痛。已知延髓头端腹内侧区（RVM）中投射至脊髓的神经元（RVM(SC)神经元）可促进疼痛慢性化，但外周损伤信号如何驱动这些神经元的上游通路尚不清楚。本研究旨在解析这一通路。",
+          "results": "在炎性痛和神经病理性疼痛小鼠模型中，沉默该回路的任一节点可消除机械性痛觉超敏并恢复正常的伤害性反应阈值。在健康小鼠中，重复（而非急性）激活该回路的每个节点足以引起显著的慢性机械性痛觉超敏。研究未报告样本量、效应量及置信区间，但报告了多个P值（如P=0.0313、P=0.0005、P<0.0001等）。",
+          "mainResults": "在炎性痛和神经病理性疼痛小鼠模型中，沉默该回路的任一节点可消除机械性痛觉超敏并恢复正常的伤害性反应阈值。在健康小鼠中，重复（而非急性）激活该回路的每个节点足以引起显著的慢性机械性痛觉超敏。研究未报告样本量、效应量及置信区间，但报告了多个P值（如P=0.0313、P=0.0005、P<0.0001等）。",
+          "limitations": [
+            "研究基于小鼠模型，结果可能无法直接外推至人类。",
+            "当前可获取内容仅包括摘要和部分方法，未对全文进行完整分析。",
+            "未报告样本量、效应量及置信区间，统计推断的精确性无法全面评估。"
+          ],
+          "practice": [
+            "该研究为理解慢性疼痛的中枢机制提供了新视角，可能为未来开发针对慢性疼痛的靶向治疗提供理论基础。",
+            "由于是基础研究，目前不能直接用于临床麻醉或疼痛管理实践。"
+          ],
+          "editor": "研究设计严谨，采用多种干预手段（化学遗传学、消融、激活）在多个节点验证回路功能，结果一致支持该回路在慢性机械性疼痛中的驱动作用。 过度解读风险：存在过度解读风险，因为研究为动物模型，且未提供效应量等关键统计指标，不能直接推断人类慢性疼痛机制。",
+          "whyItMatters": "该研究首次在解剖和功能层面阐明了一条连接上行与下行通路的脊髓-脑-脊髓闭环回路，该回路特异性地驱动慢性机械性疼痛，为慢性疼痛的机制理解和潜在细胞靶点识别提供了新方向。",
+          "background": "外周组织炎症或神经损伤可导致慢性疼痛。已知延髓头端腹内侧区（RVM）中投射至脊髓的神经元（RVM(SC)神经元）可促进疼痛慢性化，但外周损伤信号如何驱动这些神经元的上游通路尚不清楚。本研究旨在解析这一通路。",
+          "pico": {
+            "population": "mice (Oprm1 cre mice, vGlut2 cre mice)",
+            "intervention": "silencing or activation of OPRM1+ RVM SC neurons via chemogenetics, ablation via caspase, activation of circuit nodes",
+            "comparison": "control mice (mCherry, saline, etc.)",
+            "outcome": "mechanical and cold hypersensitization in mouse models of inflammatory and neuropathic pain"
+          },
+          "studyType": "基础研究（临床前动物实验）",
+          "sampleSize": "not reported",
+          "primaryOutcome": "mechanical and cold hypersensitization in mouse models of inflammatory and neuropathic pain",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "P = 0.0313",
+            "P = 0.4375",
+            "P = 0.0005",
+            "P = 0.0038",
+            "P = 0.0493",
+            "P = 0.0078",
+            "P = 0.0039",
+            "P = 0.4258",
+            "P = 0.9004",
+            "P = 0.2146",
+            "P = 0.5175",
+            "P = 0.0003",
+            "P = 0.0252",
+            "P = 0.11",
+            "P = 0.0103",
+            "P = 0.0002",
+            "P < 0.0001",
+            "P = 0.0159"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究设计严谨，采用多种干预手段（化学遗传学、消融、激活）在多个节点验证回路功能，结果一致支持该回路在慢性机械性疼痛中的驱动作用。",
+            "overinterpretationRisk": "存在过度解读风险，因为研究为动物模型，且未提供效应量等关键统计指标，不能直接推断人类慢性疼痛机制。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和部分方法节选，未分析完整全文。",
+                "未获取详细的实验方法、统计细节和完整结果数据。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "外周损伤信号如何驱动RVM(SC)神经元以促进疼痛慢性化？",
+              "designFit": "采用小鼠模型结合化学遗传学、消融和激活等手段，适合解析神经回路功能。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "采用多种互补的干预手段验证回路功能。",
+                "在多个节点进行沉默和激活实验，结果一致。"
+              ],
+              "concerns": [
+                "未报告样本量、效应量及置信区间。",
+                "未提供详细的统计方法和随机化、盲法等细节。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "报告了多个P值，但未说明具体检验方法。",
+                  "interpretation": "P值提示部分组间差异具有统计学意义，但无法评估统计分析的严谨性。",
+                  "cautions": [
+                    "未报告效应量，P值不能反映效应大小。",
+                    "未提及多重比较校正，可能增加假阳性风险。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提及多重比较校正。",
+              "subgroupAnalysis": "当前可获取内容未提供亚组分析。",
+              "clinicalVsStatisticalSignificance": "研究为动物模型，统计学差异不等于临床获益，需进一步验证。"
+            },
+            "outcomeAnalysis": {
+              "primary": "炎性痛和神经病理性疼痛模型中的机械性和冷刺激痛觉超敏。",
+              "secondary": [
+                "健康小鼠的伤害性反应",
+                "自发痛",
+                "情感-动机行为"
+              ],
+              "safety": "当前可获取内容未报告不良事件。",
+              "absoluteVsRelative": "当前可获取内容未提供绝对或相对效应量。",
+              "subgroupAndInteraction": "当前可获取内容未提供亚组或交互作用分析。",
+              "sensitivity": "当前可获取内容未提供敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "研究设计巧妙，通过多节点干预验证回路功能。",
+                "结果一致支持该回路在慢性机械性疼痛中的驱动作用。"
+              ],
+              "limitations": [
+                "动物模型，外推至人类需谨慎。",
+                "未报告关键统计指标。",
+                "全文未完全分析。"
+              ],
+              "biasRisks": [
+                "未报告随机化和盲法，可能存在实施偏倚。",
+                "未报告样本量计算，可能存在检验效能不足。"
+              ],
+              "certainty": "中等，基于动物模型和一致的结果，但统计细节缺失。",
+              "conclusionAlignment": "结论与结果一致，但需注意动物与人类的差异。",
+              "causalBoundary": "研究通过干预建立了因果关系，但仅限于小鼠模型，不能直接推断人类因果。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为慢性疼痛的机制研究提供新靶点。",
+                "可能为未来开发针对该回路的干预措施提供基础。"
+              ],
+              "nonApplicability": [
+                "不能直接用于人类慢性疼痛的诊断或治疗。",
+                "不能直接指导麻醉或疼痛管理实践。"
+              ],
+              "practiceChange": "当前结果不足以改变临床实践。",
+              "canDoNow": [
+                "在临床前研究中进一步验证该回路的可靶向性。"
+              ],
+              "cannotConclude": [
+                "无法得出该回路在人类慢性疼痛中的确切作用。",
+                "无法得出针对该回路的干预措施在人类中的有效性和安全性。"
+              ],
+              "evidenceGaps": [
+                "需要人类研究验证该回路的存在和功能。",
+                "需要更详细的统计数据和实验方法。",
+                "需要评估长期干预的安全性和有效性。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41922770/",
+            "doi": "https://doi.org/10.1038/s41586-026-10296-y",
+            "publisher": "https://doi.org/10.1038/s41586-026-10296-y",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13078944/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41850989",
+          "number": "02",
+          "category": "老年围术期",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-05",
+          "electronicPublicationDate": "2026-03-17",
+          "readingTime": "10 分钟",
+          "title": "老年患者术后谵妄的预测与风险评估：来自前瞻性BioCog队列研究的算法开发与内部验证",
+          "originalTitle": "Prediction and risk evaluation of delirium after surgery in older patients: development and internal validation of an algorithm from the prospective BioCog cohort study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "术后谵妄（POD）影响约20%的老年手术患者。它与不良临床结局和死亡率增加相关。我们旨在识别主要的POD风险因素，并开发和验证一个多变量算法，用于术后极早期的个体化POD风险预测和风险评估。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "BioCog是一项在德国和荷兰两个三级医疗中心的麻醉科进行的前瞻性队列研究。纳入年龄≥65岁、无术前痴呆（简易精神状态检查≥24）、预期手术时间至少60分钟的患者，并根据DSM-5标准筛查POD直至术后第七天。在手术前后测量临床、神经心理学、神经影像学数据和血液指标。我们通过依次添加变量块来评估多个模型。使用梯度提升树（GBT）和嵌套交叉验证进行POD预测。评估模型准确性（受试者工作特征曲线下面积，AUC）和校准（Brier评分）。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在929名患者中，184名（20%）出现POD。使用术前数据、干预特征和术后实验室参数变化的GBT算法达到了最高的AUC（0.83，[0.79-0.86]），Brier评分为0.12（0.12-0.13）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "结合术前因素和术中诱发因素的模型能够高精度地预测POD。这表明最终生成的算法可能有助于支持临床决策。"
+              },
+              {
+                "heading": "CLINICAL TRIAL REGISTRATION",
+                "text": "NCT02265263。"
+              }
+            ],
+            "fullText": "BACKGROUND: 术后谵妄（POD）影响约20%的老年手术患者。它与不良临床结局和死亡率增加相关。我们旨在识别主要的POD风险因素，并开发和验证一个多变量算法，用于术后极早期的个体化POD风险预测和风险评估。 METHODS: BioCog是一项在德国和荷兰两个三级医疗中心的麻醉科进行的前瞻性队列研究。纳入年龄≥65岁、无术前痴呆（简易精神状态检查≥24）、预期手术时间至少60分钟的患者，并根据DSM-5标准筛查POD直至术后第七天。在手术前后测量临床、神经心理学、神经影像学数据和血液指标。我们通过依次添加变量块来评估多个模型。使用梯度提升树（GBT）和嵌套交叉验证进行POD预测。评估模型准确性（受试者工作特征曲线下面积，AUC）和校准（Brier评分）。 RESULTS: 在929名患者中，184名（20%）出现POD。使用术前数据、干预特征和术后实验室参数变化的GBT算法达到了最高的AUC（0.83，[0.79-0.86]），Brier评分为0.12（0.12-0.13）。 CONCLUSIONS: 结合术前因素和术中诱发因素的模型能够高精度地预测POD。这表明最终生成的算法可能有助于支持临床决策。 CLINICAL TRIAL REGISTRATION: NCT02265263。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Lammers-Lietz F, Akyuez L, Boraschi D, Borchers F, de Bresser J, Chatterjee S, Correia MM, de Lange NM, et al.",
+          "citation": "Br J Anaesth. 2026 May;136(5):1495-1508. doi: 10.1016/j.bja.2026.01.025. Epub 2026 Mar 17.",
+          "doi": "10.1016/j.bja.2026.01.025",
+          "pmid": "41850989",
+          "pmcid": "PMC13197897",
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Validation Study"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "老年围术期",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "question": "术后谵妄在老年手术患者中发生率约20%，与不良临床结局和死亡率增加相关。若能早期准确预测，可能有助于识别高危患者并优化围术期管理。",
+          "conclusion": "结合术前数据、手术特征及术后实验室参数变化的梯度提升树算法在老年手术患者术后谵妄预测中达到较高区分度（AUC 0.83），但当前证据尚不足以直接用于临床决策。",
+          "clinical": "该预测模型可能有助于麻醉科医生在术后早期识别高危患者，从而加强监测和预防措施。 但模型尚处于内部验证阶段，需外部验证及临床影响评估后才能考虑实际应用。",
+          "evidence": "中等",
+          "score": 61,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 18,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性队列研究（BioCog），在德国和荷兰两个三级医疗中心的麻醉科进行。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Patients aged ≥65 yr with no preoperative dementia (Mini-Mental Status Examination ≥24) undergoing surgery with an expected duration of at least 60 min；929"
+            },
+            {
+              "label": "干预与比较",
+              "value": "基于术前数据、手术特征及术后实验室参数变化的梯度提升树（GBT）预测算法；对照：未明确报告对照组；研究为预测模型开发与内部验证，未设置传统意义上的对照组"
+            },
+            {
+              "label": "主要终点",
+              "value": "Postoperative delirium (POD) during the first 7 days after surgery"
+            }
+          ],
+          "keyPoints": [
+            "术后谵妄在老年手术患者中发生率为20%。",
+            "结合术前、术中及术后早期数据的GBT算法预测POD的AUC为0.83。",
+            "模型校准良好（Brier评分0.12）。",
+            "当前证据不支持直接改变临床实践，需进一步验证。"
+          ],
+          "methods": "术后谵妄（POD）影响约20%的老年手术患者，与不良临床结局和死亡率增加相关。本研究旨在识别主要POD危险因素，并开发及验证用于个体化POD风险预测和早期术后风险评估的多变量算法。",
+          "results": "共纳入929例患者，其中184例（20%）发生POD。结合术前数据、手术特征及术后实验室参数变化的GBT算法达到最高AUC 0.83（95%CI 0.79–0.86），Brier评分为0.12（95%CI 0.12–0.13）。当前可获取内容未提供效应量（如OR/HR）及P值。",
+          "mainResults": "共纳入929例患者，其中184例（20%）发生POD。结合术前数据、手术特征及术后实验室参数变化的GBT算法达到最高AUC 0.83（95%CI 0.79–0.86），Brier评分为0.12（95%CI 0.12–0.13）。当前可获取内容未提供效应量（如OR/HR）及P值。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。",
+            "模型仅进行了内部验证，缺乏外部验证。",
+            "未报告校准图或决策曲线分析等临床效用指标。"
+          ],
+          "practice": [
+            "该预测模型可能有助于麻醉科医生在术后早期识别高危患者，从而加强监测和预防措施。",
+            "但模型尚处于内部验证阶段，需外部验证及临床影响评估后才能考虑实际应用。"
+          ],
+          "editor": "研究为前瞻性队列设计，样本量较大，使用嵌套交叉验证评估模型性能，AUC和Brier评分均报告了置信区间。 过度解读风险：摘要中结论提到算法“可能”有助于临床决策，但未明确推荐直接使用；需注意模型预测性能高不等于临床获益，且缺乏外部验证。",
+          "whyItMatters": "术后谵妄在老年手术患者中发生率约20%，与不良临床结局和死亡率增加相关。若能早期准确预测，可能有助于识别高危患者并优化围术期管理。",
+          "background": "术后谵妄（POD）影响约20%的老年手术患者，与不良临床结局和死亡率增加相关。本研究旨在识别主要POD危险因素，并开发及验证用于个体化POD风险预测和早期术后风险评估的多变量算法。",
+          "pico": {
+            "population": "Patients aged ≥65 yr with no preoperative dementia (Mini-Mental Status Examination ≥24) undergoing surgery with an expected duration of at least 60 min",
+            "intervention": "基于术前数据、手术特征及术后实验室参数变化的梯度提升树（GBT）预测算法",
+            "comparison": "未明确报告对照组；研究为预测模型开发与内部验证，未设置传统意义上的对照组",
+            "outcome": "Postoperative delirium (POD) during the first 7 days after surgery"
+          },
+          "studyType": "前瞻性队列研究（BioCog），在德国和荷兰两个三级医疗中心的麻醉科进行。",
+          "sampleSize": "929",
+          "primaryOutcome": "Postoperative delirium (POD) during the first 7 days after surgery",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究为前瞻性队列设计，样本量较大，使用嵌套交叉验证评估模型性能，AUC和Brier评分均报告了置信区间。",
+            "overinterpretationRisk": "摘要中结论提到算法“可能”有助于临床决策，但未明确推荐直接使用；需注意模型预测性能高不等于临床获益，且缺乏外部验证。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和开放全文节选，未获取完整方法学细节。",
+                "未报告缺失数据处理、样本量计算、亚组分析等具体信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "识别老年手术患者术后谵妄的主要危险因素，并开发及验证个体化风险预测算法。",
+              "designFit": "前瞻性队列研究适合开发预测模型，但内部验证可能高估模型性能。",
+              "eligibility": "年龄≥65岁、无术前痴呆（MMSE≥24）、手术时长≥60分钟。",
+              "randomization": "不适用（观察性研究）。",
+              "allocationConcealment": "不适用。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "术后7天内筛查POD。",
+              "analysisPopulation": "929例患者，其中184例发生POD。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "前瞻性多中心设计。",
+                "使用DSM-5标准诊断POD。",
+                "采用嵌套交叉验证评估模型。"
+              ],
+              "concerns": [
+                "仅内部验证，缺乏外部验证。",
+                "未报告模型校准细节。",
+                "未报告临床效用评估。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "梯度提升树（GBT）",
+                  "purposeInStudy": "用于构建术后谵妄预测模型，通过嵌套交叉验证评估性能。",
+                  "reportedResult": "AUC 0.83（95%CI 0.79–0.86），Brier评分0.12（95%CI 0.12–0.13）。",
+                  "interpretation": "模型区分度良好，校准良好。",
+                  "cautions": [
+                    "未报告与逻辑回归等传统方法的比较。",
+                    "未报告变量重要性或模型可解释性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "AUC 0.83表明模型具有较好的区分能力，但临床获益需通过决策曲线分析等进一步评估。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后7天内发生的术后谵妄（POD）。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "POD发生率为20%（184/929）。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "前瞻性设计，样本量较大。",
+                "使用标准诊断标准。",
+                "模型性能报告了置信区间。"
+              ],
+              "limitations": [
+                "内部验证可能高估性能。",
+                "缺乏外部验证。",
+                "未报告模型校准图。"
+              ],
+              "biasRisks": [
+                "选择偏倚：仅纳入无痴呆患者，可能限制外推性。",
+                "信息偏倚：实验室参数测量时间点可能不一致。"
+              ],
+              "certainty": "中等：基于摘要和节选，证据等级为观察性研究，但模型性能指标较可靠。",
+              "conclusionAlignment": "结论与结果一致，但“可能有用”的表述较为谨慎。",
+              "causalBoundary": "预测模型仅用于风险分层，不能推断因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于年龄≥65岁、无术前痴呆、接受手术时长≥60分钟的老年患者。",
+                "可能适用于类似医疗环境（三级医院）。"
+              ],
+              "nonApplicability": [
+                "不适用于有术前痴呆的患者。",
+                "不适用于手术时长<60分钟的患者。",
+                "外部验证前不能推广至其他人群或中心。"
+              ],
+              "practiceChange": "当前证据不足以支持改变临床实践。",
+              "canDoNow": [
+                "可考虑将模型作为研究工具，但不应直接用于临床决策。"
+              ],
+              "cannotConclude": [
+                "不能确定模型在真实临床环境中的效用。",
+                "不能确定模型是否改善患者结局。"
+              ],
+              "evidenceGaps": [
+                "需要外部验证。",
+                "需要前瞻性干预研究评估临床影响。",
+                "需要报告校准和决策曲线分析。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41850989/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.01.025",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.01.025",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197897/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-39922789",
+          "number": "03",
+          "category": "老年围术期",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-04",
+          "electronicPublicationDate": "2025-02-07",
+          "readingTime": "11 分钟",
+          "title": "大型语言模型生成的围术期神经认知障碍建议与已发表指南的比较：一项横断面网络分析",
+          "originalTitle": "A comparison of large language model-generated and published perioperative neurocognitive disorder recommendations: a cross-sectional web-based analysis.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "围手术期神经认知障碍（PNDs）是手术和麻醉后的常见并发症，尤其在老年人中，导致发病率、死亡率和医疗费用增加。因此，主要医学学会已制定PNDs预防和治疗的建议。我们的研究评估了大型语言模型（特别是ChatGPT-4和Gemini）在生成PND管理建议方面的可靠性，并将其与已发表的指南进行比较。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们在2024年6月进行了一项为期48小时的在线横断面网络分析。人工智能（AI）生成的建议在五个国家的六个不同地点（瑞士、比利时、土耳其、加拿大以及美国东海岸和西海岸）产生。英文提示词“a table of a bundle of care for perioperative neurocognitive disorders”被输入到ChatGPT-4和Gemini中，生成的表格由独立评审员评估。主要结局是总不一致评分（TDS）和医学人工智能质量评估（QAMAI），将AI生成的建议与已发表的指南进行比较。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "该研究生成了14个表格，ChatGPT-4和Gemini的TDS和QAMAI评分结果相似（分别为2 [1-3] vs 2 [2-3]，P=0.636；4 [4-4] vs 4 [3-4]，P=0.424）。AI生成的建议与已发表的指南高度一致，其中ChatGPT-4生成的建议一致性最高。未实现与指南的完全一致，缺乏引用来源是一个已指出的局限性。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "大型语言模型可以生成与已发表指南高度一致的围手术期神经认知障碍建议。然而，在临床应用之前，需要进一步验证并整合临床医生的反馈。"
+              }
+            ],
+            "fullText": "BACKGROUND: 围手术期神经认知障碍（PNDs）是手术和麻醉后的常见并发症，尤其在老年人中，导致发病率、死亡率和医疗费用增加。因此，主要医学学会已制定PNDs预防和治疗的建议。我们的研究评估了大型语言模型（特别是ChatGPT-4和Gemini）在生成PND管理建议方面的可靠性，并将其与已发表的指南进行比较。 METHODS: 我们在2024年6月进行了一项为期48小时的在线横断面网络分析。人工智能（AI）生成的建议在五个国家的六个不同地点（瑞士、比利时、土耳其、加拿大以及美国东海岸和西海岸）产生。英文提示词“a table of a bundle of care for perioperative neurocognitive disorders”被输入到ChatGPT-4和Gemini中，生成的表格由独立评审员评估。主要结局是总不一致评分（TDS）和医学人工智能质量评估（QAMAI），将AI生成的建议与已发表的指南进行比较。 RESULTS: 该研究生成了14个表格，ChatGPT-4和Gemini的TDS和QAMAI评分结果相似（分别为2 [1-3] vs 2 [2-3]，P=0.636；4 [4-4] vs 4 [3-4]，P=0.424）。AI生成的建议与已发表的指南高度一致，其中ChatGPT-4生成的建议一致性最高。未实现与指南的完全一致，缺乏引用来源是一个已指出的局限性。 CONCLUSIONS: 大型语言模型可以生成与已发表指南高度一致的围手术期神经认知障碍建议。然而，在临床应用之前，需要进一步验证并整合临床医生的反馈。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Saxena S, Barreto Chang OL, Suppan M, Meco BC, Vacas S, Radtke F, Matot I, Devos A, et al.",
+          "citation": "Br J Anaesth. 2026 Apr;136(4):1275-1286. doi: 10.1016/j.bja.2025.01.001. Epub 2025 Feb 7.",
+          "doi": "10.1016/j.bja.2025.01.001",
+          "pmid": "39922789",
+          "pmcid": "PMC13168983",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "老年围术期",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "围术期神经认知障碍（PND）是老年患者术后常见并发症，增加发病率和死亡率。大型语言模型（LLM）可能为临床提供快速参考，但其可靠性尚未充分评估。本研究比较了两种主流LLM生成的建议与权威指南的一致性，为AI在围术期医学中的应用提供了初步证据。",
+          "conclusion": "ChatGPT-4和Gemini生成的围术期神经认知障碍管理建议与已发表指南总体一致，但未达到完全一致，且缺乏引用来源，临床应用前需进一步验证。",
+          "clinical": "大型语言模型可能作为围术期神经认知障碍管理的辅助参考工具，但需谨慎使用，不能替代临床判断。 AI生成的建议缺乏引用来源，临床使用时需核实原始指南。 在临床应用中，需结合临床医生反馈进行进一步验证。",
+          "evidence": "中等",
+          "score": 60,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 13,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "横断面网络分析，于2024年6月进行，为期48小时。在五个国家（瑞士、比利时、土耳其、加拿大、美国东西海岸）的六个不同地点生成AI建议，由独立评审员评估。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "当前可获取内容未提供该数据。；14 tables"
+            },
+            {
+              "label": "干预与比较",
+              "value": "AI-generated recommendations using ChatGPT-4 and Gemini；对照：Published guidelines (Brain Health Initiative and Safe Brain Initiative)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Total Disagreement Score (TDS) and Quality Assessment of Medical Artificial Intelligence (QAMAI)"
+            }
+          ],
+          "keyPoints": [
+            "ChatGPT-4和Gemini生成的PND建议与指南一致性相似（TDS P=0.636，QAMAI P=0.424）。",
+            "AI生成的建议未达到完全一致，且缺乏引用来源。",
+            "临床应用前需进一步验证和整合临床医生反馈。"
+          ],
+          "methods": "围术期神经认知障碍（PND）是手术和麻醉后的常见并发症，尤其在老年人中，导致发病率、死亡率和医疗成本增加。因此，主要医学学会制定了PND预防和治疗建议。本研究评估了大型语言模型（特别是ChatGPT-4和Gemini）生成PND管理建议的可靠性，并与已发表指南进行比较。",
+          "results": "共生成14个表格。ChatGPT-4和Gemini的TDS评分分别为2 [1-3] vs 2 [2-3]（P=0.636），QAMAI评分分别为4 [4-4] vs 4 [3-4]（P=0.424），差异无统计学意义。AI生成的建议与已发表指南总体一致，其中ChatGPT-4生成的建议一致性最高。但未达到完全一致，且缺乏引用来源。",
+          "mainResults": "共生成14个表格。ChatGPT-4和Gemini的TDS评分分别为2 [1-3] vs 2 [2-3]（P=0.636），QAMAI评分分别为4 [4-4] vs 4 [3-4]（P=0.424），差异无统计学意义。AI生成的建议与已发表指南总体一致，其中ChatGPT-4生成的建议一致性最高。但未达到完全一致，且缺乏引用来源。",
+          "limitations": [
+            "仅评估了两种LLM（ChatGPT-4和Gemini）。",
+            "所有查询均以英语进行，限制了非英语环境的普适性。",
+            "规模较小，PND建议数量有限，可能限制普适性。",
+            "地理分布仅限于五个国家的评分。",
+            "每个提示仅提交一次，未捕捉变异性。",
+            "AI生成的建议缺乏参考文献。",
+            "评估工具（TDS）缺乏正式验证。",
+            "人类评估者的主观评分可能引入偏倚。",
+            "Gemini在要求一个答案时提供了三个不同的建议。",
+            "缺乏跨大陆的PND护理指南。"
+          ],
+          "practice": [
+            "大型语言模型可能作为围术期神经认知障碍管理的辅助参考工具，但需谨慎使用，不能替代临床判断。",
+            "AI生成的建议缺乏引用来源，临床使用时需核实原始指南。",
+            "在临床应用中，需结合临床医生反馈进行进一步验证。"
+          ],
+          "editor": "AI生成的建议与已发表指南总体一致，TDS和QAMAI评分显示两种模型性能相似，且ChatGPT-4一致性最高。 过度解读风险：研究为横断面设计，样本量小，且未评估临床结局，不能将AI建议等同于临床有效干预。",
+          "whyItMatters": "围术期神经认知障碍（PND）是老年患者术后常见并发症，增加发病率和死亡率。大型语言模型（LLM）可能为临床提供快速参考，但其可靠性尚未充分评估。本研究比较了两种主流LLM生成的建议与权威指南的一致性，为AI在围术期医学中的应用提供了初步证据。",
+          "background": "围术期神经认知障碍（PND）是手术和麻醉后的常见并发症，尤其在老年人中，导致发病率、死亡率和医疗成本增加。因此，主要医学学会制定了PND预防和治疗建议。本研究评估了大型语言模型（特别是ChatGPT-4和Gemini）生成PND管理建议的可靠性，并与已发表指南进行比较。",
+          "pico": {
+            "population": "当前可获取内容未提供该数据。",
+            "intervention": "AI-generated recommendations using ChatGPT-4 and Gemini",
+            "comparison": "Published guidelines (Brain Health Initiative and Safe Brain Initiative)",
+            "outcome": "Total Disagreement Score (TDS) and Quality Assessment of Medical Artificial Intelligence (QAMAI)"
+          },
+          "studyType": "横断面网络分析，于2024年6月进行，为期48小时。在五个国家（瑞士、比利时、土耳其、加拿大、美国东西海岸）的六个不同地点生成AI建议，由独立评审员评估。",
+          "sampleSize": "14 tables",
+          "primaryOutcome": "Total Disagreement Score (TDS) and Quality Assessment of Medical Artificial Intelligence (QAMAI)",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.636",
+            "0.424"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "AI生成的建议与已发表指南总体一致，TDS和QAMAI评分显示两种模型性能相似，且ChatGPT-4一致性最高。",
+            "overinterpretationRisk": "研究为横断面设计，样本量小，且未评估临床结局，不能将AI建议等同于临床有效干预。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节和完整结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估大型语言模型（ChatGPT-4和Gemini）生成的PND管理建议与已发表指南的一致性。",
+              "designFit": "横断面网络分析设计适合评估AI生成建议与指南的一致性，但无法评估临床效果。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "不适用（横断面研究）。",
+              "analysisPopulation": "14个生成的表格。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多地点（五个国家六个地点）生成建议，增加地理多样性。",
+                "使用两种主流LLM进行比较。",
+                "独立评审员评估。"
+              ],
+              "concerns": [
+                "样本量小（14个表格）。",
+                "每个提示仅提交一次，未捕捉变异性。",
+                "评估工具（TDS）缺乏正式验证。",
+                "人类评估主观性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "比较ChatGPT-4和Gemini的TDS和QAMAI评分。",
+                  "reportedResult": "TDS: 2 [1-3] vs 2 [2-3], P=0.636; QAMAI: 4 [4-4] vs 4 [3-4], P=0.424",
+                  "interpretation": "两种模型评分差异无统计学意义。",
+                  "cautions": [
+                    "具体统计方法（如检验类型）未报告，无法评价其适用性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "统计上无显著差异，但临床意义需结合具体评分和指南一致性解释。"
+            },
+            "outcomeAnalysis": {
+              "primary": "总不一致评分（TDS）和医学人工智能质量评估（QAMAI）评分。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多地点评估增加外部有效性。",
+                "比较两种主流LLM。",
+                "使用标准化提示词。"
+              ],
+              "limitations": [
+                "样本量小。",
+                "仅英语查询。",
+                "缺乏引用来源。",
+                "评估工具未验证。",
+                "主观评分。"
+              ],
+              "biasRisks": [
+                "选择偏倚：仅选择两种LLM。",
+                "测量偏倚：TDS未验证。",
+                "实施偏倚：提示词仅提交一次。"
+              ],
+              "certainty": "低确定性：由于横断面设计、小样本和未验证工具，证据等级较低。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎解释。",
+              "causalBoundary": "本研究为观察性比较，不能推断AI建议与临床结局的因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "AI生成的建议可作为临床参考，但需核实原始指南。",
+                "适用于英语环境下的围术期神经认知障碍管理。"
+              ],
+              "nonApplicability": [
+                "非英语环境可能不适用。",
+                "不能替代临床决策。"
+              ],
+              "practiceChange": "当前证据不足以支持改变临床实践。",
+              "canDoNow": [
+                "临床医生可参考AI生成的建议，但需对照已发表指南。"
+              ],
+              "cannotConclude": [
+                "不能得出AI建议优于或等同于指南的结论。",
+                "不能评估AI建议对临床结局的影响。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本、多语言、多模型的研究。",
+                "需要验证评估工具。",
+                "需要评估AI建议的临床效果。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39922789/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.01.001",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.01.001",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13168983/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41951491",
+          "number": "04",
+          "category": "气道管理",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-04-07",
+          "electronicPublicationDate": "2026-04-07",
+          "readingTime": "11 分钟",
+          "title": "氯胺酮与替代药物预防危重症成人气管插管诱导后血流动力学不稳定的系统评价与Meta分析",
+          "originalTitle": "Ketamine versus alternate agents to prevent postinduction haemodynamic instability during tracheal intubation of critically ill adults: a systematic review and meta-analysis.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "诱导后血流动力学不稳定在需要紧急气管插管的危重成人中很常见。氯胺酮常用于被认为有血流动力学不稳定高风险患者的麻醉诱导；然而，与其他诱导药物相比，其血流动力学效应仍不确定。我们旨在评估氯胺酮与替代诱导药物相比对紧急气管插管期间诱导后血流动力学不稳定及其他临床重要结局的影响。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们根据前瞻性注册的国际系统评价前瞻性注册方案（CRD42024618433）和系统评价与荟萃分析优先报告条目指南进行了系统评价和荟萃分析。纳入在急诊科或重症监护室接受气管插管的成人随机对照试验。检索了六个数据库和三个试验注册库，截至2025年11月5日，并补充了RSI试验的预发表访问。主要结局是跨试验协调的诱导后血流动力学不稳定。使用随机效应模型和Hartung-Knapp调整。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "十项试验（n=4673）符合纳入标准，其中九项以依托咪酯作为对照，一项使用咪达唑仑和舒芬太尼方案。与依托咪酯相比，氯胺酮诱导后血流动力学不稳定的风险显著更高（风险比1.28 [1.13-1.45]）。然而，与替代对照相比，氯胺酮似乎更优（风险比0.51 [0.29-0.89]）。在死亡率、无呼吸机天数或无ICU天数方面没有差异。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "氯胺酮在插管期间似乎与依托咪酯相比血流动力学稳定性较差，但可能比其他药物表现更好，且对长期结局无影响。"
+              }
+            ],
+            "fullText": "BACKGROUND: 诱导后血流动力学不稳定在需要紧急气管插管的危重成人中很常见。氯胺酮常用于被认为有血流动力学不稳定高风险患者的麻醉诱导；然而，与其他诱导药物相比，其血流动力学效应仍不确定。我们旨在评估氯胺酮与替代诱导药物相比对紧急气管插管期间诱导后血流动力学不稳定及其他临床重要结局的影响。 METHODS: 我们根据前瞻性注册的国际系统评价前瞻性注册方案（CRD42024618433）和系统评价与荟萃分析优先报告条目指南进行了系统评价和荟萃分析。纳入在急诊科或重症监护室接受气管插管的成人随机对照试验。检索了六个数据库和三个试验注册库，截至2025年11月5日，并补充了RSI试验的预发表访问。主要结局是跨试验协调的诱导后血流动力学不稳定。使用随机效应模型和Hartung-Knapp调整。 RESULTS: 十项试验（n=4673）符合纳入标准，其中九项以依托咪酯作为对照，一项使用咪达唑仑和舒芬太尼方案。与依托咪酯相比，氯胺酮诱导后血流动力学不稳定的风险显著更高（风险比1.28 [1.13-1.45]）。然而，与替代对照相比，氯胺酮似乎更优（风险比0.51 [0.29-0.89]）。在死亡率、无呼吸机天数或无ICU天数方面没有差异。 CONCLUSIONS: 氯胺酮在插管期间似乎与依托咪酯相比血流动力学稳定性较差，但可能比其他药物表现更好，且对长期结局无影响。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Loughnan D, Walker HGM, Woodland N, Finlayson S, Wilding H, Serpa Neto A, Deane AM, Semler MW, et al.",
+          "citation": "Br J Anaesth. 2026 Apr 7:S0007-0912(26)00132-7. doi: 10.1016/j.bja.2026.02.023.",
+          "doi": "10.1016/j.bja.2026.02.023",
+          "pmid": "41951491",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-design"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "诱导后血流动力学不稳定是危重症患者紧急气管插管的常见并发症，与不良预后相关。氯胺酮常被用于高风险患者，但其血流动力学效应与其他诱导药物相比尚不确定。该Meta分析为临床选择诱导药物提供了量化证据，有助于优化围插管期管理。",
+          "conclusion": "在危重症成人紧急气管插管中，与依托咪酯相比，氯胺酮与诱导后血流动力学不稳定的风险显著增加相关，但与其他替代药物相比可能更优，且对死亡率、无呼吸机天数和无ICU天数无显著影响。",
+          "clinical": "对于血流动力学不稳定的高风险患者，氯胺酮可能并非优于依托咪酯，需权衡其血流动力学效应与潜在获益。 氯胺酮与其他替代药物（如咪达唑仑联合舒芬太尼）相比可能更优，但证据有限。 长期结局（死亡率、无呼吸机天数、无ICU天数）无差异，提示短期血流动力学差异可能不转化为长期获益。",
+          "evidence": "中等",
+          "score": 60,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 10,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价和Meta分析，遵循前瞻性注册的PROSPERO方案（CRD42024618433）和PRISMA指南，纳入随机对照试验，检索6个数据库和3个试验注册库至2025年11月5日，并使用随机效应模型（Hartung-Knapp调整）。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "critically ill adults undergoing emergency tracheal intubation；4673"
+            },
+            {
+              "label": "干预与比较",
+              "value": "ketamine；对照：etomidate (nine trials) and midazolam plus sufentanil (one trial)"
+            },
+            {
+              "label": "主要终点",
+              "value": "postinduction haemodynamic instability"
+            }
+          ],
+          "keyPoints": [
+            "氯胺酮与依托咪酯相比，诱导后血流动力学不稳定风险增加28%（RR 1.28，95%CI 1.13-1.45）。",
+            "氯胺酮与替代对照（咪达唑仑+舒芬太尼）相比，风险降低49%（RR 0.51，95%CI 0.29-0.89），但仅基于1项试验。",
+            "死亡率、无呼吸机天数、无ICU天数无显著差异。",
+            "共纳入10项随机对照试验，4673名患者。"
+          ],
+          "methods": "危重症成人紧急气管插管后常发生诱导后血流动力学不稳定。氯胺酮因其拟交感特性被用于高风险患者，但其相对其他诱导药物的血流动力学影响仍不确定。本研究旨在评估氯胺酮与替代诱导药物相比对诱导后血流动力学不稳定及其他临床重要结局的影响。",
+          "results": "共纳入10项试验（n=4673），其中9项以依托咪酯为对照，1项以咪达唑仑联合舒芬太尼为对照。与依托咪酯相比，氯胺酮显著增加诱导后血流动力学不稳定风险（风险比1.28 [1.13-1.45]）；与替代对照相比，氯胺酮似乎更优（风险比0.51 [0.29-0.89]）。死亡率、无呼吸机天数和无ICU天数无显著差异。",
+          "mainResults": "共纳入10项试验（n=4673），其中9项以依托咪酯为对照，1项以咪达唑仑联合舒芬太尼为对照。与依托咪酯相比，氯胺酮显著增加诱导后血流动力学不稳定风险（风险比1.28 [1.13-1.45]）；与替代对照相比，氯胺酮似乎更优（风险比0.51 [0.29-0.89]）。死亡率、无呼吸机天数和无ICU天数无显著差异。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "对于血流动力学不稳定的高风险患者，氯胺酮可能并非优于依托咪酯，需权衡其血流动力学效应与潜在获益。",
+            "氯胺酮与其他替代药物（如咪达唑仑联合舒芬太尼）相比可能更优，但证据有限。",
+            "长期结局（死亡率、无呼吸机天数、无ICU天数）无差异，提示短期血流动力学差异可能不转化为长期获益。"
+          ],
+          "editor": "该Meta分析基于随机对照试验，样本量较大，主要结局效应量明确，置信区间较窄，支持氯胺酮与依托咪酯相比增加血流动力学不稳定风险的结论。 过度解读风险：需注意，与替代对照的比较仅基于1项试验，证据强度有限；且未报告P值，统计学显著性需谨慎解读。",
+          "whyItMatters": "诱导后血流动力学不稳定是危重症患者紧急气管插管的常见并发症，与不良预后相关。氯胺酮常被用于高风险患者，但其血流动力学效应与其他诱导药物相比尚不确定。该Meta分析为临床选择诱导药物提供了量化证据，有助于优化围插管期管理。",
+          "background": "危重症成人紧急气管插管后常发生诱导后血流动力学不稳定。氯胺酮因其拟交感特性被用于高风险患者，但其相对其他诱导药物的血流动力学影响仍不确定。本研究旨在评估氯胺酮与替代诱导药物相比对诱导后血流动力学不稳定及其他临床重要结局的影响。",
+          "pico": {
+            "population": "critically ill adults undergoing emergency tracheal intubation",
+            "intervention": "ketamine",
+            "comparison": "etomidate (nine trials) and midazolam plus sufentanil (one trial)",
+            "outcome": "postinduction haemodynamic instability"
+          },
+          "studyType": "系统评价和Meta分析，遵循前瞻性注册的PROSPERO方案（CRD42024618433）和PRISMA指南，纳入随机对照试验，检索6个数据库和3个试验注册库至2025年11月5日，并使用随机效应模型（Hartung-Knapp调整）。",
+          "sampleSize": "4673",
+          "primaryOutcome": "postinduction haemodynamic instability",
+          "effectSize": [
+            "1.28",
+            "0.51"
+          ],
+          "confidenceInterval": [
+            "1.13-1.45",
+            "0.29-0.89"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该Meta分析基于随机对照试验，样本量较大，主要结局效应量明确，置信区间较窄，支持氯胺酮与依托咪酯相比增加血流动力学不稳定风险的结论。",
+            "overinterpretationRisk": "需注意，与替代对照的比较仅基于1项试验，证据强度有限；且未报告P值，统计学显著性需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文数据，无法评估方法学细节、偏倚风险和异质性。",
+                "未报告P值、异质性指标、敏感性分析等统计细节。",
+                "未提供纳入试验的具体特征和偏倚风险评估。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "氯胺酮与替代诱导药物相比，对危重症成人紧急气管插管诱导后血流动力学不稳定及其他临床结局的影响。",
+              "designFit": "系统评价和Meta分析适用于汇总多个随机对照试验的证据，回答干预效果问题。",
+              "eligibility": "纳入在急诊科或重症监护室接受气管插管的成人随机对照试验。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "基于随机对照试验，证据等级较高。",
+                "样本量较大（4673例）。",
+                "遵循PRISMA指南和前瞻性注册方案。"
+              ],
+              "concerns": [
+                "仅基于摘要，无法评估方法学质量。",
+                "未报告异质性、偏倚风险等关键信息。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "meta-random-effects",
+                  "name": "随机效应Meta分析",
+                  "purposeInStudy": "汇总不同试验中氯胺酮与对照药物对诱导后血流动力学不稳定影响的效应量，允许真实效应在研究间存在差异。",
+                  "reportedResult": "氯胺酮 vs 依托咪酯：RR 1.28 [1.13-1.45]；氯胺酮 vs 替代对照：RR 0.51 [0.29-0.89]。",
+                  "interpretation": "与依托咪酯相比，氯胺酮显著增加血流动力学不稳定风险；与替代对照相比，氯胺酮风险更低。",
+                  "cautions": [
+                    "未报告P值，统计学显著性需谨慎。",
+                    "替代对照仅基于1项试验，证据有限。",
+                    "未报告异质性，可能影响结果稳健性。"
+                  ],
+                  "standardExplanation": "汇总允许真实效应在研究间不同的证据；需结合异质性、预测区间和研究质量解释。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "氯胺酮与依托咪酯相比在统计学上显著增加血流动力学不稳定风险，但临床意义需结合绝对风险差异和患者具体情况评估。"
+            },
+            "outcomeAnalysis": {
+              "primary": "诱导后血流动力学不稳定：氯胺酮 vs 依托咪酯 RR 1.28 [1.13-1.45]；氯胺酮 vs 替代对照 RR 0.51 [0.29-0.89]。",
+              "secondary": [
+                "死亡率：无显著差异。",
+                "无呼吸机天数：无显著差异。",
+                "无ICU天数：无显著差异。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "基于随机对照试验，证据等级较高。",
+                "样本量较大。",
+                "遵循PRISMA指南。"
+              ],
+              "limitations": [
+                "仅基于摘要，无法评估方法学细节。",
+                "未报告P值、异质性、偏倚风险等。",
+                "替代对照仅1项试验，证据有限。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "当前可获取内容未提供该数据。",
+              "conclusionAlignment": "结论与结果一致，但需注意证据局限性。",
+              "causalBoundary": "由于是Meta分析，可提供因果证据，但需考虑纳入试验的质量和异质性。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于急诊科或ICU中需要紧急气管插管的危重症成人。",
+                "结果可用于指导诱导药物的选择，特别是血流动力学不稳定的高风险患者。"
+              ],
+              "nonApplicability": [
+                "不适用于非紧急插管或儿童患者。",
+                "不适用于其他诱导药物或联合用药方案。"
+              ],
+              "practiceChange": "可能改变临床实践，但需结合患者个体情况和临床判断。",
+              "canDoNow": [
+                "在考虑诱导药物时，应权衡氯胺酮与依托咪酯的血流动力学风险差异。",
+                "对于血流动力学不稳定风险极高的患者，可考虑替代药物，但需更多证据。"
+              ],
+              "cannotConclude": [
+                "无法确定氯胺酮与替代对照（咪达唑仑+舒芬太尼）比较的可靠性，因仅1项试验。",
+                "无法评估长期结局的差异，因未显示显著差异。"
+              ],
+              "evidenceGaps": [
+                "需要更多直接比较氯胺酮与其他诱导药物的随机对照试验。",
+                "需要报告P值、异质性、敏感性分析等统计细节。",
+                "需要评估不同亚组（如不同疾病严重程度）的效果差异。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41951491/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.02.023",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.02.023",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41748335",
+          "number": "05",
+          "category": "老年围术期",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-05",
+          "electronicPublicationDate": "2026-02-26",
+          "readingTime": "12 分钟",
+          "title": "英国老年患者术后谵妄的术后结局：SNAP-3快照观察性研究",
+          "originalTitle": "Postoperative outcomes in older patients with postoperative delirium in the UK: SNAP-3, a snapshot observational study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "谵妄发生在约6%的老年手术患者中，在年龄更大、体弱或接受紧急手术的患者中更为常见。它与不良术后结局相关。然而，目前尚不清楚谵妄在多大程度上是导致更差结局的原因，以及在多大程度上是其他既有脆弱性的标志。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们进行了一项前瞻性观察性队列研究，研究对象为2022年3月5天内接受手术（不包括小手术）的60岁及以上的英国患者。收集了患者特征和临床变量、术后谵妄、住院时间（LOS）、发病率和死亡率的数据。使用四个A测试或重症监护室混淆评估方法工具在术后第3天和第7天评估谵妄，并辅以结构化笔记审查。我们使用分位数回归和混合效应逻辑回归分析了谵妄对术后结局的影响，并通过有向无环图调整混杂因素，使用多重插补处理协变量缺失数据。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "分析包括来自214家医院的7128名患者。谵妄的发生率为6.7%（479/7128）。谵妄与更长的住院时间（中位住院时间增加5.2天，效应估计95%置信区间[CI]，3.8-6.5）、更高的术后发病率（调整后优势比[aOR]，10.2；95% CI，7.4-13.9）、120天死亡率（aOR，1.8；95% CI，1.2-2.6）和1年死亡率（aOR，2.0；95% CI，1.5-2.7）相关。排除低风险日间手术患者的敏感性分析与主要分析结果相似。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "谵妄在老年手术患者中常见，对术后结局产生负面影响，因此必须纳入考虑手术干预患者的围手术期共同决策中。"
+              }
+            ],
+            "fullText": "BACKGROUND: 谵妄发生在约6%的老年手术患者中，在年龄更大、体弱或接受紧急手术的患者中更为常见。它与不良术后结局相关。然而，目前尚不清楚谵妄在多大程度上是导致更差结局的原因，以及在多大程度上是其他既有脆弱性的标志。 METHODS: 我们进行了一项前瞻性观察性队列研究，研究对象为2022年3月5天内接受手术（不包括小手术）的60岁及以上的英国患者。收集了患者特征和临床变量、术后谵妄、住院时间（LOS）、发病率和死亡率的数据。使用四个A测试或重症监护室混淆评估方法工具在术后第3天和第7天评估谵妄，并辅以结构化笔记审查。我们使用分位数回归和混合效应逻辑回归分析了谵妄对术后结局的影响，并通过有向无环图调整混杂因素，使用多重插补处理协变量缺失数据。 RESULTS: 分析包括来自214家医院的7128名患者。谵妄的发生率为6.7%（479/7128）。谵妄与更长的住院时间（中位住院时间增加5.2天，效应估计95%置信区间[CI]，3.8-6.5）、更高的术后发病率（调整后优势比[aOR]，10.2；95% CI，7.4-13.9）、120天死亡率（aOR，1.8；95% CI，1.2-2.6）和1年死亡率（aOR，2.0；95% CI，1.5-2.7）相关。排除低风险日间手术患者的敏感性分析与主要分析结果相似。 CONCLUSIONS: 谵妄在老年手术患者中常见，对术后结局产生负面影响，因此必须纳入考虑手术干预患者的围手术期共同决策中。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Blake HA, Swarbrick CJ, Williams K, Evans B, Poulton T, Nava S, Shah A, Martin P, et al.",
+          "citation": "Br J Anaesth. 2026 May;136(5):1578-1587. doi: 10.1016/j.bja.2026.01.030. Epub 2026 Feb 26.",
+          "doi": "10.1016/j.bja.2026.01.030",
+          "pmid": "41748335",
+          "pmcid": "PMC13197927",
+          "publicationTypes": [
+            "Journal Article",
+            "Observational Study"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "老年围术期",
+            "Journal Article",
+            "Observational Study"
+          ],
+          "question": "术后谵妄在老年手术患者中常见，且与不良预后相关，但既往研究多未能充分区分谵妄的独立效应与患者基础脆弱性的混杂影响。本研究基于大型前瞻性多中心队列，通过校正多种混杂因素，为谵妄对术后结局的独立影响提供了更可靠的证据，强调在围术期决策中应重视谵妄的预防与管理。",
+          "conclusion": "在英国老年手术患者中，术后谵妄与更长的住院时间、更高的术后并发症、120天和1年死亡率独立相关，提示谵妄是术后不良结局的重要标志物。",
+          "clinical": "术后谵妄与住院时间延长和死亡率增加独立相关，提示麻醉和围术期管理中应重视谵妄的预防和早期识别。 谵妄应纳入老年患者手术前的共同决策讨论，帮助患者和家属了解术后风险。 麻醉医生可考虑优化围术期管理策略（如避免高风险药物、加强监测）以降低谵妄风险，但本研究未提供具体干预措施的证据。",
+          "evidence": "中等",
+          "score": 59,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 16,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性观察性队列研究（多中心快照研究）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "UK patients aged 60 yr and above undergoing surgery (excluding minor procedures) over 5 days in March 2022；7128 patients from 214 hospitals"
+            },
+            {
+              "label": "干预与比较",
+              "value": "术后谵妄（通过4AT或CAM-ICU评估，结合结构化病历审查）；对照：无术后谵妄的患者"
+            },
+            {
+              "label": "主要终点",
+              "value": "Postoperative length of stay (LOS)"
+            }
+          ],
+          "keyPoints": [
+            "谵妄发生率为6.7%（479/7128）。",
+            "谵妄与中位住院时间增加5.2天相关（95%CI 3.8-6.5）。",
+            "谵妄与术后并发症风险显著升高相关（aOR 10.2，95%CI 7.4-13.9）。",
+            "谵妄与120天死亡率（aOR 1.8，95%CI 1.2-2.6）和1年死亡率（aOR 2.0，95%CI 1.5-2.7）升高相关。",
+            "排除日间手术患者的敏感性分析结果与主要分析一致。"
+          ],
+          "methods": "谵妄在约6%的老年手术患者中发生，在年龄更大、衰弱或接受急诊手术的患者中更常见。谵妄与不良术后结局相关，但谵妄在多大程度上是导致更差结局的原因，还是仅作为其他既有脆弱性的标志，尚不清楚。",
+          "results": "共纳入来自214家医院的7128例患者，谵妄发生率为6.7%（479/7128）。谵妄与中位住院时间增加5.2天（效应估计95%CI 3.8-6.5）、术后并发症风险升高（校正OR 10.2，95%CI 7.4-13.9）、120天死亡率升高（校正OR 1.8，95%CI 1.2-2.6）及1年死亡率升高（校正OR 2.0，95%CI 1.5-2.7）相关。排除低风险日间手术患者的敏感性分析与主要分析结果相似。",
+          "mainResults": "共纳入来自214家医院的7128例患者，谵妄发生率为6.7%（479/7128）。谵妄与中位住院时间增加5.2天（效应估计95%CI 3.8-6.5）、术后并发症风险升高（校正OR 10.2，95%CI 7.4-13.9）、120天死亡率升高（校正OR 1.8，95%CI 1.2-2.6）及1年死亡率升高（校正OR 2.0，95%CI 1.5-2.7）相关。排除低风险日间手术患者的敏感性分析与主要分析结果相似。",
+          "limitations": [
+            "并非所有符合条件的患者都被纳入，存在非随机缺失的可能性。",
+            "谵妄因波动性和漏诊难以在大规模研究中可靠捕捉。",
+            "由于通过4AT以外方法识别的谵妄事件数量较少，未在建模中调整评估方法。",
+            "尽管队列较大，但亚组分析因样本量小而受限。",
+            "所有观察性研究均存在测量和非测量混杂因素的风险。",
+            "无法调整未测量的混杂因素，如认知功能、饮酒等易感因素，以及致病药物或疼痛等诱发因素。"
+          ],
+          "practice": [
+            "术后谵妄与住院时间延长和死亡率增加独立相关，提示麻醉和围术期管理中应重视谵妄的预防和早期识别。",
+            "谵妄应纳入老年患者手术前的共同决策讨论，帮助患者和家属了解术后风险。",
+            "麻醉医生可考虑优化围术期管理策略（如避免高风险药物、加强监测）以降低谵妄风险，但本研究未提供具体干预措施的证据。"
+          ],
+          "editor": "研究为前瞻性多中心队列，样本量大，使用多种统计方法校正混杂，并进行了敏感性分析，结果支持谵妄与不良结局的独立关联。 过度解读风险：观察性研究不能证明因果关系，谵妄可能仍是潜在脆弱性的标志而非直接原因；OR值在结局常见时不能直接解释为风险比。",
+          "whyItMatters": "术后谵妄在老年手术患者中常见，且与不良预后相关，但既往研究多未能充分区分谵妄的独立效应与患者基础脆弱性的混杂影响。本研究基于大型前瞻性多中心队列，通过校正多种混杂因素，为谵妄对术后结局的独立影响提供了更可靠的证据，强调在围术期决策中应重视谵妄的预防与管理。",
+          "background": "谵妄在约6%的老年手术患者中发生，在年龄更大、衰弱或接受急诊手术的患者中更常见。谵妄与不良术后结局相关，但谵妄在多大程度上是导致更差结局的原因，还是仅作为其他既有脆弱性的标志，尚不清楚。",
+          "pico": {
+            "population": "UK patients aged 60 yr and above undergoing surgery (excluding minor procedures) over 5 days in March 2022",
+            "intervention": "术后谵妄（通过4AT或CAM-ICU评估，结合结构化病历审查）",
+            "comparison": "无术后谵妄的患者",
+            "outcome": "Postoperative length of stay (LOS)"
+          },
+          "studyType": "前瞻性观察性队列研究（多中心快照研究）",
+          "sampleSize": "7128 patients from 214 hospitals",
+          "primaryOutcome": "Postoperative length of stay (LOS)",
+          "effectSize": [
+            "5.2 days",
+            "aOR 10.2",
+            "aOR 1.8",
+            "aOR 2.0"
+          ],
+          "confidenceInterval": [
+            "3.8-6.5",
+            "7.4-13.9",
+            "1.2-2.6",
+            "1.5-2.7"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究为前瞻性多中心队列，样本量大，使用多种统计方法校正混杂，并进行了敏感性分析，结果支持谵妄与不良结局的独立关联。",
+            "overinterpretationRisk": "观察性研究不能证明因果关系，谵妄可能仍是潜在脆弱性的标志而非直接原因；OR值在结局常见时不能直接解释为风险比。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容仅包括摘要和部分全文节选，未提供完整的统计方法细节、患者流程图、亚组分析结果等。",
+                "未提供原始数据，无法独立验证结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "术后谵妄在多大程度上独立影响老年手术患者的术后结局（住院时间、并发症、死亡率）？",
+              "designFit": "前瞻性观察性队列研究适合评估暴露（谵妄）与结局的关联，但无法确立因果关系。",
+              "eligibility": "英国60岁及以上、2022年3月5天内接受手术（排除小手术）的患者。",
+              "randomization": "不适用（观察性研究）。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "不适用（观察性研究）。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "随访至术后1年（评估30天、120天和1年死亡率）。",
+              "analysisPopulation": "分析纳入7128例患者（来自214家医院）。",
+              "missingData": "协变量缺失数据使用多重插补处理。",
+              "strengths": [
+                "大型多中心前瞻性队列，样本量大。",
+                "使用多种工具评估谵妄（4AT、CAM-ICU）并结合结构化病历审查。",
+                "使用有向无环图（DAG）指导混杂调整，并采用多重插补处理缺失数据。",
+                "进行了敏感性分析（排除日间手术患者）。"
+              ],
+              "concerns": [
+                "观察性研究存在残余混杂风险。",
+                "谵妄评估可能漏诊或误分类。",
+                "未调整所有潜在混杂因素（如认知、饮酒、药物等）。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "logistic-regression",
+                  "name": "Logistic回归",
+                  "purposeInStudy": "评估谵妄与术后并发症、死亡率等二分类结局的关联，计算校正比值比（aOR）。",
+                  "reportedResult": "术后并发症aOR 10.2（95%CI 7.4-13.9）；120天死亡率aOR 1.8（95%CI 1.2-2.6）；1年死亡率aOR 2.0（95%CI 1.5-2.7）。",
+                  "interpretation": "谵妄与这些结局风险增加相关，但OR不能直接解释为风险比，尤其在结局常见时。",
+                  "cautions": [
+                    "OR可能高估风险比，尤其在结局发生率较高时。",
+                    "观察性研究中的关联不能证明因果。"
+                  ],
+                  "standardExplanation": "分析二分类结局并常以比值比表示关联；比值比不能在结局常见时直接当作风险比。"
+                },
+                {
+                  "referenceId": "mixed-effects",
+                  "name": "混合效应模型",
+                  "purposeInStudy": "处理患者数据可能存在的医院或中心聚集性，估计固定效应（谵妄）和随机效应（医院）。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "混合效应模型考虑了数据层次结构，可提高估计的准确性。",
+                  "cautions": [
+                    "未提供具体模型细节，无法评估其适用性。"
+                  ],
+                  "standardExplanation": "处理重复测量、中心或个体内相关性，同时估计固定效应和随机效应。"
+                },
+                {
+                  "referenceId": null,
+                  "name": "分位数回归",
+                  "purposeInStudy": "评估谵妄对住院时间（LOS）分布不同分位数的影响，报告了中位数差异。",
+                  "reportedResult": "中位LOS增加5.2天（95%CI 3.8-6.5）。",
+                  "interpretation": "谵妄与LOS中位数增加相关，但未提供其他分位数信息。",
+                  "cautions": [
+                    "分位数回归结果可能受极端值影响。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "研究结果具有统计学显著性，且效应量较大（如并发症aOR 10.2），提示临床意义可能重要，但需结合临床背景解读。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后住院时间（LOS）：谵妄与中位LOS增加5.2天相关（95%CI 3.8-6.5）。",
+              "secondary": [
+                "术后并发症：aOR 10.2（95%CI 7.4-13.9）。",
+                "120天死亡率：aOR 1.8（95%CI 1.2-2.6）。",
+                "1年死亡率：aOR 2.0（95%CI 1.5-2.7）。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "排除低风险日间手术患者的敏感性分析结果与主要分析相似。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "大型多中心前瞻性设计，样本量大。",
+                "使用多种方法评估谵妄，并校正多个混杂因素。",
+                "进行了敏感性分析。"
+              ],
+              "limitations": [
+                "观察性研究，存在残余混杂。",
+                "谵妄评估可能不完整。",
+                "未调整所有潜在混杂因素。",
+                "亚组分析受限。"
+              ],
+              "biasRisks": [
+                "选择偏倚：并非所有符合条件的患者都被纳入。",
+                "信息偏倚：谵妄评估可能漏诊。",
+                "混杂偏倚：未测量混杂因素。"
+              ],
+              "certainty": "中等（观察性研究，但设计严谨，结果一致）。",
+              "conclusionAlignment": "结论与结果一致，但需注意因果推断的限制。",
+              "causalBoundary": "研究不能证明谵妄导致不良结局，只能说明谵妄与不良结局独立相关。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于英国60岁及以上接受手术的患者，可能可推广至类似医疗环境。",
+                "结果支持在围术期管理中重视谵妄的预防和早期识别。"
+              ],
+              "nonApplicability": [
+                "不适用于小手术或日间手术患者（但敏感性分析显示结果相似）。",
+                "不适用于其他年龄段或不同医疗体系。"
+              ],
+              "practiceChange": "可能促使临床医生在术前讨论中纳入谵妄风险，并加强术后谵妄筛查。",
+              "canDoNow": [
+                "在老年患者术前评估中考虑谵妄风险因素。",
+                "术后常规使用4AT或CAM-ICU筛查谵妄。"
+              ],
+              "cannotConclude": [
+                "不能确定谵妄与不良结局的因果关系。",
+                "不能确定预防谵妄是否能改善这些结局。"
+              ],
+              "evidenceGaps": [
+                "需要随机对照试验评估谵妄预防干预对术后结局的影响。",
+                "需要更全面的谵妄评估方法。",
+                "需要更多亚组分析以确定高风险人群。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41748335/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.01.030",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.01.030",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197927/"
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-06T00:09:14.486Z",
       "mode": "production",
