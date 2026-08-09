@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Aug 2026 23:41:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 23:42:20 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-10 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-10/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-10/</guid>
+      <pubDate>Sun, 09 Aug 2026 23:42:20 GMT</pubDate>
+      <description>背内侧导水管周围灰质谷氨酸能神经元在多种全身麻醉药促进觉醒中的作用：在小鼠中，背内侧导水管周围灰质（dmPAG）谷氨酸能神经元在七氟烷麻醉期间活性受抑制，光遗传学或化学遗传学激活这些神经元可延长麻醉诱导时间、缩短苏醒时间并降低爆发抑制比，提示其可能是多种全身麻醉药促进觉醒的共同神经底物。
+麻醉培训中的气道超声：一项范围综述：本范围综述显示，气道超声在麻醉培训中的整合存在显著的全球差异，尽管其临床价值日益受到认可，但正式教学仍不一致且常为可选，需建立标准化能力和循证评估框架。
+麻醉期间做梦：一项范围综述：麻醉期间做梦较为常见，多为愉悦性梦境，且与麻醉药物种类相关，但与术中知晓无关，提示其并非麻醉深度不足的标志。
+功能失调的静息态网络连接可预测大手术后谵妄：术前静息态功能连接异常，特别是默认模式网络、突显-腹侧注意网络和认知控制网络内连接减弱，与术后谵妄风险增加相关，但预测准确率仅68%，尚不足以作为独立临床预测工具。
+心脏手术期间脑灌注压的血流动力学决定因素与术后谵妄的关联：一项回顾性队列研究：在心脏手术患者中，术后谵妄与脑低灌注区间的暴露时间相关，但模拟干预提示减少低灌注和高灌注时间可能降低谵妄风险，仍需前瞻性试验验证。</description>
+    </item>
     <item>
       <title>2026-08-08 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-08/</link>

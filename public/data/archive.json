@@ -1,7 +1,239 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T23:41:24.612Z",
+  "updatedAt": "2026-08-09T23:42:20.737Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-09T23:42:20.737Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-10T23:42:20.737Z",
+        "to": "2026-08-09T23:42:20.737Z",
+        "candidateCount": 268,
+        "discoveryCandidateCount": 10576,
+        "unseenCount": 204,
+        "duplicateCount": 64,
+        "priorityCandidateCount": 268,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 268,
+          "retrievedCount": 268,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 291,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 22
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 11
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of neuroscience methods",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The Journal of surgical research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Acta orthopaedica Belgica",
+              "reason": "journal-not-configured",
+              "count": 2
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 204,
+          "eligibleCount": 181,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 154,
+          "clinical": 106,
+          "basic": 10,
+          "other": 38
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41396731",
+          "title": "背内侧导水管周围灰质谷氨酸能神经元在多种全身麻醉药促进觉醒中的作用",
+          "originalTitle": "Role of Dorsomedial Periaqueductal Gray Glutamatergic Neurons in Promoting Arousal under Multiple General Anesthetics in Mice.",
+          "journal": "Anesthesiology",
+          "conclusion": "在小鼠中，背内侧导水管周围灰质（dmPAG）谷氨酸能神经元在七氟烷麻醉期间活性受抑制，光遗传学或化学遗传学激活这些神经元可延长麻醉诱导时间、缩短苏醒时间并降低爆发抑制比，提示其可能是多种全身麻醉药促进觉醒的共同神经底物。",
+          "pmid": "41396731"
+        },
+        {
+          "slug": "pmid-42025562",
+          "title": "麻醉培训中的气道超声：一项范围综述",
+          "originalTitle": "Airway ultrasound in anaesthesia training: a scoping review.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "本范围综述显示，气道超声在麻醉培训中的整合存在显著的全球差异，尽管其临床价值日益受到认可，但正式教学仍不一致且常为可选，需建立标准化能力和循证评估框架。",
+          "pmid": "42025562"
+        },
+        {
+          "slug": "pmid-42270528",
+          "title": "麻醉期间做梦：一项范围综述",
+          "originalTitle": "Dreaming during anaesthesia: a scoping review.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "麻醉期间做梦较为常见，多为愉悦性梦境，且与麻醉药物种类相关，但与术中知晓无关，提示其并非麻醉深度不足的标志。",
+          "pmid": "42270528"
+        },
+        {
+          "slug": "pmid-41475933",
+          "title": "功能失调的静息态网络连接可预测大手术后谵妄",
+          "originalTitle": "Dysfunctional resting state network connectivity predicts postoperative delirium after major surgery.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "术前静息态功能连接异常，特别是默认模式网络、突显-腹侧注意网络和认知控制网络内连接减弱，与术后谵妄风险增加相关，但预测准确率仅68%，尚不足以作为独立临床预测工具。",
+          "pmid": "41475933"
+        },
+        {
+          "slug": "pmid-42091344",
+          "title": "心脏手术期间脑灌注压的血流动力学决定因素与术后谵妄的关联：一项回顾性队列研究",
+          "originalTitle": "Association of postoperative delirium with haemodynamic determinants of cerebral perfusion pressure during cardiac surgery: a retrospective cohort study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在心脏手术患者中，术后谵妄与脑低灌注区间的暴露时间相关，但模拟干预提示减少低灌注和高灌注时间可能降低谵妄风险，仍需前瞻性试验验证。",
+          "pmid": "42091344"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-07T23:41:24.612Z",
       "search": {

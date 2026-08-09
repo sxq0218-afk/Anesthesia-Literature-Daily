@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-07T23:41:24.612Z",
+  "updatedAt": "2026-08-09T23:42:20.737Z",
   "records": [
     {
       "pmid": "42359695",
@@ -633,6 +633,46 @@
       "status": "published",
       "runId": "2026-08-07T23-41-24.612Z",
       "firstPublishedAt": "2026-08-07T23:41:24.612Z"
+    },
+    {
+      "pmid": "41396731",
+      "doi": "10.1097/aln.0000000000005903",
+      "title": "Role of Dorsomedial Periaqueductal Gray Glutamatergic Neurons in Promoting Arousal under Multiple General Anesthetics in Mice.",
+      "status": "published",
+      "runId": "2026-08-09T23-42-20.737Z",
+      "firstPublishedAt": "2026-08-09T23:42:20.737Z"
+    },
+    {
+      "pmid": "42025562",
+      "doi": "10.1016/j.bja.2026.03.017",
+      "title": "Airway ultrasound in anaesthesia training: a scoping review.",
+      "status": "published",
+      "runId": "2026-08-09T23-42-20.737Z",
+      "firstPublishedAt": "2026-08-09T23:42:20.737Z"
+    },
+    {
+      "pmid": "42270528",
+      "doi": "10.1016/j.bja.2026.05.002",
+      "title": "Dreaming during anaesthesia: a scoping review.",
+      "status": "published",
+      "runId": "2026-08-09T23-42-20.737Z",
+      "firstPublishedAt": "2026-08-09T23:42:20.737Z"
+    },
+    {
+      "pmid": "41475933",
+      "doi": "10.1016/j.bja.2025.11.036",
+      "title": "Dysfunctional resting state network connectivity predicts postoperative delirium after major surgery.",
+      "status": "published",
+      "runId": "2026-08-09T23-42-20.737Z",
+      "firstPublishedAt": "2026-08-09T23:42:20.737Z"
+    },
+    {
+      "pmid": "42091344",
+      "doi": "10.1016/j.bja.2026.03.018",
+      "title": "Association of postoperative delirium with haemodynamic determinants of cerebral perfusion pressure during cardiac surgery: a retrospective cohort study.",
+      "status": "published",
+      "runId": "2026-08-09T23-42-20.737Z",
+      "firstPublishedAt": "2026-08-09T23:42:20.737Z"
     }
   ]
 }
