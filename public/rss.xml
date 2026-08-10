@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 09 Aug 2026 23:42:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 23:46:42 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-11 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-11/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-11/</guid>
+      <pubDate>Mon, 10 Aug 2026 23:46:42 GMT</pubDate>
+      <description>罗哌卡因区域麻醉在猪急性筋膜室综合征模型中尽管筋膜室压力升高仍发挥肌肉保护作用：在猪急性筋膜室综合征模型中，与安慰剂相比，罗哌卡因区域麻醉虽导致筋膜室压力升高，但改善了局部代谢指标并减轻了组织损伤，提示在观察时间窗内具有潜在保护作用。
+整合3D人脑类器官与儿科患者血清分析揭示麻醉诱导神经毒性的机制与生物标志物：丙泊酚暴露可诱导人脑类器官线粒体功能障碍及编码RNA和长链非编码RNA网络紊乱，且与接受长时间麻醉的儿童血清中神经损伤标志物及RNA改变存在重叠，提示CKMT1B等可能作为转化生物标志物。
+麻醉临床试验中估计目标（estimand）的定义：一项范围综述与框架构建：在2020年1月至2024年6月发表的高影响力期刊麻醉随机对照试验中，估计目标框架的使用极为有限，仅19%的试验可推断出估计目标，且多数试验对目标人群、处理条件、汇总测量和伴发事件处理等属性的报告不完整。
+传统喉镜与视频喉镜用于围手术期气管插管的随机临床试验：在围手术期常规气管插管中，视频喉镜（无论Macintosh blade或超角度blade）相比直接喉镜显著提高首次插管成功率，支持其作为常规气道管理的标准方法。
+围手术期最佳实践与认知障碍患者术后谵妄的关系：在认知障碍手术患者中，围手术期最佳实践（如血糖控制、体温监测与维持）与术后谵妄风险降低相关，但单独分析时仅术后血糖监测仍显著，且谵妄发生率仍高，提示现有策略不足以预防谵妄。</description>
+    </item>
     <item>
       <title>2026-08-10 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-10/</link>

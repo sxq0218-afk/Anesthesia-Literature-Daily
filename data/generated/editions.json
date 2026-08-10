@@ -1,7 +1,1643 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T23:42:20.737Z",
+  "updatedAt": "2026-08-10T23:46:42.252Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-10T23:46:42.252Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-11T23:46:42.252Z",
+        "to": "2026-08-10T23:46:42.252Z",
+        "candidateCount": 268,
+        "discoveryCandidateCount": 10583,
+        "unseenCount": 199,
+        "duplicateCount": 69,
+        "priorityCandidateCount": 268,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 268,
+          "retrievedCount": 268,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 291,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 22
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 11
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of anesthesia",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of neuroscience methods",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The Journal of surgical research",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 199,
+          "eligibleCount": 176,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 149,
+          "clinical": 102,
+          "basic": 9,
+          "other": 38
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 21,
+          "promptTokens": 85340,
+          "completionTokens": 24599,
+          "totalTokens": 109939
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41576049",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-05-01",
+          "electronicPublicationDate": "2026-01-23",
+          "readingTime": "12 分钟",
+          "title": "罗哌卡因区域麻醉在猪急性筋膜室综合征模型中尽管筋膜室压力升高仍发挥肌肉保护作用",
+          "originalTitle": "Ropivacaine-based Regional Anesthesia Exerts Muscle-protective Effects Despite Elevated Compartment Pressure in a Porcine Model of Acute Compartment Syndrome.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "急性筋膜室综合征（ACS）是骨科创伤的一种破坏性后遗症，其特征是筋膜室内压力升高，导致组织缺血。区域麻醉在调节这些病理生理事件中的作用仍存在争议。本研究在猪ACS模型中探讨了通过0.2%罗哌卡因（RPVC）进行的区域麻醉对筋膜室内压力、全身血流动力学、生化标志物和组织完整性的影响。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "20头雄性猪通过靶向充气血管成形术导管在胫骨前肌筋膜室诱导ACS，并随机分配接受RPVC或安慰剂通过区域导管给药。连续记录筋膜室内压力和平均动脉压。在预定义时间点（T1、T3、T6、T8和T10）收集血浆样本和间质液，以定量肌酸激酶、乳酸、乳酸脱氢酶和葡萄糖。在实验结束时（T10）进行组织病理学评估。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在T10时，RPVC组的筋膜室内压力显著升高（57.0 mmHg [49.0至59.0]），而安慰剂组为41.5 mmHg [38.2至47.2]；P = 0.022，而平均动脉压保持相当（RPVC：63.0 mmHg [58.0至65.0] vs. 安慰剂：59.0 mmHg [56.2至61.8]；P = 0.13）。血浆生物标志物无显著差异（例如，血浆肌酸激酶：RPVC 1940 U/l [868至3,334] vs. 安慰剂1,171 U/l [1,020至1,467]；P = 0.24）。相反，间质分析显示RPVC组组织损伤标志物显著减少，间质液乳酸脱氢酶显著降低[24,475 U/l (19,500至28,213) vs. 113,800 U/l (91,000至116,600)；P = 0.017]，间质液葡萄糖显著降低（19.5 mg/dl [11.5至27.5] vs. 51.0 mg/dl [43.0至103.0]；P = 0.0043）。在盲法组织病理学评分中，RPVC处理的组织表现出较轻的变性和坏死。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "尽管筋膜室内压力较高，基于RPVC的区域麻醉在ACS中改善了局部代谢谱并减轻了组织损伤。这些发现提示在观察时间范围内存在保护作用，值得进一步临床探索。"
+              }
+            ],
+            "fullText": "BACKGROUND: 急性筋膜室综合征（ACS）是骨科创伤的一种破坏性后遗症，其特征是筋膜室内压力升高，导致组织缺血。区域麻醉在调节这些病理生理事件中的作用仍存在争议。本研究在猪ACS模型中探讨了通过0.2%罗哌卡因（RPVC）进行的区域麻醉对筋膜室内压力、全身血流动力学、生化标志物和组织完整性的影响。 METHODS: 20头雄性猪通过靶向充气血管成形术导管在胫骨前肌筋膜室诱导ACS，并随机分配接受RPVC或安慰剂通过区域导管给药。连续记录筋膜室内压力和平均动脉压。在预定义时间点（T1、T3、T6、T8和T10）收集血浆样本和间质液，以定量肌酸激酶、乳酸、乳酸脱氢酶和葡萄糖。在实验结束时（T10）进行组织病理学评估。 RESULTS: 在T10时，RPVC组的筋膜室内压力显著升高（57.0 mmHg [49.0至59.0]），而安慰剂组为41.5 mmHg [38.2至47.2]；P = 0.022，而平均动脉压保持相当（RPVC：63.0 mmHg [58.0至65.0] vs. 安慰剂：59.0 mmHg [56.2至61.8]；P = 0.13）。血浆生物标志物无显著差异（例如，血浆肌酸激酶：RPVC 1940 U/l [868至3,334] vs. 安慰剂1,171 U/l [1,020至1,467]；P = 0.24）。相反，间质分析显示RPVC组组织损伤标志物显著减少，间质液乳酸脱氢酶显著降低[24,475 U/l (19,500至28,213) vs. 113,800 U/l (91,000至116,600)；P = 0.017]，间质液葡萄糖显著降低（19.5 mg/dl [11.5至27.5] vs. 51.0 mg/dl [43.0至103.0]；P = 0.0043）。在盲法组织病理学评分中，RPVC处理的组织表现出较轻的变性和坏死。 CONCLUSIONS: 尽管筋膜室内压力较高，基于RPVC的区域麻醉在ACS中改善了局部代谢谱并减轻了组织损伤。这些发现提示在观察时间范围内存在保护作用，值得进一步临床探索。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Fritsch G, Thaler P, Ferguson J, Thumfart H, Grillari J, Osuchowski M, Woisetschlaeger G, Hoegler S, et al.",
+          "citation": "Anesthesiology. 2026 May 1;144(5):1199-1213. doi: 10.1097/ALN.0000000000005950. Epub 2026 Jan 23.",
+          "doi": "10.1097/aln.0000000000005950",
+          "pmid": "41576049",
+          "pmcid": "PMC13064834",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "急性筋膜室综合征是骨科创伤的严重并发症，区域麻醉在其中的作用存在争议。该研究提示罗哌卡因区域麻醉可能通过局部代谢调节发挥肌肉保护作用，为未来临床探索提供了基础依据。",
+          "conclusion": "在猪急性筋膜室综合征模型中，与安慰剂相比，罗哌卡因区域麻醉虽导致筋膜室压力升高，但改善了局部代谢指标并减轻了组织损伤，提示在观察时间窗内具有潜在保护作用。",
+          "clinical": "该研究为动物实验，结果不能直接外推到临床，但提示区域麻醉可能对急性筋膜室综合征具有潜在保护作用。 在临床转化前，需要进一步研究明确罗哌卡因区域麻醉在人体中的安全性、有效性及最佳时机。",
+          "evidence": "中等",
+          "score": 56,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "随机对照试验（动物实验）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Twenty male pigs (Sus scrofa domesticus) weighing 35.70 ± 2.81 kg；20"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Ropivacaine 0.2% (RPVC) via regional anesthesia catheter；对照：Placebo (normal saline) via regional anesthesia catheter"
+            },
+            {
+              "label": "主要终点",
+              "value": "Compartment pressure at T10"
+            }
+          ],
+          "keyPoints": [
+            "罗哌卡因区域麻醉导致筋膜室压力升高（57.0 vs. 41.5 mmHg，P=0.022）。",
+            "平均动脉压无显著差异（P=0.13）。",
+            "血浆生物标志物无显著差异（如肌酸激酶P=0.24）。",
+            "间质液乳酸脱氢酶显著降低（P=0.017），葡萄糖显著降低（P=0.0043）。",
+            "组织病理学显示变性和坏死减轻。"
+          ],
+          "methods": "急性筋膜室综合征以筋膜室压力升高导致组织缺血为特征，区域麻醉在其中的作用尚存争议。本研究旨在通过猪模型评估罗哌卡因区域麻醉对筋膜室压力、全身血流动力学、生化标志物和组织完整性的影响。",
+          "results": "在T10时间点，RPVC组筋膜室压力显著高于安慰剂组（57.0 mmHg [49.0-59.0] vs. 41.5 mmHg [38.2-47.2]；P=0.022），但平均动脉压无显著差异（63.0 mmHg [58.0-65.0] vs. 59.0 mmHg [56.2-61.8]；P=0.13）。血浆生物标志物无显著差异（如血浆肌酸激酶：RPVC 1940 U/l [868-3334] vs. 安慰剂 1171 U/l [1020-1467]；P=0.24）。相反，间质液分析显示RPVC组组织损伤标志物显著降低：间质液乳酸脱氢酶显著降低（24475 U/l [19500-28213] vs. 113800 U/l [91000-116600]；P=0.017），间质液葡萄糖显著降低（19.5 mg/dl [11.5-27.5] vs. 51.0 mg/dl [43.0-103.0]；P=0.0043）。盲法组织病理学评分显示RPVC处理的组织变性和坏死减轻。",
+          "mainResults": "在T10时间点，RPVC组筋膜室压力显著高于安慰剂组（57.0 mmHg [49.0-59.0] vs. 41.5 mmHg [38.2-47.2]；P=0.022），但平均动脉压无显著差异（63.0 mmHg [58.0-65.0] vs. 59.0 mmHg [56.2-61.8]；P=0.13）。血浆生物标志物无显著差异（如血浆肌酸激酶：RPVC 1940 U/l [868-3334] vs. 安慰剂 1171 U/l [1020-1467]；P=0.24）。相反，间质液分析显示RPVC组组织损伤标志物显著降低：间质液乳酸脱氢酶显著降低（24475 U/l [19500-28213] vs. 113800 U/l [91000-116600]；P=0.017），间质液葡萄糖显著降低（19.5 mg/dl [11.5-27.5] vs. 51.0 mg/dl [43.0-103.0]；P=0.0043）。盲法组织病理学评分显示RPVC处理的组织变性和坏死减轻。",
+          "limitations": [
+            "仅使用单一麻醉剂和单一浓度（RPVC 2 mg/ml），限制普遍性。",
+            "实验持续时间短，仅能评估急性筋膜室综合征的早期影响，未评估晚期恶化。",
+            "研究药物给药和筋膜室综合征诱导的顺序与典型临床情况不同（区域麻醉通常在损伤后）。",
+            "无完全无创伤的基线；采样在深麻醉下手术准备和导管置入后开始。",
+            "筋膜室压力与平均动脉压比较，而非舒张压；舒张压未连续记录。",
+            "仅使用雄性猪，限制对雌性的普遍性。",
+            "样本量小且非正态分布；非参数配对比较可能降低统计功效，且未考虑个体内相关性。",
+            "观察到的代谢变化/肌肉保护的确切机制仍属推测。"
+          ],
+          "practice": [
+            "该研究为动物实验，结果不能直接外推到临床，但提示区域麻醉可能对急性筋膜室综合征具有潜在保护作用。",
+            "在临床转化前，需要进一步研究明确罗哌卡因区域麻醉在人体中的安全性、有效性及最佳时机。"
+          ],
+          "editor": "研究结果支持罗哌卡因区域麻醉在猪急性筋膜室综合征模型中具有局部代谢改善和组织保护作用，但需注意筋膜室压力升高这一矛盾现象。 过度解读风险：存在过度解读风险，因为动物模型结果不能直接等同于临床效果，且样本量小、机制未明。",
+          "whyItMatters": "急性筋膜室综合征是骨科创伤的严重并发症，区域麻醉在其中的作用存在争议。该研究提示罗哌卡因区域麻醉可能通过局部代谢调节发挥肌肉保护作用，为未来临床探索提供了基础依据。",
+          "background": "急性筋膜室综合征以筋膜室压力升高导致组织缺血为特征，区域麻醉在其中的作用尚存争议。本研究旨在通过猪模型评估罗哌卡因区域麻醉对筋膜室压力、全身血流动力学、生化标志物和组织完整性的影响。",
+          "pico": {
+            "population": "Twenty male pigs (Sus scrofa domesticus) weighing 35.70 ± 2.81 kg",
+            "intervention": "Ropivacaine 0.2% (RPVC) via regional anesthesia catheter",
+            "comparison": "Placebo (normal saline) via regional anesthesia catheter",
+            "outcome": "Compartment pressure at T10"
+          },
+          "studyType": "随机对照试验（动物实验）",
+          "sampleSize": "20",
+          "primaryOutcome": "Compartment pressure at T10",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "57.0 mmHg [49.0 to 59.0]",
+            "41.5 mmHg [38.2 to 47.2]",
+            "63.0 mmHg [58.0 to 65.0]",
+            "59.0 mmHg [56.2 to 61.8]",
+            "1940 U/l [868 to 3,334]",
+            "1,171 U/l [1,020 to 1,467]",
+            "24,475 U/l (19,500 to 28,213)",
+            "113,800 U/l (91,000 to 116,600)",
+            "19.5 mg/dl [11.5 to 27.5]",
+            "51.0 mg/dl [43.0 to 103.0]"
+          ],
+          "pValue": [
+            "0.022",
+            "0.13",
+            "0.24",
+            "0.017",
+            "0.0043"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持罗哌卡因区域麻醉在猪急性筋膜室综合征模型中具有局部代谢改善和组织保护作用，但需注意筋膜室压力升高这一矛盾现象。",
+            "overinterpretationRisk": "存在过度解读风险，因为动物模型结果不能直接等同于临床效果，且样本量小、机制未明。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容未提供该数据。",
+                "基于摘要和开放全文节选，可能缺少部分方法学细节。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "区域麻醉（罗哌卡因0.2%）是否影响猪急性筋膜室综合征模型中的筋膜室压力、全身血流动力学、生化标志物和组织完整性？",
+              "designFit": "随机对照试验设计适用于评估干预效果，但动物模型限制了直接临床推断。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "20只雄性猪被随机分配至RPVC或安慰剂组。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "组织病理学评估采用盲法，但其他部分是否盲法未明确。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "实验持续至T10时间点，具体时长未提供。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "随机化设计。",
+                "盲法组织病理学评估。",
+                "同时评估全身和局部指标。"
+              ],
+              "concerns": [
+                "样本量小。",
+                "仅使用雄性动物。",
+                "非典型临床顺序。",
+                "统计方法可能未考虑个体内相关性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计方法的适当性。",
+                  "cautions": [
+                    "非参数配对比较可能降低统计功效。",
+                    "未考虑个体内相关性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "虽然间质液标志物有统计学差异，但临床意义尚不明确，且筋膜室压力升高可能带来风险。"
+            },
+            "outcomeAnalysis": {
+              "primary": "筋膜室压力在T10时间点显著升高（P=0.022）。",
+              "secondary": [
+                "平均动脉压无显著差异（P=0.13）。",
+                "血浆生物标志物无显著差异（如肌酸激酶P=0.24）。",
+                "间质液乳酸脱氢酶显著降低（P=0.017）。",
+                "间质液葡萄糖显著降低（P=0.0043）。",
+                "组织病理学显示变性和坏死减轻。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机对照设计。",
+                "盲法组织病理学评估。",
+                "同时测量全身和局部指标。"
+              ],
+              "limitations": [
+                "样本量小。",
+                "仅雄性动物。",
+                "非典型临床顺序。",
+                "统计方法可能不充分。"
+              ],
+              "biasRisks": [
+                "选择偏倚风险低（随机化）。",
+                "测量偏倚风险低（盲法病理）。",
+                "统计功效不足风险。"
+              ],
+              "certainty": "低，由于动物模型、小样本和统计方法限制。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎外推。",
+              "causalBoundary": "观察到的关联不能直接推断因果关系，机制尚不明确。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为区域麻醉在急性筋膜室综合征中的潜在作用提供基础研究证据。"
+              ],
+              "nonApplicability": [
+                "动物模型结果不能直接应用于临床。",
+                "单一药物和浓度限制普遍性。"
+              ],
+              "practiceChange": "当前结果不足以改变临床实践。",
+              "canDoNow": [
+                "开展进一步动物研究以明确机制。",
+                "设计临床前研究评估安全性。"
+              ],
+              "cannotConclude": [
+                "不能得出罗哌卡因区域麻醉在人体中具有保护作用的结论。",
+                "不能推荐临床使用。"
+              ],
+              "evidenceGaps": [
+                "需要人体研究。",
+                "需要评估不同药物、浓度和时机。",
+                "需要长期结果。",
+                "需要明确机制。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41576049/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005950",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005950",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13064834/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41173771",
+          "number": "02",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-03",
+          "electronicPublicationDate": "2025-10-30",
+          "readingTime": "11 分钟",
+          "title": "整合3D人脑类器官与儿科患者血清分析揭示麻醉诱导神经毒性的机制与生物标志物",
+          "originalTitle": "Integrated 3D human cerebral organoids and paediatric patient serum analysis reveals mechanisms and biomarkers of anaesthetic-induced neurotoxicity.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "全身麻醉药对于小儿手术至关重要，但一直与神经元损伤和长期认知缺陷相关，从而引发对神经发育安全性的担忧。然而，麻醉药诱导的发育神经毒性的分子机制仍知之甚少。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "将由诱导多能干细胞衍生的人脑类器官暴露于丙泊酚（1-6小时；单次或重复暴露）。同时，收集接受短时间（<1小时）或长时间（>3小时）麻醉手术的儿科患者（年龄：<4岁；每组n=10）的血清样本。使用化学测定、电子显微镜和免疫印迹评估类器官病理和线粒体功能。通过微阵列分析对18 855个编码RNA（mRNA）和27 427个长链非编码RNA（lncRNA）进行全基因组分析。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "丙泊酚暴露增加了类器官中的细胞凋亡（1.9 [0.3] vs 1.0 [0.1]；P=0.0173）和自噬（0.78 [0.12] vs 0.45 [0.09]；P=0.028），并失调了与突触功能、线粒体活性和炎症相关的553个mRNA和792个lncRNA。ATP产生（P=0.045）以及CKMT1B（P=0.002）和突触标志物PSD95和c-Fos的表达降低。长时间麻醉暴露的儿童血清显示神经元损伤标志物升高，并有33个重叠的失调RNA（21个mRNA，12个lncRNA），包括CKMT1B。生物信息学分析显示，这些失调的lncRNA-mRNA网络在与细胞损伤、神经发育和认知相关的通路中富集。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "本研究通过将人脑类器官与临床血清分析相结合，建立了一个与人类相关的麻醉药诱导发育神经毒性模型。丙泊酚暴露导致线粒体功能障碍，并破坏参与神经元发育和损伤的编码RNA和lncRNA网络。跨模型一致的基因特征（如CKMT1B）突显了其作为转化生物标志物和治疗靶点的潜力。"
+              }
+            ],
+            "fullText": "BACKGROUND: 全身麻醉药对于小儿手术至关重要，但一直与神经元损伤和长期认知缺陷相关，从而引发对神经发育安全性的担忧。然而，麻醉药诱导的发育神经毒性的分子机制仍知之甚少。 METHODS: 将由诱导多能干细胞衍生的人脑类器官暴露于丙泊酚（1-6小时；单次或重复暴露）。同时，收集接受短时间（<1小时）或长时间（>3小时）麻醉手术的儿科患者（年龄：<4岁；每组n=10）的血清样本。使用化学测定、电子显微镜和免疫印迹评估类器官病理和线粒体功能。通过微阵列分析对18 855个编码RNA（mRNA）和27 427个长链非编码RNA（lncRNA）进行全基因组分析。 RESULTS: 丙泊酚暴露增加了类器官中的细胞凋亡（1.9 [0.3] vs 1.0 [0.1]；P=0.0173）和自噬（0.78 [0.12] vs 0.45 [0.09]；P=0.028），并失调了与突触功能、线粒体活性和炎症相关的553个mRNA和792个lncRNA。ATP产生（P=0.045）以及CKMT1B（P=0.002）和突触标志物PSD95和c-Fos的表达降低。长时间麻醉暴露的儿童血清显示神经元损伤标志物升高，并有33个重叠的失调RNA（21个mRNA，12个lncRNA），包括CKMT1B。生物信息学分析显示，这些失调的lncRNA-mRNA网络在与细胞损伤、神经发育和认知相关的通路中富集。 CONCLUSIONS: 本研究通过将人脑类器官与临床血清分析相结合，建立了一个与人类相关的麻醉药诱导发育神经毒性模型。丙泊酚暴露导致线粒体功能障碍，并破坏参与神经元发育和损伤的编码RNA和lncRNA网络。跨模型一致的基因特征（如CKMT1B）突显了其作为转化生物标志物和治疗靶点的潜力。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Pant T, Jiang C, Yan Y, Schultz B, Laws D, Logan S, Bedrat A, Juric M, et al.",
+          "citation": "Br J Anaesth. 2026 Mar;136(3):915-932. doi: 10.1016/j.bja.2025.08.064. Epub 2025 Oct 30.",
+          "doi": "10.1016/j.bja.2025.08.064",
+          "pmid": "41173771",
+          "pmcid": "PMC12718073",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究通过整合人脑类器官模型与儿科患者血清分析，为麻醉诱导的发育期神经毒性提供了人类相关模型，并识别出潜在的生物标志物和治疗靶点，对儿科麻醉安全评估具有重要意义。",
+          "conclusion": "丙泊酚暴露可诱导人脑类器官线粒体功能障碍及编码RNA和长链非编码RNA网络紊乱，且与接受长时间麻醉的儿童血清中神经损伤标志物及RNA改变存在重叠，提示CKMT1B等可能作为转化生物标志物。",
+          "clinical": "该研究提示丙泊酚可能通过线粒体功能障碍和RNA网络紊乱导致神经毒性，但尚需进一步验证。 CKMT1B等重叠基因可能作为潜在的生物标志物，但临床应用仍需更多研究。 对于长时间麻醉的儿科患者，应关注潜在的神经发育影响，但当前证据不足以改变临床实践。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验研究（结合体外类器官模型和临床血清样本分析）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "paediatric patients (age: <4 yr; n=10 per group) undergoing short (<1 h) or prolonged (>3 h) anaesthetic procedures；n=10 per group"
+            },
+            {
+              "label": "干预与比较",
+              "value": "propofol exposure (1-6 h; single or repeated exposures) in human cerebral organoids; prolonged anaesthetic procedures in paediatric patients；对照：short (<1 h) vs prolonged (>3 h) anaesthetic procedures; propofol-exposed vs control organoids"
+            },
+            {
+              "label": "主要终点",
+              "value": "neuronal injury and mitochondrial dysfunction in organoids"
+            }
+          ],
+          "keyPoints": [
+            "丙泊酚暴露增加类器官凋亡和自噬，并降低ATP产生和突触标志物表达。",
+            "长时间麻醉儿童血清中神经损伤标志物升高，且与类器官模型存在重叠RNA改变。",
+            "CKMT1B可能作为潜在的生物标志物和治疗靶点。",
+            "该研究为麻醉诱导神经毒性提供了人类相关模型。"
+          ],
+          "methods": "全身麻醉药对儿科手术必不可少，但可能与神经元损伤和长期认知缺陷相关，引发对神经发育安全性的担忧。然而，麻醉诱导的发育期神经毒性的分子机制仍不清楚。",
+          "results": "丙泊酚暴露增加类器官凋亡（1.9 [0.3] vs 1.0 [0.1]；P=0.0173）和自噬（0.78 [0.12] vs 0.45 [0.09]；P=0.028），并导致553个mRNA和792个lncRNA表达失调，这些RNA与突触功能、线粒体活性和炎症相关。ATP产生（P=0.045）以及CKMT1B（P=0.002）和突触标志物PSD95、c-Fos的表达降低。长时间麻醉儿童血清显示神经损伤标志物升高，并存在33个重叠的失调RNA（21个mRNA，12个lncRNA），包括CKMT1B。",
+          "mainResults": "丙泊酚暴露增加类器官凋亡（1.9 [0.3] vs 1.0 [0.1]；P=0.0173）和自噬（0.78 [0.12] vs 0.45 [0.09]；P=0.028），并导致553个mRNA和792个lncRNA表达失调，这些RNA与突触功能、线粒体活性和炎症相关。ATP产生（P=0.045）以及CKMT1B（P=0.002）和突触标志物PSD95、c-Fos的表达降低。长时间麻醉儿童血清显示神经损伤标志物升高，并存在33个重叠的失调RNA（21个mRNA，12个lncRNA），包括CKMT1B。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。",
+            "样本量较小（每组n=10），可能影响统计效能。",
+            "类器官模型与体内环境的差异可能限制外推性。",
+            "未提供长期神经发育结局的随访数据。"
+          ],
+          "practice": [
+            "该研究提示丙泊酚可能通过线粒体功能障碍和RNA网络紊乱导致神经毒性，但尚需进一步验证。",
+            "CKMT1B等重叠基因可能作为潜在的生物标志物，但临床应用仍需更多研究。",
+            "对于长时间麻醉的儿科患者，应关注潜在的神经发育影响，但当前证据不足以改变临床实践。"
+          ],
+          "editor": "研究结果支持丙泊酚暴露与神经毒性相关，但为实验性研究，需谨慎解读。 过度解读风险：存在将体外和观察性关联过度解读为因果关系的风险，且样本量小，需进一步验证。",
+          "whyItMatters": "该研究通过整合人脑类器官模型与儿科患者血清分析，为麻醉诱导的发育期神经毒性提供了人类相关模型，并识别出潜在的生物标志物和治疗靶点，对儿科麻醉安全评估具有重要意义。",
+          "background": "全身麻醉药对儿科手术必不可少，但可能与神经元损伤和长期认知缺陷相关，引发对神经发育安全性的担忧。然而，麻醉诱导的发育期神经毒性的分子机制仍不清楚。",
+          "pico": {
+            "population": "paediatric patients (age: <4 yr; n=10 per group) undergoing short (<1 h) or prolonged (>3 h) anaesthetic procedures",
+            "intervention": "propofol exposure (1-6 h; single or repeated exposures) in human cerebral organoids; prolonged anaesthetic procedures in paediatric patients",
+            "comparison": "short (<1 h) vs prolonged (>3 h) anaesthetic procedures; propofol-exposed vs control organoids",
+            "outcome": "neuronal injury and mitochondrial dysfunction in organoids"
+          },
+          "studyType": "实验研究（结合体外类器官模型和临床血清样本分析）",
+          "sampleSize": "n=10 per group",
+          "primaryOutcome": "neuronal injury and mitochondrial dysfunction in organoids",
+          "effectSize": [
+            "1.9 [0.3] vs 1.0 [0.1]",
+            "0.78 [0.12] vs 0.45 [0.09]"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "P=0.0173",
+            "P=0.028",
+            "P=0.045",
+            "P=0.002"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持丙泊酚暴露与神经毒性相关，但为实验性研究，需谨慎解读。",
+            "overinterpretationRisk": "存在将体外和观察性关联过度解读为因果关系的风险，且样本量小，需进一步验证。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取完整方法学细节、数据完整性和局限性信息。",
+                "未提供效应量置信区间、统计调整、亚组分析等详细信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "探讨麻醉诱导的发育期神经毒性的分子机制，并识别潜在的生物标志物。",
+              "designFit": "实验研究设计适合探索机制，但临床部分为观察性，需注意因果推断限制。",
+              "eligibility": "儿科患者年龄<4岁，接受短时间或长时间麻醉手术；类器官来自诱导多能干细胞。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "每组10例儿科患者；类器官实验未明确重复次数。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "整合人类类器官模型和临床血清分析，提高人类相关性。",
+                "采用全基因组表达谱分析，覆盖大量mRNA和lncRNA。"
+              ],
+              "concerns": [
+                "样本量小，可能影响统计效能。",
+                "类器官模型不能完全模拟体内复杂环境。",
+                "未提供长期神经发育结局。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "报告了P值，但未说明具体检验方法。",
+                  "interpretation": "无法评价统计方法的适当性。",
+                  "cautions": [
+                    "未提供效应量置信区间。",
+                    "未说明多重比较校正。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "虽然部分结果有统计学差异，但临床意义尚不明确，需结合效应量和临床结局评估。"
+            },
+            "outcomeAnalysis": {
+              "primary": "类器官中神经元损伤和线粒体功能障碍（通过凋亡、自噬、ATP产生等评估）。",
+              "secondary": [
+                "凋亡",
+                "自噬",
+                "失调的mRNA和lncRNA",
+                "ATP产生",
+                "CKMT1B和突触标志物PSD95、c-Fos的表达",
+                "血清神经损伤标志物"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "报告了绝对值和相对变化，但未提供置信区间。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "使用人类类器官模型，提高人类相关性。",
+                "结合临床血清样本，增强转化潜力。",
+                "全基因组表达谱分析提供丰富数据。"
+              ],
+              "limitations": [
+                "样本量小。",
+                "类器官模型局限性。",
+                "缺乏长期随访。",
+                "未提供统计方法细节。"
+              ],
+              "biasRisks": [
+                "选择偏倚风险（患者分组可能非随机）。",
+                "检测偏倚风险（未提及盲法）。"
+              ],
+              "certainty": "低至中等，因摘要信息有限，且为实验性研究。",
+              "conclusionAlignment": "结论与结果基本一致，但需注意因果推断限制。",
+              "causalBoundary": "类器官实验可提示因果关系，但临床部分为观察性关联，不能直接推断因果。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能为儿科麻醉神经毒性监测提供潜在生物标志物。",
+                "可能为未来干预研究提供靶点。"
+              ],
+              "nonApplicability": [
+                "不能直接用于临床实践改变。",
+                "不能用于指导具体麻醉方案。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "关注长时间麻醉儿童的神经发育随访。",
+                "进一步验证生物标志物。"
+              ],
+              "cannotConclude": [
+                "不能确定丙泊酚导致人类神经毒性的因果关系。",
+                "不能确定CKMT1B作为生物标志物的临床效用。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本的临床研究。",
+                "需要长期神经发育结局数据。",
+                "需要明确统计方法和校正。",
+                "需要机制验证。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41173771/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.08.064",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.08.064",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42014230",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-08",
+          "electronicPublicationDate": "2026-04-20",
+          "readingTime": "11 分钟",
+          "title": "麻醉临床试验中估计目标（estimand）的定义：一项范围综述与框架构建",
+          "originalTitle": "Defining estimands in anaesthesia clinical trials: a scoping review and framework.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "麻醉试验中常见并发事件，如治疗转换和救援药物，可能影响主要结局的发生或解释。估计目标框架提供了处理这些事件的策略，使试验目标与结局保持一致。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们对2020年1月至2024年6月在十种高影响力期刊上发表的、样本量≥100的随机对照试验进行了范围综述，纳入的患者在手术前接受麻醉。我们检查了是否报告了估计目标，并识别了并发事件。通过将并发事件映射到所有纳入的麻醉试验中调查的干预-结局组合，开发了一个结构化框架。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在纳入的139项试验中，没有一项明确使用估计目标框架，仅27项（19%）可推断出估计目标。所有试验均定义了主要结局，而其他属性通常无法推断：目标人群（44项[32%]）、治疗条件（21项[15%]）、汇总测量（22项[16%]）和并发事件处理（84项[60%]）。最常见的并发事件是未接受随机干预（64项[46%]）、治疗中断（38项[27%]）和治疗转换（27项[19%]）。麻醉相关的并发事件包括手术取消（37项[27%]）和非方案化麻醉管理（17项[12%]）。研究结果为开发一个结构化的、交互式网络工具提供了信息，该工具将并发事件与干预-结局组合联系起来，并经专家评审完善。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "估计目标在麻醉试验中的使用有限。我们的工具支持麻醉试验中并发事件的结构化识别和处理。需要统计学家和临床医生之间加强合作，并一致应用估计目标框架，以提高未来麻醉研究的清晰度和可解释性。"
+              }
+            ],
+            "fullText": "BACKGROUND: 麻醉试验中常见并发事件，如治疗转换和救援药物，可能影响主要结局的发生或解释。估计目标框架提供了处理这些事件的策略，使试验目标与结局保持一致。METHODS: 我们对2020年1月至2024年6月在十种高影响力期刊上发表的、样本量≥100的随机对照试验进行了范围综述，纳入的患者在手术前接受麻醉。我们检查了是否报告了估计目标，并识别了并发事件。通过将并发事件映射到所有纳入的麻醉试验中调查的干预-结局组合，开发了一个结构化框架。RESULTS: 在纳入的139项试验中，没有一项明确使用估计目标框架，仅27项（19%）可推断出估计目标。所有试验均定义了主要结局，而其他属性通常无法推断：目标人群（44项[32%]）、治疗条件（21项[15%]）、汇总测量（22项[16%]）和并发事件处理（84项[60%]）。最常见的并发事件是未接受随机干预（64项[46%]）、治疗中断（38项[27%]）和治疗转换（27项[19%]）。麻醉相关的并发事件包括手术取消（37项[27%]）和非方案化麻醉管理（17项[12%]）。研究结果为开发一个结构化的、交互式网络工具提供了信息，该工具将并发事件与干预-结局组合联系起来，并经专家评审完善。CONCLUSIONS: 估计目标在麻醉试验中的使用有限。我们的工具支持麻醉试验中并发事件的结构化识别和处理。需要统计学家和临床医生之间加强合作，并一致应用估计目标框架，以提高未来麻醉研究的清晰度和可解释性。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Siriwardena GA, Luu S, Gunaratne RK, Simpson JA, Leslie K, Braat S, De Silva AP",
+          "citation": "Br J Anaesth. 2026 Aug;137(2):610-624. doi: 10.1016/j.bja.2026.03.026. Epub 2026 Apr 20.",
+          "doi": "10.1016/j.bja.2026.03.026",
+          "pmid": "42014230",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Scoping Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article",
+            "Scoping Review"
+          ],
+          "question": "伴发事件（如治疗转换、抢救药物、手术取消）在麻醉试验中常见，可能影响主要结局的发生或解释。估计目标框架有助于明确试验目标与结局的一致性，提高研究结果的清晰度和可解释性。当前麻醉试验中估计目标使用不足，可能影响证据的解读和临床转化。",
+          "conclusion": "在2020年1月至2024年6月发表的高影响力期刊麻醉随机对照试验中，估计目标框架的使用极为有限，仅19%的试验可推断出估计目标，且多数试验对目标人群、处理条件、汇总测量和伴发事件处理等属性的报告不完整。",
+          "clinical": "麻醉试验中估计目标框架的使用不足，可能影响试验结果的清晰度和可解释性。 开发的结构化交互式工具可帮助研究者识别和处理伴发事件，提高未来麻醉研究的质量。 统计学家与临床医生的合作对于一致应用估计目标框架至关重要。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "范围综述（Scoping Review）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "RCTs with ≥100 participants published from January 2020 to June 2024 in ten high-impact journals, including patients receiving anaesthesia before surgery；139 included trials"
+            },
+            {
+              "label": "干预与比较",
+              "value": "当前可获取内容未提供该数据。；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "Primary outcome was defined in all trials"
+            }
+          ],
+          "keyPoints": [
+            "139项麻醉RCT中，无一项明确使用估计目标框架，仅19%可推断出估计目标。",
+            "所有试验均定义主要结局，但目标人群（32%）、处理条件（15%）、汇总测量（16%）和伴发事件处理（60%）的报告不完整。",
+            "最常见的伴发事件为未接受随机干预（46%）、治疗中断（27%）和治疗转换（19%）。",
+            "麻醉相关伴发事件包括手术取消（27%）和非方案化麻醉管理（12%）。",
+            "开发了结构化交互式工具，以支持伴发事件的识别和处理。"
+          ],
+          "methods": "伴发事件（如治疗转换、抢救药物）在麻醉试验中常见，可能影响主要结局的发生或解释。估计目标框架提供了处理这些事件的策略，使试验目标与结局保持一致。本研究旨在评估麻醉试验中估计目标的报告情况，并开发结构化框架以支持伴发事件的处理。",
+          "results": "共纳入139项试验。没有试验明确使用估计目标框架，仅27项（19%）可推断出估计目标。所有试验均定义了主要结局，但其他属性常无法推断：目标人群（44项，32%）、处理条件（21项，15%）、汇总测量（22项，16%）、伴发事件处理（84项，60%）。最常见的伴发事件为未接受随机干预（64项，46%）、治疗中断（38项，27%）、治疗转换（27项，19%）。麻醉相关伴发事件包括手术取消（37项，27%）和非方案化麻醉管理（17项，12%）。",
+          "mainResults": "共纳入139项试验。没有试验明确使用估计目标框架，仅27项（19%）可推断出估计目标。所有试验均定义了主要结局，但其他属性常无法推断：目标人群（44项，32%）、处理条件（21项，15%）、汇总测量（22项，16%）、伴发事件处理（84项，60%）。最常见的伴发事件为未接受随机干预（64项，46%）、治疗中断（38项，27%）、治疗转换（27项，19%）。麻醉相关伴发事件包括手术取消（37项，27%）和非方案化麻醉管理（17项，12%）。",
+          "limitations": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "麻醉试验中估计目标框架的使用不足，可能影响试验结果的清晰度和可解释性。",
+            "开发的结构化交互式工具可帮助研究者识别和处理伴发事件，提高未来麻醉研究的质量。",
+            "统计学家与临床医生的合作对于一致应用估计目标框架至关重要。"
+          ],
+          "editor": "该研究为范围综述，系统检索了高影响力期刊中的麻醉RCT，提供了估计目标使用频率的量化数据，并开发了结构化框架。 过度解读风险：由于是范围综述，未对纳入试验的方法学质量进行详细评估，且未提供效应量或置信区间，因此不能推断估计目标使用与临床结局之间的因果关系。",
+          "whyItMatters": "伴发事件（如治疗转换、抢救药物、手术取消）在麻醉试验中常见，可能影响主要结局的发生或解释。估计目标框架有助于明确试验目标与结局的一致性，提高研究结果的清晰度和可解释性。当前麻醉试验中估计目标使用不足，可能影响证据的解读和临床转化。",
+          "background": "伴发事件（如治疗转换、抢救药物）在麻醉试验中常见，可能影响主要结局的发生或解释。估计目标框架提供了处理这些事件的策略，使试验目标与结局保持一致。本研究旨在评估麻醉试验中估计目标的报告情况，并开发结构化框架以支持伴发事件的处理。",
+          "pico": {
+            "population": "RCTs with ≥100 participants published from January 2020 to June 2024 in ten high-impact journals, including patients receiving anaesthesia before surgery",
+            "intervention": "当前可获取内容未提供该数据。",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "Primary outcome was defined in all trials"
+          },
+          "studyType": "范围综述（Scoping Review）",
+          "sampleSize": "139 included trials",
+          "primaryOutcome": "Primary outcome was defined in all trials",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究为范围综述，系统检索了高影响力期刊中的麻醉RCT，提供了估计目标使用频率的量化数据，并开发了结构化框架。",
+            "overinterpretationRisk": "由于是范围综述，未对纳入试验的方法学质量进行详细评估，且未提供效应量或置信区间，因此不能推断估计目标使用与临床结局之间的因果关系。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要分析，未获取全文，无法评估方法学细节、具体统计方法、偏倚风险等。",
+                "未提供纳入试验的具体干预和比较信息。",
+                "未提供效应量、置信区间和P值。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估麻醉试验中估计目标的报告情况，并开发结构化框架以处理伴发事件。",
+              "designFit": "范围综述适合探索估计目标在麻醉试验中的使用现状，并开发框架。",
+              "eligibility": "纳入2020年1月至2024年6月发表于10本高影响力期刊、样本量≥100、接受术前麻醉的患者的RCT。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "系统检索了高影响力期刊中的麻醉RCT，时间范围明确。",
+                "提供了估计目标使用频率的量化数据。",
+                "开发了结构化框架，并经过专家评审。"
+              ],
+              "concerns": [
+                "仅基于摘要，无法评估纳入试验的方法学质量。",
+                "未提供具体统计方法。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供该数据。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "由于未识别到具体统计方法，无法评价统计分析的适当性。",
+                  "cautions": [
+                    "无法评估统计方法的正确性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "主要结局在所有试验中均有定义，但未提供具体结局指标。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统检索了高影响力期刊中的麻醉RCT，时间范围明确。",
+                "提供了估计目标使用频率的量化数据。",
+                "开发了结构化框架，并经过专家评审。"
+              ],
+              "limitations": [
+                "仅基于摘要，无法评估纳入试验的方法学质量。",
+                "未提供具体统计方法。",
+                "未提供效应量、置信区间和P值。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "当前可获取内容未提供该数据。",
+              "conclusionAlignment": "结论与结果一致，即估计目标在麻醉试验中使用有限。",
+              "causalBoundary": "本研究为范围综述，描述性报告估计目标的使用情况，不涉及因果推断。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "该框架可帮助麻醉研究者识别和处理伴发事件，提高试验设计的清晰度。"
+              ],
+              "nonApplicability": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "practiceChange": "当前可获取内容未提供该数据。",
+              "canDoNow": [
+                "研究者可参考该框架，在麻醉试验设计中明确估计目标属性，特别是伴发事件的处理策略。"
+              ],
+              "cannotConclude": [
+                "不能基于本综述得出估计目标使用与临床结局改善之间的因果关系。",
+                "不能基于本综述推荐具体的麻醉干预或监测方法。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究评估估计目标框架在麻醉试验中的应用效果。",
+                "需要更详细的报告指南以促进估计目标的明确报告。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42014230/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.03.026",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.03.026",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42545700",
+          "number": "04",
+          "category": "麻醉学",
+          "journal": "JAMA network open",
+          "year": "2026",
+          "publishedDate": "2026-08-03",
+          "electronicPublicationDate": "2026-08-03",
+          "readingTime": "15 分钟",
+          "title": "传统喉镜与视频喉镜用于围手术期气管插管的随机临床试验",
+          "originalTitle": "Conventional vs Video-Assisted Laryngoscopy for Perioperative Endotracheal Intubations: A Randomized Clinical Trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "IMPORTANCE",
+                "text": "视频喉镜越来越多地用于手术室的常规气管插管，但关于其临床结果的证据仍不确定。特别是，高角度视频喉镜作为首选设备的作用尚未得到充分研究。"
+              },
+              {
+                "heading": "OBJECTIVE",
+                "text": "确定视频喉镜（无论叶片几何形状或制造商如何）在常规气管插管中是否比直接喉镜（DL）提供更高的首次尝试成功率。"
+              },
+              {
+                "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+                "text": "这项三臂随机临床试验（常规与视频辅助喉镜用于围手术期气管插管[COVALENT]）于2022年3月28日至2025年2月17日在德国和奥地利的6个学术或中级护理中心进行。纳入在全身麻醉下接受手术且需要气管插管的成年人。排除在除全身麻醉外的任何其他麻醉形式下接受手术的成年人、需要经鼻或计划性纤维支气管镜插管的患者以及孕妇。患者连续抽样，直至试验人员能力达到每日上限。允许使用不同制造商的设备以最大化普适性。所有数据分析均采用改良意向性治疗（mITT）方法。"
+              },
+              {
+                "heading": "INTERVENTION",
+                "text": "作为手术前全身麻醉诱导的一部分进行气管插管。患者按1:1:1随机分配至直接喉镜（DL）、Macintosh叶片视频喉镜（VLM）或高角度叶片视频喉镜（VLH）。所有干预均由负责相应病例的麻醉医师执行。"
+              },
+              {
+                "heading": "MAIN OUTCOMES AND MEASURE",
+                "text": "主要结局是首次尝试插管成功率。当喉镜和气管导管插入患者口腔后，取出任一即视为插管尝试失败。成功插管定义为呼气末二氧化碳图阳性。成功率差异采用未合并方差的z检验，并以绝对差异及其95%置信区间报告。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在2532名患者（男性1426名[56.3%]；平均[SD]年龄59.7[15.4]岁）中，随机分配至DL组（n=848）、VLM组（n=841）或VLH组（n=843），其中2423名（95.7%）纳入改良意向性治疗分析。两种视频喉镜方式在首次尝试成功率方面均优于DL（VLM：82.9%，VLH：87.6%，DL：78.2%；所有P<.001）。首次尝试插管成功的未调整绝对风险差异为：DL与VLM相比4.66（95%CI，4.45-4.78）个百分点，DL与VLH相比9.34（95%CI，9.22-9.46）个百分点，VLM与VLH相比4.68（95%CI，4.57-4.79）个百分点。与DL相比，VLM和VLH在首次尝试失败后插管成功更快（平均[SD]至阳性二氧化碳图时间，146.6[103.6]和147.5[98.9]秒 vs 170.3[100.4]秒；P=.008）。与VLM和DL相比，VLH的唇部或牙齿损伤或叶片带血并发症更少（10.9%[11/101] vs 23.2%[32/138]和24.1%[42/174]）。"
+              },
+              {
+                "heading": "CONCLUSIONS AND RELEVANCE",
+                "text": "这项比较DL与VLM和VLH的随机临床试验发现，与DL相比，视频喉镜显著提高了手术室插管的首次尝试成功率。这些发现支持将视频喉镜作为常规气道管理的新标准。"
+              },
+              {
+                "heading": "TRIAL REGISTRATION",
+                "text": "ClinicalTrials.gov标识符：NCT05228288。"
+              }
+            ],
+            "fullText": "重要性：视频喉镜越来越多地用于手术室的常规气管插管，但关于其临床结果的证据仍不确定。特别是，高角度视频喉镜作为首选设备的作用尚未得到充分研究。目的：确定视频喉镜（无论叶片几何形状或制造商如何）在常规气管插管中是否比直接喉镜（DL）提供更高的首次尝试成功率。设计、设置和参与者：这项三臂随机临床试验（常规与视频辅助喉镜用于围手术期气管插管[COVALENT]）于2022年3月28日至2025年2月17日在德国和奥地利的6个学术或中级护理中心进行。纳入在全身麻醉下接受手术且需要气管插管的成年人。排除在除全身麻醉外的任何其他麻醉形式下接受手术的成年人、需要经鼻或计划性纤维支气管镜插管的患者以及孕妇。患者连续抽样，直至试验人员能力达到每日上限。允许使用不同制造商的设备以最大化普适性。所有数据分析均采用改良意向性治疗（mITT）方法。干预：作为手术前全身麻醉诱导的一部分进行气管插管。患者按1:1:1随机分配至直接喉镜（DL）、Macintosh叶片视频喉镜（VLM）或高角度叶片视频喉镜（VLH）。所有干预均由负责相应病例的麻醉医师执行。主要结局和测量：主要结局是首次尝试插管成功率。当喉镜和气管导管插入患者口腔后，取出任一即视为插管尝试失败。成功插管定义为呼气末二氧化碳图阳性。成功率差异采用未合并方差的z检验，并以绝对差异及其95%置信区间报告。结果：在2532名患者（男性1426名[56.3%]；平均[SD]年龄59.7[15.4]岁）中，随机分配至DL组（n=848）、VLM组（n=841）或VLH组（n=843），其中2423名（95.7%）纳入改良意向性治疗分析。两种视频喉镜方式在首次尝试成功率方面均优于DL（VLM：82.9%，VLH：87.6%，DL：78.2%；所有P<.001）。首次尝试插管成功的未调整绝对风险差异为：DL与VLM相比4.66（95%CI，4.45-4.78）个百分点，DL与VLH相比9.34（95%CI，9.22-9.46）个百分点，VLM与VLH相比4.68（95%CI，4.57-4.79）个百分点。与DL相比，VLM和VLH在首次尝试失败后插管成功更快（平均[SD]至阳性二氧化碳图时间，146.6[103.6]和147.5[98.9]秒 vs 170.3[100.4]秒；P=.008）。与VLM和DL相比，VLH的唇部或牙齿损伤或叶片带血并发症更少（10.9%[11/101] vs 23.2%[32/138]和24.1%[42/174]）。结论和相关性：这项比较DL与VLM和VLH的随机临床试验发现，与DL相比，视频喉镜显著提高了手术室插管的首次尝试成功率。这些发现支持将视频喉镜作为常规气道管理的新标准。试验注册：ClinicalTrials.gov标识符：NCT05228288。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Schmid B, Grusser L, Muller L, Wittmann M, Delis A, Dinc Dogan T, Werdehausen R, Neuhaus C, et al.",
+          "citation": "JAMA Netw Open. 2026 Aug 3;9(8):e2625965. doi: 10.1001/jamanetworkopen.2026.25965.",
+          "doi": "10.1001/jamanetworkopen.2026.25965",
+          "pmid": "42545700",
+          "pmcid": "PMC13434869",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "American Medical Association (AMA)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.7,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "JAMA Network Open"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "麻醉学",
+            "气道管理",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "围手术期气管插管是麻醉管理的核心操作，首次插管失败与患者并发症风险增加相关。该研究提供了大规模多中心随机对照证据，支持视频喉镜在常规气道管理中的优先使用，可能改变临床实践指南。",
+          "conclusion": "在围手术期常规气管插管中，视频喉镜（无论Macintosh blade或超角度blade）相比直接喉镜显著提高首次插管成功率，支持其作为常规气道管理的标准方法。",
+          "clinical": "视频喉镜（无论Macintosh blade或超角度blade）可提高首次插管成功率，可能减少插管相关并发症。 超角度视频喉镜在并发症方面可能优于Macintosh blade视频喉镜和直接喉镜，但需注意该结果基于未调整的组间比较。 该研究支持将视频喉镜作为常规气道管理的首选工具，但临床决策仍需考虑患者个体因素、设备可用性和操作者经验。",
+          "evidence": "高",
+          "score": 88,
+          "scoreBreakdown": {
+            "relevance": 28,
+            "evidenceQuality": 24,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 8
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心、随机、对照、三臂临床试验（COVALENT），采用改良意向性分析，未设盲。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adults undergoing surgery under general anesthesia with the need for tracheal intubation at 6 academic or intermediate care centers in Germany and Austria；2532 patients randomized (DL: 848, VLM: 841, VLH: 843); 2423 included in modified intention-to-treat analysis"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Video laryngoscopy with Macintosh blade (VLM) or hyperangulated blade (VLH)；对照：Direct laryngoscopy (DL)"
+            },
+            {
+              "label": "主要终点",
+              "value": "First-pass intubation success rate"
+            }
+          ],
+          "keyPoints": [
+            "视频喉镜（VLM和VLH）相比直接喉镜显著提高首次插管成功率（绝对风险差4.66-9.34个百分点）。",
+            "超角度视频喉镜（VLH）的首次成功率最高（87.6%），且并发症发生率最低（10.9%）。",
+            "研究为多中心随机对照试验，但存在未设盲、交叉比例高等局限性。",
+            "结果支持视频喉镜作为常规气道管理的标准方法，但需考虑设备可用性和操作者培训。"
+          ],
+          "methods": "视频喉镜在手术室常规气管插管中的应用日益增多，但其临床获益证据尚不明确，尤其是超角度视频喉镜作为首选设备的作用研究不足。",
+          "results": "共2532例患者随机分配（DL 848例，VLM 841例，VLH 843例），2423例（95.7%）纳入改良意向性分析。首次插管成功率：VLM 82.9%，VLH 87.6%，DL 78.2%。两种视频喉镜均优于DL（均P < .001）。未调整的绝对风险差：DL vs VLM为4.66个百分点（95% CI 4.45-4.78），DL vs VLH为9.34个百分点（95% CI 9.22-9.46），VLM vs VLH为4.68个百分点（95% CI 4.57-4.79）。次要结局中，VLM和VLH相比DL在首次失败后成功插管时间更短（平均[SD]阳性二氧化碳波形时间：146.6[103.6]和147.5[98.9]秒 vs 170.3[100.4]秒；P = .008）。并发症（唇或牙齿损伤或镜片带血）发生率：VLH 10.9%（11/101），VLM 23.2%（32/138），DL 24.1%（42/174）。未记录严重不良事件。",
+          "mainResults": "共2532例患者随机分配（DL 848例，VLM 841例，VLH 843例），2423例（95.7%）纳入改良意向性分析。首次插管成功率：VLM 82.9%，VLH 87.6%，DL 78.2%。两种视频喉镜均优于DL（均P < .001）。未调整的绝对风险差：DL vs VLM为4.66个百分点（95% CI 4.45-4.78），DL vs VLH为9.34个百分点（95% CI 9.22-9.46），VLM vs VLH为4.68个百分点（95% CI 4.57-4.79）。次要结局中，VLM和VLH相比DL在首次失败后成功插管时间更短（平均[SD]阳性二氧化碳波形时间：146.6[103.6]和147.5[98.9]秒 vs 170.3[100.4]秒；P = .008）。并发症（唇或牙齿损伤或镜片带血）发生率：VLH 10.9%（11/101），VLM 23.2%（32/138），DL 24.1%（42/174）。未记录严重不良事件。",
+          "limitations": [
+            "临床医生和观察者未对分组设盲，可能引入实施偏倚或检测偏倚。",
+            "实用设计排除了对特定品牌效应的详细评估。",
+            "对照组中交叉到其他研究组的比例过高。",
+            "临床医生经验差异显著，未收集既往插管次数数据。",
+            "术后结局（声音嘶哑、咳嗽、咽喉痛）仅在6个中心中的2个收集（占56.9%的患者）。",
+            "导芯使用在组间分布不均，可能影响首次成功率差异。"
+          ],
+          "practice": [
+            "视频喉镜（无论Macintosh blade或超角度blade）可提高首次插管成功率，可能减少插管相关并发症。",
+            "超角度视频喉镜在并发症方面可能优于Macintosh blade视频喉镜和直接喉镜，但需注意该结果基于未调整的组间比较。",
+            "该研究支持将视频喉镜作为常规气道管理的首选工具，但临床决策仍需考虑患者个体因素、设备可用性和操作者经验。"
+          ],
+          "editor": "该研究为大规模多中心随机对照试验，主要结局明确，效应量具有统计学显著性，支持视频喉镜优于直接喉镜的结论。 过度解读风险：需注意未设盲、交叉比例高、术后结局数据不完整等局限性，且绝对风险差异较小（4.66-9.34个百分点），临床获益程度需结合具体情境判断。",
+          "whyItMatters": "围手术期气管插管是麻醉管理的核心操作，首次插管失败与患者并发症风险增加相关。该研究提供了大规模多中心随机对照证据，支持视频喉镜在常规气道管理中的优先使用，可能改变临床实践指南。",
+          "background": "视频喉镜在手术室常规气管插管中的应用日益增多，但其临床获益证据尚不明确，尤其是超角度视频喉镜作为首选设备的作用研究不足。",
+          "pico": {
+            "population": "Adults undergoing surgery under general anesthesia with the need for tracheal intubation at 6 academic or intermediate care centers in Germany and Austria",
+            "intervention": "Video laryngoscopy with Macintosh blade (VLM) or hyperangulated blade (VLH)",
+            "comparison": "Direct laryngoscopy (DL)",
+            "outcome": "First-pass intubation success rate"
+          },
+          "studyType": "多中心、随机、对照、三臂临床试验（COVALENT），采用改良意向性分析，未设盲。",
+          "sampleSize": "2532 patients randomized (DL: 848, VLM: 841, VLH: 843); 2423 included in modified intention-to-treat analysis",
+          "primaryOutcome": "First-pass intubation success rate",
+          "effectSize": [
+            "Absolute risk difference for DL vs VLM: 4.66 percentage points",
+            "Absolute risk difference for DL vs VLH: 9.34 percentage points",
+            "Absolute risk difference for VLM vs VLH: 4.68 percentage points"
+          ],
+          "confidenceInterval": [
+            "95% CI for DL vs VLM: 4.45-4.78",
+            "95% CI for DL vs VLH: 9.22-9.46",
+            "95% CI for VLM vs VLH: 4.57-4.79"
+          ],
+          "pValue": [
+            "P < .001 for VLM vs DL",
+            "P < .001 for VLH vs DL",
+            "P = .008 for time to positive capnography",
+            "P < .001 for ease of intubation"
+          ],
+          "adverseEvents": "No serious adverse events were recorded. Complications of lip or dental injuries or blood on the blade: VLH 10.9% (11/101), VLM 23.2% (32/138), DL 24.1% (42/174).",
+          "aiAssessment": {
+            "support": "该研究为大规模多中心随机对照试验，主要结局明确，效应量具有统计学显著性，支持视频喉镜优于直接喉镜的结论。",
+            "overinterpretationRisk": "需注意未设盲、交叉比例高、术后结局数据不完整等局限性，且绝对风险差异较小（4.66-9.34个百分点），临床获益程度需结合具体情境判断。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，未包含完整的方法学细节（如随机化具体方法、分配隐藏、样本量计算等）。",
+                "部分次要结局（如术后咽喉痛）数据不完整，可能影响全面评价。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "视频喉镜（无论镜片几何形状或制造商）在常规气管插管中是否比直接喉镜提供更高的首次插管成功率？",
+              "designFit": "三臂随机对照试验设计适合比较两种视频喉镜与直接喉镜的疗效，但未设盲可能引入偏倚。",
+              "eligibility": "纳入标准：在德国和奥地利6个中心接受全身麻醉手术、需要气管插管的成人。排除标准：其他麻醉方式、需要经鼻或计划纤维支气管镜插管、孕妇。",
+              "randomization": "患者按1:1:1随机分配至DL、VLM或VLH组，但具体随机化方法（如随机序列生成、分层因素）未在摘要中描述。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "临床医生和观察者未对分组设盲，可能引入实施偏倚或检测偏倚。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "术后结局（咽喉痛、声音嘶哑、咳嗽）仅在2个中心收集（56.9%患者），随访完整性有限。",
+              "analysisPopulation": "改良意向性分析（mITT），共2423例（95.7%）纳入。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多中心、随机对照设计，样本量大（2532例）。",
+                "允许不同制造商的设备，提高外部真实性。",
+                "主要结局客观（首次插管成功率）。"
+              ],
+              "concerns": [
+                "未设盲，可能影响结局评估。",
+                "对照组交叉比例高，可能稀释组间差异。",
+                "术后结局数据不完整。",
+                "导芯使用不均可能混杂结果。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "z检验（未合并方差）",
+                  "purposeInStudy": "比较组间首次插管成功率的差异，并计算绝对风险差及95%置信区间。",
+                  "reportedResult": "VLM vs DL：绝对风险差4.66个百分点（95% CI 4.45-4.78），P < .001；VLH vs DL：9.34个百分点（95% CI 9.22-9.46），P < .001；VLM vs VLH：4.68个百分点（95% CI 4.57-4.79）。",
+                  "interpretation": "两种视频喉镜的首次成功率均显著高于直接喉镜，且VLH优于VLM。",
+                  "cautions": [
+                    "未调整混杂因素，可能受基线不平衡影响。",
+                    "置信区间较窄，但绝对差异较小，临床意义需结合具体情境。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "虽然统计学显著，但绝对风险差仅为4.66-9.34个百分点，临床获益程度需结合患者个体风险和操作者经验判断。"
+            },
+            "outcomeAnalysis": {
+              "primary": "首次插管成功率：VLM 82.9%，VLH 87.6%，DL 78.2%。两种视频喉镜均优于DL（P < .001）。",
+              "secondary": [
+                "时间到阳性二氧化碳波形：VLM和VLH均短于DL（146.6秒和147.5秒 vs 170.3秒，P = .008）。",
+                "插管难易度：视频喉镜组优于DL（P < .001）。",
+                "并发症（唇或牙齿损伤或镜片带血）：VLH 10.9%，VLM 23.2%，DL 24.1%。",
+                "术后咽喉痛、声音嘶哑或咳嗽：仅在2个中心收集，数据不完整。"
+              ],
+              "safety": "未记录严重不良事件。并发症发生率以VLH最低。",
+              "absoluteVsRelative": "报告了绝对风险差，但未提供相对风险或需治疗人数。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心、随机对照设计，样本量大。",
+                "允许不同制造商设备，提高外部真实性。",
+                "主要结局客观。"
+              ],
+              "limitations": [
+                "未设盲。",
+                "交叉比例高。",
+                "术后结局数据不完整。",
+                "导芯使用不均。"
+              ],
+              "biasRisks": [
+                "实施偏倚（未设盲）。",
+                "检测偏倚（未设盲）。",
+                "损耗偏倚（术后结局缺失）。"
+              ],
+              "certainty": "中等：随机对照试验但存在未设盲和交叉等局限性。",
+              "conclusionAlignment": "结论与结果一致，但“新标准”的表述可能过于强烈，需考虑局限性。",
+              "causalBoundary": "随机对照设计支持因果推断，但未设盲和交叉可能削弱因果解释。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于手术室内需要气管插管的成人患者。",
+                "适用于有视频喉镜设备和培训的医疗中心。"
+              ],
+              "nonApplicability": [
+                "不适用于经鼻插管、计划纤维支气管镜插管或孕妇。",
+                "不适用于缺乏视频喉镜设备或操作者未接受培训的环境。"
+              ],
+              "practiceChange": "该研究支持将视频喉镜作为常规气道管理的首选工具，但需结合本地资源和患者个体情况。",
+              "canDoNow": [
+                "在具备条件的中心，可考虑优先使用视频喉镜进行常规气管插管。",
+                "对于预计困难气道的患者，视频喉镜可能更有优势。"
+              ],
+              "cannotConclude": [
+                "不能确定视频喉镜对术后咽喉痛等患者相关结局的影响（数据不完整）。",
+                "不能确定特定品牌或镜片类型的优劣（未进行品牌特异性分析）。"
+              ],
+              "evidenceGaps": [
+                "需要更多关于患者重要结局（如术后咽喉痛、声音嘶哑）的数据。",
+                "需要评估操作者经验对结果的影响。",
+                "需要比较不同视频喉镜品牌和镜片类型的直接效果。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42545700/",
+            "doi": "https://doi.org/10.1001/jamanetworkopen.2026.25965",
+            "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.25965",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13434869/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41817525",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "JAMA network open",
+          "year": "2026",
+          "publishedDate": "2026-03-02",
+          "electronicPublicationDate": "2026-03-02",
+          "readingTime": "14 分钟",
+          "title": "围手术期最佳实践与认知障碍患者术后谵妄的关系",
+          "originalTitle": "Perioperative Best Practices and Delirium in Patients With Cognitive Impairment.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "IMPORTANCE",
+                "text": "尽管围手术期护理取得了重大进展，但认知障碍患者术后谵妄的风险增加。了解围手术期最佳实践与谵妄预防的关联，可为这一高危人群制定针对性策略提供信息。"
+              },
+              {
+                "heading": "OBJECTIVE",
+                "text": "探讨麻醉相关最佳实践与认知障碍患者术后谵妄之间的关联。"
+              },
+              {
+                "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+                "text": "这项观察性队列研究是对一项随机临床试验的次要探索性分析，该试验旨在通过临床决策支持系统识别认知障碍患者并促进最佳实践的遵守。研究于2023年至2024年在纽约一家大型城市学术医疗中心的围手术期区域进行。参与者为计划手术且术前存在认知障碍的成年人，术后至少住院一晚并接受谵妄评估。排除器官捐献手术患者。"
+              },
+              {
+                "heading": "EXPOSURES",
+                "text": "选择并跟踪了5个领域的12项围手术期最佳实践，涵盖避免潜在不适当药物、围手术期血糖控制、血流动力学管理、体温维持和麻醉监测。"
+              },
+              {
+                "heading": "MAIN OUTCOMES AND MEASURES",
+                "text": "主要结局为通过4A测试评估的术后谵妄。使用逻辑回归模型评估最佳实践与术后谵妄之间的关联。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "研究纳入1255例认知障碍患者（平均[SD]年龄，65.0[15.1]岁；男性652例[52%]），其中426例（33.9%；95% CI，31.4%-36.6%）发生谵妄。在单独模型中，维持血糖低于200 mg/dL（调整后优势比[aOR]，0.41；95% CI，0.24-0.69；P = .001）、使用体温探头（aOR，0.65；95% CI，0.45-0.96；P = .03）以及维持体温高于36摄氏度（aOR，0.64；95% CI，0.43-0.94；P = .03）等最佳实践与谵妄风险降低相关。当同时分析时，除术后血糖监测（aOR，1.54；95% CI，1.11-2.13；P = .009）外，没有单项实践保持显著。"
+              },
+              {
+                "heading": "CONCLUSIONS AND RELEVANCE",
+                "text": "这项针对认知障碍手术患者的队列研究发现，当前基于既定建议的围手术期策略虽然具有基础性，但不足以预防术后谵妄。术后谵妄的高发生率凸显了完善围手术期护理路径和确定对认知脆弱人群最有效的新策略的必要性。整合电子健康记录衍生的围手术期数据和麻醉工作流程中可扩展技术工具的定制干预措施，有助于识别和管理高危人群。"
+              }
+            ],
+            "fullText": "IMPORTANCE: 尽管围手术期护理取得了重大进展，但认知障碍患者术后谵妄的风险增加。了解围手术期最佳实践与谵妄预防的关联，可为这一高危人群制定针对性策略提供信息。 OBJECTIVE: 探讨麻醉相关最佳实践与认知障碍患者术后谵妄之间的关联。 DESIGN, SETTING, AND PARTICIPANTS: 这项观察性队列研究是对一项随机临床试验的次要探索性分析，该试验旨在通过临床决策支持系统识别认知障碍患者并促进最佳实践的遵守。研究于2023年至2024年在纽约一家大型城市学术医疗中心的围手术期区域进行。参与者为计划手术且术前存在认知障碍的成年人，术后至少住院一晚并接受谵妄评估。排除器官捐献手术患者。 EXPOSURES: 选择并跟踪了5个领域的12项围手术期最佳实践，涵盖避免潜在不适当药物、围手术期血糖控制、血流动力学管理、体温维持和麻醉监测。 MAIN OUTCOMES AND MEASURES: 主要结局为通过4A测试评估的术后谵妄。使用逻辑回归模型评估最佳实践与术后谵妄之间的关联。 RESULTS: 研究纳入1255例认知障碍患者（平均[SD]年龄，65.0[15.1]岁；男性652例[52%]），其中426例（33.9%；95% CI，31.4%-36.6%）发生谵妄。在单独模型中，维持血糖低于200 mg/dL（调整后优势比[aOR]，0.41；95% CI，0.24-0.69；P = .001）、使用体温探头（aOR，0.65；95% CI，0.45-0.96；P = .03）以及维持体温高于36摄氏度（aOR，0.64；95% CI，0.43-0.94；P = .03）等最佳实践与谵妄风险降低相关。当同时分析时，除术后血糖监测（aOR，1.54；95% CI，1.11-2.13；P = .009）外，没有单项实践保持显著。 CONCLUSIONS AND RELEVANCE: 这项针对认知障碍手术患者的队列研究发现，当前基于既定建议的围手术期策略虽然具有基础性，但不足以预防术后谵妄。术后谵妄的高发生率凸显了完善围手术期护理路径和确定对认知脆弱人群最有效的新策略的必要性。整合电子健康记录衍生的围手术期数据和麻醉工作流程中可扩展技术工具的定制干预措施，有助于识别和管理高危人群。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Scharp D, Meyers K, Nadkarni G, Federman A, Sarkisian C, Levin MA, Perry S, Gownivaripally P, et al.",
+          "citation": "JAMA Netw Open. 2026 Mar 2;9(3):e261515. doi: 10.1001/jamanetworkopen.2026.1515.",
+          "doi": "10.1001/jamanetworkopen.2026.1515",
+          "pmid": "41817525",
+          "pmcid": "PMC13045776",
+          "publicationTypes": [
+            "Journal Article",
+            "Observational Study",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "publisher": "American Medical Association (AMA)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.7,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "JAMA Network Open"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "麻醉学",
+            "老年围术期",
+            "麻醉相关领域",
+            "Journal Article",
+            "Observational Study"
+          ],
+          "question": "认知障碍患者术后谵妄风险高，但针对这一群体的围手术期最佳实践证据有限。本研究评估了多项可干预的围手术期措施与谵妄的关联，为优化该高风险人群的围手术期管理提供了初步依据。",
+          "conclusion": "在认知障碍手术患者中，围手术期最佳实践（如血糖控制、体温监测与维持）与术后谵妄风险降低相关，但单独分析时仅术后血糖监测仍显著，且谵妄发生率仍高，提示现有策略不足以预防谵妄。",
+          "clinical": "麻醉管理中应重视围手术期血糖控制、体温监测和维持，这些措施可能与降低认知障碍患者术后谵妄风险相关。 术后血糖监测与谵妄风险增加相关，可能反映监测指征或混杂因素，需谨慎解读，不应直接改变临床实践。 现有最佳实践虽重要，但不足以充分预防谵妄，需探索更有效的个体化策略。",
+          "evidence": "中等偏高",
+          "score": 74,
+          "scoreBreakdown": {
+            "relevance": 22,
+            "evidenceQuality": 16,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 8
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性队列研究，为一项随机临床试验的二次探索性分析，数据来自干预组和对照组合并。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adults scheduled for surgery with preoperative cognitive impairment who stayed in the hospital for at least 1 postoperative night and underwent delirium assessment；1255"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Twelve perioperative best practices across 5 domains: avoidance of potentially inappropriate medications, perioperative glycemic control, hemodynamic management, normothermia maintenance, and anesthetic monitoring；对照：Not applicable (observational study)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Postoperative delirium assessed by the 4 A's Test"
+            }
+          ],
+          "keyPoints": [
+            "认知障碍患者术后谵妄发生率高（33.9%）。",
+            "血糖控制、体温监测和维持与谵妄风险降低相关（单独模型）。",
+            "同时分析时，仅术后血糖监测仍显著，但方向为风险增加，需谨慎解读。",
+            "现有最佳实践不足以预防谵妄，需进一步研究。"
+          ],
+          "methods": "尽管围手术期护理取得显著进展，认知障碍患者术后谵妄风险仍较高。了解围手术期最佳实践与谵妄预防的关系，可能有助于为该高风险群体制定个体化策略。",
+          "results": "共纳入1255例认知障碍患者，平均年龄65.0岁（SD 15.1），男性652例（52%）。426例（33.9%；95% CI，31.4%-36.6%）发生术后谵妄。在单独模型中，血糖<200 mg/dL（aOR 0.41；95% CI，0.24-0.69；P=0.001）、使用体温探头（aOR 0.65；95% CI，0.45-0.96；P=0.03）和维持体温>36°C（aOR 0.64；95% CI，0.43-0.94；P=0.03）与谵妄风险降低相关。但将各项实践同时纳入模型时，除术后血糖监测（aOR 1.54；95% CI，1.11-2.13；P=0.009）外，无单项实践仍显著。",
+          "mainResults": "共纳入1255例认知障碍患者，平均年龄65.0岁（SD 15.1），男性652例（52%）。426例（33.9%；95% CI，31.4%-36.6%）发生术后谵妄。在单独模型中，血糖<200 mg/dL（aOR 0.41；95% CI，0.24-0.69；P=0.001）、使用体温探头（aOR 0.65；95% CI，0.45-0.96；P=0.03）和维持体温>36°C（aOR 0.64；95% CI，0.43-0.94；P=0.03）与谵妄风险降低相关。但将各项实践同时纳入模型时，除术后血糖监测（aOR 1.54；95% CI，1.11-2.13；P=0.009）外，无单项实践仍显著。",
+          "limitations": [
+            "为随机临床试验的二次探索性分析，非预设主要分析。",
+            "合并了干预组和对照组数据，可能引入混杂。",
+            "观察性设计，不能确立因果关系。",
+            "可能存在残余混杂。",
+            "单中心研究。",
+            "母试验入组率低。",
+            "未对多重比较进行正式校正。",
+            "依赖电子健康记录识别认知障碍，可能不准确。",
+            "最佳实践为二分类变量，未捕捉临床意图或时机。"
+          ],
+          "practice": [
+            "麻醉管理中应重视围手术期血糖控制、体温监测和维持，这些措施可能与降低认知障碍患者术后谵妄风险相关。",
+            "术后血糖监测与谵妄风险增加相关，可能反映监测指征或混杂因素，需谨慎解读，不应直接改变临床实践。",
+            "现有最佳实践虽重要，但不足以充分预防谵妄，需探索更有效的个体化策略。"
+          ],
+          "editor": "研究提供了多项围手术期最佳实践与谵妄风险降低的关联证据，但效应量来自单独模型，且未校正多重比较，支持强度有限。 过度解读风险：存在过度解读风险，尤其是将观察性关联视为因果，以及将单独模型中的显著结果当作独立保护因素。",
+          "whyItMatters": "认知障碍患者术后谵妄风险高，但针对这一群体的围手术期最佳实践证据有限。本研究评估了多项可干预的围手术期措施与谵妄的关联，为优化该高风险人群的围手术期管理提供了初步依据。",
+          "background": "尽管围手术期护理取得显著进展，认知障碍患者术后谵妄风险仍较高。了解围手术期最佳实践与谵妄预防的关系，可能有助于为该高风险群体制定个体化策略。",
+          "pico": {
+            "population": "Adults scheduled for surgery with preoperative cognitive impairment who stayed in the hospital for at least 1 postoperative night and underwent delirium assessment",
+            "intervention": "Twelve perioperative best practices across 5 domains: avoidance of potentially inappropriate medications, perioperative glycemic control, hemodynamic management, normothermia maintenance, and anesthetic monitoring",
+            "comparison": "Not applicable (observational study)",
+            "outcome": "Postoperative delirium assessed by the 4 A's Test"
+          },
+          "studyType": "观察性队列研究，为一项随机临床试验的二次探索性分析，数据来自干预组和对照组合并。",
+          "sampleSize": "1255",
+          "primaryOutcome": "Postoperative delirium assessed by the 4 A's Test",
+          "effectSize": [
+            "aOR 0.41",
+            "aOR 0.65",
+            "aOR 0.64",
+            "aOR 1.54"
+          ],
+          "confidenceInterval": [
+            "95% CI, 0.24-0.69",
+            "95% CI, 0.45-0.96",
+            "95% CI, 0.43-0.94",
+            "95% CI, 1.11-2.13"
+          ],
+          "pValue": [
+            "P = .001",
+            "P = .03",
+            "P = .03",
+            "P = .009"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究提供了多项围手术期最佳实践与谵妄风险降低的关联证据，但效应量来自单独模型，且未校正多重比较，支持强度有限。",
+            "overinterpretationRisk": "存在过度解读风险，尤其是将观察性关联视为因果，以及将单独模型中的显著结果当作独立保护因素。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，可能缺少方法细节和完整结果。",
+                "未提供完整统计方法描述，如模型调整变量、缺失数据处理等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "探讨麻醉相关最佳实践与认知障碍患者术后谵妄的关联。",
+              "designFit": "观察性队列设计适合探索关联，但无法确立因果。",
+              "eligibility": "纳入计划手术、术前认知障碍、术后住院≥1晚并接受谵妄评估的成人；排除器官捐献手术。",
+              "randomization": "本研究为观察性分析，未涉及随机化。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "未报告盲法。",
+              "sampleSizePlanning": "未报告样本量计算。",
+              "followUp": "未报告随访时长。",
+              "analysisPopulation": "纳入1255例患者，分析人群为符合条件者。",
+              "missingData": "未报告缺失数据处理方法。",
+              "strengths": [
+                "聚焦认知障碍这一高风险人群。",
+                "评估了多项围手术期最佳实践。",
+                "使用标准化谵妄评估工具（4A测试）。"
+              ],
+              "concerns": [
+                "二次分析，非预设。",
+                "合并干预组和对照组可能引入偏倚。",
+                "单中心，外推受限。",
+                "未校正多重比较。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "logistic-regression",
+                  "name": "Logistic回归",
+                  "purposeInStudy": "评估各项最佳实践与术后谵妄的关联，计算调整比值比。",
+                  "reportedResult": "单独模型中，血糖<200 mg/dL（aOR 0.41；95% CI，0.24-0.69；P=0.001）、使用体温探头（aOR 0.65；95% CI，0.45-0.96；P=0.03）、维持体温>36°C（aOR 0.64；95% CI，0.43-0.94；P=0.03）与谵妄风险降低相关；同时分析时，术后血糖监测（aOR 1.54；95% CI，1.11-2.13；P=0.009）仍显著。",
+                  "interpretation": "单独模型显示部分最佳实践与谵妄风险降低相关，但联合模型仅术后血糖监测显著且方向相反，提示结果不稳定，可能受混杂或交互影响。",
+                  "cautions": [
+                    "比值比在结局常见时不能直接解释为风险比。",
+                    "未校正多重比较，可能增加假阳性风险。",
+                    "观察性设计，不能因果解释。"
+                  ],
+                  "standardExplanation": "分析二分类结局并常以比值比表示关联；比值比不能在结局常见时直接当作风险比。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "未进行正式的多重比较校正。",
+              "subgroupAnalysis": "未报告亚组分析。",
+              "clinicalVsStatisticalSignificance": "虽然部分关联具有统计学显著性，但临床意义需谨慎评估，因为效应量中等且置信区间较宽，且联合模型结果不一致。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后谵妄，通过4A测试评估。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "报告了绝对发生率（33.9%）和相对效应（aOR），但未提供绝对风险差。",
+              "subgroupAndInteraction": "未报告亚组或交互作用分析。",
+              "sensitivity": "未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "针对特定高风险人群。",
+                "评估了多项临床可操作的实践。",
+                "使用标准化谵妄评估工具。"
+              ],
+              "limitations": [
+                "观察性设计，因果推断受限。",
+                "二次分析，可能为探索性。",
+                "单中心，外推性受限。",
+                "未校正多重比较。",
+                "依赖电子健康记录识别认知障碍。"
+              ],
+              "biasRisks": [
+                "选择偏倚：入组率低可能影响代表性。",
+                "信息偏倚：认知障碍识别依赖EHR，可能不准确。",
+                "混杂偏倚：残余混杂可能影响结果。"
+              ],
+              "certainty": "证据确定性低，因观察性设计、二次分析和局限性。",
+              "conclusionAlignment": "结论与结果一致，但作者也承认现有策略不足，需进一步研究。",
+              "causalBoundary": "观察性关联不能确立因果，需随机对照试验验证。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "结果可能适用于类似大型学术医疗中心的认知障碍手术患者。",
+                "围手术期血糖控制和体温管理是常规可操作的实践。"
+              ],
+              "nonApplicability": [
+                "不适用于其他医疗环境或不同人群。",
+                "不能推广至无认知障碍患者。"
+              ],
+              "practiceChange": "当前证据不足以支持改变临床实践，但可提示关注血糖和体温管理。",
+              "canDoNow": [
+                "在围手术期管理中，可考虑加强血糖监测和体温维持，但需结合临床判断。",
+                "对认知障碍患者，应提高谵妄监测意识。"
+              ],
+              "cannotConclude": [
+                "不能确定这些最佳实践能独立预防谵妄。",
+                "不能确定术后血糖监测与谵妄风险增加的因果关系。"
+              ],
+              "evidenceGaps": [
+                "需要前瞻性随机对照试验验证这些关联。",
+                "需要多中心研究提高外推性。",
+                "需要评估最佳实践的依从性和时机。",
+                "需要探索其他潜在干预措施。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41817525/",
+            "doi": "https://doi.org/10.1001/jamanetworkopen.2026.1515",
+            "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.1515",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13045776/"
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-09T23:42:20.737Z",
       "mode": "production",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-09T23:42:20.737Z",
+  "updatedAt": "2026-08-10T23:46:42.252Z",
   "records": [
     {
       "pmid": "42359695",
@@ -673,6 +673,46 @@
       "status": "published",
       "runId": "2026-08-09T23-42-20.737Z",
       "firstPublishedAt": "2026-08-09T23:42:20.737Z"
+    },
+    {
+      "pmid": "41576049",
+      "doi": "10.1097/aln.0000000000005950",
+      "title": "Ropivacaine-based Regional Anesthesia Exerts Muscle-protective Effects Despite Elevated Compartment Pressure in a Porcine Model of Acute Compartment Syndrome.",
+      "status": "published",
+      "runId": "2026-08-10T23-46-42.252Z",
+      "firstPublishedAt": "2026-08-10T23:46:42.252Z"
+    },
+    {
+      "pmid": "41173771",
+      "doi": "10.1016/j.bja.2025.08.064",
+      "title": "Integrated 3D human cerebral organoids and paediatric patient serum analysis reveals mechanisms and biomarkers of anaesthetic-induced neurotoxicity.",
+      "status": "published",
+      "runId": "2026-08-10T23-46-42.252Z",
+      "firstPublishedAt": "2026-08-10T23:46:42.252Z"
+    },
+    {
+      "pmid": "42014230",
+      "doi": "10.1016/j.bja.2026.03.026",
+      "title": "Defining estimands in anaesthesia clinical trials: a scoping review and framework.",
+      "status": "published",
+      "runId": "2026-08-10T23-46-42.252Z",
+      "firstPublishedAt": "2026-08-10T23:46:42.252Z"
+    },
+    {
+      "pmid": "42545700",
+      "doi": "10.1001/jamanetworkopen.2026.25965",
+      "title": "Conventional vs Video-Assisted Laryngoscopy for Perioperative Endotracheal Intubations: A Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-10T23-46-42.252Z",
+      "firstPublishedAt": "2026-08-10T23:46:42.252Z"
+    },
+    {
+      "pmid": "41817525",
+      "doi": "10.1001/jamanetworkopen.2026.1515",
+      "title": "Perioperative Best Practices and Delirium in Patients With Cognitive Impairment.",
+      "status": "published",
+      "runId": "2026-08-10T23-46-42.252Z",
+      "firstPublishedAt": "2026-08-10T23:46:42.252Z"
     }
   ]
 }
