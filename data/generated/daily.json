@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T23:46:42.252Z",
+  "generatedAt": "2026-08-11T23:54:48.926Z",
   "mode": "production",
   "search": {
     "initialDays": 30,
@@ -18,18 +18,18 @@
         "reason": "composition-shortfall"
       }
     ],
-    "from": "2026-02-11T23:46:42.252Z",
-    "to": "2026-08-10T23:46:42.252Z",
-    "candidateCount": 268,
-    "discoveryCandidateCount": 10583,
-    "unseenCount": 199,
-    "duplicateCount": 69,
-    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/02/11:2026/08/10[Date - Publication]",
-    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2026/02/11:2026/08/10[Date - Publication]",
-    "priorityCandidateCount": 268,
+    "from": "2026-02-12T23:54:48.926Z",
+    "to": "2026-08-11T23:54:48.926Z",
+    "candidateCount": 270,
+    "discoveryCandidateCount": 10611,
+    "unseenCount": 196,
+    "duplicateCount": 74,
+    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/02/12:2026/08/11[Date - Publication]",
+    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2026/02/12:2026/08/11[Date - Publication]",
+    "priorityCandidateCount": 270,
     "eligibleJournalRetrieval": {
-      "matchedCount": 268,
-      "retrievedCount": 268,
+      "matchedCount": 270,
+      "retrievedCount": 270,
       "complete": true,
       "truncatedCount": 0,
       "maximumCandidates": 2000,
@@ -39,10 +39,10 @@
       "threshold": 5,
       "comparison": "greater-than",
       "candidateCount": 300,
-      "eligibleCount": 7,
-      "excludedCount": 293,
+      "eligibleCount": 11,
+      "excludedCount": 289,
       "excludedByReason": {
-        "journal-not-configured": 291,
+        "journal-not-configured": 287,
         "impact-factor-stale": 2
       },
       "rankingMetricYear": 2025,
@@ -50,12 +50,17 @@
         2024,
         2025
       ],
-      "unresolvedCount": 293,
+      "unresolvedCount": 289,
       "unresolvedJournals": [
         {
           "journal": "Annals of medicine",
           "reason": "journal-not-configured",
           "count": 22
+        },
+        {
+          "journal": "Journal of affective disorders",
+          "reason": "journal-not-configured",
+          "count": 11
         },
         {
           "journal": "Neuropharmacology",
@@ -73,9 +78,9 @@
           "count": 9
         },
         {
-          "journal": "Journal of affective disorders",
+          "journal": "Paediatric anaesthesia",
           "reason": "journal-not-configured",
-          "count": 8
+          "count": 9
         },
         {
           "journal": "Radiology case reports",
@@ -88,17 +93,17 @@
           "count": 6
         },
         {
+          "journal": "Brain research",
+          "reason": "journal-not-configured",
+          "count": 4
+        },
+        {
           "journal": "Brain research bulletin",
           "reason": "journal-not-configured",
-          "count": 5
+          "count": 4
         },
         {
           "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
-          "reason": "journal-not-configured",
-          "count": 5
-        },
-        {
-          "journal": "Brain research",
           "reason": "journal-not-configured",
           "count": 4
         },
@@ -109,6 +114,11 @@
         },
         {
           "journal": "Neuroscience",
+          "reason": "journal-not-configured",
+          "count": 4
+        },
+        {
+          "journal": "The Laryngoscope",
           "reason": "journal-not-configured",
           "count": 4
         },
@@ -133,22 +143,12 @@
           "count": 3
         },
         {
-          "journal": "Journal of anesthesia",
-          "reason": "journal-not-configured",
-          "count": 3
-        },
-        {
           "journal": "Journal of neuroscience methods",
           "reason": "journal-not-configured",
           "count": 3
         },
         {
-          "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
-          "reason": "journal-not-configured",
-          "count": 3
-        },
-        {
-          "journal": "The Journal of surgical research",
+          "journal": "Scientific reports",
           "reason": "journal-not-configured",
           "count": 3
         }
@@ -157,8 +157,8 @@
     "journalImpactFactor": {
       "threshold": 5,
       "comparison": "greater-than",
-      "candidateCount": 199,
-      "eligibleCount": 176,
+      "candidateCount": 196,
+      "eligibleCount": 173,
       "excludedCount": 23,
       "excludedByReason": {
         "journal-not-configured": 23
@@ -177,10 +177,10 @@
       "allowBackfill": false
     },
     "candidatePool": {
-      "total": 149,
-      "clinical": 102,
-      "basic": 9,
-      "other": 38
+      "total": 146,
+      "clinical": 98,
+      "basic": 8,
+      "other": 40
     },
     "selectionSummary": {
       "clinical": 4,
@@ -195,70 +195,74 @@
     "model": "deepseek-v4-flash",
     "configuredModel": "deepseek-chat",
     "usage": {
-      "calls": 21,
-      "promptTokens": 85340,
-      "completionTokens": 24599,
-      "totalTokens": 109939
+      "calls": 20,
+      "promptTokens": 104289,
+      "completionTokens": 29164,
+      "totalTokens": 133453
     }
   },
   "articles": [
     {
       "analysisVersion": 2,
-      "slug": "pmid-41576049",
+      "slug": "pmid-41605734",
       "number": "01",
-      "category": "麻醉学",
-      "journal": "Anesthesiology",
+      "category": "麻醉基础研究",
+      "journal": "British journal of anaesthesia",
       "year": "2026",
-      "publishedDate": "2026-05-01",
-      "electronicPublicationDate": "2026-01-23",
-      "readingTime": "12 分钟",
-      "title": "罗哌卡因区域麻醉在猪急性筋膜室综合征模型中尽管筋膜室压力升高仍发挥肌肉保护作用",
-      "originalTitle": "Ropivacaine-based Regional Anesthesia Exerts Muscle-protective Effects Despite Elevated Compartment Pressure in a Porcine Model of Acute Compartment Syndrome.",
-      "abstract": "BACKGROUND: Acute compartment syndrome (ACS) is a devastating sequela of orthopedic trauma characterized by elevated compartment pressure that precipitates tissue ischemia. The role of regional anesthesia in modulating these pathophysiological events remains controversial. This study investigated the impact of regional anesthesia via ropivacaine 0.2% (RPVC) on compartment pressure, systemic hemodynamics, biochemical markers, and tissue integrity in a porcine model of ACS. METHODS: Twenty male pigs underwent ACS induction in the tibialis anterior compartment by targeted inflation of an angioplasty catheter and were randomized to receive either RPVC or placebo via a regional catheter. Continuous compartment pressure and mean arterial pressure were recorded. Plasma samples and interstitial fluid were collected at predefined time points (T1, T3, T6, T8, and T10) to quantify creatine kinase, lactate, lactate dehydrogenase, and glucose. Histopathologic evaluation was performed at the end of the experiment (T10). RESULTS: At T10, compartment pressure was significantly elevated in the RPVC group (57.0 mmHg [49.0 to 59.0]) compared to placebo (41.5 mmHg [38.2 to 47.2]; P = 0.022), whereas mean arterial pressure remained comparable (RPVC: 63.0 mmHg [58.0 to 65.0] vs . placebo: 59.0 mmHg [56.2 to 61.8]; P = 0.13). Plasma biomarkers did not differ significantly ( e.g. , plasma creatinine kinase: RPVC 1940 U/l [868 to 3,334] vs . placebo 1,171 U/l [1,020 to 1,467]; P = 0.24). In contrast, interstitial analysis demonstrated a marked reduction in tissue injury markers in the RPVC group, with interstitial fluid lactate dehydrogenase significantly lower [24,475 U/l (19,500 to 28,213) vs . 113,800 U/l (91,000 to 116,600); P = 0.017] and interstitial fluid glucose substantially decreased (19.5 mg/dl [11.5 to 27.5] vs . 51.0 mg/dl [43.0 to 103.0]; P = 0.0043). RPVC-treated tissue exhibited attenuated degeneration and reduced necrosis in a blinded histopathologic scoring. CONCLUSIONS: Despite a higher compartment pressure, RPVC-based regional anesthesia yielded an improved regional metabolic profile and mitigated tissue injury in ACS. These findings suggest a protective effect in the observed timeframe that merits further clinical exploration.",
+      "publishedDate": "2026-05",
+      "electronicPublicationDate": "2026-01-27",
+      "readingTime": "11 分钟",
+      "title": "七氟烷通过钙/钙调蛋白依赖性蛋白激酶II依赖的β3亚基磷酸化改变α5β3GABA(A)受体转运，导致老年小鼠认知障碍",
+      "originalTitle": "Sevoflurane alters alpha5beta3GABA(A) receptor trafficking via calcium/calmodulin-dependent protein kinase II-dependent beta3 subunit phosphorylation to produce cognitive impairment in aged mice.",
+      "abstract": "BACKGROUND: Sevoflurane increases surface expression of alpha5 subunit-containing gamma-aminobutyric acid type A receptors (GABA(A)R-alpha5) and tonic currents in the hippocampus, contributing to postoperative memory decline. We investigated sevoflurane modulation of the phosphorylation of the beta3 subunit which co-assembles with alpha5 subunits following Ca(2+)/calmodulin-dependent protein kinase II (CaMKII) activation to alter receptor trafficking and exacerbate cognitive dysfunction. METHODS: Aged C57BL/6J mice and primary hippocampal neurones were exposed to 4 vol% sevoflurane for 2 h (Sev group). Cultured neurones were transfected with a phospho-null beta3 subunit (S408/409A) generated by site-directed mutagenesis. Immunoblot analysis, immunofluorescence, Ca(2+) imaging, whole-cell patch-clamp electrophysiological recording, pharmacological interventions, and behavioural tests were used. RESULTS: Sevoflurane triggered CaMKII-mediated phosphorylation at beta3-S408/409, suppressing receptor internalisation and increasing surface accumulation of alpha5beta3GABA(A)Rs (Sev vs control; P<0.0001). The beta3-S408/409A double mutation abolished the enhanced surface expression of alpha5beta3GABA(A)Rs (Sev+beta3-S408/409A vs Sev+NC; P=0.0022). CaMKII inhibition with small molecule inhibitor KN-93 normalised surface upregulation of alpha5beta3GABA(A)Rs (Sev+KN-93 vs Sev+vehicle; P<0.0001), attenuated enhanced tonic current (Sev+KN-93 vs Sev+vehicle; P=0.0027), and rescued contextual memory deficits (Sev+KN-93: 33.5% [7.3%] freezing vs Sev+vehicle: 19.3% [4.4%]; P=0.0139) induced by sevoflurane. CONCLUSIONS: Sevoflurane disrupts alpha5beta3GABA(A)Rs trafficking through CaMKII/beta3 S408/409 phosphorylation, identifying a potential therapeutic strategy for postoperative cognitive impairment.",
       "abstractTranslation": {
         "sections": [
           {
             "heading": "BACKGROUND",
-            "text": "急性筋膜室综合征（ACS）是骨科创伤的一种破坏性后遗症，其特征是筋膜室内压力升高，导致组织缺血。区域麻醉在调节这些病理生理事件中的作用仍存在争议。本研究在猪ACS模型中探讨了通过0.2%罗哌卡因（RPVC）进行的区域麻醉对筋膜室内压力、全身血流动力学、生化标志物和组织完整性的影响。"
+            "text": "七氟烷增加海马中α5亚基包含的γ-氨基丁酸A型受体（GABA(A)R-α5）的表面表达和紧张性电流，导致术后记忆衰退。我们研究了七氟烷在Ca(2+)/钙调蛋白依赖性蛋白激酶II（CaMKII）激活后调节与α5亚基共组装的β3亚基的磷酸化，从而改变受体运输并加剧认知功能障碍。"
           },
           {
             "heading": "METHODS",
-            "text": "20头雄性猪通过靶向充气血管成形术导管在胫骨前肌筋膜室诱导ACS，并随机分配接受RPVC或安慰剂通过区域导管给药。连续记录筋膜室内压力和平均动脉压。在预定义时间点（T1、T3、T6、T8和T10）收集血浆样本和间质液，以定量肌酸激酶、乳酸、乳酸脱氢酶和葡萄糖。在实验结束时（T10）进行组织病理学评估。"
+            "text": "将老年C57BL/6J小鼠和原代海马神经元暴露于4 vol%七氟烷2小时（Sev组）。培养的神经元转染了通过定点突变产生的磷酸化缺失β3亚基（S408/409A）。使用了免疫印迹分析、免疫荧光、Ca(2+)成像、全细胞膜片钳电生理记录、药理学干预和行为测试。"
           },
           {
             "heading": "RESULTS",
-            "text": "在T10时，RPVC组的筋膜室内压力显著升高（57.0 mmHg [49.0至59.0]），而安慰剂组为41.5 mmHg [38.2至47.2]；P = 0.022，而平均动脉压保持相当（RPVC：63.0 mmHg [58.0至65.0] vs. 安慰剂：59.0 mmHg [56.2至61.8]；P = 0.13）。血浆生物标志物无显著差异（例如，血浆肌酸激酶：RPVC 1940 U/l [868至3,334] vs. 安慰剂1,171 U/l [1,020至1,467]；P = 0.24）。相反，间质分析显示RPVC组组织损伤标志物显著减少，间质液乳酸脱氢酶显著降低[24,475 U/l (19,500至28,213) vs. 113,800 U/l (91,000至116,600)；P = 0.017]，间质液葡萄糖显著降低（19.5 mg/dl [11.5至27.5] vs. 51.0 mg/dl [43.0至103.0]；P = 0.0043）。在盲法组织病理学评分中，RPVC处理的组织表现出较轻的变性和坏死。"
+            "text": "七氟烷触发CaMKII介导的β3-S408/409磷酸化，抑制受体内化并增加α5β3GABA(A)Rs的表面积累（Sev vs 对照；P<0.0001）。β3-S408/409A双突变消除了α5β3GABA(A)Rs表面表达的增强（Sev+β3-S408/409A vs Sev+NC；P=0.0022）。用小分子抑制剂KN-93抑制CaMKII可正常化α5β3GABA(A)Rs的表面上调（Sev+KN-93 vs Sev+vehicle；P<0.0001），减弱增强的紧张性电流（Sev+KN-93 vs Sev+vehicle；P=0.0027），并挽救七氟烷诱导的情境记忆缺陷（Sev+KN-93：33.5% [7.3%] 冻结 vs Sev+vehicle：19.3% [4.4%]；P=0.0139）。"
           },
           {
             "heading": "CONCLUSIONS",
-            "text": "尽管筋膜室内压力较高，基于RPVC的区域麻醉在ACS中改善了局部代谢谱并减轻了组织损伤。这些发现提示在观察时间范围内存在保护作用，值得进一步临床探索。"
+            "text": "七氟烷通过CaMKII/β3 S408/409磷酸化破坏α5β3GABA(A)Rs的运输，为术后认知障碍确定了一种潜在的治疗策略。"
           }
         ],
-        "fullText": "BACKGROUND: 急性筋膜室综合征（ACS）是骨科创伤的一种破坏性后遗症，其特征是筋膜室内压力升高，导致组织缺血。区域麻醉在调节这些病理生理事件中的作用仍存在争议。本研究在猪ACS模型中探讨了通过0.2%罗哌卡因（RPVC）进行的区域麻醉对筋膜室内压力、全身血流动力学、生化标志物和组织完整性的影响。 METHODS: 20头雄性猪通过靶向充气血管成形术导管在胫骨前肌筋膜室诱导ACS，并随机分配接受RPVC或安慰剂通过区域导管给药。连续记录筋膜室内压力和平均动脉压。在预定义时间点（T1、T3、T6、T8和T10）收集血浆样本和间质液，以定量肌酸激酶、乳酸、乳酸脱氢酶和葡萄糖。在实验结束时（T10）进行组织病理学评估。 RESULTS: 在T10时，RPVC组的筋膜室内压力显著升高（57.0 mmHg [49.0至59.0]），而安慰剂组为41.5 mmHg [38.2至47.2]；P = 0.022，而平均动脉压保持相当（RPVC：63.0 mmHg [58.0至65.0] vs. 安慰剂：59.0 mmHg [56.2至61.8]；P = 0.13）。血浆生物标志物无显著差异（例如，血浆肌酸激酶：RPVC 1940 U/l [868至3,334] vs. 安慰剂1,171 U/l [1,020至1,467]；P = 0.24）。相反，间质分析显示RPVC组组织损伤标志物显著减少，间质液乳酸脱氢酶显著降低[24,475 U/l (19,500至28,213) vs. 113,800 U/l (91,000至116,600)；P = 0.017]，间质液葡萄糖显著降低（19.5 mg/dl [11.5至27.5] vs. 51.0 mg/dl [43.0至103.0]；P = 0.0043）。在盲法组织病理学评分中，RPVC处理的组织表现出较轻的变性和坏死。 CONCLUSIONS: 尽管筋膜室内压力较高，基于RPVC的区域麻醉在ACS中改善了局部代谢谱并减轻了组织损伤。这些发现提示在观察时间范围内存在保护作用，值得进一步临床探索。",
+        "fullText": "BACKGROUND: 七氟烷增加海马中α5亚基包含的γ-氨基丁酸A型受体（GABA(A)R-α5）的表面表达和紧张性电流，导致术后记忆衰退。我们研究了七氟烷在Ca(2+)/钙调蛋白依赖性蛋白激酶II（CaMKII）激活后调节与α5亚基共组装的β3亚基的磷酸化，从而改变受体运输并加剧认知功能障碍。 METHODS: 将老年C57BL/6J小鼠和原代海马神经元暴露于4 vol%七氟烷2小时（Sev组）。培养的神经元转染了通过定点突变产生的磷酸化缺失β3亚基（S408/409A）。使用了免疫印迹分析、免疫荧光、Ca(2+)成像、全细胞膜片钳电生理记录、药理学干预和行为测试。 RESULTS: 七氟烷触发CaMKII介导的β3-S408/409磷酸化，抑制受体内化并增加α5β3GABA(A)Rs的表面积累（Sev vs 对照；P<0.0001）。β3-S408/409A双突变消除了α5β3GABA(A)Rs表面表达的增强（Sev+β3-S408/409A vs Sev+NC；P=0.0022）。用小分子抑制剂KN-93抑制CaMKII可正常化α5β3GABA(A)Rs的表面上调（Sev+KN-93 vs Sev+vehicle；P<0.0001），减弱增强的紧张性电流（Sev+KN-93 vs Sev+vehicle；P=0.0027），并挽救七氟烷诱导的情境记忆缺陷（Sev+KN-93：33.5% [7.3%] 冻结 vs Sev+vehicle：19.3% [4.4%]；P=0.0139）。 CONCLUSIONS: 七氟烷通过CaMKII/β3 S408/409磷酸化破坏α5β3GABA(A)Rs的运输，为术后认知障碍确定了一种潜在的治疗策略。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Fritsch G, Thaler P, Ferguson J, Thumfart H, Grillari J, Osuchowski M, Woisetschlaeger G, Hoegler S, et al.",
-      "citation": "Anesthesiology. 2026 May 1;144(5):1199-1213. doi: 10.1097/ALN.0000000000005950. Epub 2026 Jan 23.",
-      "doi": "10.1097/aln.0000000000005950",
-      "pmid": "41576049",
-      "pmcid": "PMC13064834",
+      "authors": "Wan T, Zhang M, Li J, Wang Z, Dong J, Wang X, Dong Z, Liu Q, et al.",
+      "citation": "Br J Anaesth. 2026 May;136(5):1518-1533. doi: 10.1016/j.bja.2025.11.058. Epub 2026 Jan 27.",
+      "doi": "10.1016/j.bja.2025.11.058",
+      "pmid": "41605734",
+      "pmcid": null,
       "publicationTypes": [
         "Journal Article"
       ],
       "meshTerms": [
         "Animals",
+        "*Sevoflurane/pharmacology",
+        "*Calcium-Calmodulin-Dependent Protein Kinase Type 2/metabolism",
+        "Phosphorylation/drug effects",
+        "*Receptors, GABA-A/metabolism/drug effects",
+        "Mice",
+        "*Anesthetics, Inhalation/pharmacology",
+        "Mice, Inbred C57BL",
+        "*Cognitive Dysfunction/chemically induced/metabolism",
+        "Neurons/drug effects/metabolism",
+        "Hippocampus/drug effects/metabolism",
         "Male",
-        "Swine",
-        "*Ropivacaine",
-        "*Compartment Syndromes/physiopathology/prevention & control",
-        "*Muscle, Skeletal/drug effects/pathology",
-        "Disease Models, Animal",
-        "*Anesthetics, Local/pharmacology",
-        "*Anesthesia, Conduction/methods",
-        "*Amides/pharmacology",
-        "Acute Disease"
+        "Protein Transport/drug effects",
+        "Cells, Cultured",
+        "Aging"
       ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "publisher": "Elsevier BV",
       "crossrefVerified": true,
       "researchCategory": {
         "id": "basic",
@@ -272,619 +276,26 @@
       },
       "journalMetric": {
         "metric": "Journal Impact Factor",
-        "impactFactor": 9.3,
-        "metricYear": 2024,
+        "impactFactor": 10.3,
+        "metricYear": 2025,
         "rankingMetricYear": 2025,
         "maximumAgeYears": 1,
         "rankingComparable": true,
         "threshold": 5,
         "comparison": "greater-than",
-        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
         "verifiedAt": "2026-07-28",
-        "matchedJournal": "Anesthesiology"
+        "matchedJournal": "British Journal of Anaesthesia"
       },
       "tags": [
         "基础研究",
         "麻醉及围术期核心期刊",
-        "麻醉学",
-        "疼痛与区域麻醉",
-        "Journal Article"
-      ],
-      "question": "急性筋膜室综合征是骨科创伤的严重并发症，区域麻醉在其中的作用存在争议。该研究提示罗哌卡因区域麻醉可能通过局部代谢调节发挥肌肉保护作用，为未来临床探索提供了基础依据。",
-      "conclusion": "在猪急性筋膜室综合征模型中，与安慰剂相比，罗哌卡因区域麻醉虽导致筋膜室压力升高，但改善了局部代谢指标并减轻了组织损伤，提示在观察时间窗内具有潜在保护作用。",
-      "clinical": "该研究为动物实验，结果不能直接外推到临床，但提示区域麻醉可能对急性筋膜室综合征具有潜在保护作用。 在临床转化前，需要进一步研究明确罗哌卡因区域麻醉在人体中的安全性、有效性及最佳时机。",
-      "evidence": "中等",
-      "score": 56,
-      "scoreBreakdown": {
-        "relevance": 18,
-        "evidenceQuality": 8,
-        "clinicalImpact": 11,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "随机对照试验（动物实验）"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Twenty male pigs (Sus scrofa domesticus) weighing 35.70 ± 2.81 kg；20"
-        },
-        {
-          "label": "干预与比较",
-          "value": "Ropivacaine 0.2% (RPVC) via regional anesthesia catheter；对照：Placebo (normal saline) via regional anesthesia catheter"
-        },
-        {
-          "label": "主要终点",
-          "value": "Compartment pressure at T10"
-        }
-      ],
-      "keyPoints": [
-        "罗哌卡因区域麻醉导致筋膜室压力升高（57.0 vs. 41.5 mmHg，P=0.022）。",
-        "平均动脉压无显著差异（P=0.13）。",
-        "血浆生物标志物无显著差异（如肌酸激酶P=0.24）。",
-        "间质液乳酸脱氢酶显著降低（P=0.017），葡萄糖显著降低（P=0.0043）。",
-        "组织病理学显示变性和坏死减轻。"
-      ],
-      "methods": "急性筋膜室综合征以筋膜室压力升高导致组织缺血为特征，区域麻醉在其中的作用尚存争议。本研究旨在通过猪模型评估罗哌卡因区域麻醉对筋膜室压力、全身血流动力学、生化标志物和组织完整性的影响。",
-      "results": "在T10时间点，RPVC组筋膜室压力显著高于安慰剂组（57.0 mmHg [49.0-59.0] vs. 41.5 mmHg [38.2-47.2]；P=0.022），但平均动脉压无显著差异（63.0 mmHg [58.0-65.0] vs. 59.0 mmHg [56.2-61.8]；P=0.13）。血浆生物标志物无显著差异（如血浆肌酸激酶：RPVC 1940 U/l [868-3334] vs. 安慰剂 1171 U/l [1020-1467]；P=0.24）。相反，间质液分析显示RPVC组组织损伤标志物显著降低：间质液乳酸脱氢酶显著降低（24475 U/l [19500-28213] vs. 113800 U/l [91000-116600]；P=0.017），间质液葡萄糖显著降低（19.5 mg/dl [11.5-27.5] vs. 51.0 mg/dl [43.0-103.0]；P=0.0043）。盲法组织病理学评分显示RPVC处理的组织变性和坏死减轻。",
-      "mainResults": "在T10时间点，RPVC组筋膜室压力显著高于安慰剂组（57.0 mmHg [49.0-59.0] vs. 41.5 mmHg [38.2-47.2]；P=0.022），但平均动脉压无显著差异（63.0 mmHg [58.0-65.0] vs. 59.0 mmHg [56.2-61.8]；P=0.13）。血浆生物标志物无显著差异（如血浆肌酸激酶：RPVC 1940 U/l [868-3334] vs. 安慰剂 1171 U/l [1020-1467]；P=0.24）。相反，间质液分析显示RPVC组组织损伤标志物显著降低：间质液乳酸脱氢酶显著降低（24475 U/l [19500-28213] vs. 113800 U/l [91000-116600]；P=0.017），间质液葡萄糖显著降低（19.5 mg/dl [11.5-27.5] vs. 51.0 mg/dl [43.0-103.0]；P=0.0043）。盲法组织病理学评分显示RPVC处理的组织变性和坏死减轻。",
-      "limitations": [
-        "仅使用单一麻醉剂和单一浓度（RPVC 2 mg/ml），限制普遍性。",
-        "实验持续时间短，仅能评估急性筋膜室综合征的早期影响，未评估晚期恶化。",
-        "研究药物给药和筋膜室综合征诱导的顺序与典型临床情况不同（区域麻醉通常在损伤后）。",
-        "无完全无创伤的基线；采样在深麻醉下手术准备和导管置入后开始。",
-        "筋膜室压力与平均动脉压比较，而非舒张压；舒张压未连续记录。",
-        "仅使用雄性猪，限制对雌性的普遍性。",
-        "样本量小且非正态分布；非参数配对比较可能降低统计功效，且未考虑个体内相关性。",
-        "观察到的代谢变化/肌肉保护的确切机制仍属推测。"
-      ],
-      "practice": [
-        "该研究为动物实验，结果不能直接外推到临床，但提示区域麻醉可能对急性筋膜室综合征具有潜在保护作用。",
-        "在临床转化前，需要进一步研究明确罗哌卡因区域麻醉在人体中的安全性、有效性及最佳时机。"
-      ],
-      "editor": "研究结果支持罗哌卡因区域麻醉在猪急性筋膜室综合征模型中具有局部代谢改善和组织保护作用，但需注意筋膜室压力升高这一矛盾现象。 过度解读风险：存在过度解读风险，因为动物模型结果不能直接等同于临床效果，且样本量小、机制未明。",
-      "whyItMatters": "急性筋膜室综合征是骨科创伤的严重并发症，区域麻醉在其中的作用存在争议。该研究提示罗哌卡因区域麻醉可能通过局部代谢调节发挥肌肉保护作用，为未来临床探索提供了基础依据。",
-      "background": "急性筋膜室综合征以筋膜室压力升高导致组织缺血为特征，区域麻醉在其中的作用尚存争议。本研究旨在通过猪模型评估罗哌卡因区域麻醉对筋膜室压力、全身血流动力学、生化标志物和组织完整性的影响。",
-      "pico": {
-        "population": "Twenty male pigs (Sus scrofa domesticus) weighing 35.70 ± 2.81 kg",
-        "intervention": "Ropivacaine 0.2% (RPVC) via regional anesthesia catheter",
-        "comparison": "Placebo (normal saline) via regional anesthesia catheter",
-        "outcome": "Compartment pressure at T10"
-      },
-      "studyType": "随机对照试验（动物实验）",
-      "sampleSize": "20",
-      "primaryOutcome": "Compartment pressure at T10",
-      "effectSize": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "confidenceInterval": [
-        "57.0 mmHg [49.0 to 59.0]",
-        "41.5 mmHg [38.2 to 47.2]",
-        "63.0 mmHg [58.0 to 65.0]",
-        "59.0 mmHg [56.2 to 61.8]",
-        "1940 U/l [868 to 3,334]",
-        "1,171 U/l [1,020 to 1,467]",
-        "24,475 U/l (19,500 to 28,213)",
-        "113,800 U/l (91,000 to 116,600)",
-        "19.5 mg/dl [11.5 to 27.5]",
-        "51.0 mg/dl [43.0 to 103.0]"
-      ],
-      "pValue": [
-        "0.022",
-        "0.13",
-        "0.24",
-        "0.017",
-        "0.0043"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "研究结果支持罗哌卡因区域麻醉在猪急性筋膜室综合征模型中具有局部代谢改善和组织保护作用，但需注意筋膜室压力升高这一矛盾现象。",
-        "overinterpretationRisk": "存在过度解读风险，因为动物模型结果不能直接等同于临床效果，且样本量小、机制未明。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "full_text_excerpt",
-          "limitations": [
-            "当前可获取内容未提供该数据。",
-            "基于摘要和开放全文节选，可能缺少部分方法学细节。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "区域麻醉（罗哌卡因0.2%）是否影响猪急性筋膜室综合征模型中的筋膜室压力、全身血流动力学、生化标志物和组织完整性？",
-          "designFit": "随机对照试验设计适用于评估干预效果，但动物模型限制了直接临床推断。",
-          "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "20只雄性猪被随机分配至RPVC或安慰剂组。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "组织病理学评估采用盲法，但其他部分是否盲法未明确。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "实验持续至T10时间点，具体时长未提供。",
-          "analysisPopulation": "当前可获取内容未提供该数据。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "随机化设计。",
-            "盲法组织病理学评估。",
-            "同时评估全身和局部指标。"
-          ],
-          "concerns": [
-            "样本量小。",
-            "仅使用雄性动物。",
-            "非典型临床顺序。",
-            "统计方法可能未考虑个体内相关性。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
-              "reportedResult": "当前可获取内容未提供该数据。",
-              "interpretation": "无法评价统计方法的适当性。",
-              "cautions": [
-                "非参数配对比较可能降低统计功效。",
-                "未考虑个体内相关性。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "虽然间质液标志物有统计学差异，但临床意义尚不明确，且筋膜室压力升高可能带来风险。"
-        },
-        "outcomeAnalysis": {
-          "primary": "筋膜室压力在T10时间点显著升高（P=0.022）。",
-          "secondary": [
-            "平均动脉压无显著差异（P=0.13）。",
-            "血浆生物标志物无显著差异（如肌酸激酶P=0.24）。",
-            "间质液乳酸脱氢酶显著降低（P=0.017）。",
-            "间质液葡萄糖显著降低（P=0.0043）。",
-            "组织病理学显示变性和坏死减轻。"
-          ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "当前可获取内容未提供该数据。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "随机对照设计。",
-            "盲法组织病理学评估。",
-            "同时测量全身和局部指标。"
-          ],
-          "limitations": [
-            "样本量小。",
-            "仅雄性动物。",
-            "非典型临床顺序。",
-            "统计方法可能不充分。"
-          ],
-          "biasRisks": [
-            "选择偏倚风险低（随机化）。",
-            "测量偏倚风险低（盲法病理）。",
-            "统计功效不足风险。"
-          ],
-          "certainty": "低，由于动物模型、小样本和统计方法限制。",
-          "conclusionAlignment": "结论与结果一致，但需谨慎外推。",
-          "causalBoundary": "观察到的关联不能直接推断因果关系，机制尚不明确。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "为区域麻醉在急性筋膜室综合征中的潜在作用提供基础研究证据。"
-          ],
-          "nonApplicability": [
-            "动物模型结果不能直接应用于临床。",
-            "单一药物和浓度限制普遍性。"
-          ],
-          "practiceChange": "当前结果不足以改变临床实践。",
-          "canDoNow": [
-            "开展进一步动物研究以明确机制。",
-            "设计临床前研究评估安全性。"
-          ],
-          "cannotConclude": [
-            "不能得出罗哌卡因区域麻醉在人体中具有保护作用的结论。",
-            "不能推荐临床使用。"
-          ],
-          "evidenceGaps": [
-            "需要人体研究。",
-            "需要评估不同药物、浓度和时机。",
-            "需要长期结果。",
-            "需要明确机制。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要+开放全文节选分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41576049/",
-        "doi": "https://doi.org/10.1097/aln.0000000000005950",
-        "publisher": "https://doi.org/10.1097/aln.0000000000005950",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13064834/"
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-41173771",
-      "number": "02",
-      "category": "麻醉基础研究",
-      "journal": "British journal of anaesthesia",
-      "year": "2026",
-      "publishedDate": "2026-03",
-      "electronicPublicationDate": "2025-10-30",
-      "readingTime": "11 分钟",
-      "title": "整合3D人脑类器官与儿科患者血清分析揭示麻醉诱导神经毒性的机制与生物标志物",
-      "originalTitle": "Integrated 3D human cerebral organoids and paediatric patient serum analysis reveals mechanisms and biomarkers of anaesthetic-induced neurotoxicity.",
-      "abstract": "BACKGROUND: General anaesthetics are essential for paediatric surgery but have been associated with neuronal injury and long-term cognitive deficits, thereby raising concerns over neurodevelopmental safety. However, the molecular mechanisms underlying anaesthetic-induced developmental neurotoxicity remain poorly understood. METHODS: Human cerebral organoids derived from induced pluripotent stem cells were exposed to propofol (1-6 h; single or repeated exposures). In parallel, serum samples were collected from paediatric patients (age: <4 yr; n=10 per group) undergoing short (<1 h) or prolonged (>3 h) anaesthetic procedures. Organoid pathology and mitochondrial function were assessed using chemical assays, electron microscopy, and immunoblotting. Genome-wide profiling of 18 855 coding RNAs (mRNAs) and 27 427 long noncoding RNAs (lncRNAs) was performed by microarray analysis. RESULTS: Propofol exposure increased apoptosis (1.9 [0.3] vs 1.0 [0.1]; P=0.0173) and autophagy (0.78 [0.12] vs 0.45 [0.09]; P=0.028) in organoids, and dysregulated 553 mRNAs and 792 lncRNAs linked to synaptic function, mitochondrial activity, and inflammation. ATP production (P=0.045), and expression of CKMT1B (P=0.002) and synaptic markers PSD95 and c-Fos were reduced. Serum from children exposed to prolonged anaesthesia showed elevated neuronal injury markers and 33 overlapping dysregulated RNAs (21 mRNAs, 12 lncRNAs), including CKMT1B. Bioinformatics revealed enrichment of these dysregulated lncRNA-mRNA networks in pathways related to cell injury, neurodevelopment, and cognition. CONCLUSIONS: This study establishes a human-relevant model of anaesthetic-induced developmental neurotoxicity by integrating human organoids with clinical serum profiling. Propofol exposure led to mitochondrial dysfunction and disruption of coding RNA and lncRNA networks involved in neuronal development and injury. Concordant gene signatures (e.g. CKMT1B) across models highlight their potential as translational biomarkers and therapeutic targets.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": "BACKGROUND",
-            "text": "全身麻醉药对于小儿手术至关重要，但一直与神经元损伤和长期认知缺陷相关，从而引发对神经发育安全性的担忧。然而，麻醉药诱导的发育神经毒性的分子机制仍知之甚少。"
-          },
-          {
-            "heading": "METHODS",
-            "text": "将由诱导多能干细胞衍生的人脑类器官暴露于丙泊酚（1-6小时；单次或重复暴露）。同时，收集接受短时间（<1小时）或长时间（>3小时）麻醉手术的儿科患者（年龄：<4岁；每组n=10）的血清样本。使用化学测定、电子显微镜和免疫印迹评估类器官病理和线粒体功能。通过微阵列分析对18 855个编码RNA（mRNA）和27 427个长链非编码RNA（lncRNA）进行全基因组分析。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "丙泊酚暴露增加了类器官中的细胞凋亡（1.9 [0.3] vs 1.0 [0.1]；P=0.0173）和自噬（0.78 [0.12] vs 0.45 [0.09]；P=0.028），并失调了与突触功能、线粒体活性和炎症相关的553个mRNA和792个lncRNA。ATP产生（P=0.045）以及CKMT1B（P=0.002）和突触标志物PSD95和c-Fos的表达降低。长时间麻醉暴露的儿童血清显示神经元损伤标志物升高，并有33个重叠的失调RNA（21个mRNA，12个lncRNA），包括CKMT1B。生物信息学分析显示，这些失调的lncRNA-mRNA网络在与细胞损伤、神经发育和认知相关的通路中富集。"
-          },
-          {
-            "heading": "CONCLUSIONS",
-            "text": "本研究通过将人脑类器官与临床血清分析相结合，建立了一个与人类相关的麻醉药诱导发育神经毒性模型。丙泊酚暴露导致线粒体功能障碍，并破坏参与神经元发育和损伤的编码RNA和lncRNA网络。跨模型一致的基因特征（如CKMT1B）突显了其作为转化生物标志物和治疗靶点的潜力。"
-          }
-        ],
-        "fullText": "BACKGROUND: 全身麻醉药对于小儿手术至关重要，但一直与神经元损伤和长期认知缺陷相关，从而引发对神经发育安全性的担忧。然而，麻醉药诱导的发育神经毒性的分子机制仍知之甚少。 METHODS: 将由诱导多能干细胞衍生的人脑类器官暴露于丙泊酚（1-6小时；单次或重复暴露）。同时，收集接受短时间（<1小时）或长时间（>3小时）麻醉手术的儿科患者（年龄：<4岁；每组n=10）的血清样本。使用化学测定、电子显微镜和免疫印迹评估类器官病理和线粒体功能。通过微阵列分析对18 855个编码RNA（mRNA）和27 427个长链非编码RNA（lncRNA）进行全基因组分析。 RESULTS: 丙泊酚暴露增加了类器官中的细胞凋亡（1.9 [0.3] vs 1.0 [0.1]；P=0.0173）和自噬（0.78 [0.12] vs 0.45 [0.09]；P=0.028），并失调了与突触功能、线粒体活性和炎症相关的553个mRNA和792个lncRNA。ATP产生（P=0.045）以及CKMT1B（P=0.002）和突触标志物PSD95和c-Fos的表达降低。长时间麻醉暴露的儿童血清显示神经元损伤标志物升高，并有33个重叠的失调RNA（21个mRNA，12个lncRNA），包括CKMT1B。生物信息学分析显示，这些失调的lncRNA-mRNA网络在与细胞损伤、神经发育和认知相关的通路中富集。 CONCLUSIONS: 本研究通过将人脑类器官与临床血清分析相结合，建立了一个与人类相关的麻醉药诱导发育神经毒性模型。丙泊酚暴露导致线粒体功能障碍，并破坏参与神经元发育和损伤的编码RNA和lncRNA网络。跨模型一致的基因特征（如CKMT1B）突显了其作为转化生物标志物和治疗靶点的潜力。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Pant T, Jiang C, Yan Y, Schultz B, Laws D, Logan S, Bedrat A, Juric M, et al.",
-      "citation": "Br J Anaesth. 2026 Mar;136(3):915-932. doi: 10.1016/j.bja.2025.08.064. Epub 2025 Oct 30.",
-      "doi": "10.1016/j.bja.2025.08.064",
-      "pmid": "41173771",
-      "pmcid": "PMC12718073",
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [
-        "Humans",
-        "*Organoids/drug effects/metabolism",
-        "Biomarkers/blood",
-        "Child, Preschool",
-        "*Neurotoxicity Syndromes/blood/etiology",
-        "*Propofol/adverse effects/toxicity",
-        "Male",
-        "Induced Pluripotent Stem Cells/drug effects",
-        "Female",
-        "Infant",
-        "*Anesthetics, Intravenous/toxicity/adverse effects",
-        "*Brain/drug effects",
-        "Mitochondria/drug effects",
-        "Apoptosis/drug effects"
-      ],
-      "publisher": "Elsevier BV",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 10.3,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "British Journal of Anaesthesia"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
         "麻醉基础研究",
         "Journal Article"
       ],
-      "question": "该研究通过整合人脑类器官模型与儿科患者血清分析，为麻醉诱导的发育期神经毒性提供了人类相关模型，并识别出潜在的生物标志物和治疗靶点，对儿科麻醉安全评估具有重要意义。",
-      "conclusion": "丙泊酚暴露可诱导人脑类器官线粒体功能障碍及编码RNA和长链非编码RNA网络紊乱，且与接受长时间麻醉的儿童血清中神经损伤标志物及RNA改变存在重叠，提示CKMT1B等可能作为转化生物标志物。",
-      "clinical": "该研究提示丙泊酚可能通过线粒体功能障碍和RNA网络紊乱导致神经毒性，但尚需进一步验证。 CKMT1B等重叠基因可能作为潜在的生物标志物，但临床应用仍需更多研究。 对于长时间麻醉的儿科患者，应关注潜在的神经发育影响，但当前证据不足以改变临床实践。",
-      "evidence": "中等",
-      "score": 49,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 8,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "实验研究（结合体外类器官模型和临床血清样本分析）"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "paediatric patients (age: <4 yr; n=10 per group) undergoing short (<1 h) or prolonged (>3 h) anaesthetic procedures；n=10 per group"
-        },
-        {
-          "label": "干预与比较",
-          "value": "propofol exposure (1-6 h; single or repeated exposures) in human cerebral organoids; prolonged anaesthetic procedures in paediatric patients；对照：short (<1 h) vs prolonged (>3 h) anaesthetic procedures; propofol-exposed vs control organoids"
-        },
-        {
-          "label": "主要终点",
-          "value": "neuronal injury and mitochondrial dysfunction in organoids"
-        }
-      ],
-      "keyPoints": [
-        "丙泊酚暴露增加类器官凋亡和自噬，并降低ATP产生和突触标志物表达。",
-        "长时间麻醉儿童血清中神经损伤标志物升高，且与类器官模型存在重叠RNA改变。",
-        "CKMT1B可能作为潜在的生物标志物和治疗靶点。",
-        "该研究为麻醉诱导神经毒性提供了人类相关模型。"
-      ],
-      "methods": "全身麻醉药对儿科手术必不可少，但可能与神经元损伤和长期认知缺陷相关，引发对神经发育安全性的担忧。然而，麻醉诱导的发育期神经毒性的分子机制仍不清楚。",
-      "results": "丙泊酚暴露增加类器官凋亡（1.9 [0.3] vs 1.0 [0.1]；P=0.0173）和自噬（0.78 [0.12] vs 0.45 [0.09]；P=0.028），并导致553个mRNA和792个lncRNA表达失调，这些RNA与突触功能、线粒体活性和炎症相关。ATP产生（P=0.045）以及CKMT1B（P=0.002）和突触标志物PSD95、c-Fos的表达降低。长时间麻醉儿童血清显示神经损伤标志物升高，并存在33个重叠的失调RNA（21个mRNA，12个lncRNA），包括CKMT1B。",
-      "mainResults": "丙泊酚暴露增加类器官凋亡（1.9 [0.3] vs 1.0 [0.1]；P=0.0173）和自噬（0.78 [0.12] vs 0.45 [0.09]；P=0.028），并导致553个mRNA和792个lncRNA表达失调，这些RNA与突触功能、线粒体活性和炎症相关。ATP产生（P=0.045）以及CKMT1B（P=0.002）和突触标志物PSD95、c-Fos的表达降低。长时间麻醉儿童血清显示神经损伤标志物升高，并存在33个重叠的失调RNA（21个mRNA，12个lncRNA），包括CKMT1B。",
-      "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。",
-        "样本量较小（每组n=10），可能影响统计效能。",
-        "类器官模型与体内环境的差异可能限制外推性。",
-        "未提供长期神经发育结局的随访数据。"
-      ],
-      "practice": [
-        "该研究提示丙泊酚可能通过线粒体功能障碍和RNA网络紊乱导致神经毒性，但尚需进一步验证。",
-        "CKMT1B等重叠基因可能作为潜在的生物标志物，但临床应用仍需更多研究。",
-        "对于长时间麻醉的儿科患者，应关注潜在的神经发育影响，但当前证据不足以改变临床实践。"
-      ],
-      "editor": "研究结果支持丙泊酚暴露与神经毒性相关，但为实验性研究，需谨慎解读。 过度解读风险：存在将体外和观察性关联过度解读为因果关系的风险，且样本量小，需进一步验证。",
-      "whyItMatters": "该研究通过整合人脑类器官模型与儿科患者血清分析，为麻醉诱导的发育期神经毒性提供了人类相关模型，并识别出潜在的生物标志物和治疗靶点，对儿科麻醉安全评估具有重要意义。",
-      "background": "全身麻醉药对儿科手术必不可少，但可能与神经元损伤和长期认知缺陷相关，引发对神经发育安全性的担忧。然而，麻醉诱导的发育期神经毒性的分子机制仍不清楚。",
-      "pico": {
-        "population": "paediatric patients (age: <4 yr; n=10 per group) undergoing short (<1 h) or prolonged (>3 h) anaesthetic procedures",
-        "intervention": "propofol exposure (1-6 h; single or repeated exposures) in human cerebral organoids; prolonged anaesthetic procedures in paediatric patients",
-        "comparison": "short (<1 h) vs prolonged (>3 h) anaesthetic procedures; propofol-exposed vs control organoids",
-        "outcome": "neuronal injury and mitochondrial dysfunction in organoids"
-      },
-      "studyType": "实验研究（结合体外类器官模型和临床血清样本分析）",
-      "sampleSize": "n=10 per group",
-      "primaryOutcome": "neuronal injury and mitochondrial dysfunction in organoids",
-      "effectSize": [
-        "1.9 [0.3] vs 1.0 [0.1]",
-        "0.78 [0.12] vs 0.45 [0.09]"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "P=0.0173",
-        "P=0.028",
-        "P=0.045",
-        "P=0.002"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "研究结果支持丙泊酚暴露与神经毒性相关，但为实验性研究，需谨慎解读。",
-        "overinterpretationRisk": "存在将体外和观察性关联过度解读为因果关系的风险，且样本量小，需进一步验证。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "abstract",
-          "limitations": [
-            "仅基于摘要，无法获取完整方法学细节、数据完整性和局限性信息。",
-            "未提供效应量置信区间、统计调整、亚组分析等详细信息。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "探讨麻醉诱导的发育期神经毒性的分子机制，并识别潜在的生物标志物。",
-          "designFit": "实验研究设计适合探索机制，但临床部分为观察性，需注意因果推断限制。",
-          "eligibility": "儿科患者年龄<4岁，接受短时间或长时间麻醉手术；类器官来自诱导多能干细胞。",
-          "randomization": "当前可获取内容未提供该数据。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "当前可获取内容未提供该数据。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "每组10例儿科患者；类器官实验未明确重复次数。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "整合人类类器官模型和临床血清分析，提高人类相关性。",
-            "采用全基因组表达谱分析，覆盖大量mRNA和lncRNA。"
-          ],
-          "concerns": [
-            "样本量小，可能影响统计效能。",
-            "类器官模型不能完全模拟体内复杂环境。",
-            "未提供长期神经发育结局。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "未识别到具体统计方法，无法评价。",
-              "reportedResult": "报告了P值，但未说明具体检验方法。",
-              "interpretation": "无法评价统计方法的适当性。",
-              "cautions": [
-                "未提供效应量置信区间。",
-                "未说明多重比较校正。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "虽然部分结果有统计学差异，但临床意义尚不明确，需结合效应量和临床结局评估。"
-        },
-        "outcomeAnalysis": {
-          "primary": "类器官中神经元损伤和线粒体功能障碍（通过凋亡、自噬、ATP产生等评估）。",
-          "secondary": [
-            "凋亡",
-            "自噬",
-            "失调的mRNA和lncRNA",
-            "ATP产生",
-            "CKMT1B和突触标志物PSD95、c-Fos的表达",
-            "血清神经损伤标志物"
-          ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "报告了绝对值和相对变化，但未提供置信区间。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "使用人类类器官模型，提高人类相关性。",
-            "结合临床血清样本，增强转化潜力。",
-            "全基因组表达谱分析提供丰富数据。"
-          ],
-          "limitations": [
-            "样本量小。",
-            "类器官模型局限性。",
-            "缺乏长期随访。",
-            "未提供统计方法细节。"
-          ],
-          "biasRisks": [
-            "选择偏倚风险（患者分组可能非随机）。",
-            "检测偏倚风险（未提及盲法）。"
-          ],
-          "certainty": "低至中等，因摘要信息有限，且为实验性研究。",
-          "conclusionAlignment": "结论与结果基本一致，但需注意因果推断限制。",
-          "causalBoundary": "类器官实验可提示因果关系，但临床部分为观察性关联，不能直接推断因果。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "可能为儿科麻醉神经毒性监测提供潜在生物标志物。",
-            "可能为未来干预研究提供靶点。"
-          ],
-          "nonApplicability": [
-            "不能直接用于临床实践改变。",
-            "不能用于指导具体麻醉方案。"
-          ],
-          "practiceChange": "当前证据不足以改变临床实践。",
-          "canDoNow": [
-            "关注长时间麻醉儿童的神经发育随访。",
-            "进一步验证生物标志物。"
-          ],
-          "cannotConclude": [
-            "不能确定丙泊酚导致人类神经毒性的因果关系。",
-            "不能确定CKMT1B作为生物标志物的临床效用。"
-          ],
-          "evidenceGaps": [
-            "需要更大样本的临床研究。",
-            "需要长期神经发育结局数据。",
-            "需要明确统计方法和校正。",
-            "需要机制验证。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41173771/",
-        "doi": "https://doi.org/10.1016/j.bja.2025.08.064",
-        "publisher": "https://doi.org/10.1016/j.bja.2025.08.064",
-        "openFullText": null
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-42014230",
-      "number": "03",
-      "category": "麻醉学",
-      "journal": "British journal of anaesthesia",
-      "year": "2026",
-      "publishedDate": "2026-08",
-      "electronicPublicationDate": "2026-04-20",
-      "readingTime": "11 分钟",
-      "title": "麻醉临床试验中估计目标（estimand）的定义：一项范围综述与框架构建",
-      "originalTitle": "Defining estimands in anaesthesia clinical trials: a scoping review and framework.",
-      "abstract": "BACKGROUND: Intercurrent events, such as treatment switching and rescue medication, commonly occur in anaesthesia trials, and can affect the occurrence or interpretation of primary outcomes. The estimand framework provides strategies for handling these events, aligning trial objectives with outcomes. METHODS: We conducted a scoping review of RCTs with >/=100 participants published from January 2020 to June 2024 in ten high-impact journals, including patients receiving anaesthesia before surgery. We examined whether estimands were reported and identified intercurrent events. A structured framework was developed by mapping intercurrent events to intervention-outcome combinations investigated across all included anaesthesia trials. RESULTS: Among 139 included trials, none explicitly used the estimand framework, and an estimand could be inferred in only 27 (19%). The primary outcome was defined in all trials, while other attributes were often not inferable: target population (44 [32%]), treatment condition (21 [15%]), summary measure (22 [16%]) and intercurrent event handling (84 [60%]). The most common intercurrent events were not receiving the randomised intervention (64 [46%]), treatment discontinuation (38 [27%]), and treatment switching (27 [19%]). Anaesthesia-related intercurrent events included surgery cancellation (37 [27%]) and non-protocolised anaesthesia management (17 [12%]). Findings informed the development of a structured, interactive web-based tool linking intercurrent events to intervention-outcome combinations, refined by expert review. CONCLUSIONS: Use of estimands in anaesthesia trials is limited. Our tool supports structured identification and handling of intercurrent events in anaesthesia trials. Greater collaboration between statisticians and clinicians, with consistent application of the estimand framework, is needed to improve clarity and interpretability of future anaesthesia research.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": "BACKGROUND",
-            "text": "麻醉试验中常见并发事件，如治疗转换和救援药物，可能影响主要结局的发生或解释。估计目标框架提供了处理这些事件的策略，使试验目标与结局保持一致。"
-          },
-          {
-            "heading": "METHODS",
-            "text": "我们对2020年1月至2024年6月在十种高影响力期刊上发表的、样本量≥100的随机对照试验进行了范围综述，纳入的患者在手术前接受麻醉。我们检查了是否报告了估计目标，并识别了并发事件。通过将并发事件映射到所有纳入的麻醉试验中调查的干预-结局组合，开发了一个结构化框架。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "在纳入的139项试验中，没有一项明确使用估计目标框架，仅27项（19%）可推断出估计目标。所有试验均定义了主要结局，而其他属性通常无法推断：目标人群（44项[32%]）、治疗条件（21项[15%]）、汇总测量（22项[16%]）和并发事件处理（84项[60%]）。最常见的并发事件是未接受随机干预（64项[46%]）、治疗中断（38项[27%]）和治疗转换（27项[19%]）。麻醉相关的并发事件包括手术取消（37项[27%]）和非方案化麻醉管理（17项[12%]）。研究结果为开发一个结构化的、交互式网络工具提供了信息，该工具将并发事件与干预-结局组合联系起来，并经专家评审完善。"
-          },
-          {
-            "heading": "CONCLUSIONS",
-            "text": "估计目标在麻醉试验中的使用有限。我们的工具支持麻醉试验中并发事件的结构化识别和处理。需要统计学家和临床医生之间加强合作，并一致应用估计目标框架，以提高未来麻醉研究的清晰度和可解释性。"
-          }
-        ],
-        "fullText": "BACKGROUND: 麻醉试验中常见并发事件，如治疗转换和救援药物，可能影响主要结局的发生或解释。估计目标框架提供了处理这些事件的策略，使试验目标与结局保持一致。METHODS: 我们对2020年1月至2024年6月在十种高影响力期刊上发表的、样本量≥100的随机对照试验进行了范围综述，纳入的患者在手术前接受麻醉。我们检查了是否报告了估计目标，并识别了并发事件。通过将并发事件映射到所有纳入的麻醉试验中调查的干预-结局组合，开发了一个结构化框架。RESULTS: 在纳入的139项试验中，没有一项明确使用估计目标框架，仅27项（19%）可推断出估计目标。所有试验均定义了主要结局，而其他属性通常无法推断：目标人群（44项[32%]）、治疗条件（21项[15%]）、汇总测量（22项[16%]）和并发事件处理（84项[60%]）。最常见的并发事件是未接受随机干预（64项[46%]）、治疗中断（38项[27%]）和治疗转换（27项[19%]）。麻醉相关的并发事件包括手术取消（37项[27%]）和非方案化麻醉管理（17项[12%]）。研究结果为开发一个结构化的、交互式网络工具提供了信息，该工具将并发事件与干预-结局组合联系起来，并经专家评审完善。CONCLUSIONS: 估计目标在麻醉试验中的使用有限。我们的工具支持麻醉试验中并发事件的结构化识别和处理。需要统计学家和临床医生之间加强合作，并一致应用估计目标框架，以提高未来麻醉研究的清晰度和可解释性。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Siriwardena GA, Luu S, Gunaratne RK, Simpson JA, Leslie K, Braat S, De Silva AP",
-      "citation": "Br J Anaesth. 2026 Aug;137(2):610-624. doi: 10.1016/j.bja.2026.03.026. Epub 2026 Apr 20.",
-      "doi": "10.1016/j.bja.2026.03.026",
-      "pmid": "42014230",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article",
-        "Scoping Review"
-      ],
-      "meshTerms": [
-        "Humans",
-        "*Anesthesia/methods",
-        "*Randomized Controlled Trials as Topic/methods",
-        "*Research Design"
-      ],
-      "publisher": "Elsevier BV",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 10.3,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "British Journal of Anaesthesia"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "Journal Article",
-        "Scoping Review"
-      ],
-      "question": "伴发事件（如治疗转换、抢救药物、手术取消）在麻醉试验中常见，可能影响主要结局的发生或解释。估计目标框架有助于明确试验目标与结局的一致性，提高研究结果的清晰度和可解释性。当前麻醉试验中估计目标使用不足，可能影响证据的解读和临床转化。",
-      "conclusion": "在2020年1月至2024年6月发表的高影响力期刊麻醉随机对照试验中，估计目标框架的使用极为有限，仅19%的试验可推断出估计目标，且多数试验对目标人群、处理条件、汇总测量和伴发事件处理等属性的报告不完整。",
-      "clinical": "麻醉试验中估计目标框架的使用不足，可能影响试验结果的清晰度和可解释性。 开发的结构化交互式工具可帮助研究者识别和处理伴发事件，提高未来麻醉研究的质量。 统计学家与临床医生的合作对于一致应用估计目标框架至关重要。",
+      "question": "该研究揭示了七氟烷致术后认知障碍的新机制，即通过CaMKII/β3磷酸化调控α5β3GABA(A)受体转运，为术后认知障碍的防治提供了潜在药物靶点。",
+      "conclusion": "七氟烷通过CaMKII介导的β3-S408/409磷酸化抑制α5β3GABA(A)受体内化，增加其表面表达和强直电流，导致老年小鼠情境记忆缺陷；抑制CaMKII可逆转这些效应。",
+      "clinical": "七氟烷可能通过CaMKII/β3磷酸化通路导致术后认知障碍，抑制CaMKII可能成为预防或治疗术后认知障碍的潜在策略。 然而，该研究为动物和细胞实验，尚不能直接用于临床，需进一步验证其在人体中的有效性和安全性。",
       "evidence": "中等",
       "score": 47,
       "scoreBreakdown": {
@@ -897,93 +308,98 @@
       "study": [
         {
           "label": "研究设计",
-          "value": "范围综述（Scoping Review）"
+          "value": "实验研究（基础研究，非人体研究）"
         },
         {
           "label": "研究对象与样本",
-          "value": "RCTs with ≥100 participants published from January 2020 to June 2024 in ten high-impact journals, including patients receiving anaesthesia before surgery；139 included trials"
+          "value": "aged C57BL/6J mice and primary hippocampal neurones；当前可获取内容未提供该数据。"
         },
         {
           "label": "干预与比较",
-          "value": "当前可获取内容未提供该数据。；对照：当前可获取内容未提供该数据。"
+          "value": "exposure to 4 vol% sevoflurane for 2 h；对照：control group (not exposed to sevoflurane)"
         },
         {
           "label": "主要终点",
-          "value": "Primary outcome was defined in all trials"
+          "value": "surface expression of alpha5beta3GABA(A) receptors and tonic currents in hippocampus"
         }
       ],
       "keyPoints": [
-        "139项麻醉RCT中，无一项明确使用估计目标框架，仅19%可推断出估计目标。",
-        "所有试验均定义主要结局，但目标人群（32%）、处理条件（15%）、汇总测量（16%）和伴发事件处理（60%）的报告不完整。",
-        "最常见的伴发事件为未接受随机干预（46%）、治疗中断（27%）和治疗转换（19%）。",
-        "麻醉相关伴发事件包括手术取消（27%）和非方案化麻醉管理（12%）。",
-        "开发了结构化交互式工具，以支持伴发事件的识别和处理。"
+        "七氟烷增加α5β3GABA(A)受体表面表达和强直电流。",
+        "机制涉及CaMKII介导的β3-S408/409磷酸化。",
+        "β3-S408/409A突变消除表面表达增强。",
+        "KN-93抑制CaMKII可逆转表面上调、强直电流和记忆缺陷。",
+        "该研究为术后认知障碍的防治提供了潜在靶点。"
       ],
-      "methods": "伴发事件（如治疗转换、抢救药物）在麻醉试验中常见，可能影响主要结局的发生或解释。估计目标框架提供了处理这些事件的策略，使试验目标与结局保持一致。本研究旨在评估麻醉试验中估计目标的报告情况，并开发结构化框架以支持伴发事件的处理。",
-      "results": "共纳入139项试验。没有试验明确使用估计目标框架，仅27项（19%）可推断出估计目标。所有试验均定义了主要结局，但其他属性常无法推断：目标人群（44项，32%）、处理条件（21项，15%）、汇总测量（22项，16%）、伴发事件处理（84项，60%）。最常见的伴发事件为未接受随机干预（64项，46%）、治疗中断（38项，27%）、治疗转换（27项，19%）。麻醉相关伴发事件包括手术取消（37项，27%）和非方案化麻醉管理（17项，12%）。",
-      "mainResults": "共纳入139项试验。没有试验明确使用估计目标框架，仅27项（19%）可推断出估计目标。所有试验均定义了主要结局，但其他属性常无法推断：目标人群（44项，32%）、处理条件（21项，15%）、汇总测量（22项，16%）、伴发事件处理（84项，60%）。最常见的伴发事件为未接受随机干预（64项，46%）、治疗中断（38项，27%）、治疗转换（27项，19%）。麻醉相关伴发事件包括手术取消（37项，27%）和非方案化麻醉管理（17项，12%）。",
+      "methods": "七氟烷可增加海马中含α5亚基的GABA(A)受体表面表达和强直电流，导致术后记忆下降。本研究探讨七氟烷是否通过CaMKII激活磷酸化β3亚基（与α5共组装）来改变受体转运并加重认知功能障碍。",
+      "results": "七氟烷触发CaMKII介导的β3-S408/409磷酸化，抑制受体内化，增加α5β3GABA(A)受体表面积累（Sev vs 对照；P<0.0001）。β3-S408/409A双突变消除了表面表达增强（Sev+β3-S408/409A vs Sev+NC；P=0.0022）。CaMKII抑制剂KN-93使表面上调正常化（Sev+KN-93 vs Sev+vehicle；P<0.0001），减弱增强的强直电流（P=0.0027），并挽救情境记忆缺陷（Sev+KN-93：33.5% [7.3%] 冻结 vs Sev+vehicle：19.3% [4.4%]；P=0.0139）。",
+      "mainResults": "七氟烷触发CaMKII介导的β3-S408/409磷酸化，抑制受体内化，增加α5β3GABA(A)受体表面积累（Sev vs 对照；P<0.0001）。β3-S408/409A双突变消除了表面表达增强（Sev+β3-S408/409A vs Sev+NC；P=0.0022）。CaMKII抑制剂KN-93使表面上调正常化（Sev+KN-93 vs Sev+vehicle；P<0.0001），减弱增强的强直电流（P=0.0027），并挽救情境记忆缺陷（Sev+KN-93：33.5% [7.3%] 冻结 vs Sev+vehicle：19.3% [4.4%]；P=0.0139）。",
       "limitations": [
-        "当前可获取内容未提供该数据。"
+        "当前可获取内容未提供该数据。",
+        "研究为动物和细胞模型，结果外推至人类需谨慎。",
+        "未报告样本量、随机化、盲法等细节。",
+        "未报告不良事件。"
       ],
       "practice": [
-        "麻醉试验中估计目标框架的使用不足，可能影响试验结果的清晰度和可解释性。",
-        "开发的结构化交互式工具可帮助研究者识别和处理伴发事件，提高未来麻醉研究的质量。",
-        "统计学家与临床医生的合作对于一致应用估计目标框架至关重要。"
+        "七氟烷可能通过CaMKII/β3磷酸化通路导致术后认知障碍，抑制CaMKII可能成为预防或治疗术后认知障碍的潜在策略。",
+        "然而，该研究为动物和细胞实验，尚不能直接用于临床，需进一步验证其在人体中的有效性和安全性。"
       ],
-      "editor": "该研究为范围综述，系统检索了高影响力期刊中的麻醉RCT，提供了估计目标使用频率的量化数据，并开发了结构化框架。 过度解读风险：由于是范围综述，未对纳入试验的方法学质量进行详细评估，且未提供效应量或置信区间，因此不能推断估计目标使用与临床结局之间的因果关系。",
-      "whyItMatters": "伴发事件（如治疗转换、抢救药物、手术取消）在麻醉试验中常见，可能影响主要结局的发生或解释。估计目标框架有助于明确试验目标与结局的一致性，提高研究结果的清晰度和可解释性。当前麻醉试验中估计目标使用不足，可能影响证据的解读和临床转化。",
-      "background": "伴发事件（如治疗转换、抢救药物）在麻醉试验中常见，可能影响主要结局的发生或解释。估计目标框架提供了处理这些事件的策略，使试验目标与结局保持一致。本研究旨在评估麻醉试验中估计目标的报告情况，并开发结构化框架以支持伴发事件的处理。",
+      "editor": "研究结果支持七氟烷通过CaMKII/β3磷酸化改变受体转运并导致认知障碍的机制，且CaMKII抑制可逆转效应。 过度解读风险：存在过度解读风险：动物实验的机制发现不能直接等同于临床疗效，需避免将动物结果直接推广至人类。",
+      "whyItMatters": "该研究揭示了七氟烷致术后认知障碍的新机制，即通过CaMKII/β3磷酸化调控α5β3GABA(A)受体转运，为术后认知障碍的防治提供了潜在药物靶点。",
+      "background": "七氟烷可增加海马中含α5亚基的GABA(A)受体表面表达和强直电流，导致术后记忆下降。本研究探讨七氟烷是否通过CaMKII激活磷酸化β3亚基（与α5共组装）来改变受体转运并加重认知功能障碍。",
       "pico": {
-        "population": "RCTs with ≥100 participants published from January 2020 to June 2024 in ten high-impact journals, including patients receiving anaesthesia before surgery",
-        "intervention": "当前可获取内容未提供该数据。",
-        "comparison": "当前可获取内容未提供该数据。",
-        "outcome": "Primary outcome was defined in all trials"
+        "population": "aged C57BL/6J mice and primary hippocampal neurones",
+        "intervention": "exposure to 4 vol% sevoflurane for 2 h",
+        "comparison": "control group (not exposed to sevoflurane)",
+        "outcome": "surface expression of alpha5beta3GABA(A) receptors and tonic currents in hippocampus"
       },
-      "studyType": "范围综述（Scoping Review）",
-      "sampleSize": "139 included trials",
-      "primaryOutcome": "Primary outcome was defined in all trials",
+      "studyType": "实验研究（基础研究，非人体研究）",
+      "sampleSize": "当前可获取内容未提供该数据。",
+      "primaryOutcome": "surface expression of alpha5beta3GABA(A) receptors and tonic currents in hippocampus",
       "effectSize": [
-        "当前可获取内容未提供该数据。"
+        "33.5% [7.3%] freezing vs 19.3% [4.4%]"
       ],
       "confidenceInterval": [
         "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "当前可获取内容未提供该数据。"
+        "P<0.0001",
+        "P=0.0022",
+        "P<0.0001",
+        "P=0.0027",
+        "P=0.0139"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "该研究为范围综述，系统检索了高影响力期刊中的麻醉RCT，提供了估计目标使用频率的量化数据，并开发了结构化框架。",
-        "overinterpretationRisk": "由于是范围综述，未对纳入试验的方法学质量进行详细评估，且未提供效应量或置信区间，因此不能推断估计目标使用与临床结局之间的因果关系。"
+        "support": "研究结果支持七氟烷通过CaMKII/β3磷酸化改变受体转运并导致认知障碍的机制，且CaMKII抑制可逆转效应。",
+        "overinterpretationRisk": "存在过度解读风险：动物实验的机制发现不能直接等同于临床疗效，需避免将动物结果直接推广至人类。"
       },
       "deepDive": {
         "sourceCoverage": {
           "level": "abstract",
           "limitations": [
-            "仅基于摘要分析，未获取全文，无法评估方法学细节、具体统计方法、偏倚风险等。",
-            "未提供纳入试验的具体干预和比较信息。",
-            "未提供效应量、置信区间和P值。"
+            "仅基于摘要，未获取全文，方法学细节（如随机化、盲法、样本量计算）缺失。",
+            "无法评估研究设计的具体实施和潜在偏倚。"
           ]
         },
         "methodology": {
-          "researchQuestion": "评估麻醉试验中估计目标的报告情况，并开发结构化框架以处理伴发事件。",
-          "designFit": "范围综述适合探索估计目标在麻醉试验中的使用现状，并开发框架。",
-          "eligibility": "纳入2020年1月至2024年6月发表于10本高影响力期刊、样本量≥100、接受术前麻醉的患者的RCT。",
+          "researchQuestion": "七氟烷是否通过CaMKII介导的β3亚基磷酸化改变α5β3GABA(A)受体转运并导致认知障碍？",
+          "designFit": "实验研究设计适合回答机制性问题，但无法直接推断临床因果。",
+          "eligibility": "当前可获取内容未提供该数据。",
           "randomization": "当前可获取内容未提供该数据。",
           "allocationConcealment": "当前可获取内容未提供该数据。",
           "blinding": "当前可获取内容未提供该数据。",
           "sampleSizePlanning": "当前可获取内容未提供该数据。",
           "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "老年C57BL/6J小鼠和原代海马神经元。",
           "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "系统检索了高影响力期刊中的麻醉RCT，时间范围明确。",
-            "提供了估计目标使用频率的量化数据。",
-            "开发了结构化框架，并经过专家评审。"
+            "使用多种技术（免疫印迹、免疫荧光、钙成像、膜片钳、行为学）验证机制。",
+            "通过突变和药理学抑制验证了β3磷酸化的关键作用。"
           ],
           "concerns": [
-            "仅基于摘要，无法评估纳入试验的方法学质量。",
-            "未提供具体统计方法。"
+            "未报告随机化、盲法等细节，可能存在偏倚。",
+            "样本量未报告，统计效力未知。",
+            "动物模型结果外推至人类需谨慎。"
           ]
         },
         "statistics": {
@@ -991,11 +407,12 @@
             {
               "referenceId": null,
               "name": "未报告",
-              "purposeInStudy": "当前可获取内容未提供该数据。",
-              "reportedResult": "当前可获取内容未提供该数据。",
-              "interpretation": "由于未识别到具体统计方法，无法评价统计分析的适当性。",
+              "purposeInStudy": "未识别到具体统计方法，无法评价。",
+              "reportedResult": "P值报告于各组比较中。",
+              "interpretation": "P值显示组间差异具有统计学意义，但未报告效应量置信区间。",
               "cautions": [
-                "无法评估统计方法的正确性。"
+                "未报告多重比较校正，可能增加I类错误。",
+                "未报告效应量置信区间，无法评估精确性。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
@@ -1003,54 +420,57 @@
           "adjustedVariables": "当前可获取内容未提供该数据。",
           "multiplicity": "当前可获取内容未提供该数据。",
           "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+          "clinicalVsStatisticalSignificance": "P值显示统计学差异，但临床意义需结合效应量（如冻结时间差异）评估，且动物实验的临床意义有限。"
         },
         "outcomeAnalysis": {
-          "primary": "主要结局在所有试验中均有定义，但未提供具体结局指标。",
+          "primary": "海马α5β3GABA(A)受体表面表达和强直电流。",
           "secondary": [
-            "当前可获取内容未提供次要结局。"
+            "情境记忆缺陷（通过冻结时间评估）。"
           ],
           "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "报告了绝对冻结时间（33.5% vs 19.3%），但未报告相对风险或置信区间。",
           "subgroupAndInteraction": "当前可获取内容未提供该数据。",
           "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "系统检索了高影响力期刊中的麻醉RCT，时间范围明确。",
-            "提供了估计目标使用频率的量化数据。",
-            "开发了结构化框架，并经过专家评审。"
+            "机制研究深入，使用多种方法验证。",
+            "通过突变和抑制剂实验增强了因果推断。"
           ],
           "limitations": [
-            "仅基于摘要，无法评估纳入试验的方法学质量。",
-            "未提供具体统计方法。",
-            "未提供效应量、置信区间和P值。"
+            "仅基于摘要，方法学细节缺失。",
+            "动物模型，外推受限。",
+            "未报告样本量、随机化、盲法等。"
           ],
           "biasRisks": [
-            "当前可获取内容未提供该数据。"
+            "选择偏倚、实施偏倚、测量偏倚风险未知。",
+            "发表偏倚可能。"
           ],
-          "certainty": "当前可获取内容未提供该数据。",
-          "conclusionAlignment": "结论与结果一致，即估计目标在麻醉试验中使用有限。",
-          "causalBoundary": "本研究为范围综述，描述性报告估计目标的使用情况，不涉及因果推断。"
+          "certainty": "低（基于摘要，且为动物实验）。",
+          "conclusionAlignment": "结论与结果一致，但需注意因果推断的边界。",
+          "causalBoundary": "研究设计为实验性，但动物模型不能直接证明人类因果，需人体研究验证。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "该框架可帮助麻醉研究者识别和处理伴发事件，提高试验设计的清晰度。"
+            "为术后认知障碍的机制提供新见解。",
+            "CaMKII抑制剂可能成为潜在治疗策略。"
           ],
           "nonApplicability": [
-            "当前可获取内容未提供该数据。"
+            "动物实验结果不能直接应用于临床。",
+            "未提供人体安全性或有效性数据。"
           ],
-          "practiceChange": "当前可获取内容未提供该数据。",
+          "practiceChange": "当前证据不足以改变临床实践。",
           "canDoNow": [
-            "研究者可参考该框架，在麻醉试验设计中明确估计目标属性，特别是伴发事件的处理策略。"
+            "监测术后认知功能，但无特定干预建议。"
           ],
           "cannotConclude": [
-            "不能基于本综述得出估计目标使用与临床结局改善之间的因果关系。",
-            "不能基于本综述推荐具体的麻醉干预或监测方法。"
+            "不能得出CaMKII抑制剂可用于临床的结论。",
+            "不能确定七氟烷在人体中的具体机制。"
           ],
           "evidenceGaps": [
-            "需要更多研究评估估计目标框架在麻醉试验中的应用效果。",
-            "需要更详细的报告指南以促进估计目标的明确报告。"
+            "需要人体研究验证CaMKII/β3通路在术后认知障碍中的作用。",
+            "需要评估CaMKII抑制剂的安全性和有效性。",
+            "需要明确剂量、时机和患者群体。"
           ],
           "directClinicalRecommendation": false
         }
@@ -1061,88 +481,1029 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42014230/",
-        "doi": "https://doi.org/10.1016/j.bja.2026.03.026",
-        "publisher": "https://doi.org/10.1016/j.bja.2026.03.026",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41605734/",
+        "doi": "https://doi.org/10.1016/j.bja.2025.11.058",
+        "publisher": "https://doi.org/10.1016/j.bja.2025.11.058",
         "openFullText": null
       }
     },
     {
       "analysisVersion": 2,
-      "slug": "pmid-42545700",
-      "number": "04",
-      "category": "麻醉学",
+      "slug": "pmid-41915392",
+      "number": "02",
+      "category": "气道管理",
       "journal": "JAMA network open",
       "year": "2026",
-      "publishedDate": "2026-08-03",
-      "electronicPublicationDate": "2026-08-03",
+      "publishedDate": "2026-03-02",
+      "electronicPublicationDate": "2026-03-02",
       "readingTime": "15 分钟",
-      "title": "传统喉镜与视频喉镜用于围手术期气管插管的随机临床试验",
-      "originalTitle": "Conventional vs Video-Assisted Laryngoscopy for Perioperative Endotracheal Intubations: A Randomized Clinical Trial.",
-      "abstract": "IMPORTANCE: Video laryngoscopy is increasingly used in routine tracheal intubation in the operating room, but evidence regarding its clinical outcomes remains inconclusive. In particular, the role of hyperangulated video laryngoscopes as first-choice devices has not been studied sufficiently. OBJECTIVE: To determine whether video laryngoscopy-regardless of blade geometry or manufacturer-provides superior first-pass success compared with direct laryngoscopy (DL) during routine tracheal intubations. DESIGN, SETTING, AND PARTICIPANTS: This 3-arm randomized clinical trial (Conventional vs Video-Assisted Laryngoscopy for Perioperative Endotracheal Intubation [COVALENT]) was conducted at 6 academic or intermediate care centers in Germany and Austria between March 28, 2022, and February 17, 2025. Adults undergoing surgery under general anesthesia with the need for tracheal intubation were included in the trial. Adults undergoing surgery under any other form of anesthesia, those requiring nasal or planned fiberoptic intubation, and pregnant patients were excluded. Patients were sampled consecutively until trial staff capacity limits were met for any given day. Devices from different manufacturers were allowed to maximize generalizability. All data analyses followed a modified intention-to-treat approach. INTERVENTION: Tracheal intubation as part of general anesthesia induction preceding surgery. Patients were randomly assigned (1:1:1) to DL, video laryngoscopy with Macintosh blade (VLM), or video laryngoscopy with a hyperangulated blade (VLH). All interventions were performed by the anesthesiologists assigned to their respective cases. MAIN OUTCOMES AND MEASURE: The primary outcome was first-pass intubation success rate. After the laryngoscope and tracheal tube were inserted into the patient's oral cavity, retrieval of either marked a failed intubation attempt. Successful intubation was defined as positive capnography. Differences between success rates were tested applying the z test for unpooled variance and reported as absolute differences with corresponding 95% CIs. RESULTS: Of the 2532 patients (1426 males [56.3%]; mean [SD] age, 59.7 [15.4] years) randomly assigned to DL (n = 848), VLM (n = 841), or VLH (n = 843), 2423 (95.7%) were included in a modified intention-to-treat analysis. Both video laryngoscopy modalities were superior to DL regarding first-pass success (VLM: 82.9%, VLH: 87.6%, and DL: 78.2%; all P < .001). Unadjusted absolute risk differences for first-pass intubation success were 4.66 (95% CI, 4.45-4.78) percentage points for DL vs VLM, 9.34 (95% CI, 9.22-9.46) percentage points for DL vs VLH, and 4.68 (95% CI, 4.57-4.79) percentage points for VLM vs VLH. VLM and VLH compared with DL had faster intubation success after a failed first attempt (mean [SD] time to positive capnography, 146.6 [103.6] and 147.5 [98.9] seconds vs 170.3 [100.4] seconds; P = .008). There were fewer complications of lip or dental injuries or blood on the blade for VLH compared with VLM and DL (10.9% [11 of 101] vs 23.2% [32 of 138] and 24.1% [42 of 174]). CONCLUSIONS AND RELEVANCE: This randomized clinical trial of DL vs VLM and VLH found that video laryngoscopy significantly improved first-pass success during intubation in the operating room compared with DL. The findings support the use of video laryngoscopy as a new standard of care for routine airway management. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05228288.",
+      "title": "早产儿微创表面活性物质给药两年结局：一项随机临床试验的二次分析",
+      "originalTitle": "Two-Year Outcomes of Less Invasive Surfactant Administration Among Preterm Neonates: A Secondary Analysis of a Randomized Clinical Trial.",
+      "abstract": "IMPORTANCE: In preterm neonates supported with continuous positive airway pressure (CPAP), early caffeine administration and less invasive surfactant administration (LISA) results in a lower frequency of endotracheal intubation. It is unknown whether this regimen improves outcomes at a corrected age of 2 years in this population. OBJECTIVE: To determine whether LISA improves neurodevelopmental impairment (NDI) and pulmonary outcomes at a corrected age of 2 years. DESIGN, SETTING, AND PARTICIPANTS: This prespecified secondary analysis and follow-up of a randomized clinical trial was performed at 3 academic medical centers in California. Participants included infants born at gestational ages ranging from 24 weeks 0 days to 29 weeks 6 days with follow-up assessments available. Follow-up visits occurred from May 2, 2022, to April 3, 2025. INTERVENTIONS: Infants received intravenous caffeine by 2 hours of life followed by either less invasive surfactant administration (intervention group) or CPAP without initial surfactant administration (control group). MAIN OUTCOMES AND MEASURES: The primary outcome was the composite of death or moderate to severe NDI at a corrected age of 2 years, as measured by the Bayley Scales of Infant Development (BSID). Secondary outcomes included components of the BSID composite; the third edition of the Ages and Stages Questionnaire (ASQ-3); developmental screening; pulmonary outcomes of bronchodilator use, oral and/or inhaled corticosteroid use, or hospitalizations with respiratory diagnoses after discharge; and results of an autism screen. RESULTS: Of 180 randomized infants, 147 (81.7%) had follow-up assessments available (74 in the LISA group and 73 in the CPAP group); 75 infants (51.0%) were male. The mean (SD) gestational age at the time of the Bayley assessment was 24.6 (1.5) months corrected age for the LISA group and 24.7 (2.2) months corrected age for the CPAP group. The mean (SD) chronological age for the ASQ-3 was 28.1 (2.4) months for both groups. Death or moderate to severe NDI occurred in 17 of 74 children (23.0%) in the LISA group and 23 of 70 (32.9%) in the control group (odds ratio [OR], 1.56 [95% CI, 0.77-3.17]; P = .22). On the screening ASQ-3, infants in the LISA group had no statistically significant differences in rates of typical development (22 of 69 [31.9%] vs 12 of 67 [17.9%]; OR, 0.47 [95% CI, 0.21-1.04]; P = .06) and scores indicating possible delay (43 of 69 [62.3%] vs 47 of 67 [70.1%]; OR, 1.42 [95% CI, 0.70-2.90]; P = .34) compared with the control group. Children in the LISA group were more likely to have a mean (SD) fine motor z score in the reference range (-0.59 [1.10] vs -1.00 [1.01]; P = .03). There were no differences between the LISA and CPAP groups in bronchodilator use, oral and/or inhaled corticosteroid use, or postdischarge hospitalizations with respiratory diagnoses. CONCLUSIONS AND RELEVANCE: In this secondary analysis of a randomized clinical trial of preterm infants supported with CPAP, early caffeine administration plus LISA did not reduce the incidence of death or moderate to severe NDI noted on the BSID. Infants who received LISA were more likely to have a fine motor domain score in the reference range on ASQ-3 developmental screen. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04209946.",
       "abstractTranslation": {
         "sections": [
           {
             "heading": "IMPORTANCE",
-            "text": "视频喉镜越来越多地用于手术室的常规气管插管，但关于其临床结果的证据仍不确定。特别是，高角度视频喉镜作为首选设备的作用尚未得到充分研究。"
+            "text": "在持续气道正压通气（CPAP）支持的早产新生儿中，早期给予咖啡因和微创表面活性物质给药（LISA）可降低气管插管的发生率。尚不清楚该方案是否能改善该人群校正年龄2岁时的结局。"
           },
           {
             "heading": "OBJECTIVE",
-            "text": "确定视频喉镜（无论叶片几何形状或制造商如何）在常规气管插管中是否比直接喉镜（DL）提供更高的首次尝试成功率。"
+            "text": "确定LISA是否能改善校正年龄2岁时的神经发育障碍（NDI）和肺部结局。"
           },
           {
             "heading": "DESIGN, SETTING, AND PARTICIPANTS",
-            "text": "这项三臂随机临床试验（常规与视频辅助喉镜用于围手术期气管插管[COVALENT]）于2022年3月28日至2025年2月17日在德国和奥地利的6个学术或中级护理中心进行。纳入在全身麻醉下接受手术且需要气管插管的成年人。排除在除全身麻醉外的任何其他麻醉形式下接受手术的成年人、需要经鼻或计划性纤维支气管镜插管的患者以及孕妇。患者连续抽样，直至试验人员能力达到每日上限。允许使用不同制造商的设备以最大化普适性。所有数据分析均采用改良意向性治疗（mITT）方法。"
+            "text": "这项预先指定的二次分析和随机临床试验的随访在加利福尼亚州的3个学术医疗中心进行。参与者包括胎龄从24周0天至29周6天出生的婴儿，并有可用的随访评估。随访访视发生在2022年5月2日至2025年4月3日。"
           },
           {
-            "heading": "INTERVENTION",
-            "text": "作为手术前全身麻醉诱导的一部分进行气管插管。患者按1:1:1随机分配至直接喉镜（DL）、Macintosh叶片视频喉镜（VLM）或高角度叶片视频喉镜（VLH）。所有干预均由负责相应病例的麻醉医师执行。"
+            "heading": "INTERVENTIONS",
+            "text": "婴儿在出生后2小时内接受静脉注射咖啡因，随后接受微创表面活性物质给药（干预组）或仅接受CPAP而不初始给予表面活性物质（对照组）。"
           },
           {
-            "heading": "MAIN OUTCOMES AND MEASURE",
-            "text": "主要结局是首次尝试插管成功率。当喉镜和气管导管插入患者口腔后，取出任一即视为插管尝试失败。成功插管定义为呼气末二氧化碳图阳性。成功率差异采用未合并方差的z检验，并以绝对差异及其95%置信区间报告。"
+            "heading": "MAIN OUTCOMES AND MEASURES",
+            "text": "主要结局是校正年龄2岁时死亡或中重度NDI的复合结局，通过贝利婴儿发育量表（BSID）测量。次要结局包括BSID复合结局的组成部分；第三版年龄与阶段问卷（ASQ-3）；发育筛查；肺部结局，包括支气管扩张剂使用、口服和/或吸入性皮质类固醇使用，或出院后因呼吸系统诊断住院；以及自闭症筛查结果。"
           },
           {
             "heading": "RESULTS",
-            "text": "在2532名患者（男性1426名[56.3%]；平均[SD]年龄59.7[15.4]岁）中，随机分配至DL组（n=848）、VLM组（n=841）或VLH组（n=843），其中2423名（95.7%）纳入改良意向性治疗分析。两种视频喉镜方式在首次尝试成功率方面均优于DL（VLM：82.9%，VLH：87.6%，DL：78.2%；所有P<.001）。首次尝试插管成功的未调整绝对风险差异为：DL与VLM相比4.66（95%CI，4.45-4.78）个百分点，DL与VLH相比9.34（95%CI，9.22-9.46）个百分点，VLM与VLH相比4.68（95%CI，4.57-4.79）个百分点。与DL相比，VLM和VLH在首次尝试失败后插管成功更快（平均[SD]至阳性二氧化碳图时间，146.6[103.6]和147.5[98.9]秒 vs 170.3[100.4]秒；P=.008）。与VLM和DL相比，VLH的唇部或牙齿损伤或叶片带血并发症更少（10.9%[11/101] vs 23.2%[32/138]和24.1%[42/174]）。"
+            "text": "在180名随机婴儿中，147名（81.7%）有可用的随访评估（LISA组74名，CPAP组73名）；75名婴儿（51.0%）为男性。LISA组贝利评估时的平均（SD）校正年龄为24.6（1.5）个月，CPAP组为24.7（2.2）个月。两组的ASQ-3平均（SD）实足年龄均为28.1（2.4）个月。LISA组74名儿童中有17名（23.0%）发生死亡或中重度NDI，对照组70名中有23名（32.9%）（比值比[OR]，1.56 [95% CI，0.77-3.17]；P = .22）。在ASQ-3筛查中，LISA组婴儿在典型发育率（22/69 [31.9%] vs 12/67 [17.9%]；OR，0.47 [95% CI，0.21-1.04]；P = .06）和提示可能延迟的分数（43/69 [62.3%] vs 47/67 [70.1%]；OR，1.42 [95% CI，0.70-2.90]；P = .34）方面与对照组相比无统计学显著差异。LISA组儿童更有可能具有参考范围内的平均（SD）精细运动z评分（-0.59 [1.10] vs -1.00 [1.01]；P = .03）。LISA组和CPAP组在支气管扩张剂使用、口服和/或吸入性皮质类固醇使用或出院后因呼吸系统诊断住院方面没有差异。"
           },
           {
             "heading": "CONCLUSIONS AND RELEVANCE",
-            "text": "这项比较DL与VLM和VLH的随机临床试验发现，与DL相比，视频喉镜显著提高了手术室插管的首次尝试成功率。这些发现支持将视频喉镜作为常规气道管理的新标准。"
+            "text": "在这项对CPAP支持的早产儿随机临床试验的二次分析中，早期咖啡因给药加LISA并未降低BSID上死亡或中重度NDI的发生率。接受LISA的婴儿更有可能在ASQ-3发育筛查中精细运动领域得分在参考范围内。"
           },
           {
             "heading": "TRIAL REGISTRATION",
-            "text": "ClinicalTrials.gov标识符：NCT05228288。"
+            "text": "ClinicalTrials.gov标识符：NCT04209946。"
           }
         ],
-        "fullText": "重要性：视频喉镜越来越多地用于手术室的常规气管插管，但关于其临床结果的证据仍不确定。特别是，高角度视频喉镜作为首选设备的作用尚未得到充分研究。目的：确定视频喉镜（无论叶片几何形状或制造商如何）在常规气管插管中是否比直接喉镜（DL）提供更高的首次尝试成功率。设计、设置和参与者：这项三臂随机临床试验（常规与视频辅助喉镜用于围手术期气管插管[COVALENT]）于2022年3月28日至2025年2月17日在德国和奥地利的6个学术或中级护理中心进行。纳入在全身麻醉下接受手术且需要气管插管的成年人。排除在除全身麻醉外的任何其他麻醉形式下接受手术的成年人、需要经鼻或计划性纤维支气管镜插管的患者以及孕妇。患者连续抽样，直至试验人员能力达到每日上限。允许使用不同制造商的设备以最大化普适性。所有数据分析均采用改良意向性治疗（mITT）方法。干预：作为手术前全身麻醉诱导的一部分进行气管插管。患者按1:1:1随机分配至直接喉镜（DL）、Macintosh叶片视频喉镜（VLM）或高角度叶片视频喉镜（VLH）。所有干预均由负责相应病例的麻醉医师执行。主要结局和测量：主要结局是首次尝试插管成功率。当喉镜和气管导管插入患者口腔后，取出任一即视为插管尝试失败。成功插管定义为呼气末二氧化碳图阳性。成功率差异采用未合并方差的z检验，并以绝对差异及其95%置信区间报告。结果：在2532名患者（男性1426名[56.3%]；平均[SD]年龄59.7[15.4]岁）中，随机分配至DL组（n=848）、VLM组（n=841）或VLH组（n=843），其中2423名（95.7%）纳入改良意向性治疗分析。两种视频喉镜方式在首次尝试成功率方面均优于DL（VLM：82.9%，VLH：87.6%，DL：78.2%；所有P<.001）。首次尝试插管成功的未调整绝对风险差异为：DL与VLM相比4.66（95%CI，4.45-4.78）个百分点，DL与VLH相比9.34（95%CI，9.22-9.46）个百分点，VLM与VLH相比4.68（95%CI，4.57-4.79）个百分点。与DL相比，VLM和VLH在首次尝试失败后插管成功更快（平均[SD]至阳性二氧化碳图时间，146.6[103.6]和147.5[98.9]秒 vs 170.3[100.4]秒；P=.008）。与VLM和DL相比，VLH的唇部或牙齿损伤或叶片带血并发症更少（10.9%[11/101] vs 23.2%[32/138]和24.1%[42/174]）。结论和相关性：这项比较DL与VLM和VLH的随机临床试验发现，与DL相比，视频喉镜显著提高了手术室插管的首次尝试成功率。这些发现支持将视频喉镜作为常规气道管理的新标准。试验注册：ClinicalTrials.gov标识符：NCT05228288。",
+        "fullText": "重要性：在持续气道正压通气（CPAP）支持的早产新生儿中，早期给予咖啡因和微创表面活性物质给药（LISA）可降低气管插管的发生率。尚不清楚该方案是否能改善该人群校正年龄2岁时的结局。目的：确定LISA是否能改善校正年龄2岁时的神经发育障碍（NDI）和肺部结局。设计、设置和参与者：这项预先指定的二次分析和随机临床试验的随访在加利福尼亚州的3个学术医疗中心进行。参与者包括胎龄从24周0天至29周6天出生的婴儿，并有可用的随访评估。随访访视发生在2022年5月2日至2025年4月3日。干预措施：婴儿在出生后2小时内接受静脉注射咖啡因，随后接受微创表面活性物质给药（干预组）或仅接受CPAP而不初始给予表面活性物质（对照组）。主要结局和测量指标：主要结局是校正年龄2岁时死亡或中重度NDI的复合结局，通过贝利婴儿发育量表（BSID）测量。次要结局包括BSID复合结局的组成部分；第三版年龄与阶段问卷（ASQ-3）；发育筛查；肺部结局，包括支气管扩张剂使用、口服和/或吸入性皮质类固醇使用，或出院后因呼吸系统诊断住院；以及自闭症筛查结果。结果：在180名随机婴儿中，147名（81.7%）有可用的随访评估（LISA组74名，CPAP组73名）；75名婴儿（51.0%）为男性。LISA组贝利评估时的平均（SD）校正年龄为24.6（1.5）个月，CPAP组为24.7（2.2）个月。两组的ASQ-3平均（SD）实足年龄均为28.1（2.4）个月。LISA组74名儿童中有17名（23.0%）发生死亡或中重度NDI，对照组70名中有23名（32.9%）（比值比[OR]，1.56 [95% CI，0.77-3.17]；P = .22）。在ASQ-3筛查中，LISA组婴儿在典型发育率（22/69 [31.9%] vs 12/67 [17.9%]；OR，0.47 [95% CI，0.21-1.04]；P = .06）和提示可能延迟的分数（43/69 [62.3%] vs 47/67 [70.1%]；OR，1.42 [95% CI，0.70-2.90]；P = .34）方面与对照组相比无统计学显著差异。LISA组儿童更有可能具有参考范围内的平均（SD）精细运动z评分（-0.59 [1.10] vs -1.00 [1.01]；P = .03）。LISA组和CPAP组在支气管扩张剂使用、口服和/或吸入性皮质类固醇使用或出院后因呼吸系统诊断住院方面没有差异。结论和相关性：在这项对CPAP支持的早产儿随机临床试验的二次分析中，早期咖啡因给药加LISA并未降低BSID上死亡或中重度NDI的发生率。接受LISA的婴儿更有可能在ASQ-3发育筛查中精细运动领域得分在参考范围内。试验注册：ClinicalTrials.gov标识符：NCT04209946。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Schmid B, Grusser L, Muller L, Wittmann M, Delis A, Dinc Dogan T, Werdehausen R, Neuhaus C, et al.",
-      "citation": "JAMA Netw Open. 2026 Aug 3;9(8):e2625965. doi: 10.1001/jamanetworkopen.2026.25965.",
-      "doi": "10.1001/jamanetworkopen.2026.25965",
-      "pmid": "42545700",
-      "pmcid": "PMC13434869",
+      "authors": "Dorner RA, Morales A, Banerji A, Uy C, Ines F, Finer N, Vaucher Y, Katheria AC",
+      "citation": "JAMA Netw Open. 2026 Mar 2;9(3):e263852. doi: 10.1001/jamanetworkopen.2026.3852.",
+      "doi": "10.1001/jamanetworkopen.2026.3852",
+      "pmid": "41915392",
+      "pmcid": "PMC13040402",
       "publicationTypes": [
-        "Comparative Study",
         "Journal Article",
         "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "meshTerms": [
+        "Humans",
+        "Male",
+        "Infant, Newborn",
+        "*Pulmonary Surfactants/administration & dosage/therapeutic use",
+        "Female",
+        "*Infant, Premature",
+        "*Continuous Positive Airway Pressure/methods",
+        "Treatment Outcome",
+        "Infant",
+        "*Respiratory Distress Syndrome, Newborn/therapy",
+        "Follow-Up Studies",
+        "Child, Preschool",
+        "*Neurodevelopmental Disorders/prevention & control"
+      ],
+      "publisher": "American Medical Association (AMA)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "human-study"
+      },
+      "journalTier": {
+        "id": "general_top",
+        "label": "综合医学顶刊",
+        "priorityRank": 3
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.7,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "JAMA Network Open"
+      },
+      "tags": [
+        "临床证据",
+        "综合医学顶刊",
+        "气道管理",
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "question": "该研究为LISA策略在早产儿中的长期神经发育和呼吸结局提供了2年随访数据，有助于临床决策中权衡早期气管插管风险与潜在获益。",
+      "conclusion": "在CPAP支持的早产儿中，早期咖啡因联合微创表面活性物质给药（LISA）未显著降低2岁校正年龄时死亡或中重度神经发育障碍的复合终点发生率，但LISA组儿童精细运动z评分处于参考范围的比例更高。",
+      "clinical": "LISA作为一种减少气管插管的策略，可能降低与插管相关的麻醉或镇静需求，但本研究未直接评估麻醉相关结局。 对于早产儿呼吸管理，LISA未显著改善2年神经发育结局，但可能改善精细运动功能，需结合临床情况个体化选择。 由于本研究未报告麻醉相关并发症，无法就麻醉管理提出具体建议。",
+      "evidence": "中等偏高",
+      "score": 70,
+      "scoreBreakdown": {
+        "relevance": 18,
+        "evidenceQuality": 22,
+        "clinicalImpact": 11,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "随机对照试验的预设二次分析及随访研究，在加利福尼亚州3个学术医疗中心进行。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Infants born at gestational ages 24 weeks 0 days to 29 weeks 6 days with follow-up assessments available；147 (81.7%) of 180 randomized infants had follow-up assessments (74 in LISA group, 73 in CPAP group)"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Intravenous caffeine by 2 hours of life followed by less invasive surfactant administration (LISA)；对照：Intravenous caffeine by 2 hours of life followed by CPAP without initial surfactant administration"
+        },
+        {
+          "label": "主要终点",
+          "value": "Composite of death or moderate to severe neurodevelopmental impairment (NDI) at corrected age of 2 years, as measured by Bayley Scales of Infant Development (BSID)"
+        }
+      ],
+      "keyPoints": [
+        "LISA未显著降低2岁时死亡或中重度NDI复合终点（OR=1.56，95%CI 0.77-3.17，P=0.22）。",
+        "ASQ-3筛查中典型发育和可能延迟率无显著差异，但LISA组精细运动z评分更可能处于参考范围（P=0.03）。",
+        "两组在呼吸系统用药和住院方面无差异。",
+        "随访率为81.7%，失访可能影响结果稳健性。"
+      ],
+      "methods": "在持续气道正压通气（CPAP）支持的早产儿中，早期咖啡因给药联合微创表面活性物质给药（LISA）可降低气管插管频率，但其对2岁校正年龄时神经发育障碍和肺部结局的影响尚不明确。",
+      "results": "在147例有随访评估的婴儿中（LISA组74例，CPAP组73例），LISA组死亡或中重度NDI发生率为23.0%（17/74），对照组为32.9%（23/70），差异无统计学意义（OR=1.56，95%CI 0.77-3.17，P=0.22）。ASQ-3筛查中，典型发育率（31.9% vs 17.9%，OR=0.47，95%CI 0.21-1.04，P=0.06）和可能延迟率（62.3% vs 70.1%，OR=1.42，95%CI 0.70-2.90，P=0.34）均无统计学差异。LISA组儿童精细运动z评分处于参考范围的比例更高（均值-0.59 [1.10] vs -1.00 [1.01]，P=0.03）。两组在支气管扩张剂使用、口服和/或吸入皮质类固醇使用或出院后呼吸系统诊断住院方面无差异。",
+      "mainResults": "在147例有随访评估的婴儿中（LISA组74例，CPAP组73例），LISA组死亡或中重度NDI发生率为23.0%（17/74），对照组为32.9%（23/70），差异无统计学意义（OR=1.56，95%CI 0.77-3.17，P=0.22）。ASQ-3筛查中，典型发育率（31.9% vs 17.9%，OR=0.47，95%CI 0.21-1.04，P=0.06）和可能延迟率（62.3% vs 70.1%，OR=1.42，95%CI 0.70-2.90，P=0.34）均无统计学差异。LISA组儿童精细运动z评分处于参考范围的比例更高（均值-0.59 [1.10] vs -1.00 [1.01]，P=0.03）。两组在支气管扩张剂使用、口服和/或吸入皮质类固醇使用或出院后呼吸系统诊断住院方面无差异。",
+      "limitations": [
+        "失访率较高：LISA组18例、CPAP组15例失访，总体随访率为81.6%。",
+        "样本量较小，与OPTIMIST-A试验相比，难以可靠地排除2年结局的差异。",
+        "当前可获取内容未提供该数据。"
+      ],
+      "practice": [
+        "LISA作为一种减少气管插管的策略，可能降低与插管相关的麻醉或镇静需求，但本研究未直接评估麻醉相关结局。",
+        "对于早产儿呼吸管理，LISA未显著改善2年神经发育结局，但可能改善精细运动功能，需结合临床情况个体化选择。",
+        "由于本研究未报告麻醉相关并发症，无法就麻醉管理提出具体建议。"
+      ],
+      "editor": "研究为随机对照试验的二次分析，设计严谨，结果报告了效应量、置信区间和P值，支持LISA未显著降低主要复合终点的结论。 过度解读风险：需注意将统计学无差异解读为等效，且亚组或次要结局（如精细运动）的阳性发现可能为偶然，需谨慎解释。",
+      "whyItMatters": "该研究为LISA策略在早产儿中的长期神经发育和呼吸结局提供了2年随访数据，有助于临床决策中权衡早期气管插管风险与潜在获益。",
+      "background": "在持续气道正压通气（CPAP）支持的早产儿中，早期咖啡因给药联合微创表面活性物质给药（LISA）可降低气管插管频率，但其对2岁校正年龄时神经发育障碍和肺部结局的影响尚不明确。",
+      "pico": {
+        "population": "Infants born at gestational ages 24 weeks 0 days to 29 weeks 6 days with follow-up assessments available",
+        "intervention": "Intravenous caffeine by 2 hours of life followed by less invasive surfactant administration (LISA)",
+        "comparison": "Intravenous caffeine by 2 hours of life followed by CPAP without initial surfactant administration",
+        "outcome": "Composite of death or moderate to severe neurodevelopmental impairment (NDI) at corrected age of 2 years, as measured by Bayley Scales of Infant Development (BSID)"
+      },
+      "studyType": "随机对照试验的预设二次分析及随访研究，在加利福尼亚州3个学术医疗中心进行。",
+      "sampleSize": "147 (81.7%) of 180 randomized infants had follow-up assessments (74 in LISA group, 73 in CPAP group)",
+      "primaryOutcome": "Composite of death or moderate to severe neurodevelopmental impairment (NDI) at corrected age of 2 years, as measured by Bayley Scales of Infant Development (BSID)",
+      "effectSize": [
+        "OR 1.56",
+        "OR 0.47",
+        "OR 1.42",
+        "OR 0.84"
+      ],
+      "confidenceInterval": [
+        "95% CI, 0.77-3.17",
+        "95% CI, 0.21-1.04",
+        "95% CI, 0.70-2.90",
+        "95% CI, 0.37-1.92"
+      ],
+      "pValue": [
+        "P = .22",
+        "P = .06",
+        "P = .34",
+        "P = .03"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "研究为随机对照试验的二次分析，设计严谨，结果报告了效应量、置信区间和P值，支持LISA未显著降低主要复合终点的结论。",
+        "overinterpretationRisk": "需注意将统计学无差异解读为等效，且亚组或次要结局（如精细运动）的阳性发现可能为偶然，需谨慎解释。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text_excerpt",
+          "limitations": [
+            "当前可获取内容为摘要和部分全文节选，可能缺少方法细节和完整结果。",
+            "未提供原始数据，无法进行独立统计分析。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "在CPAP支持的早产儿中，早期咖啡因联合LISA是否能改善2岁校正年龄时的神经发育障碍和肺部结局？",
+          "designFit": "作为随机对照试验的预设二次分析，适合评估干预的长期效果。",
+          "eligibility": "胎龄24周0天至29周6天的早产儿，有随访评估。具体纳入排除标准未完全提供。",
+          "randomization": "原始试验为随机对照，但二次分析未提供随机化细节。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "当前可获取内容未提供该数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "随访时间：2022年5月2日至2025年4月3日；随访率81.7%。",
+          "analysisPopulation": "147例有随访评估的婴儿（LISA组74例，CPAP组73例）。",
+          "missingData": "失访18例（LISA组）和15例（CPAP组），未说明缺失数据处理方法。",
+          "strengths": [
+            "随机对照试验的预设二次分析，因果推断基础较好。",
+            "报告了主要和次要结局的效应量、置信区间和P值。"
+          ],
+          "concerns": [
+            "失访率较高，可能引入偏倚。",
+            "样本量较小，统计功效有限。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "用于比较主要和次要结局的组间差异。",
+              "reportedResult": "主要结局OR=1.56，95%CI 0.77-3.17，P=0.22；精细运动z评分P=0.03。",
+              "interpretation": "主要结局无统计学差异，精细运动差异可能具有临床意义但需谨慎。",
+              "cautions": [
+                "未报告具体统计方法，无法评价模型假设和调整因素。",
+                "P值未校正多重比较，可能增加假阳性风险。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "未提及多重比较校正，次要结局的阳性发现可能为偶然。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "主要结局无统计学差异，但置信区间较宽，不能排除临床重要差异；精细运动差异有统计学意义，但临床意义需进一步评估。"
+        },
+        "outcomeAnalysis": {
+          "primary": "死亡或中重度NDI复合终点：LISA组23.0% vs 对照组32.9%，OR=1.56（95%CI 0.77-3.17），P=0.22。",
+          "secondary": [
+            "ASQ-3典型发育率：31.9% vs 17.9%，OR=0.47（95%CI 0.21-1.04），P=0.06。",
+            "ASQ-3可能延迟率：62.3% vs 70.1%，OR=1.42（95%CI 0.70-2.90），P=0.34。",
+            "精细运动z评分：-0.59 (1.10) vs -1.00 (1.01)，P=0.03。",
+            "呼吸系统结局：支气管扩张剂使用、口服/吸入皮质类固醇使用、出院后呼吸系统住院，均无差异。"
+          ],
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "主要终点绝对差异为9.9个百分点（32.9% vs 23.0%），但未报告绝对风险差和置信区间。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "随机对照试验的预设二次分析，设计严谨。",
+            "随访率较高（81.7%）。",
+            "报告了主要和次要结局的效应量、置信区间和P值。"
+          ],
+          "limitations": [
+            "失访率较高，可能引入偏倚。",
+            "样本量较小，统计功效有限。",
+            "未报告统计方法细节，无法评价分析质量。"
+          ],
+          "biasRisks": [
+            "失访偏倚：失访率较高，可能影响结果。",
+            "检测偏倚：未提及盲法，可能影响结局评估。"
+          ],
+          "certainty": "中等：随机对照试验二次分析，但存在失访和样本量限制。",
+          "conclusionAlignment": "结论与结果一致，但需注意统计学无差异不等于等效。",
+          "causalBoundary": "由于是随机对照试验的二次分析，可支持因果推断，但失访和样本量限制需谨慎。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "适用于胎龄24-29周的早产儿，在CPAP支持下考虑LISA策略。",
+            "结果可能适用于类似医疗中心的新生儿重症监护环境。"
+          ],
+          "nonApplicability": [
+            "不适用于胎龄小于24周或大于29周的婴儿。",
+            "不适用于需要立即气管插管或存在LISA禁忌证的情况。"
+          ],
+          "practiceChange": "当前证据不支持改变临床实践，LISA未显著改善主要结局，但可能改善精细运动，需权衡利弊。",
+          "canDoNow": [
+            "可考虑LISA作为减少气管插管的策略，但需告知家属长期结局无显著差异。",
+            "可关注精细运动发育，提供早期干预。"
+          ],
+          "cannotConclude": [
+            "不能得出LISA优于或劣于CPAP的结论。",
+            "不能排除LISA对2年结局的临床重要差异。"
+          ],
+          "evidenceGaps": [
+            "需要更大样本量的研究来确认2年结局。",
+            "需要评估更长期的神经发育和呼吸结局。",
+            "需要报告麻醉相关并发症和成本效益。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41915392/",
+        "doi": "https://doi.org/10.1001/jamanetworkopen.2026.3852",
+        "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.3852",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13040402/"
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-42340723",
+      "number": "03",
+      "category": "麻醉基础研究",
+      "journal": "JAMA network open",
+      "year": "2026",
+      "publishedDate": "2026-06-01",
+      "electronicPublicationDate": "2026-06-01",
+      "readingTime": "15 分钟",
+      "title": "口服缓释氯胺酮治疗难治性抑郁症：两项随机临床试验",
+      "originalTitle": "Oral Prolonged-Release Ketamine for Treatment-Resistant Depression: Two Randomized Clinical Trials.",
+      "abstract": "IMPORTANCE: Ketamine exerts rapid antidepressant effects. However, currently available ketamine-based treatments are associated with dissociative and cardiovascular adverse effects. OBJECTIVE: To evaluate the antidepressant efficacy and tolerability of KET01, a novel, oral, prolonged-release racemic ketamine tablet formulation. DESIGN, SETTING, AND PARTICIPANTS: KET01-03 was an active-comparator, double-blind, double-dummy, crossover phase 1 randomized clinical trial (RCT) conducted among healthy adult male volunteers (aged >/=18 years) between July and August 2023 at a single trial site in Germany. KET01-02 was a placebo-controlled, double-blind phase 2 RCT conducted between May 2022 and May 2023 among adult outpatients (aged >/=18 years) with treatment-resistant depression across 29 trial sites in the Czech Republic, Germany, and Poland. KET01-02 data were analyzed from May to October 2023 and KET01-03 data from August to October 2024. INTERVENTIONS: KET01-03 investigated a single dose of KET01 (240 mg) vs intranasal esketamine (84 mg), and KET01-02 evaluated KET01 dosages of 120 or 240 mg/d (adjunctive to ongoing standard therapy) against placebo for 3 weeks. MAIN OUTCOMES AND MEASURES: The primary end points were the difference in mean maximum change in Clinician-Administered Dissociative States Scale (CADSS) score between KET01 and intranasal esketamine within the first 24 hours in KET01-03 and the least squares (LS) mean change in Montgomery-Asberg Depression Rating Scale (MADRS) score from baseline to day 21 for 240 mg/d of KET01 vs placebo in KET01-02. RESULTS: KET01-03 randomized 26 males (median age, 32 years [range, 21-45 years]), and KET01-02 randomized 122 outpatients with treatment-resistant depression (72 [59.0%] female; median age, 41 years [range, 19-65 years]). In KET01-03, intranasal esketamine but not KET01 induced significant dissociation within 24 hours after dosing (mean [SD] maximum change in CADSS score, 29.6 [12.5] points vs 0.7 [1.7] points; P < .001). The maximum plasma concentration was lower for KET01 (39.1 ng/mL) than esketamine (104.1 ng/mL); conversely, exposure to metabolites was higher for KET01 (eg, area under the curve [AUC] from baseline to last measurement for norketamine was 3.5 microg x h/mL) than esketamine (AUC for [S]-norketamine, 1.4 microg x h/mL). Pulse and blood pressure did not change markedly in the KET01 group in both trials, in contrast to rapid increases after intranasal esketamine in KET01-03. In KET01-02, the primary efficacy end point at day 21 was not met: LS mean MADRS score difference for 240 mg/d of KET01 vs placebo was -1.82 points (95% CI, -6.21 to 2.57 points; P = .41). However, a reduction in MADRS scores was observed 7 hours after administering the first 240 mg dose of KET01, with an LS mean difference vs placebo at day 4 (-3.66 [95% CI, -6.74 to -0.59] points; nominal P = .02) and day 7 (-3.95 [95% CI, -7.75 to -0.15] points; nominal P = .04). During follow-up, the LS mean MADRS point difference vs placebo at 4 weeks was -3.35 (95% CI, -7.62 to 0.93; nominal P = .13). CONCLUSIONS AND RELEVANCE: The antidepressant properties and tolerability profile of KET01 in these RCTs, including minimal dissociation and cardiovascular effects, support further development of oral KET01 formulation for at-home administration. TRIAL REGISTRATION: EU Clinical Trials Register Identifiers: 2023-503971-45-00 and 2021-004927-34.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "IMPORTANCE",
+            "text": "氯胺酮具有快速的抗抑郁作用。然而，目前可用的基于氯胺酮的治疗与解离和心血管不良事件相关。"
+          },
+          {
+            "heading": "OBJECTIVE",
+            "text": "评估KET01（一种新型口服延长释放消旋氯胺酮片剂）的抗抑郁疗效和耐受性。"
+          },
+          {
+            "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+            "text": "KET01-03是一项活性对照、双盲、双模拟、交叉设计的1期随机临床试验（RCT），于2023年7月至8月在德国单一试验点对健康成年男性志愿者（年龄≥18岁）进行。KET01-02是一项安慰剂对照、双盲的2期RCT，于2022年5月至2023年5月在捷克共和国、德国和波兰的29个试验点对患有治疗抵抗性抑郁症的成年门诊患者（年龄≥18岁）进行。KET01-02的数据分析时间为2023年5月至10月，KET01-03的数据分析时间为2024年8月至10月。"
+          },
+          {
+            "heading": "INTERVENTIONS",
+            "text": "KET01-03研究了单次剂量KET01（240 mg）与鼻内艾司氯胺酮（84 mg）的比较，KET01-02评估了KET01剂量为120或240 mg/d（作为现有标准治疗的辅助治疗）与安慰剂相比，持续3周。"
+          },
+          {
+            "heading": "MAIN OUTCOMES AND MEASURES",
+            "text": "主要终点是KET01-03中KET01与鼻内艾司氯胺酮在给药后24小时内临床医生管理的解离状态量表（CADSS）评分平均最大变化的差异，以及KET01-02中240 mg/d KET01与安慰剂相比从基线到第21天蒙哥马利-阿斯伯格抑郁评定量表（MADRS）评分的最小二乘（LS）平均变化。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "KET01-03随机分配了26名男性（中位年龄32岁[范围21-45岁]），KET01-02随机分配了122名患有治疗抵抗性抑郁症的门诊患者（72名[59.0%]为女性；中位年龄41岁[范围19-65岁]）。在KET01-03中，鼻内艾司氯胺酮而非KET01在给药后24小时内诱导了显著解离（CADSS评分平均[SD]最大变化为29.6[12.5]分 vs 0.7[1.7]分；P < .001）。KET01的最大血浆浓度（39.1 ng/mL）低于艾司氯胺酮（104.1 ng/mL）；相反，KET01的代谢物暴露量更高（例如，去甲氯胺酮从基线到最后一次测量的曲线下面积[AUC]为3.5微克×小时/毫升）而艾司氯胺酮（[S]-去甲氯胺酮的AUC为1.4微克×小时/毫升）。在两项试验中，KET01组的脉搏和血压没有显著变化，而KET01-03中鼻内艾司氯胺酮后迅速升高。在KET01-02中，第21天的主要疗效终点未达到：240 mg/d KET01与安慰剂相比的LS平均MADRS评分差异为-1.82分（95% CI，-6.21至2.57分；P = .41）。然而，在首次服用240 mg KET01后7小时观察到MADRS评分降低，第4天（-3.66 [95% CI，-6.74至-0.59]分；名义P = .02）和第7天（-3.95 [95% CI，-7.75至-0.15]分；名义P = .04）与安慰剂相比的LS平均差异。随访期间，4周时与安慰剂相比的LS平均MADRS评分差异为-3.35（95% CI，-7.62至0.93；名义P = .13）。"
+          },
+          {
+            "heading": "CONCLUSIONS AND RELEVANCE",
+            "text": "在这些RCT中，KET01的抗抑郁特性和耐受性特征，包括最小的解离和心血管效应，支持进一步开发口服KET01制剂用于居家给药。"
+          },
+          {
+            "heading": "TRIAL REGISTRATION",
+            "text": "欧盟临床试验注册号：2023-503971-45-00和2021-004927-34。"
+          }
+        ],
+        "fullText": "重要性：氯胺酮具有快速的抗抑郁作用。然而，目前可用的基于氯胺酮的治疗与解离和心血管不良事件相关。目的：评估KET01（一种新型口服延长释放消旋氯胺酮片剂）的抗抑郁疗效和耐受性。设计、设置和参与者：KET01-03是一项活性对照、双盲、双模拟、交叉设计的1期随机临床试验（RCT），于2023年7月至8月在德国单一试验点对健康成年男性志愿者（年龄≥18岁）进行。KET01-02是一项安慰剂对照、双盲的2期RCT，于2022年5月至2023年5月在捷克共和国、德国和波兰的29个试验点对患有治疗抵抗性抑郁症的成年门诊患者（年龄≥18岁）进行。KET01-02的数据分析时间为2023年5月至10月，KET01-03的数据分析时间为2024年8月至10月。干预措施：KET01-03研究了单次剂量KET01（240 mg）与鼻内艾司氯胺酮（84 mg）的比较，KET01-02评估了KET01剂量为120或240 mg/d（作为现有标准治疗的辅助治疗）与安慰剂相比，持续3周。主要结局和措施：主要终点是KET01-03中KET01与鼻内艾司氯胺酮在给药后24小时内临床医生管理的解离状态量表（CADSS）评分平均最大变化的差异，以及KET01-02中240 mg/d KET01与安慰剂相比从基线到第21天蒙哥马利-阿斯伯格抑郁评定量表（MADRS）评分的最小二乘（LS）平均变化。结果：KET01-03随机分配了26名男性（中位年龄32岁[范围21-45岁]），KET01-02随机分配了122名患有治疗抵抗性抑郁症的门诊患者（72名[59.0%]为女性；中位年龄41岁[范围19-65岁]）。在KET01-03中，鼻内艾司氯胺酮而非KET01在给药后24小时内诱导了显著解离（CADSS评分平均[SD]最大变化为29.6[12.5]分 vs 0.7[1.7]分；P < .001）。KET01的最大血浆浓度（39.1 ng/mL）低于艾司氯胺酮（104.1 ng/mL）；相反，KET01的代谢物暴露量更高（例如，去甲氯胺酮从基线到最后一次测量的曲线下面积[AUC]为3.5微克×小时/毫升）而艾司氯胺酮（[S]-去甲氯胺酮的AUC为1.4微克×小时/毫升）。在两项试验中，KET01组的脉搏和血压没有显著变化，而KET01-03中鼻内艾司氯胺酮后迅速升高。在KET01-02中，第21天的主要疗效终点未达到：240 mg/d KET01与安慰剂相比的LS平均MADRS评分差异为-1.82分（95% CI，-6.21至2.57分；P = .41）。然而，在首次服用240 mg KET01后7小时观察到MADRS评分降低，第4天（-3.66 [95% CI，-6.74至-0.59]分；名义P = .02）和第7天（-3.95 [95% CI，-7.75至-0.15]分；名义P = .04）与安慰剂相比的LS平均差异。随访期间，4周时与安慰剂相比的LS平均MADRS评分差异为-3.35（95% CI，-7.62至0.93；名义P = .13）。结论和相关性：在这些RCT中，KET01的抗抑郁特性和耐受性特征，包括最小的解离和心血管效应，支持进一步开发口服KET01制剂用于居家给药。试验注册：欧盟临床试验注册号：2023-503971-45-00和2021-004927-34。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Walter M, Zu Eulenburg C, Damyanova A, Schmid K, Schwienbacher I, Papanastasiou E, Maiboe K, Arvastson L, et al.",
+      "citation": "JAMA Netw Open. 2026 Jun 1;9(6):e2619121. doi: 10.1001/jamanetworkopen.2026.19121.",
+      "doi": "10.1001/jamanetworkopen.2026.19121",
+      "pmid": "42340723",
+      "pmcid": "PMC13294785",
+      "publicationTypes": [
+        "Clinical Trial, Phase I",
+        "Clinical Trial, Phase II",
+        "Journal Article",
         "Randomized Controlled Trial"
       ],
       "meshTerms": [
         "Humans",
-        "*Intubation, Intratracheal/methods/instrumentation",
-        "*Laryngoscopy/methods/instrumentation",
-        "Female",
+        "*Ketamine/administration & dosage/therapeutic use",
         "Male",
-        "Middle Aged",
-        "Aged",
-        "*Video-Assisted Techniques and Procedures",
         "Adult",
-        "Germany",
-        "Laryngoscopes",
-        "Austria",
-        "Anesthesia, General"
+        "Double-Blind Method",
+        "Middle Aged",
+        "Delayed-Action Preparations/administration & dosage",
+        "*Depressive Disorder, Treatment-Resistant/drug therapy",
+        "Administration, Oral",
+        "*Antidepressive Agents/administration & dosage/therapeutic use",
+        "Cross-Over Studies",
+        "Treatment Outcome"
+      ],
+      "publisher": "American Medical Association (AMA)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "human-study"
+      },
+      "journalTier": {
+        "id": "general_top",
+        "label": "综合医学顶刊",
+        "priorityRank": 3
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.7,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "JAMA Network Open"
+      },
+      "tags": [
+        "临床证据",
+        "综合医学顶刊",
+        "麻醉基础研究",
+        "Clinical Trial, Phase I",
+        "Clinical Trial, Phase II"
+      ],
+      "question": "现有氯胺酮类抗抑郁治疗（如鼻喷艾司氯胺酮）存在解离和心血管不良反应，且需在医疗监督下使用。口服缓释制剂可能提供更便捷、耐受性更好的居家给药方案，但本研究主要终点未达到，需谨慎解读。",
+      "conclusion": "两项随机临床试验显示，口服缓释氯胺酮（KET01）在难治性抑郁症患者中未达到第21天的主要疗效终点，但早期（第4天和第7天）MADRS评分较安慰剂有名义上的显著降低，且解离和心血管不良反应较少。",
+      "clinical": "KET01口服制剂在两项试验中未引起明显解离和心血管反应，可能减少麻醉科使用氯胺酮时的相关不良反应。 KET01的代谢物暴露较高，可能具有不同的药效学特征，但临床意义尚不明确。 由于主要终点未达到，目前不建议将KET01替代现有氯胺酮类治疗，需进一步研究。",
+      "evidence": "中等",
+      "score": 67,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 22,
+        "clinicalImpact": 9,
+        "journalQuality": 15,
+        "novelty": 8
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "KET01-03为活性对照、双盲、双模拟、交叉设计的1期随机临床试验；KET01-02为安慰剂对照、双盲的2期随机临床试验。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "KET01-03: healthy adult male volunteers (aged ≥18 years); KET01-02: adult outpatients (aged ≥18 years) with treatment-resistant depression；KET01-03: 26 males; KET01-02: 122 outpatients"
+        },
+        {
+          "label": "干预与比较",
+          "value": "KET01-03: single dose of oral KET01 (240 mg); KET01-02: KET01 dosages of 120 or 240 mg/d (adjunctive to ongoing standard therapy) for 3 weeks；对照：KET01-03: intranasal esketamine (84 mg); KET01-02: placebo"
+        },
+        {
+          "label": "主要终点",
+          "value": "KET01-03: difference in mean maximum change in Clinician-Administered Dissociative States Scale (CADSS) score between KET01 and intranasal esketamine within the first 24 hours; KET01-02: least squares (LS) mean change in Montgomery-Asberg Depression Rating Scale (MADRS) score from baseline to day 21 for 240 mg/d of KET01 vs placebo"
+        }
+      ],
+      "keyPoints": [
+        "KET01-03：KET01未引起解离，而鼻喷艾司氯胺酮显著引起解离（P<0.001）。",
+        "KET01-02：第21天主要终点未达到（P=0.41）。",
+        "第4天和第7天MADRS评分有名义显著降低，但4周随访时无显著差异。",
+        "KET01组脉搏和血压无明显变化，而鼻喷艾司氯胺酮组快速升高。",
+        "KET01-02中治疗相关不良事件在240 mg/d组为52.5%，120 mg/d组为31.0%，安慰剂组为35.0%。"
+      ],
+      "methods": "氯胺酮具有快速抗抑郁作用，但现有制剂存在解离和心血管不良反应。KET01是一种新型口服缓释消旋氯胺酮片剂，旨在减少这些不良反应并支持居家给药。",
+      "results": "KET01-03纳入26例男性，鼻喷艾司氯胺酮在24小时内引起显著解离（CADSS最大变化均值[SD]：29.6[12.5]分 vs 0.7[1.7]分；P<0.001），而KET01未引起。KET01-02纳入122例难治性抑郁症患者，第21天主要终点未达到：240 mg/d组与安慰剂组MADRS评分LS平均差为-1.82分（95%CI：-6.21至2.57；P=0.41）。但首次给药后7小时观察到MADRS降低，第4天LS平均差为-3.66分（95%CI：-6.74至-0.59；名义P=0.02），第7天为-3.95分（95%CI：-7.75至-0.15；名义P=0.04）。4周随访时LS平均差为-3.35分（95%CI：-7.62至0.93；名义P=0.13）。",
+      "mainResults": "KET01-03纳入26例男性，鼻喷艾司氯胺酮在24小时内引起显著解离（CADSS最大变化均值[SD]：29.6[12.5]分 vs 0.7[1.7]分；P<0.001），而KET01未引起。KET01-02纳入122例难治性抑郁症患者，第21天主要终点未达到：240 mg/d组与安慰剂组MADRS评分LS平均差为-1.82分（95%CI：-6.21至2.57；P=0.41）。但首次给药后7小时观察到MADRS降低，第4天LS平均差为-3.66分（95%CI：-6.74至-0.59；名义P=0.02），第7天为-3.95分（95%CI：-7.75至-0.15；名义P=0.04）。4周随访时LS平均差为-3.35分（95%CI：-7.62至0.93；名义P=0.13）。",
+      "limitations": [
+        "两项试验样本量相对较小。",
+        "KET01-03仅纳入男性志愿者，限制了对女性和性别差异的推广。",
+        "KET01-02未包含活性对照，难以与现有治疗进行疗效和安全性比较。",
+        "KET01-02在给药后7小时才开始采集血样，限制了早期药代动力学分析。",
+        "两项试验持续时间短（单次给药和3周治疗），无法评估长期疗效和安全性。",
+        "KET01-03中鼻喷艾司氯胺酮引起明显解离，可能导致功能性破盲。"
+      ],
+      "practice": [
+        "KET01口服制剂在两项试验中未引起明显解离和心血管反应，可能减少麻醉科使用氯胺酮时的相关不良反应。",
+        "KET01的代谢物暴露较高，可能具有不同的药效学特征，但临床意义尚不明确。",
+        "由于主要终点未达到，目前不建议将KET01替代现有氯胺酮类治疗，需进一步研究。"
+      ],
+      "editor": "研究设计为随机对照试验，结果报告了主要终点和次要终点的效应量、置信区间和P值，提供了初步的疗效和安全性数据。 过度解读风险：主要终点未达到，但早期时间点的名义显著结果可能被过度解读为疗效证据；且样本量小、持续时间短，需谨慎。",
+      "whyItMatters": "现有氯胺酮类抗抑郁治疗（如鼻喷艾司氯胺酮）存在解离和心血管不良反应，且需在医疗监督下使用。口服缓释制剂可能提供更便捷、耐受性更好的居家给药方案，但本研究主要终点未达到，需谨慎解读。",
+      "background": "氯胺酮具有快速抗抑郁作用，但现有制剂存在解离和心血管不良反应。KET01是一种新型口服缓释消旋氯胺酮片剂，旨在减少这些不良反应并支持居家给药。",
+      "pico": {
+        "population": "KET01-03: healthy adult male volunteers (aged ≥18 years); KET01-02: adult outpatients (aged ≥18 years) with treatment-resistant depression",
+        "intervention": "KET01-03: single dose of oral KET01 (240 mg); KET01-02: KET01 dosages of 120 or 240 mg/d (adjunctive to ongoing standard therapy) for 3 weeks",
+        "comparison": "KET01-03: intranasal esketamine (84 mg); KET01-02: placebo",
+        "outcome": "KET01-03: difference in mean maximum change in Clinician-Administered Dissociative States Scale (CADSS) score between KET01 and intranasal esketamine within the first 24 hours; KET01-02: least squares (LS) mean change in Montgomery-Asberg Depression Rating Scale (MADRS) score from baseline to day 21 for 240 mg/d of KET01 vs placebo"
+      },
+      "studyType": "KET01-03为活性对照、双盲、双模拟、交叉设计的1期随机临床试验；KET01-02为安慰剂对照、双盲的2期随机临床试验。",
+      "sampleSize": "KET01-03: 26 males; KET01-02: 122 outpatients",
+      "primaryOutcome": "KET01-03: difference in mean maximum change in Clinician-Administered Dissociative States Scale (CADSS) score between KET01 and intranasal esketamine within the first 24 hours; KET01-02: least squares (LS) mean change in Montgomery-Asberg Depression Rating Scale (MADRS) score from baseline to day 21 for 240 mg/d of KET01 vs placebo",
+      "effectSize": [
+        "LS mean MADRS score difference for 240 mg/d of KET01 vs placebo at day 21: -1.82 points",
+        "LS mean difference vs placebo at day 4: -3.66 points",
+        "LS mean difference vs placebo at day 7: -3.95 points",
+        "LS mean MADRS point difference vs placebo at 4 weeks: -3.35 points"
+      ],
+      "confidenceInterval": [
+        "95% CI, -6.21 to 2.57 points",
+        "95% CI, -6.74 to -0.59 points",
+        "95% CI, -7.75 to -0.15 points",
+        "95% CI, -7.62 to 0.93"
+      ],
+      "pValue": [
+        "P < .001",
+        "P = .41",
+        "nominal P = .02",
+        "nominal P = .04",
+        "nominal P = .13"
+      ],
+      "adverseEvents": "In KET01-02, treatment-related TEAEs occurred in 21 patients (52.5%) in the 240 mg/d arm, 13 (31.0%) in the 120 mg/d arm, and 14 (35.0%) in the placebo arm. Serious TEAEs included suicidal depression requiring hospitalization in 1 patient (2.5%) in the 240 mg/d arm and suicidal ideation in 1 patient (2.4%) in the 120 mg/d arm. No suicide attempts were documented. Mean plasma concentrations of GGT and aminotransferases tended to increase from week 2 in the arms receiving KET01 but normalized after treatment ended. In the 120 mg/d arm, 1 patient (2.4%) developed ALT >3x ULN, 1 (2.4%) AST >3x ULN, 1 (2.4%) GGT >3x ULN. In the 240 mg/d arm, 4 patients (10.0%) developed ALT >3x ULN and 4 (10.0%) GGT >3x ULN.",
+      "aiAssessment": {
+        "support": "研究设计为随机对照试验，结果报告了主要终点和次要终点的效应量、置信区间和P值，提供了初步的疗效和安全性数据。",
+        "overinterpretationRisk": "主要终点未达到，但早期时间点的名义显著结果可能被过度解读为疗效证据；且样本量小、持续时间短，需谨慎。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text_excerpt",
+          "limitations": [
+            "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节和完整结果。",
+            "未提供完整统计分析计划、随机化细节和缺失数据处理方法。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "评估口服缓释氯胺酮（KET01）在健康志愿者中的解离效应和药代动力学，以及在难治性抑郁症患者中的抗抑郁疗效和耐受性。",
+          "designFit": "KET01-03采用交叉设计适合药代动力学和药效学比较；KET01-02采用平行随机对照试验评估疗效，设计合理。",
+          "eligibility": "KET01-03纳入健康成年男性；KET01-02纳入难治性抑郁症成年门诊患者，具体标准未提供。",
+          "randomization": "随机化方法未详细报告，但提及为随机临床试验。",
+          "allocationConcealment": "分配隐藏方法未报告。",
+          "blinding": "KET01-03为双盲、双模拟；KET01-02为双盲。",
+          "sampleSizePlanning": "样本量计算未报告。",
+          "followUp": "KET01-03为单次给药后24小时；KET01-02为3周治疗加4周随访。",
+          "analysisPopulation": "分析人群未明确，可能为意向性治疗或符合方案集，未报告。",
+          "missingData": "缺失数据处理方法未报告。",
+          "strengths": [
+            "随机对照设计，双盲。",
+            "两项试验评估了药代动力学和安全性。",
+            "报告了效应量和置信区间。"
+          ],
+          "concerns": [
+            "样本量小，尤其KET01-03仅男性。",
+            "主要终点未达到，但早期时间点有名义显著结果，需注意多重比较问题。",
+            "未报告随机化细节和缺失数据处理。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "未识别到具体统计方法，无法评价。",
+              "reportedResult": "未报告。",
+              "interpretation": "无法评价。",
+              "cautions": [
+                "统计方法未报告，无法评估分析正确性。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "早期时间点的P值为名义P值，未进行多重性校正，可能增加I类错误。",
+          "subgroupAnalysis": "未报告亚组分析。",
+          "clinicalVsStatisticalSignificance": "主要终点无统计学差异，但早期时间点有名义显著差异，临床意义需谨慎解读。"
+        },
+        "outcomeAnalysis": {
+          "primary": "KET01-03：CADSS评分最大变化；KET01-02：第21天MADRS评分变化。",
+          "secondary": [
+            "药代动力学参数（最大血浆浓度、曲线下面积）",
+            "脉搏和血压变化",
+            "第4天、第7天和4周随访的MADRS评分变化"
+          ],
+          "safety": "KET01-02中治疗相关不良事件在240 mg/d组为52.5%，120 mg/d组为31.0%，安慰剂组为35.0%。严重不良事件包括1例240 mg/d组抑郁加重需住院，1例120 mg/d组自杀意念。无自杀企图。肝酶升高在KET01组出现，但治疗结束后恢复。",
+          "absoluteVsRelative": "未报告绝对风险或相对风险，仅报告了不良事件发生率。",
+          "subgroupAndInteraction": "未报告亚组分析。",
+          "sensitivity": "未报告敏感性分析。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "随机、双盲设计。",
+            "两项试验评估了药代动力学和安全性。",
+            "报告了效应量和置信区间。"
+          ],
+          "limitations": [
+            "样本量小。",
+            "KET01-03仅男性。",
+            "KET01-02无活性对照。",
+            "持续时间短。",
+            "功能性破盲可能。"
+          ],
+          "biasRisks": [
+            "KET01-03中鼻喷艾司氯胺酮的解离效应可能导致功能性破盲。",
+            "未报告分配隐藏和随机化细节，可能存在选择偏倚。",
+            "早期时间点的名义P值未校正，存在多重比较偏倚。"
+          ],
+          "certainty": "证据确定性低，因主要终点未达到，且存在方法学局限。",
+          "conclusionAlignment": "作者结论认为KET01具有抗抑郁特性和良好耐受性，但主要终点未达到，结论与结果不完全一致。",
+          "causalBoundary": "由于主要终点未达到，不能确定KET01的疗效；早期时间点的差异可能为偶然或次要效应。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "KET01可能减少解离和心血管不良反应，适合进一步研究。",
+            "口服制剂可能便于居家给药，但需更多证据。"
+          ],
+          "nonApplicability": [
+            "KET01-03结果仅适用于健康男性，不适用于女性或患者。",
+            "KET01-02结果不能推广至其他难治性抑郁症人群。"
+          ],
+          "practiceChange": "当前证据不足以支持临床实践改变。",
+          "canDoNow": [
+            "可考虑在临床试验中进一步评估KET01的疗效和安全性。",
+            "可监测肝功能和心血管指标。"
+          ],
+          "cannotConclude": [
+            "不能得出KET01优于安慰剂的结论。",
+            "不能得出KET01可替代现有氯胺酮类治疗的结论。"
+          ],
+          "evidenceGaps": [
+            "需要更大样本、更长持续时间、包括女性和活性对照的试验。",
+            "需要明确随机化、分配隐藏和缺失数据处理方法。",
+            "需要评估长期疗效和安全性。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42340723/",
+        "doi": "https://doi.org/10.1001/jamanetworkopen.2026.19121",
+        "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.19121",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13294785/"
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-41931297",
+      "number": "04",
+      "category": "老年围术期",
+      "journal": "JAMA network open",
+      "year": "2026",
+      "publishedDate": "2026-04-01",
+      "electronicPublicationDate": "2026-04-01",
+      "readingTime": "16 分钟",
+      "title": "载脂蛋白E模拟肽CN-105与老年患者术后谵妄：MARBLE 2期随机临床试验",
+      "originalTitle": "Apolipoprotein E Mimetic Peptide CN-105 and Postoperative Delirium in Older Patients: The Phase 2 MARBLE Randomized Clinical Trial.",
+      "abstract": "IMPORTANCE: The apolipoprotein E (APOE) gene epsilon4 allele leads to increased Alzheimer disease risk and neuroinflammation and is also believed to play a role in postoperative delirium. However, the safety and feasibility of modulating apoE protein signaling to reduce postoperative neuroinflammation and delirium in older adults are unclear. OBJECTIVE: To assess the safety and feasibility of the apoE mimetic peptide CN-105 for reducing delirium incidence and severity and neuroinflammation after noncardiac or nonintracranial surgery in older adults. DESIGN, SETTING, AND PARTICIPANTS: This triple-blind, escalating dose, phase 2 randomized clinical trial enrolled patients from April 17, 2019, to December 28, 2022, at a tertiary academic medical center. Included patients were 60 years or older and scheduled for a noncardiac or nonintracranial surgery. Exclusion criteria were incarceration, planned chemotherapy within 6 weeks after surgery, or inability to undergo lumbar punctures. Data analyses were based on a modified intention-to-treat approach and were performed from August 14, 2023, to August 22, 2025. INTERVENTIONS: Patients were randomly assigned 3:1 to the CN-105 group or placebo group. The CN-105 group received intravenous CN-105 doses of 0.1, 0.5, or 1 mg/kg starting within 1 hour before surgery and administered every 6 hours afterward until hospital discharge or 13 doses were received. Patients in the placebo group followed the same administration schedule. MAIN OUTCOMES AND MEASURES: The primary outcome was safety-the incidence and number of postoperative adverse events (AEs). Secondary outcomes included feasibility (rate of drug doses administered within 90 minutes of schedule), postoperative delirium incidence and severity, and postoperative changes in cerebrospinal fluid (CSF) cytokine levels (interleukin [IL] 6, granulocyte-colony stimulating factor [G-CSF], monocyte chemoattractant protein-1 [MCP-1], and IL-8). RESULTS: Among 203 enrolled patients, 186 (mean [SD] age, 68.7 [5.2] years; 119 males [64.0%]) were randomized (137 to the CN-105 group, 49 to the placebo group) and underwent surgery. The rates of grade 2 or higher AEs among patients in the CN-105 and placebo groups were 76.6% and 87.8% (relative risk [RR], 0.87; 95% CI, 0.76-1.00; P = .10). The CN-105 vs placebo group had fewer grade 2 or higher AEs per patient (median [IQR], 1 [1-3] vs 2 [1-5]; P = .03). The percentage of CN-105 doses administered within the time window was 94.6% (860 of 909; 95% CI, 92.9%-96.0%) in the CN-105 group and 93.8% (346 of 369; 95% CI, 90.8%-96.0%) in the placebo group. Among patients in the CN-105 vs placebo group, the postoperative delirium incidence was 19.3% vs 26.5% (odds ratio [OR], 0.66; 95% CI, 0.31-1.42; P = .29); the median (IQR) postoperative delirium severity scores were 1 (1-2) vs 2 (1-2) (P = .19); and the median difference in preoperative to 24-hour postoperative CSF cytokine-level changes were as follows: -0.39 pg/mL (95% CI, -0.93 to 0.14 pg/mL, P = .12) for IL-6, -0.84 pg/mL (95% CI, -3.06 to 1.40 pg/mL; P = .18) for G-CSF,-23.32 pg/mL (95% CI, -94.36 to 44.93 pg/mL; P = .57) for IL-8, and -2.36 pg/mL (95% CI, -58.57 to 58.62 pg/mL; P = .50) for MCP-1. CONCLUSIONS AND RELEVANCE: In this phase 2 randomized clinical trial of older surgical patients, CN-105 (vs placebo) administration was feasible and did not increase AEs. A phase 3 trial is warranted to further evaluate the efficacy of CN-105 for reducing postoperative AEs and to more precisely determine its effects on postoperative delirium incidence and severity. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT03802396.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "IMPORTANCE",
+            "text": "载脂蛋白E（APOE）基因ε4等位基因导致阿尔茨海默病风险和神经炎症增加，也被认为在术后谵妄中发挥作用。然而，调节apoE蛋白信号以减少老年人术后神经炎症和谵妄的安全性和可行性尚不清楚。"
+          },
+          {
+            "heading": "OBJECTIVE",
+            "text": "评估apoE模拟肽CN-105在减少老年人非心脏或非颅内手术后谵妄发生率和严重程度以及神经炎症方面的安全性和可行性。"
+          },
+          {
+            "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+            "text": "这项三盲、剂量递增的2期随机临床试验于2019年4月17日至2022年12月28日在三级学术医疗中心招募患者。纳入的患者年龄为60岁或以上，并计划接受非心脏或非颅内手术。排除标准为被监禁、术后6周内计划化疗或无法接受腰椎穿刺。数据分析基于改良意向治疗原则，于2023年8月14日至2025年8月22日进行。"
+          },
+          {
+            "heading": "INTERVENTIONS",
+            "text": "患者按3:1随机分配到CN-105组或安慰剂组。CN-105组在手术前1小时内开始接受静脉注射CN-105，剂量为0.1、0.5或1 mg/kg，之后每6小时给药一次，直至出院或接受13次剂量。安慰剂组患者遵循相同的给药方案。"
+          },
+          {
+            "heading": "MAIN OUTCOMES AND MEASURES",
+            "text": "主要结局是安全性——术后不良事件（AE）的发生率和数量。次要结局包括可行性（在计划时间90分钟内给药的药物剂量比例）、术后谵妄发生率和严重程度，以及术后脑脊液（CSF）细胞因子水平（白细胞介素[IL]6、粒细胞集落刺激因子[G-CSF]、单核细胞趋化蛋白-1[MCP-1]和IL-8）的变化。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "在203名入组患者中，186名（平均[SD]年龄，68.7 [5.2]岁；119名男性[64.0%]）被随机分配（137名到CN-105组，49名到安慰剂组）并接受了手术。CN-105组和安慰剂组患者中2级或以上AE的发生率分别为76.6%和87.8%（相对风险[RR]，0.87；95% CI，0.76-1.00；P = .10）。CN-105组与安慰剂组相比，每名患者2级或以上AE的数量较少（中位数[IQR]，1 [1-3] vs 2 [1-5]；P = .03）。CN-105组在时间窗内给药的CN-105剂量百分比为94.6%（860/909；95% CI，92.9%-96.0%），安慰剂组为93.8%（346/369；95% CI，90.8%-96.0%）。在CN-105组与安慰剂组患者中，术后谵妄发生率为19.3% vs 26.5%（比值比[OR]，0.66；95% CI，0.31-1.42；P = .29）；术后谵妄严重程度评分中位数（IQR）为1（1-2） vs 2（1-2）（P = .19）；术前至术后24小时CSF细胞因子水平变化的中位数差异如下：IL-6为-0.39 pg/mL（95% CI，-0.93至0.14 pg/mL，P = .12），G-CSF为-0.84 pg/mL（95% CI，-3.06至1.40 pg/mL；P = .18），IL-8为-23.32 pg/mL（95% CI，-94.36至44.93 pg/mL；P = .57），MCP-1为-2.36 pg/mL（95% CI，-58.57至58.62 pg/mL；P = .50）。"
+          },
+          {
+            "heading": "CONCLUSIONS AND RELEVANCE",
+            "text": "在这项针对老年手术患者的2期随机临床试验中，CN-105（与安慰剂相比）给药是可行的，并且没有增加AE。有必要进行3期试验，以进一步评估CN-105在减少术后AE方面的疗效，并更精确地确定其对术后谵妄发生率和严重程度的影响。"
+          },
+          {
+            "heading": "TRIAL REGISTRATION",
+            "text": "ClinicalTrials.gov标识符：NCT03802396。"
+          }
+        ],
+        "fullText": "重要性：载脂蛋白E（APOE）基因ε4等位基因导致阿尔茨海默病风险和神经炎症增加，也被认为在术后谵妄中发挥作用。然而，调节apoE蛋白信号以减少老年人术后神经炎症和谵妄的安全性和可行性尚不清楚。目的：评估apoE模拟肽CN-105在减少老年人非心脏或非颅内手术后谵妄发生率和严重程度以及神经炎症方面的安全性和可行性。设计、设置和参与者：这项三盲、剂量递增的2期随机临床试验于2019年4月17日至2022年12月28日在三级学术医疗中心招募患者。纳入的患者年龄为60岁或以上，并计划接受非心脏或非颅内手术。排除标准为被监禁、术后6周内计划化疗或无法接受腰椎穿刺。数据分析基于改良意向治疗原则，于2023年8月14日至2025年8月22日进行。干预措施：患者按3:1随机分配到CN-105组或安慰剂组。CN-105组在手术前1小时内开始接受静脉注射CN-105，剂量为0.1、0.5或1 mg/kg，之后每6小时给药一次，直至出院或接受13次剂量。安慰剂组患者遵循相同的给药方案。主要结局和措施：主要结局是安全性——术后不良事件（AE）的发生率和数量。次要结局包括可行性（在计划时间90分钟内给药的药物剂量比例）、术后谵妄发生率和严重程度，以及术后脑脊液（CSF）细胞因子水平（白细胞介素[IL]6、粒细胞集落刺激因子[G-CSF]、单核细胞趋化蛋白-1[MCP-1]和IL-8）的变化。结果：在203名入组患者中，186名（平均[SD]年龄，68.7 [5.2]岁；119名男性[64.0%]）被随机分配（137名到CN-105组，49名到安慰剂组）并接受了手术。CN-105组和安慰剂组患者中2级或以上AE的发生率分别为76.6%和87.8%（相对风险[RR]，0.87；95% CI，0.76-1.00；P = .10）。CN-105组与安慰剂组相比，每名患者2级或以上AE的数量较少（中位数[IQR]，1 [1-3] vs 2 [1-5]；P = .03）。CN-105组在时间窗内给药的CN-105剂量百分比为94.6%（860/909；95% CI，92.9%-96.0%），安慰剂组为93.8%（346/369；95% CI，90.8%-96.0%）。在CN-105组与安慰剂组患者中，术后谵妄发生率为19.3% vs 26.5%（比值比[OR]，0.66；95% CI，0.31-1.42；P = .29）；术后谵妄严重程度评分中位数（IQR）为1（1-2） vs 2（1-2）（P = .19）；术前至术后24小时CSF细胞因子水平变化的中位数差异如下：IL-6为-0.39 pg/mL（95% CI，-0.93至0.14 pg/mL，P = .12），G-CSF为-0.84 pg/mL（95% CI，-3.06至1.40 pg/mL；P = .18），IL-8为-23.32 pg/mL（95% CI，-94.36至44.93 pg/mL；P = .57），MCP-1为-2.36 pg/mL（95% CI，-58.57至58.62 pg/mL；P = .50）。结论和相关性：在这项针对老年手术患者的2期随机临床试验中，CN-105（与安慰剂相比）给药是可行的，并且没有增加AE。有必要进行3期试验，以进一步评估CN-105在减少术后AE方面的疗效，并更精确地确定其对术后谵妄发生率和严重程度的影响。试验注册：ClinicalTrials.gov标识符：NCT03802396。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Timko NJ, Cooter Wright M, Smith MR, Boykin PC, Emerson JM, Woldorff MG, Eleswarpu S, Herbert JT, et al.",
+      "citation": "JAMA Netw Open. 2026 Apr 1;9(4):e262289. doi: 10.1001/jamanetworkopen.2026.2289.",
+      "doi": "10.1001/jamanetworkopen.2026.2289",
+      "pmid": "41931297",
+      "pmcid": "PMC13049496",
+      "publicationTypes": [
+        "Clinical Trial, Phase II",
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "meshTerms": [
+        "Humans",
+        "Male",
+        "Female",
+        "Aged",
+        "*Delirium/prevention & control/drug therapy",
+        "*Postoperative Complications/prevention & control/drug therapy",
+        "*Apolipoproteins E/therapeutic use",
+        "Middle Aged",
+        "*Peptides/therapeutic use",
+        "Double-Blind Method",
+        "Aged, 80 and over"
+      ],
+      "publisher": "American Medical Association (AMA)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "human-study"
+      },
+      "journalTier": {
+        "id": "general_top",
+        "label": "综合医学顶刊",
+        "priorityRank": 3
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.7,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "JAMA Network Open"
+      },
+      "tags": [
+        "临床证据",
+        "综合医学顶刊",
+        "老年围术期",
+        "Clinical Trial, Phase II",
+        "Journal Article"
+      ],
+      "question": "术后谵妄是老年手术患者的常见并发症，与不良预后相关。载脂蛋白E（APOE）ε4等位基因与谵妄风险增加有关，CN-105作为APOE模拟肽可能通过调节神经炎症发挥作用。该2期试验为后续3期疗效验证提供了安全性和可行性依据。",
+      "conclusion": "在老年非心脏、非颅内手术患者中，CN-105给药可行且未增加不良事件，但未显著降低术后谵妄发生率或神经炎症标志物水平。",
+      "clinical": "CN-105在老年手术患者中给药可行，且未增加不良事件，提示其可能作为未来干预手段。 尽管未显著降低谵妄发生率，但点估计提示潜在获益，需3期试验进一步验证。 目前证据不足以支持临床常规使用CN-105预防术后谵妄。",
+      "evidence": "中等",
+      "score": 67,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 22,
+        "clinicalImpact": 13,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "三盲、剂量递增、2期随机临床试验，按3:1随机分配至CN-105组或安慰剂组，采用改良意向性治疗分析。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Older patients (60 years or older) scheduled for noncardiac or nonintracranial surgery；186 randomized (137 to CN-105, 49 to placebo)"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Intravenous CN-105 doses of 0.1, 0.5, or 1 mg/kg starting within 1 hour before surgery and administered every 6 hours afterward until hospital discharge or 13 doses were received；对照：Placebo (same administration schedule)"
+        },
+        {
+          "label": "主要终点",
+          "value": "Safety: incidence and number of postoperative adverse events (AEs)"
+        }
+      ],
+      "keyPoints": [
+        "CN-105给药可行，给药时间窗内给药率超过90%。",
+        "CN-105未增加不良事件，但2级及以上不良事件发生率差异未达统计学意义（P=0.10）。",
+        "术后谵妄发生率在CN-105组为19.3%，安慰剂组为26.5%，差异无统计学意义（P=0.29）。",
+        "CSF细胞因子变化在两组间无显著差异。",
+        "需3期试验进一步评估疗效。"
+      ],
+      "methods": "APOE ε4等位基因增加阿尔茨海默病风险和神经炎症，也可能参与术后谵妄。然而，调节apoE蛋白信号以减少老年患者术后神经炎症和谵妄的安全性和可行性尚不清楚。",
+      "results": "共186例患者随机分组（CN-105组137例，安慰剂组49例）。CN-105组与安慰剂组2级及以上不良事件发生率分别为76.6%和87.8%（RR=0.87，95%CI 0.76-1.00，P=0.10）；每例患者2级及以上不良事件数中位数（IQR）分别为1（1-3）和2（1-5），P=0.03。给药时间窗内给药率分别为94.6%（860/909）和93.8%（346/369）。术后谵妄发生率分别为19.3%和26.5%（OR=0.66，95%CI 0.31-1.42，P=0.29）；谵妄严重程度评分中位数（IQR）分别为1（1-2）和2（1-2），P=0.19。CSF细胞因子变化的中位差异：IL-6为-0.39 pg/mL（95%CI -0.93至0.14，P=0.12），G-CSF为-0.84 pg/mL（95%CI -3.06至1.40，P=0.18），IL-8为-23.32 pg/mL（95%CI -94.36至44.93，P=0.57），MCP-1为-2.36 pg/mL（95%CI -58.57至58.62，P=0.50）。",
+      "mainResults": "共186例患者随机分组（CN-105组137例，安慰剂组49例）。CN-105组与安慰剂组2级及以上不良事件发生率分别为76.6%和87.8%（RR=0.87，95%CI 0.76-1.00，P=0.10）；每例患者2级及以上不良事件数中位数（IQR）分别为1（1-3）和2（1-5），P=0.03。给药时间窗内给药率分别为94.6%（860/909）和93.8%（346/369）。术后谵妄发生率分别为19.3%和26.5%（OR=0.66，95%CI 0.31-1.42，P=0.29）；谵妄严重程度评分中位数（IQR）分别为1（1-2）和2（1-2），P=0.19。CSF细胞因子变化的中位差异：IL-6为-0.39 pg/mL（95%CI -0.93至0.14，P=0.12），G-CSF为-0.84 pg/mL（95%CI -3.06至1.40，P=0.18），IL-8为-23.32 pg/mL（95%CI -94.36至44.93，P=0.57），MCP-1为-2.36 pg/mL（95%CI -58.57至58.62，P=0.50）。",
+      "limitations": [
+        "单中心研究，纳入人群主要为非西班牙裔白人，限制外推性。",
+        "手术类型多样，可能增加异质性，降低检测效应能力。",
+        "样本量适中，尤其各剂量组样本量较小。",
+        "不良事件发生率高于预期，可能因严格的CTCAE v5.0电子病历审查识别了常见术后事件。"
+      ],
+      "practice": [
+        "CN-105在老年手术患者中给药可行，且未增加不良事件，提示其可能作为未来干预手段。",
+        "尽管未显著降低谵妄发生率，但点估计提示潜在获益，需3期试验进一步验证。",
+        "目前证据不足以支持临床常规使用CN-105预防术后谵妄。"
+      ],
+      "editor": "研究为随机、三盲、安慰剂对照设计，结果支持CN-105的安全性和可行性，但主要疗效终点未达统计学差异。 过度解读风险：需注意将观察到的关联解释为因果效应，且次要结局的差异可能为偶然发现，不应过度解读。",
+      "whyItMatters": "术后谵妄是老年手术患者的常见并发症，与不良预后相关。载脂蛋白E（APOE）ε4等位基因与谵妄风险增加有关，CN-105作为APOE模拟肽可能通过调节神经炎症发挥作用。该2期试验为后续3期疗效验证提供了安全性和可行性依据。",
+      "background": "APOE ε4等位基因增加阿尔茨海默病风险和神经炎症，也可能参与术后谵妄。然而，调节apoE蛋白信号以减少老年患者术后神经炎症和谵妄的安全性和可行性尚不清楚。",
+      "pico": {
+        "population": "Older patients (60 years or older) scheduled for noncardiac or nonintracranial surgery",
+        "intervention": "Intravenous CN-105 doses of 0.1, 0.5, or 1 mg/kg starting within 1 hour before surgery and administered every 6 hours afterward until hospital discharge or 13 doses were received",
+        "comparison": "Placebo (same administration schedule)",
+        "outcome": "Safety: incidence and number of postoperative adverse events (AEs)"
+      },
+      "studyType": "三盲、剂量递增、2期随机临床试验，按3:1随机分配至CN-105组或安慰剂组，采用改良意向性治疗分析。",
+      "sampleSize": "186 randomized (137 to CN-105, 49 to placebo)",
+      "primaryOutcome": "Safety: incidence and number of postoperative adverse events (AEs)",
+      "effectSize": [
+        "RR 0.87",
+        "OR 0.66",
+        "Median difference -0.39 pg/mL",
+        "Median difference -0.84 pg/mL",
+        "Median difference -23.32 pg/mL",
+        "Median difference -2.36 pg/mL"
+      ],
+      "confidenceInterval": [
+        "95% CI, 0.76-1.00",
+        "95% CI, 0.31-1.42",
+        "95% CI, -0.93 to 0.14 pg/mL",
+        "95% CI, -3.06 to 1.40 pg/mL",
+        "95% CI, -94.36 to 44.93 pg/mL",
+        "95% CI, -58.57 to 58.62 pg/mL"
+      ],
+      "pValue": [
+        "P = .10",
+        "P = .03",
+        "P = .29",
+        "P = .19",
+        "P = .12",
+        "P = .18",
+        "P = .57",
+        "P = .50"
+      ],
+      "adverseEvents": "The rates of grade 2 or higher AEs among patients in the CN-105 and placebo groups were 76.6% and 87.8% (RR, 0.87; 95% CI, 0.76-1.00; P = .10). The CN-105 vs placebo group had fewer grade 2 or higher AEs per patient (median [IQR], 1 [1-3] vs 2 [1-5]; P = .03).",
+      "aiAssessment": {
+        "support": "研究为随机、三盲、安慰剂对照设计，结果支持CN-105的安全性和可行性，但主要疗效终点未达统计学差异。",
+        "overinterpretationRisk": "需注意将观察到的关联解释为因果效应，且次要结局的差异可能为偶然发现，不应过度解读。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text_excerpt",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "基于摘要和开放全文节选，可能缺少部分方法学细节。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "评估apoE模拟肽CN-105在老年非心脏、非颅内手术患者中减少术后谵妄和神经炎症的安全性和可行性。",
+          "designFit": "2期随机临床试验，适合初步评估安全性和可行性，并为3期试验提供依据。",
+          "eligibility": "纳入60岁及以上、计划接受非心脏或非颅内手术的患者；排除被监禁、术后6周内计划化疗或无法接受腰椎穿刺者。",
+          "randomization": "按3:1随机分配至CN-105组或安慰剂组，具体随机化方法未详细说明。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "三盲设计（患者、研究者、结局评估者可能均设盲），具体盲法细节未详细说明。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "随访至出院或接受13剂药物，具体随访时长未详细说明。",
+          "analysisPopulation": "改良意向性治疗（mITT）人群，具体定义未详细说明。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "随机、三盲、安慰剂对照设计。",
+            "多剂量探索。",
+            "评估了神经炎症标志物。"
+          ],
+          "concerns": [
+            "单中心，人群代表性有限。",
+            "手术类型多样，可能增加异质性。",
+            "样本量适中，尤其各剂量组。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "未识别到具体统计方法，无法评价。",
+              "reportedResult": "当前可获取内容未提供该数据。",
+              "interpretation": "无法评价。",
+              "cautions": [
+                "未识别到具体统计方法，无法评价。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "主要安全性结局（2级及以上AE发生率）差异未达统计学意义（P=0.10），但每例患者AE数量差异有统计学意义（P=0.03），临床意义需结合效应量大小和患者重要性判断。次要结局（谵妄发生率、严重程度、CSF细胞因子）均无统计学差异，但点估计方向可能提示潜在获益，需谨慎解读。"
+        },
+        "outcomeAnalysis": {
+          "primary": "安全性：术后不良事件发生率和数量。结果：2级及以上AE发生率RR=0.87（95%CI 0.76-1.00，P=0.10）；每例患者AE数量中位数差异有统计学意义（P=0.03）。",
+          "secondary": [
+            "可行性：给药时间窗内给药率CN-105组94.6%，安慰剂组93.8%。",
+            "术后谵妄发生率：OR=0.66（95%CI 0.31-1.42，P=0.29）。",
+            "谵妄严重程度：中位数差异P=0.19。",
+            "CSF细胞因子变化：IL-6、G-CSF、IL-8、MCP-1均无显著差异。"
+          ],
+          "safety": "CN-105组2级及以上AE发生率低于安慰剂组，但差异未达统计学意义；每例患者AE数量减少有统计学意义。",
+          "absoluteVsRelative": "绝对风险差异：2级及以上AE发生率绝对差异为-11.2%（76.6% vs 87.8%）；谵妄发生率绝对差异为-7.2%（19.3% vs 26.5%）。相对效应：RR=0.87，OR=0.66。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "随机、三盲、安慰剂对照设计。",
+            "多剂量探索。",
+            "评估了神经炎症标志物。"
+          ],
+          "limitations": [
+            "单中心，人群代表性有限。",
+            "手术类型多样，可能增加异质性。",
+            "样本量适中，尤其各剂量组。",
+            "不良事件发生率高于预期。"
+          ],
+          "biasRisks": [
+            "选择偏倚：单中心可能限制外推性。",
+            "信息偏倚：不良事件审查可能过于严格。",
+            "混杂偏倚：手术类型多样可能引入混杂。"
+          ],
+          "certainty": "中等：随机对照设计，但样本量有限，主要疗效终点未达统计学差异。",
+          "conclusionAlignment": "结论与结果一致：CN-105可行且未增加不良事件，但疗效需进一步验证。",
+          "causalBoundary": "由于主要疗效终点未达统计学差异，不能推断CN-105降低谵妄或神经炎症的因果关系。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "老年非心脏、非颅内手术患者。",
+            "可能适用于有术后谵妄风险的患者。"
+          ],
+          "nonApplicability": [
+            "不适用于心脏或颅内手术患者。",
+            "不适用于无法接受腰椎穿刺的患者。"
+          ],
+          "practiceChange": "当前证据不支持改变临床实践，CN-105仍处于研究阶段。",
+          "canDoNow": [
+            "可考虑在临床试验背景下使用CN-105。",
+            "可关注后续3期试验结果。"
+          ],
+          "cannotConclude": [
+            "不能得出CN-105可降低术后谵妄发生率的结论。",
+            "不能得出CN-105可减轻神经炎症的结论。"
+          ],
+          "evidenceGaps": [
+            "需要更大样本量的3期试验。",
+            "需要评估不同手术类型和剂量的效应。",
+            "需要长期随访和安全性数据。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41931297/",
+        "doi": "https://doi.org/10.1001/jamanetworkopen.2026.2289",
+        "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.2289",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13049496/"
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-42060305",
+      "number": "05",
+      "category": "麻醉学",
+      "journal": "JAMA network open",
+      "year": "2026",
+      "publishedDate": "2026-04-01",
+      "electronicPublicationDate": "2026-04-01",
+      "readingTime": "19 分钟",
+      "title": "临床与非临床因素及高级新生儿复苏干预措施",
+      "originalTitle": "Clinical and Nonclinical Factors and Advanced Neonatal Resuscitation Interventions.",
+      "abstract": "IMPORTANCE: Approximately 1% of newborns receive advanced neonatal resuscitation interventions (ANRIs; consisting of endotracheal intubation, chest compressions, and epinephrine administration), the likelihood of which increases with known clinical factors. Associations of socioeconomic status (SES) and health system factors with ANRI are unknown. OBJECTIVE: To examine the associations among maternal SES, remoteness of maternal residence, birth-site level of service, clinical factors, and ANRIs. DESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study used an administrative dataset of all live births at 34 weeks' gestation or later between January 1, 2000, and December 31, 2020, in Alberta, Canada, a jurisdiction with universal health care and provincially coordinated Neonatal Resuscitation Program training. Hospital births and home births attended by registered midwives were included. Statistical analyses were conducted from August 1 to September 30, 2025. EXPOSURES: Maternal SES (classified according to Pampalon Material Deprivation Index quintiles), remoteness of residence (categorized using the Statistics Canada Remoteness Index), birth-site level of service, and clinical factors (including maternal, intrapartum, and fetal or neonatal characteristics). MAIN OUTCOMES AND MEASURES: The primary outcome was any ANRI. Secondary outcomes were individual interventions (endotracheal intubation, chest compression, epinephrine administration). Multivariable logistic regression with stepwise variable selection was used to examine associations between SES and health system factors and the primary outcome. RESULTS: A total of 966 475 live births at 34 weeks' gestation or later were analyzed, of whom 1.0% received ANRI. Neonates had a mean (SD) gestational age of 38.9 (1.48) weeks and included 494 835 males (51.2%); mothers had a mean (SD) age of 29.4 (5.46) years. Compared with level 2 birth sites, level 3 birth sites had lower odds of ANRI (odds ratio [OR], 0.57; 95% CI, 0.53-0.61) and all interventions. Births at level 1A sites (OR, 2.53; 95% CI, 1.99-3.15) and home births (OR, 1.44; 95% CI, 1.18-1.74) had higher odds of ANRI and chest compressions (OR, 7.32 [95% CI, 5.61-9.40] and 4.12 [95% CI, 3.29-5.11], respectively). All level 1 births (level 1C: OR, 0.54; 95% CI, 0.49-0.60; level 1B: OR, 0.52; 95% CI, 0.45-0.59; and level 1A: OR, 0.4 95% CI, 0.20-0.71) and home births (OR, 0.27; 95% CI, 0.16-0.43) were associated with lower odds of endotracheal intubations. There were no associations for maternal SES and maternal residence remoteness. The most significant clinical factors associated with ANRI were maternal general anesthesia (OR, 4.89; 95% CI, 4.47-5.34), lower gestational age (highest OR at 34 weeks: 3.60; 95% CI, 3.11-4.15), cesarean delivery (OR, 1.80; 95% CI, 1.60-2.02), meconium-stained amniotic fluid (OR, 2.05; 95% CI, 1.94-2.17), and macrosomia (OR, 1.83; 95% CI, 1.55-2.16). CONCLUSIONS AND RELEVANCE: In this cross-sectional study, maternal SES and maternal residence remoteness were not associated with increased odds of ANRI, and birth sites with a lower level of service were associated with higher odds of chest compressions but lower odds of endotracheal intubations. Clinicians should be prepared to resuscitate neonates exposed to general anesthesia.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "IMPORTANCE",
+            "text": "大约1%的新生儿接受高级新生儿复苏干预（ANRIs；包括气管插管、胸外按压和肾上腺素给药），其可能性随着已知的临床因素而增加。社会经济地位（SES）和卫生系统因素与ANRI的关联尚不清楚。"
+          },
+          {
+            "heading": "OBJECTIVE",
+            "text": "旨在检查母亲社会经济地位、母亲居住地偏远程度、出生地点服务级别、临床因素与ANRI之间的关联。"
+          },
+          {
+            "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+            "text": "这项横断面研究使用了加拿大阿尔伯塔省2000年1月1日至2020年12月31日期间所有妊娠34周及以上活产的管理数据集，该省实行全民医疗保健和省级协调的新生儿复苏项目培训。包括医院分娩和由注册助产士接生的家庭分娩。统计分析于2025年8月1日至9月30日进行。"
+          },
+          {
+            "heading": "EXPOSURES",
+            "text": "母亲社会经济地位（根据Pampalon物质剥夺指数五分位数分类）、居住地偏远程度（使用加拿大统计局偏远指数分类）、出生地点服务级别以及临床因素（包括母亲、产时和胎儿或新生儿特征）。"
+          },
+          {
+            "heading": "MAIN OUTCOMES AND MEASURES",
+            "text": "主要结局是任何ANRI。次要结局是单项干预措施（气管插管、胸外按压、肾上腺素给药）。使用逐步变量选择的多变量逻辑回归来检查SES和卫生系统因素与主要结局之间的关联。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "共分析了966475例妊娠34周及以上的活产，其中1.0%接受了ANRI。新生儿平均（SD）胎龄为38.9（1.48）周，包括494835名男性（51.2%）；母亲平均（SD）年龄为29.4（5.46）岁。与2级出生地点相比，3级出生地点的ANRI几率较低（比值比[OR]，0.57；95% CI，0.53-0.61）以及所有干预措施的几率较低。在1A级地点出生（OR，2.53；95% CI，1.99-3.15）和家庭分娩（OR，1.44；95% CI，1.18-1.74）的ANRI和胸外按压几率较高（OR分别为7.32 [95% CI，5.61-9.40]和4.12 [95% CI，3.29-5.11]）。所有1级出生（1C级：OR，0.54；95% CI，0.49-0.60；1B级：OR，0.52；95% CI，0.45-0.59；1A级：OR，0.4 95% CI，0.20-0.71）和家庭分娩（OR，0.27；95% CI，0.16-0.43）与较低的气管插管几率相关。母亲SES和母亲居住地偏远程度没有关联。与ANRI相关的最显著临床因素是母亲全身麻醉（OR，4.89；95% CI，4.47-5.34）、较低胎龄（34周时最高OR：3.60；95% CI，3.11-4.15）、剖宫产（OR，1.80；95% CI，1.60-2.02）、羊水胎粪污染（OR，2.05；95% CI，1.94-2.17）和巨大儿（OR，1.83；95% CI，1.55-2.16）。"
+          },
+          {
+            "heading": "CONCLUSIONS AND RELEVANCE",
+            "text": "在这项横断面研究中，母亲SES和母亲居住地偏远程度与ANRI几率增加无关，服务级别较低的出生地点与胸外按压几率较高但气管插管几率较低相关。临床医生应准备好对暴露于全身麻醉的新生儿进行复苏。"
+          }
+        ],
+        "fullText": "IMPORTANCE: Approximately 1% of newborns receive advanced neonatal resuscitation interventions (ANRIs; consisting of endotracheal intubation, chest compressions, and epinephrine administration), the likelihood of which increases with known clinical factors. Associations of socioeconomic status (SES) and health system factors with ANRI are unknown. OBJECTIVE: To examine the associations among maternal SES, remoteness of maternal residence, birth-site level of service, clinical factors, and ANRIs. DESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study used an administrative dataset of all live births at 34 weeks' gestation or later between January 1, 2000, and December 31, 2020, in Alberta, Canada, a jurisdiction with universal health care and provincially coordinated Neonatal Resuscitation Program training. Hospital births and home births attended by registered midwives were included. Statistical analyses were conducted from August 1 to September 30, 2025. EXPOSURES: Maternal SES (classified according to Pampalon Material Deprivation Index quintiles), remoteness of residence (categorized using the Statistics Canada Remoteness Index), birth-site level of service, and clinical factors (including maternal, intrapartum, and fetal or neonatal characteristics). MAIN OUTCOMES AND MEASURES: The primary outcome was any ANRI. Secondary outcomes were individual interventions (endotracheal intubation, chest compression, epinephrine administration). Multivariable logistic regression with stepwise variable selection was used to examine associations between SES and health system factors and the primary outcome. RESULTS: A total of 966 475 live births at 34 weeks' gestation or later were analyzed, of whom 1.0% received ANRI. Neonates had a mean (SD) gestational age of 38.9 (1.48) weeks and included 494 835 males (51.2%); mothers had a mean (SD) age of 29.4 (5.46) years. Compared with level 2 birth sites, level 3 birth sites had lower odds of ANRI (odds ratio [OR], 0.57; 95% CI, 0.53-0.61) and all interventions. Births at level 1A sites (OR, 2.53; 95% CI, 1.99-3.15) and home births (OR, 1.44; 95% CI, 1.18-1.74) had higher odds of ANRI and chest compressions (OR, 7.32 [95% CI, 5.61-9.40] and 4.12 [95% CI, 3.29-5.11], respectively). All level 1 births (level 1C: OR, 0.54; 95% CI, 0.49-0.60; level 1B: OR, 0.52; 95% CI, 0.45-0.59; and level 1A: OR, 0.4 95% CI, 0.20-0.71) and home births (OR, 0.27; 95% CI, 0.16-0.43) were associated with lower odds of endotracheal intubations. There were no associations for maternal SES and maternal residence remoteness. The most significant clinical factors associated with ANRI were maternal general anesthesia (OR, 4.89; 95% CI, 4.47-5.34), lower gestational age (highest OR at 34 weeks: 3.60; 95% CI, 3.11-4.15), cesarean delivery (OR, 1.80; 95% CI, 1.60-2.02), meconium-stained amniotic fluid (OR, 2.05; 95% CI, 1.94-2.17), and macrosomia (OR, 1.83; 95% CI, 1.55-2.16). CONCLUSIONS AND RELEVANCE: In this cross-sectional study, maternal SES and maternal residence remoteness were not associated with increased odds of ANRI, and birth sites with a lower level of service were associated with higher odds of chest compressions but lower odds of endotracheal intubations. Clinicians should be prepared to resuscitate neonates exposed to general anesthesia.",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Pickett B, Pan B, Crawford S, Schmolzer GM, McNeil DA, Soraisham AS, Shonoski H, Aziz K, et al.",
+      "citation": "JAMA Netw Open. 2026 Apr 1;9(4):e269923. doi: 10.1001/jamanetworkopen.2026.9923.",
+      "doi": "10.1001/jamanetworkopen.2026.9923",
+      "pmid": "42060305",
+      "pmcid": "PMC13133688",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "meshTerms": [
+        "Humans",
+        "Cross-Sectional Studies",
+        "Female",
+        "Infant, Newborn",
+        "*Resuscitation/statistics & numerical data/methods",
+        "Male",
+        "Alberta",
+        "Epinephrine/therapeutic use/administration & dosage",
+        "Intubation, Intratracheal/statistics & numerical data",
+        "Adult",
+        "Pregnancy"
       ],
       "publisher": "American Medical Association (AMA)",
       "crossrefVerified": true,
@@ -1174,442 +1535,137 @@
         "综合医学顶刊",
         "麻醉学",
         "气道管理",
-        "Comparative Study",
         "Journal Article"
       ],
-      "question": "围手术期气管插管是麻醉管理的核心操作，首次插管失败与患者并发症风险增加相关。该研究提供了大规模多中心随机对照证据，支持视频喉镜在常规气道管理中的优先使用，可能改变临床实践指南。",
-      "conclusion": "在围手术期常规气管插管中，视频喉镜（无论Macintosh blade或超角度blade）相比直接喉镜显著提高首次插管成功率，支持其作为常规气道管理的标准方法。",
-      "clinical": "视频喉镜（无论Macintosh blade或超角度blade）可提高首次插管成功率，可能减少插管相关并发症。 超角度视频喉镜在并发症方面可能优于Macintosh blade视频喉镜和直接喉镜，但需注意该结果基于未调整的组间比较。 该研究支持将视频喉镜作为常规气道管理的首选工具，但临床决策仍需考虑患者个体因素、设备可用性和操作者经验。",
-      "evidence": "高",
-      "score": 88,
+      "question": "该研究提示，在全民医疗和省级协调的新生儿复苏培训体系下，母亲社会经济状况和居住地偏远程度可能不是高级新生儿复苏干预的主要决定因素，而出生地点的服务级别与特定复苏干预措施（如胸外按压和气管插管）的几率存在关联，这为优化新生儿复苏资源配置和培训提供了参考。",
+      "conclusion": "在加拿大阿尔伯塔省34周及以上活产新生儿中，母亲社会经济状况和居住地偏远程度与高级新生儿复苏干预（ANRI）几率无关，而出生地点服务级别与ANRI几率相关，其中1A级出生点和家庭分娩的ANRI几率较高，但气管插管几率较低。",
+      "clinical": "母亲全身麻醉与新生儿接受高级复苏干预的几率显著升高相关（OR 4.89；95% CI 4.47-5.34），提示麻醉科医师在产科全身麻醉后应做好新生儿复苏准备。 该研究为观察性关联，尚不能确定因果关系，但提示在全身麻醉下分娩的新生儿可能需要更高级的复苏支持，麻醉团队应与新生儿团队密切配合。",
+      "evidence": "中等",
+      "score": 61,
       "scoreBreakdown": {
-        "relevance": 28,
-        "evidenceQuality": 24,
-        "clinicalImpact": 13,
+        "relevance": 23,
+        "evidenceQuality": 8,
+        "clinicalImpact": 9,
         "journalQuality": 15,
-        "novelty": 8
+        "novelty": 6
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "多中心、随机、对照、三臂临床试验（COVALENT），采用改良意向性分析，未设盲。"
+          "value": "横断面研究（基于行政数据库）"
         },
         {
           "label": "研究对象与样本",
-          "value": "Adults undergoing surgery under general anesthesia with the need for tracheal intubation at 6 academic or intermediate care centers in Germany and Austria；2532 patients randomized (DL: 848, VLM: 841, VLH: 843); 2423 included in modified intention-to-treat analysis"
+          "value": "All live births at 34 weeks' gestation or later between January 1, 2000, and December 31, 2020, in Alberta, Canada；966 475 live births"
         },
         {
           "label": "干预与比较",
-          "value": "Video laryngoscopy with Macintosh blade (VLM) or hyperangulated blade (VLH)；对照：Direct laryngoscopy (DL)"
+          "value": "Advanced neonatal resuscitation interventions (ANRIs; consisting of endotracheal intubation, chest compressions, and epinephrine administration)；对照：Birth-site level of service, maternal SES, remoteness of residence"
         },
         {
           "label": "主要终点",
-          "value": "First-pass intubation success rate"
+          "value": "Any ANRI"
         }
       ],
       "keyPoints": [
-        "视频喉镜（VLM和VLH）相比直接喉镜显著提高首次插管成功率（绝对风险差4.66-9.34个百分点）。",
-        "超角度视频喉镜（VLH）的首次成功率最高（87.6%），且并发症发生率最低（10.9%）。",
-        "研究为多中心随机对照试验，但存在未设盲、交叉比例高等局限性。",
-        "结果支持视频喉镜作为常规气道管理的标准方法，但需考虑设备可用性和操作者培训。"
+        "母亲社会经济状况和居住地偏远程度与ANRI几率无显著关联。",
+        "与2级出生点相比，3级出生点的ANRI几率较低（OR 0.57；95% CI 0.53-0.61）。",
+        "1A级出生点和家庭分娩的ANRI及胸外按压几率较高，但气管插管几率较低。",
+        "母亲全身麻醉是ANRI最强的临床相关因素（OR 4.89；95% CI 4.47-5.34）。"
       ],
-      "methods": "视频喉镜在手术室常规气管插管中的应用日益增多，但其临床获益证据尚不明确，尤其是超角度视频喉镜作为首选设备的作用研究不足。",
-      "results": "共2532例患者随机分配（DL 848例，VLM 841例，VLH 843例），2423例（95.7%）纳入改良意向性分析。首次插管成功率：VLM 82.9%，VLH 87.6%，DL 78.2%。两种视频喉镜均优于DL（均P < .001）。未调整的绝对风险差：DL vs VLM为4.66个百分点（95% CI 4.45-4.78），DL vs VLH为9.34个百分点（95% CI 9.22-9.46），VLM vs VLH为4.68个百分点（95% CI 4.57-4.79）。次要结局中，VLM和VLH相比DL在首次失败后成功插管时间更短（平均[SD]阳性二氧化碳波形时间：146.6[103.6]和147.5[98.9]秒 vs 170.3[100.4]秒；P = .008）。并发症（唇或牙齿损伤或镜片带血）发生率：VLH 10.9%（11/101），VLM 23.2%（32/138），DL 24.1%（42/174）。未记录严重不良事件。",
-      "mainResults": "共2532例患者随机分配（DL 848例，VLM 841例，VLH 843例），2423例（95.7%）纳入改良意向性分析。首次插管成功率：VLM 82.9%，VLH 87.6%，DL 78.2%。两种视频喉镜均优于DL（均P < .001）。未调整的绝对风险差：DL vs VLM为4.66个百分点（95% CI 4.45-4.78），DL vs VLH为9.34个百分点（95% CI 9.22-9.46），VLM vs VLH为4.68个百分点（95% CI 4.57-4.79）。次要结局中，VLM和VLH相比DL在首次失败后成功插管时间更短（平均[SD]阳性二氧化碳波形时间：146.6[103.6]和147.5[98.9]秒 vs 170.3[100.4]秒；P = .008）。并发症（唇或牙齿损伤或镜片带血）发生率：VLH 10.9%（11/101），VLM 23.2%（32/138），DL 24.1%（42/174）。未记录严重不良事件。",
+      "methods": "约1%的新生儿接受高级新生儿复苏干预（ANRI，包括气管插管、胸外按压和肾上腺素给药），已知临床因素会增加其可能性，但社会经济状况（SES）和卫生系统因素与ANRI的关联尚不清楚。",
+      "results": "共分析966 475例孕周≥34周的活产新生儿，其中1.0%接受了ANRI。与2级出生点相比，3级出生点的ANRI几率较低（OR 0.57；95% CI 0.53-0.61）。1A级出生点（OR 2.53；95% CI 1.99-3.15）和家庭分娩（OR 1.44；95% CI 1.18-1.74）的ANRI几率较高，且胸外按压几率也较高（OR分别为7.32 [95% CI 5.61-9.40]和4.12 [95% CI 3.29-5.11]）。所有1级出生点（1C级：OR 0.54；95% CI 0.49-0.60；1B级：OR 0.52；95% CI 0.45-0.59；1A级：OR 0.40；95% CI 0.20-0.71）和家庭分娩（OR 0.27；95% CI 0.16-0.43）的气管插管几率较低。母亲社会经济状况和居住地偏远程度与ANRI无关联。与ANRI相关的临床因素中，母亲全身麻醉（OR 4.89；95% CI 4.47-5.34）、较低孕周（34周时OR最高：3.60；95% CI 3.11-4.15）、剖宫产（OR 1.80；95% CI 1.60-2.02）、羊水胎粪污染（OR 2.05；95% CI 1.94-2.17）和巨大儿（OR 1.83；95% CI 1.55-2.16）最为显著。",
+      "mainResults": "共分析966 475例孕周≥34周的活产新生儿，其中1.0%接受了ANRI。与2级出生点相比，3级出生点的ANRI几率较低（OR 0.57；95% CI 0.53-0.61）。1A级出生点（OR 2.53；95% CI 1.99-3.15）和家庭分娩（OR 1.44；95% CI 1.18-1.74）的ANRI几率较高，且胸外按压几率也较高（OR分别为7.32 [95% CI 5.61-9.40]和4.12 [95% CI 3.29-5.11]）。所有1级出生点（1C级：OR 0.54；95% CI 0.49-0.60；1B级：OR 0.52；95% CI 0.45-0.59；1A级：OR 0.40；95% CI 0.20-0.71）和家庭分娩（OR 0.27；95% CI 0.16-0.43）的气管插管几率较低。母亲社会经济状况和居住地偏远程度与ANRI无关联。与ANRI相关的临床因素中，母亲全身麻醉（OR 4.89；95% CI 4.47-5.34）、较低孕周（34周时OR最高：3.60；95% CI 3.11-4.15）、剖宫产（OR 1.80；95% CI 1.60-2.02）、羊水胎粪污染（OR 2.05；95% CI 1.94-2.17）和巨大儿（OR 1.83；95% CI 1.55-2.16）最为显著。",
       "limitations": [
-        "临床医生和观察者未对分组设盲，可能引入实施偏倚或检测偏倚。",
-        "实用设计排除了对特定品牌效应的详细评估。",
-        "对照组中交叉到其他研究组的比例过高。",
-        "临床医生经验差异显著，未收集既往插管次数数据。",
-        "术后结局（声音嘶哑、咳嗽、咽喉痛）仅在6个中心中的2个收集（占56.9%的患者）。",
-        "导芯使用在组间分布不均，可能影响首次成功率差异。"
+        "作为行政数据研究，受可用人群限制，偏远人群和低服务级别出生点的数据存在较大不确定性，因样本量较小。",
+        "受数据准确性和完整性限制，一些母亲因素（如吸烟状况和高血压或糖尿病以外的疾病）可能未报告，因此无法纳入分析。",
+        "部分临床因素由临床医生报告为“是”或留空，无法区分“否”和缺失数据。",
+        "无法区分适当干预与因先前步骤不当或错误决策导致的干预。"
       ],
       "practice": [
-        "视频喉镜（无论Macintosh blade或超角度blade）可提高首次插管成功率，可能减少插管相关并发症。",
-        "超角度视频喉镜在并发症方面可能优于Macintosh blade视频喉镜和直接喉镜，但需注意该结果基于未调整的组间比较。",
-        "该研究支持将视频喉镜作为常规气道管理的首选工具，但临床决策仍需考虑患者个体因素、设备可用性和操作者经验。"
+        "母亲全身麻醉与新生儿接受高级复苏干预的几率显著升高相关（OR 4.89；95% CI 4.47-5.34），提示麻醉科医师在产科全身麻醉后应做好新生儿复苏准备。",
+        "该研究为观察性关联，尚不能确定因果关系，但提示在全身麻醉下分娩的新生儿可能需要更高级的复苏支持，麻醉团队应与新生儿团队密切配合。"
       ],
-      "editor": "该研究为大规模多中心随机对照试验，主要结局明确，效应量具有统计学显著性，支持视频喉镜优于直接喉镜的结论。 过度解读风险：需注意未设盲、交叉比例高、术后结局数据不完整等局限性，且绝对风险差异较小（4.66-9.34个百分点），临床获益程度需结合具体情境判断。",
-      "whyItMatters": "围手术期气管插管是麻醉管理的核心操作，首次插管失败与患者并发症风险增加相关。该研究提供了大规模多中心随机对照证据，支持视频喉镜在常规气道管理中的优先使用，可能改变临床实践指南。",
-      "background": "视频喉镜在手术室常规气管插管中的应用日益增多，但其临床获益证据尚不明确，尤其是超角度视频喉镜作为首选设备的作用研究不足。",
+      "editor": "该研究基于大规模行政数据（966 475例），使用多变量逻辑回归调整了多种临床因素，结果较为稳健。主要发现与既往知识一致，如全身麻醉和低孕周增加复苏需求。 过度解读风险：需注意观察性关联不能推断因果；母亲社会经济状况和居住地偏远程度无关联可能受数据限制；出生地点服务级别与干预措施的关联可能受适应症混杂影响。",
+      "whyItMatters": "该研究提示，在全民医疗和省级协调的新生儿复苏培训体系下，母亲社会经济状况和居住地偏远程度可能不是高级新生儿复苏干预的主要决定因素，而出生地点的服务级别与特定复苏干预措施（如胸外按压和气管插管）的几率存在关联，这为优化新生儿复苏资源配置和培训提供了参考。",
+      "background": "约1%的新生儿接受高级新生儿复苏干预（ANRI，包括气管插管、胸外按压和肾上腺素给药），已知临床因素会增加其可能性，但社会经济状况（SES）和卫生系统因素与ANRI的关联尚不清楚。",
       "pico": {
-        "population": "Adults undergoing surgery under general anesthesia with the need for tracheal intubation at 6 academic or intermediate care centers in Germany and Austria",
-        "intervention": "Video laryngoscopy with Macintosh blade (VLM) or hyperangulated blade (VLH)",
-        "comparison": "Direct laryngoscopy (DL)",
-        "outcome": "First-pass intubation success rate"
+        "population": "All live births at 34 weeks' gestation or later between January 1, 2000, and December 31, 2020, in Alberta, Canada",
+        "intervention": "Advanced neonatal resuscitation interventions (ANRIs; consisting of endotracheal intubation, chest compressions, and epinephrine administration)",
+        "comparison": "Birth-site level of service, maternal SES, remoteness of residence",
+        "outcome": "Any ANRI"
       },
-      "studyType": "多中心、随机、对照、三臂临床试验（COVALENT），采用改良意向性分析，未设盲。",
-      "sampleSize": "2532 patients randomized (DL: 848, VLM: 841, VLH: 843); 2423 included in modified intention-to-treat analysis",
-      "primaryOutcome": "First-pass intubation success rate",
+      "studyType": "横断面研究（基于行政数据库）",
+      "sampleSize": "966 475 live births",
+      "primaryOutcome": "Any ANRI",
       "effectSize": [
-        "Absolute risk difference for DL vs VLM: 4.66 percentage points",
-        "Absolute risk difference for DL vs VLH: 9.34 percentage points",
-        "Absolute risk difference for VLM vs VLH: 4.68 percentage points"
+        "OR 0.57",
+        "OR 2.53",
+        "OR 1.44",
+        "OR 7.32",
+        "OR 4.12",
+        "OR 0.54",
+        "OR 0.52",
+        "OR 0.4",
+        "OR 0.27",
+        "OR 4.89",
+        "OR 3.60",
+        "OR 1.80",
+        "OR 2.05",
+        "OR 1.83"
       ],
       "confidenceInterval": [
-        "95% CI for DL vs VLM: 4.45-4.78",
-        "95% CI for DL vs VLH: 9.22-9.46",
-        "95% CI for VLM vs VLH: 4.57-4.79"
+        "95% CI, 0.53-0.61",
+        "95% CI, 1.99-3.15",
+        "95% CI, 1.18-1.74",
+        "95% CI, 5.61-9.40",
+        "95% CI, 3.29-5.11",
+        "95% CI, 0.49-0.60",
+        "95% CI, 0.45-0.59",
+        "95% CI, 0.20-0.71",
+        "95% CI, 0.16-0.43",
+        "95% CI, 4.47-5.34",
+        "95% CI, 3.11-4.15",
+        "95% CI, 1.60-2.02",
+        "95% CI, 1.94-2.17",
+        "95% CI, 1.55-2.16"
       ],
       "pValue": [
-        "P < .001 for VLM vs DL",
-        "P < .001 for VLH vs DL",
-        "P = .008 for time to positive capnography",
-        "P < .001 for ease of intubation"
-      ],
-      "adverseEvents": "No serious adverse events were recorded. Complications of lip or dental injuries or blood on the blade: VLH 10.9% (11/101), VLM 23.2% (32/138), DL 24.1% (42/174).",
-      "aiAssessment": {
-        "support": "该研究为大规模多中心随机对照试验，主要结局明确，效应量具有统计学显著性，支持视频喉镜优于直接喉镜的结论。",
-        "overinterpretationRisk": "需注意未设盲、交叉比例高、术后结局数据不完整等局限性，且绝对风险差异较小（4.66-9.34个百分点），临床获益程度需结合具体情境判断。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "full_text_excerpt",
-          "limitations": [
-            "当前可获取内容为摘要和部分全文节选，未包含完整的方法学细节（如随机化具体方法、分配隐藏、样本量计算等）。",
-            "部分次要结局（如术后咽喉痛）数据不完整，可能影响全面评价。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "视频喉镜（无论镜片几何形状或制造商）在常规气管插管中是否比直接喉镜提供更高的首次插管成功率？",
-          "designFit": "三臂随机对照试验设计适合比较两种视频喉镜与直接喉镜的疗效，但未设盲可能引入偏倚。",
-          "eligibility": "纳入标准：在德国和奥地利6个中心接受全身麻醉手术、需要气管插管的成人。排除标准：其他麻醉方式、需要经鼻或计划纤维支气管镜插管、孕妇。",
-          "randomization": "患者按1:1:1随机分配至DL、VLM或VLH组，但具体随机化方法（如随机序列生成、分层因素）未在摘要中描述。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "临床医生和观察者未对分组设盲，可能引入实施偏倚或检测偏倚。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "术后结局（咽喉痛、声音嘶哑、咳嗽）仅在2个中心收集（56.9%患者），随访完整性有限。",
-          "analysisPopulation": "改良意向性分析（mITT），共2423例（95.7%）纳入。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "多中心、随机对照设计，样本量大（2532例）。",
-            "允许不同制造商的设备，提高外部真实性。",
-            "主要结局客观（首次插管成功率）。"
-          ],
-          "concerns": [
-            "未设盲，可能影响结局评估。",
-            "对照组交叉比例高，可能稀释组间差异。",
-            "术后结局数据不完整。",
-            "导芯使用不均可能混杂结果。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "z检验（未合并方差）",
-              "purposeInStudy": "比较组间首次插管成功率的差异，并计算绝对风险差及95%置信区间。",
-              "reportedResult": "VLM vs DL：绝对风险差4.66个百分点（95% CI 4.45-4.78），P < .001；VLH vs DL：9.34个百分点（95% CI 9.22-9.46），P < .001；VLM vs VLH：4.68个百分点（95% CI 4.57-4.79）。",
-              "interpretation": "两种视频喉镜的首次成功率均显著高于直接喉镜，且VLH优于VLM。",
-              "cautions": [
-                "未调整混杂因素，可能受基线不平衡影响。",
-                "置信区间较窄，但绝对差异较小，临床意义需结合具体情境。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "虽然统计学显著，但绝对风险差仅为4.66-9.34个百分点，临床获益程度需结合患者个体风险和操作者经验判断。"
-        },
-        "outcomeAnalysis": {
-          "primary": "首次插管成功率：VLM 82.9%，VLH 87.6%，DL 78.2%。两种视频喉镜均优于DL（P < .001）。",
-          "secondary": [
-            "时间到阳性二氧化碳波形：VLM和VLH均短于DL（146.6秒和147.5秒 vs 170.3秒，P = .008）。",
-            "插管难易度：视频喉镜组优于DL（P < .001）。",
-            "并发症（唇或牙齿损伤或镜片带血）：VLH 10.9%，VLM 23.2%，DL 24.1%。",
-            "术后咽喉痛、声音嘶哑或咳嗽：仅在2个中心收集，数据不完整。"
-          ],
-          "safety": "未记录严重不良事件。并发症发生率以VLH最低。",
-          "absoluteVsRelative": "报告了绝对风险差，但未提供相对风险或需治疗人数。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "多中心、随机对照设计，样本量大。",
-            "允许不同制造商设备，提高外部真实性。",
-            "主要结局客观。"
-          ],
-          "limitations": [
-            "未设盲。",
-            "交叉比例高。",
-            "术后结局数据不完整。",
-            "导芯使用不均。"
-          ],
-          "biasRisks": [
-            "实施偏倚（未设盲）。",
-            "检测偏倚（未设盲）。",
-            "损耗偏倚（术后结局缺失）。"
-          ],
-          "certainty": "中等：随机对照试验但存在未设盲和交叉等局限性。",
-          "conclusionAlignment": "结论与结果一致，但“新标准”的表述可能过于强烈，需考虑局限性。",
-          "causalBoundary": "随机对照设计支持因果推断，但未设盲和交叉可能削弱因果解释。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "适用于手术室内需要气管插管的成人患者。",
-            "适用于有视频喉镜设备和培训的医疗中心。"
-          ],
-          "nonApplicability": [
-            "不适用于经鼻插管、计划纤维支气管镜插管或孕妇。",
-            "不适用于缺乏视频喉镜设备或操作者未接受培训的环境。"
-          ],
-          "practiceChange": "该研究支持将视频喉镜作为常规气道管理的首选工具，但需结合本地资源和患者个体情况。",
-          "canDoNow": [
-            "在具备条件的中心，可考虑优先使用视频喉镜进行常规气管插管。",
-            "对于预计困难气道的患者，视频喉镜可能更有优势。"
-          ],
-          "cannotConclude": [
-            "不能确定视频喉镜对术后咽喉痛等患者相关结局的影响（数据不完整）。",
-            "不能确定特定品牌或镜片类型的优劣（未进行品牌特异性分析）。"
-          ],
-          "evidenceGaps": [
-            "需要更多关于患者重要结局（如术后咽喉痛、声音嘶哑）的数据。",
-            "需要评估操作者经验对结果的影响。",
-            "需要比较不同视频喉镜品牌和镜片类型的直接效果。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要+开放全文节选分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42545700/",
-        "doi": "https://doi.org/10.1001/jamanetworkopen.2026.25965",
-        "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.25965",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13434869/"
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-41817525",
-      "number": "05",
-      "category": "麻醉学",
-      "journal": "JAMA network open",
-      "year": "2026",
-      "publishedDate": "2026-03-02",
-      "electronicPublicationDate": "2026-03-02",
-      "readingTime": "14 分钟",
-      "title": "围手术期最佳实践与认知障碍患者术后谵妄的关系",
-      "originalTitle": "Perioperative Best Practices and Delirium in Patients With Cognitive Impairment.",
-      "abstract": "IMPORTANCE: Despite substantial advances in perioperative care, patients with cognitive impairment are at increased risk for postoperative delirium. Understanding the association of perioperative best practices with delirium prevention may inform tailored strategies for this high-risk group. OBJECTIVE: To examine associations between anesthesia-related best practices and postoperative delirium in patients with cognitive impairment. DESIGN, SETTING, AND PARTICIPANTS: This observational cohort study involved a secondary, exploratory analysis of a randomized clinical trial of a clinical decision support system designed to identify patients with cognitive impairment and promote adherence to best practices. The study was conducted between 2023 and 2024 at perioperative areas at a large, urban, academic medical center in New York. Participants were adults scheduled for surgery with preoperative cognitive impairment who stayed in the hospital for at least 1 postoperative night and underwent delirium assessment. Patients undergoing organ donation surgery were excluded. EXPOSURES: Twelve perioperative best practices across 5 domains were selected and tracked, reflecting avoidance of potentially inappropriate medications, perioperative glycemic control, hemodynamic management, normothermia maintenance, and anesthetic monitoring. MAIN OUTCOMES AND MEASURES: The primary outcome was postoperative delirium assessed by the 4 A's Test. Associations between best practices and postoperative delirium were assessed using logistic regression models. RESULTS: The study included 1255 patients with cognitive impairment (mean [SD] age, 65.0 [15.1] years; 652 male [52%]), and 426 (33.9%; 95% CI, 31.4%-36.6%) developed delirium. Best practices, such as maintaining glucose less than 200 mg/dL (adjusted odds ratio [aOR], 0.41; 95% CI, 0.24-0.69; P = .001), using a temperature probe (aOR, 0.65; 95% CI, 0.45-0.96; P = .03), and maintaining temperature greater than 36  degrees C (aOR, 0.64; 95% CI, 0.43-0.94; P = .03), were associated with reduced delirium odds in separate models. No individual practice remained significant when analyzed concurrently, apart from postoperative glucose monitoring (aOR, 1.54; 95% CI, 1.11-2.13; P = .009). CONCLUSIONS AND RELEVANCE: This cohort study of surgical patients with cognitive impairment found that current perioperative strategies derived from established recommendations, while foundational, were insufficient to prevent postoperative delirium. The high rate of postoperative delirium highlights the need to refine perioperative care pathways and identify novel strategies that are most effective for cognitively vulnerable populations. Tailored interventions that integrate electronic health record-derived perioperative data and scalable technological tools in anesthesia workflows can help identify and manage high-risk populations.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": "IMPORTANCE",
-            "text": "尽管围手术期护理取得了重大进展，但认知障碍患者术后谵妄的风险增加。了解围手术期最佳实践与谵妄预防的关联，可为这一高危人群制定针对性策略提供信息。"
-          },
-          {
-            "heading": "OBJECTIVE",
-            "text": "探讨麻醉相关最佳实践与认知障碍患者术后谵妄之间的关联。"
-          },
-          {
-            "heading": "DESIGN, SETTING, AND PARTICIPANTS",
-            "text": "这项观察性队列研究是对一项随机临床试验的次要探索性分析，该试验旨在通过临床决策支持系统识别认知障碍患者并促进最佳实践的遵守。研究于2023年至2024年在纽约一家大型城市学术医疗中心的围手术期区域进行。参与者为计划手术且术前存在认知障碍的成年人，术后至少住院一晚并接受谵妄评估。排除器官捐献手术患者。"
-          },
-          {
-            "heading": "EXPOSURES",
-            "text": "选择并跟踪了5个领域的12项围手术期最佳实践，涵盖避免潜在不适当药物、围手术期血糖控制、血流动力学管理、体温维持和麻醉监测。"
-          },
-          {
-            "heading": "MAIN OUTCOMES AND MEASURES",
-            "text": "主要结局为通过4A测试评估的术后谵妄。使用逻辑回归模型评估最佳实践与术后谵妄之间的关联。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "研究纳入1255例认知障碍患者（平均[SD]年龄，65.0[15.1]岁；男性652例[52%]），其中426例（33.9%；95% CI，31.4%-36.6%）发生谵妄。在单独模型中，维持血糖低于200 mg/dL（调整后优势比[aOR]，0.41；95% CI，0.24-0.69；P = .001）、使用体温探头（aOR，0.65；95% CI，0.45-0.96；P = .03）以及维持体温高于36摄氏度（aOR，0.64；95% CI，0.43-0.94；P = .03）等最佳实践与谵妄风险降低相关。当同时分析时，除术后血糖监测（aOR，1.54；95% CI，1.11-2.13；P = .009）外，没有单项实践保持显著。"
-          },
-          {
-            "heading": "CONCLUSIONS AND RELEVANCE",
-            "text": "这项针对认知障碍手术患者的队列研究发现，当前基于既定建议的围手术期策略虽然具有基础性，但不足以预防术后谵妄。术后谵妄的高发生率凸显了完善围手术期护理路径和确定对认知脆弱人群最有效的新策略的必要性。整合电子健康记录衍生的围手术期数据和麻醉工作流程中可扩展技术工具的定制干预措施，有助于识别和管理高危人群。"
-          }
-        ],
-        "fullText": "IMPORTANCE: 尽管围手术期护理取得了重大进展，但认知障碍患者术后谵妄的风险增加。了解围手术期最佳实践与谵妄预防的关联，可为这一高危人群制定针对性策略提供信息。 OBJECTIVE: 探讨麻醉相关最佳实践与认知障碍患者术后谵妄之间的关联。 DESIGN, SETTING, AND PARTICIPANTS: 这项观察性队列研究是对一项随机临床试验的次要探索性分析，该试验旨在通过临床决策支持系统识别认知障碍患者并促进最佳实践的遵守。研究于2023年至2024年在纽约一家大型城市学术医疗中心的围手术期区域进行。参与者为计划手术且术前存在认知障碍的成年人，术后至少住院一晚并接受谵妄评估。排除器官捐献手术患者。 EXPOSURES: 选择并跟踪了5个领域的12项围手术期最佳实践，涵盖避免潜在不适当药物、围手术期血糖控制、血流动力学管理、体温维持和麻醉监测。 MAIN OUTCOMES AND MEASURES: 主要结局为通过4A测试评估的术后谵妄。使用逻辑回归模型评估最佳实践与术后谵妄之间的关联。 RESULTS: 研究纳入1255例认知障碍患者（平均[SD]年龄，65.0[15.1]岁；男性652例[52%]），其中426例（33.9%；95% CI，31.4%-36.6%）发生谵妄。在单独模型中，维持血糖低于200 mg/dL（调整后优势比[aOR]，0.41；95% CI，0.24-0.69；P = .001）、使用体温探头（aOR，0.65；95% CI，0.45-0.96；P = .03）以及维持体温高于36摄氏度（aOR，0.64；95% CI，0.43-0.94；P = .03）等最佳实践与谵妄风险降低相关。当同时分析时，除术后血糖监测（aOR，1.54；95% CI，1.11-2.13；P = .009）外，没有单项实践保持显著。 CONCLUSIONS AND RELEVANCE: 这项针对认知障碍手术患者的队列研究发现，当前基于既定建议的围手术期策略虽然具有基础性，但不足以预防术后谵妄。术后谵妄的高发生率凸显了完善围手术期护理路径和确定对认知脆弱人群最有效的新策略的必要性。整合电子健康记录衍生的围手术期数据和麻醉工作流程中可扩展技术工具的定制干预措施，有助于识别和管理高危人群。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Scharp D, Meyers K, Nadkarni G, Federman A, Sarkisian C, Levin MA, Perry S, Gownivaripally P, et al.",
-      "citation": "JAMA Netw Open. 2026 Mar 2;9(3):e261515. doi: 10.1001/jamanetworkopen.2026.1515.",
-      "doi": "10.1001/jamanetworkopen.2026.1515",
-      "pmid": "41817525",
-      "pmcid": "PMC13045776",
-      "publicationTypes": [
-        "Journal Article",
-        "Observational Study",
-        "Research Support, N.I.H., Extramural"
-      ],
-      "meshTerms": [
-        "Humans",
-        "Male",
-        "Aged",
-        "*Cognitive Dysfunction/complications",
-        "Female",
-        "*Perioperative Care/methods/standards",
-        "*Delirium/prevention & control/etiology",
-        "Middle Aged",
-        "*Postoperative Complications/prevention & control",
-        "*Emergence Delirium/prevention & control",
-        "*Practice Guidelines as Topic",
-        "Cohort Studies",
-        "New York"
-      ],
-      "publisher": "American Medical Association (AMA)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "general_top",
-        "label": "综合医学顶刊",
-        "priorityRank": 3
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 9.7,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "JAMA Network Open"
-      },
-      "tags": [
-        "临床证据",
-        "综合医学顶刊",
-        "麻醉学",
-        "老年围术期",
-        "麻醉相关领域",
-        "Journal Article",
-        "Observational Study"
-      ],
-      "question": "认知障碍患者术后谵妄风险高，但针对这一群体的围手术期最佳实践证据有限。本研究评估了多项可干预的围手术期措施与谵妄的关联，为优化该高风险人群的围手术期管理提供了初步依据。",
-      "conclusion": "在认知障碍手术患者中，围手术期最佳实践（如血糖控制、体温监测与维持）与术后谵妄风险降低相关，但单独分析时仅术后血糖监测仍显著，且谵妄发生率仍高，提示现有策略不足以预防谵妄。",
-      "clinical": "麻醉管理中应重视围手术期血糖控制、体温监测和维持，这些措施可能与降低认知障碍患者术后谵妄风险相关。 术后血糖监测与谵妄风险增加相关，可能反映监测指征或混杂因素，需谨慎解读，不应直接改变临床实践。 现有最佳实践虽重要，但不足以充分预防谵妄，需探索更有效的个体化策略。",
-      "evidence": "中等偏高",
-      "score": 74,
-      "scoreBreakdown": {
-        "relevance": 22,
-        "evidenceQuality": 16,
-        "clinicalImpact": 13,
-        "journalQuality": 15,
-        "novelty": 8
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "观察性队列研究，为一项随机临床试验的二次探索性分析，数据来自干预组和对照组合并。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "Adults scheduled for surgery with preoperative cognitive impairment who stayed in the hospital for at least 1 postoperative night and underwent delirium assessment；1255"
-        },
-        {
-          "label": "干预与比较",
-          "value": "Twelve perioperative best practices across 5 domains: avoidance of potentially inappropriate medications, perioperative glycemic control, hemodynamic management, normothermia maintenance, and anesthetic monitoring；对照：Not applicable (observational study)"
-        },
-        {
-          "label": "主要终点",
-          "value": "Postoperative delirium assessed by the 4 A's Test"
-        }
-      ],
-      "keyPoints": [
-        "认知障碍患者术后谵妄发生率高（33.9%）。",
-        "血糖控制、体温监测和维持与谵妄风险降低相关（单独模型）。",
-        "同时分析时，仅术后血糖监测仍显著，但方向为风险增加，需谨慎解读。",
-        "现有最佳实践不足以预防谵妄，需进一步研究。"
-      ],
-      "methods": "尽管围手术期护理取得显著进展，认知障碍患者术后谵妄风险仍较高。了解围手术期最佳实践与谵妄预防的关系，可能有助于为该高风险群体制定个体化策略。",
-      "results": "共纳入1255例认知障碍患者，平均年龄65.0岁（SD 15.1），男性652例（52%）。426例（33.9%；95% CI，31.4%-36.6%）发生术后谵妄。在单独模型中，血糖<200 mg/dL（aOR 0.41；95% CI，0.24-0.69；P=0.001）、使用体温探头（aOR 0.65；95% CI，0.45-0.96；P=0.03）和维持体温>36°C（aOR 0.64；95% CI，0.43-0.94；P=0.03）与谵妄风险降低相关。但将各项实践同时纳入模型时，除术后血糖监测（aOR 1.54；95% CI，1.11-2.13；P=0.009）外，无单项实践仍显著。",
-      "mainResults": "共纳入1255例认知障碍患者，平均年龄65.0岁（SD 15.1），男性652例（52%）。426例（33.9%；95% CI，31.4%-36.6%）发生术后谵妄。在单独模型中，血糖<200 mg/dL（aOR 0.41；95% CI，0.24-0.69；P=0.001）、使用体温探头（aOR 0.65；95% CI，0.45-0.96；P=0.03）和维持体温>36°C（aOR 0.64；95% CI，0.43-0.94；P=0.03）与谵妄风险降低相关。但将各项实践同时纳入模型时，除术后血糖监测（aOR 1.54；95% CI，1.11-2.13；P=0.009）外，无单项实践仍显著。",
-      "limitations": [
-        "为随机临床试验的二次探索性分析，非预设主要分析。",
-        "合并了干预组和对照组数据，可能引入混杂。",
-        "观察性设计，不能确立因果关系。",
-        "可能存在残余混杂。",
-        "单中心研究。",
-        "母试验入组率低。",
-        "未对多重比较进行正式校正。",
-        "依赖电子健康记录识别认知障碍，可能不准确。",
-        "最佳实践为二分类变量，未捕捉临床意图或时机。"
-      ],
-      "practice": [
-        "麻醉管理中应重视围手术期血糖控制、体温监测和维持，这些措施可能与降低认知障碍患者术后谵妄风险相关。",
-        "术后血糖监测与谵妄风险增加相关，可能反映监测指征或混杂因素，需谨慎解读，不应直接改变临床实践。",
-        "现有最佳实践虽重要，但不足以充分预防谵妄，需探索更有效的个体化策略。"
-      ],
-      "editor": "研究提供了多项围手术期最佳实践与谵妄风险降低的关联证据，但效应量来自单独模型，且未校正多重比较，支持强度有限。 过度解读风险：存在过度解读风险，尤其是将观察性关联视为因果，以及将单独模型中的显著结果当作独立保护因素。",
-      "whyItMatters": "认知障碍患者术后谵妄风险高，但针对这一群体的围手术期最佳实践证据有限。本研究评估了多项可干预的围手术期措施与谵妄的关联，为优化该高风险人群的围手术期管理提供了初步依据。",
-      "background": "尽管围手术期护理取得显著进展，认知障碍患者术后谵妄风险仍较高。了解围手术期最佳实践与谵妄预防的关系，可能有助于为该高风险群体制定个体化策略。",
-      "pico": {
-        "population": "Adults scheduled for surgery with preoperative cognitive impairment who stayed in the hospital for at least 1 postoperative night and underwent delirium assessment",
-        "intervention": "Twelve perioperative best practices across 5 domains: avoidance of potentially inappropriate medications, perioperative glycemic control, hemodynamic management, normothermia maintenance, and anesthetic monitoring",
-        "comparison": "Not applicable (observational study)",
-        "outcome": "Postoperative delirium assessed by the 4 A's Test"
-      },
-      "studyType": "观察性队列研究，为一项随机临床试验的二次探索性分析，数据来自干预组和对照组合并。",
-      "sampleSize": "1255",
-      "primaryOutcome": "Postoperative delirium assessed by the 4 A's Test",
-      "effectSize": [
-        "aOR 0.41",
-        "aOR 0.65",
-        "aOR 0.64",
-        "aOR 1.54"
-      ],
-      "confidenceInterval": [
-        "95% CI, 0.24-0.69",
-        "95% CI, 0.45-0.96",
-        "95% CI, 0.43-0.94",
-        "95% CI, 1.11-2.13"
-      ],
-      "pValue": [
-        "P = .001",
-        "P = .03",
-        "P = .03",
-        "P = .009"
+        "当前可获取内容未提供该数据。"
       ],
       "adverseEvents": null,
       "aiAssessment": {
-        "support": "研究提供了多项围手术期最佳实践与谵妄风险降低的关联证据，但效应量来自单独模型，且未校正多重比较，支持强度有限。",
-        "overinterpretationRisk": "存在过度解读风险，尤其是将观察性关联视为因果，以及将单独模型中的显著结果当作独立保护因素。"
+        "support": "该研究基于大规模行政数据（966 475例），使用多变量逻辑回归调整了多种临床因素，结果较为稳健。主要发现与既往知识一致，如全身麻醉和低孕周增加复苏需求。",
+        "overinterpretationRisk": "需注意观察性关联不能推断因果；母亲社会经济状况和居住地偏远程度无关联可能受数据限制；出生地点服务级别与干预措施的关联可能受适应症混杂影响。"
       },
       "deepDive": {
         "sourceCoverage": {
           "level": "full_text_excerpt",
           "limitations": [
-            "当前可获取内容为摘要和部分全文节选，可能缺少方法细节和完整结果。",
-            "未提供完整统计方法描述，如模型调整变量、缺失数据处理等。"
+            "当前可获取内容为摘要和部分全文节选，可能未包含所有方法细节和结果。",
+            "未提供完整的统计方法描述，如变量选择的具体步骤和模型拟合指标。"
           ]
         },
         "methodology": {
-          "researchQuestion": "探讨麻醉相关最佳实践与认知障碍患者术后谵妄的关联。",
-          "designFit": "观察性队列设计适合探索关联，但无法确立因果。",
-          "eligibility": "纳入计划手术、术前认知障碍、术后住院≥1晚并接受谵妄评估的成人；排除器官捐献手术。",
-          "randomization": "本研究为观察性分析，未涉及随机化。",
+          "researchQuestion": "探讨母亲社会经济状况、居住地偏远程度、出生地点服务级别及临床因素与高级新生儿复苏干预（ANRI）之间的关联。",
+          "designFit": "横断面研究设计适用于描述关联，但无法确立因果关系。",
+          "eligibility": "纳入2000年1月1日至2020年12月31日期间在加拿大阿尔伯塔省孕周≥34周的所有活产新生儿，包括医院分娩和注册助产士接生的家庭分娩。",
+          "randomization": "不适用（观察性研究）。",
           "allocationConcealment": "不适用（观察性研究）。",
-          "blinding": "未报告盲法。",
-          "sampleSizePlanning": "未报告样本量计算。",
-          "followUp": "未报告随访时长。",
-          "analysisPopulation": "纳入1255例患者，分析人群为符合条件者。",
-          "missingData": "未报告缺失数据处理方法。",
+          "blinding": "不适用（观察性研究）。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "不适用（横断面研究）。",
+          "analysisPopulation": "分析人群为966 475例活产新生儿，其中1.0%接受了ANRI。",
+          "missingData": "部分临床因素（如吸烟状况）可能未报告，无法区分“否”和缺失数据。",
           "strengths": [
-            "聚焦认知障碍这一高风险人群。",
-            "评估了多项围手术期最佳实践。",
-            "使用标准化谵妄评估工具（4A测试）。"
+            "大规模基于人群的样本（966 475例）。",
+            "使用多变量逻辑回归调整多种临床因素。",
+            "在全民医疗和省级协调的新生儿复苏培训体系下进行。"
           ],
           "concerns": [
-            "二次分析，非预设。",
-            "合并干预组和对照组可能引入偏倚。",
-            "单中心，外推受限。",
-            "未校正多重比较。"
+            "行政数据可能存在编码错误或信息缺失。",
+            "偏远地区和低服务级别出生点样本量小，导致估计不精确。",
+            "无法区分适当干预与不适当干预。"
           ]
         },
         "statistics": {
@@ -1617,77 +1673,76 @@
             {
               "referenceId": "logistic-regression",
               "name": "Logistic回归",
-              "purposeInStudy": "评估各项最佳实践与术后谵妄的关联，计算调整比值比。",
-              "reportedResult": "单独模型中，血糖<200 mg/dL（aOR 0.41；95% CI，0.24-0.69；P=0.001）、使用体温探头（aOR 0.65；95% CI，0.45-0.96；P=0.03）、维持体温>36°C（aOR 0.64；95% CI，0.43-0.94；P=0.03）与谵妄风险降低相关；同时分析时，术后血糖监测（aOR 1.54；95% CI，1.11-2.13；P=0.009）仍显著。",
-              "interpretation": "单独模型显示部分最佳实践与谵妄风险降低相关，但联合模型仅术后血糖监测显著且方向相反，提示结果不稳定，可能受混杂或交互影响。",
+              "purposeInStudy": "分析母亲社会经济状况、居住地偏远程度、出生地点服务级别及临床因素与ANRI（二分类结局）的关联，并计算比值比（OR）。",
+              "reportedResult": "报告了多个OR值及其95%置信区间，如3级出生点OR 0.57（95% CI 0.53-0.61），母亲全身麻醉OR 4.89（95% CI 4.47-5.34）。",
+              "interpretation": "OR值表示暴露组相对于参照组发生ANRI的几率变化。OR>1表示几率增加，OR<1表示几率降低。",
               "cautions": [
-                "比值比在结局常见时不能直接解释为风险比。",
-                "未校正多重比较，可能增加假阳性风险。",
-                "观察性设计，不能因果解释。"
+                "OR不能直接解释为风险比，尤其在结局常见时（本研究中ANRI发生率为1.0%，OR可作为风险的近似）。",
+                "观察性研究可能存在未测量的混杂因素。"
               ],
               "standardExplanation": "分析二分类结局并常以比值比表示关联；比值比不能在结局常见时直接当作风险比。"
             }
           ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "未进行正式的多重比较校正。",
-          "subgroupAnalysis": "未报告亚组分析。",
-          "clinicalVsStatisticalSignificance": "虽然部分关联具有统计学显著性，但临床意义需谨慎评估，因为效应量中等且置信区间较宽，且联合模型结果不一致。"
+          "adjustedVariables": "多变量逻辑回归中调整了临床因素（包括母亲、产时和胎儿或新生儿特征），但具体调整变量列表未在摘要中完整列出。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "未报告亚组分析结果。",
+          "clinicalVsStatisticalSignificance": "研究结果具有统计学显著性（如OR的95%CI不包含1），但临床意义需结合效应量大小和实际情境判断。例如，母亲全身麻醉的OR为4.89，提示关联较强，但绝对风险增加幅度未报告。"
         },
         "outcomeAnalysis": {
-          "primary": "术后谵妄，通过4A测试评估。",
+          "primary": "任何ANRI（包括气管插管、胸外按压或肾上腺素给药）。",
           "secondary": [
-            "当前可获取内容未提供次要结局。"
+            "气管插管",
+            "胸外按压",
+            "肾上腺素给药"
           ],
           "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "报告了绝对发生率（33.9%）和相对效应（aOR），但未提供绝对风险差。",
+          "absoluteVsRelative": "研究主要报告了相对效应量（OR），未提供绝对风险或风险差。",
           "subgroupAndInteraction": "未报告亚组或交互作用分析。",
-          "sensitivity": "未报告敏感性分析。"
+          "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "针对特定高风险人群。",
-            "评估了多项临床可操作的实践。",
-            "使用标准化谵妄评估工具。"
+            "大规模、基于人群的样本，时间跨度长（2000-2020年）。",
+            "使用多变量逻辑回归调整多种临床因素。",
+            "在全民医疗体系下进行，减少了医疗可及性偏倚。"
           ],
           "limitations": [
-            "观察性设计，因果推断受限。",
-            "二次分析，可能为探索性。",
-            "单中心，外推性受限。",
-            "未校正多重比较。",
-            "依赖电子健康记录识别认知障碍。"
+            "观察性设计，无法确立因果关系。",
+            "行政数据可能存在信息偏倚和缺失。",
+            "偏远地区和低服务级别出生点样本量小，导致估计不精确。",
+            "无法区分适当干预与不适当干预。"
           ],
           "biasRisks": [
-            "选择偏倚：入组率低可能影响代表性。",
-            "信息偏倚：认知障碍识别依赖EHR，可能不准确。",
-            "混杂偏倚：残余混杂可能影响结果。"
+            "信息偏倚：部分临床因素可能未报告或记录不准确。",
+            "选择偏倚：仅纳入注册助产士接生的家庭分娩，可能不代表所有家庭分娩。",
+            "混杂偏倚：尽管调整了多种因素，仍可能存在未测量的混杂因素。"
           ],
-          "certainty": "证据确定性低，因观察性设计、二次分析和局限性。",
-          "conclusionAlignment": "结论与结果一致，但作者也承认现有策略不足，需进一步研究。",
-          "causalBoundary": "观察性关联不能确立因果，需随机对照试验验证。"
+          "certainty": "中等。研究设计合理，样本量大，但存在观察性研究的固有局限。",
+          "conclusionAlignment": "结论与结果一致，但需注意观察性关联不能推断因果。",
+          "causalBoundary": "研究仅能提示关联，不能证明因果关系。例如，出生地点服务级别与ANRI的关联可能受病例组合和转诊模式影响。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "结果可能适用于类似大型学术医疗中心的认知障碍手术患者。",
-            "围手术期血糖控制和体温管理是常规可操作的实践。"
+            "适用于加拿大阿尔伯塔省类似医疗体系（全民医疗、省级协调的新生儿复苏培训）的人群。",
+            "结果可能适用于其他高收入国家或地区。"
           ],
           "nonApplicability": [
-            "不适用于其他医疗环境或不同人群。",
-            "不能推广至无认知障碍患者。"
+            "不适用于孕周<34周的新生儿。",
+            "不适用于资源匮乏或医疗体系不同的地区。"
           ],
-          "practiceChange": "当前证据不足以支持改变临床实践，但可提示关注血糖和体温管理。",
+          "practiceChange": "当前证据不足以直接改变临床实践，但提示在母亲全身麻醉后应加强新生儿复苏准备。",
           "canDoNow": [
-            "在围手术期管理中，可考虑加强血糖监测和体温维持，但需结合临床判断。",
-            "对认知障碍患者，应提高谵妄监测意识。"
+            "麻醉科和产科团队应意识到母亲全身麻醉与新生儿高级复苏需求增加相关，并做好相应准备。",
+            "在低服务级别出生点（如1A级）和家庭分娩中，应加强新生儿复苏培训和设备配备。"
           ],
           "cannotConclude": [
-            "不能确定这些最佳实践能独立预防谵妄。",
-            "不能确定术后血糖监测与谵妄风险增加的因果关系。"
+            "不能确定母亲社会经济状况和居住地偏远程度与ANRI无关联，因为可能存在数据限制。",
+            "不能确定出生地点服务级别与ANRI的因果关系。"
           ],
           "evidenceGaps": [
-            "需要前瞻性随机对照试验验证这些关联。",
-            "需要多中心研究提高外推性。",
-            "需要评估最佳实践的依从性和时机。",
-            "需要探索其他潜在干预措施。"
+            "需要更多研究明确母亲社会经济状况和居住地偏远程度与ANRI的关联，特别是在偏远地区。",
+            "需要区分适当干预与不适当干预。",
+            "需要评估干预措施对新生儿结局的影响。"
           ],
           "directClinicalRecommendation": false
         }
@@ -1698,10 +1753,10 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41817525/",
-        "doi": "https://doi.org/10.1001/jamanetworkopen.2026.1515",
-        "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.1515",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13045776/"
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42060305/",
+        "doi": "https://doi.org/10.1001/jamanetworkopen.2026.9923",
+        "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.9923",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13133688/"
       }
     }
   ]

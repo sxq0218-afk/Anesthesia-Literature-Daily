@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-10T23:46:42.252Z",
+  "updatedAt": "2026-08-11T23:54:48.926Z",
   "records": [
     {
       "pmid": "42359695",
@@ -713,6 +713,46 @@
       "status": "published",
       "runId": "2026-08-10T23-46-42.252Z",
       "firstPublishedAt": "2026-08-10T23:46:42.252Z"
+    },
+    {
+      "pmid": "41605734",
+      "doi": "10.1016/j.bja.2025.11.058",
+      "title": "Sevoflurane alters alpha5beta3GABA(A) receptor trafficking via calcium/calmodulin-dependent protein kinase II-dependent beta3 subunit phosphorylation to produce cognitive impairment in aged mice.",
+      "status": "published",
+      "runId": "2026-08-11T23-54-48.926Z",
+      "firstPublishedAt": "2026-08-11T23:54:48.926Z"
+    },
+    {
+      "pmid": "41915392",
+      "doi": "10.1001/jamanetworkopen.2026.3852",
+      "title": "Two-Year Outcomes of Less Invasive Surfactant Administration Among Preterm Neonates: A Secondary Analysis of a Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-11T23-54-48.926Z",
+      "firstPublishedAt": "2026-08-11T23:54:48.926Z"
+    },
+    {
+      "pmid": "42340723",
+      "doi": "10.1001/jamanetworkopen.2026.19121",
+      "title": "Oral Prolonged-Release Ketamine for Treatment-Resistant Depression: Two Randomized Clinical Trials.",
+      "status": "published",
+      "runId": "2026-08-11T23-54-48.926Z",
+      "firstPublishedAt": "2026-08-11T23:54:48.926Z"
+    },
+    {
+      "pmid": "41931297",
+      "doi": "10.1001/jamanetworkopen.2026.2289",
+      "title": "Apolipoprotein E Mimetic Peptide CN-105 and Postoperative Delirium in Older Patients: The Phase 2 MARBLE Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-11T23-54-48.926Z",
+      "firstPublishedAt": "2026-08-11T23:54:48.926Z"
+    },
+    {
+      "pmid": "42060305",
+      "doi": "10.1001/jamanetworkopen.2026.9923",
+      "title": "Clinical and Nonclinical Factors and Advanced Neonatal Resuscitation Interventions.",
+      "status": "published",
+      "runId": "2026-08-11T23-54-48.926Z",
+      "firstPublishedAt": "2026-08-11T23:54:48.926Z"
     }
   ]
 }

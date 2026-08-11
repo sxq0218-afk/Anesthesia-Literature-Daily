@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Aug 2026 23:46:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 23:54:48 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-12 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-12/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-12/</guid>
+      <pubDate>Tue, 11 Aug 2026 23:54:48 GMT</pubDate>
+      <description>七氟烷通过钙/钙调蛋白依赖性蛋白激酶II依赖的β3亚基磷酸化改变α5β3GABA(A)受体转运，导致老年小鼠认知障碍：七氟烷通过CaMKII介导的β3-S408/409磷酸化抑制α5β3GABA(A)受体内化，增加其表面表达和强直电流，导致老年小鼠情境记忆缺陷；抑制CaMKII可逆转这些效应。
+早产儿微创表面活性物质给药两年结局：一项随机临床试验的二次分析：在CPAP支持的早产儿中，早期咖啡因联合微创表面活性物质给药（LISA）未显著降低2岁校正年龄时死亡或中重度神经发育障碍的复合终点发生率，但LISA组儿童精细运动z评分处于参考范围的比例更高。
+口服缓释氯胺酮治疗难治性抑郁症：两项随机临床试验：两项随机临床试验显示，口服缓释氯胺酮（KET01）在难治性抑郁症患者中未达到第21天的主要疗效终点，但早期（第4天和第7天）MADRS评分较安慰剂有名义上的显著降低，且解离和心血管不良反应较少。
+载脂蛋白E模拟肽CN-105与老年患者术后谵妄：MARBLE 2期随机临床试验：在老年非心脏、非颅内手术患者中，CN-105给药可行且未增加不良事件，但未显著降低术后谵妄发生率或神经炎症标志物水平。
+临床与非临床因素及高级新生儿复苏干预措施：在加拿大阿尔伯塔省34周及以上活产新生儿中，母亲社会经济状况和居住地偏远程度与高级新生儿复苏干预（ANRI）几率无关，而出生地点服务级别与ANRI几率相关，其中1A级出生点和家庭分娩的ANRI几率较高，但气管插管几率较低。</description>
+    </item>
     <item>
       <title>2026-08-11 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-11/</link>
