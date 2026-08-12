@@ -1,7 +1,239 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T23:54:48.926Z",
+  "updatedAt": "2026-08-12T23:53:27.054Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-12T23:53:27.054Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-13T23:53:27.054Z",
+        "to": "2026-08-12T23:53:27.054Z",
+        "candidateCount": 272,
+        "discoveryCandidateCount": 10636,
+        "unseenCount": 193,
+        "duplicateCount": 79,
+        "priorityCandidateCount": 272,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 272,
+          "retrievedCount": 272,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 14,
+          "excludedCount": 286,
+          "excludedByReason": {
+            "journal-not-configured": 283,
+            "impact-factor-stale": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 286,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 21
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 11
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of neuroscience methods",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "The Journal of surgical research",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 193,
+          "eligibleCount": 170,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 143,
+          "clinical": 97,
+          "basic": 6,
+          "other": 40
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42584898",
+          "title": "全凭静脉麻醉与挥发性吸入麻醉用于大型非心脏手术：一项随机临床试验",
+          "originalTitle": "Total Intravenous vs Volatile Inhalational Anesthesia for Major Noncardiac Surgery: A Randomized Clinical Trial.",
+          "journal": "JAMA",
+          "conclusion": "在50岁及以上接受择期大型非心脏手术的患者中，全凭静脉麻醉（TIVA）与挥发性吸入麻醉相比，并未改善术后30天内存活且居家天数。",
+          "pmid": "42584898"
+        },
+        {
+          "slug": "pmid-41344674",
+          "title": "重复早期麻醉暴露对小鼠视觉系统发育的影响",
+          "originalTitle": "Effects of Repeated Early-life Anesthesia Exposure on Visual System Development in Mice.",
+          "journal": "Anesthesiology",
+          "conclusion": "在新生小鼠中，重复早期七氟烷麻醉暴露可延迟眼睑睁开、导致持续视觉功能缺陷并降低视网膜和初级视觉皮层厚度，且组织型纤溶酶原激活物（tPA）缺乏可减轻这些改变，提示tPA通路可能参与麻醉相关神经发育易感性。",
+          "pmid": "41344674"
+        },
+        {
+          "slug": "pmid-41984475",
+          "title": "超级撤稿者及高被引多次撤稿科学家参与的撤稿随机临床试验分析",
+          "originalTitle": "Retracted Randomized Clinical Trials From Superretractors and Top-Cited Scientists With Multiple Retractions.",
+          "journal": "JAMA network open",
+          "conclusion": "在1330项被撤稿的随机临床试验中，少数高影响力作者（超级撤稿者及高被引多次撤稿科学家）合著了相当比例的撤稿试验，且撤稿时间越长，引用次数越多。",
+          "pmid": "41984475"
+        },
+        {
+          "slug": "pmid-41557566",
+          "title": "婴儿气管插管中的高流量鼻导管氧疗：一项单中心随机对照试验",
+          "originalTitle": "High-flow Nasal Oxygenation in Infants Undergoing Tracheal Intubation: A Single-center Randomized Controlled Trial.",
+          "journal": "Anesthesiology",
+          "conclusion": "在婴儿气管插管中，与面罩通气相比，使用高流量鼻导管氧疗进行预充氧和窒息氧合并未显著降低去饱和发生率，但可减少胃胀气的发生。",
+          "pmid": "41557566"
+        },
+        {
+          "slug": "pmid-42190101",
+          "title": "心脏手术中的无阿片麻醉：OFACAR随机临床试验",
+          "originalTitle": "Opioid-free Anesthesia in Cardiac Surgery: The OFACAR Randomized Clinical Trial.",
+          "journal": "Anesthesiology",
+          "conclusion": "在接受体外循环心脏手术的患者中，无阿片麻醉与阿片麻醉相比，可能降低术后30天内复合并发症的发生率，但结果脆弱性高，应视为假设生成性发现。",
+          "pmid": "42190101"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-11T23:54:48.926Z",
       "search": {

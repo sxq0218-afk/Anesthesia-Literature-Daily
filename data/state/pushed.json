@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-11T23:54:48.926Z",
+  "updatedAt": "2026-08-12T23:53:27.054Z",
   "records": [
     {
       "pmid": "42359695",
@@ -753,6 +753,46 @@
       "status": "published",
       "runId": "2026-08-11T23-54-48.926Z",
       "firstPublishedAt": "2026-08-11T23:54:48.926Z"
+    },
+    {
+      "pmid": "42584898",
+      "doi": "10.1001/jama.2026.11065",
+      "title": "Total Intravenous vs Volatile Inhalational Anesthesia for Major Noncardiac Surgery: A Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-12T23-53-27.054Z",
+      "firstPublishedAt": "2026-08-12T23:53:27.054Z"
+    },
+    {
+      "pmid": "41344674",
+      "doi": "10.1097/aln.0000000000005879",
+      "title": "Effects of Repeated Early-life Anesthesia Exposure on Visual System Development in Mice.",
+      "status": "published",
+      "runId": "2026-08-12T23-53-27.054Z",
+      "firstPublishedAt": "2026-08-12T23:53:27.054Z"
+    },
+    {
+      "pmid": "41984475",
+      "doi": "10.1001/jamanetworkopen.2026.7424",
+      "title": "Retracted Randomized Clinical Trials From Superretractors and Top-Cited Scientists With Multiple Retractions.",
+      "status": "published",
+      "runId": "2026-08-12T23-53-27.054Z",
+      "firstPublishedAt": "2026-08-12T23:53:27.054Z"
+    },
+    {
+      "pmid": "41557566",
+      "doi": "10.1097/aln.0000000000005946",
+      "title": "High-flow Nasal Oxygenation in Infants Undergoing Tracheal Intubation: A Single-center Randomized Controlled Trial.",
+      "status": "published",
+      "runId": "2026-08-12T23-53-27.054Z",
+      "firstPublishedAt": "2026-08-12T23:53:27.054Z"
+    },
+    {
+      "pmid": "42190101",
+      "doi": "10.1097/aln.0000000000006164",
+      "title": "Opioid-free Anesthesia in Cardiac Surgery: The OFACAR Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-12T23-53-27.054Z",
+      "firstPublishedAt": "2026-08-12T23:53:27.054Z"
     }
   ]
 }
