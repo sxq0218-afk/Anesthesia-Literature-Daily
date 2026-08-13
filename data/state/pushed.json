@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T23:53:27.054Z",
+  "updatedAt": "2026-08-13T23:52:33.350Z",
   "records": [
     {
       "pmid": "42359695",
@@ -793,6 +793,46 @@
       "status": "published",
       "runId": "2026-08-12T23-53-27.054Z",
       "firstPublishedAt": "2026-08-12T23:53:27.054Z"
+    },
+    {
+      "pmid": "41927569",
+      "doi": "10.1038/s41467-026-71289-z",
+      "title": "Descending inhibitory rostral ventromedial medulla neurons cause widespread antinociception and contribute to the pain-inhibits-pain phenomenon.",
+      "status": "published",
+      "runId": "2026-08-13T23-52-33.350Z",
+      "firstPublishedAt": "2026-08-13T23:52:33.350Z"
+    },
+    {
+      "pmid": "41452340",
+      "doi": "10.1097/aln.0000000000005919",
+      "title": "Individualized Perioperative Blood Pressure and Fluid Therapy in Esophagectomy: A Prospective, Single-blind Randomized Controlled Trial.",
+      "status": "published",
+      "runId": "2026-08-13T23-52-33.350Z",
+      "firstPublishedAt": "2026-08-13T23:52:33.350Z"
+    },
+    {
+      "pmid": "41481162",
+      "doi": "10.1097/aln.0000000000005921",
+      "title": "Association of Peripheral Nerve Block with Postoperative Myocardial Injury in High-risk Cardiac Older Adults Undergoing Hip Fracture Surgery: A Two-center Retrospective Cohort Study.",
+      "status": "published",
+      "runId": "2026-08-13T23-52-33.350Z",
+      "firstPublishedAt": "2026-08-13T23:52:33.350Z"
+    },
+    {
+      "pmid": "42257652",
+      "doi": "10.1097/aln.0000000000006165",
+      "title": "Rapid Sequence Induction Practices and Outcomes in Abdominal Surgery Patients: A Multicenter Observational Cohort Study.",
+      "status": "published",
+      "runId": "2026-08-13T23-52-33.350Z",
+      "firstPublishedAt": "2026-08-13T23:52:33.350Z"
+    },
+    {
+      "pmid": "41894258",
+      "doi": "10.1097/aln.0000000000005964",
+      "title": "Postanesthesia Apnea in Former Preterm Infants for Inguinal Herniorrhaphy: An Update of Risk Factors from an Individual Participant Data Meta-analysis.",
+      "status": "published",
+      "runId": "2026-08-13T23-52-33.350Z",
+      "firstPublishedAt": "2026-08-13T23:52:33.350Z"
     }
   ]
 }

@@ -1,7 +1,1539 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T23:53:27.054Z",
+  "updatedAt": "2026-08-13T23:52:33.350Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-13T23:52:33.350Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-14T23:52:33.350Z",
+        "to": "2026-08-13T23:52:33.350Z",
+        "candidateCount": 273,
+        "discoveryCandidateCount": 10685,
+        "unseenCount": 189,
+        "duplicateCount": 84,
+        "priorityCandidateCount": 273,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 273,
+          "retrievedCount": 273,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 10,
+          "excludedCount": 290,
+          "excludedByReason": {
+            "journal-not-configured": 288,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 290,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 21
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 15
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 11
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 189,
+          "eligibleCount": 166,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 139,
+          "clinical": 93,
+          "basic": 5,
+          "other": 41
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 23,
+          "promptTokens": 68631,
+          "completionTokens": 22170,
+          "totalTokens": 90801
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41927569",
+          "number": "01",
+          "category": "疼痛与区域麻醉",
+          "journal": "Nature communications",
+          "year": "2026",
+          "publishedDate": "2026-04-02",
+          "electronicPublicationDate": "2026-04-02",
+          "readingTime": "9 分钟",
+          "title": "下行抑制性延髓头端腹内侧神经元引起广泛抗伤害感受并参与疼痛抑制疼痛现象",
+          "originalTitle": "Descending inhibitory rostral ventromedial medulla neurons cause widespread antinociception and contribute to the pain-inhibits-pain phenomenon.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "施加于身体某一部位的急性疼痛刺激可减轻其他部位的疼痛。这种“疼痛抑制疼痛”现象的回路基础，在动物中称为弥漫性伤害性抑制控制（DNIC），在人类中称为条件性疼痛调节（CPM），在很大程度上尚不清楚。通过解剖学和光遗传学回路追踪，我们鉴定了一组延髓头端腹内侧（RVM）的下行抑制性神经元，它们沿脊髓头尾轴密集且双侧支配脊髓。激活这些神经元可广泛降低健康小鼠的热敏感性和冷敏感性，并在慢性疼痛模型中引起同样广泛的抗痛觉过敏作用，而沉默这些神经元则诱发机械性异常性疼痛和自发性疼痛样行为。伤害性刺激激活了外侧旁巨细胞核（LPGi）中的这些神经元亚群，化学遗传学再激活可抑制伤害感受。因此，脊髓投射的抑制性RVM神经元理想地定位为DNIC和CPM的回路元件，而它们的功能障碍可能有助于广泛的慢性疼痛综合征。"
+              }
+            ],
+            "fullText": "施加于身体某一部位的急性疼痛刺激可减轻其他部位的疼痛。这种“疼痛抑制疼痛”现象的回路基础，在动物中称为弥漫性伤害性抑制控制（DNIC），在人类中称为条件性疼痛调节（CPM），在很大程度上尚不清楚。通过解剖学和光遗传学回路追踪，我们鉴定了一组延髓头端腹内侧（RVM）的下行抑制性神经元，它们沿脊髓头尾轴密集且双侧支配脊髓。激活这些神经元可广泛降低健康小鼠的热敏感性和冷敏感性，并在慢性疼痛模型中引起同样广泛的抗痛觉过敏作用，而沉默这些神经元则诱发机械性异常性疼痛和自发性疼痛样行为。伤害性刺激激活了外侧旁巨细胞核（LPGi）中的这些神经元亚群，化学遗传学再激活可抑制伤害感受。因此，脊髓投射的抑制性RVM神经元理想地定位为DNIC和CPM的回路元件，而它们的功能障碍可能有助于广泛的慢性疼痛综合征。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Ganley RP, Sousa M, Ji G, Ranucci M, Beccarini C, Werder K, Pietrafesa F, d'Aquin S, et al.",
+          "citation": "Nat Commun. 2026 Apr 2;17(1):4765. doi: 10.1038/s41467-026-71289-z.",
+          "doi": "10.1038/s41467-026-71289-z",
+          "pmid": "41927569",
+          "pmcid": "PMC13216533",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "基础研究",
+            "神经科学与麻醉机制高影响力期刊",
+            "疼痛与区域麻醉",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究首次在细胞和回路水平上识别出可能介导弥漫性伤害性抑制控制（DNIC）和条件性疼痛调节（CPM）的特定神经元群体，为理解疼痛抑制疼痛的神经机制提供了直接证据，并可能为广泛性慢性疼痛综合征的机制研究和未来干预提供新靶点。",
+          "conclusion": "激活延髓头端腹内侧（RVM）中表达vGAT的脊髓投射抑制性神经元可在健康小鼠中广泛降低热和冷敏感性，并在慢性疼痛模型中产生广泛的抗痛觉过敏；而沉默这些神经元则诱发机械性异常性疼痛和自发性疼痛样行为。",
+          "clinical": "该研究为理解疼痛调节机制提供了基础依据，但尚不能直接转化为麻醉或疼痛治疗的临床建议。 未来可能为开发针对RVM抑制性神经元的新型镇痛策略提供理论基础，但需进一步研究。",
+          "evidence": "中等",
+          "score": 53,
+          "scoreBreakdown": {
+            "relevance": 17,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验性研究（基础研究，非人类模型）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "mice；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "chemogenetic and optogenetic activation, tetanus toxin-mediated silencing of vGAT RVM SC neurons；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "nociceptive sensitivity"
+            }
+          ],
+          "keyPoints": [
+            "RVM中脊髓投射的抑制性神经元（vGAT阳性）广泛支配脊髓。",
+            "激活这些神经元在健康小鼠中降低热和冷敏感性，在慢性疼痛模型中产生抗痛觉过敏。",
+            "沉默这些神经元诱发机械性异常性疼痛和自发性疼痛样行为。",
+            "伤害性刺激激活LPGi中的这些神经元亚群，化学遗传学再激活可抑制伤害感受。",
+            "该研究为DNIC/CPM的回路基础提供了直接证据。"
+          ],
+          "methods": "急性疼痛刺激施加于身体某一部位可减轻其他部位的疼痛，这种现象称为“疼痛抑制疼痛”，在动物中称为弥漫性伤害性抑制控制（DNIC），在人类中称为条件性疼痛调节（CPM）。然而，其背后的神经回路基础在很大程度上是未知的。",
+          "results": "激活vGAT RVM SC神经元在健康小鼠中广泛降低了热和冷敏感性，并在慢性疼痛模型中引起广泛的抗痛觉过敏。沉默这些神经元诱发了机械性异常性疼痛和自发性疼痛样行为。伤害性刺激激活了LPGi中这些神经元的亚群，化学遗传学再激活可抑制伤害感受。样本量、效应量、置信区间和P值均未报告。",
+          "mainResults": "激活vGAT RVM SC神经元在健康小鼠中广泛降低了热和冷敏感性，并在慢性疼痛模型中引起广泛的抗痛觉过敏。沉默这些神经元诱发了机械性异常性疼痛和自发性疼痛样行为。伤害性刺激激活了LPGi中这些神经元的亚群，化学遗传学再激活可抑制伤害感受。样本量、效应量、置信区间和P值均未报告。",
+          "limitations": [
+            "当前可获取内容未提供样本量、效应量、置信区间和P值等统计细节。",
+            "研究基于小鼠模型，其结果外推至人类需谨慎。",
+            "未报告具体统计方法，无法评估结果的统计可靠性。",
+            "未报告不良事件或安全性数据。"
+          ],
+          "practice": [
+            "该研究为理解疼痛调节机制提供了基础依据，但尚不能直接转化为麻醉或疼痛治疗的临床建议。",
+            "未来可能为开发针对RVM抑制性神经元的新型镇痛策略提供理论基础，但需进一步研究。"
+          ],
+          "editor": "原始摘要和结构化抽取结果均支持主要结论，即激活RVM抑制性神经元产生广泛抗伤害作用，沉默则产生疼痛样行为。 过度解读风险：由于缺乏统计细节和具体数据，存在过度解读风险；且基础研究结果不能直接外推至临床。",
+          "whyItMatters": "该研究首次在细胞和回路水平上识别出可能介导弥漫性伤害性抑制控制（DNIC）和条件性疼痛调节（CPM）的特定神经元群体，为理解疼痛抑制疼痛的神经机制提供了直接证据，并可能为广泛性慢性疼痛综合征的机制研究和未来干预提供新靶点。",
+          "background": "急性疼痛刺激施加于身体某一部位可减轻其他部位的疼痛，这种现象称为“疼痛抑制疼痛”，在动物中称为弥漫性伤害性抑制控制（DNIC），在人类中称为条件性疼痛调节（CPM）。然而，其背后的神经回路基础在很大程度上是未知的。",
+          "pico": {
+            "population": "mice",
+            "intervention": "chemogenetic and optogenetic activation, tetanus toxin-mediated silencing of vGAT RVM SC neurons",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "nociceptive sensitivity"
+          },
+          "studyType": "实验性研究（基础研究，非人类模型）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "nociceptive sensitivity",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "原始摘要和结构化抽取结果均支持主要结论，即激活RVM抑制性神经元产生广泛抗伤害作用，沉默则产生疼痛样行为。",
+            "overinterpretationRisk": "由于缺乏统计细节和具体数据，存在过度解读风险；且基础研究结果不能直接外推至临床。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和部分全文节选，可能缺少方法学和统计细节。",
+                "未提供完整的方法学描述，如动物模型细节、实验设计、统计方法等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "RVM中脊髓投射的抑制性神经元是否介导疼痛抑制疼痛现象？",
+              "designFit": "实验性研究设计适合探究因果关系，但缺乏随机化和对照的详细信息。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用多种技术（解剖学、光遗传学、化学遗传学、破伤风毒素）进行回路追踪和功能验证。",
+                "研究结果在多个层面（激活、沉默、伤害性刺激）相互印证。"
+              ],
+              "concerns": [
+                "缺乏统计细节，无法评估结果的可靠性。",
+                "未报告样本量，可能影响统计功效。",
+                "未报告随机化、盲法等，可能存在偏倚风险。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评估统计显著性。",
+                  "cautions": [
+                    "由于未报告统计方法，无法判断结果是否具有统计学意义。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "未报告统计显著性，无法区分统计学差异与临床获益。"
+            },
+            "outcomeAnalysis": {
+              "primary": "伤害感受敏感性（热、冷、机械性异常性疼痛、自发性疼痛样行为）",
+              "secondary": [
+                "热敏感性",
+                "冷敏感性",
+                "机械性异常性疼痛",
+                "自发性疼痛样行为"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "研究设计具有创新性，结合多种前沿技术。",
+                "结果一致支持RVM抑制性神经元在疼痛抑制中的作用。"
+              ],
+              "limitations": [
+                "缺乏统计细节，无法评估结果的可靠性。",
+                "未报告样本量，可能影响统计功效。",
+                "未报告随机化、盲法等，可能存在偏倚风险。"
+              ],
+              "biasRisks": [
+                "选择偏倚：未报告动物选择标准。",
+                "实施偏倚：未报告盲法。",
+                "测量偏倚：未报告结局评估的盲法。"
+              ],
+              "certainty": "低（由于缺乏统计细节和方法学信息）",
+              "conclusionAlignment": "结论与原始摘要一致，但缺乏统计支持。",
+              "causalBoundary": "该研究为实验性研究，可支持因果关系，但需注意动物模型与人类的差异。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为理解疼痛调节机制提供基础依据。",
+                "可能为未来开发针对RVM抑制性神经元的新型镇痛策略提供理论基础。"
+              ],
+              "nonApplicability": [
+                "不能直接用于临床疼痛治疗或麻醉管理。",
+                "不能直接外推至人类。"
+              ],
+              "practiceChange": "当前结果不足以改变临床实践。",
+              "canDoNow": [
+                "继续基础研究以验证和扩展这些发现。"
+              ],
+              "cannotConclude": [
+                "不能得出RVM抑制性神经元可作为临床治疗靶点的结论。",
+                "不能得出激活或抑制这些神经元在人类中具有类似效应的结论。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究提供统计细节和效应量。",
+                "需要人类研究验证这些发现。",
+                "需要评估长期激活或沉默这些神经元的安全性和副作用。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41927569/",
+            "doi": "https://doi.org/10.1038/s41467-026-71289-z",
+            "publisher": "https://doi.org/10.1038/s41467-026-71289-z",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13216533/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41452340",
+          "number": "02",
+          "category": "气道管理",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-04-01",
+          "electronicPublicationDate": "2025-12-26",
+          "readingTime": "11 分钟",
+          "title": "食管切除术中个体化围术期血压与液体治疗：一项前瞻性、单盲随机对照试验",
+          "originalTitle": "Individualized Perioperative Blood Pressure and Fluid Therapy in Esophagectomy: A Prospective, Single-blind Randomized Controlled Trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "食管切除术是食管癌的关键治疗方法，但术后并发症风险高，其中一些并发症可能通过优化血流动力学管理来预防。目标导向液体治疗个体化心输出量目标，但通常应用固定的血压阈值，并在术后主要液体转移发生前停止。将目标导向液体治疗延长至术后期间并采用个体化血压阈值可能解决这些局限性。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在这项单中心、前瞻性、盲法、随机对照试验中，接受食管切除术的患者按1:1随机分配至延长目标导向液体治疗组或标准治疗组。在延长目标导向液体治疗组中，优化心输出量，平均动脉压阈值为患者个体夜间基线值。方案从气管插管开始持续至次日早上7:00。主要结局是术后总发病率，通过第30天的综合并发症指数测量。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在100名患者中（延长目标导向液体治疗组49名，标准组51名），延长目标导向液体治疗与较高的液体平衡相关（2,517 ± 1,194 ml vs. 2,001 ± 1,114 ml；平均差，516 ml；95% CI，57至974；P = 0.028），去甲肾上腺素使用增加（中位数，7,894 μg [四分位距，3,946-13,793] vs. 4,611 μg [四分位距，2,138至7,296]；P < 0.001），平均动脉压更高（平均差，3 mmHg；95% CI，1至5；P = 0.011）。在第30天，平均综合并发症指数在两组间无差异（39.0 ± 20.0 vs. 39.2 ± 21.0；平均差，-0.2；95% CI，-8.6至8.1；P = 0.95）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "尽管实现了方案驱动的治疗差异，延长且个体化的目标导向液体治疗并未减少食管切除术后的术后并发症。"
+              }
+            ],
+            "fullText": "BACKGROUND: 食管切除术是食管癌的关键治疗方法，但术后并发症风险高，其中一些并发症可能通过优化血流动力学管理来预防。目标导向液体治疗个体化心输出量目标，但通常应用固定的血压阈值，并在术后主要液体转移发生前停止。将目标导向液体治疗延长至术后期间并采用个体化血压阈值可能解决这些局限性。 METHODS: 在这项单中心、前瞻性、盲法、随机对照试验中，接受食管切除术的患者按1:1随机分配至延长目标导向液体治疗组或标准治疗组。在延长目标导向液体治疗组中，优化心输出量，平均动脉压阈值为患者个体夜间基线值。方案从气管插管开始持续至次日早上7:00。主要结局是术后总发病率，通过第30天的综合并发症指数测量。 RESULTS: 在100名患者中（延长目标导向液体治疗组49名，标准组51名），延长目标导向液体治疗与较高的液体平衡相关（2,517 ± 1,194 ml vs. 2,001 ± 1,114 ml；平均差，516 ml；95% CI，57至974；P = 0.028），去甲肾上腺素使用增加（中位数，7,894 μg [四分位距，3,946-13,793] vs. 4,611 μg [四分位距，2,138至7,296]；P < 0.001），平均动脉压更高（平均差，3 mmHg；95% CI，1至5；P = 0.011）。在第30天，平均综合并发症指数在两组间无差异（39.0 ± 20.0 vs. 39.2 ± 21.0；平均差，-0.2；95% CI，-8.6至8.1；P = 0.95）。 CONCLUSIONS: 尽管实现了方案驱动的治疗差异，延长且个体化的目标导向液体治疗并未减少食管切除术后的术后并发症。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Hovgaard HL, Vistisen ST, Enevoldsen J, de Paoli F, Lie RH, Obad DS, Lind PC, Katballe N, et al.",
+          "citation": "Anesthesiology. 2026 Apr 1;144(4):823-836. doi: 10.1097/ALN.0000000000005919. Epub 2025 Dec 26.",
+          "doi": "10.1097/aln.0000000000005919",
+          "pmid": "41452340",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "麻醉相关领域",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "question": "食管切除术术后并发症风险高，优化血流动力学管理可能改善预后。该研究探索了将目标导向液体治疗延伸至术后并采用个体化血压目标的新策略，为围术期管理提供了重要证据。",
+          "conclusion": "在食管切除术患者中，与标准治疗相比，延长并个体化的目标导向液体治疗虽改善了血流动力学指标，但未降低术后30天综合并发症指数。",
+          "clinical": "延长目标导向液体治疗可提高平均动脉压，但伴随更高的液体平衡和去甲肾上腺素用量。 尽管血流动力学指标改善，但未转化为术后并发症的减少，提示临床获益有限。 麻醉管理中应权衡液体负荷与血管活性药使用的利弊，避免过度液体复苏。",
+          "evidence": "中等偏高",
+          "score": 73,
+          "scoreBreakdown": {
+            "relevance": 17,
+            "evidenceQuality": 22,
+            "clinicalImpact": 15,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "单中心、前瞻性、单盲随机对照试验，患者按1:1随机分配至延长目标导向液体治疗组或标准治疗组。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "patients undergoing esophagectomy；100 patients (49 extended goal-directed fluid therapy group, 51 standard group)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "extended goal-directed fluid therapy with individualized blood pressure thresholds；对照：standard care"
+            },
+            {
+              "label": "主要终点",
+              "value": "total postoperative morbidity measured by the Comprehensive Complication Index at day 30"
+            }
+          ],
+          "keyPoints": [
+            "延长目标导向液体治疗组液体平衡更高（平均差516 ml，95%CI 57-974，P=0.028）。",
+            "去甲肾上腺素用量增加（P<0.001）。",
+            "平均动脉压更高（平均差3 mmHg，95%CI 1-5，P=0.011）。",
+            "术后30天综合并发症指数无显著差异（平均差-0.2，95%CI -8.6至8.1，P=0.95）。"
+          ],
+          "methods": "食管切除术是食管癌的关键治疗手段，但术后并发症风险高，部分并发症可能通过优化血流动力学管理来预防。传统目标导向液体治疗以心输出量为目标，但常采用固定的血压阈值，并在术后主要液体转移发生前停止。将目标导向液体治疗延伸至术后并采用个体化血压阈值可能弥补这些不足。",
+          "results": "共100例患者（延长目标导向液体治疗组49例，标准组51例）。延长目标导向液体治疗组液体平衡更高（2517±1194 ml vs 2001±1114 ml；平均差516 ml；95%CI 57-974；P=0.028），去甲肾上腺素用量增加（中位数7894 μg [IQR 3946-13793] vs 4611 μg [IQR 2138-7296]；P<0.001），平均动脉压更高（平均差3 mmHg；95%CI 1-5；P=0.011）。术后30天综合并发症指数两组无差异（39.0±20.0 vs 39.2±21.0；平均差-0.2；95%CI -8.6至8.1；P=0.95）。",
+          "mainResults": "共100例患者（延长目标导向液体治疗组49例，标准组51例）。延长目标导向液体治疗组液体平衡更高（2517±1194 ml vs 2001±1114 ml；平均差516 ml；95%CI 57-974；P=0.028），去甲肾上腺素用量增加（中位数7894 μg [IQR 3946-13793] vs 4611 μg [IQR 2138-7296]；P<0.001），平均动脉压更高（平均差3 mmHg；95%CI 1-5；P=0.011）。术后30天综合并发症指数两组无差异（39.0±20.0 vs 39.2±21.0；平均差-0.2；95%CI -8.6至8.1；P=0.95）。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "延长目标导向液体治疗可提高平均动脉压，但伴随更高的液体平衡和去甲肾上腺素用量。",
+            "尽管血流动力学指标改善，但未转化为术后并发症的减少，提示临床获益有限。",
+            "麻醉管理中应权衡液体负荷与血管活性药使用的利弊，避免过度液体复苏。"
+          ],
+          "editor": "该研究为随机对照试验，结果支持延长目标导向液体治疗可改善血流动力学指标，但未降低术后并发症。 过度解读风险：需注意研究为单中心、单盲，且样本量较小，结果可能受选择偏倚影响，不应过度解读为否定目标导向液体治疗的价值。",
+          "whyItMatters": "食管切除术术后并发症风险高，优化血流动力学管理可能改善预后。该研究探索了将目标导向液体治疗延伸至术后并采用个体化血压目标的新策略，为围术期管理提供了重要证据。",
+          "background": "食管切除术是食管癌的关键治疗手段，但术后并发症风险高，部分并发症可能通过优化血流动力学管理来预防。传统目标导向液体治疗以心输出量为目标，但常采用固定的血压阈值，并在术后主要液体转移发生前停止。将目标导向液体治疗延伸至术后并采用个体化血压阈值可能弥补这些不足。",
+          "pico": {
+            "population": "patients undergoing esophagectomy",
+            "intervention": "extended goal-directed fluid therapy with individualized blood pressure thresholds",
+            "comparison": "standard care",
+            "outcome": "total postoperative morbidity measured by the Comprehensive Complication Index at day 30"
+          },
+          "studyType": "单中心、前瞻性、单盲随机对照试验，患者按1:1随机分配至延长目标导向液体治疗组或标准治疗组。",
+          "sampleSize": "100 patients (49 extended goal-directed fluid therapy group, 51 standard group)",
+          "primaryOutcome": "total postoperative morbidity measured by the Comprehensive Complication Index at day 30",
+          "effectSize": [
+            "mean difference, 516 ml",
+            "mean difference, 3 mmHg",
+            "mean difference, -0.2"
+          ],
+          "confidenceInterval": [
+            "95% CI, 57 to 974",
+            "95% CI, 1 to 5",
+            "95% CI, -8.6 to 8.1"
+          ],
+          "pValue": [
+            "P = 0.028",
+            "P < 0.001",
+            "P = 0.011",
+            "P = 0.95"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究为随机对照试验，结果支持延长目标导向液体治疗可改善血流动力学指标，但未降低术后并发症。",
+            "overinterpretationRisk": "需注意研究为单中心、单盲，且样本量较小，结果可能受选择偏倚影响，不应过度解读为否定目标导向液体治疗的价值。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取完整方法学细节、基线特征、失访情况等。",
+                "未提供亚组分析、敏感性分析等结果。",
+                "未提供安全性数据。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "延长目标导向液体治疗并采用个体化血压阈值能否降低食管切除术患者术后并发症？",
+              "designFit": "随机对照试验适用于评估干预效果，但单中心设计可能限制外推性。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "按1:1随机分配，但未说明随机化方法。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "单盲，但未明确谁被设盲。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "随访至术后30天。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "随机对照设计，减少选择偏倚。",
+                "主要终点为客观的术后并发症指数。"
+              ],
+              "concerns": [
+                "单中心、单盲可能引入实施偏倚。",
+                "样本量较小，可能检验效能不足。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价。",
+                  "cautions": [
+                    "未报告统计方法，无法评估分析正确性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "尽管液体平衡、去甲肾上腺素用量和平均动脉压差异有统计学意义，但主要终点无差异，提示统计学差异不一定带来临床获益。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后30天综合并发症指数，两组无显著差异（平均差-0.2，95%CI -8.6至8.1，P=0.95）。",
+              "secondary": [
+                "液体平衡：干预组更高（平均差516 ml，95%CI 57-974，P=0.028）。",
+                "去甲肾上腺素用量：干预组更高（P<0.001）。",
+                "平均动脉压：干预组更高（平均差3 mmHg，95%CI 1-5，P=0.011）。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "主要终点为绝对差异，未报告相对风险。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机对照设计。",
+                "主要终点为临床相关指标。"
+              ],
+              "limitations": [
+                "单中心、单盲。",
+                "样本量小。",
+                "未提供完整方法学细节。"
+              ],
+              "biasRisks": [
+                "实施偏倚（单盲）。",
+                "选择偏倚（单中心）。"
+              ],
+              "certainty": "中等，因摘要信息有限，需全文评估。",
+              "conclusionAlignment": "结论与结果一致，即干预未降低术后并发症。",
+              "causalBoundary": "随机对照设计可支持因果推断，但单中心限制外推性。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "食管切除术患者。",
+                "围术期血流动力学管理。"
+              ],
+              "nonApplicability": [
+                "其他手术类型。",
+                "非食管癌患者。"
+              ],
+              "practiceChange": "当前证据不支持改变临床实践，延长目标导向液体治疗未显示获益。",
+              "canDoNow": [
+                "可考虑个体化血压目标，但需权衡液体负荷和血管活性药使用。"
+              ],
+              "cannotConclude": [
+                "不能得出延长目标导向液体治疗可降低术后并发症的结论。",
+                "不能推广至其他手术或患者群体。"
+              ],
+              "evidenceGaps": [
+                "需要多中心、更大样本量的研究。",
+                "需要长期预后数据。",
+                "需要明确最佳液体管理策略。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41452340/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005919",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005919",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41481162",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-05-01",
+          "electronicPublicationDate": "2025-12-29",
+          "readingTime": "12 分钟",
+          "title": "外周神经阻滞与高危心脏老年髋部骨折手术患者术后心肌损伤的关联：一项双中心回顾性队列研究",
+          "originalTitle": "Association of Peripheral Nerve Block with Postoperative Myocardial Injury in High-risk Cardiac Older Adults Undergoing Hip Fracture Surgery: A Two-center Retrospective Cohort Study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "髋部骨折术后心肌损伤很常见，且与死亡率增加相关。急性疼痛是一个重要的危险因素，但外周神经阻滞（PNB）是否能减少术后心肌损伤仍不清楚。本研究旨在评估单次注射PNB作为全身麻醉或椎管内麻醉的辅助手段，与接受髋部骨折手术的高危心脏老年患者术后心肌损伤之间的关联。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在这项回顾性队列研究中，纳入了2012年至2023年间在全身麻醉或椎管内麻醉下接受髋部骨折手术的65岁及以上患者。根据医疗记录，接受单次注射PNB作为辅助治疗的患者被分配到PNB组；未接受的患者被分配到非PNB组。主要结局是术后心肌损伤，定义为在指数住院期间任何术后心肌肌钙蛋白测量值超过第99百分位上限参考值。使用基于27个基线和术中变量的治疗加权逆概率来调整混杂效应。使用加权逻辑回归模型估计PNB组与非PNB组的比值比。缺失数据（占病例的24.3%）使用多重插补进行填补。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "最终分析纳入了1,467例患者的数据。PNB组术后心肌损伤发生率为12.0%（96/798），非PNB组为21.5%（144/669）。加权逻辑回归分析显示，单次注射PNB与术后心肌损伤的几率显著降低相关（调整后的比值比为0.60；95%置信区间为0.44至0.82；P=0.002）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "单次注射PNB作为全身麻醉或椎管内麻醉的辅助手段，与接受髋部骨折手术的高危心脏老年患者术后心肌损伤风险降低相关，可能通过减轻疼痛与心肌损伤之间的联系。需要进一步的前瞻性试验来验证这些发现。"
+              }
+            ],
+            "fullText": "BACKGROUND: 髋部骨折术后心肌损伤很常见，且与死亡率增加相关。急性疼痛是一个重要的危险因素，但外周神经阻滞（PNB）是否能减少术后心肌损伤仍不清楚。本研究旨在评估单次注射PNB作为全身麻醉或椎管内麻醉的辅助手段，与接受髋部骨折手术的高危心脏老年患者术后心肌损伤之间的关联。 METHODS: 在这项回顾性队列研究中，纳入了2012年至2023年间在全身麻醉或椎管内麻醉下接受髋部骨折手术的65岁及以上患者。根据医疗记录，接受单次注射PNB作为辅助治疗的患者被分配到PNB组；未接受的患者被分配到非PNB组。主要结局是术后心肌损伤，定义为在指数住院期间任何术后心肌肌钙蛋白测量值超过第99百分位上限参考值。使用基于27个基线和术中变量的治疗加权逆概率来调整混杂效应。使用加权逻辑回归模型估计PNB组与非PNB组的比值比。缺失数据（占病例的24.3%）使用多重插补进行填补。 RESULTS: 最终分析纳入了1,467例患者的数据。PNB组术后心肌损伤发生率为12.0%（96/798），非PNB组为21.5%（144/669）。加权逻辑回归分析显示，单次注射PNB与术后心肌损伤的几率显著降低相关（调整后的比值比为0.60；95%置信区间为0.44至0.82；P=0.002）。 CONCLUSIONS: 单次注射PNB作为全身麻醉或椎管内麻醉的辅助手段，与接受髋部骨折手术的高危心脏老年患者术后心肌损伤风险降低相关，可能通过减轻疼痛与心肌损伤之间的联系。需要进一步的前瞻性试验来验证这些发现。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Zhang H, Wu J, Ni D, Sun Y, Ren Y, Miao Y, Jia N, Zhang Y, et al.",
+          "citation": "Anesthesiology. 2026 May 1;144(5):1094-1104. doi: 10.1097/ALN.0000000000005921. Epub 2025 Dec 29.",
+          "doi": "10.1097/aln.0000000000005921",
+          "pmid": "41481162",
+          "pmcid": "PMC13089831",
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "疼痛与区域麻醉",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "question": "髋部骨折术后心肌损伤常见且与死亡率增加相关，而急性疼痛是重要危险因素。该研究提示单次注射外周神经阻滞可能通过缓解疼痛降低心肌损伤风险，为围术期管理提供了潜在干预靶点，但需谨慎解读其观察性本质。",
+          "conclusion": "在接受髋部骨折手术的高危心脏老年患者中，单次注射外周神经阻滞作为全身麻醉或椎管内麻醉的辅助手段，与术后心肌损伤风险降低相关（校正比值比0.60，95%CI 0.44-0.82，P=0.002），但该关联可能受混杂因素影响，需前瞻性试验验证。",
+          "clinical": "单次注射外周神经阻滞可能作为高危心脏老年髋部骨折手术患者降低术后心肌损伤风险的辅助策略，但需结合患者个体情况权衡风险与获益。 该研究为观察性证据，不能直接作为临床强制推荐依据，需等待前瞻性随机对照试验证实。 在等待进一步证据期间，临床决策应综合考虑疼痛管理、神经阻滞的禁忌症及患者意愿。",
+          "evidence": "中等偏高",
+          "score": 71,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 18,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "双中心回顾性队列研究"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Patients 65 yr or older who underwent hip fracture surgery during general or neuraxial anesthesia between 2012 and 2023；1,467 patients"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Single-injection peripheral nerve block (PNB) as an adjunct to general or neuraxial anesthesia；对照：No peripheral nerve block (non-PNB group)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Postoperative myocardial injury, defined as any postoperative cardiac troponin measurement exceeding the 99th percentile upper reference limit during the index hospitalization"
+            }
+          ],
+          "keyPoints": [
+            "单次注射外周神经阻滞与高危心脏老年髋部骨折手术患者术后心肌损伤风险降低相关（aOR 0.60，95%CI 0.44-0.82，P=0.002）。",
+            "PNB组心肌损伤发生率12.0%，非PNB组21.5%。",
+            "研究为回顾性队列研究，存在未测量混杂和缺失数据等局限。",
+            "结论需前瞻性试验验证，不能直接作为因果证据。"
+          ],
+          "methods": "髋部骨折术后心肌损伤常见且与死亡率增加相关。急性疼痛是重要危险因素，但外周神经阻滞能否减少术后心肌损伤尚不清楚。本研究旨在评估单次注射外周神经阻滞作为全身麻醉或椎管内麻醉辅助手段，与高危心脏老年患者髋部骨折术后心肌损伤的关联。",
+          "results": "共纳入1467例患者。PNB组术后心肌损伤发生率为12.0%（96/798），非PNB组为21.5%（144/669）。加权logistic回归分析显示，单次注射PNB与术后心肌损伤风险显著降低相关（校正比值比0.60；95%CI 0.44-0.82；P=0.002）。",
+          "mainResults": "共纳入1467例患者。PNB组术后心肌损伤发生率为12.0%（96/798），非PNB组为21.5%（144/669）。加权logistic回归分析显示，单次注射PNB与术后心肌损伤风险显著降低相关（校正比值比0.60；95%CI 0.44-0.82；P=0.002）。",
+          "limitations": [
+            "潜在的未测量混杂因素可能影响结果。",
+            "数据缺失率高（24.3%的病例），尽管采用多重插补，仍可能引入偏倚。",
+            "回顾性设计无法确立因果关系。",
+            "研究人群为高危心脏老年患者，结果可能不适用于其他人群。"
+          ],
+          "practice": [
+            "单次注射外周神经阻滞可能作为高危心脏老年髋部骨折手术患者降低术后心肌损伤风险的辅助策略，但需结合患者个体情况权衡风险与获益。",
+            "该研究为观察性证据，不能直接作为临床强制推荐依据，需等待前瞻性随机对照试验证实。",
+            "在等待进一步证据期间，临床决策应综合考虑疼痛管理、神经阻滞的禁忌症及患者意愿。"
+          ],
+          "editor": "研究结果支持单次注射外周神经阻滞与术后心肌损伤风险降低相关，但证据等级为观察性，需谨慎解读。 过度解读风险：存在将观察性关联误读为因果关系的风险，且比值比在结局常见时不能直接解释为风险比，可能高估效应。",
+          "whyItMatters": "髋部骨折术后心肌损伤常见且与死亡率增加相关，而急性疼痛是重要危险因素。该研究提示单次注射外周神经阻滞可能通过缓解疼痛降低心肌损伤风险，为围术期管理提供了潜在干预靶点，但需谨慎解读其观察性本质。",
+          "background": "髋部骨折术后心肌损伤常见且与死亡率增加相关。急性疼痛是重要危险因素，但外周神经阻滞能否减少术后心肌损伤尚不清楚。本研究旨在评估单次注射外周神经阻滞作为全身麻醉或椎管内麻醉辅助手段，与高危心脏老年患者髋部骨折术后心肌损伤的关联。",
+          "pico": {
+            "population": "Patients 65 yr or older who underwent hip fracture surgery during general or neuraxial anesthesia between 2012 and 2023",
+            "intervention": "Single-injection peripheral nerve block (PNB) as an adjunct to general or neuraxial anesthesia",
+            "comparison": "No peripheral nerve block (non-PNB group)",
+            "outcome": "Postoperative myocardial injury, defined as any postoperative cardiac troponin measurement exceeding the 99th percentile upper reference limit during the index hospitalization"
+          },
+          "studyType": "双中心回顾性队列研究",
+          "sampleSize": "1,467 patients",
+          "primaryOutcome": "Postoperative myocardial injury, defined as any postoperative cardiac troponin measurement exceeding the 99th percentile upper reference limit during the index hospitalization",
+          "effectSize": [
+            "adjusted odds ratio, 0.60"
+          ],
+          "confidenceInterval": [
+            "95% CI, 0.44 to 0.82"
+          ],
+          "pValue": [
+            "P = 0.002"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持单次注射外周神经阻滞与术后心肌损伤风险降低相关，但证据等级为观察性，需谨慎解读。",
+            "overinterpretationRisk": "存在将观察性关联误读为因果关系的风险，且比值比在结局常见时不能直接解释为风险比，可能高估效应。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text",
+              "limitations": [
+                "当前可获取内容未提供该数据。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "在接受髋部骨折手术的高危心脏老年患者中，单次注射外周神经阻滞作为全身麻醉或椎管内麻醉的辅助手段，是否与术后心肌损伤风险降低相关？",
+              "designFit": "回顾性队列设计适合评估干预与结局的关联，但无法控制未测量混杂，且不能确立因果关系。",
+              "eligibility": "纳入2012年至2023年间接受髋部骨折手术、年龄≥65岁、在全身麻醉或椎管内麻醉下进行的高危心脏老年患者。",
+              "randomization": "未进行随机化，为观察性研究。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "不适用（观察性研究）。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "随访至住院期间，具体时长未报告。",
+              "analysisPopulation": "最终分析纳入1467例患者。",
+              "missingData": "缺失数据占24.3%，采用多重插补处理。",
+              "strengths": [
+                "多中心（双中心）设计可能增加样本代表性。",
+                "使用逆概率加权调整27个基线和术中变量，控制已知混杂。",
+                "采用多重插补处理缺失数据。"
+              ],
+              "concerns": [
+                "回顾性设计存在选择偏倚和信息偏倚风险。",
+                "未测量混杂可能影响结果。",
+                "缺失数据比例较高，尽管插补，仍可能引入偏倚。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "logistic-regression",
+                  "name": "Logistic回归",
+                  "purposeInStudy": "估计PNB与非PNB组术后心肌损伤的比值比，调整混杂因素。",
+                  "reportedResult": "校正比值比0.60；95%CI 0.44-0.82；P=0.002。",
+                  "interpretation": "PNB组术后心肌损伤的几率比非PNB组低40%，但比值比在结局常见时不能直接解释为风险比。",
+                  "cautions": [
+                    "结局发生率较高（12.0%和21.5%），比值比可能高估效应大小。",
+                    "观察性研究中的比值比可能受未测量混杂影响。"
+                  ],
+                  "standardExplanation": "分析二分类结局并常以比值比表示关联；比值比不能在结局常见时直接当作风险比。"
+                }
+              ],
+              "adjustedVariables": "基于27个基线和术中变量进行逆概率加权调整，具体变量列表未在摘要中提供。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "统计上显著（P=0.002），但临床意义需结合效应量大小和患者结局综合判断。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后心肌损伤，定义为住院期间任何术后心肌肌钙蛋白测量值超过第99百分位参考上限。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "绝对风险降低9.5%（21.5% vs 12.0%），相对风险降低约44%（基于比值比，但需注意比值比不等于风险比）。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心设计，样本量较大。",
+                "使用逆概率加权调整多个混杂因素。",
+                "采用多重插补处理缺失数据。"
+              ],
+              "limitations": [
+                "回顾性设计，存在未测量混杂。",
+                "数据缺失率高（24.3%）。",
+                "结局定义依赖肌钙蛋白测量，可能受临床实践影响。"
+              ],
+              "biasRisks": [
+                "选择偏倚：PNB组与非PNB组可能存在系统差异。",
+                "信息偏倚：肌钙蛋白测量可能不统一。",
+                "混杂偏倚：未测量因素如疼痛评分、手术细节等可能影响结果。"
+              ],
+              "certainty": "证据等级为低（观察性研究），需谨慎解读。",
+              "conclusionAlignment": "结论与结果一致，但作者也指出需前瞻性试验验证。",
+              "causalBoundary": "观察性关联不能确立因果关系，可能受混杂因素影响。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于高危心脏老年髋部骨折手术患者，尤其是存在急性疼痛风险者。",
+                "可作为多模式镇痛的一部分，但需个体化评估。"
+              ],
+              "nonApplicability": [
+                "不适用于非高危心脏患者或不同手术类型。",
+                "不适用于有神经阻滞禁忌症的患者。"
+              ],
+              "practiceChange": "当前证据不足以支持强制改变临床实践，但可考虑在合适患者中应用PNB作为辅助镇痛。",
+              "canDoNow": [
+                "在临床实践中，可结合患者具体情况和麻醉医师判断，考虑使用单次注射PNB作为辅助手段。",
+                "加强术后疼痛管理和肌钙蛋白监测。"
+              ],
+              "cannotConclude": [
+                "不能确定PNB与心肌损伤降低之间存在因果关系。",
+                "不能确定PNB对长期结局（如死亡率）的影响。"
+              ],
+              "evidenceGaps": [
+                "需要前瞻性随机对照试验验证。",
+                "需要评估不同神经阻滞类型和时机的影响。",
+                "需要评估对长期预后的影响。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41481162/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005921",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005921",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13089831/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42257652",
+          "number": "04",
+          "category": "气道管理",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-06-08",
+          "electronicPublicationDate": "2026-06-08",
+          "readingTime": "12 分钟",
+          "title": "腹部手术患者快速序贯诱导的实践与结局：一项多中心观察性队列研究",
+          "originalTitle": "Rapid Sequence Induction Practices and Outcomes in Abdominal Surgery Patients: A Multicenter Observational Cohort Study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "快速顺序诱导（RSI）在手术室中常用于快速建立气道并降低误吸风险，尤其是在接受腹部手术的患者中。目前麻醉医师使用的药物和RSI技术的实践模式尚未得到充分描述。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "这项观察性队列研究利用多中心围手术期结局组数据库，评估了2015年至2022年接受腹部手术的成年患者的RSI实践。主要目的是描述现代RSI实践。作者评估了诱导期药物使用和插管技术。作者假设，随着时间的推移，罗库溴铵将成为最常用的药物。此外，作者使用混合效应模型和目标最大似然估计研究了神经肌肉阻滞剂的选择如何影响结局。主要终点是30天死亡率。次要终点包括诱导后低氧血症、肺部并发症和急性肾损伤（AKI）。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在13个机构和82,772例病例中，有9,352例（11.3%）记录了RSI。最常见的神经肌肉阻滞剂是琥珀胆碱（70.5%）。然而，在研究期间，琥珀胆碱的使用显著减少（2015年占RSI病例的85.4%，2022年为37.3%；P < 0.0001），被罗库溴铵所取代。患者通常同时接受多种镇静药物。视频喉镜的使用更为频繁（RSI病例中占16.2%，非RSI病例中占8.0%；P < 0.0001）。与琥珀胆碱相比，罗库溴铵与死亡率（相对风险，0.85；95% CI，0.67至1.09）、低氧血症（相对风险，1.04；95% CI，0.61至1.77）、肺部并发症（相对风险，0.93；95% CI，0.81至1.06）或AKI（相对风险，1.05；95% CI，0.84至1.31）的不同风险无关。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在美国的各机构中，罗库溴铵越来越多地用于RSI，最终超过了琥珀胆碱。罗库溴铵的使用与死亡率、低氧血症、肺部并发症或AKI的不同风险无关。"
+              }
+            ],
+            "fullText": "BACKGROUND: 快速顺序诱导（RSI）在手术室中常用于快速建立气道并降低误吸风险，尤其是在接受腹部手术的患者中。目前麻醉医师使用的药物和RSI技术的实践模式尚未得到充分描述。METHODS: 这项观察性队列研究利用多中心围手术期结局组数据库，评估了2015年至2022年接受腹部手术的成年患者的RSI实践。主要目的是描述现代RSI实践。作者评估了诱导期药物使用和插管技术。作者假设，随着时间的推移，罗库溴铵将成为最常用的药物。此外，作者使用混合效应模型和目标最大似然估计研究了神经肌肉阻滞剂的选择如何影响结局。主要终点是30天死亡率。次要终点包括诱导后低氧血症、肺部并发症和急性肾损伤（AKI）。RESULTS: 在13个机构和82,772例病例中，有9,352例（11.3%）记录了RSI。最常见的神经肌肉阻滞剂是琥珀胆碱（70.5%）。然而，在研究期间，琥珀胆碱的使用显著减少（2015年占RSI病例的85.4%，2022年为37.3%；P < 0.0001），被罗库溴铵所取代。患者通常同时接受多种镇静药物。视频喉镜的使用更为频繁（RSI病例中占16.2%，非RSI病例中占8.0%；P < 0.0001）。与琥珀胆碱相比，罗库溴铵与死亡率（相对风险，0.85；95% CI，0.67至1.09）、低氧血症（相对风险，1.04；95% CI，0.61至1.77）、肺部并发症（相对风险，0.93；95% CI，0.81至1.06）或AKI（相对风险，1.05；95% CI，0.84至1.31）的不同风险无关。CONCLUSIONS: 在美国的各机构中，罗库溴铵越来越多地用于RSI，最终超过了琥珀胆碱。罗库溴铵的使用与死亡率、低氧血症、肺部并发症或AKI的不同风险无关。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Marcus SG, Mathis M, Bokoch MP, Freundlich R, Chen D, Chen LL, Legrand M",
+          "citation": "Anesthesiology. 2026 Sep 1;145(3):580-590. doi: 10.1097/ALN.0000000000006165. Epub 2026 Jun 8.",
+          "doi": "10.1097/aln.0000000000006165",
+          "pmid": "42257652",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "question": "快速序贯诱导是临床常用技术，但不同神经肌肉阻滞剂的选择可能影响患者预后。本研究基于大型多中心数据库，描述了现代RSI实践模式，并比较了罗库溴铵与琥珀胆碱的临床结局，为临床用药选择提供了观察性证据。",
+          "conclusion": "在腹部手术患者中，罗库溴铵用于快速序贯诱导的比例随时间增加并最终超过琥珀胆碱，但与琥珀胆碱相比，罗库溴铵与30天死亡率、诱导后低氧、肺部并发症或急性肾损伤的风险差异无统计学意义。",
+          "clinical": "在腹部手术RSI中，罗库溴铵的使用比例随时间增加，可能反映临床实践变化。 罗库溴铵与琥珀胆碱相比，在主要结局上未观察到统计学差异，但需注意观察性研究的局限性。 视频喉镜在RSI中的使用率更高，可能提示气道管理技术的变化。",
+          "evidence": "中等",
+          "score": 67,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 18,
+            "clinicalImpact": 15,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心观察性队列研究，利用多中心围术期结局组数据库，采用混合效应模型和目标最大似然估计分析神经肌肉阻滞剂选择与结局的关系。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adult patients undergoing abdominal surgery from 2015 to 2022；82,772 cases, 9,352 (11.3%) had a documented RSI"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Rocuronium for rapid sequence induction；对照：Succinylcholine for rapid sequence induction"
+            },
+            {
+              "label": "主要终点",
+              "value": "30-day mortality"
+            }
+          ],
+          "keyPoints": [
+            "琥珀胆碱是最常用的神经肌肉阻滞剂，但使用比例随时间下降。",
+            "罗库溴铵使用比例增加，最终超过琥珀胆碱。",
+            "罗库溴铵与琥珀胆碱相比，30天死亡率、低氧、肺部并发症和急性肾损伤风险无显著差异。",
+            "视频喉镜在RSI中的使用率高于非RSI。"
+          ],
+          "methods": "快速序贯诱导（RSI）常在手术室内进行，以快速建立气道并降低误吸风险，尤其适用于腹部手术患者。目前麻醉医师对RSI药物和技术实践模式尚缺乏详细描述。",
+          "results": "共纳入13家机构的82,772例病例，其中9,352例（11.3%）记录了RSI。最常用的神经肌肉阻滞剂为琥珀胆碱（70.5%），但其使用比例在研究期间显著下降（2015年85.4% vs 2022年37.3%；P < 0.0001），被罗库溴铵取代。患者通常联合使用多种镇静药。视频喉镜在RSI中使用更频繁（16.2% vs 非RSI 8.0%；P < 0.0001）。与琥珀胆碱相比，罗库溴铵与死亡率（相对风险0.85；95% CI 0.67-1.09）、低氧（相对风险1.04；95% CI 0.61-1.77）、肺部并发症（相对风险0.93；95% CI 0.81-1.06）或急性肾损伤（相对风险1.05；95% CI 0.84-1.31）的风险差异均无统计学意义。",
+          "mainResults": "共纳入13家机构的82,772例病例，其中9,352例（11.3%）记录了RSI。最常用的神经肌肉阻滞剂为琥珀胆碱（70.5%），但其使用比例在研究期间显著下降（2015年85.4% vs 2022年37.3%；P < 0.0001），被罗库溴铵取代。患者通常联合使用多种镇静药。视频喉镜在RSI中使用更频繁（16.2% vs 非RSI 8.0%；P < 0.0001）。与琥珀胆碱相比，罗库溴铵与死亡率（相对风险0.85；95% CI 0.67-1.09）、低氧（相对风险1.04；95% CI 0.61-1.77）、肺部并发症（相对风险0.93；95% CI 0.81-1.06）或急性肾损伤（相对风险1.05；95% CI 0.84-1.31）的风险差异均无统计学意义。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "观察性研究设计，可能存在混杂和选择偏倚。",
+            "未报告缺失数据、随访完整性、调整变量等细节。",
+            "仅基于摘要，无法全面评估方法学质量。"
+          ],
+          "practice": [
+            "在腹部手术RSI中，罗库溴铵的使用比例随时间增加，可能反映临床实践变化。",
+            "罗库溴铵与琥珀胆碱相比，在主要结局上未观察到统计学差异，但需注意观察性研究的局限性。",
+            "视频喉镜在RSI中的使用率更高，可能提示气道管理技术的变化。"
+          ],
+          "editor": "研究结果支持罗库溴铵与琥珀胆碱在RSI中的结局无显著差异，但证据等级为观察性研究，需谨慎解读。 过度解读风险：存在将无统计学差异误解为等效的风险，且观察性研究不能确立因果关系。",
+          "whyItMatters": "快速序贯诱导是临床常用技术，但不同神经肌肉阻滞剂的选择可能影响患者预后。本研究基于大型多中心数据库，描述了现代RSI实践模式，并比较了罗库溴铵与琥珀胆碱的临床结局，为临床用药选择提供了观察性证据。",
+          "background": "快速序贯诱导（RSI）常在手术室内进行，以快速建立气道并降低误吸风险，尤其适用于腹部手术患者。目前麻醉医师对RSI药物和技术实践模式尚缺乏详细描述。",
+          "pico": {
+            "population": "Adult patients undergoing abdominal surgery from 2015 to 2022",
+            "intervention": "Rocuronium for rapid sequence induction",
+            "comparison": "Succinylcholine for rapid sequence induction",
+            "outcome": "30-day mortality"
+          },
+          "studyType": "多中心观察性队列研究，利用多中心围术期结局组数据库，采用混合效应模型和目标最大似然估计分析神经肌肉阻滞剂选择与结局的关系。",
+          "sampleSize": "82,772 cases, 9,352 (11.3%) had a documented RSI",
+          "primaryOutcome": "30-day mortality",
+          "effectSize": [
+            "relative risk, 0.85",
+            "relative risk, 1.04",
+            "relative risk, 0.93",
+            "relative risk, 1.05"
+          ],
+          "confidenceInterval": [
+            "95% CI, 0.67 to 1.09",
+            "95% CI, 0.61 to 1.77",
+            "95% CI, 0.81 to 1.06",
+            "95% CI, 0.84 to 1.31"
+          ],
+          "pValue": [
+            "P < 0.0001",
+            "P < 0.0001"
+          ],
+          "adverseEvents": "No significant difference in mortality, hypoxia, pulmonary complications, or AKI between rocuronium and succinylcholine.",
+          "aiAssessment": {
+            "support": "研究结果支持罗库溴铵与琥珀胆碱在RSI中的结局无显著差异，但证据等级为观察性研究，需谨慎解读。",
+            "overinterpretationRisk": "存在将无统计学差异误解为等效的风险，且观察性研究不能确立因果关系。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文，无法评估方法学细节、数据完整性、敏感性分析等。",
+                "未报告调整变量、缺失数据处理、随访完整性等关键信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "描述现代RSI实践模式，并比较罗库溴铵与琥珀胆碱对腹部手术患者结局的影响。",
+              "designFit": "观察性队列研究适合描述实践模式和关联，但无法确立因果关系。",
+              "eligibility": "2015至2022年接受腹部手术的成年患者，具体纳入排除标准未在摘要中报告。",
+              "randomization": "未进行随机化，为观察性研究。",
+              "allocationConcealment": "不适用，观察性研究。",
+              "blinding": "未报告，观察性研究通常不设盲。",
+              "sampleSizePlanning": "未报告样本量计算，但样本量较大（82,772例）。",
+              "followUp": "未报告随访时间，但主要结局为30天死亡率。",
+              "analysisPopulation": "未明确分析人群，可能为完整病例分析。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多中心、大样本，提高代表性。",
+                "使用混合效应模型和TMLE调整混杂。"
+              ],
+              "concerns": [
+                "观察性设计可能存在残余混杂。",
+                "未报告缺失数据、敏感性分析等。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "mixed-effects",
+                  "name": "混合效应模型",
+                  "purposeInStudy": "评估神经肌肉阻滞剂选择与结局的关联，同时考虑中心等随机效应。",
+                  "reportedResult": "罗库溴铵与琥珀胆碱相比，各结局的相对风险及95% CI。",
+                  "interpretation": "未发现统计学显著差异。",
+                  "cautions": [
+                    "观察性研究，可能存在未测量的混杂。",
+                    "未报告调整变量，无法评估模型充分性。"
+                  ],
+                  "standardExplanation": "处理重复测量、中心或个体内相关性，同时估计固定效应和随机效应。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "无统计学差异不等于临床等效，需考虑置信区间宽度和临床意义。"
+            },
+            "outcomeAnalysis": {
+              "primary": "30天死亡率：相对风险0.85，95% CI 0.67-1.09，无统计学差异。",
+              "secondary": [
+                "诱导后低氧：相对风险1.04，95% CI 0.61-1.77，无统计学差异。",
+                "肺部并发症：相对风险0.93，95% CI 0.81-1.06，无统计学差异。",
+                "急性肾损伤：相对风险1.05，95% CI 0.84-1.31，无统计学差异。"
+              ],
+              "safety": "未报告严重不良事件，但主要结局均无显著差异。",
+              "absoluteVsRelative": "仅报告相对风险，未报告绝对风险差异。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心、大样本，提高外部有效性。",
+                "使用混合效应模型和TMLE控制混杂。"
+              ],
+              "limitations": [
+                "观察性设计，可能存在选择偏倚和残余混杂。",
+                "仅基于摘要，无法评估方法学细节。",
+                "未报告缺失数据、随访完整性等。"
+              ],
+              "biasRisks": [
+                "选择偏倚：RSI与非RSI患者可能不同。",
+                "混杂偏倚：药物选择可能受患者状况影响。",
+                "信息偏倚：数据库记录可能不完整。"
+              ],
+              "certainty": "证据等级为低至中等，因观察性设计。",
+              "conclusionAlignment": "结论与结果一致，但需注意无差异不等于等效。",
+              "causalBoundary": "观察性研究不能确立因果关系，只能提示关联。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于接受腹部手术并需要RSI的成年患者。",
+                "结果可能适用于美国多中心实践。"
+              ],
+              "nonApplicability": [
+                "不适用于其他手术类型或非RSI患者。",
+                "不适用于儿童、孕妇等特殊人群。"
+              ],
+              "practiceChange": "当前证据不足以支持改变临床实践，但可能支持罗库溴铵作为琥珀胆碱的替代选择。",
+              "canDoNow": [
+                "在RSI中，罗库溴铵和琥珀胆碱均可考虑，但需根据患者具体情况选择。",
+                "注意监测诱导后低氧等并发症。"
+              ],
+              "cannotConclude": [
+                "不能得出罗库溴铵与琥珀胆碱等效的结论。",
+                "不能确定罗库溴铵的长期安全性。"
+              ],
+              "evidenceGaps": [
+                "需要随机对照试验验证。",
+                "需要更多关于不同患者亚组的数据。",
+                "需要长期结局数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42257652/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006165",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006165",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41894258",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-06-01",
+          "electronicPublicationDate": "2026-03-27",
+          "readingTime": "11 分钟",
+          "title": "早产儿腹股沟疝修补术后呼吸暂停：个体参与者数据荟萃分析的危险因素更新",
+          "originalTitle": "Postanesthesia Apnea in Former Preterm Infants for Inguinal Herniorrhaphy: An Update of Risk Factors from an Individual Participant Data Meta-analysis.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "月经后年龄（PMA）是麻醉后呼吸暂停的主要危险因素。作者假设现代麻醉可能降低风险PMA临界阈值。这项个体参与者数据荟萃分析的目的是确定PMA高于该值时麻醉后呼吸暂停风险低于1%。分析了12项接受开放性腹股沟疝修补术的前瞻性研究的个体参与者数据。751名早产儿中有132名（17.6%）出现麻醉后呼吸暂停。数据显示，全身麻醉后麻醉后呼吸暂停风险约为10%、约5%和低于1%的PMA临界值分别为53周、57周和65周，而椎管内麻醉后分别约为38周、40周和45周。贫血仅是PMA超过48周的婴儿的危险因素。与椎管内麻醉相比，全身麻醉（无尾阻滞）和全身麻醉加尾阻滞的麻醉后呼吸暂停发生时间更早，发生几率更高（比值比分别为6，P=0.008和2.94，P=0.012）。麻醉技术具有重要影响；与全身麻醉相比，椎管内麻醉似乎降低了麻醉后呼吸暂停的风险PMA。"
+              }
+            ],
+            "fullText": "Postmenstrual age (PMA) is the major risk factor for postanesthesia apnea. The authors hypothesized that modern anesthesia may reduce the at-risk PMA cutoff threshold. The aim of this individual participant data meta-analysis was to identify the PMA above which postanesthesia apnea risk is less than 1%. Individual participant data from 12 prospective studies undergoing open inguinal herniorrhaphy were analyzed. A total of 132 of 751 (17.6%) former preterm infants experienced postanesthesia apnea. The data indicate that the PMA cutoff at which the risk of postanesthesia apnea was approximately 10%, approximately 5%, and less than 1% was 53 weeks, 57 weeks, and 65 weeks, respectively, after general anesthesia and approximately 38 weeks, 40 weeks, and 45 weeks, respectively, after neuraxial anesthesia. Anemia was a risk factor only for infants more than 48 weeks PMA. Postanesthesia apnea onset was earlier and odds for occurrence were higher for general anesthesia without (odds ratio, 6; P = 0.008) and with caudal block (odds ratio, 2.94; P = 0.012) compared to neuraxial anesthesia. Anesthetic technique has important implications; neuraxial anesthesia appears to reduce the at-risk PMA for postanesthesia apnea compared with general anesthesia.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Dalal PG, Cote CJ, Malviya S, Qiu T, McCann ME, Davidson A, Sale S, Bong CL, et al.",
+          "citation": "Anesthesiology. 2026 Jun 1;144(6):1442-1453. doi: 10.1097/ALN.0000000000005964. Epub 2026 Mar 27.",
+          "doi": "10.1097/aln.0000000000005964",
+          "pmid": "41894258",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Meta-Analysis"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉相关领域",
+            "Journal Article",
+            "Meta-Analysis"
+          ],
+          "question": "术后呼吸暂停是早产儿麻醉后的严重并发症，明确不同麻醉方式下风险低于1%的PMA阈值，有助于临床决策麻醉时机和方式，减少呼吸暂停相关不良事件。",
+          "conclusion": "在751例早产儿中，17.6%发生术后呼吸暂停；全身麻醉（无论是否联合骶管阻滞）较椎管内麻醉显著增加术后呼吸暂停风险，且风险低于1%所需的PMA阈值更高（65周 vs 45周）。",
+          "clinical": "椎管内麻醉较全身麻醉可显著降低术后呼吸暂停风险，并降低风险<1%所需的PMA阈值。 对于PMA<65周的早产儿，若选择全身麻醉，术后呼吸暂停风险可能超过1%，需加强监测。 贫血在较大PMA（>48周）婴儿中增加呼吸暂停风险，术前应评估并纠正贫血。",
+          "evidence": "中等",
+          "score": 66,
+          "scoreBreakdown": {
+            "relevance": 17,
+            "evidenceQuality": 23,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "个体参与者数据荟萃分析（基于12项前瞻性研究）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Former preterm infants undergoing open inguinal herniorrhaphy；751"
+            },
+            {
+              "label": "干预与比较",
+              "value": "General anesthesia with or without caudal block；对照：Neuraxial anesthesia"
+            },
+            {
+              "label": "主要终点",
+              "value": "Postanesthesia apnea"
+            }
+          ],
+          "keyPoints": [
+            "751例早产儿中，术后呼吸暂停发生率为17.6%。",
+            "全身麻醉后风险<1%的PMA阈值为65周，椎管内麻醉为45周。",
+            "全身麻醉（不伴骶管阻滞）较椎管内麻醉的呼吸暂停OR为6（P=0.008），伴骶管阻滞为2.94（P=0.012）。",
+            "贫血仅在PMA>48周的婴儿中是危险因素。"
+          ],
+          "methods": "既往研究认为PMA是术后呼吸暂停的主要危险因素，但现代麻醉技术可能改变风险阈值。本研究通过个体参与者数据荟萃分析，旨在确定术后呼吸暂停风险低于1%的PMA阈值，并比较不同麻醉方式的影响。",
+          "results": "共751例早产儿，132例（17.6%）发生术后呼吸暂停。全身麻醉后，术后呼吸暂停风险约为10%、5%和<1%的PMA阈值分别为53周、57周和65周；椎管内麻醉后分别为约38周、40周和45周。与椎管内麻醉相比，全身麻醉（不伴骶管阻滞）的呼吸暂停发生更早，比值比（OR）为6（P=0.008）；全身麻醉伴骶管阻滞的OR为2.94（P=0.012）。贫血仅在PMA>48周的婴儿中是危险因素。",
+          "mainResults": "共751例早产儿，132例（17.6%）发生术后呼吸暂停。全身麻醉后，术后呼吸暂停风险约为10%、5%和<1%的PMA阈值分别为53周、57周和65周；椎管内麻醉后分别为约38周、40周和45周。与椎管内麻醉相比，全身麻醉（不伴骶管阻滞）的呼吸暂停发生更早，比值比（OR）为6（P=0.008）；全身麻醉伴骶管阻滞的OR为2.94（P=0.012）。贫血仅在PMA>48周的婴儿中是危险因素。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "椎管内麻醉较全身麻醉可显著降低术后呼吸暂停风险，并降低风险<1%所需的PMA阈值。",
+            "对于PMA<65周的早产儿，若选择全身麻醉，术后呼吸暂停风险可能超过1%，需加强监测。",
+            "贫血在较大PMA（>48周）婴儿中增加呼吸暂停风险，术前应评估并纠正贫血。"
+          ],
+          "editor": "研究基于12项前瞻性研究的个体数据，样本量较大，结果支持椎管内麻醉较全身麻醉降低术后呼吸暂停风险，并提供了不同麻醉方式下的PMA阈值。 过度解读风险：需注意观察性关联不能直接推断因果关系；PMA阈值基于模型估计，存在不确定性；贫血与呼吸暂停的关联仅在亚组中观察到，需谨慎解读。",
+          "whyItMatters": "术后呼吸暂停是早产儿麻醉后的严重并发症，明确不同麻醉方式下风险低于1%的PMA阈值，有助于临床决策麻醉时机和方式，减少呼吸暂停相关不良事件。",
+          "background": "既往研究认为PMA是术后呼吸暂停的主要危险因素，但现代麻醉技术可能改变风险阈值。本研究通过个体参与者数据荟萃分析，旨在确定术后呼吸暂停风险低于1%的PMA阈值，并比较不同麻醉方式的影响。",
+          "pico": {
+            "population": "Former preterm infants undergoing open inguinal herniorrhaphy",
+            "intervention": "General anesthesia with or without caudal block",
+            "comparison": "Neuraxial anesthesia",
+            "outcome": "Postanesthesia apnea"
+          },
+          "studyType": "个体参与者数据荟萃分析（基于12项前瞻性研究）",
+          "sampleSize": "751",
+          "primaryOutcome": "Postanesthesia apnea",
+          "effectSize": [
+            "odds ratio, 6",
+            "odds ratio, 2.94"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "P = 0.008",
+            "P = 0.012"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究基于12项前瞻性研究的个体数据，样本量较大，结果支持椎管内麻醉较全身麻醉降低术后呼吸暂停风险，并提供了不同麻醉方式下的PMA阈值。",
+            "overinterpretationRisk": "需注意观察性关联不能直接推断因果关系；PMA阈值基于模型估计，存在不确定性；贫血与呼吸暂停的关联仅在亚组中观察到，需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文数据，无法评估研究设计细节、偏倚风险、统计方法等。",
+                "未提供置信区间、效应量精确值、亚组分析细节等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "确定术后呼吸暂停风险低于1%的PMA阈值，并比较不同麻醉方式（全身麻醉 vs 椎管内麻醉）对风险的影响。",
+              "designFit": "个体参与者数据荟萃分析适合汇总多个研究的数据，提高统计效能，并评估个体水平危险因素。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "751例既往早产儿，接受开放性腹股沟疝修补术。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "个体参与者数据荟萃分析可提供更精确的风险估计。",
+                "样本量较大（751例）。"
+              ],
+              "concerns": [
+                "摘要未提供研究间异质性、偏倚风险等信息。",
+                "未提供置信区间，无法评估效应量精确性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "未报告",
+                  "interpretation": "无法评价",
+                  "cautions": [
+                    "未提供统计方法细节，无法评估分析质量。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "贫血仅在PMA>48周的婴儿中是危险因素（亚组结果，需谨慎解读）。",
+              "clinicalVsStatisticalSignificance": "全身麻醉与椎管内麻醉的差异具有统计学意义（P<0.05），且临床意义重大（风险阈值差异明显）。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后呼吸暂停（132/751，17.6%）",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "绝对风险：全身麻醉后PMA<65周时风险>1%；椎管内麻醉后PMA<45周时风险>1%。相对风险：全身麻醉（不伴骶管阻滞）较椎管内麻醉OR=6，伴骶管阻滞OR=2.94。",
+              "subgroupAndInteraction": "贫血仅在PMA>48周的婴儿中增加风险（亚组结果，未提供交互作用P值）。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "个体参与者数据荟萃分析，样本量大。",
+                "提供了不同麻醉方式下的PMA阈值，具有临床实用性。"
+              ],
+              "limitations": [
+                "摘要信息有限，无法评估研究质量。",
+                "未提供置信区间，效应量精确性未知。",
+                "未报告异质性、偏倚风险等。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "中等（基于摘要，但缺乏细节，需全文评估）。",
+              "conclusionAlignment": "结论与数据一致，但需注意观察性关联。",
+              "causalBoundary": "本研究为观察性荟萃分析，不能证明因果关系，仅提示麻醉方式与呼吸暂停风险相关。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于既往早产、拟行开放性腹股沟疝修补术的婴儿。",
+                "椎管内麻醉可能降低术后呼吸暂停风险，尤其对于PMA<65周的婴儿。"
+              ],
+              "nonApplicability": [
+                "不适用于足月儿或非腹股沟疝手术。",
+                "不适用于其他麻醉方式（如区域阻滞联合镇静）。"
+              ],
+              "practiceChange": "可能促使临床医生在早产儿腹股沟疝手术中优先考虑椎管内麻醉，并延迟择期手术至PMA达到安全阈值。",
+              "canDoNow": [
+                "对于PMA<65周的早产儿，若选择全身麻醉，应加强术后呼吸监测。",
+                "考虑椎管内麻醉以降低呼吸暂停风险。",
+                "术前评估贫血，尤其对于PMA>48周的婴儿。"
+              ],
+              "cannotConclude": [
+                "不能确定最佳PMA阈值，因为未提供置信区间。",
+                "不能确定贫血与呼吸暂停的因果关系。",
+                "不能推广至其他手术或麻醉方式。"
+              ],
+              "evidenceGaps": [
+                "需要全文数据以评估研究质量和偏倚风险。",
+                "需要更多研究验证不同麻醉方式下的PMA阈值。",
+                "需要前瞻性研究证实麻醉方式与呼吸暂停的因果关系。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41894258/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005964",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005964",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-12T23:53:27.054Z",
       "mode": "production",
