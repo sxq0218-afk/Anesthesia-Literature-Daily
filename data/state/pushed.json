@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-13T23:52:33.350Z",
+  "updatedAt": "2026-08-14T23:29:49.325Z",
   "records": [
     {
       "pmid": "42359695",
@@ -833,6 +833,46 @@
       "status": "published",
       "runId": "2026-08-13T23-52-33.350Z",
       "firstPublishedAt": "2026-08-13T23:52:33.350Z"
+    },
+    {
+      "pmid": "41203018",
+      "doi": "10.1097/aln.0000000000005821",
+      "title": "Preoperative Hypnosis versus Mindfulness for Reducing Postoperative Symptoms in Breast Surgery: A Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-14T23-29-49.325Z",
+      "firstPublishedAt": "2026-08-14T23:29:49.325Z"
+    },
+    {
+      "pmid": "42565467",
+      "doi": "10.1097/aln.0000000000006311",
+      "title": "Fragility Index of Randomized Clinical Trials in Perioperative Anesthesia: A Methodological Survey of Guideline-Supporting Evidence.",
+      "status": "published",
+      "runId": "2026-08-14T23-29-49.325Z",
+      "firstPublishedAt": "2026-08-14T23:29:49.325Z"
+    },
+    {
+      "pmid": "42117732",
+      "doi": "10.1097/aln.0000000000006029",
+      "title": "Effects of a Mitochondrial Genetic Variant on Sevoflurane Hypersensitivity.",
+      "status": "published",
+      "runId": "2026-08-14T23-29-49.325Z",
+      "firstPublishedAt": "2026-08-14T23:29:49.325Z"
+    },
+    {
+      "pmid": "42117733",
+      "doi": "10.1097/aln.0000000000006014",
+      "title": "Postanesthesia Apnea in Former Preterm and Term Infants: A Qualitative Systematic Review and Meta-analysis.",
+      "status": "published",
+      "runId": "2026-08-14T23-29-49.325Z",
+      "firstPublishedAt": "2026-08-14T23:29:49.325Z"
+    },
+    {
+      "pmid": "41379942",
+      "doi": "10.1097/aln.0000000000005897",
+      "title": "Modulation of Pain Sensitivity by the Locus Coeruleus-Paraventricular Thalamic Nucleus-Anterior Cingulate Cortex Pathway in Mice.",
+      "status": "published",
+      "runId": "2026-08-14T23-29-49.325Z",
+      "firstPublishedAt": "2026-08-14T23:29:49.325Z"
     }
   ]
 }

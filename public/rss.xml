@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 13 Aug 2026 23:52:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 23:29:49 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-15 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-15/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-15/</guid>
+      <pubDate>Fri, 14 Aug 2026 23:29:49 GMT</pubDate>
+      <description>术前催眠与正念在乳腺手术中减少术后症状的比较：一项随机临床试验：在乳腺手术患者中，术前催眠相比正念可显著降低术后疲劳、情绪困扰和芬太尼用量，但未显著改善疼痛、恶心或不适。
+围术期麻醉随机对照试验的脆弱性指数：支持指南证据的方法学调查：支持围术期麻醉指南的随机优效性试验通常样本量较小，脆弱性指数中等偏低，提示统计结论常依赖于相对较少的事件数。
+线粒体遗传变异对七氟烷超敏反应的影响：携带线粒体DNA m.11232T&gt;C变异的个体在接触七氟烷等全身麻醉药后可能面临严重神经功能恶化的风险，而丙泊酚未显示类似效应。
+既往早产儿和足月儿麻醉后呼吸暂停：定性系统评价与荟萃分析：基于系统评价和荟萃回归，既往早产儿和足月儿麻醉后呼吸暂停的发生率中位数为7.6%，校正后较高的孕后年龄和较晚的发表年份与呼吸暂停风险降低相关，椎管内麻醉较全身麻醉的呼吸暂停风险更低。
+小鼠蓝斑核-丘脑室旁核-前扣带皮层通路对疼痛敏感性的调节：本研究在小鼠中鉴定出蓝斑核-丘脑室旁核-前扣带皮层通路，该通路通过丘脑皮层中继调节伤害性感觉敏化，且其激活比直接蓝斑核-前扣带皮层激活产生更强的疼痛调节作用。</description>
+    </item>
     <item>
       <title>2026-08-14 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-14/</link>

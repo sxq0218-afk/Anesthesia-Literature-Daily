@@ -1,7 +1,239 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T23:52:33.350Z",
+  "updatedAt": "2026-08-14T23:29:49.325Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-14T23:29:49.325Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-15T23:29:49.325Z",
+        "to": "2026-08-14T23:29:49.325Z",
+        "candidateCount": 272,
+        "discoveryCandidateCount": 10736,
+        "unseenCount": 183,
+        "duplicateCount": 89,
+        "priorityCandidateCount": 272,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 272,
+          "retrievedCount": 272,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 10,
+          "excludedCount": 290,
+          "excludedByReason": {
+            "journal-not-configured": 288,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 290,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 21
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 15
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 183,
+          "eligibleCount": 160,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 133,
+          "clinical": 88,
+          "basic": 4,
+          "other": 41
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41203018",
+          "title": "术前催眠与正念在乳腺手术中减少术后症状的比较：一项随机临床试验",
+          "originalTitle": "Preoperative Hypnosis versus Mindfulness for Reducing Postoperative Symptoms in Breast Surgery: A Randomized Clinical Trial.",
+          "journal": "Anesthesiology",
+          "conclusion": "在乳腺手术患者中，术前催眠相比正念可显著降低术后疲劳、情绪困扰和芬太尼用量，但未显著改善疼痛、恶心或不适。",
+          "pmid": "41203018"
+        },
+        {
+          "slug": "pmid-42565467",
+          "title": "围术期麻醉随机对照试验的脆弱性指数：支持指南证据的方法学调查",
+          "originalTitle": "Fragility Index of Randomized Clinical Trials in Perioperative Anesthesia: A Methodological Survey of Guideline-Supporting Evidence.",
+          "journal": "Anesthesiology",
+          "conclusion": "支持围术期麻醉指南的随机优效性试验通常样本量较小，脆弱性指数中等偏低，提示统计结论常依赖于相对较少的事件数。",
+          "pmid": "42565467"
+        },
+        {
+          "slug": "pmid-42117732",
+          "title": "线粒体遗传变异对七氟烷超敏反应的影响",
+          "originalTitle": "Effects of a Mitochondrial Genetic Variant on Sevoflurane Hypersensitivity.",
+          "journal": "Anesthesiology",
+          "conclusion": "携带线粒体DNA m.11232T>C变异的个体在接触七氟烷等全身麻醉药后可能面临严重神经功能恶化的风险，而丙泊酚未显示类似效应。",
+          "pmid": "42117732"
+        },
+        {
+          "slug": "pmid-42117733",
+          "title": "既往早产儿和足月儿麻醉后呼吸暂停：定性系统评价与荟萃分析",
+          "originalTitle": "Postanesthesia Apnea in Former Preterm and Term Infants: A Qualitative Systematic Review and Meta-analysis.",
+          "journal": "Anesthesiology",
+          "conclusion": "基于系统评价和荟萃回归，既往早产儿和足月儿麻醉后呼吸暂停的发生率中位数为7.6%，校正后较高的孕后年龄和较晚的发表年份与呼吸暂停风险降低相关，椎管内麻醉较全身麻醉的呼吸暂停风险更低。",
+          "pmid": "42117733"
+        },
+        {
+          "slug": "pmid-41379942",
+          "title": "小鼠蓝斑核-丘脑室旁核-前扣带皮层通路对疼痛敏感性的调节",
+          "originalTitle": "Modulation of Pain Sensitivity by the Locus Coeruleus-Paraventricular Thalamic Nucleus-Anterior Cingulate Cortex Pathway in Mice.",
+          "journal": "Anesthesiology",
+          "conclusion": "本研究在小鼠中鉴定出蓝斑核-丘脑室旁核-前扣带皮层通路，该通路通过丘脑皮层中继调节伤害性感觉敏化，且其激活比直接蓝斑核-前扣带皮层激活产生更强的疼痛调节作用。",
+          "pmid": "41379942"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-13T23:52:33.350Z",
       "search": {

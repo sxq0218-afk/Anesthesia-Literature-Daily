@@ -1,7 +1,1569 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T23:52:33.350Z",
+  "updatedAt": "2026-08-14T23:29:49.325Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-14T23:29:49.325Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-15T23:29:49.325Z",
+        "to": "2026-08-14T23:29:49.325Z",
+        "candidateCount": 272,
+        "discoveryCandidateCount": 10736,
+        "unseenCount": 183,
+        "duplicateCount": 89,
+        "priorityCandidateCount": 272,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 272,
+          "retrievedCount": 272,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 10,
+          "excludedCount": 290,
+          "excludedByReason": {
+            "journal-not-configured": 288,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 290,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 21
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 15
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 183,
+          "eligibleCount": 160,
+          "excludedCount": 23,
+          "excludedByReason": {
+            "journal-not-configured": 23
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 133,
+          "clinical": 88,
+          "basic": 4,
+          "other": 41
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 21,
+          "promptTokens": 48173,
+          "completionTokens": 20895,
+          "totalTokens": 69068
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41203018",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-03-01",
+          "electronicPublicationDate": "2025-11-07",
+          "readingTime": "12 分钟",
+          "title": "术前催眠与正念在乳腺手术中减少术后症状的比较：一项随机临床试验",
+          "originalTitle": "Preoperative Hypnosis versus Mindfulness for Reducing Postoperative Symptoms in Breast Surgery: A Randomized Clinical Trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "乳腺癌手术常伴有令人不适的术后症状，包括疼痛、恶心、疲劳和情绪困扰，这些症状会降低生活质量并延长恢复时间。本研究旨在检验术前催眠在减少乳腺癌术后症状方面的有效性。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "共有203名计划在挪威奥斯陆大学医院接受乳腺癌手术的女性参与了这项随机对照试验。患者在预定手术前2小时内被随机分配接受一次术前催眠或正念治疗。主要结局指标为术后疼痛、疲劳、恶心、不适和情绪困扰，采用100毫米视觉模拟评分法在全身麻醉苏醒后手术当天进行测量。其他测量指标包括术中及术后麻醉和镇痛药用量，以及手术持续时间（从患者病历中提取）。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "与正念对照组相比，接受术前催眠的患者术后疲劳感显著降低（平均差[MD]为6.4；95%置信区间[CI]为0.40至12.4；Cohen's d = 0.30），情绪困扰也显著减少（MD为5.7；95% CI为0.24至11.2；d = 0.24）。接受术前催眠的患者术后芬太尼用量也显著减少（MD为-0.03；95% CI为-0.047至-0.005；d = 0.54）。术前焦虑调节了催眠对术后情绪困扰的影响，对于术前焦虑水平较高的患者，催眠的益处更为明显。然而，在术后疼痛、恶心或不适方面，催眠组与正念组之间未发现显著差异。未报告与干预措施相关的不良事件。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在乳腺癌手术前进行简短的术前催眠，在减少术后疲劳、情绪困扰和芬太尼剂量方面似乎比正念更有效。催眠作为一种有前景的非药物、安全的干预措施，可用于减少某些术后症状。"
+              }
+            ],
+            "fullText": "BACKGROUND: 乳腺癌手术常伴有令人不适的术后症状，包括疼痛、恶心、疲劳和情绪困扰，这些症状会降低生活质量并延长恢复时间。本研究旨在检验术前催眠在减少乳腺癌术后症状方面的有效性。METHODS: 共有203名计划在挪威奥斯陆大学医院接受乳腺癌手术的女性参与了这项随机对照试验。患者在预定手术前2小时内被随机分配接受一次术前催眠或正念治疗。主要结局指标为术后疼痛、疲劳、恶心、不适和情绪困扰，采用100毫米视觉模拟评分法在全身麻醉苏醒后手术当天进行测量。其他测量指标包括术中及术后麻醉和镇痛药用量，以及手术持续时间（从患者病历中提取）。RESULTS: 与正念对照组相比，接受术前催眠的患者术后疲劳感显著降低（平均差[MD]为6.4；95%置信区间[CI]为0.40至12.4；Cohen's d = 0.30），情绪困扰也显著减少（MD为5.7；95% CI为0.24至11.2；d = 0.24）。接受术前催眠的患者术后芬太尼用量也显著减少（MD为-0.03；95% CI为-0.047至-0.005；d = 0.54）。术前焦虑调节了催眠对术后情绪困扰的影响，对于术前焦虑水平较高的患者，催眠的益处更为明显。然而，在术后疼痛、恶心或不适方面，催眠组与正念组之间未发现显著差异。未报告与干预措施相关的不良事件。CONCLUSIONS: 在乳腺癌手术前进行简短的术前催眠，在减少术后疲劳、情绪困扰和芬太尼剂量方面似乎比正念更有效。催眠作为一种有前景的非药物、安全的干预措施，可用于减少某些术后症状。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Reme SE, Munk A, Montgomery GH, Schnur JB, Falk R, Smits M, Jacobsen HB",
+          "citation": "Anesthesiology. 2026 Mar 1;144(3):559-569. doi: 10.1097/ALN.0000000000005821. Epub 2025 Nov 7.",
+          "doi": "10.1097/aln.0000000000005821",
+          "pmid": "41203018",
+          "pmcid": "PMC12875637",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "该研究为术前催眠作为非药物干预手段在围术期症状管理中的应用提供了随机对照证据，可能为临床提供一种安全、无创的辅助策略，以改善患者术后体验并减少阿片类药物使用。",
+          "conclusion": "在乳腺手术患者中，术前催眠相比正念可显著降低术后疲劳、情绪困扰和芬太尼用量，但未显著改善疼痛、恶心或不适。",
+          "clinical": "术前催眠可能作为非药物辅助手段，用于减轻术后疲劳和情绪困扰，并减少术后阿片类药物需求。 在临床实践中，可考虑将简短催眠作为术前准备的一部分，但需结合患者个体情况和偏好。 由于本研究未显示对疼痛、恶心和不适的显著改善，催眠不应替代常规镇痛和止吐措施。",
+          "evidence": "中等",
+          "score": 65,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 22,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "随机对照试验"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Women scheduled for breast cancer surgery at Oslo University Hospital, Oslo, Norway；203"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Preoperative hypnosis (single session, 15 min, within 2 h before surgery)；对照：Preoperative mindfulness (single session, 15 min, audio-recorded, within 2 h before surgery)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Postoperative pain, fatigue, nausea, discomfort, and emotional distress measured using 100-mm visual analog scales on the day of surgery after recovery from general anesthesia"
+            }
+          ],
+          "keyPoints": [
+            "术前催眠显著降低术后疲劳和情绪困扰。",
+            "术前催眠显著减少术后芬太尼用量。",
+            "术前焦虑水平高者，催眠对情绪困扰的改善更明显。",
+            "催眠与正念在术后疼痛、恶心和不适方面无显著差异。",
+            "未报告与干预相关的不良事件。"
+          ],
+          "methods": "乳腺癌手术常伴随疼痛、恶心、疲劳和情绪困扰等术后症状，影响生活质量和恢复。本研究旨在检验术前催眠在减少乳腺癌术后症状方面的有效性。",
+          "results": "共纳入203例患者。与正念组相比，术前催眠组术后疲劳显著降低（均差[MD]，6.4；95%CI，0.40至12.4；Cohen's d=0.30），情绪困扰显著降低（MD，5.7；95%CI，0.24至11.2；d=0.24），术后芬太尼用量显著减少（MD，-0.03；95%CI，-0.047至-0.005；d=0.54）。术前焦虑对催眠效果有调节作用，高焦虑患者情绪困扰改善更明显。但两组在术后疼痛、恶心和不适方面差异无统计学意义。未报告与干预相关的不良事件。",
+          "mainResults": "共纳入203例患者。与正念组相比，术前催眠组术后疲劳显著降低（均差[MD]，6.4；95%CI，0.40至12.4；Cohen's d=0.30），情绪困扰显著降低（MD，5.7；95%CI，0.24至11.2；d=0.24），术后芬太尼用量显著减少（MD，-0.03；95%CI，-0.047至-0.005；d=0.54）。术前焦虑对催眠效果有调节作用，高焦虑患者情绪困扰改善更明显。但两组在术后疼痛、恶心和不适方面差异无统计学意义。未报告与干预相关的不良事件。",
+          "limitations": [
+            "催眠为现场实施，而正念为录音播放，两者形式不同，可能影响比较的公平性。",
+            "疼痛评估在麻醉苏醒后约30分钟进行，残余麻醉效应可能导致疼痛评分普遍偏低。",
+            "进行了大量统计检验且未校正多重比较，结果需谨慎解读。",
+            "可能未纳入其他镇痛方式的影响。",
+            "研究在单一医疗中心进行，且术后症状管理良好，限制了结果的普适性。",
+            "仅涉及挪威城市地区的一家医院，结果可能不适用于其他环境。"
+          ],
+          "practice": [
+            "术前催眠可能作为非药物辅助手段，用于减轻术后疲劳和情绪困扰，并减少术后阿片类药物需求。",
+            "在临床实践中，可考虑将简短催眠作为术前准备的一部分，但需结合患者个体情况和偏好。",
+            "由于本研究未显示对疼痛、恶心和不适的显著改善，催眠不应替代常规镇痛和止吐措施。"
+          ],
+          "editor": "研究为随机对照设计，样本量适中，主要结局指标明确，效应量报告了95%CI和Cohen's d，结果支持术前催眠在减少术后疲劳、情绪困扰和芬太尼用量方面的短期获益。 过度解读风险：存在过度解读风险，因为研究未校正多重比较，且催眠与正念的干预形式不对等，可能夸大效应；同时，未发现对疼痛、恶心等主要症状的改善，结论应限定于特定结局。",
+          "whyItMatters": "该研究为术前催眠作为非药物干预手段在围术期症状管理中的应用提供了随机对照证据，可能为临床提供一种安全、无创的辅助策略，以改善患者术后体验并减少阿片类药物使用。",
+          "background": "乳腺癌手术常伴随疼痛、恶心、疲劳和情绪困扰等术后症状，影响生活质量和恢复。本研究旨在检验术前催眠在减少乳腺癌术后症状方面的有效性。",
+          "pico": {
+            "population": "Women scheduled for breast cancer surgery at Oslo University Hospital, Oslo, Norway",
+            "intervention": "Preoperative hypnosis (single session, 15 min, within 2 h before surgery)",
+            "comparison": "Preoperative mindfulness (single session, 15 min, audio-recorded, within 2 h before surgery)",
+            "outcome": "Postoperative pain, fatigue, nausea, discomfort, and emotional distress measured using 100-mm visual analog scales on the day of surgery after recovery from general anesthesia"
+          },
+          "studyType": "随机对照试验",
+          "sampleSize": "203",
+          "primaryOutcome": "Postoperative pain, fatigue, nausea, discomfort, and emotional distress measured using 100-mm visual analog scales on the day of surgery after recovery from general anesthesia",
+          "effectSize": [
+            "Cohen's d = 0.30",
+            "d = 0.24",
+            "d = 0.54"
+          ],
+          "confidenceInterval": [
+            "95% CI, 0.40 to 12.4",
+            "95% CI, 0.24 to 11.2",
+            "95% CI, -0.047 to -0.005"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "No adverse events attributed to the interventions were reported.",
+          "aiAssessment": {
+            "support": "研究为随机对照设计，样本量适中，主要结局指标明确，效应量报告了95%CI和Cohen's d，结果支持术前催眠在减少术后疲劳、情绪困扰和芬太尼用量方面的短期获益。",
+            "overinterpretationRisk": "存在过度解读风险，因为研究未校正多重比较，且催眠与正念的干预形式不对等，可能夸大效应；同时，未发现对疼痛、恶心等主要症状的改善，结论应限定于特定结局。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容仅包括摘要和部分全文节选，未提供完整方法学细节，如随机化具体流程、分配隐藏、盲法实施、样本量计算依据等。",
+                "未提供原始数据，无法独立验证统计结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "术前催眠与正念相比，能否减少乳腺癌手术后的术后症状？",
+              "designFit": "随机对照试验设计适合评估干预效果，可提供较高等级证据。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "随机对照设计，减少选择偏倚。",
+                "样本量203例，具有一定统计功效。",
+                "报告了效应量和置信区间。"
+              ],
+              "concerns": [
+                "干预形式不对等（现场催眠 vs 录音正念），可能引入表现偏倚。",
+                "未提及盲法，可能影响结果评估。",
+                "未提及多重比较校正。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价其适用性。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价。",
+                  "cautions": [
+                    "未报告具体统计检验方法，无法判断是否满足正态性、方差齐性等假设。",
+                    "未提及是否采用意向性分析或符合方案分析。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "研究进行了大量统计检验，但未进行多重比较校正，可能增加I类错误风险。",
+              "subgroupAnalysis": "亚组分析显示，术前焦虑水平调节了催眠对术后情绪困扰的影响，高焦虑患者获益更明显。该结果为亚组分析，需谨慎解读，不应外推至所有患者。",
+              "clinicalVsStatisticalSignificance": "虽然疲劳、情绪困扰和芬太尼用量的差异具有统计学意义，但效应量较小（d=0.24-0.54），临床意义需结合患者体验和成本效益进一步评估。"
+            },
+            "outcomeAnalysis": {
+              "primary": "主要结局为术后疼痛、疲劳、恶心、不适和情绪困扰，采用100mm视觉模拟评分。结果显示催眠组在疲劳和情绪困扰方面显著优于正念组，但疼痛、恶心和不适无显著差异。",
+              "secondary": [
+                "术后芬太尼用量：催眠组显著减少（MD=-0.03；95%CI，-0.047至-0.005；d=0.54）。",
+                "术中及术后麻醉和镇痛药用量：当前可获取内容未提供该数据。",
+                "手术时长：当前可获取内容未提供该数据。"
+              ],
+              "safety": "未报告与干预相关的不良事件。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "术前焦虑水平对催眠效果有调节作用，高焦虑患者在情绪困扰方面获益更明显。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机对照设计，减少偏倚。",
+                "样本量适中。",
+                "报告了效应量和置信区间。",
+                "干预为非药物、安全。"
+              ],
+              "limitations": [
+                "干预形式不对等。",
+                "未提及盲法。",
+                "未校正多重比较。",
+                "疼痛评估时间过早，可能受残余麻醉影响。",
+                "单中心研究，外推受限。"
+              ],
+              "biasRisks": [
+                "表现偏倚：由于干预形式不同，患者可能对催眠有更高期望。",
+                "检测偏倚：未提及结局评估者是否盲法。",
+                "多重比较增加假阳性风险。"
+              ],
+              "certainty": "中等。由于存在方法学局限，证据等级为中等，需进一步高质量研究验证。",
+              "conclusionAlignment": "结论与结果一致，但需注意结论中“更有效”的表述可能过于绝对，因为仅对部分结局有效。",
+              "causalBoundary": "由于是随机对照试验，可推断因果关系，但干预形式不对等可能影响因果解释，且未校正混杂因素。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于计划接受乳腺癌手术的女性患者，尤其是术前焦虑水平较高者。",
+                "可作为非药物辅助手段，用于减轻术后疲劳和情绪困扰，并减少阿片类药物需求。"
+              ],
+              "nonApplicability": [
+                "不适用于需要紧急手术或无法配合催眠的患者。",
+                "不适用于对催眠有禁忌症的患者。"
+              ],
+              "practiceChange": "当前证据尚不足以支持将术前催眠作为常规推荐，但可考虑在特定患者群体中作为辅助选择。",
+              "canDoNow": [
+                "在临床中，可对高焦虑患者尝试提供术前催眠，以改善术后情绪和减少阿片使用。",
+                "需确保催眠由经过培训的专业人员实施。"
+              ],
+              "cannotConclude": [
+                "不能得出催眠优于正念对所有术后症状均有效的结论。",
+                "不能确定催眠对长期结局（如慢性疼痛、恢复时间）的影响。",
+                "不能推广至其他手术类型或人群。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本、多中心研究。",
+                "需要标准化干预方案。",
+                "需要评估长期结局。",
+                "需要明确最佳实施时机和人群。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41203018/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005821",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005821",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12875637/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42565467",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-08-07",
+          "electronicPublicationDate": "2026-08-07",
+          "readingTime": "14 分钟",
+          "title": "围术期麻醉随机对照试验的脆弱性指数：支持指南证据的方法学调查",
+          "originalTitle": "Fragility Index of Randomized Clinical Trials in Perioperative Anesthesia: A Methodological Survey of Guideline-Supporting Evidence.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "脆弱性指数（FI）量化了试验结果中的微小变化如何改变统计显著性，提供了随机对照试验（RCT）结果数值稳定性的度量。尽管其使用日益增多，但在支持麻醉学指南的围手术期证据中，脆弱性尚未被系统性地检验。本研究评估了北美和欧洲围手术期临床实践指南中引用的RCT的FI、反向脆弱性指数（rFI）和脆弱性商数（FQ），并探讨了与脆弱性相关的试验特征。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们对2012年至2022年间发表的临床实践指南（CPGs）中引用的RCT进行了方法学调查。符合条件的试验包括在成人、儿科、产科、心血管和区域麻醉人群中具有二分类结局的平行组或析因设计RCT。经过分层随机抽样，主要分析仅限于优效性试验。使用支持每项指南推荐的二分类结局，计算了优效性队列的FI、rFI和FQ。使用预先指定的探索性负二项回归模型探讨了与FI相关的试验特征。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在确定的1,868项RCT中，639项符合纳入标准，主要分析包括161项优效性试验。中位样本量为120名参与者（IQR，80-310），中位FI为4（IQR，2-8）。心血管试验的中位FI最高（6 [IQR，1-13]），而儿科试验的中位FI最低（1 [IQR，1-5]）。在探索性多变量分析中，产科试验与成人试验相比，FI值更高（发生率比 [IRR]，1.63；95% CI，1.02-2.65），而单中心试验与多中心试验相比，FI值更低（IRR，0.52；95% CI，0.35-0.76）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "支持当代围手术期指南推荐的随机优效性试验通常规模较小，并显示出适度的脆弱性指数值，表明统计结论往往依赖于相对较少的结果事件。在解读围手术期证据时，脆弱性指标应补充而非替代既定的试验质量和证据确定性度量。"
+              }
+            ],
+            "fullText": "BACKGROUND: The Fragility Index (FI) quantifies how small changes in trial outcomes can alter statistical significance, providing a measure of the numerical stability of randomized controlled trial (RCT) results. Despite its growing use, fragility has not been systematically examined in the perioperative evidence supporting anesthesiology guidelines. This study evaluated the FI, Reverse Fragility Index (rFI), and Fragility Quotient (FQ) of RCTs cited in North American and European perioperative clinical practice guidelines and explored trial characteristics associated with fragility. METHODS: We conducted a methodological survey of RCTs referenced in clinical practice guidelines (CPGs) published between 2012 and 2022. Eligible trials included parallel-group or factorial RCTs with binary outcomes in adult, pediatric, obstetric, cardiovascular, and regional anesthesia populations. Following stratified random sampling, primary analyses were restricted to superiority trials. FI, rFI, and FQ were calculated for the superiority cohort using the binary outcome supporting each guideline recommendation. Trial characteristics associated with FI were explored using a prespecified exploratory negative binomial regression model. RESULTS: Out of 1,868 identified RCTs, 639 met the eligibility criteria, and primary analyses included 161 superiority trials. The median sample size was 120 participants (IQR, 80-310), and the median FI was 4 (IQR, 2-8). Cardiovascular trials had the highest median FI (6 [IQR, 1-13]), whereas pediatric trials had the lowest (1 [IQR, 1-5]). In the exploratory multivariable analysis, obstetric trials were associated with higher FI values than adult trials (incidence rate ratio [IRR], 1.63; 95% CI, 1.02-2.65), whereas single-center trials were associated with lower FI values than multicenter trials (IRR, 0.52; 95% CI, 0.35-0.76). CONCLUSIONS: Randomized superiority trials underpinning contemporary perioperative guideline recommendations are generally small and demonstrate modest Fragility Index values, indicating that statistical conclusions often depend on relatively few outcome events. Fragility metrics should complement, rather than replace, established measures of trial quality and evidence certainty when interpreting perioperative evidence.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Otalora-Esteban M, Segura-Salguero JC, Zabida A, Echeverri Mallarino V, Diaz-Bohada L, Artistizabal-Mayor JD, Munoz-Leyva F, Gil F, et al.",
+          "citation": "Anesthesiology. 2026 Aug 7. doi: 10.1097/ALN.0000000000006311.",
+          "doi": "10.1097/aln.0000000000006311",
+          "pmid": "42565467",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-design"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "该研究系统评估了围术期麻醉指南所引用随机对照试验的脆弱性，揭示了这些试验统计结果的稳定性可能不足，对临床指南的制定和解读具有重要警示意义。",
+          "conclusion": "支持围术期麻醉指南的随机优效性试验通常样本量较小，脆弱性指数中等偏低，提示统计结论常依赖于相对较少的事件数。",
+          "clinical": "围术期麻醉指南所依据的随机试验结果可能较为脆弱，临床医生在解读指南推荐时应考虑其统计稳定性。 脆弱性指标应作为试验质量和证据确定性的补充，而非替代，以更全面地评估围术期证据。",
+          "evidence": "中等",
+          "score": 65,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 8,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "方法学调查（methodological survey）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "RCTs cited in perioperative clinical practice guidelines (adult, pediatric, obstetric, cardiovascular, and regional anesthesia populations)；639 eligible trials; primary analyses included 161 superiority trials"
+            },
+            {
+              "label": "干预与比较",
+              "value": "当前可获取内容未提供该数据。；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "Fragility Index (FI), Reverse Fragility Index (rFI), and Fragility Quotient (FQ)"
+            }
+          ],
+          "keyPoints": [
+            "围术期麻醉指南引用的随机优效性试验中位FI为4，表明统计显著性可能因少数事件改变而逆转。",
+            "心血管试验的FI最高，儿科试验最低，提示不同亚专科的试验稳定性存在差异。",
+            "产科试验与较高FI相关，单中心试验与较低FI相关。",
+            "脆弱性指标应作为传统质量评估的补充。"
+          ],
+          "methods": "脆弱性指数（FI）量化了试验结果中微小变化如何改变统计显著性，提供了随机对照试验结果数值稳定性的度量。尽管其应用日益增多，但尚未在支持麻醉学指南的围术期证据中进行系统检查。本研究评估了北美和欧洲围术期临床实践指南引用的随机对照试验的FI、反向脆弱性指数（rFI）和脆弱性商数（FQ），并探讨了与脆弱性相关的试验特征。",
+          "results": "共识别1868项随机对照试验，639项符合纳入标准，主要分析纳入161项优效性试验。中位样本量为120名参与者（IQR，80-310），中位FI为4（IQR，2-8）。心血管试验的中位FI最高（6 [IQR，1-13]），而儿科试验最低（1 [IQR，1-5]）。探索性多变量分析中，产科试验与成人试验相比，FI值更高（发生率比[IRR]，1.63；95% CI，1.02-2.65），而单中心试验与多中心试验相比，FI值更低（IRR，0.52；95% CI，0.35-0.76）。",
+          "mainResults": "共识别1868项随机对照试验，639项符合纳入标准，主要分析纳入161项优效性试验。中位样本量为120名参与者（IQR，80-310），中位FI为4（IQR，2-8）。心血管试验的中位FI最高（6 [IQR，1-13]），而儿科试验最低（1 [IQR，1-5]）。探索性多变量分析中，产科试验与成人试验相比，FI值更高（发生率比[IRR]，1.63；95% CI，1.02-2.65），而单中心试验与多中心试验相比，FI值更低（IRR，0.52；95% CI，0.35-0.76）。",
+          "limitations": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "围术期麻醉指南所依据的随机试验结果可能较为脆弱，临床医生在解读指南推荐时应考虑其统计稳定性。",
+            "脆弱性指标应作为试验质量和证据确定性的补充，而非替代，以更全面地评估围术期证据。"
+          ],
+          "editor": "该研究为方法学调查，提供了围术期麻醉指南引用试验的脆弱性数据，提示这些试验的统计结论可能依赖于少数事件，支持在解读指南时考虑脆弱性指标。 过度解读风险：需注意，脆弱性指数仅反映统计稳定性，不直接等同于临床重要性；且本研究为观察性方法学调查，不能推断因果关系。",
+          "whyItMatters": "该研究系统评估了围术期麻醉指南所引用随机对照试验的脆弱性，揭示了这些试验统计结果的稳定性可能不足，对临床指南的制定和解读具有重要警示意义。",
+          "background": "脆弱性指数（FI）量化了试验结果中微小变化如何改变统计显著性，提供了随机对照试验结果数值稳定性的度量。尽管其应用日益增多，但尚未在支持麻醉学指南的围术期证据中进行系统检查。本研究评估了北美和欧洲围术期临床实践指南引用的随机对照试验的FI、反向脆弱性指数（rFI）和脆弱性商数（FQ），并探讨了与脆弱性相关的试验特征。",
+          "pico": {
+            "population": "RCTs cited in perioperative clinical practice guidelines (adult, pediatric, obstetric, cardiovascular, and regional anesthesia populations)",
+            "intervention": "当前可获取内容未提供该数据。",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "Fragility Index (FI), Reverse Fragility Index (rFI), and Fragility Quotient (FQ)"
+          },
+          "studyType": "方法学调查（methodological survey）",
+          "sampleSize": "639 eligible trials; primary analyses included 161 superiority trials",
+          "primaryOutcome": "Fragility Index (FI), Reverse Fragility Index (rFI), and Fragility Quotient (FQ)",
+          "effectSize": [
+            "IRR 1.63; 95% CI, 1.02-2.65",
+            "IRR 0.52; 95% CI, 0.35-0.76"
+          ],
+          "confidenceInterval": [
+            "1.02-2.65",
+            "0.35-0.76"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究为方法学调查，提供了围术期麻醉指南引用试验的脆弱性数据，提示这些试验的统计结论可能依赖于少数事件，支持在解读指南时考虑脆弱性指标。",
+            "overinterpretationRisk": "需注意，脆弱性指数仅反映统计稳定性，不直接等同于临床重要性；且本研究为观察性方法学调查，不能推断因果关系。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要分析，未获取全文数据，可能遗漏方法学细节和完整结果。",
+                "未提供试验筛选流程图、具体指南列表、统计模型调整变量等详细信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估围术期麻醉指南引用的随机对照试验的脆弱性指数，并探讨与脆弱性相关的试验特征。",
+              "designFit": "方法学调查设计适合评估现有试验的统计特性，但无法提供临床干预效果的直接证据。",
+              "eligibility": "纳入2012年至2022年发表的临床实践指南引用的平行组或析因设计、具有二元结局的随机对照试验，涵盖成人、儿童、产科、心血管和区域麻醉人群。",
+              "randomization": "采用分层随机抽样，但具体分层因素和抽样方法未在摘要中详述。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "主要分析限于优效性试验（161项）。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "系统评估围术期麻醉指南引用试验的脆弱性。",
+                "使用预设的探索性负二项回归模型分析试验特征与FI的关系。"
+              ],
+              "concerns": [
+                "仅基于摘要，无法评估试验质量、偏倚风险等。",
+                "未提供FI计算的具体方法细节。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "负二项回归模型",
+                  "purposeInStudy": "探索试验特征与FI的关联",
+                  "reportedResult": "产科试验与成人试验相比，IRR=1.63（95% CI，1.02-2.65）；单中心试验与多中心试验相比，IRR=0.52（95% CI，0.35-0.76）",
+                  "interpretation": "产科试验的FI值显著高于成人试验，单中心试验的FI值显著低于多中心试验。",
+                  "cautions": [
+                    "该模型为探索性分析，未提供调整变量信息。",
+                    "未报告P值，无法判断统计学显著性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "按试验类型（心血管、儿科等）进行了亚组描述，但未提供交互作用检验。",
+              "clinicalVsStatisticalSignificance": "FI反映统计稳定性，不直接等同于临床重要性；临床获益需结合效应量和临床结局判断。"
+            },
+            "outcomeAnalysis": {
+              "primary": "脆弱性指数（FI）、反向脆弱性指数（rFI）和脆弱性商数（FQ）",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "亚组分析显示心血管试验FI最高（6），儿科最低（1），但未提供交互作用检验。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "研究问题明确，方法学调查设计合理。",
+                "样本量较大（639项合格试验，161项优效性试验）。"
+              ],
+              "limitations": [
+                "仅基于摘要，无法全面评估方法学质量。",
+                "未提供FI计算的具体细节和敏感性分析。"
+              ],
+              "biasRisks": [
+                "选择偏倚：仅纳入指南引用的试验，可能不代表所有围术期RCT。",
+                "发表偏倚：指南可能更倾向于引用阳性结果试验。"
+              ],
+              "certainty": "当前可获取内容未提供该数据。",
+              "conclusionAlignment": "结论与结果一致，但需注意脆弱性指数仅反映统计稳定性。",
+              "causalBoundary": "本研究为观察性方法学调查，不能推断试验特征与FI之间的因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于围术期麻醉指南制定者和临床医生，提醒关注试验结果的统计稳定性。"
+              ],
+              "nonApplicability": [
+                "不适用于直接指导个体患者治疗决策。"
+              ],
+              "practiceChange": "可能促使指南制定者考虑将脆弱性指标纳入证据评估，但需进一步研究。",
+              "canDoNow": [
+                "临床医生在解读指南推荐时，可考虑试验的脆弱性指数。"
+              ],
+              "cannotConclude": [
+                "不能根据本研究结果改变具体麻醉管理方案。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究探讨FI与临床结局的相关性。",
+                "需要评估不同试验设计下FI的适用性。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42565467/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006311",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006311",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42117732",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-06-01",
+          "electronicPublicationDate": "2026-03-09",
+          "readingTime": "10 分钟",
+          "title": "线粒体遗传变异对七氟烷超敏反应的影响",
+          "originalTitle": "Effects of a Mitochondrial Genetic Variant on Sevoflurane Hypersensitivity.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "近期，多个麻醉学会报告了来自委内瑞拉的儿科患者在全身麻醉下接受手术后出现严重神经功能障碍或死亡的病例。然而，这种情况的原因尚不清楚。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "对七名在主要小手术过程中接受全身麻醉后出现严重急性神经功能恶化的患者进行了临床和遗传学研究。还对用全身麻醉药处理的成纤维细胞和胞质杂交细胞进行了遗传分子、生化和细胞研究。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在我们的队列中，观察到围手术期急性事件与麻醉暴露在时间上相关。在仅使用静脉麻醉的同一组个体中，未观察到不良事件。所有患者共享一个线粒体DNA单倍型，该单倍型包含m.11232T>C遗传变异，该变异导致电子传递链中呼吸链复合体I的ND4亚基第158位亮氨酸被脯氨酸取代（L158P）。体外研究表明，携带该遗传变异的细胞暴露于七氟烷后，线粒体氧消耗显著抑制，对复合体I依赖性呼吸途径有显著影响。相比之下，丙泊酚在携带该遗传变异的细胞中未引起差异效应。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "这些发现提示，携带m.11232T>C线粒体DNA变异的个体在暴露于麻醉药物后可能面临严重神经功能恶化的风险增加。需要进一步研究以明确潜在机制并确定麻醉药物特异性风险。这些结果对提高手术干预的安全性具有重要意义，并为全身麻醉的线粒体药物遗传学领域开辟了新途径。"
+              }
+            ],
+            "fullText": "BACKGROUND: 近期，多个麻醉学会报告了来自委内瑞拉的儿科患者在全身麻醉下接受手术后出现严重神经功能障碍或死亡的病例。然而，这种情况的原因尚不清楚。 METHODS: 对七名在主要小手术过程中接受全身麻醉后出现严重急性神经功能恶化的患者进行了临床和遗传学研究。还对用全身麻醉药处理的成纤维细胞和胞质杂交细胞进行了遗传分子、生化和细胞研究。 RESULTS: 在我们的队列中，观察到围手术期急性事件与麻醉暴露在时间上相关。在仅使用静脉麻醉的同一组个体中，未观察到不良事件。所有患者共享一个线粒体DNA单倍型，该单倍型包含m.11232T>C遗传变异，该变异导致电子传递链中呼吸链复合体I的ND4亚基第158位亮氨酸被脯氨酸取代（L158P）。体外研究表明，携带该遗传变异的细胞暴露于七氟烷后，线粒体氧消耗显著抑制，对复合体I依赖性呼吸途径有显著影响。相比之下，丙泊酚在携带该遗传变异的细胞中未引起差异效应。 CONCLUSIONS: 这些发现提示，携带m.11232T>C线粒体DNA变异的个体在暴露于麻醉药物后可能面临严重神经功能恶化的风险增加。需要进一步研究以明确潜在机制并确定麻醉药物特异性风险。这些结果对提高手术干预的安全性具有重要意义，并为全身麻醉的线粒体药物遗传学领域开辟了新途径。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Sanz-Pons J, Aladren-Herrer C, Ortigoza-Escobar JD, Lopez-Gallardo E, Martin-Navarro A, Lanz-Martinez CA, Camacho-Medina YA, Fernandez-Gonzalez I, et al.",
+          "citation": "Anesthesiology. 2026 Jun 1;144(6):1286-1298. doi: 10.1097/ALN.0000000000006029. Epub 2026 Mar 9.",
+          "doi": "10.1097/aln.0000000000006029",
+          "pmid": "42117732",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究首次将线粒体DNA特定变异与全身麻醉药严重不良反应联系起来，提示麻醉药物安全性可能受患者遗传背景影响，为个体化麻醉选择和术前遗传筛查提供了新方向。",
+          "conclusion": "携带线粒体DNA m.11232T>C变异的个体在接触七氟烷等全身麻醉药后可能面临严重神经功能恶化的风险，而丙泊酚未显示类似效应。",
+          "clinical": "对于已知或疑似携带m.11232T>C变异的患者，应谨慎使用七氟烷等挥发性麻醉药，考虑替代方案如丙泊酚静脉麻醉。 术前遗传筛查可能有助于识别高风险个体，但需更多研究验证其临床可行性。",
+          "evidence": "中等",
+          "score": 65,
+          "scoreBreakdown": {
+            "relevance": 27,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "临床和遗传学研究，结合体外细胞实验（成纤维细胞和胞质杂交细胞）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "seven patients who experienced severe acute neurologic deterioration after the administration of general anesthetics during predominantly minor surgical procedures；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "General anesthetics, specifically sevoflurane；对照：Intravenous anesthesia (propofol)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Severe acute neurologic deterioration after anesthetic exposure"
+            }
+          ],
+          "keyPoints": [
+            "7名患者均携带线粒体DNA m.11232T>C变异（L158P）。",
+            "七氟烷暴露在体外显著抑制携带该变异的细胞的线粒体耗氧量。",
+            "丙泊酚未显示类似效应。",
+            "研究提示线粒体遗传变异可能影响麻醉药安全性。"
+          ],
+          "methods": "近期多个麻醉学会报告了委内瑞拉裔儿科患者在全身麻醉后出现严重神经功能损害或死亡的病例，但原因不明。本研究旨在探索这些病例的遗传学基础及麻醉药物暴露与神经损伤的关联。",
+          "results": "7名患者均携带线粒体DNA单倍型，包含m.11232T>C变异，导致呼吸链复合体I ND4亚基第158位亮氨酸被脯氨酸替代（L158P）。体外实验显示，携带该变异的细胞在七氟烷暴露后线粒体耗氧量显著抑制，尤其影响复合体I依赖性呼吸通路；而丙泊酚未显示差异效应。样本量、效应量、95%CI和P值均未报告。",
+          "mainResults": "7名患者均携带线粒体DNA单倍型，包含m.11232T>C变异，导致呼吸链复合体I ND4亚基第158位亮氨酸被脯氨酸替代（L158P）。体外实验显示，携带该变异的细胞在七氟烷暴露后线粒体耗氧量显著抑制，尤其影响复合体I依赖性呼吸通路；而丙泊酚未显示差异效应。样本量、效应量、95%CI和P值均未报告。",
+          "limitations": [
+            "样本量极小（7例），统计效力有限。",
+            "未报告效应量、置信区间和P值，无法量化风险大小。",
+            "体外实验结果外推至临床需谨慎，缺乏体内机制研究。",
+            "未报告患者具体手术类型、麻醉方案细节及神经功能恶化的评估标准。"
+          ],
+          "practice": [
+            "对于已知或疑似携带m.11232T>C变异的患者，应谨慎使用七氟烷等挥发性麻醉药，考虑替代方案如丙泊酚静脉麻醉。",
+            "术前遗传筛查可能有助于识别高风险个体，但需更多研究验证其临床可行性。"
+          ],
+          "editor": "研究设计包含临床病例和体外功能实验，结果一致指向线粒体变异与七氟烷超敏的关联，且丙泊酚对照提供了阴性对照。 过度解读风险：样本量小且无统计推断，观察性关联不能证明因果关系；体外实验不能完全模拟体内麻醉环境，需避免过度解读。",
+          "whyItMatters": "该研究首次将线粒体DNA特定变异与全身麻醉药严重不良反应联系起来，提示麻醉药物安全性可能受患者遗传背景影响，为个体化麻醉选择和术前遗传筛查提供了新方向。",
+          "background": "近期多个麻醉学会报告了委内瑞拉裔儿科患者在全身麻醉后出现严重神经功能损害或死亡的病例，但原因不明。本研究旨在探索这些病例的遗传学基础及麻醉药物暴露与神经损伤的关联。",
+          "pico": {
+            "population": "seven patients who experienced severe acute neurologic deterioration after the administration of general anesthetics during predominantly minor surgical procedures",
+            "intervention": "General anesthetics, specifically sevoflurane",
+            "comparison": "Intravenous anesthesia (propofol)",
+            "outcome": "Severe acute neurologic deterioration after anesthetic exposure"
+          },
+          "studyType": "临床和遗传学研究，结合体外细胞实验（成纤维细胞和胞质杂交细胞）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "Severe acute neurologic deterioration after anesthetic exposure",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "Severe acute neurologic deterioration after anesthetic exposure",
+          "aiAssessment": {
+            "support": "研究设计包含临床病例和体外功能实验，结果一致指向线粒体变异与七氟烷超敏的关联，且丙泊酚对照提供了阴性对照。",
+            "overinterpretationRisk": "样本量小且无统计推断，观察性关联不能证明因果关系；体外实验不能完全模拟体内麻醉环境，需避免过度解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文方法学细节。",
+                "未报告统计方法、效应量、置信区间和P值。",
+                "未提供患者个体数据、手术类型、麻醉管理细节。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "探索全身麻醉后严重神经功能恶化的遗传学原因，特别是线粒体DNA变异的作用。",
+              "designFit": "临床病例系列结合体外功能实验，适合初步探索罕见不良反应的遗传基础。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "不适用（观察性研究）。",
+              "allocationConcealment": "不适用。",
+              "blinding": "不适用。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "7名出现严重急性神经功能恶化的患者。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "结合临床和遗传学分析，并进行了体外功能验证。",
+                "使用丙泊酚作为对照，增强了特异性。"
+              ],
+              "concerns": [
+                "样本量极小，可能选择偏倚。",
+                "未报告统计方法，无法评估结果可靠性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "未报告效应量、置信区间或P值。",
+                  "interpretation": "无法进行统计推断。",
+                  "cautions": [
+                    "统计方法缺失，结果仅描述性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "未报告亚组分析。",
+              "clinicalVsStatisticalSignificance": "未报告统计显著性，临床意义基于观察到的关联和体外功能数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "严重急性神经功能恶化（未提供具体定义和评估标准）。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "严重急性神经功能恶化作为不良事件。",
+              "absoluteVsRelative": "未报告绝对或相对风险。",
+              "subgroupAndInteraction": "未报告。",
+              "sensitivity": "未报告。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多学科方法（临床、遗传、生化、细胞）。",
+                "发现特定线粒体变异与麻醉药反应相关。"
+              ],
+              "limitations": [
+                "样本量小，无统计推断。",
+                "体外实验不能完全代表体内情况。",
+                "未报告混杂因素控制。"
+              ],
+              "biasRisks": [
+                "选择偏倚（仅纳入出现不良事件的患者）。",
+                "报告偏倚（可能未报告阴性病例）。"
+              ],
+              "certainty": "低（基于摘要，缺乏详细方法）。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎。",
+              "causalBoundary": "观察性关联不能证明因果关系，体外实验支持但需体内验证。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "对于已知携带该变异的患者，麻醉选择可能需个体化。",
+                "未来可能用于术前遗传筛查。"
+              ],
+              "nonApplicability": [
+                "不能推广至所有人群，变异频率未知。",
+                "不适用于未携带该变异的患者。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践，但提示需关注遗传背景。",
+              "canDoNow": [
+                "对疑似高风险患者考虑替代麻醉药物。",
+                "积累更多病例和遗传数据。"
+              ],
+              "cannotConclude": [
+                "不能确定七氟烷与神经损伤的因果关系。",
+                "不能确定该变异的临床风险大小。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本的流行病学研究。",
+                "需要机制研究明确L158P变异如何影响麻醉药反应。",
+                "需要前瞻性研究验证麻醉药选择对结局的影响。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42117732/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006029",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006029",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42117733",
+          "number": "04",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-06-01",
+          "electronicPublicationDate": "2026-02-17",
+          "readingTime": "13 分钟",
+          "title": "既往早产儿和足月儿麻醉后呼吸暂停：定性系统评价与荟萃分析",
+          "originalTitle": "Postanesthesia Apnea in Former Preterm and Term Infants: A Qualitative Systematic Review and Meta-analysis.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "既往早产和足月婴儿存在麻醉后呼吸暂停的风险，但缺乏统一的监测和出院标准导致实践不一致。本研究的主要目的是确定麻醉后呼吸暂停的主要危险因素。本系统评价和meta回归分析遵循系统评价和荟萃分析优先报告条目（PRISMA）和美国医疗保健研究与质量局指南。文献检索包括英文病例报告、病例系列、临床研究和临床试验。检索了主要数据库从建库至2025年10月。共6191篇文章进行了标题和摘要筛选，491篇进行了全文筛选，173篇进行了详细审查。从173篇文章中的115篇提取数据（98项研究，17篇病例报告或系列）。在各研究中（早产或足月婴儿），呼吸暂停的中位发生率为7.6%（范围0至85%）。单变量meta回归分析（96篇合格文章）确定了五个显著的呼吸暂停预测因子：胎龄、手术时校正月龄、出生体重、手术持续时间和出版年份。呼吸暂停发生率的几率随出版年份较晚、出生时胎龄较大、手术时校正月龄较大、出生体重较高和手术持续时间较短而降低。多变量“最佳拟合模型”（64篇合格文章）包括出版年份（1986至2025年）和校正月龄（32至63周），发现呼吸暂停发生率的几率随出版年份较晚（比值比[OR]，0.936；CI，0.91至0.964；P < 0.001）和校正月龄较高（OR，0.889；CI，0.828至0.954；P = 0.001）而降低。推荐的麻醉后监测持续时间根据校正月龄从6至24小时不等。Meta回归显示，椎管内麻醉与全身麻醉相比，呼吸暂停几率显著降低（OR，0.236；CI，0.094至0.592；P = 0.003）。校正月龄似乎是麻醉后呼吸暂停最强且最一致的危险因素；椎管内麻醉可能降低此风险。后续文章中的个体参与者数据meta分析将进一步阐明风险增加的校正月龄阈值，并有助于完善这些脆弱婴儿的监测建议。"
+              }
+            ],
+            "fullText": "既往早产和足月婴儿存在麻醉后呼吸暂停的风险，但缺乏统一的监测和出院标准导致实践不一致。本研究的主要目的是确定麻醉后呼吸暂停的主要危险因素。本系统评价和meta回归分析遵循系统评价和荟萃分析优先报告条目（PRISMA）和美国医疗保健研究与质量局指南。文献检索包括英文病例报告、病例系列、临床研究和临床试验。检索了主要数据库从建库至2025年10月。共6191篇文章进行了标题和摘要筛选，491篇进行了全文筛选，173篇进行了详细审查。从173篇文章中的115篇提取数据（98项研究，17篇病例报告或系列）。在各研究中（早产或足月婴儿），呼吸暂停的中位发生率为7.6%（范围0至85%）。单变量meta回归分析（96篇合格文章）确定了五个显著的呼吸暂停预测因子：胎龄、手术时校正月龄、出生体重、手术持续时间和出版年份。呼吸暂停发生率的几率随出版年份较晚、出生时胎龄较大、手术时校正月龄较大、出生体重较高和手术持续时间较短而降低。多变量“最佳拟合模型”（64篇合格文章）包括出版年份（1986至2025年）和校正月龄（32至63周），发现呼吸暂停发生率的几率随出版年份较晚（比值比[OR]，0.936；CI，0.91至0.964；P < 0.001）和校正月龄较高（OR，0.889；CI，0.828至0.954；P = 0.001）而降低。推荐的麻醉后监测持续时间根据校正月龄从6至24小时不等。Meta回归显示，椎管内麻醉与全身麻醉相比，呼吸暂停几率显著降低（OR，0.236；CI，0.094至0.592；P = 0.003）。校正月龄似乎是麻醉后呼吸暂停最强且最一致的危险因素；椎管内麻醉可能降低此风险。后续文章中的个体参与者数据meta分析将进一步阐明风险增加的校正月龄阈值，并有助于完善这些脆弱婴儿的监测建议。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Dalal PG, Malviya S, Cote CJ, Hache M, Knehans A, Donohue LD, Chiem JL, Kubacki T, et al.",
+          "citation": "Anesthesiology. 2026 Jun 1;144(6):1454-1469. doi: 10.1097/ALN.0000000000006014. Epub 2026 Feb 17.",
+          "doi": "10.1097/aln.0000000000006014",
+          "pmid": "42117733",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Meta-Analysis",
+            "Systematic Review"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article",
+            "Meta-Analysis"
+          ],
+          "question": "麻醉后呼吸暂停是既往早产儿和足月儿围术期的重要风险，但监测和出院标准缺乏统一，本研究通过系统评价和荟萃回归识别主要风险因素，为临床监测和出院决策提供证据基础。",
+          "conclusion": "基于系统评价和荟萃回归，既往早产儿和足月儿麻醉后呼吸暂停的发生率中位数为7.6%，校正后较高的孕后年龄和较晚的发表年份与呼吸暂停风险降低相关，椎管内麻醉较全身麻醉的呼吸暂停风险更低。",
+          "clinical": "孕后年龄是麻醉后呼吸暂停最强且最一致的风险因素，临床决策中应重点考虑。 椎管内麻醉可能降低呼吸暂停风险，但需结合个体情况权衡。 推荐监测时长因孕后年龄而异，范围为6至24小时。",
+          "evidence": "中等",
+          "score": 64,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 23,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价和荟萃回归分析，遵循PRISMA和AHRQ指南，纳入英文病例报告、病例系列、临床研究和临床试验，检索数据库从建库至2025年10月。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Former preterm and term infants；115 articles (98 studies, 17 case reports or series)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "未明确指定干预措施，研究为观察性数据的荟萃分析，比较不同麻醉方式（椎管内麻醉 vs 全身麻醉）及不同风险因素水平。；对照：不同风险因素水平（如孕后年龄、出生体重、手术时长、发表年份）及麻醉方式（椎管内麻醉 vs 全身麻醉）"
+            },
+            {
+              "label": "主要终点",
+              "value": "Major risk factors for postanesthesia apnea"
+            }
+          ],
+          "keyPoints": [
+            "麻醉后呼吸暂停发生率中位数为7.6%（范围0-85%）。",
+            "孕后年龄和发表年份是呼吸暂停风险的独立预测因素。",
+            "椎管内麻醉与全身麻醉相比，呼吸暂停风险降低（OR 0.236）。",
+            "推荐监测时长6-24小时，基于孕后年龄。"
+          ],
+          "methods": "既往早产儿和足月儿存在麻醉后呼吸暂停风险，但缺乏统一的监测和出院标准，导致临床实践不一致。本研究旨在识别麻醉后呼吸暂停的主要风险因素。",
+          "results": "共纳入115篇文章（98项研究，17例病例报告或系列）。呼吸暂停发生率中位数为7.6%（范围0-85%）。单变量荟萃回归（96篇）识别出五个显著预测因素：胎龄、手术时孕后年龄、出生体重、手术时长和发表年份。多变量最佳拟合模型（64篇）显示，较晚发表年份（OR 0.936，95%CI 0.91-0.964，P<0.001）和较高孕后年龄（OR 0.889，95%CI 0.828-0.954，P=0.001）与呼吸暂停风险降低相关。椎管内麻醉与全身麻醉相比，呼吸暂停风险显著降低（OR 0.236，95%CI 0.094-0.592，P=0.003）。",
+          "mainResults": "共纳入115篇文章（98项研究，17例病例报告或系列）。呼吸暂停发生率中位数为7.6%（范围0-85%）。单变量荟萃回归（96篇）识别出五个显著预测因素：胎龄、手术时孕后年龄、出生体重、手术时长和发表年份。多变量最佳拟合模型（64篇）显示，较晚发表年份（OR 0.936，95%CI 0.91-0.964，P<0.001）和较高孕后年龄（OR 0.889，95%CI 0.828-0.954，P=0.001）与呼吸暂停风险降低相关。椎管内麻醉与全身麻醉相比，呼吸暂停风险显著降低（OR 0.236，95%CI 0.094-0.592，P=0.003）。",
+          "limitations": [
+            "当前可获取内容未提供研究局限性信息。",
+            "摘要未报告各研究的异质性、发表偏倚等详细信息。",
+            "由于是荟萃回归，存在生态学偏倚，个体水平结论需谨慎。"
+          ],
+          "practice": [
+            "孕后年龄是麻醉后呼吸暂停最强且最一致的风险因素，临床决策中应重点考虑。",
+            "椎管内麻醉可能降低呼吸暂停风险，但需结合个体情况权衡。",
+            "推荐监测时长因孕后年龄而异，范围为6至24小时。"
+          ],
+          "editor": "研究为系统评价和荟萃回归，样本量较大（115篇文章），结果提供了效应量、置信区间和P值，支持孕后年龄和发表年份与呼吸暂停风险降低相关，椎管内麻醉与较低风险相关。 过度解读风险：摘要未提供异质性评估和偏倚风险评价，且为观察性数据，不能推断因果关系。椎管内麻醉与较低风险的关联可能受混杂因素影响，需谨慎解读。",
+          "whyItMatters": "麻醉后呼吸暂停是既往早产儿和足月儿围术期的重要风险，但监测和出院标准缺乏统一，本研究通过系统评价和荟萃回归识别主要风险因素，为临床监测和出院决策提供证据基础。",
+          "background": "既往早产儿和足月儿存在麻醉后呼吸暂停风险，但缺乏统一的监测和出院标准，导致临床实践不一致。本研究旨在识别麻醉后呼吸暂停的主要风险因素。",
+          "pico": {
+            "population": "Former preterm and term infants",
+            "intervention": "未明确指定干预措施，研究为观察性数据的荟萃分析，比较不同麻醉方式（椎管内麻醉 vs 全身麻醉）及不同风险因素水平。",
+            "comparison": "不同风险因素水平（如孕后年龄、出生体重、手术时长、发表年份）及麻醉方式（椎管内麻醉 vs 全身麻醉）",
+            "outcome": "Major risk factors for postanesthesia apnea"
+          },
+          "studyType": "系统评价和荟萃回归分析，遵循PRISMA和AHRQ指南，纳入英文病例报告、病例系列、临床研究和临床试验，检索数据库从建库至2025年10月。",
+          "sampleSize": "115 articles (98 studies, 17 case reports or series)",
+          "primaryOutcome": "Major risk factors for postanesthesia apnea",
+          "effectSize": [
+            "OR 0.936",
+            "OR 0.889",
+            "OR 0.236"
+          ],
+          "confidenceInterval": [
+            "CI 0.91 to 0.964",
+            "CI 0.828 to 0.954",
+            "CI 0.094 to 0.592"
+          ],
+          "pValue": [
+            "P < 0.001",
+            "P = 0.001",
+            "P = 0.003"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究为系统评价和荟萃回归，样本量较大（115篇文章），结果提供了效应量、置信区间和P值，支持孕后年龄和发表年份与呼吸暂停风险降低相关，椎管内麻醉与较低风险相关。",
+            "overinterpretationRisk": "摘要未提供异质性评估和偏倚风险评价，且为观察性数据，不能推断因果关系。椎管内麻醉与较低风险的关联可能受混杂因素影响，需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文数据，无法评价研究设计细节、偏倚风险、异质性等。",
+                "摘要未报告各研究的详细特征和结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "识别既往早产儿和足月儿麻醉后呼吸暂停的主要风险因素。",
+              "designFit": "系统评价和荟萃回归适用于综合现有证据并探索风险因素。",
+              "eligibility": "纳入英文病例报告、病例系列、临床研究和临床试验，检索至2025年10月。",
+              "randomization": "不适用，为观察性研究荟萃分析。",
+              "allocationConcealment": "不适用。",
+              "blinding": "不适用。",
+              "sampleSizePlanning": "未报告样本量计算，但纳入115篇文章，样本量较大。",
+              "followUp": "未报告随访信息。",
+              "analysisPopulation": "纳入115篇文章（98项研究，17例病例报告或系列），单变量分析96篇，多变量分析64篇。",
+              "missingData": "未报告缺失数据处理方法。",
+              "strengths": [
+                "遵循PRISMA和AHRQ指南，检索全面。",
+                "样本量大，涵盖多种研究类型。",
+                "使用荟萃回归识别多个风险因素。"
+              ],
+              "concerns": [
+                "摘要未报告异质性评估和发表偏倚。",
+                "未提供各研究的质量评价。",
+                "观察性数据可能存在混杂。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "单变量荟萃回归",
+                  "purposeInStudy": "识别呼吸暂停的显著预测因素",
+                  "reportedResult": "胎龄、孕后年龄、出生体重、手术时长和发表年份为显著预测因素",
+                  "interpretation": "这些因素与呼吸暂停风险相关",
+                  "cautions": [
+                    "未提供效应量，无法评估效应大小。",
+                    "单变量分析未控制混杂。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                },
+                {
+                  "referenceId": null,
+                  "name": "多变量荟萃回归（最佳拟合模型）",
+                  "purposeInStudy": "校正混杂因素后评估发表年份和孕后年龄的独立效应",
+                  "reportedResult": "发表年份OR 0.936（95%CI 0.91-0.964，P<0.001）；孕后年龄OR 0.889（95%CI 0.828-0.954，P=0.001）",
+                  "interpretation": "较晚发表年份和较高孕后年龄与呼吸暂停风险降低相关",
+                  "cautions": [
+                    "模型仅包含两个变量，可能遗漏其他重要混杂因素。",
+                    "观察性数据，不能推断因果。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                },
+                {
+                  "referenceId": null,
+                  "name": "荟萃回归比较椎管内麻醉与全身麻醉",
+                  "purposeInStudy": "比较不同麻醉方式对呼吸暂停风险的影响",
+                  "reportedResult": "OR 0.236（95%CI 0.094-0.592，P=0.003）",
+                  "interpretation": "椎管内麻醉与呼吸暂停风险降低相关",
+                  "cautions": [
+                    "可能受混杂因素影响，如患者选择。",
+                    "未提供调整变量。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "多变量模型调整了发表年份和孕后年龄。",
+              "multiplicity": "未报告多重性调整。",
+              "subgroupAnalysis": "未报告亚组分析。",
+              "clinicalVsStatisticalSignificance": "统计显著，但临床意义需结合效应量大小和患者情况。"
+            },
+            "outcomeAnalysis": {
+              "primary": "主要风险因素为胎龄、孕后年龄、出生体重、手术时长和发表年份。",
+              "secondary": [
+                "呼吸暂停发生率中位数7.6%（范围0-85%）。",
+                "推荐监测时长6-24小时。"
+              ],
+              "safety": "未报告不良事件。",
+              "absoluteVsRelative": "摘要未提供绝对风险差异，仅提供OR值。",
+              "subgroupAndInteraction": "未报告亚组和交互作用分析。",
+              "sensitivity": "未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统评价方法规范，检索全面。",
+                "样本量大，涵盖多种研究。",
+                "多变量模型调整了关键混杂因素。"
+              ],
+              "limitations": [
+                "摘要未报告异质性、发表偏倚、研究质量评价。",
+                "观察性数据，存在混杂和生态学偏倚。",
+                "未提供个体水平数据，无法进行个体化预测。"
+              ],
+              "biasRisks": [
+                "发表偏倚风险未评估。",
+                "选择偏倚可能存在于纳入研究。",
+                "测量偏倚可能因呼吸暂停定义不同。"
+              ],
+              "certainty": "证据确定性未报告，但基于观察性研究，确定性可能较低。",
+              "conclusionAlignment": "结论与结果一致，但需注意因果推断限制。",
+              "causalBoundary": "观察性关联不能证明因果关系，椎管内麻醉与较低风险可能受混杂影响。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于既往早产儿和足月儿麻醉后监测决策。",
+                "孕后年龄可用于风险分层。"
+              ],
+              "nonApplicability": [
+                "不适用于其他人群。",
+                "不适用于未包含的麻醉方式。"
+              ],
+              "practiceChange": "可能支持根据孕后年龄调整监测时长，并考虑椎管内麻醉。",
+              "canDoNow": [
+                "评估患儿孕后年龄，考虑延长监测时间。",
+                "在可行情况下，考虑椎管内麻醉。"
+              ],
+              "cannotConclude": [
+                "不能确定具体孕后年龄阈值。",
+                "不能确定椎管内麻醉的因果效应。"
+              ],
+              "evidenceGaps": [
+                "需要个体参与者数据荟萃分析以确定风险阈值。",
+                "需要前瞻性研究验证。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42117733/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006014",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006014",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41379942",
+          "number": "05",
+          "category": "麻醉基础研究",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-04-01",
+          "electronicPublicationDate": "2025-12-11",
+          "readingTime": "11 分钟",
+          "title": "小鼠蓝斑核-丘脑室旁核-前扣带皮层通路对疼痛敏感性的调节",
+          "originalTitle": "Modulation of Pain Sensitivity by the Locus Coeruleus-Paraventricular Thalamic Nucleus-Anterior Cingulate Cortex Pathway in Mice.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "背景：从蓝斑（LC）到丘脑和前扣带回皮层（ACC）的去甲肾上腺素能投射参与疼痛样行为，但其层级组织仍不清楚。本文研究了蓝斑来源的去甲肾上腺素输入至丘脑室旁核（PVA）和ACC如何差异性地调节伤害性敏化。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "方法：在成年雄性和雌性小鼠中，使用完全弗氏佐剂诱导疼痛样行为。为了检查蓝斑、PVA和ACC之间的功能连接，结合了活性群体中的靶向重组（Fos-TRAP）、体内记录和病毒示踪。然后使用光遗传学和化学遗传学工具选择性操纵蓝斑投射，并评估其对神经活动和疼痛行为的影响。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "结果：完全弗氏佐剂导致蓝斑、PVA和ACC中c-Fos表达增强（每显微镜视野细胞数；蓝斑：13.60 ± 2.24 vs. 44.50 ± 7.72；PVA：8.00 ± 1.58 vs. 66.40 ± 9.45；ACC：12.80 ± 2.28 vs. 36.70 ± 2.59；P < 0.001），同时γ频带活动和单个单元放电率增加。鉴定了单突触LC-ACC和多突触LC-PVA-ACC回路。值得注意的是，伤害感受相关的蓝斑神经元优先投射至PVA，后者随后靶向过度活跃的ACC神经元。在炎性疼痛条件下，激活LC-PVA-ACC回路比直接激活LC-ACC引起更大的ACC放电（Hz；LC-PVA-ACC vs. LC-ACC：15.75 ± 2.88 vs. 9.72 ± 2.06；P < 0.001）和触觉刺激诱发反应（Hz；22.98 ± 2.60 vs. 15.34 ± 1.86；P < 0.001）。一致地，光遗传学或化学遗传学操纵LC-PVA-ACC回路对机械和热痛敏感性的调节比直接刺激LC-ACC更强。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "结论：本研究确定LC-PVA-ACC通路是一个层级去甲肾上腺素能回路，通过丘脑皮层中继调节伤害性敏化，从而揭示了蓝斑-去甲肾上腺素系统调节疼痛处理的回路特异性机制。"
+              }
+            ],
+            "fullText": "背景：从蓝斑（LC）到丘脑和前扣带回皮层（ACC）的去甲肾上腺素能投射参与疼痛样行为，但其层级组织仍不清楚。本文研究了蓝斑来源的去甲肾上腺素输入至丘脑室旁核（PVA）和ACC如何差异性地调节伤害性敏化。方法：在成年雄性和雌性小鼠中，使用完全弗氏佐剂诱导疼痛样行为。为了检查蓝斑、PVA和ACC之间的功能连接，结合了活性群体中的靶向重组（Fos-TRAP）、体内记录和病毒示踪。然后使用光遗传学和化学遗传学工具选择性操纵蓝斑投射，并评估其对神经活动和疼痛行为的影响。结果：完全弗氏佐剂导致蓝斑、PVA和ACC中c-Fos表达增强（每显微镜视野细胞数；蓝斑：13.60 ± 2.24 vs. 44.50 ± 7.72；PVA：8.00 ± 1.58 vs. 66.40 ± 9.45；ACC：12.80 ± 2.28 vs. 36.70 ± 2.59；P < 0.001），同时γ频带活动和单个单元放电率增加。鉴定了单突触LC-ACC和多突触LC-PVA-ACC回路。值得注意的是，伤害感受相关的蓝斑神经元优先投射至PVA，后者随后靶向过度活跃的ACC神经元。在炎性疼痛条件下，激活LC-PVA-ACC回路比直接激活LC-ACC引起更大的ACC放电（Hz；LC-PVA-ACC vs. LC-ACC：15.75 ± 2.88 vs. 9.72 ± 2.06；P < 0.001）和触觉刺激诱发反应（Hz；22.98 ± 2.60 vs. 15.34 ± 1.86；P < 0.001）。一致地，光遗传学或化学遗传学操纵LC-PVA-ACC回路对机械和热痛敏感性的调节比直接刺激LC-ACC更强。结论：本研究确定LC-PVA-ACC通路是一个层级去甲肾上腺素能回路，通过丘脑皮层中继调节伤害性敏化，从而揭示了蓝斑-去甲肾上腺素系统调节疼痛处理的回路特异性机制。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Kuai S, Li Z, Wu Z, Liu Y, Wang X, Wang X, Tang K, Cao N, et al.",
+          "citation": "Anesthesiology. 2026 Apr 1;144(4):943-964. doi: 10.1097/ALN.0000000000005897. Epub 2025 Dec 11.",
+          "doi": "10.1097/aln.0000000000005897",
+          "pmid": "41379942",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究揭示了一条层级化的去甲肾上腺素能通路，为理解蓝斑核-去甲肾上腺素系统如何通过丘脑皮层中继调节疼痛处理提供了新的机制，可能为疼痛治疗提供新的靶点。",
+          "conclusion": "本研究在小鼠中鉴定出蓝斑核-丘脑室旁核-前扣带皮层通路，该通路通过丘脑皮层中继调节伤害性感觉敏化，且其激活比直接蓝斑核-前扣带皮层激活产生更强的疼痛调节作用。",
+          "clinical": "该研究为理解疼痛调节的神经环路提供了基础，可能为未来开发针对蓝斑核-丘脑室旁核-前扣带皮层通路的疼痛治疗策略提供线索。 然而，由于是动物研究，目前不能直接应用于临床麻醉或疼痛管理，需要进一步研究验证其在人类中的相关性。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "动物实验（基础研究），使用完全弗氏佐剂诱导疼痛样行为，结合Fos-TRAP、在体记录、病毒示踪、光遗传学和化学遗传学方法。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "adult male and female mice；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "optogenetic and chemogenetic manipulation of LC-PVA-ACC circuit；对照：direct LC-ACC activation"
+            },
+            {
+              "label": "主要终点",
+              "value": "pain sensitivity modulation"
+            }
+          ],
+          "keyPoints": [
+            "完全弗氏佐剂诱导的炎症性疼痛增强蓝斑核、PVA和ACC的c-Fos表达。",
+            "LC-PVA-ACC通路激活比直接LC-ACC激活产生更强的ACC放电和触觉刺激诱发反应。",
+            "光遗传学或化学遗传学操纵LC-PVA-ACC通路比直接LC-ACC刺激产生更强的疼痛敏感性调节。",
+            "该通路通过丘脑皮层中继调节伤害性感觉敏化。"
+          ],
+          "methods": "蓝斑核（LC）到丘脑和前扣带皮层（ACC）的去甲肾上腺素能投射参与疼痛样行为，但其层级组织尚不清楚。本研究探讨蓝斑核来源的去甲肾上腺素输入到丘脑室旁核（PVA）和ACC如何差异调节伤害性感觉敏化。",
+          "results": "完全弗氏佐剂导致蓝斑核、PVA和ACC中c-Fos表达增强（每显微镜视野细胞数；蓝斑核：13.60 ± 2.24 vs. 44.50 ± 7.72；PVA：8.00 ± 1.58 vs. 66.40 ± 9.45；ACC：12.80 ± 2.28 vs. 36.70 ± 2.59；P < 0.001），同时γ频带活动和单单位放电率增加。在炎症性疼痛条件下，激活LC-PVA-ACC通路比直接LC-ACC激活引起更大的ACC放电（Hz；LC-PVA-ACC vs. LC-ACC：15.75 ± 2.88 vs. 9.72 ± 2.06；P < 0.001）和触觉刺激诱发反应（Hz；22.98 ± 2.60 vs. 15.34 ± 1.86；P < 0.001）。一致地，光遗传学或化学遗传学操纵LC-PVA-ACC通路比直接LC-ACC刺激产生更强的机械和热痛觉敏感性调节。",
+          "mainResults": "完全弗氏佐剂导致蓝斑核、PVA和ACC中c-Fos表达增强（每显微镜视野细胞数；蓝斑核：13.60 ± 2.24 vs. 44.50 ± 7.72；PVA：8.00 ± 1.58 vs. 66.40 ± 9.45；ACC：12.80 ± 2.28 vs. 36.70 ± 2.59；P < 0.001），同时γ频带活动和单单位放电率增加。在炎症性疼痛条件下，激活LC-PVA-ACC通路比直接LC-ACC激活引起更大的ACC放电（Hz；LC-PVA-ACC vs. LC-ACC：15.75 ± 2.88 vs. 9.72 ± 2.06；P < 0.001）和触觉刺激诱发反应（Hz；22.98 ± 2.60 vs. 15.34 ± 1.86；P < 0.001）。一致地，光遗传学或化学遗传学操纵LC-PVA-ACC通路比直接LC-ACC刺激产生更强的机械和热痛觉敏感性调节。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "该研究为理解疼痛调节的神经环路提供了基础，可能为未来开发针对蓝斑核-丘脑室旁核-前扣带皮层通路的疼痛治疗策略提供线索。",
+            "然而，由于是动物研究，目前不能直接应用于临床麻醉或疼痛管理，需要进一步研究验证其在人类中的相关性。"
+          ],
+          "editor": "研究结果支持蓝斑核-丘脑室旁核-前扣带皮层通路在疼痛调节中的层级作用，但证据来自动物模型，需谨慎外推至人类。 过度解读风险：存在将动物实验结果直接推广到临床的风险，需注意物种差异和实验条件差异。",
+          "whyItMatters": "该研究揭示了一条层级化的去甲肾上腺素能通路，为理解蓝斑核-去甲肾上腺素系统如何通过丘脑皮层中继调节疼痛处理提供了新的机制，可能为疼痛治疗提供新的靶点。",
+          "background": "蓝斑核（LC）到丘脑和前扣带皮层（ACC）的去甲肾上腺素能投射参与疼痛样行为，但其层级组织尚不清楚。本研究探讨蓝斑核来源的去甲肾上腺素输入到丘脑室旁核（PVA）和ACC如何差异调节伤害性感觉敏化。",
+          "pico": {
+            "population": "adult male and female mice",
+            "intervention": "optogenetic and chemogenetic manipulation of LC-PVA-ACC circuit",
+            "comparison": "direct LC-ACC activation",
+            "outcome": "pain sensitivity modulation"
+          },
+          "studyType": "动物实验（基础研究），使用完全弗氏佐剂诱导疼痛样行为，结合Fos-TRAP、在体记录、病毒示踪、光遗传学和化学遗传学方法。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "pain sensitivity modulation",
+          "effectSize": [
+            "c-Fos expression: LC: 13.60 +/- 2.24 vs. 44.50 +/- 7.72; PVA: 8.00 +/- 1.58 vs. 66.40 +/- 9.45; ACC: 12.80 +/- 2.28 vs. 36.70 +/- 2.59",
+            "ACC firing: LC-PVA-ACC vs. LC-ACC: 15.75 +/- 2.88 vs. 9.72 +/- 2.06",
+            "tactile stimulus-evoked responses: 22.98 +/- 2.60 vs. 15.34 +/- 1.86"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "P < 0.001",
+            "P < 0.001",
+            "P < 0.001"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持蓝斑核-丘脑室旁核-前扣带皮层通路在疼痛调节中的层级作用，但证据来自动物模型，需谨慎外推至人类。",
+            "overinterpretationRisk": "存在将动物实验结果直接推广到临床的风险，需注意物种差异和实验条件差异。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，缺乏详细的实验方法、统计细节和局限性讨论。",
+                "未提供样本量、随机化、盲法等关键信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "蓝斑核来源的去甲肾上腺素输入到PVA和ACC如何差异调节伤害性感觉敏化？",
+              "designFit": "动物实验设计适合探索神经环路机制，但无法直接推断人类。",
+              "eligibility": "成年雄性和雌性小鼠，具体品系和纳入排除标准未提供。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "不适用（急性实验）。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用多种技术（Fos-TRAP、在体记录、病毒示踪、光遗传学/化学遗传学）综合验证通路。",
+                "比较了LC-PVA-ACC通路与直接LC-ACC激活的效果，提供了层级组织的证据。"
+              ],
+              "concerns": [
+                "摘要未报告样本量、随机化和盲法，可能影响结果可靠性。",
+                "未提供效应量的置信区间。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "报告了均值和标准差，以及P值（P < 0.001），但未说明具体检验方法。",
+                  "interpretation": "由于未报告统计方法，无法评估统计分析的适当性。",
+                  "cautions": [
+                    "未报告多重比较校正，可能增加I型错误风险。",
+                    "未提供效应量置信区间，无法评估精确性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "虽然P值显著，但临床意义未知，因为这是动物研究，且效应量大小未与临床相关阈值比较。"
+            },
+            "outcomeAnalysis": {
+              "primary": "疼痛敏感性调节（机械和热痛觉敏感性）",
+              "secondary": [
+                "c-Fos表达",
+                "γ频带活动",
+                "单单位放电率",
+                "ACC放电",
+                "触觉刺激诱发反应"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "报告了均值和标准差，但未提供绝对风险或相对风险。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "使用多种互补技术验证通路功能。",
+                "比较了不同通路激活的效果，提供了层级组织的证据。"
+              ],
+              "limitations": [
+                "仅基于摘要，缺乏详细方法学信息。",
+                "未报告样本量、随机化、盲法等。",
+                "未提供效应量置信区间。"
+              ],
+              "biasRisks": [
+                "选择偏倚：未报告动物选择标准。",
+                "实施偏倚：未报告盲法。",
+                "测量偏倚：未报告结果评估者是否盲法。"
+              ],
+              "certainty": "低，由于缺乏方法学细节和动物模型。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎外推。",
+              "causalBoundary": "该研究为动物实验，不能直接推断因果关系，但光遗传学/化学遗传学操纵支持因果作用。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为疼痛机制研究提供新靶点。",
+                "可能为未来开发针对该通路的疼痛治疗提供基础。"
+              ],
+              "nonApplicability": [
+                "不能直接应用于人类疼痛治疗。",
+                "需要进一步研究验证在人类中的相关性。"
+              ],
+              "practiceChange": "当前不改变临床实践。",
+              "canDoNow": [
+                "无。"
+              ],
+              "cannotConclude": [
+                "不能得出该通路在人类疼痛中的具体作用。",
+                "不能提出临床干预建议。"
+              ],
+              "evidenceGaps": [
+                "需要人类研究验证该通路的存在和功能。",
+                "需要更多关于该通路在慢性疼痛中的作用的研究。",
+                "需要评估长期操纵该通路的潜在副作用。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41379942/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005897",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005897",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-13T23:52:33.350Z",
       "mode": "production",
