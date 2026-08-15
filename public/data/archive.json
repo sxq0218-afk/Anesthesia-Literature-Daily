@@ -1,7 +1,239 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T23:29:49.325Z",
+  "updatedAt": "2026-08-15T23:29:14.265Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-15T23:29:14.265Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-16T23:29:14.265Z",
+        "to": "2026-08-15T23:29:14.265Z",
+        "candidateCount": 273,
+        "discoveryCandidateCount": 10738,
+        "unseenCount": 179,
+        "duplicateCount": 94,
+        "priorityCandidateCount": 273,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 273,
+          "retrievedCount": 273,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 10,
+          "excludedCount": 290,
+          "excludedByReason": {
+            "journal-not-configured": 288,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 290,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 21
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 15
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of neuroscience methods",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 179,
+          "eligibleCount": 157,
+          "excludedCount": 22,
+          "excludedByReason": {
+            "journal-not-configured": 22
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 129,
+          "clinical": 85,
+          "basic": 3,
+          "other": 41
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42601298",
+          "title": "老年手术患者认知衰弱表型与术后谵妄风险：一项回顾性队列研究",
+          "originalTitle": "Cognitive-frailty phenotyping and postoperative delirium risk in older surgical patients: a retrospective cohort study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在老年手术患者中，基于床旁筛查工具的二维认知衰弱框架可清晰区分术后谵妄风险梯度，认知衰弱表型风险最高。",
+          "pmid": "42601298"
+        },
+        {
+          "slug": "pmid-41805653",
+          "title": "术后谵妄前后定量脑电图变化：一项前瞻性多中心队列研究",
+          "originalTitle": "Quantitative Electroencephalogram Changes before and after Postoperative Delirium: A Prospective, Multicenter Cohort Study.",
+          "journal": "Anesthesiology",
+          "conclusion": "术前较低的β频段基于振幅的功能连接可能是术后谵妄的神经生理脆弱性标志，但术后3个月未观察到与谵妄或手术相关的持续性定量脑电图改变。",
+          "pmid": "41805653"
+        },
+        {
+          "slug": "pmid-41838953",
+          "title": "儿童围手术期体验评估工具EVANpedia的开发与验证",
+          "originalTitle": "Development and Validation of EVANpedia for the Assessment of Perioperative Experience in Pediatric Patients.",
+          "journal": "Anesthesiology",
+          "conclusion": "EVANpedia是一种心理测量学上稳健的自我报告工具，用于评估儿童和青少年术后24小时内的围手术期体验。",
+          "pmid": "41838953"
+        },
+        {
+          "slug": "pmid-41284721",
+          "title": "椎管内麻醉下剖宫产术中疼痛的发生率：一项国际前瞻性队列研究",
+          "originalTitle": "Incidence of Pain during Cesarean Delivery with Neuraxial Anesthesia: An International, Prospective Cohort Study.",
+          "journal": "Anesthesiology",
+          "conclusion": "在北美15个中心接受椎管内麻醉剖宫产的3693例患者中，术中疼痛的总体发生率为7.6%（95%CI 6.8-8.5%），其中脊髓麻醉发生率最低，硬膜外追加麻醉发生率最高。",
+          "pmid": "41284721"
+        },
+        {
+          "slug": "pmid-41838973",
+          "title": "单次静脉推注丙泊酚对慢性不可预见性轻度应激小鼠模型抑郁样行为的影响",
+          "originalTitle": "Effects of Single Bolus Exposure to Propofol on Depression-like Behavior in a Chronic Unpredictable Mild Stress Model in Mice.",
+          "journal": "Anesthesiology",
+          "conclusion": "在慢性不可预见性轻度应激小鼠模型中，单次腹腔注射50 mg/kg丙泊酚可显著改善抑郁样行为，其机制可能涉及激活GABA_A受体并恢复内侧前额叶皮层GABA/谷氨酸平衡。",
+          "pmid": "41838973"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-14T23:29:49.325Z",
       "search": {

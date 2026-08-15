@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-14T23:29:49.325Z",
+  "updatedAt": "2026-08-15T23:29:14.265Z",
   "records": [
     {
       "pmid": "42359695",
@@ -873,6 +873,46 @@
       "status": "published",
       "runId": "2026-08-14T23-29-49.325Z",
       "firstPublishedAt": "2026-08-14T23:29:49.325Z"
+    },
+    {
+      "pmid": "42601298",
+      "doi": "10.1016/j.bja.2026.06.038",
+      "title": "Cognitive-frailty phenotyping and postoperative delirium risk in older surgical patients: a retrospective cohort study.",
+      "status": "published",
+      "runId": "2026-08-15T23-29-14.265Z",
+      "firstPublishedAt": "2026-08-15T23:29:14.265Z"
+    },
+    {
+      "pmid": "41805653",
+      "doi": "10.1097/aln.0000000000006026",
+      "title": "Quantitative Electroencephalogram Changes before and after Postoperative Delirium: A Prospective, Multicenter Cohort Study.",
+      "status": "published",
+      "runId": "2026-08-15T23-29-14.265Z",
+      "firstPublishedAt": "2026-08-15T23:29:14.265Z"
+    },
+    {
+      "pmid": "41838953",
+      "doi": "10.1097/aln.0000000000006038",
+      "title": "Development and Validation of EVANpedia for the Assessment of Perioperative Experience in Pediatric Patients.",
+      "status": "published",
+      "runId": "2026-08-15T23-29-14.265Z",
+      "firstPublishedAt": "2026-08-15T23:29:14.265Z"
+    },
+    {
+      "pmid": "41284721",
+      "doi": "10.1097/aln.0000000000005868",
+      "title": "Incidence of Pain during Cesarean Delivery with Neuraxial Anesthesia: An International, Prospective Cohort Study.",
+      "status": "published",
+      "runId": "2026-08-15T23-29-14.265Z",
+      "firstPublishedAt": "2026-08-15T23:29:14.265Z"
+    },
+    {
+      "pmid": "41838973",
+      "doi": "10.1097/aln.0000000000006042",
+      "title": "Effects of Single Bolus Exposure to Propofol on Depression-like Behavior in a Chronic Unpredictable Mild Stress Model in Mice.",
+      "status": "published",
+      "runId": "2026-08-15T23-29-14.265Z",
+      "firstPublishedAt": "2026-08-15T23:29:14.265Z"
     }
   ]
 }

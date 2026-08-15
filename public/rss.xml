@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Aug 2026 23:29:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 23:29:14 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-16 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-16/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-16/</guid>
+      <pubDate>Sat, 15 Aug 2026 23:29:14 GMT</pubDate>
+      <description>老年手术患者认知衰弱表型与术后谵妄风险：一项回顾性队列研究：在老年手术患者中，基于床旁筛查工具的二维认知衰弱框架可清晰区分术后谵妄风险梯度，认知衰弱表型风险最高。
+术后谵妄前后定量脑电图变化：一项前瞻性多中心队列研究：术前较低的β频段基于振幅的功能连接可能是术后谵妄的神经生理脆弱性标志，但术后3个月未观察到与谵妄或手术相关的持续性定量脑电图改变。
+儿童围手术期体验评估工具EVANpedia的开发与验证：EVANpedia是一种心理测量学上稳健的自我报告工具，用于评估儿童和青少年术后24小时内的围手术期体验。
+椎管内麻醉下剖宫产术中疼痛的发生率：一项国际前瞻性队列研究：在北美15个中心接受椎管内麻醉剖宫产的3693例患者中，术中疼痛的总体发生率为7.6%（95%CI 6.8-8.5%），其中脊髓麻醉发生率最低，硬膜外追加麻醉发生率最高。
+单次静脉推注丙泊酚对慢性不可预见性轻度应激小鼠模型抑郁样行为的影响：在慢性不可预见性轻度应激小鼠模型中，单次腹腔注射50 mg/kg丙泊酚可显著改善抑郁样行为，其机制可能涉及激活GABA_A受体并恢复内侧前额叶皮层GABA/谷氨酸平衡。</description>
+    </item>
     <item>
       <title>2026-08-15 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-15/</link>
