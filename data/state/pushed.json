@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-15T23:29:14.265Z",
+  "updatedAt": "2026-08-17T23:32:49.621Z",
   "records": [
     {
       "pmid": "42359695",
@@ -913,6 +913,46 @@
       "status": "published",
       "runId": "2026-08-15T23-29-14.265Z",
       "firstPublishedAt": "2026-08-15T23:29:14.265Z"
+    },
+    {
+      "pmid": "41557601",
+      "doi": "10.1097/aln.0000000000005947",
+      "title": "Perspectives of Children, Parents, and Healthcare Providers on Outcomes after Anesthesia for Surgery: An International Mixed Methods Stakeholder Engagement Study from the Pediatric Perioperative Outcomes Group.",
+      "status": "published",
+      "runId": "2026-08-17T23-32-49.621Z",
+      "firstPublishedAt": "2026-08-17T23:32:49.621Z"
+    },
+    {
+      "pmid": "41051360",
+      "doi": "10.1097/aln.0000000000005788",
+      "title": "Mode of Anesthesia for Patients with Placenta Accreta Spectrum Undergoing Cesarean Hysterectomy: A Report from the Multicenter Perioperative Outcomes Group Database.",
+      "status": "published",
+      "runId": "2026-08-17T23-32-49.621Z",
+      "firstPublishedAt": "2026-08-17T23:32:49.621Z"
+    },
+    {
+      "pmid": "42241294",
+      "doi": "10.1097/aln.0000000000006190",
+      "title": "Higher versus Routine Intraoperative Blood Pressure Targets in Noncardiac Surgery: A Systematic Review and Meta-analysis with Trial Sequential Analysis of Randomized Trials.",
+      "status": "published",
+      "runId": "2026-08-17T23-32-49.621Z",
+      "firstPublishedAt": "2026-08-17T23:32:49.621Z"
+    },
+    {
+      "pmid": "41343719",
+      "doi": "10.1097/aln.0000000000005880",
+      "title": "Changes in Intraoperative Rocuronium Dosing after the Introduction of Sugammadex and Association with Postoperative Respiratory Complications: A Retrospective Cohort Study.",
+      "status": "published",
+      "runId": "2026-08-17T23-32-49.621Z",
+      "firstPublishedAt": "2026-08-17T23:32:49.621Z"
+    },
+    {
+      "pmid": "41417580",
+      "doi": "10.1097/aln.0000000000005910",
+      "title": "Effects of Isoflurane Inhibition of Mitochondrial Complex I on Calcium Removal in Mouse Neuronal Cultures.",
+      "status": "published",
+      "runId": "2026-08-17T23-32-49.621Z",
+      "firstPublishedAt": "2026-08-17T23:32:49.621Z"
     }
   ]
 }

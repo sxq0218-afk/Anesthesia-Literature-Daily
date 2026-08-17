@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T23:29:14.265Z",
+  "updatedAt": "2026-08-17T23:32:49.621Z",
   "records": [
     {
       "pmid": "42359695",
@@ -3980,6 +3980,180 @@
         }
       ],
       "runId": "2026-08-15T23-29-14.265Z"
+    },
+    {
+      "pmid": "41557601",
+      "doi": "10.1097/ALN.0000000000005947",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-17T23:28:36.752Z",
+          "primaryPmid": "41557601",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-17T23:29:07.429Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-17T23:29:07.430Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-17T23:32:49.621Z",
+          "runId": "2026-08-17T23-32-49.621Z"
+        }
+      ],
+      "runId": "2026-08-17T23-32-49.621Z"
+    },
+    {
+      "pmid": "41051360",
+      "doi": "10.1097/ALN.0000000000005788",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-17T23:29:07.430Z",
+          "primaryPmid": "41051360",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-17T23:29:43.510Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-17T23:29:43.510Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-17T23:32:49.621Z",
+          "runId": "2026-08-17T23-32-49.621Z"
+        }
+      ],
+      "runId": "2026-08-17T23-32-49.621Z"
+    },
+    {
+      "pmid": "42241294",
+      "doi": "10.1097/ALN.0000000000006190",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-17T23:29:43.510Z",
+          "primaryPmid": "42241294",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-17T23:30:13.986Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-17T23:30:13.986Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-17T23:32:49.621Z",
+          "runId": "2026-08-17T23-32-49.621Z"
+        }
+      ],
+      "runId": "2026-08-17T23-32-49.621Z"
+    },
+    {
+      "pmid": "41343719",
+      "doi": "10.1097/ALN.0000000000005880",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-17T23:30:13.986Z",
+          "primaryPmid": "41343719",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-17T23:30:53.825Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-17T23:30:53.826Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-17T23:32:49.621Z",
+          "runId": "2026-08-17T23-32-49.621Z"
+        }
+      ],
+      "runId": "2026-08-17T23-32-49.621Z"
+    },
+    {
+      "pmid": "42224072",
+      "doi": "10.1097/ALN.0000000000006184",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-17T23:30:53.826Z",
+          "primaryPmid": "42224072",
+          "isFallback": false
+        },
+        {
+          "status": "failed",
+          "at": "2026-08-17T23:32:21.922Z",
+          "error": "AI quality control failed after regeneration: 中文精读的“anesthesiaImplications”中提出GABA能神经元可能成为未来干预靶点，但原文未直接提及，属于推断性建议，可能超出原文支持范围。; unsupported_information: 中文精读中提及“研究未报告效应量和置信区间”，但结构化抽取中“effect_size”和“confidence_interval”字段为空数组，且中文精读的“limitations”中明确说明未提供，但“mainResults”中却声称“研究未报告效应量和置信区间”，这属于重复声明，但并未添加额外信息。然而，中文精读的“anesthesiaImplications”中提出“GABA能神经元在pre-BotC中的作用可能成为未来干预呼吸抑制的潜在靶点”，这一表述在原文中并未直接提及，属于推断性建议，可能超出原文支持范围。因此，存在轻微的不支持信息。"
+        },
+        {
+          "status": "published",
+          "at": "2026-08-17T23:32:49.621Z",
+          "runId": "2026-08-17T23-32-49.621Z"
+        }
+      ],
+      "runId": "2026-08-17T23-32-49.621Z"
+    },
+    {
+      "pmid": "41417580",
+      "doi": "10.1097/ALN.0000000000005910",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-17T23:32:21.922Z",
+          "primaryPmid": "42224072",
+          "isFallback": true
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-17T23:32:49.620Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-17T23:32:49.621Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-17T23:32:49.621Z",
+          "runId": "2026-08-17T23-32-49.621Z"
+        }
+      ],
+      "runId": "2026-08-17T23-32-49.621Z"
     }
   ]
 }

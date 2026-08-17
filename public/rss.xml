@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Aug 2026 23:29:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 23:32:49 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-18 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-18/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-18/</guid>
+      <pubDate>Mon, 17 Aug 2026 23:32:49 GMT</pubDate>
+      <description>儿童、家长及医疗提供者对手术麻醉后结局的看法：来自儿科围手术期结局组的国际混合方法利益相关者参与研究：该国际定性混合方法研究通过359次半结构化访谈，识别出疼痛、并发症、心理健康与情绪状态以及环境是儿童、家长和医疗提供者共同关注的重要结局主题，并提示情绪健康、疼痛和回归日常生活可能在当前研究结局中被低估。
+胎盘植入谱系患者剖宫产子宫切除术的麻醉方式：多中心围手术期结局组数据库报告：在2015至2021年间，来自43家机构的1257例胎盘植入谱系剖宫产子宫切除术中，椎管内麻醉后转为全身麻醉是最常见的麻醉方式（40.3%），且胎盘植入程度更深、非计划手术及ASA分级更高与全身麻醉几率增加相关。
+非心脏手术中较高与常规术中血压目标：随机试验的系统评价和Meta分析及试验序贯分析：在成人择期非心脏手术中，与常规血压管理相比，较高的术中血压目标并未改善主要术后结局，但可能与术后谵妄减少相关，需进一步验证。
+舒更葡糖钠引入后术中罗库溴铵剂量变化及其与术后呼吸并发症的关联：一项回顾性队列研究：舒更葡糖钠引入后，术中罗库溴铵剂量显著增加，且剂量增加与术后呼吸并发症风险升高相关，但仅在未使用舒更葡糖钠或未进行定量神经肌肉监测的患者中风险显著。
+异氟醚抑制线粒体复合物I对小鼠神经元培养物中钙清除的影响：异氟醚通过抑制线粒体ATP产生，导致SERCA依赖性钙清除失败，进而引起细胞内钙升高和早期细胞毒性迹象。</description>
+    </item>
     <item>
       <title>2026-08-16 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-16/</link>

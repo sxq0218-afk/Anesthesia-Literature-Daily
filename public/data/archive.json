@@ -1,7 +1,239 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T23:29:14.265Z",
+  "updatedAt": "2026-08-17T23:32:49.621Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-17T23:32:49.621Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-18T23:32:49.621Z",
+        "to": "2026-08-17T23:32:49.621Z",
+        "candidateCount": 275,
+        "discoveryCandidateCount": 10724,
+        "unseenCount": 176,
+        "duplicateCount": 99,
+        "priorityCandidateCount": 275,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 275,
+          "retrievedCount": 275,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 10,
+          "excludedCount": 290,
+          "excludedByReason": {
+            "journal-not-configured": 288,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 290,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 21
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 15
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "CNS drugs",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 176,
+          "eligibleCount": 155,
+          "excludedCount": 21,
+          "excludedByReason": {
+            "journal-not-configured": 21
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 127,
+          "clinical": 82,
+          "basic": 2,
+          "other": 43
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41557601",
+          "title": "儿童、家长及医疗提供者对手术麻醉后结局的看法：来自儿科围手术期结局组的国际混合方法利益相关者参与研究",
+          "originalTitle": "Perspectives of Children, Parents, and Healthcare Providers on Outcomes after Anesthesia for Surgery: An International Mixed Methods Stakeholder Engagement Study from the Pediatric Perioperative Outcomes Group.",
+          "journal": "Anesthesiology",
+          "conclusion": "该国际定性混合方法研究通过359次半结构化访谈，识别出疼痛、并发症、心理健康与情绪状态以及环境是儿童、家长和医疗提供者共同关注的重要结局主题，并提示情绪健康、疼痛和回归日常生活可能在当前研究结局中被低估。",
+          "pmid": "41557601"
+        },
+        {
+          "slug": "pmid-41051360",
+          "title": "胎盘植入谱系患者剖宫产子宫切除术的麻醉方式：多中心围手术期结局组数据库报告",
+          "originalTitle": "Mode of Anesthesia for Patients with Placenta Accreta Spectrum Undergoing Cesarean Hysterectomy: A Report from the Multicenter Perioperative Outcomes Group Database.",
+          "journal": "Anesthesiology",
+          "conclusion": "在2015至2021年间，来自43家机构的1257例胎盘植入谱系剖宫产子宫切除术中，椎管内麻醉后转为全身麻醉是最常见的麻醉方式（40.3%），且胎盘植入程度更深、非计划手术及ASA分级更高与全身麻醉几率增加相关。",
+          "pmid": "41051360"
+        },
+        {
+          "slug": "pmid-42241294",
+          "title": "非心脏手术中较高与常规术中血压目标：随机试验的系统评价和Meta分析及试验序贯分析",
+          "originalTitle": "Higher versus Routine Intraoperative Blood Pressure Targets in Noncardiac Surgery: A Systematic Review and Meta-analysis with Trial Sequential Analysis of Randomized Trials.",
+          "journal": "Anesthesiology",
+          "conclusion": "在成人择期非心脏手术中，与常规血压管理相比，较高的术中血压目标并未改善主要术后结局，但可能与术后谵妄减少相关，需进一步验证。",
+          "pmid": "42241294"
+        },
+        {
+          "slug": "pmid-41343719",
+          "title": "舒更葡糖钠引入后术中罗库溴铵剂量变化及其与术后呼吸并发症的关联：一项回顾性队列研究",
+          "originalTitle": "Changes in Intraoperative Rocuronium Dosing after the Introduction of Sugammadex and Association with Postoperative Respiratory Complications: A Retrospective Cohort Study.",
+          "journal": "Anesthesiology",
+          "conclusion": "舒更葡糖钠引入后，术中罗库溴铵剂量显著增加，且剂量增加与术后呼吸并发症风险升高相关，但仅在未使用舒更葡糖钠或未进行定量神经肌肉监测的患者中风险显著。",
+          "pmid": "41343719"
+        },
+        {
+          "slug": "pmid-41417580",
+          "title": "异氟醚抑制线粒体复合物I对小鼠神经元培养物中钙清除的影响",
+          "originalTitle": "Effects of Isoflurane Inhibition of Mitochondrial Complex I on Calcium Removal in Mouse Neuronal Cultures.",
+          "journal": "Anesthesiology",
+          "conclusion": "异氟醚通过抑制线粒体ATP产生，导致SERCA依赖性钙清除失败，进而引起细胞内钙升高和早期细胞毒性迹象。",
+          "pmid": "41417580"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-15T23:29:14.265Z",
       "search": {

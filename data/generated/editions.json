@@ -1,7 +1,1578 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T23:29:14.265Z",
+  "updatedAt": "2026-08-17T23:32:49.621Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-17T23:32:49.621Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-18T23:32:49.621Z",
+        "to": "2026-08-17T23:32:49.621Z",
+        "candidateCount": 275,
+        "discoveryCandidateCount": 10724,
+        "unseenCount": 176,
+        "duplicateCount": 99,
+        "priorityCandidateCount": 275,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 275,
+          "retrievedCount": 275,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 10,
+          "excludedCount": 290,
+          "excludedByReason": {
+            "journal-not-configured": 288,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 290,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 21
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 15
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 10
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "CNS drugs",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 176,
+          "eligibleCount": 155,
+          "excludedCount": 21,
+          "excludedByReason": {
+            "journal-not-configured": 21
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 127,
+          "clinical": 82,
+          "basic": 2,
+          "other": 43
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 20,
+          "promptTokens": 43930,
+          "completionTokens": 22430,
+          "totalTokens": 66360
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41557601",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-05-01",
+          "electronicPublicationDate": "2026-01-20",
+          "readingTime": "12 分钟",
+          "title": "儿童、家长及医疗提供者对手术麻醉后结局的看法：来自儿科围手术期结局组的国际混合方法利益相关者参与研究",
+          "originalTitle": "Perspectives of Children, Parents, and Healthcare Providers on Outcomes after Anesthesia for Surgery: An International Mixed Methods Stakeholder Engagement Study from the Pediatric Perioperative Outcomes Group.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "作者的国际研究人员和临床医生合作组织（儿科围手术期结局小组）成立，旨在为婴儿、儿童和青少年制定核心结局集。在此，作者报告了一项定性混合方法研究，该研究对接受手术麻醉的儿童及其父母/监护人以及围手术期医疗保健提供者（如护士、外科医生和麻醉师）进行了半结构化访谈。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "作者通过改良的扎根理论分析对访谈记录进行了比较和探索，以期为儿科围手术期医学建立一个国际公认的核心结局集提供信息。2021年6月至2022年7月期间，在八个国家的10个研究地点共进行了359次半结构化访谈：美国、加拿大、澳大利亚、新西兰、荷兰、南非、哥伦比亚和中国。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "作者确定了疼痛、并发症、心理健康和情绪状态以及环境等主题对所有参与的利益相关者群体都很重要。医疗保健提供者与患者及父母/监护人之间的主题存在差异。情绪健康、疼痛和回归日常生活可能在当前的研究结局中被低估。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "从这些国际利益相关者半结构化访谈中获得的观点补充了结局评级调查的结果，并为儿科围手术期研究的核心结局选择提供了广泛、客观和基础性的利益相关者视角。这些结果可能会提高儿科围手术期护理最终结局测量的相关性、包容性和以人为中心性。"
+              }
+            ],
+            "fullText": "BACKGROUND: The authors' international collaboration of researchers and clinicians (the Pediatric Perioperative Outcomes Group) was established to develop core outcome sets for infants, children, and adolescents. Here, the authors report on a qualitative mixed methods study with semistructured interviews of parents/guardians and their children undergoing anesthesia for surgery along with perioperative healthcare providers ( e.g. , nurses, surgeons, and anesthesiologists). METHODS: The authors compared and explored outcomes through a modified grounded theory analysis of interview transcripts to inform the establishment of an internationally recognized core outcome set for pediatric perioperative medicine. In total, 359 semistructured interviews were conducted between June 2021 and July 2022 across 10 study sites in eight countries: the United States, Canada, Australia, New Zealand, The Netherlands, South Africa, Colombia, and China. RESULTS: The authors identified the themes of pain, complications, mental health and emotional state, and environment to be important for all stakeholder groups engaged. Differences were observed between the themes for healthcare providers and patients and parent/guardians. Emotional well-being, pain, and return to daily life may be undervalued in current research outcomes. CONCLUSIONS: The views elicited from these international stakeholder semistructured interviews complement the results of the outcome ratings surveys and provide a broad, objective, and foundational stakeholder perspective to support core outcome selection for pediatric perioperative research. These results may enhance relevance, inclusivity, and person-centeredness of the final outcomes measurement for pediatric perioperative care.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "von Ungern-Sternberg BS, Sommerfield A, O'Brien C, Davidson AJ, Ramos TA, Goobie SM, Zuo YX, Yang L, et al.",
+          "citation": "Anesthesiology. 2026 May 1;144(5):1127-1138. doi: 10.1097/ALN.0000000000005947. Epub 2026 Jan 20.",
+          "doi": "10.1097/aln.0000000000005947",
+          "pmid": "41557601",
+          "pmcid": "PMC13089847",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉相关领域",
+            "Journal Article"
+          ],
+          "question": "本研究为儿科围手术期核心结局集的建立提供了来自国际多方的利益相关者视角，有助于确保未来研究结局更贴合患者及其家庭的实际需求，提高研究的包容性和以人为中心的程度。",
+          "conclusion": "该国际定性混合方法研究通过359次半结构化访谈，识别出疼痛、并发症、心理健康与情绪状态以及环境是儿童、家长和医疗提供者共同关注的重要结局主题，并提示情绪健康、疼痛和回归日常生活可能在当前研究结局中被低估。",
+          "clinical": "儿科麻醉研究应重视情绪健康、疼痛和回归日常生活等结局，避免仅关注并发症等传统指标。 在围手术期护理中，应关注儿童及其家庭的心理和情绪需求，而不仅仅是生理恢复。 未来核心结局集的制定应纳入患者和家庭的观点，以提高研究的相关性和以人为中心的程度。",
+          "evidence": "中等",
+          "score": 62,
+          "scoreBreakdown": {
+            "relevance": 22,
+            "evidenceQuality": 8,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "国际多中心定性混合方法研究，采用半结构化访谈和改良扎根理论分析。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "parents/guardians and their children undergoing anesthesia for surgery along with perioperative healthcare providers (e.g., nurses, surgeons, and anesthesiologists)；359 semistructured interviews"
+            },
+            {
+              "label": "干预与比较",
+              "value": "不适用（定性研究，无干预）；对照：不适用（定性研究，无对照组）"
+            },
+            {
+              "label": "主要终点",
+              "value": "利益相关者认为重要的麻醉后结局主题（如疼痛、并发症、心理健康与情绪状态、环境等）"
+            }
+          ],
+          "keyPoints": [
+            "359次半结构化访谈，覆盖8个国家10个研究中心。",
+            "疼痛、并发症、心理健康与情绪状态、环境是共同的重要主题。",
+            "医疗提供者与患者/家长之间的主题存在差异。",
+            "情绪健康、疼痛和回归日常生活可能被低估。",
+            "研究为儿科围手术期核心结局集的制定提供利益相关者视角。"
+          ],
+          "methods": "国际儿科围手术期结局组旨在为婴幼儿、儿童和青少年制定核心结局集。本研究作为其中的一部分，通过定性访谈收集儿童、家长/监护人和围手术期医疗提供者的观点，以补充结局评分调查的结果，为核心结局选择提供广泛、客观和基础性的利益相关者视角。",
+          "results": "共进行359次半结构化访谈，覆盖8个国家10个研究中心。研究识别出疼痛、并发症、心理健康与情绪状态、环境是所有利益相关者群体共同认为重要的主题。医疗提供者与患者及家长/监护人之间的主题存在差异。情绪健康、疼痛和回归日常生活可能在当前研究结局中被低估。当前可获取内容未提供效应量、95%置信区间或P值。",
+          "mainResults": "共进行359次半结构化访谈，覆盖8个国家10个研究中心。研究识别出疼痛、并发症、心理健康与情绪状态、环境是所有利益相关者群体共同认为重要的主题。医疗提供者与患者及家长/监护人之间的主题存在差异。情绪健康、疼痛和回归日常生活可能在当前研究结局中被低估。当前可获取内容未提供效应量、95%置信区间或P值。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。",
+            "作为定性研究，结果可能受访谈者偏倚和参与者主观性影响。",
+            "研究未提供定量效应量，无法评估结局的统计学差异。"
+          ],
+          "practice": [
+            "儿科麻醉研究应重视情绪健康、疼痛和回归日常生活等结局，避免仅关注并发症等传统指标。",
+            "在围手术期护理中，应关注儿童及其家庭的心理和情绪需求，而不仅仅是生理恢复。",
+            "未来核心结局集的制定应纳入患者和家庭的观点，以提高研究的相关性和以人为中心的程度。"
+          ],
+          "editor": "该研究为定性研究，结果支持识别利益相关者认为重要的结局主题，但未提供定量数据支持效应大小。 过度解读风险：需注意避免将定性主题直接等同于临床获益或因果关系，且研究未提供统计学检验，不能推断结局的量化重要性。",
+          "whyItMatters": "本研究为儿科围手术期核心结局集的建立提供了来自国际多方的利益相关者视角，有助于确保未来研究结局更贴合患者及其家庭的实际需求，提高研究的包容性和以人为中心的程度。",
+          "background": "国际儿科围手术期结局组旨在为婴幼儿、儿童和青少年制定核心结局集。本研究作为其中的一部分，通过定性访谈收集儿童、家长/监护人和围手术期医疗提供者的观点，以补充结局评分调查的结果，为核心结局选择提供广泛、客观和基础性的利益相关者视角。",
+          "pico": {
+            "population": "parents/guardians and their children undergoing anesthesia for surgery along with perioperative healthcare providers (e.g., nurses, surgeons, and anesthesiologists)",
+            "intervention": "不适用（定性研究，无干预）",
+            "comparison": "不适用（定性研究，无对照组）",
+            "outcome": "利益相关者认为重要的麻醉后结局主题（如疼痛、并发症、心理健康与情绪状态、环境等）"
+          },
+          "studyType": "国际多中心定性混合方法研究，采用半结构化访谈和改良扎根理论分析。",
+          "sampleSize": "359 semistructured interviews",
+          "primaryOutcome": "当前可获取内容未提供该数据。",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究为定性研究，结果支持识别利益相关者认为重要的结局主题，但未提供定量数据支持效应大小。",
+            "overinterpretationRisk": "需注意避免将定性主题直接等同于临床获益或因果关系，且研究未提供统计学检验，不能推断结局的量化重要性。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text",
+              "limitations": [
+                "当前可获取内容仅包括摘要和结构化抽取结果，未提供完整全文，可能遗漏方法细节和局限性。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "儿童、家长/监护人和围手术期医疗提供者对手术麻醉后结局的看法是什么？",
+              "designFit": "采用定性混合方法研究设计，通过半结构化访谈收集观点，适合探索利益相关者的主观体验和看法。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "不适用（定性研究）。",
+              "allocationConcealment": "不适用（定性研究）。",
+              "blinding": "不适用（定性研究）。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "不适用（访谈研究）。",
+              "analysisPopulation": "359次半结构化访谈，涉及儿童、家长/监护人和医疗提供者。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "国际多中心，覆盖多个国家和文化背景。",
+                "纳入多方利益相关者，包括儿童、家长和医疗提供者。",
+                "使用改良扎根理论分析，系统识别主题。"
+              ],
+              "concerns": [
+                "当前可获取内容未提供具体分析方法细节。",
+                "定性研究结果可能受访谈者影响。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价。",
+                  "cautions": [
+                    "由于未报告统计方法，无法评估结果的统计学可靠性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "当前可获取内容未提供该数据。",
+              "secondary": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "国际多中心，样本量大（359次访谈）。",
+                "多方利益相关者参与，提高结果代表性。",
+                "定性方法适合探索观点和体验。"
+              ],
+              "limitations": [
+                "当前可获取内容未提供局限性信息。",
+                "定性研究结果可能受文化差异和访谈者偏倚影响。"
+              ],
+              "biasRisks": [
+                "选择偏倚：参与者可能不能代表所有人群。",
+                "访谈者偏倚：访谈者可能影响回答。"
+              ],
+              "certainty": "低（定性研究，无定量效应量）。",
+              "conclusionAlignment": "结论与结果一致，但需注意定性研究的局限性。",
+              "causalBoundary": "本研究为定性研究，不能推断因果关系，仅能描述观点和主题。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于儿科围手术期研究结局的选择。",
+                "适用于临床护理中关注患者和家庭的心理需求。"
+              ],
+              "nonApplicability": [
+                "不适用于直接指导具体麻醉管理决策。",
+                "不适用于量化结局改善。"
+              ],
+              "practiceChange": "可能促使临床医生和研究者在结局评估中纳入情绪健康和回归日常生活等维度。",
+              "canDoNow": [
+                "在临床研究中考虑纳入患者报告结局，如情绪健康、疼痛和功能恢复。",
+                "在围手术期护理中关注儿童和家长的心理支持。"
+              ],
+              "cannotConclude": [
+                "不能确定这些主题对临床结局的量化影响。",
+                "不能确定不同亚组（如年龄、手术类型）的差异。"
+              ],
+              "evidenceGaps": [
+                "需要定量研究评估这些结局的重要性。",
+                "需要进一步研究不同文化背景下的差异。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41557601/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005947",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005947",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13089847/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41051360",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-03-01",
+          "electronicPublicationDate": "2025-10-06",
+          "readingTime": "13 分钟",
+          "title": "胎盘植入谱系患者剖宫产子宫切除术的麻醉方式：多中心围手术期结局组数据库报告",
+          "originalTitle": "Mode of Anesthesia for Patients with Placenta Accreta Spectrum Undergoing Cesarean Hysterectomy: A Report from the Multicenter Perioperative Outcomes Group Database.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "胎盘植入谱系是一种高度病态的产科疾病，常需行剖宫产子宫切除术，并需要专科麻醉护理。描述这些病例麻醉管理的医院层面数据很少。作者进行了本研究，以描述美国一组医院中这些病例的麻醉方式。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "作者使用多中心围手术期结局组数据库进行了一项回顾性队列研究，确定了2015年1月1日至2021年12月31日期间因胎盘植入谱系接受剖宫产子宫切除术的患者。主要结局是麻醉方式，分为全身麻醉、椎管内麻醉或椎管内麻醉转为全身麻醉。使用描述性统计来描述队列。对于疑似胎盘植入谱系，针对手术子宫切除部分的预期麻醉技术（全身或椎管内）拟合了混合效应逻辑回归模型。接受两种麻醉的患者根据转换是有计划的（归类为全身麻醉）还是无计划的（归类为椎管内麻醉）进行分类。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "作者从43家机构中确定了1,257例病例。其中，418例（33.3%）接受全身麻醉，333例（26.5%）接受椎管内麻醉，506例（40.3%）接受椎管内麻醉并转为全身麻醉。在多变量模型中，胎盘穿透性植入与粘连性植入相比（比值比[OR]，2.14 [95% CI，1.33至3.44]）、植入性胎盘与粘连性胎盘相比（OR，2.04 [95% CI，1.25至3.34]）、非计划与计划病例相比（OR，3.28 [95% CI，2.04至5.26]）、美国麻醉医师学会（伊利诺伊州绍姆堡）身体状况III级与II级相比（OR，1.57 [95% CI，1.02至2.40]）以及美国麻醉医师学会身体状况IV级与II级相比（OR，2.95 [95% CI，1.51至5.74]）与疑似胎盘植入谱系子宫切除术中全身麻醉的较高几率相关。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "椎管内麻醉后转为全身麻醉是剖宫产子宫切除术最常见的选择。未来的研究应评估不同麻醉方式后的产妇发病率和恢复情况，以帮助完善麻醉技术选择的决策。"
+              }
+            ],
+            "fullText": "BACKGROUND: 胎盘植入谱系是一种高度病态的产科疾病，常需行剖宫产子宫切除术，并需要专科麻醉护理。描述这些病例麻醉管理的医院层面数据很少。作者进行了本研究，以描述美国一组医院中这些病例的麻醉方式。 METHODS: 作者使用多中心围手术期结局组数据库进行了一项回顾性队列研究，确定了2015年1月1日至2021年12月31日期间因胎盘植入谱系接受剖宫产子宫切除术的患者。主要结局是麻醉方式，分为全身麻醉、椎管内麻醉或椎管内麻醉转为全身麻醉。使用描述性统计来描述队列。对于疑似胎盘植入谱系，针对手术子宫切除部分的预期麻醉技术（全身或椎管内）拟合了混合效应逻辑回归模型。接受两种麻醉的患者根据转换是有计划的（归类为全身麻醉）还是无计划的（归类为椎管内麻醉）进行分类。 RESULTS: 作者从43家机构中确定了1,257例病例。其中，418例（33.3%）接受全身麻醉，333例（26.5%）接受椎管内麻醉，506例（40.3%）接受椎管内麻醉并转为全身麻醉。在多变量模型中，胎盘穿透性植入与粘连性植入相比（比值比[OR]，2.14 [95% CI，1.33至3.44]）、植入性胎盘与粘连性胎盘相比（OR，2.04 [95% CI，1.25至3.34]）、非计划与计划病例相比（OR，3.28 [95% CI，2.04至5.26]）、美国麻醉医师学会（伊利诺伊州绍姆堡）身体状况III级与II级相比（OR，1.57 [95% CI，1.02至2.40]）以及美国麻醉医师学会身体状况IV级与II级相比（OR，2.95 [95% CI，1.51至5.74]）与疑似胎盘植入谱系子宫切除术中全身麻醉的较高几率相关。 CONCLUSIONS: 椎管内麻醉后转为全身麻醉是剖宫产子宫切除术最常见的选择。未来的研究应评估不同麻醉方式后的产妇发病率和恢复情况，以帮助完善麻醉技术选择的决策。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Padilla A, Stockinger J, Zanolli NC, Hurwitz R, Ende HB, Butwick AJ, Warrick CM, Hess PE, et al.",
+          "citation": "Anesthesiology. 2026 Mar 1;144(3):535-545. doi: 10.1097/ALN.0000000000005788. Epub 2025 Oct 6.",
+          "doi": "10.1097/aln.0000000000005788",
+          "pmid": "41051360",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "question": "胎盘植入谱系是高度病态的产科状况，常需剖宫产子宫切除术并依赖专科麻醉管理，但医院层面的麻醉管理数据有限。该研究利用多中心数据库描述了美国医院中此类病例的麻醉方式选择，为优化围术期麻醉决策提供了现实依据。",
+          "conclusion": "在2015至2021年间，来自43家机构的1257例胎盘植入谱系剖宫产子宫切除术中，椎管内麻醉后转为全身麻醉是最常见的麻醉方式（40.3%），且胎盘植入程度更深、非计划手术及ASA分级更高与全身麻醉几率增加相关。",
+          "clinical": "椎管内麻醉后转为全身麻醉是最常见的麻醉方式，提示临床实践中常采用椎管内麻醉作为初始技术，但需准备转为全身麻醉。 胎盘植入程度更深、非计划手术及ASA分级更高的患者更可能接受全身麻醉，麻醉计划应针对这些高风险因素进行个体化调整。 未来研究应评估不同麻醉方式后的母体发病率和恢复情况，以帮助完善麻醉技术选择的决策。",
+          "evidence": "中等",
+          "score": 61,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 18,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "回顾性队列研究，使用多中心围手术期结局组数据库，纳入2015年1月1日至2021年12月31日期间接受剖宫产子宫切除术的胎盘植入谱系患者。采用描述性统计描述队列，并拟合混合效应逻辑回归模型分析疑似胎盘植入谱系患者子宫切除部分的预期麻醉技术（全身或椎管内）。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "patients who underwent cesarean hysterectomy for placenta accreta spectrum between January 1, 2015, and December 31, 2021, from 43 institutions；1,257 cases"
+            },
+            {
+              "label": "干预与比较",
+              "value": "全身麻醉、椎管内麻醉或椎管内麻醉转全身麻醉（根据计划内或计划外转换分类）；对照：不同麻醉方式之间的比较（主要分析为全身麻醉与椎管内麻醉的比较）"
+            },
+            {
+              "label": "主要终点",
+              "value": "mode of anesthesia, classified as general anesthesia, neuraxial anesthesia, or neuraxial with conversion to general anesthesia"
+            }
+          ],
+          "keyPoints": [
+            "1257例胎盘植入谱系剖宫产子宫切除术中，椎管内麻醉后转全身麻醉最常见（40.3%），全身麻醉占33.3%，单纯椎管内麻醉占26.5%。",
+            "胎盘穿透性植入（OR 2.14）、植入性植入（OR 2.04）、非计划手术（OR 3.28）、ASA III级（OR 1.57）和IV级（OR 2.95）与全身麻醉几率增加相关。",
+            "研究未报告母体并发症或恢复结局，无法评估不同麻醉方式的临床获益。"
+          ],
+          "methods": "胎盘植入谱系是高度病态的产科状况，常需剖宫产子宫切除术并需要专科麻醉护理。目前关于这些病例麻醉管理的医院层面数据很少。该研究旨在描述美国医院队列中这些病例的麻醉方式。",
+          "results": "共识别出来自43家机构的1257例病例。其中418例（33.3%）接受全身麻醉，333例（26.5%）接受椎管内麻醉，506例（40.3%）接受椎管内麻醉后转为全身麻醉。在多变量模型中，与绒毛膜羊膜炎相比，胎盘植入更深（穿透性 vs. 粘连性：OR 2.14 [95% CI 1.33-3.44]；植入性 vs. 粘连性：OR 2.04 [95% CI 1.25-3.34]）、非计划 vs. 计划手术（OR 3.28 [95% CI 2.04-5.26]）、ASA分级III vs. II（OR 1.57 [95% CI 1.02-2.40]）以及ASA分级IV vs. II（OR 2.95 [95% CI 1.51-5.74]）与疑似胎盘植入谱系子宫切除术中全身麻醉几率增加相关。",
+          "mainResults": "共识别出来自43家机构的1257例病例。其中418例（33.3%）接受全身麻醉，333例（26.5%）接受椎管内麻醉，506例（40.3%）接受椎管内麻醉后转为全身麻醉。在多变量模型中，与绒毛膜羊膜炎相比，胎盘植入更深（穿透性 vs. 粘连性：OR 2.14 [95% CI 1.33-3.44]；植入性 vs. 粘连性：OR 2.04 [95% CI 1.25-3.34]）、非计划 vs. 计划手术（OR 3.28 [95% CI 2.04-5.26]）、ASA分级III vs. II（OR 1.57 [95% CI 1.02-2.40]）以及ASA分级IV vs. II（OR 2.95 [95% CI 1.51-5.74]）与疑似胎盘植入谱系子宫切除术中全身麻醉几率增加相关。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "椎管内麻醉后转为全身麻醉是最常见的麻醉方式，提示临床实践中常采用椎管内麻醉作为初始技术，但需准备转为全身麻醉。",
+            "胎盘植入程度更深、非计划手术及ASA分级更高的患者更可能接受全身麻醉，麻醉计划应针对这些高风险因素进行个体化调整。",
+            "未来研究应评估不同麻醉方式后的母体发病率和恢复情况，以帮助完善麻醉技术选择的决策。"
+          ],
+          "editor": "该研究基于多中心数据库的大样本回顾性队列，提供了麻醉方式分布的描述性数据及与全身麻醉相关的因素，结果支持临床决策时考虑胎盘植入深度、手术紧急程度和ASA分级。 过度解读风险：由于是观察性研究，不能推断因果关系；且未报告母体结局，不能据此推荐特定麻醉方式。",
+          "whyItMatters": "胎盘植入谱系是高度病态的产科状况，常需剖宫产子宫切除术并依赖专科麻醉管理，但医院层面的麻醉管理数据有限。该研究利用多中心数据库描述了美国医院中此类病例的麻醉方式选择，为优化围术期麻醉决策提供了现实依据。",
+          "background": "胎盘植入谱系是高度病态的产科状况，常需剖宫产子宫切除术并需要专科麻醉护理。目前关于这些病例麻醉管理的医院层面数据很少。该研究旨在描述美国医院队列中这些病例的麻醉方式。",
+          "pico": {
+            "population": "patients who underwent cesarean hysterectomy for placenta accreta spectrum between January 1, 2015, and December 31, 2021, from 43 institutions",
+            "intervention": "全身麻醉、椎管内麻醉或椎管内麻醉转全身麻醉（根据计划内或计划外转换分类）",
+            "comparison": "不同麻醉方式之间的比较（主要分析为全身麻醉与椎管内麻醉的比较）",
+            "outcome": "mode of anesthesia, classified as general anesthesia, neuraxial anesthesia, or neuraxial with conversion to general anesthesia"
+          },
+          "studyType": "回顾性队列研究，使用多中心围手术期结局组数据库，纳入2015年1月1日至2021年12月31日期间接受剖宫产子宫切除术的胎盘植入谱系患者。采用描述性统计描述队列，并拟合混合效应逻辑回归模型分析疑似胎盘植入谱系患者子宫切除部分的预期麻醉技术（全身或椎管内）。",
+          "sampleSize": "1,257 cases",
+          "primaryOutcome": "mode of anesthesia, classified as general anesthesia, neuraxial anesthesia, or neuraxial with conversion to general anesthesia",
+          "effectSize": [
+            "OR 2.14",
+            "OR 2.04",
+            "OR 3.28",
+            "OR 1.57",
+            "OR 2.95"
+          ],
+          "confidenceInterval": [
+            "95% CI 1.33 to 3.44",
+            "95% CI 1.25 to 3.34",
+            "95% CI 2.04 to 5.26",
+            "95% CI 1.02 to 2.40",
+            "95% CI 1.51 to 5.74"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究基于多中心数据库的大样本回顾性队列，提供了麻醉方式分布的描述性数据及与全身麻醉相关的因素，结果支持临床决策时考虑胎盘植入深度、手术紧急程度和ASA分级。",
+            "overinterpretationRisk": "由于是观察性研究，不能推断因果关系；且未报告母体结局，不能据此推荐特定麻醉方式。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文数据，无法评估方法学细节、混杂因素调整、缺失数据处理等。",
+                "未报告母体结局、并发症等关键临床数据。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "描述美国医院队列中胎盘植入谱系剖宫产子宫切除术的麻醉方式，并分析影响全身麻醉选择的因素。",
+              "designFit": "回顾性队列研究适合描述麻醉方式的分布及关联因素，但无法确立因果关系。",
+              "eligibility": "2015年1月1日至2021年12月31日期间，来自43家机构的接受剖宫产子宫切除术的胎盘植入谱系患者。",
+              "randomization": "不适用（观察性研究）。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "不适用（观察性研究）。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "1257例病例，按麻醉方式分类。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多中心数据库，样本量较大（1257例）。",
+                "使用混合效应模型考虑了机构聚类效应。"
+              ],
+              "concerns": [
+                "回顾性设计可能存在选择偏倚和混杂。",
+                "未报告母体结局，无法评估麻醉方式的临床影响。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "logistic-regression",
+                  "name": "Logistic回归",
+                  "purposeInStudy": "分析全身麻醉与椎管内麻醉的关联因素，以比值比表示效应。",
+                  "reportedResult": "胎盘穿透性植入 vs. 粘连性：OR 2.14 (95% CI 1.33-3.44)；植入性 vs. 粘连性：OR 2.04 (95% CI 1.25-3.34)；非计划 vs. 计划：OR 3.28 (95% CI 2.04-5.26)；ASA III vs. II：OR 1.57 (95% CI 1.02-2.40)；ASA IV vs. II：OR 2.95 (95% CI 1.51-5.74)。",
+                  "interpretation": "这些因素与全身麻醉几率增加相关，但比值比不能直接解释为风险比，尤其在结局常见时。",
+                  "cautions": [
+                    "比值比在结局常见时可能高估风险比。",
+                    "未报告P值，无法评估统计学显著性。"
+                  ],
+                  "standardExplanation": "分析二分类结局并常以比值比表示关联；比值比不能在结局常见时直接当作风险比。"
+                },
+                {
+                  "referenceId": "mixed-effects",
+                  "name": "混合效应模型",
+                  "purposeInStudy": "处理多中心数据的机构聚类效应，同时估计固定效应（患者因素）和随机效应（机构差异）。",
+                  "reportedResult": "模型结果以OR和95% CI报告，但未提供随机效应方差等细节。",
+                  "interpretation": "混合效应模型考虑了机构间差异，提高了估计的准确性。",
+                  "cautions": [
+                    "摘要中未提供模型拟合细节，无法评估模型假设。"
+                  ],
+                  "standardExplanation": "处理重复测量、中心或个体内相关性，同时估计固定效应和随机效应。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "虽然OR值具有统计学意义（基于95% CI不包含1），但未报告母体结局，无法判断临床获益。"
+            },
+            "outcomeAnalysis": {
+              "primary": "麻醉方式，分为全身麻醉、椎管内麻醉或椎管内麻醉转全身麻醉。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "摘要仅报告了相对效应（OR），未提供绝对风险或风险差。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心、大样本。",
+                "使用混合效应模型处理机构聚类。"
+              ],
+              "limitations": [
+                "回顾性设计，存在选择偏倚和混杂。",
+                "未报告母体结局，无法评估临床影响。",
+                "摘要信息有限，无法评估方法学质量。"
+              ],
+              "biasRisks": [
+                "选择偏倚：纳入病例可能不代表所有胎盘植入谱系患者。",
+                "信息偏倚：麻醉方式分类可能受记录影响。",
+                "混杂偏倚：未调整的潜在混杂因素可能影响结果。"
+              ],
+              "certainty": "低至中等，由于观察性设计和摘要信息有限。",
+              "conclusionAlignment": "结论与结果一致，但未过度推断。",
+              "causalBoundary": "观察性关联不能推断因果关系，仅提示关联。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "结果适用于美国多中心医院中胎盘植入谱系剖宫产子宫切除术患者的麻醉管理。",
+                "提示临床实践中椎管内麻醉后转全身麻醉是常见选择，且高风险患者更可能接受全身麻醉。"
+              ],
+              "nonApplicability": [
+                "不适用于其他产科手术或非胎盘植入谱系患者。",
+                "不适用于资源有限或不同麻醉实践的地区。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践，但可提示麻醉计划需考虑胎盘植入深度、手术紧急程度和ASA分级。",
+              "canDoNow": [
+                "对于疑似胎盘植入谱系患者，术前应评估胎盘植入深度、手术紧急程度和ASA分级，以制定个体化麻醉计划。",
+                "准备椎管内麻醉时，应具备快速转为全身麻醉的条件。"
+              ],
+              "cannotConclude": [
+                "不能确定哪种麻醉方式更优，因为未报告母体结局。",
+                "不能推断因果关系。"
+              ],
+              "evidenceGaps": [
+                "需要前瞻性研究比较不同麻醉方式对母体发病率和恢复的影响。",
+                "需要报告绝对风险、并发症和患者满意度等结局。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41051360/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005788",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005788",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42241294",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-06-04",
+          "electronicPublicationDate": "2026-06-04",
+          "readingTime": "12 分钟",
+          "title": "非心脏手术中较高与常规术中血压目标：随机试验的系统评价和Meta分析及试验序贯分析",
+          "originalTitle": "Higher versus Routine Intraoperative Blood Pressure Targets in Noncardiac Surgery: A Systematic Review and Meta-analysis with Trial Sequential Analysis of Randomized Trials.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "观察性研究一致地将术中低血压与不良术后结局相关联，因此指南建议在非心脏手术期间维持平均动脉压（MAP）≥60-65 mmHg。然而，设定更高的术中血压目标是否能改善临床结局仍不确定。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们按照PRISMA指南在PubMed、Cochrane CENTRAL、Scopus和Embase中进行了从建库至2026年4月的检索。纳入在全身麻醉下接受择期非心脏手术的成人中，比较更高术中血压目标（无论是固定的绝对阈值还是根据术前基线个体化设定）与常规血压管理的随机试验。结局包括院内或30天死亡率、术后谵妄、急性肾损伤（AKI）、30天主要心血管事件（MACE）、急性心肌损伤、卒中、住院时间和术中低血压。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "共纳入15项试验（15,603名患者）。与常规目标相比，更高目标并未降低AKI（RR = 0.95；95% CI = 0.85至1.06；p = 0.36；I² = 16%）或急性心肌损伤（RR = 1.02；95% CI = 0.94至1.12；p = 0.59；I² = 0%），且试验序贯分析（TSA）提供了确凿证据。更高目标与术后谵妄显著减少相关（RR = 0.73；95% CI = 0.54至0.98；p = 0.04；I² = 26%），但TSA表明累积证据仍不足以得出确切结论。对院内或30天死亡率未观察到显著影响（RR = 1.00；95% CI = 0.75至1.34；p = 1.00；I² = 0%）；关于30天MACE、卒中和住院时间的证据同样不足以得出确切结论。"
+              },
+              {
+                "heading": "CONCLUSION",
+                "text": "在接受择期非心脏手术的成人中，与常规管理相比，设定更高的术中血压目标并不能改善主要术后结局。术后谵妄的潜在减少需要在充分把握度的试验中得到证实。"
+              }
+            ],
+            "fullText": "BACKGROUND: 观察性研究一致地将术中低血压与不良术后结局相关联，因此指南建议在非心脏手术期间维持平均动脉压（MAP）≥60-65 mmHg。然而，设定更高的术中血压目标是否能改善临床结局仍不确定。METHODS: 我们按照PRISMA指南在PubMed、Cochrane CENTRAL、Scopus和Embase中进行了从建库至2026年4月的检索。纳入在全身麻醉下接受择期非心脏手术的成人中，比较更高术中血压目标（无论是固定的绝对阈值还是根据术前基线个体化设定）与常规血压管理的随机试验。结局包括院内或30天死亡率、术后谵妄、急性肾损伤（AKI）、30天主要心血管事件（MACE）、急性心肌损伤、卒中、住院时间和术中低血压。RESULTS: 共纳入15项试验（15,603名患者）。与常规目标相比，更高目标并未降低AKI（RR = 0.95；95% CI = 0.85至1.06；p = 0.36；I² = 16%）或急性心肌损伤（RR = 1.02；95% CI = 0.94至1.12；p = 0.59；I² = 0%），且试验序贯分析（TSA）提供了确凿证据。更高目标与术后谵妄显著减少相关（RR = 0.73；95% CI = 0.54至0.98；p = 0.04；I² = 26%），但TSA表明累积证据仍不足以得出确切结论。对院内或30天死亡率未观察到显著影响（RR = 1.00；95% CI = 0.75至1.34；p = 1.00；I² = 0%）；关于30天MACE、卒中和住院时间的证据同样不足以得出确切结论。CONCLUSION: 在接受择期非心脏手术的成人中，与常规管理相比，设定更高的术中血压目标并不能改善主要术后结局。术后谵妄的潜在减少需要在充分把握度的试验中得到证实。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Chiou K, Vikram S, Rowshan K, Shah S, Modha D, Engelman E, Guthrie D, Tiwari A, et al.",
+          "citation": "Anesthesiology. 2026 Jun 4. doi: 10.1097/ALN.0000000000006190.",
+          "doi": "10.1097/aln.0000000000006190",
+          "pmid": "42241294",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-design"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "老年围术期",
+            "Journal Article"
+          ],
+          "question": "术中低血压与不良术后结局相关，指南建议维持MAP≥60-65 mmHg，但更高血压目标是否能改善临床结局尚不确定。本研究通过系统评价和Meta分析，为临床实践提供了关于较高血压目标获益的最新证据。",
+          "conclusion": "在成人择期非心脏手术中，与常规血压管理相比，较高的术中血压目标并未改善主要术后结局，但可能与术后谵妄减少相关，需进一步验证。",
+          "clinical": "在择期非心脏手术中，将术中血压目标提高至常规水平以上并未改善主要术后结局，因此不应常规采用较高血压目标以期望降低AKI或心肌损伤。 较高血压目标可能与术后谵妄减少相关，但证据尚不充分，需在充分把握度的试验中确认，临床决策应权衡潜在获益与风险。",
+          "evidence": "中等",
+          "score": 60,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 15,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价和Meta分析，并采用试验序贯分析（TSA）对随机试验进行分析。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adults undergoing elective noncardiac surgery with general anesthesia；15,603 patients (15 trials)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Higher intraoperative blood pressure targets, either as fixed absolute thresholds or personalized to preoperative baseline；对照：Routine blood pressure management"
+            },
+            {
+              "label": "主要终点",
+              "value": "In-hospital or 30-day mortality, postoperative delirium, acute kidney injury (AKI), 30-day major cardiovascular events (MACE), acute myocardial injury, stroke, length of stay, and intraoperative hypotension"
+            }
+          ],
+          "keyPoints": [
+            "较高术中血压目标未降低AKI或急性心肌损伤，证据确凿。",
+            "较高血压目标与术后谵妄减少相关，但证据不足。",
+            "对死亡率无显著影响，其他结局证据不足。"
+          ],
+          "methods": "观察性研究一致将术中低血压与不良术后结局联系起来，导致指南建议在非心脏手术期间维持平均动脉压（MAP）≥60-65 mmHg。然而，针对更高术中血压值是否能改善临床结局仍不确定。",
+          "results": "共纳入15项随机试验，涉及15,603例患者。较高血压目标未降低AKI（RR=0.95；95%CI 0.85-1.06；p=0.36；I²=16%）或急性心肌损伤（RR=1.02；95%CI 0.94-1.12；p=0.59；I²=0%），TSA显示证据确凿。较高血压目标与术后谵妄显著减少相关（RR=0.73；95%CI 0.54-0.98；p=0.04；I²=26%），但TSA提示累积证据不足以得出确切结论。对院内或30天死亡率无显著影响（RR=1.00；95%CI 0.75-1.34；p=1.00；I²=0%）；30天MACE、卒中和住院时间的证据同样不足以得出确切结论。",
+          "mainResults": "共纳入15项随机试验，涉及15,603例患者。较高血压目标未降低AKI（RR=0.95；95%CI 0.85-1.06；p=0.36；I²=16%）或急性心肌损伤（RR=1.02；95%CI 0.94-1.12；p=0.59；I²=0%），TSA显示证据确凿。较高血压目标与术后谵妄显著减少相关（RR=0.73；95%CI 0.54-0.98；p=0.04；I²=26%），但TSA提示累积证据不足以得出确切结论。对院内或30天死亡率无显著影响（RR=1.00；95%CI 0.75-1.34；p=1.00；I²=0%）；30天MACE、卒中和住院时间的证据同样不足以得出确切结论。",
+          "limitations": [
+            "试验序贯分析显示术后谵妄及其他结局的累积证据不足。",
+            "30天MACE、卒中和住院时间的证据不足以得出确切结论。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "在择期非心脏手术中，将术中血压目标提高至常规水平以上并未改善主要术后结局，因此不应常规采用较高血压目标以期望降低AKI或心肌损伤。",
+            "较高血压目标可能与术后谵妄减少相关，但证据尚不充分，需在充分把握度的试验中确认，临床决策应权衡潜在获益与风险。"
+          ],
+          "editor": "基于15项随机试验的Meta分析，主要结局（AKI、急性心肌损伤）的效应估计精确，TSA显示证据确凿，支持较高血压目标无益的结论。 过度解读风险：术后谵妄的显著减少可能被过度解读，因为TSA显示证据不足，且未调整多重比较，需谨慎解释。",
+          "whyItMatters": "术中低血压与不良术后结局相关，指南建议维持MAP≥60-65 mmHg，但更高血压目标是否能改善临床结局尚不确定。本研究通过系统评价和Meta分析，为临床实践提供了关于较高血压目标获益的最新证据。",
+          "background": "观察性研究一致将术中低血压与不良术后结局联系起来，导致指南建议在非心脏手术期间维持平均动脉压（MAP）≥60-65 mmHg。然而，针对更高术中血压值是否能改善临床结局仍不确定。",
+          "pico": {
+            "population": "Adults undergoing elective noncardiac surgery with general anesthesia",
+            "intervention": "Higher intraoperative blood pressure targets, either as fixed absolute thresholds or personalized to preoperative baseline",
+            "comparison": "Routine blood pressure management",
+            "outcome": "In-hospital or 30-day mortality, postoperative delirium, acute kidney injury (AKI), 30-day major cardiovascular events (MACE), acute myocardial injury, stroke, length of stay, and intraoperative hypotension"
+          },
+          "studyType": "系统评价和Meta分析，并采用试验序贯分析（TSA）对随机试验进行分析。",
+          "sampleSize": "15,603 patients (15 trials)",
+          "primaryOutcome": "In-hospital or 30-day mortality, postoperative delirium, acute kidney injury (AKI), 30-day major cardiovascular events (MACE), acute myocardial injury, stroke, length of stay, and intraoperative hypotension",
+          "effectSize": [
+            "RR = 0.95",
+            "RR = 1.02",
+            "RR = 0.73",
+            "RR = 1.00"
+          ],
+          "confidenceInterval": [
+            "95% CI = 0.85 to 1.06",
+            "95% CI = 0.94 to 1.12",
+            "95% CI = 0.54 to 0.98",
+            "95% CI = 0.75 to 1.34"
+          ],
+          "pValue": [
+            "p = 0.36",
+            "p = 0.59",
+            "p = 0.04",
+            "p = 1.00"
+          ],
+          "adverseEvents": "No significant effect on mortality; potential reduction in postoperative delirium; insufficient evidence for MACE, stroke, and length of stay.",
+          "aiAssessment": {
+            "support": "基于15项随机试验的Meta分析，主要结局（AKI、急性心肌损伤）的效应估计精确，TSA显示证据确凿，支持较高血压目标无益的结论。",
+            "overinterpretationRisk": "术后谵妄的显著减少可能被过度解读，因为TSA显示证据不足，且未调整多重比较，需谨慎解释。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取全文详细方法学信息。",
+                "未报告检索策略、纳入排除标准细节、偏倚风险评估等。",
+                "未提供亚组分析、敏感性分析等结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "在成人择期非心脏手术中，较高的术中血压目标与常规血压管理相比，是否能改善临床结局？",
+              "designFit": "系统评价和Meta分析适合汇总多个随机试验的证据，TSA用于评估累积证据的可靠性。",
+              "eligibility": "纳入比较较高术中血压目标（固定绝对阈值或个体化）与常规管理的随机试验，对象为成人择期非心脏手术全身麻醉患者。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "基于随机试验，减少选择偏倚。",
+                "使用TSA评估证据的可靠性。",
+                "样本量较大（15,603例）。"
+              ],
+              "concerns": [
+                "仅基于摘要，无法评估方法学质量。",
+                "未报告检索策略和筛选流程。",
+                "未报告偏倚风险评估。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "Meta分析",
+                  "purposeInStudy": "汇总各试验的效应量，计算合并RR。",
+                  "reportedResult": "AKI RR=0.95；急性心肌损伤 RR=1.02；术后谵妄 RR=0.73；死亡率 RR=1.00。",
+                  "interpretation": "较高血压目标对AKI、心肌损伤和死亡率无显著影响，对谵妄有显著降低。",
+                  "cautions": [
+                    "未报告随机效应模型或固定效应模型的选择。",
+                    "未报告异质性检验的详细结果。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                },
+                {
+                  "referenceId": null,
+                  "name": "试验序贯分析（TSA）",
+                  "purposeInStudy": "评估累积证据是否足够，控制随机误差。",
+                  "reportedResult": "AKI和急性心肌损伤的证据确凿；术后谵妄证据不足。",
+                  "interpretation": "AKI和心肌损伤的阴性结果可靠，谵妄的阳性结果需谨慎。",
+                  "cautions": [
+                    "TSA结果依赖于预设的效应量、α和β水平，未报告具体参数。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "AKI和心肌损伤的阴性结果具有统计学意义（p>0.05），但临床意义可能有限；谵妄的阳性结果具有统计学意义（p=0.04），但临床意义需结合效应量大小和证据确定性。"
+            },
+            "outcomeAnalysis": {
+              "primary": "主要结局包括院内或30天死亡率、术后谵妄、AKI、30天MACE、急性心肌损伤、卒中、住院时间和术中低血压。",
+              "secondary": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "safety": "未报告严重不良事件，但死亡率无显著差异。",
+              "absoluteVsRelative": "相对效应量（RR）已报告，但绝对风险差异未提供。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "基于随机试验，证据等级较高。",
+                "使用TSA评估证据可靠性。",
+                "样本量大。"
+              ],
+              "limitations": [
+                "仅基于摘要，无法评估方法学质量。",
+                "未报告检索策略、筛选流程、偏倚风险评估。",
+                "部分结局证据不足。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "对于AKI和急性心肌损伤，证据确凿；对于术后谵妄，证据不足；对于其他结局，证据不足。",
+              "conclusionAlignment": "结论与结果一致，但谵妄的结论需谨慎。",
+              "causalBoundary": "由于是Meta分析，不能推断因果关系，只能提供关联证据。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于接受择期非心脏手术的成人患者。",
+                "较高血压目标可能不改善主要结局，但可能减少谵妄。"
+              ],
+              "nonApplicability": [
+                "不适用于急诊手术或高危患者。",
+                "不适用于儿童或孕妇。"
+              ],
+              "practiceChange": "当前证据不支持常规采用较高血压目标以改善主要结局，但谵妄的潜在获益需进一步验证。",
+              "canDoNow": [
+                "维持常规血压管理，无需常规提高目标。",
+                "对于谵妄高风险患者，可考虑较高血压目标，但需权衡。"
+              ],
+              "cannotConclude": [
+                "不能确定较高血压目标对MACE、卒中和住院时间的影响。",
+                "不能确定较高血压目标对谵妄的获益是否真实。"
+              ],
+              "evidenceGaps": [
+                "需要更多充分把握度的试验验证谵妄的获益。",
+                "需要评估不同血压目标阈值和个体化策略的效果。",
+                "需要长期随访和成本效益分析。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42241294/",
+            "doi": "https://doi.org/10.1097/aln.0000000000006190",
+            "publisher": "https://doi.org/10.1097/aln.0000000000006190",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41343719",
+          "number": "04",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-03-01",
+          "electronicPublicationDate": "2025-12-04",
+          "readingTime": "14 分钟",
+          "title": "舒更葡糖钠引入后术中罗库溴铵剂量变化及其与术后呼吸并发症的关联：一项回顾性队列研究",
+          "originalTitle": "Changes in Intraoperative Rocuronium Dosing after the Introduction of Sugammadex and Association with Postoperative Respiratory Complications: A Retrospective Cohort Study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "神经肌肉阻滞剂剂量依赖性地导致残余神经肌肉阻滞和术后呼吸系统并发症。舒更葡糖钠的引入使得即使是深度神经肌肉阻滞也能被逆转，这可能促使神经肌肉阻滞剂的使用更加宽松。作者调查了舒更葡糖钠的引入是否导致术中罗库溴铵剂量增加，以及这是否影响了术后呼吸系统并发症。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "共纳入2010年至2024年间在一家学术医疗中心接受全身麻醉并仅使用罗库溴铵的163,402例成年患者病例。应用中断时间序列分析，调整患者和手术特征，评估2016年9月舒更葡糖钠引入后术中罗库溴铵累积剂量（毫克/公斤体重）的变化。评估了罗库溴铵相关的术后呼吸系统并发症风险（拔管后血氧饱和度低于90%、7天内再插管或紧急无创通气），以及使用舒更葡糖钠和定性（颤搐计数）与定量（四个成串刺激比值）神经肌肉监测的效应修饰。报告的比值比表示各自患者病例亚组内的剂量-反应关联（每增加1毫克/公斤罗库溴铵）。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在基线稳定（2010年1月至2016年8月期间每年-0.01毫克/公斤；95% CI，-0.05至0.03毫克/公斤；P = 0.58）后，舒更葡糖钠引入后罗库溴铵剂量每年增加0.05毫克/公斤（95% CI，0.03至0.07毫克/公斤；P < 0.001），从2016年8月的（平均值±标准差）0.83 ± 0.49毫克/公斤增加到2024年1月的1.20 ± 0.65毫克/公斤。108,317例患者病例中有9,101例（8.4%）出现术后呼吸系统并发症。罗库溴铵剂量依赖性地与更高的术后呼吸系统并发症风险相关，这在既未接受舒更葡糖钠也未接受神经肌肉监测的患者病例中最为显著（调整后比值比 [OR adj]，每1毫克/公斤为1.99；95% CI，1.82至2.18；P < 0.001）。当给予舒更葡糖钠时，这种关联减弱（n = 42,141；中位剂量，200毫克；四分位距，200至300毫克；OR adj，每1毫克/公斤为1.08；95% CI，1.01至1.16；P = 0.023；交互作用P < 0.001），并在定量（n = 25,564；OR adj，每1毫克/公斤为10.94；95% CI，0.85至1.03；P = 0.19；交互作用P < 0.001）而非定性神经肌肉监测（n = 49,045；OR adj，每1毫克/公斤为1.10；95% CI，1.02至1.18；P = 0.017；交互作用P < 0.001）下被消除。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "舒更葡糖钠引入后，罗库溴铵剂量增加了45.1%。虽然舒更葡糖钠减弱了术后呼吸系统并发症的风险，但只有在定量神经肌肉监测下才完全消除。"
+              }
+            ],
+            "fullText": "BACKGROUND: 神经肌肉阻滞剂剂量依赖性地导致残余神经肌肉阻滞和术后呼吸系统并发症。舒更葡糖钠的引入使得即使是深度神经肌肉阻滞也能被逆转，这可能促使神经肌肉阻滞剂的使用更加宽松。作者调查了舒更葡糖钠的引入是否导致术中罗库溴铵剂量增加，以及这是否影响了术后呼吸系统并发症。 METHODS: 共纳入2010年至2024年间在一家学术医疗中心接受全身麻醉并仅使用罗库溴铵的163,402例成年患者病例。应用中断时间序列分析，调整患者和手术特征，评估2016年9月舒更葡糖钠引入后术中罗库溴铵累积剂量（毫克/公斤体重）的变化。评估了罗库溴铵相关的术后呼吸系统并发症风险（拔管后血氧饱和度低于90%、7天内再插管或紧急无创通气），以及使用舒更葡糖钠和定性（颤搐计数）与定量（四个成串刺激比值）神经肌肉监测的效应修饰。报告的比值比表示各自患者病例亚组内的剂量-反应关联（每增加1毫克/公斤罗库溴铵）。 RESULTS: 在基线稳定（2010年1月至2016年8月期间每年-0.01毫克/公斤；95% CI，-0.05至0.03毫克/公斤；P = 0.58）后，舒更葡糖钠引入后罗库溴铵剂量每年增加0.05毫克/公斤（95% CI，0.03至0.07毫克/公斤；P < 0.001），从2016年8月的（平均值±标准差）0.83 ± 0.49毫克/公斤增加到2024年1月的1.20 ± 0.65毫克/公斤。108,317例患者病例中有9,101例（8.4%）出现术后呼吸系统并发症。罗库溴铵剂量依赖性地与更高的术后呼吸系统并发症风险相关，这在既未接受舒更葡糖钠也未接受神经肌肉监测的患者病例中最为显著（调整后比值比 [OR adj]，每1毫克/公斤为1.99；95% CI，1.82至2.18；P < 0.001）。当给予舒更葡糖钠时，这种关联减弱（n = 42,141；中位剂量，200毫克；四分位距，200至300毫克；OR adj，每1毫克/公斤为1.08；95% CI，1.01至1.16；P = 0.023；交互作用P < 0.001），并在定量（n = 25,564；OR adj，每1毫克/公斤为10.94；95% CI，0.85至1.03；P = 0.19；交互作用P < 0.001）而非定性神经肌肉监测（n = 49,045；OR adj，每1毫克/公斤为1.10；95% CI，1.02至1.18；P = 0.017；交互作用P < 0.001）下被消除。 CONCLUSIONS: 舒更葡糖钠引入后，罗库溴铵剂量增加了45.1%。虽然舒更葡糖钠减弱了术后呼吸系统并发症的风险，但只有在定量神经肌肉监测下才完全消除。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Wachtendorf LJ, Kaiser L, Ahrens E, Tenge T, Riesemann S, Xu X, Shay D, von Wedel D, et al.",
+          "citation": "Anesthesiology. 2026 Mar 1;144(3):597-610. doi: 10.1097/ALN.0000000000005880. Epub 2025 Dec 4.",
+          "doi": "10.1097/aln.0000000000005880",
+          "pmid": "41343719",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "气道管理",
+            "Journal Article"
+          ],
+          "question": "该研究提示，肌松拮抗剂的可及性可能改变临床用药行为，导致肌松药用量增加，但若未配合定量神经肌肉监测，术后呼吸并发症风险仍可能升高，对围术期用药安全具有重要警示意义。",
+          "conclusion": "舒更葡糖钠引入后，术中罗库溴铵剂量显著增加，且剂量增加与术后呼吸并发症风险升高相关，但仅在未使用舒更葡糖钠或未进行定量神经肌肉监测的患者中风险显著。",
+          "clinical": "舒更葡糖钠的引入可能促使麻醉医师增加肌松药用量，但需警惕术后呼吸并发症风险。 定量神经肌肉监测（如TOF比值）可能有助于消除肌松药剂量增加带来的风险，建议在临床中加强应用。 对于未使用定量监测的患者，即使使用舒更葡糖钠，仍需谨慎控制肌松药剂量。",
+          "evidence": "中等",
+          "score": 58,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 10,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "回顾性队列研究，采用中断时间序列分析，并调整患者及手术特征。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adult patient cases who underwent general anesthesia and received exclusively rocuronium at an academic medical center between 2010 and 2024；163,402"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Introduction of sugammadex in September 2016；对照：Before vs. after sugammadex introduction"
+            },
+            {
+              "label": "主要终点",
+              "value": "Cumulative intraoperative rocuronium doses (mg/kg) and postoperative respiratory complications"
+            }
+          ],
+          "keyPoints": [
+            "舒更葡糖钠引入后，罗库溴铵剂量每年增加0.05 mg/kg（P<0.001）。",
+            "罗库溴铵剂量每增加1 mg/kg，未使用舒更葡糖钠且未监测的患者术后呼吸并发症风险增加99%（校正OR=1.99，95% CI 1.82-2.18）。",
+            "使用舒更葡糖钠时风险减弱（OR=1.08），定量监测时风险消失（OR=10.94，但CI包含1，无统计学意义），定性监测时风险仍存在（OR=1.10）。",
+            "术后呼吸并发症总发生率为8.4%。"
+          ],
+          "methods": "神经肌肉阻滞剂呈剂量依赖性地加重残余肌松和术后呼吸并发症。舒更葡糖钠的引入使得深度肌松也能被逆转，可能促使临床更宽松地使用神经肌肉阻滞剂。本研究旨在探讨舒更葡糖钠引入后术中罗库溴铵剂量是否增加，以及这是否影响术后呼吸并发症。",
+          "results": "在基线期（2010年1月至2016年8月），罗库溴铵剂量稳定（每年变化-0.01 mg/kg，95% CI -0.05至0.03，P=0.58）。舒更葡糖钠引入后，剂量每年增加0.05 mg/kg（95% CI 0.03至0.07，P<0.001），从2016年8月的0.83±0.49 mg/kg增至2024年1月的1.20±0.65 mg/kg。共108,317例患者中9,101例（8.4%）发生术后呼吸并发症。罗库溴铵剂量与术后呼吸并发症风险呈剂量依赖性相关，在未使用舒更葡糖钠且未进行神经肌肉监测的患者中风险最高（校正OR=1.99 per 1 mg/kg，95% CI 1.82-2.18，P<0.001）。使用舒更葡糖钠时风险减弱（n=42,141，中位剂量200 mg，IQR 200-300 mg，校正OR=1.08，95% CI 1.01-1.16，P=0.023，交互P<0.001）；定量神经肌肉监测时风险消失（n=25,564，校正OR=10.94，95% CI 0.85-1.03，P=0.19，交互P<0.001），但定性监测时风险仍存在（n=49,045，校正OR=1.10，95% CI 1.02-1.18，P=0.017，交互P<0.001）。",
+          "mainResults": "在基线期（2010年1月至2016年8月），罗库溴铵剂量稳定（每年变化-0.01 mg/kg，95% CI -0.05至0.03，P=0.58）。舒更葡糖钠引入后，剂量每年增加0.05 mg/kg（95% CI 0.03至0.07，P<0.001），从2016年8月的0.83±0.49 mg/kg增至2024年1月的1.20±0.65 mg/kg。共108,317例患者中9,101例（8.4%）发生术后呼吸并发症。罗库溴铵剂量与术后呼吸并发症风险呈剂量依赖性相关，在未使用舒更葡糖钠且未进行神经肌肉监测的患者中风险最高（校正OR=1.99 per 1 mg/kg，95% CI 1.82-2.18，P<0.001）。使用舒更葡糖钠时风险减弱（n=42,141，中位剂量200 mg，IQR 200-300 mg，校正OR=1.08，95% CI 1.01-1.16，P=0.023，交互P<0.001）；定量神经肌肉监测时风险消失（n=25,564，校正OR=10.94，95% CI 0.85-1.03，P=0.19，交互P<0.001），但定性监测时风险仍存在（n=49,045，校正OR=1.10，95% CI 1.02-1.18，P=0.017，交互P<0.001）。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。",
+            "作为回顾性研究，可能存在残余混杂和选择偏倚。",
+            "研究基于单中心数据，外推需谨慎。"
+          ],
+          "practice": [
+            "舒更葡糖钠的引入可能促使麻醉医师增加肌松药用量，但需警惕术后呼吸并发症风险。",
+            "定量神经肌肉监测（如TOF比值）可能有助于消除肌松药剂量增加带来的风险，建议在临床中加强应用。",
+            "对于未使用定量监测的患者，即使使用舒更葡糖钠，仍需谨慎控制肌松药剂量。"
+          ],
+          "editor": "研究结果支持舒更葡糖钠引入后罗库溴铵剂量增加，且剂量增加与术后呼吸并发症风险升高相关，但风险仅在未使用舒更葡糖钠或未进行定量监测的患者中显著。 过度解读风险：需注意该研究为观察性设计，不能确立因果关系；且交互作用分析可能为探索性，需谨慎解读亚组结果。",
+          "whyItMatters": "该研究提示，肌松拮抗剂的可及性可能改变临床用药行为，导致肌松药用量增加，但若未配合定量神经肌肉监测，术后呼吸并发症风险仍可能升高，对围术期用药安全具有重要警示意义。",
+          "background": "神经肌肉阻滞剂呈剂量依赖性地加重残余肌松和术后呼吸并发症。舒更葡糖钠的引入使得深度肌松也能被逆转，可能促使临床更宽松地使用神经肌肉阻滞剂。本研究旨在探讨舒更葡糖钠引入后术中罗库溴铵剂量是否增加，以及这是否影响术后呼吸并发症。",
+          "pico": {
+            "population": "Adult patient cases who underwent general anesthesia and received exclusively rocuronium at an academic medical center between 2010 and 2024",
+            "intervention": "Introduction of sugammadex in September 2016",
+            "comparison": "Before vs. after sugammadex introduction",
+            "outcome": "Cumulative intraoperative rocuronium doses (mg/kg) and postoperative respiratory complications"
+          },
+          "studyType": "回顾性队列研究，采用中断时间序列分析，并调整患者及手术特征。",
+          "sampleSize": "163,402",
+          "primaryOutcome": "Cumulative intraoperative rocuronium doses (mg/kg) and postoperative respiratory complications",
+          "effectSize": [
+            "0.05 mg/kg per year",
+            "1.99 per 1 mg/kg",
+            "1.08 per 1 mg/kg",
+            "10.94 per 1 mg/kg",
+            "1.10 per 1 mg/kg"
+          ],
+          "confidenceInterval": [
+            "95% CI, 0.03 to 0.07 mg/kg",
+            "95% CI, 1.82 to 2.18",
+            "95% CI, 1.01 to 1.16",
+            "95% CI, 0.85 to 1.03",
+            "95% CI, 1.02 to 1.18"
+          ],
+          "pValue": [
+            "P < 0.001",
+            "P < 0.001",
+            "P = 0.023",
+            "P = 0.19",
+            "P = 0.017"
+          ],
+          "adverseEvents": "Postoperative respiratory complications (postextubation desaturation less than 90%, 7-day reintubation or emergency noninvasive ventilation) occurred in 8.4% of cases.",
+          "aiAssessment": {
+            "support": "研究结果支持舒更葡糖钠引入后罗库溴铵剂量增加，且剂量增加与术后呼吸并发症风险升高相关，但风险仅在未使用舒更葡糖钠或未进行定量监测的患者中显著。",
+            "overinterpretationRisk": "需注意该研究为观察性设计，不能确立因果关系；且交互作用分析可能为探索性，需谨慎解读亚组结果。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取完整方法学细节、基线特征、混杂调整变量列表、敏感性分析等。",
+                "无法评估研究质量（如数据完整性、失访、偏倚控制）。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "舒更葡糖钠引入后，术中罗库溴铵剂量是否增加，以及剂量增加是否与术后呼吸并发症风险相关？",
+              "designFit": "回顾性队列设计适合评估药物引入后的实践变化及其结局关联，但因果推断受限。",
+              "eligibility": "2010-2024年间在某学术医疗中心接受全身麻醉且仅使用罗库溴铵的成人患者病例。",
+              "randomization": "不适用（观察性研究）。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "不适用（观察性研究）。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "术后7天内呼吸并发症。",
+              "analysisPopulation": "163,402例患者病例，其中108,317例纳入并发症分析。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "大样本（163,402例）。",
+                "使用中断时间序列分析，可评估时间趋势变化。",
+                "调整了患者和手术特征。"
+              ],
+              "concerns": [
+                "回顾性设计，可能存在未测量的混杂因素。",
+                "仅基于摘要，无法评估数据完整性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "interaction",
+                  "name": "交互作用分析",
+                  "purposeInStudy": "评估舒更葡糖钠使用和神经肌肉监测类型对罗库溴铵剂量与术后呼吸并发症关联的修饰作用。",
+                  "reportedResult": "交互作用P值均<0.001，表明不同亚组间关联强度存在显著差异。",
+                  "interpretation": "舒更葡糖钠和定量监测均减弱了罗库溴铵剂量与并发症的关联，但定量监测下关联消失。",
+                  "cautions": [
+                    "交互作用分析可能为探索性，需预先设定假设。",
+                    "亚组样本量差异可能影响检验效能。"
+                  ],
+                  "standardExplanation": "检验一个因素的效应是否随另一因素而变化；应区分预设交互与探索性亚组发现。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供具体调整变量列表。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "按是否使用舒更葡糖钠、是否使用定量或定性神经肌肉监测进行亚组分析，交互作用P值均<0.001。",
+              "clinicalVsStatisticalSignificance": "虽然定量监测组OR=10.94无统计学意义（P=0.19），但临床意义需结合效应量大小和置信区间解释。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术中罗库溴铵累积剂量（mg/kg）和术后呼吸并发症（复合结局）。",
+              "secondary": [
+                "拔管后血氧饱和度<90%",
+                "7天内再插管或紧急无创通气"
+              ],
+              "safety": "术后呼吸并发症发生率为8.4%。",
+              "absoluteVsRelative": "摘要未报告绝对风险差，仅报告了相对效应量（OR）。",
+              "subgroupAndInteraction": "亚组分析显示，未使用舒更葡糖钠且未监测的患者风险最高（OR=1.99），使用舒更葡糖钠时风险减弱（OR=1.08），定量监测时风险消失（OR=10.94，但无统计学意义），定性监测时风险仍存在（OR=1.10）。交互作用P值均<0.001。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "大样本、长时间跨度（2010-2024）。",
+                "使用中断时间序列分析，可评估政策或实践变化的影响。",
+                "调整了患者和手术特征。"
+              ],
+              "limitations": [
+                "回顾性设计，可能存在残余混杂。",
+                "仅基于摘要，无法评估方法学细节。",
+                "单中心研究，外推受限。"
+              ],
+              "biasRisks": [
+                "选择偏倚：纳入仅使用罗库溴铵的病例，可能不代表所有肌松药使用情况。",
+                "信息偏倚：依赖电子病历记录，可能存在剂量记录不准确。",
+                "混杂偏倚：未测量因素如手术类型、患者合并症等可能影响结果。"
+              ],
+              "certainty": "中等（观察性研究，但样本量大且设计合理）。",
+              "conclusionAlignment": "结论与结果一致，但需注意因果推断的局限性。",
+              "causalBoundary": "观察性研究不能确立因果关系，只能提示关联。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于使用罗库溴铵和舒更葡糖钠的全身麻醉患者。",
+                "提示定量神经肌肉监测的重要性。"
+              ],
+              "nonApplicability": [
+                "不适用于其他肌松药或拮抗剂。",
+                "不适用于儿童或特殊人群。"
+              ],
+              "practiceChange": "可能促使临床更重视定量神经肌肉监测，并谨慎调整肌松药剂量。",
+              "canDoNow": [
+                "加强定量神经肌肉监测的应用。",
+                "在舒更葡糖钠可及的情况下，仍应控制肌松药剂量。"
+              ],
+              "cannotConclude": [
+                "不能确定舒更葡糖钠引入直接导致剂量增加（因果）。",
+                "不能确定定量监测完全消除风险（因OR无统计学意义）。"
+              ],
+              "evidenceGaps": [
+                "需要前瞻性研究验证。",
+                "需要更多关于定量监测具体阈值和方案的研究。",
+                "需要评估不同手术类型和患者群体的适用性。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41343719/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005880",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005880",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41417580",
+          "number": "05",
+          "category": "麻醉基础研究",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-04-01",
+          "electronicPublicationDate": "2025-12-19",
+          "readingTime": "13 分钟",
+          "title": "异氟醚抑制线粒体复合物I对小鼠神经元培养物中钙清除的影响",
+          "originalTitle": "Effects of Isoflurane Inhibition of Mitochondrial Complex I on Calcium Removal in Mouse Neuronal Cultures.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "麻醉诱导的神经毒性（AIN）的一个可能机制是神经元钙升高，导致线粒体损伤和caspase激活。胞浆钙升高可能源于钙内流增加或清除减少。这些不同机制的相对重要性尚不清楚。异氟醚抑制线粒体复合物I，并减少突触前末梢的三磷酸腺苷（ATP），导致突触静止。作者假设线粒体抑制在小鼠野生型和线粒体突变神经元中引发钙失调，导致AIN。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在电刺激神经元培养物时，使用VGlut1-GCaMP5或内质网特异性GCaMP6监测突触前钙水平。在异氟醚和钙清除阻滞剂或激活剂存在下刺激培养物。使用MitoView（Biotium，美国）监测线粒体损伤。通过cleaved caspase诱导评估AIN。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在没有异氟醚的情况下，神经元刺激短暂增加突触前钙水平。异氟醚增加了野生型培养物中钙衰减的半衰期（时间[s]，未暴露，14 [10]；暴露，160 [77]；P = 0.001）。维持ATP水平可挽救异氟醚诱导的钙清除缺陷（时间[s]，30 mM葡萄糖，16 [14]；n = 8；P = 0.001）。激活肌浆内质网钙ATP酶（SERCA）可减轻异氟醚诱导的钙清除缺陷（时间[s]，无SERCA激活剂，159 [78]；SERCA激活剂，36 [18]；P = 0.002）。在暴露于较低但等效浓度的异氟醚的突变培养物中观察到类似结果。异氟醚诱导野生型培养物中SERCA依赖的MitoView摄取减少和cleaved caspase增加。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "异氟醚通过抑制线粒体ATP产生导致SERCA依赖性钙清除失败。细胞内钙增加导致细胞毒性的早期迹象。"
+              }
+            ],
+            "fullText": "BACKGROUND: One mechanism proposed for anesthetic-induced neurotoxicity (AIN) is elevated neuronal calcium, leading to mitochondrial damage and caspase activation. Increased cytosolic calcium could arise from increased entry or decreased removal. The relative importance of these distinct mechanisms is unknown. Isoflurane inhibits mitochondrial complex I and reduces adenosine triphosphate (ATP) at presynaptic terminals leading to synaptic quiescence. The authors hypothesized that mitochondrial inhibition initiates calcium dysregulation in mouse wild-type and mitochondrial mutant neurons, leading to AIN. METHODS: Presynaptic calcium levels were monitored using VGlut1-GCaMP5 or an endoplasmic reticulum-specific GCaMP6 during electrical stimulations of neuronal cultures. Cultures were stimulated in the presence of isoflurane and blockers or activators of calcium removal. Mitochondrial damage was monitored using MitoView (Biotium, USA). Cleaved caspase induction assessed AIN. RESULTS: In the absence of isoflurane, neuronal stimulation transiently increased presynaptic calcium levels. Isoflurane increased the half-life for calcium decay in wild-type cultures (time [s], unexposed, 14 [10]; exposed, 160 [77]; P = 0.001). Maintaining ATP levels rescued the isoflurane-induced defective removal of calcium (time [s], 30 mM glucose, 16 [14]; n = 8; P = 0.001). Activation of sarcoplasmic endoplasmic reticulum calcium adenosine triphosphatase (SERCA) alleviated the isoflurane-induced defective removal of calcium (time [s], no SERCA activator, 159 [78]; SERCA activator, 36 [18]; P = 0.002). Similar results were seen for mutant cultures exposed to lower, but equipotent, concentrations of isoflurane. Isoflurane induced a SERCA-dependent decrease in uptake of MitoView and an increase in cleaved caspase in wild-type cultures. CONCLUSIONS: Isoflurane causes a failure of SERCA-dependent calcium removal by inhibition of mitochondrial production of ATP. The increase in intracellular calcium leads to early signs of cellular toxicity.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Jung S, Ramirez JM, Sedensky MM, Morgan PG",
+          "citation": "Anesthesiology. 2026 Apr 1;144(4):871-885. doi: 10.1097/ALN.0000000000005910. Epub 2025 Dec 19.",
+          "doi": "10.1097/aln.0000000000005910",
+          "pmid": "41417580",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究为麻醉药诱导神经毒性的机制提供了新见解，提示线粒体功能障碍和钙稳态失调可能是关键环节，有助于未来开发神经保护策略。",
+          "conclusion": "异氟醚通过抑制线粒体ATP产生，导致SERCA依赖性钙清除失败，进而引起细胞内钙升高和早期细胞毒性迹象。",
+          "clinical": "该研究为麻醉药诱导神经毒性的机制提供了新见解，提示线粒体功能障碍和钙稳态失调可能是关键环节。 未来可能通过维持ATP水平或激活SERCA来减轻异氟醚的神经毒性，但需进一步研究验证。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "基础研究（体外细胞实验）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "mouse wild-type and mitochondrial mutant neurons；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Isoflurane exposure；对照：unexposed cultures"
+            },
+            {
+              "label": "主要终点",
+              "value": "presynaptic calcium levels"
+            }
+          ],
+          "keyPoints": [
+            "异氟醚增加野生型神经元钙衰减半衰期，提示钙清除受损。",
+            "维持ATP水平或激活SERCA可逆转异氟醚诱导的钙清除缺陷。",
+            "异氟醚诱导SERCA依赖的线粒体损伤和cleaved caspase增加。",
+            "研究为麻醉药诱导神经毒性的机制提供了新见解。"
+          ],
+          "methods": "麻醉药诱导神经毒性的一种机制是神经元钙升高，导致线粒体损伤和caspase激活。胞浆钙升高可能源于钙内流增加或清除减少，但两者的相对重要性未知。异氟醚抑制线粒体复合物I，减少突触前末梢ATP，导致突触静止。作者假设线粒体抑制引发小鼠野生型和线粒体突变神经元中的钙失调，导致麻醉药诱导神经毒性。",
+          "results": "在野生型培养物中，异氟醚使钙衰减半衰期增加（未暴露：14 [10] s；暴露：160 [77] s；P = 0.001）。维持ATP水平（30 mM葡萄糖）可挽救异氟醚诱导的钙清除缺陷（16 [14] s；n = 8；P = 0.001）。激活SERCA可减轻异氟醚诱导的钙清除缺陷（无SERCA激活剂：159 [78] s；SERCA激活剂：36 [18] s；P = 0.002）。在暴露于较低但等效浓度的异氟醚的突变培养物中观察到类似结果。异氟醚在野生型培养物中诱导SERCA依赖的MitoView摄取减少和cleaved caspase增加。",
+          "mainResults": "在野生型培养物中，异氟醚使钙衰减半衰期增加（未暴露：14 [10] s；暴露：160 [77] s；P = 0.001）。维持ATP水平（30 mM葡萄糖）可挽救异氟醚诱导的钙清除缺陷（16 [14] s；n = 8；P = 0.001）。激活SERCA可减轻异氟醚诱导的钙清除缺陷（无SERCA激活剂：159 [78] s；SERCA激活剂：36 [18] s；P = 0.002）。在暴露于较低但等效浓度的异氟醚的突变培养物中观察到类似结果。异氟醚在野生型培养物中诱导SERCA依赖的MitoView摄取减少和cleaved caspase增加。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "该研究为麻醉药诱导神经毒性的机制提供了新见解，提示线粒体功能障碍和钙稳态失调可能是关键环节。",
+            "未来可能通过维持ATP水平或激活SERCA来减轻异氟醚的神经毒性，但需进一步研究验证。"
+          ],
+          "editor": "研究结果支持异氟醚通过抑制线粒体ATP产生导致SERCA依赖性钙清除失败的假设，但证据来自体外细胞实验。 过度解读风险：需谨慎将体外结果直接外推至临床，因为体内环境更复杂，且缺乏动物在体或人体研究证据。",
+          "whyItMatters": "该研究为麻醉药诱导神经毒性的机制提供了新见解，提示线粒体功能障碍和钙稳态失调可能是关键环节，有助于未来开发神经保护策略。",
+          "background": "麻醉药诱导神经毒性的一种机制是神经元钙升高，导致线粒体损伤和caspase激活。胞浆钙升高可能源于钙内流增加或清除减少，但两者的相对重要性未知。异氟醚抑制线粒体复合物I，减少突触前末梢ATP，导致突触静止。作者假设线粒体抑制引发小鼠野生型和线粒体突变神经元中的钙失调，导致麻醉药诱导神经毒性。",
+          "pico": {
+            "population": "mouse wild-type and mitochondrial mutant neurons",
+            "intervention": "Isoflurane exposure",
+            "comparison": "unexposed cultures",
+            "outcome": "presynaptic calcium levels"
+          },
+          "studyType": "基础研究（体外细胞实验）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "presynaptic calcium levels",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.001",
+            "0.001",
+            "0.002"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持异氟醚通过抑制线粒体ATP产生导致SERCA依赖性钙清除失败的假设，但证据来自体外细胞实验。",
+            "overinterpretationRisk": "需谨慎将体外结果直接外推至临床，因为体内环境更复杂，且缺乏动物在体或人体研究证据。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，缺乏方法学细节、样本量计算、随机化、盲法等关键信息。",
+                "无法评估研究设计质量、偏倚风险和统计方法的充分性。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "异氟醚抑制线粒体复合物I是否通过减少ATP导致钙清除失败，进而引起神经毒性？",
+              "designFit": "体外细胞实验适合探究机制，但无法直接推断临床。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用多种方法（钙成像、MitoView、cleaved caspase）评估结果。",
+                "包括野生型和突变神经元，增强机制解释。"
+              ],
+              "concerns": [
+                "缺乏体内实验验证。",
+                "样本量小（n=8）且未报告效应量。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "P值报告为0.001、0.001、0.002。",
+                  "interpretation": "P值提示组间差异有统计学意义，但未报告效应量和置信区间。",
+                  "cautions": [
+                    "未报告统计检验方法，无法判断适用性。",
+                    "未报告多重比较校正，可能增加I类错误风险。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "P值显示统计学差异，但临床意义未知，且为体外研究。"
+            },
+            "outcomeAnalysis": {
+              "primary": "突触前钙水平（钙衰减半衰期）",
+              "secondary": [
+                "线粒体损伤（MitoView摄取）",
+                "cleaved caspase诱导"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "突变培养物在较低但等效浓度下观察到类似结果，但未报告交互作用。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "机制研究设计合理，使用多种方法验证。",
+                "包括突变神经元，增强机制解释。"
+              ],
+              "limitations": [
+                "仅基于摘要，缺乏方法学细节。",
+                "体外实验，外推受限。",
+                "未报告效应量和置信区间。"
+              ],
+              "biasRisks": [
+                "未报告随机化和盲法，可能存在选择偏倚和测量偏倚。",
+                "未报告样本量计算，可能检验效能不足。"
+              ],
+              "certainty": "低",
+              "conclusionAlignment": "结论与结果一致，但需更多证据。",
+              "causalBoundary": "研究显示异氟醚暴露与钙清除缺陷相关，但因果关系需进一步验证。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为麻醉药神经毒性机制提供基础依据。"
+              ],
+              "nonApplicability": [
+                "不能直接用于临床，需在体动物和人体研究验证。"
+              ],
+              "practiceChange": "当前结果不足以改变临床实践。",
+              "canDoNow": [
+                "无直接临床可操作建议。"
+              ],
+              "cannotConclude": [
+                "不能得出异氟醚导致临床神经毒性的结论。",
+                "不能推荐任何干预措施。"
+              ],
+              "evidenceGaps": [
+                "需要体内动物模型验证。",
+                "需要人体研究评估异氟醚对钙稳态和神经毒性的影响。",
+                "需要评估长期神经发育结局。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41417580/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005910",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005910",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-15T23:29:14.265Z",
       "mode": "production",
