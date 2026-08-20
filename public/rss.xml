@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Aug 2026 23:32:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 23:34:27 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-21 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-21/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-21/</guid>
+      <pubDate>Thu, 20 Aug 2026 23:34:27 GMT</pubDate>
+      <description>精氨酸治疗镰状细胞病急性疼痛发作：STArT随机临床试验：在儿童和年轻成人镰状细胞病急性疼痛发作患者中，静脉注射精氨酸与安慰剂相比，未缩短疼痛发作缓解时间。
+氯胺酮给药与重大癌症手术后死亡率：一项倾向评分匹配的基于人群的研究：在这项基于研究网络的回顾性队列研究中，围手术期使用氯胺酮与重大癌症手术后死亡率降低无关。
+评估吸入麻醉、全凭静脉麻醉和椎管内麻醉用于单一手术的碳足迹：一项前瞻性观察性研究：在宫腔镜手术中，椎管内麻醉的碳足迹最低，全凭静脉麻醉次之，吸入麻醉最高，尽管采用低流量七氟烷。
+经颅电刺激与术后患者谵妄：一项随机临床试验：在225例老年择期手术患者中，术后经颅电刺激（tACS或tDCS）与假刺激相比，未显著降低病房或PACU中术后谵妄的发生率，但亚组分析提示tACS可能对手术时间较长（3-5小时）的患者有潜在获益。
+丙泊酚对前包钦格复合体GABA能神经传递的剂量依赖性效应及其对呼吸节律的影响：本研究在小鼠模型中提示，丙泊酚通过剂量依赖性重塑前包钦格复合体（pre-BötC）局部抑制性微环路，产生从轻度兴奋到显著抑制的双向呼吸效应，而非单纯的呼吸抑制。</description>
+    </item>
     <item>
       <title>2026-08-18 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-18/</link>

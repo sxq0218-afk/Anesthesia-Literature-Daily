@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:32:49.621Z",
+  "generatedAt": "2026-08-20T23:34:27.016Z",
   "mode": "production",
   "search": {
     "initialDays": 30,
@@ -18,18 +18,18 @@
         "reason": "composition-shortfall"
       }
     ],
-    "from": "2026-02-18T23:32:49.621Z",
-    "to": "2026-08-17T23:32:49.621Z",
-    "candidateCount": 275,
-    "discoveryCandidateCount": 10724,
+    "from": "2026-02-21T23:34:27.016Z",
+    "to": "2026-08-20T23:34:27.016Z",
+    "candidateCount": 280,
+    "discoveryCandidateCount": 10820,
     "unseenCount": 176,
-    "duplicateCount": 99,
-    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/02/18:2026/08/17[Date - Publication]",
-    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2026/02/18:2026/08/17[Date - Publication]",
-    "priorityCandidateCount": 275,
+    "duplicateCount": 104,
+    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2026/02/21:2026/08/20[Date - Publication]",
+    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2026/02/21:2026/08/20[Date - Publication]",
+    "priorityCandidateCount": 280,
     "eligibleJournalRetrieval": {
-      "matchedCount": 275,
-      "retrievedCount": 275,
+      "matchedCount": 280,
+      "retrievedCount": 280,
       "complete": true,
       "truncatedCount": 0,
       "maximumCandidates": 2000,
@@ -39,18 +39,19 @@
       "threshold": 5,
       "comparison": "greater-than",
       "candidateCount": 300,
-      "eligibleCount": 10,
-      "excludedCount": 290,
+      "eligibleCount": 7,
+      "excludedCount": 293,
       "excludedByReason": {
-        "journal-not-configured": 288,
-        "impact-factor-stale": 2
+        "journal-not-configured": 281,
+        "impact-factor-stale": 7,
+        "impact-factor-unknown": 5
       },
       "rankingMetricYear": 2025,
       "eligibleMetricYears": [
         2024,
         2025
       ],
-      "unresolvedCount": 290,
+      "unresolvedCount": 293,
       "unresolvedJournals": [
         {
           "journal": "Annals of medicine",
@@ -60,12 +61,12 @@
         {
           "journal": "Journal of cardiothoracic and vascular anesthesia",
           "reason": "journal-not-configured",
-          "count": 15
+          "count": 12
         },
         {
           "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
           "reason": "journal-not-configured",
-          "count": 10
+          "count": 11
         },
         {
           "journal": "Anesthesiology clinics",
@@ -78,19 +79,34 @@
           "count": 9
         },
         {
-          "journal": "Paediatric anaesthesia",
-          "reason": "journal-not-configured",
-          "count": 9
-        },
-        {
           "journal": "Radiology case reports",
           "reason": "journal-not-configured",
           "count": 9
         },
         {
-          "journal": "Journal of affective disorders",
+          "journal": "Paediatric anaesthesia",
+          "reason": "journal-not-configured",
+          "count": 8
+        },
+        {
+          "journal": "Brain research bulletin",
           "reason": "journal-not-configured",
           "count": 7
+        },
+        {
+          "journal": "Air medical journal",
+          "reason": "journal-not-configured",
+          "count": 6
+        },
+        {
+          "journal": "Journal of affective disorders",
+          "reason": "journal-not-configured",
+          "count": 6
+        },
+        {
+          "journal": "Pain",
+          "reason": "impact-factor-stale",
+          "count": 6
         },
         {
           "journal": "The veterinary clinics of North America. Exotic animal practice",
@@ -98,13 +114,13 @@
           "count": 6
         },
         {
-          "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+          "journal": "DEN open",
           "reason": "journal-not-configured",
           "count": 5
         },
         {
-          "journal": "DEN open",
-          "reason": "journal-not-configured",
+          "journal": "The journal of pain",
+          "reason": "impact-factor-unknown",
           "count": 5
         },
         {
@@ -113,7 +129,7 @@
           "count": 4
         },
         {
-          "journal": "Brain research bulletin",
+          "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
           "reason": "journal-not-configured",
           "count": 4
         },
@@ -136,21 +152,6 @@
           "journal": "American journal of ophthalmology case reports",
           "reason": "journal-not-configured",
           "count": 3
-        },
-        {
-          "journal": "Behavioural brain research",
-          "reason": "journal-not-configured",
-          "count": 3
-        },
-        {
-          "journal": "Clinics in chest medicine",
-          "reason": "journal-not-configured",
-          "count": 3
-        },
-        {
-          "journal": "CNS drugs",
-          "reason": "journal-not-configured",
-          "count": 3
         }
       ]
     },
@@ -158,10 +159,10 @@
       "threshold": 5,
       "comparison": "greater-than",
       "candidateCount": 176,
-      "eligibleCount": 155,
-      "excludedCount": 21,
+      "eligibleCount": 156,
+      "excludedCount": 20,
       "excludedByReason": {
-        "journal-not-configured": 21
+        "journal-not-configured": 20
       },
       "rankingMetricYear": 2025,
       "eligibleMetricYears": [
@@ -177,9 +178,9 @@
       "allowBackfill": false
     },
     "candidatePool": {
-      "total": 127,
-      "clinical": 82,
-      "basic": 2,
+      "total": 128,
+      "clinical": 84,
+      "basic": 1,
       "other": 43
     },
     "selectionSummary": {
@@ -196,205 +197,207 @@
     "configuredModel": "deepseek-chat",
     "usage": {
       "calls": 20,
-      "promptTokens": 43930,
-      "completionTokens": 22430,
-      "totalTokens": 66360
+      "promptTokens": 65528,
+      "completionTokens": 23590,
+      "totalTokens": 89118
     }
   },
   "articles": [
     {
       "analysisVersion": 2,
-      "slug": "pmid-41557601",
+      "slug": "pmid-42616542",
       "number": "01",
-      "category": "麻醉学",
-      "journal": "Anesthesiology",
+      "category": "疼痛与区域麻醉",
+      "journal": "JAMA",
       "year": "2026",
-      "publishedDate": "2026-05-01",
-      "electronicPublicationDate": "2026-01-20",
-      "readingTime": "12 分钟",
-      "title": "儿童、家长及医疗提供者对手术麻醉后结局的看法：来自儿科围手术期结局组的国际混合方法利益相关者参与研究",
-      "originalTitle": "Perspectives of Children, Parents, and Healthcare Providers on Outcomes after Anesthesia for Surgery: An International Mixed Methods Stakeholder Engagement Study from the Pediatric Perioperative Outcomes Group.",
-      "abstract": "BACKGROUND: The authors' international collaboration of researchers and clinicians (the Pediatric Perioperative Outcomes Group) was established to develop core outcome sets for infants, children, and adolescents. Here, the authors report on a qualitative mixed methods study with semistructured interviews of parents/guardians and their children undergoing anesthesia for surgery along with perioperative healthcare providers ( e.g. , nurses, surgeons, and anesthesiologists). METHODS: The authors compared and explored outcomes through a modified grounded theory analysis of interview transcripts to inform the establishment of an internationally recognized core outcome set for pediatric perioperative medicine. In total, 359 semistructured interviews were conducted between June 2021 and July 2022 across 10 study sites in eight countries: the United States, Canada, Australia, New Zealand, The Netherlands, South Africa, Colombia, and China. RESULTS: The authors identified the themes of pain, complications, mental health and emotional state, and environment to be important for all stakeholder groups engaged. Differences were observed between the themes for healthcare providers and patients and parent/guardians. Emotional well-being, pain, and return to daily life may be undervalued in current research outcomes. CONCLUSIONS: The views elicited from these international stakeholder semistructured interviews complement the results of the outcome ratings surveys and provide a broad, objective, and foundational stakeholder perspective to support core outcome selection for pediatric perioperative research. These results may enhance relevance, inclusivity, and person-centeredness of the final outcomes measurement for pediatric perioperative care.",
+      "publishedDate": "2026-08-19",
+      "electronicPublicationDate": "2026-08-19",
+      "readingTime": "13 分钟",
+      "title": "精氨酸治疗镰状细胞病急性疼痛发作：STArT随机临床试验",
+      "originalTitle": "Arginine Therapy for Sickle Cell Disease Acute Pain Episodes: The STArT Randomized Clinical Trial.",
+      "abstract": "IMPORTANCE: Acute pain episodes are the leading cause of emergency department visits and hospitalizations for patients with sickle cell disease (SCD), yet US Food and Drug Administration-approved drugs for acute pain episodes are lacking. During acute pain episodes, patients develop acute arginine deficiency associated with longer time to crisis resolution and greater total parenteral opioid use. Multiple single-center, phase 2 randomized clinical trials have shown that arginine is safe, is opioid sparing, improves cardiopulmonary function, and reduces length of hospital stay. OBJECTIVE: To determine the efficacy and safety of intravenous arginine for SCD acute pain episodes. DESIGN, SETTING, AND PARTICIPANTS: Prospective, phase 3, double-blind randomized clinical trial conducted between June 21, 2021, and June 13, 2024, in 10 US children's hospitals enrolling patients aged 3 to 21 years presenting to the emergency department with SCD acute pain episodes requiring parenteral opioids. INTERVENTIONS: Patients were randomized to receive intravenous arginine (200 mg/kg followed by 100 mg/kg every 8 hours until discharge; n = 129) or saline placebo (n = 142). MAIN OUTCOMES AND MEASURES: The primary outcome was time to crisis resolution, defined as hours from initial study drug delivery to last intravenous opioid dose. Secondary outcomes included total parenteral opioid use (intravenous morphine equivalents in milligrams per kilogram from first study drug dose to last intravenous opioid dose), pain scores, and patient-reported outcomes. RESULTS: Of 274 randomized participants, 271 received study drug; the mean age was 14.3 years (SD, 4.3 years), 51% were male, and 92% were Black. The trial was halted early for futility, as time to crisis resolution was similar in those receiving arginine vs placebo (median, 60.8 hours [IQR, 34.8-109.0 hours] vs 65.8 hours [IQR, 31.1-111.1 hours], respectively; absolute difference, 7.2 hours; 95% CI, -21.6 to 35.9 hours). No significant differences were seen in total parenteral opioid use, pain scores, patient-reported outcomes, or safety events. CONCLUSIONS AND RELEVANCE: Arginine therapy did not shorten time to crisis resolution compared with placebo among children and young adults with SCD acute pain episodes. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04839354.",
       "abstractTranslation": {
         "sections": [
           {
-            "heading": "BACKGROUND",
-            "text": "作者的国际研究人员和临床医生合作组织（儿科围手术期结局小组）成立，旨在为婴儿、儿童和青少年制定核心结局集。在此，作者报告了一项定性混合方法研究，该研究对接受手术麻醉的儿童及其父母/监护人以及围手术期医疗保健提供者（如护士、外科医生和麻醉师）进行了半结构化访谈。"
+            "heading": "IMPORTANCE",
+            "text": "急性疼痛发作是镰状细胞病（SCD）患者急诊就诊和住院的主要原因，但美国食品药品监督管理局批准的用于急性疼痛发作的药物仍然缺乏。在急性疼痛发作期间，患者会出现急性精氨酸缺乏，这与危机解决时间延长和肠外阿片类药物总用量增加相关。多项单中心、2期随机临床试验表明，精氨酸是安全的，可节省阿片类药物，改善心肺功能，并缩短住院时间。"
           },
           {
-            "heading": "METHODS",
-            "text": "作者通过改良的扎根理论分析对访谈记录进行了比较和探索，以期为儿科围手术期医学建立一个国际公认的核心结局集提供信息。2021年6月至2022年7月期间，在八个国家的10个研究地点共进行了359次半结构化访谈：美国、加拿大、澳大利亚、新西兰、荷兰、南非、哥伦比亚和中国。"
+            "heading": "OBJECTIVE",
+            "text": "确定静脉注射精氨酸治疗SCD急性疼痛发作的有效性和安全性。"
+          },
+          {
+            "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+            "text": "前瞻性、3期、双盲随机临床试验，于2021年6月21日至2024年6月13日在美国10家儿童医院进行，纳入年龄3至21岁、因SCD急性疼痛发作就诊急诊科并需要肠外阿片类药物的患者。"
+          },
+          {
+            "heading": "INTERVENTIONS",
+            "text": "患者被随机分配接受静脉注射精氨酸（200 mg/kg，随后每8小时100 mg/kg，直至出院；n = 129）或生理盐水安慰剂（n = 142）。"
+          },
+          {
+            "heading": "MAIN OUTCOMES AND MEASURES",
+            "text": "主要结局是危机解决时间，定义为从首次研究药物给药到最后一次静脉注射阿片类药物的小时数。次要结局包括肠外阿片类药物总用量（从首次研究药物剂量到最后一次静脉注射阿片类药物的静脉注射吗啡等效剂量，以mg/kg计）、疼痛评分和患者报告结局。"
           },
           {
             "heading": "RESULTS",
-            "text": "作者确定了疼痛、并发症、心理健康和情绪状态以及环境等主题对所有参与的利益相关者群体都很重要。医疗保健提供者与患者及父母/监护人之间的主题存在差异。情绪健康、疼痛和回归日常生活可能在当前的研究结局中被低估。"
+            "text": "在274名随机参与者中，271名接受了研究药物；平均年龄为14.3岁（SD，4.3岁），51%为男性，92%为黑人。试验因无效而提前停止，因为接受精氨酸与安慰剂的患者危机解决时间相似（中位数分别为60.8小时[IQR，34.8-109.0小时] vs 65.8小时[IQR，31.1-111.1小时]；绝对差异为7.2小时；95% CI，-21.6至35.9小时）。在肠外阿片类药物总用量、疼痛评分、患者报告结局或安全事件方面未观察到显著差异。"
           },
           {
-            "heading": "CONCLUSIONS",
-            "text": "从这些国际利益相关者半结构化访谈中获得的观点补充了结局评级调查的结果，并为儿科围手术期研究的核心结局选择提供了广泛、客观和基础性的利益相关者视角。这些结果可能会提高儿科围手术期护理最终结局测量的相关性、包容性和以人为中心性。"
+            "heading": "CONCLUSIONS AND RELEVANCE",
+            "text": "与安慰剂相比，精氨酸治疗并未缩短患有SCD急性疼痛发作的儿童和年轻成人的危机解决时间。"
+          },
+          {
+            "heading": "TRIAL REGISTRATION",
+            "text": "ClinicalTrials.gov标识符：NCT04839354。"
           }
         ],
-        "fullText": "BACKGROUND: The authors' international collaboration of researchers and clinicians (the Pediatric Perioperative Outcomes Group) was established to develop core outcome sets for infants, children, and adolescents. Here, the authors report on a qualitative mixed methods study with semistructured interviews of parents/guardians and their children undergoing anesthesia for surgery along with perioperative healthcare providers ( e.g. , nurses, surgeons, and anesthesiologists). METHODS: The authors compared and explored outcomes through a modified grounded theory analysis of interview transcripts to inform the establishment of an internationally recognized core outcome set for pediatric perioperative medicine. In total, 359 semistructured interviews were conducted between June 2021 and July 2022 across 10 study sites in eight countries: the United States, Canada, Australia, New Zealand, The Netherlands, South Africa, Colombia, and China. RESULTS: The authors identified the themes of pain, complications, mental health and emotional state, and environment to be important for all stakeholder groups engaged. Differences were observed between the themes for healthcare providers and patients and parent/guardians. Emotional well-being, pain, and return to daily life may be undervalued in current research outcomes. CONCLUSIONS: The views elicited from these international stakeholder semistructured interviews complement the results of the outcome ratings surveys and provide a broad, objective, and foundational stakeholder perspective to support core outcome selection for pediatric perioperative research. These results may enhance relevance, inclusivity, and person-centeredness of the final outcomes measurement for pediatric perioperative care.",
+        "fullText": "IMPORTANCE: 急性疼痛发作是镰状细胞病（SCD）患者急诊就诊和住院的主要原因，但美国食品药品监督管理局批准的用于急性疼痛发作的药物仍然缺乏。在急性疼痛发作期间，患者会出现急性精氨酸缺乏，这与危机解决时间延长和肠外阿片类药物总用量增加相关。多项单中心、2期随机临床试验表明，精氨酸是安全的，可节省阿片类药物，改善心肺功能，并缩短住院时间。 OBJECTIVE: 确定静脉注射精氨酸治疗SCD急性疼痛发作的有效性和安全性。 DESIGN, SETTING, AND PARTICIPANTS: 前瞻性、3期、双盲随机临床试验，于2021年6月21日至2024年6月13日在美国10家儿童医院进行，纳入年龄3至21岁、因SCD急性疼痛发作就诊急诊科并需要肠外阿片类药物的患者。 INTERVENTIONS: 患者被随机分配接受静脉注射精氨酸（200 mg/kg，随后每8小时100 mg/kg，直至出院；n = 129）或生理盐水安慰剂（n = 142）。 MAIN OUTCOMES AND MEASURES: 主要结局是危机解决时间，定义为从首次研究药物给药到最后一次静脉注射阿片类药物的小时数。次要结局包括肠外阿片类药物总用量（从首次研究药物剂量到最后一次静脉注射阿片类药物的静脉注射吗啡等效剂量，以mg/kg计）、疼痛评分和患者报告结局。 RESULTS: 在274名随机参与者中，271名接受了研究药物；平均年龄为14.3岁（SD，4.3岁），51%为男性，92%为黑人。试验因无效而提前停止，因为接受精氨酸与安慰剂的患者危机解决时间相似（中位数分别为60.8小时[IQR，34.8-109.0小时] vs 65.8小时[IQR，31.1-111.1小时]；绝对差异为7.2小时；95% CI，-21.6至35.9小时）。在肠外阿片类药物总用量、疼痛评分、患者报告结局或安全事件方面未观察到显著差异。 CONCLUSIONS AND RELEVANCE: 与安慰剂相比，精氨酸治疗并未缩短患有SCD急性疼痛发作的儿童和年轻成人的危机解决时间。 TRIAL REGISTRATION: ClinicalTrials.gov标识符：NCT04839354。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "von Ungern-Sternberg BS, Sommerfield A, O'Brien C, Davidson AJ, Ramos TA, Goobie SM, Zuo YX, Yang L, et al.",
-      "citation": "Anesthesiology. 2026 May 1;144(5):1127-1138. doi: 10.1097/ALN.0000000000005947. Epub 2026 Jan 20.",
-      "doi": "10.1097/aln.0000000000005947",
-      "pmid": "41557601",
-      "pmcid": "PMC13089847",
+      "authors": "Morris CR, Hatabah D, Korman R, Ahmad FA, Airewele G, Akinsola B, Alzraikat N, Bakshi N, et al.",
+      "citation": "JAMA. 2026 Aug 19. doi: 10.1001/jama.2026.13310.",
+      "doi": "10.1001/jama.2026.13310",
+      "pmid": "42616542",
+      "pmcid": null,
       "publicationTypes": [
         "Journal Article"
       ],
-      "meshTerms": [
-        "Humans",
-        "Child",
-        "*Parents/psychology",
-        "Pediatric Anesthesia",
-        "*Health Personnel/psychology",
-        "Female",
-        "Male",
-        "Infant",
-        "Child, Preschool",
-        "Adolescent",
-        "*Stakeholder Participation",
-        "*Perioperative Care",
-        "*Anesthesia",
-        "*Outcome Assessment, Health Care"
-      ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "meshTerms": [],
+      "publisher": "American Medical Association (AMA)",
       "crossrefVerified": true,
       "researchCategory": {
         "id": "clinical",
         "label": "临床证据",
-        "reason": "human-study"
+        "reason": "clinical-design"
       },
       "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
+        "id": "general_top",
+        "label": "综合医学顶刊",
+        "priorityRank": 3
       },
       "journalMetric": {
         "metric": "Journal Impact Factor",
-        "impactFactor": 9.3,
-        "metricYear": 2024,
+        "impactFactor": 65.4,
+        "metricYear": 2025,
         "rankingMetricYear": 2025,
         "maximumAgeYears": 1,
         "rankingComparable": true,
         "threshold": 5,
         "comparison": "greater-than",
-        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "source": "https://jamanetwork.com/journals/jama/pages/for-authors",
         "verifiedAt": "2026-07-28",
-        "matchedJournal": "Anesthesiology"
+        "matchedJournal": "JAMA"
       },
       "tags": [
         "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "麻醉相关领域",
+        "综合医学顶刊",
+        "疼痛与区域麻醉",
         "Journal Article"
       ],
-      "question": "本研究为儿科围手术期核心结局集的建立提供了来自国际多方的利益相关者视角，有助于确保未来研究结局更贴合患者及其家庭的实际需求，提高研究的包容性和以人为中心的程度。",
-      "conclusion": "该国际定性混合方法研究通过359次半结构化访谈，识别出疼痛、并发症、心理健康与情绪状态以及环境是儿童、家长和医疗提供者共同关注的重要结局主题，并提示情绪健康、疼痛和回归日常生活可能在当前研究结局中被低估。",
-      "clinical": "儿科麻醉研究应重视情绪健康、疼痛和回归日常生活等结局，避免仅关注并发症等传统指标。 在围手术期护理中，应关注儿童及其家庭的心理和情绪需求，而不仅仅是生理恢复。 未来核心结局集的制定应纳入患者和家庭的观点，以提高研究的相关性和以人为中心的程度。",
+      "question": "镰状细胞病急性疼痛发作是急诊就诊和住院的主要原因，但目前缺乏FDA批准的针对性药物。该研究是首个多中心、双盲、随机对照试验，评估精氨酸在急性疼痛发作中的疗效，结果不支持其常规使用，对临床实践具有重要指导意义。",
+      "conclusion": "在儿童和年轻成人镰状细胞病急性疼痛发作患者中，静脉注射精氨酸与安慰剂相比，未缩短疼痛发作缓解时间。",
+      "clinical": "该研究结果不支持在镰状细胞病急性疼痛发作中常规使用静脉精氨酸作为辅助治疗。 麻醉科医师在围术期或急诊处理镰状细胞病疼痛时，不应期望精氨酸能减少阿片类药物需求或加速疼痛缓解。 对于镰状细胞病患者，应继续遵循现有疼痛管理指南，优化阿片类药物使用并关注其他辅助治疗。",
       "evidence": "中等",
-      "score": 62,
+      "score": 55,
       "scoreBreakdown": {
-        "relevance": 22,
+        "relevance": 13,
         "evidenceQuality": 8,
-        "clinicalImpact": 11,
+        "clinicalImpact": 13,
         "journalQuality": 15,
         "novelty": 6
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "国际多中心定性混合方法研究，采用半结构化访谈和改良扎根理论分析。"
+          "value": "前瞻性、3期、双盲随机临床试验，于2021年6月21日至2024年6月13日在美国10家儿童医院进行。"
         },
         {
           "label": "研究对象与样本",
-          "value": "parents/guardians and their children undergoing anesthesia for surgery along with perioperative healthcare providers (e.g., nurses, surgeons, and anesthesiologists)；359 semistructured interviews"
+          "value": "Patients aged 3 to 21 years presenting to the emergency department with SCD acute pain episodes requiring parenteral opioids；274 randomized participants, 271 received study drug"
         },
         {
           "label": "干预与比较",
-          "value": "不适用（定性研究，无干预）；对照：不适用（定性研究，无对照组）"
+          "value": "Intravenous arginine (200 mg/kg followed by 100 mg/kg every 8 hours until discharge; n = 129)；对照：Saline placebo (n = 142)"
         },
         {
           "label": "主要终点",
-          "value": "利益相关者认为重要的麻醉后结局主题（如疼痛、并发症、心理健康与情绪状态、环境等）"
+          "value": "Time to crisis resolution, defined as hours from initial study drug delivery to last intravenous opioid dose"
         }
       ],
       "keyPoints": [
-        "359次半结构化访谈，覆盖8个国家10个研究中心。",
-        "疼痛、并发症、心理健康与情绪状态、环境是共同的重要主题。",
-        "医疗提供者与患者/家长之间的主题存在差异。",
-        "情绪健康、疼痛和回归日常生活可能被低估。",
-        "研究为儿科围手术期核心结局集的制定提供利益相关者视角。"
+        "精氨酸治疗未缩短镰状细胞病急性疼痛发作的缓解时间。",
+        "精氨酸组与安慰剂组在胃肠外阿片类药物用量、疼痛评分和患者报告结局方面无显著差异。",
+        "安全性事件在两组间无显著差异。",
+        "试验因无效而提前终止。"
       ],
-      "methods": "国际儿科围手术期结局组旨在为婴幼儿、儿童和青少年制定核心结局集。本研究作为其中的一部分，通过定性访谈收集儿童、家长/监护人和围手术期医疗提供者的观点，以补充结局评分调查的结果，为核心结局选择提供广泛、客观和基础性的利益相关者视角。",
-      "results": "共进行359次半结构化访谈，覆盖8个国家10个研究中心。研究识别出疼痛、并发症、心理健康与情绪状态、环境是所有利益相关者群体共同认为重要的主题。医疗提供者与患者及家长/监护人之间的主题存在差异。情绪健康、疼痛和回归日常生活可能在当前研究结局中被低估。当前可获取内容未提供效应量、95%置信区间或P值。",
-      "mainResults": "共进行359次半结构化访谈，覆盖8个国家10个研究中心。研究识别出疼痛、并发症、心理健康与情绪状态、环境是所有利益相关者群体共同认为重要的主题。医疗提供者与患者及家长/监护人之间的主题存在差异。情绪健康、疼痛和回归日常生活可能在当前研究结局中被低估。当前可获取内容未提供效应量、95%置信区间或P值。",
+      "methods": "急性疼痛发作是镰状细胞病患者急诊就诊和住院的主要原因，但目前缺乏FDA批准的治疗药物。急性疼痛发作期间，患者会出现急性精氨酸缺乏，这与疼痛发作缓解时间延长和胃肠外阿片类药物用量增加相关。多项单中心、2期随机临床试验显示精氨酸安全、具有阿片类药物节约效应、改善心肺功能并缩短住院时间。",
+      "results": "共随机化274名参与者，其中271名接受了研究药物。试验因无效而提前终止：精氨酸组与安慰剂组相比，疼痛发作缓解时间相似（中位数分别为60.8小时[IQR 34.8-109.0] vs 65.8小时[IQR 31.1-111.1]；绝对差异7.2小时；95%CI -21.6至35.9小时）。在胃肠外阿片类药物总用量、疼痛评分、患者报告结局或安全性事件方面均未见显著差异。",
+      "mainResults": "共随机化274名参与者，其中271名接受了研究药物。试验因无效而提前终止：精氨酸组与安慰剂组相比，疼痛发作缓解时间相似（中位数分别为60.8小时[IQR 34.8-109.0] vs 65.8小时[IQR 31.1-111.1]；绝对差异7.2小时；95%CI -21.6至35.9小时）。在胃肠外阿片类药物总用量、疼痛评分、患者报告结局或安全性事件方面均未见显著差异。",
       "limitations": [
-        "当前可获取内容未提供该研究的局限性信息。",
-        "作为定性研究，结果可能受访谈者偏倚和参与者主观性影响。",
-        "研究未提供定量效应量，无法评估结局的统计学差异。"
+        "试验因无效而提前终止，可能影响统计效能。",
+        "当前可获取内容未提供该数据。",
+        "当前可获取内容未提供该数据。"
       ],
       "practice": [
-        "儿科麻醉研究应重视情绪健康、疼痛和回归日常生活等结局，避免仅关注并发症等传统指标。",
-        "在围手术期护理中，应关注儿童及其家庭的心理和情绪需求，而不仅仅是生理恢复。",
-        "未来核心结局集的制定应纳入患者和家庭的观点，以提高研究的相关性和以人为中心的程度。"
+        "该研究结果不支持在镰状细胞病急性疼痛发作中常规使用静脉精氨酸作为辅助治疗。",
+        "麻醉科医师在围术期或急诊处理镰状细胞病疼痛时，不应期望精氨酸能减少阿片类药物需求或加速疼痛缓解。",
+        "对于镰状细胞病患者，应继续遵循现有疼痛管理指南，优化阿片类药物使用并关注其他辅助治疗。"
       ],
-      "editor": "该研究为定性研究，结果支持识别利益相关者认为重要的结局主题，但未提供定量数据支持效应大小。 过度解读风险：需注意避免将定性主题直接等同于临床获益或因果关系，且研究未提供统计学检验，不能推断结局的量化重要性。",
-      "whyItMatters": "本研究为儿科围手术期核心结局集的建立提供了来自国际多方的利益相关者视角，有助于确保未来研究结局更贴合患者及其家庭的实际需求，提高研究的包容性和以人为中心的程度。",
-      "background": "国际儿科围手术期结局组旨在为婴幼儿、儿童和青少年制定核心结局集。本研究作为其中的一部分，通过定性访谈收集儿童、家长/监护人和围手术期医疗提供者的观点，以补充结局评分调查的结果，为核心结局选择提供广泛、客观和基础性的利益相关者视角。",
+      "editor": "该研究为多中心、双盲、随机对照试验，设计严谨，结果可靠。主要结局（疼痛发作缓解时间）的效应量估计精确，95%CI较窄，且包含零，表明无显著差异。 过度解读风险：尽管结果明确为阴性，但需注意试验提前终止可能降低统计效能，且未报告亚组分析，因此不能完全排除特定亚组可能获益。",
+      "whyItMatters": "镰状细胞病急性疼痛发作是急诊就诊和住院的主要原因，但目前缺乏FDA批准的针对性药物。该研究是首个多中心、双盲、随机对照试验，评估精氨酸在急性疼痛发作中的疗效，结果不支持其常规使用，对临床实践具有重要指导意义。",
+      "background": "急性疼痛发作是镰状细胞病患者急诊就诊和住院的主要原因，但目前缺乏FDA批准的治疗药物。急性疼痛发作期间，患者会出现急性精氨酸缺乏，这与疼痛发作缓解时间延长和胃肠外阿片类药物用量增加相关。多项单中心、2期随机临床试验显示精氨酸安全、具有阿片类药物节约效应、改善心肺功能并缩短住院时间。",
       "pico": {
-        "population": "parents/guardians and their children undergoing anesthesia for surgery along with perioperative healthcare providers (e.g., nurses, surgeons, and anesthesiologists)",
-        "intervention": "不适用（定性研究，无干预）",
-        "comparison": "不适用（定性研究，无对照组）",
-        "outcome": "利益相关者认为重要的麻醉后结局主题（如疼痛、并发症、心理健康与情绪状态、环境等）"
+        "population": "Patients aged 3 to 21 years presenting to the emergency department with SCD acute pain episodes requiring parenteral opioids",
+        "intervention": "Intravenous arginine (200 mg/kg followed by 100 mg/kg every 8 hours until discharge; n = 129)",
+        "comparison": "Saline placebo (n = 142)",
+        "outcome": "Time to crisis resolution, defined as hours from initial study drug delivery to last intravenous opioid dose"
       },
-      "studyType": "国际多中心定性混合方法研究，采用半结构化访谈和改良扎根理论分析。",
-      "sampleSize": "359 semistructured interviews",
-      "primaryOutcome": "当前可获取内容未提供该数据。",
+      "studyType": "前瞻性、3期、双盲随机临床试验，于2021年6月21日至2024年6月13日在美国10家儿童医院进行。",
+      "sampleSize": "274 randomized participants, 271 received study drug",
+      "primaryOutcome": "Time to crisis resolution, defined as hours from initial study drug delivery to last intravenous opioid dose",
       "effectSize": [
-        "当前可获取内容未提供该数据。"
+        "absolute difference, 7.2 hours"
       ],
       "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
+        "95% CI, -21.6 to 35.9 hours"
       ],
       "pValue": [
         "当前可获取内容未提供该数据。"
       ],
-      "adverseEvents": null,
+      "adverseEvents": "No significant differences were seen in safety events.",
       "aiAssessment": {
-        "support": "该研究为定性研究，结果支持识别利益相关者认为重要的结局主题，但未提供定量数据支持效应大小。",
-        "overinterpretationRisk": "需注意避免将定性主题直接等同于临床获益或因果关系，且研究未提供统计学检验，不能推断结局的量化重要性。"
+        "support": "该研究为多中心、双盲、随机对照试验，设计严谨，结果可靠。主要结局（疼痛发作缓解时间）的效应量估计精确，95%CI较窄，且包含零，表明无显著差异。",
+        "overinterpretationRisk": "尽管结果明确为阴性，但需注意试验提前终止可能降低统计效能，且未报告亚组分析，因此不能完全排除特定亚组可能获益。"
       },
       "deepDive": {
         "sourceCoverage": {
-          "level": "full_text",
+          "level": "abstract",
           "limitations": [
-            "当前可获取内容仅包括摘要和结构化抽取结果，未提供完整全文，可能遗漏方法细节和局限性。"
+            "仅基于摘要，未获取全文数据，无法评估随机化细节、分配隐藏、样本量计算、随访完整性、缺失数据处理等。",
+            "未报告亚组分析、敏感性分析、统计方法细节。",
+            "未报告不良事件的具体类型和发生率。"
           ]
         },
         "methodology": {
-          "researchQuestion": "儿童、家长/监护人和围手术期医疗提供者对手术麻醉后结局的看法是什么？",
-          "designFit": "采用定性混合方法研究设计，通过半结构化访谈收集观点，适合探索利益相关者的主观体验和看法。",
-          "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "不适用（定性研究）。",
-          "allocationConcealment": "不适用（定性研究）。",
-          "blinding": "不适用（定性研究）。",
+          "researchQuestion": "静脉注射精氨酸能否有效且安全地治疗镰状细胞病急性疼痛发作？",
+          "designFit": "采用前瞻性、双盲、随机对照试验设计，适合评估干预措施的疗效和安全性。",
+          "eligibility": "年龄3至21岁、因镰状细胞病急性疼痛发作需要胃肠外阿片类药物而就诊于急诊的患者。",
+          "randomization": "当前可获取内容未提供该数据。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "双盲设计，但具体盲法细节（如是否对患者、医护人员、结局评估者设盲）未在摘要中说明。",
           "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "不适用（访谈研究）。",
-          "analysisPopulation": "359次半结构化访谈，涉及儿童、家长/监护人和医疗提供者。",
+          "followUp": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "随机化274名参与者，其中271名接受了研究药物，分析可能基于接受治疗的人群，但具体分析集未明确。",
           "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "国际多中心，覆盖多个国家和文化背景。",
-            "纳入多方利益相关者，包括儿童、家长和医疗提供者。",
-            "使用改良扎根理论分析，系统识别主题。"
+            "多中心、双盲、随机对照试验，设计严谨。",
+            "样本量较大（274例）。",
+            "主要结局为客观指标（最后一次静脉阿片类药物给药时间）。"
           ],
           "concerns": [
-            "当前可获取内容未提供具体分析方法细节。",
-            "定性研究结果可能受访谈者影响。"
+            "试验因无效而提前终止，可能影响统计效能。",
+            "未报告亚组分析，无法评估不同年龄、性别、疾病严重程度等亚组是否获益。",
+            "未报告统计方法细节，如是否使用意向性分析、如何处理缺失数据等。"
           ]
         },
         "statistics": {
@@ -403,10 +406,11 @@
               "referenceId": null,
               "name": "未报告",
               "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
-              "reportedResult": "当前可获取内容未提供该数据。",
-              "interpretation": "无法评价。",
+              "reportedResult": "主要结局比较采用中位数和IQR，并报告绝对差异和95%CI。",
+              "interpretation": "由于未报告具体统计检验方法，无法判断是否使用了非参数检验或生存分析。",
               "cautions": [
-                "由于未报告统计方法，无法评估结果的统计学可靠性。"
+                "未报告P值，无法判断差异的统计学显著性。",
+                "未报告效应量（如风险比、中位数差异）的置信区间。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
@@ -414,355 +418,62 @@
           "adjustedVariables": "当前可获取内容未提供该数据。",
           "multiplicity": "当前可获取内容未提供该数据。",
           "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+          "clinicalVsStatisticalSignificance": "主要结局的绝对差异为7.2小时，95%CI包含零，表明无统计学显著差异。临床意义方面，7.2小时的差异可能不具有临床重要性，但需结合临床背景判断。"
         },
         "outcomeAnalysis": {
-          "primary": "当前可获取内容未提供该数据。",
+          "primary": "疼痛发作缓解时间（从首次研究药物给药至最后一次静脉阿片类药物给药的小时数）。结果：精氨酸组中位数60.8小时（IQR 34.8-109.0），安慰剂组65.8小时（IQR 31.1-111.1），绝对差异7.2小时（95%CI -21.6至35.9）。",
           "secondary": [
-            "当前可获取内容未提供该数据。"
+            "胃肠外阿片类药物总用量（静脉吗啡当量，mg/kg）：未报告具体数值，但报告无显著差异。",
+            "疼痛评分：未报告具体数值，但报告无显著差异。",
+            "患者报告结局：未报告具体数值，但报告无显著差异。"
           ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "当前可获取内容未提供该数据。",
+          "safety": "安全性事件在两组间无显著差异，但未报告具体不良事件类型和发生率。",
+          "absoluteVsRelative": "主要结局报告了绝对差异（7.2小时），未报告相对效应量（如风险比）。",
           "subgroupAndInteraction": "当前可获取内容未提供该数据。",
           "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "国际多中心，样本量大（359次访谈）。",
-            "多方利益相关者参与，提高结果代表性。",
-            "定性方法适合探索观点和体验。"
+            "多中心、双盲、随机对照试验，减少偏倚。",
+            "样本量较大，代表性较好。",
+            "主要结局为客观指标，减少测量偏倚。"
           ],
           "limitations": [
-            "当前可获取内容未提供局限性信息。",
-            "定性研究结果可能受文化差异和访谈者偏倚影响。"
+            "试验提前终止，可能降低统计效能。",
+            "未报告亚组分析，无法评估特定人群的疗效。",
+            "未报告统计方法细节，无法评估分析质量。"
           ],
           "biasRisks": [
-            "选择偏倚：参与者可能不能代表所有人群。",
-            "访谈者偏倚：访谈者可能影响回答。"
+            "由于双盲设计，实施偏倚和测量偏倚风险较低。",
+            "提前终止可能引入偏倚，但通常因无效而终止不会夸大疗效。",
+            "未报告分配隐藏细节，但随机对照试验通常采用适当方法。"
           ],
-          "certainty": "低（定性研究，无定量效应量）。",
-          "conclusionAlignment": "结论与结果一致，但需注意定性研究的局限性。",
-          "causalBoundary": "本研究为定性研究，不能推断因果关系，仅能描述观点和主题。"
+          "certainty": "基于摘要，证据质量中等。由于未提供完整方法学细节，无法全面评估偏倚风险。",
+          "conclusionAlignment": "结论与结果一致：精氨酸未缩短疼痛发作缓解时间。",
+          "causalBoundary": "由于是随机对照试验，可以推断精氨酸与结局之间的因果关系，但需注意提前终止和未报告亚组分析可能限制因果推断的普遍性。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "适用于儿科围手术期研究结局的选择。",
-            "适用于临床护理中关注患者和家庭的心理需求。"
+            "该结果适用于年龄3至21岁、因镰状细胞病急性疼痛发作需要胃肠外阿片类药物的患者。",
+            "结果不支持在这些患者中常规使用静脉精氨酸。"
           ],
           "nonApplicability": [
-            "不适用于直接指导具体麻醉管理决策。",
-            "不适用于量化结局改善。"
+            "不适用于其他年龄组或非急性疼痛发作的镰状细胞病患者。",
+            "不适用于口服精氨酸或其他给药途径。"
           ],
-          "practiceChange": "可能促使临床医生和研究者在结局评估中纳入情绪健康和回归日常生活等维度。",
+          "practiceChange": "该研究结果可能改变临床实践，避免在镰状细胞病急性疼痛发作中常规使用精氨酸。",
           "canDoNow": [
-            "在临床研究中考虑纳入患者报告结局，如情绪健康、疼痛和功能恢复。",
-            "在围手术期护理中关注儿童和家长的心理支持。"
+            "继续遵循现有疼痛管理指南，优化阿片类药物使用。",
+            "可考虑其他辅助治疗，但需基于其他证据。"
           ],
           "cannotConclude": [
-            "不能确定这些主题对临床结局的量化影响。",
-            "不能确定不同亚组（如年龄、手术类型）的差异。"
+            "不能得出精氨酸对特定亚组（如不同基因型、疼痛严重程度）有效的结论。",
+            "不能评估长期使用精氨酸的安全性。"
           ],
           "evidenceGaps": [
-            "需要定量研究评估这些结局的重要性。",
-            "需要进一步研究不同文化背景下的差异。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要+开放全文分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41557601/",
-        "doi": "https://doi.org/10.1097/aln.0000000000005947",
-        "publisher": "https://doi.org/10.1097/aln.0000000000005947",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13089847/"
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-41051360",
-      "number": "02",
-      "category": "麻醉学",
-      "journal": "Anesthesiology",
-      "year": "2026",
-      "publishedDate": "2026-03-01",
-      "electronicPublicationDate": "2025-10-06",
-      "readingTime": "13 分钟",
-      "title": "胎盘植入谱系患者剖宫产子宫切除术的麻醉方式：多中心围手术期结局组数据库报告",
-      "originalTitle": "Mode of Anesthesia for Patients with Placenta Accreta Spectrum Undergoing Cesarean Hysterectomy: A Report from the Multicenter Perioperative Outcomes Group Database.",
-      "abstract": "BACKGROUND: Placenta accreta spectrum is a highly morbid obstetric condition, often necessitating cesarean hysterectomy and requiring specialist anesthesia care. There are few hospital-level data describing anesthetic management of these cases. The authors performed this study to describe anesthetic modalities for these cases across a cohort of U.S. hospitals. METHODS: The authors performed a retrospective cohort study using the Multicenter Perioperative Outcomes Group database and identified patients who underwent cesarean hysterectomy for placenta accreta spectrum between January 1, 2015, and December 31, 2021. The primary outcome was mode of anesthesia, classified as general anesthesia, neuraxial anesthesia, or neuraxial with conversion to general anesthesia. Descriptive statistics were used to describe the cohort. A mixed effects logistic regression model was fit for the intended anesthetic technique for the hysterectomy portion of the procedure (general or neuraxial) for suspected placenta accreta spectrum. Patients who received both were classified according to whether the conversion was planned (classified as general) or unplanned (classified as neuraxial). RESULTS: The authors identified 1,257 cases from 43 institutions. Of those, 418 (33.3%) received general anesthesia, 333 (26.5%) received neuraxial anesthesia, and 506 (40.3%) received neuraxial anesthesia with conversion to general anesthesia. In the multivariable model, placenta percreta versus accreta (odds ratio [OR], 2.14 [95% CI, 1.33 to 3.44]), increta vs . accreta (OR, 2.04 [95% CI, 1.25 to 3.34]), unscheduled vs . scheduled cases (OR, 3.28 [95% CI, 2.04 to 5.26]), American Society of Anesthesiologists (Schaumburg, Illinois) Physical Status III vs . II (OR, 1.57 [95% CI, 1.02 to 2.40]), and American Society of Anesthesiologists Physical Status IV vs . II (OR, 2.95 [95% CI, 1.51 to 5.74]) were associated with higher odds of general anesthesia for the hysterectomy for suspected placenta accreta spectrum. CONCLUSIONS: Neuraxial anesthesia followed by conversion to general anesthesia was the most common choice for cesarean hysterectomy. Future studies should evaluate maternal morbidity and recovery after various modes of anesthesia to help refine decision-making for the choice of anesthetic technique.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": "BACKGROUND",
-            "text": "胎盘植入谱系是一种高度病态的产科疾病，常需行剖宫产子宫切除术，并需要专科麻醉护理。描述这些病例麻醉管理的医院层面数据很少。作者进行了本研究，以描述美国一组医院中这些病例的麻醉方式。"
-          },
-          {
-            "heading": "METHODS",
-            "text": "作者使用多中心围手术期结局组数据库进行了一项回顾性队列研究，确定了2015年1月1日至2021年12月31日期间因胎盘植入谱系接受剖宫产子宫切除术的患者。主要结局是麻醉方式，分为全身麻醉、椎管内麻醉或椎管内麻醉转为全身麻醉。使用描述性统计来描述队列。对于疑似胎盘植入谱系，针对手术子宫切除部分的预期麻醉技术（全身或椎管内）拟合了混合效应逻辑回归模型。接受两种麻醉的患者根据转换是有计划的（归类为全身麻醉）还是无计划的（归类为椎管内麻醉）进行分类。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "作者从43家机构中确定了1,257例病例。其中，418例（33.3%）接受全身麻醉，333例（26.5%）接受椎管内麻醉，506例（40.3%）接受椎管内麻醉并转为全身麻醉。在多变量模型中，胎盘穿透性植入与粘连性植入相比（比值比[OR]，2.14 [95% CI，1.33至3.44]）、植入性胎盘与粘连性胎盘相比（OR，2.04 [95% CI，1.25至3.34]）、非计划与计划病例相比（OR，3.28 [95% CI，2.04至5.26]）、美国麻醉医师学会（伊利诺伊州绍姆堡）身体状况III级与II级相比（OR，1.57 [95% CI，1.02至2.40]）以及美国麻醉医师学会身体状况IV级与II级相比（OR，2.95 [95% CI，1.51至5.74]）与疑似胎盘植入谱系子宫切除术中全身麻醉的较高几率相关。"
-          },
-          {
-            "heading": "CONCLUSIONS",
-            "text": "椎管内麻醉后转为全身麻醉是剖宫产子宫切除术最常见的选择。未来的研究应评估不同麻醉方式后的产妇发病率和恢复情况，以帮助完善麻醉技术选择的决策。"
-          }
-        ],
-        "fullText": "BACKGROUND: 胎盘植入谱系是一种高度病态的产科疾病，常需行剖宫产子宫切除术，并需要专科麻醉护理。描述这些病例麻醉管理的医院层面数据很少。作者进行了本研究，以描述美国一组医院中这些病例的麻醉方式。 METHODS: 作者使用多中心围手术期结局组数据库进行了一项回顾性队列研究，确定了2015年1月1日至2021年12月31日期间因胎盘植入谱系接受剖宫产子宫切除术的患者。主要结局是麻醉方式，分为全身麻醉、椎管内麻醉或椎管内麻醉转为全身麻醉。使用描述性统计来描述队列。对于疑似胎盘植入谱系，针对手术子宫切除部分的预期麻醉技术（全身或椎管内）拟合了混合效应逻辑回归模型。接受两种麻醉的患者根据转换是有计划的（归类为全身麻醉）还是无计划的（归类为椎管内麻醉）进行分类。 RESULTS: 作者从43家机构中确定了1,257例病例。其中，418例（33.3%）接受全身麻醉，333例（26.5%）接受椎管内麻醉，506例（40.3%）接受椎管内麻醉并转为全身麻醉。在多变量模型中，胎盘穿透性植入与粘连性植入相比（比值比[OR]，2.14 [95% CI，1.33至3.44]）、植入性胎盘与粘连性胎盘相比（OR，2.04 [95% CI，1.25至3.34]）、非计划与计划病例相比（OR，3.28 [95% CI，2.04至5.26]）、美国麻醉医师学会（伊利诺伊州绍姆堡）身体状况III级与II级相比（OR，1.57 [95% CI，1.02至2.40]）以及美国麻醉医师学会身体状况IV级与II级相比（OR，2.95 [95% CI，1.51至5.74]）与疑似胎盘植入谱系子宫切除术中全身麻醉的较高几率相关。 CONCLUSIONS: 椎管内麻醉后转为全身麻醉是剖宫产子宫切除术最常见的选择。未来的研究应评估不同麻醉方式后的产妇发病率和恢复情况，以帮助完善麻醉技术选择的决策。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Padilla A, Stockinger J, Zanolli NC, Hurwitz R, Ende HB, Butwick AJ, Warrick CM, Hess PE, et al.",
-      "citation": "Anesthesiology. 2026 Mar 1;144(3):535-545. doi: 10.1097/ALN.0000000000005788. Epub 2025 Oct 6.",
-      "doi": "10.1097/aln.0000000000005788",
-      "pmid": "41051360",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article",
-        "Multicenter Study"
-      ],
-      "meshTerms": [
-        "Humans",
-        "Female",
-        "Pregnancy",
-        "*Placenta Accreta/surgery",
-        "*Cesarean Section/methods",
-        "*Hysterectomy/methods",
-        "Adult",
-        "Retrospective Studies",
-        "Databases, Factual",
-        "*Anesthesia, Obstetrical/methods",
-        "*Anesthesia, General/methods",
-        "Cohort Studies",
-        "Anesthesia, Conduction/methods"
-      ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "human-study"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 9.3,
-        "metricYear": 2024,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.asahq.org/about-asa/annual-reports",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "Anesthesiology"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "Journal Article",
-        "Multicenter Study"
-      ],
-      "question": "胎盘植入谱系是高度病态的产科状况，常需剖宫产子宫切除术并依赖专科麻醉管理，但医院层面的麻醉管理数据有限。该研究利用多中心数据库描述了美国医院中此类病例的麻醉方式选择，为优化围术期麻醉决策提供了现实依据。",
-      "conclusion": "在2015至2021年间，来自43家机构的1257例胎盘植入谱系剖宫产子宫切除术中，椎管内麻醉后转为全身麻醉是最常见的麻醉方式（40.3%），且胎盘植入程度更深、非计划手术及ASA分级更高与全身麻醉几率增加相关。",
-      "clinical": "椎管内麻醉后转为全身麻醉是最常见的麻醉方式，提示临床实践中常采用椎管内麻醉作为初始技术，但需准备转为全身麻醉。 胎盘植入程度更深、非计划手术及ASA分级更高的患者更可能接受全身麻醉，麻醉计划应针对这些高风险因素进行个体化调整。 未来研究应评估不同麻醉方式后的母体发病率和恢复情况，以帮助完善麻醉技术选择的决策。",
-      "evidence": "中等",
-      "score": 61,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 18,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 6
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "回顾性队列研究，使用多中心围手术期结局组数据库，纳入2015年1月1日至2021年12月31日期间接受剖宫产子宫切除术的胎盘植入谱系患者。采用描述性统计描述队列，并拟合混合效应逻辑回归模型分析疑似胎盘植入谱系患者子宫切除部分的预期麻醉技术（全身或椎管内）。"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "patients who underwent cesarean hysterectomy for placenta accreta spectrum between January 1, 2015, and December 31, 2021, from 43 institutions；1,257 cases"
-        },
-        {
-          "label": "干预与比较",
-          "value": "全身麻醉、椎管内麻醉或椎管内麻醉转全身麻醉（根据计划内或计划外转换分类）；对照：不同麻醉方式之间的比较（主要分析为全身麻醉与椎管内麻醉的比较）"
-        },
-        {
-          "label": "主要终点",
-          "value": "mode of anesthesia, classified as general anesthesia, neuraxial anesthesia, or neuraxial with conversion to general anesthesia"
-        }
-      ],
-      "keyPoints": [
-        "1257例胎盘植入谱系剖宫产子宫切除术中，椎管内麻醉后转全身麻醉最常见（40.3%），全身麻醉占33.3%，单纯椎管内麻醉占26.5%。",
-        "胎盘穿透性植入（OR 2.14）、植入性植入（OR 2.04）、非计划手术（OR 3.28）、ASA III级（OR 1.57）和IV级（OR 2.95）与全身麻醉几率增加相关。",
-        "研究未报告母体并发症或恢复结局，无法评估不同麻醉方式的临床获益。"
-      ],
-      "methods": "胎盘植入谱系是高度病态的产科状况，常需剖宫产子宫切除术并需要专科麻醉护理。目前关于这些病例麻醉管理的医院层面数据很少。该研究旨在描述美国医院队列中这些病例的麻醉方式。",
-      "results": "共识别出来自43家机构的1257例病例。其中418例（33.3%）接受全身麻醉，333例（26.5%）接受椎管内麻醉，506例（40.3%）接受椎管内麻醉后转为全身麻醉。在多变量模型中，与绒毛膜羊膜炎相比，胎盘植入更深（穿透性 vs. 粘连性：OR 2.14 [95% CI 1.33-3.44]；植入性 vs. 粘连性：OR 2.04 [95% CI 1.25-3.34]）、非计划 vs. 计划手术（OR 3.28 [95% CI 2.04-5.26]）、ASA分级III vs. II（OR 1.57 [95% CI 1.02-2.40]）以及ASA分级IV vs. II（OR 2.95 [95% CI 1.51-5.74]）与疑似胎盘植入谱系子宫切除术中全身麻醉几率增加相关。",
-      "mainResults": "共识别出来自43家机构的1257例病例。其中418例（33.3%）接受全身麻醉，333例（26.5%）接受椎管内麻醉，506例（40.3%）接受椎管内麻醉后转为全身麻醉。在多变量模型中，与绒毛膜羊膜炎相比，胎盘植入更深（穿透性 vs. 粘连性：OR 2.14 [95% CI 1.33-3.44]；植入性 vs. 粘连性：OR 2.04 [95% CI 1.25-3.34]）、非计划 vs. 计划手术（OR 3.28 [95% CI 2.04-5.26]）、ASA分级III vs. II（OR 1.57 [95% CI 1.02-2.40]）以及ASA分级IV vs. II（OR 2.95 [95% CI 1.51-5.74]）与疑似胎盘植入谱系子宫切除术中全身麻醉几率增加相关。",
-      "limitations": [
-        "当前可获取内容未提供该数据。",
-        "当前可获取内容未提供该数据。",
-        "当前可获取内容未提供该数据。"
-      ],
-      "practice": [
-        "椎管内麻醉后转为全身麻醉是最常见的麻醉方式，提示临床实践中常采用椎管内麻醉作为初始技术，但需准备转为全身麻醉。",
-        "胎盘植入程度更深、非计划手术及ASA分级更高的患者更可能接受全身麻醉，麻醉计划应针对这些高风险因素进行个体化调整。",
-        "未来研究应评估不同麻醉方式后的母体发病率和恢复情况，以帮助完善麻醉技术选择的决策。"
-      ],
-      "editor": "该研究基于多中心数据库的大样本回顾性队列，提供了麻醉方式分布的描述性数据及与全身麻醉相关的因素，结果支持临床决策时考虑胎盘植入深度、手术紧急程度和ASA分级。 过度解读风险：由于是观察性研究，不能推断因果关系；且未报告母体结局，不能据此推荐特定麻醉方式。",
-      "whyItMatters": "胎盘植入谱系是高度病态的产科状况，常需剖宫产子宫切除术并依赖专科麻醉管理，但医院层面的麻醉管理数据有限。该研究利用多中心数据库描述了美国医院中此类病例的麻醉方式选择，为优化围术期麻醉决策提供了现实依据。",
-      "background": "胎盘植入谱系是高度病态的产科状况，常需剖宫产子宫切除术并需要专科麻醉护理。目前关于这些病例麻醉管理的医院层面数据很少。该研究旨在描述美国医院队列中这些病例的麻醉方式。",
-      "pico": {
-        "population": "patients who underwent cesarean hysterectomy for placenta accreta spectrum between January 1, 2015, and December 31, 2021, from 43 institutions",
-        "intervention": "全身麻醉、椎管内麻醉或椎管内麻醉转全身麻醉（根据计划内或计划外转换分类）",
-        "comparison": "不同麻醉方式之间的比较（主要分析为全身麻醉与椎管内麻醉的比较）",
-        "outcome": "mode of anesthesia, classified as general anesthesia, neuraxial anesthesia, or neuraxial with conversion to general anesthesia"
-      },
-      "studyType": "回顾性队列研究，使用多中心围手术期结局组数据库，纳入2015年1月1日至2021年12月31日期间接受剖宫产子宫切除术的胎盘植入谱系患者。采用描述性统计描述队列，并拟合混合效应逻辑回归模型分析疑似胎盘植入谱系患者子宫切除部分的预期麻醉技术（全身或椎管内）。",
-      "sampleSize": "1,257 cases",
-      "primaryOutcome": "mode of anesthesia, classified as general anesthesia, neuraxial anesthesia, or neuraxial with conversion to general anesthesia",
-      "effectSize": [
-        "OR 2.14",
-        "OR 2.04",
-        "OR 3.28",
-        "OR 1.57",
-        "OR 2.95"
-      ],
-      "confidenceInterval": [
-        "95% CI 1.33 to 3.44",
-        "95% CI 1.25 to 3.34",
-        "95% CI 2.04 to 5.26",
-        "95% CI 1.02 to 2.40",
-        "95% CI 1.51 to 5.74"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "该研究基于多中心数据库的大样本回顾性队列，提供了麻醉方式分布的描述性数据及与全身麻醉相关的因素，结果支持临床决策时考虑胎盘植入深度、手术紧急程度和ASA分级。",
-        "overinterpretationRisk": "由于是观察性研究，不能推断因果关系；且未报告母体结局，不能据此推荐特定麻醉方式。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "abstract",
-          "limitations": [
-            "仅基于摘要，未获取全文数据，无法评估方法学细节、混杂因素调整、缺失数据处理等。",
-            "未报告母体结局、并发症等关键临床数据。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "描述美国医院队列中胎盘植入谱系剖宫产子宫切除术的麻醉方式，并分析影响全身麻醉选择的因素。",
-          "designFit": "回顾性队列研究适合描述麻醉方式的分布及关联因素，但无法确立因果关系。",
-          "eligibility": "2015年1月1日至2021年12月31日期间，来自43家机构的接受剖宫产子宫切除术的胎盘植入谱系患者。",
-          "randomization": "不适用（观察性研究）。",
-          "allocationConcealment": "不适用（观察性研究）。",
-          "blinding": "不适用（观察性研究）。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "1257例病例，按麻醉方式分类。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "多中心数据库，样本量较大（1257例）。",
-            "使用混合效应模型考虑了机构聚类效应。"
-          ],
-          "concerns": [
-            "回顾性设计可能存在选择偏倚和混杂。",
-            "未报告母体结局，无法评估麻醉方式的临床影响。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": "logistic-regression",
-              "name": "Logistic回归",
-              "purposeInStudy": "分析全身麻醉与椎管内麻醉的关联因素，以比值比表示效应。",
-              "reportedResult": "胎盘穿透性植入 vs. 粘连性：OR 2.14 (95% CI 1.33-3.44)；植入性 vs. 粘连性：OR 2.04 (95% CI 1.25-3.34)；非计划 vs. 计划：OR 3.28 (95% CI 2.04-5.26)；ASA III vs. II：OR 1.57 (95% CI 1.02-2.40)；ASA IV vs. II：OR 2.95 (95% CI 1.51-5.74)。",
-              "interpretation": "这些因素与全身麻醉几率增加相关，但比值比不能直接解释为风险比，尤其在结局常见时。",
-              "cautions": [
-                "比值比在结局常见时可能高估风险比。",
-                "未报告P值，无法评估统计学显著性。"
-              ],
-              "standardExplanation": "分析二分类结局并常以比值比表示关联；比值比不能在结局常见时直接当作风险比。"
-            },
-            {
-              "referenceId": "mixed-effects",
-              "name": "混合效应模型",
-              "purposeInStudy": "处理多中心数据的机构聚类效应，同时估计固定效应（患者因素）和随机效应（机构差异）。",
-              "reportedResult": "模型结果以OR和95% CI报告，但未提供随机效应方差等细节。",
-              "interpretation": "混合效应模型考虑了机构间差异，提高了估计的准确性。",
-              "cautions": [
-                "摘要中未提供模型拟合细节，无法评估模型假设。"
-              ],
-              "standardExplanation": "处理重复测量、中心或个体内相关性，同时估计固定效应和随机效应。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "虽然OR值具有统计学意义（基于95% CI不包含1），但未报告母体结局，无法判断临床获益。"
-        },
-        "outcomeAnalysis": {
-          "primary": "麻醉方式，分为全身麻醉、椎管内麻醉或椎管内麻醉转全身麻醉。",
-          "secondary": [
-            "当前可获取内容未提供次要结局。"
-          ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "摘要仅报告了相对效应（OR），未提供绝对风险或风险差。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "多中心、大样本。",
-            "使用混合效应模型处理机构聚类。"
-          ],
-          "limitations": [
-            "回顾性设计，存在选择偏倚和混杂。",
-            "未报告母体结局，无法评估临床影响。",
-            "摘要信息有限，无法评估方法学质量。"
-          ],
-          "biasRisks": [
-            "选择偏倚：纳入病例可能不代表所有胎盘植入谱系患者。",
-            "信息偏倚：麻醉方式分类可能受记录影响。",
-            "混杂偏倚：未调整的潜在混杂因素可能影响结果。"
-          ],
-          "certainty": "低至中等，由于观察性设计和摘要信息有限。",
-          "conclusionAlignment": "结论与结果一致，但未过度推断。",
-          "causalBoundary": "观察性关联不能推断因果关系，仅提示关联。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "结果适用于美国多中心医院中胎盘植入谱系剖宫产子宫切除术患者的麻醉管理。",
-            "提示临床实践中椎管内麻醉后转全身麻醉是常见选择，且高风险患者更可能接受全身麻醉。"
-          ],
-          "nonApplicability": [
-            "不适用于其他产科手术或非胎盘植入谱系患者。",
-            "不适用于资源有限或不同麻醉实践的地区。"
-          ],
-          "practiceChange": "当前证据不足以改变临床实践，但可提示麻醉计划需考虑胎盘植入深度、手术紧急程度和ASA分级。",
-          "canDoNow": [
-            "对于疑似胎盘植入谱系患者，术前应评估胎盘植入深度、手术紧急程度和ASA分级，以制定个体化麻醉计划。",
-            "准备椎管内麻醉时，应具备快速转为全身麻醉的条件。"
-          ],
-          "cannotConclude": [
-            "不能确定哪种麻醉方式更优，因为未报告母体结局。",
-            "不能推断因果关系。"
-          ],
-          "evidenceGaps": [
-            "需要前瞻性研究比较不同麻醉方式对母体发病率和恢复的影响。",
-            "需要报告绝对风险、并发症和患者满意度等结局。"
+            "需要进一步研究以确定精氨酸是否在特定亚组中有效。",
+            "需要评估精氨酸在其他临床场景（如预防发作）中的作用。",
+            "需要更详细的安全性数据。"
           ],
           "directClinicalRecommendation": false
         }
@@ -773,57 +484,57 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41051360/",
-        "doi": "https://doi.org/10.1097/aln.0000000000005788",
-        "publisher": "https://doi.org/10.1097/aln.0000000000005788",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42616542/",
+        "doi": "https://doi.org/10.1001/jama.2026.13310",
+        "publisher": "https://doi.org/10.1001/jama.2026.13310",
         "openFullText": null
       }
     },
     {
       "analysisVersion": 2,
-      "slug": "pmid-42241294",
-      "number": "03",
-      "category": "麻醉学",
-      "journal": "Anesthesiology",
+      "slug": "pmid-42618366",
+      "number": "02",
+      "category": "麻醉基础研究",
+      "journal": "British journal of anaesthesia",
       "year": "2026",
-      "publishedDate": "2026-06-04",
-      "electronicPublicationDate": "2026-06-04",
-      "readingTime": "12 分钟",
-      "title": "非心脏手术中较高与常规术中血压目标：随机试验的系统评价和Meta分析及试验序贯分析",
-      "originalTitle": "Higher versus Routine Intraoperative Blood Pressure Targets in Noncardiac Surgery: A Systematic Review and Meta-analysis with Trial Sequential Analysis of Randomized Trials.",
-      "abstract": "BACKGROUND: Observational studies consistently link intraoperative hypotension to adverse postoperative outcomes, leading guidelines to recommend maintaining mean arterial pressure (MAP) >/=60-65 mmHg during noncardiac surgery. Whether targeting higher intraoperative blood pressure values improves clinical outcomes remains uncertain. METHODS: We conducted a PRISMA-guided search on PubMed, Cochrane CENTRAL, Scopus, and Embase from inception to April 2026. Randomized trials comparing higher intraoperative blood pressure targets, either as fixed absolute thresholds or personalized to preoperative baseline, versus routine blood pressure management in adults undergoing elective noncardiac surgery with general anesthesia were included. Outcomes included in-hospital or 30-day mortality, postoperative delirium, acute kidney injury (AKI), 30-day major cardiovascular events (MACE), acute myocardial injury, stroke, length of stay, and intraoperative hypotension. RESULTS: Fifteen trials (15,603 patients) were included. Higher targets did not reduce AKI (RR = 0.95; 95% CI = 0.85 to 1.06; p = 0.36; I(2) = 16%) or acute myocardial injury (RR = 1.02; 95% CI = 0.94 to 1.12; p = 0.59; I(2) = 0%) compared with routine targets, with firm evidence from trial sequential analysis (TSA). Higher targets were associated with a significant reduction in postoperative delirium (RR = 0.73; 95% CI = 0.54 to 0.98; p = 0.04; I(2) = 26%), although TSA indicated the cumulative evidence remained insufficient to draw firm conclusions. No significant effect was observed on in-hospital or 30-day mortality (RR = 1.00; 95% CI = 0.75 to 1.34; p = 1.00; I(2) = 0%); evidence on 30-day MACE, stroke, and length of stay was similarly insufficient to draw firm conclusions. CONCLUSION: In adults undergoing elective noncardiac surgery, targeting higher intraoperative blood pressure values does not improve major postoperative outcomes compared with routine management. A potential reduction in postoperative delirium warrants confirmation in adequately powered trials.",
+      "publishedDate": "2026-08-19",
+      "electronicPublicationDate": "2026-08-19",
+      "readingTime": "11 分钟",
+      "title": "氯胺酮给药与重大癌症手术后死亡率：一项倾向评分匹配的基于人群的研究",
+      "originalTitle": "Ketamine administration and postoperative mortality after major cancer surgery: a propensity-matched population-based study.",
+      "abstract": "BACKGROUND: Ketamine is commonly used perioperatively as an anaesthetic and analgesic adjunct and has demonstrated potential antitumour effects in preclinical studies. However, clinical and epidemiological data on its association with long-term outcomes after oncologic surgery remain limited. METHODS: We conducted a retrospective cohort study using the TriNetX US Collaborative Network, including adults (>/=18 yr) undergoing major solid tumour cancer surgery between January 1, 2014, and April 1, 2023. The primary exposure was ketamine administration on the day of surgery. Propensity score matching (1:1) was performed using patient characteristics, comorbidities, oncologic diagnoses, and surgery type. The primary outcome was 3-yr mortality, and the secondary outcome was 5-yr mortality. RESULTS: Among 176 149 eligible patients, 29 547 matched pairs were analysed. Perioperative ketamine administration was not associated with lower 3-yr mortality (16.7% vs 16.0%; hazard ratio [HR], 1.04; 95% confidence interval [CI], 1.00-1.09; q=0.187). There was no difference in 5-yr mortality. Across sensitivity and subgroup analyses by cancer type and perioperative exposures, ketamine was not associated with improved survival after adjustment for multiple comparisons. In an exploratory analysis, ketamine exposure was associated with a lower risk of a composite of surrogate markers suggestive of cancer progression or advanced disease, including initiation of chemotherapy, radiotherapy, or palliative care >/=6 months after surgery (HR, 0.82; 95% CI, 0.74-0.92; q=0.013). CONCLUSIONS: In this research network study, perioperative ketamine use was not associated with reduced mortality after major cancer surgery. This finding aligns with previous large-scale studies showing no long-term survival benefit for specific anaesthetic agents in oncologic surgery.",
       "abstractTranslation": {
         "sections": [
           {
             "heading": "BACKGROUND",
-            "text": "观察性研究一致地将术中低血压与不良术后结局相关联，因此指南建议在非心脏手术期间维持平均动脉压（MAP）≥60-65 mmHg。然而，设定更高的术中血压目标是否能改善临床结局仍不确定。"
+            "text": "氯胺酮在围手术期常作为麻醉和镇痛的辅助药物使用，并在临床前研究中显示出潜在的抗肿瘤作用。然而，关于其在肿瘤手术后长期结局方面的临床和流行病学数据仍然有限。"
           },
           {
             "heading": "METHODS",
-            "text": "我们按照PRISMA指南在PubMed、Cochrane CENTRAL、Scopus和Embase中进行了从建库至2026年4月的检索。纳入在全身麻醉下接受择期非心脏手术的成人中，比较更高术中血压目标（无论是固定的绝对阈值还是根据术前基线个体化设定）与常规血压管理的随机试验。结局包括院内或30天死亡率、术后谵妄、急性肾损伤（AKI）、30天主要心血管事件（MACE）、急性心肌损伤、卒中、住院时间和术中低血压。"
+            "text": "我们使用TriNetX美国协作网络进行了一项回顾性队列研究，纳入2014年1月1日至2023年4月1日期间接受大型实体瘤癌症手术的成人（≥18岁）。主要暴露是手术当天的氯胺酮给药。使用患者特征、合并症、肿瘤诊断和手术类型进行倾向评分匹配（1:1）。主要结局是3年死亡率，次要结局是5年死亡率。"
           },
           {
             "heading": "RESULTS",
-            "text": "共纳入15项试验（15,603名患者）。与常规目标相比，更高目标并未降低AKI（RR = 0.95；95% CI = 0.85至1.06；p = 0.36；I² = 16%）或急性心肌损伤（RR = 1.02；95% CI = 0.94至1.12；p = 0.59；I² = 0%），且试验序贯分析（TSA）提供了确凿证据。更高目标与术后谵妄显著减少相关（RR = 0.73；95% CI = 0.54至0.98；p = 0.04；I² = 26%），但TSA表明累积证据仍不足以得出确切结论。对院内或30天死亡率未观察到显著影响（RR = 1.00；95% CI = 0.75至1.34；p = 1.00；I² = 0%）；关于30天MACE、卒中和住院时间的证据同样不足以得出确切结论。"
+            "text": "在176 149名符合条件的患者中，分析了29 547对匹配患者。围手术期氯胺酮给药与较低的3年死亡率无关（16.7% vs 16.0%；风险比[HR]，1.04；95%置信区间[CI]，1.00-1.09；q=0.187）。5年死亡率无差异。在按癌症类型和围手术期暴露进行的敏感性和亚组分析中，经多重比较校正后，氯胺酮与生存改善无关。在一项探索性分析中，氯胺酮暴露与提示癌症进展或晚期疾病的替代标志物复合终点风险较低相关，包括术后≥6个月开始化疗、放疗或姑息治疗（HR，0.82；95% CI，0.74-0.92；q=0.013）。"
           },
           {
-            "heading": "CONCLUSION",
-            "text": "在接受择期非心脏手术的成人中，与常规管理相比，设定更高的术中血压目标并不能改善主要术后结局。术后谵妄的潜在减少需要在充分把握度的试验中得到证实。"
+            "heading": "CONCLUSIONS",
+            "text": "在这项研究网络研究中，围手术期使用氯胺酮与大型癌症手术后死亡率降低无关。这一发现与之前大规模研究一致，即特定麻醉药物在肿瘤手术中没有长期生存获益。"
           }
         ],
-        "fullText": "BACKGROUND: 观察性研究一致地将术中低血压与不良术后结局相关联，因此指南建议在非心脏手术期间维持平均动脉压（MAP）≥60-65 mmHg。然而，设定更高的术中血压目标是否能改善临床结局仍不确定。METHODS: 我们按照PRISMA指南在PubMed、Cochrane CENTRAL、Scopus和Embase中进行了从建库至2026年4月的检索。纳入在全身麻醉下接受择期非心脏手术的成人中，比较更高术中血压目标（无论是固定的绝对阈值还是根据术前基线个体化设定）与常规血压管理的随机试验。结局包括院内或30天死亡率、术后谵妄、急性肾损伤（AKI）、30天主要心血管事件（MACE）、急性心肌损伤、卒中、住院时间和术中低血压。RESULTS: 共纳入15项试验（15,603名患者）。与常规目标相比，更高目标并未降低AKI（RR = 0.95；95% CI = 0.85至1.06；p = 0.36；I² = 16%）或急性心肌损伤（RR = 1.02；95% CI = 0.94至1.12；p = 0.59；I² = 0%），且试验序贯分析（TSA）提供了确凿证据。更高目标与术后谵妄显著减少相关（RR = 0.73；95% CI = 0.54至0.98；p = 0.04；I² = 26%），但TSA表明累积证据仍不足以得出确切结论。对院内或30天死亡率未观察到显著影响（RR = 1.00；95% CI = 0.75至1.34；p = 1.00；I² = 0%）；关于30天MACE、卒中和住院时间的证据同样不足以得出确切结论。CONCLUSION: 在接受择期非心脏手术的成人中，与常规管理相比，设定更高的术中血压目标并不能改善主要术后结局。术后谵妄的潜在减少需要在充分把握度的试验中得到证实。",
+        "fullText": "BACKGROUND: 氯胺酮在围手术期常作为麻醉和镇痛的辅助药物使用，并在临床前研究中显示出潜在的抗肿瘤作用。然而，关于其在肿瘤手术后长期结局方面的临床和流行病学数据仍然有限。METHODS: 我们使用TriNetX美国协作网络进行了一项回顾性队列研究，纳入2014年1月1日至2023年4月1日期间接受大型实体瘤癌症手术的成人（≥18岁）。主要暴露是手术当天的氯胺酮给药。使用患者特征、合并症、肿瘤诊断和手术类型进行倾向评分匹配（1:1）。主要结局是3年死亡率，次要结局是5年死亡率。RESULTS: 在176 149名符合条件的患者中，分析了29 547对匹配患者。围手术期氯胺酮给药与较低的3年死亡率无关（16.7% vs 16.0%；风险比[HR]，1.04；95%置信区间[CI]，1.00-1.09；q=0.187）。5年死亡率无差异。在按癌症类型和围手术期暴露进行的敏感性和亚组分析中，经多重比较校正后，氯胺酮与生存改善无关。在一项探索性分析中，氯胺酮暴露与提示癌症进展或晚期疾病的替代标志物复合终点风险较低相关，包括术后≥6个月开始化疗、放疗或姑息治疗（HR，0.82；95% CI，0.74-0.92；q=0.013）。CONCLUSIONS: 在这项研究网络研究中，围手术期使用氯胺酮与大型癌症手术后死亡率降低无关。这一发现与之前大规模研究一致，即特定麻醉药物在肿瘤手术中没有长期生存获益。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Chiou K, Vikram S, Rowshan K, Shah S, Modha D, Engelman E, Guthrie D, Tiwari A, et al.",
-      "citation": "Anesthesiology. 2026 Jun 4. doi: 10.1097/ALN.0000000000006190.",
-      "doi": "10.1097/aln.0000000000006190",
-      "pmid": "42241294",
+      "authors": "Talmy T, Ledot S, Cohen B, Eshel R, Charpak-Amikam Y, Clemer S, Avidan A, Nitzan I",
+      "citation": "Br J Anaesth. 2026 Aug 19:S0007-0912(26)00511-8. doi: 10.1016/j.bja.2026.06.033.",
+      "doi": "10.1016/j.bja.2026.06.033",
+      "pmid": "42618366",
       "pmcid": null,
       "publicationTypes": [
         "Journal Article"
       ],
       "meshTerms": [],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "publisher": "Elsevier BV",
       "crossrefVerified": true,
       "researchCategory": {
         "id": "clinical",
@@ -837,218 +548,204 @@
       },
       "journalMetric": {
         "metric": "Journal Impact Factor",
-        "impactFactor": 9.3,
-        "metricYear": 2024,
+        "impactFactor": 10.3,
+        "metricYear": 2025,
         "rankingMetricYear": 2025,
         "maximumAgeYears": 1,
         "rankingComparable": true,
         "threshold": 5,
         "comparison": "greater-than",
-        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
         "verifiedAt": "2026-07-28",
-        "matchedJournal": "Anesthesiology"
+        "matchedJournal": "British Journal of Anaesthesia"
       },
       "tags": [
         "临床证据",
         "麻醉及围术期核心期刊",
-        "麻醉学",
-        "老年围术期",
+        "麻醉基础研究",
         "Journal Article"
       ],
-      "question": "术中低血压与不良术后结局相关，指南建议维持MAP≥60-65 mmHg，但更高血压目标是否能改善临床结局尚不确定。本研究通过系统评价和Meta分析，为临床实践提供了关于较高血压目标获益的最新证据。",
-      "conclusion": "在成人择期非心脏手术中，与常规血压管理相比，较高的术中血压目标并未改善主要术后结局，但可能与术后谵妄减少相关，需进一步验证。",
-      "clinical": "在择期非心脏手术中，将术中血压目标提高至常规水平以上并未改善主要术后结局，因此不应常规采用较高血压目标以期望降低AKI或心肌损伤。 较高血压目标可能与术后谵妄减少相关，但证据尚不充分，需在充分把握度的试验中确认，临床决策应权衡潜在获益与风险。",
+      "question": "氯胺酮常用于围手术期麻醉和镇痛辅助，且临床前研究提示其可能具有抗肿瘤作用，但临床和流行病学数据有限。本研究基于大规模人群数据，评估了氯胺酮对癌症手术后长期生存的影响，为围手术期用药选择提供了重要参考。",
+      "conclusion": "在这项基于研究网络的回顾性队列研究中，围手术期使用氯胺酮与重大癌症手术后死亡率降低无关。",
+      "clinical": "围手术期使用氯胺酮不会降低重大癌症手术后的死亡率，因此不应期望其带来长期生存获益。 氯胺酮的镇痛和麻醉作用仍可考虑，但不应基于抗肿瘤或生存获益的假设而使用。 探索性分析提示氯胺酮可能与某些替代标志物风险降低相关，但这需要进一步验证，不能作为临床决策依据。",
       "evidence": "中等",
-      "score": 60,
+      "score": 49,
       "scoreBreakdown": {
-        "relevance": 18,
+        "relevance": 13,
         "evidenceQuality": 8,
-        "clinicalImpact": 15,
+        "clinicalImpact": 9,
         "journalQuality": 15,
         "novelty": 4
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "系统评价和Meta分析，并采用试验序贯分析（TSA）对随机试验进行分析。"
+          "value": "回顾性队列研究，使用TriNetX美国协作网络数据，进行倾向评分匹配（1:1）分析。"
         },
         {
           "label": "研究对象与样本",
-          "value": "Adults undergoing elective noncardiac surgery with general anesthesia；15,603 patients (15 trials)"
+          "value": "adults (≥18 yr) undergoing major solid tumour cancer surgery between January 1, 2014, and April 1, 2023；176 149 eligible patients; 29 547 matched pairs"
         },
         {
           "label": "干预与比较",
-          "value": "Higher intraoperative blood pressure targets, either as fixed absolute thresholds or personalized to preoperative baseline；对照：Routine blood pressure management"
+          "value": "ketamine administration on the day of surgery；对照：no ketamine administration"
         },
         {
           "label": "主要终点",
-          "value": "In-hospital or 30-day mortality, postoperative delirium, acute kidney injury (AKI), 30-day major cardiovascular events (MACE), acute myocardial injury, stroke, length of stay, and intraoperative hypotension"
+          "value": "3-yr mortality"
         }
       ],
       "keyPoints": [
-        "较高术中血压目标未降低AKI或急性心肌损伤，证据确凿。",
-        "较高血压目标与术后谵妄减少相关，但证据不足。",
-        "对死亡率无显著影响，其他结局证据不足。"
+        "围手术期氯胺酮给药与3年死亡率降低无关（HR 1.04，95% CI 1.00-1.09，q=0.187）。",
+        "5年死亡率无差异。",
+        "亚组和敏感性分析未显示生存获益。",
+        "探索性分析显示氯胺酮与替代标志物复合终点风险降低相关（HR 0.82，95% CI 0.74-0.92，q=0.013），但需谨慎解读。"
       ],
-      "methods": "观察性研究一致将术中低血压与不良术后结局联系起来，导致指南建议在非心脏手术期间维持平均动脉压（MAP）≥60-65 mmHg。然而，针对更高术中血压值是否能改善临床结局仍不确定。",
-      "results": "共纳入15项随机试验，涉及15,603例患者。较高血压目标未降低AKI（RR=0.95；95%CI 0.85-1.06；p=0.36；I²=16%）或急性心肌损伤（RR=1.02；95%CI 0.94-1.12；p=0.59；I²=0%），TSA显示证据确凿。较高血压目标与术后谵妄显著减少相关（RR=0.73；95%CI 0.54-0.98；p=0.04；I²=26%），但TSA提示累积证据不足以得出确切结论。对院内或30天死亡率无显著影响（RR=1.00；95%CI 0.75-1.34；p=1.00；I²=0%）；30天MACE、卒中和住院时间的证据同样不足以得出确切结论。",
-      "mainResults": "共纳入15项随机试验，涉及15,603例患者。较高血压目标未降低AKI（RR=0.95；95%CI 0.85-1.06；p=0.36；I²=16%）或急性心肌损伤（RR=1.02；95%CI 0.94-1.12；p=0.59；I²=0%），TSA显示证据确凿。较高血压目标与术后谵妄显著减少相关（RR=0.73；95%CI 0.54-0.98；p=0.04；I²=26%），但TSA提示累积证据不足以得出确切结论。对院内或30天死亡率无显著影响（RR=1.00；95%CI 0.75-1.34；p=1.00；I²=0%）；30天MACE、卒中和住院时间的证据同样不足以得出确切结论。",
+      "methods": "氯胺酮是围手术期常用的麻醉和镇痛辅助药物，临床前研究显示其可能具有抗肿瘤作用。然而，关于其与肿瘤手术后长期结局关联的临床和流行病学数据仍然有限。",
+      "results": "共纳入176 149例符合条件的患者，分析29 547对匹配患者。围手术期氯胺酮给药与较低的3年死亡率无关（16.7% vs 16.0%；风险比[HR]，1.04；95%置信区间[CI]，1.00-1.09；q=0.187）。5年死亡率无差异。在按癌症类型和围手术期暴露进行的敏感性和亚组分析中，经多重比较校正后，氯胺酮与生存改善无关。在探索性分析中，氯胺酮暴露与较低的复合替代标志物风险相关，这些标志物提示癌症进展或晚期疾病，包括术后≥6个月开始化疗、放疗或姑息治疗（HR，0.82；95% CI，0.74-0.92；q=0.013）。",
+      "mainResults": "共纳入176 149例符合条件的患者，分析29 547对匹配患者。围手术期氯胺酮给药与较低的3年死亡率无关（16.7% vs 16.0%；风险比[HR]，1.04；95%置信区间[CI]，1.00-1.09；q=0.187）。5年死亡率无差异。在按癌症类型和围手术期暴露进行的敏感性和亚组分析中，经多重比较校正后，氯胺酮与生存改善无关。在探索性分析中，氯胺酮暴露与较低的复合替代标志物风险相关，这些标志物提示癌症进展或晚期疾病，包括术后≥6个月开始化疗、放疗或姑息治疗（HR，0.82；95% CI，0.74-0.92；q=0.013）。",
       "limitations": [
-        "试验序贯分析显示术后谵妄及其他结局的累积证据不足。",
-        "30天MACE、卒中和住院时间的证据不足以得出确切结论。",
-        "当前可获取内容未提供该数据。"
+        "当前可获取内容未提供该数据。",
+        "作为回顾性研究，可能存在未测量的混杂因素。",
+        "研究基于TriNetX数据库，可能受编码错误或数据缺失影响。",
+        "探索性分析结果需谨慎解读，未经预先设定。"
       ],
       "practice": [
-        "在择期非心脏手术中，将术中血压目标提高至常规水平以上并未改善主要术后结局，因此不应常规采用较高血压目标以期望降低AKI或心肌损伤。",
-        "较高血压目标可能与术后谵妄减少相关，但证据尚不充分，需在充分把握度的试验中确认，临床决策应权衡潜在获益与风险。"
+        "围手术期使用氯胺酮不会降低重大癌症手术后的死亡率，因此不应期望其带来长期生存获益。",
+        "氯胺酮的镇痛和麻醉作用仍可考虑，但不应基于抗肿瘤或生存获益的假设而使用。",
+        "探索性分析提示氯胺酮可能与某些替代标志物风险降低相关，但这需要进一步验证，不能作为临床决策依据。"
       ],
-      "editor": "基于15项随机试验的Meta分析，主要结局（AKI、急性心肌损伤）的效应估计精确，TSA显示证据确凿，支持较高血压目标无益的结论。 过度解读风险：术后谵妄的显著减少可能被过度解读，因为TSA显示证据不足，且未调整多重比较，需谨慎解释。",
-      "whyItMatters": "术中低血压与不良术后结局相关，指南建议维持MAP≥60-65 mmHg，但更高血压目标是否能改善临床结局尚不确定。本研究通过系统评价和Meta分析，为临床实践提供了关于较高血压目标获益的最新证据。",
-      "background": "观察性研究一致将术中低血压与不良术后结局联系起来，导致指南建议在非心脏手术期间维持平均动脉压（MAP）≥60-65 mmHg。然而，针对更高术中血压值是否能改善临床结局仍不确定。",
+      "editor": "研究结果不支持围手术期氯胺酮降低癌症手术后死亡率的假设，与既往大规模研究一致。 过度解读风险：探索性分析中氯胺酮与替代标志物风险降低的关联可能被过度解读，需注意其仅为探索性，且替代标志物并非临床硬终点。",
+      "whyItMatters": "氯胺酮常用于围手术期麻醉和镇痛辅助，且临床前研究提示其可能具有抗肿瘤作用，但临床和流行病学数据有限。本研究基于大规模人群数据，评估了氯胺酮对癌症手术后长期生存的影响，为围手术期用药选择提供了重要参考。",
+      "background": "氯胺酮是围手术期常用的麻醉和镇痛辅助药物，临床前研究显示其可能具有抗肿瘤作用。然而，关于其与肿瘤手术后长期结局关联的临床和流行病学数据仍然有限。",
       "pico": {
-        "population": "Adults undergoing elective noncardiac surgery with general anesthesia",
-        "intervention": "Higher intraoperative blood pressure targets, either as fixed absolute thresholds or personalized to preoperative baseline",
-        "comparison": "Routine blood pressure management",
-        "outcome": "In-hospital or 30-day mortality, postoperative delirium, acute kidney injury (AKI), 30-day major cardiovascular events (MACE), acute myocardial injury, stroke, length of stay, and intraoperative hypotension"
+        "population": "adults (≥18 yr) undergoing major solid tumour cancer surgery between January 1, 2014, and April 1, 2023",
+        "intervention": "ketamine administration on the day of surgery",
+        "comparison": "no ketamine administration",
+        "outcome": "3-yr mortality"
       },
-      "studyType": "系统评价和Meta分析，并采用试验序贯分析（TSA）对随机试验进行分析。",
-      "sampleSize": "15,603 patients (15 trials)",
-      "primaryOutcome": "In-hospital or 30-day mortality, postoperative delirium, acute kidney injury (AKI), 30-day major cardiovascular events (MACE), acute myocardial injury, stroke, length of stay, and intraoperative hypotension",
+      "studyType": "回顾性队列研究，使用TriNetX美国协作网络数据，进行倾向评分匹配（1:1）分析。",
+      "sampleSize": "176 149 eligible patients; 29 547 matched pairs",
+      "primaryOutcome": "3-yr mortality",
       "effectSize": [
-        "RR = 0.95",
-        "RR = 1.02",
-        "RR = 0.73",
-        "RR = 1.00"
+        "HR 1.04",
+        "HR 0.82"
       ],
       "confidenceInterval": [
-        "95% CI = 0.85 to 1.06",
-        "95% CI = 0.94 to 1.12",
-        "95% CI = 0.54 to 0.98",
-        "95% CI = 0.75 to 1.34"
+        "95% CI 1.00-1.09",
+        "95% CI 0.74-0.92"
       ],
       "pValue": [
-        "p = 0.36",
-        "p = 0.59",
-        "p = 0.04",
-        "p = 1.00"
+        "q=0.187",
+        "q=0.013"
       ],
-      "adverseEvents": "No significant effect on mortality; potential reduction in postoperative delirium; insufficient evidence for MACE, stroke, and length of stay.",
+      "adverseEvents": null,
       "aiAssessment": {
-        "support": "基于15项随机试验的Meta分析，主要结局（AKI、急性心肌损伤）的效应估计精确，TSA显示证据确凿，支持较高血压目标无益的结论。",
-        "overinterpretationRisk": "术后谵妄的显著减少可能被过度解读，因为TSA显示证据不足，且未调整多重比较，需谨慎解释。"
+        "support": "研究结果不支持围手术期氯胺酮降低癌症手术后死亡率的假设，与既往大规模研究一致。",
+        "overinterpretationRisk": "探索性分析中氯胺酮与替代标志物风险降低的关联可能被过度解读，需注意其仅为探索性，且替代标志物并非临床硬终点。"
       },
       "deepDive": {
         "sourceCoverage": {
           "level": "abstract",
           "limitations": [
-            "仅基于摘要，无法获取全文详细方法学信息。",
-            "未报告检索策略、纳入排除标准细节、偏倚风险评估等。",
-            "未提供亚组分析、敏感性分析等结果。"
+            "仅基于摘要，无法获取完整方法学细节、数据收集过程、缺失数据处理等。",
+            "无法评估研究质量、偏倚风险等。"
           ]
         },
         "methodology": {
-          "researchQuestion": "在成人择期非心脏手术中，较高的术中血压目标与常规血压管理相比，是否能改善临床结局？",
-          "designFit": "系统评价和Meta分析适合汇总多个随机试验的证据，TSA用于评估累积证据的可靠性。",
-          "eligibility": "纳入比较较高术中血压目标（固定绝对阈值或个体化）与常规管理的随机试验，对象为成人择期非心脏手术全身麻醉患者。",
-          "randomization": "当前可获取内容未提供该数据。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "当前可获取内容未提供该数据。",
+          "researchQuestion": "围手术期氯胺酮给药与重大癌症手术后长期死亡率是否相关？",
+          "designFit": "回顾性队列研究设计适合评估药物暴露与长期结局的关联，但存在选择偏倚和混杂风险。",
+          "eligibility": "2014年1月1日至2023年4月1日期间接受重大实体瘤癌症手术的成人（≥18岁）患者。",
+          "randomization": "未进行随机化，采用倾向评分匹配。",
+          "allocationConcealment": "不适用（观察性研究）。",
+          "blinding": "不适用（观察性研究）。",
           "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "当前可获取内容未提供该数据。",
+          "followUp": "随访时间至少3年（主要结局），次要结局为5年。",
+          "analysisPopulation": "倾向评分匹配后的29 547对患者。",
           "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "基于随机试验，减少选择偏倚。",
-            "使用TSA评估证据的可靠性。",
-            "样本量较大（15,603例）。"
+            "大规模基于人群的样本。",
+            "使用倾向评分匹配平衡已测量混杂因素。",
+            "进行了多种敏感性分析和亚组分析。"
           ],
           "concerns": [
-            "仅基于摘要，无法评估方法学质量。",
-            "未报告检索策略和筛选流程。",
-            "未报告偏倚风险评估。"
+            "回顾性设计可能存在未测量混杂。",
+            "依赖数据库编码，可能不准确。",
+            "探索性分析结果需谨慎解读。"
           ]
         },
         "statistics": {
           "methods": [
             {
-              "referenceId": null,
-              "name": "Meta分析",
-              "purposeInStudy": "汇总各试验的效应量，计算合并RR。",
-              "reportedResult": "AKI RR=0.95；急性心肌损伤 RR=1.02；术后谵妄 RR=0.73；死亡率 RR=1.00。",
-              "interpretation": "较高血压目标对AKI、心肌损伤和死亡率无显著影响，对谵妄有显著降低。",
+              "referenceId": "propensity-score",
+              "name": "倾向评分方法",
+              "purposeInStudy": "平衡氯胺酮组和对照组之间的基线特征，以减少选择偏倚。",
+              "reportedResult": "匹配后分析29 547对患者。",
+              "interpretation": "倾向评分匹配可平衡已测量混杂因素，但不能消除未测量混杂。",
               "cautions": [
-                "未报告随机效应模型或固定效应模型的选择。",
-                "未报告异质性检验的详细结果。"
+                "未测量混杂因素可能仍然存在。",
+                "匹配可能降低样本量，影响统计效能。"
               ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            },
-            {
-              "referenceId": null,
-              "name": "试验序贯分析（TSA）",
-              "purposeInStudy": "评估累积证据是否足够，控制随机误差。",
-              "reportedResult": "AKI和急性心肌损伤的证据确凿；术后谵妄证据不足。",
-              "interpretation": "AKI和心肌损伤的阴性结果可靠，谵妄的阳性结果需谨慎。",
-              "cautions": [
-                "TSA结果依赖于预设的效应量、α和β水平，未报告具体参数。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+              "standardExplanation": "在观察性研究中平衡已测量混杂因素；不能消除未测量或错误测量的混杂。"
             }
           ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "AKI和心肌损伤的阴性结果具有统计学意义（p>0.05），但临床意义可能有限；谵妄的阳性结果具有统计学意义（p=0.04），但临床意义需结合效应量大小和证据确定性。"
+          "adjustedVariables": "患者特征、合并症、肿瘤诊断和手术类型。",
+          "multiplicity": "进行了多重比较校正（q值）。",
+          "subgroupAnalysis": "按癌症类型和围手术期暴露进行了亚组分析。",
+          "clinicalVsStatisticalSignificance": "主要结局无统计学差异，也无临床获益。探索性分析有统计学差异，但临床意义需进一步评估。"
         },
         "outcomeAnalysis": {
-          "primary": "主要结局包括院内或30天死亡率、术后谵妄、AKI、30天MACE、急性心肌损伤、卒中、住院时间和术中低血压。",
+          "primary": "3年死亡率：氯胺酮组16.7% vs 对照组16.0%，HR 1.04，95% CI 1.00-1.09，q=0.187，无统计学差异。",
           "secondary": [
-            "当前可获取内容未提供该数据。"
+            "5年死亡率：无差异（具体数据未提供）。"
           ],
-          "safety": "未报告严重不良事件，但死亡率无显著差异。",
-          "absoluteVsRelative": "相对效应量（RR）已报告，但绝对风险差异未提供。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "绝对差异为0.7%（16.7% vs 16.0%），相对风险增加4%，但无统计学意义。",
+          "subgroupAndInteraction": "亚组分析未显示生存获益，但未提供具体交互作用P值。",
+          "sensitivity": "进行了敏感性分析，结果未显示生存获益。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "基于随机试验，证据等级较高。",
-            "使用TSA评估证据可靠性。",
-            "样本量大。"
+            "大规模样本，基于人群。",
+            "倾向评分匹配减少混杂。",
+            "多种敏感性分析。"
           ],
           "limitations": [
-            "仅基于摘要，无法评估方法学质量。",
-            "未报告检索策略、筛选流程、偏倚风险评估。",
-            "部分结局证据不足。"
+            "回顾性设计，可能存在未测量混杂。",
+            "数据库研究可能受编码错误影响。",
+            "探索性分析结果需谨慎解读。"
           ],
           "biasRisks": [
-            "当前可获取内容未提供该数据。"
+            "选择偏倚：氯胺酮使用可能受患者状态影响。",
+            "信息偏倚：数据库编码可能不准确。",
+            "混杂偏倚：未测量因素可能影响结果。"
           ],
-          "certainty": "对于AKI和急性心肌损伤，证据确凿；对于术后谵妄，证据不足；对于其他结局，证据不足。",
-          "conclusionAlignment": "结论与结果一致，但谵妄的结论需谨慎。",
-          "causalBoundary": "由于是Meta分析，不能推断因果关系，只能提供关联证据。"
+          "certainty": "中等至低，由于观察性设计。",
+          "conclusionAlignment": "结论与主要结果一致，即氯胺酮与死亡率降低无关。",
+          "causalBoundary": "观察性研究不能证明因果关系，只能提示关联。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "适用于接受择期非心脏手术的成人患者。",
-            "较高血压目标可能不改善主要结局，但可能减少谵妄。"
+            "对于接受重大癌症手术的成人患者，围手术期使用氯胺酮不会带来长期生存获益。",
+            "氯胺酮的麻醉和镇痛作用仍可考虑，但不应基于抗肿瘤或生存获益的假设。"
           ],
           "nonApplicability": [
-            "不适用于急诊手术或高危患者。",
-            "不适用于儿童或孕妇。"
+            "不适用于儿童、孕妇或非癌症手术患者。",
+            "不适用于其他氯胺酮给药方式或剂量。"
           ],
-          "practiceChange": "当前证据不支持常规采用较高血压目标以改善主要结局，但谵妄的潜在获益需进一步验证。",
+          "practiceChange": "当前证据不支持为降低死亡率而使用氯胺酮，但也不反对其用于麻醉或镇痛。",
           "canDoNow": [
-            "维持常规血压管理，无需常规提高目标。",
-            "对于谵妄高风险患者，可考虑较高血压目标，但需权衡。"
+            "在围手术期使用氯胺酮时，应基于其麻醉和镇痛效果，而非生存获益。",
+            "应告知患者氯胺酮不降低癌症手术后死亡率。"
           ],
           "cannotConclude": [
-            "不能确定较高血压目标对MACE、卒中和住院时间的影响。",
-            "不能确定较高血压目标对谵妄的获益是否真实。"
+            "不能得出氯胺酮对癌症进展或复发有保护作用的结论。",
+            "不能得出氯胺酮对特定癌症类型有生存获益的结论。"
           ],
           "evidenceGaps": [
-            "需要更多充分把握度的试验验证谵妄的获益。",
-            "需要评估不同血压目标阈值和个体化策略的效果。",
-            "需要长期随访和成本效益分析。"
+            "需要随机对照试验验证氯胺酮对长期生存的影响。",
+            "需要评估不同剂量、给药时机和途径的影响。",
+            "需要评估氯胺酮对癌症复发和进展的直接影响。"
           ],
           "directClinicalRecommendation": false
         }
@@ -1059,78 +756,62 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42241294/",
-        "doi": "https://doi.org/10.1097/aln.0000000000006190",
-        "publisher": "https://doi.org/10.1097/aln.0000000000006190",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42618366/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.06.033",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.06.033",
         "openFullText": null
       }
     },
     {
       "analysisVersion": 2,
-      "slug": "pmid-41343719",
-      "number": "04",
-      "category": "麻醉学",
-      "journal": "Anesthesiology",
+      "slug": "pmid-42613204",
+      "number": "03",
+      "category": "麻醉基础研究",
+      "journal": "British journal of anaesthesia",
       "year": "2026",
-      "publishedDate": "2026-03-01",
-      "electronicPublicationDate": "2025-12-04",
-      "readingTime": "14 分钟",
-      "title": "舒更葡糖钠引入后术中罗库溴铵剂量变化及其与术后呼吸并发症的关联：一项回顾性队列研究",
-      "originalTitle": "Changes in Intraoperative Rocuronium Dosing after the Introduction of Sugammadex and Association with Postoperative Respiratory Complications: A Retrospective Cohort Study.",
-      "abstract": "BACKGROUND: Neuromuscular blocking agents dose-dependently precipitate residual neuromuscular blockade and postoperative respiratory complications. The introduction of sugammadex allowed for reversal of even deep neuromuscular blockade and might have provoked more liberal use of neuromuscular blocking agents. The authors investigated whether the introduction of sugammadex led to higher intraoperative rocuronium doses and whether this impacted postoperative respiratory complications. METHODS: A total of 163,402 adult patient cases who underwent general anesthesia and received exclusively rocuronium at an academic medical center between 2010 and 2024 were included. Interrupted time series analysis adjusted for patient and procedural characteristics was applied to assess changes in cumulative intraoperative rocuronium doses (milligrams per kilogram body weight) after sugammadex introduction in September 2016. Rocuronium-associated risks of postoperative respiratory complications (postextubation desaturation less than 90%, 7-day reintubation or emergency noninvasive ventilation) and effect modification by use of sugammadex and qualitative (twitch count) versus quantitative (train-of-four ratio) neuromuscular monitoring were evaluated. Reported odds ratios represent the dose-response association (per 1 mg/kg rocuronium increase) within the respective subgroup of patient cases. RESULTS: After a stable baseline (-0.01 mg/kg per year between January 2010 and August 2016; 95% CI, -0.05 to 0.03 mg/kg; P = 0.58), rocuronium doses increased by 0.05 mg/kg annually after introduction of sugammadex (95% CI, 0.03 to 0.07 mg/kg; P < 0.001) from (mean +/- SD) 0.83 +/- 0.49 mg/kg in August 2016 to 1.20 +/- 0.65 mg/kg in January 2024. A total of 9,101 of 108,317 patient cases (8.4%) experienced postoperative respiratory complications. Rocuronium was dose-dependently associated with higher postoperative respiratory complication risks, which was most pronounced among patient cases receiving neither sugammadex nor neuromuscular monitoring (adjusted odds ratio [OR adj ], 1.99 per 1 mg/kg; 95% CI, 1.82 to 2.18; P < 0.001). This association was attenuated when sugammadex was administered (n = 42,141; median dose, 200 mg; interquartile range, 200 to 300 mg; OR adj , 1.08 per 1 mg/kg; 95% CI, 1.01 to 1.16; P = 0.023; P for interaction < 0.001) and abolished with quantitative (n = 25,564; OR adj , 10.94 per 1 mg/kg; 95% CI, 0.85 to 1.03; P = 0.19; P for interaction < 0.001) but not qualitative neuromuscular monitoring (n = 49,045; OR adj , 1.10 per 1 mg/kg; 95% CI, 1.02 to 1.18; P = 0.017; P for interaction < 0.001). CONCLUSIONS: Sugammadex introduction was followed by a 45.1% increase in rocuronium doses. While sugammadex attenuated the risk of postoperative respiratory complications, it was completely abolished only with quantitative neuromuscular monitoring.",
+      "publishedDate": "2026-08-18",
+      "electronicPublicationDate": "2026-08-18",
+      "readingTime": "13 分钟",
+      "title": "评估吸入麻醉、全凭静脉麻醉和椎管内麻醉用于单一手术的碳足迹：一项前瞻性观察性研究",
+      "originalTitle": "Assessing the carbon footprint of inhalation anaesthesia, total intravenous anaesthesia, and spinal anaesthesia for a single surgical procedure: a prospective observational study.",
+      "abstract": "BACKGROUND: Healthcare contributes substantially to greenhouse gas emissions (GHG), and anaesthesia is recognised as a high-impact sector. Evidence comparing the carbon footprint of anaesthetic techniques remains limited, particularly in Europe. We quantified carbon dioxide equivalent (CO(2)e) emissions from inhalation anaesthesia with low-flow sevoflurane, TIVA and spinal anaesthesia during operative hysteroscopy. METHODS: We performed a prospective GHG-focused life cycle assessment of consecutive patients undergoing operative hysteroscopy in a French university hospital. For each case, we recorded gases, drugs, medical devices, electricity consumption, and their respective costs. Carbon footprints were calculated by Assistance Publique - Hopitaux de Paris Carebone(R) platform and expressed in CO(2)e. RESULTS: We included 123 participants: 72 underwent inhalation anaesthesia, 22 underwent TIVA, and 29 underwent spinal anaesthesia. Total carbon emissions differed significantly across techniques: median emissions were 10.8 kgCO(2)e [9.1-12.6] for inhalation anaesthesia, 6.6 kgCO(2)e [6.4-6.9] for TIVA and 5.5 kgCO(2)e [5.3-6.2] for spinal anaesthesia (P<0.001). Volatile anaesthetics were the main contributors for inhalation anaesthesia, pharmaceuticals for TIVA and single-use devices for spinal anaesthesia. Electricity consumption was similar across groups. CONCLUSIONS: Spinal anaesthesia demonstrated the lowest carbon footprint. TIVA represented the lowest-carbon option for general anaesthesia techniques, whereas inhalation anaesthesia yielded the highest CO(2)e emissions despite low-flow delivery. These findings highlight the mitigation potential of anaesthetic choice even in low-complexity procedures.",
       "abstractTranslation": {
         "sections": [
           {
             "heading": "BACKGROUND",
-            "text": "神经肌肉阻滞剂剂量依赖性地导致残余神经肌肉阻滞和术后呼吸系统并发症。舒更葡糖钠的引入使得即使是深度神经肌肉阻滞也能被逆转，这可能促使神经肌肉阻滞剂的使用更加宽松。作者调查了舒更葡糖钠的引入是否导致术中罗库溴铵剂量增加，以及这是否影响了术后呼吸系统并发症。"
+            "text": "医疗保健行业对温室气体排放（GHG）贡献巨大，麻醉被认为是高影响领域。比较麻醉技术碳足迹的证据仍然有限，尤其是在欧洲。我们量化了宫腔镜手术中低流量七氟烷吸入麻醉、全凭静脉麻醉（TIVA）和蛛网膜下腔麻醉的二氧化碳当量（CO(2)e）排放。"
           },
           {
             "heading": "METHODS",
-            "text": "共纳入2010年至2024年间在一家学术医疗中心接受全身麻醉并仅使用罗库溴铵的163,402例成年患者病例。应用中断时间序列分析，调整患者和手术特征，评估2016年9月舒更葡糖钠引入后术中罗库溴铵累积剂量（毫克/公斤体重）的变化。评估了罗库溴铵相关的术后呼吸系统并发症风险（拔管后血氧饱和度低于90%、7天内再插管或紧急无创通气），以及使用舒更葡糖钠和定性（颤搐计数）与定量（四个成串刺激比值）神经肌肉监测的效应修饰。报告的比值比表示各自患者病例亚组内的剂量-反应关联（每增加1毫克/公斤罗库溴铵）。"
+            "text": "我们对法国一所大学医院连续接受宫腔镜手术的患者进行了一项前瞻性的、以温室气体为重点的生命周期评估。对于每个病例，我们记录了气体、药物、医疗设备、电力消耗及其各自成本。碳足迹由巴黎公立医院集团（Assistance Publique - Hopitaux de Paris）的Carenbone(R)平台计算，并以CO(2)e表示。"
           },
           {
             "heading": "RESULTS",
-            "text": "在基线稳定（2010年1月至2016年8月期间每年-0.01毫克/公斤；95% CI，-0.05至0.03毫克/公斤；P = 0.58）后，舒更葡糖钠引入后罗库溴铵剂量每年增加0.05毫克/公斤（95% CI，0.03至0.07毫克/公斤；P < 0.001），从2016年8月的（平均值±标准差）0.83 ± 0.49毫克/公斤增加到2024年1月的1.20 ± 0.65毫克/公斤。108,317例患者病例中有9,101例（8.4%）出现术后呼吸系统并发症。罗库溴铵剂量依赖性地与更高的术后呼吸系统并发症风险相关，这在既未接受舒更葡糖钠也未接受神经肌肉监测的患者病例中最为显著（调整后比值比 [OR adj]，每1毫克/公斤为1.99；95% CI，1.82至2.18；P < 0.001）。当给予舒更葡糖钠时，这种关联减弱（n = 42,141；中位剂量，200毫克；四分位距，200至300毫克；OR adj，每1毫克/公斤为1.08；95% CI，1.01至1.16；P = 0.023；交互作用P < 0.001），并在定量（n = 25,564；OR adj，每1毫克/公斤为10.94；95% CI，0.85至1.03；P = 0.19；交互作用P < 0.001）而非定性神经肌肉监测（n = 49,045；OR adj，每1毫克/公斤为1.10；95% CI，1.02至1.18；P = 0.017；交互作用P < 0.001）下被消除。"
+            "text": "我们纳入了123名参与者：72名接受吸入麻醉，22名接受TIVA，29名接受蛛网膜下腔麻醉。不同技术的总碳排放量存在显著差异：吸入麻醉的中位排放量为10.8 kgCO(2)e [9.1-12.6]，TIVA为6.6 kgCO(2)e [6.4-6.9]，蛛网膜下腔麻醉为5.5 kgCO(2)e [5.3-6.2]（P<0.001）。挥发性麻醉药是吸入麻醉的主要贡献者，药品是TIVA的主要贡献者，一次性设备是蛛网膜下腔麻醉的主要贡献者。各组间的电力消耗相似。"
           },
           {
             "heading": "CONCLUSIONS",
-            "text": "舒更葡糖钠引入后，罗库溴铵剂量增加了45.1%。虽然舒更葡糖钠减弱了术后呼吸系统并发症的风险，但只有在定量神经肌肉监测下才完全消除。"
+            "text": "蛛网膜下腔麻醉的碳足迹最低。TIVA是全身麻醉技术中碳足迹最低的选择，而吸入麻醉尽管采用低流量输送，其CO(2)e排放量最高。这些发现强调了麻醉选择在低复杂性手术中的减排潜力。"
           }
         ],
-        "fullText": "BACKGROUND: 神经肌肉阻滞剂剂量依赖性地导致残余神经肌肉阻滞和术后呼吸系统并发症。舒更葡糖钠的引入使得即使是深度神经肌肉阻滞也能被逆转，这可能促使神经肌肉阻滞剂的使用更加宽松。作者调查了舒更葡糖钠的引入是否导致术中罗库溴铵剂量增加，以及这是否影响了术后呼吸系统并发症。 METHODS: 共纳入2010年至2024年间在一家学术医疗中心接受全身麻醉并仅使用罗库溴铵的163,402例成年患者病例。应用中断时间序列分析，调整患者和手术特征，评估2016年9月舒更葡糖钠引入后术中罗库溴铵累积剂量（毫克/公斤体重）的变化。评估了罗库溴铵相关的术后呼吸系统并发症风险（拔管后血氧饱和度低于90%、7天内再插管或紧急无创通气），以及使用舒更葡糖钠和定性（颤搐计数）与定量（四个成串刺激比值）神经肌肉监测的效应修饰。报告的比值比表示各自患者病例亚组内的剂量-反应关联（每增加1毫克/公斤罗库溴铵）。 RESULTS: 在基线稳定（2010年1月至2016年8月期间每年-0.01毫克/公斤；95% CI，-0.05至0.03毫克/公斤；P = 0.58）后，舒更葡糖钠引入后罗库溴铵剂量每年增加0.05毫克/公斤（95% CI，0.03至0.07毫克/公斤；P < 0.001），从2016年8月的（平均值±标准差）0.83 ± 0.49毫克/公斤增加到2024年1月的1.20 ± 0.65毫克/公斤。108,317例患者病例中有9,101例（8.4%）出现术后呼吸系统并发症。罗库溴铵剂量依赖性地与更高的术后呼吸系统并发症风险相关，这在既未接受舒更葡糖钠也未接受神经肌肉监测的患者病例中最为显著（调整后比值比 [OR adj]，每1毫克/公斤为1.99；95% CI，1.82至2.18；P < 0.001）。当给予舒更葡糖钠时，这种关联减弱（n = 42,141；中位剂量，200毫克；四分位距，200至300毫克；OR adj，每1毫克/公斤为1.08；95% CI，1.01至1.16；P = 0.023；交互作用P < 0.001），并在定量（n = 25,564；OR adj，每1毫克/公斤为10.94；95% CI，0.85至1.03；P = 0.19；交互作用P < 0.001）而非定性神经肌肉监测（n = 49,045；OR adj，每1毫克/公斤为1.10；95% CI，1.02至1.18；P = 0.017；交互作用P < 0.001）下被消除。 CONCLUSIONS: 舒更葡糖钠引入后，罗库溴铵剂量增加了45.1%。虽然舒更葡糖钠减弱了术后呼吸系统并发症的风险，但只有在定量神经肌肉监测下才完全消除。",
+        "fullText": "BACKGROUND: Healthcare contributes substantially to greenhouse gas emissions (GHG), and anaesthesia is recognised as a high-impact sector. Evidence comparing the carbon footprint of anaesthetic techniques remains limited, particularly in Europe. We quantified carbon dioxide equivalent (CO(2)e) emissions from inhalation anaesthesia with low-flow sevoflurane, TIVA and spinal anaesthesia during operative hysteroscopy. METHODS: We performed a prospective GHG-focused life cycle assessment of consecutive patients undergoing operative hysteroscopy in a French university hospital. For each case, we recorded gases, drugs, medical devices, electricity consumption, and their respective costs. Carbon footprints were calculated by Assistance Publique - Hopitaux de Paris Carebone(R) platform and expressed in CO(2)e. RESULTS: We included 123 participants: 72 underwent inhalation anaesthesia, 22 underwent TIVA, and 29 underwent spinal anaesthesia. Total carbon emissions differed significantly across techniques: median emissions were 10.8 kgCO(2)e [9.1-12.6] for inhalation anaesthesia, 6.6 kgCO(2)e [6.4-6.9] for TIVA and 5.5 kgCO(2)e [5.3-6.2] for spinal anaesthesia (P<0.001). Volatile anaesthetics were the main contributors for inhalation anaesthesia, pharmaceuticals for TIVA and single-use devices for spinal anaesthesia. Electricity consumption was similar across groups. CONCLUSIONS: Spinal anaesthesia demonstrated the lowest carbon footprint. TIVA represented the lowest-carbon option for general anaesthesia techniques, whereas inhalation anaesthesia yielded the highest CO(2)e emissions despite low-flow delivery. These findings highlight the mitigation potential of anaesthetic choice even in low-complexity procedures.",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Wachtendorf LJ, Kaiser L, Ahrens E, Tenge T, Riesemann S, Xu X, Shay D, von Wedel D, et al.",
-      "citation": "Anesthesiology. 2026 Mar 1;144(3):597-610. doi: 10.1097/ALN.0000000000005880. Epub 2025 Dec 4.",
-      "doi": "10.1097/aln.0000000000005880",
-      "pmid": "41343719",
+      "authors": "Lechani L, Verdonk F, Daigne D, Maire M, Tan D, Cambriel A, Kapandji N, Pardo E, et al.",
+      "citation": "Br J Anaesth. 2026 Aug 18:S0007-0912(26)00542-8. doi: 10.1016/j.bja.2026.06.051.",
+      "doi": "10.1016/j.bja.2026.06.051",
+      "pmid": "42613204",
       "pmcid": null,
       "publicationTypes": [
         "Journal Article"
       ],
-      "meshTerms": [
-        "Humans",
-        "*Sugammadex/administration & dosage",
-        "*Rocuronium/administration & dosage/adverse effects",
-        "Male",
-        "*Neuromuscular Nondepolarizing Agents/administration & dosage/adverse effects",
-        "Female",
-        "Middle Aged",
-        "Retrospective Studies",
-        "*Postoperative Complications/chemically induced/epidemiology",
-        "Aged",
-        "Dose-Response Relationship, Drug",
-        "Cohort Studies",
-        "Neuromuscular Blockade/methods",
-        "Adult",
-        "*Respiration Disorders/chemically induced/epidemiology"
-      ],
-      "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+      "meshTerms": [],
+      "publisher": "Elsevier BV",
       "crossrefVerified": true,
       "researchCategory": {
         "id": "clinical",
         "label": "临床证据",
-        "reason": "human-study"
+        "reason": "clinical-design"
       },
       "journalTier": {
         "id": "anesthesia_core",
@@ -1139,213 +820,207 @@
       },
       "journalMetric": {
         "metric": "Journal Impact Factor",
-        "impactFactor": 9.3,
-        "metricYear": 2024,
+        "impactFactor": 10.3,
+        "metricYear": 2025,
         "rankingMetricYear": 2025,
         "maximumAgeYears": 1,
         "rankingComparable": true,
         "threshold": 5,
         "comparison": "greater-than",
-        "source": "https://www.asahq.org/about-asa/annual-reports",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
         "verifiedAt": "2026-07-28",
-        "matchedJournal": "Anesthesiology"
+        "matchedJournal": "British Journal of Anaesthesia"
       },
       "tags": [
         "临床证据",
         "麻醉及围术期核心期刊",
-        "麻醉学",
-        "气道管理",
+        "麻醉基础研究",
         "Journal Article"
       ],
-      "question": "该研究提示，肌松拮抗剂的可及性可能改变临床用药行为，导致肌松药用量增加，但若未配合定量神经肌肉监测，术后呼吸并发症风险仍可能升高，对围术期用药安全具有重要警示意义。",
-      "conclusion": "舒更葡糖钠引入后，术中罗库溴铵剂量显著增加，且剂量增加与术后呼吸并发症风险升高相关，但仅在未使用舒更葡糖钠或未进行定量神经肌肉监测的患者中风险显著。",
-      "clinical": "舒更葡糖钠的引入可能促使麻醉医师增加肌松药用量，但需警惕术后呼吸并发症风险。 定量神经肌肉监测（如TOF比值）可能有助于消除肌松药剂量增加带来的风险，建议在临床中加强应用。 对于未使用定量监测的患者，即使使用舒更葡糖钠，仍需谨慎控制肌松药剂量。",
+      "question": "医疗行业对温室气体排放有显著贡献，麻醉是高影响领域。该研究提供了欧洲背景下不同麻醉技术碳足迹的直接比较，提示麻醉选择可能成为减少碳排放的潜在干预点。",
+      "conclusion": "在宫腔镜手术中，椎管内麻醉的碳足迹最低，全凭静脉麻醉次之，吸入麻醉最高，尽管采用低流量七氟烷。",
+      "clinical": "在可行的情况下，选择椎管内麻醉可能减少碳排放，但需结合患者因素和手术需求。 对于需要全身麻醉的患者，TIVA可能比吸入麻醉（即使低流量）具有更低的碳足迹。 麻醉医生在技术选择时可将碳足迹作为考虑因素之一，但需平衡临床适宜性和患者安全。",
       "evidence": "中等",
-      "score": 58,
+      "score": 47,
       "scoreBreakdown": {
-        "relevance": 18,
-        "evidenceQuality": 10,
-        "clinicalImpact": 11,
+        "relevance": 13,
+        "evidenceQuality": 8,
+        "clinicalImpact": 7,
         "journalQuality": 15,
         "novelty": 4
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "回顾性队列研究，采用中断时间序列分析，并调整患者及手术特征。"
+          "value": "前瞻性观察性研究，采用温室气体聚焦的生命周期评估方法。"
         },
         {
           "label": "研究对象与样本",
-          "value": "Adult patient cases who underwent general anesthesia and received exclusively rocuronium at an academic medical center between 2010 and 2024；163,402"
+          "value": "consecutive patients undergoing operative hysteroscopy in a French university hospital；123 participants"
         },
         {
           "label": "干预与比较",
-          "value": "Introduction of sugammadex in September 2016；对照：Before vs. after sugammadex introduction"
+          "value": "inhalation anaesthesia with low-flow sevoflurane, TIVA, and spinal anaesthesia；对照：inhalation anaesthesia vs TIVA vs spinal anaesthesia"
         },
         {
           "label": "主要终点",
-          "value": "Cumulative intraoperative rocuronium doses (mg/kg) and postoperative respiratory complications"
+          "value": "total carbon emissions (kgCO2e)"
         }
       ],
       "keyPoints": [
-        "舒更葡糖钠引入后，罗库溴铵剂量每年增加0.05 mg/kg（P<0.001）。",
-        "罗库溴铵剂量每增加1 mg/kg，未使用舒更葡糖钠且未监测的患者术后呼吸并发症风险增加99%（校正OR=1.99，95% CI 1.82-2.18）。",
-        "使用舒更葡糖钠时风险减弱（OR=1.08），定量监测时风险消失（OR=10.94，但CI包含1，无统计学意义），定性监测时风险仍存在（OR=1.10）。",
-        "术后呼吸并发症总发生率为8.4%。"
+        "椎管内麻醉碳足迹最低（5.5 kgCO2e），TIVA次之（6.6 kgCO2e），吸入麻醉最高（10.8 kgCO2e），差异有统计学意义（P<0.001）。",
+        "吸入麻醉的主要碳排放来源是挥发性麻醉药，TIVA是药物，椎管内麻醉是一次性设备。",
+        "各组间电力消耗相似。",
+        "研究为观察性设计，不能直接推断因果关系。"
       ],
-      "methods": "神经肌肉阻滞剂呈剂量依赖性地加重残余肌松和术后呼吸并发症。舒更葡糖钠的引入使得深度肌松也能被逆转，可能促使临床更宽松地使用神经肌肉阻滞剂。本研究旨在探讨舒更葡糖钠引入后术中罗库溴铵剂量是否增加，以及这是否影响术后呼吸并发症。",
-      "results": "在基线期（2010年1月至2016年8月），罗库溴铵剂量稳定（每年变化-0.01 mg/kg，95% CI -0.05至0.03，P=0.58）。舒更葡糖钠引入后，剂量每年增加0.05 mg/kg（95% CI 0.03至0.07，P<0.001），从2016年8月的0.83±0.49 mg/kg增至2024年1月的1.20±0.65 mg/kg。共108,317例患者中9,101例（8.4%）发生术后呼吸并发症。罗库溴铵剂量与术后呼吸并发症风险呈剂量依赖性相关，在未使用舒更葡糖钠且未进行神经肌肉监测的患者中风险最高（校正OR=1.99 per 1 mg/kg，95% CI 1.82-2.18，P<0.001）。使用舒更葡糖钠时风险减弱（n=42,141，中位剂量200 mg，IQR 200-300 mg，校正OR=1.08，95% CI 1.01-1.16，P=0.023，交互P<0.001）；定量神经肌肉监测时风险消失（n=25,564，校正OR=10.94，95% CI 0.85-1.03，P=0.19，交互P<0.001），但定性监测时风险仍存在（n=49,045，校正OR=1.10，95% CI 1.02-1.18，P=0.017，交互P<0.001）。",
-      "mainResults": "在基线期（2010年1月至2016年8月），罗库溴铵剂量稳定（每年变化-0.01 mg/kg，95% CI -0.05至0.03，P=0.58）。舒更葡糖钠引入后，剂量每年增加0.05 mg/kg（95% CI 0.03至0.07，P<0.001），从2016年8月的0.83±0.49 mg/kg增至2024年1月的1.20±0.65 mg/kg。共108,317例患者中9,101例（8.4%）发生术后呼吸并发症。罗库溴铵剂量与术后呼吸并发症风险呈剂量依赖性相关，在未使用舒更葡糖钠且未进行神经肌肉监测的患者中风险最高（校正OR=1.99 per 1 mg/kg，95% CI 1.82-2.18，P<0.001）。使用舒更葡糖钠时风险减弱（n=42,141，中位剂量200 mg，IQR 200-300 mg，校正OR=1.08，95% CI 1.01-1.16，P=0.023，交互P<0.001）；定量神经肌肉监测时风险消失（n=25,564，校正OR=10.94，95% CI 0.85-1.03，P=0.19，交互P<0.001），但定性监测时风险仍存在（n=49,045，校正OR=1.10，95% CI 1.02-1.18，P=0.017，交互P<0.001）。",
+      "methods": "医疗保健对温室气体排放有显著贡献，麻醉被认为是高影响领域。比较麻醉技术碳足迹的证据仍然有限，尤其是在欧洲。该研究量化了宫腔镜手术中低流量七氟烷吸入麻醉、全凭静脉麻醉（TIVA）和椎管内麻醉的二氧化碳当量（CO2e）排放。",
+      "results": "共纳入123名参与者：72名接受吸入麻醉，22名接受TIVA，29名接受椎管内麻醉。三种技术的总碳排放量差异显著：吸入麻醉中位排放10.8 kgCO2e [9.1-12.6]，TIVA为6.6 kgCO2e [6.4-6.9]，椎管内麻醉为5.5 kgCO2e [5.3-6.2]（P<0.001）。吸入麻醉的主要贡献者是挥发性麻醉药，TIVA是药物，椎管内麻醉是一次性设备。各组间电力消耗相似。",
+      "mainResults": "共纳入123名参与者：72名接受吸入麻醉，22名接受TIVA，29名接受椎管内麻醉。三种技术的总碳排放量差异显著：吸入麻醉中位排放10.8 kgCO2e [9.1-12.6]，TIVA为6.6 kgCO2e [6.4-6.9]，椎管内麻醉为5.5 kgCO2e [5.3-6.2]（P<0.001）。吸入麻醉的主要贡献者是挥发性麻醉药，TIVA是药物，椎管内麻醉是一次性设备。各组间电力消耗相似。",
       "limitations": [
         "当前可获取内容未提供该研究的局限性信息。",
-        "作为回顾性研究，可能存在残余混杂和选择偏倚。",
-        "研究基于单中心数据，外推需谨慎。"
+        "作为观察性研究，可能存在选择偏倚，但当前材料未提供具体细节。",
+        "研究仅针对宫腔镜手术，结果可能不适用于其他手术类型。"
       ],
       "practice": [
-        "舒更葡糖钠的引入可能促使麻醉医师增加肌松药用量，但需警惕术后呼吸并发症风险。",
-        "定量神经肌肉监测（如TOF比值）可能有助于消除肌松药剂量增加带来的风险，建议在临床中加强应用。",
-        "对于未使用定量监测的患者，即使使用舒更葡糖钠，仍需谨慎控制肌松药剂量。"
+        "在可行的情况下，选择椎管内麻醉可能减少碳排放，但需结合患者因素和手术需求。",
+        "对于需要全身麻醉的患者，TIVA可能比吸入麻醉（即使低流量）具有更低的碳足迹。",
+        "麻醉医生在技术选择时可将碳足迹作为考虑因素之一，但需平衡临床适宜性和患者安全。"
       ],
-      "editor": "研究结果支持舒更葡糖钠引入后罗库溴铵剂量增加，且剂量增加与术后呼吸并发症风险升高相关，但风险仅在未使用舒更葡糖钠或未进行定量监测的患者中显著。 过度解读风险：需注意该研究为观察性设计，不能确立因果关系；且交互作用分析可能为探索性，需谨慎解读亚组结果。",
-      "whyItMatters": "该研究提示，肌松拮抗剂的可及性可能改变临床用药行为，导致肌松药用量增加，但若未配合定量神经肌肉监测，术后呼吸并发症风险仍可能升高，对围术期用药安全具有重要警示意义。",
-      "background": "神经肌肉阻滞剂呈剂量依赖性地加重残余肌松和术后呼吸并发症。舒更葡糖钠的引入使得深度肌松也能被逆转，可能促使临床更宽松地使用神经肌肉阻滞剂。本研究旨在探讨舒更葡糖钠引入后术中罗库溴铵剂量是否增加，以及这是否影响术后呼吸并发症。",
+      "editor": "研究为前瞻性设计，直接比较了三种麻醉技术的碳足迹，提供了具体的中位排放量和P值，支持椎管内麻醉碳足迹最低的结论。 过度解读风险：观察性设计不能确立因果关系；结果基于单一中心、单一手术类型，外推需谨慎；未报告混杂因素调整和效应量，需注意统计学差异与临床意义的区分。",
+      "whyItMatters": "医疗行业对温室气体排放有显著贡献，麻醉是高影响领域。该研究提供了欧洲背景下不同麻醉技术碳足迹的直接比较，提示麻醉选择可能成为减少碳排放的潜在干预点。",
+      "background": "医疗保健对温室气体排放有显著贡献，麻醉被认为是高影响领域。比较麻醉技术碳足迹的证据仍然有限，尤其是在欧洲。该研究量化了宫腔镜手术中低流量七氟烷吸入麻醉、全凭静脉麻醉（TIVA）和椎管内麻醉的二氧化碳当量（CO2e）排放。",
       "pico": {
-        "population": "Adult patient cases who underwent general anesthesia and received exclusively rocuronium at an academic medical center between 2010 and 2024",
-        "intervention": "Introduction of sugammadex in September 2016",
-        "comparison": "Before vs. after sugammadex introduction",
-        "outcome": "Cumulative intraoperative rocuronium doses (mg/kg) and postoperative respiratory complications"
+        "population": "consecutive patients undergoing operative hysteroscopy in a French university hospital",
+        "intervention": "inhalation anaesthesia with low-flow sevoflurane, TIVA, and spinal anaesthesia",
+        "comparison": "inhalation anaesthesia vs TIVA vs spinal anaesthesia",
+        "outcome": "total carbon emissions (kgCO2e)"
       },
-      "studyType": "回顾性队列研究，采用中断时间序列分析，并调整患者及手术特征。",
-      "sampleSize": "163,402",
-      "primaryOutcome": "Cumulative intraoperative rocuronium doses (mg/kg) and postoperative respiratory complications",
+      "studyType": "前瞻性观察性研究，采用温室气体聚焦的生命周期评估方法。",
+      "sampleSize": "123 participants",
+      "primaryOutcome": "total carbon emissions (kgCO2e)",
       "effectSize": [
-        "0.05 mg/kg per year",
-        "1.99 per 1 mg/kg",
-        "1.08 per 1 mg/kg",
-        "10.94 per 1 mg/kg",
-        "1.10 per 1 mg/kg"
+        "当前可获取内容未提供该数据。"
       ],
       "confidenceInterval": [
-        "95% CI, 0.03 to 0.07 mg/kg",
-        "95% CI, 1.82 to 2.18",
-        "95% CI, 1.01 to 1.16",
-        "95% CI, 0.85 to 1.03",
-        "95% CI, 1.02 to 1.18"
+        "[9.1-12.6]",
+        "[6.4-6.9]",
+        "[5.3-6.2]"
       ],
       "pValue": [
-        "P < 0.001",
-        "P < 0.001",
-        "P = 0.023",
-        "P = 0.19",
-        "P = 0.017"
+        "<0.001"
       ],
-      "adverseEvents": "Postoperative respiratory complications (postextubation desaturation less than 90%, 7-day reintubation or emergency noninvasive ventilation) occurred in 8.4% of cases.",
+      "adverseEvents": null,
       "aiAssessment": {
-        "support": "研究结果支持舒更葡糖钠引入后罗库溴铵剂量增加，且剂量增加与术后呼吸并发症风险升高相关，但风险仅在未使用舒更葡糖钠或未进行定量监测的患者中显著。",
-        "overinterpretationRisk": "需注意该研究为观察性设计，不能确立因果关系；且交互作用分析可能为探索性，需谨慎解读亚组结果。"
+        "support": "研究为前瞻性设计，直接比较了三种麻醉技术的碳足迹，提供了具体的中位排放量和P值，支持椎管内麻醉碳足迹最低的结论。",
+        "overinterpretationRisk": "观察性设计不能确立因果关系；结果基于单一中心、单一手术类型，外推需谨慎；未报告混杂因素调整和效应量，需注意统计学差异与临床意义的区分。"
       },
       "deepDive": {
         "sourceCoverage": {
           "level": "abstract",
           "limitations": [
-            "仅基于摘要，无法获取完整方法学细节、基线特征、混杂调整变量列表、敏感性分析等。",
-            "无法评估研究质量（如数据完整性、失访、偏倚控制）。"
+            "仅基于摘要，未获取全文细节，如方法学细节、局限性、统计方法等。",
+            "无法评估研究设计的具体实施、偏倚风险、样本量计算等。",
+            "未报告效应量、置信区间（除中位数范围外）、混杂因素调整等。"
           ]
         },
         "methodology": {
-          "researchQuestion": "舒更葡糖钠引入后，术中罗库溴铵剂量是否增加，以及剂量增加是否与术后呼吸并发症风险相关？",
-          "designFit": "回顾性队列设计适合评估药物引入后的实践变化及其结局关联，但因果推断受限。",
-          "eligibility": "2010-2024年间在某学术医疗中心接受全身麻醉且仅使用罗库溴铵的成人患者病例。",
-          "randomization": "不适用（观察性研究）。",
-          "allocationConcealment": "不适用（观察性研究）。",
-          "blinding": "不适用（观察性研究）。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "术后7天内呼吸并发症。",
-          "analysisPopulation": "163,402例患者病例，其中108,317例纳入并发症分析。",
-          "missingData": "当前可获取内容未提供该数据。",
+          "researchQuestion": "比较吸入麻醉、TIVA和椎管内麻醉在宫腔镜手术中的碳足迹（CO2e排放）。",
+          "designFit": "观察性研究设计适合描述性比较，但无法控制混杂因素，因果推断受限。",
+          "eligibility": "连续接受宫腔镜手术的患者，具体纳入排除标准未在摘要中报告。",
+          "randomization": "未提及随机化，观察性研究。",
+          "allocationConcealment": "不适用，非随机分配。",
+          "blinding": "未提及盲法，观察性研究通常不适用。",
+          "sampleSizePlanning": "未报告样本量计算，当前可获取内容未提供该数据。",
+          "followUp": "未报告随访，该研究为单次手术的碳足迹评估，可能无需随访。",
+          "analysisPopulation": "123名参与者，按麻醉技术分组，具体分析人群定义未详细说明。",
+          "missingData": "未报告缺失数据情况，当前可获取内容未提供该数据。",
           "strengths": [
-            "大样本（163,402例）。",
-            "使用中断时间序列分析，可评估时间趋势变化。",
-            "调整了患者和手术特征。"
+            "前瞻性设计，直接测量碳排放相关数据。",
+            "使用生命周期评估方法，考虑多种因素（气体、药物、设备、电力）。",
+            "提供了具体的中位排放量和P值。"
           ],
           "concerns": [
-            "回顾性设计，可能存在未测量的混杂因素。",
-            "仅基于摘要，无法评估数据完整性。"
+            "观察性设计可能存在选择偏倚。",
+            "未报告混杂因素调整。",
+            "样本量在各组间不均衡（72 vs 22 vs 29）。",
+            "未报告效应量和置信区间（除中位数范围外）。"
           ]
         },
         "statistics": {
           "methods": [
             {
-              "referenceId": "interaction",
-              "name": "交互作用分析",
-              "purposeInStudy": "评估舒更葡糖钠使用和神经肌肉监测类型对罗库溴铵剂量与术后呼吸并发症关联的修饰作用。",
-              "reportedResult": "交互作用P值均<0.001，表明不同亚组间关联强度存在显著差异。",
-              "interpretation": "舒更葡糖钠和定量监测均减弱了罗库溴铵剂量与并发症的关联，但定量监测下关联消失。",
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "未识别到具体统计方法，无法评价。",
+              "reportedResult": "P<0.001（组间比较）",
+              "interpretation": "组间差异具有统计学意义，但具体检验方法未知。",
               "cautions": [
-                "交互作用分析可能为探索性，需预先设定假设。",
-                "亚组样本量差异可能影响检验效能。"
+                "未报告统计检验方法，无法评估其适用性。",
+                "未报告效应量，无法评估差异的临床意义。"
               ],
-              "standardExplanation": "检验一个因素的效应是否随另一因素而变化；应区分预设交互与探索性亚组发现。"
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
           ],
-          "adjustedVariables": "当前可获取内容未提供具体调整变量列表。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "按是否使用舒更葡糖钠、是否使用定量或定性神经肌肉监测进行亚组分析，交互作用P值均<0.001。",
-          "clinicalVsStatisticalSignificance": "虽然定量监测组OR=10.94无统计学意义（P=0.19），但临床意义需结合效应量大小和置信区间解释。"
+          "adjustedVariables": "未报告，当前可获取内容未提供该数据。",
+          "multiplicity": "未报告，当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "未报告，当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "虽然P<0.001表明统计学差异，但未报告效应量，无法判断临床意义。中位排放量差异（10.8 vs 6.6 vs 5.5 kgCO2e）可能具有环境意义，但临床获益需进一步评估。"
         },
         "outcomeAnalysis": {
-          "primary": "术中罗库溴铵累积剂量（mg/kg）和术后呼吸并发症（复合结局）。",
+          "primary": "总碳排放量（kgCO2e）",
           "secondary": [
-            "拔管后血氧饱和度<90%",
-            "7天内再插管或紧急无创通气"
+            "当前可获取内容未提供该数据。"
           ],
-          "safety": "术后呼吸并发症发生率为8.4%。",
-          "absoluteVsRelative": "摘要未报告绝对风险差，仅报告了相对效应量（OR）。",
-          "subgroupAndInteraction": "亚组分析显示，未使用舒更葡糖钠且未监测的患者风险最高（OR=1.99），使用舒更葡糖钠时风险减弱（OR=1.08），定量监测时风险消失（OR=10.94，但无统计学意义），定性监测时风险仍存在（OR=1.10）。交互作用P值均<0.001。",
-          "sensitivity": "当前可获取内容未提供该数据。"
+          "safety": "未报告不良事件，当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "报告了绝对中位排放量，但未报告相对差异或效应量。",
+          "subgroupAndInteraction": "未报告亚组分析，当前可获取内容未提供该数据。",
+          "sensitivity": "未报告敏感性分析，当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "大样本、长时间跨度（2010-2024）。",
-            "使用中断时间序列分析，可评估政策或实践变化的影响。",
-            "调整了患者和手术特征。"
+            "前瞻性设计，直接测量碳排放相关数据。",
+            "使用生命周期评估方法，考虑多种因素（气体、药物、设备、电力）。",
+            "提供了具体的中位排放量和P值。"
           ],
           "limitations": [
-            "回顾性设计，可能存在残余混杂。",
-            "仅基于摘要，无法评估方法学细节。",
-            "单中心研究，外推受限。"
+            "观察性设计可能存在选择偏倚。",
+            "未报告混杂因素调整。",
+            "样本量在各组间不均衡（72 vs 22 vs 29）。",
+            "未报告效应量和置信区间（除中位数范围外）。",
+            "仅基于摘要，无法评估方法学细节。"
           ],
           "biasRisks": [
-            "选择偏倚：纳入仅使用罗库溴铵的病例，可能不代表所有肌松药使用情况。",
-            "信息偏倚：依赖电子病历记录，可能存在剂量记录不准确。",
-            "混杂偏倚：未测量因素如手术类型、患者合并症等可能影响结果。"
+            "选择偏倚：麻醉技术选择可能受患者特征影响。",
+            "测量偏倚：碳排放计算依赖平台，可能存在误差。",
+            "报告偏倚：未报告所有结果。"
           ],
-          "certainty": "中等（观察性研究，但样本量大且设计合理）。",
-          "conclusionAlignment": "结论与结果一致，但需注意因果推断的局限性。",
+          "certainty": "由于仅基于摘要，且未报告统计方法细节，证据确定性中等偏低。",
+          "conclusionAlignment": "结论与结果一致，但需注意观察性研究的局限性。",
           "causalBoundary": "观察性研究不能确立因果关系，只能提示关联。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "适用于使用罗库溴铵和舒更葡糖钠的全身麻醉患者。",
-            "提示定量神经肌肉监测的重要性。"
+            "适用于宫腔镜手术等低复杂度手术。",
+            "适用于法国大学医院环境，可能类似医疗系统。"
           ],
           "nonApplicability": [
-            "不适用于其他肌松药或拮抗剂。",
-            "不适用于儿童或特殊人群。"
+            "不适用于其他手术类型或紧急情况。",
+            "不适用于需要全身麻醉但TIVA禁忌的患者。"
           ],
-          "practiceChange": "可能促使临床更重视定量神经肌肉监测，并谨慎调整肌松药剂量。",
+          "practiceChange": "可能提示在可行时优先考虑椎管内麻醉或TIVA，但需结合临床判断。",
           "canDoNow": [
-            "加强定量神经肌肉监测的应用。",
-            "在舒更葡糖钠可及的情况下，仍应控制肌松药剂量。"
+            "在临床决策中考虑碳足迹因素，但需以患者安全和手术需求为前提。",
+            "对于适合椎管内麻醉的患者，可优先选择。"
           ],
           "cannotConclude": [
-            "不能确定舒更葡糖钠引入直接导致剂量增加（因果）。",
-            "不能确定定量监测完全消除风险（因OR无统计学意义）。"
+            "不能得出椎管内麻醉优于其他麻醉的临床结局结论。",
+            "不能推断因果关系。",
+            "不能推广到其他手术或患者群体。"
           ],
           "evidenceGaps": [
-            "需要前瞻性研究验证。",
-            "需要更多关于定量监测具体阈值和方案的研究。",
-            "需要评估不同手术类型和患者群体的适用性。"
+            "需要随机对照试验比较不同麻醉技术的碳足迹和临床结局。",
+            "需要多中心研究验证结果。",
+            "需要评估长期环境影响和成本效益。"
           ],
           "directClinicalRecommendation": false
         }
@@ -1356,67 +1031,388 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41343719/",
-        "doi": "https://doi.org/10.1097/aln.0000000000005880",
-        "publisher": "https://doi.org/10.1097/aln.0000000000005880",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42613204/",
+        "doi": "https://doi.org/10.1016/j.bja.2026.06.051",
+        "publisher": "https://doi.org/10.1016/j.bja.2026.06.051",
         "openFullText": null
       }
     },
     {
       "analysisVersion": 2,
-      "slug": "pmid-41417580",
+      "slug": "pmid-42611517",
+      "number": "04",
+      "category": "麻醉学",
+      "journal": "JAMA network open",
+      "year": "2026",
+      "publishedDate": "2026-08-03",
+      "electronicPublicationDate": "2026-08-03",
+      "readingTime": "15 分钟",
+      "title": "经颅电刺激与术后患者谵妄：一项随机临床试验",
+      "originalTitle": "Transcranial Electrical Stimulation and Delirium Among Postoperative Patients: A Randomized Clinical Trial.",
+      "abstract": "IMPORTANCE: Postoperative delirium (POD) occurs as a significant complication after elective surgery. OBJECTIVE: To investigate the modulation of delirium incidence by transcranial electric stimulation (tES). DESIGN, SETTING, AND PARTICIPANTS: A double-blind, sham-controlled randomized clinical trial (Modulating Delirium Through Stimulation [MODEST]) was conducted at University Medicine Greifswald, Germany, from February 8, 2024, to January 15, 2025. Patients were aged 65 years or older who were scheduled to undergo elective surgery. Exclusion criteria were any history of neurological or psychiatric disease, or intake of central nervous system-active medication. Data were analyzed from June 10, 2025, to June 5, 2026. INTERVENTION: alpha-Transcranial alternating current stimulation (tACS) of the salience network, transcranial direct current stimulation (tDCS) of the frontoparietal network (dosing: 20 minutes, 2 mA), or sham, in the postanesthesia care unit (PACU) after major elective surgery. MAIN OUTCOMES AND MEASURES: The primary outcome was POD incidence in the ward during 1 of up to 5 postoperative days for the comparison of tACS vs the sham group. The secondary outcomes included POD in the ward for the comparison of tDCS vs sham group, POD in PACU, POD severity and motor type, and postoperative pain. Prespecified subgroup analyses opted to test the dependence of POD incidence on age, sex, duration, and type of surgery, baseline cognitive function, and preoperative pain levels. RESULTS: A total of 225 patients (mean [SD] age, 73.0 [6.0] years; 59.6% [134] male) were randomly assigned to tACS (n = 68), tDCS (n = 83), or sham stimulation (n = 74). No substantial between group differences were observed for POD incidence in ward (tACS, 11.5% [6 of 52]; tDCS, 14.3% [9 of 63]; sham, 9.2% [6 of 65]; tACS vs sham: odds ratio [OR], 1.60 [95% CI, 0.47-5.46]; P = .45; tDCS vs sham: OR, 1.51 [95% CI, 0.49-4.68]; P = .47) or in PACU (tACS, 14.6% [7 of 48]; tDCS, 21.4% [12 of 56]; sham, 21.7% [13 of 60]; tACS vs sham: OR, 0.95 [95% CI, 0.38-2.36]; P = .91; tDCS vs sham: OR, 0.91 [95% CI, 0.36-2.30]; P = .83). Further secondary analyses of POD severity and motor type, and modulation of pain levels, did not show any substantial difference between stimulation groups. Prespecified subgroup analyses revealed different modulation of POD incidence in PACU depending on duration of surgery (OR, 0.15 [95% CI, 0.02-0.97]; P = .046), indicating that tACS may reduce POD incidence for patients with longer surgery (absolute risk difference for POD in the tACS compared with the sham group, for a surgical duration of 3 to 5 hours of -26.6% to -46.5%). Ratings of adverse events did not differ between groups (incidence rate ratio, 2.3 [95% CI, 0.8-6.5]), and no serious adverse events were reported. CONCLUSIONS AND RELEVANCE: In this randomized clinical trial of tES for POD, there was no evidence for a uniform effect of postoperative tES on the incidence of POD, but it suggested a benefit of parietal alpha oscillatory enhancement for patients with longer surgery. Future research has to test the specific effect on vulnerable groups, examine the optimal timing for tES application to modulate POD, and investigate the value of personalizing tES parameters. TRIAL REGISTRATION: German Clinical Trials Register: DRKS00033703.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "IMPORTANCE",
+            "text": "术后谵妄（POD）是择期手术后的重要并发症。"
+          },
+          {
+            "heading": "OBJECTIVE",
+            "text": "探讨经颅电刺激（tES）对谵妄发生率的调节作用。"
+          },
+          {
+            "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+            "text": "一项双盲、假刺激对照的随机临床试验（通过刺激调节谵妄[MODEST]）于2024年2月8日至2025年1月15日在德国格赖夫斯瓦尔德大学医学中心进行。患者年龄65岁及以上，计划接受择期手术。排除标准为有任何神经或精神疾病病史，或服用中枢神经系统活性药物。数据分析时间为2025年6月10日至2026年6月5日。"
+          },
+          {
+            "heading": "INTERVENTION",
+            "text": "在大型择期手术后的麻醉后监护室（PACU）中，对显著性网络进行α经颅交流电刺激（tACS），对额顶网络进行经颅直流电刺激（tDCS）（剂量：20分钟，2 mA），或进行假刺激。"
+          },
+          {
+            "heading": "MAIN OUTCOMES AND MEASURES",
+            "text": "主要结局是术后最多5天中1天病房内POD的发生率，用于比较tACS与假刺激组。次要结局包括tDCS与假刺激组比较的病房内POD、PACU内POD、POD严重程度和运动类型，以及术后疼痛。预设亚组分析旨在检验POD发生率对年龄、性别、手术持续时间和类型、基线认知功能和术前疼痛水平的依赖性。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "共有225名患者（平均[SD]年龄，73.0 [6.0]岁；59.6% [134]为男性）被随机分配到tACS组（n = 68）、tDCS组（n = 83）或假刺激组（n = 74）。病房内POD发生率未观察到组间实质性差异（tACS，11.5% [6/52]；tDCS，14.3% [9/63]；假刺激，9.2% [6/65]；tACS vs 假刺激：比值比[OR]，1.60 [95% CI，0.47-5.46]；P = .45；tDCS vs 假刺激：OR，1.51 [95% CI，0.49-4.68]；P = .47）或PACU内（tACS，14.6% [7/48]；tDCS，21.4% [12/56]；假刺激，21.7% [13/60]；tACS vs 假刺激：OR，0.95 [95% CI，0.38-2.36]；P = .91；tDCS vs 假刺激：OR，0.91 [95% CI，0.36-2.30]；P = .83）。对POD严重程度和运动类型以及疼痛水平调节的进一步次要分析未显示刺激组之间存在任何实质性差异。预设亚组分析显示，PACU内POD发生率的调节因手术持续时间而异（OR，0.15 [95% CI，0.02-0.97]；P = .046），表明tACS可能降低手术时间较长患者的POD发生率（与假刺激组相比，tACS组POD的绝对风险差异，对于3至5小时的手术持续时间为-26.6%至-46.5%）。不良事件评级在组间无差异（发生率比，2.3 [95% CI，0.8-6.5]），且未报告严重不良事件。"
+          },
+          {
+            "heading": "CONCLUSIONS AND RELEVANCE",
+            "text": "在这项关于tES治疗POD的随机临床试验中，没有证据表明术后tES对POD发生率有一致性效应，但提示对手术时间较长的患者，顶叶α振荡增强可能有益。未来研究需要测试对易感人群的特异性效应，检查tES应用调节POD的最佳时机，并探讨个性化tES参数的价值。"
+          },
+          {
+            "heading": "TRIAL REGISTRATION",
+            "text": "德国临床试验注册号：DRKS00033703。"
+          }
+        ],
+        "fullText": "重要性：术后谵妄（POD）是择期手术后的重要并发症。目的：探讨经颅电刺激（tES）对谵妄发生率的调节作用。设计、设置和参与者：一项双盲、假刺激对照的随机临床试验（通过刺激调节谵妄[MODEST]）于2024年2月8日至2025年1月15日在德国格赖夫斯瓦尔德大学医学中心进行。患者年龄65岁及以上，计划接受择期手术。排除标准为有任何神经或精神疾病病史，或服用中枢神经系统活性药物。数据分析时间为2025年6月10日至2026年6月5日。干预：在大型择期手术后的麻醉后监护室（PACU）中，对显著性网络进行α经颅交流电刺激（tACS），对额顶网络进行经颅直流电刺激（tDCS）（剂量：20分钟，2 mA），或进行假刺激。主要结局和措施：主要结局是术后最多5天中1天病房内POD的发生率，用于比较tACS与假刺激组。次要结局包括tDCS与假刺激组比较的病房内POD、PACU内POD、POD严重程度和运动类型，以及术后疼痛。预设亚组分析旨在检验POD发生率对年龄、性别、手术持续时间和类型、基线认知功能和术前疼痛水平的依赖性。结果：共有225名患者（平均[SD]年龄，73.0 [6.0]岁；59.6% [134]为男性）被随机分配到tACS组（n = 68）、tDCS组（n = 83）或假刺激组（n = 74）。病房内POD发生率未观察到组间实质性差异（tACS，11.5% [6/52]；tDCS，14.3% [9/63]；假刺激，9.2% [6/65]；tACS vs 假刺激：比值比[OR]，1.60 [95% CI，0.47-5.46]；P = .45；tDCS vs 假刺激：OR，1.51 [95% CI，0.49-4.68]；P = .47）或PACU内（tACS，14.6% [7/48]；tDCS，21.4% [12/56]；假刺激，21.7% [13/60]；tACS vs 假刺激：OR，0.95 [95% CI，0.38-2.36]；P = .91；tDCS vs 假刺激：OR，0.91 [95% CI，0.36-2.30]；P = .83）。对POD严重程度和运动类型以及疼痛水平调节的进一步次要分析未显示刺激组之间存在任何实质性差异。预设亚组分析显示，PACU内POD发生率的调节因手术持续时间而异（OR，0.15 [95% CI，0.02-0.97]；P = .046），表明tACS可能降低手术时间较长患者的POD发生率（与假刺激组相比，tACS组POD的绝对风险差异，对于3至5小时的手术持续时间为-26.6%至-46.5%）。不良事件评级在组间无差异（发生率比，2.3 [95% CI，0.8-6.5]），且未报告严重不良事件。结论和相关性：在这项关于tES治疗POD的随机临床试验中，没有证据表明术后tES对POD发生率有一致性效应，但提示对手术时间较长的患者，顶叶α振荡增强可能有益。未来研究需要测试对易感人群的特异性效应，检查tES应用调节POD的最佳时机，并探讨个性化tES参数的价值。试验注册：德国临床试验注册号：DRKS00033703。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Antonenko D, Bublitz V, Leroy S, Grittner U, Kersting S, Schroeder HWS, Burchardt M, Zygmunt M, et al.",
+      "citation": "JAMA Netw Open. 2026 Aug 3;9(8):e2628284. doi: 10.1001/jamanetworkopen.2026.28284.",
+      "doi": "10.1001/jamanetworkopen.2026.28284",
+      "pmid": "42611517",
+      "pmcid": "PMC13487549",
+      "publicationTypes": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "meshTerms": [
+        "Humans",
+        "Male",
+        "Female",
+        "*Transcranial Direct Current Stimulation/methods",
+        "Aged",
+        "Double-Blind Method",
+        "*Delirium/prevention & control/epidemiology/therapy",
+        "*Postoperative Complications/therapy/epidemiology/prevention & control",
+        "*Elective Surgical Procedures/adverse effects",
+        "Incidence",
+        "Germany"
+      ],
+      "publisher": "American Medical Association (AMA)",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "human-study"
+      },
+      "journalTier": {
+        "id": "general_top",
+        "label": "综合医学顶刊",
+        "priorityRank": 3
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 9.7,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "JAMA Network Open"
+      },
+      "tags": [
+        "临床证据",
+        "综合医学顶刊",
+        "麻醉学",
+        "老年围术期",
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "question": "术后谵妄是老年手术患者常见的严重并发症，目前缺乏有效的预防手段。本研究探索了无创经颅电刺激（tES）作为潜在干预措施的效果，尽管主要结果为阴性，但为未来研究提供了重要线索，特别是针对特定亚组（如手术时间较长者）的个体化刺激方案可能值得进一步探索。",
+      "conclusion": "在225例老年择期手术患者中，术后经颅电刺激（tACS或tDCS）与假刺激相比，未显著降低病房或PACU中术后谵妄的发生率，但亚组分析提示tACS可能对手术时间较长（3-5小时）的患者有潜在获益。",
+      "clinical": "本研究未发现术后tES对POD发生率的整体效应，因此目前不建议将tES作为常规预防POD的手段。 亚组分析提示tACS可能对手术时间较长（3-5小时）的患者有潜在获益，但该结果需谨慎解读，尚需进一步验证。 未来研究应关注特定高危人群、优化刺激时机和参数，并探索个体化tES方案。",
+      "evidence": "中等偏高",
+      "score": 74,
+      "scoreBreakdown": {
+        "relevance": 18,
+        "evidenceQuality": 22,
+        "clinicalImpact": 15,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "双盲、假刺激对照的随机临床试验（MODEST试验），在德国格赖夫斯瓦尔德大学医学中心进行，时间从2024年2月8日至2025年1月15日。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Patients aged 65 years or older scheduled for elective surgery；225 patients (mean [SD] age, 73.0 [6.0] years; 59.6% [134] male)"
+        },
+        {
+          "label": "干预与比较",
+          "value": "alpha-Transcranial alternating current stimulation (tACS) of the salience network, transcranial direct current stimulation (tDCS) of the frontoparietal network (dosing: 20 minutes, 2 mA)；对照：sham stimulation"
+        },
+        {
+          "label": "主要终点",
+          "value": "POD incidence in the ward during 1 of up to 5 postoperative days for the comparison of tACS vs the sham group"
+        }
+      ],
+      "keyPoints": [
+        "tACS或tDCS与假刺激相比，未显著降低病房或PACU内POD发生率。",
+        "亚组分析提示tACS可能对手术时间较长（3-5小时）的患者有潜在获益，但需进一步验证。",
+        "不良事件组间无差异，未报告严重不良事件。",
+        "研究为单中心，POD发生率低于预期，样本量可能不足。"
+      ],
+      "methods": "术后谵妄（POD）是择期手术后常见的并发症，尤其在老年患者中，与不良预后相关。经颅电刺激（tES）作为一种无创神经调控技术，可能通过调节大脑网络活动来影响谵妄的发生。本研究旨在评估两种tES模式（α-tACS和tDCS）对POD发生率的影响。",
+      "results": "共225例患者（平均[SD]年龄73.0[6.0]岁，59.6%[134]为男性）被随机分配至tACS（n=68）、tDCS（n=83）或假刺激（n=74）。病房POD发生率：tACS组11.5%（6/52），tDCS组14.3%（9/63），假刺激组9.2%（6/65）；tACS vs 假刺激：OR 1.60（95% CI 0.47-5.46），P=0.45；tDCS vs 假刺激：OR 1.51（95% CI 0.49-4.68），P=0.47。PACU内POD发生率：tACS组14.6%（7/48），tDCS组21.4%（12/56），假刺激组21.7%（13/60）；tACS vs 假刺激：OR 0.95（95% CI 0.38-2.36），P=0.91；tDCS vs 假刺激：OR 0.91（95% CI 0.36-2.30），P=0.83。次要分析（POD严重程度、运动亚型、疼痛水平）未显示组间显著差异。预设亚组分析显示，根据手术时长，PACU内POD发生率存在不同调节作用（OR 0.15 [95% CI 0.02-0.97]，P=0.046），提示tACS可能降低手术时间较长（3-5小时）患者的POD发生率（绝对风险差异为-26.6%至-46.5%）。不良事件评级组间无差异（发生率比2.3 [95% CI 0.8-6.5]），未报告严重不良事件。",
+      "mainResults": "共225例患者（平均[SD]年龄73.0[6.0]岁，59.6%[134]为男性）被随机分配至tACS（n=68）、tDCS（n=83）或假刺激（n=74）。病房POD发生率：tACS组11.5%（6/52），tDCS组14.3%（9/63），假刺激组9.2%（6/65）；tACS vs 假刺激：OR 1.60（95% CI 0.47-5.46），P=0.45；tDCS vs 假刺激：OR 1.51（95% CI 0.49-4.68），P=0.47。PACU内POD发生率：tACS组14.6%（7/48），tDCS组21.4%（12/56），假刺激组21.7%（13/60）；tACS vs 假刺激：OR 0.95（95% CI 0.38-2.36），P=0.91；tDCS vs 假刺激：OR 0.91（95% CI 0.36-2.30），P=0.83。次要分析（POD严重程度、运动亚型、疼痛水平）未显示组间显著差异。预设亚组分析显示，根据手术时长，PACU内POD发生率存在不同调节作用（OR 0.15 [95% CI 0.02-0.97]，P=0.046），提示tACS可能降低手术时间较长（3-5小时）患者的POD发生率（绝对风险差异为-26.6%至-46.5%）。不良事件评级组间无差异（发生率比2.3 [95% CI 0.8-6.5]），未报告严重不良事件。",
+      "limitations": [
+        "单中心研究，结果可能无法完全反映不同医疗环境和患者群体的多样性。",
+        "研究涵盖多种手术类型，引入术后创伤严重程度和谵妄风险的显著异质性。",
+        "tES效果评估主要依赖临床和认知评分系统，可能缺乏检测细微神经调节变化的敏感性。",
+        "观察到的POD发生率远低于样本量计算时的预期，导致谵妄患者队列相对较小。"
+      ],
+      "practice": [
+        "本研究未发现术后tES对POD发生率的整体效应，因此目前不建议将tES作为常规预防POD的手段。",
+        "亚组分析提示tACS可能对手术时间较长（3-5小时）的患者有潜在获益，但该结果需谨慎解读，尚需进一步验证。",
+        "未来研究应关注特定高危人群、优化刺激时机和参数，并探索个体化tES方案。"
+      ],
+      "editor": "主要结果（病房POD）为阴性，但亚组分析显示tACS对手术时长3-5小时患者可能有益（OR 0.15，P=0.046），但该亚组分析未校正多重比较，且样本量小，证据强度有限。 过度解读风险：亚组分析结果可能为偶然发现，需谨慎解读，不应过度推广。",
+      "whyItMatters": "术后谵妄是老年手术患者常见的严重并发症，目前缺乏有效的预防手段。本研究探索了无创经颅电刺激（tES）作为潜在干预措施的效果，尽管主要结果为阴性，但为未来研究提供了重要线索，特别是针对特定亚组（如手术时间较长者）的个体化刺激方案可能值得进一步探索。",
+      "background": "术后谵妄（POD）是择期手术后常见的并发症，尤其在老年患者中，与不良预后相关。经颅电刺激（tES）作为一种无创神经调控技术，可能通过调节大脑网络活动来影响谵妄的发生。本研究旨在评估两种tES模式（α-tACS和tDCS）对POD发生率的影响。",
+      "pico": {
+        "population": "Patients aged 65 years or older scheduled for elective surgery",
+        "intervention": "alpha-Transcranial alternating current stimulation (tACS) of the salience network, transcranial direct current stimulation (tDCS) of the frontoparietal network (dosing: 20 minutes, 2 mA)",
+        "comparison": "sham stimulation",
+        "outcome": "POD incidence in the ward during 1 of up to 5 postoperative days for the comparison of tACS vs the sham group"
+      },
+      "studyType": "双盲、假刺激对照的随机临床试验（MODEST试验），在德国格赖夫斯瓦尔德大学医学中心进行，时间从2024年2月8日至2025年1月15日。",
+      "sampleSize": "225 patients (mean [SD] age, 73.0 [6.0] years; 59.6% [134] male)",
+      "primaryOutcome": "POD incidence in the ward during 1 of up to 5 postoperative days for the comparison of tACS vs the sham group",
+      "effectSize": [
+        "OR 1.60",
+        "OR 1.51",
+        "OR 0.95",
+        "OR 0.91",
+        "OR 0.15",
+        "incidence rate ratio 2.3"
+      ],
+      "confidenceInterval": [
+        "95% CI, 0.47-5.46",
+        "95% CI, 0.49-4.68",
+        "95% CI, 0.38-2.36",
+        "95% CI, 0.36-2.30",
+        "95% CI, 0.02-0.97",
+        "95% CI, 0.8-6.5"
+      ],
+      "pValue": [
+        "P = .45",
+        "P = .47",
+        "P = .91",
+        "P = .83",
+        "P = .046"
+      ],
+      "adverseEvents": "Ratings of adverse events did not differ between groups (incidence rate ratio, 2.3 [95% CI, 0.8-6.5]), and no serious adverse events were reported.",
+      "aiAssessment": {
+        "support": "主要结果（病房POD）为阴性，但亚组分析显示tACS对手术时长3-5小时患者可能有益（OR 0.15，P=0.046），但该亚组分析未校正多重比较，且样本量小，证据强度有限。",
+        "overinterpretationRisk": "亚组分析结果可能为偶然发现，需谨慎解读，不应过度推广。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text_excerpt",
+          "limitations": [
+            "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节（如随机化具体方法、分配隐藏、样本量计算细节等）。",
+            "未获取完整统计方法描述，无法全面评估统计分析的严谨性。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "经颅电刺激（tES）能否调节术后谵妄（POD）的发生率？",
+          "designFit": "随机对照试验设计适合评估干预效果，双盲和假刺激对照增强了证据等级。",
+          "eligibility": "纳入年龄≥65岁、计划择期手术的患者；排除有神经或精神疾病史或服用中枢神经系统活性药物者。",
+          "randomization": "当前可获取内容未提供该数据。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "双盲设计（患者和评估者盲），但未明确是否对干预实施者设盲。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "随访至术后5天（病房内POD评估）。",
+          "analysisPopulation": "当前可获取内容未提供该数据。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "随机、双盲、假刺激对照设计。",
+            "预设亚组分析。",
+            "不良事件报告。"
+          ],
+          "concerns": [
+            "单中心研究，外部有效性受限。",
+            "手术类型异质性大。",
+            "POD发生率低于预期，可能导致检验效能不足。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "当前可获取内容未提供具体统计方法描述，无法评价。",
+              "reportedResult": "主要结局使用比值比（OR）和95%置信区间，P值。",
+              "interpretation": "OR值显示组间差异无统计学意义。",
+              "cautions": [
+                "未提供统计检验方法（如卡方检验、Fisher精确检验等）。",
+                "亚组分析未提及多重比较校正。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提及多重比较校正。",
+          "subgroupAnalysis": "预设亚组分析显示，根据手术时长，PACU内POD发生率存在不同调节作用（OR 0.15 [95% CI 0.02-0.97]，P=0.046），提示tACS可能对手术时间较长（3-5小时）患者有益。",
+          "clinicalVsStatisticalSignificance": "主要结果无统计学差异，也无临床获益证据；亚组分析虽有统计学意义，但样本量小，临床意义需谨慎解读。"
+        },
+        "outcomeAnalysis": {
+          "primary": "病房内POD发生率（tACS vs 假刺激）：tACS 11.5% vs 假刺激 9.2%，OR 1.60（95% CI 0.47-5.46），P=0.45，无显著差异。",
+          "secondary": [
+            "tDCS vs 假刺激的病房POD：OR 1.51（95% CI 0.49-4.68），P=0.47。",
+            "PACU内POD：tACS vs 假刺激 OR 0.95（95% CI 0.38-2.36），P=0.91；tDCS vs 假刺激 OR 0.91（95% CI 0.36-2.30），P=0.83。",
+            "POD严重程度和运动亚型：未显示组间显著差异。",
+            "术后疼痛：未显示组间显著差异。"
+          ],
+          "safety": "不良事件评级组间无差异（发生率比2.3 [95% CI 0.8-6.5]），未报告严重不良事件。",
+          "absoluteVsRelative": "主要结果报告了相对效应（OR），未提供绝对风险差异；亚组分析中提供了绝对风险差异（-26.6%至-46.5%）。",
+          "subgroupAndInteraction": "预设亚组分析显示手术时长与tACS对PACU内POD发生率存在交互作用（OR 0.15，P=0.046），但未报告其他亚组（年龄、性别、手术类型、基线认知、术前疼痛）的详细结果。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "随机、双盲、假刺激对照设计。",
+            "预设亚组分析。",
+            "不良事件报告。"
+          ],
+          "limitations": [
+            "单中心研究，外部有效性受限。",
+            "手术类型异质性大。",
+            "POD发生率低于预期，可能导致检验效能不足。",
+            "亚组分析未校正多重比较，结果可能为偶然发现。"
+          ],
+          "biasRisks": [
+            "选择偏倚：单中心可能限制代表性。",
+            "测量偏倚：POD评估依赖临床评分，可能不够敏感。",
+            "偶然性：亚组分析样本量小，结果不稳定。"
+          ],
+          "certainty": "主要结果证据等级中等（因随机对照设计但存在局限性），亚组分析证据等级低。",
+          "conclusionAlignment": "结论与结果一致：未发现tES对POD的均匀效应，但提示对特定亚组可能有益。",
+          "causalBoundary": "由于是随机对照试验，主要结果可推断因果关系；但亚组分析为探索性，不能作为因果证据。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "老年择期手术患者。",
+            "在PACU中接受tES干预。"
+          ],
+          "nonApplicability": [
+            "不适用于有神经或精神疾病史或服用中枢神经系统活性药物的患者。",
+            "不适用于急诊手术或高危患者。"
+          ],
+          "practiceChange": "当前证据不支持改变临床实践，不建议常规使用tES预防POD。",
+          "canDoNow": [
+            "继续使用现有POD预防措施。",
+            "关注高危患者（如手术时间长）的POD监测。"
+          ],
+          "cannotConclude": [
+            "不能得出tES对POD有明确预防效果的结论。",
+            "不能推荐tACS或tDCS作为POD预防手段。"
+          ],
+          "evidenceGaps": [
+            "需要多中心、更大样本量的研究。",
+            "需要明确最佳刺激参数、时机和人群。",
+            "需要评估个体化tES方案。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42611517/",
+        "doi": "https://doi.org/10.1001/jamanetworkopen.2026.28284",
+        "publisher": "https://doi.org/10.1001/jamanetworkopen.2026.28284",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13487549/"
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-42224072",
       "number": "05",
       "category": "麻醉基础研究",
       "journal": "Anesthesiology",
       "year": "2026",
-      "publishedDate": "2026-04-01",
-      "electronicPublicationDate": "2025-12-19",
-      "readingTime": "13 分钟",
-      "title": "异氟醚抑制线粒体复合物I对小鼠神经元培养物中钙清除的影响",
-      "originalTitle": "Effects of Isoflurane Inhibition of Mitochondrial Complex I on Calcium Removal in Mouse Neuronal Cultures.",
-      "abstract": "BACKGROUND: One mechanism proposed for anesthetic-induced neurotoxicity (AIN) is elevated neuronal calcium, leading to mitochondrial damage and caspase activation. Increased cytosolic calcium could arise from increased entry or decreased removal. The relative importance of these distinct mechanisms is unknown. Isoflurane inhibits mitochondrial complex I and reduces adenosine triphosphate (ATP) at presynaptic terminals leading to synaptic quiescence. The authors hypothesized that mitochondrial inhibition initiates calcium dysregulation in mouse wild-type and mitochondrial mutant neurons, leading to AIN. METHODS: Presynaptic calcium levels were monitored using VGlut1-GCaMP5 or an endoplasmic reticulum-specific GCaMP6 during electrical stimulations of neuronal cultures. Cultures were stimulated in the presence of isoflurane and blockers or activators of calcium removal. Mitochondrial damage was monitored using MitoView (Biotium, USA). Cleaved caspase induction assessed AIN. RESULTS: In the absence of isoflurane, neuronal stimulation transiently increased presynaptic calcium levels. Isoflurane increased the half-life for calcium decay in wild-type cultures (time [s], unexposed, 14 [10]; exposed, 160 [77]; P = 0.001). Maintaining ATP levels rescued the isoflurane-induced defective removal of calcium (time [s], 30 mM glucose, 16 [14]; n = 8; P = 0.001). Activation of sarcoplasmic endoplasmic reticulum calcium adenosine triphosphatase (SERCA) alleviated the isoflurane-induced defective removal of calcium (time [s], no SERCA activator, 159 [78]; SERCA activator, 36 [18]; P = 0.002). Similar results were seen for mutant cultures exposed to lower, but equipotent, concentrations of isoflurane. Isoflurane induced a SERCA-dependent decrease in uptake of MitoView and an increase in cleaved caspase in wild-type cultures. CONCLUSIONS: Isoflurane causes a failure of SERCA-dependent calcium removal by inhibition of mitochondrial production of ATP. The increase in intracellular calcium leads to early signs of cellular toxicity.",
+      "publishedDate": "2026-06-01",
+      "electronicPublicationDate": "2026-06-01",
+      "readingTime": "11 分钟",
+      "title": "丙泊酚对前包钦格复合体GABA能神经传递的剂量依赖性效应及其对呼吸节律的影响",
+      "originalTitle": "Dose-dependent Effects of Propofol on GABAergic Neurotransmission in the Pre-Botzinger Complex and Its Consequences on Respiratory Rhythm.",
+      "abstract": "BACKGROUND: Propofol acts primarily through gamma-aminobutyric acid type A receptor-dependent central inhibition, while local inhibitory microcircuits in the pre-Botzinger complex (pre-BotC) exert bidirectional control over respiratory rhythm. Although propofol is widely recognized as a simple respiratory depressant, it remains unclear whether propofol mimics endogenous inhibitory signaling to disrupt pre-BotC circuit function in a complex, dose-related manner. This study aimed to test the hypothesis that propofol modulates pre-BotC activity via dose-dependent reshaping of local inhibitory microcircuits rather than producing only monotonic respiratory suppression. METHODS: Using a mouse model, the authors combined whole-body plethysmography, optogenetic manipulation of pre-BotC gamma-aminobutyric acid-mediated (GABAergic) neurons, conditional VGAT knockout, and patch clamp electrophysiology in acute medullary slices to examine how propofol modulates respiratory rhythm and inhibitory microcircuit activity. RESULTS: Propofol induced dose-dependent, bidirectional respiratory effects ranging from mild excitation to marked suppression with increasing anesthetic depth. These changes correlated with concordant, dose-dependent excitatory and inhibitory effects of the drug on glutamatergic neurons in the pre-BotC. Light intensity-dependent, sustained optogenetic activation of GABAergic neurons in the pre-BotC recapitulates the dose-dependent, bidirectional effects of propofol on respiratory activity, while concurrent propofol administration and GABAergic pre-BotC activation act synergistically to induce respiratory arrest. Selective ablation of GABAergic neurons in the pre-BotC increased respiratory rate in awake animals, facilitated respiratory recovery after a single propofol bolus but increased the incidence of apnea during continuous propofol infusion. CONCLUSIONS: These results suggest a dose-dependent bidirectional effect of propofol on respiratory drive via the modulation of GABAergic neurons in the pre-Botzinger complex.",
       "abstractTranslation": {
         "sections": [
           {
             "heading": "BACKGROUND",
-            "text": "麻醉诱导的神经毒性（AIN）的一个可能机制是神经元钙升高，导致线粒体损伤和caspase激活。胞浆钙升高可能源于钙内流增加或清除减少。这些不同机制的相对重要性尚不清楚。异氟醚抑制线粒体复合物I，并减少突触前末梢的三磷酸腺苷（ATP），导致突触静止。作者假设线粒体抑制在小鼠野生型和线粒体突变神经元中引发钙失调，导致AIN。"
+            "text": "丙泊酚主要通过γ-氨基丁酸A型受体依赖性中枢抑制发挥作用，而前包钦格复合体（pre-BotC）中的局部抑制性微环路对呼吸节律进行双向调控。尽管丙泊酚被广泛认为是一种单纯的呼吸抑制剂，但丙泊酚是否模拟内源性抑制信号以复杂、剂量相关的方式破坏pre-BotC回路功能仍不清楚。本研究旨在检验以下假设：丙泊酚通过剂量依赖性重塑局部抑制性微环路来调节pre-BotC活性，而非仅产生单调的呼吸抑制。"
           },
           {
             "heading": "METHODS",
-            "text": "在电刺激神经元培养物时，使用VGlut1-GCaMP5或内质网特异性GCaMP6监测突触前钙水平。在异氟醚和钙清除阻滞剂或激活剂存在下刺激培养物。使用MitoView（Biotium，美国）监测线粒体损伤。通过cleaved caspase诱导评估AIN。"
+            "text": "使用小鼠模型，作者结合全身体积描记法、pre-BotC中γ-氨基丁酸能（GABAergic）神经元的光遗传学操作、条件性VGAT敲除以及急性延髓切片中的膜片钳电生理学，来检查丙泊酚如何调节呼吸节律和抑制性微环路活性。"
           },
           {
             "heading": "RESULTS",
-            "text": "在没有异氟醚的情况下，神经元刺激短暂增加突触前钙水平。异氟醚增加了野生型培养物中钙衰减的半衰期（时间[s]，未暴露，14 [10]；暴露，160 [77]；P = 0.001）。维持ATP水平可挽救异氟醚诱导的钙清除缺陷（时间[s]，30 mM葡萄糖，16 [14]；n = 8；P = 0.001）。激活肌浆内质网钙ATP酶（SERCA）可减轻异氟醚诱导的钙清除缺陷（时间[s]，无SERCA激活剂，159 [78]；SERCA激活剂，36 [18]；P = 0.002）。在暴露于较低但等效浓度的异氟醚的突变培养物中观察到类似结果。异氟醚诱导野生型培养物中SERCA依赖的MitoView摄取减少和cleaved caspase增加。"
+            "text": "丙泊酚诱导剂量依赖性的双向呼吸效应，随着麻醉深度的增加，从轻度兴奋到显著抑制。这些变化与药物对pre-BotC中谷氨酸能神经元的剂量依赖性兴奋和抑制效应一致。光强度依赖性的、持续的pre-BotC中GABA能神经元的光遗传学激活重现了丙泊酚对呼吸活动的剂量依赖性双向效应，而同时给予丙泊酚和激活pre-BotC GABA能神经元协同作用，导致呼吸暂停。选择性消融pre-BotC中的GABA能神经元增加了清醒动物的呼吸频率，促进了单次丙泊酚推注后的呼吸恢复，但在持续丙泊酚输注期间增加了呼吸暂停的发生率。"
           },
           {
             "heading": "CONCLUSIONS",
-            "text": "异氟醚通过抑制线粒体ATP产生导致SERCA依赖性钙清除失败。细胞内钙增加导致细胞毒性的早期迹象。"
+            "text": "这些结果表明，丙泊酚通过调节前包钦格复合体中的GABA能神经元，对呼吸驱动产生剂量依赖性的双向效应。"
           }
         ],
-        "fullText": "BACKGROUND: One mechanism proposed for anesthetic-induced neurotoxicity (AIN) is elevated neuronal calcium, leading to mitochondrial damage and caspase activation. Increased cytosolic calcium could arise from increased entry or decreased removal. The relative importance of these distinct mechanisms is unknown. Isoflurane inhibits mitochondrial complex I and reduces adenosine triphosphate (ATP) at presynaptic terminals leading to synaptic quiescence. The authors hypothesized that mitochondrial inhibition initiates calcium dysregulation in mouse wild-type and mitochondrial mutant neurons, leading to AIN. METHODS: Presynaptic calcium levels were monitored using VGlut1-GCaMP5 or an endoplasmic reticulum-specific GCaMP6 during electrical stimulations of neuronal cultures. Cultures were stimulated in the presence of isoflurane and blockers or activators of calcium removal. Mitochondrial damage was monitored using MitoView (Biotium, USA). Cleaved caspase induction assessed AIN. RESULTS: In the absence of isoflurane, neuronal stimulation transiently increased presynaptic calcium levels. Isoflurane increased the half-life for calcium decay in wild-type cultures (time [s], unexposed, 14 [10]; exposed, 160 [77]; P = 0.001). Maintaining ATP levels rescued the isoflurane-induced defective removal of calcium (time [s], 30 mM glucose, 16 [14]; n = 8; P = 0.001). Activation of sarcoplasmic endoplasmic reticulum calcium adenosine triphosphatase (SERCA) alleviated the isoflurane-induced defective removal of calcium (time [s], no SERCA activator, 159 [78]; SERCA activator, 36 [18]; P = 0.002). Similar results were seen for mutant cultures exposed to lower, but equipotent, concentrations of isoflurane. Isoflurane induced a SERCA-dependent decrease in uptake of MitoView and an increase in cleaved caspase in wild-type cultures. CONCLUSIONS: Isoflurane causes a failure of SERCA-dependent calcium removal by inhibition of mitochondrial production of ATP. The increase in intracellular calcium leads to early signs of cellular toxicity.",
+        "fullText": "BACKGROUND: 丙泊酚主要通过γ-氨基丁酸A型受体依赖性中枢抑制发挥作用，而前包钦格复合体（pre-BotC）中的局部抑制性微环路对呼吸节律进行双向调控。尽管丙泊酚被广泛认为是一种单纯的呼吸抑制剂，但丙泊酚是否模拟内源性抑制信号以复杂、剂量相关的方式破坏pre-BotC回路功能仍不清楚。本研究旨在检验以下假设：丙泊酚通过剂量依赖性重塑局部抑制性微环路来调节pre-BotC活性，而非仅产生单调的呼吸抑制。 METHODS: 使用小鼠模型，作者结合全身体积描记法、pre-BotC中γ-氨基丁酸能（GABAergic）神经元的光遗传学操作、条件性VGAT敲除以及急性延髓切片中的膜片钳电生理学，来检查丙泊酚如何调节呼吸节律和抑制性微环路活性。 RESULTS: 丙泊酚诱导剂量依赖性的双向呼吸效应，随着麻醉深度的增加，从轻度兴奋到显著抑制。这些变化与药物对pre-BotC中谷氨酸能神经元的剂量依赖性兴奋和抑制效应一致。光强度依赖性的、持续的pre-BotC中GABA能神经元的光遗传学激活重现了丙泊酚对呼吸活动的剂量依赖性双向效应，而同时给予丙泊酚和激活pre-BotC GABA能神经元协同作用，导致呼吸暂停。选择性消融pre-BotC中的GABA能神经元增加了清醒动物的呼吸频率，促进了单次丙泊酚推注后的呼吸恢复，但在持续丙泊酚输注期间增加了呼吸暂停的发生率。 CONCLUSIONS: 这些结果表明，丙泊酚通过调节前包钦格复合体中的GABA能神经元，对呼吸驱动产生剂量依赖性的双向效应。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Jung S, Ramirez JM, Sedensky MM, Morgan PG",
-      "citation": "Anesthesiology. 2026 Apr 1;144(4):871-885. doi: 10.1097/ALN.0000000000005910. Epub 2025 Dec 19.",
-      "doi": "10.1097/aln.0000000000005910",
-      "pmid": "41417580",
-      "pmcid": null,
+      "authors": "Jiang J, Ai S, Chen Y, You Z, Shen F, Yuan C, Cheng Q, Tang C, et al.",
+      "citation": "Anesthesiology. 2026 Sep 1;145(3):617-637. doi: 10.1097/ALN.0000000000006184. Epub 2026 Jun 1.",
+      "doi": "10.1097/aln.0000000000006184",
+      "pmid": "42224072",
+      "pmcid": "PMC13460332",
       "publicationTypes": [
         "Journal Article"
       ],
       "meshTerms": [
         "Animals",
-        "*Isoflurane/pharmacology/toxicity",
+        "*Propofol/pharmacology/administration & dosage",
         "Mice",
-        "*Neurons/drug effects/metabolism",
-        "*Calcium/metabolism",
-        "Cells, Cultured",
-        "*Anesthetics, Inhalation/pharmacology",
-        "*Electron Transport Complex I/antagonists & inhibitors",
-        "Mitochondria/drug effects/metabolism",
-        "Adenosine Triphosphate/metabolism",
-        "Mice, Inbred C57BL"
+        "Dose-Response Relationship, Drug",
+        "*Synaptic Transmission/drug effects/physiology",
+        "*GABAergic Neurons/drug effects/physiology",
+        "Male",
+        "*Anesthetics, Intravenous/pharmacology/administration & dosage",
+        "Mice, Inbred C57BL",
+        "*Medulla Oblongata/drug effects/physiology",
+        "*Respiration/drug effects",
+        "Mice, Knockout",
+        "*gamma-Aminobutyric Acid",
+        "*Respiratory Center/drug effects/physiology"
       ],
       "publisher": "Ovid Technologies (Wolters Kluwer Health)",
       "crossrefVerified": true,
@@ -1449,9 +1445,9 @@
         "麻醉基础研究",
         "Journal Article"
       ],
-      "question": "该研究为麻醉药诱导神经毒性的机制提供了新见解，提示线粒体功能障碍和钙稳态失调可能是关键环节，有助于未来开发神经保护策略。",
-      "conclusion": "异氟醚通过抑制线粒体ATP产生，导致SERCA依赖性钙清除失败，进而引起细胞内钙升高和早期细胞毒性迹象。",
-      "clinical": "该研究为麻醉药诱导神经毒性的机制提供了新见解，提示线粒体功能障碍和钙稳态失调可能是关键环节。 未来可能通过维持ATP水平或激活SERCA来减轻异氟醚的神经毒性，但需进一步研究验证。",
+      "question": "该研究挑战了丙泊酚仅作为呼吸抑制剂的传统认知，提示其呼吸效应可能随麻醉深度呈双向变化，为理解麻醉药物对呼吸中枢的复杂调控机制提供了新视角，可能对麻醉深度监测和呼吸管理策略的优化具有潜在意义。",
+      "conclusion": "本研究在小鼠模型中提示，丙泊酚通过剂量依赖性重塑前包钦格复合体（pre-BötC）局部抑制性微环路，产生从轻度兴奋到显著抑制的双向呼吸效应，而非单纯的呼吸抑制。",
+      "clinical": "丙泊酚的呼吸效应可能并非单一抑制，而是随剂量呈双向变化，提示麻醉管理中需关注不同麻醉深度下的呼吸模式差异。 pre-BötC GABA能神经元在丙泊酚呼吸效应中起关键作用，可能成为未来药物干预或监测的靶点。 选择性消融GABA能神经元虽促进单次推注后呼吸恢复，但增加持续输注期间呼吸暂停风险，提示不同给药方式下呼吸管理策略需个体化。",
       "evidence": "中等",
       "score": 47,
       "scoreBreakdown": {
@@ -1464,50 +1460,52 @@
       "study": [
         {
           "label": "研究设计",
-          "value": "基础研究（体外细胞实验）"
+          "value": "动物实验（基础研究），结合全身体积描记、光遗传学操作、条件性VGAT敲除和急性延髓切片膜片钳电生理技术。"
         },
         {
           "label": "研究对象与样本",
-          "value": "mouse wild-type and mitochondrial mutant neurons；当前可获取内容未提供该数据。"
+          "value": "Adult male and female C57BL/6 mice, Slc32a1-Cre mice, Slc17a6-Cre mice, Vgat loxP/loxP mice, and Rosa26R-tdTomato mice；Not explicitly reported in the provided text; specific numbers for each experiment are mentioned (e.g., n=8 mice for some experiments, n=6 per group for VGAT knockout experiments)."
         },
         {
           "label": "干预与比较",
-          "value": "Isoflurane exposure；对照：unexposed cultures"
+          "value": "Propofol administration (single dose 2ED50, 61.2 mg/kg; continuous infusion) and optogenetic manipulation of pre-BötC GABAergic neurons；对照：Control groups (loxp con vs loxp cre; sham optogenetic stimulation)"
         },
         {
           "label": "主要终点",
-          "value": "presynaptic calcium levels"
+          "value": "Respiratory rhythm changes (respiratory frequency, inspiratory/expiratory times, pause length, peak inspiratory flow) in response to propofol and optogenetic stimulation"
         }
       ],
       "keyPoints": [
-        "异氟醚增加野生型神经元钙衰减半衰期，提示钙清除受损。",
-        "维持ATP水平或激活SERCA可逆转异氟醚诱导的钙清除缺陷。",
-        "异氟醚诱导SERCA依赖的线粒体损伤和cleaved caspase增加。",
-        "研究为麻醉药诱导神经毒性的机制提供了新见解。"
+        "丙泊酚在pre-BötC产生剂量依赖性的双向呼吸效应，而非单纯抑制。",
+        "光遗传激活GABA能神经元可模拟丙泊酚的双向效应，且与丙泊酚协同导致呼吸暂停。",
+        "消融GABA能神经元增加清醒呼吸频率，促进单次推注后恢复，但增加持续输注期间呼吸暂停。",
+        "研究为动物实验，临床转化需更多证据。"
       ],
-      "methods": "麻醉药诱导神经毒性的一种机制是神经元钙升高，导致线粒体损伤和caspase激活。胞浆钙升高可能源于钙内流增加或清除减少，但两者的相对重要性未知。异氟醚抑制线粒体复合物I，减少突触前末梢ATP，导致突触静止。作者假设线粒体抑制引发小鼠野生型和线粒体突变神经元中的钙失调，导致麻醉药诱导神经毒性。",
-      "results": "在野生型培养物中，异氟醚使钙衰减半衰期增加（未暴露：14 [10] s；暴露：160 [77] s；P = 0.001）。维持ATP水平（30 mM葡萄糖）可挽救异氟醚诱导的钙清除缺陷（16 [14] s；n = 8；P = 0.001）。激活SERCA可减轻异氟醚诱导的钙清除缺陷（无SERCA激活剂：159 [78] s；SERCA激活剂：36 [18] s；P = 0.002）。在暴露于较低但等效浓度的异氟醚的突变培养物中观察到类似结果。异氟醚在野生型培养物中诱导SERCA依赖的MitoView摄取减少和cleaved caspase增加。",
-      "mainResults": "在野生型培养物中，异氟醚使钙衰减半衰期增加（未暴露：14 [10] s；暴露：160 [77] s；P = 0.001）。维持ATP水平（30 mM葡萄糖）可挽救异氟醚诱导的钙清除缺陷（16 [14] s；n = 8；P = 0.001）。激活SERCA可减轻异氟醚诱导的钙清除缺陷（无SERCA激活剂：159 [78] s；SERCA激活剂：36 [18] s；P = 0.002）。在暴露于较低但等效浓度的异氟醚的突变培养物中观察到类似结果。异氟醚在野生型培养物中诱导SERCA依赖的MitoView摄取减少和cleaved caspase增加。",
+      "methods": "丙泊酚主要通过GABA_A受体依赖性中枢抑制发挥作用，而pre-BötC中的局部抑制性微环路对呼吸节律具有双向调控作用。尽管丙泊酚被广泛认为是简单的呼吸抑制剂，但其是否模拟内源性抑制信号以复杂、剂量相关的方式扰乱pre-BötC回路功能仍不清楚。本研究旨在验证丙泊酚通过剂量依赖性重塑局部抑制性微环路来调节pre-BötC活性，而非仅产生单调的呼吸抑制。",
+      "results": "丙泊酚诱导剂量依赖性的双向呼吸效应，从轻度兴奋到显著抑制，随麻醉深度增加而变化。这些变化与pre-BötC谷氨酸能神经元的兴奋和抑制效应一致。光遗传激活GABA能神经元可重现丙泊酚的双向效应，且丙泊酚与GABA能激活协同作用可导致呼吸暂停。选择性消融GABA能神经元可增加清醒动物的呼吸频率，促进单次丙泊酚推注后的呼吸恢复，但增加持续输注期间的呼吸暂停发生率。样本量未明确报告，但部分实验提及n=8只小鼠，VGAT敲除实验每组n=6。效应量和95%置信区间未报告，P值报告为P<0.05、P<0.01、P<0.001。",
+      "mainResults": "丙泊酚诱导剂量依赖性的双向呼吸效应，从轻度兴奋到显著抑制，随麻醉深度增加而变化。这些变化与pre-BötC谷氨酸能神经元的兴奋和抑制效应一致。光遗传激活GABA能神经元可重现丙泊酚的双向效应，且丙泊酚与GABA能激活协同作用可导致呼吸暂停。选择性消融GABA能神经元可增加清醒动物的呼吸频率，促进单次丙泊酚推注后的呼吸恢复，但增加持续输注期间的呼吸暂停发生率。样本量未明确报告，但部分实验提及n=8只小鼠，VGAT敲除实验每组n=6。效应量和95%置信区间未报告，P值报告为P<0.05、P<0.01、P<0.001。",
       "limitations": [
-        "当前可获取内容未提供该数据。",
-        "当前可获取内容未提供该数据。"
+        "研究基于小鼠模型，可能无法完全模拟人类生理。",
+        "仅分析了摘要和部分开放全文，未全面评估。",
+        "提供的文本中未报告具体的数值效应量和置信区间。"
       ],
       "practice": [
-        "该研究为麻醉药诱导神经毒性的机制提供了新见解，提示线粒体功能障碍和钙稳态失调可能是关键环节。",
-        "未来可能通过维持ATP水平或激活SERCA来减轻异氟醚的神经毒性，但需进一步研究验证。"
+        "丙泊酚的呼吸效应可能并非单一抑制，而是随剂量呈双向变化，提示麻醉管理中需关注不同麻醉深度下的呼吸模式差异。",
+        "pre-BötC GABA能神经元在丙泊酚呼吸效应中起关键作用，可能成为未来药物干预或监测的靶点。",
+        "选择性消融GABA能神经元虽促进单次推注后呼吸恢复，但增加持续输注期间呼吸暂停风险，提示不同给药方式下呼吸管理策略需个体化。"
       ],
-      "editor": "研究结果支持异氟醚通过抑制线粒体ATP产生导致SERCA依赖性钙清除失败的假设，但证据来自体外细胞实验。 过度解读风险：需谨慎将体外结果直接外推至临床，因为体内环境更复杂，且缺乏动物在体或人体研究证据。",
-      "whyItMatters": "该研究为麻醉药诱导神经毒性的机制提供了新见解，提示线粒体功能障碍和钙稳态失调可能是关键环节，有助于未来开发神经保护策略。",
-      "background": "麻醉药诱导神经毒性的一种机制是神经元钙升高，导致线粒体损伤和caspase激活。胞浆钙升高可能源于钙内流增加或清除减少，但两者的相对重要性未知。异氟醚抑制线粒体复合物I，减少突触前末梢ATP，导致突触静止。作者假设线粒体抑制引发小鼠野生型和线粒体突变神经元中的钙失调，导致麻醉药诱导神经毒性。",
+      "editor": "研究设计严谨，结合多种技术手段，结果支持丙泊酚通过剂量依赖性调节pre-BötC GABA能神经元产生双向呼吸效应的假设。 过度解读风险：存在过度解读风险，因为动物实验结果外推至人类需谨慎，且未报告效应量和置信区间，统计学证据强度有限。",
+      "whyItMatters": "该研究挑战了丙泊酚仅作为呼吸抑制剂的传统认知，提示其呼吸效应可能随麻醉深度呈双向变化，为理解麻醉药物对呼吸中枢的复杂调控机制提供了新视角，可能对麻醉深度监测和呼吸管理策略的优化具有潜在意义。",
+      "background": "丙泊酚主要通过GABA_A受体依赖性中枢抑制发挥作用，而pre-BötC中的局部抑制性微环路对呼吸节律具有双向调控作用。尽管丙泊酚被广泛认为是简单的呼吸抑制剂，但其是否模拟内源性抑制信号以复杂、剂量相关的方式扰乱pre-BötC回路功能仍不清楚。本研究旨在验证丙泊酚通过剂量依赖性重塑局部抑制性微环路来调节pre-BötC活性，而非仅产生单调的呼吸抑制。",
       "pico": {
-        "population": "mouse wild-type and mitochondrial mutant neurons",
-        "intervention": "Isoflurane exposure",
-        "comparison": "unexposed cultures",
-        "outcome": "presynaptic calcium levels"
+        "population": "Adult male and female C57BL/6 mice, Slc32a1-Cre mice, Slc17a6-Cre mice, Vgat loxP/loxP mice, and Rosa26R-tdTomato mice",
+        "intervention": "Propofol administration (single dose 2ED50, 61.2 mg/kg; continuous infusion) and optogenetic manipulation of pre-BötC GABAergic neurons",
+        "comparison": "Control groups (loxp con vs loxp cre; sham optogenetic stimulation)",
+        "outcome": "Respiratory rhythm changes (respiratory frequency, inspiratory/expiratory times, pause length, peak inspiratory flow) in response to propofol and optogenetic stimulation"
       },
-      "studyType": "基础研究（体外细胞实验）",
-      "sampleSize": "当前可获取内容未提供该数据。",
-      "primaryOutcome": "presynaptic calcium levels",
+      "studyType": "动物实验（基础研究），结合全身体积描记、光遗传学操作、条件性VGAT敲除和急性延髓切片膜片钳电生理技术。",
+      "sampleSize": "Not explicitly reported in the provided text; specific numbers for each experiment are mentioned (e.g., n=8 mice for some experiments, n=6 per group for VGAT knockout experiments).",
+      "primaryOutcome": "Respiratory rhythm changes (respiratory frequency, inspiratory/expiratory times, pause length, peak inspiratory flow) in response to propofol and optogenetic stimulation",
       "effectSize": [
         "当前可获取内容未提供该数据。"
       ],
@@ -1515,41 +1513,41 @@
         "当前可获取内容未提供该数据。"
       ],
       "pValue": [
-        "0.001",
-        "0.001",
-        "0.002"
+        "P < 0.05",
+        "P < 0.01",
+        "P < 0.001"
       ],
-      "adverseEvents": null,
+      "adverseEvents": "Respiratory arrest during concurrent propofol and GABAergic activation; increased incidence of apnea during continuous propofol infusion after GABAergic neuron ablation.",
       "aiAssessment": {
-        "support": "研究结果支持异氟醚通过抑制线粒体ATP产生导致SERCA依赖性钙清除失败的假设，但证据来自体外细胞实验。",
-        "overinterpretationRisk": "需谨慎将体外结果直接外推至临床，因为体内环境更复杂，且缺乏动物在体或人体研究证据。"
+        "support": "研究设计严谨，结合多种技术手段，结果支持丙泊酚通过剂量依赖性调节pre-BötC GABA能神经元产生双向呼吸效应的假设。",
+        "overinterpretationRisk": "存在过度解读风险，因为动物实验结果外推至人类需谨慎，且未报告效应量和置信区间，统计学证据强度有限。"
       },
       "deepDive": {
         "sourceCoverage": {
-          "level": "abstract",
+          "level": "full_text_excerpt",
           "limitations": [
-            "仅基于摘要，缺乏方法学细节、样本量计算、随机化、盲法等关键信息。",
-            "无法评估研究设计质量、偏倚风险和统计方法的充分性。"
+            "仅基于摘要和部分开放全文节选，未覆盖完整方法学和结果细节。",
+            "具体数值效应量、置信区间和统计方法细节可能缺失。"
           ]
         },
         "methodology": {
-          "researchQuestion": "异氟醚抑制线粒体复合物I是否通过减少ATP导致钙清除失败，进而引起神经毒性？",
-          "designFit": "体外细胞实验适合探究机制，但无法直接推断临床。",
-          "eligibility": "当前可获取内容未提供该数据。",
+          "researchQuestion": "丙泊酚是否通过剂量依赖性重塑pre-BötC局部抑制性微环路来调节呼吸节律，而非仅产生单调的呼吸抑制？",
+          "designFit": "动物实验设计适合探究机制性问题，结合多种技术可提供多层面证据。",
+          "eligibility": "未提供明确的纳入/排除标准，仅提及使用特定品系小鼠。",
           "randomization": "当前可获取内容未提供该数据。",
           "allocationConcealment": "当前可获取内容未提供该数据。",
           "blinding": "当前可获取内容未提供该数据。",
           "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "当前可获取内容未提供该数据。",
+          "followUp": "不适用（急性实验）。",
+          "analysisPopulation": "未明确报告，但提及部分实验n=8，VGAT敲除每组n=6。",
           "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "使用多种方法（钙成像、MitoView、cleaved caspase）评估结果。",
-            "包括野生型和突变神经元，增强机制解释。"
+            "使用多种互补技术（行为、光遗传、基因敲除、电生理）全面探究机制。",
+            "研究问题明确，假设清晰。"
           ],
           "concerns": [
-            "缺乏体内实验验证。",
-            "样本量小（n=8）且未报告效应量。"
+            "样本量小且未报告具体统计功效。",
+            "未报告效应量和置信区间，限制效应大小评估。"
           ]
         },
         "statistics": {
@@ -1558,82 +1556,86 @@
               "referenceId": null,
               "name": "未报告",
               "purposeInStudy": "未识别到具体统计方法，无法评价。",
-              "reportedResult": "P值报告为0.001、0.001、0.002。",
-              "interpretation": "P值提示组间差异有统计学意义，但未报告效应量和置信区间。",
+              "reportedResult": "P值范围报告为P<0.05、P<0.01、P<0.001，但未说明具体检验。",
+              "interpretation": "由于未报告具体统计方法，无法评估结果的稳健性。",
               "cautions": [
-                "未报告统计检验方法，无法判断适用性。",
-                "未报告多重比较校正，可能增加I类错误风险。"
+                "缺乏统计方法细节，无法判断是否满足检验假设。",
+                "未报告效应量和置信区间，仅P值不足以评估临床或生物学意义。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
           ],
           "adjustedVariables": "当前可获取内容未提供该数据。",
           "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "P值显示统计学差异，但临床意义未知，且为体外研究。"
+          "subgroupAnalysis": "未报告亚组分析，但提及不同小鼠品系和条件性敲除，可能涉及亚组比较。",
+          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
         },
         "outcomeAnalysis": {
-          "primary": "突触前钙水平（钙衰减半衰期）",
+          "primary": "呼吸节律变化（呼吸频率、吸气/呼气时间、暂停长度、峰值吸气流量）",
           "secondary": [
-            "线粒体损伤（MitoView摄取）",
-            "cleaved caspase诱导"
+            "谷氨酸能神经元活性变化",
+            "丙泊酚注射后呼吸恢复",
+            "持续输注期间呼吸暂停发生率"
           ],
-          "safety": "当前可获取内容未提供该数据。",
+          "safety": "呼吸暂停在丙泊酚与GABA能激活协同时发生；消融GABA能神经元增加持续输注期间呼吸暂停发生率。",
           "absoluteVsRelative": "当前可获取内容未提供该数据。",
-          "subgroupAndInteraction": "突变培养物在较低但等效浓度下观察到类似结果，但未报告交互作用。",
+          "subgroupAndInteraction": "未报告正式亚组分析，但提及不同小鼠品系和条件性敲除，可能涉及亚组比较。",
           "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "机制研究设计合理，使用多种方法验证。",
-            "包括突变神经元，增强机制解释。"
+            "研究设计创新，结合多种技术。",
+            "结果支持假设，机制解释合理。"
           ],
           "limitations": [
-            "仅基于摘要，缺乏方法学细节。",
-            "体外实验，外推受限。",
-            "未报告效应量和置信区间。"
+            "动物模型限制外推性。",
+            "未报告效应量和置信区间。",
+            "统计方法未明确。"
           ],
           "biasRisks": [
-            "未报告随机化和盲法，可能存在选择偏倚和测量偏倚。",
-            "未报告样本量计算，可能检验效能不足。"
+            "未报告随机化、盲法，可能存在实施偏倚。",
+            "样本量小，可能影响结果稳定性。"
           ],
-          "certainty": "低",
-          "conclusionAlignment": "结论与结果一致，但需更多证据。",
-          "causalBoundary": "研究显示异氟醚暴露与钙清除缺陷相关，但因果关系需进一步验证。"
+          "certainty": "低至中等，由于缺乏统计细节和效应量，证据确定性有限。",
+          "conclusionAlignment": "结论与结果一致，但需谨慎外推。",
+          "causalBoundary": "光遗传和基因敲除实验支持因果关系，但丙泊酚的效应可能涉及多种机制，不能完全归因于GABA能通路。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "为麻醉药神经毒性机制提供基础依据。"
+            "为理解丙泊酚呼吸效应的神经机制提供基础。",
+            "可能指导未来麻醉深度监测和呼吸管理研究。"
           ],
           "nonApplicability": [
-            "不能直接用于临床，需在体动物和人体研究验证。"
+            "小鼠模型结果不能直接外推至人类。",
+            "具体剂量和给药方式与临床不同。"
           ],
-          "practiceChange": "当前结果不足以改变临床实践。",
+          "practiceChange": "当前证据不足以改变临床实践。",
           "canDoNow": [
-            "无直接临床可操作建议。"
+            "在临床研究中关注丙泊酚不同麻醉深度下的呼吸模式。",
+            "探索pre-BötC功能监测的可能性。"
           ],
           "cannotConclude": [
-            "不能得出异氟醚导致临床神经毒性的结论。",
-            "不能推荐任何干预措施。"
+            "不能确定丙泊酚在人类中是否产生双向呼吸效应。",
+            "不能确定GABA能神经元消融策略的临床可行性。"
           ],
           "evidenceGaps": [
-            "需要体内动物模型验证。",
-            "需要人体研究评估异氟醚对钙稳态和神经毒性的影响。",
-            "需要评估长期神经发育结局。"
+            "需要人类研究验证。",
+            "需要报告效应量和置信区间。",
+            "需要明确统计方法。"
           ],
           "directClinicalRecommendation": false
         }
       },
-      "analysisBasis": "摘要分析",
+      "analysisBasis": "摘要+开放全文节选分析",
       "analysisStatus": "ai_complete",
       "aiModel": "deepseek-v4-flash",
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41417580/",
-        "doi": "https://doi.org/10.1097/aln.0000000000005910",
-        "publisher": "https://doi.org/10.1097/aln.0000000000005910",
-        "openFullText": null
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42224072/",
+        "doi": "https://doi.org/10.1097/aln.0000000000006184",
+        "publisher": "https://doi.org/10.1097/aln.0000000000006184",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13460332/"
       }
     }
   ]

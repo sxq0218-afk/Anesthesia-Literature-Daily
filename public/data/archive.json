@@ -1,7 +1,240 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T23:32:49.621Z",
+  "updatedAt": "2026-08-20T23:34:27.016Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-20T23:34:27.016Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 180,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2026-02-21T23:34:27.016Z",
+        "to": "2026-08-20T23:34:27.016Z",
+        "candidateCount": 280,
+        "discoveryCandidateCount": 10820,
+        "unseenCount": 176,
+        "duplicateCount": 104,
+        "priorityCandidateCount": 280,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 280,
+          "retrievedCount": 280,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 281,
+            "impact-factor-stale": 7,
+            "impact-factor-unknown": 5
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 21
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 12
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 11
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 8
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The journal of pain",
+              "reason": "impact-factor-unknown",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 176,
+          "eligibleCount": 156,
+          "excludedCount": 20,
+          "excludedByReason": {
+            "journal-not-configured": 20
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 128,
+          "clinical": 84,
+          "basic": 1,
+          "other": 43
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-42616542",
+          "title": "精氨酸治疗镰状细胞病急性疼痛发作：STArT随机临床试验",
+          "originalTitle": "Arginine Therapy for Sickle Cell Disease Acute Pain Episodes: The STArT Randomized Clinical Trial.",
+          "journal": "JAMA",
+          "conclusion": "在儿童和年轻成人镰状细胞病急性疼痛发作患者中，静脉注射精氨酸与安慰剂相比，未缩短疼痛发作缓解时间。",
+          "pmid": "42616542"
+        },
+        {
+          "slug": "pmid-42618366",
+          "title": "氯胺酮给药与重大癌症手术后死亡率：一项倾向评分匹配的基于人群的研究",
+          "originalTitle": "Ketamine administration and postoperative mortality after major cancer surgery: a propensity-matched population-based study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在这项基于研究网络的回顾性队列研究中，围手术期使用氯胺酮与重大癌症手术后死亡率降低无关。",
+          "pmid": "42618366"
+        },
+        {
+          "slug": "pmid-42613204",
+          "title": "评估吸入麻醉、全凭静脉麻醉和椎管内麻醉用于单一手术的碳足迹：一项前瞻性观察性研究",
+          "originalTitle": "Assessing the carbon footprint of inhalation anaesthesia, total intravenous anaesthesia, and spinal anaesthesia for a single surgical procedure: a prospective observational study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在宫腔镜手术中，椎管内麻醉的碳足迹最低，全凭静脉麻醉次之，吸入麻醉最高，尽管采用低流量七氟烷。",
+          "pmid": "42613204"
+        },
+        {
+          "slug": "pmid-42611517",
+          "title": "经颅电刺激与术后患者谵妄：一项随机临床试验",
+          "originalTitle": "Transcranial Electrical Stimulation and Delirium Among Postoperative Patients: A Randomized Clinical Trial.",
+          "journal": "JAMA network open",
+          "conclusion": "在225例老年择期手术患者中，术后经颅电刺激（tACS或tDCS）与假刺激相比，未显著降低病房或PACU中术后谵妄的发生率，但亚组分析提示tACS可能对手术时间较长（3-5小时）的患者有潜在获益。",
+          "pmid": "42611517"
+        },
+        {
+          "slug": "pmid-42224072",
+          "title": "丙泊酚对前包钦格复合体GABA能神经传递的剂量依赖性效应及其对呼吸节律的影响",
+          "originalTitle": "Dose-dependent Effects of Propofol on GABAergic Neurotransmission in the Pre-Botzinger Complex and Its Consequences on Respiratory Rhythm.",
+          "journal": "Anesthesiology",
+          "conclusion": "本研究在小鼠模型中提示，丙泊酚通过剂量依赖性重塑前包钦格复合体（pre-BötC）局部抑制性微环路，产生从轻度兴奋到显著抑制的双向呼吸效应，而非单纯的呼吸抑制。",
+          "pmid": "42224072"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-17T23:32:49.621Z",
       "search": {

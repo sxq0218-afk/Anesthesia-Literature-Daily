@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T23:32:49.621Z",
+  "updatedAt": "2026-08-20T23:34:27.016Z",
   "records": [
     {
       "pmid": "42359695",
@@ -953,6 +953,46 @@
       "status": "published",
       "runId": "2026-08-17T23-32-49.621Z",
       "firstPublishedAt": "2026-08-17T23:32:49.621Z"
+    },
+    {
+      "pmid": "42616542",
+      "doi": "10.1001/jama.2026.13310",
+      "title": "Arginine Therapy for Sickle Cell Disease Acute Pain Episodes: The STArT Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-20T23-34-27.016Z",
+      "firstPublishedAt": "2026-08-20T23:34:27.016Z"
+    },
+    {
+      "pmid": "42618366",
+      "doi": "10.1016/j.bja.2026.06.033",
+      "title": "Ketamine administration and postoperative mortality after major cancer surgery: a propensity-matched population-based study.",
+      "status": "published",
+      "runId": "2026-08-20T23-34-27.016Z",
+      "firstPublishedAt": "2026-08-20T23:34:27.016Z"
+    },
+    {
+      "pmid": "42613204",
+      "doi": "10.1016/j.bja.2026.06.051",
+      "title": "Assessing the carbon footprint of inhalation anaesthesia, total intravenous anaesthesia, and spinal anaesthesia for a single surgical procedure: a prospective observational study.",
+      "status": "published",
+      "runId": "2026-08-20T23-34-27.016Z",
+      "firstPublishedAt": "2026-08-20T23:34:27.016Z"
+    },
+    {
+      "pmid": "42611517",
+      "doi": "10.1001/jamanetworkopen.2026.28284",
+      "title": "Transcranial Electrical Stimulation and Delirium Among Postoperative Patients: A Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-20T23-34-27.016Z",
+      "firstPublishedAt": "2026-08-20T23:34:27.016Z"
+    },
+    {
+      "pmid": "42224072",
+      "doi": "10.1097/aln.0000000000006184",
+      "title": "Dose-dependent Effects of Propofol on GABAergic Neurotransmission in the Pre-Botzinger Complex and Its Consequences on Respiratory Rhythm.",
+      "status": "published",
+      "runId": "2026-08-20T23-34-27.016Z",
+      "firstPublishedAt": "2026-08-20T23:34:27.016Z"
     }
   ]
 }
