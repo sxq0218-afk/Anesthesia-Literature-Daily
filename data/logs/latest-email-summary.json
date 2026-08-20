@@ -1,12 +1,12 @@
 {
   "version": 1,
   "provider": "buttondown",
-  "editionId": "2026-08-18",
+  "editionId": "2026-08-21",
   "status": "queued",
-  "activeSubscribers": 27,
-  "remoteEmailId": "em_12ssb6mcxn98xryffvc7qphrg5",
+  "activeSubscribers": 26,
+  "remoteEmailId": "em_0tq0m9r80291yv3kw181d6tkgw",
   "remoteStatus": "about_to_send",
   "estimatedCostCny": 0,
   "costSource": "buttondown-free-tier-current-policy",
-  "updatedAt": "2026-08-17T23:33:05.683Z"
+  "updatedAt": "2026-08-20T23:34:43.229Z"
 }
