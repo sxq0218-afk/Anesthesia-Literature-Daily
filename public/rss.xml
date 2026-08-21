@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Aug 2026 23:34:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 23:34:24 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-22 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-22/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-22/</guid>
+      <pubDate>Fri, 21 Aug 2026 23:34:24 GMT</pubDate>
+      <description>大型腹部手术患者个体化围术期血压管理：IMPROVE-multi随机临床试验：在接受大型腹部手术的高危患者中，与常规血压管理（MAP≥65 mm Hg）相比，基于术前夜间平均MAP的个体化围术期血压管理并未降低术后7天内急性肾损伤、急性心肌损伤、非致死性心脏骤停或死亡的复合结局发生率。
+线粒体不参与小胶质细胞突起的监视、趋化和吞噬性包绕过程：在完整脑组织中，小胶质细胞突起在监视、趋化和吞噬性包绕时通常不含线粒体，线粒体在损伤反应中延迟进入突起，提示小胶质细胞突起功能可能不依赖局部线粒体能量供应。
+腺苷信号传导驱动氯胺酮和电休克治疗的抗抑郁作用：在小鼠模型中，氯胺酮和电休克治疗通过诱导关键情绪调节脑区（如内侧前额叶皮层和海马）的腺苷激增，并经A1和A2A腺苷受体介导其抗抑郁效应；基于此机制开发的氯胺酮衍生物在提高疗效的同时减少副作用。
+纳曲酮预处理对氯胺酮诱导的谷氨酸能活性及抑郁症状的影响：一项随机交叉研究：在26例成人重度抑郁障碍患者中，纳曲酮预处理减弱了氯胺酮输注期间前扣带回皮质谷氨酸+谷氨酰胺/总N-乙酰天冬氨酸比值的升高，并减弱了第1天蒙哥马利-阿斯伯格抑郁评定量表评分的降低，提示阿片系统调节氯胺酮的急性反应和后续抗抑郁效应。
+皮质脊髓疼痛敏感性特征：个体疼痛敏感性的预测标志物：基于静息态皮质脊髓功能连接构建的疼痛敏感性特征（CSps）可预测个体疼痛敏感性和临床疼痛，并在独立数据集中得到验证，提示其可能作为连接实验室疼痛测量与患者症状的皮质脊髓生物标志物。</description>
+    </item>
     <item>
       <title>2026-08-21 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-21/</link>

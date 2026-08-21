@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-20T23:34:27.016Z",
+  "updatedAt": "2026-08-21T23:34:24.649Z",
   "records": [
     {
       "pmid": "42359695",
@@ -993,6 +993,46 @@
       "status": "published",
       "runId": "2026-08-20T23-34-27.016Z",
       "firstPublishedAt": "2026-08-20T23:34:27.016Z"
+    },
+    {
+      "pmid": "41076588",
+      "doi": "10.1001/jama.2025.17235",
+      "title": "Individualized Perioperative Blood Pressure Management in Patients Undergoing Major Abdominal Surgery: The IMPROVE-multi Randomized Clinical Trial.",
+      "status": "published",
+      "runId": "2026-08-21T23-34-24.649Z",
+      "firstPublishedAt": "2026-08-21T23:34:24.649Z"
+    },
+    {
+      "pmid": "41387721",
+      "doi": "10.1038/s41467-025-66708-6",
+      "title": "Mitochondria are absent from microglial processes performing surveillance, chemotaxis, and phagocytic engulfment.",
+      "status": "published",
+      "runId": "2026-08-21T23-34-24.649Z",
+      "firstPublishedAt": "2026-08-21T23:34:24.649Z"
+    },
+    {
+      "pmid": "41193806",
+      "doi": "10.1038/s41586-025-09755-9",
+      "title": "Adenosine signalling drives antidepressant actions of ketamine and ECT.",
+      "status": "published",
+      "runId": "2026-08-21T23-34-24.649Z",
+      "firstPublishedAt": "2026-08-21T23:34:24.649Z"
+    },
+    {
+      "pmid": "40707608",
+      "doi": "10.1038/s41591-025-03800-w",
+      "title": "Effect of naltrexone pretreatment on ketamine-induced glutamatergic activity and symptoms of depression: a randomized crossover study.",
+      "status": "published",
+      "runId": "2026-08-21T23-34-24.649Z",
+      "firstPublishedAt": "2026-08-21T23:34:24.649Z"
+    },
+    {
+      "pmid": "41381586",
+      "doi": "10.1038/s41467-025-67132-6",
+      "title": "A corticospinal signature for interindividual pain sensitivity.",
+      "status": "published",
+      "runId": "2026-08-21T23-34-24.649Z",
+      "firstPublishedAt": "2026-08-21T23:34:24.649Z"
     }
   ]
 }

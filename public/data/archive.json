@@ -1,7 +1,243 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T23:34:27.016Z",
+  "updatedAt": "2026-08-21T23:34:24.649Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-21T23:34:24.649Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-08-26T23:34:24.649Z",
+        "to": "2026-08-21T23:34:24.649Z",
+        "candidateCount": 523,
+        "discoveryCandidateCount": 20928,
+        "unseenCount": 414,
+        "duplicateCount": 109,
+        "priorityCandidateCount": 523,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 523,
+          "retrievedCount": 523,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 4,
+          "excludedCount": 296,
+          "excludedByReason": {
+            "journal-not-configured": 286,
+            "impact-factor-stale": 7,
+            "impact-factor-unknown": 3
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024
+          ],
+          "unresolvedCount": 296,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 29
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "American journal of ophthalmology case reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 414,
+          "eligibleCount": 372,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 319,
+          "clinical": 222,
+          "basic": 23,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41076588",
+          "title": "大型腹部手术患者个体化围术期血压管理：IMPROVE-multi随机临床试验",
+          "originalTitle": "Individualized Perioperative Blood Pressure Management in Patients Undergoing Major Abdominal Surgery: The IMPROVE-multi Randomized Clinical Trial.",
+          "journal": "JAMA",
+          "conclusion": "在接受大型腹部手术的高危患者中，与常规血压管理（MAP≥65 mm Hg）相比，基于术前夜间平均MAP的个体化围术期血压管理并未降低术后7天内急性肾损伤、急性心肌损伤、非致死性心脏骤停或死亡的复合结局发生率。",
+          "pmid": "41076588"
+        },
+        {
+          "slug": "pmid-41387721",
+          "title": "线粒体不参与小胶质细胞突起的监视、趋化和吞噬性包绕过程",
+          "originalTitle": "Mitochondria are absent from microglial processes performing surveillance, chemotaxis, and phagocytic engulfment.",
+          "journal": "Nature communications",
+          "conclusion": "在完整脑组织中，小胶质细胞突起在监视、趋化和吞噬性包绕时通常不含线粒体，线粒体在损伤反应中延迟进入突起，提示小胶质细胞突起功能可能不依赖局部线粒体能量供应。",
+          "pmid": "41387721"
+        },
+        {
+          "slug": "pmid-41193806",
+          "title": "腺苷信号传导驱动氯胺酮和电休克治疗的抗抑郁作用",
+          "originalTitle": "Adenosine signalling drives antidepressant actions of ketamine and ECT.",
+          "journal": "Nature",
+          "conclusion": "在小鼠模型中，氯胺酮和电休克治疗通过诱导关键情绪调节脑区（如内侧前额叶皮层和海马）的腺苷激增，并经A1和A2A腺苷受体介导其抗抑郁效应；基于此机制开发的氯胺酮衍生物在提高疗效的同时减少副作用。",
+          "pmid": "41193806"
+        },
+        {
+          "slug": "pmid-40707608",
+          "title": "纳曲酮预处理对氯胺酮诱导的谷氨酸能活性及抑郁症状的影响：一项随机交叉研究",
+          "originalTitle": "Effect of naltrexone pretreatment on ketamine-induced glutamatergic activity and symptoms of depression: a randomized crossover study.",
+          "journal": "Nature medicine",
+          "conclusion": "在26例成人重度抑郁障碍患者中，纳曲酮预处理减弱了氯胺酮输注期间前扣带回皮质谷氨酸+谷氨酰胺/总N-乙酰天冬氨酸比值的升高，并减弱了第1天蒙哥马利-阿斯伯格抑郁评定量表评分的降低，提示阿片系统调节氯胺酮的急性反应和后续抗抑郁效应。",
+          "pmid": "40707608"
+        },
+        {
+          "slug": "pmid-41381586",
+          "title": "皮质脊髓疼痛敏感性特征：个体疼痛敏感性的预测标志物",
+          "originalTitle": "A corticospinal signature for interindividual pain sensitivity.",
+          "journal": "Nature communications",
+          "conclusion": "基于静息态皮质脊髓功能连接构建的疼痛敏感性特征（CSps）可预测个体疼痛敏感性和临床疼痛，并在独立数据集中得到验证，提示其可能作为连接实验室疼痛测量与患者症状的皮质脊髓生物标志物。",
+          "pmid": "41381586"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-20T23:34:27.016Z",
       "search": {
