@@ -1,7 +1,244 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T23:34:24.649Z",
+  "updatedAt": "2026-08-22T23:31:22.573Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-22T23:31:22.573Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-08-27T23:31:22.573Z",
+        "to": "2026-08-22T23:31:22.573Z",
+        "candidateCount": 523,
+        "discoveryCandidateCount": 20909,
+        "unseenCount": 409,
+        "duplicateCount": 114,
+        "priorityCandidateCount": 523,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 523,
+          "retrievedCount": 523,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 285,
+            "impact-factor-stale": 7,
+            "impact-factor-unknown": 1
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 29
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 409,
+          "eligibleCount": 367,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 316,
+          "clinical": 220,
+          "basic": 22,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41203471",
+          "title": "困难气道协会2025年成人意外困难气管插管管理指南",
+          "originalTitle": "Difficult Airway Society 2025 guidelines for management of unanticipated difficult tracheal intubation in adults.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "该指南基于系统评价和德尔菲共识，提出65条关于成人气管插管管理的建议，强调持续供氧、首次插管成功、波形二氧化碳监测及多学科团队协作，以提升气道管理的有效性和安全性。",
+          "pmid": "41203471"
+        },
+        {
+          "slug": "pmid-41315363",
+          "title": "ZFP612通过表观遗传抑制初级感觉神经元中Il1rl1的沉默子-启动子环调控雄性小鼠神经病理性疼痛",
+          "originalTitle": "ZFP612 controls neuropathic pain through epigenetic repression of Il1rl1 within the silencer-promoter loop in primary sensory neurons of male mice.",
+          "journal": "Nature communications",
+          "conclusion": "在雄性小鼠中，神经损伤诱导的ZFP612下调通过破坏ZFP612/HDAC1/HDAC2/SETDB1表观遗传复合物，解除对Il1rl1三个启动子的抑制，从而促进神经病理性疼痛，而Il1rl1敲除可显著缓解疼痛。",
+          "pmid": "41315363"
+        },
+        {
+          "slug": "pmid-41253816",
+          "title": "清醒小鼠硬脑膜移植胰岛细胞的稳定颅内成像",
+          "originalTitle": "Stable intracranial imaging of dura mater-engrafted pancreatic islet cells in awake mice.",
+          "journal": "Nature communications",
+          "conclusion": "该研究建立了一种可在清醒小鼠中稳定进行长达90分钟、持续6个月的胰岛细胞颅内成像平台，并观察到麻醉药物异氟醚可抑制β细胞钙振荡，而Hypnorm则保留其功能。",
+          "pmid": "41253816"
+        },
+        {
+          "slug": "pmid-40707285",
+          "title": "竖脊肌平面阻滞与椎旁阻滞用于大型肿瘤乳腺手术的比较：一项多中心随机对照试验",
+          "originalTitle": "Erector spinae plane block versus paravertebral block for major oncological breast surgery: a multicentre randomised controlled trial.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在大型肿瘤乳腺手术中，竖脊肌平面阻滞（ESPB）在术后2小时内需要吗啡的患者比例上未达到非劣效标准，且镇痛效果不如胸椎旁阻滞（PVB），但两组吗啡总消耗量相似，满意度均较高，且未观察到严重并发症。",
+          "pmid": "40707285"
+        },
+        {
+          "slug": "pmid-40925922",
+          "title": "自闭症个体的局部活动改变与神经递质特性及氯胺酮诱导的脑改变相关",
+          "originalTitle": "Local activity alterations in individuals with autism correlate with neurotransmitter properties and ketamine-induced brain changes.",
+          "journal": "Nature communications",
+          "conclusion": "自闭症个体在默认模式网络区域表现出一致的局部脑活动降低，其全脑差异与谷氨酸能、GABA能、多巴胺能和胆碱能神经传递的空间分布重叠，且NMDA拮抗剂氯胺酮诱导的功能改变与自闭症观察到的空间模式相似。",
+          "pmid": "40925922"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-21T23:34:24.649Z",
       "search": {

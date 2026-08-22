@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T23:34:24.649Z",
+  "updatedAt": "2026-08-22T23:31:22.573Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1033,6 +1033,46 @@
       "status": "published",
       "runId": "2026-08-21T23-34-24.649Z",
       "firstPublishedAt": "2026-08-21T23:34:24.649Z"
+    },
+    {
+      "pmid": "41203471",
+      "doi": "10.1016/j.bja.2025.10.006",
+      "title": "Difficult Airway Society 2025 guidelines for management of unanticipated difficult tracheal intubation in adults.",
+      "status": "published",
+      "runId": "2026-08-22T23-31-22.573Z",
+      "firstPublishedAt": "2026-08-22T23:31:22.573Z"
+    },
+    {
+      "pmid": "41315363",
+      "doi": "10.1038/s41467-025-65935-1",
+      "title": "ZFP612 controls neuropathic pain through epigenetic repression of Il1rl1 within the silencer-promoter loop in primary sensory neurons of male mice.",
+      "status": "published",
+      "runId": "2026-08-22T23-31-22.573Z",
+      "firstPublishedAt": "2026-08-22T23:31:22.573Z"
+    },
+    {
+      "pmid": "41253816",
+      "doi": "10.1038/s41467-025-66057-4",
+      "title": "Stable intracranial imaging of dura mater-engrafted pancreatic islet cells in awake mice.",
+      "status": "published",
+      "runId": "2026-08-22T23-31-22.573Z",
+      "firstPublishedAt": "2026-08-22T23:31:22.573Z"
+    },
+    {
+      "pmid": "40707285",
+      "doi": "10.1016/j.bja.2025.05.051",
+      "title": "Erector spinae plane block versus paravertebral block for major oncological breast surgery: a multicentre randomised controlled trial.",
+      "status": "published",
+      "runId": "2026-08-22T23-31-22.573Z",
+      "firstPublishedAt": "2026-08-22T23:31:22.573Z"
+    },
+    {
+      "pmid": "40925922",
+      "doi": "10.1038/s41467-025-63857-6",
+      "title": "Local activity alterations in individuals with autism correlate with neurotransmitter properties and ketamine-induced brain changes.",
+      "status": "published",
+      "runId": "2026-08-22T23-31-22.573Z",
+      "firstPublishedAt": "2026-08-22T23:31:22.573Z"
     }
   ]
 }

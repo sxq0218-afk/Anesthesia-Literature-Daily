@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 21 Aug 2026 23:34:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 23:31:22 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-23 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-23/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-23/</guid>
+      <pubDate>Sat, 22 Aug 2026 23:31:22 GMT</pubDate>
+      <description>困难气道协会2025年成人意外困难气管插管管理指南：该指南基于系统评价和德尔菲共识，提出65条关于成人气管插管管理的建议，强调持续供氧、首次插管成功、波形二氧化碳监测及多学科团队协作，以提升气道管理的有效性和安全性。
+ZFP612通过表观遗传抑制初级感觉神经元中Il1rl1的沉默子-启动子环调控雄性小鼠神经病理性疼痛：在雄性小鼠中，神经损伤诱导的ZFP612下调通过破坏ZFP612/HDAC1/HDAC2/SETDB1表观遗传复合物，解除对Il1rl1三个启动子的抑制，从而促进神经病理性疼痛，而Il1rl1敲除可显著缓解疼痛。
+清醒小鼠硬脑膜移植胰岛细胞的稳定颅内成像：该研究建立了一种可在清醒小鼠中稳定进行长达90分钟、持续6个月的胰岛细胞颅内成像平台，并观察到麻醉药物异氟醚可抑制β细胞钙振荡，而Hypnorm则保留其功能。
+竖脊肌平面阻滞与椎旁阻滞用于大型肿瘤乳腺手术的比较：一项多中心随机对照试验：在大型肿瘤乳腺手术中，竖脊肌平面阻滞（ESPB）在术后2小时内需要吗啡的患者比例上未达到非劣效标准，且镇痛效果不如胸椎旁阻滞（PVB），但两组吗啡总消耗量相似，满意度均较高，且未观察到严重并发症。
+自闭症个体的局部活动改变与神经递质特性及氯胺酮诱导的脑改变相关：自闭症个体在默认模式网络区域表现出一致的局部脑活动降低，其全脑差异与谷氨酸能、GABA能、多巴胺能和胆碱能神经传递的空间分布重叠，且NMDA拮抗剂氯胺酮诱导的功能改变与自闭症观察到的空间模式相似。</description>
+    </item>
     <item>
       <title>2026-08-22 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-22/</link>

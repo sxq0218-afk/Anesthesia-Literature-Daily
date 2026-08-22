@@ -1,7 +1,1558 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T23:34:24.649Z",
+  "updatedAt": "2026-08-22T23:31:22.573Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-22T23:31:22.573Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-08-27T23:31:22.573Z",
+        "to": "2026-08-22T23:31:22.573Z",
+        "candidateCount": 523,
+        "discoveryCandidateCount": 20909,
+        "unseenCount": 409,
+        "duplicateCount": 114,
+        "priorityCandidateCount": 523,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 523,
+          "retrievedCount": 523,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 285,
+            "impact-factor-stale": 7,
+            "impact-factor-unknown": 1
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 29
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 409,
+          "eligibleCount": 367,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 316,
+          "clinical": 220,
+          "basic": 22,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 23,
+          "promptTokens": 77873,
+          "completionTokens": 22291,
+          "totalTokens": 100164
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41203471",
+          "number": "01",
+          "category": "气道管理",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-01",
+          "electronicPublicationDate": "2025-11-07",
+          "readingTime": "10 分钟",
+          "title": "困难气道协会2025年成人意外困难气管插管管理指南",
+          "originalTitle": "Difficult Airway Society 2025 guidelines for management of unanticipated difficult tracheal intubation in adults.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "我们对气道管理理解和实践的进展，使得制定当代气管插管指南成为必要。因此，困难气道协会（DAS）制定了建议，以提高气管插管的疗效和安全性。我们进行了系统回顾和三轮德尔菲过程，以制定多学科、循证、专家共识建议。我们邀请了20位外部专家指导紧急颈前气道建议，并让DAS成员和16位国际气道专家提供反馈。指南组的12名成员在3年内参加了65次会议，系统回顾后纳入了1241篇论文。共提出了65条与气管插管相关的建议。这些建议包括气道评估与规划；预氧合；插管后护理；快速顺序诱导和插管；生理性困难气道；肥胖；人为因素；床旁超声；文档记录；以及教育和培训。我们维持线性算法的概念，包括气管插管（A计划）；声门上气道装置通气（B计划）；面罩通气（C计划）；以及紧急颈前气道（D计划）。这些建议优先考虑在整个气道管理过程中持续供氧；最大化首次尝试成功气管插管的可能性；通过波形二氧化碳图确认通气；在失败时按算法推进；多学科团队合作；以及持续的教育和培训。这些指南旨在支持临床医生提供优先考虑疗效和安全性的气道管理。总体而言，我们强调最大化成功机会的重要性，而不是避免和处理失败，以改善接受气道管理患者的预后。"
+              }
+            ],
+            "fullText": "我们对气道管理理解和实践的进展，使得制定当代气管插管指南成为必要。因此，困难气道协会（DAS）制定了建议，以提高气管插管的疗效和安全性。我们进行了系统回顾和三轮德尔菲过程，以制定多学科、循证、专家共识建议。我们邀请了20位外部专家指导紧急颈前气道建议，并让DAS成员和16位国际气道专家提供反馈。指南组的12名成员在3年内参加了65次会议，系统回顾后纳入了1241篇论文。共提出了65条与气管插管相关的建议。这些建议包括气道评估与规划；预氧合；插管后护理；快速顺序诱导和插管；生理性困难气道；肥胖；人为因素；床旁超声；文档记录；以及教育和培训。我们维持线性算法的概念，包括气管插管（A计划）；声门上气道装置通气（B计划）；面罩通气（C计划）；以及紧急颈前气道（D计划）。这些建议优先考虑在整个气道管理过程中持续供氧；最大化首次尝试成功气管插管的可能性；通过波形二氧化碳图确认通气；在失败时按算法推进；多学科团队合作；以及持续的教育和培训。这些指南旨在支持临床医生提供优先考虑疗效和安全性的气道管理。总体而言，我们强调最大化成功机会的重要性，而不是避免和处理失败，以改善接受气道管理患者的预后。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Ahmad I, El-Boghdadly K, Iliff H, Dua G, Higgs A, Huntington M, Mir F, Nouraei SAR, et al.",
+          "citation": "Br J Anaesth. 2026 Jan;136(1):283-307. doi: 10.1016/j.bja.2025.10.006. Epub 2025 Nov 7.",
+          "doi": "10.1016/j.bja.2025.10.006",
+          "pmid": "41203471",
+          "pmcid": null,
+          "publicationTypes": [
+            "Consensus Statement",
+            "Journal Article",
+            "Practice Guideline"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "Consensus Statement",
+            "Journal Article"
+          ],
+          "question": "气道管理是麻醉学核心技能，意外困难插管可导致严重并发症。该指南更新了循证建议，为临床实践提供最新框架，有助于改善患者安全。",
+          "conclusion": "该指南基于系统评价和德尔菲共识，提出65条关于成人气管插管管理的建议，强调持续供氧、首次插管成功、波形二氧化碳监测及多学科团队协作，以提升气道管理的有效性和安全性。",
+          "clinical": "麻醉医师应遵循指南推荐的线性算法，优先保证持续氧供和首次插管成功率。 强调波形二氧化碳监测在确认通气中的必要性。 指南支持多学科团队协作和持续教育，以提升气道管理安全。",
+          "evidence": "高",
+          "score": 82,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 25,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "共识声明、期刊文章、实践指南；基于系统评价和三轮德尔菲过程，形成多学科循证专家共识。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "成人患者（接受气管插管）；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "基于DAS 2025指南的气管插管管理策略（包括气道评估、预氧合、快速序贯诱导、插管、声门上气道装置通气、面罩通气、紧急颈前气道等）；对照：未明确（指南制定，无直接对照）"
+            },
+            {
+              "label": "主要终点",
+              "value": "气管插管成功率、安全性、患者预后（如避免失败和并发症）"
+            }
+          ],
+          "keyPoints": [
+            "DAS 2025指南通过系统评价和德尔菲共识制定，共65条建议。",
+            "维持A-D计划线性算法，强调持续氧供和首次插管成功。",
+            "推荐使用波形二氧化碳监测确认通气。",
+            "指南涵盖肥胖、生理性困难气道、床旁超声等特殊领域。"
+          ],
+          "methods": "随着对气道管理理解和实践的进展，需要更新的气管插管指南。困难气道协会（DAS）因此制定了推荐意见，以提高气管插管的疗效和安全性。",
+          "results": "当前可获取内容未提供该数据。指南共提出65条建议，涵盖气道评估与计划、预氧合、插管后护理、快速序贯诱导与插管、生理性困难气道、肥胖、人为因素、床旁超声、文档记录、教育与培训。维持线性算法概念：A计划（气管插管）、B计划（声门上气道装置通气）、C计划（面罩通气）、D计划（紧急颈前气道）。推荐优先持续供氧、最大化首次插管成功可能性、使用波形二氧化碳监测确认通气、失败时按算法推进、多学科团队合作及持续教育培训。",
+          "mainResults": "当前可获取内容未提供该数据。指南共提出65条建议，涵盖气道评估与计划、预氧合、插管后护理、快速序贯诱导与插管、生理性困难气道、肥胖、人为因素、床旁超声、文档记录、教育与培训。维持线性算法概念：A计划（气管插管）、B计划（声门上气道装置通气）、C计划（面罩通气）、D计划（紧急颈前气道）。推荐优先持续供氧、最大化首次插管成功可能性、使用波形二氧化碳监测确认通气、失败时按算法推进、多学科团队合作及持续教育培训。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "指南基于专家共识，部分建议的证据等级可能有限。",
+            "未提供具体效应量、置信区间或P值，无法量化推荐效果的强度。"
+          ],
+          "practice": [
+            "麻醉医师应遵循指南推荐的线性算法，优先保证持续氧供和首次插管成功率。",
+            "强调波形二氧化碳监测在确认通气中的必要性。",
+            "指南支持多学科团队协作和持续教育，以提升气道管理安全。"
+          ],
+          "editor": "指南基于系统评价和德尔菲共识，具有多学科专家参与，证据来源广泛（1241篇文献），推荐意见全面。 过度解读风险：摘要未提供具体数据，不能将共识建议视为强证据推荐；需查阅全文评估证据等级和推荐强度。",
+          "whyItMatters": "气道管理是麻醉学核心技能，意外困难插管可导致严重并发症。该指南更新了循证建议，为临床实践提供最新框架，有助于改善患者安全。",
+          "background": "随着对气道管理理解和实践的进展，需要更新的气管插管指南。困难气道协会（DAS）因此制定了推荐意见，以提高气管插管的疗效和安全性。",
+          "pico": {
+            "population": "成人患者（接受气管插管）",
+            "intervention": "基于DAS 2025指南的气管插管管理策略（包括气道评估、预氧合、快速序贯诱导、插管、声门上气道装置通气、面罩通气、紧急颈前气道等）",
+            "comparison": "未明确（指南制定，无直接对照）",
+            "outcome": "气管插管成功率、安全性、患者预后（如避免失败和并发症）"
+          },
+          "studyType": "共识声明、期刊文章、实践指南；基于系统评价和三轮德尔菲过程，形成多学科循证专家共识。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "当前可获取内容未提供该数据。",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "指南基于系统评价和德尔菲共识，具有多学科专家参与，证据来源广泛（1241篇文献），推荐意见全面。",
+            "overinterpretationRisk": "摘要未提供具体数据，不能将共识建议视为强证据推荐；需查阅全文评估证据等级和推荐强度。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取具体方法学细节、证据等级和推荐强度。",
+                "未提供样本量、效应量、置信区间等定量数据。",
+                "无法评估偏倚风险和统计方法。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "制定成人意外困难气管插管管理的循证共识指南。",
+              "designFit": "指南制定采用系统评价和德尔菲共识，适合在证据不充分时形成专家建议。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "不适用（指南制定）。",
+              "allocationConcealment": "不适用。",
+              "blinding": "不适用。",
+              "sampleSizePlanning": "不适用。",
+              "followUp": "不适用。",
+              "analysisPopulation": "不适用。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "系统评价纳入1241篇文献，证据基础广泛。",
+                "三轮德尔菲过程，多学科专家参与（20名外部专家、16名国际专家）。",
+                "指南组12名成员参与65次会议，历时3年。"
+              ],
+              "concerns": [
+                "摘要未提供德尔菲过程的细节，如共识阈值、专家选择标准。",
+                "未提供推荐意见的证据等级和推荐强度。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "摘要未提及具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计分析的适当性。",
+                  "cautions": [
+                    "摘要未提供统计细节，需查阅全文。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "当前可获取内容未提供该数据。",
+              "secondary": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "基于系统评价，证据来源广泛。",
+                "多学科专家共识，具有代表性。",
+                "指南内容全面，涵盖多个关键领域。"
+              ],
+              "limitations": [
+                "摘要未提供具体证据等级和推荐强度。",
+                "未提供定量结果，无法评估推荐的实际效果。",
+                "共识过程可能受专家主观影响。"
+              ],
+              "biasRisks": [
+                "选择偏倚：专家选择可能影响共识结果。",
+                "发表偏倚：系统评价可能未纳入所有相关研究。"
+              ],
+              "certainty": "低（基于摘要，无法评估证据确定性）。",
+              "conclusionAlignment": "结论与指南目标一致，但缺乏定量支持。",
+              "causalBoundary": "指南推荐基于共识，不能视为因果证据。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于麻醉科、急诊科、重症监护等涉及气道管理的临床场景。",
+                "指南提供了结构化算法，便于临床实施。"
+              ],
+              "nonApplicability": [
+                "不适用于儿童或特殊人群（指南针对成人）。",
+                "不适用于预期困难气道（指南针对意外困难）。"
+              ],
+              "practiceChange": "可能改变临床实践，强调持续氧供和首次插管成功，但需结合本地资源和培训。",
+              "canDoNow": [
+                "遵循指南推荐的算法进行气道管理。",
+                "使用波形二氧化碳监测确认通气。",
+                "加强团队协作和培训。"
+              ],
+              "cannotConclude": [
+                "无法确定指南推荐是否优于其他策略，因为缺乏直接比较数据。",
+                "无法评估推荐对患者预后的具体影响。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究评估指南实施后的临床效果。",
+                "需要明确各推荐意见的证据等级和推荐强度。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41203471/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.10.006",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.10.006",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41315363",
+          "number": "02",
+          "category": "麻醉基础研究",
+          "journal": "Nature communications",
+          "year": "2025",
+          "publishedDate": "2025-11-28",
+          "electronicPublicationDate": "2025-11-28",
+          "readingTime": "9 分钟",
+          "title": "ZFP612通过表观遗传抑制初级感觉神经元中Il1rl1的沉默子-启动子环调控雄性小鼠神经病理性疼痛",
+          "originalTitle": "ZFP612 controls neuropathic pain through epigenetic repression of Il1rl1 within the silencer-promoter loop in primary sensory neurons of male mice.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "外周神经损伤诱导的原代感觉神经元内在免疫反应对神经病理性疼痛的发生至关重要。然而，驱动这些反应的关键调控因子仍不清楚。在此，我们报道了神经损伤特异性的锌指蛋白612（ZFP612）在受损感觉神经元中的下调，有助于雄性小鼠神经元白细胞介素（IL）信号激活和神经病理性疼痛，而白细胞介素1受体样1（Il1rl1）敲除可大大缓解这种疼痛。机制上，一个已鉴定的内含子顺式调控沉默子通过与ZFP612相互作用抑制Il1rl1的转录。缺乏该沉默子的小鼠表现出ZFP612对其三个替代启动子（P1-P3）的Il1rl1转录抑制的丧失，以及ZFP612介导的抗伤害感受的损害。此外，ZFP612下调破坏了ZFP612/HDAC1/HDAC2/SETDB1表观遗传复合物，并消除了沉默子-P3环内的抑制性修饰，从而同时促进Il1rl1从P1/P2的转录延伸和从P3的起始。因此，ZFP612可能通过基于沉默子的Il1rl1表观遗传沉默来控制伤害性超敏反应，Il1rl1是受损感觉神经元中一个关键的神经病理性疼痛参与者。"
+              }
+            ],
+            "fullText": "外周神经损伤诱导的原代感觉神经元内在免疫反应对神经病理性疼痛的发生至关重要。然而，驱动这些反应的关键调控因子仍不清楚。在此，我们报道了神经损伤特异性的锌指蛋白612（ZFP612）在受损感觉神经元中的下调，有助于雄性小鼠神经元白细胞介素（IL）信号激活和神经病理性疼痛，而白细胞介素1受体样1（Il1rl1）敲除可大大缓解这种疼痛。机制上，一个已鉴定的内含子顺式调控沉默子通过与ZFP612相互作用抑制Il1rl1的转录。缺乏该沉默子的小鼠表现出ZFP612对其三个替代启动子（P1-P3）的Il1rl1转录抑制的丧失，以及ZFP612介导的抗伤害感受的损害。此外，ZFP612下调破坏了ZFP612/HDAC1/HDAC2/SETDB1表观遗传复合物，并消除了沉默子-P3环内的抑制性修饰，从而同时促进Il1rl1从P1/P2的转录延伸和从P3的起始。因此，ZFP612可能通过基于沉默子的Il1rl1表观遗传沉默来控制伤害性超敏反应，Il1rl1是受损感觉神经元中一个关键的神经病理性疼痛参与者。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Ma L, Huang Y, Han M, Wang B, Guo X, Wang Z, Zhang F, Xie Y, et al.",
+          "citation": "Nat Commun. 2025 Nov 28;16(1):10701. doi: 10.1038/s41467-025-65935-1.",
+          "doi": "10.1038/s41467-025-65935-1",
+          "pmid": "41315363",
+          "pmcid": "PMC12663350",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "基础研究",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究揭示了神经病理性疼痛中一个关键的表观遗传调控机制，即ZFP612通过沉默子-启动子环抑制Il1rl1转录，为疼痛治疗提供了新的潜在靶点（如Il1rl1或ZFP612通路）。",
+          "conclusion": "在雄性小鼠中，神经损伤诱导的ZFP612下调通过破坏ZFP612/HDAC1/HDAC2/SETDB1表观遗传复合物，解除对Il1rl1三个启动子的抑制，从而促进神经病理性疼痛，而Il1rl1敲除可显著缓解疼痛。",
+          "clinical": "该研究为神经病理性疼痛的机制提供了新见解，可能为未来疼痛治疗提供新靶点（如Il1rl1或ZFP612通路）。 然而，该研究为动物实验，尚不能直接用于临床疼痛管理，需进一步验证。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验研究（基础研究，非人类模型）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "male mice；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "ZFP612 downregulation, Il1rl1 knockout, AAV5-Zfp612, AAV5-Il1rl1 shRNA, IL1RL1 neutralization antibody；对照：sham vs SNL, scrambled siRNA vs Zfp612 siRNA, wild-type vs Il1rl1 knockout, silencer deletion"
+            },
+            {
+              "label": "主要终点",
+              "value": "neuropathic pain behaviors (mechanical allodynia, heat hyperalgesia)"
+            }
+          ],
+          "keyPoints": [
+            "ZFP612在受损感觉神经元中下调，促进神经病理性疼痛。",
+            "Il1rl1敲除可缓解疼痛，提示其为关键下游分子。",
+            "ZFP612通过招募HDAC1/HDAC2/SETDB1抑制Il1rl1转录。",
+            "沉默子缺失消除ZFP612的抑制和镇痛作用。",
+            "ZFP612下调导致Il1rl1三个启动子同时激活。"
+          ],
+          "methods": "周围神经损伤引起初级感觉神经元内在免疫反应，是神经病理性疼痛发生的关键，但驱动这些反应的关键调控因子尚不清楚。本研究旨在探索ZFP612在其中的作用。",
+          "results": "在雄性小鼠中，神经损伤特异性下调受损感觉神经元中的ZFP612，导致神经元IL信号激活和神经病理性疼痛，而Il1rl1敲除可显著缓解疼痛。机制上，ZFP612结合Il1rl1内含子中的沉默子，招募HDAC1/HDAC2/SETDB1抑制转录。沉默子缺失消除了ZFP612介导的抑制和镇痛作用。ZFP612下调破坏抑制复合物并移除抑制性修饰，导致Il1rl1三个启动子同时激活。当前可获取内容未提供样本量、效应量、95%CI和P值等具体数据。",
+          "mainResults": "在雄性小鼠中，神经损伤特异性下调受损感觉神经元中的ZFP612，导致神经元IL信号激活和神经病理性疼痛，而Il1rl1敲除可显著缓解疼痛。机制上，ZFP612结合Il1rl1内含子中的沉默子，招募HDAC1/HDAC2/SETDB1抑制转录。沉默子缺失消除了ZFP612介导的抑制和镇痛作用。ZFP612下调破坏抑制复合物并移除抑制性修饰，导致Il1rl1三个启动子同时激活。当前可获取内容未提供样本量、效应量、95%CI和P值等具体数据。",
+          "limitations": [
+            "研究仅限于雄性小鼠，可能无法推广至雌性。",
+            "未探索损伤后14天以上的时间动态机制。",
+            "Zfp612下调的上游机制尚不清楚。",
+            "由于组织限制，未通过re-ChIP实验验证ZFP612抑制复合物。",
+            "3-C分析中的半定量PCR可能忽略相互作用频率的细微变化。"
+          ],
+          "practice": [
+            "该研究为神经病理性疼痛的机制提供了新见解，可能为未来疼痛治疗提供新靶点（如Il1rl1或ZFP612通路）。",
+            "然而，该研究为动物实验，尚不能直接用于临床疼痛管理，需进一步验证。"
+          ],
+          "editor": "研究提供了ZFP612通过表观遗传抑制Il1rl1的机制证据，包括沉默子鉴定、复合物组成和功能验证，支持其在神经病理性疼痛中的作用。 过度解读风险：研究为动物模型，且未提供效应量和统计显著性数据，需谨慎外推至人类；观察到的关联不能直接证明因果关系。",
+          "whyItMatters": "该研究揭示了神经病理性疼痛中一个关键的表观遗传调控机制，即ZFP612通过沉默子-启动子环抑制Il1rl1转录，为疼痛治疗提供了新的潜在靶点（如Il1rl1或ZFP612通路）。",
+          "background": "周围神经损伤引起初级感觉神经元内在免疫反应，是神经病理性疼痛发生的关键，但驱动这些反应的关键调控因子尚不清楚。本研究旨在探索ZFP612在其中的作用。",
+          "pico": {
+            "population": "male mice",
+            "intervention": "ZFP612 downregulation, Il1rl1 knockout, AAV5-Zfp612, AAV5-Il1rl1 shRNA, IL1RL1 neutralization antibody",
+            "comparison": "sham vs SNL, scrambled siRNA vs Zfp612 siRNA, wild-type vs Il1rl1 knockout, silencer deletion",
+            "outcome": "neuropathic pain behaviors (mechanical allodynia, heat hyperalgesia)"
+          },
+          "studyType": "实验研究（基础研究，非人类模型）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "neuropathic pain behaviors (mechanical allodynia, heat hyperalgesia)",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究提供了ZFP612通过表观遗传抑制Il1rl1的机制证据，包括沉默子鉴定、复合物组成和功能验证，支持其在神经病理性疼痛中的作用。",
+            "overinterpretationRisk": "研究为动物模型，且未提供效应量和统计显著性数据，需谨慎外推至人类；观察到的关联不能直接证明因果关系。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和部分全文节选，可能缺少详细方法学信息。",
+                "未提供具体统计数据和效应量。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "ZFP612是否通过表观遗传调控Il1rl1参与神经病理性疼痛？",
+              "designFit": "实验研究设计适合探索机制，但无法直接推断人类。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "雄性小鼠（神经损伤模型）",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "机制研究深入，包括表观遗传复合物和启动子调控。",
+                "使用多种干预手段（基因敲除、病毒载体、中和抗体）验证。"
+              ],
+              "concerns": [
+                "仅雄性小鼠，性别差异未考虑。",
+                "未提供统计细节，难以评估结果可靠性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计分析的适当性。",
+                  "cautions": [
+                    "缺乏统计方法信息，无法评估结果稳健性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "神经病理性疼痛行为（机械性异常性疼痛、热痛觉过敏）",
+              "secondary": [
+                "Il1rl1表达",
+                "IL信号激活",
+                "表观遗传修饰",
+                "Il1rl1启动子转录活性"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "机制研究深入，包括表观遗传复合物和启动子调控。",
+                "使用多种干预手段验证。"
+              ],
+              "limitations": [
+                "仅雄性小鼠，性别差异未考虑。",
+                "未提供统计细节。",
+                "未探索长期时间动态。"
+              ],
+              "biasRisks": [
+                "选择偏倚（仅雄性）",
+                "检测偏倚（未提及盲法）"
+              ],
+              "certainty": "低（动物实验，缺乏统计细节）",
+              "conclusionAlignment": "结论与结果一致，但需谨慎外推。",
+              "causalBoundary": "研究显示ZFP612下调与疼痛相关，但因果证据有限，需更多干预实验。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为神经病理性疼痛的机制提供新见解。",
+                "可能为未来药物开发提供靶点（如Il1rl1）。"
+              ],
+              "nonApplicability": [
+                "动物模型结果不能直接应用于人类。",
+                "缺乏临床数据。"
+              ],
+              "practiceChange": "当前不改变临床实践。",
+              "canDoNow": [
+                "关注神经病理性疼痛的基础研究进展。"
+              ],
+              "cannotConclude": [
+                "不能得出ZFP612或Il1rl1作为人类治疗靶点的结论。"
+              ],
+              "evidenceGaps": [
+                "需要人类研究验证。",
+                "需要性别差异研究。",
+                "需要长期安全性数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41315363/",
+            "doi": "https://doi.org/10.1038/s41467-025-65935-1",
+            "publisher": "https://doi.org/10.1038/s41467-025-65935-1",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12663350/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41253816",
+          "number": "03",
+          "category": "麻醉学",
+          "journal": "Nature communications",
+          "year": "2025",
+          "publishedDate": "2025-11-18",
+          "electronicPublicationDate": "2025-11-18",
+          "readingTime": "9 分钟",
+          "title": "清醒小鼠硬脑膜移植胰岛细胞的稳定颅内成像",
+          "originalTitle": "Stable intracranial imaging of dura mater-engrafted pancreatic islet cells in awake mice.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "通过将胰岛移植到小鼠脑硬脑膜上，我们建立了一个显微镜平台，能够对原本光学上不可及的组织进行纵向活体成像。该系统结合了颅窗与气垫浮动平台和稳定的头部固定，为清醒小鼠中重复的单细胞Ca(2+)成像提供了高机械稳定性，每次成像时间可达90分钟。我们展示了硬脑膜移植的胰岛与宿主血管和神经网络整合，并且人类胰岛移植物在葡萄糖刺激下分泌C肽，表明代谢整合。利用该平台，我们监测了麻醉诱导的毛细血管血流和胰岛Ca(2+)动力学的变化。在清醒小鼠中，皮下注射葡萄糖后，我们表征了胰岛素分泌β细胞内的Ca(2+)振荡，揭示了振幅、周期和平台期的变化，而网络协调保持稳定。因此，硬脑膜为功能性内分泌组织提供了长期光学通路，促进了无麻醉、生理条件下的稳定活体成像。"
+              }
+            ],
+            "fullText": "通过将胰岛移植到小鼠脑硬脑膜上，我们建立了一个显微镜平台，能够对原本光学上不可及的组织进行纵向活体成像。该系统结合了颅窗与气垫浮动平台和稳定的头部固定，为清醒小鼠中重复的单细胞Ca(2+)成像提供了高机械稳定性，每次成像时间可达90分钟。我们展示了硬脑膜移植的胰岛与宿主血管和神经网络整合，并且人类胰岛移植物在葡萄糖刺激下分泌C肽，表明代谢整合。利用该平台，我们监测了麻醉诱导的毛细血管血流和胰岛Ca(2+)动力学的变化。在清醒小鼠中，皮下注射葡萄糖后，我们表征了胰岛素分泌β细胞内的Ca(2+)振荡，揭示了振幅、周期和平台期的变化，而网络协调保持稳定。因此，硬脑膜为功能性内分泌组织提供了长期光学通路，促进了无麻醉、生理条件下的稳定活体成像。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Troster P, Visa M, Valladolid-Acebes I, Kohler M, Berggren PO",
+          "citation": "Nat Commun. 2025 Nov 18;16(1):10047. doi: 10.1038/s41467-025-66057-4.",
+          "doi": "10.1038/s41467-025-66057-4",
+          "pmid": "41253816",
+          "pmcid": "PMC12627478",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "临床证据",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "该平台为在无麻醉条件下长期观察胰岛细胞功能提供了新方法，有助于研究胰岛移植后的血管化、神经支配及代谢整合，并可能为麻醉药物对胰岛功能的影响提供新的评估工具。",
+          "conclusion": "该研究建立了一种可在清醒小鼠中稳定进行长达90分钟、持续6个月的胰岛细胞颅内成像平台，并观察到麻醉药物异氟醚可抑制β细胞钙振荡，而Hypnorm则保留其功能。",
+          "clinical": "异氟醚可抑制胰岛β细胞钙振荡并降低网络同步性，提示麻醉可能影响胰岛功能研究结果。 Hypnorm麻醉对胰岛钙信号影响较小，可能更适合需要保留胰岛功能的实验。 该平台可用于评估不同麻醉药物对胰岛功能的影响，但需进一步研究其临床相关性。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验性研究（动物实验）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "female C57BL/6J mice (syngeneic recipients) and female Rag1-/- mice (xenogeneic recipients) for human islet transplantation；n = 18 mice for imaging platform characterization; n = 7 control and n = 7 transplanted for inflammatory markers; n = 4 islets for vascularization quantification; n = 2 mice for innervation analysis"
+            },
+            {
+              "label": "干预与比较",
+              "value": "transplantation of pancreatic islets onto the dura mater of the mouse brain, followed by intravital imaging in awake mice using the Mobile HomeCage system；对照：awake state vs. anesthesia (isoflurane and Hypnorm)"
+            },
+            {
+              "label": "主要终点",
+              "value": "stability and feasibility of long-term intravital imaging of islet grafts in awake mice"
+            }
+          ],
+          "keyPoints": [
+            "硬脑膜移植胰岛可实现长期清醒成像。",
+            "移植物与宿主血管和神经整合。",
+            "人胰岛在葡萄糖刺激下分泌C肽。",
+            "异氟醚抑制钙振荡，Hypnorm保留功能。"
+          ],
+          "methods": "胰腺胰岛位于体内深处，传统成像技术难以在活体动物中实现长期、高分辨率的观察。麻醉状态可能影响胰岛细胞的生理功能，因此需要一种能够在清醒动物中进行稳定成像的平台。本研究尝试将胰岛移植到小鼠硬脑膜上，结合颅窗和移动HomeCage系统，以实现长期、无麻醉的活体成像。",
+          "results": "该平台支持每次长达90分钟、持续6个月的稳定成像。移植物与宿主血管和神经整合。人胰岛在葡萄糖刺激下分泌C肽。在清醒小鼠中，葡萄糖注射诱导钙振荡，周期为2-3分钟，振幅和周期降低，平台期比例增加。异氟醚减弱钙振荡并降低网络同步性，而Hypnorm保留功能。",
+          "mainResults": "该平台支持每次长达90分钟、持续6个月的稳定成像。移植物与宿主血管和神经整合。人胰岛在葡萄糖刺激下分泌C肽。在清醒小鼠中，葡萄糖注射诱导钙振荡，周期为2-3分钟，振幅和周期降低，平台期比例增加。异氟醚减弱钙振荡并降低网络同步性，而Hypnorm保留功能。",
+          "limitations": [
+            "仅使用雌性小鼠作为受体，未将性别作为生物学变量考虑。",
+            "时间分辨率限制了对更快钙振荡的检测。",
+            "研究聚焦于慢振荡，可能遗漏第一时相胰岛素分泌动态。",
+            "异氟醚对β细胞钙抑制的具体机制尚未完全阐明。"
+          ],
+          "practice": [
+            "异氟醚可抑制胰岛β细胞钙振荡并降低网络同步性，提示麻醉可能影响胰岛功能研究结果。",
+            "Hypnorm麻醉对胰岛钙信号影响较小，可能更适合需要保留胰岛功能的实验。",
+            "该平台可用于评估不同麻醉药物对胰岛功能的影响，但需进一步研究其临床相关性。"
+          ],
+          "editor": "该研究提供了清醒小鼠胰岛成像的新平台，并观察到麻醉药物对胰岛钙信号的不同影响，为麻醉与代谢研究提供了新工具。 过度解读风险：研究为动物实验，结果外推到人类需谨慎；麻醉药物对胰岛功能的影响可能因物种、剂量和实验条件而异。",
+          "whyItMatters": "该平台为在无麻醉条件下长期观察胰岛细胞功能提供了新方法，有助于研究胰岛移植后的血管化、神经支配及代谢整合，并可能为麻醉药物对胰岛功能的影响提供新的评估工具。",
+          "background": "胰腺胰岛位于体内深处，传统成像技术难以在活体动物中实现长期、高分辨率的观察。麻醉状态可能影响胰岛细胞的生理功能，因此需要一种能够在清醒动物中进行稳定成像的平台。本研究尝试将胰岛移植到小鼠硬脑膜上，结合颅窗和移动HomeCage系统，以实现长期、无麻醉的活体成像。",
+          "pico": {
+            "population": "female C57BL/6J mice (syngeneic recipients) and female Rag1-/- mice (xenogeneic recipients) for human islet transplantation",
+            "intervention": "transplantation of pancreatic islets onto the dura mater of the mouse brain, followed by intravital imaging in awake mice using the Mobile HomeCage system",
+            "comparison": "awake state vs. anesthesia (isoflurane and Hypnorm)",
+            "outcome": "stability and feasibility of long-term intravital imaging of islet grafts in awake mice"
+          },
+          "studyType": "实验性研究（动物实验）",
+          "sampleSize": "n = 18 mice for imaging platform characterization; n = 7 control and n = 7 transplanted for inflammatory markers; n = 4 islets for vascularization quantification; n = 2 mice for innervation analysis",
+          "primaryOutcome": "stability and feasibility of long-term intravital imaging of islet grafts in awake mice",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "P = 0.03",
+            "P = 0.002",
+            "P = < 0.001",
+            "P = 0.008",
+            "P = 0.003",
+            "P = 0.007"
+          ],
+          "adverseEvents": "No significant changes in TNF-α, IFN-γ, and CRP levels were detected post-transplantation, indicating no adverse immune reactions.",
+          "aiAssessment": {
+            "support": "该研究提供了清醒小鼠胰岛成像的新平台，并观察到麻醉药物对胰岛钙信号的不同影响，为麻醉与代谢研究提供了新工具。",
+            "overinterpretationRisk": "研究为动物实验，结果外推到人类需谨慎；麻醉药物对胰岛功能的影响可能因物种、剂量和实验条件而异。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容未提供该数据。",
+                "仅基于摘要和部分全文节选，可能遗漏方法细节和完整结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "建立一种能够在清醒小鼠中稳定成像硬脑膜移植胰岛的平台，并评估麻醉对胰岛功能的影响。",
+              "designFit": "实验性研究设计适合回答该问题，通过比较清醒和麻醉状态下的成像效果和钙信号。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "成像持续6个月，每次90分钟。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "创新性平台，实现清醒动物长期成像。",
+                "整合了血管和神经成像。",
+                "评估了麻醉影响。"
+              ],
+              "concerns": [
+                "仅使用雌性小鼠，性别偏差。",
+                "时间分辨率有限。",
+                "未报告随机化和盲法。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+                  "reportedResult": "报告了P值，但未说明具体检验。",
+                  "interpretation": "无法评价统计方法的适当性。",
+                  "cautions": [
+                    "未报告效应量和置信区间。",
+                    "未说明多重比较校正。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "统计显著性已报告，但临床意义未讨论。"
+            },
+            "outcomeAnalysis": {
+              "primary": "成像平台的稳定性和可行性（成像时长、重复性）。",
+              "secondary": [
+                "移植物血管化和神经支配。",
+                "人胰岛C肽分泌。",
+                "β细胞钙振荡特征。",
+                "麻醉对钙信号的影响。"
+              ],
+              "safety": "未检测到TNF-α、IFN-γ和CRP水平的显著变化，表明无不良免疫反应。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "创新性平台，实现清醒动物长期成像。",
+                "整合了血管和神经成像。",
+                "评估了麻醉影响。"
+              ],
+              "limitations": [
+                "仅使用雌性小鼠，性别偏差。",
+                "时间分辨率有限。",
+                "未报告随机化和盲法。"
+              ],
+              "biasRisks": [
+                "选择偏倚（仅雌性）。",
+                "检测偏倚（未盲法）。"
+              ],
+              "certainty": "低，由于动物实验和未报告方法细节。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎外推。",
+              "causalBoundary": "观察性关联，不能证明因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "该平台可用于研究胰岛移植后的长期功能。",
+                "可用于评估麻醉药物对胰岛功能的影响。"
+              ],
+              "nonApplicability": [
+                "结果不能直接应用于人类。",
+                "麻醉药物影响可能因物种而异。"
+              ],
+              "practiceChange": "当前不改变临床实践。",
+              "canDoNow": [
+                "在动物实验中，可考虑使用Hypnorm代替异氟醚以保留胰岛功能。"
+              ],
+              "cannotConclude": [
+                "不能得出麻醉药物对人类胰岛功能影响的结论。"
+              ],
+              "evidenceGaps": [
+                "需要人类研究验证。",
+                "需要更多性别和物种的研究。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41253816/",
+            "doi": "https://doi.org/10.1038/s41467-025-66057-4",
+            "publisher": "https://doi.org/10.1038/s41467-025-66057-4",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12627478/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40707285",
+          "number": "04",
+          "category": "疼痛与区域麻醉",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-09",
+          "electronicPublicationDate": "2025-07-24",
+          "readingTime": "11 分钟",
+          "title": "竖脊肌平面阻滞与椎旁阻滞用于大型肿瘤乳腺手术的比较：一项多中心随机对照试验",
+          "originalTitle": "Erector spinae plane block versus paravertebral block for major oncological breast surgery: a multicentre randomised controlled trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "乳腺癌是女性最常见的癌症，肿瘤性乳房手术常导致显著的术后疼痛。区域镇痛技术如胸椎旁阻滞（PVB）有效但存在风险，而竖脊肌平面阻滞（ESPB）是一种较新的、可能更安全的替代方法。我们比较了ESPB和PVB在大型乳腺癌手术后急性疼痛管理中的疗效。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "这项前瞻性、多中心、随机、双盲试验涉及292名接受大型乳房手术的女性。患者被随机分配接受ESPB或PVB。主要结局是术后前2小时内需要吗啡的参与者百分比，次要结局包括疼痛评分、吗啡消耗量、并发症和参与者满意度。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "ESPB组和PVB组分别有75.2%和50.3%的参与者需要吗啡，ESPB的非劣效性标准未达到。然而，两组之间的吗啡消耗量相似。ESPB组的疼痛评分更高，尤其是在活动期间，且ESPB提供的皮节覆盖不如PVB可靠，ESPB组中55.9%的参与者所需区域未被覆盖，而PVB组为20.4%。两组满意度相似，参与者均报告高度满意。未观察到重大并发症。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "与胸椎旁阻滞相比，竖脊肌平面阻滞未达到非劣效性标准，且在完全镇痛方面效果较差。胸椎旁阻滞仍是大型乳房手术的首选技术。"
+              },
+              {
+                "heading": "CLINICAL TRIAL REGISTRATION",
+                "text": "ClinicalTrials.gov (NCT04827030)。"
+              }
+            ],
+            "fullText": "BACKGROUND: 乳腺癌是女性最常见的癌症，肿瘤性乳房手术常导致显著的术后疼痛。区域镇痛技术如胸椎旁阻滞（PVB）有效但存在风险，而竖脊肌平面阻滞（ESPB）是一种较新的、可能更安全的替代方法。我们比较了ESPB和PVB在大型乳腺癌手术后急性疼痛管理中的疗效。 METHODS: 这项前瞻性、多中心、随机、双盲试验涉及292名接受大型乳房手术的女性。患者被随机分配接受ESPB或PVB。主要结局是术后前2小时内需要吗啡的参与者百分比，次要结局包括疼痛评分、吗啡消耗量、并发症和参与者满意度。 RESULTS: ESPB组和PVB组分别有75.2%和50.3%的参与者需要吗啡，ESPB的非劣效性标准未达到。然而，两组之间的吗啡消耗量相似。ESPB组的疼痛评分更高，尤其是在活动期间，且ESPB提供的皮节覆盖不如PVB可靠，ESPB组中55.9%的参与者所需区域未被覆盖，而PVB组为20.4%。两组满意度相似，参与者均报告高度满意。未观察到重大并发症。 CONCLUSIONS: 与胸椎旁阻滞相比，竖脊肌平面阻滞未达到非劣效性标准，且在完全镇痛方面效果较差。胸椎旁阻滞仍是大型乳房手术的首选技术。 CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov (NCT04827030)。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Raft J, Dureau S, Fuzier R, Auge M, Lamotte AS, Lemoine A, Albi-Feldzer A",
+          "citation": "Br J Anaesth. 2025 Sep;135(3):772-778. doi: 10.1016/j.bja.2025.05.051. Epub 2025 Jul 24.",
+          "doi": "10.1016/j.bja.2025.05.051",
+          "pmid": "40707285",
+          "pmcid": null,
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "疼痛与区域麻醉",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "乳腺癌手术常伴有显著术后疼痛，区域镇痛技术如胸椎旁阻滞有效但存在风险，而竖脊肌平面阻滞作为较新的技术可能更安全。该研究直接比较两者在大型肿瘤乳腺手术中的镇痛效果，为临床选择提供重要依据。",
+          "conclusion": "在大型肿瘤乳腺手术中，竖脊肌平面阻滞（ESPB）在术后2小时内需要吗啡的患者比例上未达到非劣效标准，且镇痛效果不如胸椎旁阻滞（PVB），但两组吗啡总消耗量相似，满意度均较高，且未观察到严重并发症。",
+          "clinical": "对于大型肿瘤乳腺手术，胸椎旁阻滞（PVB）在提供完全镇痛方面优于竖脊肌平面阻滞（ESPB），ESPB未达到非劣效标准。 尽管ESPB在术后早期需要吗啡的患者比例更高，但两组吗啡总消耗量相似，提示ESPB可能仍可作为替代选择，但需注意其镇痛效果不如PVB。 ESPB的皮节覆盖不如PVB可靠，可能导致镇痛不全，尤其是在活动时。",
+          "evidence": "中等偏高",
+          "score": 74,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 22,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 8
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "前瞻性、多中心、随机、双盲试验"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "292 women who underwent major breast surgery；292"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Erector spinae plane block (ESPB)；对照：Thoracic paravertebral block (PVB)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Percentage of participants requiring morphine within the first 2 h after surgery"
+            }
+          ],
+          "keyPoints": [
+            "ESPB组75.2%的患者术后2小时内需要吗啡，PVB组为50.3%，ESPB未达到非劣效标准。",
+            "两组吗啡消耗量相似，但ESPB组疼痛评分更高，尤其在活动时。",
+            "ESPB皮节覆盖不如PVB可靠，55.9%的ESPB患者所需区域未被覆盖，而PVB组为20.4%。",
+            "两组患者满意度相似，均报告高满意度，未观察到严重并发症。"
+          ],
+          "methods": "乳腺癌是女性最常见的癌症，肿瘤乳腺手术常导致显著术后疼痛。胸椎旁阻滞（PVB）等区域镇痛技术有效但存在风险，而竖脊肌平面阻滞（ESPB）是一种较新的、可能更安全的替代方法。本研究比较ESPB和PVB在大型乳腺癌手术后急性疼痛管理中的疗效。",
+          "results": "ESPB组和PVB组分别有75.2%和50.3%的患者需要吗啡，ESPB未达到非劣效标准。然而，两组吗啡消耗量相似。ESPB组疼痛评分更高，尤其是在活动时，且皮节覆盖不如PVB可靠，ESPB组55.9%的患者所需区域未被覆盖，而PVB组为20.4%。两组满意度相似，均报告高满意度。未观察到严重并发症。当前可获取内容未提供效应量、置信区间和P值。",
+          "mainResults": "ESPB组和PVB组分别有75.2%和50.3%的患者需要吗啡，ESPB未达到非劣效标准。然而，两组吗啡消耗量相似。ESPB组疼痛评分更高，尤其是在活动时，且皮节覆盖不如PVB可靠，ESPB组55.9%的患者所需区域未被覆盖，而PVB组为20.4%。两组满意度相似，均报告高满意度。未观察到严重并发症。当前可获取内容未提供效应量、置信区间和P值。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。",
+            "当前可获取内容未报告效应量、置信区间和P值，无法评估统计学差异的精确性。",
+            "当前可获取内容未报告具体的统计方法，如非劣效界值、检验方法等。"
+          ],
+          "practice": [
+            "对于大型肿瘤乳腺手术，胸椎旁阻滞（PVB）在提供完全镇痛方面优于竖脊肌平面阻滞（ESPB），ESPB未达到非劣效标准。",
+            "尽管ESPB在术后早期需要吗啡的患者比例更高，但两组吗啡总消耗量相似，提示ESPB可能仍可作为替代选择，但需注意其镇痛效果不如PVB。",
+            "ESPB的皮节覆盖不如PVB可靠，可能导致镇痛不全，尤其是在活动时。"
+          ],
+          "editor": "该研究为多中心随机双盲试验，样本量292例，主要结局明确，结果支持ESPB未达到非劣效标准，且镇痛效果不如PVB。 过度解读风险：由于未报告效应量、置信区间和P值，无法评估差异的精确性和临床意义，需谨慎解读。",
+          "whyItMatters": "乳腺癌手术常伴有显著术后疼痛，区域镇痛技术如胸椎旁阻滞有效但存在风险，而竖脊肌平面阻滞作为较新的技术可能更安全。该研究直接比较两者在大型肿瘤乳腺手术中的镇痛效果，为临床选择提供重要依据。",
+          "background": "乳腺癌是女性最常见的癌症，肿瘤乳腺手术常导致显著术后疼痛。胸椎旁阻滞（PVB）等区域镇痛技术有效但存在风险，而竖脊肌平面阻滞（ESPB）是一种较新的、可能更安全的替代方法。本研究比较ESPB和PVB在大型乳腺癌手术后急性疼痛管理中的疗效。",
+          "pico": {
+            "population": "292 women who underwent major breast surgery",
+            "intervention": "Erector spinae plane block (ESPB)",
+            "comparison": "Thoracic paravertebral block (PVB)",
+            "outcome": "Percentage of participants requiring morphine within the first 2 h after surgery"
+          },
+          "studyType": "前瞻性、多中心、随机、双盲试验",
+          "sampleSize": "292",
+          "primaryOutcome": "Percentage of participants requiring morphine within the first 2 h after surgery",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "No major complications were observed.",
+          "aiAssessment": {
+            "support": "该研究为多中心随机双盲试验，样本量292例，主要结局明确，结果支持ESPB未达到非劣效标准，且镇痛效果不如PVB。",
+            "overinterpretationRisk": "由于未报告效应量、置信区间和P值，无法评估差异的精确性和临床意义，需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文信息。",
+                "未报告效应量、置信区间、P值等统计量。",
+                "未报告具体统计方法，如非劣效界值。",
+                "未报告研究局限性。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "比较ESPB和PVB在大型乳腺癌手术后急性疼痛管理中的疗效。",
+              "designFit": "随机双盲试验设计适合比较两种干预措施的疗效，多中心设计提高外部有效性。",
+              "eligibility": "当前可获取内容未提供详细的纳入和排除标准。",
+              "randomization": "患者被随机分配接受ESPB或PVB，但未报告随机化方法。",
+              "allocationConcealment": "当前可获取内容未提供分配隐藏信息。",
+              "blinding": "研究为双盲，但未报告具体盲法对象（患者、操作者、评估者）。",
+              "sampleSizePlanning": "当前可获取内容未提供样本量计算信息。",
+              "followUp": "当前可获取内容未提供随访时长和完整性。",
+              "analysisPopulation": "当前可获取内容未报告意向性分析或符合方案分析。",
+              "missingData": "当前可获取内容未提供缺失数据处理方法。",
+              "strengths": [
+                "多中心随机双盲设计。",
+                "样本量较大（292例）。",
+                "主要结局明确。"
+              ],
+              "concerns": [
+                "未报告统计方法细节。",
+                "未报告效应量和置信区间。",
+                "未报告局限性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "noninferiority",
+                  "name": "非劣效分析",
+                  "purposeInStudy": "判断ESPB是否不劣于PVB，基于主要结局（术后2小时内需要吗啡的患者比例）。",
+                  "reportedResult": "ESPB未达到非劣效标准。",
+                  "interpretation": "ESPB在主要结局上劣于PVB。",
+                  "cautions": [
+                    "非劣效界值未报告，无法评估其合理性。",
+                    "未报告置信区间和P值，无法评估差异的精确性。"
+                  ],
+                  "standardExplanation": "判断新方案的效果是否未差于预设界值；结论依赖界值合理性及意向性和符合方案分析的一致性。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供调整变量信息。",
+              "multiplicity": "当前可获取内容未报告多重性调整方法。",
+              "subgroupAnalysis": "当前可获取内容未报告亚组分析。",
+              "clinicalVsStatisticalSignificance": "虽然ESPB未达到非劣效标准，但两组吗啡消耗量相似，满意度相似，提示临床差异可能有限，但疼痛评分和皮节覆盖差异可能具有临床意义。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后2小时内需要吗啡的患者百分比：ESPB组75.2%，PVB组50.3%，ESPB未达到非劣效标准。",
+              "secondary": [
+                "疼痛评分：ESPB组更高，尤其在活动时。",
+                "吗啡消耗量：两组相似。",
+                "并发症：未观察到严重并发症。",
+                "患者满意度：两组相似，均高。"
+              ],
+              "safety": "未观察到严重并发症。",
+              "absoluteVsRelative": "绝对差异：ESPB组比PVB组高24.9个百分点（75.2% vs 50.3%）。相对风险未报告。",
+              "subgroupAndInteraction": "当前可获取内容未报告亚组分析。",
+              "sensitivity": "当前可获取内容未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心随机双盲设计。",
+                "样本量较大。",
+                "主要结局明确。"
+              ],
+              "limitations": [
+                "未报告统计方法细节。",
+                "未报告效应量和置信区间。",
+                "未报告局限性。"
+              ],
+              "biasRisks": [
+                "未报告随机化方法和分配隐藏，可能存在选择偏倚。",
+                "未报告盲法具体对象，可能存在实施偏倚。",
+                "未报告缺失数据，可能存在随访偏倚。"
+              ],
+              "certainty": "由于缺乏统计细节，证据确定性中等。",
+              "conclusionAlignment": "结论与结果一致，但未报告统计量，需谨慎。",
+              "causalBoundary": "随机对照试验可支持因果推断，但需考虑未报告的方法学细节。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于接受大型肿瘤乳腺手术的女性患者。",
+                "结果支持PVB作为首选技术。"
+              ],
+              "nonApplicability": [
+                "不适用于其他类型手术或患者群体。",
+                "不适用于非肿瘤乳腺手术。"
+              ],
+              "practiceChange": "可能支持继续使用PVB作为大型乳腺手术的首选区域镇痛技术。",
+              "canDoNow": [
+                "在大型肿瘤乳腺手术中，可优先考虑使用胸椎旁阻滞。",
+                "若使用ESPB，需注意其镇痛效果可能不如PVB，并考虑补充镇痛措施。"
+              ],
+              "cannotConclude": [
+                "不能确定ESPB的安全性优于PVB，因为未报告具体并发症发生率。",
+                "不能确定ESPB的长期结局。"
+              ],
+              "evidenceGaps": [
+                "需要报告效应量、置信区间和P值。",
+                "需要报告非劣效界值。",
+                "需要报告随机化、盲法、缺失数据等细节。",
+                "需要长期随访数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40707285/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.05.051",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.05.051",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40925922",
+          "number": "05",
+          "category": "麻醉基础研究",
+          "journal": "Nature communications",
+          "year": "2025",
+          "publishedDate": "2025-09-09",
+          "electronicPublicationDate": "2025-09-09",
+          "readingTime": "9 分钟",
+          "title": "自闭症个体的局部活动改变与神经递质特性及氯胺酮诱导的脑改变相关",
+          "originalTitle": "Local activity alterations in individuals with autism correlate with neurotransmitter properties and ketamine-induced brain changes.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "自闭症是一种与静息态脑功能改变相关的神经发育疾病。兴奋-抑制比率增加被认为是其病理机制之一，但支持功能改变背后神经传递紊乱的体内证据仍然稀缺。我们在两个独立队列中比较了自闭症个体（N = 405, N = 395）和神经典型对照（N = 473, N = 474）的局部静息态脑活动和神经递质共定位，并将其与谷氨酸能（氯胺酮）和GABA能（咪达唑仑）药物诱导的兴奋-抑制变化相关联。自闭症个体表现出局部活动的一致性降低，尤其是在默认模式网络区域。全脑差异在空间上与谷氨酸能、GABA能、多巴胺能和胆碱能神经传递重叠。NMDA拮抗剂氯胺酮诱导的功能变化与自闭症中观察到的空间模式相似。我们的研究结果表明，自闭症中一致的局部活动改变反映了广泛的神经传递紊乱，并可能通过药理学调节兴奋-抑制平衡来模拟。这些发现增进了对自闭症神经生理基础的理解。试验注册号：ACTRN12616000281493。"
+              }
+            ],
+            "fullText": "自闭症是一种与静息态脑功能改变相关的神经发育疾病。兴奋-抑制比率增加被认为是其病理机制之一，但支持功能改变背后神经传递紊乱的体内证据仍然稀缺。我们在两个独立队列中比较了自闭症个体（N = 405, N = 395）和神经典型对照（N = 473, N = 474）的局部静息态脑活动和神经递质共定位，并将其与谷氨酸能（氯胺酮）和GABA能（咪达唑仑）药物诱导的兴奋-抑制变化相关联。自闭症个体表现出局部活动的一致性降低，尤其是在默认模式网络区域。全脑差异在空间上与谷氨酸能、GABA能、多巴胺能和胆碱能神经传递重叠。NMDA拮抗剂氯胺酮诱导的功能变化与自闭症中观察到的空间模式相似。我们的研究结果表明，自闭症中一致的局部活动改变反映了广泛的神经传递紊乱，并可能通过药理学调节兴奋-抑制平衡来模拟。这些发现增进了对自闭症神经生理基础的理解。试验注册号：ACTRN12616000281493。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Grumbach P, Kasper J, Hipp JF, Forsyth A, Valk SL, Muthukumaraswamy S, Eickhoff SB, Schilbach L, et al.",
+          "citation": "Nat Commun. 2025 Sep 9;16(1):8248. doi: 10.1038/s41467-025-63857-6.",
+          "doi": "10.1038/s41467-025-63857-6",
+          "pmid": "40925922",
+          "pmcid": "PMC12420803",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "临床证据",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究为自闭症中兴奋-抑制失衡假说提供了活体证据，提示局部脑活动改变可能反映广泛的神经传递紊乱，并可能通过药物调节兴奋-抑制平衡来模拟，为理解自闭症的神经生理基础及潜在干预靶点提供了新视角。",
+          "conclusion": "自闭症个体在默认模式网络区域表现出一致的局部脑活动降低，其全脑差异与谷氨酸能、GABA能、多巴胺能和胆碱能神经传递的空间分布重叠，且NMDA拮抗剂氯胺酮诱导的功能改变与自闭症观察到的空间模式相似。",
+          "clinical": "氯胺酮（NMDA拮抗剂）诱导的脑功能改变与自闭症的空间模式相似，提示氯胺酮可能用于模拟自闭症相关的兴奋-抑制失衡，但需进一步研究其临床意义。 咪达唑仑（GABA能药物）诱导的改变与自闭症模式的相关性未在摘要中明确报告，需谨慎解读。 该研究为观察性研究，不能直接指导麻醉用药，但可能为未来研究麻醉药物对自闭症患者脑功能的影响提供线索。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性研究，使用两个独立队列（ABIDE1和ABIDE2）的静息态功能磁共振数据，并与药物fMRI试验（ACTRN12616000281493）的数据进行空间相关分析。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "individuals with autism and neurotypical controls；ABIDE1: autism N=405, controls N=473; ABIDE2: autism N=395, controls N=474"
+            },
+            {
+              "label": "干预与比较",
+              "value": "无干预（观察性研究）；对照：autism vs. neurotypical controls"
+            },
+            {
+              "label": "主要终点",
+              "value": "local resting-state brain activity (LCOR) alterations"
+            }
+          ],
+          "keyPoints": [
+            "自闭症个体在默认模式网络区域显示一致的局部活动降低。",
+            "全脑差异与谷氨酸能、GABA能、多巴胺能和胆碱能神经传递空间重叠。",
+            "氯胺酮诱导的功能改变与自闭症观察到的空间模式相似。",
+            "研究为观察性设计，不能确立因果关系。"
+          ],
+          "methods": "自闭症是一种与静息态脑功能改变相关的神经发育障碍，兴奋-抑制比率增加被认为是其病理机制之一，但活体证据仍然缺乏。本研究旨在比较自闭症个体与神经典型对照的局部静息态脑活动及其与神经递质系统的共定位，并探讨与谷氨酸能和GABA能药物诱导的兴奋-抑制变化的相关性。",
+          "results": "自闭症个体在默认模式网络区域表现出一致的局部活动降低。全脑差异与谷氨酸能、GABA能、多巴胺能和胆碱能神经传递空间重叠。氯胺酮诱导的功能改变与自闭症观察到的空间模式相似。效应量方面，空间相关分析显示r(117)=0.597（p<0.001，95%CI=[0.467,0.701]）等，但具体对应关系未在摘要中明确。",
+          "mainResults": "自闭症个体在默认模式网络区域表现出一致的局部活动降低。全脑差异与谷氨酸能、GABA能、多巴胺能和胆碱能神经传递空间重叠。氯胺酮诱导的功能改变与自闭症观察到的空间模式相似。效应量方面，空间相关分析显示r(117)=0.597（p<0.001，95%CI=[0.467,0.701]）等，但具体对应关系未在摘要中明确。",
+          "limitations": [
+            "研究为观察性设计，不能确立因果关系。",
+            "药物fMRI数据来自单独的试验，可能无法直接比较。",
+            "神经递质图谱来自健康志愿者，可能无法反映自闭症特异性分布。",
+            "队列间样本量存在差异，且存在人口统计学差异（如性别比例、FIQ）。"
+          ],
+          "practice": [
+            "氯胺酮（NMDA拮抗剂）诱导的脑功能改变与自闭症的空间模式相似，提示氯胺酮可能用于模拟自闭症相关的兴奋-抑制失衡，但需进一步研究其临床意义。",
+            "咪达唑仑（GABA能药物）诱导的改变与自闭症模式的相关性未在摘要中明确报告，需谨慎解读。",
+            "该研究为观察性研究，不能直接指导麻醉用药，但可能为未来研究麻醉药物对自闭症患者脑功能的影响提供线索。"
+          ],
+          "editor": "研究提供了自闭症局部脑活动改变与神经递质系统及氯胺酮诱导改变相关的证据，支持兴奋-抑制失衡假说。 过度解读风险：存在过度解读风险，因为观察性关联不能推断因果，且药物数据来自不同试验，神经递质图谱来自健康人群，可能不适用于自闭症个体。",
+          "whyItMatters": "该研究为自闭症中兴奋-抑制失衡假说提供了活体证据，提示局部脑活动改变可能反映广泛的神经传递紊乱，并可能通过药物调节兴奋-抑制平衡来模拟，为理解自闭症的神经生理基础及潜在干预靶点提供了新视角。",
+          "background": "自闭症是一种与静息态脑功能改变相关的神经发育障碍，兴奋-抑制比率增加被认为是其病理机制之一，但活体证据仍然缺乏。本研究旨在比较自闭症个体与神经典型对照的局部静息态脑活动及其与神经递质系统的共定位，并探讨与谷氨酸能和GABA能药物诱导的兴奋-抑制变化的相关性。",
+          "pico": {
+            "population": "individuals with autism and neurotypical controls",
+            "intervention": "无干预（观察性研究）",
+            "comparison": "autism vs. neurotypical controls",
+            "outcome": "local resting-state brain activity (LCOR) alterations"
+          },
+          "studyType": "观察性研究，使用两个独立队列（ABIDE1和ABIDE2）的静息态功能磁共振数据，并与药物fMRI试验（ACTRN12616000281493）的数据进行空间相关分析。",
+          "sampleSize": "ABIDE1: autism N=405, controls N=473; ABIDE2: autism N=395, controls N=474",
+          "primaryOutcome": "local resting-state brain activity (LCOR) alterations",
+          "effectSize": [
+            "r(117)=0.597, p<0.001, 95% CI=[0.467,0.701]",
+            "r(117)=-0.263, p=0.005, 95% CI=[-0.422,-0.087]",
+            "r(117)=-0.322, p<0.001, 95% CI=[-0.475,-0.151]",
+            "r(117)=-0.187, p=0.033, 95% CI=[-0.356,-0.008]",
+            "r(117)=-0.200, p=0.034, 95% CI=[-0.367,-0.021]",
+            "r(117)=0.195, p=0.024, 95% CI=[0.015,0.362]",
+            "r(117)=-0.332, p=0.009, 95% CI=[-0.482,-0.161]",
+            "r(117)=-0.379, p=0.004, 95% CI=[-0.523,-0.214]",
+            "r(117)=-0.248, p=0.005, 95% CI=[-0.410,-0.072]",
+            "r(117)=-0.202, p=0.024, 95% CI=[-0.368,-0.023]",
+            "r(117)=-0.241, p=0.003, 95% CI=[-0.404,-0.064]",
+            "r(117)=-0.282, p-FDR=0.032, 95% CI=[-0.434,-0.115]",
+            "r(117)=-0.338, p-FDR=0.032, 95% CI=[-0.488,-0.173]",
+            "r(117)=-0.251, p-FDR=0.037, 95% CI=[-0.402,-0.080]",
+            "r(117)=-0.305, p-FDR=0.047, 95% CI=[-0.452,-0.133]"
+          ],
+          "confidenceInterval": [
+            "[0.467,0.701]",
+            "[-0.422,-0.087]",
+            "[-0.475,-0.151]",
+            "[-0.356,-0.008]",
+            "[-0.367,-0.021]",
+            "[0.015,0.362]",
+            "[-0.482,-0.161]",
+            "[-0.523,-0.214]",
+            "[-0.410,-0.072]",
+            "[-0.368,-0.023]",
+            "[-0.404,-0.064]",
+            "[-0.434,-0.115]",
+            "[-0.488,-0.173]",
+            "[-0.402,-0.080]",
+            "[-0.452,-0.133]"
+          ],
+          "pValue": [
+            "<0.001",
+            "0.005",
+            "<0.001",
+            "0.033",
+            "0.034",
+            "0.024",
+            "0.009",
+            "0.004",
+            "0.005",
+            "0.024",
+            "0.003",
+            "0.032",
+            "0.032",
+            "0.037",
+            "0.047"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究提供了自闭症局部脑活动改变与神经递质系统及氯胺酮诱导改变相关的证据，支持兴奋-抑制失衡假说。",
+            "overinterpretationRisk": "存在过度解读风险，因为观察性关联不能推断因果，且药物数据来自不同试验，神经递质图谱来自健康人群，可能不适用于自闭症个体。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容仅包括摘要和部分全文节选，可能缺少方法细节和完整结果。",
+                "未提供完整的统计方法和结果数据，部分信息无法评价。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "自闭症个体的局部静息态脑活动改变是否与神经递质特性及氯胺酮诱导的脑改变相关？",
+              "designFit": "观察性设计适合探索关联，但无法确立因果。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "不适用（观察性研究）。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "不适用（观察性研究）。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "不适用（横断面研究）。",
+              "analysisPopulation": "ABIDE1: 自闭症N=405，对照N=473；ABIDE2: 自闭症N=395，对照N=474。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用两个独立队列，增强结果可靠性。",
+                "结合神经递质图谱和药物fMRI数据，提供多模态证据。"
+              ],
+              "concerns": [
+                "药物fMRI数据来自单独试验，可能不具可比性。",
+                "神经递质图谱来自健康志愿者，可能不适用于自闭症。",
+                "队列间人口统计学差异可能影响结果。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "空间相关分析",
+                  "purposeInStudy": "评估自闭症相关脑活动差异与神经递质系统及药物诱导改变的空间重叠。",
+                  "reportedResult": "r(117)=0.597, p<0.001, 95%CI=[0.467,0.701] 等。",
+                  "interpretation": "自闭症相关改变与神经递质分布及氯胺酮诱导改变存在显著空间相关。",
+                  "cautions": [
+                    "空间相关分析可能受平滑、配准等影响。",
+                    "相关不代表因果。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "部分结果报告了FDR校正（p-FDR），但未明确所有分析的多重比较校正。",
+              "subgroupAnalysis": "当前可获取内容未提供亚组分析。",
+              "clinicalVsStatisticalSignificance": "统计显著的空间相关可能不直接等同于临床意义，需进一步研究其功能影响。"
+            },
+            "outcomeAnalysis": {
+              "primary": "局部静息态脑活动（LCOR）改变。",
+              "secondary": [
+                "与神经递质系统的共定位。",
+                "与氯胺酮和咪达唑仑诱导的脑改变的相似性。"
+              ],
+              "safety": "不适用（观察性研究，无干预）。",
+              "absoluteVsRelative": "当前可获取内容未提供绝对效应量。",
+              "subgroupAndInteraction": "当前可获取内容未提供亚组或交互作用分析。",
+              "sensitivity": "当前可获取内容未提供敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多队列验证。",
+                "结合神经递质和药物干预数据。"
+              ],
+              "limitations": [
+                "观察性设计。",
+                "药物数据来自不同试验。",
+                "神经递质图谱来自健康人群。",
+                "人口统计学差异。"
+              ],
+              "biasRisks": [
+                "选择偏倚（队列差异）。",
+                "测量偏倚（不同扫描仪等）。",
+                "混杂偏倚（未调整变量）。"
+              ],
+              "certainty": "低至中等，因观察性设计和间接比较。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎因果解释。",
+              "causalBoundary": "观察性关联不能确立因果，药物诱导改变与自闭症模式相似不意味着因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能为自闭症神经机制研究提供参考。",
+                "可能为未来药物研究提供线索。"
+              ],
+              "nonApplicability": [
+                "不能直接用于临床麻醉实践。",
+                "不能指导自闭症患者的麻醉管理。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "可考虑在科研中进一步探索氯胺酮对自闭症脑功能的影响。"
+              ],
+              "cannotConclude": [
+                "不能得出氯胺酮对自闭症患者有益或有害的结论。",
+                "不能推断神经递质改变是自闭症的原因。"
+              ],
+              "evidenceGaps": [
+                "需要前瞻性研究验证因果关系。",
+                "需要自闭症特异性神经递质图谱。",
+                "需要直接比较药物干预在自闭症个体中的效果。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40925922/",
+            "doi": "https://doi.org/10.1038/s41467-025-63857-6",
+            "publisher": "https://doi.org/10.1038/s41467-025-63857-6",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12420803/"
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-21T23:34:24.649Z",
       "mode": "production",
