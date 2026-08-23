@@ -1,7 +1,243 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-22T23:31:22.573Z",
+  "updatedAt": "2026-08-23T23:31:10.351Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-23T23:31:10.351Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-08-28T23:31:10.351Z",
+        "to": "2026-08-23T23:31:10.351Z",
+        "candidateCount": 525,
+        "discoveryCandidateCount": 20925,
+        "unseenCount": 406,
+        "duplicateCount": 119,
+        "priorityCandidateCount": 525,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 525,
+          "retrievedCount": 525,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 286,
+            "impact-factor-stale": 7
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 29
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 406,
+          "eligibleCount": 364,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 313,
+          "clinical": 218,
+          "basic": 21,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41407861",
+          "title": "GTP释放选择性激动剂延长阿片类镇痛效果",
+          "originalTitle": "GTP release-selective agonists prolong opioid analgesic efficacy.",
+          "journal": "Nature",
+          "conclusion": "在小鼠模型中，GTP释放选择性激动剂（muzepan1和muzepan2）在低剂量下可增强并延长吗啡和芬太尼的抗伤害感受作用，且不增强芬太尼的呼吸和心脏效应。",
+          "pmid": "41407861"
+        },
+        {
+          "slug": "pmid-41266383",
+          "title": "用于肠道电生理学的植入式生物电子装置",
+          "originalTitle": "Implantable bioelectronics for gut electrophysiology.",
+          "journal": "Nature communications",
+          "conclusion": "该研究构建并验证了一种可植入生物电子装置，能够在麻醉及自由活动状态下实时记录大鼠远端结肠的神经电生理信号，为肠-脑轴神经调控策略提供了基础研究工具。",
+          "pmid": "41266383"
+        },
+        {
+          "slug": "pmid-41028712",
+          "title": "钙调蛋白结合是钙介导的TRPA1脱敏所必需的",
+          "originalTitle": "Calmodulin binding is required for calcium mediated TRPA1 desensitization.",
+          "journal": "Nature communications",
+          "conclusion": "该研究通过多种生物化学和功能学方法，发现钙调蛋白（CaM）与TRPA1远端C末端的高亲和力结合位点对于钙介导的TRPA1快速脱敏至关重要，破坏该结合会导致通道过度活跃和脱敏显著减慢。",
+          "pmid": "41028712"
+        },
+        {
+          "slug": "pmid-41076411",
+          "title": "神经肌肉阻滞剂对儿科患者气管插管质量的影响：基于网络荟萃分析和荟萃回归的系统评价",
+          "originalTitle": "Effect of neuromuscular blocking agents on tracheal intubation quality in paediatric patients: a systematic review using network meta-analysis and meta-regression.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在儿科患者中，琥珀胆碱≥1.50 mg/kg和罗库溴铵≥0.90 mg/kg可提供相似的插管条件，但并非均在60秒内实现；非去极化肌松药在年龄较小的儿童中改善插管条件的效果更显著，而不使用肌松药时新生儿和婴儿插管最困难。",
+          "pmid": "41076411"
+        },
+        {
+          "slug": "pmid-41421867",
+          "title": "重症监护病房困难气道识别（ID-ACCT）：一项多中心、基于调查的前瞻性观察性研究",
+          "originalTitle": "Identification of difficult airways in critical care units (ID-ACCT): a multicentre, survey-based prospective observational study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在英国ICU患者中，已知和预测的困难气道较为常见，但许多高风险患者并未被医护人员明确识别，且缺乏气道管理计划。",
+          "pmid": "41421867"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-22T23:31:22.573Z",
       "search": {

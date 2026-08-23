@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-22T23:31:22.573Z",
+  "updatedAt": "2026-08-23T23:31:10.351Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1073,6 +1073,46 @@
       "status": "published",
       "runId": "2026-08-22T23-31-22.573Z",
       "firstPublishedAt": "2026-08-22T23:31:22.573Z"
+    },
+    {
+      "pmid": "41407861",
+      "doi": "10.1038/s41586-025-09880-5",
+      "title": "GTP release-selective agonists prolong opioid analgesic efficacy.",
+      "status": "published",
+      "runId": "2026-08-23T23-31-10.351Z",
+      "firstPublishedAt": "2026-08-23T23:31:10.351Z"
+    },
+    {
+      "pmid": "41266383",
+      "doi": "10.1038/s41467-025-65473-w",
+      "title": "Implantable bioelectronics for gut electrophysiology.",
+      "status": "published",
+      "runId": "2026-08-23T23-31-10.351Z",
+      "firstPublishedAt": "2026-08-23T23:31:10.351Z"
+    },
+    {
+      "pmid": "41028712",
+      "doi": "10.1038/s41467-025-63767-7",
+      "title": "Calmodulin binding is required for calcium mediated TRPA1 desensitization.",
+      "status": "published",
+      "runId": "2026-08-23T23-31-10.351Z",
+      "firstPublishedAt": "2026-08-23T23:31:10.351Z"
+    },
+    {
+      "pmid": "41076411",
+      "doi": "10.1016/j.bja.2025.08.036",
+      "title": "Effect of neuromuscular blocking agents on tracheal intubation quality in paediatric patients: a systematic review using network meta-analysis and meta-regression.",
+      "status": "published",
+      "runId": "2026-08-23T23-31-10.351Z",
+      "firstPublishedAt": "2026-08-23T23:31:10.351Z"
+    },
+    {
+      "pmid": "41421867",
+      "doi": "10.1016/j.bja.2025.11.004",
+      "title": "Identification of difficult airways in critical care units (ID-ACCT): a multicentre, survey-based prospective observational study.",
+      "status": "published",
+      "runId": "2026-08-23T23-31-10.351Z",
+      "firstPublishedAt": "2026-08-23T23:31:10.351Z"
     }
   ]
 }
