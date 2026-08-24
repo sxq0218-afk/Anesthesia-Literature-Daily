@@ -1,7 +1,243 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T23:31:10.351Z",
+  "updatedAt": "2026-08-24T23:30:51.633Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-24T23:30:51.633Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-08-29T23:30:51.633Z",
+        "to": "2026-08-24T23:30:51.633Z",
+        "candidateCount": 525,
+        "discoveryCandidateCount": 20927,
+        "unseenCount": 401,
+        "duplicateCount": 124,
+        "priorityCandidateCount": 525,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 525,
+          "retrievedCount": 525,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 287,
+            "impact-factor-stale": 6
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 29
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 401,
+          "eligibleCount": 359,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 308,
+          "clinical": 214,
+          "basic": 20,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41545418",
+          "title": "基于单烷基羟胺与环辛炔化学的点击释放系统实现时空可控药物释放",
+          "originalTitle": "Spatiotemporally controlled drug release via a click-release system utilizing mono-alkyl-hydroxylamine and cyclooctyne chemistry.",
+          "journal": "Nature communications",
+          "conclusion": "本研究开发了一种基于单烷基羟胺与环辛炔反应的点击释放系统，在体外和动物模型中实现了快速、高效且时空可控的药物释放，并在肿瘤治疗和局部麻醉中展示了潜在应用价值。",
+          "pmid": "41545418"
+        },
+        {
+          "slug": "pmid-40634187",
+          "title": "视频喉镜与直接喉镜在直接喉镜技能教学中的比较：系统评价与Meta分析",
+          "originalTitle": "Videolaryngoscopy versus direct laryngoscopy for teaching direct laryngoscopy skills: a systematic review and meta-analysis.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "视频喉镜在教授直接喉镜技能时，首次尝试成功率优于直接喉镜，但总体成功率和插管时间无显著差异，提示其可作为有效的教学工具。",
+          "pmid": "40634187"
+        },
+        {
+          "slug": "pmid-41046172",
+          "title": "视频喉镜与直接喉镜用于小儿气管插管的比较：系统评价、Meta分析及试验序贯分析",
+          "originalTitle": "Videolaryngoscopy versus direct laryngoscopy for paediatric tracheal intubation: a systematic review with meta-analysis and trial sequential analysis.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在多数气道正常的小儿患者中，视频喉镜与直接喉镜在首次气管插管成功率上无显著差异，但视频喉镜可改善声门暴露，并在1岁以下婴儿中减少食管插管，然而现有证据尚不足以确证其最终效应。",
+          "pmid": "41046172"
+        },
+        {
+          "slug": "pmid-41006171",
+          "title": "术中脑电图衍生指标与术后谵妄的关联：系统评价与荟萃分析",
+          "originalTitle": "Intraoperative electroencephalogram-derived measures and their association with postoperative delirium: a systematic review and meta-analysis.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "术中脑电图衍生的α振荡和爆发抑制指标与术后谵妄风险显著相关，即使在采用专有处理脑电图引导麻醉的研究中，这种关联依然存在。",
+          "pmid": "41006171"
+        },
+        {
+          "slug": "pmid-42425793",
+          "title": "鞘内吗啡、侧方腰方肌阻滞及其联合用于剖宫产术后镇痛和恢复质量的比较：一项随机、双盲、两中心临床试验",
+          "originalTitle": "Comparison of intrathecal morphine, lateral quadratus lumborum block, and their combination for analgesia and quality of recovery after Caesarean delivery: a randomised, double-blind, two-centre clinical trial.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在剖宫产术后24小时QoR-40评分方面，侧方腰方肌阻滞（QLB）与鞘内吗啡（ITM）相比的非劣效性结果不确定；QLB可减轻术后6小时静息痛，而ITM+QLB联合方案较单用ITM进一步减轻早期静息痛、咳嗽痛及24小时最严重疼痛，但瘙痒发生率更高。",
+          "pmid": "42425793"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-23T23:31:10.351Z",
       "search": {

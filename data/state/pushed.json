@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-23T23:31:10.351Z",
+  "updatedAt": "2026-08-24T23:30:51.633Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1113,6 +1113,46 @@
       "status": "published",
       "runId": "2026-08-23T23-31-10.351Z",
       "firstPublishedAt": "2026-08-23T23:31:10.351Z"
+    },
+    {
+      "pmid": "41545418",
+      "doi": "10.1038/s41467-026-68502-4",
+      "title": "Spatiotemporally controlled drug release via a click-release system utilizing mono-alkyl-hydroxylamine and cyclooctyne chemistry.",
+      "status": "published",
+      "runId": "2026-08-24T23-30-51.633Z",
+      "firstPublishedAt": "2026-08-24T23:30:51.633Z"
+    },
+    {
+      "pmid": "40634187",
+      "doi": "10.1016/j.bja.2025.05.034",
+      "title": "Videolaryngoscopy versus direct laryngoscopy for teaching direct laryngoscopy skills: a systematic review and meta-analysis.",
+      "status": "published",
+      "runId": "2026-08-24T23-30-51.633Z",
+      "firstPublishedAt": "2026-08-24T23:30:51.633Z"
+    },
+    {
+      "pmid": "41046172",
+      "doi": "10.1016/j.bja.2025.07.094",
+      "title": "Videolaryngoscopy versus direct laryngoscopy for paediatric tracheal intubation: a systematic review with meta-analysis and trial sequential analysis.",
+      "status": "published",
+      "runId": "2026-08-24T23-30-51.633Z",
+      "firstPublishedAt": "2026-08-24T23:30:51.633Z"
+    },
+    {
+      "pmid": "41006171",
+      "doi": "10.1016/j.bja.2025.08.038",
+      "title": "Intraoperative electroencephalogram-derived measures and their association with postoperative delirium: a systematic review and meta-analysis.",
+      "status": "published",
+      "runId": "2026-08-24T23-30-51.633Z",
+      "firstPublishedAt": "2026-08-24T23:30:51.633Z"
+    },
+    {
+      "pmid": "42425793",
+      "doi": "10.1016/j.bja.2026.04.081",
+      "title": "Comparison of intrathecal morphine, lateral quadratus lumborum block, and their combination for analgesia and quality of recovery after Caesarean delivery: a randomised, double-blind, two-centre clinical trial.",
+      "status": "published",
+      "runId": "2026-08-24T23-30-51.633Z",
+      "firstPublishedAt": "2026-08-24T23:30:51.633Z"
     }
   ]
 }

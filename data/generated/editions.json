@@ -1,7 +1,1593 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T23:31:10.351Z",
+  "updatedAt": "2026-08-24T23:30:51.633Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-24T23:30:51.633Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-08-29T23:30:51.633Z",
+        "to": "2026-08-24T23:30:51.633Z",
+        "candidateCount": 525,
+        "discoveryCandidateCount": 20927,
+        "unseenCount": 401,
+        "duplicateCount": 124,
+        "priorityCandidateCount": 525,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 525,
+          "retrievedCount": 525,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 287,
+            "impact-factor-stale": 6
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 29
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Paediatric anaesthesia",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 401,
+          "eligibleCount": 359,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 308,
+          "clinical": 214,
+          "basic": 20,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 21,
+          "promptTokens": 64367,
+          "completionTokens": 21731,
+          "totalTokens": 86098
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41545418",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Nature communications",
+          "year": "2026",
+          "publishedDate": "2026-01-16",
+          "electronicPublicationDate": "2026-01-16",
+          "readingTime": "9 分钟",
+          "title": "基于单烷基羟胺与环辛炔化学的点击释放系统实现时空可控药物释放",
+          "originalTitle": "Spatiotemporally controlled drug release via a click-release system utilizing mono-alkyl-hydroxylamine and cyclooctyne chemistry.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "生物正交断键化学的进展需要对化学反应进行精确的时空控制。在本研究中，我们介绍了一种基于单烷基羟胺与环辛炔（COT）反应的点击释放策略，能够实现快速且几乎完全的货物释放。我们证明单烷基羟胺和羟胺分别与COT反应生成硝酮和肟，从而促进了一种通用且高效的释放机制。通过将单烷基羟胺与响应性可裂解基团结合，我们将其固有反应性转化为按需激活系统。在体内，该策略应用于4T1小鼠乳腺肿瘤模型，显示出与母体抗癌药物相比显著的肿瘤抑制作用。此外，在局部麻醉中，麻醉效果可通过光照调节，允许重复激活。这种点击释放系统结合了快速动力学、高释放效率和精确的时空控制，在化学生物学和药物递送方面提供了有前景的应用。"
+              }
+            ],
+            "fullText": "生物正交断键化学的进展需要对化学反应进行精确的时空控制。在本研究中，我们介绍了一种基于单烷基羟胺与环辛炔（COT）反应的点击释放策略，能够实现快速且几乎完全的货物释放。我们证明单烷基羟胺和羟胺分别与COT反应生成硝酮和肟，从而促进了一种通用且高效的释放机制。通过将单烷基羟胺与响应性可裂解基团结合，我们将其固有反应性转化为按需激活系统。在体内，该策略应用于4T1小鼠乳腺肿瘤模型，显示出与母体抗癌药物相比显著的肿瘤抑制作用。此外，在局部麻醉中，麻醉效果可通过光照调节，允许重复激活。这种点击释放系统结合了快速动力学、高释放效率和精确的时空控制，在化学生物学和药物递送方面提供了有前景的应用。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Xu X, Tong X, Shi Y, Wang X, Chen Y, Wang Y, Cheng M, Chen S, et al.",
+          "citation": "Nat Commun. 2026 Jan 16;17(1):1794. doi: 10.1038/s41467-026-68502-4.",
+          "doi": "10.1038/s41467-026-68502-4",
+          "pmid": "41545418",
+          "pmcid": "PMC12917156",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "基础研究",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "该研究提出了一种新型生物正交断键策略，通过单烷基羟胺与环辛炔反应实现快速、近乎完全的药物释放，并可通过响应性可裂解基团实现按需激活，为药物递送和化学生物学提供了新的工具。",
+          "conclusion": "本研究开发了一种基于单烷基羟胺与环辛炔反应的点击释放系统，在体外和动物模型中实现了快速、高效且时空可控的药物释放，并在肿瘤治疗和局部麻醉中展示了潜在应用价值。",
+          "clinical": "该点击释放系统可能为局部麻醉提供一种光控可重复激活的新策略，但尚处于临床前阶段。 在局部麻醉中，麻醉效果可通过光照调节，提示未来可能实现按需镇痛，但需进一步验证。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "临床前研究（基础研究）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "4T1 mouse breast tumor model (female BALB/c mice), SD rats (male) for local anesthesia；In vivo imaging: n=3 per group; antitumor efficacy: not explicitly stated; pharmacokinetics: 12 mice per group; local anesthesia: not explicitly stated"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Click-release system based on mono-alkyl-hydroxylamine and cyclooctyne (COT) for drug release; in vivo applications: tumor-targeted prodrug activation (5c + 6a) and light-controlled local anesthesia (7a + 6b)；对照：Parent anticancer drug (DOX·HCl) for tumor model; free tetracaine for local anesthesia"
+            },
+            {
+              "label": "主要终点",
+              "value": "Tumor inhibition in 4T1 mouse breast tumor model; anesthetic effect modulation by light exposure"
+            }
+          ],
+          "keyPoints": [
+            "开发了基于单烷基羟胺与环辛炔的点击释放系统。",
+            "该系统在体外实现快速、近乎完全的药物释放。",
+            "在4T1小鼠乳腺癌模型中显示显著肿瘤抑制。",
+            "在局部麻醉中，麻醉效果可通过光照调节，实现重复激活。",
+            "研究为临床前阶段，需进一步验证其安全性和有效性。"
+          ],
+          "methods": "生物正交断键化学的发展需要对化学反应进行精确的时空控制。本研究介绍了一种基于单烷基羟胺与环辛炔（COT）反应的点击释放策略，能够实现快速且近乎完全的货物释放。通过将单烷基羟胺与响应性可裂解基团偶联，可将其固有反应性转化为按需激活系统。",
+          "results": "点击释放系统表现出快速且近乎完全的货物释放。在体内，与母体抗癌药物相比，观察到显著的肿瘤抑制作用。在局部麻醉中，麻醉效果可通过光照调节，实现重复激活。当前可获取内容未提供样本量、效应量、95%置信区间和P值等具体数据。",
+          "mainResults": "点击释放系统表现出快速且近乎完全的货物释放。在体内，与母体抗癌药物相比，观察到显著的肿瘤抑制作用。在局部麻醉中，麻醉效果可通过光照调节，实现重复激活。当前可获取内容未提供样本量、效应量、95%置信区间和P值等具体数据。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。",
+            "研究为临床前动物模型，结果不能直接外推至人类。",
+            "未提供详细的统计学数据（如效应量、置信区间、P值）。"
+          ],
+          "practice": [
+            "该点击释放系统可能为局部麻醉提供一种光控可重复激活的新策略，但尚处于临床前阶段。",
+            "在局部麻醉中，麻醉效果可通过光照调节，提示未来可能实现按需镇痛，但需进一步验证。"
+          ],
+          "editor": "研究结果支持点击释放系统在肿瘤治疗和局部麻醉中的潜在应用，但证据等级较低，需更多临床前和临床研究验证。 过度解读风险：存在将动物模型结果直接推广至临床的风险，需谨慎解读。",
+          "whyItMatters": "该研究提出了一种新型生物正交断键策略，通过单烷基羟胺与环辛炔反应实现快速、近乎完全的药物释放，并可通过响应性可裂解基团实现按需激活，为药物递送和化学生物学提供了新的工具。",
+          "background": "生物正交断键化学的发展需要对化学反应进行精确的时空控制。本研究介绍了一种基于单烷基羟胺与环辛炔（COT）反应的点击释放策略，能够实现快速且近乎完全的货物释放。通过将单烷基羟胺与响应性可裂解基团偶联，可将其固有反应性转化为按需激活系统。",
+          "pico": {
+            "population": "4T1 mouse breast tumor model (female BALB/c mice), SD rats (male) for local anesthesia",
+            "intervention": "Click-release system based on mono-alkyl-hydroxylamine and cyclooctyne (COT) for drug release; in vivo applications: tumor-targeted prodrug activation (5c + 6a) and light-controlled local anesthesia (7a + 6b)",
+            "comparison": "Parent anticancer drug (DOX·HCl) for tumor model; free tetracaine for local anesthesia",
+            "outcome": "Tumor inhibition in 4T1 mouse breast tumor model; anesthetic effect modulation by light exposure"
+          },
+          "studyType": "临床前研究（基础研究）",
+          "sampleSize": "In vivo imaging: n=3 per group; antitumor efficacy: not explicitly stated; pharmacokinetics: 12 mice per group; local anesthesia: not explicitly stated",
+          "primaryOutcome": "Tumor inhibition in 4T1 mouse breast tumor model; anesthetic effect modulation by light exposure",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持点击释放系统在肿瘤治疗和局部麻醉中的潜在应用，但证据等级较低，需更多临床前和临床研究验证。",
+            "overinterpretationRisk": "存在将动物模型结果直接推广至临床的风险，需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和开放全文节选，可能遗漏方法学和结果细节。",
+                "未获取完整全文，部分数据（如样本量、统计方法）可能不完整。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "开发一种基于单烷基羟胺与环辛炔反应的点击释放系统，并评估其在体内外药物释放和疾病模型中的应用。",
+              "designFit": "研究设计为临床前实验，包括体外反应动力学、体内成像、抗肿瘤疗效和局部麻醉模型，适合回答机制和应用问题。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "提出了新型生物正交断键策略，具有快速动力学和高释放效率。",
+                "在多种体内模型中验证了应用潜力。"
+              ],
+              "concerns": [
+                "缺乏详细的统计学报告。",
+                "未提供局限性讨论。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计分析的适当性。",
+                  "cautions": [
+                    "未报告统计方法，无法评估结果的可靠性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "肿瘤抑制效果（4T1小鼠乳腺癌模型）和麻醉效果的光调控。",
+              "secondary": [
+                "反应动力学和释放效率",
+                "药物释放的体内成像",
+                "药代动力学和组织分布"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "创新性地将单烷基羟胺与环辛炔反应应用于药物释放。",
+                "在多个体内模型中展示了应用潜力。"
+              ],
+              "limitations": [
+                "缺乏详细的统计学报告。",
+                "未提供局限性讨论。",
+                "样本量信息不完整。"
+              ],
+              "biasRisks": [
+                "未报告随机化、盲法等，可能存在偏倚风险。"
+              ],
+              "certainty": "低，由于缺乏详细方法和数据。",
+              "conclusionAlignment": "结论与摘要报告的结果一致，但缺乏统计学支持。",
+              "causalBoundary": "研究为临床前实验，不能直接推断因果关系，需进一步验证。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能为肿瘤靶向治疗提供新的前药激活策略。",
+                "可能为局部麻醉提供光控可重复激活的新方法。"
+              ],
+              "nonApplicability": [
+                "动物模型结果不能直接应用于人类。",
+                "缺乏临床安全性和有效性数据。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "可作为基础研究工具，用于药物释放机制研究。"
+              ],
+              "cannotConclude": [
+                "不能得出临床用药建议。",
+                "不能确定在人类中的安全性和有效性。"
+              ],
+              "evidenceGaps": [
+                "需要更多临床前研究，包括毒理学和药代动力学。",
+                "需要临床前到临床的转化研究。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41545418/",
+            "doi": "https://doi.org/10.1038/s41467-026-68502-4",
+            "publisher": "https://doi.org/10.1038/s41467-026-68502-4",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12917156/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40634187",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-11",
+          "electronicPublicationDate": "2025-07-08",
+          "readingTime": "11 分钟",
+          "title": "视频喉镜与直接喉镜在直接喉镜技能教学中的比较：系统评价与Meta分析",
+          "originalTitle": "Videolaryngoscopy versus direct laryngoscopy for teaching direct laryngoscopy skills: a systematic review and meta-analysis.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "已确定视频喉镜相比直接喉镜能提高插管成功率和视野。然而，对默认采用视频喉镜的担忧包括其对直接喉镜技能习得的负面影响。本研究旨在评估Macintosh视频喉镜在教授直接喉镜技能方面的效用。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们系统检索了MEDLINE和Embase数据库中的相关随机对照试验、交叉研究和观察性研究。两位作者筛选摘要和全文稿件以纳入研究，然后提取并交叉核对数据。关键结局包括首次尝试成功率、总体成功率和插管时间，次要结局评估受训者信心和指导便利性。采用随机效应模型进行荟萃分析。使用Cochrane RoB-2工具评估偏倚风险。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "我们确定了21项相关研究，其中10项评估了Macintosh视频喉镜用于教授直接喉镜技能。对于首次尝试成功率，视频喉镜优于直接喉镜，风险比（RR）为1.16（[95%置信区间1.07-1.25]；5项研究；I(2)=17%）。总体插管成功率在视频喉镜和直接喉镜训练之间无显著差异（RR 1.05 [0.99-1.12]；7项研究；I(2)=27%），成功插管时间也无显著差异（平均差-7.4秒[-15.8秒至0.9秒]；7项研究；I(2)=73%）。除两项研究外，所有研究在至少一个领域存在偏倚风险。局限性包括样本量小和数据呈现异质性。敏感性分析支持视频喉镜。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "视频喉镜似乎是教授直接喉镜技能的有效工具。应考虑其作为首选教学工具的作用。"
+              },
+              {
+                "heading": "SYSTEMATIC REVIEW PROTOCOL",
+                "text": "PROSPERO (CRD42023493366)。"
+              }
+            ],
+            "fullText": "BACKGROUND: 已确定视频喉镜相比直接喉镜能提高插管成功率和视野。然而，对默认采用视频喉镜的担忧包括其对直接喉镜技能习得的负面影响。本研究旨在评估Macintosh视频喉镜在教授直接喉镜技能方面的效用。 METHODS: 我们系统检索了MEDLINE和Embase数据库中的相关随机对照试验、交叉研究和观察性研究。两位作者筛选摘要和全文稿件以纳入研究，然后提取并交叉核对数据。关键结局包括首次尝试成功率、总体成功率和插管时间，次要结局评估受训者信心和指导便利性。采用随机效应模型进行荟萃分析。使用Cochrane RoB-2工具评估偏倚风险。 RESULTS: 我们确定了21项相关研究，其中10项评估了Macintosh视频喉镜用于教授直接喉镜技能。对于首次尝试成功率，视频喉镜优于直接喉镜，风险比（RR）为1.16（[95%置信区间1.07-1.25]；5项研究；I(2)=17%）。总体插管成功率在视频喉镜和直接喉镜训练之间无显著差异（RR 1.05 [0.99-1.12]；7项研究；I(2)=27%），成功插管时间也无显著差异（平均差-7.4秒[-15.8秒至0.9秒]；7项研究；I(2)=73%）。除两项研究外，所有研究在至少一个领域存在偏倚风险。局限性包括样本量小和数据呈现异质性。敏感性分析支持视频喉镜。 CONCLUSIONS: 视频喉镜似乎是教授直接喉镜技能的有效工具。应考虑其作为首选教学工具的作用。 SYSTEMATIC REVIEW PROTOCOL: PROSPERO (CRD42023493366)。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Gunning SGS, Urwin D, Cook TM, Hansel J",
+          "citation": "Br J Anaesth. 2025 Nov;135(5):1397-1409. doi: 10.1016/j.bja.2025.05.034. Epub 2025 Jul 8.",
+          "doi": "10.1016/j.bja.2025.05.034",
+          "pmid": "40634187",
+          "pmcid": "PMC12597376",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Meta-Analysis",
+            "Systematic Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "气道管理",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "随着视频喉镜的普及，其对直接喉镜技能习得的潜在负面影响成为关注焦点。本研究评估了Macintosh视频喉镜在直接喉镜教学中的价值，为优化气道管理培训策略提供了证据。",
+          "conclusion": "视频喉镜在教授直接喉镜技能时，首次尝试成功率优于直接喉镜，但总体成功率和插管时间无显著差异，提示其可作为有效的教学工具。",
+          "clinical": "视频喉镜可作为直接喉镜技能教学的有效辅助工具，可能提高学员首次尝试成功率。 在教学中引入视频喉镜可能有助于提升学员信心和指导便利性，但需注意其对直接喉镜技能习得的长期影响。 鉴于总体成功率和插管时间无显著差异，视频喉镜教学可能不会显著改变最终技能水平，但可提供即时反馈优势。",
+          "evidence": "中等偏高",
+          "score": 71,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 23,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价与Meta分析，检索MEDLINE和Embase数据库，纳入随机对照试验、交叉研究和观察性研究。使用随机效应模型进行Meta分析，采用Cochrane RoB-2工具评估偏倚风险。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "当前可获取内容未提供该数据。；21 relevant studies, 10 of which assessed Macintosh videolaryngoscopy for teaching direct laryngoscopy"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Macintosh videolaryngoscopy for teaching direct laryngoscopy；对照：direct laryngoscopy"
+            },
+            {
+              "label": "主要终点",
+              "value": "First-attempt success, overall success, and time to intubation"
+            }
+          ],
+          "keyPoints": [
+            "视频喉镜教学显著提高首次尝试成功率（RR=1.16，95%CI 1.07-1.25）。",
+            "总体插管成功率（RR=1.05，95%CI 0.99-1.12）和插管时间（MD=-7.4秒，95%CI -15.8至0.9秒）无显著差异。",
+            "多数研究存在偏倚风险，样本量小且数据异质性高。",
+            "视频喉镜可能是有效的直接喉镜教学工具，但需进一步研究确认其长期影响。"
+          ],
+          "methods": "已证实视频喉镜可提高插管成功率和声门视野，但对其默认使用可能对直接喉镜技能习得产生负面影响存在担忧。本研究旨在评估Macintosh视频喉镜在教授直接喉镜技能中的效用。",
+          "results": "共纳入21项相关研究，其中10项评估了Macintosh视频喉镜用于直接喉镜教学。首次尝试成功率方面，视频喉镜优于直接喉镜（RR=1.16，95%CI 1.07-1.25；5项研究；I²=17%）。总体插管成功率无显著差异（RR=1.05，95%CI 0.99-1.12；7项研究；I²=27%），成功插管时间也无显著差异（均差=-7.4秒，95%CI -15.8秒至0.9秒；7项研究；I²=73%）。所有研究除两项外，至少在一个领域存在偏倚风险担忧。",
+          "mainResults": "共纳入21项相关研究，其中10项评估了Macintosh视频喉镜用于直接喉镜教学。首次尝试成功率方面，视频喉镜优于直接喉镜（RR=1.16，95%CI 1.07-1.25；5项研究；I²=17%）。总体插管成功率无显著差异（RR=1.05，95%CI 0.99-1.12；7项研究；I²=27%），成功插管时间也无显著差异（均差=-7.4秒，95%CI -15.8秒至0.9秒；7项研究；I²=73%）。所有研究除两项外，至少在一个领域存在偏倚风险担忧。",
+          "limitations": [
+            "样本量较小",
+            "数据呈现异质性",
+            "多数研究存在偏倚风险担忧",
+            "当前可获取内容未提供亚组分析结果。"
+          ],
+          "practice": [
+            "视频喉镜可作为直接喉镜技能教学的有效辅助工具，可能提高学员首次尝试成功率。",
+            "在教学中引入视频喉镜可能有助于提升学员信心和指导便利性，但需注意其对直接喉镜技能习得的长期影响。",
+            "鉴于总体成功率和插管时间无显著差异，视频喉镜教学可能不会显著改变最终技能水平，但可提供即时反馈优势。"
+          ],
+          "editor": "Meta分析显示首次尝试成功率有统计学显著改善（RR=1.16，95%CI 1.07-1.25），但总体成功率和插管时间无显著差异，支持视频喉镜作为教学工具的潜在价值。 过度解读风险：研究结论基于观察性关联，且存在偏倚风险和异质性，需谨慎解读。不能直接推断视频喉镜应作为首选教学工具，需更多高质量研究验证。",
+          "whyItMatters": "随着视频喉镜的普及，其对直接喉镜技能习得的潜在负面影响成为关注焦点。本研究评估了Macintosh视频喉镜在直接喉镜教学中的价值，为优化气道管理培训策略提供了证据。",
+          "background": "已证实视频喉镜可提高插管成功率和声门视野，但对其默认使用可能对直接喉镜技能习得产生负面影响存在担忧。本研究旨在评估Macintosh视频喉镜在教授直接喉镜技能中的效用。",
+          "pico": {
+            "population": "当前可获取内容未提供该数据。",
+            "intervention": "Macintosh videolaryngoscopy for teaching direct laryngoscopy",
+            "comparison": "direct laryngoscopy",
+            "outcome": "First-attempt success, overall success, and time to intubation"
+          },
+          "studyType": "系统评价与Meta分析，检索MEDLINE和Embase数据库，纳入随机对照试验、交叉研究和观察性研究。使用随机效应模型进行Meta分析，采用Cochrane RoB-2工具评估偏倚风险。",
+          "sampleSize": "21 relevant studies, 10 of which assessed Macintosh videolaryngoscopy for teaching direct laryngoscopy",
+          "primaryOutcome": "First-attempt success, overall success, and time to intubation",
+          "effectSize": [
+            "RR 1.16",
+            "RR 1.05",
+            "mean difference -7.4 s"
+          ],
+          "confidenceInterval": [
+            "1.07-1.25",
+            "0.99-1.12",
+            "-15.8 s to 0.9 s"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "Meta分析显示首次尝试成功率有统计学显著改善（RR=1.16，95%CI 1.07-1.25），但总体成功率和插管时间无显著差异，支持视频喉镜作为教学工具的潜在价值。",
+            "overinterpretationRisk": "研究结论基于观察性关联，且存在偏倚风险和异质性，需谨慎解读。不能直接推断视频喉镜应作为首选教学工具，需更多高质量研究验证。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text",
+              "limitations": [
+                "当前可获取内容仅包括摘要和部分结构化抽取信息，未提供全文详细数据。",
+                "未提供具体纳入研究特征、偏倚评估细节、敏感性分析结果等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估Macintosh视频喉镜在教授直接喉镜技能中的效用。",
+              "designFit": "系统评价与Meta分析适合汇总现有证据，但受限于原始研究质量。",
+              "eligibility": "纳入随机对照试验、交叉研究和观察性研究，具体标准未提供。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "系统检索MEDLINE和Embase数据库",
+                "双人筛选和交叉核对数据",
+                "使用随机效应模型和Cochrane RoB-2工具"
+              ],
+              "concerns": [
+                "多数研究存在偏倚风险",
+                "样本量小",
+                "数据呈现异质性"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "meta-random-effects",
+                  "name": "随机效应Meta分析",
+                  "purposeInStudy": "汇总不同研究间的效应量，考虑研究间异质性。",
+                  "reportedResult": "首次尝试成功率RR=1.16（95%CI 1.07-1.25）；总体成功率RR=1.05（95%CI 0.99-1.12）；插管时间MD=-7.4秒（95%CI -15.8至0.9秒）。",
+                  "interpretation": "首次尝试成功率有统计学显著差异，但总体成功率和插管时间无显著差异。",
+                  "cautions": [
+                    "异质性I²值分别为17%、27%、73%，插管时间异质性较高。",
+                    "多数研究偏倚风险担忧可能影响结果可靠性。"
+                  ],
+                  "standardExplanation": "汇总允许真实效应在研究间不同的证据；需结合异质性、预测区间和研究质量解释。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "首次尝试成功率的统计学差异（RR=1.16）可能具有临床意义，但总体成功率和插管时间无显著差异，提示临床获益有限。"
+            },
+            "outcomeAnalysis": {
+              "primary": "首次尝试成功率、总体成功率、插管时间。",
+              "secondary": [
+                "学员信心",
+                "指导便利性"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "相对效应量（RR）已报告，但绝对风险差异未提供。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "敏感性分析倾向于视频喉镜，但具体结果未提供。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统检索策略明确",
+                "双人筛选和数据提取",
+                "使用标准偏倚风险评估工具"
+              ],
+              "limitations": [
+                "样本量小",
+                "数据异质性高",
+                "多数研究偏倚风险担忧"
+              ],
+              "biasRisks": [
+                "多数研究至少一个领域存在偏倚风险担忧",
+                "具体偏倚类型未详细说明"
+              ],
+              "certainty": "证据确定性未明确评估，但基于偏倚风险和异质性，确定性可能较低。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎解读。",
+              "causalBoundary": "观察性关联，不能推断因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于直接喉镜技能教学场景",
+                "可能适用于初学者培训"
+              ],
+              "nonApplicability": [
+                "不适用于评估长期技能保留",
+                "不适用于临床操作效果比较"
+              ],
+              "practiceChange": "当前证据不足以支持立即改变教学实践，但可考虑将视频喉镜作为辅助教学工具。",
+              "canDoNow": [
+                "在教学中可尝试使用视频喉镜提供实时反馈",
+                "可结合传统直接喉镜教学以平衡技能习得"
+              ],
+              "cannotConclude": [
+                "不能确定视频喉镜是否优于传统教学",
+                "不能确定对直接喉镜技能长期习得的影响"
+              ],
+              "evidenceGaps": [
+                "需要更大样本、高质量随机对照试验",
+                "需要评估长期技能保留和临床转化",
+                "需要标准化结局定义和报告"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40634187/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.05.034",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.05.034",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12597376/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41046172",
+          "number": "03",
+          "category": "气道管理",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-11",
+          "electronicPublicationDate": "2025-10-03",
+          "readingTime": "13 分钟",
+          "title": "视频喉镜与直接喉镜用于小儿气管插管的比较：系统评价、Meta分析及试验序贯分析",
+          "originalTitle": "Videolaryngoscopy versus direct laryngoscopy for paediatric tracheal intubation: a systematic review with meta-analysis and trial sequential analysis.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "小儿气管插管由于解剖和生理特点而面临独特的挑战。多次插管尝试会增加严重并发症的风险；因此，实现高首次成功率至关重要。视频喉镜（VL）是直接喉镜（DL）的一种替代方法，但其在小儿实践中的相对疗效、安全性和临床影响仍在研究中。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "本系统评价和荟萃分析评估了VL与DL在小儿气管插管中的应用，重点关注首次尝试成功率、声门可视化、插管时间和关键事件。检索了八个数据库。纳入比较VL和DL在儿科患者（<16岁）中的随机对照试验（RCT）。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在22221篇筛选的文章中，53项随机对照试验（4887名患者）符合纳入标准。VL和DL在首次尝试气管插管成功率方面相当，无统计学显著差异（风险比：1.03，95%置信区间[95% CI]：0.99-1.07，P=0.18）。根据推荐分级评估、发展和评价标准，证据确定性被评为高。VL的插管时间稍长（平均差异：+3秒，95% CI：0.1-5.4）。VL在所有儿科年龄组中改善了声门可视化（声门开口百分比评分，平均差异：9.8%，95% CI：3.2-16.4，P<0.01），并在1岁以下儿童中减少了食管插管（风险比：0.16，95% CI：0.06-0.40，P<0.01）。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在大多数气道正常的儿科患者中，VL和DL在实现首次尝试气管插管成功率方面未观察到显著差异。VL改善了声门可视化，并且在1岁以下患者中减少了食管插管，但证据确定性较低。试验序贯分析表明，现有数据仍不足以确认最终效果。系统评价方案：PROSPERO（CRD42024498524）。"
+              }
+            ],
+            "fullText": "BACKGROUND: 小儿气管插管由于解剖和生理特点而面临独特的挑战。多次插管尝试会增加严重并发症的风险；因此，实现高首次成功率至关重要。视频喉镜（VL）是直接喉镜（DL）的一种替代方法，但其在小儿实践中的相对疗效、安全性和临床影响仍在研究中。 METHODS: 本系统评价和荟萃分析评估了VL与DL在小儿气管插管中的应用，重点关注首次尝试成功率、声门可视化、插管时间和关键事件。检索了八个数据库。纳入比较VL和DL在儿科患者（<16岁）中的随机对照试验（RCT）。 RESULTS: 在22221篇筛选的文章中，53项随机对照试验（4887名患者）符合纳入标准。VL和DL在首次尝试气管插管成功率方面相当，无统计学显著差异（风险比：1.03，95%置信区间[95% CI]：0.99-1.07，P=0.18）。根据推荐分级评估、发展和评价标准，证据确定性被评为高。VL的插管时间稍长（平均差异：+3秒，95% CI：0.1-5.4）。VL在所有儿科年龄组中改善了声门可视化（声门开口百分比评分，平均差异：9.8%，95% CI：3.2-16.4，P<0.01），并在1岁以下儿童中减少了食管插管（风险比：0.16，95% CI：0.06-0.40，P<0.01）。 CONCLUSIONS: 在大多数气道正常的儿科患者中，VL和DL在实现首次尝试气管插管成功率方面未观察到显著差异。VL改善了声门可视化，并且在1岁以下患者中减少了食管插管，但证据确定性较低。试验序贯分析表明，现有数据仍不足以确认最终效果。系统评价方案：PROSPERO（CRD42024498524）。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Koepp-Medina G, Lusardi AC, Di Fonzo B, Huber M, Afshari A, Bonfiglio R, Zimmermann L, Bohnenblust V, et al.",
+          "citation": "Br J Anaesth. 2025 Nov;135(5):1486-1498. doi: 10.1016/j.bja.2025.07.094. Epub 2025 Oct 3.",
+          "doi": "10.1016/j.bja.2025.07.094",
+          "pmid": "41046172",
+          "pmcid": "PMC12597347",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Meta-Analysis",
+            "Systematic Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "气道管理",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "小儿气管插管因解剖和生理特点具有挑战性，多次插管尝试增加严重并发症风险。视频喉镜作为直接喉镜的替代方案，其在小儿中的有效性和安全性尚不明确，本研究通过系统评价和Meta分析提供了当前证据的综合评估，对临床实践和未来研究具有指导意义。",
+          "conclusion": "在多数气道正常的小儿患者中，视频喉镜与直接喉镜在首次气管插管成功率上无显著差异，但视频喉镜可改善声门暴露，并在1岁以下婴儿中减少食管插管，然而现有证据尚不足以确证其最终效应。",
+          "clinical": "在多数气道正常的小儿患者中，VL与DL在首次插管成功率上无显著差异，临床医生可根据具体情况选择设备。 VL可改善声门暴露，可能有助于教学或困难气道管理，但插管时间略长，需权衡利弊。 在1岁以下婴儿中，VL可能减少食管插管，但证据确定性低，需谨慎解读。 现有证据不足以支持VL作为小儿插管的常规首选，需更多高质量研究。",
+          "evidence": "中等偏高",
+          "score": 70,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 23,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价和Meta分析，包含试验序贯分析（TSA），纳入随机对照试验（RCTs），检索8个数据库。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Paediatric patients (<16 yr) requiring orotracheal intubation in elective or emergency in-hospital settings；53 RCTs (4887 patients)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Videolaryngoscopy (VL)；对照：Direct laryngoscopy (DL)"
+            },
+            {
+              "label": "主要终点",
+              "value": "First-attempt tracheal intubation success rate"
+            }
+          ],
+          "keyPoints": [
+            "53项RCT，4887例患者，比较VL与DL在小儿气管插管中的应用。",
+            "首次插管成功率无显著差异（RR=1.03，95%CI：0.99-1.07，P=0.18）。",
+            "VL插管时间略长（MD=+3秒，95%CI：0.1-5.4）。",
+            "VL改善声门暴露（POGO评分MD=9.8%，95%CI：3.2-16.4，P<0.01）。",
+            "VL在1岁以下婴儿中减少食管插管（RR=0.16，95%CI：0.06-0.40，P<0.01）。"
+          ],
+          "methods": "小儿气管插管因解剖和生理特点具有独特挑战，多次插管尝试会增加严重并发症风险，因此首次插管成功至关重要。视频喉镜（VL）是直接喉镜（DL）的替代方案，但其在小儿实践中的相对有效性、安全性和临床影响仍在研究中。",
+          "results": "共纳入53项RCT（4887例患者）。VL与DL的首次气管插管成功率无统计学显著差异（RR=1.03，95%CI：0.99-1.07，P=0.18），证据确定性高（GRADE标准）。VL的插管时间略长（MD=+3秒，95%CI：0.1-5.4）。VL在所有年龄组中改善了声门暴露（POGO评分MD=9.8%，95%CI：3.2-16.4，P<0.01），并在1岁以下儿童中减少了食管插管（RR=0.16，95%CI：0.06-0.40，P<0.01）。试验序贯分析显示现有数据不足以确证最终效应。",
+          "mainResults": "共纳入53项RCT（4887例患者）。VL与DL的首次气管插管成功率无统计学显著差异（RR=1.03，95%CI：0.99-1.07，P=0.18），证据确定性高（GRADE标准）。VL的插管时间略长（MD=+3秒，95%CI：0.1-5.4）。VL在所有年龄组中改善了声门暴露（POGO评分MD=9.8%，95%CI：3.2-16.4，P<0.01），并在1岁以下儿童中减少了食管插管（RR=0.16，95%CI：0.06-0.40，P<0.01）。试验序贯分析显示现有数据不足以确证最终效应。",
+          "limitations": [
+            "各试验在结局定义和测量工具上存在异质性。",
+            "RCTs常排除困难气道和危重患儿，存在选择偏倚。",
+            "VL设备、镜片类型和操作者经验存在差异。",
+            "缺乏操作者经验的报告，无法进行分层分析。",
+            "现有数据不足以确证最终效应（TSA提示）。"
+          ],
+          "practice": [
+            "在多数气道正常的小儿患者中，VL与DL在首次插管成功率上无显著差异，临床医生可根据具体情况选择设备。",
+            "VL可改善声门暴露，可能有助于教学或困难气道管理，但插管时间略长，需权衡利弊。",
+            "在1岁以下婴儿中，VL可能减少食管插管，但证据确定性低，需谨慎解读。",
+            "现有证据不足以支持VL作为小儿插管的常规首选，需更多高质量研究。"
+          ],
+          "editor": "研究为系统评价和Meta分析，证据等级较高，主要结局（首次插管成功率）的效应估计精确（95%CI较窄），且证据确定性评为高。 过度解读风险：尽管VL在声门暴露和婴儿食管插管方面有改善，但首次插管成功率无差异，且TSA提示证据不足，需避免过度解读为VL优于DL。",
+          "whyItMatters": "小儿气管插管因解剖和生理特点具有挑战性，多次插管尝试增加严重并发症风险。视频喉镜作为直接喉镜的替代方案，其在小儿中的有效性和安全性尚不明确，本研究通过系统评价和Meta分析提供了当前证据的综合评估，对临床实践和未来研究具有指导意义。",
+          "background": "小儿气管插管因解剖和生理特点具有独特挑战，多次插管尝试会增加严重并发症风险，因此首次插管成功至关重要。视频喉镜（VL）是直接喉镜（DL）的替代方案，但其在小儿实践中的相对有效性、安全性和临床影响仍在研究中。",
+          "pico": {
+            "population": "Paediatric patients (<16 yr) requiring orotracheal intubation in elective or emergency in-hospital settings",
+            "intervention": "Videolaryngoscopy (VL)",
+            "comparison": "Direct laryngoscopy (DL)",
+            "outcome": "First-attempt tracheal intubation success rate"
+          },
+          "studyType": "系统评价和Meta分析，包含试验序贯分析（TSA），纳入随机对照试验（RCTs），检索8个数据库。",
+          "sampleSize": "53 RCTs (4887 patients)",
+          "primaryOutcome": "First-attempt tracheal intubation success rate",
+          "effectSize": [
+            "RR: 1.03",
+            "MD: +3 s",
+            "MD: 9.8%",
+            "RR: 0.16"
+          ],
+          "confidenceInterval": [
+            "95% CI: 0.99-1.07",
+            "95% CI: 0.1-5.4",
+            "95% CI: 3.2-16.4",
+            "95% CI: 0.06-0.40"
+          ],
+          "pValue": [
+            "P=0.18",
+            "P<0.01",
+            "P<0.01"
+          ],
+          "adverseEvents": "No significant differences in first-attempt success; VL reduced oesophageal intubation in infants <1 yr; no other adverse events reported in the abstract.",
+          "aiAssessment": {
+            "support": "研究为系统评价和Meta分析，证据等级较高，主要结局（首次插管成功率）的效应估计精确（95%CI较窄），且证据确定性评为高。",
+            "overinterpretationRisk": "尽管VL在声门暴露和婴儿食管插管方面有改善，但首次插管成功率无差异，且TSA提示证据不足，需避免过度解读为VL优于DL。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容仅包括摘要和部分全文节选，未提供完整的方法学细节（如随机化方法、分配隐藏、盲法等）。",
+                "未提供各结局的完整数据（如并发症发生率的具体数值）。",
+                "未提供亚组分析的详细结果（除1岁以下婴儿的食管插管外）。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "视频喉镜与直接喉镜在小儿气管插管中的比较有效性、安全性和临床影响。",
+              "designFit": "系统评价和Meta分析适用于汇总多个RCT的证据，提供更精确的效应估计。",
+              "eligibility": "纳入比较VL和DL的RCT，研究对象为<16岁儿科患者，包括择期或急诊院内环境。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "系统评价和Meta分析，证据等级较高。",
+                "检索8个数据库，纳入53项RCT，样本量较大。",
+                "使用GRADE评估证据确定性。",
+                "进行了试验序贯分析（TSA）以评估证据充分性。"
+              ],
+              "concerns": [
+                "各试验在结局定义和测量工具上存在异质性。",
+                "RCTs常排除困难气道和危重患儿，限制外推性。",
+                "VL设备、镜片类型和操作者经验存在差异。",
+                "缺乏操作者经验的报告，无法进行分层分析。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "meta-random-effects",
+                  "name": "随机效应Meta分析",
+                  "purposeInStudy": "汇总各RCT的效应估计，考虑研究间异质性。",
+                  "reportedResult": "首次插管成功率RR=1.03（95%CI：0.99-1.07，P=0.18）；插管时间MD=+3秒（95%CI：0.1-5.4）；POGO评分MD=9.8%（95%CI：3.2-16.4，P<0.01）；1岁以下婴儿食管插管RR=0.16（95%CI：0.06-0.40，P<0.01）。",
+                  "interpretation": "VL与DL在首次插管成功率上无统计学差异；VL改善声门暴露，但插管时间略长；VL在婴儿中减少食管插管。",
+                  "cautions": [
+                    "异质性可能影响合并结果的可靠性。",
+                    "TSA提示现有证据不足以确证最终效应。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "亚组分析显示，在1岁以下儿童中，VL减少了食管插管（RR=0.16，95%CI：0.06-0.40，P<0.01）。其他亚组结果未在摘要中报告。",
+              "clinicalVsStatisticalSignificance": "首次插管成功率无统计学差异，但临床意义可能因设备可用性和操作者经验而异；VL改善声门暴露和减少婴儿食管插管具有统计学意义，但临床获益需结合证据确定性（低）谨慎解读。"
+            },
+            "outcomeAnalysis": {
+              "primary": "首次气管插管成功率：VL与DL无显著差异（RR=1.03，95%CI：0.99-1.07，P=0.18），证据确定性高。",
+              "secondary": [
+                "插管时间：VL略长（MD=+3秒，95%CI：0.1-5.4）。",
+                "声门暴露（POGO评分）：VL改善（MD=9.8%，95%CI：3.2-16.4，P<0.01）。",
+                "食管插管：在1岁以下儿童中VL减少（RR=0.16，95%CI：0.06-0.40，P<0.01）。",
+                "其他次要结局（并发症、危及生命事件等）的具体数据未在摘要中报告。"
+              ],
+              "safety": "摘要中未报告严重不良事件的具体数据，但VL在婴儿中减少食管插管可能降低相关风险。",
+              "absoluteVsRelative": "相对效应（RR）和绝对效应（如插管时间MD）均有报告，但未提供绝对风险差。",
+              "subgroupAndInteraction": "仅报告了1岁以下婴儿的亚组结果（食管插管减少），其他亚组未报告。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统评价和Meta分析，证据等级较高。",
+                "检索8个数据库，纳入53项RCT，样本量较大。",
+                "使用GRADE评估证据确定性。",
+                "进行了试验序贯分析（TSA）以评估证据充分性。"
+              ],
+              "limitations": [
+                "各试验在结局定义和测量工具上存在异质性。",
+                "RCTs常排除困难气道和危重患儿，限制外推性。",
+                "VL设备、镜片类型和操作者经验存在差异。",
+                "缺乏操作者经验的报告，无法进行分层分析。",
+                "现有数据不足以确证最终效应（TSA提示）。"
+              ],
+              "biasRisks": [
+                "选择偏倚：RCTs可能排除困难气道和危重患儿。",
+                "实施偏倚：VL和DL的操作者经验可能不同。",
+                "检测偏倚：结局定义和测量工具不一致。"
+              ],
+              "certainty": "主要结局（首次插管成功率）证据确定性高（GRADE），但次要结局（如食管插管）证据确定性低。",
+              "conclusionAlignment": "结论与结果一致，但TSA提示证据不足，需谨慎解读。",
+              "causalBoundary": "由于是系统评价和Meta分析，不能建立因果关系，只能提供关联证据。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于多数气道正常的儿科患者（<16岁）在择期或急诊院内环境中的气管插管。",
+                "VL可改善声门暴露，可能有助于教学或困难气道管理。",
+                "在1岁以下婴儿中，VL可能减少食管插管。"
+              ],
+              "nonApplicability": [
+                "不适用于困难气道或危重患儿，因为RCTs常排除这些人群。",
+                "不适用于操作者经验不足的情况，因为缺乏相关分层分析。"
+              ],
+              "practiceChange": "当前证据不支持将VL作为小儿插管的常规首选，但可考虑在特定情况（如声门暴露困难或婴儿）中使用。",
+              "canDoNow": [
+                "临床医生可根据具体情况选择VL或DL，因为首次插管成功率无显著差异。",
+                "在1岁以下婴儿中，可考虑使用VL以减少食管插管风险。"
+              ],
+              "cannotConclude": [
+                "不能确定VL在困难气道或危重患儿中的效果。",
+                "不能确定VL对严重并发症（如心脏骤停）的影响。",
+                "不能确定VL的长期临床获益。"
+              ],
+              "evidenceGaps": [
+                "需要更多针对困难气道和危重患儿的研究。",
+                "需要标准化结局定义和测量工具。",
+                "需要报告操作者经验并进行分层分析。",
+                "需要更大样本量的研究以确证最终效应（TSA提示）。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41046172/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.07.094",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.07.094",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12597347/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41006171",
+          "number": "04",
+          "category": "老年围术期",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-12",
+          "electronicPublicationDate": "2025-09-26",
+          "readingTime": "11 分钟",
+          "title": "术中脑电图衍生指标与术后谵妄的关联：系统评价与荟萃分析",
+          "originalTitle": "Intraoperative electroencephalogram-derived measures and their association with postoperative delirium: a systematic review and meta-analysis.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "术后谵妄（POD）是老年手术人群中常见且严重的并发症。术中脑电图可能有助于识别有风险的患者。专有的处理脑电图（pEEG）设备并非为识别POD风险而开发，使用此类设备的研究可能会混淆识别与POD相关的非专有脑电图衍生指标的尝试。我们对非专有术中脑电图衍生指标及其与POD的关联进行了系统评价，并进行了排除使用pEEG引导麻醉的研究的二次分析。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "本评价遵循PRISMA指南和人群、指标测试、目标结局（PIT）框架。方案已在PROSPERO前瞻性注册（ID：CRD42024564983）。检索了七个数据库，截止至2025年5月30日。符合条件的研究报告了术中脑电图衍生指标和POD发生率。对三项或以上研究报告的指标进行了荟萃分析。使用预后研究质量工具评估偏倚风险。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "共纳入42项研究（13115名患者），POD的平均发生率为18.8%。确定了49项脑电图衍生指标，包括时域、频域和功能连接性指标。荟萃分析发现，术中α和δ平均功率较低、α峰值频率较低以及频谱边缘频率较低与POD显著相关。在非pEEG引导的研究中，δ平均功率与POD无显著相关性。爆发抑制的存在和持续时间均与POD相关。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "α振荡和爆发抑制指标似乎是POD易感性的稳健指标，即使在存在pEEG引导麻醉的情况下也是如此。使用pEEG引导麻醉并未消除这些指标与POD之间的关联。"
+              },
+              {
+                "heading": "SYSTEMATIC REVIEW PROTOCOL",
+                "text": "PROSPERO（CRD42024564983）。"
+              }
+            ],
+            "fullText": "BACKGROUND: 术后谵妄（POD）是老年手术人群中常见且严重的并发症。术中脑电图可能有助于识别有风险的患者。专有的处理脑电图（pEEG）设备并非为识别POD风险而开发，使用此类设备的研究可能会混淆识别与POD相关的非专有脑电图衍生指标的尝试。我们对非专有术中脑电图衍生指标及其与POD的关联进行了系统评价，并进行了排除使用pEEG引导麻醉的研究的二次分析。METHODS: 本评价遵循PRISMA指南和人群、指标测试、目标结局（PIT）框架。方案已在PROSPERO前瞻性注册（ID：CRD42024564983）。检索了七个数据库，截止至2025年5月30日。符合条件的研究报告了术中脑电图衍生指标和POD发生率。对三项或以上研究报告的指标进行了荟萃分析。使用预后研究质量工具评估偏倚风险。RESULTS: 共纳入42项研究（13115名患者），POD的平均发生率为18.8%。确定了49项脑电图衍生指标，包括时域、频域和功能连接性指标。荟萃分析发现，术中α和δ平均功率较低、α峰值频率较低以及频谱边缘频率较低与POD显著相关。在非pEEG引导的研究中，δ平均功率与POD无显著相关性。爆发抑制的存在和持续时间均与POD相关。CONCLUSIONS: α振荡和爆发抑制指标似乎是POD易感性的稳健指标，即使在存在pEEG引导麻醉的情况下也是如此。使用pEEG引导麻醉并未消除这些指标与POD之间的关联。SYSTEMATIC REVIEW PROTOCOL: PROSPERO（CRD42024564983）。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Xu A, Arnaout B, Scott DA, McGuigan S",
+          "citation": "Br J Anaesth. 2025 Dec;135(6):1684-1703. doi: 10.1016/j.bja.2025.08.038. Epub 2025 Sep 26.",
+          "doi": "10.1016/j.bja.2025.08.038",
+          "pmid": "41006171",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Meta-Analysis",
+            "Systematic Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "老年围术期",
+            "Journal Article",
+            "Meta-Analysis"
+          ],
+          "question": "术后谵妄在老年手术人群中常见且严重，术中脑电图可能有助于识别高风险患者。该研究聚焦于非专有脑电图衍生指标，为临床监测和风险分层提供了潜在依据。",
+          "conclusion": "术中脑电图衍生的α振荡和爆发抑制指标与术后谵妄风险显著相关，即使在采用专有处理脑电图引导麻醉的研究中，这种关联依然存在。",
+          "clinical": "术中脑电图α振荡和爆发抑制指标可能有助于识别术后谵妄高风险患者。 使用pEEG引导麻醉并未消除这些指标与谵妄的关联，提示非专有指标可能具有额外价值。",
+          "evidence": "中等偏高",
+          "score": 68,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 23,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价与荟萃分析，遵循PRISMA指南和PIT框架，方案前瞻性注册于PROSPERO（CRD42024564983），检索7个数据库至2025年5月30日。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Older surgical populations；13115 patients (42 studies)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Intraoperative EEG-derived measures；对照：Not applicable (systematic review)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Postoperative delirium (POD) incidence"
+            }
+          ],
+          "keyPoints": [
+            "42项研究，13115例患者，术后谵妄平均发生率18.8%。",
+            "α和δ平均功率降低、α峰值频率降低、谱边缘频率降低与术后谵妄显著相关。",
+            "爆发抑制的存在和持续时间与术后谵妄相关。",
+            "非pEEG引导研究中δ平均功率与谵妄无显著关联。"
+          ],
+          "methods": "术后谵妄是老年手术人群常见且严重的并发症。术中脑电图可能有助于识别风险患者，但专有处理脑电图设备并非为识别谵妄风险而开发，可能混淆非专有脑电图衍生指标与谵妄关联的识别。",
+          "results": "共纳入42项研究，13115例患者，术后谵妄平均发生率为18.8%。荟萃分析显示，术中α和δ平均功率降低、α峰值频率降低、谱边缘频率降低与术后谵妄显著相关。在非pEEG引导的研究中，δ平均功率与术后谵妄无显著关联。爆发抑制的存在和持续时间均与术后谵妄相关。当前可获取内容未提供效应量、95%置信区间和P值。",
+          "mainResults": "共纳入42项研究，13115例患者，术后谵妄平均发生率为18.8%。荟萃分析显示，术中α和δ平均功率降低、α峰值频率降低、谱边缘频率降低与术后谵妄显著相关。在非pEEG引导的研究中，δ平均功率与术后谵妄无显著关联。爆发抑制的存在和持续时间均与术后谵妄相关。当前可获取内容未提供效应量、95%置信区间和P值。",
+          "limitations": [
+            "当前可获取内容未提供研究局限性信息。",
+            "摘要层面信息有限，无法评估纳入研究的异质性、偏倚风险等细节。"
+          ],
+          "practice": [
+            "术中脑电图α振荡和爆发抑制指标可能有助于识别术后谵妄高风险患者。",
+            "使用pEEG引导麻醉并未消除这些指标与谵妄的关联，提示非专有指标可能具有额外价值。"
+          ],
+          "editor": "系统评价和荟萃分析的方法学质量较高，结果支持α振荡和爆发抑制指标与术后谵妄的关联。 过度解读风险：摘要未提供效应量和置信区间，无法评估效应大小和精确性；且为观察性关联，不能推断因果关系。",
+          "whyItMatters": "术后谵妄在老年手术人群中常见且严重，术中脑电图可能有助于识别高风险患者。该研究聚焦于非专有脑电图衍生指标，为临床监测和风险分层提供了潜在依据。",
+          "background": "术后谵妄是老年手术人群常见且严重的并发症。术中脑电图可能有助于识别风险患者，但专有处理脑电图设备并非为识别谵妄风险而开发，可能混淆非专有脑电图衍生指标与谵妄关联的识别。",
+          "pico": {
+            "population": "Older surgical populations",
+            "intervention": "Intraoperative EEG-derived measures",
+            "comparison": "Not applicable (systematic review)",
+            "outcome": "Postoperative delirium (POD) incidence"
+          },
+          "studyType": "系统评价与荟萃分析，遵循PRISMA指南和PIT框架，方案前瞻性注册于PROSPERO（CRD42024564983），检索7个数据库至2025年5月30日。",
+          "sampleSize": "13115 patients (42 studies)",
+          "primaryOutcome": "Postoperative delirium (POD) incidence",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "系统评价和荟萃分析的方法学质量较高，结果支持α振荡和爆发抑制指标与术后谵妄的关联。",
+            "overinterpretationRisk": "摘要未提供效应量和置信区间，无法评估效应大小和精确性；且为观察性关联，不能推断因果关系。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取全文详细数据、方法学细节和局限性。",
+                "效应量、置信区间和P值未在摘要中报告。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "非专有术中脑电图衍生指标与术后谵妄的关联，并排除使用pEEG引导麻醉的研究进行二次分析。",
+              "designFit": "系统评价和荟萃分析适合汇总多个研究证据，评估关联。",
+              "eligibility": "纳入报告术中脑电图衍生指标和术后谵妄发生率的研究。",
+              "randomization": "不适用（系统评价）。",
+              "allocationConcealment": "不适用（系统评价）。",
+              "blinding": "不适用（系统评价）。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "42项研究，13115例患者。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "遵循PRISMA指南，方案前瞻性注册。",
+                "检索多个数据库，覆盖全面。",
+                "对报告≥3项研究的指标进行荟萃分析。"
+              ],
+              "concerns": [
+                "摘要未提供异质性评估和偏倚风险细节。",
+                "未报告效应量和置信区间。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "Meta-analysis",
+                  "purposeInStudy": "汇总多个研究的效应量，评估脑电图指标与术后谵妄的关联。",
+                  "reportedResult": "α和δ平均功率降低、α峰值频率降低、谱边缘频率降低与术后谵妄显著相关；爆发抑制存在和持续时间与术后谵妄相关。",
+                  "interpretation": "这些指标可能作为术后谵妄风险的预测因素。",
+                  "cautions": [
+                    "未报告具体效应量和置信区间，无法评估效应大小。",
+                    "观察性关联，不能推断因果。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "进行了排除pEEG引导研究的二次分析，δ平均功率在非pEEG引导研究中无显著关联。",
+              "clinicalVsStatisticalSignificance": "摘要未区分统计学差异与临床获益，需谨慎解读。"
+            },
+            "outcomeAnalysis": {
+              "primary": "术后谵妄发生率。",
+              "secondary": [
+                "术中脑电图衍生指标与术后谵妄的关联。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "亚组分析（排除pEEG引导研究）显示δ平均功率与术后谵妄无显著关联，但其他指标关联仍存在。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统评价方法规范，注册方案。",
+                "样本量大，覆盖多个研究。"
+              ],
+              "limitations": [
+                "摘要信息有限，无法全面评估方法学质量。",
+                "未报告效应量和置信区间。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供偏倚风险评估细节。"
+              ],
+              "certainty": "当前可获取内容未提供证据确定性评估。",
+              "conclusionAlignment": "结论与结果一致，但需注意观察性关联。",
+              "causalBoundary": "该研究为观察性关联，不能证明因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "老年手术人群可能受益于术中脑电图监测以评估谵妄风险。"
+              ],
+              "nonApplicability": [
+                "不适用于非老年人群或非手术患者。"
+              ],
+              "practiceChange": "当前证据尚不足以直接改变临床实践，需更多研究验证。",
+              "canDoNow": [
+                "可考虑在临床研究中探索脑电图指标的应用。"
+              ],
+              "cannotConclude": [
+                "不能确定脑电图指标能否作为常规监测工具。",
+                "不能确定干预措施能否降低谵妄风险。"
+              ],
+              "evidenceGaps": [
+                "需要更多研究提供效应量和置信区间。",
+                "需要评估不同麻醉方案下的适用性。",
+                "需要前瞻性研究验证预测价值。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41006171/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.08.038",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.08.038",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42425793",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-10",
+          "electronicPublicationDate": "2026-07-10",
+          "readingTime": "12 分钟",
+          "title": "鞘内吗啡、侧方腰方肌阻滞及其联合用于剖宫产术后镇痛和恢复质量的比较：一项随机、双盲、两中心临床试验",
+          "originalTitle": "Comparison of intrathecal morphine, lateral quadratus lumborum block, and their combination for analgesia and quality of recovery after Caesarean delivery: a randomised, double-blind, two-centre clinical trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "侧方腰方肌阻滞（QLB）是剖宫产术后镇痛中鞘内吗啡（ITM）的潜在替代方案。我们比较了侧方QLB、ITM或ITM+QLB的恢复质量（QoR）和镇痛效果。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在这项随机、双盲、安慰剂对照试验中，在脊髓麻醉下接受剖宫产的女性被分配至（1）双侧侧方QLB，使用20 ml 0.5%罗哌卡因；（2）100 μg不含防腐剂的ITM加假QLB；或（3）ITM+QLB。主要结局是24小时时的QoR-40评分。次要结局包括疼痛评分、阿片类药物消耗和不良事件。鉴于三组比较，统计显著性设定为P<0.017。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "分析了58名女性。ITM与QLB在24小时QoR-40的非劣效性检验结果不确定（平均差-0.9；90%置信区间[CI] -0.9至13.5）。与ITM相比，QLB在6小时时降低了静息疼痛评分（平均差2.9 [95% CI 1.3, 4.5]；P<0.001）。与单独ITM相比，ITM+QLB在6小时时降低了静息疼痛（平均差3.3 [1.9, 4.8]；P<0.001）、6小时时咳嗽疼痛（3.0 [1.4, 4.7]；P<0.001）和24小时时最严重疼痛（1.8 [0.6, 3.1]；P=0.006）。羟考酮消耗量和恶心或呕吐在各组间无差异。与单独ITM相比，QLB和ITM+QLB组瘙痒更常见，但主要为轻度。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "QLB与ITM在24小时QoR-40的非劣效性结果不确定。然而，与ITM相比，QLB减少了早期静息疼痛，而ITM+QLB与单独ITM相比进一步减少了早期静息和咳嗽疼痛以及24小时最严重疼痛。需要更大规模的试验来证实这些发现。"
+              },
+              {
+                "heading": "CLINICAL TRIAL REGISTRATION",
+                "text": "NCT02871713 (https://clinicaltrials.gov/study/NCT02871713)。"
+              }
+            ],
+            "fullText": "BACKGROUND: 侧方腰方肌阻滞（QLB）是剖宫产术后镇痛中鞘内吗啡（ITM）的潜在替代方案。我们比较了侧方QLB、ITM或ITM+QLB的恢复质量（QoR）和镇痛效果。METHODS: 在这项随机、双盲、安慰剂对照试验中，在脊髓麻醉下接受剖宫产的女性被分配至（1）双侧侧方QLB，使用20 ml 0.5%罗哌卡因；（2）100 μg不含防腐剂的ITM加假QLB；或（3）ITM+QLB。主要结局是24小时时的QoR-40评分。次要结局包括疼痛评分、阿片类药物消耗和不良事件。鉴于三组比较，统计显著性设定为P<0.017。RESULTS: 分析了58名女性。ITM与QLB在24小时QoR-40的非劣效性检验结果不确定（平均差-0.9；90%置信区间[CI] -0.9至13.5）。与ITM相比，QLB在6小时时降低了静息疼痛评分（平均差2.9 [95% CI 1.3, 4.5]；P<0.001）。与单独ITM相比，ITM+QLB在6小时时降低了静息疼痛（平均差3.3 [1.9, 4.8]；P<0.001）、6小时时咳嗽疼痛（3.0 [1.4, 4.7]；P<0.001）和24小时时最严重疼痛（1.8 [0.6, 3.1]；P=0.006）。羟考酮消耗量和恶心或呕吐在各组间无差异。与单独ITM相比，QLB和ITM+QLB组瘙痒更常见，但主要为轻度。CONCLUSIONS: QLB与ITM在24小时QoR-40的非劣效性结果不确定。然而，与ITM相比，QLB减少了早期静息疼痛，而ITM+QLB与单独ITM相比进一步减少了早期静息和咳嗽疼痛以及24小时最严重疼痛。需要更大规模的试验来证实这些发现。CLINICAL TRIAL REGISTRATION: NCT02871713 (https://clinicaltrials.gov/study/NCT02871713)。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Uppal V, Zaphiratos V, Allen VM, Sjaus A, Shephard A, Clairoux A, Issa R, Richebe P, et al.",
+          "citation": "Br J Anaesth. 2026 Sep;137(3):764-772. doi: 10.1016/j.bja.2026.04.081. Epub 2026 Jul 10.",
+          "doi": "10.1016/j.bja.2026.04.081",
+          "pmid": "42425793",
+          "pmcid": null,
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "疼痛与区域麻醉",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "剖宫产术后镇痛方案需兼顾镇痛效果与恢复质量，鞘内吗啡虽有效但可能引起瘙痒、恶心呕吐等不良反应；侧方腰方肌阻滞作为潜在替代或联合方案，可能改善镇痛并减少阿片相关副作用，本研究直接比较了两种方案及其联合对恢复质量的影响，为临床决策提供初步证据。",
+          "conclusion": "在剖宫产术后24小时QoR-40评分方面，侧方腰方肌阻滞（QLB）与鞘内吗啡（ITM）相比的非劣效性结果不确定；QLB可减轻术后6小时静息痛，而ITM+QLB联合方案较单用ITM进一步减轻早期静息痛、咳嗽痛及24小时最严重疼痛，但瘙痒发生率更高。",
+          "clinical": "QLB可能作为ITM的替代或联合方案用于剖宫产术后镇痛，但需注意其非劣效性证据尚不充分。 ITM+QLB联合方案可能提供更好的早期镇痛效果，但瘙痒风险增加。 临床决策应权衡镇痛获益与不良反应，并考虑个体化选择。",
+          "evidence": "中等偏高",
+          "score": 68,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 22,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "随机、双盲、安慰剂对照试验，三组平行设计，两中心。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "women undergoing Caesarean delivery under spinal anaesthesia；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "bilateral lateral QLB with 20 ml 0.5% ropivacaine; ITM+QLB；对照：100 mug preservative-free ITM with sham QLB"
+            },
+            {
+              "label": "主要终点",
+              "value": "QoR-40 score at 24 h"
+            }
+          ],
+          "keyPoints": [
+            "QLB与ITM在24小时QoR-40的非劣效性检验结果不确定。",
+            "QLB较ITM显著降低6小时静息痛。",
+            "ITM+QLB较单用ITM显著降低6小时静息痛、咳嗽痛及24小时最严重疼痛。",
+            "阿片消耗和恶心呕吐无组间差异，但QLB相关瘙痒更常见。"
+          ],
+          "methods": "侧方腰方肌阻滞（QLB）是剖宫产术后鞘内吗啡（ITM）镇痛的潜在替代方案。本研究比较了侧方QLB、ITM及ITM+QLB对恢复质量（QoR）和镇痛效果的影响。",
+          "results": "共分析58例产妇。ITM与QLB在24小时QoR-40评分的非劣效性检验结果不确定（均数差-0.9；90%CI -0.9至13.5）。与ITM相比，QLB在6小时静息痛评分更低（均数差2.9 [95%CI 1.3, 4.5]；P<0.001）。与单用ITM相比，ITM+QLB在6小时静息痛（均数差3.3 [1.9, 4.8]；P<0.001）、6小时咳嗽痛（3.0 [1.4, 4.7]；P<0.001）和24小时最严重疼痛（1.8 [0.6, 3.1]；P=0.006）方面均更低。羟考酮消耗量和恶心呕吐发生率组间无差异。瘙痒在QLB和ITM+QLB组较单用ITM组更常见，但主要为轻度。",
+          "mainResults": "共分析58例产妇。ITM与QLB在24小时QoR-40评分的非劣效性检验结果不确定（均数差-0.9；90%CI -0.9至13.5）。与ITM相比，QLB在6小时静息痛评分更低（均数差2.9 [95%CI 1.3, 4.5]；P<0.001）。与单用ITM相比，ITM+QLB在6小时静息痛（均数差3.3 [1.9, 4.8]；P<0.001）、6小时咳嗽痛（3.0 [1.4, 4.7]；P<0.001）和24小时最严重疼痛（1.8 [0.6, 3.1]；P=0.006）方面均更低。羟考酮消耗量和恶心呕吐发生率组间无差异。瘙痒在QLB和ITM+QLB组较单用ITM组更常见，但主要为轻度。",
+          "limitations": [
+            "样本量较小（58例），可能影响检验效能。",
+            "非劣效性检验结果不确定，无法得出QLB不劣于ITM的结论。",
+            "瘙痒等不良反应虽多为轻度，但可能影响患者满意度。",
+            "需要更大规模试验确认这些发现。"
+          ],
+          "practice": [
+            "QLB可能作为ITM的替代或联合方案用于剖宫产术后镇痛，但需注意其非劣效性证据尚不充分。",
+            "ITM+QLB联合方案可能提供更好的早期镇痛效果，但瘙痒风险增加。",
+            "临床决策应权衡镇痛获益与不良反应，并考虑个体化选择。"
+          ],
+          "editor": "研究为随机双盲设计，主要结局和次要结局均有明确报告，效应量及置信区间提供，统计学差异明确。 过度解读风险：非劣效性结论不确定，不能将QLB视为等效替代；疼痛评分的差异虽具统计学意义，但临床意义需结合最小临床重要差异判断；瘙痒发生率增加需权衡。",
+          "whyItMatters": "剖宫产术后镇痛方案需兼顾镇痛效果与恢复质量，鞘内吗啡虽有效但可能引起瘙痒、恶心呕吐等不良反应；侧方腰方肌阻滞作为潜在替代或联合方案，可能改善镇痛并减少阿片相关副作用，本研究直接比较了两种方案及其联合对恢复质量的影响，为临床决策提供初步证据。",
+          "background": "侧方腰方肌阻滞（QLB）是剖宫产术后鞘内吗啡（ITM）镇痛的潜在替代方案。本研究比较了侧方QLB、ITM及ITM+QLB对恢复质量（QoR）和镇痛效果的影响。",
+          "pico": {
+            "population": "women undergoing Caesarean delivery under spinal anaesthesia",
+            "intervention": "bilateral lateral QLB with 20 ml 0.5% ropivacaine; ITM+QLB",
+            "comparison": "100 mug preservative-free ITM with sham QLB",
+            "outcome": "QoR-40 score at 24 h"
+          },
+          "studyType": "随机、双盲、安慰剂对照试验，三组平行设计，两中心。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "QoR-40 score at 24 h",
+          "effectSize": [
+            "-0.9",
+            "2.9",
+            "3.3",
+            "3.0",
+            "1.8"
+          ],
+          "confidenceInterval": [
+            "-0.9 to 13.5",
+            "1.3, 4.5",
+            "1.9, 4.8",
+            "1.4, 4.7",
+            "0.6, 3.1"
+          ],
+          "pValue": [
+            "<0.001",
+            "<0.001",
+            "<0.001",
+            "0.006"
+          ],
+          "adverseEvents": "Pruritus was more frequent with QLB and ITM+QLB compared with ITM alone but was predominantly mild.",
+          "aiAssessment": {
+            "support": "研究为随机双盲设计，主要结局和次要结局均有明确报告，效应量及置信区间提供，统计学差异明确。",
+            "overinterpretationRisk": "非劣效性结论不确定，不能将QLB视为等效替代；疼痛评分的差异虽具统计学意义，但临床意义需结合最小临床重要差异判断；瘙痒发生率增加需权衡。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取完整方法学细节，如随机化具体方法、分配隐藏、样本量计算依据、失访情况等。",
+                "未提供基线特征、具体QoR-40评分数值、疼痛评分量表类型等。",
+                "未报告非劣效界值，无法评估非劣效结论的可靠性。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "比较侧方QLB、ITM及ITM+QLB对剖宫产术后恢复质量和镇痛效果的影响。",
+              "designFit": "随机、双盲、安慰剂对照试验，适合比较三种干预措施。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "双盲设计，但具体盲法细节（如是否对患者、麻醉医师、评估者设盲）未在摘要中说明。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "58例产妇被分析，但未明确是意向性分析还是符合方案分析。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "随机、双盲设计减少偏倚。",
+                "多中心（两中心）增加一定外部代表性。",
+                "主要结局为患者报告的恢复质量，具有临床相关性。"
+              ],
+              "concerns": [
+                "样本量较小，可能影响统计效能。",
+                "非劣效性检验结果不确定，可能因样本量不足或界值选择问题。",
+                "摘要未提供完整方法学信息，无法全面评估偏倚风险。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "noninferiority",
+                  "name": "非劣效分析",
+                  "purposeInStudy": "评估QLB在24小时QoR-40评分上是否不劣于ITM。",
+                  "reportedResult": "非劣效性检验结果不确定（均数差-0.9；90%CI -0.9至13.5）。",
+                  "interpretation": "由于置信区间跨越非劣效界值（具体界值未报告），无法得出非劣效结论。",
+                  "cautions": [
+                    "非劣效界值未在摘要中报告，影响结果解释。",
+                    "非劣效结论依赖意向性分析和符合方案分析的一致性，但未提供。"
+                  ],
+                  "standardExplanation": "判断新方案的效果是否未差于预设界值；结论依赖界值合理性及意向性和符合方案分析的一致性。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "三组比较，统计显著性设定为P<0.017，但未说明是否对多重比较进行校正。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "疼痛评分的差异具有统计学意义，但未报告最小临床重要差异，临床意义需谨慎解读。"
+            },
+            "outcomeAnalysis": {
+              "primary": "24小时QoR-40评分：非劣效性检验不确定，未报告具体评分值。",
+              "secondary": [
+                "6小时静息痛：QLB vs ITM均数差2.9（95%CI 1.3-4.5），P<0.001；ITM+QLB vs ITM均数差3.3（95%CI 1.9-4.8），P<0.001。",
+                "6小时咳嗽痛：ITM+QLB vs ITM均数差3.0（95%CI 1.4-4.7），P<0.001。",
+                "24小时最严重疼痛：ITM+QLB vs ITM均数差1.8（95%CI 0.6-3.1），P=0.006。",
+                "羟考酮消耗：组间无差异。"
+              ],
+              "safety": "瘙痒在QLB和ITM+QLB组更常见，但主要为轻度；恶心呕吐无组间差异。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机双盲设计减少偏倚。",
+                "多中心设计增加外部效度。",
+                "主要结局为患者相关恢复质量。"
+              ],
+              "limitations": [
+                "样本量小。",
+                "非劣效性结论不确定。",
+                "摘要信息有限，无法全面评估方法学质量。"
+              ],
+              "biasRisks": [
+                "未报告随机化细节，可能存在选择偏倚风险。",
+                "未报告盲法具体实施，可能存在实施偏倚风险。",
+                "未报告失访情况，可能存在随访偏倚风险。"
+              ],
+              "certainty": "低至中等：由于样本量小和摘要信息有限，证据确定性不高。",
+              "conclusionAlignment": "结论与结果一致，但非劣效性不确定，需谨慎解读。",
+              "causalBoundary": "随机设计支持因果推断，但样本量小和不确定的非劣效性限制了因果结论的强度。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于接受脊髓麻醉下剖宫产的产妇。",
+                "QLB可能作为ITM的替代或联合方案，但需考虑瘙痒风险。"
+              ],
+              "nonApplicability": [
+                "不适用于对局麻药过敏或存在QLB禁忌症的患者。",
+                "不适用于需要紧急剖宫产或无法配合阻滞操作的情况。"
+              ],
+              "practiceChange": "当前证据不足以支持立即改变临床实践，但可考虑在特定患者中联合使用QLB以改善早期镇痛。",
+              "canDoNow": [
+                "在具备超声引导阻滞经验的中心，可考虑对剖宫产术后患者实施QLB作为ITM的补充。",
+                "监测瘙痒等不良反应，并告知患者可能的风险。"
+              ],
+              "cannotConclude": [
+                "不能得出QLB不劣于ITM的结论。",
+                "不能确定QLB或联合方案对长期恢复质量的影响。",
+                "不能确定最佳阻滞方案（药物浓度、容量等）。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本量的非劣效性试验，明确非劣效界值。",
+                "需要评估不同QLB入路（侧方、后方、前方）的比较。",
+                "需要评估对慢性疼痛、产后抑郁等长期结局的影响。",
+                "需要成本效益分析。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42425793/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.04.081",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.04.081",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-23T23:31:10.351Z",
       "mode": "production",
