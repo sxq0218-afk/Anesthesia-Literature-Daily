@@ -1,7 +1,243 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T23:30:51.633Z",
+  "updatedAt": "2026-08-25T23:34:08.784Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-25T23:34:08.784Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-08-30T23:34:08.784Z",
+        "to": "2026-08-25T23:34:08.784Z",
+        "candidateCount": 525,
+        "discoveryCandidateCount": 20954,
+        "unseenCount": 397,
+        "duplicateCount": 128,
+        "priorityCandidateCount": 525,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 525,
+          "retrievedCount": 525,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 287,
+            "impact-factor-stale": 6
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 29
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 397,
+          "eligibleCount": 355,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 304,
+          "clinical": 211,
+          "basic": 19,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41680169",
+          "title": "光声计算机断层扫描监测脑脊液动力学和类淋巴功能",
+          "originalTitle": "Photoacoustic computed tomography monitors cerebrospinal fluid dynamics and glymphatic function.",
+          "journal": "Nature communications",
+          "conclusion": "本研究利用光声计算机断层扫描（PACT）在活体小鼠中实现了脑脊液（CSF）运输的三维实时追踪，并发现阿尔茨海默病模型小鼠的脑内示踪剂清除显著延迟，提示类淋巴功能受损。",
+          "pmid": "41680169"
+        },
+        {
+          "slug": "pmid-40615330",
+          "title": "围术期自主神经系统失衡对手术结局的影响：一项系统综述",
+          "originalTitle": "Effect of perioperative autonomic nervous system imbalance on surgical outcomes: a systematic review.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "本系统综述指出，围术期自主神经系统失衡（交感神经过度激活与副交感张力降低）与术后并发症相关，药物（右美托咪定、β受体阻滞剂）和非药物（电针、体温管理）干预可能有助于恢复自主神经平衡，但现有证据存在争议，尚不能得出确定性结论。",
+          "pmid": "40615330"
+        },
+        {
+          "slug": "pmid-41093687",
+          "title": "丙泊酚或七氟烷对心脏手术中远程缺血预处理肾脏保护作用的影响：HypnoRenalRIP随机临床试验",
+          "originalTitle": "Impact of propofol or sevoflurane on the renoprotective effect of remote ischaemic preconditioning in cardiac surgery: the HypnoRenalRIP randomised clinical trial.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在心脏手术高危患者中，与丙泊酚相比，七氟烷麻醉下远程缺血预处理（RIPC）诱导的尿[TIMP-2]·[IGFBP7]早期一过性升高更明显，提示丙泊酚可能减弱RIPC的肾脏保护效应，但患者中心结局无显著差异。",
+          "pmid": "41093687"
+        },
+        {
+          "slug": "pmid-41176463",
+          "title": "可乐定与右美托咪定在外周神经阻滞中的安全性：临床前证据的系统评价",
+          "originalTitle": "Safety of clonidine and dexmedetomidine in peripheral nerve blocks: a systematic review of preclinical evidence.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "临床前证据表明，在健康神经上以临床相关剂量使用外周神经周围α2-肾上腺素能受体激动剂是安全的，但在已受损神经中可能增加神经毒性。",
+          "pmid": "41176463"
+        },
+        {
+          "slug": "pmid-42469102",
+          "title": "超越特定手术方案：系统评价识别加速康复外科协会指南中的通用麻醉学核心",
+          "originalTitle": "Beyond procedure-specific protocols: a systematic review identifying a universal anaesthesiological core across Enhanced Recovery After Surgery Society guidelines.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "尽管手术类型各异，加速康复外科（ERAS）指南中仍存在一致的麻醉学核心，包括多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理及手术特异性建议，但部分领域（如液体管理、术前碳水化合物负荷和麻醉前用药）的建议强度不一，需进行本地化评估。",
+          "pmid": "42469102"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-24T23:30:51.633Z",
       "search": {

@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 24 Aug 2026 23:30:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 23:34:08 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-26 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-26/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-26/</guid>
+      <pubDate>Tue, 25 Aug 2026 23:34:08 GMT</pubDate>
+      <description>光声计算机断层扫描监测脑脊液动力学和类淋巴功能：本研究利用光声计算机断层扫描（PACT）在活体小鼠中实现了脑脊液（CSF）运输的三维实时追踪，并发现阿尔茨海默病模型小鼠的脑内示踪剂清除显著延迟，提示类淋巴功能受损。
+围术期自主神经系统失衡对手术结局的影响：一项系统综述：本系统综述指出，围术期自主神经系统失衡（交感神经过度激活与副交感张力降低）与术后并发症相关，药物（右美托咪定、β受体阻滞剂）和非药物（电针、体温管理）干预可能有助于恢复自主神经平衡，但现有证据存在争议，尚不能得出确定性结论。
+丙泊酚或七氟烷对心脏手术中远程缺血预处理肾脏保护作用的影响：HypnoRenalRIP随机临床试验：在心脏手术高危患者中，与丙泊酚相比，七氟烷麻醉下远程缺血预处理（RIPC）诱导的尿[TIMP-2]·[IGFBP7]早期一过性升高更明显，提示丙泊酚可能减弱RIPC的肾脏保护效应，但患者中心结局无显著差异。
+可乐定与右美托咪定在外周神经阻滞中的安全性：临床前证据的系统评价：临床前证据表明，在健康神经上以临床相关剂量使用外周神经周围α2-肾上腺素能受体激动剂是安全的，但在已受损神经中可能增加神经毒性。
+超越特定手术方案：系统评价识别加速康复外科协会指南中的通用麻醉学核心：尽管手术类型各异，加速康复外科（ERAS）指南中仍存在一致的麻醉学核心，包括多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理及手术特异性建议，但部分领域（如液体管理、术前碳水化合物负荷和麻醉前用药）的建议强度不一，需进行本地化评估。</description>
+    </item>
     <item>
       <title>2026-08-25 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-25/</link>

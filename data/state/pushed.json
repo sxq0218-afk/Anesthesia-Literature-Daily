@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-24T23:30:51.633Z",
+  "updatedAt": "2026-08-25T23:34:08.784Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1153,6 +1153,46 @@
       "status": "published",
       "runId": "2026-08-24T23-30-51.633Z",
       "firstPublishedAt": "2026-08-24T23:30:51.633Z"
+    },
+    {
+      "pmid": "41680169",
+      "doi": "10.1038/s41467-026-69390-4",
+      "title": "Photoacoustic computed tomography monitors cerebrospinal fluid dynamics and glymphatic function.",
+      "status": "published",
+      "runId": "2026-08-25T23-34-08.784Z",
+      "firstPublishedAt": "2026-08-25T23:34:08.784Z"
+    },
+    {
+      "pmid": "40615330",
+      "doi": "10.1016/j.bja.2025.06.004",
+      "title": "Effect of perioperative autonomic nervous system imbalance on surgical outcomes: a systematic review.",
+      "status": "published",
+      "runId": "2026-08-25T23-34-08.784Z",
+      "firstPublishedAt": "2026-08-25T23:34:08.784Z"
+    },
+    {
+      "pmid": "41093687",
+      "doi": "10.1016/j.bja.2025.08.055",
+      "title": "Impact of propofol or sevoflurane on the renoprotective effect of remote ischaemic preconditioning in cardiac surgery: the HypnoRenalRIP randomised clinical trial.",
+      "status": "published",
+      "runId": "2026-08-25T23-34-08.784Z",
+      "firstPublishedAt": "2026-08-25T23:34:08.784Z"
+    },
+    {
+      "pmid": "41176463",
+      "doi": "10.1016/j.bja.2025.10.008",
+      "title": "Safety of clonidine and dexmedetomidine in peripheral nerve blocks: a systematic review of preclinical evidence.",
+      "status": "published",
+      "runId": "2026-08-25T23-34-08.784Z",
+      "firstPublishedAt": "2026-08-25T23:34:08.784Z"
+    },
+    {
+      "pmid": "42469102",
+      "doi": "10.1016/j.bja.2026.06.006",
+      "title": "Beyond procedure-specific protocols: a systematic review identifying a universal anaesthesiological core across Enhanced Recovery After Surgery Society guidelines.",
+      "status": "published",
+      "runId": "2026-08-25T23-34-08.784Z",
+      "firstPublishedAt": "2026-08-25T23:34:08.784Z"
     }
   ]
 }

@@ -1,7 +1,1536 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T23:30:51.633Z",
+  "updatedAt": "2026-08-25T23:34:08.784Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-25T23:34:08.784Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-08-30T23:34:08.784Z",
+        "to": "2026-08-25T23:34:08.784Z",
+        "candidateCount": 525,
+        "discoveryCandidateCount": 20954,
+        "unseenCount": 397,
+        "duplicateCount": 128,
+        "priorityCandidateCount": 525,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 525,
+          "retrievedCount": 525,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 287,
+            "impact-factor-stale": 6
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 29
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Journal of cardiothoracic and vascular anesthesia",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 397,
+          "eligibleCount": 355,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 304,
+          "clinical": 211,
+          "basic": 19,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 22,
+          "promptTokens": 82077,
+          "completionTokens": 22288,
+          "totalTokens": 104365
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41680169",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Nature communications",
+          "year": "2026",
+          "publishedDate": "2026-02-12",
+          "electronicPublicationDate": "2026-02-12",
+          "readingTime": "9 分钟",
+          "title": "光声计算机断层扫描监测脑脊液动力学和类淋巴功能",
+          "originalTitle": "Photoacoustic computed tomography monitors cerebrospinal fluid dynamics and glymphatic function.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "脑脊液（CSF）持续循环通过大脑及周围组织以清除代谢废物，这一过程在衰老和神经退行性疾病中效率降低。由于现有成像工具或缺乏深度，或需要放射性示踪剂，或速度太慢无法捕捉动态流动，因此难以在活体动物中可视化这种引流过程。在此，我们展示了全身光声计算机断层扫描（PACT）能够利用吲哚菁绿对小鼠脑脊液转运进行三维实时追踪。我们可视化了脑脊液从脊髓管进入大脑的运动，量化了不同麻醉条件下的外流，并检测到阿尔茨海默病小鼠模型中清除功能受损。与健康动物相比，患病小鼠大脑中示踪剂滞留数天，表明废物清除减少。这些结果确立了PACT作为测量体内脑脊液和类淋巴功能的非侵入性平台，为研究脑脊液转运在衰老和神经系统疾病中的改变提供了方法。"
+              }
+            ],
+            "fullText": "脑脊液（CSF）持续循环通过大脑及周围组织以清除代谢废物，这一过程在衰老和神经退行性疾病中效率降低。由于现有成像工具或缺乏深度，或需要放射性示踪剂，或速度太慢无法捕捉动态流动，因此难以在活体动物中可视化这种引流过程。在此，我们展示了全身光声计算机断层扫描（PACT）能够利用吲哚菁绿对小鼠脑脊液转运进行三维实时追踪。我们可视化了脑脊液从脊髓管进入大脑的运动，量化了不同麻醉条件下的外流，并检测到阿尔茨海默病小鼠模型中清除功能受损。与健康动物相比，患病小鼠大脑中示踪剂滞留数天，表明废物清除减少。这些结果确立了PACT作为测量体内脑脊液和类淋巴功能的非侵入性平台，为研究脑脊液转运在衰老和神经系统疾病中的改变提供了方法。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Choi S, Kim J, Jeon H, Lee Y, Lim G, Ju WM, Kim K, Lee DS, et al.",
+          "citation": "Nat Commun. 2026 Feb 12;17(1):2677. doi: 10.1038/s41467-026-69390-4.",
+          "doi": "10.1038/s41467-026-69390-4",
+          "pmid": "41680169",
+          "pmcid": "PMC13009472",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Springer Science and Business Media LLC",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "basic_mechanism",
+            "label": "神经科学与麻醉机制高影响力期刊",
+            "priorityRank": 1
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 18.1,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Nature Communications"
+          },
+          "tags": [
+            "基础研究",
+            "神经科学与麻醉机制高影响力期刊",
+            "麻醉学",
+            "Journal Article"
+          ],
+          "question": "该研究提供了一种非侵入性、可实时动态成像的活体脑脊液和类淋巴功能监测平台，有望为研究衰老和神经系统疾病中的脑内液体运输异常提供新的工具。",
+          "conclusion": "本研究利用光声计算机断层扫描（PACT）在活体小鼠中实现了脑脊液（CSF）运输的三维实时追踪，并发现阿尔茨海默病模型小鼠的脑内示踪剂清除显著延迟，提示类淋巴功能受损。",
+          "clinical": "不同麻醉条件（氯胺酮/赛拉嗪 vs 异氟烷）下脑脊液流出量存在差异，提示麻醉药物可能影响类淋巴功能，对麻醉管理有潜在意义。 该研究为动物实验，尚不能直接推广到临床麻醉实践，需进一步研究验证。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性研究（动物实验）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "mice (ICR mice, 5XFAD transgenic mice and wild-type littermates)；8 mice for PACT experiments, 3 mice for fluorescence imaging"
+            },
+            {
+              "label": "干预与比较",
+              "value": "intrathecal injection of indocyanine green (ICG) and photoacoustic computed tomography (PACT) imaging；对照：healthy vs Alzheimer's disease model mice; ketamine/xylazine vs isoflurane anesthesia"
+            },
+            {
+              "label": "主要终点",
+              "value": "CSF dynamics and glymphatic function measured by PACT"
+            }
+          ],
+          "keyPoints": [
+            "PACT可实现脑脊液运输的三维实时追踪。",
+            "阿尔茨海默病模型小鼠脑内示踪剂滞留时间延长，提示类淋巴清除功能受损。",
+            "不同麻醉条件影响脑脊液流出。",
+            "该技术为非侵入性，无需放射性示踪剂。"
+          ],
+          "methods": "脑脊液持续循环通过大脑及周围组织以清除代谢废物，这一过程在衰老和神经退行性疾病中效率降低。然而，现有的成像工具要么缺乏深度，要么需要放射性示踪剂，要么速度太慢，难以捕捉动态流动。",
+          "results": "PACT能够实时追踪脑脊液运输；与健康小鼠相比，阿尔茨海默病模型小鼠的脑内示踪剂滞留数天，表明废物清除减少。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等具体数据。",
+          "mainResults": "PACT能够实时追踪脑脊液运输；与健康小鼠相比，阿尔茨海默病模型小鼠的脑内示踪剂滞留数天，表明废物清除减少。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等具体数据。",
+          "limitations": [
+            "PACT的分子敏感性有限。",
+            "肠道粪便产生伪影。",
+            "异氟烷组中一只小鼠的数据点缺失。",
+            "一只阿尔茨海默病小鼠在96小时监测前丢失。"
+          ],
+          "practice": [
+            "不同麻醉条件（氯胺酮/赛拉嗪 vs 异氟烷）下脑脊液流出量存在差异，提示麻醉药物可能影响类淋巴功能，对麻醉管理有潜在意义。",
+            "该研究为动物实验，尚不能直接推广到临床麻醉实践，需进一步研究验证。"
+          ],
+          "editor": "研究结果支持PACT作为活体测量脑脊液和类淋巴功能的非侵入性平台，能够区分健康与疾病状态下的清除差异。 过度解读风险：研究为动物模型，样本量小，且未提供效应量和统计检验结果，需谨慎外推至人类。",
+          "whyItMatters": "该研究提供了一种非侵入性、可实时动态成像的活体脑脊液和类淋巴功能监测平台，有望为研究衰老和神经系统疾病中的脑内液体运输异常提供新的工具。",
+          "background": "脑脊液持续循环通过大脑及周围组织以清除代谢废物，这一过程在衰老和神经退行性疾病中效率降低。然而，现有的成像工具要么缺乏深度，要么需要放射性示踪剂，要么速度太慢，难以捕捉动态流动。",
+          "pico": {
+            "population": "mice (ICR mice, 5XFAD transgenic mice and wild-type littermates)",
+            "intervention": "intrathecal injection of indocyanine green (ICG) and photoacoustic computed tomography (PACT) imaging",
+            "comparison": "healthy vs Alzheimer's disease model mice; ketamine/xylazine vs isoflurane anesthesia",
+            "outcome": "CSF dynamics and glymphatic function measured by PACT"
+          },
+          "studyType": "观察性研究（动物实验）",
+          "sampleSize": "8 mice for PACT experiments, 3 mice for fluorescence imaging",
+          "primaryOutcome": "CSF dynamics and glymphatic function measured by PACT",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持PACT作为活体测量脑脊液和类淋巴功能的非侵入性平台，能够区分健康与疾病状态下的清除差异。",
+            "overinterpretationRisk": "研究为动物模型，样本量小，且未提供效应量和统计检验结果，需谨慎外推至人类。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和部分全文节选，可能遗漏方法细节和完整结果。",
+                "未提供具体统计数值和效应量。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "PACT能否用于活体监测脑脊液动力学和类淋巴功能？",
+              "designFit": "观察性研究设计适合初步探索成像技术的可行性，但缺乏对照组和随机化。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "监测至96小时，但一只AD小鼠在96小时前丢失。",
+              "analysisPopulation": "8只小鼠用于PACT实验，3只用于荧光成像。",
+              "missingData": "异氟烷组一只小鼠数据点缺失；一只AD小鼠在96小时监测前丢失。",
+              "strengths": [
+                "使用非侵入性成像技术，可实时三维追踪。",
+                "比较了不同麻醉条件和疾病模型。"
+              ],
+              "concerns": [
+                "样本量小。",
+                "未报告统计检验方法。",
+                "存在数据缺失。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计推断的可靠性。",
+                  "cautions": [
+                    "未报告统计方法，无法评估结果的统计学意义。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "通过PACT测量的脑脊液动力学和类淋巴功能。",
+              "secondary": [
+                "不同麻醉条件下的脑脊液流出量。",
+                "阿尔茨海默病模型中的清除受损情况。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "创新性应用PACT技术于脑脊液成像。",
+                "实时三维成像优于传统方法。"
+              ],
+              "limitations": [
+                "样本量小。",
+                "缺乏统计细节。",
+                "存在数据缺失和伪影问题。"
+              ],
+              "biasRisks": [
+                "选择偏倚：未报告随机化和盲法。",
+                "信息偏倚：数据缺失可能影响结果。"
+              ],
+              "certainty": "低，由于缺乏统计数据和样本量小。",
+              "conclusionAlignment": "结论与结果基本一致，但缺乏统计支持。",
+              "causalBoundary": "观察性关联，不能推断因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "作为研究工具，可能用于动物模型中的脑脊液动力学研究。"
+              ],
+              "nonApplicability": [
+                "不能直接用于临床患者。",
+                "需要进一步验证在人类中的可行性和安全性。"
+              ],
+              "practiceChange": "当前不改变临床实践。",
+              "canDoNow": [
+                "在动物研究中应用PACT监测脑脊液功能。"
+              ],
+              "cannotConclude": [
+                "不能得出PACT在人类中有效的结论。",
+                "不能得出麻醉药物对类淋巴功能影响的临床建议。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本、更严格的统计设计。",
+                "需要人类研究验证。",
+                "需要评估PACT的敏感性和特异性。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41680169/",
+            "doi": "https://doi.org/10.1038/s41467-026-69390-4",
+            "publisher": "https://doi.org/10.1038/s41467-026-69390-4",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13009472/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40615330",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-09",
+          "electronicPublicationDate": "2025-07-04",
+          "readingTime": "10 分钟",
+          "title": "围术期自主神经系统失衡对手术结局的影响：一项系统综述",
+          "originalTitle": "Effect of perioperative autonomic nervous system imbalance on surgical outcomes: a systematic review.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": null,
+                "text": "自主神经系统（ANS）对于维持生理稳态至关重要。自主神经失衡，以交感神经过度激活和副交感神经张力低下为特征，可在围手术期发生。这些变化驱动全身应激反应、心血管不稳定、组织修复受损和免疫抑制，进而增加感染风险、神经认知衰退和多器官功能障碍。手术创伤、麻醉、疼痛、低体温和心理应激源均促成这种失调，因此副交感神经张力低下导致胆碱能抗炎通路效果减弱。高交感神经系统活性促进儿茶酚胺激增和促炎细胞因子释放。药物干预，包括右美托咪定和β受体阻滞剂，以及非药物策略，如电针和温度管理，是有望恢复ANS平衡的措施。本系统综述涵盖了ANS介导的器官调节、围手术期自主神经功能障碍的病理生理后果以及循证治疗策略。通过整合多项基础与临床研究的结果，讨论了ANS调节在减轻术后并发症（包括神经认知障碍、免疫抑制和癌症复发）中的关键作用。维持交感神经和副交感神经系统的平衡是围手术期医学的一个重要前景，可能有利于手术患者的短期或长期恢复。"
+              }
+            ],
+            "fullText": "自主神经系统（ANS）对于维持生理稳态至关重要。自主神经失衡，以交感神经过度激活和副交感神经张力低下为特征，可在围手术期发生。这些变化驱动全身应激反应、心血管不稳定、组织修复受损和免疫抑制，进而增加感染风险、神经认知衰退和多器官功能障碍。手术创伤、麻醉、疼痛、低体温和心理应激源均促成这种失调，因此副交感神经张力低下导致胆碱能抗炎通路效果减弱。高交感神经系统活性促进儿茶酚胺激增和促炎细胞因子释放。药物干预，包括右美托咪定和β受体阻滞剂，以及非药物策略，如电针和温度管理，是有望恢复ANS平衡的措施。本系统综述涵盖了ANS介导的器官调节、围手术期自主神经功能障碍的病理生理后果以及循证治疗策略。通过整合多项基础与临床研究的结果，讨论了ANS调节在减轻术后并发症（包括神经认知障碍、免疫抑制和癌症复发）中的关键作用。维持交感神经和副交感神经系统的平衡是围手术期医学的一个重要前景，可能有利于手术患者的短期或长期恢复。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Pan WT, Ji MH, Ma D, Yang JJ",
+          "citation": "Br J Anaesth. 2025 Sep;135(3):608-622. doi: 10.1016/j.bja.2025.06.004. Epub 2025 Jul 4.",
+          "doi": "10.1016/j.bja.2025.06.004",
+          "pmid": "40615330",
+          "pmcid": "PMC12489373",
+          "publicationTypes": [
+            "Journal Article",
+            "Systematic Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article",
+            "Systematic Review"
+          ],
+          "question": "自主神经系统失衡在围术期普遍存在，与术后感染、神经认知障碍和多器官功能障碍等并发症相关。理解其机制并探索恢复平衡的策略，可能为改善手术患者短期和长期恢复提供新方向。",
+          "conclusion": "本系统综述指出，围术期自主神经系统失衡（交感神经过度激活与副交感张力降低）与术后并发症相关，药物（右美托咪定、β受体阻滞剂）和非药物（电针、体温管理）干预可能有助于恢复自主神经平衡，但现有证据存在争议，尚不能得出确定性结论。",
+          "clinical": "麻醉管理中应关注自主神经平衡的维护，可能有助于减少术后并发症。 右美托咪定和β受体阻滞剂的使用需权衡获益与风险，如DECADE试验中右美托咪定增加谵妄风险，POISE试验中β受体阻滞剂增加死亡和卒中风险。 非药物策略如电针和体温管理可能作为辅助手段，但证据有限。",
+          "evidence": "中等",
+          "score": 66,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 23,
+            "clinicalImpact": 11,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统综述（未进行定量荟萃分析）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "围术期患者（具体人群特征未详细报告）；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Pharmacological interventions (dexmedetomidine, beta-blockers) and nonpharmacological strategies (electroacupuncture, temperature management, exercise)；对照：未明确报告（可能为安慰剂或常规管理）"
+            },
+            {
+              "label": "主要终点",
+              "value": "术后并发症（包括神经认知障碍、免疫抑制、癌症复发等）"
+            }
+          ],
+          "keyPoints": [
+            "围术期自主神经失衡与术后并发症相关。",
+            "右美托咪定和β受体阻滞剂可能恢复自主神经平衡，但存在争议。",
+            "非药物策略如电针和体温管理可能有益。",
+            "现有证据不足以支持具体临床推荐。"
+          ],
+          "methods": "自主神经系统（ANS）对维持生理稳态至关重要。围术期可发生自主神经失衡，表现为交感神经过度激活和副交感张力降低，导致全身应激反应、心血管不稳定、组织修复受损和免疫抑制，进而增加感染风险、神经认知衰退和多器官功能障碍。手术创伤、麻醉、疼痛、低体温和心理应激均可促成这种失调。副交感张力降低使胆碱能抗炎通路效能减弱，而高交感活性促进儿茶酚胺释放和促炎细胞因子产生。",
+          "results": "本综述讨论了自主神经失衡在围术期并发症中的作用及恢复平衡的潜在干预措施。指出右美托咪定和β受体阻滞剂可能减少并发症，但存在争议：DECADE试验显示右美托咪定增加谵妄风险；POISE试验显示β受体阻滞剂增加死亡和卒中风险。当前可获取内容未提供样本量、主要终点、效应量、95%置信区间和P值等具体数据。",
+          "mainResults": "本综述讨论了自主神经失衡在围术期并发症中的作用及恢复平衡的潜在干预措施。指出右美托咪定和β受体阻滞剂可能减少并发症，但存在争议：DECADE试验显示右美托咪定增加谵妄风险；POISE试验显示β受体阻滞剂增加死亡和卒中风险。当前可获取内容未提供样本量、主要终点、效应量、95%置信区间和P值等具体数据。",
+          "limitations": [
+            "未进行定量荟萃分析。",
+            "部分研究可能存在发表偏倚。",
+            "纳入研究存在异质性。",
+            "某些干预措施的证据有限。"
+          ],
+          "practice": [
+            "麻醉管理中应关注自主神经平衡的维护，可能有助于减少术后并发症。",
+            "右美托咪定和β受体阻滞剂的使用需权衡获益与风险，如DECADE试验中右美托咪定增加谵妄风险，POISE试验中β受体阻滞剂增加死亡和卒中风险。",
+            "非药物策略如电针和体温管理可能作为辅助手段，但证据有限。"
+          ],
+          "editor": "原文明确提到右美托咪定和β受体阻滞剂可能减少并发症，但DECADE和POISE试验显示风险增加，提示证据存在争议。 过度解读风险：当前材料未提供效应量、置信区间和P值，无法评估统计学差异；且为系统综述，未进行定量合并，结论需谨慎解读。",
+          "whyItMatters": "自主神经系统失衡在围术期普遍存在，与术后感染、神经认知障碍和多器官功能障碍等并发症相关。理解其机制并探索恢复平衡的策略，可能为改善手术患者短期和长期恢复提供新方向。",
+          "background": "自主神经系统（ANS）对维持生理稳态至关重要。围术期可发生自主神经失衡，表现为交感神经过度激活和副交感张力降低，导致全身应激反应、心血管不稳定、组织修复受损和免疫抑制，进而增加感染风险、神经认知衰退和多器官功能障碍。手术创伤、麻醉、疼痛、低体温和心理应激均可促成这种失调。副交感张力降低使胆碱能抗炎通路效能减弱，而高交感活性促进儿茶酚胺释放和促炎细胞因子产生。",
+          "pico": {
+            "population": "围术期患者（具体人群特征未详细报告）",
+            "intervention": "Pharmacological interventions (dexmedetomidine, beta-blockers) and nonpharmacological strategies (electroacupuncture, temperature management, exercise)",
+            "comparison": "未明确报告（可能为安慰剂或常规管理）",
+            "outcome": "术后并发症（包括神经认知障碍、免疫抑制、癌症复发等）"
+          },
+          "studyType": "系统综述（未进行定量荟萃分析）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "当前可获取内容未提供该数据。",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "Dexmedetomidine: increased delirium risk in DECADE trial; beta-blockers: increased mortality and stroke in POISE trial.",
+          "aiAssessment": {
+            "support": "原文明确提到右美托咪定和β受体阻滞剂可能减少并发症，但DECADE和POISE试验显示风险增加，提示证据存在争议。",
+            "overinterpretationRisk": "当前材料未提供效应量、置信区间和P值，无法评估统计学差异；且为系统综述，未进行定量合并，结论需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和开放全文节选，可能未覆盖全文所有细节。",
+                "未获取完整数据，如样本量、效应量等。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "围术期自主神经系统失衡对手术结局的影响及干预策略的有效性。",
+              "designFit": "系统综述适合总结现有证据，但未进行定量荟萃分析，证据综合强度有限。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "当前可获取内容未提供该数据。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "整合了基础与临床研究，全面讨论自主神经调节在术后并发症中的作用。",
+                "涵盖了药物和非药物干预策略。"
+              ],
+              "concerns": [
+                "未进行定量荟萃分析，缺乏效应量估计。",
+                "纳入研究异质性可能影响结论可靠性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价。",
+                  "cautions": [
+                    "未报告统计方法，无法评估分析质量。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供效应量和P值，无法区分统计学差异与临床获益。"
+            },
+            "outcomeAnalysis": {
+              "primary": "当前可获取内容未提供该数据。",
+              "secondary": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "safety": "右美托咪定增加谵妄风险（DECADE试验）；β受体阻滞剂增加死亡和卒中风险（POISE试验）。",
+              "absoluteVsRelative": "当前可获取内容未提供绝对风险或相对风险数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统综述方法，整合多研究结果。",
+                "涵盖多种干预措施。"
+              ],
+              "limitations": [
+                "未进行定量荟萃分析。",
+                "潜在发表偏倚。",
+                "研究异质性。",
+                "部分干预证据有限。"
+              ],
+              "biasRisks": [
+                "发表偏倚可能高估干预效果。",
+                "纳入研究异质性可能影响结论。"
+              ],
+              "certainty": "当前可获取内容未提供证据等级评估，无法确定证据确定性。",
+              "conclusionAlignment": "结论与原文报告一致，但未过度解读。",
+              "causalBoundary": "本综述为观察性关联和机制讨论，不能证明因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "围术期管理中可考虑监测自主神经功能，但具体方法未明确。",
+                "右美托咪定和β受体阻滞剂的使用需个体化权衡。"
+              ],
+              "nonApplicability": [
+                "不能直接推荐特定药物或非药物干预用于所有患者。",
+                "DECADE和POISE试验的负面结果提示需谨慎。"
+              ],
+              "practiceChange": "当前证据不足以支持改变临床实践。",
+              "canDoNow": [
+                "关注围术期自主神经平衡，但需更多证据。"
+              ],
+              "cannotConclude": [
+                "不能确定右美托咪定或β受体阻滞剂是否总体获益。",
+                "不能确定非药物策略的有效性。"
+              ],
+              "evidenceGaps": [
+                "缺乏定量荟萃分析。",
+                "缺乏大样本随机对照试验。",
+                "缺乏长期结局数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40615330/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.06.004",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.06.004",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12489373/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41093687",
+          "number": "03",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-12",
+          "electronicPublicationDate": "2025-10-14",
+          "readingTime": "12 分钟",
+          "title": "丙泊酚或七氟烷对心脏手术中远程缺血预处理肾脏保护作用的影响：HypnoRenalRIP随机临床试验",
+          "originalTitle": "Impact of propofol or sevoflurane on the renoprotective effect of remote ischaemic preconditioning in cardiac surgery: the HypnoRenalRIP randomised clinical trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "远程缺血预处理（RIPC）可能减少心脏手术后的急性肾损伤。保护作用似乎仅限于尿液中两种细胞周期停滞标志物——金属蛋白酶组织抑制剂-2（TIMP-2）和胰岛素样生长因子结合蛋白7（IGFBP7）——早期和短暂升高的患者。研究表明，丙泊酚可以减弱对心肌的预处理效应。本研究探讨了丙泊酚是否减弱与TIMP-2和IGFBP7早期短暂升高相关的肾脏保护作用。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "这是一项单中心、前瞻性随机双盲2x2析因临床试验，研究对象为接受心脏手术的高危患者。患者被随机分配接受丙泊酚+假RIPC、丙泊酚+RIPC、七氟烷+假RIPC或七氟烷+RIPC。主要结局指标是干预前后尿中TIMP-2和IGFBP7浓度乘积（[TIMP-2].[IGFBP7]）的变化。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "我们纳入了160名参与者（丙泊酚+假RIPC：n=20，丙泊酚+RIPC：n=60，七氟烷+假RIPC：n=20，七氟烷+RIPC：n=60）。作为RIPC反应指标的[TIMP-2].[IGFBP7]的中位变化在接受七氟烷的参与者中更大（0.070；四分位距，-0.120至0.418），而接受丙泊酚的参与者为（-0.015；四分位距，-0.138至0.068；P=0.022）。相反，作为手术应激下肾脏应激标志的[TIMP-2].[IGFBP7]升高在所有组中均检测到，除了七氟烷+RIPC组（P=0.001）。各组之间以患者为中心的结局没有统计学显著差异。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "由RIPC诱导的[TIMP-2].[IGFBP7]的短暂升高与肾脏保护作用相关，仅在七氟烷麻醉下观察到，而使用丙泊酚时未观察到。生物标志物浓度与麻醉剂选择之间的关联提示丙泊酚可能减弱远程缺血预处理的肾脏保护作用。"
+              },
+              {
+                "heading": "CLINICAL TRIAL REGISTRATION",
+                "text": "DRKS00014989。"
+              }
+            ],
+            "fullText": "BACKGROUND: 远程缺血预处理（RIPC）可能减少心脏手术后的急性肾损伤。保护作用似乎仅限于尿液中两种细胞周期停滞标志物——金属蛋白酶组织抑制剂-2（TIMP-2）和胰岛素样生长因子结合蛋白7（IGFBP7）——早期和短暂升高的患者。研究表明，丙泊酚可以减弱对心肌的预处理效应。本研究探讨了丙泊酚是否减弱与TIMP-2和IGFBP7早期短暂升高相关的肾脏保护作用。 METHODS: 这是一项单中心、前瞻性随机双盲2x2析因临床试验，研究对象为接受心脏手术的高危患者。患者被随机分配接受丙泊酚+假RIPC、丙泊酚+RIPC、七氟烷+假RIPC或七氟烷+RIPC。主要结局指标是干预前后尿中TIMP-2和IGFBP7浓度乘积（[TIMP-2].[IGFBP7]）的变化。 RESULTS: 我们纳入了160名参与者（丙泊酚+假RIPC：n=20，丙泊酚+RIPC：n=60，七氟烷+假RIPC：n=20，七氟烷+RIPC：n=60）。作为RIPC反应指标的[TIMP-2].[IGFBP7]的中位变化在接受七氟烷的参与者中更大（0.070；四分位距，-0.120至0.418），而接受丙泊酚的参与者为（-0.015；四分位距，-0.138至0.068；P=0.022）。相反，作为手术应激下肾脏应激标志的[TIMP-2].[IGFBP7]升高在所有组中均检测到，除了七氟烷+RIPC组（P=0.001）。各组之间以患者为中心的结局没有统计学显著差异。 CONCLUSIONS: 由RIPC诱导的[TIMP-2].[IGFBP7]的短暂升高与肾脏保护作用相关，仅在七氟烷麻醉下观察到，而使用丙泊酚时未观察到。生物标志物浓度与麻醉剂选择之间的关联提示丙泊酚可能减弱远程缺血预处理的肾脏保护作用。 CLINICAL TRIAL REGISTRATION: DRKS00014989。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Zarbock A, Schone LM, Kellum JA, Gerss J, Weiss R, Booke H, Meersch M",
+          "citation": "Br J Anaesth. 2025 Dec;135(6):1626-1634. doi: 10.1016/j.bja.2025.08.055. Epub 2025 Oct 14.",
+          "doi": "10.1016/j.bja.2025.08.055",
+          "pmid": "41093687",
+          "pmcid": "PMC12799410",
+          "publicationTypes": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "question": "远程缺血预处理（RIPC）可能减轻心脏手术后的急性肾损伤，但麻醉药物可能干扰其保护效应。该研究提示丙泊酚可能削弱RIPC的肾脏保护作用，而七氟烷则可能保留该效应，这对麻醉药物的选择具有潜在临床意义，但需进一步验证。",
+          "conclusion": "在心脏手术高危患者中，与丙泊酚相比，七氟烷麻醉下远程缺血预处理（RIPC）诱导的尿[TIMP-2]·[IGFBP7]早期一过性升高更明显，提示丙泊酚可能减弱RIPC的肾脏保护效应，但患者中心结局无显著差异。",
+          "clinical": "在心脏手术中，若采用RIPC策略，七氟烷麻醉可能比丙泊酚更有利于保留RIPC的肾脏保护效应（基于生物标志物变化）。 丙泊酚可能减弱RIPC诱导的[TIMP-2]·[IGFBP7]早期一过性升高，从而可能削弱其肾脏保护作用，但需更多临床结局证据支持。 由于患者中心结局无显著差异，麻醉药物的选择不应仅基于此生物标志物结果，需权衡其他临床因素。",
+          "evidence": "中等",
+          "score": 65,
+          "scoreBreakdown": {
+            "relevance": 17,
+            "evidenceQuality": 22,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "单中心、前瞻性、随机、双盲、2×2析因设计的临床试验，纳入接受心脏手术的高危患者，随机分配至丙泊酚+假RIPC、丙泊酚+RIPC、七氟烷+假RIPC或七氟烷+RIPC组。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "High-risk patients undergoing cardiac surgery with cardiopulmonary bypass；160 participants"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Remote ischaemic preconditioning (RIPC) or sham-RIPC, combined with propofol or sevoflurane anaesthesia；对照：Four groups: propofol+sham-RIPC, propofol+RIPC, sevoflurane+sham-RIPC, sevoflurane+RIPC"
+            },
+            {
+              "label": "主要终点",
+              "value": "Change in the product of urinary concentrations of TIMP-2 and IGFBP7 ([TIMP-2]·[IGFBP7]) from before to after the intervention"
+            }
+          ],
+          "keyPoints": [
+            "在心脏手术高危患者中，七氟烷麻醉下RIPC诱导的[TIMP-2]·[IGFBP7]早期一过性升高比丙泊酚更明显（P=0.022）。",
+            "除七氟烷+RIPC组外，所有组均检测到手术相关的肾应激标志升高（P=0.001）。",
+            "患者中心结局（AKI、肾功能恢复、透析依赖、死亡率、MAKE）在组间无统计学显著差异。",
+            "试验未针对AKI差异进行效能设计，且统计效能低于常规标准。"
+          ],
+          "methods": "远程缺血预处理（RIPC）可能减少心脏手术后的急性肾损伤，其保护效应似乎仅限于尿中组织金属蛋白酶抑制剂-2（TIMP-2）和胰岛素样生长因子结合蛋白-7（IGFBP7）早期一过性升高的患者。有研究表明丙泊酚可减弱对心肌的预处理效应。本研究旨在探讨丙泊酚是否减弱与TIMP-2和IGFBP7早期一过性升高相关的肾脏保护效应。",
+          "results": "共纳入160名参与者（丙泊酚+假RIPC：n=20，丙泊酚+RIPC：n=60，七氟烷+假RIPC：n=20，七氟烷+RIPC：n=60）。作为RIPC反应指标的[TIMP-2]·[IGFBP7]中位变化在七氟烷组（0.070；IQR，-0.120至0.418）大于丙泊酚组（-0.015；IQR，-0.138至0.068；P=0.022）。相反，作为手术所致肾应激标志的[TIMP-2]·[IGFBP7]升高在所有组中均检测到，但七氟烷+RIPC组除外（P=0.001）。各组间患者中心结局无统计学显著差异。",
+          "mainResults": "共纳入160名参与者（丙泊酚+假RIPC：n=20，丙泊酚+RIPC：n=60，七氟烷+假RIPC：n=20，七氟烷+RIPC：n=60）。作为RIPC反应指标的[TIMP-2]·[IGFBP7]中位变化在七氟烷组（0.070；IQR，-0.120至0.418）大于丙泊酚组（-0.015；IQR，-0.138至0.068；P=0.022）。相反，作为手术所致肾应激标志的[TIMP-2]·[IGFBP7]升高在所有组中均检测到，但七氟烷+RIPC组除外（P=0.001）。各组间患者中心结局无统计学显著差异。",
+          "limitations": [
+            "试验未针对AKI发生率的差异进行效能设计。",
+            "主要统计分析效能为75.3%，低于通常的80%。",
+            "硫喷妥钠对HMGB-1、TIMP-2和IGFBP7释放的影响尚不清楚，可能影响结果。",
+            "并非所有患者都对RIPC有反应。"
+          ],
+          "practice": [
+            "在心脏手术中，若采用RIPC策略，七氟烷麻醉可能比丙泊酚更有利于保留RIPC的肾脏保护效应（基于生物标志物变化）。",
+            "丙泊酚可能减弱RIPC诱导的[TIMP-2]·[IGFBP7]早期一过性升高，从而可能削弱其肾脏保护作用，但需更多临床结局证据支持。",
+            "由于患者中心结局无显著差异，麻醉药物的选择不应仅基于此生物标志物结果，需权衡其他临床因素。"
+          ],
+          "editor": "该研究为随机对照试验，设计严谨，双盲，2×2析因设计，主要结局为生物标志物变化，结果提示七氟烷组[TIMP-2]·[IGFBP7]变化显著高于丙泊酚组（P=0.022），且七氟烷+RIPC组未检测到肾应激标志升高（P=0.001），支持丙泊酚可能减弱RIPC的肾脏保护效应。 过度解读风险：主要结局为生物标志物替代指标，而非临床结局；患者中心结局无显著差异，因此不能直接推断丙泊酚会恶化临床肾脏结局。且试验效能不足，需谨慎解读。",
+          "whyItMatters": "远程缺血预处理（RIPC）可能减轻心脏手术后的急性肾损伤，但麻醉药物可能干扰其保护效应。该研究提示丙泊酚可能削弱RIPC的肾脏保护作用，而七氟烷则可能保留该效应，这对麻醉药物的选择具有潜在临床意义，但需进一步验证。",
+          "background": "远程缺血预处理（RIPC）可能减少心脏手术后的急性肾损伤，其保护效应似乎仅限于尿中组织金属蛋白酶抑制剂-2（TIMP-2）和胰岛素样生长因子结合蛋白-7（IGFBP7）早期一过性升高的患者。有研究表明丙泊酚可减弱对心肌的预处理效应。本研究旨在探讨丙泊酚是否减弱与TIMP-2和IGFBP7早期一过性升高相关的肾脏保护效应。",
+          "pico": {
+            "population": "High-risk patients undergoing cardiac surgery with cardiopulmonary bypass",
+            "intervention": "Remote ischaemic preconditioning (RIPC) or sham-RIPC, combined with propofol or sevoflurane anaesthesia",
+            "comparison": "Four groups: propofol+sham-RIPC, propofol+RIPC, sevoflurane+sham-RIPC, sevoflurane+RIPC",
+            "outcome": "Change in the product of urinary concentrations of TIMP-2 and IGFBP7 ([TIMP-2]·[IGFBP7]) from before to after the intervention"
+          },
+          "studyType": "单中心、前瞻性、随机、双盲、2×2析因设计的临床试验，纳入接受心脏手术的高危患者，随机分配至丙泊酚+假RIPC、丙泊酚+RIPC、七氟烷+假RIPC或七氟烷+RIPC组。",
+          "sampleSize": "160 participants",
+          "primaryOutcome": "Change in the product of urinary concentrations of TIMP-2 and IGFBP7 ([TIMP-2]·[IGFBP7]) from before to after the intervention",
+          "effectSize": [
+            "Median change in [TIMP-2]·[IGFBP7] for sevoflurane: 0.070",
+            "Median change in [TIMP-2]·[IGFBP7] for propofol: -0.015"
+          ],
+          "confidenceInterval": [
+            "IQR for sevoflurane: -0.120 to 0.418",
+            "IQR for propofol: -0.138 to 0.068"
+          ],
+          "pValue": [
+            "P=0.022 for comparison of median change between sevoflurane and propofol",
+            "P=0.001 for elevated [TIMP-2]·[IGFBP7] in all groups except sevoflurane+RIPC"
+          ],
+          "adverseEvents": "Adverse events included perioperative myocardial infarction, cerebrovascular events/stroke, pulmonary embolism, residual adverse effects on corresponding limb, and petechial bleeding. No significant differences between groups were reported.",
+          "aiAssessment": {
+            "support": "该研究为随机对照试验，设计严谨，双盲，2×2析因设计，主要结局为生物标志物变化，结果提示七氟烷组[TIMP-2]·[IGFBP7]变化显著高于丙泊酚组（P=0.022），且七氟烷+RIPC组未检测到肾应激标志升高（P=0.001），支持丙泊酚可能减弱RIPC的肾脏保护效应。",
+            "overinterpretationRisk": "主要结局为生物标志物替代指标，而非临床结局；患者中心结局无显著差异，因此不能直接推断丙泊酚会恶化临床肾脏结局。且试验效能不足，需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节、完整结果数据及讨论部分。",
+                "未提供完整的统计分析计划、随机化细节、盲法实施细节等。",
+                "未提供各次要结局的具体数值和效应量。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "在心脏手术高危患者中，丙泊酚是否会减弱RIPC诱导的肾脏保护效应（以[TIMP-2]·[IGFBP7]早期一过性升高为指标）？",
+              "designFit": "2×2析因随机双盲设计适合同时评估麻醉药物和RIPC的交互作用，但主要结局为生物标志物，而非临床结局。",
+              "eligibility": "当前可获取内容未提供详细的纳入和排除标准。",
+              "randomization": "随机化方法未详细描述，但提及随机分配至四组。",
+              "allocationConcealment": "当前可获取内容未提供分配隐藏的具体方法。",
+              "blinding": "研究为双盲，但未说明对谁设盲（患者、医生、结局评估者？）。",
+              "sampleSizePlanning": "样本量计算未详细说明，但提到主要统计分析效能为75.3%，低于通常的80%。",
+              "followUp": "随访至90天，但具体随访流程未详细描述。",
+              "analysisPopulation": "当前可获取内容未明确意向性分析或符合方案集。",
+              "missingData": "当前可获取内容未提供缺失数据处理方法。",
+              "strengths": [
+                "随机双盲设计，减少偏倚。",
+                "2×2析因设计可评估交互作用。",
+                "多中心？单中心？但为前瞻性设计。"
+              ],
+              "concerns": [
+                "主要结局为替代指标，临床意义有限。",
+                "统计效能不足。",
+                "未报告次要结局的详细结果。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未明确描述统计方法，无法评价。",
+                  "reportedResult": "未报告具体统计方法。",
+                  "interpretation": "无法评价统计方法的适当性。",
+                  "cautions": [
+                    "未报告统计方法，无法评估分析是否正确。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供调整变量信息。",
+              "multiplicity": "当前可获取内容未提及多重性校正。",
+              "subgroupAnalysis": "未报告亚组分析，但2×2析因设计可能包含交互作用分析。",
+              "clinicalVsStatisticalSignificance": "生物标志物差异有统计学意义（P=0.022），但患者中心结局无显著差异，提示统计学差异不一定转化为临床获益。"
+            },
+            "outcomeAnalysis": {
+              "primary": "干预前后尿[TIMP-2]·[IGFBP7]的变化。七氟烷组中位变化0.070（IQR -0.120至0.418），丙泊酚组-0.015（IQR -0.138至0.068），P=0.022。",
+              "secondary": [
+                "术后72小时内AKI发生率和严重程度（KDIGO标准）：未报告具体数值。",
+                "30天和90天肾功能恢复：未报告具体数值。",
+                "30天和90天透析依赖：未报告具体数值。",
+                "30天和90天死亡率：未报告具体数值。",
+                "30天和90天MAKE：未报告具体数值。"
+              ],
+              "safety": "不良事件包括围术期心肌梗死、脑血管事件/卒中、肺栓塞、相应肢体残余不良影响和瘀点出血。各组间无显著差异。",
+              "absoluteVsRelative": "未报告绝对风险或相对风险，仅报告生物标志物变化的中位数和IQR。",
+              "subgroupAndInteraction": "未报告亚组分析，但2×2析因设计可能包含交互作用分析。",
+              "sensitivity": "未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机双盲设计，减少偏倚。",
+                "2×2析因设计可评估麻醉药物与RIPC的交互作用。",
+                "使用生物标志物作为主要结局，可能比临床结局更敏感。"
+              ],
+              "limitations": [
+                "主要结局为替代指标，临床意义有限。",
+                "统计效能不足（75.3%）。",
+                "未报告次要结局的详细结果。",
+                "硫喷妥钠可能影响结果。"
+              ],
+              "biasRisks": [
+                "未报告分配隐藏和盲法细节，可能存在实施偏倚。",
+                "未报告缺失数据处理，可能存在随访偏倚。"
+              ],
+              "certainty": "由于统计效能不足和替代指标，证据确定性中等。",
+              "conclusionAlignment": "结论与结果一致，但需注意生物标志物与临床结局的关联尚不明确。",
+              "causalBoundary": "观察性关联不能证明因果关系，丙泊酚可能减弱RIPC效应，但需更多临床结局证据。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "对于接受心脏手术的高危患者，若考虑RIPC，七氟烷麻醉可能更有利于保留RIPC的肾脏保护效应（基于生物标志物）。",
+                "丙泊酚可能减弱RIPC的效应，但临床结局无差异，因此不改变当前麻醉实践。"
+              ],
+              "nonApplicability": [
+                "结果不能推广至非心脏手术或低危患者。",
+                "不能推广至其他麻醉药物或RIPC方案。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践，需更多以临床结局为终点的研究。",
+              "canDoNow": [
+                "在临床决策中，可考虑麻醉药物对RIPC效应的潜在影响，但需权衡其他因素。",
+                "监测[TIMP-2]·[IGFBP7]可能有助于识别RIPC反应者，但尚未确立临床用途。"
+              ],
+              "cannotConclude": [
+                "不能确定丙泊酚是否增加AKI风险。",
+                "不能确定七氟烷是否改善肾脏临床结局。",
+                "不能确定RIPC的长期获益。"
+              ],
+              "evidenceGaps": [
+                "需要以AKI、肾功能恢复、死亡率等临床结局为主要终点的更大规模试验。",
+                "需要明确硫喷妥钠对生物标志物的影响。",
+                "需要探索RIPC无反应者的机制。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41093687/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.08.055",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.08.055",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12799410/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41176463",
+          "number": "04",
+          "category": "疼痛与区域麻醉",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-01",
+          "electronicPublicationDate": "2025-10-31",
+          "readingTime": "11 分钟",
+          "title": "可乐定与右美托咪定在外周神经阻滞中的安全性：临床前证据的系统评价",
+          "originalTitle": "Safety of clonidine and dexmedetomidine in peripheral nerve blocks: a systematic review of preclinical evidence.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "神经周围α(2)-肾上腺素能受体激动剂，特别是可乐定和右美托咪定，可用于延长周围神经阻滞的持续时间。尽管临床研究表明其可增强镇痛效果，但其神经毒性或神经保护潜力仍令人担忧，尤其是在受损神经中。我们旨在综合这些药物安全性的临床前证据。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "对PubMed、CENTRAL、Embase和Scopus进行了系统检索，检索时间截至2025年7月13日，并辅以参考文献筛选和大型语言模型查询。纳入研究神经周围可乐定或右美托咪定的临床前体内和体外研究。评估的结果包括神经毒性指标（如细胞凋亡、脱髓鞘、轴突变性）和神经保护指标（如抗炎作用、神经元保存）。使用SYRCLE工具和叙述性评估评估偏倚风险。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "共纳入25项研究（19项体内，6项体外）。高剂量α(2)-激动剂在体外可诱导直接毒性，但即使在超过临床使用剂量的情况下，体内也未显示神经毒性证据。相反，与未治疗组相比，α(2)-激动剂已被证明可减少细胞凋亡、轴突变性和炎症，尽管这种保护作用仅在临床相关浓度下、且在神经内注射后才观察到。相比之下，在已有神经损伤的模型中，α(2)-激动剂与脱髓鞘和炎症加重相关。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "临床前证据表明，在临床相关剂量下，神经周围α(2)-肾上腺素能受体激动剂对健康神经是安全的。虽然它们可能在治疗剂量（≤2 μg kg⁻¹）下不提供临床显著的神经保护作用，但它们可增加受损神经的神经毒性。这些数据不应直接外推到临床实践。需要谨慎选择患者和剂量，并进行进一步高质量的临床前和临床研究。"
+              }
+            ],
+            "fullText": "BACKGROUND: 神经周围α(2)-肾上腺素能受体激动剂，特别是可乐定和右美托咪定，可用于延长周围神经阻滞的持续时间。尽管临床研究表明其可增强镇痛效果，但其神经毒性或神经保护潜力仍令人担忧，尤其是在受损神经中。我们旨在综合这些药物安全性的临床前证据。 METHODS: 对PubMed、CENTRAL、Embase和Scopus进行了系统检索，检索时间截至2025年7月13日，并辅以参考文献筛选和大型语言模型查询。纳入研究神经周围可乐定或右美托咪定的临床前体内和体外研究。评估的结果包括神经毒性指标（如细胞凋亡、脱髓鞘、轴突变性）和神经保护指标（如抗炎作用、神经元保存）。使用SYRCLE工具和叙述性评估评估偏倚风险。 RESULTS: 共纳入25项研究（19项体内，6项体外）。高剂量α(2)-激动剂在体外可诱导直接毒性，但即使在超过临床使用剂量的情况下，体内也未显示神经毒性证据。相反，与未治疗组相比，α(2)-激动剂已被证明可减少细胞凋亡、轴突变性和炎症，尽管这种保护作用仅在临床相关浓度下、且在神经内注射后才观察到。相比之下，在已有神经损伤的模型中，α(2)-激动剂与脱髓鞘和炎症加重相关。 CONCLUSIONS: 临床前证据表明，在临床相关剂量下，神经周围α(2)-肾上腺素能受体激动剂对健康神经是安全的。虽然它们可能在治疗剂量（≤2 μg kg⁻¹）下不提供临床显著的神经保护作用，但它们可增加受损神经的神经毒性。这些数据不应直接外推到临床实践。需要谨慎选择患者和剂量，并进行进一步高质量的临床前和临床研究。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "De Cassai A, Dost B, Bugada D, Boscolo A, Navalesi P",
+          "citation": "Br J Anaesth. 2026 Jan;136(1):255-265. doi: 10.1016/j.bja.2025.10.008. Epub 2025 Oct 31.",
+          "doi": "10.1016/j.bja.2025.10.008",
+          "pmid": "41176463",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Systematic Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "疼痛与区域麻醉",
+            "Journal Article",
+            "Systematic Review"
+          ],
+          "question": "外周神经阻滞中常使用α2-肾上腺素能受体激动剂（如可乐定、右美托咪定）以延长阻滞时间，但其神经毒性或神经保护作用尚存争议，尤其对已受损神经。该系统评价整合临床前证据，为临床用药安全性和未来研究方向提供重要参考。",
+          "conclusion": "临床前证据表明，在健康神经上以临床相关剂量使用外周神经周围α2-肾上腺素能受体激动剂是安全的，但在已受损神经中可能增加神经毒性。",
+          "clinical": "在健康神经上，临床相关剂量的α2-激动剂可能安全，但需谨慎选择患者和剂量。 对于已有神经损伤的患者，应警惕α2-激动剂可能加重神经损伤的风险。 临床前证据不能直接外推到临床实践，需进一步高质量临床研究验证。",
+          "evidence": "中等",
+          "score": 64,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 23,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Preclinical in vivo and in vitro studies examining perineural clonidine or dexmedetomidine；25 studies (19 in vivo, six in vitro)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Perineural clonidine or dexmedetomidine；对照：Untreated groups"
+            },
+            {
+              "label": "主要终点",
+              "value": "Indicators of neurotoxicity (e.g. apoptosis, demyelination, axonal degeneration) and neuroprotection (e.g. anti-inflammatory effects, neuronal preservation)"
+            }
+          ],
+          "keyPoints": [
+            "25项临床前研究（19项体内，6项体外）纳入分析。",
+            "高剂量α2-激动剂在体外有直接毒性，但体内未见神经毒性。",
+            "α2-激动剂在临床相关浓度下、神经内注射后显示神经保护作用。",
+            "在已有神经损伤模型中，α2-激动剂与脱髓鞘和炎症加重相关。",
+            "临床前证据不能直接外推到临床实践。"
+          ],
+          "methods": "外周神经周围使用α2-肾上腺素能受体激动剂（特别是可乐定和右美托咪定）可延长外周神经阻滞持续时间。尽管临床研究提示其可增强镇痛效果，但其神经毒性或神经保护潜力仍令人担忧，尤其是在受损神经中。本系统评价旨在综合这些药物的临床前安全性证据。",
+          "results": "共纳入25项研究（19项体内，6项体外）。高剂量α2-激动剂在体外可诱导直接毒性，但体内未显示神经毒性证据，即使剂量超过临床使用剂量。相反，与未治疗组相比，α2-激动剂可减少凋亡、轴突变性和炎症，但这种保护作用仅在临床相关浓度下、且仅在神经内注射后观察到。然而，在已有神经损伤的模型中，α2-激动剂与脱髓鞘和炎症加重相关。",
+          "mainResults": "共纳入25项研究（19项体内，6项体外）。高剂量α2-激动剂在体外可诱导直接毒性，但体内未显示神经毒性证据，即使剂量超过临床使用剂量。相反，与未治疗组相比，α2-激动剂可减少凋亡、轴突变性和炎症，但这种保护作用仅在临床相关浓度下、且仅在神经内注射后观察到。然而，在已有神经损伤的模型中，α2-激动剂与脱髓鞘和炎症加重相关。",
+          "limitations": [
+            "这些数据不应直接外推到临床实践。",
+            "需要谨慎选择患者和剂量，并需要进一步高质量的临床前和临床研究。"
+          ],
+          "practice": [
+            "在健康神经上，临床相关剂量的α2-激动剂可能安全，但需谨慎选择患者和剂量。",
+            "对于已有神经损伤的患者，应警惕α2-激动剂可能加重神经损伤的风险。",
+            "临床前证据不能直接外推到临床实践，需进一步高质量临床研究验证。"
+          ],
+          "editor": "该结论基于系统评价的临床前证据，支持在健康神经上临床相关剂量α2-激动剂的安全性，但强调在受损神经中的潜在风险。 过度解读风险：存在将临床前结果直接外推到临床的风险，需注意临床前与临床之间的差异。",
+          "whyItMatters": "外周神经阻滞中常使用α2-肾上腺素能受体激动剂（如可乐定、右美托咪定）以延长阻滞时间，但其神经毒性或神经保护作用尚存争议，尤其对已受损神经。该系统评价整合临床前证据，为临床用药安全性和未来研究方向提供重要参考。",
+          "background": "外周神经周围使用α2-肾上腺素能受体激动剂（特别是可乐定和右美托咪定）可延长外周神经阻滞持续时间。尽管临床研究提示其可增强镇痛效果，但其神经毒性或神经保护潜力仍令人担忧，尤其是在受损神经中。本系统评价旨在综合这些药物的临床前安全性证据。",
+          "pico": {
+            "population": "Preclinical in vivo and in vitro studies examining perineural clonidine or dexmedetomidine",
+            "intervention": "Perineural clonidine or dexmedetomidine",
+            "comparison": "Untreated groups",
+            "outcome": "Indicators of neurotoxicity (e.g. apoptosis, demyelination, axonal degeneration) and neuroprotection (e.g. anti-inflammatory effects, neuronal preservation)"
+          },
+          "studyType": "系统评价",
+          "sampleSize": "25 studies (19 in vivo, six in vitro)",
+          "primaryOutcome": "Indicators of neurotoxicity (e.g. apoptosis, demyelination, axonal degeneration) and neuroprotection (e.g. anti-inflammatory effects, neuronal preservation)",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "In models with pre-existing nerve injury, alpha(2)-agonists have been associated with exacerbated demyelination and inflammation.",
+          "aiAssessment": {
+            "support": "该结论基于系统评价的临床前证据，支持在健康神经上临床相关剂量α2-激动剂的安全性，但强调在受损神经中的潜在风险。",
+            "overinterpretationRisk": "存在将临床前结果直接外推到临床的风险，需注意临床前与临床之间的差异。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要分析，未获取全文数据。",
+                "未报告效应量、置信区间和P值。",
+                "未提供具体统计方法细节。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "系统评价临床前证据，评估神经周围使用可乐定和右美托咪定的安全性（神经毒性或神经保护作用）。",
+              "designFit": "系统评价设计适合综合临床前研究证据，但受限于原始研究的质量。",
+              "eligibility": "纳入临床前体内和体外研究，涉及神经周围使用可乐定或右美托咪定。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "25项研究（19项体内，6项体外）。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "系统检索多个数据库，并补充参考文献筛查和大型语言模型查询。",
+                "使用SYRCLE工具评估偏倚风险。"
+              ],
+              "concerns": [
+                "仅基于摘要，无法评估全文细节。",
+                "未报告具体效应量和统计显著性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计方法的适当性。",
+                  "cautions": [
+                    "未报告效应量、置信区间和P值，无法评估效应大小和精确性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "神经毒性指标（如凋亡、脱髓鞘、轴突变性）和神经保护指标（如抗炎作用、神经元保存）。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "在已有神经损伤模型中，α2-激动剂与脱髓鞘和炎症加重相关。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统检索策略明确。",
+                "纳入研究类型明确。",
+                "使用SYRCLE工具评估偏倚风险。"
+              ],
+              "limitations": [
+                "仅基于摘要，无法评估全文细节。",
+                "未报告效应量和置信区间。",
+                "临床前证据不能直接外推到临床。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "当前可获取内容未提供该数据。",
+              "conclusionAlignment": "结论与结果一致，但需注意临床前证据的局限性。",
+              "causalBoundary": "观察性关联不能推断因果关系，尤其临床前模型与临床存在差异。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "在健康神经上，临床相关剂量的α2-激动剂可能安全。",
+                "对于已有神经损伤的患者，应谨慎使用。"
+              ],
+              "nonApplicability": [
+                "临床前证据不能直接外推到临床实践。",
+                "动物模型结果可能不适用于人类。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践，但提示需谨慎选择患者和剂量。",
+              "canDoNow": [
+                "在临床实践中，应基于现有临床证据和个体化评估使用α2-激动剂。",
+                "对于有神经损伤风险的患者，应权衡利弊。"
+              ],
+              "cannotConclude": [
+                "无法确定临床相关剂量下α2-激动剂在人类中的神经毒性或神经保护作用。",
+                "无法确定在受损神经中的安全性。"
+              ],
+              "evidenceGaps": [
+                "需要更多高质量的临床前研究，特别是关于受损神经的模型。",
+                "需要临床研究验证临床前发现。",
+                "需要明确剂量-反应关系。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41176463/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.10.008",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.10.008",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-42469102",
+          "number": "05",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-07-18",
+          "electronicPublicationDate": "2026-07-18",
+          "readingTime": "14 分钟",
+          "title": "超越特定手术方案：系统评价识别加速康复外科协会指南中的通用麻醉学核心",
+          "originalTitle": "Beyond procedure-specific protocols: a systematic review identifying a universal anaesthesiological core across Enhanced Recovery After Surgery Society guidelines.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "加速康复外科（ERAS）学会指南为围手术期护理提供了针对特定手术的循证建议。许多干预措施属于麻醉学范畴，但它们在多大程度上反映了跨专业原则仍不清楚。本系统评价旨在识别ERAS指南中通用的麻醉学核心内容。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "筛选所有ERAS学会指南的合格性。如果指南没有实用的麻醉学建议、已被取代或不适用于标准医院环境，则将其排除。通过试点提取和德尔菲共识，制定了45个麻醉学总括术语的分类。两名评审员独立提取建议及其强度。使用研究与评估指南评估II（AGREE II）评估方法学质量。总括术语被分类为一致（>80%）、基本一致（60-80%）、混合（20-60%）或稀疏（≤20%）。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在39篇出版物中，纳入了24篇指南（2013-2025年）。在24篇指南中，有23篇可识别出麻醉学参与。在45个总括术语中，8个一致，10个基本一致，16个混合，11个稀疏。一致的领域包括：多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、温度和液体管理，以及手术特异性建议。平均AGREE II评分为76%，范围和目的以及表述清晰度得分最高，利益相关者参与得分最低。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "尽管存在手术异质性，但在ERAS指南中可识别出一致的麻醉学核心。跨指南一致性确定了跨专业实施的优先领域，而建议强度独立地表明指南转化为当地实践的置信度；高频、混合强度的领域，特别是液体管理、术前碳水化合物给药和麻醉前用药，值得进行结构化的当地评估。"
+              },
+              {
+                "heading": "REGISTRATION",
+                "text": "研究方案：开放科学框架（DOI: 10.17605/OSF.IO/CBWDT）。"
+              }
+            ],
+            "fullText": "BACKGROUND: Enhanced Recovery After Surgery (ERAS) Society guidelines provide procedure-specific, evidence-based recommendations for perioperative care. Many interventions fall within anaesthesiology, yet the extent to which they reflect cross-speciality principles remains unclear. The objective of this systematic review was to identify a universal anaesthesiological core across ERAS guidelines. METHODS: All ERAS Society guidelines were screened for eligibility. Guidelines were excluded if they had no practical anaesthesiological recommendations, had been superseded, or were not intended for standard hospital settings. A classification of 45 anaesthesiological umbrella terms was developed through pilot extraction and Delphi consensus. Two reviewers independently extracted recommendations and their strength. Methodological quality was assessed using Appraisal of Guidelines for Research and Evaluation II (AGREE II). Umbrella terms were classified as consistent (>80%), mostly consistent (60-80%), mixed (20-60%), or sparse (</=20%). RESULTS: Of 39 publications, 24 guidelines (2013-2025) were included. Anaesthesiological involvement was identifiable in 23 out of 24 guidelines. Of the 45 umbrella terms, eight were consistent, 10 mostly consistent, 16 mixed, and 11 sparse. The consistent domains were: multimodal analgesia, fasting, thromboprophylaxis, antimicrobial prophylaxis, nutrition, temperature and fluid management, and surgery-specific recommendations. The mean AGREE II score was 76%, highest for scope and purpose and clarity of presentation and lowest for stakeholder involvement. CONCLUSIONS: Despite procedural heterogeneity, a consistent anaesthesiological core is identifiable within the ERAS guidelines. Cross-guideline consistency identifies the priority domains for cross-speciality implementation, whereas recommendation strength independently indicates the confidence with which guidance transposes onto local practice; high-frequency, mixed-strength domains, notably fluid management, preoperative carbohydrate administration and preanaesthetic medication, warrant structured local appraisal. REGISTRATION: The study protocol: Open Science Framework (DOI: 10.17605/OSF.IO/CBWDT).",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Bornemann-Cimenti H, Furtmuller JM, Labenbacher S, Niederer M, Bader M, Lang-Illievich K, Tamussino K, Hammer S",
+          "citation": "Br J Anaesth. 2026 Sep;137(3):796-807. doi: 10.1016/j.bja.2026.06.006. Epub 2026 Jul 18.",
+          "doi": "10.1016/j.bja.2026.06.006",
+          "pmid": "42469102",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article",
+            "Review",
+            "Systematic Review"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "clinical-evidence-publication-type"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "Journal Article",
+            "Review"
+          ],
+          "question": "该研究首次系统性地识别了ERAS指南中跨手术类型的通用麻醉学核心，有助于明确麻醉科在ERAS路径中的核心职责，并为跨学科实施和本地化指南制定提供优先领域。",
+          "conclusion": "尽管手术类型各异，加速康复外科（ERAS）指南中仍存在一致的麻醉学核心，包括多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理及手术特异性建议，但部分领域（如液体管理、术前碳水化合物负荷和麻醉前用药）的建议强度不一，需进行本地化评估。",
+          "clinical": "麻醉科在ERAS指南中具有核心作用，应积极参与跨学科实施。 一致的领域（如多模式镇痛、禁食、血栓预防等）可作为麻醉科优先落实的标准化措施。 对于高频率但强度不一致的领域（如液体管理、术前碳水化合物负荷和麻醉前用药），建议进行结构化本地评估，以制定适合本机构的方案。",
+          "evidence": "中等",
+          "score": 64,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 23,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "系统评价"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "ERAS协会发布的指南（共纳入24项指南，2013-2025年）；24 guidelines"
+            },
+            {
+              "label": "干预与比较",
+              "value": "不适用（系统评价，无干预）；对照：不适用（系统评价，无对照）"
+            },
+            {
+              "label": "主要终点",
+              "value": "Identification of a universal anaesthesiological core across ERAS guidelines"
+            }
+          ],
+          "keyPoints": [
+            "纳入24项ERAS指南（2013-2025年），23项可识别麻醉学参与。",
+            "45个麻醉学术语中，8个一致，10个基本一致，16个混合，11个稀疏。",
+            "一致的领域包括多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理及手术特异性建议。",
+            "平均AGREE II评分为76%，利益相关者参与得分最低。",
+            "高频率但强度不一致的领域（液体管理、术前碳水化合物负荷、麻醉前用药）需本地化评估。"
+          ],
+          "methods": "加速康复外科（ERAS）协会指南提供了针对特定手术的、基于证据的围手术期护理建议。许多干预措施属于麻醉学范畴，但它们在多大程度上反映了跨专业原则仍不清楚。本系统评价旨在识别ERAS指南中的通用麻醉学核心。",
+          "results": "共筛选39篇文献，纳入24项指南（2013-2025年）。23/24项指南中可识别麻醉学参与。在45个麻醉学术语中，8个一致，10个基本一致，16个混合，11个稀疏。一致的领域包括：多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理以及手术特异性建议。平均AGREE II评分为76%，范围和目的及表述清晰度得分最高，利益相关者参与得分最低。",
+          "mainResults": "共筛选39篇文献，纳入24项指南（2013-2025年）。23/24项指南中可识别麻醉学参与。在45个麻醉学术语中，8个一致，10个基本一致，16个混合，11个稀疏。一致的领域包括：多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理以及手术特异性建议。平均AGREE II评分为76%，范围和目的及表述清晰度得分最高，利益相关者参与得分最低。",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。",
+            "当前可获取内容未提供该数据。"
+          ],
+          "practice": [
+            "麻醉科在ERAS指南中具有核心作用，应积极参与跨学科实施。",
+            "一致的领域（如多模式镇痛、禁食、血栓预防等）可作为麻醉科优先落实的标准化措施。",
+            "对于高频率但强度不一致的领域（如液体管理、术前碳水化合物负荷和麻醉前用药），建议进行结构化本地评估，以制定适合本机构的方案。"
+          ],
+          "editor": "该研究为系统评价，方法学质量较高（平均AGREE II评分76%），结果支持ERAS指南中存在一致的麻醉学核心。 过度解读风险：需注意，该研究仅基于指南文本分析，未评估实际临床实施效果；且部分领域建议强度不一致，不能直接推断为临床实践标准。",
+          "whyItMatters": "该研究首次系统性地识别了ERAS指南中跨手术类型的通用麻醉学核心，有助于明确麻醉科在ERAS路径中的核心职责，并为跨学科实施和本地化指南制定提供优先领域。",
+          "background": "加速康复外科（ERAS）协会指南提供了针对特定手术的、基于证据的围手术期护理建议。许多干预措施属于麻醉学范畴，但它们在多大程度上反映了跨专业原则仍不清楚。本系统评价旨在识别ERAS指南中的通用麻醉学核心。",
+          "pico": {
+            "population": "ERAS协会发布的指南（共纳入24项指南，2013-2025年）",
+            "intervention": "不适用（系统评价，无干预）",
+            "comparison": "不适用（系统评价，无对照）",
+            "outcome": "Identification of a universal anaesthesiological core across ERAS guidelines"
+          },
+          "studyType": "系统评价",
+          "sampleSize": "24 guidelines",
+          "primaryOutcome": "Identification of a universal anaesthesiological core across ERAS guidelines",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "该研究为系统评价，方法学质量较高（平均AGREE II评分76%），结果支持ERAS指南中存在一致的麻醉学核心。",
+            "overinterpretationRisk": "需注意，该研究仅基于指南文本分析，未评估实际临床实施效果；且部分领域建议强度不一致，不能直接推断为临床实践标准。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，无法获取完整方法学细节、具体效应量及置信区间。",
+                "无法评估纳入指南的具体推荐内容及证据等级。",
+                "无法获取亚组分析或敏感性分析结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "识别ERAS指南中的通用麻醉学核心。",
+              "designFit": "系统评价设计适合该研究问题，通过汇总指南内容识别共性。",
+              "eligibility": "纳入所有ERAS协会指南，排除无实际麻醉学建议、已被取代或不适用于标准医院环境的指南。",
+              "randomization": "不适用（系统评价）。",
+              "allocationConcealment": "不适用（系统评价）。",
+              "blinding": "不适用（系统评价）。",
+              "sampleSizePlanning": "不适用（系统评价）。",
+              "followUp": "不适用（系统评价）。",
+              "analysisPopulation": "纳入24项指南。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "采用系统评价方法，筛选流程明确。",
+                "使用Delphi共识开发分类系统，增强分类可靠性。",
+                "两名评审员独立提取建议，减少偏倚。",
+                "使用AGREE II评估方法学质量。"
+              ],
+              "concerns": [
+                "仅基于摘要，无法评估完整方法学细节。",
+                "未报告具体效应量及置信区间。",
+                "未报告亚组分析或敏感性分析。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计方法的适用性。",
+                  "cautions": [
+                    "由于未报告具体统计方法，无法评估结果的稳健性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "识别ERAS指南中的通用麻醉学核心。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "系统评价方法，纳入指南时间跨度长（2013-2025年）。",
+                "使用Delphi共识开发分类系统，增强分类可靠性。",
+                "两名评审员独立提取建议，减少偏倚。",
+                "使用AGREE II评估方法学质量。"
+              ],
+              "limitations": [
+                "仅基于摘要，无法评估完整方法学细节。",
+                "未报告具体效应量及置信区间。",
+                "未报告亚组分析或敏感性分析。"
+              ],
+              "biasRisks": [
+                "可能存在发表偏倚，但系统评价通常已考虑。",
+                "分类系统可能受主观影响，但Delphi共识降低了此风险。"
+              ],
+              "certainty": "中等（基于摘要，方法学质量较高，但缺乏完整数据）。",
+              "conclusionAlignment": "结论与结果一致，但需注意结论中提到的“高频率、混合强度领域”是基于分类结果，而非直接临床证据。",
+              "causalBoundary": "该研究为描述性系统评价，不能推断因果关系，仅识别指南中的共性。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于麻醉科在ERAS路径中的角色定位。",
+                "可用于指导跨学科实施优先领域。"
+              ],
+              "nonApplicability": [
+                "不适用于具体临床操作指导，因为未提供具体推荐内容。",
+                "不适用于评估临床结局改善。"
+              ],
+              "practiceChange": "可能促使麻醉科关注ERAS指南中的核心领域，并针对混合强度领域进行本地化评估。",
+              "canDoNow": [
+                "麻醉科可优先落实一致的领域（如多模式镇痛、禁食、血栓预防等）。",
+                "对于混合强度领域，可组织本地多学科讨论，制定适合本机构的方案。"
+              ],
+              "cannotConclude": [
+                "不能确定这些核心领域是否改善临床结局。",
+                "不能确定具体推荐措施的有效性。"
+              ],
+              "evidenceGaps": [
+                "缺乏具体推荐内容的详细比较。",
+                "缺乏对临床实施效果的评估。",
+                "缺乏对患者结局的影响分析。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42469102/",
+            "doi": "https://doi.org/10.1016/j.bja.2026.06.006",
+            "publisher": "https://doi.org/10.1016/j.bja.2026.06.006",
+            "openFullText": null
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-24T23:30:51.633Z",
       "mode": "production",

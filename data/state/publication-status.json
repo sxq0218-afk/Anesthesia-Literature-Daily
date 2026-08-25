@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T23:30:51.633Z",
+  "updatedAt": "2026-08-25T23:34:08.784Z",
   "records": [
     {
       "pmid": "42359695",
@@ -5048,6 +5048,180 @@
         }
       ],
       "runId": "2026-08-24T23-30-51.633Z"
+    },
+    {
+      "pmid": "41680169",
+      "doi": "10.1038/s41467-026-69390-4",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-25T23:30:00.848Z",
+          "primaryPmid": "41680169",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-25T23:30:29.041Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文节选分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-25T23:30:29.041Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-25T23:34:08.784Z",
+          "runId": "2026-08-25T23-34-08.784Z"
+        }
+      ],
+      "runId": "2026-08-25T23-34-08.784Z"
+    },
+    {
+      "pmid": "40615330",
+      "doi": "10.1016/j.bja.2025.06.004",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-25T23:30:29.042Z",
+          "primaryPmid": "40615330",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-25T23:31:18.229Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文节选分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-25T23:31:18.229Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-25T23:34:08.784Z",
+          "runId": "2026-08-25T23-34-08.784Z"
+        }
+      ],
+      "runId": "2026-08-25T23-34-08.784Z"
+    },
+    {
+      "pmid": "41093687",
+      "doi": "10.1016/j.bja.2025.08.055",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-25T23:31:18.229Z",
+          "primaryPmid": "41093687",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-25T23:31:59.197Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文节选分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-25T23:31:59.197Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-25T23:34:08.784Z",
+          "runId": "2026-08-25T23-34-08.784Z"
+        }
+      ],
+      "runId": "2026-08-25T23-34-08.784Z"
+    },
+    {
+      "pmid": "40829974",
+      "doi": "10.1016/j.bja.2025.07.033",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-25T23:31:59.197Z",
+          "primaryPmid": "40829974",
+          "isFallback": false
+        },
+        {
+          "status": "failed",
+          "at": "2026-08-25T23:33:05.199Z",
+          "error": "AI quality control failed after regeneration: 中文精读在统计方法部分声称未报告具体统计方法，但开放全文节选中明确提到了使用逻辑混合效应模型和SAS，因此该表述不准确。; statistical_methods: 中文精读指出未报告具体统计方法，但开放全文节选中实际提到了使用逻辑混合效应模型和SAS等，因此中文精读的表述不准确。"
+        },
+        {
+          "status": "published",
+          "at": "2026-08-25T23:34:08.784Z",
+          "runId": "2026-08-25T23-34-08.784Z"
+        }
+      ],
+      "runId": "2026-08-25T23-34-08.784Z"
+    },
+    {
+      "pmid": "41176463",
+      "doi": "10.1016/j.bja.2025.10.008",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-25T23:33:05.199Z",
+          "primaryPmid": "40829974",
+          "isFallback": true
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-25T23:33:37.813Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-25T23:33:37.814Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-25T23:34:08.784Z",
+          "runId": "2026-08-25T23-34-08.784Z"
+        }
+      ],
+      "runId": "2026-08-25T23-34-08.784Z"
+    },
+    {
+      "pmid": "42469102",
+      "doi": "10.1016/j.bja.2026.06.006",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-25T23:33:37.814Z",
+          "primaryPmid": "42469102",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-25T23:34:08.784Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-25T23:34:08.784Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-25T23:34:08.784Z",
+          "runId": "2026-08-25T23-34-08.784Z"
+        }
+      ],
+      "runId": "2026-08-25T23-34-08.784Z"
     }
   ]
 }
