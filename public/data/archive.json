@@ -1,7 +1,243 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T23:34:08.784Z",
+  "updatedAt": "2026-08-27T04:29:54.310Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-27T04:29:54.310Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-09-01T04:29:54.310Z",
+        "to": "2026-08-27T04:29:54.310Z",
+        "candidateCount": 527,
+        "discoveryCandidateCount": 20977,
+        "unseenCount": 393,
+        "duplicateCount": 134,
+        "priorityCandidateCount": 527,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 527,
+          "retrievedCount": 527,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 289,
+            "impact-factor-stale": 4
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 30
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "The veterinary clinics of North America. Exotic animal practice",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Pain",
+              "reason": "impact-factor-stale",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 393,
+          "eligibleCount": 352,
+          "excludedCount": 41,
+          "excludedByReason": {
+            "journal-not-configured": 41
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 301,
+          "clinical": 209,
+          "basic": 18,
+          "other": 74
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-40829974",
+          "title": "儿科困难气管插管与周末与工作日时机的影响：基于儿科困难插管登记库的分析",
+          "originalTitle": "Paediatric difficult intubations and the impact of timing of weekend versus weekday cases: an analysis of the Pediatric Difficult Intubation registry.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "基于儿科困难插管登记库的回顾性分析显示，周末进行的儿科困难气管插管其并发症发生率显著高于工作日，但校正后仅非低氧血症并发症仍显著，低氧血症差异无统计学意义。",
+          "pmid": "40829974"
+        },
+        {
+          "slug": "pmid-40769841",
+          "title": "遗传变异对丙泊酚药代动力学、剂量需求及临床效应的影响：一项系统评价",
+          "originalTitle": "Impact of genetic variations on the pharmacokinetics, dose requirements, and clinical effects of propofol: a systematic review.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "基于16项研究、1779例患者的系统评价提示，UGT1A9基因多态性（rs72551330 CT杂合子、rs2741045 CC纯合子）可能影响丙泊酚的药代动力学和麻醉相关临床结局，而CYP2B6和CYP2C9基因型未见显著影响，但现有证据尚不足以支持常规药物基因组学指导的丙泊酚给药。",
+          "pmid": "40769841"
+        },
+        {
+          "slug": "pmid-39979152",
+          "title": "新生儿和小婴儿的术中通气策略及术中呼吸危重事件和术后肺部并发症的危险因素：NECTARINE队列的二次分析",
+          "originalTitle": "Ventilation strategies and risk factors for intraoperative respiratory critical events and postoperative pulmonary complications in neonates and small infants: a secondary analysis of the NECTARINE cohort(☆).",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在NECTARINE队列中，无论采用何种通气策略，机械通气和术前呼吸系统疾病均与更高的术中呼吸不良事件和术后肺部并发症发生率相关；拔管前逆转神经肌肉阻滞剂与术后肺部并发症风险显著降低相关。",
+          "pmid": "39979152"
+        },
+        {
+          "slug": "pmid-40841222",
+          "title": "麻醉诱导意识消失后大鼠长期记忆和视觉辨别恢复的药物特异性特征",
+          "originalTitle": "Drug-specific recovery of long-term memory and visual discrimination after anaesthetic-induced unconsciousness in rats.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在成年大鼠中，丙泊酚和七氟烷麻醉后认知功能在翻正反射恢复后60分钟内恢复，而氯胺酮、右美托咪定和芬太尼则需要2-3小时，所有药物在24小时内均恢复至基线水平。",
+          "pmid": "40841222"
+        },
+        {
+          "slug": "pmid-41478800",
+          "title": "单次股神经周围神经阻滞与下肢骨科手术后跌倒：系统评价与荟萃分析",
+          "originalTitle": "Single-shot perineural femoral nerve block and falls after lower limb orthopaedic surgery: a systematic review and meta-analysis.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "与避免股神经抑制的技术相比，单次股神经阻滞（sFNB）在术后早期增加跌倒风险（中等质量证据），并可能增加打软腿和近乎跌倒风险（极低质量证据）。",
+          "pmid": "41478800"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-25T23:34:08.784Z",
       "search": {

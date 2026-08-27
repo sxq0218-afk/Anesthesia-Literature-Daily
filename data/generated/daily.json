@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:34:08.784Z",
+  "generatedAt": "2026-08-27T04:29:54.310Z",
   "mode": "production",
   "search": {
     "initialDays": 30,
@@ -22,18 +22,18 @@
         "reason": "composition-shortfall"
       }
     ],
-    "from": "2025-08-30T23:34:08.784Z",
-    "to": "2026-08-25T23:34:08.784Z",
-    "candidateCount": 525,
-    "discoveryCandidateCount": 20954,
-    "unseenCount": 397,
-    "duplicateCount": 128,
-    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2025/08/30:2026/08/25[Date - Publication]",
-    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2025/08/30:2026/08/25[Date - Publication]",
-    "priorityCandidateCount": 525,
+    "from": "2025-09-01T04:29:54.310Z",
+    "to": "2026-08-27T04:29:54.310Z",
+    "candidateCount": 527,
+    "discoveryCandidateCount": 20977,
+    "unseenCount": 393,
+    "duplicateCount": 134,
+    "queryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND 2025/09/01:2026/08/27[Date - Publication]",
+    "priorityQueryTranslation": "(\"anesthesia\"[Title/Abstract] OR \"Anesthesiology\"[Title/Abstract] OR \"perioperative medicine\"[Title/Abstract] OR \"intraoperative management\"[Title/Abstract] OR \"anesthesia safety\"[Title/Abstract] OR \"airway management\"[Title/Abstract] OR \"difficult airway\"[Title/Abstract] OR \"intubation\"[Title/Abstract] OR \"endotracheal intubation\"[Title/Abstract] OR \"airway complications\"[Title/Abstract] OR \"arytenoid dislocation\"[Title/Abstract] OR \"postoperative delirium\"[Title/Abstract] OR \"postoperative cognitive decline\"[Title/Abstract] OR \"perioperative neurocognitive disorders\"[Title/Abstract] OR \"elderly anesthesia\"[Title/Abstract] OR \"acute pain\"[Title/Abstract] OR \"postoperative analgesia\"[Title/Abstract] OR \"regional anesthesia\"[Title/Abstract] OR \"nerve block\"[Title/Abstract] OR \"obstetric anesthesia\"[Title/Abstract] OR \"pediatric anesthesia\"[Title/Abstract] OR \"hemodynamic management\"[Title/Abstract] OR \"anesthesia pharmacology\"[Title/Abstract] OR \"critical care anesthesia\"[Title/Abstract] OR \"anesthetic mechanism\"[Title/Abstract] OR \"anesthetic neurotoxicity\"[Title/Abstract] OR \"volatile anesthetic\"[Title/Abstract] OR \"sevoflurane\"[Title/Abstract] OR \"isoflurane\"[Title/Abstract] OR \"propofol\"[Title/Abstract] OR \"ketamine\"[Title/Abstract] OR \"local anesthetic toxicity\"[Title/Abstract] OR \"nociception\"[Title/Abstract] OR \"pain mechanism\"[Title/Abstract]) AND \"hasabstract\"[Text Word] AND (\"The New England Journal of Medicine\"[Journal] OR \"N Engl J Med\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA\"[Journal] OR \"Journal of the American Medical Association\"[Journal] OR \"BMJ\"[Journal] OR \"British Medical Journal\"[Journal] OR \"Nature Medicine\"[Journal] OR \"Nat Med\"[Journal] OR \"Nature\"[Journal] OR \"Nature Communications\"[Journal] OR \"Nat Commun\"[Journal] OR \"Nature Neuroscience\"[Journal] OR \"Nat Neurosci\"[Journal] OR \"Neuropsychopharmacology\"[Journal] OR \"JAMA Network Open\"[Journal] OR \"British Journal of Anaesthesia\"[Journal] OR \"Br J Anaesth\"[Journal] OR \"Anesthesiology\"[Journal] OR \"Anaesthesia\"[Journal] OR \"Journal of Clinical Anesthesia\"[Journal] OR \"J Clin Anesth\"[Journal] OR \"Critical Care\"[Journal] OR \"Crit Care\"[Journal] OR \"Intensive Care Medicine\"[Journal] OR \"Intensive Care Med\"[Journal]) AND 2025/09/01:2026/08/27[Date - Publication]",
+    "priorityCandidateCount": 527,
     "eligibleJournalRetrieval": {
-      "matchedCount": 525,
-      "retrievedCount": 525,
+      "matchedCount": 527,
+      "retrievedCount": 527,
       "complete": true,
       "truncatedCount": 0,
       "maximumCandidates": 2000,
@@ -46,8 +46,8 @@
       "eligibleCount": 7,
       "excludedCount": 293,
       "excludedByReason": {
-        "journal-not-configured": 287,
-        "impact-factor-stale": 6
+        "journal-not-configured": 289,
+        "impact-factor-stale": 4
       },
       "rankingMetricYear": 2025,
       "eligibleMetricYears": [
@@ -59,7 +59,7 @@
         {
           "journal": "Annals of medicine",
           "reason": "journal-not-configured",
-          "count": 29
+          "count": 30
         },
         {
           "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
@@ -102,17 +102,12 @@
           "count": 5
         },
         {
-          "journal": "Journal of cardiothoracic and vascular anesthesia",
+          "journal": "The Journal of emergency medicine",
           "reason": "journal-not-configured",
           "count": 5
         },
         {
-          "journal": "Pain",
-          "reason": "impact-factor-stale",
-          "count": 5
-        },
-        {
-          "journal": "The Journal of emergency medicine",
+          "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
           "reason": "journal-not-configured",
           "count": 5
         },
@@ -142,8 +137,8 @@
           "count": 4
         },
         {
-          "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
-          "reason": "journal-not-configured",
+          "journal": "Pain",
+          "reason": "impact-factor-stale",
           "count": 4
         },
         {
@@ -155,17 +150,22 @@
           "journal": "Clinics in chest medicine",
           "reason": "journal-not-configured",
           "count": 3
+        },
+        {
+          "journal": "IBRO neuroscience reports",
+          "reason": "journal-not-configured",
+          "count": 3
         }
       ]
     },
     "journalImpactFactor": {
       "threshold": 5,
       "comparison": "greater-than",
-      "candidateCount": 397,
-      "eligibleCount": 355,
-      "excludedCount": 42,
+      "candidateCount": 393,
+      "eligibleCount": 352,
+      "excludedCount": 41,
       "excludedByReason": {
-        "journal-not-configured": 42
+        "journal-not-configured": 41
       },
       "rankingMetricYear": 2025,
       "eligibleMetricYears": [
@@ -181,9 +181,9 @@
       "allowBackfill": false
     },
     "candidatePool": {
-      "total": 304,
-      "clinical": 211,
-      "basic": 19,
+      "total": 301,
+      "clinical": 209,
+      "basic": 18,
       "other": 74
     },
     "selectionSummary": {
@@ -199,603 +199,72 @@
     "model": "deepseek-v4-flash",
     "configuredModel": "deepseek-chat",
     "usage": {
-      "calls": 22,
-      "promptTokens": 82077,
-      "completionTokens": 22288,
-      "totalTokens": 104365
+      "calls": 20,
+      "promptTokens": 66595,
+      "completionTokens": 21162,
+      "totalTokens": 87757
     }
   },
   "articles": [
     {
       "analysisVersion": 2,
-      "slug": "pmid-41680169",
+      "slug": "pmid-40829974",
       "number": "01",
-      "category": "麻醉学",
-      "journal": "Nature communications",
-      "year": "2026",
-      "publishedDate": "2026-02-12",
-      "electronicPublicationDate": "2026-02-12",
-      "readingTime": "9 分钟",
-      "title": "光声计算机断层扫描监测脑脊液动力学和类淋巴功能",
-      "originalTitle": "Photoacoustic computed tomography monitors cerebrospinal fluid dynamics and glymphatic function.",
-      "abstract": "Cerebrospinal fluid (CSF) continuously circulates through the brain and surrounding tissues to remove metabolic waste, a process that becomes less efficient with ageing and in neurodegenerative disease. Visualizing this drainage in living animals has been difficult because existing imaging tools either lack depth, require radioactive tracers, or are too slow to capture dynamic flow. Here, we show that whole-body photoacoustic computed tomography (PACT) enables three-dimensional, real-time tracking of CSF transport in mice using indocyanine green. We visualize CSF movement from the spinal canal into the brain, quantify its efflux under different anesthesia conditions, and detect impaired clearance in a mouse model of Alzheimer's disease. Compared with healthy animals, diseased mice retain the tracer in the brain for several days, indicating reduced waste removal. These results establish PACT as a non-invasive platform for measuring CSF and glymphatic function in vivo, providing a way to study how brain fluid transport is altered in ageing and neurological disorders.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": null,
-            "text": "脑脊液（CSF）持续循环通过大脑及周围组织以清除代谢废物，这一过程在衰老和神经退行性疾病中效率降低。由于现有成像工具或缺乏深度，或需要放射性示踪剂，或速度太慢无法捕捉动态流动，因此难以在活体动物中可视化这种引流过程。在此，我们展示了全身光声计算机断层扫描（PACT）能够利用吲哚菁绿对小鼠脑脊液转运进行三维实时追踪。我们可视化了脑脊液从脊髓管进入大脑的运动，量化了不同麻醉条件下的外流，并检测到阿尔茨海默病小鼠模型中清除功能受损。与健康动物相比，患病小鼠大脑中示踪剂滞留数天，表明废物清除减少。这些结果确立了PACT作为测量体内脑脊液和类淋巴功能的非侵入性平台，为研究脑脊液转运在衰老和神经系统疾病中的改变提供了方法。"
-          }
-        ],
-        "fullText": "脑脊液（CSF）持续循环通过大脑及周围组织以清除代谢废物，这一过程在衰老和神经退行性疾病中效率降低。由于现有成像工具或缺乏深度，或需要放射性示踪剂，或速度太慢无法捕捉动态流动，因此难以在活体动物中可视化这种引流过程。在此，我们展示了全身光声计算机断层扫描（PACT）能够利用吲哚菁绿对小鼠脑脊液转运进行三维实时追踪。我们可视化了脑脊液从脊髓管进入大脑的运动，量化了不同麻醉条件下的外流，并检测到阿尔茨海默病小鼠模型中清除功能受损。与健康动物相比，患病小鼠大脑中示踪剂滞留数天，表明废物清除减少。这些结果确立了PACT作为测量体内脑脊液和类淋巴功能的非侵入性平台，为研究脑脊液转运在衰老和神经系统疾病中的改变提供了方法。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Choi S, Kim J, Jeon H, Lee Y, Lim G, Ju WM, Kim K, Lee DS, et al.",
-      "citation": "Nat Commun. 2026 Feb 12;17(1):2677. doi: 10.1038/s41467-026-69390-4.",
-      "doi": "10.1038/s41467-026-69390-4",
-      "pmid": "41680169",
-      "pmcid": "PMC13009472",
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "meshTerms": [
-        "Animals",
-        "*Cerebrospinal Fluid/physiology/diagnostic imaging",
-        "*Glymphatic System/diagnostic imaging/physiology",
-        "Mice",
-        "*Tomography, X-Ray Computed/methods",
-        "*Photoacoustic Techniques/methods",
-        "Brain/diagnostic imaging/metabolism",
-        "*Alzheimer Disease/cerebrospinal fluid/diagnostic imaging",
-        "Disease Models, Animal",
-        "Mice, Inbred C57BL",
-        "Male"
-      ],
-      "publisher": "Springer Science and Business Media LLC",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "basic",
-        "label": "基础研究",
-        "reason": "non-human-model"
-      },
-      "journalTier": {
-        "id": "basic_mechanism",
-        "label": "神经科学与麻醉机制高影响力期刊",
-        "priorityRank": 1
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 18.1,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "Nature Communications"
-      },
-      "tags": [
-        "基础研究",
-        "神经科学与麻醉机制高影响力期刊",
-        "麻醉学",
-        "Journal Article"
-      ],
-      "question": "该研究提供了一种非侵入性、可实时动态成像的活体脑脊液和类淋巴功能监测平台，有望为研究衰老和神经系统疾病中的脑内液体运输异常提供新的工具。",
-      "conclusion": "本研究利用光声计算机断层扫描（PACT）在活体小鼠中实现了脑脊液（CSF）运输的三维实时追踪，并发现阿尔茨海默病模型小鼠的脑内示踪剂清除显著延迟，提示类淋巴功能受损。",
-      "clinical": "不同麻醉条件（氯胺酮/赛拉嗪 vs 异氟烷）下脑脊液流出量存在差异，提示麻醉药物可能影响类淋巴功能，对麻醉管理有潜在意义。 该研究为动物实验，尚不能直接推广到临床麻醉实践，需进一步研究验证。",
-      "evidence": "中等",
-      "score": 47,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 8,
-        "clinicalImpact": 7,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "观察性研究（动物实验）"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "mice (ICR mice, 5XFAD transgenic mice and wild-type littermates)；8 mice for PACT experiments, 3 mice for fluorescence imaging"
-        },
-        {
-          "label": "干预与比较",
-          "value": "intrathecal injection of indocyanine green (ICG) and photoacoustic computed tomography (PACT) imaging；对照：healthy vs Alzheimer's disease model mice; ketamine/xylazine vs isoflurane anesthesia"
-        },
-        {
-          "label": "主要终点",
-          "value": "CSF dynamics and glymphatic function measured by PACT"
-        }
-      ],
-      "keyPoints": [
-        "PACT可实现脑脊液运输的三维实时追踪。",
-        "阿尔茨海默病模型小鼠脑内示踪剂滞留时间延长，提示类淋巴清除功能受损。",
-        "不同麻醉条件影响脑脊液流出。",
-        "该技术为非侵入性，无需放射性示踪剂。"
-      ],
-      "methods": "脑脊液持续循环通过大脑及周围组织以清除代谢废物，这一过程在衰老和神经退行性疾病中效率降低。然而，现有的成像工具要么缺乏深度，要么需要放射性示踪剂，要么速度太慢，难以捕捉动态流动。",
-      "results": "PACT能够实时追踪脑脊液运输；与健康小鼠相比，阿尔茨海默病模型小鼠的脑内示踪剂滞留数天，表明废物清除减少。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等具体数据。",
-      "mainResults": "PACT能够实时追踪脑脊液运输；与健康小鼠相比，阿尔茨海默病模型小鼠的脑内示踪剂滞留数天，表明废物清除减少。当前可获取内容未提供样本量、主要终点、效应量、95%CI和P值等具体数据。",
-      "limitations": [
-        "PACT的分子敏感性有限。",
-        "肠道粪便产生伪影。",
-        "异氟烷组中一只小鼠的数据点缺失。",
-        "一只阿尔茨海默病小鼠在96小时监测前丢失。"
-      ],
-      "practice": [
-        "不同麻醉条件（氯胺酮/赛拉嗪 vs 异氟烷）下脑脊液流出量存在差异，提示麻醉药物可能影响类淋巴功能，对麻醉管理有潜在意义。",
-        "该研究为动物实验，尚不能直接推广到临床麻醉实践，需进一步研究验证。"
-      ],
-      "editor": "研究结果支持PACT作为活体测量脑脊液和类淋巴功能的非侵入性平台，能够区分健康与疾病状态下的清除差异。 过度解读风险：研究为动物模型，样本量小，且未提供效应量和统计检验结果，需谨慎外推至人类。",
-      "whyItMatters": "该研究提供了一种非侵入性、可实时动态成像的活体脑脊液和类淋巴功能监测平台，有望为研究衰老和神经系统疾病中的脑内液体运输异常提供新的工具。",
-      "background": "脑脊液持续循环通过大脑及周围组织以清除代谢废物，这一过程在衰老和神经退行性疾病中效率降低。然而，现有的成像工具要么缺乏深度，要么需要放射性示踪剂，要么速度太慢，难以捕捉动态流动。",
-      "pico": {
-        "population": "mice (ICR mice, 5XFAD transgenic mice and wild-type littermates)",
-        "intervention": "intrathecal injection of indocyanine green (ICG) and photoacoustic computed tomography (PACT) imaging",
-        "comparison": "healthy vs Alzheimer's disease model mice; ketamine/xylazine vs isoflurane anesthesia",
-        "outcome": "CSF dynamics and glymphatic function measured by PACT"
-      },
-      "studyType": "观察性研究（动物实验）",
-      "sampleSize": "8 mice for PACT experiments, 3 mice for fluorescence imaging",
-      "primaryOutcome": "CSF dynamics and glymphatic function measured by PACT",
-      "effectSize": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "研究结果支持PACT作为活体测量脑脊液和类淋巴功能的非侵入性平台，能够区分健康与疾病状态下的清除差异。",
-        "overinterpretationRisk": "研究为动物模型，样本量小，且未提供效应量和统计检验结果，需谨慎外推至人类。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "full_text_excerpt",
-          "limitations": [
-            "仅基于摘要和部分全文节选，可能遗漏方法细节和完整结果。",
-            "未提供具体统计数值和效应量。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "PACT能否用于活体监测脑脊液动力学和类淋巴功能？",
-          "designFit": "观察性研究设计适合初步探索成像技术的可行性，但缺乏对照组和随机化。",
-          "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "当前可获取内容未提供该数据。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "当前可获取内容未提供该数据。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "监测至96小时，但一只AD小鼠在96小时前丢失。",
-          "analysisPopulation": "8只小鼠用于PACT实验，3只用于荧光成像。",
-          "missingData": "异氟烷组一只小鼠数据点缺失；一只AD小鼠在96小时监测前丢失。",
-          "strengths": [
-            "使用非侵入性成像技术，可实时三维追踪。",
-            "比较了不同麻醉条件和疾病模型。"
-          ],
-          "concerns": [
-            "样本量小。",
-            "未报告统计检验方法。",
-            "存在数据缺失。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
-              "reportedResult": "当前可获取内容未提供该数据。",
-              "interpretation": "无法评价统计推断的可靠性。",
-              "cautions": [
-                "未报告统计方法，无法评估结果的统计学意义。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
-        },
-        "outcomeAnalysis": {
-          "primary": "通过PACT测量的脑脊液动力学和类淋巴功能。",
-          "secondary": [
-            "不同麻醉条件下的脑脊液流出量。",
-            "阿尔茨海默病模型中的清除受损情况。"
-          ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "当前可获取内容未提供该数据。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "创新性应用PACT技术于脑脊液成像。",
-            "实时三维成像优于传统方法。"
-          ],
-          "limitations": [
-            "样本量小。",
-            "缺乏统计细节。",
-            "存在数据缺失和伪影问题。"
-          ],
-          "biasRisks": [
-            "选择偏倚：未报告随机化和盲法。",
-            "信息偏倚：数据缺失可能影响结果。"
-          ],
-          "certainty": "低，由于缺乏统计数据和样本量小。",
-          "conclusionAlignment": "结论与结果基本一致，但缺乏统计支持。",
-          "causalBoundary": "观察性关联，不能推断因果关系。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "作为研究工具，可能用于动物模型中的脑脊液动力学研究。"
-          ],
-          "nonApplicability": [
-            "不能直接用于临床患者。",
-            "需要进一步验证在人类中的可行性和安全性。"
-          ],
-          "practiceChange": "当前不改变临床实践。",
-          "canDoNow": [
-            "在动物研究中应用PACT监测脑脊液功能。"
-          ],
-          "cannotConclude": [
-            "不能得出PACT在人类中有效的结论。",
-            "不能得出麻醉药物对类淋巴功能影响的临床建议。"
-          ],
-          "evidenceGaps": [
-            "需要更大样本、更严格的统计设计。",
-            "需要人类研究验证。",
-            "需要评估PACT的敏感性和特异性。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要+开放全文节选分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41680169/",
-        "doi": "https://doi.org/10.1038/s41467-026-69390-4",
-        "publisher": "https://doi.org/10.1038/s41467-026-69390-4",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13009472/"
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-40615330",
-      "number": "02",
-      "category": "麻醉学",
+      "category": "气道管理",
       "journal": "British journal of anaesthesia",
       "year": "2025",
-      "publishedDate": "2025-09",
-      "electronicPublicationDate": "2025-07-04",
-      "readingTime": "10 分钟",
-      "title": "围术期自主神经系统失衡对手术结局的影响：一项系统综述",
-      "originalTitle": "Effect of perioperative autonomic nervous system imbalance on surgical outcomes: a systematic review.",
-      "abstract": "The autonomic nervous system (ANS) is essential for maintaining physiological homeostasis. Autonomic nervous system imbalance, characterised by sympathetic hyperactivation and low parasympathetic tone, can occur during the perioperative period. These changes drive systemic stress responses, cardiovascular instability, impaired tissue repair, and immunosuppression, which in turn increase infection risk, neurocognitive decline, and multiorgan dysfunction. Surgical trauma, anaesthesia, pain, hypothermia, and psychological stressors all contribute to this dysregulation, and consequently low parasympathetic tone results in the cholinergic anti-inflammatory pathway being less effective. High sympathetic nervous system activity promotes catecholamine surges and pro-inflammatory cytokine release. Pharmacological interventions, including dexmedetomidine and beta-blockers, together with nonpharmacological strategies, such as electroacupuncture and temperature management, are measures that have potential to restore ANS balance. This systematic review covers ANS-mediated organ regulation, pathophysiological consequences of perioperative dysautonomia, and evidence-based therapeutic strategies. By integrating findings from multiple basic and clinical studies, the pivotal roles of ANS modulation in mitigating postoperative complications, including neurocognitive disorders, immunosuppression, and cancer recurrence, are discussed. Maintaining balance of the sympathetic and parasympathetic nervous systems is an important prospect in perioperative medicine that could benefit surgical patients' short- or long-term recovery.",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": null,
-            "text": "自主神经系统（ANS）对于维持生理稳态至关重要。自主神经失衡，以交感神经过度激活和副交感神经张力低下为特征，可在围手术期发生。这些变化驱动全身应激反应、心血管不稳定、组织修复受损和免疫抑制，进而增加感染风险、神经认知衰退和多器官功能障碍。手术创伤、麻醉、疼痛、低体温和心理应激源均促成这种失调，因此副交感神经张力低下导致胆碱能抗炎通路效果减弱。高交感神经系统活性促进儿茶酚胺激增和促炎细胞因子释放。药物干预，包括右美托咪定和β受体阻滞剂，以及非药物策略，如电针和温度管理，是有望恢复ANS平衡的措施。本系统综述涵盖了ANS介导的器官调节、围手术期自主神经功能障碍的病理生理后果以及循证治疗策略。通过整合多项基础与临床研究的结果，讨论了ANS调节在减轻术后并发症（包括神经认知障碍、免疫抑制和癌症复发）中的关键作用。维持交感神经和副交感神经系统的平衡是围手术期医学的一个重要前景，可能有利于手术患者的短期或长期恢复。"
-          }
-        ],
-        "fullText": "自主神经系统（ANS）对于维持生理稳态至关重要。自主神经失衡，以交感神经过度激活和副交感神经张力低下为特征，可在围手术期发生。这些变化驱动全身应激反应、心血管不稳定、组织修复受损和免疫抑制，进而增加感染风险、神经认知衰退和多器官功能障碍。手术创伤、麻醉、疼痛、低体温和心理应激源均促成这种失调，因此副交感神经张力低下导致胆碱能抗炎通路效果减弱。高交感神经系统活性促进儿茶酚胺激增和促炎细胞因子释放。药物干预，包括右美托咪定和β受体阻滞剂，以及非药物策略，如电针和温度管理，是有望恢复ANS平衡的措施。本系统综述涵盖了ANS介导的器官调节、围手术期自主神经功能障碍的病理生理后果以及循证治疗策略。通过整合多项基础与临床研究的结果，讨论了ANS调节在减轻术后并发症（包括神经认知障碍、免疫抑制和癌症复发）中的关键作用。维持交感神经和副交感神经系统的平衡是围手术期医学的一个重要前景，可能有利于手术患者的短期或长期恢复。",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Pan WT, Ji MH, Ma D, Yang JJ",
-      "citation": "Br J Anaesth. 2025 Sep;135(3):608-622. doi: 10.1016/j.bja.2025.06.004. Epub 2025 Jul 4.",
-      "doi": "10.1016/j.bja.2025.06.004",
-      "pmid": "40615330",
-      "pmcid": "PMC12489373",
-      "publicationTypes": [
-        "Journal Article",
-        "Systematic Review"
-      ],
-      "meshTerms": [
-        "Humans",
-        "*Autonomic Nervous System/physiopathology",
-        "*Postoperative Complications/physiopathology/prevention & control",
-        "*Perioperative Care/methods",
-        "*Autonomic Nervous System Diseases/physiopathology/therapy",
-        "Treatment Outcome"
-      ],
-      "publisher": "Elsevier BV",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "clinical-evidence-publication-type"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 10.3,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "British Journal of Anaesthesia"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "Journal Article",
-        "Systematic Review"
-      ],
-      "question": "自主神经系统失衡在围术期普遍存在，与术后感染、神经认知障碍和多器官功能障碍等并发症相关。理解其机制并探索恢复平衡的策略，可能为改善手术患者短期和长期恢复提供新方向。",
-      "conclusion": "本系统综述指出，围术期自主神经系统失衡（交感神经过度激活与副交感张力降低）与术后并发症相关，药物（右美托咪定、β受体阻滞剂）和非药物（电针、体温管理）干预可能有助于恢复自主神经平衡，但现有证据存在争议，尚不能得出确定性结论。",
-      "clinical": "麻醉管理中应关注自主神经平衡的维护，可能有助于减少术后并发症。 右美托咪定和β受体阻滞剂的使用需权衡获益与风险，如DECADE试验中右美托咪定增加谵妄风险，POISE试验中β受体阻滞剂增加死亡和卒中风险。 非药物策略如电针和体温管理可能作为辅助手段，但证据有限。",
-      "evidence": "中等",
-      "score": 66,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 23,
-        "clinicalImpact": 11,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "系统综述（未进行定量荟萃分析）"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "围术期患者（具体人群特征未详细报告）；当前可获取内容未提供该数据。"
-        },
-        {
-          "label": "干预与比较",
-          "value": "Pharmacological interventions (dexmedetomidine, beta-blockers) and nonpharmacological strategies (electroacupuncture, temperature management, exercise)；对照：未明确报告（可能为安慰剂或常规管理）"
-        },
-        {
-          "label": "主要终点",
-          "value": "术后并发症（包括神经认知障碍、免疫抑制、癌症复发等）"
-        }
-      ],
-      "keyPoints": [
-        "围术期自主神经失衡与术后并发症相关。",
-        "右美托咪定和β受体阻滞剂可能恢复自主神经平衡，但存在争议。",
-        "非药物策略如电针和体温管理可能有益。",
-        "现有证据不足以支持具体临床推荐。"
-      ],
-      "methods": "自主神经系统（ANS）对维持生理稳态至关重要。围术期可发生自主神经失衡，表现为交感神经过度激活和副交感张力降低，导致全身应激反应、心血管不稳定、组织修复受损和免疫抑制，进而增加感染风险、神经认知衰退和多器官功能障碍。手术创伤、麻醉、疼痛、低体温和心理应激均可促成这种失调。副交感张力降低使胆碱能抗炎通路效能减弱，而高交感活性促进儿茶酚胺释放和促炎细胞因子产生。",
-      "results": "本综述讨论了自主神经失衡在围术期并发症中的作用及恢复平衡的潜在干预措施。指出右美托咪定和β受体阻滞剂可能减少并发症，但存在争议：DECADE试验显示右美托咪定增加谵妄风险；POISE试验显示β受体阻滞剂增加死亡和卒中风险。当前可获取内容未提供样本量、主要终点、效应量、95%置信区间和P值等具体数据。",
-      "mainResults": "本综述讨论了自主神经失衡在围术期并发症中的作用及恢复平衡的潜在干预措施。指出右美托咪定和β受体阻滞剂可能减少并发症，但存在争议：DECADE试验显示右美托咪定增加谵妄风险；POISE试验显示β受体阻滞剂增加死亡和卒中风险。当前可获取内容未提供样本量、主要终点、效应量、95%置信区间和P值等具体数据。",
-      "limitations": [
-        "未进行定量荟萃分析。",
-        "部分研究可能存在发表偏倚。",
-        "纳入研究存在异质性。",
-        "某些干预措施的证据有限。"
-      ],
-      "practice": [
-        "麻醉管理中应关注自主神经平衡的维护，可能有助于减少术后并发症。",
-        "右美托咪定和β受体阻滞剂的使用需权衡获益与风险，如DECADE试验中右美托咪定增加谵妄风险，POISE试验中β受体阻滞剂增加死亡和卒中风险。",
-        "非药物策略如电针和体温管理可能作为辅助手段，但证据有限。"
-      ],
-      "editor": "原文明确提到右美托咪定和β受体阻滞剂可能减少并发症，但DECADE和POISE试验显示风险增加，提示证据存在争议。 过度解读风险：当前材料未提供效应量、置信区间和P值，无法评估统计学差异；且为系统综述，未进行定量合并，结论需谨慎解读。",
-      "whyItMatters": "自主神经系统失衡在围术期普遍存在，与术后感染、神经认知障碍和多器官功能障碍等并发症相关。理解其机制并探索恢复平衡的策略，可能为改善手术患者短期和长期恢复提供新方向。",
-      "background": "自主神经系统（ANS）对维持生理稳态至关重要。围术期可发生自主神经失衡，表现为交感神经过度激活和副交感张力降低，导致全身应激反应、心血管不稳定、组织修复受损和免疫抑制，进而增加感染风险、神经认知衰退和多器官功能障碍。手术创伤、麻醉、疼痛、低体温和心理应激均可促成这种失调。副交感张力降低使胆碱能抗炎通路效能减弱，而高交感活性促进儿茶酚胺释放和促炎细胞因子产生。",
-      "pico": {
-        "population": "围术期患者（具体人群特征未详细报告）",
-        "intervention": "Pharmacological interventions (dexmedetomidine, beta-blockers) and nonpharmacological strategies (electroacupuncture, temperature management, exercise)",
-        "comparison": "未明确报告（可能为安慰剂或常规管理）",
-        "outcome": "术后并发症（包括神经认知障碍、免疫抑制、癌症复发等）"
-      },
-      "studyType": "系统综述（未进行定量荟萃分析）",
-      "sampleSize": "当前可获取内容未提供该数据。",
-      "primaryOutcome": "当前可获取内容未提供该数据。",
-      "effectSize": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": "Dexmedetomidine: increased delirium risk in DECADE trial; beta-blockers: increased mortality and stroke in POISE trial.",
-      "aiAssessment": {
-        "support": "原文明确提到右美托咪定和β受体阻滞剂可能减少并发症，但DECADE和POISE试验显示风险增加，提示证据存在争议。",
-        "overinterpretationRisk": "当前材料未提供效应量、置信区间和P值，无法评估统计学差异；且为系统综述，未进行定量合并，结论需谨慎解读。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "full_text_excerpt",
-          "limitations": [
-            "仅基于摘要和开放全文节选，可能未覆盖全文所有细节。",
-            "未获取完整数据，如样本量、效应量等。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "围术期自主神经系统失衡对手术结局的影响及干预策略的有效性。",
-          "designFit": "系统综述适合总结现有证据，但未进行定量荟萃分析，证据综合强度有限。",
-          "eligibility": "当前可获取内容未提供该数据。",
-          "randomization": "当前可获取内容未提供该数据。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "当前可获取内容未提供该数据。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "当前可获取内容未提供该数据。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "整合了基础与临床研究，全面讨论自主神经调节在术后并发症中的作用。",
-            "涵盖了药物和非药物干预策略。"
-          ],
-          "concerns": [
-            "未进行定量荟萃分析，缺乏效应量估计。",
-            "纳入研究异质性可能影响结论可靠性。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
-              "reportedResult": "当前可获取内容未提供该数据。",
-              "interpretation": "无法评价。",
-              "cautions": [
-                "未报告统计方法，无法评估分析质量。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "当前可获取内容未提供效应量和P值，无法区分统计学差异与临床获益。"
-        },
-        "outcomeAnalysis": {
-          "primary": "当前可获取内容未提供该数据。",
-          "secondary": [
-            "当前可获取内容未提供该数据。"
-          ],
-          "safety": "右美托咪定增加谵妄风险（DECADE试验）；β受体阻滞剂增加死亡和卒中风险（POISE试验）。",
-          "absoluteVsRelative": "当前可获取内容未提供绝对风险或相对风险数据。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "系统综述方法，整合多研究结果。",
-            "涵盖多种干预措施。"
-          ],
-          "limitations": [
-            "未进行定量荟萃分析。",
-            "潜在发表偏倚。",
-            "研究异质性。",
-            "部分干预证据有限。"
-          ],
-          "biasRisks": [
-            "发表偏倚可能高估干预效果。",
-            "纳入研究异质性可能影响结论。"
-          ],
-          "certainty": "当前可获取内容未提供证据等级评估，无法确定证据确定性。",
-          "conclusionAlignment": "结论与原文报告一致，但未过度解读。",
-          "causalBoundary": "本综述为观察性关联和机制讨论，不能证明因果关系。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "围术期管理中可考虑监测自主神经功能，但具体方法未明确。",
-            "右美托咪定和β受体阻滞剂的使用需个体化权衡。"
-          ],
-          "nonApplicability": [
-            "不能直接推荐特定药物或非药物干预用于所有患者。",
-            "DECADE和POISE试验的负面结果提示需谨慎。"
-          ],
-          "practiceChange": "当前证据不足以支持改变临床实践。",
-          "canDoNow": [
-            "关注围术期自主神经平衡，但需更多证据。"
-          ],
-          "cannotConclude": [
-            "不能确定右美托咪定或β受体阻滞剂是否总体获益。",
-            "不能确定非药物策略的有效性。"
-          ],
-          "evidenceGaps": [
-            "缺乏定量荟萃分析。",
-            "缺乏大样本随机对照试验。",
-            "缺乏长期结局数据。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要+开放全文节选分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40615330/",
-        "doi": "https://doi.org/10.1016/j.bja.2025.06.004",
-        "publisher": "https://doi.org/10.1016/j.bja.2025.06.004",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12489373/"
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-41093687",
-      "number": "03",
-      "category": "麻醉基础研究",
-      "journal": "British journal of anaesthesia",
-      "year": "2025",
-      "publishedDate": "2025-12",
-      "electronicPublicationDate": "2025-10-14",
-      "readingTime": "12 分钟",
-      "title": "丙泊酚或七氟烷对心脏手术中远程缺血预处理肾脏保护作用的影响：HypnoRenalRIP随机临床试验",
-      "originalTitle": "Impact of propofol or sevoflurane on the renoprotective effect of remote ischaemic preconditioning in cardiac surgery: the HypnoRenalRIP randomised clinical trial.",
-      "abstract": "BACKGROUND: Remote ischaemic preconditioning (RIPC) might reduce acute kidney injury after cardiac surgery. Protective effects appear to be restricted to patients with early and transient increases in two cell cycle arrest markers, tissue inhibitor of metalloproteinases-2 (TIMP-2) and insulin-like growth factor-binding protein 7 (IGFBP7), in urine. Studies suggest that propofol can attenuate the preconditioning effect on the myocardium. This study investigated whether propofol diminishes the renoprotective effect associated with the early transient increases in TIMP-2 and IGFBP7. METHODS: This was a single-centre, prospective randomised double-blind 2x2 factorial clinical trial of high-risk patients undergoing cardiac surgery. Patients were randomised to receive either propofol+sham-RIPC, propofol+RIPC, sevoflurane+sham-RIPC, or sevoflurane+RIPC. The primary outcome measure was the change in the product of urinary concentrations of TIMP-2 and IGFBP7 ([TIMP-2].[IGFBP7]) from before to after the intervention. RESULTS: We enrolled 160 participants in the trial (propofol+sham-RIPC: n=20, propofol+RIPC: n=60, sevoflurane+sham-RIPC: n=20, sevoflurane+RIPC: n=60). The median change in [TIMP-2].[IGFBP7] as an indicator of response to RIPC was greater in participants receiving sevoflurane (0.070; interquartile range, -0.120 to 0.418) compared with those receiving propofol (-0.015; interquartile range, -0.138 to 0.068; P=0.022). Conversely, elevated [TIMP-2].[IGFBP7] as a sign of renal stress in response to surgery was detected in all groups except for sevoflurane+RIPC (P=0.001). There were no statistically significant differences in patient-centred outcomes between groups. CONCLUSIONS: Transient increases in [TIMP-2].[IGFBP7] induced by RIPC, which were associated with renoprotective effects, were only seen with sevoflurane anaesthesia, but not when propofol was used. The association of biomarker concentrations and choice of anaesthetic agent suggests that propofol can attenuate the renoprotective effects of remote ischaemic preconditioning. CLINICAL TRIAL REGISTRATION: DRKS00014989.",
+      "publishedDate": "2025-11",
+      "electronicPublicationDate": "2025-08-19",
+      "readingTime": "11 分钟",
+      "title": "儿科困难气管插管与周末与工作日时机的影响：基于儿科困难插管登记库的分析",
+      "originalTitle": "Paediatric difficult intubations and the impact of timing of weekend versus weekday cases: an analysis of the Pediatric Difficult Intubation registry.",
+      "abstract": "BACKGROUND: Off-hours presentation has been shown to be independently associated with tracheal intubation-related adverse events in patients with predicted difficult airway. The comparison of the complication rates of paediatric difficult intubations on weekends vs weekdays is unknown. The primary objective of this retrospective review is to determine the complication rates for paediatric difficult intubation cases that occur on a weekend vs a weekday. METHODS: We performed a retrospective review of data from the Pediatric Difficult Intubation registry, with service dates June 8, 2012 to May 9, 2023, to compare complication rates (total complications, hypoxaemia, non-hypoxaemia complications, and first-attempt success rate) during paediatric difficult intubations that occurred on the weekends vs weekdays. Research electronic data capture was used to standardise data collection across institutions. RESULTS: We reviewed a total of 8031 cases of difficult paediatric intubations. Two hundred and eighty-five (3.5%) were performed on the weekend, and 7746 (96.5%) were performed on a weekday. Complication rates with paediatric difficult intubations (total complications, hypoxaemia, and non-hypoxaemia complications) were significantly higher on weekends compared with weekdays. The odds of any complication were more than two times higher on the weekends compared with weekdays (odds ratio 2.13, 95% confidence interval 1.49-3.07, P<0.0001). CONCLUSIONS: This study supports paediatric anaesthetists' clinical decision-making to postpone nonurgent paediatric procedures in children with a history of a difficult airway from weekend to weekday to decrease risk of airway management complications and improve patient safety and quality of care.",
       "abstractTranslation": {
         "sections": [
           {
             "heading": "BACKGROUND",
-            "text": "远程缺血预处理（RIPC）可能减少心脏手术后的急性肾损伤。保护作用似乎仅限于尿液中两种细胞周期停滞标志物——金属蛋白酶组织抑制剂-2（TIMP-2）和胰岛素样生长因子结合蛋白7（IGFBP7）——早期和短暂升高的患者。研究表明，丙泊酚可以减弱对心肌的预处理效应。本研究探讨了丙泊酚是否减弱与TIMP-2和IGFBP7早期短暂升高相关的肾脏保护作用。"
+            "text": "已证明非工作时间就诊与预测困难气道患者的气管插管相关不良事件独立相关。周末与工作日儿科困难插管并发症发生率的比较尚不清楚。本回顾性研究的主要目的是确定周末与工作日发生的儿科困难插管病例的并发症发生率。"
           },
           {
             "heading": "METHODS",
-            "text": "这是一项单中心、前瞻性随机双盲2x2析因临床试验，研究对象为接受心脏手术的高危患者。患者被随机分配接受丙泊酚+假RIPC、丙泊酚+RIPC、七氟烷+假RIPC或七氟烷+RIPC。主要结局指标是干预前后尿中TIMP-2和IGFBP7浓度乘积（[TIMP-2].[IGFBP7]）的变化。"
+            "text": "我们对儿科困难插管登记处的数据进行了回顾性分析，服务日期为2012年6月8日至2023年5月9日，以比较周末与工作日发生的儿科困难插管期间的并发症发生率（总并发症、低氧血症、非低氧血症并发症和首次尝试成功率）。使用研究电子数据采集系统来标准化各机构的數據收集。"
           },
           {
             "heading": "RESULTS",
-            "text": "我们纳入了160名参与者（丙泊酚+假RIPC：n=20，丙泊酚+RIPC：n=60，七氟烷+假RIPC：n=20，七氟烷+RIPC：n=60）。作为RIPC反应指标的[TIMP-2].[IGFBP7]的中位变化在接受七氟烷的参与者中更大（0.070；四分位距，-0.120至0.418），而接受丙泊酚的参与者为（-0.015；四分位距，-0.138至0.068；P=0.022）。相反，作为手术应激下肾脏应激标志的[TIMP-2].[IGFBP7]升高在所有组中均检测到，除了七氟烷+RIPC组（P=0.001）。各组之间以患者为中心的结局没有统计学显著差异。"
+            "text": "我们共审查了8031例儿科困难插管病例。其中285例（3.5%）在周末进行，7746例（96.5%）在工作日进行。周末儿科困难插管的并发症发生率（总并发症、低氧血症和非低氧血症并发症）显著高于工作日。周末发生任何并发症的几率是工作日的两倍以上（比值比2.13，95%置信区间1.49-3.07，P<0.0001）。"
           },
           {
             "heading": "CONCLUSIONS",
-            "text": "由RIPC诱导的[TIMP-2].[IGFBP7]的短暂升高与肾脏保护作用相关，仅在七氟烷麻醉下观察到，而使用丙泊酚时未观察到。生物标志物浓度与麻醉剂选择之间的关联提示丙泊酚可能减弱远程缺血预处理的肾脏保护作用。"
-          },
-          {
-            "heading": "CLINICAL TRIAL REGISTRATION",
-            "text": "DRKS00014989。"
+            "text": "本研究支持儿科麻醉医师的临床决策，即将有困难气道病史的儿童的非紧急儿科手术从周末推迟到工作日，以降低气道管理并发症的风险，提高患者安全和护理质量。"
           }
         ],
-        "fullText": "BACKGROUND: 远程缺血预处理（RIPC）可能减少心脏手术后的急性肾损伤。保护作用似乎仅限于尿液中两种细胞周期停滞标志物——金属蛋白酶组织抑制剂-2（TIMP-2）和胰岛素样生长因子结合蛋白7（IGFBP7）——早期和短暂升高的患者。研究表明，丙泊酚可以减弱对心肌的预处理效应。本研究探讨了丙泊酚是否减弱与TIMP-2和IGFBP7早期短暂升高相关的肾脏保护作用。 METHODS: 这是一项单中心、前瞻性随机双盲2x2析因临床试验，研究对象为接受心脏手术的高危患者。患者被随机分配接受丙泊酚+假RIPC、丙泊酚+RIPC、七氟烷+假RIPC或七氟烷+RIPC。主要结局指标是干预前后尿中TIMP-2和IGFBP7浓度乘积（[TIMP-2].[IGFBP7]）的变化。 RESULTS: 我们纳入了160名参与者（丙泊酚+假RIPC：n=20，丙泊酚+RIPC：n=60，七氟烷+假RIPC：n=20，七氟烷+RIPC：n=60）。作为RIPC反应指标的[TIMP-2].[IGFBP7]的中位变化在接受七氟烷的参与者中更大（0.070；四分位距，-0.120至0.418），而接受丙泊酚的参与者为（-0.015；四分位距，-0.138至0.068；P=0.022）。相反，作为手术应激下肾脏应激标志的[TIMP-2].[IGFBP7]升高在所有组中均检测到，除了七氟烷+RIPC组（P=0.001）。各组之间以患者为中心的结局没有统计学显著差异。 CONCLUSIONS: 由RIPC诱导的[TIMP-2].[IGFBP7]的短暂升高与肾脏保护作用相关，仅在七氟烷麻醉下观察到，而使用丙泊酚时未观察到。生物标志物浓度与麻醉剂选择之间的关联提示丙泊酚可能减弱远程缺血预处理的肾脏保护作用。 CLINICAL TRIAL REGISTRATION: DRKS00014989。",
+        "fullText": "BACKGROUND: 已证明非工作时间就诊与预测困难气道患者的气管插管相关不良事件独立相关。周末与工作日儿科困难插管并发症发生率的比较尚不清楚。本回顾性研究的主要目的是确定周末与工作日发生的儿科困难插管病例的并发症发生率。 METHODS: 我们对儿科困难插管登记处的数据进行了回顾性分析，服务日期为2012年6月8日至2023年5月9日，以比较周末与工作日发生的儿科困难插管期间的并发症发生率（总并发症、低氧血症、非低氧血症并发症和首次尝试成功率）。使用研究电子数据采集系统来标准化各机构的數據收集。 RESULTS: 我们共审查了8031例儿科困难插管病例。其中285例（3.5%）在周末进行，7746例（96.5%）在工作日进行。周末儿科困难插管的并发症发生率（总并发症、低氧血症和非低氧血症并发症）显著高于工作日。周末发生任何并发症的几率是工作日的两倍以上（比值比2.13，95%置信区间1.49-3.07，P<0.0001）。 CONCLUSIONS: 本研究支持儿科麻醉医师的临床决策，即将有困难气道病史的儿童的非紧急儿科手术从周末推迟到工作日，以降低气道管理并发症的风险，提高患者安全和护理质量。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "Zarbock A, Schone LM, Kellum JA, Gerss J, Weiss R, Booke H, Meersch M",
-      "citation": "Br J Anaesth. 2025 Dec;135(6):1626-1634. doi: 10.1016/j.bja.2025.08.055. Epub 2025 Oct 14.",
-      "doi": "10.1016/j.bja.2025.08.055",
-      "pmid": "41093687",
-      "pmcid": "PMC12799410",
+      "authors": "Crockett CJ, Szolnoki J, Khan S, Lee AC, Kaizer A, Olomu P, Peterson MB",
+      "citation": "Br J Anaesth. 2025 Nov;135(5):1511-1517. doi: 10.1016/j.bja.2025.07.033. Epub 2025 Aug 19.",
+      "doi": "10.1016/j.bja.2025.07.033",
+      "pmid": "40829974",
+      "pmcid": "PMC12597374",
       "publicationTypes": [
-        "Journal Article",
-        "Randomized Controlled Trial"
+        "Journal Article"
       ],
       "meshTerms": [
         "Humans",
-        "*Sevoflurane/pharmacology",
-        "*Propofol/pharmacology",
+        "*Intubation, Intratracheal/adverse effects/methods",
+        "Registries",
+        "Retrospective Studies",
+        "Child",
+        "Child, Preschool",
+        "Infant",
         "Male",
         "Female",
-        "Tissue Inhibitor of Metalloproteinase-2/urine",
-        "*Ischemic Preconditioning/methods",
-        "Aged",
-        "Middle Aged",
-        "*Cardiac Surgical Procedures/methods",
-        "Double-Blind Method",
-        "Insulin-Like Growth Factor Binding Proteins/urine",
-        "*Acute Kidney Injury/prevention & control/urine",
-        "Prospective Studies",
-        "*Anesthetics, Inhalation/pharmacology",
-        "*Anesthetics, Intravenous/pharmacology",
-        "Biomarkers/urine"
+        "Time Factors",
+        "*After-Hours Care/statistics & numerical data",
+        "Infant, Newborn",
+        "Adolescent",
+        "Hypoxia/etiology/epidemiology",
+        "*Airway Management/methods/adverse effects"
       ],
       "publisher": "Elsevier BV",
       "crossrefVerified": true,
@@ -825,118 +294,130 @@
       "tags": [
         "临床证据",
         "麻醉及围术期核心期刊",
-        "麻醉基础研究",
-        "Journal Article",
-        "Randomized Controlled Trial"
+        "气道管理",
+        "Journal Article"
       ],
-      "question": "远程缺血预处理（RIPC）可能减轻心脏手术后的急性肾损伤，但麻醉药物可能干扰其保护效应。该研究提示丙泊酚可能削弱RIPC的肾脏保护作用，而七氟烷则可能保留该效应，这对麻醉药物的选择具有潜在临床意义，但需进一步验证。",
-      "conclusion": "在心脏手术高危患者中，与丙泊酚相比，七氟烷麻醉下远程缺血预处理（RIPC）诱导的尿[TIMP-2]·[IGFBP7]早期一过性升高更明显，提示丙泊酚可能减弱RIPC的肾脏保护效应，但患者中心结局无显著差异。",
-      "clinical": "在心脏手术中，若采用RIPC策略，七氟烷麻醉可能比丙泊酚更有利于保留RIPC的肾脏保护效应（基于生物标志物变化）。 丙泊酚可能减弱RIPC诱导的[TIMP-2]·[IGFBP7]早期一过性升高，从而可能削弱其肾脏保护作用，但需更多临床结局证据支持。 由于患者中心结局无显著差异，麻醉药物的选择不应仅基于此生物标志物结果，需权衡其他临床因素。",
+      "question": "该研究提示周末进行儿科困难插管可能增加并发症风险，为临床决策（如将非紧急手术推迟至工作日）提供了数据支持，但需注意其回顾性设计及混杂因素。",
+      "conclusion": "基于儿科困难插管登记库的回顾性分析显示，周末进行的儿科困难气管插管其并发症发生率显著高于工作日，但校正后仅非低氧血症并发症仍显著，低氧血症差异无统计学意义。",
+      "clinical": "对于有困难气道病史的儿科患者，若非紧急手术，可考虑将手术从周末推迟至工作日，以降低气道管理并发症风险。 周末值班的麻醉团队应加强人员配置和气道管理准备，以应对可能增加的困难插管风险。 该研究为回顾性观察，不能直接指导临床决策，但可作为质量改进的参考。",
       "evidence": "中等",
       "score": 65,
       "scoreBreakdown": {
-        "relevance": 17,
-        "evidenceQuality": 22,
-        "clinicalImpact": 7,
+        "relevance": 23,
+        "evidenceQuality": 8,
+        "clinicalImpact": 13,
         "journalQuality": 15,
-        "novelty": 4
+        "novelty": 6
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "单中心、前瞻性、随机、双盲、2×2析因设计的临床试验，纳入接受心脏手术的高危患者，随机分配至丙泊酚+假RIPC、丙泊酚+RIPC、七氟烷+假RIPC或七氟烷+RIPC组。"
+          "value": "回顾性队列研究，基于多中心登记库数据。"
         },
         {
           "label": "研究对象与样本",
-          "value": "High-risk patients undergoing cardiac surgery with cardiopulmonary bypass；160 participants"
+          "value": "paediatric patients (<18 yr) with difficult direct laryngoscopy from the Pediatric Difficult Intubation registry；8031 cases"
         },
         {
           "label": "干预与比较",
-          "value": "Remote ischaemic preconditioning (RIPC) or sham-RIPC, combined with propofol or sevoflurane anaesthesia；对照：Four groups: propofol+sham-RIPC, propofol+RIPC, sevoflurane+sham-RIPC, sevoflurane+RIPC"
+          "value": "周末（周六或周日）进行的困难气管插管。；对照：weekend (Saturday/Sunday) vs weekday (Monday-Friday) cases"
         },
         {
           "label": "主要终点",
-          "value": "Change in the product of urinary concentrations of TIMP-2 and IGFBP7 ([TIMP-2]·[IGFBP7]) from before to after the intervention"
+          "value": "complication rates (total complications, hypoxaemia, non-hypoxaemia complications, and first-attempt success rate)"
         }
       ],
       "keyPoints": [
-        "在心脏手术高危患者中，七氟烷麻醉下RIPC诱导的[TIMP-2]·[IGFBP7]早期一过性升高比丙泊酚更明显（P=0.022）。",
-        "除七氟烷+RIPC组外，所有组均检测到手术相关的肾应激标志升高（P=0.001）。",
-        "患者中心结局（AKI、肾功能恢复、透析依赖、死亡率、MAKE）在组间无统计学显著差异。",
-        "试验未针对AKI差异进行效能设计，且统计效能低于常规标准。"
+        "周末儿科困难插管总并发症风险显著高于工作日（校正后OR 1.62）。",
+        "非低氧血症并发症在周末显著增加（校正后OR 1.77）。",
+        "低氧血症在未校正时显著，但校正后无统计学意义。",
+        "研究支持将非紧急儿科困难气道手术从周末推迟至工作日。"
       ],
-      "methods": "远程缺血预处理（RIPC）可能减少心脏手术后的急性肾损伤，其保护效应似乎仅限于尿中组织金属蛋白酶抑制剂-2（TIMP-2）和胰岛素样生长因子结合蛋白-7（IGFBP7）早期一过性升高的患者。有研究表明丙泊酚可减弱对心肌的预处理效应。本研究旨在探讨丙泊酚是否减弱与TIMP-2和IGFBP7早期一过性升高相关的肾脏保护效应。",
-      "results": "共纳入160名参与者（丙泊酚+假RIPC：n=20，丙泊酚+RIPC：n=60，七氟烷+假RIPC：n=20，七氟烷+RIPC：n=60）。作为RIPC反应指标的[TIMP-2]·[IGFBP7]中位变化在七氟烷组（0.070；IQR，-0.120至0.418）大于丙泊酚组（-0.015；IQR，-0.138至0.068；P=0.022）。相反，作为手术所致肾应激标志的[TIMP-2]·[IGFBP7]升高在所有组中均检测到，但七氟烷+RIPC组除外（P=0.001）。各组间患者中心结局无统计学显著差异。",
-      "mainResults": "共纳入160名参与者（丙泊酚+假RIPC：n=20，丙泊酚+RIPC：n=60，七氟烷+假RIPC：n=20，七氟烷+RIPC：n=60）。作为RIPC反应指标的[TIMP-2]·[IGFBP7]中位变化在七氟烷组（0.070；IQR，-0.120至0.418）大于丙泊酚组（-0.015；IQR，-0.138至0.068；P=0.022）。相反，作为手术所致肾应激标志的[TIMP-2]·[IGFBP7]升高在所有组中均检测到，但七氟烷+RIPC组除外（P=0.001）。各组间患者中心结局无统计学显著差异。",
+      "methods": "既往研究显示，非工作时间就诊与预测困难气道患者气管插管相关不良事件独立相关，但周末与工作日儿科困难插管并发症率的比较尚不清楚。",
+      "results": "共纳入8031例儿科困难插管，其中周末285例（3.5%），工作日7746例（96.5%）。周末总并发症风险显著高于工作日（OR 2.13，95% CI 1.49-3.07，P<0.0001）；校正后OR为1.62（95% CI 1.10-2.38，P=0.015）。低氧血症未校正OR为2.09（95% CI 1.30-3.38，P=0.003），但校正后无统计学意义（OR 1.29，95% CI 0.77-2.16，P=0.336）。非低氧血症并发症未校正OR为2.11（95% CI 1.35-3.29，P=0.001），校正后仍显著（OR 1.77，95% CI 1.09-2.87，P=0.020）。",
+      "mainResults": "共纳入8031例儿科困难插管，其中周末285例（3.5%），工作日7746例（96.5%）。周末总并发症风险显著高于工作日（OR 2.13，95% CI 1.49-3.07，P<0.0001）；校正后OR为1.62（95% CI 1.10-2.38，P=0.015）。低氧血症未校正OR为2.09（95% CI 1.30-3.38，P=0.003），但校正后无统计学意义（OR 1.29，95% CI 0.77-2.16，P=0.336）。非低氧血症并发症未校正OR为2.11（95% CI 1.35-3.29，P=0.001），校正后仍显著（OR 1.77，95% CI 1.09-2.87，P=0.020）。",
       "limitations": [
-        "试验未针对AKI发生率的差异进行效能设计。",
-        "主要统计分析效能为75.3%，低于通常的80%。",
-        "硫喷妥钠对HMGB-1、TIMP-2和IGFBP7释放的影响尚不清楚，可能影响结果。",
-        "并非所有患者都对RIPC有反应。"
+        "回顾性设计，无法提供长期结局数据，仅能建立相关性。",
+        "登记库缺乏术前麻醉和手术决策的详细信息。",
+        "登记库未记录困难气道管理发生的具体时间（如白天或夜间）。",
+        "登记库为去标识化，缺乏具体机构特征和资源数据。",
+        "登记库参与可能偏向学术机构。",
+        "缺乏对困难气道患者在ICU和病房护理的数据。",
+        "P值未进行多重检验校正。"
       ],
       "practice": [
-        "在心脏手术中，若采用RIPC策略，七氟烷麻醉可能比丙泊酚更有利于保留RIPC的肾脏保护效应（基于生物标志物变化）。",
-        "丙泊酚可能减弱RIPC诱导的[TIMP-2]·[IGFBP7]早期一过性升高，从而可能削弱其肾脏保护作用，但需更多临床结局证据支持。",
-        "由于患者中心结局无显著差异，麻醉药物的选择不应仅基于此生物标志物结果，需权衡其他临床因素。"
+        "对于有困难气道病史的儿科患者，若非紧急手术，可考虑将手术从周末推迟至工作日，以降低气道管理并发症风险。",
+        "周末值班的麻醉团队应加强人员配置和气道管理准备，以应对可能增加的困难插管风险。",
+        "该研究为回顾性观察，不能直接指导临床决策，但可作为质量改进的参考。"
       ],
-      "editor": "该研究为随机对照试验，设计严谨，双盲，2×2析因设计，主要结局为生物标志物变化，结果提示七氟烷组[TIMP-2]·[IGFBP7]变化显著高于丙泊酚组（P=0.022），且七氟烷+RIPC组未检测到肾应激标志升高（P=0.001），支持丙泊酚可能减弱RIPC的肾脏保护效应。 过度解读风险：主要结局为生物标志物替代指标，而非临床结局；患者中心结局无显著差异，因此不能直接推断丙泊酚会恶化临床肾脏结局。且试验效能不足，需谨慎解读。",
-      "whyItMatters": "远程缺血预处理（RIPC）可能减轻心脏手术后的急性肾损伤，但麻醉药物可能干扰其保护效应。该研究提示丙泊酚可能削弱RIPC的肾脏保护作用，而七氟烷则可能保留该效应，这对麻醉药物的选择具有潜在临床意义，但需进一步验证。",
-      "background": "远程缺血预处理（RIPC）可能减少心脏手术后的急性肾损伤，其保护效应似乎仅限于尿中组织金属蛋白酶抑制剂-2（TIMP-2）和胰岛素样生长因子结合蛋白-7（IGFBP7）早期一过性升高的患者。有研究表明丙泊酚可减弱对心肌的预处理效应。本研究旨在探讨丙泊酚是否减弱与TIMP-2和IGFBP7早期一过性升高相关的肾脏保护效应。",
+      "editor": "研究基于大型多中心登记库，样本量较大，结果具有统计学意义，且校正后部分结果仍显著，支持周末与并发症风险增加的相关性。 过度解读风险：存在过度解读风险，因为观察性研究不能证明因果关系，且校正后低氧血症差异不显著，需谨慎解读。",
+      "whyItMatters": "该研究提示周末进行儿科困难插管可能增加并发症风险，为临床决策（如将非紧急手术推迟至工作日）提供了数据支持，但需注意其回顾性设计及混杂因素。",
+      "background": "既往研究显示，非工作时间就诊与预测困难气道患者气管插管相关不良事件独立相关，但周末与工作日儿科困难插管并发症率的比较尚不清楚。",
       "pico": {
-        "population": "High-risk patients undergoing cardiac surgery with cardiopulmonary bypass",
-        "intervention": "Remote ischaemic preconditioning (RIPC) or sham-RIPC, combined with propofol or sevoflurane anaesthesia",
-        "comparison": "Four groups: propofol+sham-RIPC, propofol+RIPC, sevoflurane+sham-RIPC, sevoflurane+RIPC",
-        "outcome": "Change in the product of urinary concentrations of TIMP-2 and IGFBP7 ([TIMP-2]·[IGFBP7]) from before to after the intervention"
+        "population": "paediatric patients (<18 yr) with difficult direct laryngoscopy from the Pediatric Difficult Intubation registry",
+        "intervention": "周末（周六或周日）进行的困难气管插管。",
+        "comparison": "weekend (Saturday/Sunday) vs weekday (Monday-Friday) cases",
+        "outcome": "complication rates (total complications, hypoxaemia, non-hypoxaemia complications, and first-attempt success rate)"
       },
-      "studyType": "单中心、前瞻性、随机、双盲、2×2析因设计的临床试验，纳入接受心脏手术的高危患者，随机分配至丙泊酚+假RIPC、丙泊酚+RIPC、七氟烷+假RIPC或七氟烷+RIPC组。",
-      "sampleSize": "160 participants",
-      "primaryOutcome": "Change in the product of urinary concentrations of TIMP-2 and IGFBP7 ([TIMP-2]·[IGFBP7]) from before to after the intervention",
+      "studyType": "回顾性队列研究，基于多中心登记库数据。",
+      "sampleSize": "8031 cases",
+      "primaryOutcome": "complication rates (total complications, hypoxaemia, non-hypoxaemia complications, and first-attempt success rate)",
       "effectSize": [
-        "Median change in [TIMP-2]·[IGFBP7] for sevoflurane: 0.070",
-        "Median change in [TIMP-2]·[IGFBP7] for propofol: -0.015"
+        "OR 2.13",
+        "OR 1.62",
+        "OR 2.09",
+        "OR 1.29",
+        "OR 2.11",
+        "OR 1.77"
       ],
       "confidenceInterval": [
-        "IQR for sevoflurane: -0.120 to 0.418",
-        "IQR for propofol: -0.138 to 0.068"
+        "95% CI 1.49-3.07",
+        "95% CI 1.10-2.38",
+        "95% CI 1.30-3.38",
+        "95% CI 0.77-2.16",
+        "95% CI 1.35-3.29",
+        "95% CI 1.09-2.87"
       ],
       "pValue": [
-        "P=0.022 for comparison of median change between sevoflurane and propofol",
-        "P=0.001 for elevated [TIMP-2]·[IGFBP7] in all groups except sevoflurane+RIPC"
+        "P<0.0001",
+        "P=0.015",
+        "P=0.003",
+        "P=0.336",
+        "P=0.001",
+        "P=0.020"
       ],
-      "adverseEvents": "Adverse events included perioperative myocardial infarction, cerebrovascular events/stroke, pulmonary embolism, residual adverse effects on corresponding limb, and petechial bleeding. No significant differences between groups were reported.",
+      "adverseEvents": "Weekends had higher rates of cardiac arrest (2.1% vs 0.7%, P=0.015), hypoxaemia (12.3% vs 6.7%, P<0.001), arrhythmias (0.7% vs 0.1%, P=0.031), and other complications (3.5% vs 1.3%, P=0.007).",
       "aiAssessment": {
-        "support": "该研究为随机对照试验，设计严谨，双盲，2×2析因设计，主要结局为生物标志物变化，结果提示七氟烷组[TIMP-2]·[IGFBP7]变化显著高于丙泊酚组（P=0.022），且七氟烷+RIPC组未检测到肾应激标志升高（P=0.001），支持丙泊酚可能减弱RIPC的肾脏保护效应。",
-        "overinterpretationRisk": "主要结局为生物标志物替代指标，而非临床结局；患者中心结局无显著差异，因此不能直接推断丙泊酚会恶化临床肾脏结局。且试验效能不足，需谨慎解读。"
+        "support": "研究基于大型多中心登记库，样本量较大，结果具有统计学意义，且校正后部分结果仍显著，支持周末与并发症风险增加的相关性。",
+        "overinterpretationRisk": "存在过度解读风险，因为观察性研究不能证明因果关系，且校正后低氧血症差异不显著，需谨慎解读。"
       },
       "deepDive": {
         "sourceCoverage": {
           "level": "full_text_excerpt",
           "limitations": [
-            "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节、完整结果数据及讨论部分。",
-            "未提供完整的统计分析计划、随机化细节、盲法实施细节等。",
-            "未提供各次要结局的具体数值和效应量。"
+            "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节和完整结果。",
+            "未提供具体校正变量列表和统计模型细节。"
           ]
         },
         "methodology": {
-          "researchQuestion": "在心脏手术高危患者中，丙泊酚是否会减弱RIPC诱导的肾脏保护效应（以[TIMP-2]·[IGFBP7]早期一过性升高为指标）？",
-          "designFit": "2×2析因随机双盲设计适合同时评估麻醉药物和RIPC的交互作用，但主要结局为生物标志物，而非临床结局。",
-          "eligibility": "当前可获取内容未提供详细的纳入和排除标准。",
-          "randomization": "随机化方法未详细描述，但提及随机分配至四组。",
-          "allocationConcealment": "当前可获取内容未提供分配隐藏的具体方法。",
-          "blinding": "研究为双盲，但未说明对谁设盲（患者、医生、结局评估者？）。",
-          "sampleSizePlanning": "样本量计算未详细说明，但提到主要统计分析效能为75.3%，低于通常的80%。",
-          "followUp": "随访至90天，但具体随访流程未详细描述。",
-          "analysisPopulation": "当前可获取内容未明确意向性分析或符合方案集。",
-          "missingData": "当前可获取内容未提供缺失数据处理方法。",
+          "researchQuestion": "周末与工作日相比，儿科困难插管并发症发生率是否存在差异？",
+          "designFit": "回顾性队列设计适合评估暴露（周末）与结局（并发症）的关联，但存在选择偏倚和混杂。",
+          "eligibility": "纳入儿科困难插管登记库中年龄<18岁、存在困难直接喉镜的病例，服务日期2012年6月8日至2023年5月9日。",
+          "randomization": "不适用，观察性研究。",
+          "allocationConcealment": "不适用。",
+          "blinding": "不适用，回顾性数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "当前可获取内容未提供该数据。",
+          "analysisPopulation": "8031例困难插管病例，其中周末285例，工作日7746例。",
+          "missingData": "当前可获取内容未提供该数据。",
           "strengths": [
-            "随机双盲设计，减少偏倚。",
-            "2×2析因设计可评估交互作用。",
-            "多中心？单中心？但为前瞻性设计。"
+            "基于大型多中心登记库，样本量大。",
+            "使用标准化数据采集（REDCap）。"
           ],
           "concerns": [
-            "主要结局为替代指标，临床意义有限。",
-            "统计效能不足。",
-            "未报告次要结局的详细结果。"
+            "回顾性设计，存在混杂偏倚。",
+            "登记库缺乏关键变量（如时间、机构特征）。",
+            "P值未校正多重比较。"
           ]
         },
         "statistics": {
@@ -944,77 +425,74 @@
             {
               "referenceId": null,
               "name": "未报告",
-              "purposeInStudy": "当前可获取内容未明确描述统计方法，无法评价。",
-              "reportedResult": "未报告具体统计方法。",
-              "interpretation": "无法评价统计方法的适当性。",
+              "purposeInStudy": "用于比较周末与工作日的并发症发生率，并计算比值比（OR）和95%置信区间。",
+              "reportedResult": "总并发症OR 2.13（95% CI 1.49-3.07，P<0.0001）；校正后OR 1.62（95% CI 1.10-2.38，P=0.015）。",
+              "interpretation": "周末并发症风险显著高于工作日，但校正后效应量减小，提示存在混杂因素。",
               "cautions": [
-                "未报告统计方法，无法评估分析是否正确。"
+                "未报告具体统计模型（如逻辑回归）和校正变量。",
+                "P值未校正多重比较，可能增加假阳性风险。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
           ],
-          "adjustedVariables": "当前可获取内容未提供调整变量信息。",
-          "multiplicity": "当前可获取内容未提及多重性校正。",
-          "subgroupAnalysis": "未报告亚组分析，但2×2析因设计可能包含交互作用分析。",
-          "clinicalVsStatisticalSignificance": "生物标志物差异有统计学意义（P=0.022），但患者中心结局无显著差异，提示统计学差异不一定转化为临床获益。"
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "P值未进行多重检验校正。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "虽然总并发症和非低氧血症并发症在统计学上显著，但临床意义需结合绝对风险差异和患者结局评估。"
         },
         "outcomeAnalysis": {
-          "primary": "干预前后尿[TIMP-2]·[IGFBP7]的变化。七氟烷组中位变化0.070（IQR -0.120至0.418），丙泊酚组-0.015（IQR -0.138至0.068），P=0.022。",
+          "primary": "总并发症率（包括低氧血症和非低氧血症并发症）以及首次尝试成功率。",
           "secondary": [
-            "术后72小时内AKI发生率和严重程度（KDIGO标准）：未报告具体数值。",
-            "30天和90天肾功能恢复：未报告具体数值。",
-            "30天和90天透析依赖：未报告具体数值。",
-            "30天和90天死亡率：未报告具体数值。",
-            "30天和90天MAKE：未报告具体数值。"
+            "低氧血症发生率",
+            "非低氧血症并发症发生率",
+            "首次尝试成功率"
           ],
-          "safety": "不良事件包括围术期心肌梗死、脑血管事件/卒中、肺栓塞、相应肢体残余不良影响和瘀点出血。各组间无显著差异。",
-          "absoluteVsRelative": "未报告绝对风险或相对风险，仅报告生物标志物变化的中位数和IQR。",
-          "subgroupAndInteraction": "未报告亚组分析，但2×2析因设计可能包含交互作用分析。",
-          "sensitivity": "未报告敏感性分析。"
+          "safety": "周末心脏骤停发生率（2.1% vs 0.7%，P=0.015）、低氧血症（12.3% vs 6.7%，P<0.001）、心律失常（0.7% vs 0.1%，P=0.031）和其他并发症（3.5% vs 1.3%，P=0.007）均显著高于工作日。",
+          "absoluteVsRelative": "相对效应量（OR）较大，但绝对风险差异未完全报告，需结合基线风险解释。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "随机双盲设计，减少偏倚。",
-            "2×2析因设计可评估麻醉药物与RIPC的交互作用。",
-            "使用生物标志物作为主要结局，可能比临床结局更敏感。"
+            "大型多中心数据，代表性较好。",
+            "使用标准化数据采集。"
           ],
           "limitations": [
-            "主要结局为替代指标，临床意义有限。",
-            "统计效能不足（75.3%）。",
-            "未报告次要结局的详细结果。",
-            "硫喷妥钠可能影响结果。"
+            "回顾性设计，无法确定因果关系。",
+            "缺乏关键混杂变量（如手术紧急程度、患者合并症）。",
+            "登记库可能偏向学术机构，影响外推性。"
           ],
           "biasRisks": [
-            "未报告分配隐藏和盲法细节，可能存在实施偏倚。",
-            "未报告缺失数据处理，可能存在随访偏倚。"
+            "选择偏倚：周末病例可能更紧急，导致并发症率升高。",
+            "信息偏倚：登记库数据可能不完整。",
+            "混杂偏倚：未校正所有潜在混杂因素。"
           ],
-          "certainty": "由于统计效能不足和替代指标，证据确定性中等。",
-          "conclusionAlignment": "结论与结果一致，但需注意生物标志物与临床结局的关联尚不明确。",
-          "causalBoundary": "观察性关联不能证明因果关系，丙泊酚可能减弱RIPC效应，但需更多临床结局证据。"
+          "certainty": "低至中等，因观察性设计且存在偏倚风险。",
+          "conclusionAlignment": "结论与结果一致，但需谨慎解释因果关系。",
+          "causalBoundary": "观察性研究只能提示关联，不能证明周末导致并发症增加。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "对于接受心脏手术的高危患者，若考虑RIPC，七氟烷麻醉可能更有利于保留RIPC的肾脏保护效应（基于生物标志物）。",
-            "丙泊酚可能减弱RIPC的效应，但临床结局无差异，因此不改变当前麻醉实践。"
+            "适用于有困难气道病史的儿科患者，考虑择期手术时机。",
+            "适用于儿科麻醉团队进行质量改进和资源规划。"
           ],
           "nonApplicability": [
-            "结果不能推广至非心脏手术或低危患者。",
-            "不能推广至其他麻醉药物或RIPC方案。"
+            "不适用于紧急手术，因为推迟可能带来更大风险。",
+            "不适用于无困难气道风险的患者。"
           ],
-          "practiceChange": "当前证据不足以改变临床实践，需更多以临床结局为终点的研究。",
+          "practiceChange": "可能支持将非紧急儿科困难气道手术从周末推迟至工作日，但需个体化决策。",
           "canDoNow": [
-            "在临床决策中，可考虑麻醉药物对RIPC效应的潜在影响，但需权衡其他因素。",
-            "监测[TIMP-2]·[IGFBP7]可能有助于识别RIPC反应者，但尚未确立临床用途。"
+            "加强周末值班团队的气道管理培训和设备准备。",
+            "对周末困难插管病例进行更密切的监测和预案。"
           ],
           "cannotConclude": [
-            "不能确定丙泊酚是否增加AKI风险。",
-            "不能确定七氟烷是否改善肾脏临床结局。",
-            "不能确定RIPC的长期获益。"
+            "不能确定周末与并发症的因果关系。",
+            "不能确定推迟手术是否改善长期结局。"
           ],
           "evidenceGaps": [
-            "需要以AKI、肾功能恢复、死亡率等临床结局为主要终点的更大规模试验。",
-            "需要明确硫喷妥钠对生物标志物的影响。",
-            "需要探索RIPC无反应者的机制。"
+            "需要前瞻性研究验证。",
+            "需要更多关于手术紧急程度、患者合并症等混杂因素的信息。",
+            "需要评估长期结局和成本效益。"
           ],
           "directClinicalRecommendation": false
         }
@@ -1025,65 +503,907 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41093687/",
-        "doi": "https://doi.org/10.1016/j.bja.2025.08.055",
-        "publisher": "https://doi.org/10.1016/j.bja.2025.08.055",
-        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12799410/"
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40829974/",
+        "doi": "https://doi.org/10.1016/j.bja.2025.07.033",
+        "publisher": "https://doi.org/10.1016/j.bja.2025.07.033",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12597374/"
       }
     },
     {
       "analysisVersion": 2,
-      "slug": "pmid-41176463",
-      "number": "04",
-      "category": "疼痛与区域麻醉",
+      "slug": "pmid-40769841",
+      "number": "02",
+      "category": "麻醉基础研究",
       "journal": "British journal of anaesthesia",
-      "year": "2026",
-      "publishedDate": "2026-01",
-      "electronicPublicationDate": "2025-10-31",
+      "year": "2025",
+      "publishedDate": "2025-09",
+      "electronicPublicationDate": "2025-08-06",
       "readingTime": "11 分钟",
-      "title": "可乐定与右美托咪定在外周神经阻滞中的安全性：临床前证据的系统评价",
-      "originalTitle": "Safety of clonidine and dexmedetomidine in peripheral nerve blocks: a systematic review of preclinical evidence.",
-      "abstract": "BACKGROUND: Perineural alpha(2)-adrenergic receptor agonists, particularly clonidine and dexmedetomidine, can be used to prolong peripheral nerve block duration. Although clinical studies suggest enhanced analgesia, concerns remain regarding their neurotoxicity or neuroprotective potential, especially in compromised nerves. We aimed to synthesise preclinical evidence on the safety of these agents. METHODS: A systematic search of PubMed, CENTRAL, Embase, and Scopus was conducted up to July 13, 2025, supplemented by reference screening and large language model queries. Preclinical in vivo and in vitro studies examining perineural clonidine or dexmedetomidine were included. Outcomes assessed included indicators of neurotoxicity (e.g. apoptosis, demyelination, axonal degeneration) and neuroprotection (e.g. anti-inflammatory effects, neuronal preservation). Risk of bias was evaluated using the SYRCLE tool and narrative assessment. RESULTS: Twenty-five studies (19 in vivo, six in vitro) were included. High-dose alpha(2)-agonists can induce direct toxicity in vitro, but no evidence of neurotoxicity has been demonstrated in vivo, even at doses exceeding those used clinically. Conversely, alpha(2)-agonists have been shown to reduce apoptosis, axonal degeneration, and inflammation compared with untreated groups, although such protective effects are observed at clinically relevant concentrations only after intraneural injection. In contrast, in models with pre-existing nerve injury, alpha(2)-agonists have been associated with exacerbated demyelination and inflammation. CONCLUSIONS: Preclinical evidence suggests that perineural alpha(2)-adrenergic receptor agonists are safe at clinically relevant doses on healthy nerves. While they probably do not offer a clinically significant neuroprotective effect at therapeutic doses (</=2 mug kg(-1)), they can increase neurotoxicity in compromised nerves. These data should not be directly extrapolated to clinical practice. Careful patient and dose selection and further high-quality preclinical and clinical studies are warranted.",
+      "title": "遗传变异对丙泊酚药代动力学、剂量需求及临床效应的影响：一项系统评价",
+      "originalTitle": "Impact of genetic variations on the pharmacokinetics, dose requirements, and clinical effects of propofol: a systematic review.",
+      "abstract": "INTRODUCTION: Both the dose requirements and side-effects of propofol vary significantly between individuals. Propofol is primarily metabolised by uridine 5'-diphosphate-glucuronosyltransferase (UGT) and cytochrome P450 (CYP) enzymatic pathways, specifically UGT1A9 (70%) and CYP2B6/CYP2C9 (29%). Genetic polymorphisms, which influence enzyme transcription and function, can influence propofol metabolism and propofol clearance and thereby potentially impact anaesthesia-related clinical outcomes. Pharmacogenomic testing can assist with individualising propofol dosing during total intravenous anaesthesia (TIVA) to improve safety and efficacy. This systematic review evaluates the impact of metabolic genetic polymorphisms on propofol clearance, dose requirements, and related clinical effects. METHODS: A systematic search of MEDLINE, EMBASE, and the Pharmacogenomics Knowledge Base identified studies involving patients who underwent propofol-based TIVA and pharmacogenomic testing for UGT1A9, CYP2B6, and CYP2C9 genotypes. RESULTS: Sixteen studies, involving 1779 patients receiving propofol-TIVA, were included. Of the UGT1A9 polymorphism genotypes considered, CT heterozygotes of rs72551330 (98T>C) may have a clinically relevant effect on propofol pharmacokinetics, with lower propofol clearance, lower dose requirements, and longer emergence times. CC homozygotes of rs2741045 (-440C>T) may have higher propofol clearance with faster emergence. Given currently available data, the CYP2B6 and CYP2C9 genotypes do not appear to have significant influence on propofol pharmacokinetics or anaesthesia-related clinical outcomes. CONCLUSIONS: Genetic polymorphisms in propofol metabolism can influence the pharmacokinetics of propofol and, potentially, anaesthesia-related clinical outcomes. To confirm these observations, larger, well-designed pharmacokinetic studies exploring metabolic genetic polymorphisms as covariates are required. Such data could support pharmacogenomic-guided propofol dosing.",
       "abstractTranslation": {
         "sections": [
           {
-            "heading": "BACKGROUND",
-            "text": "神经周围α(2)-肾上腺素能受体激动剂，特别是可乐定和右美托咪定，可用于延长周围神经阻滞的持续时间。尽管临床研究表明其可增强镇痛效果，但其神经毒性或神经保护潜力仍令人担忧，尤其是在受损神经中。我们旨在综合这些药物安全性的临床前证据。"
+            "heading": "INTRODUCTION",
+            "text": "丙泊酚的剂量需求和副作用在个体间存在显著差异。丙泊酚主要通过尿苷5'-二磷酸葡萄糖醛酸转移酶（UGT）和细胞色素P450（CYP）酶途径代谢，特别是UGT1A9（70%）和CYP2B6/CYP2C9（29%）。影响酶转录和功能的基因多态性可影响丙泊酚的代谢和清除，从而可能影响麻醉相关的临床结局。药物基因组学检测有助于在全静脉麻醉（TIVA）期间个体化丙泊酚给药，以提高安全性和有效性。本系统评价评估代谢基因多态性对丙泊酚清除率、剂量需求和相关临床效应的影响。"
           },
           {
             "heading": "METHODS",
-            "text": "对PubMed、CENTRAL、Embase和Scopus进行了系统检索，检索时间截至2025年7月13日，并辅以参考文献筛选和大型语言模型查询。纳入研究神经周围可乐定或右美托咪定的临床前体内和体外研究。评估的结果包括神经毒性指标（如细胞凋亡、脱髓鞘、轴突变性）和神经保护指标（如抗炎作用、神经元保存）。使用SYRCLE工具和叙述性评估评估偏倚风险。"
+            "text": "系统检索MEDLINE、EMBASE和药物基因组学知识库，确定涉及接受基于丙泊酚的TIVA并进行UGT1A9、CYP2B6和CYP2C9基因型药物基因组学检测的患者的研究。"
           },
           {
             "heading": "RESULTS",
-            "text": "共纳入25项研究（19项体内，6项体外）。高剂量α(2)-激动剂在体外可诱导直接毒性，但即使在超过临床使用剂量的情况下，体内也未显示神经毒性证据。相反，与未治疗组相比，α(2)-激动剂已被证明可减少细胞凋亡、轴突变性和炎症，尽管这种保护作用仅在临床相关浓度下、且在神经内注射后才观察到。相比之下，在已有神经损伤的模型中，α(2)-激动剂与脱髓鞘和炎症加重相关。"
+            "text": "共纳入16项研究，涉及1779例接受丙泊酚-TIVA的患者。在考虑的UGT1A9多态性基因型中，rs72551330（98T>C）的CT杂合子可能对丙泊酚药代动力学具有临床相关影响，表现为丙泊酚清除率较低、剂量需求较低和苏醒时间较长。rs2741045（-440C>T）的CC纯合子可能具有较高的丙泊酚清除率和更快的苏醒。根据目前可用的数据，CYP2B6和CYP2C9基因型似乎对丙泊酚药代动力学或麻醉相关临床结局没有显著影响。"
           },
           {
             "heading": "CONCLUSIONS",
-            "text": "临床前证据表明，在临床相关剂量下，神经周围α(2)-肾上腺素能受体激动剂对健康神经是安全的。虽然它们可能在治疗剂量（≤2 μg kg⁻¹）下不提供临床显著的神经保护作用，但它们可增加受损神经的神经毒性。这些数据不应直接外推到临床实践。需要谨慎选择患者和剂量，并进行进一步高质量的临床前和临床研究。"
+            "text": "丙泊酚代谢中的基因多态性可影响丙泊酚的药代动力学，并可能影响麻醉相关的临床结局。为证实这些观察结果，需要更大规模、设计良好的药代动力学研究，将代谢基因多态性作为协变量进行探索。此类数据可支持药物基因组学指导的丙泊酚给药。"
           }
         ],
-        "fullText": "BACKGROUND: 神经周围α(2)-肾上腺素能受体激动剂，特别是可乐定和右美托咪定，可用于延长周围神经阻滞的持续时间。尽管临床研究表明其可增强镇痛效果，但其神经毒性或神经保护潜力仍令人担忧，尤其是在受损神经中。我们旨在综合这些药物安全性的临床前证据。 METHODS: 对PubMed、CENTRAL、Embase和Scopus进行了系统检索，检索时间截至2025年7月13日，并辅以参考文献筛选和大型语言模型查询。纳入研究神经周围可乐定或右美托咪定的临床前体内和体外研究。评估的结果包括神经毒性指标（如细胞凋亡、脱髓鞘、轴突变性）和神经保护指标（如抗炎作用、神经元保存）。使用SYRCLE工具和叙述性评估评估偏倚风险。 RESULTS: 共纳入25项研究（19项体内，6项体外）。高剂量α(2)-激动剂在体外可诱导直接毒性，但即使在超过临床使用剂量的情况下，体内也未显示神经毒性证据。相反，与未治疗组相比，α(2)-激动剂已被证明可减少细胞凋亡、轴突变性和炎症，尽管这种保护作用仅在临床相关浓度下、且在神经内注射后才观察到。相比之下，在已有神经损伤的模型中，α(2)-激动剂与脱髓鞘和炎症加重相关。 CONCLUSIONS: 临床前证据表明，在临床相关剂量下，神经周围α(2)-肾上腺素能受体激动剂对健康神经是安全的。虽然它们可能在治疗剂量（≤2 μg kg⁻¹）下不提供临床显著的神经保护作用，但它们可增加受损神经的神经毒性。这些数据不应直接外推到临床实践。需要谨慎选择患者和剂量，并进行进一步高质量的临床前和临床研究。",
+        "fullText": "INTRODUCTION: 丙泊酚的剂量需求和副作用在个体间存在显著差异。丙泊酚主要通过尿苷5'-二磷酸葡萄糖醛酸转移酶（UGT）和细胞色素P450（CYP）酶途径代谢，特别是UGT1A9（70%）和CYP2B6/CYP2C9（29%）。影响酶转录和功能的基因多态性可影响丙泊酚的代谢和清除，从而可能影响麻醉相关的临床结局。药物基因组学检测有助于在全静脉麻醉（TIVA）期间个体化丙泊酚给药，以提高安全性和有效性。本系统评价评估代谢基因多态性对丙泊酚清除率、剂量需求和相关临床效应的影响。METHODS: 系统检索MEDLINE、EMBASE和药物基因组学知识库，确定涉及接受基于丙泊酚的TIVA并进行UGT1A9、CYP2B6和CYP2C9基因型药物基因组学检测的患者的研究。RESULTS: 共纳入16项研究，涉及1779例接受丙泊酚-TIVA的患者。在考虑的UGT1A9多态性基因型中，rs72551330（98T>C）的CT杂合子可能对丙泊酚药代动力学具有临床相关影响，表现为丙泊酚清除率较低、剂量需求较低和苏醒时间较长。rs2741045（-440C>T）的CC纯合子可能具有较高的丙泊酚清除率和更快的苏醒。根据目前可用的数据，CYP2B6和CYP2C9基因型似乎对丙泊酚药代动力学或麻醉相关临床结局没有显著影响。CONCLUSIONS: 丙泊酚代谢中的基因多态性可影响丙泊酚的药代动力学，并可能影响麻醉相关的临床结局。为证实这些观察结果，需要更大规模、设计良好的药代动力学研究，将代谢基因多态性作为协变量进行探索。此类数据可支持药物基因组学指导的丙泊酚给药。",
         "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
       },
-      "authors": "De Cassai A, Dost B, Bugada D, Boscolo A, Navalesi P",
-      "citation": "Br J Anaesth. 2026 Jan;136(1):255-265. doi: 10.1016/j.bja.2025.10.008. Epub 2025 Oct 31.",
-      "doi": "10.1016/j.bja.2025.10.008",
-      "pmid": "41176463",
+      "authors": "Gerstman MD, Zhang RK, Ho KM, Kirkpatrick CMJ, Riedel B, Somogyi AA",
+      "citation": "Br J Anaesth. 2025 Sep;135(3):594-607. doi: 10.1016/j.bja.2025.05.036. Epub 2025 Aug 6.",
+      "doi": "10.1016/j.bja.2025.05.036",
+      "pmid": "40769841",
       "pmcid": null,
       "publicationTypes": [
         "Journal Article",
         "Systematic Review"
       ],
       "meshTerms": [
-        "*Dexmedetomidine/adverse effects/administration & dosage/pharmacology",
-        "*Clonidine/adverse effects/administration & dosage/pharmacology",
-        "*Adrenergic alpha-2 Receptor Agonists/adverse effects/administration & dosage/pharmacology",
-        "Animals",
-        "*Nerve Block/methods/adverse effects",
-        "*Peripheral Nerves/drug effects",
+        "*Propofol/pharmacokinetics/administration & dosage/pharmacology/adverse effects",
         "Humans",
-        "Drug Evaluation, Preclinical"
+        "*Anesthetics, Intravenous/pharmacokinetics/administration & dosage/pharmacology/adverse effects",
+        "Glucuronosyltransferase/genetics",
+        "Polymorphism, Genetic",
+        "UDP-Glucuronosyltransferase 1A9",
+        "Dose-Response Relationship, Drug",
+        "*Genetic Variation",
+        "Cytochrome P-450 CYP2C9/genetics"
+      ],
+      "publisher": "Elsevier BV",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "clinical-evidence-publication-type"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 10.3,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "British Journal of Anaesthesia"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "麻醉基础研究",
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "question": "丙泊酚的剂量需求和副作用存在显著个体差异，而遗传多态性可能解释部分差异。明确基因型对丙泊酚药代动力学和临床结局的影响，有助于未来实现个体化给药，提高全凭静脉麻醉的安全性和有效性。",
+      "conclusion": "基于16项研究、1779例患者的系统评价提示，UGT1A9基因多态性（rs72551330 CT杂合子、rs2741045 CC纯合子）可能影响丙泊酚的药代动力学和麻醉相关临床结局，而CYP2B6和CYP2C9基因型未见显著影响，但现有证据尚不足以支持常规药物基因组学指导的丙泊酚给药。",
+      "clinical": "UGT1A9基因多态性可能影响丙泊酚清除率和苏醒时间，麻醉医师在个体化给药时可考虑基因型信息。 CYP2B6和CYP2C9基因型对丙泊酚药代动力学影响不显著，常规检测这些基因型的临床价值有限。 未来药物基因组学指导的丙泊酚给药可能改善麻醉管理，但需更多高质量研究验证。",
+      "evidence": "中等",
+      "score": 64,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 23,
+        "clinicalImpact": 9,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "系统评价"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "patients who underwent propofol-based TIVA and pharmacogenomic testing for UGT1A9, CYP2B6, and CYP2C9 genotypes；1779 patients"
+        },
+        {
+          "label": "干预与比较",
+          "value": "propofol-based TIVA；对照：当前可获取内容未提供该数据。"
+        },
+        {
+          "label": "主要终点",
+          "value": "propofol clearance, dose requirements, and related clinical effects"
+        }
+      ],
+      "keyPoints": [
+        "系统评价纳入16项研究，共1779例患者。",
+        "UGT1A9 rs72551330 CT杂合子可能降低丙泊酚清除率、减少剂量需求并延长苏醒时间。",
+        "UGT1A9 rs2741045 CC纯合子可能增加丙泊酚清除率并加快苏醒。",
+        "CYP2B6和CYP2C9基因型对丙泊酚药代动力学和临床结局无显著影响。",
+        "需要更大规模、设计良好的药代动力学研究来证实这些观察结果。"
+      ],
+      "methods": "丙泊酚主要由UGT1A9（70%）和CYP2B6/CYP2C9（29%）代谢。遗传多态性可影响酶转录和功能，进而影响丙泊酚代谢和清除率，可能影响麻醉相关临床结局。药物基因组学检测可能有助于个体化丙泊酚给药。",
+      "results": "共纳入16项研究，涉及1779例接受丙泊酚TIVA的患者。在UGT1A9多态性基因型中，rs72551330（98T>C）的CT杂合子可能对丙泊酚药代动力学具有临床相关影响，表现为丙泊酚清除率降低、剂量需求减少和苏醒时间延长。rs2741045（-440C>T）的CC纯合子可能具有更高的丙泊酚清除率和更快的苏醒。基于现有数据，CYP2B6和CYP2C9基因型对丙泊酚药代动力学或麻醉相关临床结局无显著影响。效应量、95%置信区间和P值均未报告。",
+      "mainResults": "共纳入16项研究，涉及1779例接受丙泊酚TIVA的患者。在UGT1A9多态性基因型中，rs72551330（98T>C）的CT杂合子可能对丙泊酚药代动力学具有临床相关影响，表现为丙泊酚清除率降低、剂量需求减少和苏醒时间延长。rs2741045（-440C>T）的CC纯合子可能具有更高的丙泊酚清除率和更快的苏醒。基于现有数据，CYP2B6和CYP2C9基因型对丙泊酚药代动力学或麻醉相关临床结局无显著影响。效应量、95%置信区间和P值均未报告。",
+      "limitations": [
+        "当前可获取内容未提供该数据。",
+        "系统评价纳入的研究可能存在异质性，但具体局限性未在摘要中报告。",
+        "效应量、置信区间和P值缺失，无法评估效应大小和精确性。"
+      ],
+      "practice": [
+        "UGT1A9基因多态性可能影响丙泊酚清除率和苏醒时间，麻醉医师在个体化给药时可考虑基因型信息。",
+        "CYP2B6和CYP2C9基因型对丙泊酚药代动力学影响不显著，常规检测这些基因型的临床价值有限。",
+        "未来药物基因组学指导的丙泊酚给药可能改善麻醉管理，但需更多高质量研究验证。"
+      ],
+      "editor": "摘要报告了系统评价结果，但缺乏效应量、置信区间和P值，证据强度有限。 过度解读风险：摘要中使用了'可能'等谨慎措辞，但未报告统计细节，存在过度解读风险。",
+      "whyItMatters": "丙泊酚的剂量需求和副作用存在显著个体差异，而遗传多态性可能解释部分差异。明确基因型对丙泊酚药代动力学和临床结局的影响，有助于未来实现个体化给药，提高全凭静脉麻醉的安全性和有效性。",
+      "background": "丙泊酚主要由UGT1A9（70%）和CYP2B6/CYP2C9（29%）代谢。遗传多态性可影响酶转录和功能，进而影响丙泊酚代谢和清除率，可能影响麻醉相关临床结局。药物基因组学检测可能有助于个体化丙泊酚给药。",
+      "pico": {
+        "population": "patients who underwent propofol-based TIVA and pharmacogenomic testing for UGT1A9, CYP2B6, and CYP2C9 genotypes",
+        "intervention": "propofol-based TIVA",
+        "comparison": "当前可获取内容未提供该数据。",
+        "outcome": "propofol clearance, dose requirements, and related clinical effects"
+      },
+      "studyType": "系统评价",
+      "sampleSize": "1779 patients",
+      "primaryOutcome": "propofol clearance, dose requirements, and related clinical effects",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "摘要报告了系统评价结果，但缺乏效应量、置信区间和P值，证据强度有限。",
+        "overinterpretationRisk": "摘要中使用了'可能'等谨慎措辞，但未报告统计细节，存在过度解读风险。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "abstract",
+          "limitations": [
+            "仅基于摘要，未获取全文数据。",
+            "未报告效应量、置信区间、P值等统计细节。",
+            "未报告纳入研究的质量评价和偏倚风险评估。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "评估代谢性遗传多态性对丙泊酚清除率、剂量需求和相关临床效应的影响。",
+          "designFit": "系统评价设计适合回答该问题，但需评估纳入研究的质量。",
+          "eligibility": "纳入接受丙泊酚TIVA并进行UGT1A9、CYP2B6和CYP2C9基因型检测的研究。",
+          "randomization": "系统评价不涉及随机化。",
+          "allocationConcealment": "不适用。",
+          "blinding": "不适用。",
+          "sampleSizePlanning": "未报告。",
+          "followUp": "未报告。",
+          "analysisPopulation": "1779例接受丙泊酚TIVA的患者。",
+          "missingData": "未报告。",
+          "strengths": [
+            "系统检索了MEDLINE、EMBASE和药物基因组学知识库。",
+            "聚焦于特定基因多态性对丙泊酚药代动力学的影响。"
+          ],
+          "concerns": [
+            "仅基于摘要，无法评估纳入研究的质量。",
+            "未报告效应量和置信区间，证据强度不明。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "未报告具体统计方法，无法评价。",
+              "reportedResult": "未报告。",
+              "interpretation": "无法评价。",
+              "cautions": [
+                "未报告统计方法，无法评估结果的可靠性。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "未报告。",
+          "multiplicity": "未报告。",
+          "subgroupAnalysis": "未报告。",
+          "clinicalVsStatisticalSignificance": "摘要中提及'临床相关效应'，但未提供统计显著性指标，无法区分。"
+        },
+        "outcomeAnalysis": {
+          "primary": "丙泊酚清除率、剂量需求和相关临床效应。",
+          "secondary": [
+            "当前可获取内容未提供次要结局。"
+          ],
+          "safety": "未报告。",
+          "absoluteVsRelative": "未报告。",
+          "subgroupAndInteraction": "未报告。",
+          "sensitivity": "未报告。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "系统评价方法，检索多个数据库。",
+            "明确关注特定基因多态性。"
+          ],
+          "limitations": [
+            "仅基于摘要，缺乏详细统计结果。",
+            "未报告纳入研究的质量评估。"
+          ],
+          "biasRisks": [
+            "未报告偏倚风险评估。"
+          ],
+          "certainty": "低，因缺乏效应量和置信区间。",
+          "conclusionAlignment": "结论与结果一致，但需谨慎解读。",
+          "causalBoundary": "观察性关联，不能推断因果关系。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "可能适用于接受丙泊酚TIVA的患者，尤其是考虑UGT1A9基因型时。"
+          ],
+          "nonApplicability": [
+            "不适用于未进行基因型检测的患者。",
+            "不适用于其他麻醉药物。"
+          ],
+          "practiceChange": "当前证据不足以改变临床实践。",
+          "canDoNow": [
+            "可考虑在特定患者中检测UGT1A9基因型，但需结合临床判断。"
+          ],
+          "cannotConclude": [
+            "不能确定基因型对丙泊酚剂量调整的具体指导价值。",
+            "不能确定CYP2B6和CYP2C9基因型无影响。"
+          ],
+          "evidenceGaps": [
+            "需要更大规模、设计良好的药代动力学研究。",
+            "需要报告效应量、置信区间和P值。",
+            "需要评估基因型-表型关联的临床意义。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40769841/",
+        "doi": "https://doi.org/10.1016/j.bja.2025.05.036",
+        "publisher": "https://doi.org/10.1016/j.bja.2025.05.036",
+        "openFullText": null
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-39979152",
+      "number": "03",
+      "category": "气道管理",
+      "journal": "British journal of anaesthesia",
+      "year": "2025",
+      "publishedDate": "2025-11",
+      "electronicPublicationDate": "2025-02-20",
+      "readingTime": "11 分钟",
+      "title": "新生儿和小婴儿的术中通气策略及术中呼吸危重事件和术后肺部并发症的危险因素：NECTARINE队列的二次分析",
+      "originalTitle": "Ventilation strategies and risk factors for intraoperative respiratory critical events and postoperative pulmonary complications in neonates and small infants: a secondary analysis of the NECTARINE cohort(☆).",
+      "abstract": "BACKGROUND: Optimal ventilation strategies and use of neuromuscular blocking agents (NMBAs) in neonates and small infants undergoing anaesthesia remain unclear. We examined the association of perioperative ventilation strategies and administration of NMBAs on respiratory adverse events in the NEonate-Children sTudy of Anaesthesia pRactice IN Europe (NECTARINE) cohort. METHODS: We performed a secondary analysis of NECTARINE, which included infants up to 60 weeks' postmenstrual age undergoing anaesthesia for surgical or diagnostic procedures. The primary endpoint was the association between ventilation mode and intraoperative respiratory adverse events. Secondary endpoints were use of NMBA, and 30-day postoperative pulmonary complications (PPCs). RESULTS: The dataset comprised 5609 patients undergoing 6542 procedures. Pressure-controlled ventilation was the primary ventilation modality, accounting for 52.4% (n=3428) of cases. The incidence of intraoperative respiratory critical events was 20.7% (95% confidence interval [CI] 19.7-21.7%), while PPCs were observed in 17% of cases (95% CI 16.0-18.1%). Preanaesthesia respiratory conditions and NMBA use after tracheal intubation were associated with higher incidence of PPCs. Of the children receiving NMBAs, reversal was reported in 29.8%. The absence of reversal was associated with a higher incidence of PPCs, with a relative risk of 1.50 (95% CI 1.17-1.93). Conversely, NMBA reversal was associated with a reduced relative risk of 0.43 (95% CI 0.26-0.70). CONCLUSIONS: Regardless of ventilation strategy used, mechanical ventilation and baseline respiratory conditions were risk factors for a greater incidence of adverse respiratory events and PPCs. Reversal of NMBAs before tracheal extubation was significantly associated with reduced PPCs in neonates and should be routine clinical practice. CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov (NCT02350348).",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "在新生儿和小婴儿麻醉中，最佳通气策略和神经肌肉阻滞剂（NMBAs）的使用仍不清楚。我们研究了围手术期通气策略和NMBAs给药与欧洲新生儿儿童麻醉实践研究（NECTARINE）队列中呼吸不良事件的关联。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "我们对NECTARINE进行了二次分析，该研究纳入了接受手术或诊断程序麻醉的胎龄后60周以内的婴儿。主要终点是通气模式与术中呼吸不良事件之间的关联。次要终点是NMBAs的使用和30天术后肺部并发症（PPCs）。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "数据集包括5609名患者，共进行6542次手术。压力控制通气是主要的通气方式，占52.4%（n=3428）的病例。术中呼吸危重事件的发生率为20.7%（95%置信区间[CI] 19.7-21.7%），而PPCs在17%的病例中观察到（95% CI 16.0-18.1%）。麻醉前呼吸状况和气管插管后使用NMBAs与PPCs发生率较高相关。在接受NMBAs的儿童中，报告逆转的占29.8%。未逆转与PPCs发生率较高相关，相对风险为1.50（95% CI 1.17-1.93）。相反，NMBAs逆转与相对风险降低至0.43（95% CI 0.26-0.70）相关。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "无论采用何种通气策略，机械通气和基线呼吸状况都是呼吸不良事件和PPCs发生率增加的独立危险因素。在气管拔管前逆转NMBAs与新生儿PPCs显著减少相关，应作为常规临床实践。"
+          },
+          {
+            "heading": "CLINICAL TRIAL REGISTRATION",
+            "text": "ClinicalTrials.gov (NCT02350348)."
+          }
+        ],
+        "fullText": "BACKGROUND: 在新生儿和小婴儿麻醉中，最佳通气策略和神经肌肉阻滞剂（NMBAs）的使用仍不清楚。我们研究了围手术期通气策略和NMBAs给药与欧洲新生儿儿童麻醉实践研究（NECTARINE）队列中呼吸不良事件的关联。 METHODS: 我们对NECTARINE进行了二次分析，该研究纳入了接受手术或诊断程序麻醉的胎龄后60周以内的婴儿。主要终点是通气模式与术中呼吸不良事件之间的关联。次要终点是NMBAs的使用和30天术后肺部并发症（PPCs）。 RESULTS: 数据集包括5609名患者，共进行6542次手术。压力控制通气是主要的通气方式，占52.4%（n=3428）的病例。术中呼吸危重事件的发生率为20.7%（95%置信区间[CI] 19.7-21.7%），而PPCs在17%的病例中观察到（95% CI 16.0-18.1%）。麻醉前呼吸状况和气管插管后使用NMBAs与PPCs发生率较高相关。在接受NMBAs的儿童中，报告逆转的占29.8%。未逆转与PPCs发生率较高相关，相对风险为1.50（95% CI 1.17-1.93）。相反，NMBAs逆转与相对风险降低至0.43（95% CI 0.26-0.70）相关。 CONCLUSIONS: 无论采用何种通气策略，机械通气和基线呼吸状况都是呼吸不良事件和PPCs发生率增加的独立危险因素。在气管拔管前逆转NMBAs与新生儿PPCs显著减少相关，应作为常规临床实践。 CLINICAL TRIAL REGISTRATION: ClinicalTrials.gov (NCT02350348).",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Fuchs A, Disma N, Engelhardt T, Marchesini V, Riedel T, Boda K, Habre W, Riva T",
+      "citation": "Br J Anaesth. 2025 Nov;135(5):1528-1536. doi: 10.1016/j.bja.2024.12.038. Epub 2025 Feb 20.",
+      "doi": "10.1016/j.bja.2024.12.038",
+      "pmid": "39979152",
+      "pmcid": "PMC12597469",
+      "publicationTypes": [
+        "Journal Article",
+        "Multicenter Study",
+        "Observational Study"
+      ],
+      "meshTerms": [
+        "Female",
+        "Humans",
+        "Infant",
+        "Infant, Newborn",
+        "Male",
+        "Cohort Studies",
+        "Europe/epidemiology",
+        "*Intraoperative Complications/epidemiology/etiology",
+        "*Lung Diseases/epidemiology/etiology",
+        "Neuromuscular Blocking Agents/adverse effects",
+        "*Postoperative Complications/epidemiology/etiology",
+        "*Respiration, Artificial/methods/adverse effects",
+        "Risk Factors",
+        "Secondary Data Analysis"
+      ],
+      "publisher": "Elsevier BV",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "clinical",
+        "label": "临床证据",
+        "reason": "human-study"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 10.3,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "British Journal of Anaesthesia"
+      },
+      "tags": [
+        "临床证据",
+        "麻醉及围术期核心期刊",
+        "气道管理",
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "question": "新生儿和小婴儿的术中通气管理及神经肌肉阻滞剂的使用尚缺乏高质量证据，本研究基于大型多中心队列，为优化围术期呼吸管理提供了重要参考。",
+      "conclusion": "在NECTARINE队列中，无论采用何种通气策略，机械通气和术前呼吸系统疾病均与更高的术中呼吸不良事件和术后肺部并发症发生率相关；拔管前逆转神经肌肉阻滞剂与术后肺部并发症风险显著降低相关。",
+      "clinical": "无论采用何种通气策略，机械通气和术前呼吸系统疾病都是呼吸不良事件和术后肺部并发症的危险因素，提示应重视术前呼吸评估和通气管理。 拔管前逆转神经肌肉阻滞剂与术后肺部并发症风险降低显著相关，提示在新生儿和小婴儿中应常规考虑逆转。",
+      "evidence": "中等",
+      "score": 63,
+      "scoreBreakdown": {
+        "relevance": 13,
+        "evidenceQuality": 20,
+        "clinicalImpact": 11,
+        "journalQuality": 15,
+        "novelty": 4
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "观察性研究、多中心研究（NECTARINE队列的二次分析）"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Neonates and small infants up to 60 weeks' postmenstrual age undergoing anaesthesia for surgical or diagnostic procedures；5609 patients undergoing 6542 procedures"
+        },
+        {
+          "label": "干预与比较",
+          "value": "Various ventilation strategies (pressure-controlled ventilation was primary, 52.4%) and use of neuromuscular blocking agents (NMBAs)；对照：Different ventilation modes and NMBA reversal vs no reversal"
+        },
+        {
+          "label": "主要终点",
+          "value": "Association between ventilation mode and intraoperative respiratory adverse events"
+        }
+      ],
+      "keyPoints": [
+        "术中呼吸危重事件发生率为20.7%，术后肺部并发症发生率为17%。",
+        "压力控制通气是最常用的通气模式（52.4%）。",
+        "未逆转神经肌肉阻滞剂与术后肺部并发症风险增加相关（RR 1.50），逆转则降低风险（RR 0.43）。",
+        "术前呼吸系统疾病是术后肺部并发症的危险因素。"
+      ],
+      "methods": "新生儿和小婴儿在接受麻醉时，最佳的术中通气策略和神经肌肉阻滞剂的使用仍不明确。本研究旨在探讨NECTARINE队列中围术期通气策略和神经肌肉阻滞剂给药与呼吸不良事件的关系。",
+      "results": "共纳入5609例患者，接受6542次手术。术中呼吸危重事件发生率为20.7%（95% CI 19.7-21.7%），术后肺部并发症发生率为17%（95% CI 16.0-18.1%）。术前呼吸系统疾病和气管插管后使用神经肌肉阻滞剂与术后肺部并发症发生率较高相关。在接受神经肌肉阻滞剂的患者中，29.8%报告了逆转。未逆转与术后肺部并发症风险增加相关（相对风险1.50，95% CI 1.17-1.93），而逆转与风险降低相关（相对风险0.43，95% CI 0.26-0.70）。",
+      "mainResults": "共纳入5609例患者，接受6542次手术。术中呼吸危重事件发生率为20.7%（95% CI 19.7-21.7%），术后肺部并发症发生率为17%（95% CI 16.0-18.1%）。术前呼吸系统疾病和气管插管后使用神经肌肉阻滞剂与术后肺部并发症发生率较高相关。在接受神经肌肉阻滞剂的患者中，29.8%报告了逆转。未逆转与术后肺部并发症风险增加相关（相对风险1.50，95% CI 1.17-1.93），而逆转与风险降低相关（相对风险0.43，95% CI 0.26-0.70）。",
+      "limitations": [
+        "二次分析基于观察性数据，尽管进行了倾向评分分析，仍可能存在残余混杂。",
+        "缺失数据未进行填补，30天发病率和死亡率数据缺失较多。",
+        "临床实践可能随时间变化，影响结果的时效性。"
+      ],
+      "practice": [
+        "无论采用何种通气策略，机械通气和术前呼吸系统疾病都是呼吸不良事件和术后肺部并发症的危险因素，提示应重视术前呼吸评估和通气管理。",
+        "拔管前逆转神经肌肉阻滞剂与术后肺部并发症风险降低显著相关，提示在新生儿和小婴儿中应常规考虑逆转。"
+      ],
+      "editor": "研究结果支持在新生儿和小婴儿中，拔管前逆转神经肌肉阻滞剂可能降低术后肺部并发症风险，但需注意观察性研究的局限性。 过度解读风险：存在过度解读风险，因为观察性研究不能确立因果关系，且未逆转组可能包含更多病情复杂或操作时间长的患者，导致混杂。",
+      "whyItMatters": "新生儿和小婴儿的术中通气管理及神经肌肉阻滞剂的使用尚缺乏高质量证据，本研究基于大型多中心队列，为优化围术期呼吸管理提供了重要参考。",
+      "background": "新生儿和小婴儿在接受麻醉时，最佳的术中通气策略和神经肌肉阻滞剂的使用仍不明确。本研究旨在探讨NECTARINE队列中围术期通气策略和神经肌肉阻滞剂给药与呼吸不良事件的关系。",
+      "pico": {
+        "population": "Neonates and small infants up to 60 weeks' postmenstrual age undergoing anaesthesia for surgical or diagnostic procedures",
+        "intervention": "Various ventilation strategies (pressure-controlled ventilation was primary, 52.4%) and use of neuromuscular blocking agents (NMBAs)",
+        "comparison": "Different ventilation modes and NMBA reversal vs no reversal",
+        "outcome": "Association between ventilation mode and intraoperative respiratory adverse events"
+      },
+      "studyType": "观察性研究、多中心研究（NECTARINE队列的二次分析）",
+      "sampleSize": "5609 patients undergoing 6542 procedures",
+      "primaryOutcome": "Association between ventilation mode and intraoperative respiratory adverse events",
+      "effectSize": [
+        "RR 1.50",
+        "RR 0.43"
+      ],
+      "confidenceInterval": [
+        "95% CI 1.17-1.93",
+        "95% CI 0.26-0.70"
+      ],
+      "pValue": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "adverseEvents": "Intraoperative respiratory critical events (20.7%), postoperative pulmonary complications (17%), mortality (not specified in abstract)",
+      "aiAssessment": {
+        "support": "研究结果支持在新生儿和小婴儿中，拔管前逆转神经肌肉阻滞剂可能降低术后肺部并发症风险，但需注意观察性研究的局限性。",
+        "overinterpretationRisk": "存在过度解读风险，因为观察性研究不能确立因果关系，且未逆转组可能包含更多病情复杂或操作时间长的患者，导致混杂。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text_excerpt",
+          "limitations": [
+            "当前可获取内容仅包括摘要和部分全文节选，可能无法覆盖所有方法学细节和结果。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "探讨围术期通气策略和神经肌肉阻滞剂给药与新生儿和小婴儿呼吸不良事件的关系。",
+          "designFit": "观察性队列研究设计适合评估关联，但无法确立因果关系。",
+          "eligibility": "NECTARINE队列中胎龄后60周以内的新生儿和小婴儿，接受麻醉进行外科或诊断操作。",
+          "randomization": "不适用，观察性研究。",
+          "allocationConcealment": "不适用，观察性研究。",
+          "blinding": "不适用，观察性研究。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "30天随访用于评估术后肺部并发症。",
+          "analysisPopulation": "5609例患者，6542次手术。",
+          "missingData": "缺失数据未进行填补，30天发病率和死亡率数据缺失较多。",
+          "strengths": [
+            "大型多中心队列，样本量大。",
+            "使用倾向评分分析调整混杂。"
+          ],
+          "concerns": [
+            "观察性设计存在残余混杂风险。",
+            "缺失数据可能影响结果稳健性。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": "propensity-score",
+              "name": "倾向评分方法",
+              "purposeInStudy": "在观察性研究中平衡已测量的混杂因素，以评估通气策略和神经肌肉阻滞剂使用与结局的关联。",
+              "reportedResult": "未逆转神经肌肉阻滞剂与术后肺部并发症风险增加相关（RR 1.50，95% CI 1.17-1.93），逆转与风险降低相关（RR 0.43，95% CI 0.26-0.70）。",
+              "interpretation": "倾向评分调整后，逆转神经肌肉阻滞剂与术后肺部并发症风险降低相关，但需注意未测量混杂的可能。",
+              "cautions": [
+                "倾向评分不能消除未测量或错误测量的混杂。",
+                "未报告具体的倾向评分模型变量和匹配方法。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "当前可获取内容未提供该数据。",
+          "clinicalVsStatisticalSignificance": "研究结果具有统计学意义，但临床获益需结合效应量大小和患者具体情况判断。"
+        },
+        "outcomeAnalysis": {
+          "primary": "通气模式与术中呼吸不良事件的关联。",
+          "secondary": [
+            "神经肌肉阻滞剂的使用。",
+            "30天术后肺部并发症。"
+          ],
+          "safety": "术中呼吸危重事件发生率为20.7%，术后肺部并发症发生率为17%。死亡率未在摘要中明确。",
+          "absoluteVsRelative": "未逆转神经肌肉阻滞剂组的术后肺部并发症绝对风险未报告，仅报告了相对风险。",
+          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "大型多中心队列，样本量大。",
+            "使用倾向评分分析调整混杂。"
+          ],
+          "limitations": [
+            "观察性设计，存在残余混杂。",
+            "缺失数据未填补。",
+            "临床实践可能随时间变化。"
+          ],
+          "biasRisks": [
+            "选择偏倚：纳入患者可能不代表所有新生儿和小婴儿。",
+            "信息偏倚：数据来自多个中心，可能存在记录不一致。",
+            "混杂偏倚：尽管倾向评分调整，仍可能有未测量混杂。"
+          ],
+          "certainty": "中等，观察性研究但样本量大，效应量明确。",
+          "conclusionAlignment": "结论与结果一致，但需注意观察性研究的局限性。",
+          "causalBoundary": "观察性研究不能确立因果关系，只能提示关联。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "适用于接受麻醉的新生儿和小婴儿，尤其是需要机械通气的患者。"
+          ],
+          "nonApplicability": [
+            "不适用于其他年龄组或非手术患者。"
+          ],
+          "practiceChange": "可能支持在新生儿和小婴儿中常规逆转神经肌肉阻滞剂，但需结合临床判断。",
+          "canDoNow": [
+            "考虑在拔管前逆转神经肌肉阻滞剂，以降低术后肺部并发症风险。"
+          ],
+          "cannotConclude": [
+            "不能确定最佳通气策略，因为研究未显示通气模式间的差异。",
+            "不能确定逆转神经肌肉阻滞剂与术后肺部并发症的因果关系。"
+          ],
+          "evidenceGaps": [
+            "需要随机对照试验验证逆转神经肌肉阻滞剂的获益。",
+            "需要更多关于通气策略（如潮气量、PEEP）的细节。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要+开放全文节选分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39979152/",
+        "doi": "https://doi.org/10.1016/j.bja.2024.12.038",
+        "publisher": "https://doi.org/10.1016/j.bja.2024.12.038",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12597469/"
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-40841222",
+      "number": "04",
+      "category": "老年围术期",
+      "journal": "British journal of anaesthesia",
+      "year": "2025",
+      "publishedDate": "2025-10",
+      "electronicPublicationDate": "2025-08-20",
+      "readingTime": "11 分钟",
+      "title": "麻醉诱导意识消失后大鼠长期记忆和视觉辨别恢复的药物特异性特征",
+      "originalTitle": "Drug-specific recovery of long-term memory and visual discrimination after anaesthetic-induced unconsciousness in rats.",
+      "abstract": "BACKGROUND: Perioperative neurocognitive disorders represent a growing public health concern. To improve the translatability of preclinical findings, it is important to use similar research methods across species. In this study, we used a touchscreen-based cognitive testing system to train rats on the paired-associate learning (PAL) task, which assesses long-term visuospatial associative memory. The goal was to capture the time course of cognitive recovery after receiving mechanistically distinct anaesthetic drugs. METHODS: Adult Sprague-Dawley rats (eight males, eight females) were trained on the interference PAL (iPAL) task. After reaching proficiency, loss of righting was induced with propofol (10 mg kg(-1) i.v.), sevoflurane (20 min at 3 vol%), dexmedetomidine (20 mug kg(-1) i.v.), ketamine (50 mg kg(-1) i.v.), or fentanyl (50 mug kg(-1) i.v.). We evaluated time to return of righting reflex (RORR) and time to cognitive recovery, defined as 4/5 correct on the first try. Data are presented as median (first quartile-third quartile). RESULTS: The number of sessions to achieve proficiency was 51 (45-57). Latency to RORR was 11.5 (7.2-12.7) min after propofol, 4.9 (3.6-7.9) min after sevoflurane, 63.7 (48.6-72.0) min after dexmedetomidine, 31.6 (27.0-35.9) min after fentanyl, and 28.1 (19.3-32.3) min after ketamine. Compared with baseline, time to reach 4/5 correct was prolonged after all drugs (all P<0.001). Although animals recovered cognition within 60 min after RORR after propofol and sevoflurane, it took 2-3 h after ketamine, dexmedetomidine, and fentanyl. All animals returned to baseline performance within 24 h. CONCLUSIONS: We found distinct recovery profiles of neurocognitive function after the different drugs, consistent with their distinct pharmacologic properties. The iPAL touchscreen-based cognitive testing system allows evaluation of long-term visuospatial memory after drug-induced unconsciousness, providing a robust, translatable method for future studies of perioperative neurocognitive disorders.",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "围手术期神经认知障碍是一个日益增长的公共卫生问题。为了提高临床前研究结果的可转化性，重要的是在不同物种间使用相似的研究方法。在本研究中，我们使用基于触摸屏的认知测试系统训练大鼠进行配对联想学习（PAL）任务，该任务评估长期视觉空间联想记忆。目标是捕捉接受机制不同的麻醉药物后认知恢复的时间过程。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "成年Sprague-Dawley大鼠（8只雄性，8只雌性）接受干扰PAL（iPAL）任务训练。达到熟练后，分别用丙泊酚（10 mg kg(-1) i.v.）、七氟烷（3 vol%持续20分钟）、右美托咪定（20 mug kg(-1) i.v.）、氯胺酮（50 mg kg(-1) i.v.）或芬太尼（50 mug kg(-1) i.v.）诱导翻正反射消失。我们评估了翻正反射恢复（RORR）时间和认知恢复时间，定义为首次尝试4/5正确。数据以中位数（第一四分位数-第三四分位数）表示。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "达到熟练所需的训练次数为51（45-57）次。RORR潜伏期：丙泊酚后为11.5（7.2-12.7）分钟，七氟烷后为4.9（3.6-7.9）分钟，右美托咪定后为63.7（48.6-72.0）分钟，芬太尼后为31.6（27.0-35.9）分钟，氯胺酮后为28.1（19.3-32.3）分钟。与基线相比，所有药物后达到4/5正确的时间均延长（所有P<0.001）。尽管丙泊酚和七氟烷后动物在RORR后60分钟内恢复认知，但氯胺酮、右美托咪定和芬太尼后需要2-3小时。所有动物在24小时内恢复到基线表现。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "我们发现不同药物后神经认知功能的恢复特征不同，与其不同的药理学特性一致。基于触摸屏的iPAL认知测试系统允许评估药物诱导的无意识后的长期视觉空间记忆，为未来围手术期神经认知障碍的研究提供了一种稳健、可转化的方法。"
+          }
+        ],
+        "fullText": "BACKGROUND: 围手术期神经认知障碍是一个日益增长的公共卫生问题。为了提高临床前研究结果的可转化性，重要的是在不同物种间使用相似的研究方法。在本研究中，我们使用基于触摸屏的认知测试系统训练大鼠进行配对联想学习（PAL）任务，该任务评估长期视觉空间联想记忆。目标是捕捉接受机制不同的麻醉药物后认知恢复的时间过程。 METHODS: 成年Sprague-Dawley大鼠（8只雄性，8只雌性）接受干扰PAL（iPAL）任务训练。达到熟练后，分别用丙泊酚（10 mg kg(-1) i.v.）、七氟烷（3 vol%持续20分钟）、右美托咪定（20 mug kg(-1) i.v.）、氯胺酮（50 mg kg(-1) i.v.）或芬太尼（50 mug kg(-1) i.v.）诱导翻正反射消失。我们评估了翻正反射恢复（RORR）时间和认知恢复时间，定义为首次尝试4/5正确。数据以中位数（第一四分位数-第三四分位数）表示。 RESULTS: 达到熟练所需的训练次数为51（45-57）次。RORR潜伏期：丙泊酚后为11.5（7.2-12.7）分钟，七氟烷后为4.9（3.6-7.9）分钟，右美托咪定后为63.7（48.6-72.0）分钟，芬太尼后为31.6（27.0-35.9）分钟，氯胺酮后为28.1（19.3-32.3）分钟。与基线相比，所有药物后达到4/5正确的时间均延长（所有P<0.001）。尽管丙泊酚和七氟烷后动物在RORR后60分钟内恢复认知，但氯胺酮、右美托咪定和芬太尼后需要2-3小时。所有动物在24小时内恢复到基线表现。 CONCLUSIONS: 我们发现不同药物后神经认知功能的恢复特征不同，与其不同的药理学特性一致。基于触摸屏的iPAL认知测试系统允许评估药物诱导的无意识后的长期视觉空间记忆，为未来围手术期神经认知障碍的研究提供了一种稳健、可转化的方法。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Obert DP, Park GH, Vincent KF, Solt K",
+      "citation": "Br J Anaesth. 2025 Oct;135(4):953-964. doi: 10.1016/j.bja.2025.05.058. Epub 2025 Aug 20.",
+      "doi": "10.1016/j.bja.2025.05.058",
+      "pmid": "40841222",
+      "pmcid": "PMC12495418",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "meshTerms": [
+        "Animals",
+        "Rats",
+        "Rats, Sprague-Dawley",
+        "*Memory, Long-Term/drug effects",
+        "*Unconsciousness/chemically induced",
+        "*Anesthetics/pharmacology",
+        "Sevoflurane/pharmacology",
+        "Propofol/pharmacology",
+        "Visual Perception/drug effects",
+        "Ketamine/pharmacology",
+        "Dexmedetomidine/pharmacology"
+      ],
+      "publisher": "Elsevier BV",
+      "crossrefVerified": true,
+      "researchCategory": {
+        "id": "basic",
+        "label": "基础研究",
+        "reason": "non-human-model"
+      },
+      "journalTier": {
+        "id": "anesthesia_core",
+        "label": "麻醉及围术期核心期刊",
+        "priorityRank": 2
+      },
+      "journalMetric": {
+        "metric": "Journal Impact Factor",
+        "impactFactor": 10.3,
+        "metricYear": 2025,
+        "rankingMetricYear": 2025,
+        "maximumAgeYears": 1,
+        "rankingComparable": true,
+        "threshold": 5,
+        "comparison": "greater-than",
+        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+        "verifiedAt": "2026-07-28",
+        "matchedJournal": "British Journal of Anaesthesia"
+      },
+      "tags": [
+        "基础研究",
+        "麻醉及围术期核心期刊",
+        "老年围术期",
+        "麻醉基础研究",
+        "Journal Article"
+      ],
+      "question": "围术期神经认知障碍是重要的公共卫生问题，本研究采用触摸屏认知测试系统，在动物模型中评估不同麻醉药物对长期记忆恢复的影响，为临床前研究提供了可转化的方法，有助于未来研究围术期神经认知障碍的机制和干预。",
+      "conclusion": "在成年大鼠中，丙泊酚和七氟烷麻醉后认知功能在翻正反射恢复后60分钟内恢复，而氯胺酮、右美托咪定和芬太尼则需要2-3小时，所有药物在24小时内均恢复至基线水平。",
+      "clinical": "不同麻醉药物对认知恢复的影响存在差异，丙泊酚和七氟烷恢复较快，而氯胺酮、右美托咪定和芬太尼恢复较慢，提示临床中应根据药物特性评估术后早期认知功能。 触摸屏认知测试系统可用于评估麻醉后认知恢复，为临床前研究提供可转化的方法。",
+      "evidence": "中等",
+      "score": 63,
+      "scoreBreakdown": {
+        "relevance": 27,
+        "evidenceQuality": 8,
+        "clinicalImpact": 7,
+        "journalQuality": 15,
+        "novelty": 6
+      },
+      "study": [
+        {
+          "label": "研究设计",
+          "value": "动物实验研究，采用自身对照设计，大鼠在达到熟练标准后接受不同麻醉药物处理，评估认知恢复时间。"
+        },
+        {
+          "label": "研究对象与样本",
+          "value": "Adult Sprague-Dawley rats；16 (eight males, eight females)"
+        },
+        {
+          "label": "干预与比较",
+          "value": "propofol (10 mg kg^-1 i.v.), sevoflurane (20 min at 3 vol%), dexmedetomidine (20 μg kg^-1 i.v.), ketamine (50 mg kg^-1 i.v.), or fentanyl (50 μg kg^-1 i.v.)；对照：baseline performance"
+        },
+        {
+          "label": "主要终点",
+          "value": "time to cognitive recovery, defined as 4/5 correct on the first try"
+        }
+      ],
+      "keyPoints": [
+        "所有麻醉药物均延长认知恢复时间（P<0.001）。",
+        "丙泊酚和七氟烷在翻正反射恢复后60分钟内恢复认知，而氯胺酮、右美托咪定和芬太尼需2-3小时。",
+        "所有动物在24小时内恢复至基线表现。",
+        "触摸屏认知测试系统可用于评估麻醉后长期记忆恢复。"
+      ],
+      "methods": "围术期神经认知障碍日益受到关注，但临床前研究结果的可转化性受限于方法差异。本研究使用触摸屏认知测试系统训练大鼠完成配对联想学习任务，以评估不同麻醉药物（丙泊酚、七氟烷、右美托咪定、氯胺酮、芬太尼）对长期视觉空间联想记忆恢复的影响。",
+      "results": "样本量为16只大鼠（8雄8雌）。达到熟练标准的训练次数为51（45-57）次。翻正反射恢复时间：丙泊酚11.5（7.2-12.7）分钟，七氟烷4.9（3.6-7.9）分钟，右美托咪定63.7（48.6-72.0）分钟，芬太尼31.6（27.0-35.9）分钟，氯胺酮28.1（19.3-32.3）分钟。与基线相比，所有药物均延长了达到4/5正确的时间（均P<0.001）。丙泊酚和七氟烷组在翻正反射恢复后60分钟内认知恢复，而氯胺酮、右美托咪定和芬太尼组需要2-3小时。所有动物在24小时内恢复至基线表现。效应量和95%置信区间未报告。",
+      "mainResults": "样本量为16只大鼠（8雄8雌）。达到熟练标准的训练次数为51（45-57）次。翻正反射恢复时间：丙泊酚11.5（7.2-12.7）分钟，七氟烷4.9（3.6-7.9）分钟，右美托咪定63.7（48.6-72.0）分钟，芬太尼31.6（27.0-35.9）分钟，氯胺酮28.1（19.3-32.3）分钟。与基线相比，所有药物均延长了达到4/5正确的时间（均P<0.001）。丙泊酚和七氟烷组在翻正反射恢复后60分钟内认知恢复，而氯胺酮、右美托咪定和芬太尼组需要2-3小时。所有动物在24小时内恢复至基线表现。效应量和95%置信区间未报告。",
+      "limitations": [
+        "当前可获取内容未提供该数据。",
+        "样本量较小（16只大鼠），可能影响结果稳定性。",
+        "未报告效应量和置信区间，无法评估效应大小。",
+        "未报告随机化、盲法等细节，可能存在偏倚风险。",
+        "动物实验结果不能直接外推至人类，需进一步临床研究验证。"
+      ],
+      "practice": [
+        "不同麻醉药物对认知恢复的影响存在差异，丙泊酚和七氟烷恢复较快，而氯胺酮、右美托咪定和芬太尼恢复较慢，提示临床中应根据药物特性评估术后早期认知功能。",
+        "触摸屏认知测试系统可用于评估麻醉后认知恢复，为临床前研究提供可转化的方法。"
+      ],
+      "editor": "研究结果支持不同麻醉药物对认知恢复时间有不同影响，且与药物药理特性一致。 过度解读风险：结果基于动物模型，不能直接推断临床意义；未报告效应量和置信区间，需谨慎解读。",
+      "whyItMatters": "围术期神经认知障碍是重要的公共卫生问题，本研究采用触摸屏认知测试系统，在动物模型中评估不同麻醉药物对长期记忆恢复的影响，为临床前研究提供了可转化的方法，有助于未来研究围术期神经认知障碍的机制和干预。",
+      "background": "围术期神经认知障碍日益受到关注，但临床前研究结果的可转化性受限于方法差异。本研究使用触摸屏认知测试系统训练大鼠完成配对联想学习任务，以评估不同麻醉药物（丙泊酚、七氟烷、右美托咪定、氯胺酮、芬太尼）对长期视觉空间联想记忆恢复的影响。",
+      "pico": {
+        "population": "Adult Sprague-Dawley rats",
+        "intervention": "propofol (10 mg kg^-1 i.v.), sevoflurane (20 min at 3 vol%), dexmedetomidine (20 μg kg^-1 i.v.), ketamine (50 mg kg^-1 i.v.), or fentanyl (50 μg kg^-1 i.v.)",
+        "comparison": "baseline performance",
+        "outcome": "time to cognitive recovery, defined as 4/5 correct on the first try"
+      },
+      "studyType": "动物实验研究，采用自身对照设计，大鼠在达到熟练标准后接受不同麻醉药物处理，评估认知恢复时间。",
+      "sampleSize": "16 (eight males, eight females)",
+      "primaryOutcome": "time to cognitive recovery, defined as 4/5 correct on the first try",
+      "effectSize": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "confidenceInterval": [
+        "当前可获取内容未提供该数据。"
+      ],
+      "pValue": [
+        "P<0.001 for all drugs compared with baseline"
+      ],
+      "adverseEvents": null,
+      "aiAssessment": {
+        "support": "研究结果支持不同麻醉药物对认知恢复时间有不同影响，且与药物药理特性一致。",
+        "overinterpretationRisk": "结果基于动物模型，不能直接推断临床意义；未报告效应量和置信区间，需谨慎解读。"
+      },
+      "deepDive": {
+        "sourceCoverage": {
+          "level": "full_text",
+          "limitations": [
+            "当前可获取内容未提供该数据。",
+            "仅基于摘要和部分全文，可能遗漏方法学细节。"
+          ]
+        },
+        "methodology": {
+          "researchQuestion": "不同麻醉药物对大鼠长期记忆和视觉辨别恢复的影响是否具有药物特异性？",
+          "designFit": "动物实验设计，自身对照，适合评估药物效应。",
+          "eligibility": "成年Sprague-Dawley大鼠，未报告具体纳入排除标准。",
+          "randomization": "当前可获取内容未提供该数据。",
+          "allocationConcealment": "当前可获取内容未提供该数据。",
+          "blinding": "当前可获取内容未提供该数据。",
+          "sampleSizePlanning": "当前可获取内容未提供该数据。",
+          "followUp": "所有动物在24小时内恢复至基线表现，未报告长期随访。",
+          "analysisPopulation": "16只大鼠（8雄8雌），未报告排除情况。",
+          "missingData": "当前可获取内容未提供该数据。",
+          "strengths": [
+            "使用触摸屏认知测试系统，方法标准化，可转化性强。",
+            "评估了多种机制不同的麻醉药物，比较全面。"
+          ],
+          "concerns": [
+            "样本量小，可能影响统计效力。",
+            "未报告随机化和盲法，可能存在偏倚。",
+            "未报告效应量和置信区间，无法评估效应大小。"
+          ]
+        },
+        "statistics": {
+          "methods": [
+            {
+              "referenceId": null,
+              "name": "未报告",
+              "purposeInStudy": "未识别到具体统计方法，无法评价。",
+              "reportedResult": "P<0.001（所有药物与基线比较）",
+              "interpretation": "所有药物均显著延长认知恢复时间，但未报告效应量。",
+              "cautions": [
+                "未报告具体统计检验方法，无法评估适用性。",
+                "未报告多重比较校正，可能增加I类错误风险。"
+              ],
+              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+            }
+          ],
+          "adjustedVariables": "当前可获取内容未提供该数据。",
+          "multiplicity": "当前可获取内容未提供该数据。",
+          "subgroupAnalysis": "未报告亚组分析。",
+          "clinicalVsStatisticalSignificance": "虽然所有药物均显示统计学差异，但临床意义需结合效应量评估，当前未报告效应量。"
+        },
+        "outcomeAnalysis": {
+          "primary": "认知恢复时间（首次尝试达到4/5正确）",
+          "secondary": [
+            "翻正反射恢复时间",
+            "达到熟练标准的训练次数"
+          ],
+          "safety": "当前可获取内容未提供该数据。",
+          "absoluteVsRelative": "未报告绝对风险或相对风险，仅报告中位数和四分位距。",
+          "subgroupAndInteraction": "未报告亚组分析。",
+          "sensitivity": "当前可获取内容未提供该数据。"
+        },
+        "criticalAppraisal": {
+          "strengths": [
+            "使用触摸屏认知测试系统，方法标准化，可转化性强。",
+            "评估了多种机制不同的麻醉药物，比较全面。"
+          ],
+          "limitations": [
+            "样本量小，可能影响统计效力。",
+            "未报告随机化和盲法，可能存在偏倚。",
+            "未报告效应量和置信区间，无法评估效应大小。",
+            "动物实验结果不能直接外推至人类。"
+          ],
+          "biasRisks": [
+            "选择偏倚：未报告随机化。",
+            "实施偏倚：未报告盲法。",
+            "测量偏倚：未报告结局评估者是否盲法。"
+          ],
+          "certainty": "低，由于方法学细节缺失和样本量小。",
+          "conclusionAlignment": "结论与结果一致，但需谨慎解读。",
+          "causalBoundary": "本研究为动物实验，不能直接推断因果关系，仅提示药物效应。"
+        },
+        "clinicalTranslation": {
+          "applicability": [
+            "为临床前研究提供可转化的认知评估方法。",
+            "提示不同麻醉药物对认知恢复的影响差异，可能指导未来临床研究设计。"
+          ],
+          "nonApplicability": [
+            "动物实验结果不能直接应用于临床。",
+            "未提供人类等效剂量或恢复时间。"
+          ],
+          "practiceChange": "当前结果不足以改变临床实践。",
+          "canDoNow": [
+            "可考虑在临床前研究中采用触摸屏认知测试系统。"
+          ],
+          "cannotConclude": [
+            "不能推断不同麻醉药物在人类中的认知恢复差异。",
+            "不能确定临床意义。"
+          ],
+          "evidenceGaps": [
+            "需要更大样本、随机化、盲法的动物研究。",
+            "需要临床研究验证。",
+            "需要报告效应量和置信区间。"
+          ],
+          "directClinicalRecommendation": false
+        }
+      },
+      "analysisBasis": "摘要+开放全文分析",
+      "analysisStatus": "ai_complete",
+      "aiModel": "deepseek-v4-flash",
+      "qualityPassed": true,
+      "sourceType": "real",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40841222/",
+        "doi": "https://doi.org/10.1016/j.bja.2025.05.058",
+        "publisher": "https://doi.org/10.1016/j.bja.2025.05.058",
+        "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12495418/"
+      }
+    },
+    {
+      "analysisVersion": 2,
+      "slug": "pmid-41478800",
+      "number": "05",
+      "category": "疼痛与区域麻醉",
+      "journal": "British journal of anaesthesia",
+      "year": "2026",
+      "publishedDate": "2026-02",
+      "electronicPublicationDate": "2026-01-01",
+      "readingTime": "12 分钟",
+      "title": "单次股神经周围神经阻滞与下肢骨科手术后跌倒：系统评价与荟萃分析",
+      "originalTitle": "Single-shot perineural femoral nerve block and falls after lower limb orthopaedic surgery: a systematic review and meta-analysis.",
+      "abstract": "BACKGROUND: Single-shot femoral nerve block (sFNB) is a popular orthopaedic analgesic modality, and although block-induced quadriceps muscle weakness is widely acknowledged, an increase in fall risk remains a contentious issue. This systematic review and meta-analysis was conducted to explore the early postoperative modification of fall, buckling, and near-fall risk after sFNB. METHODS: This review adhered to MECIR and PRISMA recommendations and was prospectively registered with PROSPERO (CRD42023477892). Electronic databases (MEDLINE, EMBASE, CINAHL, and CENTRAL), citations, and alternative repositories were systematically searched, with independent reviewers evaluating and extracting randomised controlled trial data, allowing a pooled risk ratio (RR) and 95% confidence interval to be determined for each outcome. Evidence certainty was summarised using the Grading of Recommendation, Assessment, Development, and Evaluation approach. RESULTS: An increased risk of falls was noted following sFNB provision when compared with all non-motor block techniques (adductor canal/iliopsoas plane block and local anaesthetic infiltration) combined (RR, 2.75; P=0.02), neuraxial blockade (RR, 6.35; P=0.03), and systemic analgesia (RR, 6.43; P=0.03). Overall, across 31 trials, sFNB recipients exhibited a significant, dose-dependent increase in fall risk compared with non-recipients (RR, 3.62; 95% confidence interval, 1.83-7.19; P=0.0002; absolute risk increase, 0.9% [0.3-2%]), with a further five and four studies also demonstrating an increased risk of buckling (RR, 5.95) and near-falls (RR, 4.56), respectively. CONCLUSIONS: Compared with techniques that avoid femoral nerve inhibition, there is moderate-quality evidence that sFNB increases fall risk and very-low-quality evidence that sFNB increases buckling and near-fall risk in the early convalescent phase. Appreciation and disclosure of these risks may promote safer rehabilitation pathways. SYSTEMATIC REVIEW PROTOCOL: PROSPERO (CRD42023477892).",
+      "abstractTranslation": {
+        "sections": [
+          {
+            "heading": "BACKGROUND",
+            "text": "单次股神经阻滞（sFNB）是一种常用的骨科镇痛方式，尽管阻滞引起的股四头肌无力已被广泛认可，但跌倒风险的增加仍是一个有争议的问题。本系统评价和荟萃分析旨在探讨sFNB后早期术后跌倒、屈膝不稳和近乎跌倒风险的改变。"
+          },
+          {
+            "heading": "METHODS",
+            "text": "本综述遵循MECIR和PRISMA建议，并在PROSPERO（CRD42023477892）前瞻性注册。系统检索了电子数据库（MEDLINE、EMBASE、CINAHL和CENTRAL）、引文和其他存储库，由独立评审员评估和提取随机对照试验数据，从而确定每个结局的合并风险比（RR）和95%置信区间。使用推荐、评估、发展和评价分级方法总结证据确定性。"
+          },
+          {
+            "heading": "RESULTS",
+            "text": "与所有非运动神经阻滞技术（收肌管/髂腰肌平面阻滞和局部麻醉浸润）联合相比，sFNB后跌倒风险增加（RR，2.75；P=0.02），与椎管内阻滞相比（RR，6.35；P=0.03），与全身镇痛相比（RR，6.43；P=0.03）。总体而言，在31项试验中，与未接受sFNB者相比，接受sFNB者跌倒风险显著增加，且呈剂量依赖性（RR，3.62；95%置信区间，1.83-7.19；P=0.0002；绝对风险增加0.9% [0.3-2%]），另有5项和4项研究分别显示屈膝不稳（RR，5.95）和近乎跌倒（RR，4.56）风险增加。"
+          },
+          {
+            "heading": "CONCLUSIONS",
+            "text": "与避免股神经抑制的技术相比，有中等质量证据表明sFNB增加跌倒风险，极低质量证据表明sFNB在早期恢复期增加屈膝不稳和近乎跌倒风险。认识并披露这些风险可能有助于促进更安全的康复路径。"
+          },
+          {
+            "heading": "SYSTEMATIC REVIEW PROTOCOL",
+            "text": "PROSPERO（CRD42023477892）。"
+          }
+        ],
+        "fullText": "BACKGROUND: 单次股神经阻滞（sFNB）是一种常用的骨科镇痛方式，尽管阻滞引起的股四头肌无力已被广泛认可，但跌倒风险的增加仍是一个有争议的问题。本系统评价和荟萃分析旨在探讨sFNB后早期术后跌倒、屈膝不稳和近乎跌倒风险的改变。 METHODS: 本综述遵循MECIR和PRISMA建议，并在PROSPERO（CRD42023477892）前瞻性注册。系统检索了电子数据库（MEDLINE、EMBASE、CINAHL和CENTRAL）、引文和其他存储库，由独立评审员评估和提取随机对照试验数据，从而确定每个结局的合并风险比（RR）和95%置信区间。使用推荐、评估、发展和评价分级方法总结证据确定性。 RESULTS: 与所有非运动神经阻滞技术（收肌管/髂腰肌平面阻滞和局部麻醉浸润）联合相比，sFNB后跌倒风险增加（RR，2.75；P=0.02），与椎管内阻滞相比（RR，6.35；P=0.03），与全身镇痛相比（RR，6.43；P=0.03）。总体而言，在31项试验中，与未接受sFNB者相比，接受sFNB者跌倒风险显著增加，且呈剂量依赖性（RR，3.62；95%置信区间，1.83-7.19；P=0.0002；绝对风险增加0.9% [0.3-2%]），另有5项和4项研究分别显示屈膝不稳（RR，5.95）和近乎跌倒（RR，4.56）风险增加。 CONCLUSIONS: 与避免股神经抑制的技术相比，有中等质量证据表明sFNB增加跌倒风险，极低质量证据表明sFNB在早期恢复期增加屈膝不稳和近乎跌倒风险。认识并披露这些风险可能有助于促进更安全的康复路径。 SYSTEMATIC REVIEW PROTOCOL: PROSPERO（CRD42023477892）。",
+        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+      },
+      "authors": "Billingham MJ, Dixon C, Dasgupta K",
+      "citation": "Br J Anaesth. 2026 Feb;136(2):662-676. doi: 10.1016/j.bja.2025.11.018. Epub 2026 Jan 1.",
+      "doi": "10.1016/j.bja.2025.11.018",
+      "pmid": "41478800",
+      "pmcid": null,
+      "publicationTypes": [
+        "Journal Article",
+        "Meta-Analysis",
+        "Systematic Review"
+      ],
+      "meshTerms": [
+        "Humans",
+        "*Accidental Falls/statistics & numerical data",
+        "*Femoral Nerve",
+        "*Lower Extremity/surgery",
+        "*Nerve Block/methods/adverse effects",
+        "*Orthopedic Procedures/adverse effects/methods",
+        "*Postoperative Complications/etiology"
       ],
       "publisher": "Elsevier BV",
       "crossrefVerified": true,
@@ -1115,110 +1435,119 @@
         "麻醉及围术期核心期刊",
         "疼痛与区域麻醉",
         "Journal Article",
-        "Systematic Review"
+        "Meta-Analysis"
       ],
-      "question": "外周神经阻滞中常使用α2-肾上腺素能受体激动剂（如可乐定、右美托咪定）以延长阻滞时间，但其神经毒性或神经保护作用尚存争议，尤其对已受损神经。该系统评价整合临床前证据，为临床用药安全性和未来研究方向提供重要参考。",
-      "conclusion": "临床前证据表明，在健康神经上以临床相关剂量使用外周神经周围α2-肾上腺素能受体激动剂是安全的，但在已受损神经中可能增加神经毒性。",
-      "clinical": "在健康神经上，临床相关剂量的α2-激动剂可能安全，但需谨慎选择患者和剂量。 对于已有神经损伤的患者，应警惕α2-激动剂可能加重神经损伤的风险。 临床前证据不能直接外推到临床实践，需进一步高质量临床研究验证。",
+      "question": "sFNB是常用的骨科镇痛方法，但其引起的股四头肌无力是否增加跌倒风险一直存在争议。该研究通过系统评价和荟萃分析，量化了sFNB与跌倒、打软腿和近乎跌倒风险的关系，为临床决策和患者安全提供了重要依据。",
+      "conclusion": "与避免股神经抑制的技术相比，单次股神经阻滞（sFNB）在术后早期增加跌倒风险（中等质量证据），并可能增加打软腿和近乎跌倒风险（极低质量证据）。",
+      "clinical": "临床医生应意识到sFNB可能增加术后早期跌倒风险，并在镇痛方案选择中权衡利弊。 对于跌倒风险较高的患者，可考虑使用避免股神经抑制的替代技术（如收肌管阻滞、局部浸润麻醉等）。 实施sFNB后，应加强患者教育，采取预防跌倒措施，并优化康复路径。",
       "evidence": "中等",
-      "score": 64,
+      "score": 62,
       "scoreBreakdown": {
         "relevance": 13,
         "evidenceQuality": 23,
-        "clinicalImpact": 9,
+        "clinicalImpact": 7,
         "journalQuality": 15,
         "novelty": 4
       },
       "study": [
         {
           "label": "研究设计",
-          "value": "系统评价"
+          "value": "系统评价和荟萃分析，遵循MECIR和PRISMA建议，前瞻性注册于PROSPERO（CRD42023477892）。检索MEDLINE、EMBASE、CINAHL和CENTRAL等数据库，独立评价者提取随机对照试验数据，计算合并风险比（RR）和95%置信区间，并使用GRADE方法评估证据确定性。"
         },
         {
           "label": "研究对象与样本",
-          "value": "Preclinical in vivo and in vitro studies examining perineural clonidine or dexmedetomidine；25 studies (19 in vivo, six in vitro)"
+          "value": "Patients undergoing lower limb orthopaedic surgery；31 trials"
         },
         {
           "label": "干预与比较",
-          "value": "Perineural clonidine or dexmedetomidine；对照：Untreated groups"
+          "value": "Single-shot femoral nerve block (sFNB)；对照：All non-motor block techniques (adductor canal/iliopsoas plane block and local anaesthetic infiltration), neuraxial blockade, systemic analgesia, and non-recipients"
         },
         {
           "label": "主要终点",
-          "value": "Indicators of neurotoxicity (e.g. apoptosis, demyelination, axonal degeneration) and neuroprotection (e.g. anti-inflammatory effects, neuronal preservation)"
+          "value": "Fall risk"
         }
       ],
       "keyPoints": [
-        "25项临床前研究（19项体内，6项体外）纳入分析。",
-        "高剂量α2-激动剂在体外有直接毒性，但体内未见神经毒性。",
-        "α2-激动剂在临床相关浓度下、神经内注射后显示神经保护作用。",
-        "在已有神经损伤模型中，α2-激动剂与脱髓鞘和炎症加重相关。",
-        "临床前证据不能直接外推到临床实践。"
+        "sFNB与所有非运动阻滞技术、椎管内阻滞和全身镇痛相比，均显著增加跌倒风险。",
+        "总体分析显示sFNB使跌倒风险增加约3.6倍（RR=3.62，95%CI 1.83-7.19），绝对风险增加0.9%。",
+        "打软腿和近乎跌倒风险也增加，但证据确定性极低。",
+        "证据确定性：跌倒为中等，打软腿和近乎跌倒为极低。"
       ],
-      "methods": "外周神经周围使用α2-肾上腺素能受体激动剂（特别是可乐定和右美托咪定）可延长外周神经阻滞持续时间。尽管临床研究提示其可增强镇痛效果，但其神经毒性或神经保护潜力仍令人担忧，尤其是在受损神经中。本系统评价旨在综合这些药物的临床前安全性证据。",
-      "results": "共纳入25项研究（19项体内，6项体外）。高剂量α2-激动剂在体外可诱导直接毒性，但体内未显示神经毒性证据，即使剂量超过临床使用剂量。相反，与未治疗组相比，α2-激动剂可减少凋亡、轴突变性和炎症，但这种保护作用仅在临床相关浓度下、且仅在神经内注射后观察到。然而，在已有神经损伤的模型中，α2-激动剂与脱髓鞘和炎症加重相关。",
-      "mainResults": "共纳入25项研究（19项体内，6项体外）。高剂量α2-激动剂在体外可诱导直接毒性，但体内未显示神经毒性证据，即使剂量超过临床使用剂量。相反，与未治疗组相比，α2-激动剂可减少凋亡、轴突变性和炎症，但这种保护作用仅在临床相关浓度下、且仅在神经内注射后观察到。然而，在已有神经损伤的模型中，α2-激动剂与脱髓鞘和炎症加重相关。",
+      "methods": "单次股神经阻滞（sFNB）是一种常用的骨科镇痛方式，虽然其导致的股四头肌无力已被广泛认识，但跌倒风险是否增加仍存在争议。本系统评价和荟萃分析旨在探讨sFNB术后早期跌倒、打软腿和近乎跌倒风险的变化。",
+      "results": "共纳入31项试验。与所有非运动阻滞技术（收肌管/髂腰肌平面阻滞和局部麻醉浸润）相比，sFNB增加跌倒风险（RR=2.75；P=0.02）；与椎管内阻滞相比，RR=6.35（P=0.03）；与全身镇痛相比，RR=6.43（P=0.03）。总体而言，在31项试验中，sFNB接受者与非接受者相比，跌倒风险显著增加且呈剂量依赖性（RR=3.62；95%CI 1.83-7.19；P=0.0002；绝对风险增加0.9% [0.3-2%]）。另有5项研究显示打软腿风险增加（RR=5.95），4项研究显示近乎跌倒风险增加（RR=4.56）。",
+      "mainResults": "共纳入31项试验。与所有非运动阻滞技术（收肌管/髂腰肌平面阻滞和局部麻醉浸润）相比，sFNB增加跌倒风险（RR=2.75；P=0.02）；与椎管内阻滞相比，RR=6.35（P=0.03）；与全身镇痛相比，RR=6.43（P=0.03）。总体而言，在31项试验中，sFNB接受者与非接受者相比，跌倒风险显著增加且呈剂量依赖性（RR=3.62；95%CI 1.83-7.19；P=0.0002；绝对风险增加0.9% [0.3-2%]）。另有5项研究显示打软腿风险增加（RR=5.95），4项研究显示近乎跌倒风险增加（RR=4.56）。",
       "limitations": [
-        "这些数据不应直接外推到临床实践。",
-        "需要谨慎选择患者和剂量，并需要进一步高质量的临床前和临床研究。"
+        "跌倒风险的证据确定性为中等，打软腿和近乎跌倒风险的证据确定性极低。",
+        "当前可获取内容未提供各亚组（如手术类型、阻滞技术细节）的详细分析结果。",
+        "当前可获取内容未提供纳入试验的偏倚风险评估细节。"
       ],
       "practice": [
-        "在健康神经上，临床相关剂量的α2-激动剂可能安全，但需谨慎选择患者和剂量。",
-        "对于已有神经损伤的患者，应警惕α2-激动剂可能加重神经损伤的风险。",
-        "临床前证据不能直接外推到临床实践，需进一步高质量临床研究验证。"
+        "临床医生应意识到sFNB可能增加术后早期跌倒风险，并在镇痛方案选择中权衡利弊。",
+        "对于跌倒风险较高的患者，可考虑使用避免股神经抑制的替代技术（如收肌管阻滞、局部浸润麻醉等）。",
+        "实施sFNB后，应加强患者教育，采取预防跌倒措施，并优化康复路径。"
       ],
-      "editor": "该结论基于系统评价的临床前证据，支持在健康神经上临床相关剂量α2-激动剂的安全性，但强调在受损神经中的潜在风险。 过度解读风险：存在将临床前结果直接外推到临床的风险，需注意临床前与临床之间的差异。",
-      "whyItMatters": "外周神经阻滞中常使用α2-肾上腺素能受体激动剂（如可乐定、右美托咪定）以延长阻滞时间，但其神经毒性或神经保护作用尚存争议，尤其对已受损神经。该系统评价整合临床前证据，为临床用药安全性和未来研究方向提供重要参考。",
-      "background": "外周神经周围使用α2-肾上腺素能受体激动剂（特别是可乐定和右美托咪定）可延长外周神经阻滞持续时间。尽管临床研究提示其可增强镇痛效果，但其神经毒性或神经保护潜力仍令人担忧，尤其是在受损神经中。本系统评价旨在综合这些药物的临床前安全性证据。",
+      "editor": "该研究为系统评价和荟萃分析，方法学严谨，结果支持sFNB增加跌倒风险的结论，但证据确定性为中等。 过度解读风险：需注意观察性关联与因果关系的区别，且打软腿和近乎跌倒的证据确定性极低，不应过度解读。",
+      "whyItMatters": "sFNB是常用的骨科镇痛方法，但其引起的股四头肌无力是否增加跌倒风险一直存在争议。该研究通过系统评价和荟萃分析，量化了sFNB与跌倒、打软腿和近乎跌倒风险的关系，为临床决策和患者安全提供了重要依据。",
+      "background": "单次股神经阻滞（sFNB）是一种常用的骨科镇痛方式，虽然其导致的股四头肌无力已被广泛认识，但跌倒风险是否增加仍存在争议。本系统评价和荟萃分析旨在探讨sFNB术后早期跌倒、打软腿和近乎跌倒风险的变化。",
       "pico": {
-        "population": "Preclinical in vivo and in vitro studies examining perineural clonidine or dexmedetomidine",
-        "intervention": "Perineural clonidine or dexmedetomidine",
-        "comparison": "Untreated groups",
-        "outcome": "Indicators of neurotoxicity (e.g. apoptosis, demyelination, axonal degeneration) and neuroprotection (e.g. anti-inflammatory effects, neuronal preservation)"
+        "population": "Patients undergoing lower limb orthopaedic surgery",
+        "intervention": "Single-shot femoral nerve block (sFNB)",
+        "comparison": "All non-motor block techniques (adductor canal/iliopsoas plane block and local anaesthetic infiltration), neuraxial blockade, systemic analgesia, and non-recipients",
+        "outcome": "Fall risk"
       },
-      "studyType": "系统评价",
-      "sampleSize": "25 studies (19 in vivo, six in vitro)",
-      "primaryOutcome": "Indicators of neurotoxicity (e.g. apoptosis, demyelination, axonal degeneration) and neuroprotection (e.g. anti-inflammatory effects, neuronal preservation)",
+      "studyType": "系统评价和荟萃分析，遵循MECIR和PRISMA建议，前瞻性注册于PROSPERO（CRD42023477892）。检索MEDLINE、EMBASE、CINAHL和CENTRAL等数据库，独立评价者提取随机对照试验数据，计算合并风险比（RR）和95%置信区间，并使用GRADE方法评估证据确定性。",
+      "sampleSize": "31 trials",
+      "primaryOutcome": "Fall risk",
       "effectSize": [
-        "当前可获取内容未提供该数据。"
+        "RR 2.75",
+        "RR 6.35",
+        "RR 6.43",
+        "RR 3.62",
+        "RR 5.95",
+        "RR 4.56"
       ],
       "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
+        "95% CI 1.83-7.19"
       ],
       "pValue": [
-        "当前可获取内容未提供该数据。"
+        "P=0.02",
+        "P=0.03",
+        "P=0.03",
+        "P=0.0002"
       ],
-      "adverseEvents": "In models with pre-existing nerve injury, alpha(2)-agonists have been associated with exacerbated demyelination and inflammation.",
+      "adverseEvents": "Falls, buckling, near-falls",
       "aiAssessment": {
-        "support": "该结论基于系统评价的临床前证据，支持在健康神经上临床相关剂量α2-激动剂的安全性，但强调在受损神经中的潜在风险。",
-        "overinterpretationRisk": "存在将临床前结果直接外推到临床的风险，需注意临床前与临床之间的差异。"
+        "support": "该研究为系统评价和荟萃分析，方法学严谨，结果支持sFNB增加跌倒风险的结论，但证据确定性为中等。",
+        "overinterpretationRisk": "需注意观察性关联与因果关系的区别，且打软腿和近乎跌倒的证据确定性极低，不应过度解读。"
       },
       "deepDive": {
         "sourceCoverage": {
           "level": "abstract",
           "limitations": [
-            "仅基于摘要分析，未获取全文数据。",
-            "未报告效应量、置信区间和P值。",
-            "未提供具体统计方法细节。"
+            "仅基于摘要分析，未获取全文数据，无法评估方法学细节、偏倚风险、亚组分析等。",
+            "当前可获取内容未提供各比较的具体置信区间（除总体分析外）。"
           ]
         },
         "methodology": {
-          "researchQuestion": "系统评价临床前证据，评估神经周围使用可乐定和右美托咪定的安全性（神经毒性或神经保护作用）。",
-          "designFit": "系统评价设计适合综合临床前研究证据，但受限于原始研究的质量。",
-          "eligibility": "纳入临床前体内和体外研究，涉及神经周围使用可乐定或右美托咪定。",
-          "randomization": "当前可获取内容未提供该数据。",
-          "allocationConcealment": "当前可获取内容未提供该数据。",
-          "blinding": "当前可获取内容未提供该数据。",
-          "sampleSizePlanning": "当前可获取内容未提供该数据。",
-          "followUp": "当前可获取内容未提供该数据。",
-          "analysisPopulation": "25项研究（19项体内，6项体外）。",
-          "missingData": "当前可获取内容未提供该数据。",
+          "researchQuestion": "sFNB是否增加下肢骨科手术后早期跌倒、打软腿和近乎跌倒的风险？",
+          "designFit": "系统评价和荟萃分析适用于汇总多个随机对照试验的证据，回答干预效果问题。",
+          "eligibility": "当前可获取内容未提供详细的纳入/排除标准。",
+          "randomization": "纳入的研究为随机对照试验，但具体随机化方法未在摘要中描述。",
+          "allocationConcealment": "当前可获取内容未提供分配隐藏相关信息。",
+          "blinding": "当前可获取内容未提供盲法相关信息。",
+          "sampleSizePlanning": "当前可获取内容未提供样本量计算信息。",
+          "followUp": "当前可获取内容未提供随访时长信息。",
+          "analysisPopulation": "当前可获取内容未提供意向性分析或符合方案集分析信息。",
+          "missingData": "当前可获取内容未提供缺失数据处理方法。",
           "strengths": [
-            "系统检索多个数据库，并补充参考文献筛查和大型语言模型查询。",
-            "使用SYRCLE工具评估偏倚风险。"
+            "遵循MECIR和PRISMA建议，方法学规范。",
+            "前瞻性注册于PROSPERO，减少发表偏倚。",
+            "独立评价者提取数据，降低偏倚。"
           ],
           "concerns": [
-            "仅基于摘要，无法评估全文细节。",
-            "未报告具体效应量和统计显著性。"
+            "摘要未提供详细的检索策略和筛选流程。",
+            "未提供各纳入研究的偏倚风险评估。",
+            "未提供异质性评估结果。"
           ]
         },
         "statistics": {
@@ -1226,354 +1555,73 @@
             {
               "referenceId": null,
               "name": "未报告",
-              "purposeInStudy": "当前可获取内容未提供具体统计方法。",
-              "reportedResult": "当前可获取内容未提供该数据。",
-              "interpretation": "无法评价统计方法的适当性。",
-              "cautions": [
-                "未报告效应量、置信区间和P值，无法评估效应大小和精确性。"
-              ],
-              "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
-            }
-          ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
-        },
-        "outcomeAnalysis": {
-          "primary": "神经毒性指标（如凋亡、脱髓鞘、轴突变性）和神经保护指标（如抗炎作用、神经元保存）。",
-          "secondary": [
-            "当前可获取内容未提供次要结局。"
-          ],
-          "safety": "在已有神经损伤模型中，α2-激动剂与脱髓鞘和炎症加重相关。",
-          "absoluteVsRelative": "当前可获取内容未提供该数据。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
-        },
-        "criticalAppraisal": {
-          "strengths": [
-            "系统检索策略明确。",
-            "纳入研究类型明确。",
-            "使用SYRCLE工具评估偏倚风险。"
-          ],
-          "limitations": [
-            "仅基于摘要，无法评估全文细节。",
-            "未报告效应量和置信区间。",
-            "临床前证据不能直接外推到临床。"
-          ],
-          "biasRisks": [
-            "当前可获取内容未提供该数据。"
-          ],
-          "certainty": "当前可获取内容未提供该数据。",
-          "conclusionAlignment": "结论与结果一致，但需注意临床前证据的局限性。",
-          "causalBoundary": "观察性关联不能推断因果关系，尤其临床前模型与临床存在差异。"
-        },
-        "clinicalTranslation": {
-          "applicability": [
-            "在健康神经上，临床相关剂量的α2-激动剂可能安全。",
-            "对于已有神经损伤的患者，应谨慎使用。"
-          ],
-          "nonApplicability": [
-            "临床前证据不能直接外推到临床实践。",
-            "动物模型结果可能不适用于人类。"
-          ],
-          "practiceChange": "当前证据不足以改变临床实践，但提示需谨慎选择患者和剂量。",
-          "canDoNow": [
-            "在临床实践中，应基于现有临床证据和个体化评估使用α2-激动剂。",
-            "对于有神经损伤风险的患者，应权衡利弊。"
-          ],
-          "cannotConclude": [
-            "无法确定临床相关剂量下α2-激动剂在人类中的神经毒性或神经保护作用。",
-            "无法确定在受损神经中的安全性。"
-          ],
-          "evidenceGaps": [
-            "需要更多高质量的临床前研究，特别是关于受损神经的模型。",
-            "需要临床研究验证临床前发现。",
-            "需要明确剂量-反应关系。"
-          ],
-          "directClinicalRecommendation": false
-        }
-      },
-      "analysisBasis": "摘要分析",
-      "analysisStatus": "ai_complete",
-      "aiModel": "deepseek-v4-flash",
-      "qualityPassed": true,
-      "sourceType": "real",
-      "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41176463/",
-        "doi": "https://doi.org/10.1016/j.bja.2025.10.008",
-        "publisher": "https://doi.org/10.1016/j.bja.2025.10.008",
-        "openFullText": null
-      }
-    },
-    {
-      "analysisVersion": 2,
-      "slug": "pmid-42469102",
-      "number": "05",
-      "category": "麻醉学",
-      "journal": "British journal of anaesthesia",
-      "year": "2026",
-      "publishedDate": "2026-07-18",
-      "electronicPublicationDate": "2026-07-18",
-      "readingTime": "14 分钟",
-      "title": "超越特定手术方案：系统评价识别加速康复外科协会指南中的通用麻醉学核心",
-      "originalTitle": "Beyond procedure-specific protocols: a systematic review identifying a universal anaesthesiological core across Enhanced Recovery After Surgery Society guidelines.",
-      "abstract": "BACKGROUND: Enhanced Recovery After Surgery (ERAS) Society guidelines provide procedure-specific, evidence-based recommendations for perioperative care. Many interventions fall within anaesthesiology, yet the extent to which they reflect cross-speciality principles remains unclear. The objective of this systematic review was to identify a universal anaesthesiological core across ERAS guidelines. METHODS: All ERAS Society guidelines were screened for eligibility. Guidelines were excluded if they had no practical anaesthesiological recommendations, had been superseded, or were not intended for standard hospital settings. A classification of 45 anaesthesiological umbrella terms was developed through pilot extraction and Delphi consensus. Two reviewers independently extracted recommendations and their strength. Methodological quality was assessed using Appraisal of Guidelines for Research and Evaluation II (AGREE II). Umbrella terms were classified as consistent (>80%), mostly consistent (60-80%), mixed (20-60%), or sparse (</=20%). RESULTS: Of 39 publications, 24 guidelines (2013-2025) were included. Anaesthesiological involvement was identifiable in 23 out of 24 guidelines. Of the 45 umbrella terms, eight were consistent, 10 mostly consistent, 16 mixed, and 11 sparse. The consistent domains were: multimodal analgesia, fasting, thromboprophylaxis, antimicrobial prophylaxis, nutrition, temperature and fluid management, and surgery-specific recommendations. The mean AGREE II score was 76%, highest for scope and purpose and clarity of presentation and lowest for stakeholder involvement. CONCLUSIONS: Despite procedural heterogeneity, a consistent anaesthesiological core is identifiable within the ERAS guidelines. Cross-guideline consistency identifies the priority domains for cross-speciality implementation, whereas recommendation strength independently indicates the confidence with which guidance transposes onto local practice; high-frequency, mixed-strength domains, notably fluid management, preoperative carbohydrate administration and preanaesthetic medication, warrant structured local appraisal. REGISTRATION: The study protocol: Open Science Framework (DOI: 10.17605/OSF.IO/CBWDT).",
-      "abstractTranslation": {
-        "sections": [
-          {
-            "heading": "BACKGROUND",
-            "text": "加速康复外科（ERAS）学会指南为围手术期护理提供了针对特定手术的循证建议。许多干预措施属于麻醉学范畴，但它们在多大程度上反映了跨专业原则仍不清楚。本系统评价旨在识别ERAS指南中通用的麻醉学核心内容。"
-          },
-          {
-            "heading": "METHODS",
-            "text": "筛选所有ERAS学会指南的合格性。如果指南没有实用的麻醉学建议、已被取代或不适用于标准医院环境，则将其排除。通过试点提取和德尔菲共识，制定了45个麻醉学总括术语的分类。两名评审员独立提取建议及其强度。使用研究与评估指南评估II（AGREE II）评估方法学质量。总括术语被分类为一致（>80%）、基本一致（60-80%）、混合（20-60%）或稀疏（≤20%）。"
-          },
-          {
-            "heading": "RESULTS",
-            "text": "在39篇出版物中，纳入了24篇指南（2013-2025年）。在24篇指南中，有23篇可识别出麻醉学参与。在45个总括术语中，8个一致，10个基本一致，16个混合，11个稀疏。一致的领域包括：多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、温度和液体管理，以及手术特异性建议。平均AGREE II评分为76%，范围和目的以及表述清晰度得分最高，利益相关者参与得分最低。"
-          },
-          {
-            "heading": "CONCLUSIONS",
-            "text": "尽管存在手术异质性，但在ERAS指南中可识别出一致的麻醉学核心。跨指南一致性确定了跨专业实施的优先领域，而建议强度独立地表明指南转化为当地实践的置信度；高频、混合强度的领域，特别是液体管理、术前碳水化合物给药和麻醉前用药，值得进行结构化的当地评估。"
-          },
-          {
-            "heading": "REGISTRATION",
-            "text": "研究方案：开放科学框架（DOI: 10.17605/OSF.IO/CBWDT）。"
-          }
-        ],
-        "fullText": "BACKGROUND: Enhanced Recovery After Surgery (ERAS) Society guidelines provide procedure-specific, evidence-based recommendations for perioperative care. Many interventions fall within anaesthesiology, yet the extent to which they reflect cross-speciality principles remains unclear. The objective of this systematic review was to identify a universal anaesthesiological core across ERAS guidelines. METHODS: All ERAS Society guidelines were screened for eligibility. Guidelines were excluded if they had no practical anaesthesiological recommendations, had been superseded, or were not intended for standard hospital settings. A classification of 45 anaesthesiological umbrella terms was developed through pilot extraction and Delphi consensus. Two reviewers independently extracted recommendations and their strength. Methodological quality was assessed using Appraisal of Guidelines for Research and Evaluation II (AGREE II). Umbrella terms were classified as consistent (>80%), mostly consistent (60-80%), mixed (20-60%), or sparse (</=20%). RESULTS: Of 39 publications, 24 guidelines (2013-2025) were included. Anaesthesiological involvement was identifiable in 23 out of 24 guidelines. Of the 45 umbrella terms, eight were consistent, 10 mostly consistent, 16 mixed, and 11 sparse. The consistent domains were: multimodal analgesia, fasting, thromboprophylaxis, antimicrobial prophylaxis, nutrition, temperature and fluid management, and surgery-specific recommendations. The mean AGREE II score was 76%, highest for scope and purpose and clarity of presentation and lowest for stakeholder involvement. CONCLUSIONS: Despite procedural heterogeneity, a consistent anaesthesiological core is identifiable within the ERAS guidelines. Cross-guideline consistency identifies the priority domains for cross-speciality implementation, whereas recommendation strength independently indicates the confidence with which guidance transposes onto local practice; high-frequency, mixed-strength domains, notably fluid management, preoperative carbohydrate administration and preanaesthetic medication, warrant structured local appraisal. REGISTRATION: The study protocol: Open Science Framework (DOI: 10.17605/OSF.IO/CBWDT).",
-        "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
-      },
-      "authors": "Bornemann-Cimenti H, Furtmuller JM, Labenbacher S, Niederer M, Bader M, Lang-Illievich K, Tamussino K, Hammer S",
-      "citation": "Br J Anaesth. 2026 Sep;137(3):796-807. doi: 10.1016/j.bja.2026.06.006. Epub 2026 Jul 18.",
-      "doi": "10.1016/j.bja.2026.06.006",
-      "pmid": "42469102",
-      "pmcid": null,
-      "publicationTypes": [
-        "Journal Article",
-        "Review",
-        "Systematic Review"
-      ],
-      "meshTerms": [
-        "Humans",
-        "*Practice Guidelines as Topic",
-        "*Enhanced Recovery After Surgery/standards",
-        "*Anesthesiology/standards/methods",
-        "*Perioperative Care/methods/standards",
-        "Societies, Medical"
-      ],
-      "publisher": "Elsevier BV",
-      "crossrefVerified": true,
-      "researchCategory": {
-        "id": "clinical",
-        "label": "临床证据",
-        "reason": "clinical-evidence-publication-type"
-      },
-      "journalTier": {
-        "id": "anesthesia_core",
-        "label": "麻醉及围术期核心期刊",
-        "priorityRank": 2
-      },
-      "journalMetric": {
-        "metric": "Journal Impact Factor",
-        "impactFactor": 10.3,
-        "metricYear": 2025,
-        "rankingMetricYear": 2025,
-        "maximumAgeYears": 1,
-        "rankingComparable": true,
-        "threshold": 5,
-        "comparison": "greater-than",
-        "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
-        "verifiedAt": "2026-07-28",
-        "matchedJournal": "British Journal of Anaesthesia"
-      },
-      "tags": [
-        "临床证据",
-        "麻醉及围术期核心期刊",
-        "麻醉学",
-        "Journal Article",
-        "Review"
-      ],
-      "question": "该研究首次系统性地识别了ERAS指南中跨手术类型的通用麻醉学核心，有助于明确麻醉科在ERAS路径中的核心职责，并为跨学科实施和本地化指南制定提供优先领域。",
-      "conclusion": "尽管手术类型各异，加速康复外科（ERAS）指南中仍存在一致的麻醉学核心，包括多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理及手术特异性建议，但部分领域（如液体管理、术前碳水化合物负荷和麻醉前用药）的建议强度不一，需进行本地化评估。",
-      "clinical": "麻醉科在ERAS指南中具有核心作用，应积极参与跨学科实施。 一致的领域（如多模式镇痛、禁食、血栓预防等）可作为麻醉科优先落实的标准化措施。 对于高频率但强度不一致的领域（如液体管理、术前碳水化合物负荷和麻醉前用药），建议进行结构化本地评估，以制定适合本机构的方案。",
-      "evidence": "中等",
-      "score": 64,
-      "scoreBreakdown": {
-        "relevance": 13,
-        "evidenceQuality": 23,
-        "clinicalImpact": 9,
-        "journalQuality": 15,
-        "novelty": 4
-      },
-      "study": [
-        {
-          "label": "研究设计",
-          "value": "系统评价"
-        },
-        {
-          "label": "研究对象与样本",
-          "value": "ERAS协会发布的指南（共纳入24项指南，2013-2025年）；24 guidelines"
-        },
-        {
-          "label": "干预与比较",
-          "value": "不适用（系统评价，无干预）；对照：不适用（系统评价，无对照）"
-        },
-        {
-          "label": "主要终点",
-          "value": "Identification of a universal anaesthesiological core across ERAS guidelines"
-        }
-      ],
-      "keyPoints": [
-        "纳入24项ERAS指南（2013-2025年），23项可识别麻醉学参与。",
-        "45个麻醉学术语中，8个一致，10个基本一致，16个混合，11个稀疏。",
-        "一致的领域包括多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理及手术特异性建议。",
-        "平均AGREE II评分为76%，利益相关者参与得分最低。",
-        "高频率但强度不一致的领域（液体管理、术前碳水化合物负荷、麻醉前用药）需本地化评估。"
-      ],
-      "methods": "加速康复外科（ERAS）协会指南提供了针对特定手术的、基于证据的围手术期护理建议。许多干预措施属于麻醉学范畴，但它们在多大程度上反映了跨专业原则仍不清楚。本系统评价旨在识别ERAS指南中的通用麻醉学核心。",
-      "results": "共筛选39篇文献，纳入24项指南（2013-2025年）。23/24项指南中可识别麻醉学参与。在45个麻醉学术语中，8个一致，10个基本一致，16个混合，11个稀疏。一致的领域包括：多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理以及手术特异性建议。平均AGREE II评分为76%，范围和目的及表述清晰度得分最高，利益相关者参与得分最低。",
-      "mainResults": "共筛选39篇文献，纳入24项指南（2013-2025年）。23/24项指南中可识别麻醉学参与。在45个麻醉学术语中，8个一致，10个基本一致，16个混合，11个稀疏。一致的领域包括：多模式镇痛、禁食、血栓预防、抗菌药物预防、营养、体温和液体管理以及手术特异性建议。平均AGREE II评分为76%，范围和目的及表述清晰度得分最高，利益相关者参与得分最低。",
-      "limitations": [
-        "当前可获取内容未提供该数据。",
-        "当前可获取内容未提供该数据。",
-        "当前可获取内容未提供该数据。"
-      ],
-      "practice": [
-        "麻醉科在ERAS指南中具有核心作用，应积极参与跨学科实施。",
-        "一致的领域（如多模式镇痛、禁食、血栓预防等）可作为麻醉科优先落实的标准化措施。",
-        "对于高频率但强度不一致的领域（如液体管理、术前碳水化合物负荷和麻醉前用药），建议进行结构化本地评估，以制定适合本机构的方案。"
-      ],
-      "editor": "该研究为系统评价，方法学质量较高（平均AGREE II评分76%），结果支持ERAS指南中存在一致的麻醉学核心。 过度解读风险：需注意，该研究仅基于指南文本分析，未评估实际临床实施效果；且部分领域建议强度不一致，不能直接推断为临床实践标准。",
-      "whyItMatters": "该研究首次系统性地识别了ERAS指南中跨手术类型的通用麻醉学核心，有助于明确麻醉科在ERAS路径中的核心职责，并为跨学科实施和本地化指南制定提供优先领域。",
-      "background": "加速康复外科（ERAS）协会指南提供了针对特定手术的、基于证据的围手术期护理建议。许多干预措施属于麻醉学范畴，但它们在多大程度上反映了跨专业原则仍不清楚。本系统评价旨在识别ERAS指南中的通用麻醉学核心。",
-      "pico": {
-        "population": "ERAS协会发布的指南（共纳入24项指南，2013-2025年）",
-        "intervention": "不适用（系统评价，无干预）",
-        "comparison": "不适用（系统评价，无对照）",
-        "outcome": "Identification of a universal anaesthesiological core across ERAS guidelines"
-      },
-      "studyType": "系统评价",
-      "sampleSize": "24 guidelines",
-      "primaryOutcome": "Identification of a universal anaesthesiological core across ERAS guidelines",
-      "effectSize": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "confidenceInterval": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "pValue": [
-        "当前可获取内容未提供该数据。"
-      ],
-      "adverseEvents": null,
-      "aiAssessment": {
-        "support": "该研究为系统评价，方法学质量较高（平均AGREE II评分76%），结果支持ERAS指南中存在一致的麻醉学核心。",
-        "overinterpretationRisk": "需注意，该研究仅基于指南文本分析，未评估实际临床实施效果；且部分领域建议强度不一致，不能直接推断为临床实践标准。"
-      },
-      "deepDive": {
-        "sourceCoverage": {
-          "level": "abstract",
-          "limitations": [
-            "仅基于摘要，无法获取完整方法学细节、具体效应量及置信区间。",
-            "无法评估纳入指南的具体推荐内容及证据等级。",
-            "无法获取亚组分析或敏感性分析结果。"
-          ]
-        },
-        "methodology": {
-          "researchQuestion": "识别ERAS指南中的通用麻醉学核心。",
-          "designFit": "系统评价设计适合该研究问题，通过汇总指南内容识别共性。",
-          "eligibility": "纳入所有ERAS协会指南，排除无实际麻醉学建议、已被取代或不适用于标准医院环境的指南。",
-          "randomization": "不适用（系统评价）。",
-          "allocationConcealment": "不适用（系统评价）。",
-          "blinding": "不适用（系统评价）。",
-          "sampleSizePlanning": "不适用（系统评价）。",
-          "followUp": "不适用（系统评价）。",
-          "analysisPopulation": "纳入24项指南。",
-          "missingData": "当前可获取内容未提供该数据。",
-          "strengths": [
-            "采用系统评价方法，筛选流程明确。",
-            "使用Delphi共识开发分类系统，增强分类可靠性。",
-            "两名评审员独立提取建议，减少偏倚。",
-            "使用AGREE II评估方法学质量。"
-          ],
-          "concerns": [
-            "仅基于摘要，无法评估完整方法学细节。",
-            "未报告具体效应量及置信区间。",
-            "未报告亚组分析或敏感性分析。"
-          ]
-        },
-        "statistics": {
-          "methods": [
-            {
-              "referenceId": null,
-              "name": "未报告",
-              "purposeInStudy": "当前可获取内容未提供具体统计方法。",
-              "reportedResult": "当前可获取内容未提供该数据。",
+              "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+              "reportedResult": "当前可获取内容未提供具体统计方法。",
               "interpretation": "无法评价统计方法的适用性。",
               "cautions": [
-                "由于未报告具体统计方法，无法评估结果的稳健性。"
+                "无法评估统计方法的正确性。"
               ],
               "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
             }
           ],
-          "adjustedVariables": "当前可获取内容未提供该数据。",
-          "multiplicity": "当前可获取内容未提供该数据。",
-          "subgroupAnalysis": "当前可获取内容未提供该数据。",
-          "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+          "adjustedVariables": "当前可获取内容未提供调整变量信息。",
+          "multiplicity": "当前可获取内容未提供多重性校正信息。",
+          "subgroupAnalysis": "当前可获取内容未提供亚组分析结果。",
+          "clinicalVsStatisticalSignificance": "虽然跌倒风险增加具有统计学意义（P=0.0002），但绝对风险增加仅为0.9%，临床意义需结合患者个体情况判断。"
         },
         "outcomeAnalysis": {
-          "primary": "识别ERAS指南中的通用麻醉学核心。",
+          "primary": "跌倒风险：sFNB与所有非运动阻滞技术比较RR=2.75（P=0.02）；与椎管内阻滞比较RR=6.35（P=0.03）；与全身镇痛比较RR=6.43（P=0.03）；总体比较RR=3.62（95%CI 1.83-7.19，P=0.0002）。",
           "secondary": [
-            "当前可获取内容未提供次要结局。"
+            "打软腿：RR=5.95（基于5项研究）",
+            "近乎跌倒：RR=4.56（基于4项研究）"
           ],
-          "safety": "当前可获取内容未提供该数据。",
-          "absoluteVsRelative": "当前可获取内容未提供该数据。",
-          "subgroupAndInteraction": "当前可获取内容未提供该数据。",
-          "sensitivity": "当前可获取内容未提供该数据。"
+          "safety": "跌倒、打软腿、近乎跌倒均为不良事件。",
+          "absoluteVsRelative": "总体分析中，相对风险增加3.62倍，绝对风险增加0.9%（0.3-2%）。",
+          "subgroupAndInteraction": "当前可获取内容未提供亚组分析或交互作用信息。",
+          "sensitivity": "当前可获取内容未提供敏感性分析信息。"
         },
         "criticalAppraisal": {
           "strengths": [
-            "系统评价方法，纳入指南时间跨度长（2013-2025年）。",
-            "使用Delphi共识开发分类系统，增强分类可靠性。",
-            "两名评审员独立提取建议，减少偏倚。",
-            "使用AGREE II评估方法学质量。"
+            "系统评价和荟萃分析设计，证据等级较高。",
+            "遵循PRISMA和MECIR，方法学严谨。",
+            "注册于PROSPERO，增加透明度。"
           ],
           "limitations": [
-            "仅基于摘要，无法评估完整方法学细节。",
-            "未报告具体效应量及置信区间。",
-            "未报告亚组分析或敏感性分析。"
+            "证据确定性：跌倒为中等，打软腿和近乎跌倒为极低。",
+            "摘要未提供异质性、发表偏倚等详细信息。"
           ],
           "biasRisks": [
-            "可能存在发表偏倚，但系统评价通常已考虑。",
-            "分类系统可能受主观影响，但Delphi共识降低了此风险。"
+            "当前可获取内容未提供各纳入研究的偏倚风险评估。",
+            "可能存在发表偏倚，但未提及。"
           ],
-          "certainty": "中等（基于摘要，方法学质量较高，但缺乏完整数据）。",
-          "conclusionAlignment": "结论与结果一致，但需注意结论中提到的“高频率、混合强度领域”是基于分类结果，而非直接临床证据。",
-          "causalBoundary": "该研究为描述性系统评价，不能推断因果关系，仅识别指南中的共性。"
+          "certainty": "跌倒风险证据确定性为中等；打软腿和近乎跌倒风险证据确定性为极低。",
+          "conclusionAlignment": "结论与结果一致，但需注意证据确定性。",
+          "causalBoundary": "该研究为观察性关联的汇总，不能直接推断因果关系，但随机对照试验的荟萃分析可提供因果证据。"
         },
         "clinicalTranslation": {
           "applicability": [
-            "适用于麻醉科在ERAS路径中的角色定位。",
-            "可用于指导跨学科实施优先领域。"
+            "适用于接受下肢骨科手术并考虑使用sFNB的患者。",
+            "结果支持在临床决策中权衡sFNB的镇痛获益与跌倒风险。"
           ],
           "nonApplicability": [
-            "不适用于具体临床操作指导，因为未提供具体推荐内容。",
-            "不适用于评估临床结局改善。"
+            "不适用于其他类型手术或阻滞技术。",
+            "不适用于长期风险或慢性疼痛管理。"
           ],
-          "practiceChange": "可能促使麻醉科关注ERAS指南中的核心领域，并针对混合强度领域进行本地化评估。",
+          "practiceChange": "可能促使临床医生在跌倒高风险患者中避免使用sFNB，或加强术后监测和预防措施。",
           "canDoNow": [
-            "麻醉科可优先落实一致的领域（如多模式镇痛、禁食、血栓预防等）。",
-            "对于混合强度领域，可组织本地多学科讨论，制定适合本机构的方案。"
+            "在实施sFNB前，评估患者跌倒风险。",
+            "考虑替代技术如收肌管阻滞或局部浸润麻醉。",
+            "术后采取防跌倒措施，如加强监护、使用辅助设备。"
           ],
           "cannotConclude": [
-            "不能确定这些核心领域是否改善临床结局。",
-            "不能确定具体推荐措施的有效性。"
+            "不能确定sFNB与跌倒之间的因果关系，尽管荟萃分析支持关联。",
+            "不能确定最佳替代技术。",
+            "不能确定长期影响。"
           ],
           "evidenceGaps": [
-            "缺乏具体推荐内容的详细比较。",
-            "缺乏对临床实施效果的评估。",
-            "缺乏对患者结局的影响分析。"
+            "需要更多高质量研究，特别是针对不同手术类型和患者群体的亚组分析。",
+            "需要评估sFNB剂量、浓度和注射技术对跌倒风险的影响。",
+            "需要长期随访数据。"
           ],
           "directClinicalRecommendation": false
         }
@@ -1584,9 +1632,9 @@
       "qualityPassed": true,
       "sourceType": "real",
       "urls": {
-        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42469102/",
-        "doi": "https://doi.org/10.1016/j.bja.2026.06.006",
-        "publisher": "https://doi.org/10.1016/j.bja.2026.06.006",
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41478800/",
+        "doi": "https://doi.org/10.1016/j.bja.2025.11.018",
+        "publisher": "https://doi.org/10.1016/j.bja.2025.11.018",
         "openFullText": null
       }
     }

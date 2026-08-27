@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T23:34:08.784Z",
+  "updatedAt": "2026-08-27T04:29:54.310Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1193,6 +1193,46 @@
       "status": "published",
       "runId": "2026-08-25T23-34-08.784Z",
       "firstPublishedAt": "2026-08-25T23:34:08.784Z"
+    },
+    {
+      "pmid": "40829974",
+      "doi": "10.1016/j.bja.2025.07.033",
+      "title": "Paediatric difficult intubations and the impact of timing of weekend versus weekday cases: an analysis of the Pediatric Difficult Intubation registry.",
+      "status": "published",
+      "runId": "2026-08-27T04-29-54.310Z",
+      "firstPublishedAt": "2026-08-27T04:29:54.310Z"
+    },
+    {
+      "pmid": "40769841",
+      "doi": "10.1016/j.bja.2025.05.036",
+      "title": "Impact of genetic variations on the pharmacokinetics, dose requirements, and clinical effects of propofol: a systematic review.",
+      "status": "published",
+      "runId": "2026-08-27T04-29-54.310Z",
+      "firstPublishedAt": "2026-08-27T04:29:54.310Z"
+    },
+    {
+      "pmid": "39979152",
+      "doi": "10.1016/j.bja.2024.12.038",
+      "title": "Ventilation strategies and risk factors for intraoperative respiratory critical events and postoperative pulmonary complications in neonates and small infants: a secondary analysis of the NECTARINE cohort(☆).",
+      "status": "published",
+      "runId": "2026-08-27T04-29-54.310Z",
+      "firstPublishedAt": "2026-08-27T04:29:54.310Z"
+    },
+    {
+      "pmid": "40841222",
+      "doi": "10.1016/j.bja.2025.05.058",
+      "title": "Drug-specific recovery of long-term memory and visual discrimination after anaesthetic-induced unconsciousness in rats.",
+      "status": "published",
+      "runId": "2026-08-27T04-29-54.310Z",
+      "firstPublishedAt": "2026-08-27T04:29:54.310Z"
+    },
+    {
+      "pmid": "41478800",
+      "doi": "10.1016/j.bja.2025.11.018",
+      "title": "Single-shot perineural femoral nerve block and falls after lower limb orthopaedic surgery: a systematic review and meta-analysis.",
+      "status": "published",
+      "runId": "2026-08-27T04-29-54.310Z",
+      "firstPublishedAt": "2026-08-27T04:29:54.310Z"
     }
   ]
 }

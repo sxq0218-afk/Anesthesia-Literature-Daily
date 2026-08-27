@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Aug 2026 23:34:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 04:29:54 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-27 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-27/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-27/</guid>
+      <pubDate>Thu, 27 Aug 2026 04:29:54 GMT</pubDate>
+      <description>儿科困难气管插管与周末与工作日时机的影响：基于儿科困难插管登记库的分析：基于儿科困难插管登记库的回顾性分析显示，周末进行的儿科困难气管插管其并发症发生率显著高于工作日，但校正后仅非低氧血症并发症仍显著，低氧血症差异无统计学意义。
+遗传变异对丙泊酚药代动力学、剂量需求及临床效应的影响：一项系统评价：基于16项研究、1779例患者的系统评价提示，UGT1A9基因多态性（rs72551330 CT杂合子、rs2741045 CC纯合子）可能影响丙泊酚的药代动力学和麻醉相关临床结局，而CYP2B6和CYP2C9基因型未见显著影响，但现有证据尚不足以支持常规药物基因组学指导的丙泊酚给药。
+新生儿和小婴儿的术中通气策略及术中呼吸危重事件和术后肺部并发症的危险因素：NECTARINE队列的二次分析：在NECTARINE队列中，无论采用何种通气策略，机械通气和术前呼吸系统疾病均与更高的术中呼吸不良事件和术后肺部并发症发生率相关；拔管前逆转神经肌肉阻滞剂与术后肺部并发症风险显著降低相关。
+麻醉诱导意识消失后大鼠长期记忆和视觉辨别恢复的药物特异性特征：在成年大鼠中，丙泊酚和七氟烷麻醉后认知功能在翻正反射恢复后60分钟内恢复，而氯胺酮、右美托咪定和芬太尼则需要2-3小时，所有药物在24小时内均恢复至基线水平。
+单次股神经周围神经阻滞与下肢骨科手术后跌倒：系统评价与荟萃分析：与避免股神经抑制的技术相比，单次股神经阻滞（sFNB）在术后早期增加跌倒风险（中等质量证据），并可能增加打软腿和近乎跌倒风险（极低质量证据）。</description>
+    </item>
     <item>
       <title>2026-08-26 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-26/</link>
