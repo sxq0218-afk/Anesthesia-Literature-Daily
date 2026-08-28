@@ -5,8 +5,19 @@
     <link>http://localhost:3000</link>
     <description>每天精选最多5篇真实麻醉学相关文献，提供结构化中文精读。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 27 Aug 2026 04:29:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 06:55:30 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-08-28 每日麻醉文献精读（5篇）</title>
+      <link>http://localhost:3000/archive/2026-08-28/</link>
+      <guid isPermaLink="true">http://localhost:3000/archive/2026-08-28/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:55:30 GMT</pubDate>
+      <description>术前夜间低氧血症最低值与阻塞性睡眠呼吸暂停患儿全麻下芬太尼通气敏感性的关联：一项多中心临床队列研究：在2-8岁行腺样体扁桃体切除术的阻塞性睡眠呼吸暂停患儿中，术前睡眠监测SpO₂最低值（&lt;85% vs ≥85%）与芬太尼诱导的中枢性通气抑制程度无显著关联。
+超声引导胸椎旁阻滞与竖脊肌平面阻滞用于胸骨正中切开心脏手术的镇痛：一项非劣效随机对照试验：在胸骨正中切开心脏手术术后早期动态镇痛方面，竖脊肌平面阻滞未能证明其非劣效于胸椎旁阻滞。
+经鼻高流量氧疗改善柔性支气管镜气管插管期间声门视野的效果：在20例麻醉无呼吸患者中，经鼻高流量氧疗（60 L/min）相比无高流量氧疗可显著扩大咽腔空间并改善支气管镜下声门视野，且未观察到低氧血症等并发症。
+困难气道管理中认知错误的发生率：来自儿科困难插管注册库的推断人因研究：在儿科困难气道管理中，认知错误发生率约为17.4%，且与并发症风险增加独立相关。
+伏隔核中的食欲素信号促进异氟烷麻醉觉醒并恢复伏隔核与前额叶皮层之间的通讯：在异氟烷麻醉下，光遗传激活伏隔核中的食欲素能神经末梢可降低爆发抑制比、增加D1R阳性神经元放电并恢复伏隔核-前额叶皮层相干性，从而促进麻醉觉醒。</description>
+    </item>
     <item>
       <title>2026-08-27 每日麻醉文献精读（5篇）</title>
       <link>http://localhost:3000/archive/2026-08-27/</link>

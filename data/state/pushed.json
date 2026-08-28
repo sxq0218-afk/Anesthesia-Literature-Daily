@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-27T04:29:54.310Z",
+  "updatedAt": "2026-08-28T06:55:30.313Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1233,6 +1233,46 @@
       "status": "published",
       "runId": "2026-08-27T04-29-54.310Z",
       "firstPublishedAt": "2026-08-27T04:29:54.310Z"
+    },
+    {
+      "pmid": "40914728",
+      "doi": "10.1016/j.bja.2025.07.059",
+      "title": "Association of preoperative nocturnal hypoxaemia nadir and fentanyl ventilatory sensitivity in children with obstructive sleep apnoea undergoing general anaesthesia: a multicentre clinical cohort study.",
+      "status": "published",
+      "runId": "2026-08-28T06-55-30.313Z",
+      "firstPublishedAt": "2026-08-28T06:55:30.313Z"
+    },
+    {
+      "pmid": "41290467",
+      "doi": "10.1016/j.bja.2025.10.039",
+      "title": "Ultrasound-guided thoracic paravertebral block versus erector spinae plane block analgesia for cardiac surgery with median sternotomy: a noninferiority randomised controlled trial.",
+      "status": "published",
+      "runId": "2026-08-28T06-55-30.313Z",
+      "firstPublishedAt": "2026-08-28T06:55:30.313Z"
+    },
+    {
+      "pmid": "39448321",
+      "doi": "10.1016/j.bja.2024.08.036",
+      "title": "Efficacy of high-flow nasal cannula in improving the view of the glottis during flexible bronchoscopy for tracheal intubation.",
+      "status": "published",
+      "runId": "2026-08-28T06-55-30.313Z",
+      "firstPublishedAt": "2026-08-28T06:55:30.313Z"
+    },
+    {
+      "pmid": "40447486",
+      "doi": "10.1016/j.bja.2025.04.033",
+      "title": "Incidence of cognitive errors in difficult airway management: an inference human factors study from the Pediatric Difficult Intubation Registry.",
+      "status": "published",
+      "runId": "2026-08-28T06-55-30.313Z",
+      "firstPublishedAt": "2026-08-28T06:55:30.313Z"
+    },
+    {
+      "pmid": "40441984",
+      "doi": "10.1016/j.bja.2025.03.042",
+      "title": "Orexin signalling in the nucleus accumbens promotes arousal from isoflurane anaesthesia and restores communication between the nucleus accumbens and frontal cortex.",
+      "status": "published",
+      "runId": "2026-08-28T06-55-30.313Z",
+      "firstPublishedAt": "2026-08-28T06:55:30.313Z"
     }
   ]
 }
