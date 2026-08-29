@@ -1,7 +1,243 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T06:55:30.313Z",
+  "updatedAt": "2026-08-29T04:11:43.508Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-29T04:11:43.508Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-09-03T04:11:43.508Z",
+        "to": "2026-08-29T04:11:43.508Z",
+        "candidateCount": 485,
+        "discoveryCandidateCount": 20358,
+        "unseenCount": 345,
+        "duplicateCount": 140,
+        "priorityCandidateCount": 485,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 485,
+          "retrievedCount": 485,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 291,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 32
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of anesthesia and translational medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 345,
+          "eligibleCount": 304,
+          "excludedCount": 41,
+          "excludedByReason": {
+            "journal-not-configured": 41
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 255,
+          "clinical": 171,
+          "basic": 12,
+          "other": 72
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-40675839",
+          "title": "三级学术医疗中心手术室停用地氟烷对二氧化碳排放的影响：一项回顾性队列研究",
+          "originalTitle": "Impact of desflurane removal from the operating room on carbon dioxide emissions at a tertiary academic medical centre: a retrospective cohort study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在2014至2022年间，逐步限制并最终停用地氟烷使每例患者的二氧化碳当量排放显著降低，调整后限制使用和停用分别减少1.53 kg和0.50 kg。",
+          "pmid": "40675839"
+        },
+        {
+          "slug": "pmid-40903379",
+          "title": "围术期氯胺酮对腹部手术加速康复外科（ERAS）的影响（IMPAKT ERAS）：一项实用性随机单中心试验",
+          "originalTitle": "IMpact of PerioperAtive KeTamine on Enhanced Recovery After abdominal Surgery (IMPAKT ERAS): a pragmatic randomised single-cluster trial.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在接受腹部大手术并采用ERAS方案的患者中，围术期氯胺酮给药并未缩短住院时间或减少阿片类药物消耗，反而与ICU转入率增加、早期出院里程碑达标率降低以及更多严重不良事件相关。",
+          "pmid": "40903379"
+        },
+        {
+          "slug": "pmid-40866146",
+          "title": "小鼠内侧前额叶皮层锥体神经元放电与挥发性麻醉药镇静效能的关系",
+          "originalTitle": "Association between pyramidal neurone spiking in the medial prefrontal cortex and the sedative potency of volatile anaesthetics in mice.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "小鼠内侧前额叶皮层锥体神经元的兴奋性主要决定挥发性麻醉药的镇静效能，抑制锥体神经元可增强麻醉效能，而激活则减弱。",
+          "pmid": "40866146"
+        },
+        {
+          "slug": "pmid-41203472",
+          "title": "右美托咪定与丙泊酚在人类受试者中产生更接近睡眠的脑活动",
+          "originalTitle": "Dexmedetomidine produces more sleep-like brain activity compared with propofol in human participants.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在人类受试者中，右美托咪定麻醉引起的无反应状态在δ功率和网络熵变化上更接近N2期睡眠，而丙泊酚的δ功率变化较小且区域异质性较大，网络熵变化较大。",
+          "pmid": "41203472"
+        },
+        {
+          "slug": "pmid-40930873",
+          "title": "光声检测呼气中丙泊酚用于麻醉深度监测：从实验室到临床",
+          "originalTitle": "Photoacoustic detection of propofol in breath gas for monitoring depth of anaesthesia: from bench to bedside.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在10例接受丙泊酚麻醉的患者中，光声传感器与离子分子反应质谱法在呼气丙泊酚浓度测量上具有良好一致性（平均差-0.02 ppb），提示该技术有望用于临床麻醉深度监测，但仍需更大样本和更完善的原型验证。",
+          "pmid": "40930873"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-28T06:55:30.313Z",
       "search": {

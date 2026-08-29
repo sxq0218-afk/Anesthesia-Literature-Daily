@@ -1,7 +1,1569 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T06:55:30.313Z",
+  "updatedAt": "2026-08-29T04:11:43.508Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-29T04:11:43.508Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-09-03T04:11:43.508Z",
+        "to": "2026-08-29T04:11:43.508Z",
+        "candidateCount": 485,
+        "discoveryCandidateCount": 20358,
+        "unseenCount": 345,
+        "duplicateCount": 140,
+        "priorityCandidateCount": 485,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 485,
+          "retrievedCount": 485,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 291,
+            "impact-factor-stale": 2
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 32
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 7
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of anesthesia and translational medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 345,
+          "eligibleCount": 304,
+          "excludedCount": 41,
+          "excludedByReason": {
+            "journal-not-configured": 41
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 255,
+          "clinical": 171,
+          "basic": 12,
+          "other": 72
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 24,
+          "promptTokens": 94630,
+          "completionTokens": 24268,
+          "totalTokens": 118898
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40675839",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-12",
+          "electronicPublicationDate": "2025-07-16",
+          "readingTime": "11 分钟",
+          "title": "三级学术医疗中心手术室停用地氟烷对二氧化碳排放的影响：一项回顾性队列研究",
+          "originalTitle": "Impact of desflurane removal from the operating room on carbon dioxide emissions at a tertiary academic medical centre: a retrospective cohort study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "吸入麻醉药是医疗相关温室气体排放的来源之一。我们评估了美国一家学术医疗中心吸入麻醉的碳足迹随时间的变化，并确定了机构措施（移除地氟烷、限制新鲜气体流量和氧化亚氮使用）在减少二氧化碳当量排放方面的重要性。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "从2014年至2022年间接受吸入麻醉的124,428名患者中，根据七氟烷、异氟烷、地氟烷和氧化亚氮的吸气浓度以及新鲜气体流量的逐分钟记录，计算每位患者的二氧化碳当量排放。数据与每种气体的全球变暖潜能值相结合。采用中断时间序列分析，调整患者和手术因素，评估2018年6月逐步移除地氟烷和2020年1月完全消除地氟烷的影响。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "从2014年6月至2022年6月，每位患者的平均二氧化碳当量排放减少了82.8%，从平均83.1（中位数23.6 [四分位距10.1-107.8]）公斤降至14.3（中位数8.5 [4.2-15.9]）公斤。在调整分析中，限制使用地氟烷（每位患者-1.53公斤，95%置信区间-1.88至-1.18；P<0.001）及其后续消除（额外每位患者-0.50公斤，-0.80至-0.19；P=0.002）减少了二氧化碳当量排放。在消除之前，地氟烷是二氧化碳当量排放的主要贡献者（相对贡献74%）。消除后，氧化亚氮的使用（73%）和高新鲜气体流量（>3.42 L min(-1)，4%）成为二氧化碳当量排放的主要预测因素。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "消除地氟烷使麻醉相关的二氧化碳当量排放大幅减少，每年约900公吨。这项研究强调了挥发性麻醉药的选择以及氧化亚氮使用和新鲜气体流量等因素在最小化麻醉碳足迹中的重要性。"
+              }
+            ],
+            "fullText": "BACKGROUND: 吸入麻醉药是医疗相关温室气体排放的来源之一。我们评估了美国一家学术医疗中心吸入麻醉的碳足迹随时间的变化，并确定了机构措施（移除地氟烷、限制新鲜气体流量和氧化亚氮使用）在减少二氧化碳当量排放方面的重要性。 METHODS: 从2014年至2022年间接受吸入麻醉的124,428名患者中，根据七氟烷、异氟烷、地氟烷和氧化亚氮的吸气浓度以及新鲜气体流量的逐分钟记录，计算每位患者的二氧化碳当量排放。数据与每种气体的全球变暖潜能值相结合。采用中断时间序列分析，调整患者和手术因素，评估2018年6月逐步移除地氟烷和2020年1月完全消除地氟烷的影响。 RESULTS: 从2014年6月至2022年6月，每位患者的平均二氧化碳当量排放减少了82.8%，从平均83.1（中位数23.6 [四分位距10.1-107.8]）公斤降至14.3（中位数8.5 [4.2-15.9]）公斤。在调整分析中，限制使用地氟烷（每位患者-1.53公斤，95%置信区间-1.88至-1.18；P<0.001）及其后续消除（额外每位患者-0.50公斤，-0.80至-0.19；P=0.002）减少了二氧化碳当量排放。在消除之前，地氟烷是二氧化碳当量排放的主要贡献者（相对贡献74%）。消除后，氧化亚氮的使用（73%）和高新鲜气体流量（>3.42 L min(-1)，4%）成为二氧化碳当量排放的主要预测因素。 CONCLUSIONS: 消除地氟烷使麻醉相关的二氧化碳当量排放大幅减少，每年约900公吨。这项研究强调了挥发性麻醉药的选择以及氧化亚氮使用和新鲜气体流量等因素在最小化麻醉碳足迹中的重要性。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Seibold EL, Wachtendorf LJ, Needham MJ, Munoz-Acuna R, Redaelli S, Suleiman A, von Wedel D, Ratajczak N, et al.",
+          "citation": "Br J Anaesth. 2025 Dec;135(6):1635-1644. doi: 10.1016/j.bja.2025.05.031. Epub 2025 Jul 16.",
+          "doi": "10.1016/j.bja.2025.05.031",
+          "pmid": "40675839",
+          "pmcid": null,
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "吸入麻醉药是医疗相关温室气体排放的重要来源，减少其使用有助于降低医疗碳足迹，对应对气候变化具有重要意义。",
+          "conclusion": "在2014至2022年间，逐步限制并最终停用地氟烷使每例患者的二氧化碳当量排放显著降低，调整后限制使用和停用分别减少1.53 kg和0.50 kg。",
+          "clinical": "停用地氟烷可显著减少麻醉相关的二氧化碳当量排放，每年约减少900公吨。 麻醉医师应重视挥发性麻醉药的选择，并关注一氧化二氮使用和新鲜气体流量对碳足迹的影响。",
+          "evidence": "中等",
+          "score": 56,
+          "scoreBreakdown": {
+            "relevance": 22,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "回顾性队列研究，采用中断时间序列分析，调整患者和手术因素。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "patients undergoing inhalational anaesthesia between 2014 and 2022；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "gradual removal of desflurane from operating rooms in June 2018 and its complete elimination in January 2020；对照：before and after desflurane removal"
+            },
+            {
+              "label": "主要终点",
+              "value": "CO2e-emissions per patient"
+            }
+          ],
+          "keyPoints": [
+            "停用地氟烷显著降低每例患者的二氧化碳当量排放。",
+            "限制使用和停用地氟烷分别减少1.53 kg和0.50 kg/患者。",
+            "停用后，一氧化二氮和高新鲜气体流量成为主要排放来源。"
+          ],
+          "methods": "吸入麻醉药是医疗相关温室气体排放的重要来源。本研究评估了美国一家学术医疗中心吸入麻醉的碳足迹随时间的变化，并确定机构措施（停用地氟烷、限制新鲜气体流量和一氧化二氮使用）在减少二氧化碳当量排放中的相对重要性。",
+          "results": "从2014年6月至2022年6月，每例患者的平均二氧化碳当量排放降低了82.8%，从平均83.1 kg（中位数23.6，IQR 10.1-107.8）降至14.3 kg（中位数8.5，IQR 4.2-15.9）。调整分析显示，限制使用地氟烷（-1.53 kg/患者，95%CI -1.88至-1.18；P<0.001）和随后停用（额外-0.50 kg/患者，95%CI -0.80至-0.19；P=0.002）均显著减少排放。停用前，地氟烷是排放的主要贡献者（相对贡献74%）；停用后，一氧化二氮（73%）和高新鲜气体流量（>3.42 L/min，4%）成为主要预测因素。",
+          "mainResults": "从2014年6月至2022年6月，每例患者的平均二氧化碳当量排放降低了82.8%，从平均83.1 kg（中位数23.6，IQR 10.1-107.8）降至14.3 kg（中位数8.5，IQR 4.2-15.9）。调整分析显示，限制使用地氟烷（-1.53 kg/患者，95%CI -1.88至-1.18；P<0.001）和随后停用（额外-0.50 kg/患者，95%CI -0.80至-0.19；P=0.002）均显著减少排放。停用前，地氟烷是排放的主要贡献者（相对贡献74%）；停用后，一氧化二氮（73%）和高新鲜气体流量（>3.42 L/min，4%）成为主要预测因素。",
+          "limitations": [
+            "当前可获取内容未提供该研究的局限性信息。"
+          ],
+          "practice": [
+            "停用地氟烷可显著减少麻醉相关的二氧化碳当量排放，每年约减少900公吨。",
+            "麻醉医师应重视挥发性麻醉药的选择，并关注一氧化二氮使用和新鲜气体流量对碳足迹的影响。"
+          ],
+          "editor": "研究结果支持停用地氟烷可显著降低麻醉相关二氧化碳排放，但需注意其观察性设计。 过度解读风险：存在将观察性关联解释为因果关系的风险，且未报告患者结局或安全性数据，不应过度解读为临床获益。",
+          "whyItMatters": "吸入麻醉药是医疗相关温室气体排放的重要来源，减少其使用有助于降低医疗碳足迹，对应对气候变化具有重要意义。",
+          "background": "吸入麻醉药是医疗相关温室气体排放的重要来源。本研究评估了美国一家学术医疗中心吸入麻醉的碳足迹随时间的变化，并确定机构措施（停用地氟烷、限制新鲜气体流量和一氧化二氮使用）在减少二氧化碳当量排放中的相对重要性。",
+          "pico": {
+            "population": "patients undergoing inhalational anaesthesia between 2014 and 2022",
+            "intervention": "gradual removal of desflurane from operating rooms in June 2018 and its complete elimination in January 2020",
+            "comparison": "before and after desflurane removal",
+            "outcome": "CO2e-emissions per patient"
+          },
+          "studyType": "回顾性队列研究，采用中断时间序列分析，调整患者和手术因素。",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "CO2e-emissions per patient",
+          "effectSize": [
+            "-1.53 kg per patient",
+            "-0.50 kg per patient"
+          ],
+          "confidenceInterval": [
+            "-1.88 to -1.18",
+            "-0.80 to -0.19"
+          ],
+          "pValue": [
+            "<0.001",
+            "0.002"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持停用地氟烷可显著降低麻醉相关二氧化碳排放，但需注意其观察性设计。",
+            "overinterpretationRisk": "存在将观察性关联解释为因果关系的风险，且未报告患者结局或安全性数据，不应过度解读为临床获益。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "abstract",
+              "limitations": [
+                "仅基于摘要，未获取全文，无法评估详细方法学、偏倚风险和局限性。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估美国学术医疗中心吸入麻醉碳足迹随时间的变化，并确定机构措施（停用地氟烷、限制FGF和N2O）对减少CO2e排放的相对重要性。",
+              "designFit": "回顾性队列研究设计适合评估干预措施在真实世界中的影响，但缺乏随机化，可能存在混杂。",
+              "eligibility": "2014年至2022年间接受吸入麻醉的124,428例患者。",
+              "randomization": "未进行随机化。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "未报告。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "2014年6月至2022年6月。",
+              "analysisPopulation": "124,428例接受吸入麻醉的患者。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "大样本量（124,428例）",
+                "使用分钟级记录计算排放，数据详细",
+                "采用中断时间序列分析调整患者和手术因素"
+              ],
+              "concerns": [
+                "观察性设计可能存在混杂",
+                "未报告患者结局或安全性数据",
+                "未提供局限性信息"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "中断时间序列分析",
+                  "purposeInStudy": "评估地氟烷限制和停用对CO2e排放的影响",
+                  "reportedResult": "限制使用：-1.53 kg/患者（95%CI -1.88至-1.18；P<0.001）；停用：额外-0.50 kg/患者（95%CI -0.80至-0.19；P=0.002）",
+                  "interpretation": "限制和停用地氟烷均显著减少排放，但效应量较小。",
+                  "cautions": [
+                    "观察性设计，可能存在未测量的混杂因素",
+                    "未报告模型诊断或敏感性分析"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "患者和手术因素（具体变量未在摘要中列出）",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "统计显著，但临床意义需结合环境效益评估；未报告患者临床结局。"
+            },
+            "outcomeAnalysis": {
+              "primary": "每例患者的CO2e排放（kg）",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "报告了绝对降低值（-1.53 kg和-0.50 kg）和相对降低（82.8%）。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "大样本量",
+                "详细的数据记录",
+                "调整了患者和手术因素"
+              ],
+              "limitations": [
+                "观察性设计",
+                "未报告患者结局",
+                "未提供局限性信息"
+              ],
+              "biasRisks": [
+                "选择偏倚",
+                "混杂偏倚",
+                "信息偏倚（依赖记录准确性）"
+              ],
+              "certainty": "中等（观察性研究，但设计合理）",
+              "conclusionAlignment": "结论与结果一致，但需注意因果推断的局限性。",
+              "causalBoundary": "观察性关联，不能直接推断因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于类似学术医疗中心，有地氟烷使用且关注碳足迹的机构。"
+              ],
+              "nonApplicability": [
+                "不适用于资源有限或无法替代地氟烷的机构。"
+              ],
+              "practiceChange": "可能促使麻醉科考虑减少地氟烷使用，并关注N2O和FGF管理。",
+              "canDoNow": [
+                "评估本机构地氟烷使用情况，考虑逐步限制或停用。",
+                "优化新鲜气体流量和一氧化二氮使用。"
+              ],
+              "cannotConclude": [
+                "不能得出停用地氟烷对患者临床结局影响的结论。",
+                "不能推广到其他麻醉药物或环境。"
+              ],
+              "evidenceGaps": [
+                "缺乏患者安全性数据",
+                "缺乏成本效益分析",
+                "缺乏多中心验证"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40675839/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.05.031",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.05.031",
+            "openFullText": null
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40903379",
+          "number": "02",
+          "category": "麻醉学",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-12",
+          "electronicPublicationDate": "2025-09-03",
+          "readingTime": "13 分钟",
+          "title": "围术期氯胺酮对腹部手术加速康复外科（ERAS）的影响（IMPAKT ERAS）：一项实用性随机单中心试验",
+          "originalTitle": "IMpact of PerioperAtive KeTamine on Enhanced Recovery After abdominal Surgery (IMPAKT ERAS): a pragmatic randomised single-cluster trial.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "尽管氯胺酮已广泛纳入加速康复外科（ERAS）方案，但关于其对围手术期结局具体影响的研究有限。这项实用性、随机、双盲、安慰剂对照、单中心整群试验评估了在既定ERAS方案下，氯胺酮对接受大型腹部手术患者术后结局的影响。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "年龄≥18岁的男性和女性患者被随机分配至全身麻醉诱导时接受氯胺酮或生理盐水安慰剂推注，随后在术中和术后持续输注48小时。主要结局是住院时间。次要结局包括阿片类药物总消耗量以及副作用和不良事件的发生率。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "共纳入1522例患者。在协变量校正分析中，与安慰剂相比，氯胺酮给药并未缩短住院时间（比值比[OR] 1.21；95%置信区间[CI] 1.00-1.47）或减少阿片类药物消耗量（OR 0.85；95% CI 0.71-1.01）。接受氯胺酮的患者转入ICU的几率更高（OR 2.03；95% CI 1.14-3.63），达到早期出院标准的几率更低（OR 0.68；95% CI 0.50-0.93）。快速反应系统激活（OR 1.51；95% CI 0.85-2.68）和需要鼻胃减压的肠梗阻（OR 1.26；95% CI 0.87-1.84）在两组间相似。接受氯胺酮的患者出现致残性头晕（OR 6.05；95% CI 3.02-12.11）、致残性幻觉（OR 2.69；95% CI 1.09-6.65）和其他严重副作用（OR 1.94；95% CI 1.27-2.96）的发生率更高。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "在腹部多模式ERAS方案中加入氯胺酮并未带来显著获益，且与更差的围手术期结局相关。"
+              },
+              {
+                "heading": "CLINICAL TRIAL REGISTRATION",
+                "text": "NCT04625283。"
+              }
+            ],
+            "fullText": "BACKGROUND: 尽管氯胺酮已广泛纳入加速康复外科（ERAS）方案，但关于其对围手术期结局具体影响的研究有限。这项实用性、随机、双盲、安慰剂对照、单中心整群试验评估了在既定ERAS方案下，氯胺酮对接受大型腹部手术患者术后结局的影响。 METHODS: 年龄≥18岁的男性和女性患者被随机分配至全身麻醉诱导时接受氯胺酮或生理盐水安慰剂推注，随后在术中和术后持续输注48小时。主要结局是住院时间。次要结局包括阿片类药物总消耗量以及副作用和不良事件的发生率。 RESULTS: 共纳入1522例患者。在协变量校正分析中，与安慰剂相比，氯胺酮给药并未缩短住院时间（比值比[OR] 1.21；95%置信区间[CI] 1.00-1.47）或减少阿片类药物消耗量（OR 0.85；95% CI 0.71-1.01）。接受氯胺酮的患者转入ICU的几率更高（OR 2.03；95% CI 1.14-3.63），达到早期出院标准的几率更低（OR 0.68；95% CI 0.50-0.93）。快速反应系统激活（OR 1.51；95% CI 0.85-2.68）和需要鼻胃减压的肠梗阻（OR 1.26；95% CI 0.87-1.84）在两组间相似。接受氯胺酮的患者出现致残性头晕（OR 6.05；95% CI 3.02-12.11）、致残性幻觉（OR 2.69；95% CI 1.09-6.65）和其他严重副作用（OR 1.94；95% CI 1.27-2.96）的发生率更高。 CONCLUSIONS: 在腹部多模式ERAS方案中加入氯胺酮并未带来显著获益，且与更差的围手术期结局相关。 CLINICAL TRIAL REGISTRATION: NCT04625283。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Raymond BL, Allen BFS, Freundlich RE, McEvoy MD, Parrish CG, Ruble SR, Scharfman KH, Wanderer JP, et al.",
+          "citation": "Br J Anaesth. 2025 Dec;135(6):1770-1778. doi: 10.1016/j.bja.2025.08.001. Epub 2025 Sep 3.",
+          "doi": "10.1016/j.bja.2025.08.001",
+          "pmid": "40903379",
+          "pmcid": "PMC12799394",
+          "publicationTypes": [
+            "Clinical Trial, Phase IV",
+            "Journal Article",
+            "Pragmatic Clinical Trial"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Clinical Trial, Phase IV",
+            "Journal Article"
+          ],
+          "question": "氯胺酮已被广泛纳入ERAS方案，但其对围术期结局的具体影响缺乏高质量证据。该实用性随机试验提供了直接证据，提示在腹部手术ERAS路径中常规添加氯胺酮可能并无获益，反而可能增加不良事件风险，对临床实践具有重要警示意义。",
+          "conclusion": "在接受腹部大手术并采用ERAS方案的患者中，围术期氯胺酮给药并未缩短住院时间或减少阿片类药物消耗，反而与ICU转入率增加、早期出院里程碑达标率降低以及更多严重不良事件相关。",
+          "clinical": "在腹部手术ERAS方案中常规添加围术期氯胺酮可能不会带来住院时间或阿片消耗的获益，反而可能增加ICU转入和严重副作用风险。 麻醉科医师应重新评估氯胺酮在ERAS路径中的常规使用，并权衡潜在风险与获益。 对于存在氯胺酮副作用高风险的患者（如易发生头晕、幻觉者），应谨慎使用或避免使用。",
+          "evidence": "中等",
+          "score": 54,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实用性、随机、双盲、安慰剂对照、单中心试验"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Male and female patients, aged ≥18 yr, undergoing elective abdominal surgery within colorectal, surgical oncology, or complex ventral hernia ERAS pathways；1522 patients included (targeted 1544)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Ketamine bolus 0.5 mg kg−1 i.v. at induction, followed by intraoperative infusion 5 μg kg−1 min−1 until fascial closure, then postoperative infusion 2.5 μg kg−1 min−1 for 48 h；对照：Saline placebo bolus and infusion"
+            },
+            {
+              "label": "主要终点",
+              "value": "Hospital length of stay"
+            }
+          ],
+          "keyPoints": [
+            "氯胺酮未缩短住院时间（OR 1.21；95% CI 1.00-1.47）。",
+            "氯胺酮未减少阿片类药物消耗（OR 0.85；95% CI 0.71-1.01）。",
+            "氯胺酮组ICU转入几率增加（OR 2.03；95% CI 1.14-3.63）。",
+            "氯胺酮组早期出院里程碑达标几率降低（OR 0.68；95% CI 0.50-0.93）。",
+            "氯胺酮组致残性头晕、幻觉及其他严重副作用发生率更高。"
+          ],
+          "methods": "尽管氯胺酮已被广泛纳入加速康复外科（ERAS）方案，但关于其对围术期结局具体影响的研究有限。该实用性、随机、双盲、安慰剂对照、单中心试验评估了在既定ERAS方案下，氯胺酮对接受重大腹部手术患者术后结局的影响。",
+          "results": "共纳入1522例患者（目标1544例）。在协变量校正分析中，氯胺酮组与安慰剂组相比，住院时间未缩短（OR 1.21；95% CI 1.00-1.47），阿片类药物消耗未减少（OR 0.85；95% CI 0.71-1.01）。氯胺酮组ICU转入几率更高（OR 2.03；95% CI 1.14-3.63），早期出院里程碑达标几率更低（OR 0.68；95% CI 0.50-0.93）。快速反应系统激活（OR 1.51；95% CI 0.85-2.68）和需要鼻胃管减压的肠梗阻（OR 1.26；95% CI 0.87-1.84）两组相似。氯胺酮组致残性头晕（OR 6.05；95% CI 3.02-12.11）、致残性幻觉（OR 2.69；95% CI 1.09-6.65）和其他严重副作用（OR 1.94；95% CI 1.27-2.96）发生率更高。",
+          "mainResults": "共纳入1522例患者（目标1544例）。在协变量校正分析中，氯胺酮组与安慰剂组相比，住院时间未缩短（OR 1.21；95% CI 1.00-1.47），阿片类药物消耗未减少（OR 0.85；95% CI 0.71-1.01）。氯胺酮组ICU转入几率更高（OR 2.03；95% CI 1.14-3.63），早期出院里程碑达标几率更低（OR 0.68；95% CI 0.50-0.93）。快速反应系统激活（OR 1.51；95% CI 0.85-2.68）和需要鼻胃管减压的肠梗阻（OR 1.26；95% CI 0.87-1.84）两组相似。氯胺酮组致残性头晕（OR 6.05；95% CI 3.02-12.11）、致残性幻觉（OR 2.69；95% CI 1.09-6.65）和其他严重副作用（OR 1.94；95% CI 1.27-2.96）发生率更高。",
+          "limitations": [
+            "单中心试验，聚焦于结直肠、腹壁疝和外科肿瘤患者，限制了普遍性。",
+            "未评估氯胺酮在非腹部手术中的效果。",
+            "未纳入患者报告结局。",
+            "未评估与其他多模式镇痛成分的相互作用。",
+            "未对多重比较进行校正，增加了I类错误风险。"
+          ],
+          "practice": [
+            "在腹部手术ERAS方案中常规添加围术期氯胺酮可能不会带来住院时间或阿片消耗的获益，反而可能增加ICU转入和严重副作用风险。",
+            "麻醉科医师应重新评估氯胺酮在ERAS路径中的常规使用，并权衡潜在风险与获益。",
+            "对于存在氯胺酮副作用高风险的患者（如易发生头晕、幻觉者），应谨慎使用或避免使用。"
+          ],
+          "editor": "该研究为实用性随机双盲安慰剂对照试验，样本量较大，主要结局和次要结局均有明确的效应量和95%置信区间，结果支持氯胺酮未带来获益且可能有害的结论。 过度解读风险：需注意单中心设计可能限制外推性；未校正多重比较可能增加假阳性风险；OR值在结局常见时不能直接解释为风险比，需谨慎解读效应大小。",
+          "whyItMatters": "氯胺酮已被广泛纳入ERAS方案，但其对围术期结局的具体影响缺乏高质量证据。该实用性随机试验提供了直接证据，提示在腹部手术ERAS路径中常规添加氯胺酮可能并无获益，反而可能增加不良事件风险，对临床实践具有重要警示意义。",
+          "background": "尽管氯胺酮已被广泛纳入加速康复外科（ERAS）方案，但关于其对围术期结局具体影响的研究有限。该实用性、随机、双盲、安慰剂对照、单中心试验评估了在既定ERAS方案下，氯胺酮对接受重大腹部手术患者术后结局的影响。",
+          "pico": {
+            "population": "Male and female patients, aged ≥18 yr, undergoing elective abdominal surgery within colorectal, surgical oncology, or complex ventral hernia ERAS pathways",
+            "intervention": "Ketamine bolus 0.5 mg kg−1 i.v. at induction, followed by intraoperative infusion 5 μg kg−1 min−1 until fascial closure, then postoperative infusion 2.5 μg kg−1 min−1 for 48 h",
+            "comparison": "Saline placebo bolus and infusion",
+            "outcome": "Hospital length of stay"
+          },
+          "studyType": "实用性、随机、双盲、安慰剂对照、单中心试验",
+          "sampleSize": "1522 patients included (targeted 1544)",
+          "primaryOutcome": "Hospital length of stay",
+          "effectSize": [
+            "OR 1.21",
+            "OR 0.85",
+            "OR 2.03",
+            "OR 0.68",
+            "OR 1.51",
+            "OR 1.26",
+            "OR 6.05",
+            "OR 2.69",
+            "OR 1.94"
+          ],
+          "confidenceInterval": [
+            "95% CI 1.00-1.47",
+            "95% CI 0.71-1.01",
+            "95% CI 1.14-3.63",
+            "95% CI 0.50-0.93",
+            "95% CI 0.85-2.68",
+            "95% CI 0.87-1.84",
+            "95% CI 3.02-12.11",
+            "95% CI 1.09-6.65",
+            "95% CI 1.27-2.96"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "Higher rates of debilitating dizziness, debilitating hallucinations, and other severe side-effects in ketamine group. No significant difference in rapid response activation or ileus requiring nasogastric decompression.",
+          "aiAssessment": {
+            "support": "该研究为实用性随机双盲安慰剂对照试验，样本量较大，主要结局和次要结局均有明确的效应量和95%置信区间，结果支持氯胺酮未带来获益且可能有害的结论。",
+            "overinterpretationRisk": "需注意单中心设计可能限制外推性；未校正多重比较可能增加假阳性风险；OR值在结局常见时不能直接解释为风险比，需谨慎解读效应大小。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，未包含完整的统计方法细节、随机化具体流程、样本量计算依据、缺失数据处理等。",
+                "未提供患者基线特征表、流程图、亚组分析结果等详细信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "在既定ERAS方案下，围术期氯胺酮给药对接受重大腹部手术患者术后结局（主要住院时间）的影响。",
+              "designFit": "实用性随机双盲安慰剂对照试验设计适合评估干预在真实临床环境中的效果，但单中心设计限制了外部有效性。",
+              "eligibility": "年龄≥18岁，接受择期腹部手术（结直肠、外科肿瘤或复杂腹壁疝ERAS路径）的患者。",
+              "randomization": "随机化方法未在摘要中详细描述，当前可获取内容未提供该数据。",
+              "allocationConcealment": "分配隐藏方法未在摘要中详细描述，当前可获取内容未提供该数据。",
+              "blinding": "双盲设计，但具体盲法实施细节（如安慰剂匹配、评估者盲法）未在摘要中详细描述。",
+              "sampleSizePlanning": "目标样本量1544例，实际纳入1522例，但样本量计算依据未在摘要中提供。",
+              "followUp": "随访时间未明确报告，当前可获取内容未提供该数据。",
+              "analysisPopulation": "分析人群未明确说明（意向性治疗或符合方案集），当前可获取内容未提供该数据。",
+              "missingData": "缺失数据处理方法未报告，当前可获取内容未提供该数据。",
+              "strengths": [
+                "实用性随机双盲安慰剂对照设计，减少偏倚。",
+                "样本量较大（1522例）。",
+                "结局指标包括临床相关事件（ICU转入、副作用等）。"
+              ],
+              "concerns": [
+                "单中心设计限制外推性。",
+                "未校正多重比较，增加I类错误风险。",
+                "未纳入患者报告结局。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "logistic-regression",
+                  "name": "Logistic回归",
+                  "purposeInStudy": "用于分析二分类结局（如ICU转入、早期出院里程碑达标、副作用发生等），并计算比值比（OR）及95%置信区间。",
+                  "reportedResult": "住院时间OR 1.21 (95% CI 1.00-1.47)；阿片消耗OR 0.85 (95% CI 0.71-1.01)；ICU转入OR 2.03 (95% CI 1.14-3.63)；早期出院里程碑OR 0.68 (95% CI 0.50-0.93)；快速反应激活OR 1.51 (95% CI 0.85-2.68)；肠梗阻OR 1.26 (95% CI 0.87-1.84)；致残性头晕OR 6.05 (95% CI 3.02-12.11)；致残性幻觉OR 2.69 (95% CI 1.09-6.65)；其他严重副作用OR 1.94 (95% CI 1.27-2.96)。",
+                  "interpretation": "氯胺酮组住院时间、阿片消耗、快速反应激活、肠梗阻的OR值置信区间包含1或接近1，提示无显著差异；ICU转入、早期出院里程碑、副作用等OR值置信区间不包含1，提示有统计学差异。",
+                  "cautions": [
+                    "OR值在结局常见时不能直接解释为风险比，可能高估效应大小。",
+                    "未校正多重比较，可能增加假阳性风险。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "协变量校正分析，但具体校正变量未在摘要中列出，当前可获取内容未提供该数据。",
+              "multiplicity": "未对多重比较进行校正，增加了I类错误风险。",
+              "subgroupAnalysis": "未报告亚组分析结果，当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "虽然部分次要结局（如ICU转入、早期出院里程碑、副作用）有统计学差异，但主要结局（住院时间）无统计学差异，且临床获益未显现，反而可能增加危害。"
+            },
+            "outcomeAnalysis": {
+              "primary": "住院时间：氯胺酮组未缩短（OR 1.21；95% CI 1.00-1.47），无统计学差异。",
+              "secondary": [
+                "总阿片类药物消耗（口服吗啡当量）：氯胺酮组未减少（OR 0.85；95% CI 0.71-1.01）。",
+                "早期出院里程碑（<48小时）：氯胺酮组达标几率更低（OR 0.68；95% CI 0.50-0.93）。",
+                "ICU转入：氯胺酮组几率更高（OR 2.03；95% CI 1.14-3.63）。",
+                "快速反应系统激活：两组相似（OR 1.51；95% CI 0.85-2.68）。",
+                "需要鼻胃管减压的肠梗阻：两组相似（OR 1.26；95% CI 0.87-1.84）。"
+              ],
+              "safety": "氯胺酮组致残性头晕（OR 6.05；95% CI 3.02-12.11）、致残性幻觉（OR 2.69；95% CI 1.09-6.65）和其他严重副作用（OR 1.94；95% CI 1.27-2.96）发生率更高。",
+              "absoluteVsRelative": "摘要仅报告了OR值，未提供绝对风险或风险差，当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "未报告亚组或交互作用分析，当前可获取内容未提供该数据。",
+              "sensitivity": "未报告敏感性分析，当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "随机双盲安慰剂对照设计，减少选择和信息偏倚。",
+                "实用性设计反映真实临床环境。",
+                "样本量较大，主要结局有明确效应估计。"
+              ],
+              "limitations": [
+                "单中心设计限制外推性。",
+                "未校正多重比较。",
+                "未纳入患者报告结局。",
+                "未评估与其他多模式镇痛成分的相互作用。"
+              ],
+              "biasRisks": [
+                "单中心可能引入选择偏倚（但随机化可减少）。",
+                "未报告分配隐藏和盲法细节，可能存在实施偏倚。",
+                "未报告缺失数据，可能存在随访偏倚。"
+              ],
+              "certainty": "中等确定性：随机双盲设计但单中心、未校正多重比较，且摘要信息有限。",
+              "conclusionAlignment": "结论与结果一致：氯胺酮未提供显著获益，且与更差的围术期结局相关。",
+              "causalBoundary": "由于是随机试验，可推断因果关系，但单中心设计限制外推性，且未校正多重比较可能影响部分次要结局的因果解释。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于接受腹部手术并采用ERAS路径的成年患者。",
+                "结果提示在类似ERAS方案中常规添加氯胺酮可能无益。"
+              ],
+              "nonApplicability": [
+                "不适用于非腹部手术或未采用ERAS路径的患者。",
+                "不适用于儿童、孕妇等特殊人群。"
+              ],
+              "practiceChange": "可能促使麻醉科医师重新评估氯胺酮在腹部手术ERAS中的常规使用，但需更多多中心研究确认。",
+              "canDoNow": [
+                "在腹部手术ERAS中，可考虑不常规使用氯胺酮，除非有明确个体化指征。",
+                "对使用氯胺酮的患者，应加强监测头晕、幻觉等副作用。"
+              ],
+              "cannotConclude": [
+                "不能排除氯胺酮在其他手术类型或特定亚组中的潜在获益。",
+                "不能确定氯胺酮的最佳剂量或给药时机。",
+                "不能评估长期结局（如慢性疼痛、生活质量）。"
+              ],
+              "evidenceGaps": [
+                "需要多中心试验验证结果。",
+                "需要评估不同剂量、给药时机和手术类型。",
+                "需要纳入患者报告结局和长期随访。",
+                "需要评估与其他多模式镇痛药物的相互作用。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40903379/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.08.001",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.08.001",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12799394/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40866146",
+          "number": "03",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-10",
+          "electronicPublicationDate": "2025-08-26",
+          "readingTime": "10 分钟",
+          "title": "小鼠内侧前额叶皮层锥体神经元放电与挥发性麻醉药镇静效能的关系",
+          "originalTitle": "Association between pyramidal neurone spiking in the medial prefrontal cortex and the sedative potency of volatile anaesthetics in mice.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "挥发性麻醉药诱导意识消失的机制仍不清楚。大脑皮层回路中的谷氨酸能锥体神经元和快速放电中间神经元在挥发性麻醉下的皮层网络动力学中扮演不同角色。我们研究了内侧前额叶皮层（mPFC）锥体神经元和快速放电中间神经元在挥发性麻醉诱导催眠中的作用。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "通过体内多通道记录和体外膜片钳电生理记录，探索了锥体神经元和快速放电小清蛋白（PV(+)）神经元的电生理特性。使用化学遗传学操作测试mPFC中锥体神经元在挥发性麻醉诱导意识消失中的作用。通过PV(+)神经元中的Na(v)1.1敲低，利用PV(+)依赖性去抑制来调节锥体神经元的活动，并研究锥体神经元激活在挥发性麻醉诱导意识消失中的作用。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在mPFC中识别出具有不同放电特性的规则放电锥体神经元和快速放电PV(+)神经元。七氟烷抑制了锥体神经元的放电频率和动作电位特征。化学遗传学抑制mPFC中的锥体神经元增强了挥发性麻醉药的效力，而化学遗传学激活则产生相反结果。七氟烷也抑制了快速放电PV(+)神经元的放电，其抑制比率高于规则锥体神经元；然而，七氟烷不影响PV(+)神经元的动作电位特性。PV(+)神经元中的Na(v)1.1敲低增强了七氟烷介导的PV(+)神经元活动抑制，导致锥体神经元去抑制并降低催眠效力。"
+              },
+              {
+                "heading": "CONCLUSION",
+                "text": "mPFC中锥体神经元的兴奋性主要决定小鼠挥发性麻醉药的镇静效力。"
+              }
+            ],
+            "fullText": "BACKGROUND: 挥发性麻醉药诱导意识消失的机制仍不清楚。大脑皮层回路中的谷氨酸能锥体神经元和快速放电中间神经元在挥发性麻醉下的皮层网络动力学中扮演不同角色。我们研究了内侧前额叶皮层（mPFC）锥体神经元和快速放电中间神经元在挥发性麻醉诱导催眠中的作用。 METHODS: 通过体内多通道记录和体外膜片钳电生理记录，探索了锥体神经元和快速放电小清蛋白（PV(+)）神经元的电生理特性。使用化学遗传学操作测试mPFC中锥体神经元在挥发性麻醉诱导意识消失中的作用。通过PV(+)神经元中的Na(v)1.1敲低，利用PV(+)依赖性去抑制来调节锥体神经元的活动，并研究锥体神经元激活在挥发性麻醉诱导意识消失中的作用。 RESULTS: 在mPFC中识别出具有不同放电特性的规则放电锥体神经元和快速放电PV(+)神经元。七氟烷抑制了锥体神经元的放电频率和动作电位特征。化学遗传学抑制mPFC中的锥体神经元增强了挥发性麻醉药的效力，而化学遗传学激活则产生相反结果。七氟烷也抑制了快速放电PV(+)神经元的放电，其抑制比率高于规则锥体神经元；然而，七氟烷不影响PV(+)神经元的动作电位特性。PV(+)神经元中的Na(v)1.1敲低增强了七氟烷介导的PV(+)神经元活动抑制，导致锥体神经元去抑制并降低催眠效力。 CONCLUSION: mPFC中锥体神经元的兴奋性主要决定小鼠挥发性麻醉药的镇静效力。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Leng Y, Yang Y, Li Q, Wu Y, Huang H, Liang P, Zhang D, Zhou C, et al.",
+          "citation": "Br J Anaesth. 2025 Oct;135(4):965-976. doi: 10.1016/j.bja.2025.07.046. Epub 2025 Aug 26.",
+          "doi": "10.1016/j.bja.2025.07.046",
+          "pmid": "40866146",
+          "pmcid": "PMC12674074",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "该研究揭示了内侧前额叶皮层锥体神经元在挥发性麻醉药诱导意识消失中的关键作用，为理解麻醉机制和开发更精准的麻醉调控策略提供了神经生物学基础。",
+          "conclusion": "小鼠内侧前额叶皮层锥体神经元的兴奋性主要决定挥发性麻醉药的镇静效能，抑制锥体神经元可增强麻醉效能，而激活则减弱。",
+          "clinical": "该研究为理解挥发性麻醉药诱导意识消失的神经机制提供了新见解，提示mPFC锥体神经元活性是麻醉效能的重要决定因素。 未来可能通过调节mPFC锥体神经元活性来优化麻醉深度，但需进一步研究验证。",
+          "evidence": "中等",
+          "score": 47,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "实验研究（基础研究，非人类模型）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "mice；当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "干预与比较",
+              "value": "chemogenetic manipulation of pyramidal neurones; Na(v)1.1 knockdown in PV(+) neurones；对照：当前可获取内容未提供该数据。"
+            },
+            {
+              "label": "主要终点",
+              "value": "sedative potency of volatile anaesthetics"
+            }
+          ],
+          "keyPoints": [
+            "七氟烷抑制mPFC锥体神经元放电频率和动作电位特征。",
+            "化学遗传学抑制锥体神经元增强麻醉效能，激活则减弱。",
+            "七氟烷对PV(+)中间神经元的抑制率高于锥体神经元，但不影响其动作电位特性。",
+            "PV(+)神经元中Na(v)1.1敲低导致锥体神经元去抑制，降低催眠效能。"
+          ],
+          "methods": "挥发性麻醉药诱导意识消失的机制尚不清楚。大脑皮层回路中的谷氨酸能锥体神经元和快速放电中间神经元在挥发性麻醉下的皮层网络动态中扮演不同角色。本研究探讨了内侧前额叶皮层（mPFC）锥体神经元和快速放电中间神经元在挥发性麻醉药诱导催眠中的作用。",
+          "results": "七氟烷抑制锥体神经元放电频率和动作电位特征。化学遗传学抑制mPFC锥体神经元增强挥发性麻醉药效能，而激活则产生相反效果。七氟烷也抑制快速放电PV(+)神经元放电，且抑制率高于规则放电锥体神经元；但七氟烷不影响PV(+)神经元动作电位特性。PV(+)神经元中Na(v)1.1敲低增强了七氟烷介导的PV(+)神经元活性抑制，导致锥体神经元去抑制并降低催眠效能。当前可获取内容未提供样本量、效应量、95%CI和P值。",
+          "mainResults": "七氟烷抑制锥体神经元放电频率和动作电位特征。化学遗传学抑制mPFC锥体神经元增强挥发性麻醉药效能，而激活则产生相反效果。七氟烷也抑制快速放电PV(+)神经元放电，且抑制率高于规则放电锥体神经元；但七氟烷不影响PV(+)神经元动作电位特性。PV(+)神经元中Na(v)1.1敲低增强了七氟烷介导的PV(+)神经元活性抑制，导致锥体神经元去抑制并降低催眠效能。当前可获取内容未提供样本量、效应量、95%CI和P值。",
+          "limitations": [
+            "当前可获取内容未提供研究局限性信息。",
+            "作为基础研究，结果不能直接推广到临床。"
+          ],
+          "practice": [
+            "该研究为理解挥发性麻醉药诱导意识消失的神经机制提供了新见解，提示mPFC锥体神经元活性是麻醉效能的重要决定因素。",
+            "未来可能通过调节mPFC锥体神经元活性来优化麻醉深度，但需进一步研究验证。"
+          ],
+          "editor": "研究结果支持mPFC锥体神经元兴奋性在挥发性麻醉药镇静效能中的关键作用，但缺乏效应量和统计显著性数据。 过度解读风险：需注意将动物实验结果外推至人类存在风险，且观察到的关联不能直接证明因果关系。",
+          "whyItMatters": "该研究揭示了内侧前额叶皮层锥体神经元在挥发性麻醉药诱导意识消失中的关键作用，为理解麻醉机制和开发更精准的麻醉调控策略提供了神经生物学基础。",
+          "background": "挥发性麻醉药诱导意识消失的机制尚不清楚。大脑皮层回路中的谷氨酸能锥体神经元和快速放电中间神经元在挥发性麻醉下的皮层网络动态中扮演不同角色。本研究探讨了内侧前额叶皮层（mPFC）锥体神经元和快速放电中间神经元在挥发性麻醉药诱导催眠中的作用。",
+          "pico": {
+            "population": "mice",
+            "intervention": "chemogenetic manipulation of pyramidal neurones; Na(v)1.1 knockdown in PV(+) neurones",
+            "comparison": "当前可获取内容未提供该数据。",
+            "outcome": "sedative potency of volatile anaesthetics"
+          },
+          "studyType": "实验研究（基础研究，非人类模型）",
+          "sampleSize": "当前可获取内容未提供该数据。",
+          "primaryOutcome": "sedative potency of volatile anaesthetics",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持mPFC锥体神经元兴奋性在挥发性麻醉药镇静效能中的关键作用，但缺乏效应量和统计显著性数据。",
+            "overinterpretationRisk": "需注意将动物实验结果外推至人类存在风险，且观察到的关联不能直接证明因果关系。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text",
+              "limitations": [
+                "当前可获取内容仅包含摘要和部分结构化抽取信息，未提供完整全文细节。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "mPFC锥体神经元和快速放电中间神经元在挥发性麻醉药诱导催眠中的作用。",
+              "designFit": "实验研究设计适合探究因果关系，但为动物模型，需谨慎外推。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "当前可获取内容未提供该数据。",
+              "analysisPopulation": "小鼠",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用多种技术（在体多通道记录、离体膜片钳、化学遗传学、基因敲低）综合探究。"
+              ],
+              "concerns": [
+                "缺乏效应量和统计显著性报告。",
+                "未提供样本量信息。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "当前可获取内容未提供具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价。",
+                  "cautions": [
+                    "未识别到具体统计方法，无法评估结果可靠性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "当前可获取内容未提供该数据。"
+            },
+            "outcomeAnalysis": {
+              "primary": "挥发性麻醉药的镇静效能",
+              "secondary": [
+                "锥体神经元放电频率和动作电位特征",
+                "PV(+)神经元放电和动作电位特性"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "当前可获取内容未提供该数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "研究设计严谨，结合多种电生理和遗传学手段。"
+              ],
+              "limitations": [
+                "缺乏效应量和统计显著性报告。",
+                "未提供样本量信息。"
+              ],
+              "biasRisks": [
+                "当前可获取内容未提供该数据。"
+              ],
+              "certainty": "低（因缺乏关键统计信息）",
+              "conclusionAlignment": "结论与结果一致，但需更多数据支持。",
+              "causalBoundary": "化学遗传学操纵提示因果关系，但需注意动物模型与人类的差异。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为理解麻醉机制提供基础依据。"
+              ],
+              "nonApplicability": [
+                "不能直接用于临床麻醉实践。"
+              ],
+              "practiceChange": "当前结果不足以改变临床实践。",
+              "canDoNow": [
+                "可作为基础研究参考。"
+              ],
+              "cannotConclude": [
+                "不能得出临床用药或监测建议。"
+              ],
+              "evidenceGaps": [
+                "需要人体研究验证。",
+                "需要更多关于剂量-反应关系和长期影响的数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40866146/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.07.046",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.07.046",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12674074/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41203472",
+          "number": "04",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2026",
+          "publishedDate": "2026-02",
+          "electronicPublicationDate": "2025-11-06",
+          "readingTime": "13 分钟",
+          "title": "右美托咪定与丙泊酚在人类受试者中产生更接近睡眠的脑活动",
+          "originalTitle": "Dexmedetomidine produces more sleep-like brain activity compared with propofol in human participants.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "右美托咪定是一种选择性α(2)-肾上腺素能激动剂，用作麻醉辅助药物，以产生类似睡眠的镇静状态。在右美托咪定麻醉期间，大脑活动与自然睡眠期间的大脑活动在定量上如何比较仍不清楚。我们已经证明，全身麻醉药丙泊酚与睡眠类似的连接性和皮层网络结构变化相关。在此，我们定量比较右美托咪定、丙泊酚和睡眠对大脑活动的影响。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "在34名接受癫痫病灶切除手术评估的癫痫患者中获得了颅内脑电图记录。在手术前无任务期间、右美托咪定或丙泊酚麻醉期间以及夜间睡眠期间，测量了频带功率、功能连接性和网络熵。使用观察者警觉/镇静评估确定麻醉阶段（清醒、镇静、无反应）。使用标准多导睡眠图对睡眠进行分期。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在右美托咪定和丙泊酚麻醉期间以及睡眠期间，观察到δ功率的显著差异。然而，与右美托咪定和睡眠相比，丙泊酚的δ功率变化幅度较小且区域异质性较大，而网络熵的变化幅度则大于右美托咪定和睡眠。δ功率和网络熵变化的定量比较表明，右美托咪定麻醉下的无反应状态产生的脑状态与N2睡眠期间观察到的状态相似。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "尽管δ功率、功能连接性和网络熵在丙泊酚、右美托咪定和睡眠期间均表现出变化，但这些变化的幅度表明，右美托咪定的效应比丙泊酚更接近睡眠，特别是N2睡眠。"
+              }
+            ],
+            "fullText": "BACKGROUND: Dexmedetomidine is a selective alpha(2)-adrenergic agonist used as an anaesthesia adjunct to produce a state of sleep-like sedation. How brain activity compares quantitatively during dexmedetomidine anaesthesia with that during natural sleep remains unclear. We have shown that the general anaesthetic propofol is associated with changes in connectivity and cortical network structure similar to sleep. Here, we compare quantitatively the effects of dexmedetomidine, propofol, and sleep on brain activity. METHODS: Intracranial encephalography recordings were obtained in 34 patients with epilepsy being evaluated for seizure resection surgery. Band power, functional connectivity, and network entropy were measured during task-free periods just before surgery, during anaesthesia with either dexmedetomidine or propofol, and during overnight sleep. Anaesthesia stage (wake, sedated, unresponsive) was determined using the Observer's Assessment of Arousal/Sedation. Sleep was staged using standard polysomnography. RESULTS: Significant differences in delta power were observed during dexmedetomidine and propofol anaesthesia and during sleep. However, the magnitude of changes in delta power was smaller and regionally heterogeneous for propofol compared with dexmedetomidine and sleep, whereas changes in network entropy were larger for propofol compared with dexmedetomidine and sleep. Quantitative comparisons between changes in delta power and network entropy suggest that unresponsiveness under dexmedetomidine anaesthesia produces a similar brain state to that observed during N2 sleep. CONCLUSIONS: Although delta power, functional connectivity, and network entropy all showed changes during propofol, dexmedetomidine, and sleep, the magnitudes of these changes suggest that the effects of dexmedetomidine are more similar than those of propofol to sleep, specifically to N2 sleep.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Krause BM, Dappen ER, Mueller RN, Kawasaki H, Sanders RD, Nourski KV, Banks MI",
+          "citation": "Br J Anaesth. 2026 Feb;136(2):552-563. doi: 10.1016/j.bja.2025.09.050. Epub 2025 Nov 6.",
+          "doi": "10.1016/j.bja.2025.09.050",
+          "pmid": "41203472",
+          "pmcid": "PMC12668097",
+          "publicationTypes": [
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Comparative Study",
+            "Journal Article"
+          ],
+          "question": "该研究直接比较了右美托咪定、丙泊酚和自然睡眠对脑活动的影响，提示右美托咪定可能更接近自然睡眠的神经生理状态，为麻醉深度监测和术后谵妄预防提供潜在依据。",
+          "conclusion": "在人类受试者中，右美托咪定麻醉引起的无反应状态在δ功率和网络熵变化上更接近N2期睡眠，而丙泊酚的δ功率变化较小且区域异质性较大，网络熵变化较大。",
+          "clinical": "右美托咪定可能比丙泊酚更接近自然睡眠的神经生理状态，可能有助于术后睡眠质量的改善。 麻醉深度监测中，δ功率和网络熵可能作为区分不同麻醉药物的指标。 对于需要保留自然睡眠节律的患者，右美托咪定可能具有优势。",
+          "evidence": "中等",
+          "score": 52,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 13,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "比较研究（非随机对照试验），自身对照设计，每位受试者接受右美托咪定或丙泊酚麻醉，并记录自然睡眠。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "34 patients with epilepsy being evaluated for seizure resection surgery；34"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Dexmedetomidine anaesthesia；对照：Propofol anaesthesia and natural sleep"
+            },
+            {
+              "label": "主要终点",
+              "value": "Changes in delta power, functional connectivity, and network entropy"
+            }
+          ],
+          "keyPoints": [
+            "右美托咪定麻醉下的无反应状态与N2期睡眠的脑状态相似。",
+            "丙泊酚引起的δ功率变化幅度较小且区域异质性较大，网络熵变化较大。",
+            "研究样本为癫痫患者，结果外推需谨慎。",
+            "未报告效应量、置信区间和P值，统计推断受限。"
+          ],
+          "methods": "右美托咪定是一种选择性α2-肾上腺素能激动剂，用作麻醉辅助药以产生睡眠样镇静。其麻醉期间的脑活动与自然睡眠的定量比较尚不清楚。既往研究显示丙泊酚引起的连接性和皮层网络结构变化与睡眠相似。本研究定量比较右美托咪定、丙泊酚和睡眠对脑活动的影响。",
+          "results": "研究纳入34名癫痫患者。主要结果为δ功率、功能连接性和网络熵的变化。结果显示，右美托咪定、丙泊酚麻醉和睡眠期间均观察到δ功率的显著变化。然而，与右美托咪定和睡眠相比，丙泊酚引起的δ功率变化幅度较小且区域异质性较大，而网络熵的变化则大于右美托咪定和睡眠。定量比较δ功率和网络熵的变化提示，右美托咪定麻醉下的无反应状态与N2期睡眠的脑状态相似。当前可获取内容未提供效应量、95%置信区间和P值。",
+          "mainResults": "研究纳入34名癫痫患者。主要结果为δ功率、功能连接性和网络熵的变化。结果显示，右美托咪定、丙泊酚麻醉和睡眠期间均观察到δ功率的显著变化。然而，与右美托咪定和睡眠相比，丙泊酚引起的δ功率变化幅度较小且区域异质性较大，而网络熵的变化则大于右美托咪定和睡眠。定量比较δ功率和网络熵的变化提示，右美托咪定麻醉下的无反应状态与N2期睡眠的脑状态相似。当前可获取内容未提供效应量、95%置信区间和P值。",
+          "limitations": [
+            "研究对象仅限于患有神经系统疾病的患者，可能无法推广至更广泛人群。",
+            "电极放置基于临床需求而非研究目标，导致受试者间存在变异性。",
+            "癫痫病史、抗癫痫药物使用及医院环境可能影响睡眠和麻醉敏感性。",
+            "当前可获取内容未提供效应量、置信区间和P值，无法评估效应大小和统计显著性。"
+          ],
+          "practice": [
+            "右美托咪定可能比丙泊酚更接近自然睡眠的神经生理状态，可能有助于术后睡眠质量的改善。",
+            "麻醉深度监测中，δ功率和网络熵可能作为区分不同麻醉药物的指标。",
+            "对于需要保留自然睡眠节律的患者，右美托咪定可能具有优势。"
+          ],
+          "editor": "研究设计为自身对照比较，直接比较了右美托咪定、丙泊酚和睡眠的脑活动，结果提示右美托咪定更接近N2睡眠。 过度解读风险：由于未报告效应量和置信区间，且样本量较小，存在过度解读风险。",
+          "whyItMatters": "该研究直接比较了右美托咪定、丙泊酚和自然睡眠对脑活动的影响，提示右美托咪定可能更接近自然睡眠的神经生理状态，为麻醉深度监测和术后谵妄预防提供潜在依据。",
+          "background": "右美托咪定是一种选择性α2-肾上腺素能激动剂，用作麻醉辅助药以产生睡眠样镇静。其麻醉期间的脑活动与自然睡眠的定量比较尚不清楚。既往研究显示丙泊酚引起的连接性和皮层网络结构变化与睡眠相似。本研究定量比较右美托咪定、丙泊酚和睡眠对脑活动的影响。",
+          "pico": {
+            "population": "34 patients with epilepsy being evaluated for seizure resection surgery",
+            "intervention": "Dexmedetomidine anaesthesia",
+            "comparison": "Propofol anaesthesia and natural sleep",
+            "outcome": "Changes in delta power, functional connectivity, and network entropy"
+          },
+          "studyType": "比较研究（非随机对照试验），自身对照设计，每位受试者接受右美托咪定或丙泊酚麻醉，并记录自然睡眠。",
+          "sampleSize": "34",
+          "primaryOutcome": "Changes in delta power, functional connectivity, and network entropy",
+          "effectSize": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究设计为自身对照比较，直接比较了右美托咪定、丙泊酚和睡眠的脑活动，结果提示右美托咪定更接近N2睡眠。",
+            "overinterpretationRisk": "由于未报告效应量和置信区间，且样本量较小，存在过度解读风险。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和开放全文节选，可能缺少方法学和统计细节。",
+                "未获取完整全文，无法全面评估研究设计和结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "右美托咪定麻醉、丙泊酚麻醉和自然睡眠对脑活动的影响有何定量差异？",
+              "designFit": "自身对照比较设计适合评估个体内差异，但缺乏随机化和对照组，可能引入偏倚。",
+              "eligibility": "纳入34名癫痫患者，具体纳入排除标准未详细报告。",
+              "randomization": "未报告随机化过程，可能为非随机分配。",
+              "allocationConcealment": "未报告分配隐藏。",
+              "blinding": "未报告盲法，可能为开放标签。",
+              "sampleSizePlanning": "未报告样本量计算。",
+              "followUp": "未报告随访信息，研究为短期观察。",
+              "analysisPopulation": "未明确分析人群，可能为完成所有阶段者。",
+              "missingData": "未报告缺失数据处理方法。",
+              "strengths": [
+                "使用颅内脑电图记录，提供高时空分辨率。",
+                "自身对照设计减少个体差异影响。",
+                "同时比较两种麻醉药物和自然睡眠。"
+              ],
+              "concerns": [
+                "样本量小且为特定患者群体。",
+                "电极放置基于临床需求，可能影响结果一致性。",
+                "未报告随机化、盲法和样本量计算。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价分析适当性。",
+                  "reportedResult": "未报告具体统计结果。",
+                  "interpretation": "无法评估统计显著性。",
+                  "cautions": [
+                    "未报告统计方法，无法核查分析正确性。",
+                    "未报告P值和置信区间，无法评估效应可靠性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "未报告校正变量。",
+              "multiplicity": "未报告多重比较校正。",
+              "subgroupAnalysis": "未报告亚组分析。",
+              "clinicalVsStatisticalSignificance": "由于未报告效应量和置信区间，无法区分统计学意义和临床意义。"
+            },
+            "outcomeAnalysis": {
+              "primary": "δ功率、功能连接性和网络熵的变化。",
+              "secondary": [
+                "当前可获取内容未提供次要结局。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "未报告绝对和相对效应量。",
+              "subgroupAndInteraction": "未报告亚组和交互作用分析。",
+              "sensitivity": "未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "使用颅内脑电图，数据质量高。",
+                "比较了两种麻醉药物和自然睡眠，具有临床相关性。"
+              ],
+              "limitations": [
+                "样本量小，且为特定患者群体。",
+                "未报告随机化、盲法和样本量计算。",
+                "未报告效应量、置信区间和P值。"
+              ],
+              "biasRisks": [
+                "选择偏倚：仅纳入癫痫患者。",
+                "测量偏倚：电极放置基于临床需求。",
+                "混杂偏倚：药物使用和医院环境可能影响结果。"
+              ],
+              "certainty": "由于缺乏统计细节，证据确定性低。",
+              "conclusionAlignment": "结论与结果一致，但统计支持不足。",
+              "causalBoundary": "观察性关联，不能推断因果关系。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能适用于需要镇静的癫痫患者。",
+                "可能为麻醉深度监测提供参考。"
+              ],
+              "nonApplicability": [
+                "不适用于非癫痫患者或健康人群。",
+                "不适用于儿童或孕妇。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "可考虑在类似患者群体中进一步验证。"
+              ],
+              "cannotConclude": [
+                "不能得出右美托咪定优于丙泊酚的结论。",
+                "不能推荐常规使用右美托咪定替代丙泊酚。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本、更广泛人群的研究。",
+                "需要报告效应量、置信区间和P值。",
+                "需要随机对照试验设计。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41203472/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.09.050",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.09.050",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668097/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40930873",
+          "number": "05",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-11",
+          "electronicPublicationDate": "2025-09-09",
+          "readingTime": "11 分钟",
+          "title": "光声检测呼气中丙泊酚用于麻醉深度监测：从实验室到临床",
+          "originalTitle": "Photoacoustic detection of propofol in breath gas for monitoring depth of anaesthesia: from bench to bedside.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "通过测量呼吸气体中的丙泊酚来确保静脉麻醉深度足够，可以提高患者安全性。质谱法作为丙泊酚呼吸气体测量的参考标准，在常规临床实践中不可行；因此，开发了一种光声传感器。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "光声传感器通过丙泊酚分子被特定波长和频率的光激发后发出的声波来量化气体中的丙泊酚浓度。我们研究了新传感器在丙泊酚测试气体、装有不同患者呼吸气体的采样袋中的性能，并在接受丙泊酚麻醉的患者中进行了实时测量，与离子分子反应质谱法进行比较。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在测试气体中，光声法和质谱法在2.5至60 ppb范围内相关性R(2)为0.9975。在气体采样袋中，两种方法均能检测到丙泊酚。对10名患者18小时丙泊酚全身麻醉的Bland-Altman分析显示，质谱法和光声法在呼吸气体中的丙泊酚平均差异为-0.02 ppb（标准差3.31），范围从4到47 ppb。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "光声法测量呼吸气体中的丙泊酚浓度在临床应用中具有高准确性，是可行的。"
+              }
+            ],
+            "fullText": "BACKGROUND: Ensuring adequate depth of i.v. anaesthesia by measuring propofol in breath gas could increase patient safety. Mass spectrometry, representing the reference standard of propofol breath gas measurements, is not feasible in routine clinical practice; hence, a photoacoustic sensor was developed. METHODS: The photoacoustic sensor quantifies propofol concentration in gas via the sound waves emitted by propofol molecules excited by light of specific wavelength and frequency. We studied the performance of the new sensor in propofol test gas, gas sampling bags filled with breath gas from different patients, and performed real-time measurements in patients undergoing propofol anaesthesia in comparison to ion-molecule reaction mass spectrometry. RESULTS: In test gas, photoacoustic and mass spectrometry correlated with an R(2) of 0.9975 in a range from 2.5 to 60 ppb. In gas sampling bags, propofol could be detected with both methods. Bland-Altman analysis of propofol general anaesthesia over 18 h in 10 patients revealed a mean propofol difference of -0.02 ppb (standard deviation 3.31) between mass spectrometry and photoacoustic measurements in breath gas, ranging from 4 to 47 ppb. CONCLUSIONS: Photoacoustic measurement of propofol concentration in breath gas is feasible with high accuracy in clinical applications.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Meidert AS, Rucz P, Angster J, Esser J, Miklos A, Schelling G",
+          "citation": "Br J Anaesth. 2025 Nov;135(5):1203-1211. doi: 10.1016/j.bja.2025.07.080. Epub 2025 Sep 9.",
+          "doi": "10.1016/j.bja.2025.07.080",
+          "pmid": "40930873",
+          "pmcid": "PMC12597363",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "目前临床缺乏便捷、实时的丙泊酚浓度监测手段，质谱法虽准确但不适用于常规操作。光声传感器若验证有效，可为麻醉深度监测提供无创、实时的新选项，可能提高静脉麻醉安全性。",
+          "conclusion": "在10例接受丙泊酚麻醉的患者中，光声传感器与离子分子反应质谱法在呼气丙泊酚浓度测量上具有良好一致性（平均差-0.02 ppb），提示该技术有望用于临床麻醉深度监测，但仍需更大样本和更完善的原型验证。",
+          "clinical": "光声传感器可能为临床提供实时、无创的丙泊酚呼气浓度监测，有助于评估麻醉深度。 该技术若成熟，可能减少对质谱法的依赖，便于在手术室和ICU中应用。 需进一步验证其在不同患者群体和临床条件下的可靠性，才能考虑推广。",
+          "evidence": "中等",
+          "score": 51,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性研究，包括实验室测试气体、气体采样袋和临床实时测量三个阶段，与离子分子反应质谱法进行对比。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "10 female patients undergoing surgery with propofol anaesthesia；10"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Photoacoustic sensor for propofol measurement in breath gas；对照：Ion-molecule reaction mass spectrometry"
+            },
+            {
+              "label": "主要终点",
+              "value": "Accuracy of photoacoustic measurements of propofol in breath gas compared with mass spectrometry"
+            }
+          ],
+          "keyPoints": [
+            "光声传感器在测试气体中与质谱法高度相关（R²=0.9975）。",
+            "临床测量中平均差为-0.02 ppb，标准差3.31，提示一致性可接受。",
+            "研究为原型传感器，需改进机械稳定性和连接密封性。",
+            "样本量仅10例，且为女性，限制外推性。"
+          ],
+          "methods": "确保静脉麻醉深度足够可通过测量呼气中的丙泊酚浓度来实现，从而增加患者安全。质谱法是呼气丙泊酚测量的参考标准，但不适用于常规临床实践，因此开发了光声传感器。",
+          "results": "在测试气体中，光声法与质谱法在2.5-60 ppb范围内相关性R²=0.9975。在气体采样袋中，两种方法均能检测到丙泊酚。在10例患者18小时丙泊酚全身麻醉期间，Bland-Altman分析显示质谱法与光声法在呼气中的平均差为-0.02 ppb（标准差3.31），测量范围4-47 ppb。",
+          "mainResults": "在测试气体中，光声法与质谱法在2.5-60 ppb范围内相关性R²=0.9975。在气体采样袋中，两种方法均能检测到丙泊酚。在10例患者18小时丙泊酚全身麻醉期间，Bland-Altman分析显示质谱法与光声法在呼气中的平均差为-0.02 ppb（标准差3.31），测量范围4-47 ppb。",
+          "limitations": [
+            "传感器为原型，机械稳定性需改进。",
+            "临床测量期间连接不够紧密。",
+            "实验室数据未包含丙酮或电噪声干扰。",
+            "仅使用单一质谱参考技术。",
+            "未系统评估不同麻醉机设置的影响。",
+            "仅研究10例健康女性患者，无法外推至其他人群。"
+          ],
+          "practice": [
+            "光声传感器可能为临床提供实时、无创的丙泊酚呼气浓度监测，有助于评估麻醉深度。",
+            "该技术若成熟，可能减少对质谱法的依赖，便于在手术室和ICU中应用。",
+            "需进一步验证其在不同患者群体和临床条件下的可靠性，才能考虑推广。"
+          ],
+          "editor": "研究提供了光声传感器与质谱法在测试气体和临床呼气中良好一致性的初步证据，支持其可行性。 过度解读风险：样本量小且为观察性研究，结果可能受选择偏倚和未控制混杂因素影响，不应过度解读为临床有效性证据。",
+          "whyItMatters": "目前临床缺乏便捷、实时的丙泊酚浓度监测手段，质谱法虽准确但不适用于常规操作。光声传感器若验证有效，可为麻醉深度监测提供无创、实时的新选项，可能提高静脉麻醉安全性。",
+          "background": "确保静脉麻醉深度足够可通过测量呼气中的丙泊酚浓度来实现，从而增加患者安全。质谱法是呼气丙泊酚测量的参考标准，但不适用于常规临床实践，因此开发了光声传感器。",
+          "pico": {
+            "population": "10 female patients undergoing surgery with propofol anaesthesia",
+            "intervention": "Photoacoustic sensor for propofol measurement in breath gas",
+            "comparison": "Ion-molecule reaction mass spectrometry",
+            "outcome": "Accuracy of photoacoustic measurements of propofol in breath gas compared with mass spectrometry"
+          },
+          "studyType": "观察性研究，包括实验室测试气体、气体采样袋和临床实时测量三个阶段，与离子分子反应质谱法进行对比。",
+          "sampleSize": "10",
+          "primaryOutcome": "Accuracy of photoacoustic measurements of propofol in breath gas compared with mass spectrometry",
+          "effectSize": [
+            "R(2)=0.9975",
+            "mean difference=-0.02 ppb"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究提供了光声传感器与质谱法在测试气体和临床呼气中良好一致性的初步证据，支持其可行性。",
+            "overinterpretationRisk": "样本量小且为观察性研究，结果可能受选择偏倚和未控制混杂因素影响，不应过度解读为临床有效性证据。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，可能缺少方法细节和完整结果。",
+                "未提供完整统计报告，如置信区间和P值。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估光声传感器在测试气体和临床呼气中测量丙泊酚浓度的准确性，并与质谱法比较。",
+              "designFit": "观察性研究设计适合初步评估新设备的准确性，但缺乏对照组和随机化，证据等级较低。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "临床测量持续18小时，但未报告随访完整性。",
+              "analysisPopulation": "10例接受丙泊酚麻醉的女性患者，具体纳入排除标准未提供。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用参考标准质谱法进行对比。",
+                "包含实验室和临床阶段，从基础到临床转化。"
+              ],
+              "concerns": [
+                "样本量小，仅10例。",
+                "未报告随机化、盲法等关键方法学细节。",
+                "传感器为原型，可能影响结果可重复性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "linear-regression",
+                  "name": "线性回归",
+                  "purposeInStudy": "评估光声法与质谱法在测试气体中的相关性",
+                  "reportedResult": "R²=0.9975",
+                  "interpretation": "在测试气体中，两种方法高度相关，光声法准确性高。",
+                  "cautions": [
+                    "R²仅反映相关性，不直接等同于一致性。",
+                    "未报告回归方程和置信区间。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "当前可获取内容未提供该数据。",
+              "clinicalVsStatisticalSignificance": "统计上高度相关，但临床意义需结合测量误差和个体差异判断；平均差-0.02 ppb在临床可接受范围内，但标准差3.31提示个体差异较大。"
+            },
+            "outcomeAnalysis": {
+              "primary": "光声测量与质谱法的一致性（平均差、标准差）",
+              "secondary": [
+                "测试气体中的相关性（R²）",
+                "气体采样袋中的检测能力",
+                "响应时间",
+                "滞后效应",
+                "丙泊酚吸附"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "报告了绝对平均差（-0.02 ppb），未提供相对差异或百分比。",
+              "subgroupAndInteraction": "当前可获取内容未提供该数据。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "使用参考标准质谱法进行对比。",
+                "包含实验室和临床阶段，从基础到临床转化。"
+              ],
+              "limitations": [
+                "样本量小，仅10例。",
+                "未报告随机化、盲法等关键方法学细节。",
+                "传感器为原型，可能影响结果可重复性。",
+                "未报告置信区间和P值。"
+              ],
+              "biasRisks": [
+                "选择偏倚：仅纳入女性患者。",
+                "测量偏倚：连接不紧密可能影响准确性。",
+                "报告偏倚：未报告所有预设结局。"
+              ],
+              "certainty": "低确定性：初步可行性证据，但方法学限制和样本量小降低证据等级。",
+              "conclusionAlignment": "结论与结果一致，但过度强调了临床应用的可行性，未充分讨论局限性。",
+              "causalBoundary": "观察性关联，不能证明光声测量直接改善麻醉深度或患者结局。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能适用于手术室和ICU中接受丙泊酚麻醉的患者。",
+                "可作为质谱法的替代或补充，用于实时监测。"
+              ],
+              "nonApplicability": [
+                "不适用于儿童、男性或合并肺部疾病患者，因未研究。",
+                "不适用于需要高精度测量的研究场景，因原型传感器稳定性不足。"
+              ],
+              "practiceChange": "当前证据不足以支持立即改变临床实践，需更大规模验证。",
+              "canDoNow": [
+                "可考虑在科研项目中探索光声传感器的应用。",
+                "可进行更多临床前测试以改进原型。"
+              ],
+              "cannotConclude": [
+                "不能得出光声传感器可常规用于麻醉深度监测的结论。",
+                "不能推断其对患者预后的影响。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本、多中心研究。",
+                "需要评估不同人群（性别、年龄、合并症）的准确性。",
+                "需要比较不同麻醉机设置和干扰物质的影响。",
+                "需要长期稳定性和重复性数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40930873/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.07.080",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.07.080",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12597363/"
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-28T06:55:30.313Z",
       "mode": "production",

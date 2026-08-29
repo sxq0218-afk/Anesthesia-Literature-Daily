@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T06:55:30.313Z",
+  "updatedAt": "2026-08-29T04:11:43.508Z",
   "records": [
     {
       "pmid": "42359695",
@@ -5594,6 +5594,228 @@
         }
       ],
       "runId": "2026-08-28T06-55-30.313Z"
+    },
+    {
+      "pmid": "40675839",
+      "doi": "10.1016/j.bja.2025.05.031",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-29T04:05:50.314Z",
+          "primaryPmid": "40675839",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-29T04:06:25.056Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-29T04:06:25.057Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-29T04:11:43.508Z",
+          "runId": "2026-08-29T04-11-43.508Z"
+        }
+      ],
+      "runId": "2026-08-29T04-11-43.508Z"
+    },
+    {
+      "pmid": "40903379",
+      "doi": "10.1016/j.bja.2025.08.001",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-29T04:06:25.057Z",
+          "primaryPmid": "40903379",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-29T04:07:07.520Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文节选分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-29T04:07:07.520Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-29T04:11:43.508Z",
+          "runId": "2026-08-29T04-11-43.508Z"
+        }
+      ],
+      "runId": "2026-08-29T04-11-43.508Z"
+    },
+    {
+      "pmid": "41203470",
+      "doi": "10.1016/j.bja.2025.09.016",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-29T04:07:07.520Z",
+          "primaryPmid": "41203470",
+          "isFallback": false
+        },
+        {
+          "status": "failed",
+          "at": "2026-08-29T04:08:03.617Z",
+          "error": "AI quality control failed after regeneration: 样本量未报告，无法核查。; 置信区间未报告，无法核查。; P值未报告，无法核查。; 统计方法未报告，无法核查。; 因果推断表述不一致：原始摘要使用'appear to contribute'，但结构化抽取未明确说明不能推断因果。; sample_size: 原始材料未报告样本量，结构化抽取中 sample_size 为 null，但中文精读指出样本量未报告，因此无法支持任何具体样本量。; confidence_interval: 原始材料未报告置信区间，结构化抽取中 confidence_interval 为空数组，因此无法支持任何置信区间。; p_value: 原始材料未报告P值，结构化抽取中 p_value 为空数组，因此无法支持任何P值。; causality: 原始结论使用'appear to contribute'，表明关联而非因果，但中文精读指出不能推断因果，而结构化抽取未明确说明，存在不一致。; clinical_vs_statistical: 未报告P值和置信区间，无法区分统计学意义和临床意义，中文精读也指出这一点。; statistical_methods: 原始材料未报告统计方法，结构化抽取中未提及，中文精读也指出统计方法未报告。; unsupported_information: 结构化抽取中未报告样本量、置信区间、P值等，但中文精读中提及这些缺失，且原始材料未提供，因此存在不支持的信息。"
+        },
+        {
+          "status": "published",
+          "at": "2026-08-29T04:11:43.508Z",
+          "runId": "2026-08-29T04-11-43.508Z"
+        }
+      ],
+      "runId": "2026-08-29T04-11-43.508Z"
+    },
+    {
+      "pmid": "41107148",
+      "doi": "10.1016/j.bja.2025.07.097",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-29T04:08:03.618Z",
+          "primaryPmid": "41203470",
+          "isFallback": true
+        },
+        {
+          "status": "failed",
+          "at": "2026-08-29T04:08:54.899Z",
+          "error": "AI quality control failed after regeneration: 样本量未报告; 置信区间未报告; P值未报告; 统计方法未报告; 结论表述可能超出证据支持; sample_size: 原始材料、结构化抽取和中文精读均未报告样本量，无法支持任何具体样本量事实。; confidence_interval: 所有材料均未报告置信区间，无法支持任何置信区间事实。; p_value: 所有材料均未报告P值，无法支持任何P值事实。; clinical_vs_statistical: 摘要结论使用'critical role'和'novel'等表述，但未报告统计显著性，可能混淆临床与统计意义，存在过度解读风险。; statistical_methods: 所有材料均未报告统计方法，无法支持任何统计方法事实。; unsupported_information: 摘要结论中的'critical role'和'novel'等表述缺乏统计支持，属于过度解读。"
+        },
+        {
+          "status": "published",
+          "at": "2026-08-29T04:11:43.508Z",
+          "runId": "2026-08-29T04-11-43.508Z"
+        }
+      ],
+      "runId": "2026-08-29T04-11-43.508Z"
+    },
+    {
+      "pmid": "41102120",
+      "doi": "10.1016/j.bja.2025.07.096",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-29T04:08:54.899Z",
+          "primaryPmid": "41203470",
+          "isFallback": true
+        },
+        {
+          "status": "failed",
+          "at": "2026-08-29T04:09:46.252Z",
+          "error": "AI quality control failed after regeneration: 样本量未报告; 置信区间未报告; P值未报告; 统计方法未报告; 无法区分临床与统计显著性; sample_size: 原始材料（摘要）未报告样本量，结构化抽取和中文精读均指出样本量未报告。; confidence_interval: 原始材料未报告置信区间，结构化抽取和中文精读均指出置信区间未报告。; p_value: 原始材料未报告P值，结构化抽取和中文精读均指出P值未报告。; clinical_vs_statistical: 原始材料未提供统计显著性信息，无法区分临床与统计显著性。; statistical_methods: 原始材料未报告统计方法，结构化抽取和中文精读均指出统计方法未报告。"
+        },
+        {
+          "status": "published",
+          "at": "2026-08-29T04:11:43.508Z",
+          "runId": "2026-08-29T04-11-43.508Z"
+        }
+      ],
+      "runId": "2026-08-29T04-11-43.508Z"
+    },
+    {
+      "pmid": "40866146",
+      "doi": "10.1016/j.bja.2025.07.046",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-29T04:09:46.252Z",
+          "primaryPmid": "41203470",
+          "isFallback": true
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-29T04:10:12.318Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-29T04:10:12.318Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-29T04:11:43.508Z",
+          "runId": "2026-08-29T04-11-43.508Z"
+        }
+      ],
+      "runId": "2026-08-29T04-11-43.508Z"
+    },
+    {
+      "pmid": "41203472",
+      "doi": "10.1016/j.bja.2025.09.050",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-29T04:10:12.318Z",
+          "primaryPmid": "41203472",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-29T04:11:10.457Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文节选分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-29T04:11:10.457Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-29T04:11:43.508Z",
+          "runId": "2026-08-29T04-11-43.508Z"
+        }
+      ],
+      "runId": "2026-08-29T04-11-43.508Z"
+    },
+    {
+      "pmid": "40930873",
+      "doi": "10.1016/j.bja.2025.07.080",
+      "status": "published",
+      "transitions": [
+        {
+          "status": "candidate",
+          "at": "2026-08-29T04:11:10.457Z",
+          "primaryPmid": "40930873",
+          "isFallback": false
+        },
+        {
+          "status": "analyzed",
+          "at": "2026-08-29T04:11:43.508Z",
+          "model": "deepseek-v4-flash",
+          "basis": "摘要+开放全文节选分析"
+        },
+        {
+          "status": "validated",
+          "at": "2026-08-29T04:11:43.508Z",
+          "qualityPassed": true
+        },
+        {
+          "status": "published",
+          "at": "2026-08-29T04:11:43.508Z",
+          "runId": "2026-08-29T04-11-43.508Z"
+        }
+      ],
+      "runId": "2026-08-29T04-11-43.508Z"
     }
   ]
 }

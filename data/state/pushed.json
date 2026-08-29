@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T06:55:30.313Z",
+  "updatedAt": "2026-08-29T04:11:43.508Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1273,6 +1273,46 @@
       "status": "published",
       "runId": "2026-08-28T06-55-30.313Z",
       "firstPublishedAt": "2026-08-28T06:55:30.313Z"
+    },
+    {
+      "pmid": "40675839",
+      "doi": "10.1016/j.bja.2025.05.031",
+      "title": "Impact of desflurane removal from the operating room on carbon dioxide emissions at a tertiary academic medical centre: a retrospective cohort study.",
+      "status": "published",
+      "runId": "2026-08-29T04-11-43.508Z",
+      "firstPublishedAt": "2026-08-29T04:11:43.508Z"
+    },
+    {
+      "pmid": "40903379",
+      "doi": "10.1016/j.bja.2025.08.001",
+      "title": "IMpact of PerioperAtive KeTamine on Enhanced Recovery After abdominal Surgery (IMPAKT ERAS): a pragmatic randomised single-cluster trial.",
+      "status": "published",
+      "runId": "2026-08-29T04-11-43.508Z",
+      "firstPublishedAt": "2026-08-29T04:11:43.508Z"
+    },
+    {
+      "pmid": "40866146",
+      "doi": "10.1016/j.bja.2025.07.046",
+      "title": "Association between pyramidal neurone spiking in the medial prefrontal cortex and the sedative potency of volatile anaesthetics in mice.",
+      "status": "published",
+      "runId": "2026-08-29T04-11-43.508Z",
+      "firstPublishedAt": "2026-08-29T04:11:43.508Z"
+    },
+    {
+      "pmid": "41203472",
+      "doi": "10.1016/j.bja.2025.09.050",
+      "title": "Dexmedetomidine produces more sleep-like brain activity compared with propofol in human participants.",
+      "status": "published",
+      "runId": "2026-08-29T04-11-43.508Z",
+      "firstPublishedAt": "2026-08-29T04:11:43.508Z"
+    },
+    {
+      "pmid": "40930873",
+      "doi": "10.1016/j.bja.2025.07.080",
+      "title": "Photoacoustic detection of propofol in breath gas for monitoring depth of anaesthesia: from bench to bedside.",
+      "status": "published",
+      "runId": "2026-08-29T04-11-43.508Z",
+      "firstPublishedAt": "2026-08-29T04:11:43.508Z"
     }
   ]
 }
