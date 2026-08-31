@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-29T04:11:43.508Z",
-  "date": "2026-08-29",
+  "generatedAt": "2026-08-31T01:23:41.081Z",
+  "date": "2026-08-31",
   "status": "ready-for-deployment",
   "articleCount": 5,
-  "candidateCount": 485,
+  "candidateCount": 486,
   "expanded": true,
   "actualDays": 360,
   "model": "deepseek-v4-flash",
-  "totalTokens": 118898,
+  "totalTokens": 125516,
   "tokenSource": "api-exact",
   "costSource": "configured-estimate",
   "rss": "http://localhost:3000/rss.xml"

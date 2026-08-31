@@ -1,7 +1,1655 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T04:11:43.508Z",
+  "updatedAt": "2026-08-31T01:23:41.081Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-31T01:23:41.081Z",
+      "mode": "production",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-09-05T01:23:41.081Z",
+        "to": "2026-08-31T01:23:41.081Z",
+        "candidateCount": 486,
+        "discoveryCandidateCount": 20388,
+        "unseenCount": 341,
+        "duplicateCount": 145,
+        "priorityCandidateCount": 486,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 486,
+          "retrievedCount": 486,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 292,
+            "impact-factor-stale": 1
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 32
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of anesthesia and translational medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 341,
+          "eligibleCount": 299,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 250,
+          "clinical": 167,
+          "basic": 11,
+          "other": 72
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "llm": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "configuredModel": "deepseek-chat",
+        "usage": {
+          "calls": 20,
+          "promptTokens": 101285,
+          "completionTokens": 24231,
+          "totalTokens": 125516
+        }
+      },
+      "articles": [
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41065680",
+          "number": "01",
+          "category": "麻醉学",
+          "journal": "Anesthesiology",
+          "year": "2026",
+          "publishedDate": "2026-02-01",
+          "electronicPublicationDate": "2025-10-09",
+          "readingTime": "15 分钟",
+          "title": "全身麻醉与全身高渗状态调节雌性大鼠腰椎鞘内药物分布",
+          "originalTitle": "General Anesthesia and Systemic Hyperosmolality Modulate Lumbar Intrathecal Drug Distribution in Female Rats.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "脊髓给药在很大程度上绕过了血脑屏障，而血脑屏障会降低大多数全身给药药物的中枢神经系统（CNS）可用性。目前腰椎鞘内给药的方法无法将治疗浓度递送至大脑，而颅内给药则存在显著风险。沿类淋巴通路的脑脊液流动可通过多种药物进行药理学调节，包括麻醉剂和高渗盐水（HTS）。然而，麻醉剂和HTS对脊髓给药药物的影响研究甚少。作者研究了两种麻醉方案和HTS如何影响脊髓给药的高分子量放射性示踪剂的分布。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "雌性大鼠分别用氯胺酮-右美托咪定或异氟烷麻醉。腹腔注射HTS（40 mOsm/kg）或等渗盐水（ITS）。通过活体单光子发射计算机断层扫描评估腰椎脊髓示踪剂（锝-99m标记的人血清白蛋白纳米胶体，66.5 kDa）的全身分布。通过磁共振成像研究麻醉引起的脊髓蛛网膜下腔容积变化。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "与异氟烷相比，氯胺酮-右美托咪定增强了局部脊髓示踪剂可用性（0至116分钟时间-活性曲线下面积[AUC 0-116 ]比值，1.78；P = 0.0016），并降低了颅内暴露（AUC 0-116 比值，无穷大；P = 0.0260）在ITS处理的大鼠中。此外，与异氟烷相比，氯胺酮-右美托咪定使脊髓蛛网膜下腔容积（T13-T6）增加了46%（P = 0.0051）。在氯胺酮-右美托咪定麻醉下，HTS显著增加了颅内示踪剂可用性，与ITS相比（AUC 0-116 比值，无穷大；P = 0.0047），但在异氟烷麻醉下则不然（AUC 0-116 比值，3.10；P = 0.1320），并延长了清醒大鼠的CNS滞留时间。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "麻醉在脊髓和颅内水平调节鞘内给药药物的分布。全身性HTS在氯胺酮-右美托咪定麻醉期间增加了脊髓给药药物的颅内可用性，并在清醒状态下延长了脊髓药物的CNS可用性。这些干预措施应进行临床试验，以提高疗效并减少脊髓给药药物的副作用。"
+              }
+            ],
+            "fullText": "BACKGROUND: Spinal administration of drugs largely bypasses the blood-brain barrier that reduces the central nervous system (CNS) availability of most systemically administered drugs. Current methods for lumbar intrathecal drug delivery fail to deliver therapeutic concentrations to the brain, whereas intracranial drug administration carries marked risks. Cerebrospinal fluid flow along the glymphatic pathway can be pharmacologically modified with a variety of drugs including anesthetics and hypertonic saline (HTS). However, the effect of anesthetics and HTS on spinally administered drugs is highly understudied. The authors investigated how two anesthetic regimens and HTS influence the distribution of a spinally administered high-molecular-weight radiotracer. METHODS: Female rats were anesthetized with ketamine-dexmedetomidine or isoflurane. HTS (40 mOsm/kg) or isotonic saline (ITS) was administered intraperitoneally. The whole-body distribution of lumbar spinal tracer (technetium-99m radiolabeled human serum albumin nanocolloid, 66.5 kDa) was assessed with in vivo single-photon emission computed tomography. Anesthetic-induced changes in spinal subarachnoid space volume were investigated with magnetic resonance imaging. RESULTS: Compared with isoflurane, ketamine-dexmedetomidine enhanced local spinal tracer availability (area under the time-activity curve between 0 and 116 min [AUC 0-116 ] ratio, 1.78; P = 0.0016) and reduced intracranial exposure (AUC 0-116 ratio, infinity; P = 0.0260) in ITS-treated rats. Moreover, ketamine-dexmedetomidine increased the spinal subarachnoid space volume (T13-T6) by 46% ( P = 0.0051) compared with isoflurane. HTS markedly increased intracranial tracer availability compared with ITS during ketamine-dexmedetomidine anesthesia (AUC 0-116 ratio, infinity; P = 0.0047) but not isoflurane (AUC 0-116 ratio, 3.10; P = 0.1320), and prolonged CNS retention in awake rats. CONCLUSIONS: Anesthesia modulates the distribution of intrathecally administered drugs at the spinal and intracranial levels. Systemic HTS increased the intracranial availability of spinally administered drugs during ketamine-dexmedetomidine and prolonged the CNS availability of spinal drugs in the awake state. These interventions should be taken to clinical trials to improve efficacy and to reduce side effects of spinally administered drugs.",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Persson NDA, Lohela TJ, Anttila JE, Makela J, Rosenholm M, Peltoniemi M, Jalonen SC, Garcia-Horsman JA, et al.",
+          "citation": "Anesthesiology. 2026 Feb 1;144(2):390-401. doi: 10.1097/ALN.0000000000005794. Epub 2025 Oct 9.",
+          "doi": "10.1097/aln.0000000000005794",
+          "pmid": "41065680",
+          "pmcid": "PMC12777593",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "basic",
+            "label": "基础研究",
+            "reason": "non-human-model"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.3,
+            "metricYear": 2024,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.asahq.org/about-asa/annual-reports",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "Anesthesiology"
+          },
+          "tags": [
+            "基础研究",
+            "麻醉及围术期核心期刊",
+            "麻醉学",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "鞘内给药是绕过血脑屏障向中枢神经系统递送药物的常用途径，但现有方法难以将治疗浓度送达脑部，而颅内给药风险高。该研究提示麻醉方案和全身渗透压状态可能成为调节鞘内药物分布的非侵入性手段，为优化鞘内药物疗效和减少副作用提供了新的干预思路。",
+          "conclusion": "在雌性大鼠中，氯胺酮-右美托咪定麻醉相较于异氟烷可增强腰椎鞘内注射药物的脊髓局部暴露并减少颅内暴露，而全身性高渗盐水在氯胺酮-右美托咪定麻醉下可显著增加鞘内药物的颅内分布，并延长清醒状态下的中枢神经系统滞留。",
+          "clinical": "麻醉方案选择可能影响鞘内药物的分布：氯胺酮-右美托咪定可能增加脊髓局部药物暴露并减少颅内暴露，而异氟烷则相反。 全身高渗状态（如高渗盐水）可能增强鞘内药物向颅内的转运，尤其在氯胺酮-右美托咪定麻醉下，可能有助于提高脑内药物浓度。 这些干预措施有望用于优化鞘内药物递送，提高疗效并减少副作用，但需进一步临床试验验证。",
+          "evidence": "中等",
+          "score": 56,
+          "scoreBreakdown": {
+            "relevance": 22,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "临床前动物实验（基础研究）"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Female Sprague-Dawley rats；49 rats (dynamic SPECT: K/DEX-ITS n=6, K/DEX-HTS n=7, ISO-ITS n=9, ISO-HTS n=7; 24-h SPECT: ITS n=6, HTS n=6; MRI: K/DEX n=4, ISO n=4)"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Ketamine-dexmedetomidine (K/DEX) anesthesia, isoflurane (ISO) anesthesia, hypertonic saline (HTS) 40 mOsm/kg intraperitoneal；对照：Isotonic saline (ITS) intraperitoneal"
+            },
+            {
+              "label": "主要终点",
+              "value": "Distribution of spinally administered radiotracer (technetium-99m labeled human serum albumin nanocolloid, 66.5 kDa) assessed by SPECT"
+            }
+          ],
+          "keyPoints": [
+            "氯胺酮-右美托咪定麻醉相比异氟烷，在等渗盐水条件下增加脊髓局部示踪剂暴露（AUC比值1.78，P=0.0016）并减少颅内暴露（P=0.0260）。",
+            "氯胺酮-右美托咪定使脊髓蛛网膜下腔容积增加46%（P=0.0051）。",
+            "高渗盐水在氯胺酮-右美托咪定麻醉下显著增加颅内示踪剂暴露（P=0.0047），但在异氟烷麻醉下无显著差异（P=0.1320）。",
+            "高渗盐水延长清醒大鼠的中枢神经系统示踪剂滞留。",
+            "研究为临床前动物实验，需进一步临床试验验证。"
+          ],
+          "methods": "脊髓给药可绕过血脑屏障，使药物直接进入中枢神经系统，但常规腰椎鞘内给药难以将治疗浓度送达脑部，而颅内给药风险较高。脑脊液沿类淋巴通路的流动可被多种药物（包括麻醉药和高渗盐水）药理学调节，但麻醉药和高渗盐水对脊髓给药药物分布的影响研究甚少。本研究旨在探讨两种麻醉方案和高渗盐水对腰椎鞘内注射高分子量放射性示踪剂分布的影响。",
+          "results": "在等渗盐水处理的大鼠中，与异氟烷相比，氯胺酮-右美托咪定增强了脊髓局部示踪剂暴露（AUC 0-116 比值 1.78，P=0.0016）并减少了颅内暴露（AUC 0-116 比值无穷大，P=0.0260）。氯胺酮-右美托咪定使脊髓蛛网膜下腔容积（T13-T6）增加46%（P=0.0051）。在氯胺酮-右美托咪定麻醉下，高渗盐水相比等渗盐水显著增加颅内示踪剂暴露（AUC 0-116 比值无穷大，P=0.0047），但在异氟烷麻醉下无显著差异（AUC 0-116 比值 3.10，P=0.1320），并延长了清醒大鼠的中枢神经系统滞留。",
+          "mainResults": "在等渗盐水处理的大鼠中，与异氟烷相比，氯胺酮-右美托咪定增强了脊髓局部示踪剂暴露（AUC 0-116 比值 1.78，P=0.0016）并减少了颅内暴露（AUC 0-116 比值无穷大，P=0.0260）。氯胺酮-右美托咪定使脊髓蛛网膜下腔容积（T13-T6）增加46%（P=0.0051）。在氯胺酮-右美托咪定麻醉下，高渗盐水相比等渗盐水显著增加颅内示踪剂暴露（AUC 0-116 比值无穷大，P=0.0047），但在异氟烷麻醉下无显著差异（AUC 0-116 比值 3.10，P=0.1320），并延长了清醒大鼠的中枢神经系统滞留。",
+          "limitations": [
+            "SPECT空间分辨率有限，无法区分脑实质和脑脊液腔室等不同腔隙。",
+            "脊髓导管留置导致无法区分导管内残留示踪剂与腰椎真实信号，可能高估尾部示踪剂活性。",
+            "仅纳入雌性大鼠，可能限制对雄性大鼠和人类的推广。",
+            "未测量动情周期，尽管推测干预措施的影响可能超过动情周期的影响。"
+          ],
+          "practice": [
+            "麻醉方案选择可能影响鞘内药物的分布：氯胺酮-右美托咪定可能增加脊髓局部药物暴露并减少颅内暴露，而异氟烷则相反。",
+            "全身高渗状态（如高渗盐水）可能增强鞘内药物向颅内的转运，尤其在氯胺酮-右美托咪定麻醉下，可能有助于提高脑内药物浓度。",
+            "这些干预措施有望用于优化鞘内药物递送，提高疗效并减少副作用，但需进一步临床试验验证。"
+          ],
+          "editor": "研究结果支持麻醉方案和全身高渗状态可调节鞘内药物分布，主要终点（示踪剂分布）有统计学差异，且效应量较大（如AUC比值1.78或无穷大）。 过度解读风险：研究为动物实验，且样本量较小，SPECT分辨率有限，不能直接外推至人类；统计学差异不等同于临床获益，需谨慎解读。",
+          "whyItMatters": "鞘内给药是绕过血脑屏障向中枢神经系统递送药物的常用途径，但现有方法难以将治疗浓度送达脑部，而颅内给药风险高。该研究提示麻醉方案和全身渗透压状态可能成为调节鞘内药物分布的非侵入性手段，为优化鞘内药物疗效和减少副作用提供了新的干预思路。",
+          "background": "脊髓给药可绕过血脑屏障，使药物直接进入中枢神经系统，但常规腰椎鞘内给药难以将治疗浓度送达脑部，而颅内给药风险较高。脑脊液沿类淋巴通路的流动可被多种药物（包括麻醉药和高渗盐水）药理学调节，但麻醉药和高渗盐水对脊髓给药药物分布的影响研究甚少。本研究旨在探讨两种麻醉方案和高渗盐水对腰椎鞘内注射高分子量放射性示踪剂分布的影响。",
+          "pico": {
+            "population": "Female Sprague-Dawley rats",
+            "intervention": "Ketamine-dexmedetomidine (K/DEX) anesthesia, isoflurane (ISO) anesthesia, hypertonic saline (HTS) 40 mOsm/kg intraperitoneal",
+            "comparison": "Isotonic saline (ITS) intraperitoneal",
+            "outcome": "Distribution of spinally administered radiotracer (technetium-99m labeled human serum albumin nanocolloid, 66.5 kDa) assessed by SPECT"
+          },
+          "studyType": "临床前动物实验（基础研究）",
+          "sampleSize": "49 rats (dynamic SPECT: K/DEX-ITS n=6, K/DEX-HTS n=7, ISO-ITS n=9, ISO-HTS n=7; 24-h SPECT: ITS n=6, HTS n=6; MRI: K/DEX n=4, ISO n=4)",
+          "primaryOutcome": "Distribution of spinally administered radiotracer (technetium-99m labeled human serum albumin nanocolloid, 66.5 kDa) assessed by SPECT",
+          "effectSize": [
+            "AUC 0-116 ratio, 1.78",
+            "AUC 0-116 ratio, infinity",
+            "AUC 0-116 ratio, infinity",
+            "AUC 0-116 ratio, 3.10"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "0.0016",
+            "0.0260",
+            "0.0051",
+            "0.0047",
+            "0.1320"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持麻醉方案和全身高渗状态可调节鞘内药物分布，主要终点（示踪剂分布）有统计学差异，且效应量较大（如AUC比值1.78或无穷大）。",
+            "overinterpretationRisk": "研究为动物实验，且样本量较小，SPECT分辨率有限，不能直接外推至人类；统计学差异不等同于临床获益，需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节和完整结果数据。",
+                "未提供原始数据，无法进行独立统计分析。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "麻醉方案（氯胺酮-右美托咪定 vs 异氟烷）和全身高渗状态（高渗盐水 vs 等渗盐水）如何影响腰椎鞘内注射药物的分布？",
+              "designFit": "采用随机对照动物实验设计，适合评估干预措施对药物分布的影响，但属于临床前研究。",
+              "eligibility": "当前可获取内容未提供该数据。",
+              "randomization": "当前可获取内容未提供该数据。",
+              "allocationConcealment": "当前可获取内容未提供该数据。",
+              "blinding": "当前可获取内容未提供该数据。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "动态SPECT观察至116分钟，24小时SPECT观察至24小时。",
+              "analysisPopulation": "所有纳入的大鼠均完成主要结局评估，但具体分析人群（如是否按方案分析）未明确。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "使用SPECT和MRI客观评估药物分布和蛛网膜下腔容积。",
+                "比较了两种常用麻醉方案和高渗盐水的影响。",
+                "提供了效应量和P值。"
+              ],
+              "concerns": [
+                "样本量较小，可能影响统计效能。",
+                "SPECT分辨率有限，可能影响结果准确性。",
+                "仅使用雌性大鼠，可能限制外推性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": null,
+                  "name": "未报告",
+                  "purposeInStudy": "未识别到具体统计方法，无法评价。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "无法评价统计方法的适当性。",
+                  "cautions": [
+                    "由于未报告具体统计方法，无法评估结果稳健性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "未报告亚组分析，但比较了不同麻醉和渗透压组合。",
+              "clinicalVsStatisticalSignificance": "研究为动物实验，统计学差异（如P<0.05）不代表临床获益，需进一步验证。"
+            },
+            "outcomeAnalysis": {
+              "primary": "脊髓给药放射性示踪剂的分布（SPECT评估的AUC 0-116）",
+              "secondary": [
+                "脊髓蛛网膜下腔容积（MRI评估）",
+                "24小时中枢神经系统示踪剂滞留"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "报告了相对效应（AUC比值），但未提供绝对效应量。",
+              "subgroupAndInteraction": "未报告亚组分析，但比较了不同麻醉和渗透压组合。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "使用客观影像学方法评估药物分布。",
+                "比较了两种麻醉方案和渗透压状态。",
+                "提供了效应量和P值。"
+              ],
+              "limitations": [
+                "样本量小，SPECT分辨率有限。",
+                "仅雌性大鼠，未测动情周期。",
+                "导管留置可能高估尾部信号。"
+              ],
+              "biasRisks": [
+                "测量偏倚：SPECT分辨率限制可能导致信号高估。",
+                "选择偏倚：仅雌性大鼠可能影响外推性。"
+              ],
+              "certainty": "低确定性：动物实验，样本量小，方法学细节不完整。",
+              "conclusionAlignment": "结论与结果一致，但需注意外推限制。",
+              "causalBoundary": "研究为实验性设计，可推断因果关系，但仅适用于大鼠模型。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "为鞘内药物递送优化提供潜在干预策略（麻醉选择、渗透压调节）。"
+              ],
+              "nonApplicability": [
+                "不能直接应用于人类，需临床试验验证。",
+                "仅雌性大鼠，可能不适用于雄性或人类。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "在动物模型中进一步探索机制。",
+                "开展临床前安全性研究。"
+              ],
+              "cannotConclude": [
+                "不能得出麻醉方案或高渗盐水在人类鞘内给药中的推荐。",
+                "不能确定临床获益或风险。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本、更精确的影像学方法。",
+                "需要雄性动物和人类研究。",
+                "需要评估临床相关药物（如镇痛药、化疗药）的分布。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41065680/",
+            "doi": "https://doi.org/10.1097/aln.0000000000005794",
+            "publisher": "https://doi.org/10.1097/aln.0000000000005794",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12777593/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40610285",
+          "number": "02",
+          "category": "疼痛与区域麻醉",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-11",
+          "electronicPublicationDate": "2025-07-03",
+          "readingTime": "12 分钟",
+          "title": "外周神经阻滞与骨科手术术后疼痛增加和阿片类药物使用增加的相关性：一项单中心回顾性队列研究",
+          "originalTitle": "Association of peripheral nerve blocks with increased postoperative pain and opioid use in orthopaedic surgery: a single-centre retrospective cohort study.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "外周神经阻滞在骨科手术中已广泛用于改善术后急性疼痛。然而，关于其在减少术后阿片类药物用量方面的有效性，研究结果不一。需要进行更全面的分析，以了解外周神经阻滞是否能减少术后阿片类药物的暴露及阿片类药物依赖的风险。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "这项回顾性队列研究评估了2016年至2020年在马萨诸塞州总医院接受全身麻醉下骨科手术的成人的电子健康记录数据。在倾向性加权数据上拟合线性模型，以描述单次注射外周神经阻滞与临床结局之间的关联。我们的主要结局是PACU中的最大疼痛评分和累积阿片类药物剂量（以吗啡毫克当量量化）。还评估了出院后与疼痛和阿片类药物消耗相关的结局。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "在22 956名患者中，外周神经阻滞给药与PACU中较低的最大疼痛评分和较低的阿片类药物给药概率相关。然而，它与住院期间较高的最大疼痛评分和阿片类药物消耗增加22.7%相关。外周神经阻滞与出院后30天阿片类药物处方增加相关，但在90天或180天时无增加，并且与术后1年慢性疼痛诊断减少相关。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "尽管单次注射外周神经阻滞能有效减少术后即刻疼痛和阿片类药物消耗，但它们与更大的阿片类药物消耗相关，这可能增加阿片类药物依赖的风险。标准化方案以减轻反跳性疼痛的风险可能有助于最小化术后阿片类药物的暴露。"
+              }
+            ],
+            "fullText": "BACKGROUND: 外周神经阻滞在骨科手术中已广泛用于改善术后急性疼痛。然而，关于其在减少术后阿片类药物用量方面的有效性，研究结果不一。需要进行更全面的分析，以了解外周神经阻滞是否能减少术后阿片类药物的暴露及阿片类药物依赖的风险。 METHODS: 这项回顾性队列研究评估了2016年至2020年在马萨诸塞州总医院接受全身麻醉下骨科手术的成人的电子健康记录数据。在倾向性加权数据上拟合线性模型，以描述单次注射外周神经阻滞与临床结局之间的关联。我们的主要结局是PACU中的最大疼痛评分和累积阿片类药物剂量（以吗啡毫克当量量化）。还评估了出院后与疼痛和阿片类药物消耗相关的结局。 RESULTS: 在22 956名患者中，外周神经阻滞给药与PACU中较低的最大疼痛评分和较低的阿片类药物给药概率相关。然而，它与住院期间较高的最大疼痛评分和阿片类药物消耗增加22.7%相关。外周神经阻滞与出院后30天阿片类药物处方增加相关，但在90天或180天时无增加，并且与术后1年慢性疼痛诊断减少相关。 CONCLUSIONS: 尽管单次注射外周神经阻滞能有效减少术后即刻疼痛和阿片类药物消耗，但它们与更大的阿片类药物消耗相关，这可能增加阿片类药物依赖的风险。标准化方案以减轻反跳性疼痛的风险可能有助于最小化术后阿片类药物的暴露。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Chung AR, Mather RV, Gutierrez R, Liu R, Leung CFA, Zhang M, Santa Cruz Mercado LA, Houle TT, et al.",
+          "citation": "Br J Anaesth. 2025 Nov;135(5):1286-1296. doi: 10.1016/j.bja.2025.05.030. Epub 2025 Jul 3.",
+          "doi": "10.1016/j.bja.2025.05.030",
+          "pmid": "40610285",
+          "pmcid": "PMC12291095",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "疼痛与区域麻醉",
+            "Journal Article"
+          ],
+          "question": "外周神经阻滞在骨科手术中广泛用于术后镇痛，但其对术后阿片类药物消耗和长期疼痛结局的影响尚存争议。该研究提示神经阻滞可能带来即刻获益，但需警惕反跳痛导致的住院期间及出院后阿片类药物使用增加，对优化围术期镇痛策略和减少阿片类药物暴露具有重要临床意义。",
+          "conclusion": "在骨科手术中，单次外周神经阻滞虽可减轻PACU内即刻疼痛并减少阿片类药物使用，但与住院期间更高的疼痛评分和阿片类药物消耗增加（增加22.7%）相关，且术后30天阿片类药物处方增加，但术后90天和180天无显著差异，术后1年慢性疼痛诊断风险降低42%。",
+          "clinical": "外周神经阻滞在PACU内可提供即刻镇痛并减少阿片类药物使用，但需警惕住院期间反跳痛导致的阿片类药物消耗增加。 术后30天阿片类药物处方增加提示神经阻滞可能增加出院后阿片类药物暴露，需加强出院后疼痛管理和阿片类药物处方监测。 神经阻滞可能降低术后1年慢性疼痛诊断风险，但需进一步验证其长期获益。 临床实践中应制定标准化方案以减轻反跳痛风险，从而减少术后阿片类药物暴露。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 9,
+            "journalQuality": 15,
+            "novelty": 4
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "单中心回顾性队列研究，基于电子健康记录数据，采用倾向评分加权数据拟合线性模型，评估单次注射外周神经阻滞与临床结局之间的关联。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Adults undergoing orthopaedic surgery with general anaesthesia from 2016 to 2020 at the Massachusetts General Hospital；22 956"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Single injection peripheral nerve blocks；对照：No peripheral nerve block"
+            },
+            {
+              "label": "主要终点",
+              "value": "Maximum pain score and cumulative opioid dose (in morphine milligram equivalents) administered in the PACU"
+            }
+          ],
+          "keyPoints": [
+            "外周神经阻滞与PACU内疼痛评分降低和阿片类药物使用减少相关。",
+            "外周神经阻滞与住院期间疼痛评分升高和阿片类药物消耗增加22.7%相关。",
+            "外周神经阻滞与术后30天阿片类药物处方增加相关，但90天和180天无显著差异。",
+            "外周神经阻滞与术后1年慢性疼痛诊断风险降低42%相关。",
+            "研究为单中心回顾性队列，存在残余混杂风险，且未提供P值。"
+          ],
+          "methods": "外周神经阻滞在骨科手术中广泛用于改善急性术后疼痛，但关于其能否减少术后阿片类药物消耗的研究结果不一致。需要更全面的分析来明确外周神经阻滞是否能减少术后阿片类药物暴露及降低阿片类药物依赖风险。",
+          "results": "在22,956例患者中，外周神经阻滞与PACU内较低的最高疼痛评分和较低的阿片类药物给药概率相关。然而，它与住院期间更高的最高疼痛评分和阿片类药物消耗增加22.7%相关。外周神经阻滞与出院后30天阿片类药物处方增加相关（每1000例增加23.8例，95%CI：-0.2至45.8），但90天和180天无显著增加（每1000例分别增加20.9例，95%CI：-1.8至45.2；20.4例，95%CI：-1.0至43.6）。持续使用（每1000例-3.05，95%CI：-22.8至17.2）和30天再入院（每1000例-20.1，95%CI：-33.2至-6.8）的差异未提供P值。术后1年慢性疼痛诊断风险降低42%（效应量，未提供95%CI和P值）。",
+          "mainResults": "在22,956例患者中，外周神经阻滞与PACU内较低的最高疼痛评分和较低的阿片类药物给药概率相关。然而，它与住院期间更高的最高疼痛评分和阿片类药物消耗增加22.7%相关。外周神经阻滞与出院后30天阿片类药物处方增加相关（每1000例增加23.8例，95%CI：-0.2至45.8），但90天和180天无显著增加（每1000例分别增加20.9例，95%CI：-1.8至45.2；20.4例，95%CI：-1.0至43.6）。持续使用（每1000例-3.05，95%CI：-22.8至17.2）和30天再入院（每1000例-20.1，95%CI：-33.2至-6.8）的差异未提供P值。术后1年慢性疼痛诊断风险降低42%（效应量，未提供95%CI和P值）。",
+          "limitations": [
+            "单中心研究，结果可能反映局部实践模式。",
+            "不同种族和民族的患者比例较低，限制了结果的普适性。",
+            "无法排除残余混杂的影响。",
+            "当前可获取内容未提供P值，无法评估统计学显著性。"
+          ],
+          "practice": [
+            "外周神经阻滞在PACU内可提供即刻镇痛并减少阿片类药物使用，但需警惕住院期间反跳痛导致的阿片类药物消耗增加。",
+            "术后30天阿片类药物处方增加提示神经阻滞可能增加出院后阿片类药物暴露，需加强出院后疼痛管理和阿片类药物处方监测。",
+            "神经阻滞可能降低术后1年慢性疼痛诊断风险，但需进一步验证其长期获益。",
+            "临床实践中应制定标准化方案以减轻反跳痛风险，从而减少术后阿片类药物暴露。"
+          ],
+          "editor": "研究基于较大样本（22,956例）的回顾性队列，采用倾向评分加权调整混杂，结果提示神经阻滞与住院期间阿片类药物消耗增加相关，效应量明确（22.7%增加）。 过度解读风险：观察性研究设计，不能推断因果关系；未提供P值，统计学显著性未知；单中心数据可能限制外推性。",
+          "whyItMatters": "外周神经阻滞在骨科手术中广泛用于术后镇痛，但其对术后阿片类药物消耗和长期疼痛结局的影响尚存争议。该研究提示神经阻滞可能带来即刻获益，但需警惕反跳痛导致的住院期间及出院后阿片类药物使用增加，对优化围术期镇痛策略和减少阿片类药物暴露具有重要临床意义。",
+          "background": "外周神经阻滞在骨科手术中广泛用于改善急性术后疼痛，但关于其能否减少术后阿片类药物消耗的研究结果不一致。需要更全面的分析来明确外周神经阻滞是否能减少术后阿片类药物暴露及降低阿片类药物依赖风险。",
+          "pico": {
+            "population": "Adults undergoing orthopaedic surgery with general anaesthesia from 2016 to 2020 at the Massachusetts General Hospital",
+            "intervention": "Single injection peripheral nerve blocks",
+            "comparison": "No peripheral nerve block",
+            "outcome": "Maximum pain score and cumulative opioid dose (in morphine milligram equivalents) administered in the PACU"
+          },
+          "studyType": "单中心回顾性队列研究，基于电子健康记录数据，采用倾向评分加权数据拟合线性模型，评估单次注射外周神经阻滞与临床结局之间的关联。",
+          "sampleSize": "22 956",
+          "primaryOutcome": "Maximum pain score and cumulative opioid dose (in morphine milligram equivalents) administered in the PACU",
+          "effectSize": [
+            "22.7% increase in opioid consumption during hospital stay",
+            "42% decreased risk of chronic pain diagnosis 12 months after surgery"
+          ],
+          "confidenceInterval": [
+            "30-Day opioid prescriptions (cases/1000): 23.8 (−0.2 to 45.8)",
+            "90-Day opioid prescriptions (cases/1000): 20.9 (−1.8 to 45.2)",
+            "180-Day opioid prescriptions (cases/1000): 20.4 (−1.0 to 43.6)",
+            "Persistent use (cases/1000): −3.05 (−22.8 to 17.2)",
+            "30-Day postoperative readmissions (cases/1000): −20.1 (−33.2 to −6.8)"
+          ],
+          "pValue": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "adverseEvents": "Increased opioid consumption during hospital stay and possibly after discharge, potentially increasing risk for opioid dependence.",
+          "aiAssessment": {
+            "support": "研究基于较大样本（22,956例）的回顾性队列，采用倾向评分加权调整混杂，结果提示神经阻滞与住院期间阿片类药物消耗增加相关，效应量明确（22.7%增加）。",
+            "overinterpretationRisk": "观察性研究设计，不能推断因果关系；未提供P值，统计学显著性未知；单中心数据可能限制外推性。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和开放全文节选，部分方法学细节（如倾向评分模型变量、缺失数据处理）未完全获取。",
+                "未提供完整统计结果（如P值、置信区间），限制了对效应量精确性的评估。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估单次注射外周神经阻滞与骨科手术患者术后疼痛和阿片类药物消耗之间的关联，包括出院后结局。",
+              "designFit": "回顾性队列设计适合评估干预与结局的关联，但存在选择偏倚和残余混杂风险。",
+              "eligibility": "2016-2020年在马萨诸塞总医院接受骨科手术并采用全身麻醉的成人患者。",
+              "randomization": "未采用随机化，为观察性研究。",
+              "allocationConcealment": "不适用（观察性研究）。",
+              "blinding": "不适用（回顾性研究）。",
+              "sampleSizePlanning": "当前可获取内容未提供样本量计算信息。",
+              "followUp": "随访至术后12个月（慢性疼痛诊断），但具体随访完整性未报告。",
+              "analysisPopulation": "22,956例患者，具体分析人群（如是否排除缺失数据）未详细说明。",
+              "missingData": "当前可获取内容未提供缺失数据处理方法。",
+              "strengths": [
+                "样本量较大（22,956例）。",
+                "采用倾向评分加权调整已测量混杂因素。",
+                "评估了多个临床相关结局，包括出院后结局。"
+              ],
+              "concerns": [
+                "单中心研究，结果可能受当地实践模式影响。",
+                "未提供P值，统计学显著性不明确。",
+                "残余混杂可能影响结果。",
+                "种族和民族多样性有限，限制普适性。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "propensity-score",
+                  "name": "倾向评分方法",
+                  "purposeInStudy": "在观察性研究中平衡已测量混杂因素，以评估外周神经阻滞与结局的关联。",
+                  "reportedResult": "基于倾向评分加权数据拟合线性模型，报告了效应量（如22.7%阿片消耗增加、42%慢性疼痛风险降低）和部分95%CI。",
+                  "interpretation": "倾向评分加权可调整已测量混杂，但不能消除未测量混杂。",
+                  "cautions": [
+                    "未提供倾向评分模型的具体变量和平衡性检验结果。",
+                    "未提供P值，无法判断统计学显著性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供具体调整变量列表。",
+              "multiplicity": "当前可获取内容未提及多重比较校正。",
+              "subgroupAnalysis": "当前可获取内容未报告亚组分析。",
+              "clinicalVsStatisticalSignificance": "部分效应量（如22.7%增加）可能具有临床意义，但缺乏P值，无法评估统计学显著性。"
+            },
+            "outcomeAnalysis": {
+              "primary": "PACU内最高疼痛评分和累积阿片类药物剂量（吗啡毫克当量）。结果：神经阻滞与PACU内较低疼痛评分和较低阿片给药概率相关。",
+              "secondary": [
+                "住院期间最高疼痛评分：神经阻滞组更高。",
+                "住院期间阿片类药物消耗：增加22.7%。",
+                "术后30天阿片类药物处方：每1000例增加23.8（95%CI：-0.2至45.8）。",
+                "术后90天阿片类药物处方：每1000例增加20.9（95%CI：-1.8至45.2）。",
+                "术后180天阿片类药物处方：每1000例增加20.4（95%CI：-1.0至43.6）。",
+                "持续使用：每1000例-3.05（95%CI：-22.8至17.2）。",
+                "30天再入院：每1000例-20.1（95%CI：-33.2至-6.8）。",
+                "术后1年慢性疼痛诊断：风险降低42%。"
+              ],
+              "safety": "住院期间阿片类药物消耗增加，可能增加阿片类药物依赖风险。",
+              "absoluteVsRelative": "报告了相对效应（22.7%增加、42%降低）和部分绝对差异（每1000例的处方差异），但未提供基线风险，无法计算绝对风险差。",
+              "subgroupAndInteraction": "当前可获取内容未报告亚组或交互作用分析。",
+              "sensitivity": "当前可获取内容未报告敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "大样本（22,956例）。",
+                "倾向评分加权调整混杂。",
+                "评估了多个临床相关结局，包括出院后结局。"
+              ],
+              "limitations": [
+                "单中心，外推性受限。",
+                "未提供P值，统计学显著性不明确。",
+                "残余混杂可能。",
+                "种族和民族多样性有限。"
+              ],
+              "biasRisks": [
+                "选择偏倚：回顾性设计，神经阻滞选择可能受患者因素影响。",
+                "测量偏倚：电子健康记录数据可能不完整。",
+                "混杂偏倚：未测量混杂（如手术类型、麻醉管理细节）可能影响结果。"
+              ],
+              "certainty": "中等至低，由于观察性设计和未报告P值，证据确定性有限。",
+              "conclusionAlignment": "结论与结果一致，但需谨慎解释因果关系。",
+              "causalBoundary": "观察性研究不能证明因果关系，只能提示关联。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于接受骨科手术并考虑使用外周神经阻滞的患者。",
+                "结果提示需关注神经阻滞后反跳痛和阿片类药物消耗增加的风险。"
+              ],
+              "nonApplicability": [
+                "不适用于其他手术类型或不同医疗环境。",
+                "不适用于种族和民族多样性较低的人群。"
+              ],
+              "practiceChange": "可能促使临床医生在神经阻滞后加强疼痛监测，并制定标准化方案以减轻反跳痛。",
+              "canDoNow": [
+                "在神经阻滞后密切监测疼痛和阿片类药物使用。",
+                "考虑多模式镇痛策略以减少阿片类药物需求。"
+              ],
+              "cannotConclude": [
+                "不能确定神经阻滞与阿片类药物消耗增加之间的因果关系。",
+                "不能确定长期结局（如慢性疼痛）的改善是否由神经阻滞直接导致。"
+              ],
+              "evidenceGaps": [
+                "需要随机对照试验验证神经阻滞对术后阿片类药物消耗和长期疼痛的影响。",
+                "需要更多样化人群的研究。",
+                "需要报告P值和完整置信区间。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40610285/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.05.030",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.05.030",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12291095/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-40467423",
+          "number": "03",
+          "category": "麻醉基础研究",
+          "journal": "British journal of anaesthesia",
+          "year": "2025",
+          "publishedDate": "2025-10",
+          "electronicPublicationDate": "2025-06-03",
+          "readingTime": "11 分钟",
+          "title": "丙泊酚对志愿者海马功能连接遗忘效应的影响：基于功能性磁共振成像的研究",
+          "originalTitle": "The amnesic effects of propofol on functional connectivity in the hippocampus determined by functional magnetic resonance imaging in volunteers.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "BACKGROUND",
+                "text": "全身麻醉药的主要作用之一，除了诱导意识丧失外，是在给药期间可逆性地损害记忆形成。未能诱导和维持遗忘可导致术中意外知晓的回忆，并导致不良的心理健康结局。全身麻醉药实现其遗忘效应的确切作用机制尚未完全明了。为此，我们关注海马体，这是形成通常被全身麻醉药抑制的新型情景性外显长期记忆的关键区域。"
+              },
+              {
+                "heading": "METHODS",
+                "text": "我们招募了25名健康成年志愿者，在血浆靶控输注麻醉药丙泊酚镇静期间接受功能性磁共振神经成像（fMRI）。在基线、镇静期间和恢复期间评估海马体及海马微解剖亚区的功能连接（与其他脑区的同步神经元活动）。测量了系列血浆丙泊酚浓度和对听觉刺激语义决策任务的反应。扫描后进行记忆测试，并将记忆表现与fMRI数据相关联。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "与丙泊酚镇静的遗忘但亚催眠深度相关的功能连接变化主要表现为海马体辐射层、腔隙层、分子层、CA1锥体层和CA4/齿状回亚区与楔前叶的连接信号减少。"
+              },
+              {
+                "heading": "CONCLUSIONS",
+                "text": "我们提供了丙泊酚对海马亚区和与遗忘功效相关的边缘回路产生差异性作用的证据，这表明楔前叶在长期记忆巩固中的作用比以前认为的更为重要。"
+              }
+            ],
+            "fullText": "BACKGROUND: 全身麻醉药的主要作用之一，除了诱导意识丧失外，是在给药期间可逆性地损害记忆形成。未能诱导和维持遗忘可导致术中意外知晓的回忆，并导致不良的心理健康结局。全身麻醉药实现其遗忘效应的确切作用机制尚未完全明了。为此，我们关注海马体，这是形成通常被全身麻醉药抑制的新型情景性外显长期记忆的关键区域。 METHODS: 我们招募了25名健康成年志愿者，在血浆靶控输注麻醉药丙泊酚镇静期间接受功能性磁共振神经成像（fMRI）。在基线、镇静期间和恢复期间评估海马体及海马微解剖亚区的功能连接（与其他脑区的同步神经元活动）。测量了系列血浆丙泊酚浓度和对听觉刺激语义决策任务的反应。扫描后进行记忆测试，并将记忆表现与fMRI数据相关联。 RESULTS: 与丙泊酚镇静的遗忘但亚催眠深度相关的功能连接变化主要表现为海马体辐射层、腔隙层、分子层、CA1锥体层和CA4/齿状回亚区与楔前叶的连接信号减少。 CONCLUSIONS: 我们提供了丙泊酚对海马亚区和与遗忘功效相关的边缘回路产生差异性作用的证据，这表明楔前叶在长期记忆巩固中的作用比以前认为的更为重要。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Lindsay D, Adapa RM, Menon DK, Stamatakis EA",
+          "citation": "Br J Anaesth. 2025 Oct;135(4):930-940. doi: 10.1016/j.bja.2025.04.032. Epub 2025 Jun 3.",
+          "doi": "10.1016/j.bja.2025.04.032",
+          "pmid": "40467423",
+          "pmcid": "PMC12674047",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "publisher": "Elsevier BV",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "anesthesia_core",
+            "label": "麻醉及围术期核心期刊",
+            "priorityRank": 2
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 10.3,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "British Journal of Anaesthesia"
+          },
+          "tags": [
+            "临床证据",
+            "麻醉及围术期核心期刊",
+            "麻醉基础研究",
+            "Journal Article"
+          ],
+          "question": "术中知晓导致的记忆形成障碍是麻醉的重要目标之一，但全麻药物产生遗忘效应的精确神经机制尚不明确。该研究通过人脑功能连接分析，提示海马亚区与楔前叶的连通性改变可能是丙泊酚遗忘作用的关键环节，为理解麻醉药遗忘机制及优化麻醉监测提供了新的神经影像学线索。",
+          "conclusion": "在25名健康志愿者中，丙泊酚镇静（亚催眠剂量）的遗忘效应与海马多个亚区（如辐射层、腔隙层、分子层、CA1锥体层及CA4/齿状回）与楔前叶之间功能连接的选择性降低相关。",
+          "clinical": "该研究提示丙泊酚的遗忘效应可能通过调节海马亚区与楔前叶的功能连接实现，这为麻醉深度监测或遗忘效果的神经影像学评估提供了潜在靶点。 但该研究为观察性设计，样本量小，且未直接测试临床干预，因此不能直接据此改变临床麻醉实践。",
+          "evidence": "中等",
+          "score": 49,
+          "scoreBreakdown": {
+            "relevance": 13,
+            "evidenceQuality": 8,
+            "clinicalImpact": 7,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "观察性研究（自身前后对照设计），志愿者在丙泊酚镇静下接受功能性磁共振成像，并在基线、镇静和恢复阶段评估海马功能连接及记忆表现。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "25 healthy adult volunteers；25"
+            },
+            {
+              "label": "干预与比较",
+              "value": "propofol sedation via target-controlled infusion；对照：baseline vs sedation vs recovery"
+            },
+            {
+              "label": "主要终点",
+              "value": "functional connectivity of hippocampus and subregions"
+            }
+          ],
+          "keyPoints": [
+            "丙泊酚镇静（亚催眠剂量）与海马多个亚区（辐射层、腔隙层、分子层、CA1锥体层、CA4/齿状回）和楔前叶之间的功能连接降低相关。",
+            "记忆表现（ERSI）下降的效应量较大（Cohen's d=1.60，P=1.9×10^-5），但未报告95%置信区间。",
+            "反应时间增加（d=0.65，P=0.011），超时率和错误率的变化未达到统计学显著性（P=0.098和P=0.18）。",
+            "研究为观察性设计，样本量小，不能直接推断因果关系，需进一步验证。"
+          ],
+          "methods": "全身麻醉药除了诱导意识消失外，其核心作用之一是可逆地抑制给药期间的记忆形成。若遗忘诱导失败，可能导致术中知晓并引发不良心理后果。海马是形成新的情景性外显长期记忆的关键脑区，而丙泊酚的遗忘效应可能通过调节海马及其亚区的功能连接实现，但具体机制尚不清楚。",
+          "results": "在25名健康志愿者中，丙泊酚镇静（亚催眠剂量）的遗忘效应主要表现为海马辐射层、腔隙层、分子层、CA1锥体层及CA4/齿状回亚区与楔前叶之间功能连接的降低。记忆表现（ERSI）下降的效应量Cohen's d=1.60，P=1.9×10^-5；反应时间增加的效应量d=0.65，P=0.011；超时率d=0.53，P=0.098；错误率d=0.23，P=0.18。镇静与恢复阶段比较，ERSI相关P=4.2×10^-4。当前可获取内容未提供效应量的95%置信区间。",
+          "mainResults": "在25名健康志愿者中，丙泊酚镇静（亚催眠剂量）的遗忘效应主要表现为海马辐射层、腔隙层、分子层、CA1锥体层及CA4/齿状回亚区与楔前叶之间功能连接的降低。记忆表现（ERSI）下降的效应量Cohen's d=1.60，P=1.9×10^-5；反应时间增加的效应量d=0.65，P=0.011；超时率d=0.53，P=0.098；错误率d=0.23，P=0.18。镇静与恢复阶段比较，ERSI相关P=4.2×10^-4。当前可获取内容未提供效应量的95%置信区间。",
+          "limitations": [
+            "单一数据集，样本量较小（25例），可能统计效能不足。",
+            "fMRI伪影和部分容积效应可能影响功能连接测量的准确性。",
+            "丙泊酚残余效应和药代动力学模型的不准确性可能影响结果解释。",
+            "当前可获取内容未提供关于混杂因素控制、缺失数据及敏感性分析的信息。"
+          ],
+          "practice": [
+            "该研究提示丙泊酚的遗忘效应可能通过调节海马亚区与楔前叶的功能连接实现，这为麻醉深度监测或遗忘效果的神经影像学评估提供了潜在靶点。",
+            "但该研究为观察性设计，样本量小，且未直接测试临床干预，因此不能直接据此改变临床麻醉实践。"
+          ],
+          "editor": "研究结果支持丙泊酚镇静时海马亚区与楔前叶功能连接降低与遗忘效应相关，效应量较大（ERSI的Cohen's d=1.60），且P值显著。 过度解读风险：存在过度解读风险：观察性设计不能确立因果关系；样本量小且未报告置信区间；功能连接变化与记忆表现的相关性可能受其他因素影响；且未提供临床结局（如术中知晓）的直接证据。",
+          "whyItMatters": "术中知晓导致的记忆形成障碍是麻醉的重要目标之一，但全麻药物产生遗忘效应的精确神经机制尚不明确。该研究通过人脑功能连接分析，提示海马亚区与楔前叶的连通性改变可能是丙泊酚遗忘作用的关键环节，为理解麻醉药遗忘机制及优化麻醉监测提供了新的神经影像学线索。",
+          "background": "全身麻醉药除了诱导意识消失外，其核心作用之一是可逆地抑制给药期间的记忆形成。若遗忘诱导失败，可能导致术中知晓并引发不良心理后果。海马是形成新的情景性外显长期记忆的关键脑区，而丙泊酚的遗忘效应可能通过调节海马及其亚区的功能连接实现，但具体机制尚不清楚。",
+          "pico": {
+            "population": "25 healthy adult volunteers",
+            "intervention": "propofol sedation via target-controlled infusion",
+            "comparison": "baseline vs sedation vs recovery",
+            "outcome": "functional connectivity of hippocampus and subregions"
+          },
+          "studyType": "观察性研究（自身前后对照设计），志愿者在丙泊酚镇静下接受功能性磁共振成像，并在基线、镇静和恢复阶段评估海马功能连接及记忆表现。",
+          "sampleSize": "25",
+          "primaryOutcome": "functional connectivity of hippocampus and subregions",
+          "effectSize": [
+            "Cohen's d=1.60 for ERSI",
+            "Cohen's d=0.65 for response time",
+            "Cohen's d=0.53 for time-out rate",
+            "Cohen's d=0.23 for error rate"
+          ],
+          "confidenceInterval": [
+            "当前可获取内容未提供该数据。"
+          ],
+          "pValue": [
+            "P=4.2×10^-4 for mCp sedation vs recovery",
+            "P=1.9×10^-5 for ERSI decrease",
+            "P=0.011 for response time increase",
+            "P=0.098 for time-out rate",
+            "P=0.18 for error rate"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究结果支持丙泊酚镇静时海马亚区与楔前叶功能连接降低与遗忘效应相关，效应量较大（ERSI的Cohen's d=1.60），且P值显著。",
+            "overinterpretationRisk": "存在过度解读风险：观察性设计不能确立因果关系；样本量小且未报告置信区间；功能连接变化与记忆表现的相关性可能受其他因素影响；且未提供临床结局（如术中知晓）的直接证据。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "仅基于摘要和部分全文节选，未获取完整方法学细节（如随机化、盲法、统计模型调整等）。",
+                "未提供效应量的置信区间、缺失数据处理、敏感性分析等信息。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "丙泊酚的遗忘效应是否与海马及其亚区的功能连接改变相关？",
+              "designFit": "观察性自身前后对照设计适用于探索性神经影像研究，但无法控制所有混杂因素。",
+              "eligibility": "当前可获取内容未提供详细的纳入和排除标准。",
+              "randomization": "不适用（观察性研究，无随机分组）。",
+              "allocationConcealment": "不适用。",
+              "blinding": "当前可获取内容未提供盲法信息。",
+              "sampleSizePlanning": "当前可获取内容未提供样本量计算信息。",
+              "followUp": "研究为短期观察，无长期随访。",
+              "analysisPopulation": "25名健康志愿者，具体分析人群（如是否所有受试者均纳入分析）未明确。",
+              "missingData": "当前可获取内容未提供缺失数据信息。",
+              "strengths": [
+                "使用功能性磁共振成像评估海马亚区功能连接，具有较高的空间分辨率。",
+                "结合记忆行为测试（ERSI）与神经影像数据，关联性分析较全面。"
+              ],
+              "concerns": [
+                "样本量小，可能统计效能不足。",
+                "fMRI伪影和部分容积效应可能影响结果。",
+                "未报告混杂因素调整和敏感性分析。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "linear-regression",
+                  "name": "线性回归",
+                  "purposeInStudy": "可能用于分析功能连接与记忆表现之间的关系，但具体应用未在摘要中明确。",
+                  "reportedResult": "当前可获取内容未提供线性回归的具体结果。",
+                  "interpretation": "无法评价线性回归在本文中的具体作用。",
+                  "cautions": [
+                    "未报告模型调整变量和回归系数。",
+                    "样本量小可能影响模型稳定性。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供调整变量信息。",
+              "multiplicity": "当前可获取内容未提供多重比较校正信息。",
+              "subgroupAnalysis": "当前可获取内容未提供亚组分析。",
+              "clinicalVsStatisticalSignificance": "ERSI下降和反应时间增加具有统计学显著性，但临床意义需结合效应量（d=1.60和0.65）及临床结局（如术中知晓）评估；超时率和错误率无统计学差异，但效应量较小，临床意义有限。"
+            },
+            "outcomeAnalysis": {
+              "primary": "海马及亚区的功能连接变化（主要结果：与楔前叶的连接降低）。",
+              "secondary": [
+                "记忆表现（ERSI）",
+                "反应时间",
+                "超时率",
+                "错误率",
+                "血浆丙泊酚浓度"
+              ],
+              "safety": "当前可获取内容未提供不良事件信息。",
+              "absoluteVsRelative": "当前可获取内容未提供绝对风险或相对风险数据。",
+              "subgroupAndInteraction": "当前可获取内容未提供亚组或交互作用分析。",
+              "sensitivity": "当前可获取内容未提供敏感性分析。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "聚焦于海马亚区，提供了比整体海马更精细的神经影像学证据。",
+                "结合行为学测试，关联了功能连接与记忆表现。"
+              ],
+              "limitations": [
+                "观察性设计，不能确立因果关系。",
+                "样本量小，可能统计效能不足。",
+                "未报告置信区间和混杂因素控制。"
+              ],
+              "biasRisks": [
+                "选择偏倚：志愿者可能不代表一般人群。",
+                "测量偏倚：fMRI伪影和部分容积效应可能影响功能连接测量。",
+                "混杂偏倚：未报告调整变量，可能存在未测量的混杂因素。"
+              ],
+              "certainty": "低至中等：由于观察性设计、样本量小和未报告关键统计细节，证据确定性有限。",
+              "conclusionAlignment": "结论与结果一致，但过度强调了功能连接变化与遗忘效应的关联，未充分讨论因果限制。",
+              "causalBoundary": "该研究仅显示功能连接变化与记忆表现相关，不能证明丙泊酚直接通过改变功能连接导致遗忘；需进一步干预性研究验证。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "可能适用于健康志愿者中丙泊酚镇静的神经机制研究。",
+                "为未来开发基于功能连接的麻醉深度监测提供线索。"
+              ],
+              "nonApplicability": [
+                "不适用于临床患者（如手术患者、老年患者、合并神经系统疾病者）。",
+                "不能直接用于指导丙泊酚的临床用药或监测。"
+              ],
+              "practiceChange": "当前证据不足以改变临床实践。",
+              "canDoNow": [
+                "可作为基础研究证据，提示海马-楔前叶连接可能是丙泊酚遗忘效应的神经靶点。"
+              ],
+              "cannotConclude": [
+                "不能确定丙泊酚遗忘效应的因果关系。",
+                "不能确定功能连接变化是否可预测术中知晓。",
+                "不能推广到其他麻醉药物或临床人群。"
+              ],
+              "evidenceGaps": [
+                "需要更大样本量的前瞻性研究。",
+                "需要包含临床患者和不同麻醉方案的研究。",
+                "需要评估功能连接变化与临床结局（如术中知晓）的直接关联。",
+                "需要控制混杂因素并进行敏感性分析。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40467423/",
+            "doi": "https://doi.org/10.1016/j.bja.2025.04.032",
+            "publisher": "https://doi.org/10.1016/j.bja.2025.04.032",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12674047/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41264271",
+          "number": "04",
+          "category": "麻醉学",
+          "journal": "JAMA network open",
+          "year": "2025",
+          "publishedDate": "2025-11-03",
+          "electronicPublicationDate": "2025-11-03",
+          "readingTime": "13 分钟",
+          "title": "严重创伤性脑损伤患者院前插管后低血压与生存率的关系",
+          "originalTitle": "Prehospital Postintubation Hypotension and Survival in Severe Traumatic Brain Injury.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "IMPORTANCE",
+                "text": "预防全身性紊乱，如低血压和低氧血症，是减少创伤性脑损伤（TBI）后继发性神经元损伤影响的关键。插管后低血压很常见，可能与接受急诊麻醉的创伤患者预后较差有关。"
+              },
+              {
+                "heading": "OBJECTIVE",
+                "text": "探讨严重TBI患者院前快速序贯诱导插管后低血压与30天死亡率之间的关联。"
+              },
+              {
+                "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+                "text": "这项多中心、回顾性、观察性队列研究于2015年1月1日至2022年12月31日在英格兰东部创伤网络进行，包括3家直升机紧急医疗服务机构（东安格利亚空中救护车、埃塞克斯和赫茨空中救护车以及Magpas空中救护车）。纳入标准为年龄≥16岁、患有创伤和严重TBI、由直升机紧急医疗服务进行院前快速序贯诱导并转运至英格兰东部创伤网络内医院的患者。严重TBI定义为头部简明损伤评分≥3分。数据分析于2025年3月至5月进行。"
+              },
+              {
+                "heading": "EXPOSURE",
+                "text": "插管后低血压定义为新发收缩压低于90 mmHg，且麻醉诱导在10分钟或以内。"
+              },
+              {
+                "heading": "MAIN OUTCOMES AND MEASURES",
+                "text": "主要结局是30天死亡率。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "最终分析共纳入555例患者（中位[IQR]年龄48[29-66]岁；408例[73.5%]为男性）；548例（98.7%）为钝性损伤机制。在麻醉诱导后10分钟内，106例（19.1%）患者出现插管后低血压，169例（30.5%）在伤后30天内死亡（低血压组106例中46例[43.4%]，非低血压组449例中123例[27.4%]）。调整混杂因素（如年龄和格拉斯哥昏迷评分）后，插管后低血压与多发伤合并严重TBI患者30天死亡率增加相关（调整后优势比[AOR]为1.70；95%CI为1.01-2.86；P=0.04）。对于孤立性严重TBI且发生插管后低血压的患者，调整混杂因素（如年龄、格拉斯哥昏迷评分和损伤严重度评分）后的死亡几率显著高于无低血压患者（AOR为13.55；95%CI为3.65-61.66；P<0.001）。"
+              },
+              {
+                "heading": "CONCLUSIONS AND RELEVANCE",
+                "text": "在这项针对接受院前快速序贯诱导的严重TBI患者的队列研究中，插管后低血压与30天死亡率增加相关。这种关联在孤立性TBI患者中最为显著。这些发现提示需要进行随机院前干预研究，以降低创伤性脑损伤中插管后低血压的发生率。"
+              }
+            ],
+            "fullText": "IMPORTANCE: 预防全身性紊乱，如低血压和低氧血症，是减少创伤性脑损伤（TBI）后继发性神经元损伤影响的关键。插管后低血压很常见，可能与接受急诊麻醉的创伤患者预后较差有关。 OBJECTIVE: 探讨严重TBI患者院前快速序贯诱导插管后低血压与30天死亡率之间的关联。 DESIGN, SETTING, AND PARTICIPANTS: 这项多中心、回顾性、观察性队列研究于2015年1月1日至2022年12月31日在英格兰东部创伤网络进行，包括3家直升机紧急医疗服务机构（东安格利亚空中救护车、埃塞克斯和赫茨空中救护车以及Magpas空中救护车）。纳入标准为年龄≥16岁、患有创伤和严重TBI、由直升机紧急医疗服务进行院前快速序贯诱导并转运至英格兰东部创伤网络内医院的患者。严重TBI定义为头部简明损伤评分≥3分。数据分析于2025年3月至5月进行。 EXPOSURE: 插管后低血压定义为新发收缩压低于90 mmHg，且麻醉诱导在10分钟或以内。 MAIN OUTCOMES AND MEASURES: 主要结局是30天死亡率。 RESULTS: 最终分析共纳入555例患者（中位[IQR]年龄48[29-66]岁；408例[73.5%]为男性）；548例（98.7%）为钝性损伤机制。在麻醉诱导后10分钟内，106例（19.1%）患者出现插管后低血压，169例（30.5%）在伤后30天内死亡（低血压组106例中46例[43.4%]，非低血压组449例中123例[27.4%]）。调整混杂因素（如年龄和格拉斯哥昏迷评分）后，插管后低血压与多发伤合并严重TBI患者30天死亡率增加相关（调整后优势比[AOR]为1.70；95%CI为1.01-2.86；P=0.04）。对于孤立性严重TBI且发生插管后低血压的患者，调整混杂因素（如年龄、格拉斯哥昏迷评分和损伤严重度评分）后的死亡几率显著高于无低血压患者（AOR为13.55；95%CI为3.65-61.66；P<0.001）。 CONCLUSIONS AND RELEVANCE: 在这项针对接受院前快速序贯诱导的严重TBI患者的队列研究中，插管后低血压与30天死亡率增加相关。这种关联在孤立性TBI患者中最为显著。这些发现提示需要进行随机院前干预研究，以降低创伤性脑损伤中插管后低血压的发生率。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Price J, Lachowycz K, Major R, McLachlan S, Keeliher C, Finbow B, Moncur L, Sagi L, et al.",
+          "citation": "JAMA Netw Open. 2025 Nov 3;8(11):e2544057. doi: 10.1001/jamanetworkopen.2025.44057.",
+          "doi": "10.1001/jamanetworkopen.2025.44057",
+          "pmid": "41264271",
+          "pmcid": "PMC12635874",
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "publisher": "American Medical Association (AMA)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.7,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "JAMA Network Open"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "麻醉学",
+            "气道管理",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "question": "创伤性脑损伤后二次神经元损伤可因低血压等全身性紊乱而加重，院前插管后低血压是潜在可干预因素，明确其与死亡率的关系有助于优化院前麻醉管理策略。",
+          "conclusion": "在严重创伤性脑损伤患者中，院前快速序贯诱导插管后10分钟内发生的低血压与30天死亡率增加相关，尤其在孤立性严重脑损伤患者中关联更强。",
+          "clinical": "院前麻醉诱导后应密切监测血压，及时识别和处理低血压。 对于严重脑损伤患者，尤其是孤立性脑损伤，应优先考虑避免插管后低血压的干预措施。 未来需随机对照试验验证降低插管后低血压发生率的策略能否改善生存。",
+          "evidence": "中等偏高",
+          "score": 76,
+          "scoreBreakdown": {
+            "relevance": 18,
+            "evidenceQuality": 18,
+            "clinicalImpact": 15,
+            "journalQuality": 15,
+            "novelty": 10
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "多中心、回顾性、观察性队列研究。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Patients (aged ≥16 years) with trauma and severe TBI (Head AIS score ≥3) who received prehospital rapid sequence induction by helicopter emergency medical services and were transported to a hospital within the East of England Trauma Network；555"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Postintubation hypotension defined as a new systolic blood pressure less than 90 mmHg and induction of anesthesia at 10 minutes or less；对照：Patients without postintubation hypotension"
+            },
+            {
+              "label": "主要终点",
+              "value": "30-day mortality"
+            }
+          ],
+          "keyPoints": [
+            "555例严重脑损伤患者中，19.1%发生院前插管后低血压。",
+            "插管后低血压与30天死亡率增加相关，孤立性脑损伤患者关联更强。",
+            "研究为观察性设计，不能确立因果关系。",
+            "需随机对照试验验证干预效果。"
+          ],
+          "methods": "预防低血压和缺氧等全身性紊乱是减轻创伤性脑损伤后继发性神经元损伤的关键。院前插管后低血压在创伤患者中常见，可能预后不良，但缺乏针对严重脑损伤患者的大样本证据。",
+          "results": "共纳入555例患者（中位年龄48岁，73.5%为男性），其中106例（19.1%）发生插管后低血压，169例（30.5%）在30天内死亡（低血压组43.4% vs 非低血压组27.4%）。校正混杂因素后，多发性创伤合并严重脑损伤患者中，插管后低血压与30天死亡率增加相关（校正比值比1.70，95%CI 1.01-2.86，P=0.04）；孤立性严重脑损伤患者中，校正后死亡比值比显著升高（校正比值比13.55，95%CI 3.65-61.66，P<0.001）。",
+          "mainResults": "共纳入555例患者（中位年龄48岁，73.5%为男性），其中106例（19.1%）发生插管后低血压，169例（30.5%）在30天内死亡（低血压组43.4% vs 非低血压组27.4%）。校正混杂因素后，多发性创伤合并严重脑损伤患者中，插管后低血压与30天死亡率增加相关（校正比值比1.70，95%CI 1.01-2.86，P=0.04）；孤立性严重脑损伤患者中，校正后死亡比值比显著升高（校正比值比13.55，95%CI 3.65-61.66，P<0.001）。",
+          "limitations": [
+            "研究纳入英国单一创伤网络内3个直升机紧急医疗服务机构的大规模异质性队列，外部推广性受限。",
+            "可获得的生理数据仅限于参与机构记录的数据，未包含直升机到达前的数据。",
+            "部分患者在直升机到达前可能已发生低血压，可能高估了插管后低血压的效应。",
+            "26例因缺少插管后收缩压读数被排除，可能低估插管后心血管衰竭的真实发生率。",
+            "部分亚组分析样本量较小，导致置信区间较宽。"
+          ],
+          "practice": [
+            "院前麻醉诱导后应密切监测血压，及时识别和处理低血压。",
+            "对于严重脑损伤患者，尤其是孤立性脑损伤，应优先考虑避免插管后低血压的干预措施。",
+            "未来需随机对照试验验证降低插管后低血压发生率的策略能否改善生存。"
+          ],
+          "editor": "研究为多中心观察性队列，样本量较大，校正了年龄、格拉斯哥昏迷评分等混杂因素，结果支持插管后低血压与30天死亡率增加相关。 过度解读风险：观察性研究不能证明因果关系，且可能存在未测量的混杂因素和选择偏倚，需谨慎解读。",
+          "whyItMatters": "创伤性脑损伤后二次神经元损伤可因低血压等全身性紊乱而加重，院前插管后低血压是潜在可干预因素，明确其与死亡率的关系有助于优化院前麻醉管理策略。",
+          "background": "预防低血压和缺氧等全身性紊乱是减轻创伤性脑损伤后继发性神经元损伤的关键。院前插管后低血压在创伤患者中常见，可能预后不良，但缺乏针对严重脑损伤患者的大样本证据。",
+          "pico": {
+            "population": "Patients (aged ≥16 years) with trauma and severe TBI (Head AIS score ≥3) who received prehospital rapid sequence induction by helicopter emergency medical services and were transported to a hospital within the East of England Trauma Network",
+            "intervention": "Postintubation hypotension defined as a new systolic blood pressure less than 90 mmHg and induction of anesthesia at 10 minutes or less",
+            "comparison": "Patients without postintubation hypotension",
+            "outcome": "30-day mortality"
+          },
+          "studyType": "多中心、回顾性、观察性队列研究。",
+          "sampleSize": "555",
+          "primaryOutcome": "30-day mortality",
+          "effectSize": [
+            "AOR 1.70",
+            "AOR 13.55"
+          ],
+          "confidenceInterval": [
+            "95% CI, 1.01-2.86",
+            "95% CI, 3.65-61.66"
+          ],
+          "pValue": [
+            "P = .04",
+            "P < .001"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究为多中心观察性队列，样本量较大，校正了年龄、格拉斯哥昏迷评分等混杂因素，结果支持插管后低血压与30天死亡率增加相关。",
+            "overinterpretationRisk": "观察性研究不能证明因果关系，且可能存在未测量的混杂因素和选择偏倚，需谨慎解读。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，可能缺少方法学细节和完整结果。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "探讨严重创伤性脑损伤患者院前快速序贯诱导插管后低血压与30天死亡率之间的关联。",
+              "designFit": "回顾性队列研究适合评估暴露与结局的关联，但证据等级低于随机对照试验。",
+              "eligibility": "纳入年龄≥16岁、创伤合并严重脑损伤（头部AIS≥3）、接受院前快速序贯诱导插管并转运至英格兰东部创伤网络内医院的患者。",
+              "randomization": "不适用，观察性研究未进行随机化。",
+              "allocationConcealment": "不适用，观察性研究未涉及分配隐藏。",
+              "blinding": "不适用，观察性研究未涉及盲法。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "随访至伤后30天，评估死亡率。",
+              "analysisPopulation": "最终分析纳入555例患者，排除了26例缺少插管后收缩压读数的患者。",
+              "missingData": "26例因缺少插管后收缩压读数被排除，可能影响结果。",
+              "strengths": [
+                "多中心研究，样本量较大。",
+                "校正了年龄、格拉斯哥昏迷评分等混杂因素。",
+                "关注了孤立性脑损伤亚组。"
+              ],
+              "concerns": [
+                "回顾性设计可能存在信息偏倚。",
+                "未包含直升机到达前的生理数据。",
+                "部分亚组样本量小，置信区间宽。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "logistic-regression",
+                  "name": "Logistic回归",
+                  "purposeInStudy": "评估插管后低血压与30天死亡率的关联，并校正混杂因素。",
+                  "reportedResult": "多发性创伤合并严重脑损伤患者：AOR 1.70（95%CI 1.01-2.86，P=0.04）；孤立性严重脑损伤患者：AOR 13.55（95%CI 3.65-61.66，P<0.001）。",
+                  "interpretation": "插管后低血压与30天死亡率增加相关，孤立性脑损伤患者关联更强。",
+                  "cautions": [
+                    "比值比在结局常见时不能直接解释为风险比。",
+                    "观察性研究可能存在未测量的混杂因素。"
+                  ],
+                  "standardExplanation": "该方法的准确含义需结合论文报告的模型、变量和假设判断。"
+                }
+              ],
+              "adjustedVariables": "多发性创伤组校正了年龄和格拉斯哥昏迷评分；孤立性脑损伤组校正了年龄、格拉斯哥昏迷评分和损伤严重度评分。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "亚组分析显示孤立性严重脑损伤患者中关联更强（AOR 13.55），但该亚组样本量可能较小，置信区间宽。",
+              "clinicalVsStatisticalSignificance": "统计上显著，但临床意义需结合效应量大小和患者群体考虑。孤立性脑损伤亚组效应量很大，但置信区间宽，需谨慎解读。"
+            },
+            "outcomeAnalysis": {
+              "primary": "30天死亡率。",
+              "secondary": [
+                "插管后低血压与孤立性严重脑损伤患者30天死亡率的关联。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "绝对风险：低血压组43.4% vs 非低血压组27.4%，绝对风险差16.0%；相对效应：AOR 1.70（多发性创伤）和13.55（孤立性脑损伤）。",
+              "subgroupAndInteraction": "亚组分析显示孤立性脑损伤患者中关联更强，但未报告交互作用检验。",
+              "sensitivity": "当前可获取内容未提供该数据。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心、大样本。",
+                "校正了重要混杂因素。",
+                "关注了孤立性脑损伤亚组。"
+              ],
+              "limitations": [
+                "回顾性设计。",
+                "未包含院前早期数据。",
+                "排除部分患者可能引入偏倚。",
+                "亚组样本量小。"
+              ],
+              "biasRisks": [
+                "选择偏倚：排除26例可能低估低血压发生率。",
+                "信息偏倚：依赖记录数据，可能不完整。",
+                "混杂偏倚：未测量的混杂因素可能影响结果。"
+              ],
+              "certainty": "中等，观察性研究证据等级有限，但结果一致。",
+              "conclusionAlignment": "结论与结果一致，但需注意观察性研究不能证明因果。",
+              "causalBoundary": "观察性关联不能推断因果关系，需随机对照试验验证。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于直升机紧急医疗服务转运的严重脑损伤患者。",
+                "结果可能适用于类似院前急救系统。"
+              ],
+              "nonApplicability": [
+                "不适用于地面救护或非快速序贯诱导插管患者。",
+                "不适用于儿童或轻度脑损伤患者。"
+              ],
+              "practiceChange": "当前证据不足以直接改变临床实践，但提示应重视插管后血压监测。",
+              "canDoNow": [
+                "加强院前插管后血压监测。",
+                "培训急救人员识别和处理低血压。"
+              ],
+              "cannotConclude": [
+                "不能确定降低插管后低血压能否改善生存。",
+                "不能确定最佳干预措施。"
+              ],
+              "evidenceGaps": [
+                "缺乏随机对照试验证据。",
+                "缺乏不同院前环境下的验证。",
+                "缺乏长期神经功能结局数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41264271/",
+            "doi": "https://doi.org/10.1001/jamanetworkopen.2025.44057",
+            "publisher": "https://doi.org/10.1001/jamanetworkopen.2025.44057",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12635874/"
+          }
+        },
+        {
+          "analysisVersion": 2,
+          "slug": "pmid-41264270",
+          "number": "05",
+          "category": "气道管理",
+          "journal": "JAMA network open",
+          "year": "2025",
+          "publishedDate": "2025-11-03",
+          "electronicPublicationDate": "2025-11-03",
+          "readingTime": "14 分钟",
+          "title": "儿童院内心脏骤停的插管趋势与生存率",
+          "originalTitle": "Intubation Trends and Survival in Pediatric In-Hospital Cardiac Arrest.",
+          "abstractTranslation": {
+            "sections": [
+              {
+                "heading": "IMPORTANCE",
+                "text": "儿童院内心脏骤停（IHCA）期间的最佳气道管理尚不清楚。"
+              },
+              {
+                "heading": "OBJECTIVE",
+                "text": "评估2000年至2022年儿童IHCA期间的气管插管趋势，并确定近期患者队列（2017-2022年）中骤停期间插管与生存率的关联。"
+              },
+              {
+                "heading": "DESIGN, SETTING, AND PARTICIPANTS",
+                "text": "这项回顾性队列研究（分析于2023年6月至2024年10月进行）使用了多中心美国心脏协会“遵循指南-复苏”登记处的数据。纳入2000年至2022年发生IHCA的儿科患者（<18岁）。"
+              },
+              {
+                "heading": "EXPOSURE",
+                "text": "骤停期间气管内插管。"
+              },
+              {
+                "heading": "MAIN OUTCOMES AND MEASURES",
+                "text": "主要结局是出院生存率。使用非参数趋势检验评估骤停期间插管趋势。时间依赖性倾向评分匹配分析评估了2017年至2022年期间骤停期间插管与住院生存率之间的关联。每分钟，使用倾向评分将插管患者与有插管风险的患者进行匹配，强制匹配分层变量并替换对照组。混合效应逻辑回归评估了与生存结局的关联，并按年龄和疾病类别进行亚组分析。"
+              },
+              {
+                "heading": "RESULTS",
+                "text": "队列包括3262名儿童IHCA患者（中位年龄12.0 [IQR，3.0-83.8]个月；1775名[54.4%]为男性），在CPR开始时无高级气道。2413名患者（74.0%）恢复自主循环，1748名（53.6%）存活至出院。插管率随时间下降（2000年33/39 [84.6%]至2022年112/168 [66.7%]；P < .001）。在2017-2022年队列中，未调整分析中，CPR每分钟插管与非插管相比与出院生存几率降低相关（比值比[OR]，0.18；95% CI，0.14-0.24；P < .001），但匹配后无关联（调整后OR，1.18；95% CI，0.90-1.53；P = .23）。在8岁及以上儿童中，匹配后，每分钟插管与非插管相比与出院生存几率增加相关（调整后OR，1.91；95% CI，1.09-3.33；P = .02）。"
+              },
+              {
+                "heading": "CONCLUSIONS AND RELEVANCE",
+                "text": "在这项针对2017年至2022年CPR开始时无高级气道的儿童IHCA患者的队列研究中，时间依赖性倾向评分匹配后，未发现骤停期间气管插管与住院生存率之间存在关联。在亚组分析中，8岁及以上儿童骤停期间插管与更高的生存几率相关。这些发现可能对照顾IHCA儿童的临床医生具有重要的临床意义，并值得进一步研究这种关联的生理和实际机制。"
+              }
+            ],
+            "fullText": "IMPORTANCE: 儿童院内心脏骤停（IHCA）期间的最佳气道管理尚不清楚。 OBJECTIVE: 评估2000年至2022年儿童IHCA期间的气管插管趋势，并确定近期患者队列（2017-2022年）中骤停期间插管与生存率的关联。 DESIGN, SETTING, AND PARTICIPANTS: 这项回顾性队列研究（分析于2023年6月至2024年10月进行）使用了多中心美国心脏协会“遵循指南-复苏”登记处的数据。纳入2000年至2022年发生IHCA的儿科患者（<18岁）。 EXPOSURE: 骤停期间气管内插管。 MAIN OUTCOMES AND MEASURES: 主要结局是出院生存率。使用非参数趋势检验评估骤停期间插管趋势。时间依赖性倾向评分匹配分析评估了2017年至2022年期间骤停期间插管与住院生存率之间的关联。每分钟，使用倾向评分将插管患者与有插管风险的患者进行匹配，强制匹配分层变量并替换对照组。混合效应逻辑回归评估了与生存结局的关联，并按年龄和疾病类别进行亚组分析。 RESULTS: 队列包括3262名儿童IHCA患者（中位年龄12.0 [IQR，3.0-83.8]个月；1775名[54.4%]为男性），在CPR开始时无高级气道。2413名患者（74.0%）恢复自主循环，1748名（53.6%）存活至出院。插管率随时间下降（2000年33/39 [84.6%]至2022年112/168 [66.7%]；P < .001）。在2017-2022年队列中，未调整分析中，CPR每分钟插管与非插管相比与出院生存几率降低相关（比值比[OR]，0.18；95% CI，0.14-0.24；P < .001），但匹配后无关联（调整后OR，1.18；95% CI，0.90-1.53；P = .23）。在8岁及以上儿童中，匹配后，每分钟插管与非插管相比与出院生存几率增加相关（调整后OR，1.91；95% CI，1.09-3.33；P = .02）。 CONCLUSIONS AND RELEVANCE: 在这项针对2017年至2022年CPR开始时无高级气道的儿童IHCA患者的队列研究中，时间依赖性倾向评分匹配后，未发现骤停期间气管插管与住院生存率之间存在关联。在亚组分析中，8岁及以上儿童骤停期间插管与更高的生存几率相关。这些发现可能对照顾IHCA儿童的临床医生具有重要的临床意义，并值得进一步研究这种关联的生理和实际机制。",
+            "translatorNote": "AI辅助翻译，请以英文原摘要为准。"
+          },
+          "authors": "Shepard LN, Reeder RW, Hsu J, Keim G, Berg RA, Sutton RM, Topjian AA, Yehya N, et al.",
+          "citation": "JAMA Netw Open. 2025 Nov 3;8(11):e2544365. doi: 10.1001/jamanetworkopen.2025.44365.",
+          "doi": "10.1001/jamanetworkopen.2025.44365",
+          "pmid": "41264270",
+          "pmcid": "PMC12635882",
+          "publicationTypes": [
+            "Journal Article",
+            "Multicenter Study",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "publisher": "American Medical Association (AMA)",
+          "crossrefVerified": true,
+          "researchCategory": {
+            "id": "clinical",
+            "label": "临床证据",
+            "reason": "human-study"
+          },
+          "journalTier": {
+            "id": "general_top",
+            "label": "综合医学顶刊",
+            "priorityRank": 3
+          },
+          "journalMetric": {
+            "metric": "Journal Impact Factor",
+            "impactFactor": 9.7,
+            "metricYear": 2025,
+            "rankingMetricYear": 2025,
+            "maximumAgeYears": 1,
+            "rankingComparable": true,
+            "threshold": 5,
+            "comparison": "greater-than",
+            "source": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2846931",
+            "verifiedAt": "2026-07-28",
+            "matchedJournal": "JAMA Network Open"
+          },
+          "tags": [
+            "临床证据",
+            "综合医学顶刊",
+            "气道管理",
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "question": "儿童院内心脏骤停的最佳气道管理策略尚不明确，该研究基于大型多中心注册数据，评估了近年插管趋势及其与生存结局的关联，为临床决策提供了重要参考。",
+          "conclusion": "在2017-2022年儿童院内心脏骤停队列中，经时间依赖性倾向评分匹配后，心脏骤停期间气管插管与出院生存率无显著关联；但在8岁及以上儿童亚组中，插管与较高的出院生存几率相关。",
+          "clinical": "对于儿童院内心脏骤停，常规插管可能并不优于不插管，但需个体化决策。 8岁及以上儿童可能从插管中获益，但该亚组结果需谨慎解读，不能外推至所有年龄段。 插管操作可能中断胸外按压，影响复苏质量，需权衡利弊。",
+          "evidence": "中等偏高",
+          "score": 77,
+          "scoreBreakdown": {
+            "relevance": 23,
+            "evidenceQuality": 20,
+            "clinicalImpact": 13,
+            "journalQuality": 15,
+            "novelty": 6
+          },
+          "study": [
+            {
+              "label": "研究设计",
+              "value": "回顾性队列研究，使用美国心脏协会“遵循指南-复苏”（GWTG-R）注册数据库的多中心数据，分析时间为2023年6月至2024年10月。"
+            },
+            {
+              "label": "研究对象与样本",
+              "value": "Pediatric patients (<18 years) with in-hospital cardiac arrest (IHCA) from 2000 through 2022, without an advanced airway at CPR onset；3262"
+            },
+            {
+              "label": "干预与比较",
+              "value": "Intra-arrest endotracheal intubation；对照：No intubation in each minute of CPR (time-dependent propensity matched analysis)"
+            },
+            {
+              "label": "主要终点",
+              "value": "Survival to hospital discharge"
+            }
+          ],
+          "keyPoints": [
+            "儿童IHCA插管率从2000年的84.6%降至2022年的66.7%。",
+            "匹配后总体插管与出院生存无显著关联（调整OR 1.18，95%CI 0.90-1.53）。",
+            "8岁及以上儿童亚组中插管与较高生存几率相关（调整OR 1.91，95%CI 1.09-3.33）。",
+            "未调整分析显示插管与生存降低相关，但匹配后消失，提示混杂影响。"
+          ],
+          "methods": "儿童院内心脏骤停（IHCA）的气道管理策略存在争议，气管插管可能影响复苏质量和结局。既往研究结果不一致，且缺乏近期大样本数据。",
+          "results": "共纳入3262例儿童IHCA患者（中位年龄12.0个月，IQR 3.0-83.8；男性54.4%）。ROSC率为74.0%（2413/3262），出院生存率为53.6%（1748/3262）。插管率随时间下降（2000年84.6% vs 2022年66.7%，P<0.001）。在2017-2022年队列中，未调整分析显示插管与出院生存率降低相关（OR 0.18，95%CI 0.14-0.24，P<0.001），但匹配后无显著关联（调整OR 1.18，95%CI 0.90-1.53，P=0.23）。在8岁及以上儿童亚组中，匹配后插管与出院生存率增加相关（调整OR 1.91，95%CI 1.09-3.33，P=0.02）。",
+          "mainResults": "共纳入3262例儿童IHCA患者（中位年龄12.0个月，IQR 3.0-83.8；男性54.4%）。ROSC率为74.0%（2413/3262），出院生存率为53.6%（1748/3262）。插管率随时间下降（2000年84.6% vs 2022年66.7%，P<0.001）。在2017-2022年队列中，未调整分析显示插管与出院生存率降低相关（OR 0.18，95%CI 0.14-0.24，P<0.001），但匹配后无显著关联（调整OR 1.18，95%CI 0.90-1.53，P=0.23）。在8岁及以上儿童亚组中，匹配后插管与出院生存率增加相关（调整OR 1.91，95%CI 1.09-3.33，P=0.02）。",
+          "limitations": [
+            "GWTG-R注册数据库为自愿参与，参与机构可能存在差异，限制普适性。",
+            "参与中心可能未提交所有IHCA事件，存在选择偏倚。",
+            "CPR期间数据常无电子时间戳，复苏时间数据准确性无法验证。",
+            "观察性研究可能存在未测量的混杂因素，包括插管决策原因。",
+            "倾向评分方法仅基于观测变量，未观测混杂可能持续存在。",
+            "匹配可能排除重要观察。",
+            "无法获取插管尝试次数（包括失败插管）。",
+            "缺乏CPR质量指标、按压暂停时长和CPR生理学数据。",
+            "研究可能不足以检测临床相关关联，尤其在亚组分析中。"
+          ],
+          "practice": [
+            "对于儿童院内心脏骤停，常规插管可能并不优于不插管，但需个体化决策。",
+            "8岁及以上儿童可能从插管中获益，但该亚组结果需谨慎解读，不能外推至所有年龄段。",
+            "插管操作可能中断胸外按压，影响复苏质量，需权衡利弊。"
+          ],
+          "editor": "研究设计严谨，使用时间依赖性倾向评分匹配控制混杂，结果支持在总体儿童IHCA中插管与生存无显著关联的结论。 过度解读风险：亚组分析中8岁及以上儿童的阳性结果可能为偶然发现，且样本量有限，需谨慎解读，不应过度推广。",
+          "whyItMatters": "儿童院内心脏骤停的最佳气道管理策略尚不明确，该研究基于大型多中心注册数据，评估了近年插管趋势及其与生存结局的关联，为临床决策提供了重要参考。",
+          "background": "儿童院内心脏骤停（IHCA）的气道管理策略存在争议，气管插管可能影响复苏质量和结局。既往研究结果不一致，且缺乏近期大样本数据。",
+          "pico": {
+            "population": "Pediatric patients (<18 years) with in-hospital cardiac arrest (IHCA) from 2000 through 2022, without an advanced airway at CPR onset",
+            "intervention": "Intra-arrest endotracheal intubation",
+            "comparison": "No intubation in each minute of CPR (time-dependent propensity matched analysis)",
+            "outcome": "Survival to hospital discharge"
+          },
+          "studyType": "回顾性队列研究，使用美国心脏协会“遵循指南-复苏”（GWTG-R）注册数据库的多中心数据，分析时间为2023年6月至2024年10月。",
+          "sampleSize": "3262",
+          "primaryOutcome": "Survival to hospital discharge",
+          "effectSize": [
+            "OR 0.18",
+            "adjusted OR 1.18",
+            "adjusted OR 1.91"
+          ],
+          "confidenceInterval": [
+            "95% CI, 0.14-0.24",
+            "95% CI, 0.90-1.53",
+            "95% CI, 1.09-3.33"
+          ],
+          "pValue": [
+            "P < .001",
+            "P = .23",
+            "P = .02"
+          ],
+          "adverseEvents": null,
+          "aiAssessment": {
+            "support": "研究设计严谨，使用时间依赖性倾向评分匹配控制混杂，结果支持在总体儿童IHCA中插管与生存无显著关联的结论。",
+            "overinterpretationRisk": "亚组分析中8岁及以上儿童的阳性结果可能为偶然发现，且样本量有限，需谨慎解读，不应过度推广。"
+          },
+          "deepDive": {
+            "sourceCoverage": {
+              "level": "full_text_excerpt",
+              "limitations": [
+                "当前可获取内容为摘要和部分全文节选，可能缺少方法细节和完整结果。",
+                "未提供原始全文，部分统计细节和敏感性分析结果可能不完整。"
+              ]
+            },
+            "methodology": {
+              "researchQuestion": "评估2000-2022年儿童IHCA期间插管趋势，并确定近期队列（2017-2022）中插管与生存的关联。",
+              "designFit": "回顾性队列设计适合评估趋势和关联，但无法确立因果关系。",
+              "eligibility": "纳入2000-2022年发生IHCA、CPR开始时无高级气道的儿童（<18岁）。",
+              "randomization": "不适用，观察性研究。",
+              "allocationConcealment": "不适用。",
+              "blinding": "不适用。",
+              "sampleSizePlanning": "当前可获取内容未提供该数据。",
+              "followUp": "随访至出院，具体随访时间未明确。",
+              "analysisPopulation": "3262例儿童IHCA患者，匹配分析限于2017-2022年队列。",
+              "missingData": "当前可获取内容未提供该数据。",
+              "strengths": [
+                "多中心注册数据，样本量较大。",
+                "使用时间依赖性倾向评分匹配，控制随时间变化的混杂。",
+                "评估了插管趋势，提供纵向变化信息。"
+              ],
+              "concerns": [
+                "观察性研究固有混杂偏倚。",
+                "数据质量依赖注册数据库，可能存在报告偏差。",
+                "亚组分析可能检验效能不足。"
+              ]
+            },
+            "statistics": {
+              "methods": [
+                {
+                  "referenceId": "logistic-regression",
+                  "name": "Logistic回归",
+                  "purposeInStudy": "评估插管与出院生存的关联，计算比值比。",
+                  "reportedResult": "未调整OR 0.18（95%CI 0.14-0.24）；匹配后调整OR 1.18（95%CI 0.90-1.53）。",
+                  "interpretation": "未调整分析显示插管与生存降低相关，但匹配后无显著关联，提示混杂因素影响。",
+                  "cautions": [
+                    "比值比在结局常见时不能直接解释为风险比。",
+                    "观察性研究不能排除残余混杂。"
+                  ],
+                  "standardExplanation": "分析二分类结局并常以比值比表示关联；比值比不能在结局常见时直接当作风险比。"
+                },
+                {
+                  "referenceId": "mixed-effects",
+                  "name": "混合效应模型",
+                  "purposeInStudy": "考虑中心或个体内相关性，评估插管与生存的关联。",
+                  "reportedResult": "当前可获取内容未提供该数据。",
+                  "interpretation": "当前可获取内容未提供该数据。",
+                  "cautions": [
+                    "当前可获取内容未提供该数据。"
+                  ],
+                  "standardExplanation": "处理重复测量、中心或个体内相关性，同时估计固定效应和随机效应。"
+                },
+                {
+                  "referenceId": "propensity-score",
+                  "name": "倾向评分方法",
+                  "purposeInStudy": "平衡插管组与非插管组的已测量混杂因素，进行时间依赖性匹配。",
+                  "reportedResult": "匹配后调整OR 1.18（95%CI 0.90-1.53，P=0.23）。",
+                  "interpretation": "匹配后未发现显著关联，提示未调整分析中的负相关可能由混杂驱动。",
+                  "cautions": [
+                    "倾向评分仅平衡已测量变量，未测量混杂仍可能存在。",
+                    "匹配可能排除部分样本，影响代表性。"
+                  ],
+                  "standardExplanation": "在观察性研究中平衡已测量混杂因素；不能消除未测量或错误测量的混杂。"
+                }
+              ],
+              "adjustedVariables": "当前可获取内容未提供该数据。",
+              "multiplicity": "当前可获取内容未提供该数据。",
+              "subgroupAnalysis": "按年龄（<1岁、1-7岁、≥8岁）和疾病类别进行亚组分析。8岁及以上儿童匹配后插管与出院生存增加相关（调整OR 1.91，95%CI 1.09-3.33，P=0.02）。",
+              "clinicalVsStatisticalSignificance": "总体匹配后无统计学显著差异，但8岁及以上亚组有统计学显著差异，临床意义需结合效应量（OR 1.91）和置信区间（1.09-3.33）谨慎解读。"
+            },
+            "outcomeAnalysis": {
+              "primary": "出院生存率。匹配后插管与出院生存无显著关联（调整OR 1.18，95%CI 0.90-1.53，P=0.23）。",
+              "secondary": [
+                "自主循环恢复（ROSC）：74.0%的患者达到ROSC，但未报告插管与ROSC的关联。",
+                "神经功能良好生存：作为敏感性分析，但当前可获取内容未提供具体结果。"
+              ],
+              "safety": "当前可获取内容未提供该数据。",
+              "absoluteVsRelative": "未报告绝对风险差异，仅报告比值比。",
+              "subgroupAndInteraction": "8岁及以上儿童亚组显示插管与生存增加相关，但未报告交互作用检验。",
+              "sensitivity": "神经功能良好生存作为敏感性分析，但结果未提供。"
+            },
+            "criticalAppraisal": {
+              "strengths": [
+                "多中心、大样本注册数据。",
+                "时间依赖性倾向评分匹配方法先进。",
+                "评估了长期趋势。"
+              ],
+              "limitations": [
+                "观察性设计，残余混杂。",
+                "数据质量依赖自愿报告。",
+                "亚组分析效能不足。"
+              ],
+              "biasRisks": [
+                "选择偏倚：参与中心可能未提交所有事件。",
+                "信息偏倚：CPR时间数据可能不准确。",
+                "混杂偏倚：未测量因素如插管决策原因。"
+              ],
+              "certainty": "中等，观察性研究但方法较严谨。",
+              "conclusionAlignment": "结论与结果一致，总体无关联，亚组有阳性发现。",
+              "causalBoundary": "观察性研究不能确立因果关系，只能提示关联。"
+            },
+            "clinicalTranslation": {
+              "applicability": [
+                "适用于儿童院内心脏骤停且CPR开始时无高级气道的患者。",
+                "结果可能适用于类似医疗系统。"
+              ],
+              "nonApplicability": [
+                "不适用于院外心脏骤停。",
+                "不适用于CPR开始时已有高级气道的患者。",
+                "不适用于成人。"
+              ],
+              "practiceChange": "当前证据不支持常规插管，但也不反对，需个体化决策。",
+              "canDoNow": [
+                "在儿童IHCA中，可考虑延迟或避免插管，优先高质量CPR。",
+                "对于8岁及以上儿童，插管可能有益，但需结合临床情况。"
+              ],
+              "cannotConclude": [
+                "不能确定插管与生存的因果关系。",
+                "不能确定最佳插管时机。",
+                "不能推广至所有年龄段。"
+              ],
+              "evidenceGaps": [
+                "需要随机对照试验验证。",
+                "需要评估插管对神经功能结局的影响。",
+                "需要更多关于CPR质量的数据。"
+              ],
+              "directClinicalRecommendation": false
+            }
+          },
+          "analysisBasis": "摘要+开放全文节选分析",
+          "analysisStatus": "ai_complete",
+          "aiModel": "deepseek-v4-flash",
+          "qualityPassed": true,
+          "sourceType": "real",
+          "urls": {
+            "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41264270/",
+            "doi": "https://doi.org/10.1001/jamanetworkopen.2025.44365",
+            "publisher": "https://doi.org/10.1001/jamanetworkopen.2025.44365",
+            "openFullText": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12635882/"
+          }
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-29T04:11:43.508Z",
       "mode": "production",

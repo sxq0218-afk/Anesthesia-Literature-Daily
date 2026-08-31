@@ -1,7 +1,243 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T04:11:43.508Z",
+  "updatedAt": "2026-08-31T01:23:41.081Z",
   "editions": [
+    {
+      "generatedAt": "2026-08-31T01:23:41.081Z",
+      "search": {
+        "initialDays": 30,
+        "configuredWindows": [
+          30,
+          180,
+          360
+        ],
+        "auditMaximumWindow": false,
+        "actualDays": 360,
+        "expanded": true,
+        "expansionReason": "composition-shortfall",
+        "expansionSteps": [
+          {
+            "days": 180,
+            "reason": "composition-shortfall"
+          },
+          {
+            "days": 360,
+            "reason": "composition-shortfall"
+          }
+        ],
+        "from": "2025-09-05T01:23:41.081Z",
+        "to": "2026-08-31T01:23:41.081Z",
+        "candidateCount": 486,
+        "discoveryCandidateCount": 20388,
+        "unseenCount": 341,
+        "duplicateCount": 145,
+        "priorityCandidateCount": 486,
+        "eligibleJournalRetrieval": {
+          "matchedCount": 486,
+          "retrievedCount": 486,
+          "complete": true,
+          "truncatedCount": 0,
+          "maximumCandidates": 2000,
+          "pageSize": 200
+        },
+        "journalAudit": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 300,
+          "eligibleCount": 7,
+          "excludedCount": 293,
+          "excludedByReason": {
+            "journal-not-configured": 292,
+            "impact-factor-stale": 1
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ],
+          "unresolvedCount": 293,
+          "unresolvedJournals": [
+            {
+              "journal": "Annals of medicine",
+              "reason": "journal-not-configured",
+              "count": 32
+            },
+            {
+              "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
+              "reason": "journal-not-configured",
+              "count": 13
+            },
+            {
+              "journal": "Anesthesiology clinics",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Neuropharmacology",
+              "reason": "journal-not-configured",
+              "count": 9
+            },
+            {
+              "journal": "Air medical journal",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Journal of affective disorders",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "Radiology case reports",
+              "reason": "journal-not-configured",
+              "count": 6
+            },
+            {
+              "journal": "DEN open",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The Journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "reason": "journal-not-configured",
+              "count": 5
+            },
+            {
+              "journal": "Brain research",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Brain research bulletin",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of hand surgery global online",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Journal of medical cases",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Neuroscience",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "The American journal of emergency medicine",
+              "reason": "journal-not-configured",
+              "count": 4
+            },
+            {
+              "journal": "Behavioural brain research",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Clinics in chest medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "IBRO neuroscience reports",
+              "reason": "journal-not-configured",
+              "count": 3
+            },
+            {
+              "journal": "Journal of anesthesia and translational medicine",
+              "reason": "journal-not-configured",
+              "count": 3
+            }
+          ]
+        },
+        "journalImpactFactor": {
+          "threshold": 5,
+          "comparison": "greater-than",
+          "candidateCount": 341,
+          "eligibleCount": 299,
+          "excludedCount": 42,
+          "excludedByReason": {
+            "journal-not-configured": 42
+          },
+          "rankingMetricYear": 2025,
+          "eligibleMetricYears": [
+            2024,
+            2025
+          ]
+        },
+        "selectionPolicy": {
+          "clinicalTarget": 4,
+          "basicTarget": 1,
+          "ranking": "impact-factor-desc",
+          "expandForCompositionShortfall": true,
+          "allowBackfill": false
+        },
+        "candidatePool": {
+          "total": 250,
+          "clinical": 167,
+          "basic": 11,
+          "other": 72
+        },
+        "selectionSummary": {
+          "clinical": 4,
+          "basic": 1,
+          "other": 0,
+          "priorityJournals": 5
+        },
+        "compositionSatisfied": true
+      },
+      "articles": [
+        {
+          "slug": "pmid-41065680",
+          "title": "全身麻醉与全身高渗状态调节雌性大鼠腰椎鞘内药物分布",
+          "originalTitle": "General Anesthesia and Systemic Hyperosmolality Modulate Lumbar Intrathecal Drug Distribution in Female Rats.",
+          "journal": "Anesthesiology",
+          "conclusion": "在雌性大鼠中，氯胺酮-右美托咪定麻醉相较于异氟烷可增强腰椎鞘内注射药物的脊髓局部暴露并减少颅内暴露，而全身性高渗盐水在氯胺酮-右美托咪定麻醉下可显著增加鞘内药物的颅内分布，并延长清醒状态下的中枢神经系统滞留。",
+          "pmid": "41065680"
+        },
+        {
+          "slug": "pmid-40610285",
+          "title": "外周神经阻滞与骨科手术术后疼痛增加和阿片类药物使用增加的相关性：一项单中心回顾性队列研究",
+          "originalTitle": "Association of peripheral nerve blocks with increased postoperative pain and opioid use in orthopaedic surgery: a single-centre retrospective cohort study.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在骨科手术中，单次外周神经阻滞虽可减轻PACU内即刻疼痛并减少阿片类药物使用，但与住院期间更高的疼痛评分和阿片类药物消耗增加（增加22.7%）相关，且术后30天阿片类药物处方增加，但术后90天和180天无显著差异，术后1年慢性疼痛诊断风险降低42%。",
+          "pmid": "40610285"
+        },
+        {
+          "slug": "pmid-40467423",
+          "title": "丙泊酚对志愿者海马功能连接遗忘效应的影响：基于功能性磁共振成像的研究",
+          "originalTitle": "The amnesic effects of propofol on functional connectivity in the hippocampus determined by functional magnetic resonance imaging in volunteers.",
+          "journal": "British journal of anaesthesia",
+          "conclusion": "在25名健康志愿者中，丙泊酚镇静（亚催眠剂量）的遗忘效应与海马多个亚区（如辐射层、腔隙层、分子层、CA1锥体层及CA4/齿状回）与楔前叶之间功能连接的选择性降低相关。",
+          "pmid": "40467423"
+        },
+        {
+          "slug": "pmid-41264271",
+          "title": "严重创伤性脑损伤患者院前插管后低血压与生存率的关系",
+          "originalTitle": "Prehospital Postintubation Hypotension and Survival in Severe Traumatic Brain Injury.",
+          "journal": "JAMA network open",
+          "conclusion": "在严重创伤性脑损伤患者中，院前快速序贯诱导插管后10分钟内发生的低血压与30天死亡率增加相关，尤其在孤立性严重脑损伤患者中关联更强。",
+          "pmid": "41264271"
+        },
+        {
+          "slug": "pmid-41264270",
+          "title": "儿童院内心脏骤停的插管趋势与生存率",
+          "originalTitle": "Intubation Trends and Survival in Pediatric In-Hospital Cardiac Arrest.",
+          "journal": "JAMA network open",
+          "conclusion": "在2017-2022年儿童院内心脏骤停队列中，经时间依赖性倾向评分匹配后，心脏骤停期间气管插管与出院生存率无显著关联；但在8岁及以上儿童亚组中，插管与较高的出院生存几率相关。",
+          "pmid": "41264270"
+        }
+      ]
+    },
     {
       "generatedAt": "2026-08-29T04:11:43.508Z",
       "search": {

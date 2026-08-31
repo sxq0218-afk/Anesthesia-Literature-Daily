@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-29T04:11:43.508Z",
+  "updatedAt": "2026-08-31T01:23:41.081Z",
   "records": [
     {
       "pmid": "42359695",
@@ -1313,6 +1313,46 @@
       "status": "published",
       "runId": "2026-08-29T04-11-43.508Z",
       "firstPublishedAt": "2026-08-29T04:11:43.508Z"
+    },
+    {
+      "pmid": "41065680",
+      "doi": "10.1097/aln.0000000000005794",
+      "title": "General Anesthesia and Systemic Hyperosmolality Modulate Lumbar Intrathecal Drug Distribution in Female Rats.",
+      "status": "published",
+      "runId": "2026-08-31T01-23-41.081Z",
+      "firstPublishedAt": "2026-08-31T01:23:41.081Z"
+    },
+    {
+      "pmid": "40610285",
+      "doi": "10.1016/j.bja.2025.05.030",
+      "title": "Association of peripheral nerve blocks with increased postoperative pain and opioid use in orthopaedic surgery: a single-centre retrospective cohort study.",
+      "status": "published",
+      "runId": "2026-08-31T01-23-41.081Z",
+      "firstPublishedAt": "2026-08-31T01:23:41.081Z"
+    },
+    {
+      "pmid": "40467423",
+      "doi": "10.1016/j.bja.2025.04.032",
+      "title": "The amnesic effects of propofol on functional connectivity in the hippocampus determined by functional magnetic resonance imaging in volunteers.",
+      "status": "published",
+      "runId": "2026-08-31T01-23-41.081Z",
+      "firstPublishedAt": "2026-08-31T01:23:41.081Z"
+    },
+    {
+      "pmid": "41264271",
+      "doi": "10.1001/jamanetworkopen.2025.44057",
+      "title": "Prehospital Postintubation Hypotension and Survival in Severe Traumatic Brain Injury.",
+      "status": "published",
+      "runId": "2026-08-31T01-23-41.081Z",
+      "firstPublishedAt": "2026-08-31T01:23:41.081Z"
+    },
+    {
+      "pmid": "41264270",
+      "doi": "10.1001/jamanetworkopen.2025.44365",
+      "title": "Intubation Trends and Survival in Pediatric In-Hospital Cardiac Arrest.",
+      "status": "published",
+      "runId": "2026-08-31T01-23-41.081Z",
+      "firstPublishedAt": "2026-08-31T01:23:41.081Z"
     }
   ]
 }
